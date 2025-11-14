@@ -1,0 +1,312 @@
+/* Start Gazette Article */
+
+/********************
+green         #07ab9e
+blue			    #609ae6
+taupe		      #b59b8c
+lavender		  #9f8ec7
+pale yellow	  #f3dd8c
+********************/
+
+#tp-1,
+p.tp-1 {
+  --color: #99b186;
+}
+#tp-2,
+p.tp-2 {
+  --color: #90b6b0;
+}
+#tp-3,
+p.tp-3 {
+  --color: #b9db6b;
+}
+#tp-4,
+p.tp-4 {
+  --color: #eb8990;
+}
+#tp-5,
+p.tp-5 {
+  --color: #f98900;
+}
+#tp-6,
+p.tp-6 {
+  --color: #f7c5b4;
+}
+#tp-7,
+p.tp-7 {
+  --color: #97b0bf;
+}
+#tp-8,
+p.tp-8 {
+  --color: #d1a9b3;
+}
+#tp-9,
+p.tp-9 {
+  --color: #76c6f0;
+}
+#tp-10,
+p.tp-10 {
+  --color: #b59b8c;
+}
+#tp-11,
+p.tp-11 {
+  --color: #9f8ec7;
+}
+#tp-12,
+p.tp-12 {
+  --color: #f3dd8c;
+}
+
+p.tp-1,
+p.tp-2,
+p.tp-3,
+p.tp-4,
+p.tp-5,
+p.tp-6,
+p.tp-7,
+p.tp-8,
+p.tp-9,
+p.tp-10,
+p.tp-11,
+p.tp-12 {
+  display: block;
+  width: max-content;
+  color: #000;
+  background: var(--color);
+  padding: 10px;
+  font-weight: bold;
+}
+
+#tp-1,
+#tp-2,
+#tp-3,
+#tp-4,
+#tp-5,
+#tp-6,
+#tp-7,
+#tp-8,
+#tp-9,
+#tp-10,
+#tp-11,
+#tp-12 {
+  color: #000;
+  background: var(--color);
+  border-color: var(--color);
+}
+
+/*focus*/
+#tp-1:focus,
+#tp-2:focus,
+#tp-3:focus,
+#tp-4:focus,
+#tp-5:focus,
+#tp-6:focus,
+#tp-7:focus,
+#tp-8:focus,
+#tp-9:focus,
+#tp-10:focus,
+#tp-11:focus,
+#tp-12:focus,
+/*hover*/
+#tp-1:hover
+#tp-2:hover,
+#tp-3:hover
+#tp-4:hover
+#tp-5:hover
+#tp-6:hover,
+#tp-7:hover
+#tp-8:hover
+#tp-9:hover
+#tp-10:hover
+#tp-11:hover,
+#tp-12:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: var(--color);
+}
+/* End Gazette Article*/
+
+/* Start Gazette Bucket*/
+.no-c {
+  border: 0;
+  background-color: #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.label-gazette,
+.label-gazette[href]:active,
+.label-gazette[href]:focus,
+.label-gazette[href]:hover {
+  background: #ccc;
+  border-color: #b50315;
+  color: #000;
+}
+/* End Gazette Bucket*/
+
+/* Environment bar for anon users */
+div[class^="rcmp-env"] {
+  min-height: 2.75rem;
+  padding: 0.5rem 1rem;
+}
+
+/* Copied from Tailwind CSS */
+
+.grid {
+  display: grid;
+}
+
+.inline-grid {
+  display: inline-grid;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-start {
+  justify-content: start;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.gap-6px {
+  gap: 6px;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-none {
+  grid-template-columns: none;
+}
+
+/* ENV colour bar */
+.rcmp-env-local,
+.rcmp-env-dev {
+  color: #fff;
+  background: linear-gradient(0deg, #66bb6a, #1b6c1c);
+  border-color: #071a07;
+}
+
+.rcmp-env-stage {
+  color: #fff;
+  background: linear-gradient(0deg, #d12ae5, #7e198b);
+  border-color: #6b1d1c;
+}
+
+.rcmp-env-test {
+  color: #fff;
+  background: linear-gradient(0deg, #3994e1, #1c588b);
+  border-color: #143c5f;
+}
+
+.deploy-time {
+  text-align: right;
+}
+
+/* Hide on mobile view, mangles the menu otherwise */
+@media (max-width: 976px) {
+  div [class*="rcmp-env"] {
+    display: none;
+  }
+}
+
+/********************/
+/* Collection pages */
+/********************/
+
+/* PIAs */
+
+.table.pia h2 {
+  margin-top: 15px;
+}
+
+.pia-date {
+  text-align: left;
+}
+
+@media screen and (min-width: 992px) {
+  .table.pia h2 {
+    margin-top: 0;
+  }
+
+  .pia-date {
+    text-align: right;
+  }
+}
+
+/* Recruiting events */
+
+.table tbody.recruiting-event-grid tr td {
+  padding: 0;
+}
+
+.recruiting-event-grid .event-item .category-text-align,
+.recruiting-event-grid .event-item .type-text-align {
+  text-align: left;
+}
+
+@media screen and (min-width: 992px) {
+  .recruiting-event-grid .event-item .category-text-align,
+  .recruiting-event-grid .event-item .type-text-align {
+    text-align: right;
+  }
+}
+
+.btn-all-services {
+  border: 2px solid #26374a;
+  color: #26374a;
+  font-size: 1.1em;
+  font-weight: 700;
+  padding: 0.65em 1.1em;
+}
+
+.contact-signature {
+  margin-bottom: 3rem;
+}
+
+.signature-link-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.signature-link-grid .signature-link-subgrid {
+  display: grid;
+  grid-auto-columns: auto;
+  grid-auto-flow: column;
+  column-gap: 1rem;
+  justify-content: flex-start;
+}
+
+.signature-link-grid .signature-link-subgrid div:first-child {
+  min-width: 2.75rem;
+}
+
+.contact-signature svg.svg-inline--fa.fa-link,
+.contact-signature svg.svg-inline--fa.fa-x-twitter,
+.contact-signature svg.svg-inline--fa.fa-instagram {
+  color: #000;
+}
+
+.contact-signature svg.svg-inline--fa.fa-square-facebook {
+  color: #3c5a99;
+}
+
+.contact-signature svg.svg-inline--fa.fa-youtube {
+  color: #d92632;
+}

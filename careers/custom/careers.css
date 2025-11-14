@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+html{
+    /* font-size: 16px; */
+}
+.oswald-500 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.uppercase{
+    text-transform: uppercase !important;
+}
+
+#careers-page{
+    font-family: 'Lato', sans-serif !important;
+}
+
+.hero-content{
+    padding-left: 0;
+    padding-right: 0;
+    min-height: 70rem;   
+}
+
+@media (max-width: 767px) {
+    .hero-content {
+        min-height: unset;
+    }
+}
+
+/* Navigation */
+.careers-nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    gap: 3.5rem;
+
+    align-items: last baseline;
+}
+.careers-nav .nav-link{
+    display: inline-block;
+
+    text-decoration: none;
+
+    transition: color .15s ease-in-out;
+
+    text-transform: uppercase;
+    font-size: 1.65rem;
+    font-weight: 700;
+    color: #b3b3b3;
+
+    cursor: pointer;
+}
+.careers-nav .nav-link:hover, .careers-nav .nav-link.active{
+    color: #fff;
+    
+    text-decoration: underline;
+    text-decoration-thickness: 0.125rem;
+    text-underline-offset: 1.4rem;
+}
+.careers-nav .nav-link:visited{
+    color: #b3b3b3;
+}
+.careers-nav .btn-careers{
+    margin-left: auto;
+}
+
+/* Yellow button */
+.btn-careers{
+    background-color: #fec111;
+    color: #0c0b0e;
+    font-size: 18px;
+}
+.btn-careers:hover, .btn-careers:active, .btn-careers:focus{
+    background-color: #0c0b0e;
+    color: #fff;
+    border: 1px solid #fec111;
+}
+
+/* Yellow outline, transparent background */
+.btn-careers-outline{
+    background-color: unset;
+    color: #0c0b0e;
+    border: 2px solid #fec111;
+}
+.btn-careers-outline:hover, .btn-careers-outline:active, .btn-careers-outline:focus{
+    background-color: #fec111;
+    color: #0c0b0e;
+}
+
+/* No outline, underline */
+.btn-careers-plain{
+    background: none;
+    /* color: #000; */
+    text-decoration: underline;
+    text-decoration-thickness: 0.25rem;
+    text-underline-offset: 1.5rem;
+    transition: text-underline-offset 0.15s ease-in-out;
+    margin-left: -1.5rem;
+}
+.btn-careers-plain:hover, .btn-careers-plain:active, .btn-careers-plain:focus{
+    background: none;
+    color: currentColor;
+    text-decoration: underline;
+    text-decoration-thickness: 0.25rem;
+    text-underline-offset: 1rem;
+}
+
+/* Main content */
+#header-police, #header-civilian{
+    min-height: 70rem;
+    height: 100vh;
+    border-top: 1px solid #0c0b0e;
+}
+#header-more{
+
+}
+.header-text-container{
+    color:#000;
+
+    margin-top: 18vh;
+    /* transform: translateY(50%); */
+}
+#header-civilian .header-text-container{
+    color: #fff;
+}
+.header-text-container h2{
+    font-size: 8rem;
+}
+#header-more h2{
+    font-size: 6rem;
+    margin-bottom: 4rem;
+    color: #000;
+    text-shadow: 0.1rem 0.1rem 3px #fff;
+}
+.header-description{
+    padding: 2rem 0;
+}
+
+
+/* Backgrounds */
+#header-police, #header-police-xs{
+    background-image: url('../img/hero-police-officer.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+#header-civilian, #header-civilian-xs{
+    background-image: url('../img/hero-civilian-g.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    text-shadow: 0.1rem 0.1rem 7px #000;
+
+    color: #fff;
+}
+#header-more{
+    background-image: url('../img/hero-more-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color:#000;
+    padding-bottom: 4rem;
+}
+
+/* Mobile formatting */
+.header-container-xs{
+    width: 100%;
+    height: 100%;
+}
+#header-police-xs .header-container-xs{
+    background: linear-gradient(90deg, #ffffff80, transparent 40%);
+}
+#header-civilian-xs .header-container-xs{
+    background: linear-gradient(90deg, #00000080, transparent 40%);
+}
+#header-more-xs .header-container-xs{
+    background: linear-gradient(180deg, #ffffff80 13rem, transparent);
+}
+#header-more-xs{
+    background-color: #b3b3b3;
+
+    min-height: 50rem;
+    padding-bottom: 2rem;
+}
+#header-more-xs .header-container-xs{
+    border-top: 1px solid;
+}
+#header-more-xs h2{
+    margin-left: 2rem;
+}
+#header-police-xs .header-text-container-xs, #header-civilian-xs .header-text-container-xs{
+    width: 65%;
+    padding: 2rem;
+}
+.header-text-container-xs h2{
+    margin-top: 2rem;
+    font-size: 5rem;
+}
+.header-text-container-xs p{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#header-police-xs, #header-civilian-xs{
+    height: 50rem;
+}
+#header-police-xs, #header-more-xs{
+    color: #000;
+}
+
+/* Cards for "More opportunities" */
+.opp-card{
+    padding: 0;
+
+    border-width: 0;
+    border-radius: 0.4rem;
+
+    box-shadow: 0rem 0.3rem 0.8rem #9b9b9b;
+
+    margin-bottom: 2rem;
+
+    background-color: #fff;
+}
+.opp-card img{
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+}
+.opp-card-container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+.opp-card a{
+    text-underline-offset: 0.2rem;
+}
+
+.opp-card-xs{
+    background: #fff;
+    color: #0c0b0e;
+
+    border-radius: 0.4rem;
+
+    padding-bottom: 2rem;
+
+    margin-top: 2rem;
+}
+
+/* Careers footer */
+.gc-careers-footer{
+    color: #fff;
+    background-color: #333;
+}
+.gc-careers-footer a{
+    color: #fff;
+}
+.gc-careers-footer a:visited{
+    color: #fff;
+}
+.gc-careers-footer a:hover, .gc-careers-footer a:focus{
+    text-decoration: underline !important;
+}
+.gc-careers-footer .btn-careers{
+    font-size: 1.4rem !important;
+}
+
+/* Contact us footer */
+.careers-footer-contact{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.careers-footer-contact .btn-contact{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 1rem;
+    border-radius: 0;
+}
+.btn-contact{
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #333;
+}
+.btn-contact:hover, .btn-contact:active, .btn-contact:focus{
+    background-color: #fec111;
+    color: #0c0b0e;
+}

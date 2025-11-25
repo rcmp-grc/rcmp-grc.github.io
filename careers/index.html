@@ -56,24 +56,73 @@
 <link rel="stylesheet" media="all" href="./Royal Canadian Mounted Police _ Royal Canadian Mounted Police_files/node.css">
 <link rel="stylesheet" media="all" href="./custom/careers.css">
 <style>
-            #page-loader {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(255, 255, 255, 0.98);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 9999;
-            transition: opacity 0.5s ease-out;
-        }
+    /* Loader overlay styles */
+    #page-loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.98);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        transition: opacity 0.5s ease-out;
+    }
 
-        #page-loader.fade-out {
-            opacity: 0;
-            pointer-events: none;
+    #page-loader.fade-out {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    /* Hide page content initially */
+    body.loading {
+        overflow: hidden;
+    }
+
+    body.loading #page-content {
+        opacity: 0;
+    }
+
+    body.loaded #page-content {
+        opacity: 1;
+        transition: opacity 0.5s ease-in;
+    }
+
+    /* Loader image styles with accessible animation */
+    .loader-svg {
+        max-width: 200px;
+        max-height: 200px;
+        width: auto;
+        height: auto;
+    }
+
+    /* Respect user's motion preferences */
+    @media (prefers-reduced-motion: no-preference) {
+        .loader-svg {
+            animation: pulse 2s ease-in-out infinite;
         }
+    }
+
+    @keyframes pulse {
+        0%, 100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+        50% {
+            opacity: 0.7;
+            transform: scale(1.05);
+        }
+    }
+
+    /* High contrast mode support */
+    @media (prefers-contrast: high) {
+        #page-loader {
+            background-color: rgb(255, 255, 255);
+            border: 2px solid #000;
+        }
+    }
 </style>
 	<link rel="icon" type="image/x-icon" href="https://rcmp.ca/themes/contrib/poweb/favicon.ico" class="wb-init wb-favicon-inited">
 	<link rel="icon" type="image/png" href="https://rcmp.ca/themes/contrib/poweb/favicon-mobile.png" sizes="48x48" class="wb-init wb-favicon-inited">
@@ -92,9 +141,15 @@ max-width: 50ch;
 				  </head>
 					
 				
-			
-	<body class="cnt-wdth-lmtd" resource="#wb-webpage" typeof="WebPage" vocab="http://schema.org/">
-
+<body class="cnt-wdth-lmtd loading" resource="#wb-webpage" typeof="WebPage" vocab="http://schema.org/">
+<div id="page-loader" role="status" aria-live="polite" aria-label="Page loading">
+    <img src="rcmp-grc.svg" 
+         alt="" 
+         class="loader-svg"
+         role="presentation">
+    <span class="wb-inv">Loading page content, please wait.</span>
+</div>
+	<div id="page-content">
 		<!-- Header region (admin nav menu) -->
 		
 		
@@ -260,9 +315,6 @@ Royal Canadian Mounted Police
                <div>
                     <div id="block-poweb-content--3" class="block-system block-poweb-content--3">
                          <h1 class="visually-hidden"><abbr>RCMP</abbr> careers</h1>
-    <div id="page-loader">
-        <img src="rcmp-grc.svg" alt="Loading..." class="loader-svg">
-    </div>
                          <section id="careers-page">
                               <div class="container-fluid hero-content">
 
@@ -569,37 +621,54 @@ Royal Canadian Mounted Police
 </div>
 <!-- /.layout-container -->
   </div>
-
+</div>
 
 		<!-- Footer region -->
     <script>
-        window.addEventListener('load', function() {
-            setTimeout(function() {
-                const loader = document.getElementById('page-loader');
-                const body = document.body;
-                
-                loader.classList.add('fade-out');
-                
-                body.classList.remove('loading');
-                body.classList.add('loaded');
-                
-                setTimeout(function() {
-                    loader.remove();
-                }, 500);
-            }, 300);
-        });
-
+(function() {
+    'use strict';
+    
+    function removeLoader() {
+        const loader = document.getElementById('page-loader');
+        const body = document.body;
+        
+        if (!loader) return;
+        
+        loader.classList.add('fade-out');
+        
+        body.classList.remove('loading');
+        body.classList.add('loaded');
+        
+        const announcement = document.createElement('div');
+        announcement.setAttribute('role', 'status');
+        announcement.setAttribute('aria-live', 'polite');
+        announcement.className = 'wb-inv';
+        announcement.textContent = 'Page has finished loading.';
+        body.appendChild(announcement);
+        
         setTimeout(function() {
-            const loader = document.getElementById('page-loader');
-            if (loader) {
-                loader.classList.add('fade-out');
-                document.body.classList.remove('loading');
-                document.body.classList.add('loaded');
-                setTimeout(function() {
-                    loader.remove();
-                }, 500);
+            if (loader.parentNode) {
+                loader.parentNode.removeChild(loader);
             }
-        }, 10000);
+            if (announcement.parentNode) {
+                setTimeout(function() {
+                    announcement.parentNode.removeChild(announcement);
+                }, 1000);
+            }
+        }, 500);
+    }
+    
+    if (document.readyState === 'complete') {
+        setTimeout(removeLoader, 300);
+    } else {
+        window.addEventListener('load', function() {
+            setTimeout(removeLoader, 300);
+        });
+    }
+    
+    setTimeout(removeLoader, 10000);
+    
+})();
     </script>				
 <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"en\/","currentPath":"node\/2902","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"google_analytics":{"account":"G-TNYEG6MGVR","trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackDomainMode":1},"rcmp_stats":{"data":{"nid":"2902"},"url":"\/rcmp_stats\/record_view"},"poweb":{"jsonUploadedData":{"notice":"field_json_upload is empty or does not exist"}},"user":{"uid":0,"permissionsHash":"ba7d1721f71cecfa9ff667c26005d444359d98beaf1689b55f68ac3ac47739de"}}</script>
 <script src="./Royal Canadian Mounted Police _ Royal Canadian Mounted Police_files/jquery.min.js.download"></script>
@@ -630,4 +699,5 @@ Royal Canadian Mounted Police
 			
 
 </body></html>
+
 

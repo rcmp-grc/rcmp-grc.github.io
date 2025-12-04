@@ -716,11 +716,12 @@ Royal Canadian Mounted Police
                $(window).scrollTop(document.getElementById("careers-page").getBoundingClientRect().top);
           }, 1);
 
-          console.log(document.getElementById("footer-top").getBoundingClientRect());
-          console.log(document.getElementById("contact-top").getBoundingClientRect());
           var currentNav = "header-police";
 
           function headernav(link){
+			  if(currentNav == null){
+				  currentNav = "header-police";
+			  }
                if(document.getElementById(link).classList.contains("hidden")){
                     document.getElementById(currentNav).classList.replace("active", "hidden");
                     document.getElementById(link).classList.replace("hidden", "active");
@@ -791,6 +792,7 @@ Royal Canadian Mounted Police
 			
 
 </body></html>
+
 
 
 

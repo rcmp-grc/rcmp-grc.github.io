@@ -108,6 +108,7 @@ html{
     color: #0c0b0e;
     font-size: 18px;
     font-weight: 600;
+    position: relative;
 }
 .btn-careers:hover, .btn-careers:active, .btn-careers:focus{
     background-color: #0c0b0e;
@@ -343,4 +344,5 @@ html{
     border: 1px solid;
     padding: 2rem;
     width: 100%;
+
 }

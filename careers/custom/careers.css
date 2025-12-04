@@ -13,6 +13,9 @@ html{
 .uppercase{
     text-transform: uppercase !important;
 }
+.color-black{
+    color: #000 !important;
+}
 
 #careers-page{
     font-family: 'Lato', sans-serif !important;
@@ -59,8 +62,9 @@ html{
     color: #fff;
     
     text-decoration: underline;
-    text-decoration-thickness: 0.125rem;
+    text-decoration-thickness: 0.2rem;
     text-underline-offset: 1.4rem;
+    text-decoration-color: #fec111;
 }
 .careers-nav .nav-link:visited{
     color: #b3b3b3;
@@ -69,11 +73,41 @@ html{
     margin-left: auto;
 }
 
+#arrow-container{
+    position: absolute;
+
+    width: 100%;
+    height: 93%;
+
+    padding: 0 2rem;
+}
+#arrow-container nav{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 39rem;
+
+    font-size: 13rem;
+    color: #fff;
+
+}
+#left-arrow, #right-arrow{
+    margin-top: -4rem;
+    cursor: pointer;
+}
+#left-arrow:hover, #left-arrow:active, #right-arrow:hover, #right-arrow:active{
+    color: #fec111;
+}
+#right-arrow{
+    margin-left: auto;
+}
+
 /* Yellow button */
 .btn-careers{
     background-color: #fec111;
     color: #0c0b0e;
     font-size: 18px;
+    font-weight: 600;
 }
 .btn-careers:hover, .btn-careers:active, .btn-careers:focus{
     background-color: #0c0b0e;
@@ -86,6 +120,7 @@ html{
     background-color: unset;
     color: #0c0b0e;
     border: 2px solid #fec111;
+    font-weight: 600;
 }
 .btn-careers-outline:hover, .btn-careers-outline:active, .btn-careers-outline:focus{
     background-color: #fec111;
@@ -101,6 +136,7 @@ html{
     text-underline-offset: 1.5rem;
     transition: text-underline-offset 0.15s ease-in-out;
     margin-left: -1.5rem;
+    font-weight: 600;
 }
 .btn-careers-plain:hover, .btn-careers-plain:active, .btn-careers-plain:focus{
     background: none;
@@ -115,9 +151,6 @@ html{
     min-height: 70rem;
     height: 100vh;
     border-top: 1px solid #0c0b0e;
-}
-#header-more{
-
 }
 .header-text-container{
     color:#000;
@@ -135,7 +168,6 @@ html{
     font-size: 6rem;
     margin-bottom: 4rem;
     color: #000;
-    text-shadow: 0.1rem 0.1rem 3px #fff;
 }
 .header-description{
     padding: 2rem 0;
@@ -160,10 +192,7 @@ html{
     color: #fff;
 }
 #header-more{
-    background-image: url('../img/hero-more-1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: linear-gradient(180deg, #f3f3f3, #b3b3b3);
 
     color:#000;
     padding-bottom: 4rem;
@@ -226,6 +255,8 @@ html{
     margin-bottom: 2rem;
 
     background-color: #fff;
+
+    height: 50rem;
 }
 .opp-card img{
     border-top-left-radius: 0.4rem;
@@ -235,9 +266,22 @@ html{
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 1rem;
+
+    border-top: 0.025rem solid #fff;
+
+    /* height: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
 }
 .opp-card a{
     text-underline-offset: 0.2rem;
+}
+.opp-card .btn-careers-outline{
+    position: absolute;
+    bottom: 3rem;
+    width: 87%;
 }
 
 .opp-card-xs{
@@ -282,11 +326,21 @@ html{
     border-radius: 0;
 }
 .btn-contact{
-    background-color: #333;
-    color: #fff;
-    border: 2px solid #333;
-}
-.btn-contact:hover, .btn-contact:active, .btn-contact:focus{
     background-color: #fec111;
     color: #0c0b0e;
+    
+    font-weight: 600;
+}
+.btn-contact:hover, .btn-contact:active, .btn-contact:focus{
+    background-color: #0c0b0e;
+    color: #fff;
+}
+.careers-footer-contact-box{
+    position: absolute;
+    bottom: 4.5rem;
+    background: #fff;
+    z-index: -1;
+    border: 1px solid;
+    padding: 2rem;
+    width: 100%;
 }

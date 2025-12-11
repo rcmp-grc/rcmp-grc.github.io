@@ -142,7 +142,7 @@ html{
     right: 0;
 }
 .arrow-more .glyphicon{
-    top: -47.5rem;;
+    top: -39.2rem;;
     color: #000;
 }
 
@@ -310,6 +310,7 @@ html{
     background-color: #fff;
 
     height: 47rem;
+    max-width: 36rem;
 }
 .opp-card img{
     border-top-left-radius: 0.4rem;

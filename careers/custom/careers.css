@@ -73,33 +73,77 @@ html{
     margin-left: auto;
 }
 
-#arrow-container{
-    position: absolute;
-
-    width: 100%;
-    height: 93%;
-
-    padding: 0 2rem;
-}
-#arrow-container nav{
+.careers-nav-sm{
+    padding: 1rem 0;
     display: flex;
     justify-content: space-between;
-
-    margin-top: 39rem;
-
-    font-size: 13rem;
+}
+.careers-nav-toggle{
+    padding: 0.75rem 1.25rem;
+    font-size: 1.5rem;
+    line-height: 1;
     color: #fff;
+    background-color: transparent;
+    border: 1.5px solid rgba(255,255,255,0.4);
+    border-radius: 0.375rem;
+}
+.careers-nav-toggle-icon{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
 
+
+.arrow-prev, .arrow-next{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 15%;
+
+    padding: 0;
+
+    color: #fff;
+    text-align: center;
+    font-size: 6rem;
+
+    background: 0 0;
+    border: 0;
+
+    opacity: .5;
+    transition: opacity .15s ease, color .15s ease;
 }
-#left-arrow, #right-arrow{
-    margin-top: -4rem;
-    cursor: pointer;
-}
-#left-arrow:hover, #left-arrow:active, #right-arrow:hover, #right-arrow:active{
+.arrow-prev:hover, .arrow-prev:focus, .arrow-prev:hover .glyphicon, .arrow-prev:focus .glyphicon, .arrow-next:hover, .arrow-next:focus{
     color: #fec111;
+    text-decoration: none;
+    outline: 0;
+    opacity: 1;
 }
-#right-arrow{
-    margin-left: auto;
+.arrow-prev:hover, .arrow-prev:focus{
+    background: linear-gradient(90deg, #000, transparent);
+}
+.arrow-next:hover, .arrow-next:focus{
+    background: linear-gradient(270deg, #000, transparent);
+}
+.arrow-prev{
+    left: 0;
+}
+.arrow-next{
+    right: 0;
+}
+.arrow-more .glyphicon{
+    top: -47.5rem;;
+    color: #000;
 }
 
 /* Yellow button */
@@ -156,8 +200,9 @@ html{
 .header-text-container{
     color:#000;
 
-    margin-top: 18vh;
-    /* transform: translateY(50%); */
+    position: absolute;
+    left: 15%;
+    top: 15%;
 }
 #header-civilian .header-text-container{
     color: #fff;
@@ -170,6 +215,10 @@ html{
     margin-bottom: 4rem;
     color: #000;
 }
+#header-more .container{
+    width: 80%;
+    margin-left: 15%;
+}
 .header-description{
     padding: 2rem 0;
 }
@@ -181,12 +230,14 @@ html{
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+    position: relative;
 }
 #header-civilian, #header-civilian-xs{
     background-image: url('../img/hero-civilian-g.jpg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+    position: relative;
 
     text-shadow: 0.1rem 0.1rem 7px #000;
 
@@ -194,6 +245,7 @@ html{
 }
 #header-more{
     background: linear-gradient(180deg, #f3f3f3, #b3b3b3);
+    position: relative;
 
     color:#000;
     padding-bottom: 4rem;
@@ -257,7 +309,7 @@ html{
 
     background-color: #fff;
 
-    height: 50rem;
+    height: 47rem;
 }
 .opp-card img{
     border-top-left-radius: 0.4rem;
@@ -269,12 +321,9 @@ html{
     padding-bottom: 1rem;
 
     border-top: 0.025rem solid #fff;
-
-    /* height: 60%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
+}
+.opp-card-container p{
+    font-size: 1.8rem;
 }
 .opp-card a{
     text-underline-offset: 0.2rem;
@@ -282,7 +331,7 @@ html{
 .opp-card .btn-careers-outline{
     position: absolute;
     bottom: 3rem;
-    width: 87%;
+    width: 85%;
 }
 
 .opp-card-xs{
@@ -344,5 +393,4 @@ html{
     border: 1px solid;
     padding: 2rem;
     width: 100%;
-
 }

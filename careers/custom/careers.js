@@ -80,3 +80,16 @@ function arrow(direction){
          headernav(leftNav);
     }
 }
+
+var collapseContent = document.getElementById("careers-nav-sm-collapse");
+var collapseButton = document.getElementById("careers-nav-sm-toggle");
+function navcollapse(){
+     if(collapseContent.classList.contains("collapse")){
+          collapseContent.classList.replace("collapse", "active");
+          collapseButton.ariaExpanded = "true";
+     }
+     else if (collapseContent.classList.contains("active")){
+          collapseContent.classList.replace("active", "collapse");
+          collapseButton.ariaExpanded = "false";
+     }
+}

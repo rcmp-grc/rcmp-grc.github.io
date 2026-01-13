@@ -16,6 +16,12 @@ html{
 .color-black{
     color: #000 !important;
 }
+.float-r{
+    float: right;
+}
+.float-l{
+    float: left;
+}
 
 #careers-page{
     font-family: 'Lato', sans-serif !important;
@@ -347,6 +353,8 @@ html{
 
     height: 47rem;
     max-width: 36rem;
+
+    position: relative;
 }
 .opp-card img{
     border-top-left-radius: 0.4rem;
@@ -428,4 +436,174 @@ html{
     .careers-footer-contact, .btn-contact {
         width: 100%;
     }
+}
+
+.careers-2-header{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    background-image: url('../img/hero-police-officer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -20rem;
+
+    min-height: 50rem;
+
+    position: relative;
+}
+.careers-2-header-text{
+    position: relative;
+    z-index: 2;
+
+    margin-top: 22rem;
+
+    color: #fff;
+}
+.careers-2-header-text p{
+    max-width: unset !important;
+}
+.careers-2-header .transparent-bg{
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(0deg, black, transparent);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: 1;
+}
+
+.careers-2-banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin-bottom: 2rem;
+}
+.careers-2-banner-text-left{
+    font-size: 6rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+.careers-2-banner-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.careers-2-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 0 2rem;
+    justify-items: center;
+
+}
+.careers-2-links-to{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 0 2rem;
+    justify-items: start;
+    
+}
+.careers-2-links-to-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 0 2rem;
+    justify-items: start;
+    
+}
+.careers-2-links-to-box .careers-2-card{
+    height: 26rem;
+
+    position: relative;
+
+    border: 1px solid;
+    border-radius: 0.5rem;
+
+    padding: 0 2rem;
+}
+.careers-2-links-to-box .careers-2-card .btn-careers-plain{
+    position: absolute;
+    bottom: 3rem;
+}
+.careers-2-links-icon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem 2rem;
+    padding: 0 2rem;
+    justify-items: center;
+
+    background: #333;
+    color: #f3f3f3;
+
+    padding: 4rem;
+}
+.careers-2-links-icon .glyphicon{
+    color: #fec111;
+    font-size: 3rem;
+}
+.careers-2-links-icon .careers-2-card{
+    text-align: center;
+}
+.careers-2-links .opp-card{
+    height: 44rem !important;
+}
+.careers-2-links .opp-card .btn-careers-outline{
+    left: 50%;
+    transform: translateX(-50%);
+}
+.careers-2-links.container::before, .careers-2-links-icon.container::before, .careers-2-links-to.container::before, .careers-2-links-to-box.container::before, .careers-2-banner.container::before{
+    content: unset;
+}
+
+.careers-2-cards-lg{
+    height: 50rem;
+    
+    background: #fff;
+}
+.careers-2-cards-lg:nth-child(1){
+    background: #ffe3dd;
+}
+.careers-2-cards-lg:nth-child(3){
+    background: #c5d4e7;
+}
+.careers-2-cards-lg img{
+    display: inline-block;
+}
+.careers-2-cards-lg .text-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+    height: 100%;
+
+    padding: 5rem;
+}
+.careers-2-cards-lg .text-container h3{
+    margin-top: 0;
+    margin-bottom: 3rem;
+
+    font-size: 4.2rem;
+}
+.careers-2-cards-lg .text-container p{
+    margin-bottom: 6rem;
+    font-size: 2.4rem;
+}
+
+.link-options{
+    position: fixed;
+
+    left: 0;
+    bottom: 0;
+
+    z-index: 100;
+}
+.link-options a{
+    cursor: pointer;
 }

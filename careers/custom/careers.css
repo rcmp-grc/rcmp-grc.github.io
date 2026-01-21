@@ -22,6 +22,12 @@ html{
 .float-l{
     float: left;
 }
+a.btn-careers:visited{
+    color: #0c0b0e;
+}
+a.btn-careers:hover{
+    text-decoration: none;
+}
 
 #careers-page{
     font-family: 'Lato', sans-serif !important;
@@ -405,12 +411,9 @@ html{
 .gc-careers-footer a:hover, .gc-careers-footer a:focus{
     text-decoration: underline !important;
 }
-.gc-careers-footer .btn-careers{
-    font-size: 1.4rem !important;
-}
 
 /* Contact us footer */
-.careers-footer-contact{
+/* .careers-footer-contact{
     position: fixed;
     right: 0;
     bottom: 0;
@@ -421,20 +424,36 @@ html{
     padding-right: 10rem;
     padding-top: 1rem;
     border-radius: 0;
-}
-.btn-contact{
-    background-color: #fec111;
+
     color: #0c0b0e;
-    
-    font-weight: 600;
+} */
+
+.footer-contact{
+    position: sticky;
+    bottom: 0;
+    z-index: 100;
 }
-.btn-contact:hover, .btn-contact:active, .btn-contact:focus{
-    background-color: #0c0b0e;
+.footer-contact .btn-contact{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    width: 40rem;
+
+    border-radius: 0;
+}
+.btn-contact:visited{
+    color: #0c0b0e;
+}
+.btn-contact:hover, .btn-contact:focus{
     color: #fff;
 }
 
 @media (max-width: 767px) {
-    .careers-footer-contact, .btn-contact {
+    .footer-contact{
+        margin-top: 5rem;
+    }
+    .footer-contact .btn-contact {
         width: 100%;
     }
 }

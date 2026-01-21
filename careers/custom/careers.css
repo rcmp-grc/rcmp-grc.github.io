@@ -198,9 +198,10 @@ html{
 }
 .btn-careers:hover, .btn-careers:active, .btn-careers:focus{
     background-color: #0c0b0e;
-    color: #fff;
+    color: #fff !important;
     border: 1px solid #fec111;
 }
+
 
 /* Yellow outline, transparent background */
 .btn-careers-outline{
@@ -462,7 +463,7 @@ html{
 .careers-2-header-text p{
     max-width: unset !important;
 }
-.careers-2-header .transparent-bg{
+.careers-2-header .transparent-bg, .careers-2-header-xs .transparent-bg{
     width: 100%;
     height: 100%;
 
@@ -473,6 +474,32 @@ html{
     left: 0;
 
     z-index: 1;
+}
+
+
+.careers-2-header-xs{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    text-align: center;
+
+    background-image: url(../img/hero-police-officer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: -2rem;
+
+    min-height: 40rem;
+
+    position: relative;
+}
+.careers-2-header-xs .careers-2-header-text{
+    margin-top: 20rem;
+}
+.careers-2-header-xs-blurb{
+    background: #000;
+    color: #fff;
+    padding: 4rem 6rem;
 }
 
 .careers-2-banner{
@@ -491,6 +518,15 @@ html{
     justify-content: center;
     align-items: center;
     padding: 5rem;
+}
+@media (max-width: 767px) {
+    .careers-2-banner{
+        grid-template-columns: 1fr;
+    }
+    .careers-2-banner-text{
+        justify-content: unset;
+        padding: 2rem;
+    }
 }
 
 .careers-2-links{
@@ -560,6 +596,11 @@ html{
 .careers-2-links.container::before, .careers-2-links-icon.container::before, .careers-2-links-to.container::before, .careers-2-links-to-box.container::before, .careers-2-banner.container::before{
     content: unset;
 }
+@media (max-width: 767px) {
+    .careers-2-links, .careers-2-links-to, .careers-2-links-to-box, .careers-2-links-icon{
+        grid-template-columns: 1fr;
+    }
+}
 
 .careers-2-cards-lg{
     height: 50rem;
@@ -594,6 +635,15 @@ html{
 .careers-2-cards-lg .text-container p{
     margin-bottom: 6rem;
     font-size: 2.4rem;
+}
+.careers-2-cards-xs .text-container{
+    padding: 4rem;
+}
+.careers-2-cards-xs .text-container h3{
+    margin-top: 0;
+}
+.careers-2-cards-xs .text-container p{
+    margin-bottom: 3rem;
 }
 
 .link-options{

@@ -489,7 +489,7 @@ a.btn-careers:hover{
 
     display: grid;
 
-    background: url('../img/po-header.JPG');
+    background: url('../img/po-header.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: left;
@@ -762,4 +762,5 @@ a.btn-careers:hover{
     margin-left: 1rem;
     margin-top: 0.8rem;
     height: 2rem;
+
 }

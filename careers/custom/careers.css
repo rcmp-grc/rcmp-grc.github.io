@@ -4,10 +4,19 @@
 html{
     /* font-size: 16px; */
 }
+main{
+    margin-bottom: -1.2rem;
+}
 .oswald-500 {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
+    font-style: normal;
+}
+.oswald-300 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
     font-style: normal;
 }
 .uppercase{
@@ -208,6 +217,19 @@ a.btn-careers:hover{
     border: 1px solid #fec111;
 }
 
+/* Grey button */
+.btn-careers-grey{
+    background-color: #ccc;
+    color: #0c0b0e;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+}
+.btn-careers-grey:hover, .btn-careers-grey:active, .btn-careers-grey:focus{
+    background-color: #0c0b0e;
+    color: #fff !important;
+    border: 1px solid #0c0b0e;
+}
 
 /* Yellow outline, transparent background */
 .btn-careers-outline{
@@ -383,7 +405,7 @@ a.btn-careers:hover{
 .opp-card .btn-careers-outline{
     position: absolute;
     bottom: 3rem;
-    width: 85%;
+    width: 94%;
 }
 
 .opp-card-xs{
@@ -458,221 +480,286 @@ a.btn-careers:hover{
     }
 }
 
-.careers-2-header{
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    text-align: center;
-    background-image: url('../img/hero-police-officer.jpg');
+/* POLICE OFFICER PAGE */
+/* Header */
+.po-header{
+    position: relative;
+
+    min-height: 70vh;
+
+    display: grid;
+
+    background: url('../img/po-header.JPG');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: -20rem;
-
-    min-height: 50rem;
-
-    position: relative;
+    background-position-x: left;
+    background-position-y: top;
+    background-color: #0c0b0e;
 }
-.careers-2-header-text{
-    position: relative;
-    z-index: 2;
-
-    margin-top: 22rem;
-
-    color: #fff;
-}
-.careers-2-header-text p{
-    max-width: unset !important;
-}
-.careers-2-header .transparent-bg, .careers-2-header-xs .transparent-bg{
+.po-header-left{
     width: 100%;
     height: 100%;
 
-    background: linear-gradient(0deg, black, transparent);
+    display: flex;
+    align-items: center;
+    justify-content: end;
 
-    position: absolute;
-    top: 0;
-    left: 0;
+    padding: 5rem;
 
-    z-index: 1;
+    background: linear-gradient(270deg, #0c0b0e 25%, transparent 70%);
 }
-
-
-.careers-2-header-xs{
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-
-    text-align: center;
-
-    background-image: url(../img/hero-police-officer.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: -2rem;
-
-    min-height: 40rem;
-
-    position: relative;
-}
-.careers-2-header-xs .careers-2-header-text{
-    margin-top: 20rem;
-}
-.careers-2-header-xs-blurb{
-    background: #000;
+.po-header-text{
     color: #fff;
-    padding: 4rem 6rem;
+}
+.po-header-text h1{
+    font-size: 4rem;
+    line-height: 5rem;
+
+    margin-bottom: 3rem;
+}
+.po-header-text .po-header-tagline{
+    font-size: 7rem;
+    font-weight: 600;
+
+    margin-bottom: 5rem;
+}
+.po-header-text hr{
+    border-top: 1rem solid #fec111;
+    width: 50%;
 }
 
-.careers-2-banner{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+/* Banner */
+.po-banner{
+    padding-top: 6rem;
+}
+.po-banner-text{
+    padding-right: 3rem;
+    padding-left: 8rem;
+}
+.po-banner-text p:nth-child(1){
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 7rem;
 
+    border-left: 0.6rem solid #fec111;
+
+    padding: 2rem;
     margin-bottom: 2rem;
 }
-.careers-2-banner-text-left{
-    font-size: 6rem;
-    line-height: 1.5;
-    font-weight: 600;
-}
-.careers-2-banner-text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5rem;
-}
-@media (max-width: 767px) {
-    .careers-2-banner{
-        grid-template-columns: 1fr;
-    }
-    .careers-2-banner-text{
-        justify-content: unset;
-        padding: 2rem;
-    }
+.po-banner-text p:nth-child(2){
+    max-width: unset !important;
+
+    font-size: 3rem;
+    line-height: 4.5rem;
 }
 
-.careers-2-links{
+/* Services and information */
+.po-links{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
-    padding: 0 2rem;
+    gap: 8rem 6rem;
     justify-items: center;
 
+    padding: 8rem 6rem;
 }
-.careers-2-links-to{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
-    padding: 0 2rem;
-    justify-items: start;
-    
-}
-.careers-2-links-to-box{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
-    padding: 0 2rem;
-    justify-items: start;
-    
-}
-.careers-2-links-to-box .careers-2-card{
-    height: 26rem;
+.po-card{
+    display: flex;
+    gap: 5rem;
+    flex-direction: column;
 
-    position: relative;
-
-    border: 1px solid;
+    padding: 4rem;
     border-radius: 0.5rem;
 
-    padding: 0 2rem;
+    color: #0c0b0e;
+
+    border: 0.1rem solid #fec111;
+
+    width: 85%;
 }
-.careers-2-links-to-box .careers-2-card .btn-careers-plain{
+.po-card svg{
+    width: 4rem;
+    margin-right: 1rem;
+    margin-bottom: -1rem;
+}
+.po-card h3{
+    margin-top: 0;
+    line-height: 4rem;
+}
+.po-card a{
+    color: #0c0b0e;
+    text-underline-offset: 1rem;
+}
+.po-card a:hover{
+    color: #543e00;
+}
+
+/* Dedicated recruitment streams */
+.po-drs{
+    width: 100%;
+
+    padding: 6rem;
+
+    background: #f3f3f3;
+}
+.po-drs h2{
+    margin-bottom: 3rem;
+    margin-left: 1.3rem;
+}
+.po-drs>p{
+    margin-bottom: 6rem;
+    margin-left: 3.3rem;
+}
+.po-drs-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+.po-drs-grid .opp-card{
+    height: 40rem;
+}
+
+/* Life as a police officer */
+.po-life{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    background-color: #2e2b34;
+    color: #fff;
+
+    height: 60rem;
+}
+.po-life-img{
+    position: relative;
+}
+.po-life-img img{
     position: absolute;
-    bottom: 3rem;
+    height: 50rem;
+    bottom: 0;
 }
-.careers-2-links-icon{
+.po-life-img img:first-child{
+    border-top-right-radius: 1rem;
+}
+.po-life-img img:last-child{
+    right: 4rem;
+    height: 60rem;
+}
+.po-life-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* RCMP Cadet Hub */
+.po-cadet{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.po-cadet-text{
+    padding: 6rem;
+    background-color: #f3f3f3;
+}
+.po-cadet-text .list-group-item{
+    border-left: 0;
+    border-right: 0;
+
+    text-underline-offset: 0.5rem;
+}
+
+/* Recruitment events */
+.po-events{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    padding: 8rem 6rem;
+}
+.po-events-cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 4rem 2rem;
-    padding: 0 2rem;
-    justify-items: center;
+    gap: 6rem;
 
-    background: #333;
-    color: #f3f3f3;
+    margin-top: 2rem;
+}
+.event-card{
+    border: 1px solid #0c0b0e;
+    border-radius: 5px;
+    padding: 2rem;
 
-    padding: 4rem;
+    position: relative;
 }
-.careers-2-links-icon .glyphicon{
-    color: #fec111;
-    font-size: 3rem;
-}
-.careers-2-links-icon .careers-2-card{
-    text-align: center;
-}
-.careers-2-links .opp-card{
-    height: 44rem !important;
-}
-.careers-2-links .opp-card .btn-careers-outline{
-    left: 50%;
-    transform: translateX(-50%);
-}
-.careers-2-links.container::before, .careers-2-links-icon.container::before, .careers-2-links-to.container::before, .careers-2-links-to-box.container::before, .careers-2-banner.container::before{
-    content: unset;
-}
-@media (max-width: 767px) {
-    .careers-2-links, .careers-2-links-to, .careers-2-links-to-box, .careers-2-links-icon{
-        grid-template-columns: 1fr;
-    }
+.event-card-location{
+    position: absolute;
+    background: #fec111;
+    padding: 0.5rem 1rem;
+    top: 0;
+    right: 0;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
 }
 
-.careers-2-cards-lg{
-    height: 50rem;
-    
-    background: #fff;
+/* Footer image */
+.po-end{
+    background-image: url(../img/po-end.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-position: center;
 }
-.careers-2-cards-lg:nth-child(1){
-    background: #ffe3dd;
-}
-.careers-2-cards-lg:nth-child(3){
-    background: #c5d4e7;
-}
-.careers-2-cards-lg img{
-    display: inline-block;
-}
-.careers-2-cards-lg .text-container{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-
+.po-end-gradient{
+    background: linear-gradient(180deg, #fff 5%, transparent 20%);
+    width: 100%;
     height: 100%;
-
-    padding: 5rem;
-}
-.careers-2-cards-lg .text-container h3{
-    margin-top: 0;
-    margin-bottom: 3rem;
-
-    font-size: 4.2rem;
-}
-.careers-2-cards-lg .text-container p{
-    margin-bottom: 6rem;
-    font-size: 2.4rem;
-}
-.careers-2-cards-xs .text-container{
-    padding: 4rem;
-}
-.careers-2-cards-xs .text-container h3{
-    margin-top: 0;
-}
-.careers-2-cards-xs .text-container p{
-    margin-bottom: 3rem;
 }
 
-.link-options{
-    position: fixed;
-
-    left: 0;
-    bottom: 0;
-
-    z-index: 100;
+/* Left yellow line for headers */
+.h2-line{
+    border-left: 0.6rem solid #fec111;
+    margin-left: -1.8rem;
+    padding-left: 1rem;
 }
-.link-options a{
-    cursor: pointer;
+
+/* Plain text display links */
+.link-dark{
+    color: #0c0b0e;
+    position: relative;
+    text-underline-offset: 1rem;
+
+    transition: text-underline-offset 0.1s ease-in;
+}
+.link-dark:hover{
+    color: #0c0b0e;
+
+    text-underline-offset: 0.5rem;
+}
+.link-dark:focus{
+    color: #0c0b0e;
+
+    outline: 0.1rem solid #0c0b0e;
+    outline-offset: 0.5rem;
+}
+.link-light{
+    color: #fff;
+    position: relative;
+    text-underline-offset: 1rem;
+
+    transition: text-underline-offset 0.1s ease-in;
+}
+.link-light:hover{
+    color: #fff;
+
+    text-underline-offset: 0.5rem;
+}
+.link-light:focus{
+    color: #fff;
+
+    outline: 0.1rem solid #fff;
+    outline-offset: 0.5rem;
+}
+.link-light svg, .link-dark svg{
+    width: 2rem;
+
+    position: absolute;
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+    height: 2rem;
 }

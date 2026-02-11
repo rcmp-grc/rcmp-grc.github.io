@@ -653,16 +653,34 @@ a.btn-careers:hover{
 .po-cadet{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: #f3f3f3;
+
+    height: 60rem;
 }
 .po-cadet-text{
     padding: 6rem;
-    background-color: #f3f3f3;
 }
 .po-cadet-text .list-group-item{
     border-left: 0;
     border-right: 0;
 
     text-underline-offset: 0.5rem;
+}
+.po-cadet-img{
+    position: relative;
+}
+.po-cadet-img img{
+    position: absolute;
+    height: 50rem;
+    bottom: 0;
+}
+.po-cadet-img img:first-child{
+    border-top-left-radius: 1rem;
+    right: 0;
+}
+.po-cadet-img img:last-child{
+    left: 10rem;
+    height: 55rem;
 }
 
 /* Recruitment events */
@@ -724,7 +742,7 @@ a.btn-careers:hover{
     position: relative;
     text-underline-offset: 1rem;
 
-    transition: text-underline-offset 0.1s ease-in;
+    transition: text-underline-offset 0.2s ease-in;
 }
 .link-dark:hover{
     color: #0c0b0e;
@@ -742,7 +760,7 @@ a.btn-careers:hover{
     position: relative;
     text-underline-offset: 1rem;
 
-    transition: text-underline-offset 0.1s ease-in;
+    transition: text-underline-offset 0.2s ease-in;
 }
 .link-light:hover{
     color: #fff;
@@ -762,5 +780,4 @@ a.btn-careers:hover{
     margin-left: 1rem;
     margin-top: 0.8rem;
     height: 2rem;
-
 }

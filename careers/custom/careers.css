@@ -55,6 +55,12 @@ a.btn-careers:hover{
 }
 
 /* Navigation */
+.careers-nav-container{
+    background-color: #091221;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
 .careers-nav{
     display: flex;
     flex-wrap: wrap;
@@ -494,7 +500,7 @@ a.btn-careers:hover{
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: top;
-    background-color: #0c0b0e;
+    background-color: #091221;
 }
 .po-header-left{
     width: 100%;
@@ -504,9 +510,9 @@ a.btn-careers:hover{
     align-items: center;
     justify-content: end;
 
-    padding: 5rem;
+    padding: 0 10rem;
 
-    background: linear-gradient(270deg, #0c0b0e 25%, transparent 70%);
+    background: linear-gradient(270deg, #091221 40%, transparent 70%);
 }
 .po-header-text{
     color: #fff;
@@ -526,6 +532,30 @@ a.btn-careers:hover{
 .po-header-text hr{
     border-top: 1rem solid #fec111;
     width: 50%;
+}
+/* Mobile header */
+.po-header-text-sm{
+    padding: 4rem 3rem;
+
+    background: #091221;
+    color: #fff;
+}
+.po-header-text-sm h1{
+    font-size: 3rem;
+    
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+.po-header-text-sm .po-header-tagline{
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 6.5rem;
+}
+.po-header-text-sm hr{
+    border-color: #fec111;
+    border-width: 1rem;
+
+    margin-bottom: 3rem;
 }
 
 /* Banner */
@@ -547,10 +577,17 @@ a.btn-careers:hover{
     margin-bottom: 2rem;
 }
 .po-banner-text p:nth-child(2){
-    max-width: unset !important;
-
     font-size: 3rem;
     line-height: 4.5rem;
+}
+/* Mobile banner */
+@media (max-width: 767px) {
+    .po-banner-text{
+        padding-left: 3rem;
+    }
+    .po-banner-text p:nth-child(2){
+        font-size: 2.5rem;
+    }
 }
 
 /* Services and information */
@@ -562,6 +599,14 @@ a.btn-careers:hover{
 
     padding: 8rem 6rem;
 }
+@media (max-width: 767px) {
+    .po-links {
+        grid-template-columns: 1fr;
+        gap: 3rem 6rem;
+
+        padding: 3rem 3rem;
+    }
+}
 .po-card{
     display: flex;
     gap: 5rem;
@@ -570,11 +615,18 @@ a.btn-careers:hover{
     padding: 4rem;
     border-radius: 0.5rem;
 
-    color: #0c0b0e;
-
-    border: 0.1rem solid #fec111;
+    color: #091221;
 
     width: 85%;
+
+    background: #fff;
+    box-shadow: 0rem 0.3rem 0.8rem #9b9b9b;
+}
+@media (max-width: 767px) {
+    .po-card{
+        padding: 4rem 2rem;
+        width: 100%;
+    }
 }
 .po-card svg{
     width: 4rem;
@@ -584,13 +636,6 @@ a.btn-careers:hover{
 .po-card h3{
     margin-top: 0;
     line-height: 4rem;
-}
-.po-card a{
-    color: #0c0b0e;
-    text-underline-offset: 1rem;
-}
-.po-card a:hover{
-    color: #543e00;
 }
 
 /* Dedicated recruitment streams */
@@ -615,7 +660,22 @@ a.btn-careers:hover{
     justify-items: center;
 }
 .po-drs-grid .opp-card{
-    height: 40rem;
+    height: unset;
+}
+@media (max-width: 767px) {
+    .po-drs{
+        padding: 3rem;
+    }
+    .po-drs h2{
+        margin-bottom: 3rem;
+        margin-left: 0;
+    }
+    .po-drs>p{
+        margin-left: 0;
+    }
+    .po-drs-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* Life as a police officer */
@@ -623,7 +683,7 @@ a.btn-careers:hover{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5rem;
-    background-color: #2e2b34;
+    background-color: #091221;
     color: #fff;
 
     height: 60rem;
@@ -648,6 +708,28 @@ a.btn-careers:hover{
     flex-direction: column;
     justify-content: center;
 }
+/* Mobile life */
+@media (max-width: 767px) {
+    .po-life{
+        display: block;
+        height: unset;
+    }
+    .po-life-img{
+        height: 30rem;
+    }
+    .po-life-img img{
+        height: 30rem;
+    }
+    .po-life-img img:first-child{
+        border-top-right-radius: 0;
+    }
+    .po-life-img img:last-child{
+        height: 30rem;
+    }
+    .po-life-text{
+        padding: 4rem 3rem;
+    }
+}
 
 /* RCMP Cadet Hub */
 .po-cadet{
@@ -659,6 +741,9 @@ a.btn-careers:hover{
 }
 .po-cadet-text{
     padding: 6rem;
+}
+.po-cadet-text h2{
+    margin-top: 7rem;
 }
 .po-cadet-text .list-group-item{
     border-left: 0;
@@ -681,6 +766,34 @@ a.btn-careers:hover{
 .po-cadet-img img:last-child{
     left: 10rem;
     height: 55rem;
+}
+/* Mobile cadet */
+@media (max-width: 767px) {
+    .po-cadet {
+        display: flex;
+        flex-direction: column-reverse;
+
+        height: unset;
+    }
+    .po-cadet-text{
+        padding: 4rem 3rem;
+    }
+    .po-cadet-text h2{
+        margin-top: 0;
+    }
+    .po-cadet-img{
+        height: 30rem;
+    }
+    .po-cadet-img img{
+        height: 30rem;
+    }
+    .po-cadet-img img:first-child{
+        border-top-left-radius: 0;
+    }
+    .po-cadet-img img:last-child{
+        left: 10rem;
+        height: 30rem;
+    }
 }
 
 /* Recruitment events */
@@ -705,6 +818,12 @@ a.btn-careers:hover{
 
     position: relative;
 }
+.event-card svg {
+    height: 2.4rem;
+    margin-bottom: -0.4rem;
+
+    fill: #543e00;
+}
 .event-card-location{
     position: absolute;
     background: #fec111;
@@ -713,6 +832,20 @@ a.btn-careers:hover{
     right: 0;
     border-top-right-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
+}
+.event-card-cancel{
+    background: #d6d9dd;
+    color: #545961;
+}
+/* Mobile events */
+
+@media (max-width: 767px) {
+    .po-events{
+        padding: 4rem 3rem;
+    }
+    .po-events-cards {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* Footer image */
@@ -728,6 +861,11 @@ a.btn-careers:hover{
     width: 100%;
     height: 100%;
 }
+@media (max-width: 767px) {
+    .po-end{
+        height: 50vh;
+    }
+}
 
 /* Left yellow line for headers */
 .h2-line{
@@ -740,14 +878,12 @@ a.btn-careers:hover{
 .link-dark{
     color: #0c0b0e;
     position: relative;
-    text-underline-offset: 1rem;
-
-    transition: text-underline-offset 0.2s ease-in;
+}
+.link-dark svg{
+    fill: #0c0b0e;
 }
 .link-dark:hover{
-    color: #0c0b0e;
-
-    text-underline-offset: 0.5rem;
+    color: #0535d2;
 }
 .link-dark:focus{
     color: #0c0b0e;
@@ -755,23 +891,27 @@ a.btn-careers:hover{
     outline: 0.1rem solid #0c0b0e;
     outline-offset: 0.5rem;
 }
+.link-dark:hover svg, .link-dark:focus svg{
+    fill: #0535d2;
+}
 .link-light{
     color: #fff;
     position: relative;
-    text-underline-offset: 1rem;
-
-    transition: text-underline-offset 0.2s ease-in;
+}
+.link-light svg{
+    fill: #fff;
 }
 .link-light:hover{
-    color: #fff;
-
-    text-underline-offset: 0.5rem;
+    color: #fec111;
 }
 .link-light:focus{
-    color: #fff;
+    color: #fec111;
 
-    outline: 0.1rem solid #fff;
+    outline: 0.1rem solid #fec111;
     outline-offset: 0.5rem;
+}
+.link-light:hover svg, .link-light:focus svg{
+    fill: #fec111;
 }
 .link-light svg, .link-dark svg{
     width: 2rem;
@@ -780,4 +920,50 @@ a.btn-careers:hover{
     margin-left: 1rem;
     margin-top: 0.8rem;
     height: 2rem;
+}
+@media (max-width: 767px) {
+    .link-light svg, .link-dark svg {
+        margin-top: 1.1rem;
+    }
+}
+
+/* Landing page */
+.landing-header-img{
+    background: url('../img/RCMP-2023-0929-032-SG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -15rem;
+    
+    height: 35vh;
+}
+.landing-content{
+    display: flex;
+
+    gap: 2rem;
+    padding: 6rem;
+}
+.landing-title h1{
+    margin-top: 0;
+}
+.landing-title hr{
+    border-color: #fec111;
+    border-width: 0.5rem;
+
+    width: 50%;
+}
+.landing-text .po-drs{
+    margin: 3rem 0;
+    padding: 0;
+
+    background: unset;
+}
+.landing-text .po-drs-grid{
+    gap: 3rem;
+}
+
+/* Generic page */
+.generic-content h1{
+    text-decoration: underline;
+    text-decoration-color: #fec111;
+    text-underline-offset: 1rem;
 }

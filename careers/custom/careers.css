@@ -56,7 +56,7 @@ a.btn-careers:hover{
 
 /* Navigation */
 .careers-nav-container{
-    background-color: #091221;
+    background-color: #000033;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -103,7 +103,7 @@ a.btn-careers:hover{
 .careers-nav-sm{
     padding: 1rem 0;
 
-    background: #0c0b0e;
+    background: #000033;
 }
 .careers-nav-sm>.container-fluid{
     display: flex;
@@ -272,7 +272,7 @@ a.btn-careers:hover{
 #header-police, #header-civilian{
     min-height: 70rem;
     height: 100vh;
-    border-top: 1px solid #0c0b0e;
+    border-top: 1px solid #000033;
 }
 .header-text-container{
     color:#000;
@@ -500,7 +500,7 @@ a.btn-careers:hover{
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: top;
-    background-color: #091221;
+    background-color: #000033;
 }
 .po-header-left{
     width: 100%;
@@ -512,7 +512,7 @@ a.btn-careers:hover{
 
     padding: 0 10rem;
 
-    background: linear-gradient(270deg, #091221 40%, transparent 70%);
+    background: linear-gradient(270deg, #000033 40%, transparent 70%);
 }
 .po-header-text{
     color: #fff;
@@ -537,7 +537,7 @@ a.btn-careers:hover{
 .po-header-text-sm{
     padding: 4rem 3rem;
 
-    background: #091221;
+    background: #000033;
     color: #fff;
 }
 .po-header-text-sm h1{
@@ -615,7 +615,7 @@ a.btn-careers:hover{
     padding: 4rem;
     border-radius: 0.5rem;
 
-    color: #091221;
+    color: #000033;
 
     width: 85%;
 
@@ -683,7 +683,7 @@ a.btn-careers:hover{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5rem;
-    background-color: #091221;
+    background-color: #000033;
     color: #fff;
 
     height: 60rem;

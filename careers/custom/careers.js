@@ -84,62 +84,15 @@ function arrow(direction){
 var collapseContent = document.getElementById("careers-nav-sm-collapse");
 var collapseButton = document.getElementById("careers-nav-sm-toggle");
 function navcollapse(){
+     console.log('c');
      if(collapseContent.classList.contains("collapse")){
           collapseContent.classList.replace("collapse", "active");
           collapseButton.ariaExpanded = "true";
+          console.log('c1');
      }
      else if (collapseContent.classList.contains("active")){
           collapseContent.classList.replace("active", "collapse");
           collapseButton.ariaExpanded = "false";
-     }
-}
-
-var cardsSection = document.getElementById("cards");
-var cardsBtn = document.getElementById("cards-btn");
-
-var textSection = document.getElementById("text");
-var textBtn = document.getElementById("text-btn");
-
-var boxesSection = document.getElementById("boxes");
-var boxesBtn = document.getElementById("boxes-btn");
-
-var iconsSection = document.getElementById("icons");
-var iconsBtn = document.getElementById("icons-btn");
-
-var currentSection = "cards";
-var currentBtn = "cards-btn";
-
-function loSwitch(section){
-     if(section != currentSection){
-          document.getElementById(currentSection).classList.add("hidden");
-          document.getElementById(section).classList.remove("hidden");
-
-          document.getElementById(currentBtn).classList.remove("active");
-          document.getElementById(section + "-btn").classList.add("active");
-
-          switch (section) {
-               case "cards":
-                    currentSection = "cards";
-                    currentBtn = "cards-btn";
-                    break;
-
-               case "text":
-                    currentSection = "text";
-                    currentBtn = "text-btn";
-                    break;
-
-               case "boxes":
-                    currentSection = "boxes";
-                    currentBtn = "boxes-btn";
-                    break;
-
-               case "icons":
-                    currentSection = "icons";
-                    currentBtn = "icons-btn";
-                    break;
-          
-               default:
-                    break;
-          }
+          console.log('c2');
      }
 }

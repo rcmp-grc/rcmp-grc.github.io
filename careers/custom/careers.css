@@ -61,6 +61,9 @@ a.btn-careers:hover{
     top: 0;
     z-index: 100;
 }
+.careers-nav-container .container{
+    width: 76rem !important;
+}
 .careers-nav{
     display: flex;
     flex-wrap: wrap;
@@ -80,7 +83,7 @@ a.btn-careers:hover{
 
     text-transform: uppercase;
     font-size: 1.65rem;
-    font-weight: 700;
+    font-weight: 500;
     color: #b3b3b3;
 
     cursor: pointer;
@@ -104,6 +107,10 @@ a.btn-careers:hover{
     padding: 1rem 0;
 
     background: #000033;
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 .careers-nav-sm>.container-fluid{
     display: flex;
@@ -152,13 +159,20 @@ a.btn-careers:hover{
 .careers-nav-sm .nav-link a{
     text-transform: uppercase;
     font-size: 1.65rem;
-    font-weight: 700;
+    font-weight: 500;
     color: #b3b3b3;
 
     cursor: pointer;
 
     text-decoration: none;
     margin-left: 2rem;
+}
+.careers-nav-sm .nav-link.active{
+    text-decoration: underline;
+    text-decoration-color: #fec111;
+}
+.careers-nav-sm .nav-link.active a{
+    color: #fff;
 }
 
 
@@ -224,7 +238,7 @@ a.btn-careers:hover{
 }
 
 /* Grey button */
-.btn-careers-grey{
+.btn-careers-grey, .btn-careers-grey:visited{
     background-color: #ccc;
     color: #0c0b0e;
     font-size: 18px;
@@ -516,16 +530,18 @@ a.btn-careers:hover{
 }
 .po-header-text{
     color: #fff;
+
+    width: 50%;
+    padding: 3rem 0;
 }
 .po-header-text h1{
-    font-size: 4rem;
-    line-height: 5rem;
-
-    margin-bottom: 3rem;
+    font-size: 6rem;
+    line-height: 6.5rem;
 }
 .po-header-text .po-header-tagline{
     font-size: 7rem;
     font-weight: 600;
+    line-height: 1.2;
 
     margin-bottom: 5rem;
 }
@@ -541,7 +557,7 @@ a.btn-careers:hover{
     color: #fff;
 }
 .po-header-text-sm h1{
-    font-size: 3rem;
+    font-size: 5rem;
     
     margin-bottom: 1rem;
     margin-top: 0;
@@ -563,11 +579,11 @@ a.btn-careers:hover{
     padding-top: 6rem;
 }
 .po-banner-text{
-    padding-right: 3rem;
-    padding-left: 8rem;
+    padding-right: 6rem;
+    padding-left: 6rem;
 }
 .po-banner-text p:nth-child(1){
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: 600;
     line-height: 7rem;
 
@@ -578,12 +594,20 @@ a.btn-careers:hover{
 }
 .po-banner-text p:nth-child(2){
     font-size: 3rem;
-    line-height: 4.5rem;
+    line-height: 5rem;
 }
 /* Mobile banner */
+@media (min-width: 768px) and (max-width: 991px) {
+    .po-banner-text p:nth-child(2){
+        font-size: 2.5rem;
+    }
+}
 @media (max-width: 767px) {
     .po-banner-text{
         padding-left: 3rem;
+    }
+    .po-banner-text p:nth-child(1){
+        font-size: 4rem;
     }
     .po-banner-text p:nth-child(2){
         font-size: 2.5rem;
@@ -594,13 +618,18 @@ a.btn-careers:hover{
 .po-links{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 8rem 6rem;
+    gap: 3rem;
     justify-items: center;
 
-    padding: 8rem 6rem;
+    padding: 6rem;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .po-links{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 @media (max-width: 767px) {
-    .po-links {
+    .po-links{
         grid-template-columns: 1fr;
         gap: 3rem 6rem;
 
@@ -617,7 +646,7 @@ a.btn-careers:hover{
 
     color: #000033;
 
-    width: 85%;
+    /* width: 85%; */
 
     background: #fff;
     box-shadow: 0rem 0.3rem 0.8rem #9b9b9b;
@@ -632,6 +661,8 @@ a.btn-careers:hover{
     width: 4rem;
     margin-right: 1rem;
     margin-bottom: -1rem;
+
+    fill: #000053;
 }
 .po-card h3{
     margin-top: 0;
@@ -648,15 +679,15 @@ a.btn-careers:hover{
 }
 .po-drs h2{
     margin-bottom: 3rem;
-    margin-left: 1.3rem;
+    margin-top: 0;
 }
 .po-drs>p{
     margin-bottom: 6rem;
-    margin-left: 3.3rem;
 }
 .po-drs-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
     justify-items: center;
 }
 .po-drs-grid .opp-card{
@@ -664,7 +695,7 @@ a.btn-careers:hover{
 }
 @media (max-width: 767px) {
     .po-drs{
-        padding: 3rem;
+        padding: 4rem 3rem;
     }
     .po-drs h2{
         margin-bottom: 3rem;
@@ -677,122 +708,69 @@ a.btn-careers:hover{
         grid-template-columns: 1fr;
     }
 }
+@media (min-width: 768px) and (max-width: 991px){
+    .po-drs-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
 
-/* Life as a police officer */
-.po-life{
+/* Police officer ribbons */
+.po-ribbon{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5rem;
+}
+.po-ribbon-dark{
     background-color: #000033;
     color: #fff;
+}
+.po-ribbon-light{
+    background-color: #f3f3f3;
+}
+.po-ribbon-img{
+    display: flex;
+    align-items: flex-end;
 
-    height: 60rem;
+    padding-top: 6rem;
 }
-.po-life-img{
-    position: relative;
+.po-ribbon-img img{
+    height: 100%;
+    width: 90%;
+    
+    object-fit: cover;
 }
-.po-life-img img{
-    position: absolute;
-    height: 50rem;
-    bottom: 0;
-}
-.po-life-img img:first-child{
+.po-ribbon-img-left img{
     border-top-right-radius: 1rem;
 }
-.po-life-img img:last-child{
-    right: 4rem;
-    height: 60rem;
+.po-ribbon-img-right{
+    justify-content: flex-end;
 }
-.po-life-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.po-ribbon-img-right img{
+    border-top-left-radius: 1rem;
+}
+.po-ribbon-dark .po-ribbon-text{
+    padding: 6rem 6rem 6rem 0rem;
+}
+.po-ribbon-light .po-ribbon-text{
+    padding: 6rem;
+}
+.po-ribbon-text h2:first-of-type{
+    margin-top: 0;
 }
 /* Mobile life */
 @media (max-width: 767px) {
-    .po-life{
-        display: block;
-        height: unset;
+    .po-ribbon{
+        grid-template-columns: 1fr;
     }
-    .po-life-img{
-        height: 30rem;
+    .po-ribbon-img{
+        padding-top: 0;
     }
-    .po-life-img img{
-        height: 30rem;
+    .po-ribbon-img img{
+        width: 100%;
+
+        border-radius: 0;
     }
-    .po-life-img img:first-child{
-        border-top-right-radius: 0;
-    }
-    .po-life-img img:last-child{
-        height: 30rem;
-    }
-    .po-life-text{
+    .po-ribbon-text{
         padding: 4rem 3rem;
-    }
-}
-
-/* RCMP Cadet Hub */
-.po-cadet{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: #f3f3f3;
-
-    height: 60rem;
-}
-.po-cadet-text{
-    padding: 6rem;
-}
-.po-cadet-text h2{
-    margin-top: 7rem;
-}
-.po-cadet-text .list-group-item{
-    border-left: 0;
-    border-right: 0;
-
-    text-underline-offset: 0.5rem;
-}
-.po-cadet-img{
-    position: relative;
-}
-.po-cadet-img img{
-    position: absolute;
-    height: 50rem;
-    bottom: 0;
-}
-.po-cadet-img img:first-child{
-    border-top-left-radius: 1rem;
-    right: 0;
-}
-.po-cadet-img img:last-child{
-    left: 10rem;
-    height: 55rem;
-}
-/* Mobile cadet */
-@media (max-width: 767px) {
-    .po-cadet {
-        display: flex;
-        flex-direction: column-reverse;
-
-        height: unset;
-    }
-    .po-cadet-text{
-        padding: 4rem 3rem;
-    }
-    .po-cadet-text h2{
-        margin-top: 0;
-    }
-    .po-cadet-img{
-        height: 30rem;
-    }
-    .po-cadet-img img{
-        height: 30rem;
-    }
-    .po-cadet-img img:first-child{
-        border-top-left-radius: 0;
-    }
-    .po-cadet-img img:last-child{
-        left: 10rem;
-        height: 30rem;
     }
 }
 
@@ -802,12 +780,12 @@ a.btn-careers:hover{
     flex-direction: column;
     align-items: start;
 
-    padding: 8rem 6rem;
+    padding: 6rem 6rem 0rem 6rem;
 }
 .po-events-cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 6rem;
+    gap: 3rem 6rem;
 
     margin-top: 2rem;
 }
@@ -838,10 +816,14 @@ a.btn-careers:hover{
     color: #545961;
 }
 /* Mobile events */
-
+@media (min-width: 768px) and (max-width: 1125px) {
+    .po-events-cards{
+        grid-template-columns: 1fr 1fr;
+    }
+}
 @media (max-width: 767px) {
     .po-events{
-        padding: 4rem 3rem;
+        padding: 4rem 3rem 0rem 3rem;
     }
     .po-events-cards {
         grid-template-columns: 1fr;
@@ -894,14 +876,16 @@ a.btn-careers:hover{
 .link-dark:hover svg, .link-dark:focus svg{
     fill: #0535d2;
 }
-.link-light{
+.link-light, .link-light:visited{
     color: #fff;
     position: relative;
+
+    width: fit-content;
 }
-.link-light svg{
+.link-light svg, .link-light:visited svg{
     fill: #fff;
 }
-.link-light:hover{
+.link-light:hover, .link-light:visited:hover{
     color: #fec111;
 }
 .link-light:focus{
@@ -910,7 +894,7 @@ a.btn-careers:hover{
     outline: 0.1rem solid #fec111;
     outline-offset: 0.5rem;
 }
-.link-light:hover svg, .link-light:focus svg{
+.link-light:hover svg, .link-light:focus svg, .link-light:visited:hover svg{
     fill: #fec111;
 }
 .link-light svg, .link-dark svg{
@@ -939,7 +923,7 @@ a.btn-careers:hover{
 .landing-content{
     display: flex;
 
-    gap: 2rem;
+    gap: 6rem;
     padding: 6rem;
 }
 .landing-title h1{

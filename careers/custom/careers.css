@@ -717,14 +717,15 @@ a.btn-careers:hover{
 /* Police officer ribbons */
 .po-ribbon{
     display: grid;
-    grid-template-columns: 1fr 1fr;
 }
 .po-ribbon-dark{
     background-color: #000033;
     color: #fff;
+    grid-template-columns: 2fr 3fr;
 }
 .po-ribbon-light{
     background-color: #f3f3f3;
+    grid-template-columns: 3fr 2fr;
 }
 .po-ribbon-img{
     display: flex;
@@ -950,4 +951,5 @@ a.btn-careers:hover{
     text-decoration: underline;
     text-decoration-color: #fec111;
     text-underline-offset: 1rem;
+
 }

@@ -535,7 +535,7 @@ a.btn-careers:hover{
     color: #fff;
 
     width: 50%;
-    padding: 3rem 0;
+    padding: 6rem 0;
 }
 .po-header-text h1{
     font-size: 6rem;
@@ -556,10 +556,18 @@ a.btn-careers:hover{
     color: #fff;
     position: relative;
 
+    margin-left: 4rem;
+
     width: fit-content;
 }
 .ready-link svg, .ready-link:visited svg{
     fill: #fff;
+
+    border-bottom: 0.3rem solid #fff;
+    
+    position: absolute;
+    top: -0.3rem;
+    left: -4rem;
 }
 .ready-link:hover, .ready-link:visited:hover{
     color: #fcd116;
@@ -572,12 +580,45 @@ a.btn-careers:hover{
 }
 .ready-link:hover svg, .ready-link:focus svg, .ready-link:visited:hover svg{
     fill: #fcd116;
+    border-color: #fcd116;
 }
 .ready-link{
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 .ready-link svg{
     width: 4rem;
+}
+
+.ready-btn{
+    color: #fff;
+
+    text-decoration: none;
+    font-size: 2.5rem;
+
+    background: #001c3d;
+
+    padding: 2rem 1rem;
+
+    border: 0.1rem solid #fcd116;
+    border-radius: 0.5rem;
+
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.ready-btn:hover, .ready-btn:active, .ready-btn:focus{
+    color: #001c3d;
+    background-color: #fcd116;
+
+    text-decoration: none;
+}
+.ready-btn:hover svg, .ready-btn:active svg, .ready-btn:focus svg{
+    fill: #001c3d;
+}
+.ready-btn svg{
+    height: 3.3rem;
+    
+    fill: #fff;
 }
 /* Mobile header */
 .po-header-text-sm{
@@ -968,8 +1009,12 @@ a.btn-careers:hover{
     gap: 6rem;
     padding: 6rem;
 }
+.landing-title{
+    width: 25%;
+}
 .landing-title h1{
     margin-top: 0;
+    font-size: 6rem;
 }
 .landing-title hr{
     border-color: #fcd116;
@@ -985,6 +1030,15 @@ a.btn-careers:hover{
 }
 .landing-text .po-drs-grid{
     gap: 3rem;
+}
+.po-drs-1{
+    grid-template-columns: 1fr 1fr;
+}
+.po-drs-2{
+    grid-template-columns: 1fr 1fr;
+}
+.po-drs-3{
+    grid-template-columns: 1fr 1fr 1fr;
 }
 @media (max-width: 767px) {
     .landing-header-img{

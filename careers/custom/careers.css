@@ -37,6 +37,9 @@ a.btn-careers:visited{
 a.btn-careers:hover{
     text-decoration: none;
 }
+.careers-quote{
+    border-color: #fcd116;
+}
 
 #careers-page{
     font-family: 'Lato', sans-serif !important;
@@ -56,14 +59,14 @@ a.btn-careers:hover{
 
 /* Navigation */
 .careers-nav-container{
-    background-color: #000033;
+    background-color: #001c3d;
     position: sticky;
     top: 0;
     z-index: 100;
 }
-.careers-nav-container .container{
+/* .careers-nav-container .container{
     width: 76rem !important;
-}
+} */
 .careers-nav{
     display: flex;
     flex-wrap: wrap;
@@ -84,7 +87,7 @@ a.btn-careers:hover{
     text-transform: uppercase;
     font-size: 1.65rem;
     font-weight: 500;
-    color: #b3b3b3;
+    color: #d8d8d8;
 
     cursor: pointer;
 }
@@ -94,7 +97,7 @@ a.btn-careers:hover{
     text-decoration: underline;
     text-decoration-thickness: 0.2rem;
     text-underline-offset: 1.4rem;
-    text-decoration-color: #fec111;
+    text-decoration-color: #fcd116;
 }
 .careers-nav .nav-link:visited{
     color: #b3b3b3;
@@ -106,7 +109,7 @@ a.btn-careers:hover{
 .careers-nav-sm{
     padding: 1rem 0;
 
-    background: #000033;
+    background: #001c3d;
 
     position: sticky;
     top: 0;
@@ -169,7 +172,7 @@ a.btn-careers:hover{
 }
 .careers-nav-sm .nav-link.active{
     text-decoration: underline;
-    text-decoration-color: #fec111;
+    text-decoration-color: #fcd116;
 }
 .careers-nav-sm .nav-link.active a{
     color: #fff;
@@ -201,7 +204,7 @@ a.btn-careers:hover{
     transition: opacity .15s ease, color .15s ease;
 }
 .arrow-prev:hover, .arrow-prev:focus, .arrow-prev:hover .glyphicon, .arrow-prev:focus .glyphicon, .arrow-next:hover, .arrow-next:focus{
-    color: #fec111;
+    color: #fcd116;
     text-decoration: none;
     outline: 0;
     opacity: 1;
@@ -219,13 +222,13 @@ a.btn-careers:hover{
     right: 0;
 }
 .arrow-more .glyphicon{
-    top: -39.2rem;;
+    top: -23rem;
     color: #000;
 }
 
 /* Yellow button */
 .btn-careers{
-    background-color: #fec111;
+    background-color: #fcd116;
     color: #0c0b0e;
     font-size: 18px;
     font-weight: 600;
@@ -234,7 +237,7 @@ a.btn-careers:hover{
 .btn-careers:hover, .btn-careers:active, .btn-careers:focus{
     background-color: #0c0b0e;
     color: #fff !important;
-    border: 1px solid #fec111;
+    border: 1px solid #fcd116;
 }
 
 /* Grey button */
@@ -255,11 +258,11 @@ a.btn-careers:hover{
 .btn-careers-outline{
     background-color: unset;
     color: #0c0b0e;
-    border: 2px solid #fec111;
+    border: 2px solid #fcd116;
     font-weight: 600;
 }
 .btn-careers-outline:hover, .btn-careers-outline:active, .btn-careers-outline:focus{
-    background-color: #fec111;
+    background-color: #fcd116;
     color: #0c0b0e;
 }
 
@@ -286,7 +289,7 @@ a.btn-careers:hover{
 #header-police, #header-civilian{
     min-height: 70rem;
     height: 100vh;
-    border-top: 1px solid #000033;
+    border-top: 1px solid #001c3d;
 }
 .header-text-container{
     color:#000;
@@ -514,7 +517,7 @@ a.btn-careers:hover{
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: top;
-    background-color: #000033;
+    background-color: #001c3d;
 }
 .po-header-left{
     width: 100%;
@@ -526,7 +529,7 @@ a.btn-careers:hover{
 
     padding: 0 10rem;
 
-    background: linear-gradient(270deg, #000033 40%, transparent 70%);
+    background: linear-gradient(270deg, #001c3d 40%, transparent 70%);
 }
 .po-header-text{
     color: #fff;
@@ -546,14 +549,41 @@ a.btn-careers:hover{
     margin-bottom: 5rem;
 }
 .po-header-text hr{
-    border-top: 1rem solid #fec111;
+    border-top: 1rem solid #fcd116;
     width: 50%;
+}
+.ready-link, .ready-link:visited{
+    color: #fff;
+    position: relative;
+
+    width: fit-content;
+}
+.ready-link svg, .ready-link:visited svg{
+    fill: #fff;
+}
+.ready-link:hover, .ready-link:visited:hover{
+    color: #fcd116;
+}
+.ready-link:focus{
+    color: #fcd116;
+
+    outline: 0.1rem solid #fcd116;
+    outline-offset: 0.5rem;
+}
+.ready-link:hover svg, .ready-link:focus svg, .ready-link:visited:hover svg{
+    fill: #fcd116;
+}
+.ready-link{
+    font-size: 4rem;
+}
+.ready-link svg{
+    width: 4rem;
 }
 /* Mobile header */
 .po-header-text-sm{
     padding: 4rem 3rem;
 
-    background: #000033;
+    background: #001c3d;
     color: #fff;
 }
 .po-header-text-sm h1{
@@ -568,7 +598,7 @@ a.btn-careers:hover{
     line-height: 6.5rem;
 }
 .po-header-text-sm hr{
-    border-color: #fec111;
+    border-color: #fcd116;
     border-width: 1rem;
 
     margin-bottom: 3rem;
@@ -587,7 +617,7 @@ a.btn-careers:hover{
     font-weight: 600;
     line-height: 7rem;
 
-    border-left: 0.6rem solid #fec111;
+    border-left: 0.6rem solid #fcd116;
 
     padding: 2rem;
     margin-bottom: 2rem;
@@ -644,7 +674,7 @@ a.btn-careers:hover{
     padding: 4rem;
     border-radius: 0.5rem;
 
-    color: #000033;
+    color: #001c3d;
 
     /* width: 85%; */
 
@@ -653,8 +683,10 @@ a.btn-careers:hover{
 }
 @media (max-width: 767px) {
     .po-card{
-        padding: 4rem 2rem;
+        padding: 0;
         width: 100%;
+
+        box-shadow: unset;
     }
 }
 .po-card svg{
@@ -719,7 +751,7 @@ a.btn-careers:hover{
     display: grid;
 }
 .po-ribbon-dark{
-    background-color: #000033;
+    background-color: #001c3d;
     color: #fff;
     grid-template-columns: 2fr 3fr;
 }
@@ -749,7 +781,7 @@ a.btn-careers:hover{
     border-top-left-radius: 1rem;
 }
 .po-ribbon-dark .po-ribbon-text{
-    padding: 6rem 6rem 6rem 0rem;
+    padding: 6rem;
 }
 .po-ribbon-light .po-ribbon-text{
     padding: 6rem;
@@ -801,11 +833,11 @@ a.btn-careers:hover{
     height: 2.4rem;
     margin-bottom: -0.4rem;
 
-    fill: #543e00;
+    fill: #000053;
 }
 .event-card-location{
     position: absolute;
-    background: #fec111;
+    background: #fcd116;
     padding: 0.5rem 1rem;
     top: 0;
     right: 0;
@@ -833,11 +865,20 @@ a.btn-careers:hover{
 
 /* Footer image */
 .po-end{
-    background-image: url(../img/po-end.jpg);
+    background-image: url('../img/po-end.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 80vh;
     background-position: center;
+}
+.po-end-1{
+    background-image: url('../img/po-end.jpg');
+}
+.po-end-2{
+    background-image: url('../img/program-careers.jpg');
+}
+.po-end-3{
+    background-image: url('../img/po-end-2.png');
 }
 .po-end-gradient{
     background: linear-gradient(180deg, #fff 5%, transparent 20%);
@@ -846,13 +887,13 @@ a.btn-careers:hover{
 }
 @media (max-width: 767px) {
     .po-end{
-        height: 50vh;
+        height: 35vh;
     }
 }
 
 /* Left yellow line for headers */
 .h2-line{
-    border-left: 0.6rem solid #fec111;
+    border-left: 0.6rem solid #fcd116;
     margin-left: -1.8rem;
     padding-left: 1rem;
 }
@@ -887,16 +928,16 @@ a.btn-careers:hover{
     fill: #fff;
 }
 .link-light:hover, .link-light:visited:hover{
-    color: #fec111;
+    color: #fcd116;
 }
 .link-light:focus{
-    color: #fec111;
+    color: #fcd116;
 
-    outline: 0.1rem solid #fec111;
+    outline: 0.1rem solid #fcd116;
     outline-offset: 0.5rem;
 }
 .link-light:hover svg, .link-light:focus svg, .link-light:visited:hover svg{
-    fill: #fec111;
+    fill: #fcd116;
 }
 .link-light svg, .link-dark svg{
     width: 2rem;
@@ -914,7 +955,7 @@ a.btn-careers:hover{
 
 /* Landing page */
 .landing-header-img{
-    background: url('../img/RCMP-2023-0929-032-SG.jpg');
+    background: url('../img/indigenous-recruiting.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -15rem;
@@ -931,13 +972,13 @@ a.btn-careers:hover{
     margin-top: 0;
 }
 .landing-title hr{
-    border-color: #fec111;
+    border-color: #fcd116;
     border-width: 0.5rem;
 
     width: 50%;
 }
 .landing-text .po-drs{
-    margin: 3rem 0;
+    margin-top: 4rem;
     padding: 0;
 
     background: unset;
@@ -945,11 +986,29 @@ a.btn-careers:hover{
 .landing-text .po-drs-grid{
     gap: 3rem;
 }
+@media (max-width: 767px) {
+    .landing-header-img{
+        background-position-y: 0;
+        height: 20rem;
+    }
+    .landing-content{
+        flex-direction: column;
+
+        gap: 1rem;
+        padding: 4rem 4rem 0 4rem;
+    }
+}
 
 /* Generic page */
 .generic-content h1{
     text-decoration: underline;
-    text-decoration-color: #fec111;
+    text-decoration-color: #fcd116;
     text-underline-offset: 1rem;
 
+    line-height: 1.5;
+}
+@media (max-width: 767px) {
+    .generic-content{
+        padding: 0 4rem;
+    }
 }

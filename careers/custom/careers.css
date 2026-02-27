@@ -589,7 +589,7 @@ a.btn-careers:hover{
     width: 4rem;
 }
 
-.ready-btn{
+.ready-btn, .ready-btn:visited{
     color: #fff;
 
     text-decoration: none;

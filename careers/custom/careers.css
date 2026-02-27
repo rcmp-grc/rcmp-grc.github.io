@@ -717,7 +717,7 @@ a.btn-careers:hover{
 
     color: #001c3d;
 
-    /* width: 85%; */
+    width: 100%;
 
     background: #fff;
     box-shadow: 0rem 0.3rem 0.8rem #9b9b9b;
@@ -725,7 +725,6 @@ a.btn-careers:hover{
 @media (max-width: 767px) {
     .po-card{
         padding: 0;
-        width: 100%;
 
         box-shadow: unset;
     }

@@ -772,6 +772,7 @@ a.btn-careers:hover{
 }
 .c-grid .c-card{
     height: unset;
+    width: 100%;
 }
 @media (max-width: 767px) {
     .c-grid-container{

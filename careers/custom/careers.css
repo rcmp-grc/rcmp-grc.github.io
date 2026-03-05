@@ -109,7 +109,7 @@ a.btn-careers:hover{
 .careers-nav-sm{
     padding: 1rem 0;
 
-    background: #001c3d;
+    background: #0c0b0e;
 
     position: sticky;
     top: 0;
@@ -185,10 +185,6 @@ a.btn-careers:hover{
     bottom: 0;
     z-index: 1;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
     width: 15%;
 
     padding: 0;
@@ -202,6 +198,8 @@ a.btn-careers:hover{
 
     opacity: .5;
     transition: opacity .15s ease, color .15s ease;
+
+    height: 100vh;
 }
 .arrow-prev:hover, .arrow-prev:focus, .arrow-prev:hover .glyphicon, .arrow-prev:focus .glyphicon, .arrow-next:hover, .arrow-next:focus{
     color: #fec111;
@@ -210,10 +208,10 @@ a.btn-careers:hover{
     opacity: 1;
 }
 .arrow-prev:hover, .arrow-prev:focus{
-    background: linear-gradient(90deg, #000, transparent);
+    background: linear-gradient(90deg, #001c3d, transparent);
 }
 .arrow-next:hover, .arrow-next:focus{
-    background: linear-gradient(270deg, #000, transparent);
+    background: linear-gradient(270deg, #001c3d, transparent);
 }
 .arrow-prev{
     left: 0;
@@ -222,8 +220,10 @@ a.btn-careers:hover{
     right: 0;
 }
 .arrow-more .glyphicon{
-    top: -23rem;
-    color: #000;
+    color: #001c3d;
+}
+.arrow-more:hover, .arrow-more:focus{
+    background: none;
 }
 
 /* Yellow button */
@@ -290,13 +290,16 @@ a.btn-careers:hover{
     min-height: 70rem;
     height: 100vh;
     border-top: 1px solid #001c3d;
+
+    display: flex;
+    align-items: center;
 }
 .header-text-container{
     color:#000;
 
-    position: absolute;
+    /* position: absolute;
     left: 15%;
-    top: 15%;
+    top: 15%; */
 }
 #header-civilian .header-text-container{
     color: #fff;
@@ -309,10 +312,10 @@ a.btn-careers:hover{
     margin-bottom: 4rem;
     color: #000;
 }
-#header-more .container{
+/* #header-more .container{
     width: 80%;
     margin-left: 15%;
-}
+} */
 .header-description{
     padding: 2rem 0;
 }
@@ -338,10 +341,10 @@ a.btn-careers:hover{
     color: #fff;
 }
 #header-more{
-    background: linear-gradient(180deg, #f3f3f3, #b3b3b3);
+    background: #f3f3f3;
     position: relative;
 
-    color:#000;
+    color:#001c3d;
     padding-bottom: 4rem;
 }
 
@@ -350,17 +353,17 @@ a.btn-careers:hover{
     width: 100%;
     height: 100%;
 }
-#header-police-xs .header-container-xs{
+/* #header-police-xs .header-container-xs{
     background: linear-gradient(90deg, #ffffff80, transparent 40%);
 }
 #header-civilian-xs .header-container-xs{
     background: linear-gradient(90deg, #00000080, transparent 40%);
 }
 #header-more-xs .header-container-xs{
-    background: linear-gradient(180deg, #ffffff80 13rem, transparent);
-}
+    background: #f3f3f3;
+} */
 #header-more-xs{
-    background-color: #b3b3b3;
+    background-color: #f3f3f3;
 
     min-height: 50rem;
     padding-bottom: 2rem;
@@ -369,14 +372,14 @@ a.btn-careers:hover{
     border-top: 1px solid;
 }
 #header-more-xs h2{
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 #header-police-xs .header-text-container-xs, #header-civilian-xs .header-text-container-xs{
     width: 65%;
     padding: 2rem;
 }
 .header-text-container-xs h2{
-    margin-top: 2rem;
+    margin-top: 3rem;
     font-size: 5rem;
 }
 .header-text-container-xs p{
@@ -391,7 +394,10 @@ a.btn-careers:hover{
 }
 
 /* Cards for "More opportunities" */
-.opp-card{
+#header-more .c-grid-container{
+    padding: 0;
+}
+.c-card{
     padding: 0;
 
     border-width: 0;
@@ -403,35 +409,37 @@ a.btn-careers:hover{
 
     background-color: #fff;
 
-    height: 47rem;
-    max-width: 36rem;
-
-    position: relative;
+    display: flex;
+    flex-direction: column;
 }
-.opp-card img{
+.c-card img{
     border-top-left-radius: 0.4rem;
     border-top-right-radius: 0.4rem;
 }
-.opp-card-container{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
+.c-card-container{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
 
     border-top: 0.025rem solid #fff;
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
-.opp-card-container p{
+.c-card-container p{
     font-size: 1.8rem;
+
+    flex: 1;
 }
-.opp-card a{
+.c-card a{
     text-underline-offset: 0.2rem;
 }
-.opp-card .btn-careers-outline{
-    position: absolute;
-    bottom: 3rem;
-    width: 94%;
+.c-card .btn-careers-outline{
+    width: 100%;
 }
 
-.opp-card-xs{
+.c-card-xs{
     background: #fff;
     color: #0c0b0e;
 
@@ -742,46 +750,46 @@ a.btn-careers:hover{
 }
 
 /* Dedicated recruitment streams */
-.po-drs{
+.c-grid-container{
     width: 100%;
 
     padding: 6rem;
 
     background: #f3f3f3;
 }
-.po-drs h2{
+.c-grid-container h2{
     margin-bottom: 3rem;
     margin-top: 0;
 }
-.po-drs>p{
+.c-grid-container>p{
     margin-bottom: 6rem;
 }
-.po-drs-grid{
+.c-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 3rem;
     justify-items: center;
 }
-.po-drs-grid .opp-card{
+.c-grid .c-card{
     height: unset;
 }
 @media (max-width: 767px) {
-    .po-drs{
+    .c-grid-container{
         padding: 4rem 3rem;
     }
-    .po-drs h2{
+    .c-grid-container h2{
         margin-bottom: 3rem;
         margin-left: 0;
     }
-    .po-drs>p{
+    .c-grid-container>p{
         margin-left: 0;
     }
-    .po-drs-grid {
+    .c-grid {
         grid-template-columns: 1fr;
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
-    .po-drs-grid{
+    .c-grid{
         grid-template-columns: 1fr 1fr;
     }
 }
@@ -1021,22 +1029,22 @@ a.btn-careers:hover{
 
     width: 50%;
 }
-.landing-text .po-drs{
+.landing-text .c-grid-container{
     margin-top: 4rem;
     padding: 0;
 
     background: unset;
 }
-.landing-text .po-drs-grid{
+.landing-text .c-grid{
     gap: 3rem;
 }
-.po-drs-1{
+.c-grid-1{
     grid-template-columns: 1fr 1fr;
 }
-.po-drs-2{
+.c-grid-2{
     grid-template-columns: 1fr 1fr;
 }
-.po-drs-3{
+.c-grid-3{
     grid-template-columns: 1fr 1fr 1fr;
 }
 @media (max-width: 767px) {

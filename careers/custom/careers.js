@@ -84,15 +84,12 @@ function arrow(direction){
 var collapseContent = document.getElementById("careers-nav-sm-collapse");
 var collapseButton = document.getElementById("careers-nav-sm-toggle");
 function navcollapse(){
-     console.log('c');
      if(collapseContent.classList.contains("collapse")){
           collapseContent.classList.replace("collapse", "active");
           collapseButton.ariaExpanded = "true";
-          console.log('c1');
      }
      else if (collapseContent.classList.contains("active")){
           collapseContent.classList.replace("active", "collapse");
           collapseButton.ariaExpanded = "false";
-          console.log('c2');
      }
 }

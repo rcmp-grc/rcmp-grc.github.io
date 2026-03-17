@@ -1,12 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
-html{
-    /* font-size: 16px; */
+/* Loader */
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    transition: opacity 0.3s ease;
 }
+
+#loader.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.cnt-wdth-lmtd main h2 {
+    max-width: 50ch;
+}
+/* End Loader */
+
 main{
     margin-bottom: -1.2rem;
 }
+
+/* Fonts */
 .oswald-500 {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
@@ -22,35 +58,21 @@ main{
 .uppercase{
     text-transform: uppercase !important;
 }
-.color-black{
-    color: #000 !important;
-}
-.float-r{
-    float: right;
-}
-.float-l{
-    float: left;
-}
-a.btn-careers:visited{
-    color: #0c0b0e;
-}
-a.btn-careers:hover{
-    text-decoration: none;
-}
-.careers-quote{
-    border-color: #fec111;
-}
-
 #careers-page{
     font-family: 'Lato', sans-serif !important;
 }
 
+/* Blockquote line */
+.careers-quote{
+    border-color: #fec111;
+}
+
+/* Home page hero */
 .hero-content{
     padding-left: 0;
     padding-right: 0;
     min-height: 70rem;   
 }
-
 @media (max-width: 767px) {
     .hero-content {
         min-height: unset;
@@ -64,9 +86,6 @@ a.btn-careers:hover{
     top: 0;
     z-index: 100;
 }
-/* .careers-nav-container .container{
-    width: 76rem !important;
-} */
 .careers-nav{
     display: flex;
     flex-wrap: wrap;
@@ -105,7 +124,7 @@ a.btn-careers:hover{
 .careers-nav .btn-careers{
     margin-left: auto;
 }
-
+/* Mobile navigation */
 .careers-nav-sm{
     padding: 1rem 0;
 
@@ -178,7 +197,7 @@ a.btn-careers:hover{
     color: #fff;
 }
 
-
+/* Home page section navigation */
 .arrow-prev, .arrow-next{
     position: absolute;
     top: 0;
@@ -198,8 +217,6 @@ a.btn-careers:hover{
 
     opacity: .5;
     transition: opacity .15s ease, color .15s ease;
-
-    height: 100vh;
 }
 .arrow-prev:hover, .arrow-prev:focus, .arrow-prev:hover .glyphicon, .arrow-prev:focus .glyphicon, .arrow-next:hover, .arrow-next:focus{
     color: #fec111;
@@ -222,9 +239,7 @@ a.btn-careers:hover{
 .arrow-more .glyphicon{
     color: #001c3d;
 }
-.arrow-more:hover, .arrow-more:focus{
-    background: none;
-}
+
 
 /* Yellow button */
 .btn-careers{
@@ -238,6 +253,12 @@ a.btn-careers:hover{
     background-color: #0c0b0e;
     color: #fff !important;
     border: 1px solid #fec111;
+}
+a.btn-careers:visited{
+    color: #0c0b0e;
+}
+a.btn-careers:hover{
+    text-decoration: none;
 }
 
 /* Grey button */
@@ -254,7 +275,7 @@ a.btn-careers:hover{
     border: 1px solid #0c0b0e;
 }
 
-/* Yellow outline, transparent background */
+/* Yellow outline, transparent background button */
 .btn-careers-outline{
     background-color: unset;
     color: #0c0b0e;
@@ -266,7 +287,7 @@ a.btn-careers:hover{
     color: #0c0b0e;
 }
 
-/* No outline, underline */
+/* No outline, underline button */
 .btn-careers-plain{
     background: none;
     /* color: #000; */
@@ -285,7 +306,7 @@ a.btn-careers:hover{
     text-underline-offset: 1rem;
 }
 
-/* Main content */
+/* Home page main content */
 #header-police, #header-civilian{
     min-height: 70rem;
     height: 100vh;
@@ -296,13 +317,10 @@ a.btn-careers:hover{
 }
 .header-text-container{
     color:#000;
-
-    /* position: absolute;
-    left: 15%;
-    top: 15%; */
 }
 #header-civilian .header-text-container{
     color: #fff;
+    margin-left: 15%;
 }
 .header-text-container h2{
     font-size: 8rem;
@@ -312,16 +330,15 @@ a.btn-careers:hover{
     margin-bottom: 4rem;
     color: #000;
 }
-/* #header-more .container{
-    width: 80%;
+#header-more .container{
     margin-left: 15%;
-} */
+}
 .header-description{
     padding: 2rem 0;
 }
 
 
-/* Backgrounds */
+/* Home page backgrounds */
 #header-police, #header-police-xs{
     background-image: url('../img/hero-police-officer.jpg');
     background-size: cover;
@@ -348,20 +365,11 @@ a.btn-careers:hover{
     padding-bottom: 4rem;
 }
 
-/* Mobile formatting */
+/* Home page mobile formatting */
 .header-container-xs{
     width: 100%;
     height: 100%;
 }
-/* #header-police-xs .header-container-xs{
-    background: linear-gradient(90deg, #ffffff80, transparent 40%);
-}
-#header-civilian-xs .header-container-xs{
-    background: linear-gradient(90deg, #00000080, transparent 40%);
-}
-#header-more-xs .header-container-xs{
-    background: #f3f3f3;
-} */
 #header-more-xs{
     background-color: #f3f3f3;
 
@@ -393,7 +401,7 @@ a.btn-careers:hover{
     color: #000;
 }
 
-/* Cards for "More opportunities" */
+/* Cards for page links */
 #header-more .c-grid-container{
     padding: 0;
 }
@@ -465,22 +473,7 @@ a.btn-careers:hover{
     text-decoration: underline !important;
 }
 
-/* Contact us footer */
-/* .careers-footer-contact{
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    z-index: 100;
-}
-.careers-footer-contact .btn-contact{
-    padding-left: 10rem;
-    padding-right: 10rem;
-    padding-top: 1rem;
-    border-radius: 0;
-
-    color: #0c0b0e;
-} */
-
+/* Sticky "Contact a recruiter" button */
 .footer-contact{
     position: sticky;
     bottom: 0;
@@ -560,43 +553,7 @@ a.btn-careers:hover{
     border-top: 1rem solid #fec111;
     width: 50%;
 }
-.ready-link, .ready-link:visited{
-    color: #fff;
-    position: relative;
-
-    margin-left: 4rem;
-
-    width: fit-content;
-}
-.ready-link svg, .ready-link:visited svg{
-    fill: #fff;
-
-    border-bottom: 0.3rem solid #fff;
-    
-    position: absolute;
-    top: -0.3rem;
-    left: -4rem;
-}
-.ready-link:hover, .ready-link:visited:hover{
-    color: #fec111;
-}
-.ready-link:focus{
-    color: #fec111;
-
-    outline: 0.1rem solid #fec111;
-    outline-offset: 0.5rem;
-}
-.ready-link:hover svg, .ready-link:focus svg, .ready-link:visited:hover svg{
-    fill: #fec111;
-    border-color: #fec111;
-}
-.ready-link{
-    font-size: 3.5rem;
-}
-.ready-link svg{
-    width: 4rem;
-}
-
+/* "Check your readiness" button */
 .ready-btn, .ready-btn:visited{
     color: #fff;
 
@@ -694,7 +651,7 @@ a.btn-careers:hover{
 }
 
 /* Services and information */
-.po-links{
+.si-links{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3rem;
@@ -703,19 +660,19 @@ a.btn-careers:hover{
     padding: 6rem;
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    .po-links{
+    .si-links{
         grid-template-columns: 1fr 1fr;
     }
 }
 @media (max-width: 767px) {
-    .po-links{
+    .si-links{
         grid-template-columns: 1fr;
         gap: 3rem 6rem;
 
         padding: 3rem 3rem;
     }
 }
-.po-card{
+.si-card{
     display: flex;
     gap: 5rem;
     flex-direction: column;
@@ -731,25 +688,25 @@ a.btn-careers:hover{
     box-shadow: 0rem 0.3rem 0.8rem #9b9b9b;
 }
 @media (max-width: 767px) {
-    .po-card{
+    .si-card{
         padding: 0;
 
         box-shadow: unset;
     }
 }
-.po-card svg{
+.si-card svg{
     width: 4rem;
     margin-right: 1rem;
     margin-bottom: -1rem;
 
     fill: #000053;
 }
-.po-card h3{
+.si-card h3{
     margin-top: 0;
     line-height: 4rem;
 }
 
-/* Dedicated recruitment streams */
+/* Card grids */
 .c-grid-container{
     width: 100%;
 
@@ -838,7 +795,7 @@ a.btn-careers:hover{
 .po-ribbon-text h2:first-of-type{
     margin-top: 0;
 }
-/* Mobile life */
+/* Mobile ribbon */
 @media (max-width: 767px) {
     .po-ribbon{
         grid-template-columns: 1fr;
@@ -893,10 +850,6 @@ a.btn-careers:hover{
     border-top-right-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
 }
-.event-card-cancel{
-    background: #d6d9dd;
-    color: #545961;
-}
 /* Mobile events */
 @media (min-width: 768px) and (max-width: 1125px) {
     .po-events-cards{
@@ -919,15 +872,6 @@ a.btn-careers:hover{
     background-repeat: no-repeat;
     height: 80vh;
     background-position: center;
-}
-.po-end-1{
-    background-image: url('../img/po-end.jpg');
-}
-.po-end-2{
-    background-image: url('../img/program-careers.jpg');
-}
-.po-end-3{
-    background-image: url('../img/po-end-2.png');
 }
 .po-end-gradient{
     background: linear-gradient(180deg, #fff 5%, transparent 20%);
@@ -1002,7 +946,7 @@ a.btn-careers:hover{
     }
 }
 
-/* Landing page */
+/* Landing page (tertiary page) */
 .landing-header-img{
     background: url('../img/indigenous-recruiting.jpg');
     background-repeat: no-repeat;
@@ -1039,6 +983,7 @@ a.btn-careers:hover{
 .landing-text .c-grid{
     gap: 3rem;
 }
+/* Card grid layouts */
 .c-grid-1{
     grid-template-columns: 1fr 1fr;
 }

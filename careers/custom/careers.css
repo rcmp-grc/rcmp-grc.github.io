@@ -773,7 +773,6 @@ a.btn-careers:hover{
 }
 .po-ribbon-img img{
     height: 100%;
-    width: 90%;
     
     object-fit: cover;
 }
@@ -967,12 +966,10 @@ a.btn-careers:hover{
 .landing-title h1{
     margin-top: 0;
     font-size: 6rem;
-}
-.landing-title hr{
-    border-color: #fec111;
-    border-width: 0.5rem;
 
-    width: 50%;
+    border-bottom: 0.5rem solid #fec111;
+    border-image: linear-gradient(to right, #fec111 50%, transparent 50%);
+    border-image-slice: 1;
 }
 .landing-text .c-grid-container{
     margin-top: 4rem;
@@ -993,7 +990,10 @@ a.btn-careers:hover{
 .c-grid-3{
     grid-template-columns: 1fr 1fr 1fr;
 }
-@media (max-width: 767px) {
+@media (max-width: 1280px) {
+    .landing-title{
+        width: 100%;
+    }
     .landing-header-img{
         background-position-y: 0;
         height: 20rem;
@@ -1008,9 +1008,9 @@ a.btn-careers:hover{
 
 /* Generic page */
 .generic-content h1{
-    text-decoration: underline;
-    text-decoration-color: #fec111;
-    text-underline-offset: 1rem;
+    border-bottom: 0.5rem solid #fec111;
+    border-image: linear-gradient(to right, #fec111 25%, transparent 25%);
+    border-image-slice: 1;
 
     font-size: 4rem;
     line-height: 1.5;

@@ -767,23 +767,21 @@ a.btn-careers:hover{
 }
 .po-ribbon-img{
     display: flex;
-    align-items: flex-end;
-
-    padding-top: 6rem;
+    align-items: center;
 }
 .po-ribbon-img img{
-    height: 100%;
-    
-    object-fit: cover;
+    object-fit: contain;
 }
 .po-ribbon-img-left img{
     border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 .po-ribbon-img-right{
     justify-content: flex-end;
 }
 .po-ribbon-img-right img{
     border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 .po-ribbon-dark .po-ribbon-text{
     padding: 6rem;

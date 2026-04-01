@@ -755,6 +755,7 @@ a.btn-careers:hover{
 /* Police officer ribbons */
 .po-ribbon{
     display: grid;
+    padding: 4rem 0;
 }
 .po-ribbon-dark{
     background-color: #001c3d;
@@ -1197,4 +1198,44 @@ a.btn-careers:hover{
     .gc-subway-section{
         padding-top: 0;
     }
+}
+
+/* Recruitment events table */
+.event-td{
+    border: 1px solid #0c0b0e;
+    border-top-style: solid;
+    border-radius: 5px;
+
+    padding: 2rem;
+    margin: 1rem 0;
+
+    position: relative;
+    display: block;
+}
+.event-card svg {
+    height: 2.4rem;
+    margin-bottom: -0.4rem;
+
+    fill: #000053;
+}
+.event-td-location{
+    position: absolute;
+    background: #fec111;
+    padding: 0.5rem 1rem;
+    top: 0;
+    right: 0;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.event-td-job{
+    position: absolute;
+    background: #f3f3f3;
+    padding: 0.5rem 1rem;
+
+    top: 0;
+    left: 0;
+
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
 }

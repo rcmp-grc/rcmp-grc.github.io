@@ -1290,8 +1290,28 @@ button, [type="button"], [type="reset"], [type="submit"]{
     border-radius: 6px;
 }
 
+#quiz-form{
+    border: 0.2rem solid #fec111;
+    border-radius: 1rem;
+
+    padding: 3rem;
+    margin-top: 6rem;
+}
+
 .question-container {
     margin-bottom: 30px;
+}
+
+.question-title{
+    background: #fff;
+
+    margin-left: -0.3em;
+    margin-top: -4.6rem;
+
+    width: fit-content;
+
+    padding-left: 0.8rem;
+    padding-right: 1rem;
 }
 
 .question-details {
@@ -1302,18 +1322,22 @@ button, [type="button"], [type="reset"], [type="submit"]{
     border: 0.1rem solid #dee2e6;
 }
 
-.question-details p, .question-details li{
+.question-details p, .question-details li, .question-legend p, .question-legend li{
     font-size: 2rem;
-    line-height: 3.3rem;
+    line-height: 1.65;
 }
 
-.question-details ul {
+.question-details ul, .question-legend ul {
     margin-left: 2rem;
     margin-top: 1rem;
 }
 
-.question-details li {
+.question-details li, .question-legend li {
     margin-bottom: 1rem;
+}
+
+.question-legend p:first-child{
+    font-size: 2.4rem;
 }
 
 .did-you-know {
@@ -1325,6 +1349,9 @@ button, [type="button"], [type="reset"], [type="submit"]{
     border: 2px solid #fec111;
 
     width: fit-content;
+
+    font-size: 2rem;
+    line-height: 1.65;
 }
 
 .did-you-know.show {
@@ -1350,6 +1377,10 @@ button, [type="button"], [type="reset"], [type="submit"]{
     margin: 0;
 }
 
+.did-you-know a, .did-you-know a:visited{
+    color: #fff;
+}
+
 .results {
     padding: 40px 20px;
 }
@@ -1363,8 +1394,11 @@ button, [type="button"], [type="reset"], [type="submit"]{
 .results-content {
     margin-bottom: 30px;
 }
-.results.success .results-content{    
+.results.success .results-content,.results.success .results-content ol, .results.success .results-content li a, .results.success .results-content li a:visited{    
     color: #fff;
+}
+.results.success .results-content li a:hover, .results.success .results-content li a:visited:hover{
+    color: #fec111;
 }
 
 .results .restart-button {
@@ -1393,34 +1427,6 @@ button, [type="button"], [type="reset"], [type="submit"]{
     margin-top: 0;
 }
 
-/* .restart-button,
-.apply-button {
-    padding: 15px 40px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    background-color: #b50315;
-    color: white;
-    border: 2px solid #b50315;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-    min-height: 56px;
-    text-decoration: none;
-    display: inline-block;
-}
-
-.restart-button:hover,
-.apply-button:hover {
-    background-color: #8f0210;
-    border-color: #8f0210;
-}
-
-.restart-button:focus,
-.apply-button:focus {
-    outline: 3px solid #fec111;
-    outline-offset: 2px;
-} */
-
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -1448,7 +1454,7 @@ button, [type="button"], [type="reset"], [type="submit"]{
 }
 
 .radio-label {
-    border: 2px solid #001c3d;
+    border: 0.1rem solid #001c3d;
     border-radius: 0.5rem;
     cursor: pointer;
     transition: all 0.2s ease;
@@ -1459,6 +1465,9 @@ button, [type="button"], [type="reset"], [type="submit"]{
     display: flex;
     align-items: center;
     justify-content: center;
+
+    font-size: 2rem;
+    line-height: 1.65;
 }
 
 .radio-option input[type="radio"]:checked + .radio-label {

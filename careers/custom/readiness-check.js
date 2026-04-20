@@ -2,84 +2,85 @@ const questions = [
     {
         number: 1,
         title: "Operational driving",
-        details: "<abbr>RCMP</abbr> officers are expected to handle driving in various scenarios.",
-        bullets: [
-            "Emergency response driving",
-            "Pursuit scenarios",
-            "Rural and remote terrain driving",
-            "Extreme weather conditions",
-            "Transporting detainees"
+        details: "<abbr>RCMP</abbr> officers are expected to handle driving in various scenarios with confidence.",
+        bullets: [],
+        question: "Would you be comfortable driving in these conditions?",
+        questionBullets: [
+            "emergency response driving, driving fast",
+            "pursuit scenarios, chasing another vehicle",
+            "rural and remote rough terrain driving",
+            "extreme weather conditions",
+            "transporting people who are in custody"
         ],
-        question: "Would you be comfortable driving in the following scenarios?",
-        info: "You must have a valid unrestricted Canadian driver's licence to apply to be a police officer. An unrestricted licence means you can drive unsupervised at any time, on any road, with passengers. In addition, applicants must be confident drivers, capable of driving in various scenarios."
+        info: "You must have a valid, unrestricted Canadian driver's licence before you apply. That proves you can drive unsupervised at any time, on any road, with as many passengers as there are seatbelts."
     },
     {
         number: 2,
-        title: "First Aid certification",
-        details: "You must have a valid Standard First Aid certification.",
+        title: "Use of force, firearms and other police tools",
+        details: "As a police officer, your main responsibility is to protect life, including your own. When you respond to an incident, you will need to make sound, timely decisions, and take the appropriate action. You're required to carry and use firearms and other police tools as needed. Some of these tools include:",
         bullets: [
-            "Providing immediate, basic medical assistance",
-            "Seeking and calling for medical assistance",
-            "Documenting and reporting incidents"
+            "firearms (pistols)",
+            "Oleoresin Capsicum (pepper) spray",
+            "handcuffs",
+            "conducted energy weapons (Taser)",
+            "batons"
         ],
-        question: "Would you feel comfortable carrying out the following expectations in case of emergency?",
-        info: "As a police officer you may often be the first responder to a scene, you must be comfortable assessing the situation and providing standard First Aid support. You must have Level C <abbr>CPR</abbr> for infant, child and adult. Proof of your certification will be requested during the application process and must be valid during your cadet training if you advance in the process."
+        question: "Would you be comfortable taking the following actions as needed?",
+        questionBullets: [
+            "restraining a person with handcuffs",
+            "causing injury in effort to control a person physically (for example, punching or kicking)",
+            "using aerosols or a baton (not for causing serious injury)",
+            "using lethal force (likely causing life-threatening injury or death)"
+        ],
+        info: "During cadet training at Depot, you will learn how to safely handle a firearm and various other police tools used to diffuse an incident.   Every use of force is documented. Officers must be ready to justify actions in reports and potentially in court."
     },
     {
         number: 3,
-        title: "Operational decision-making and the use of force",
-        details: "As a police officer you are required to make sound, time-sensitive decisions, and at times apply the use of force.",
-        bullets: [],
-        question: "Would you be comfortable making timely decisions and using force as needed?",
-        info: "Operational decision-making and the use of force are two of four critical health requirements related to the role of a police officer."
+        title: "Physical fitness",
+        details: "Policing is a physically demanding job. You must be physically fit before arriving at Depot for cadet training. To be fit for Depot, you should be able to:",
+        bullets: [
+            "run 5 km without stopping in 30 to 35 minutes",
+            "do 10 or more push-ups in a row from your toes and your chin or chest to the ground",
+            "lift and carry 45 lbs of weight 50 metres without stopping for rest",
+            "do an intense 30-minute workout that keeps your heart rate up the entire time",
+            "exercise 5 days per week",
+        ],
+        question: "Do you currently meet these fitness standards?",
+        questionBullets: [],
+        info: "Arrive to the <abbr>RCMP</abbr> Training Academy ready to pass the <a href='#'>Police Fitness Assessment</a> within the first few weeks of the training program."
     },
     {
         number: 4,
-        title: "Use of firearms and other intervention equipment",
-        details: "As a police officer you are required to carry and use a firearm and other intervention tools as needed.",
+        title: "6-month training",
+        details: "",
         bullets: [],
-        question: "Are you prepared and able to use and carry a firearm and other intervention tools as needed to support your duties?",
-        info: "Police officers must maintain public order and safety, which includes using intervention techniques and firearms when required. If you're not comfortable with this, a career in policing may not be the right fit for you."
+        question: "Are you willing to:",
+        questionBullets: [
+            "spend 6 months in Regina, Saskatchewan at the <abbr>RCMP</abbr> training academy",
+            "be away from friends and family",
+            "live in co-ed dorms onsite at Depot",
+            "learn and study Canadian law",
+            "adhere to the <abbr>RCMP</abbr>'s core values (<a href=\"https://rcmp.ca/en/corporate-information/royal-canadian-mounted-police-core-values\">responsibility, respect, excellence, compassion and integrity</a>)"
+        ],
+        info: "Training is a full-time commitment with evening and weekend assignments. The environment is meant to challenge you. Remember, your training contract may be terminated from the Cadet Training Program for violations of core values. If you are terminated, you may be subject to repay your training allowance (up to $26,000)."
     },
     {
         number: 5,
-        title: "Physical fitness",
-        details: "Policing is a physically demanding job. Police officers are required to successfully complete the Police Fitness Assessment to be considered fit for duty.</p><p>Cadets are expected to be able to be able to run 5 kilometres in 30 minutes as the minimum standard.",
+        title: "Relocation",
+        details: "",
         bullets: [],
-        question: "Are you in good physical shape and prepared for the demands of police work and the Cadet Training Program?",
-        info: "Applicant must arrive to Cadet training fit and ready to meet the physical demands of policing. Cadet training at Depot isn't designed to build fitness. Arriving unprepared increases risk of injury and makes training harder."
+        question: "Are you willing to move anywhere in Canada after graduation from the Cadet Training Program?",
+        questionBullets: [],
+        info: "The <abbr>RCMP</abbr> is a national police service. While preference is considered, postings are based on operational needs, including northern and remote regions."
     },
     {
         number: 6,
-        title: "Training commitment",
+        title: "Shift work",
         details: "",
         bullets: [],
-        question: "Are you willing to spend 26 weeks living on-site at Depot, the <abbr>RCMP</abbr>'s training academy in Saskatchewan?",
-        info: "Training is full-time and includes evenings and weekends. Food, accommodation, and a weekly allowance are provided."
-    },
-    {
-        number: 7,
-        title: "Mobility",
-        details: "",
-        bullets: [],
-        question: "Are you willing to relocate anywhere within Canada after graduation from the Cadet Training Program?",
-        info: "The <abbr>RCMP</abbr> is a national service. While preference is a consideration, postings are ultimately based on operational needs."
-    },
-    {
-        number: 8,
-        title: "Flexibility to shift work",
-        details: "",
-        bullets: [],
-        question: "Are you willing to work shift work, including nights, weekends, and holidays?",
-        info: "Policing is a 24/7 service. You can expect to work irregular hours and holiday shifts as needed."
-    },
-    {
-        number: 9,
-        title: "Legal requirements",
-        details: "",
-        bullets: [],
-        question: "Are you a law-abiding citizen and prepared to disclose any past criminal records, and be open to a full criminal records check?",
-        info: "Police officers should uphold the law and must not be engaged in any criminal activities. Review the criminal activities and misconduct that could prevent you from being successful in your application."
+        question: "Are you willing to work nights, weekends, and/or holidays?",
+        questionBullets: [],
+        info: "Policing is a 24/7 service. You will need to respond to a call if it happens within your shift. You will be asked to stay late. While on-call, you may get called in outside of regular hours, including overnight.  You will be compensated for any overtime worked."
     }
 ];
 
@@ -119,8 +120,11 @@ function renderQuestion() {
 
     if (question.details || question.bullets.length > 0) {
         html += '<div class="question-details">';
-        if (question.details) {
+        if (question.details && question.bullets.length > 0) {
             html += `<p>${question.details}</p>`;
+        }
+        else {
+            html += `<p class="mrgn-bttm-0">${question.details}</p>`;
         }
         if (question.bullets.length > 0) {
             html += '<ul>';
@@ -132,9 +136,20 @@ function renderQuestion() {
         html += '</div>';
     }
 
+    html += `<div class="question-legend" id="question-legend-${question.number}">
+                <p><strong>${question.question}</strong></p>
+    `;
+        if (question.questionBullets.length > 0) {
+            html += '<ul>';
+            question.questionBullets.forEach(bullet => {
+                html += `<li>${bullet}</li>`;
+            });
+            html += '</ul>';
+        }
+    html += '</div>';
+
     html += `
         <fieldset>
-            <legend id="question-legend-${question.number}">${question.question}</legend>
             <div class="radio-group" role="radiogroup" aria-labelledby="question-legend-${question.number}">
                 <div class="btn radio-option">
                     <input 
@@ -162,10 +177,7 @@ function renderQuestion() {
                 id="info-section-${question.number}"
                 role="region"
                 aria-label="Additional information">
-            <div class="did-you-know-header">
-                <i class="fas fa-lightbulb" aria-hidden="true"></i>
-                <span>Did you know?</span>
-            </div>
+            
             <p>${question.info}</p>
         </div>
     `;
@@ -231,6 +243,8 @@ function updateProgress() {
     progressPercent.textContent = Math.round(progress) + '%';
 }
 
+var elementOffset = document.querySelector('#quiz-section');
+
 function showResults() {
     const yesCount = answers.filter(a => a === 'yes').length;
     const noCount = answers.filter(a => a === 'no').length;
@@ -242,16 +256,14 @@ function showResults() {
             <div class="results success">
                 <h2 id="results-heading" class="oswald-500 uppercase">Congratulations!</h2>
                 <div class="results-content">
-                    <p>Looks like you are suited to be an <abbr>RCMP</abbr> police officer. If you've already reviewed the basic requirements, read through the application process to know what you can expect.</p>
+                    <p>Looks like you might have what it takes to be an <abbr>RCMP</abbr> police officer. Next steps:</p>
+
+                    <ol>
+                        <li><a href="#">Review the basic requirements</a></li>
+                        <li><a href="#">Learn about the application process</a></li>
+                        <li><a href="#">Apply now</a></li>
+                    </ol>
                 </div>
-                <a href="https://rcmp.ca/en/careers-rcmp/police-officer-careers" 
-                    class="btn btn-careers" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    aria-label="Apply now - Opens in a new window">
-                    Apply now
-                    <span class="sr-only">(opens in new window)</span>
-                </a>
             </div>
         `;
     } else {
@@ -259,8 +271,84 @@ function showResults() {
             <div class="results warning">
                 <h2 id="results-heading" class="oswald-500 uppercase">Additional preparation needed</h2>
                 <div class="results-content">
-                    <p>Looks like you don't meet all the requirements just yet. Before you apply, review the basic requirements to be an <abbr>RCMP</abbr> police officer to make sure you're fit and ready for a career in policing.</p>
-                    <p style="margin-top: 15px;">You answered "Yes" to ${yesCount} out of ${questions.length} questions.</p>
+                    <p>Looks like you're not ready to apply. Review the <a href="#">basic requirements</a> to be an RCMP police officer to make sure you're fit and ready for a career in policing.</p>
+                    <p style="margin-top: 15px;"><strong>You answered "Yes" to ${yesCount} out of ${questions.length} questions.</strong></p>
+                    <p>Take a closer look at the requirement(s):</p>
+                    <ul class="list-unstyled">
+                        <li>
+                            <details>
+                                <summary>Operational driving</summary>
+                                <p>RCMP officers are expected to handle driving in various scenarios with confidence.</p>
+                                <p>Would you be comfortable driving in these conditions?</p>
+                                <ul>
+                                    <li>emergency response driving, driving fast</li>
+                                    <li>pursuit scenarios, chasing another vehicle</li>
+                                    <li>rural and remote rough terrain driving</li>
+                                    <li>extreme weather conditions</li>
+                                    <li>transporting people who are in custody</li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Use of force, firearms and other police tools</summary>
+                                <p>As a police officer, your main responsibility is to protect life, including your own. When you respond to an incident, you will need to make sound, timely decisions, and take the appropriate action. You're required to carry and use firearms and other police tools as needed. Some of these tools include:</p>
+                                <ul>
+                                    <li>firearms (pistols)</li>
+                                    <li>Oleoresin Capsicum (pepper) spray</li>
+                                    <li>handcuffs</li>
+                                    <li>conducted energy weapons (Taser)</li>
+                                    <li>batons</li>
+                                </ul>
+                                <p>Would you be comfortable taking the following actions as needed?</p>
+                                <ul>
+                                    <li>restraining a person with handcuffs</li>
+                                    <li>causing injury in effort to control a person physically (for example, punching or kicking)</li>
+                                    <li>using aerosols or a baton (not for causing serious injury)</li>
+                                    <li>using lethal force (likely causing life-threatening injury or death)</li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Physical fitness</summary>
+                                <p>Policing is a physically demanding job. You must be physically fit before arriving at Depot for cadet training. To be fit for Depot, you should be able to:</p>
+                                <ul>
+                                    <li>run 5 km without stopping in 30 to 35 minutes</li>
+                                    <li>do 10 or more push-ups in a row from your toes and your chin or chest to the ground</li>
+                                    <li>lift and carry 45 lbs of weight 50 metres without stopping for rest</li>
+                                    <li>do an intense 30-minute workout that keeps your heart rate up the entire time</li>
+                                    <li>exercise 5 days per week</li>
+                                </ul>
+                                <p>Do you currently meet these fitness standards?</p>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>6-month training</summary>
+                                <p>Are you willing to:</p>
+                                <ul>
+                                    <li>spend 6 months in Regina, Saskatchewan at the <abbr>RCMP</abbr> training academy</li>
+                                    <li>be away from friends and family</li>
+                                    <li>live in co-ed dorms onsite at Depot</li>
+                                    <li>learn and study Canadian law</li>
+                                    <li>adhere to the <abbr>RCMP</abbr>'s core values (<a href="https://rcmp.ca/en/corporate-information/royal-canadian-mounted-police-core-values">responsibility, respect, excellence, compassion and integrity</a>)</li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Relocation</summary>
+                                <p>Are you willing to move anywhere in Canada after graduation from the Cadet Training Program?</p>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Shift work</summary>
+                                <p>Are you willing to work nights, weekends, and/or holidays?</p>
+                            </details>
+                        </li>
+                    </ul>
                 </div>
                 <button type="button" class="btn btn-careers" onclick="restartQuiz()">Start over</button>
             </div>
@@ -283,9 +371,12 @@ function showResults() {
         announce(`Quiz complete! You answered yes to ${yesCount} out of ${questions.length} questions. Additional preparation may be needed.`);
     }
     
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: elementOffset.offsetTop, behavior: 'smooth' });
 }
 
+function goToQuestion(number){
+
+}
 function restartQuiz() {
     currentQuestionIndex = 0;
     answers = new Array(questions.length).fill(null);
@@ -293,14 +384,14 @@ function restartQuiz() {
     resultsSection.classList.add('hidden');
     renderQuestion();
     announce('Quiz restarted. You are back at question 1.');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: elementOffset.offsetTop, behavior: 'smooth' });
 }
 
 prevButton.addEventListener('click', () => {
     if (currentQuestionIndex > 0) {
         currentQuestionIndex--;
         renderQuestion();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        window.scrollTo({ top: elementOffset.offsetTop, behavior: 'smooth' });
     }
 });
 
@@ -308,7 +399,7 @@ nextButton.addEventListener('click', () => {
     if (currentQuestionIndex < questions.length - 1) {
         currentQuestionIndex++;
         renderQuestion();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        window.scrollTo({ top: elementOffset.offsetTop, behavior: 'smooth' });
     } else {
         showResults();
     }

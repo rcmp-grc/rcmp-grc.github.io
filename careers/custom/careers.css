@@ -409,7 +409,7 @@ a.btn-careers:hover{
     padding: 0;
 
     border-width: 0;
-    border-radius: 0.4rem;
+    border-radius: 0.5rem;
 
     box-shadow: 0rem 0.3rem 0.8rem #9b9b9b;
 
@@ -451,7 +451,7 @@ a.btn-careers:hover{
     background: #fff;
     color: #0c0b0e;
 
-    border-radius: 0.4rem;
+    border-radius: 0.5rem;
 
     padding-bottom: 2rem;
 
@@ -555,35 +555,41 @@ a.btn-careers:hover{
 }
 /* "Check your readiness" button */
 .ready-btn, .ready-btn:visited{
-    color: #fff;
+    color: #0c0b0e;
 
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-weight: 600;
 
-    background: #001c3d;
+    background: #fec111;
 
-    padding: 2rem 1rem;
+    padding: 2rem 3rem;
 
-    border: 0.1rem solid #fec111;
-    border-radius: 0.5rem;
+    border: 0.1rem solid #001c3d;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem 0.1rem #001c3d;
 
     display: inline-flex;
     align-items: flex-end;
     justify-content: center;
+
+    gap: 1rem;
 }
 .ready-btn:hover, .ready-btn:active, .ready-btn:focus{
-    color: #001c3d;
-    background-color: #fec111;
+    color: #fff;
+    background-color: #001c3d;
+    border-color: #fec111;
+    box-shadow: 0 0 0.5rem 0.1rem #fec111;
 
     text-decoration: none;
 }
 .ready-btn:hover svg, .ready-btn:active svg, .ready-btn:focus svg{
-    fill: #001c3d;
+    fill: #fec111;
 }
 .ready-btn svg{
     height: 3.3rem;
     
-    fill: #fff;
+    fill: #0c0b0e;
 }
 /* Mobile header */
 .po-header-text-sm{
@@ -762,6 +768,9 @@ a.btn-careers:hover{
     color: #fff;
     grid-template-columns: 2fr 3fr;
 }
+.po-ribbon-dark a, .po-ribbon-dark a:visited{
+    color: #fff;
+}
 .po-ribbon-light{
     background-color: #f3f3f3;
     grid-template-columns: 3fr 2fr;
@@ -828,7 +837,7 @@ a.btn-careers:hover{
 }
 .event-card{
     border: 1px solid #0c0b0e;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     padding: 2rem;
 
     position: relative;
@@ -1203,7 +1212,7 @@ a.btn-careers:hover{
 /* Recruitment events table */
 .event-td{
     border: 1px solid #0c0b0e !important;
-    border-radius: 5px;
+    border-radius: 0.5rem;
 
     padding: 2rem !important;
     margin: 1rem 0;

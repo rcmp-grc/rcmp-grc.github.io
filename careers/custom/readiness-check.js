@@ -279,7 +279,8 @@ function showResults() {
             <div class="results success">
                 <h2 id="results-heading" class="oswald-500 uppercase">Congratulations!</h2>
                 <div class="results-content">
-                    <p>Looks like you might have what it takes to be an <abbr>RCMP</abbr> police officer. Next steps:</p>
+                    <p>Looks like you might have what it takes to be an <abbr>RCMP</abbr> police officer.</p>
+                    <p>Next steps:</p>
 
                     <ol>
                         <li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="Review the basic requirements - Opens in a new window">Review the basic requirements <span class="sr-only">(opens in new window)</span></a></li>
@@ -294,44 +295,18 @@ function showResults() {
             <div class="results warning">
                 <h2 id="results-heading" class="oswald-500 uppercase">Additional preparation needed</h2>
                 <div class="results-content">
-                    <p>Looks like you're not ready to apply. Review the <a href="#" target="_blank" rel="noopener noreferrer" aria-label="basic requirements - Opens in a new window">basic requirements <span class="sr-only">(opens in new window)</span></a> to be an RCMP police officer to make sure you're fit and ready for a career in policing.</p>
+                    <p>Looks like you're not ready to apply. Review the <a href="#" target="_blank" rel="noopener noreferrer" aria-label="basic requirements - Opens in a new window">basic requirements <span class="sr-only">(opens in new window)</span></a> to be an <abbr>RCMP</abbr> police officer to make sure you're fit and ready for a career in policing.</p>
                     <p style="margin-top: 15px;"><strong>You answered "Yes" to ${yesCount} out of ${questions.length} questions.</strong></p>
                     <p>Take a closer look at the requirement(s):</p>
-                    <ul class="list-unstyled">`;
+                    <ul>`;
 
-                    for (let i = 0; i < questions.length; i++) {
+                    for (let i = 0; i < answers.length; i++) {
+                        const answer = answers[i];
                         const question = questions[i];
                         
-                        html += `
-                            <li>
-                                <details>
-                                    <summary>${question.title}</summary>
-                                    <p>${question.details}</p>
-                                    <ul>`
-                                    
-                                if(question.bullets.length > 0){
-                                    question.bullets.forEach(bullet => {
-                                        html += `<li>${bullet}</li>`;
-                                    });
-                                }
-
-                        html += `
-                                    </ul>
-                                    <p><strong>${question.question}</strong></p>
-                                    <ul>`
-                                
-                                if(question.questionBullets.length > 0){
-                                    question.questionBullets.forEach(bullet => {
-                                        html += `<li>${bullet}</li>`;
-                                    });
-                                }
-
-                        html += `
-                                    </ul>
-                                    <p>${question.info}</p>
-                                </details>
-                            </li>
-                        `
+                        if(answer == "no"){
+                            html += `<li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="${question.title} - Opens in a new window">${question.title} <span class="sr-only">(opens in new window)</span></a></li>`;
+                        }
                     }
                         
         html += `

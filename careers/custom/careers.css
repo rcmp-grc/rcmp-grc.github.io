@@ -252,7 +252,7 @@ main{
 .btn-careers:hover, .btn-careers:active, .btn-careers:focus{
     background-color: #0c0b0e;
     color: #fff !important;
-    border: 1px solid #fec111;
+    outline: 1px solid #fec111;
 }
 a.btn-careers:visited{
     color: #0c0b0e;
@@ -272,14 +272,14 @@ a.btn-careers:hover{
 .btn-careers-grey:hover, .btn-careers-grey:active, .btn-careers-grey:focus{
     background-color: #0c0b0e;
     color: #fff !important;
-    border: 1px solid #0c0b0e;
+    outline: 1px solid #0c0b0e;
 }
 
 /* Yellow outline, transparent background button */
 .btn-careers-outline{
     background-color: unset;
     color: #0c0b0e;
-    border: 2px solid #fec111;
+    outline: 2px solid #fec111;
     font-weight: 600;
 }
 .btn-careers-outline:hover, .btn-careers-outline:active, .btn-careers-outline:focus{
@@ -649,7 +649,8 @@ a.btn-careers:hover{
         padding-left: 3rem;
     }
     .po-banner-text p:nth-child(1){
-        font-size: 4rem;
+        font-size: 3.8rem;
+        line-height: 1.4;
     }
     .po-banner-text p:nth-child(2){
         font-size: 2.5rem;
@@ -806,6 +807,7 @@ a.btn-careers:hover{
 @media (max-width: 767px) {
     .po-ribbon{
         grid-template-columns: 1fr;
+        padding-top: 0;
     }
     .po-ribbon-img{
         padding-top: 0;
@@ -1346,7 +1348,7 @@ button, [type="button"], [type="reset"], [type="submit"]{
     border-radius: 0.5rem;
     margin-top: 2rem;
     display: none;
-    border: 2px solid #fec111;
+    /* border: 2px solid #fec111; */
 
     width: fit-content;
 
@@ -1388,7 +1390,6 @@ button, [type="button"], [type="reset"], [type="submit"]{
 .results h2 {
     font-size: 3rem;
     margin-bottom: 2rem;
-    /* color: #1a1a1a; */
 }
 
 .results-content {
@@ -1408,12 +1409,11 @@ button, [type="button"], [type="reset"], [type="submit"]{
 
 .results.success {
     background-color: #001c3d;
-    border: 3px solid #fec111;
     border-radius: 0.5rem;
 }
 
 .results.success h2 {
-    color: #fec111;
+    color: #fff;
     margin-top: 0;
 }
 
@@ -1425,6 +1425,14 @@ button, [type="button"], [type="reset"], [type="submit"]{
 
 .results.warning h2 {
     margin-top: 0;
+}
+
+.results-content details, .results-content summary{
+    background: #fff;
+}
+.results-content details[open]>summary{
+    background: #fec111;
+    color: #0c0b0e;
 }
 
 .navigation {
@@ -1492,4 +1500,11 @@ button, [type="button"], [type="reset"], [type="submit"]{
     width: 1px;
     height: 1px;
     overflow: hidden;
+}
+
+button#prev-button, button#next-button {
+    padding: 1rem 3rem;
+    font-weight: 400;
+    line-height: 1.65;
+    border-radius: 0.4rem;
 }

@@ -12,7 +12,8 @@ const questions = [
             "show compassion toward people in crisis, including victims, offenders and vulnerable populations",
             "strive for excellence by accepting feedback, correction and high standards of conduct"
         ],
-        info: "The <abbr>RCMP</abbr> core values guide how officers treat the public, colleagues, partners and people in their care, especially in stressful or challenging situations.</p> <p>At Depot, failure to demonstrate these values (for example, through behaviour or conduct) will result in termination from the Cadet Training Program."
+        info: "The <abbr>RCMP</abbr> core values guide how officers treat the public, colleagues, partners and people in their care, especially in stressful or challenging situations.</p> <p>At Depot, failure to demonstrate these values (for example, through behaviour or conduct) will result in termination from the Cadet Training Program.",
+        link: "/careers/police-officer"
     },
     {
         number: 2,
@@ -27,7 +28,8 @@ const questions = [
             "extreme weather conditions",
             "transporting people who are in custody"
         ],
-        info: "You must have a valid, unrestricted Canadian driver's licence before you apply. That proves you can drive unsupervised at any time, on any road, with as many passengers as there are seatbelts."
+        info: "You must have a valid, unrestricted Canadian driver's licence before you apply. That proves you can drive unsupervised at any time, on any road, with as many passengers as there are seatbelts.",
+        link: "/careers/police-officer"
     },
     {
         number: 3,
@@ -47,7 +49,8 @@ const questions = [
             "using aerosols or a baton (not for causing serious injury)",
             "using lethal force (likely causing life-threatening injury or death)"
         ],
-        info: "During cadet training at Depot, you will learn how to safely handle a firearm and various other police tools used to diffuse an incident.   Every use of force is documented. Officers must be ready to justify actions in reports and potentially in court."
+        info: "During cadet training at Depot, you will learn how to safely handle a firearm and various other police tools used to diffuse an incident.   Every use of force is documented. Officers must be ready to justify actions in reports and potentially in court.",
+        link: "/careers/police-officer"
     },
     {
         number: 4,
@@ -62,7 +65,8 @@ const questions = [
         ],
         question: "Do you currently meet these fitness standards?",
         questionBullets: [],
-        info: "Arrive to the <abbr>RCMP</abbr> Training Academy ready to pass the <a href=\"#\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\" - Opens in a new window\">Police Fitness Assessment <span class=\"sr-only\">(opens in new window)</span></a> within the first few weeks of the training program."
+        info: "Arrive to the <abbr>RCMP</abbr> Training Academy ready to pass the <a href=\"#\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\" - Opens in a new window\">Police Fitness Assessment <span class=\"sr-only\">(opens in new window)</span></a> within the first few weeks of the training program.",
+        link: "/careers/police-officer"
     },
     {
         number: 5,
@@ -77,7 +81,8 @@ const questions = [
             "learn and study Canadian law",
             "adhere to the <abbr>RCMP</abbr>'s core values (<a href=\"https://rcmp.ca/en/corporate-information/royal-canadian-mounted-police-core-values\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\" responsibility, respect, excellence, compassion and integrity - Opens in a new window\">responsibility, respect, excellence, compassion and integrity <span class=\"sr-only\">(opens in new window)</span></a>)"
         ],
-        info: "Training is a full-time commitment with evening and weekend assignments. The environment is meant to challenge you. Remember, your training contract may be terminated from the Cadet Training Program for violations of core values. If you are terminated, you may be subject to repay your training allowance (up to $26,000)."
+        info: "Training is a full-time commitment with evening and weekend assignments. The environment is meant to challenge you. Remember, your training contract may be terminated from the Cadet Training Program for violations of core values. If you are terminated, you may be subject to repay your training allowance (up to $26,000).",
+        link: "/careers/police-officer"
     },
     {
         number: 6,
@@ -86,7 +91,8 @@ const questions = [
         bullets: [],
         question: "Are you willing to move anywhere in Canada after graduation from the Cadet Training Program?",
         questionBullets: [],
-        info: "The <abbr>RCMP</abbr> is a national police service. While preference is considered, postings are based on operational needs, including northern and remote regions."
+        info: "The <abbr>RCMP</abbr> is a national police service. While preference is considered, postings are based on operational needs, including northern and remote regions.",
+        link: "/careers/police-officer"
     },
     {
         number: 7,
@@ -95,7 +101,8 @@ const questions = [
         bullets: [],
         question: "Are you willing to work nights, weekends, and/or holidays?",
         questionBullets: [],
-        info: "Policing is a 24/7 service. You will need to respond to a call if it happens within your shift. You will be asked to stay late. While on-call, you may get called in outside of regular hours, including overnight.  You will be compensated for any overtime worked."
+        info: "Policing is a 24/7 service. You will need to respond to a call if it happens within your shift. You will be asked to stay late. While on-call, you may get called in outside of regular hours, including overnight.  You will be compensated for any overtime worked.",
+        link: "/careers/police-officer"
     }
 ];
 
@@ -300,12 +307,14 @@ function showResults() {
                     <p>Take a closer look at the requirement(s):</p>
                     <ul>`;
 
-                    for (let i = 0; i < answers.length; i++) {
-                        const answer = answers[i];
-                        const question = questions[i];
-                        
-                        if(answer == "no"){
-                            html += `<li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="${question.title} - Opens in a new window">${question.title} <span class="sr-only">(opens in new window)</span></a></li>`;
+                    if(answers.length > 0){
+                        for (let i = 0; i < answers.length; i++) {
+                            const answer = answers[i];
+                            const question = questions[i];
+                            
+                            if(answer == "no"){
+                                html += `<li><a href="${question.link}" target="_blank" rel="noopener noreferrer" aria-label="${question.title} - Opens in a new window">${question.title} <span class="sr-only">(opens in new window)</span></a></li>`;
+                            }
                         }
                     }
                         

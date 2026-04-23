@@ -2,15 +2,15 @@ const questions = [
     {
         number: 1,
         title: "<abbr>RCMP</abbr> core values",
-        details: "<abbr>RCMP</abbr> officers and cadets are expected to consistently live and demonstrate the <abbr>RCMP</abbr>'s core values; <strong>take responsibility, show respect, serve with excellence, demonstrate compassion and act with integrity</strong> both on and off duty.",
+        details: "<abbr>RCMP</abbr> officers and cadets are expected to consistently live and demonstrate the <abbr>RCMP</abbr>'s core values; <strong><a href=\"https://rcmp.ca/en/corporate-information/royal-canadian-mounted-police-core-values\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Royal Canadian Mounted Police core values - Opens in a new window\">take responsibility, show respect, serve with excellence, demonstrate compassion and act with integrity</a></strong> both on and off duty.",
         bullets: [],
-        question: "Are you prepared to live and be held accountable to the <abbr>RCMP</abbr>'s core values in all aspects of your life? This includes being willing to:",
+        question: "Are you willing to live by the <abbr>RCMP</abbr>'s core values in all areas of your life? This means:",
         questionBullets: [
-            "take responsibility for your actions, mistakes and decisions",
-            "treat all people with respect, even if they are disrespectful toward you",
-            "act with integrity, honesty and use ethical judgement, even when it is difficult or unpopular",
-            "show compassion toward people in crisis, including victims, offenders and vulnerable populations",
-            "strive for excellence by accepting feedback, correction and high standards of conduct"
+            "taking responsibility for your actions, mistakes and decisions",
+            "treating all people with respect, even if they are disrespectful toward you",
+            "acting with integrity, honesty and using ethical judgement, even when it is difficult or unpopular",
+            "showing compassion toward people in crisis, including victims, offenders and vulnerable populations",
+            "striving for excellence by accepting feedback, correction and high standards of conduct"
         ],
         info: "The <abbr>RCMP</abbr> core values guide how officers treat the public, colleagues, partners and people in their care, especially in stressful or challenging situations.</p> <p>At Depot, failure to demonstrate these values (for example, through behaviour or conduct) will result in termination from the Cadet Training Program.",
         link: "/careers/police-officer"
@@ -39,7 +39,7 @@ const questions = [
             "firearms (pistols)",
             "Oleoresin Capsicum (pepper) spray",
             "handcuffs",
-            "conducted energy weapons (Taser)",
+            "conducted energy weapons (taser)",
             "batons"
         ],
         question: "Would you be comfortable taking the following actions as needed?",
@@ -58,10 +58,11 @@ const questions = [
         details: "Policing is a physically demanding job. You must be physically fit before arriving at Depot for cadet training. To be fit for Depot, you should be able to:",
         bullets: [
             "run 5 km without stopping in 30 to 35 minutes",
-            "do 10 or more push-ups in a row from your toes and your chin or chest to the ground",
+            "do 10 or more push-ups in a row from your toes, and lowering your chin or chest to the ground",
             "lift and carry 45 lbs of weight 50 metres without stopping for rest",
-            "do an intense 30-minute workout that keeps your heart rate up the entire time",
+            "complete an intense 30-minute workout that keeps your heart rate up the entire time",
             "exercise 5 days per week",
+            "run 500 meters under 2 minutes 25 seconds"
         ],
         question: "Do you currently meet these fitness standards?",
         questionBullets: [],
@@ -78,8 +79,7 @@ const questions = [
             "spend 6 months in Regina, Saskatchewan at the <abbr>RCMP</abbr> training academy",
             "be away from friends and family",
             "live in co-ed dorms onsite at Depot",
-            "learn and study Canadian law",
-            "adhere to the <abbr>RCMP</abbr>'s core values (<a href=\"https://rcmp.ca/en/corporate-information/royal-canadian-mounted-police-core-values\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\" responsibility, respect, excellence, compassion and integrity - Opens in a new window\">responsibility, respect, excellence, compassion and integrity <span class=\"sr-only\">(opens in new window)</span></a>)"
+            "learn and study Canadian law"
         ],
         info: "Training is a full-time commitment with evening and weekend assignments. The environment is meant to challenge you. Remember, your training contract may be terminated from the Cadet Training Program for violations of core values. If you are terminated, you may be subject to repay your training allowance (up to $26,000).",
         link: "/careers/police-officer"

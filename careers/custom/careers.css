@@ -645,7 +645,7 @@ a.btn-careers:hover{
 }
 .po-banner-text p:nth-child(2){
     font-size: 3rem;
-    line-height: 5rem;
+    line-height: 1.65;
 }
 /* Mobile banner */
 @media (min-width: 768px) and (max-width: 991px) {

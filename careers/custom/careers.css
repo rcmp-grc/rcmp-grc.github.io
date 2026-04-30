@@ -1225,7 +1225,7 @@ a.btn-careers:hover{
     border: 1px solid #0c0b0e !important;
     border-radius: 0.5rem;
 
-    padding: 2rem !important;
+    padding: 0 2rem 2rem 2rem !important;
     margin: 1rem 0;
 
     position: relative;
@@ -1235,39 +1235,45 @@ a.btn-careers:hover{
     height: 2.4rem;
     margin-top: -0.6rem;
 }
+.event-td-tags{
+    display: flex;
+
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    margin-left: -2rem;
+    margin-right: -2rem;
+}
 .event-td-location{
-    position: absolute;
     background: #fec111;
     padding: 0.5rem 1rem;
-    top: 0;
-    right: 0;
     border-top-right-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
 }
+.event-td-location.cancelled{
+    background-color: #666;
+    color: #fff;
+}
 .event-td-job{
-    position: absolute;
     background: #f3f3f3;
     padding: 0.5rem 1rem;
-
-    top: 0;
-    left: 0;
 
     border-top-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
 }
 
 @media (max-width: 767px) {
+    .event-td-tags{
+        flex-direction: column;
+    }
     .event-td-location{
-        top: 3.5rem;
-        right: unset;
-        left: 0;
-
         border-top-right-radius: 0;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0.5rem;
     }
     .event-td .h3{
-        margin-top: 6rem;
+        margin-top: 2rem;
     }
 }
 

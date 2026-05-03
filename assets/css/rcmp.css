@@ -38,6 +38,10 @@
 #wb-bc ol {
   margin-top: 5px;
 }
+h1#wb-cont,
+hgroup#wb-cont h1 {
+  border: 0;
+}
 #wb-info .gc-main-footer {
   background: #000;
 }

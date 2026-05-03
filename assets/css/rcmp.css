@@ -10,6 +10,10 @@
 }
 
 /* Header bar */
+  header .brand img,
+  header .brand object {
+    max-height: 80px;
+ }
 .app-bar {
   background: #b50315;
   margin-top: 5px;
@@ -33,6 +37,10 @@ hgroup#wb-cont[dir="rtl"] h1 {
 /* Footer */
 #wb-info .gc-main-footer {
   background: #000;
+}
+
+#wb-info .gc-main-footer h4::before {
+  border-bottom: 4px solid #bea468;
 }
 
 /*

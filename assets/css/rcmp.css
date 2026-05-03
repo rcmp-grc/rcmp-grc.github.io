@@ -1,3 +1,41 @@
+/* Colours */
+.wb-gld {
+  color: #bea468;
+}
+.wb-chrcl {
+  color: #363636;
+}
+.wb-rd {
+  color: #b50315;
+}
+
+/* Header bar */
+.app-bar {
+  background: #b50315;
+  margin-top: 5px;
+  color: #fff;
+  font-size: 1.6em;
+  padding: 5px;
+}
+
+/* Content */
+h1#wb-cont,
+hgroup#wb-cont h1 {
+  border: 0;
+}
+[dir="rtl"] h1#wb-cont,
+[dir="rtl"] hgroup#wb-cont h1,
+h1#wb-cont[dir="rtl"],
+hgroup#wb-cont[dir="rtl"] h1 {
+  border: 0;
+}
+
+/* Footer */
+#wb-info .gc-main-footer {
+  background: #000;
+}
+
+/*
 .cmpgn-sctns {
   margin-top: 20px;
 }
@@ -9,25 +47,9 @@
 .test-textSpacing p {
   margin-bottom: 2em !important;
 }
-.wb-gld {
-  color: #bea468;
-}
-.wb-chrcl {
-  color: #363636;
-}
-.wb-rd {
-  color: #b50315;
-}
 #wb-info .gc-main-footer h4::before,
 #wb-info .landscape h4::before {
   border-bottom: 4px solid #a89037;
-}
-.app-bar {
-  background: #b50315;
-  margin-top: 5px;
-  color: #fff;
-  font-size: 1.6em;
-  padding: 5px;
 }
 .pddng-lft-0,
 ol.rst-cntr {
@@ -46,16 +68,7 @@ main {
   border-top: 0;
   margin-bottom: 0;
 }
-h1#wb-cont,
-hgroup#wb-cont h1 {
-  border: 0;
-}
-[dir="rtl"] h1#wb-cont,
-[dir="rtl"] hgroup#wb-cont h1,
-h1#wb-cont[dir="rtl"],
-hgroup#wb-cont[dir="rtl"] h1 {
-  border: 0;
-}
+
 h1 {
   padding-bottom: 0.2em;
   border-bottom: 0;

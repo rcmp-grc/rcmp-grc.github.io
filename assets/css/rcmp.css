@@ -18,20 +18,21 @@
   height: 80px;
 }
 header .brand {
-  padding-top: 25px;
+  padding-top: 0;
+  padding-top: 0;
 }
 @media screen and (max-width: 767px) {
   header .brand img {
-    margin-top: 15px;
+    margin-top: 0;
   }
   header .brand img,
   header .brand object {
-    max-height: 30px;
+    max-height: 40px;
   }
 }
 @media screen and (max-width: 991px) {
   header .brand img {
-    margin-top: 10px;
+    margin-top: 0;
   }
 }
 .app-bar {

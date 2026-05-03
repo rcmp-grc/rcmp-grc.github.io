@@ -363,6 +363,10 @@ hr {
   border-top: 0;
   margin: 1.5em 0;
 }
+#wb-info .gc-main-footer {
+  background: #000;
+  color: #fff;
+}
 pre,
 code,
 tt {

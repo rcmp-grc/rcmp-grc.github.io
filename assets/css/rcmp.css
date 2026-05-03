@@ -741,7 +741,7 @@ main #divisional-missing .cnt-wdth-lmtd p {
    ============================================================================= */
 @media screen and (max-width: 767px) {
   header .brand img {
-    margin-top: 0;
+    margin-top: 10;
   }
   header .brand img,
   header .brand object {
@@ -758,10 +758,14 @@ main #divisional-missing .cnt-wdth-lmtd p {
 @media screen and (max-width: 991px) {
   header .brand img {
     margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
 @media (min-width: 976px) {
+  header .brand img {
+    margin-bottom: 0;
+  }
   .hrcsoda-exposed-form--landing-page {
     padding-left: 0;
   }

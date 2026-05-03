@@ -35,11 +35,18 @@
   background: #444;
   border-bottom: #444 solid 1px;
 }
+#wb-bc ol {
+  margin-top: 5px;
+}
 #wb-info .gc-main-footer {
   background: #000;
 }
 #wb-info .gc-main-footer h4::before {
   border-bottom: 4px solid #bea468;
+}
+main {
+  border-top: 5px solid #82373e;
+  background-color: #fff;
 }
 
 /* -----------------------------------------------------------------------------
@@ -110,11 +117,7 @@ p.tp-12 {
 /* -----------------------------------------------------------------------------
    3. Layout / grid utilities
 ----------------------------------------------------------------------------- */
-main {
-  position: relative;
-  border-top: 5px solid #82373e;
-  margin-bottom: 5rem;
-}
+
 .grid {
   display: grid;
 }

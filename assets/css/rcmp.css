@@ -1,429 +1,44 @@
-/* Colours */
-.wb-gld {
-  color: #bea468;
-}
-.wb-chrcl {
-  color: #363636;
-}
-.wb-rd {
-  color: #b50315;
-}
-
-/* Header bar */
-  header .brand img,
-  header .brand object {
-    max-height: 80px;
- }
- .lt-ie9 header .brand img {
-  height: 80px;
-}
-header .brand {
-  padding-top: 0;
-  padding-top: 0;
-}
-@media screen and (max-width: 767px) {
-  header .brand img {
-    margin-top: 0;
-  }
-  header .brand img,
-  header .brand object {
-    max-height: 40px;
-  }
-}
-@media screen and (max-width: 991px) {
-  header .brand img {
-    margin-top: 0;
-  }
-}
-.app-bar {
-  background: #b50315;
-  margin-top: 5px;
-  color: #fff;
-  font-size: 1.6em;
-  padding: 5px;
-}
-
-/* Content */
-h1#wb-cont,
-hgroup#wb-cont h1 {
+#wb-srch button,
+.srchbox button {
+  background-color: #b50315;
   border: 0;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  border-bottom-color: currentcolor;
+  border-bottom: #b50315 solid 1px;
+  font-size: 17px;
 }
-[dir="rtl"] h1#wb-cont,
-[dir="rtl"] hgroup#wb-cont h1,
-h1#wb-cont[dir="rtl"],
-hgroup#wb-cont[dir="rtl"] h1 {
-  border: 0;
+#wb-srch button:active,
+#wb-srch button:focus,
+#wb-srch button:hover,
+.srchbox button:active,
+.srchbox button:focus,
+.srchbox button:hover {
+  background: #444;
+  border-bottom: #444 solid 1px;
 }
-
-/* Footer */
-#wb-info .gc-main-footer {
-  background: #000;
+#wb-srch button:active,
+#wb-srch button:focus,
+#wb-srch button:hover,
+.srchbox button:active,
+.srchbox button:focus,
+.srchbox button:hover {
+  background: #444;
+  border-bottom: #444 solid 1px;
 }
-
-#wb-info .gc-main-footer h4::before {
-  border-bottom: 4px solid #bea468;
-}
-
-/*
-.cmpgn-sctns {
-  margin-top: 20px;
-}
-.test-textSpacing * {
-  letter-spacing: 0.12em !important;
-  line-height: 1.5em !important;
-  word-spacing: 0.16em !important;
-}
-.test-textSpacing p {
-  margin-bottom: 2em !important;
-}
-#wb-info .gc-main-footer h4::before,
-#wb-info .landscape h4::before {
-  border-bottom: 4px solid #a89037;
-}
-.pddng-lft-0,
-ol.rst-cntr {
-  padding-left: 0 !important;
-}
-#wb-bc,
-body {
-  background-color: #ededed;
-}
-main {
-  position: relative;
-  border-top: 5px solid #82373e;
-  margin-bottom: 5rem;
-}
-.splash main {
-  border-top: 0;
-  margin-bottom: 0;
+#wb-srch button:active,
+#wb-srch button:focus,
+#wb-srch button:hover,
+.srchbox button:active,
+.srchbox button:focus,
+.srchbox button:hover {
+  background: #444;
+  border-bottom: #444 solid 1px;
 }
 
-h1 {
-  padding-bottom: 0.2em;
-  border-bottom: 0;
-  margin-bottom: 0.4em;
-  margin-top: 0.8em;
-}
-.wb-lbx .list-inline > li {
-  margin-bottom: 0.4em;
-  padding-left: 0;
-}
-.pddng-tp-0 {
-  padding-top: 0 !important;
-}
-.pddng-rght-0 {
-  padding-right: 0 !important;
-}
-.pddng-bttm-0 {
-  padding-bottom: 0 !important;
-}
-.wb-fnote {
-  margin: 5px 0 30px;
-}
-.dataTables_wrapper .dataTables_info:after {
-  content: "" !important;
-  font-size: unset !important;
-  line-height: unset !important;
-  padding: unset !important;
-}
-.cnt-wdth-lmtd .lead {
-  max-width: 55ch;
-}
-ol.plcs.sb-nmbrd li:before {
-  float: left;
-  padding-right: 1rem;
-  font-weight: 700;
-}
-ol .alert {
-  margin-bottom: 0 !important;
-}
-ol.sb-nmbrd {
-  counter-reset: first;
-}
-ol.sb-nmbrd > li:before {
-  content: counters(first, ".") ".";
-  counter-increment: first;
-}
-ol.plcs.sb-nmbrd > li:before {
-  margin-top: 3px;
-  font-size: 3.4rem;
-}
-ol.sb-nmbrd li ol {
-  counter-reset: second;
-}
-ol.sb-nmbrd li ol li:before {
-  content: counters(first, ".") "." counters(second, ".") ".";
-  counter-increment: second;
-}
-ol.sb-nmbrd li ol li ol {
-  counter-reset: third;
-}
-ol.sb-nmbrd li ol li ol li:before {
-  content: counters(first, ".") "." counters(second, ".") "." counters(third, ".") ".";
-  counter-increment: third;
-}
-ol.sb-nmbrd li ol li ol li ol {
-  counter-reset: fourth;
-}
-ol.sb-nmbrd li ol li ol li ol li:before {
-  content: counters(first, ".") "." counters(second, ".") "." counters(third, ".") "." counters(fourth, ".") ".";
-  counter-increment: fourth;
-}
-ol.sb-nmbrd li ol li ol li ol li ol {
-  counter-reset: fifth;
-}
-ol.sb-nmbrd li ol li ol li ol li ol li:before {
-  content: counters(first, ".") "." counters(second, ".") "." counters(third, ".") "." counters(fourth, ".") "." counters(fifth, ".") ".";
-  counter-increment: fifth;
-}
-ol.rst-cntr {
-  list-style: none !important;
-  counter-reset: item !important;
-}
-ol.rst-cntr li {
-  counter-increment: item !important;
-}
-ol.rst-cntr li:before {
-  content: counter(item) "." !important;
-  width: 1.2em !important;
-}
-.sb-nmbrd ul li::before {
-  list-style-type: disc !important;
-  list-style-position: inside;
-  content: "" !important;
-  display: list-item;
-}
-.py-0 {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-.pl-0 {
-  padding-left: 0;
-}
-.block-poweb-breadcrumbs nav.breadcrumb,
-nav.block-menu ul.menu {
-  padding: 0 2px;
-}
-.block-poweb-breadcrumbs nav.breadcrumb ol {
-  padding-inline-start: 0;
-}
-.contextual-region .form-item .label {
-  color: inherit;
-}
-.contextual-region .form-item .label:after {
-  content: ":";
-}
-[dir="ltr"] .contextual .trigger::before {
-  transform: translate(-50%, -50%) scale(2) !important;
-}
-#wb-bc li:before {
-  content: "\e080";
-  top: 0;
-}
-#wb-bc .breadcrumb li a {
-  padding: 0;
-}
-.provisional.gc-topic-bg img {
-  height: 200px;
-  object-fit: cover;
-  object-position: left;
-}
-.dataTables_wrapper .top {
-  margin-bottom: 1rem;
-}
-.dataTables_filter label {
-  display: flex;
-  margin-bottom: 0;
-}
-.dataTables_filter input {
-  margin-bottom: 0;
-  height: 3.5rem;
-}
-.lgnd-h4 {
-  font-size: 0.8em;
-}
-.rcmp-imgFig .rcmp-imgFig-inner-wrapper figcaption > :last-child {
-  margin-bottom: 0 !important;
-}
-.brdr-tp-0 {
-  border-top: none;
-}
-#home-page .hero-bnr {
-  min-height: 500px;
-  height: 500px;
-  max-height: 500px;
-  overflow: hidden;
-  position: relative;
-}
-#home-page .hero-bnr img {
-  background-color: white;
-  min-height: 500px;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-#home-page .hero-bnr .hero-txt {
-  padding: 0px 25px 0px 25px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-#home-page .hero-bnr .hero-txt .hero-ttl {
-  border-bottom: 3px solid #ecb731;
-}
-.gc-followus ul {
-  display: block;
-  font-size: 87%;
-  font-weight: 700;
-  list-style: none;
-  -webkit-margin-before: 1em;
-  margin-block-start: 1em;
-  -webkit-padding-start: 0;
-  padding-inline-start: 0;
-}
-.gc-followus ul.list-inline li {
-  display: inline-block;
-  padding-right: 0;
-  margin-bottom: 21px;
-}
-.gc-followus ul.list-inline li a {
-  height: 38px;
-  width: 38px;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-decoration: none;
-}
-.gc-followus .facebook::before {
-  background-image: url(/themes/custom/poweb/assets/gc-follow-us/facebook.svg);
-}
-.gc-followus .x::before {
-  background-image: url(/themes/custom/poweb/assets/gc-follow-us/x.svg);
-}
-.gc-followus .youtube::before {
-  background-image: url(/themes/custom/poweb/assets/gc-follow-us/youtube.svg);
-}
-.gc-followus .instagram::before {
-  background-image: url(/themes/custom/poweb/assets/gc-follow-us/instagram.svg);
-}
-.gc-followus .linkedin::before {
-  background-image: url(/themes/custom/poweb/assets/gc-follow-us/linkedin.svg);
-}
-.gc-followus .facebook::before,
-.gc-followus .x::before,
-.gc-followus .youtube::before,
-.gc-followus .instagram::before,
-.gc-followus .linkedin::before {
-  background-repeat: no-repeat;
-  background-size: cover;
-  content: "";
-  height: 38px;
-  margin-right: 10px;
-  min-width: 38px;
-}
-.toolbar-horizontal {
-  margin-top: 8rem;
-}
-.test-offset {
-  margin-top: 9.25rem !important;
-}
-.prod-offset {
-  margin-top: 38px !important;
-}
-@media (min-width: 1051px) {
-  .prod-offset {
-    margin-top: 52px !important;
-  }
-}
-.dataTables_wrapper .top {
-  display: grid;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-  align-items: end;
-  justify-content: start;
-}
-.dataTables_wrapper .dataTables_length {
-  margin-left: 15px;
-  min-height: 10px;
-}
-.dataTables_wrapper .dataTables_length label {
-  margin-bottom: 0;
-}
-.dataTables_wrapper .dataTables_length {
-  margin-left: 0;
-}
-@media screen and (min-width: 992px) {
-  .dataTables_wrapper .top {
-    grid-auto-flow: column;
-    grid-auto-columns: auto;
-    grid-template-columns: none;
-  }
-  .dataTables_wrapper .dataTables_length {
-    margin-left: 15px;
-  }
-  .dataTables_wrapper .dataTables_length label {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-  .dataTables_wrapper .dataTables_length select {
-    margin-right: 1rem;
-    margin-left: -0.5rem;
-  }
-}
-table.dataTable thead button {
-  color: inherit;
-  padding-bottom: 5px;
-  line-height: 0;
-}
-.unilingual-wrapper {
-  background-color: #ededed;
-}
-.unilingual-container details,
-.unilingual-container summary,
-.unilingual-container summary:hover,
-.unilingual-container summary:focus {
-  background-color: #fff;
-}
-.unilingual-container #unilingual {
-  margin-top: 15px;
-  margin-bottom: 0;
-}
-.unilingual-container p.h2 {
-  margin-bottom: 15px;
-}
-#unilingual-bnr {
-  background: #f9f4d4;
-}
-#unilingual-bnr p {
-  margin: 0;
-  text-align: center;
-  line-height: 1.3;
-}
-#unilingual-bnr a {
-  color: #000;
-  display: block;
-  font-weight: 700;
-  padding: 0.75em 44px;
-  text-decoration: underline;
-}
-#unilingual-bnr .overlay-close {
-  color: #000;
-  background-color: transparent;
-}
-#unilingual-bnr .overlay-close:hover {
-  border: solid 1px #000;
-}
-#unilingual-bnr.wb-overlay.open {
-  position: absolute;
-}
-.pb-1 {
-  padding-bottom: 0.5rem !important;
-}
-.td-none {
-  text-decoration: none;
-}
-.td-underline {
-  text-decoration: underline;
-}
+/* -----------------------------------------------------------------------------
+   1. CSS Custom Properties
+----------------------------------------------------------------------------- */
 #tp-1,
 p.tp-1 {
   --color: #99b186;
@@ -472,6 +87,318 @@ p.tp-11 {
 p.tp-12 {
   --color: #f3dd8c;
 }
+
+/* -----------------------------------------------------------------------------
+   2. Colour utilities
+----------------------------------------------------------------------------- */
+.wb-gld {
+  color: #bea468;
+}
+.wb-chrcl {
+  color: #363636;
+}
+.wb-rd {
+  color: #b50315;
+}
+
+/* -----------------------------------------------------------------------------
+   3. Layout / grid utilities
+----------------------------------------------------------------------------- */
+main {
+  position: relative;
+  border-top: 5px solid #82373e;
+  margin-bottom: 5rem;
+}
+.grid {
+  display: grid;
+}
+.inline-grid {
+  display: inline-grid;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.grid-cols-none {
+  grid-template-columns: none;
+}
+
+.items-center {
+  align-items: center;
+}
+.justify-start {
+  justify-content: start;
+}
+.justify-end {
+  justify-content: end;
+}
+.gap-6px {
+  gap: 6px;
+}
+
+/* -----------------------------------------------------------------------------
+   4. Typography / text utilities
+----------------------------------------------------------------------------- */
+.lgnd-h4 {
+  font-size: 0.8em;
+}
+.td-none {
+  text-decoration: none;
+}
+.td-underline {
+  text-decoration: underline;
+}
+.deploy-time {
+  text-align: right;
+}
+
+/* -----------------------------------------------------------------------------
+   5. Spacing utilities
+----------------------------------------------------------------------------- */
+.pb-1 {
+  padding-bottom: 0.5rem !important;
+}
+.py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.pl-0 {
+  padding-left: 0;
+}
+.brdr-tp-0 {
+  border-top: none;
+}
+
+.pddng-tp-0 {
+  padding-top: 0 !important;
+}
+.pddng-rght-0 {
+  padding-right: 0 !important;
+}
+.pddng-bttm-0 {
+  padding-bottom: 0 !important;
+}
+
+.pddng-lft-0,
+ol.rst-cntr {
+  padding-left: 0 !important;
+}
+
+/* -----------------------------------------------------------------------------
+   6. Component: Header / App bar
+----------------------------------------------------------------------------- */
+.app-bar {
+  background: #b50315;
+  margin-top: 5px;
+  color: #fff;
+  font-size: 1.6em;
+  padding: 5px;
+}
+
+/* -----------------------------------------------------------------------------
+   7. Component: Breadcrumb
+----------------------------------------------------------------------------- */
+#wb-bc .breadcrumb li a {
+  padding: 0;
+}
+
+.block-poweb-breadcrumbs nav.breadcrumb,
+nav.block-menu ul.menu {
+  padding: 0 2px;
+}
+
+.block-poweb-breadcrumbs nav.breadcrumb ol {
+  padding-inline-start: 0;
+}
+
+/* -----------------------------------------------------------------------------
+   8. Component: Home page hero banner
+----------------------------------------------------------------------------- */
+#home-page .hero-bnr {
+  min-height: 500px;
+  height: 500px;
+  max-height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+#home-page .hero-bnr img {
+  background-color: white;
+  min-height: 500px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#home-page .hero-bnr .hero-txt {
+  padding: 0 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#home-page .hero-bnr .hero-txt .hero-ttl {
+  border-bottom: 3px solid #ecb731;
+}
+
+/* -----------------------------------------------------------------------------
+   9. Component: Navigation misc
+----------------------------------------------------------------------------- */
+[dir="ltr"] .contextual .trigger::before {
+  transform: translate(-50%, -50%) scale(2) !important;
+}
+
+.contextual-region .form-item .label {
+  color: inherit;
+}
+.contextual-region .form-item .label:after {
+  content: ":";
+}
+
+.provisional.gc-topic-bg img {
+  height: 200px;
+  object-fit: cover;
+  object-position: left;
+}
+
+/* -----------------------------------------------------------------------------
+   10. Component: DataTables
+----------------------------------------------------------------------------- */
+.dataTables_filter label {
+  display: flex;
+  margin-bottom: 0;
+}
+
+.dataTables_filter input {
+  margin-bottom: 0;
+  height: 3.5rem;
+}
+
+.dataTables_wrapper .dataTables_info:after {
+  content: "" !important;
+  font-size: unset !important;
+  line-height: unset !important;
+  padding: unset !important;
+}
+
+.dataTables_wrapper .dataTables_length label {
+  margin-bottom: 0;
+}
+
+/* -----------------------------------------------------------------------------
+   11. Component: Follow-us social icons
+----------------------------------------------------------------------------- */
+.gc-followus ul.list-inline li {
+  display: inline-block;
+  padding-right: 0;
+  margin-bottom: 21px;
+}
+
+.gc-followus ul.list-inline li a {
+  height: 38px;
+  width: 38px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+}
+
+.gc-followus .facebook::before {
+  background-image: url(/themes/custom/poweb/assets/gc-follow-us/facebook.svg);
+}
+.gc-followus .x::before {
+  background-image: url(/themes/custom/poweb/assets/gc-follow-us/x.svg);
+}
+.gc-followus .youtube::before {
+  background-image: url(/themes/custom/poweb/assets/gc-follow-us/youtube.svg);
+}
+.gc-followus .instagram::before {
+  background-image: url(/themes/custom/poweb/assets/gc-follow-us/instagram.svg);
+}
+.gc-followus .linkedin::before {
+  background-image: url(/themes/custom/poweb/assets/gc-follow-us/linkedin.svg);
+}
+
+.gc-followus .facebook::before,
+.gc-followus .x::before,
+.gc-followus .youtube::before,
+.gc-followus .instagram::before,
+.gc-followus .linkedin::before {
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  height: 38px;
+  margin-right: 10px;
+  min-width: 38px;
+}
+
+/* -----------------------------------------------------------------------------
+   12. Component: Unilingual banner
+----------------------------------------------------------------------------- */
+.unilingual-wrapper {
+  background-color: #ededed;
+}
+
+.unilingual-container details,
+.unilingual-container summary,
+.unilingual-container summary:hover,
+.unilingual-container summary:focus {
+  background-color: #fff;
+}
+
+.unilingual-container #unilingual {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.unilingual-container p.h2 {
+  margin-bottom: 15px;
+}
+
+#unilingual-bnr {
+  background: #f9f4d4;
+}
+
+#unilingual-bnr p {
+  margin: 0;
+  text-align: center;
+  line-height: 1.3;
+}
+
+#unilingual-bnr a {
+  color: #000;
+  display: block;
+  font-weight: 700;
+  padding: 0.75em 44px;
+  text-decoration: underline;
+}
+
+#unilingual-bnr .overlay-close {
+  color: #000;
+  background-color: transparent;
+}
+
+#unilingual-bnr .overlay-close:hover {
+  border: solid 1px #000;
+}
+#unilingual-bnr.wb-overlay.open {
+  position: absolute;
+}
+
+/* -----------------------------------------------------------------------------
+   13. Component: Topic pills (#tp-*)
+----------------------------------------------------------------------------- */
+/* Variable tokens are declared in section 1 above */
+
 p.tp-1,
 p.tp-2,
 p.tp-3,
@@ -491,6 +418,7 @@ p.tp-12 {
   padding: 10px;
   font-weight: bold;
 }
+
 #tp-1,
 #tp-2,
 #tp-3,
@@ -507,6 +435,7 @@ p.tp-12 {
   background: var(--color);
   border-color: var(--color);
 }
+
 #tp-1:focus,
 #tp-2:focus,
 #tp-3:focus,
@@ -519,20 +448,26 @@ p.tp-12 {
 #tp-10:focus,
 #tp-11:focus,
 #tp-12:focus,
-#tp-1:hover #tp-2:hover,
-#tp-3:hover #tp-4:hover #tp-5:hover #tp-6:hover,
-#tp-7:hover #tp-8:hover #tp-9:hover #tp-10:hover #tp-11:hover,
+#tp-1:hover,
+#tp-2:hover,
+#tp-3:hover,
+#tp-4:hover,
+#tp-5:hover,
+#tp-6:hover,
+#tp-7:hover,
+#tp-8:hover,
+#tp-9:hover,
+#tp-10:hover,
+#tp-11:hover,
 #tp-12:hover {
   color: #000;
   background-color: #fff;
   border-color: var(--color);
 }
-.no-c {
-  border: 0;
-  background-color: #fff;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
+
+/* -----------------------------------------------------------------------------
+   14. Component: Gazette label
+----------------------------------------------------------------------------- */
 .label-gazette,
 .label-gazette[href]:active,
 .label-gazette[href]:focus,
@@ -541,108 +476,68 @@ p.tp-12 {
   border-color: #b50315;
   color: #000;
 }
+
+/* -----------------------------------------------------------------------------
+   15. Component: Environment banner (rcmp-env)
+----------------------------------------------------------------------------- */
 div[class^="rcmp-env"] {
   min-height: 2.75rem;
   padding: 0.5rem 1rem;
 }
-.grid {
-  display: grid;
-}
-.inline-grid {
-  display: inline-grid;
-}
-.items-center {
-  align-items: center;
-}
-.justify-start {
-  justify-content: start;
-}
-.justify-end {
-  justify-content: end;
-}
-.gap-6px {
-  gap: 6px;
-}
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-.grid-cols-none {
-  grid-template-columns: none;
-}
+
 .rcmp-env-local,
 .rcmp-env-dev {
   color: #fff;
   background: linear-gradient(0deg, #66bb6a, #1b6c1c);
   border-color: #071a07;
 }
+
 .rcmp-env-stage {
   color: #fff;
   background: linear-gradient(0deg, #d12ae5, #7e198b);
   border-color: #6b1d1c;
 }
+
 .rcmp-env-test {
   color: #fff;
   background: linear-gradient(0deg, #3994e1, #1c588b);
   border-color: #143c5f;
 }
-.deploy-time {
-  text-align: right;
-}
-@media (max-width: 976px) {
-  div [class*="rcmp-env"] {
-    display: none;
-  }
-}
+
+/* -----------------------------------------------------------------------------
+   16. Component: PIA table
+----------------------------------------------------------------------------- */
 .table.pia h2 {
   margin-top: 15px;
 }
 .pia-date {
   text-align: left;
 }
-@media screen and (min-width: 992px) {
-  .table.pia h2 {
-    margin-top: 0;
-  }
-  .pia-date {
-    text-align: right;
-  }
-}
+
+/* -----------------------------------------------------------------------------
+   17. Component: Recruiting event grid
+----------------------------------------------------------------------------- */
 .table tbody.recruiting-event-grid tr td {
   padding: 0;
 }
+
 .recruiting-event-grid .event-item .category-text-align,
 .recruiting-event-grid .event-item .type-text-align {
   text-align: left;
 }
-@media screen and (min-width: 992px) {
-  .recruiting-event-grid .event-item .category-text-align,
-  .recruiting-event-grid .event-item .type-text-align {
-    text-align: right;
-  }
-}
-.btn-all-services {
-  border: 2px solid #26374a;
-  color: #26374a;
-  font-size: 1.1em;
-  font-weight: 700;
-  padding: 0.65em 1.1em;
-}
+
+/* -----------------------------------------------------------------------------
+   18. Component: Contact / signature
+----------------------------------------------------------------------------- */
 .contact-signature {
   margin-bottom: 3rem;
 }
+
 .signature-link-grid {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
+
 .signature-link-grid .signature-link-subgrid {
   display: grid;
   grid-auto-columns: auto;
@@ -650,20 +545,183 @@ div[class^="rcmp-env"] {
   column-gap: 1rem;
   justify-content: flex-start;
 }
+
 .signature-link-grid .signature-link-subgrid div:first-child {
   min-width: 2.75rem;
 }
+
 .contact-signature svg.svg-inline--fa.fa-link,
 .contact-signature svg.svg-inline--fa.fa-x-twitter,
 .contact-signature svg.svg-inline--fa.fa-instagram {
   color: #000;
 }
+
 .contact-signature svg.svg-inline--fa.fa-square-facebook {
   color: #3c5a99;
 }
 .contact-signature svg.svg-inline--fa.fa-youtube {
   color: #d92632;
 }
+
+/* -----------------------------------------------------------------------------
+   19. Component: Button
+----------------------------------------------------------------------------- */
+.btn-all-services {
+  border: 2px solid #26374a;
+  color: #26374a;
+  font-size: 1.1em;
+  font-weight: 700;
+  padding: 0.65em 1.1em;
+}
+
+/* -----------------------------------------------------------------------------
+   20. Component: Misc helpers
+----------------------------------------------------------------------------- */
+.no-c {
+  border: 0;
+  background-color: #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.toolbar-horizontal {
+  margin-top: 8rem;
+}
+.test-offset {
+  margin-top: 9.25rem !important;
+}
+.prod-offset {
+  margin-top: 38px !important;
+}
+
+.cnt-wdth-lmtd .lead {
+  max-width: 55ch;
+}
+
+.rcmp-imgFig .rcmp-imgFig-inner-wrapper figcaption > :last-child {
+  margin-bottom: 0 !important;
+}
+
+.wb-lbx .list-inline > li {
+  margin-bottom: 0.4em;
+  padding-left: 0;
+}
+
+.wb-fnote {
+  margin: 5px 0 30px;
+}
+
+.splash main {
+  border-top: 0;
+  margin-bottom: 0;
+}
+
+#wb-bc,
+body {
+  background-color: #ededed;
+}
+
+/* -----------------------------------------------------------------------------
+   21. Component: Numbered list (sb-nmbrd / rst-cntr)
+----------------------------------------------------------------------------- */
+ol.plcs.sb-nmbrd li:before {
+  float: left;
+  padding-right: 1rem;
+  font-weight: 700;
+}
+
+ol .alert {
+  margin-bottom: 0 !important;
+}
+
+ol.sb-nmbrd {
+  counter-reset: first;
+}
+
+ol.sb-nmbrd > li:before {
+  content: counters(first, ".") ".";
+  counter-increment: first;
+}
+
+ol.plcs.sb-nmbrd > li:before {
+  margin-top: 3px;
+  font-size: 3.4rem;
+}
+
+ol.sb-nmbrd li ol {
+  counter-reset: second;
+}
+ol.sb-nmbrd li ol li:before {
+  content: counters(first, ".") "." counters(second, ".") ".";
+  counter-increment: second;
+}
+ol.sb-nmbrd li ol li ol {
+  counter-reset: third;
+}
+ol.sb-nmbrd li ol li ol li:before {
+  content: counters(first, ".") "." counters(second, ".") "." counters(third, ".") ".";
+  counter-increment: third;
+}
+ol.sb-nmbrd li ol li ol li ol {
+  counter-reset: fourth;
+}
+ol.sb-nmbrd li ol li ol li ol li:before {
+  content: counters(first, ".") "." counters(second, ".") "." counters(third, ".") "." counters(fourth, ".") ".";
+  counter-increment: fourth;
+}
+ol.sb-nmbrd li ol li ol li ol li ol {
+  counter-reset: fifth;
+}
+ol.sb-nmbrd li ol li ol li ol li ol li:before {
+  content: counters(first, ".") "." counters(second, ".") "." counters(third, ".") "." counters(fourth, ".") "." counters(fifth, ".");
+  counter-increment: fifth;
+}
+
+ol.rst-cntr {
+  list-style: none !important;
+  counter-reset: item !important;
+}
+
+ol.rst-cntr li {
+  counter-increment: item !important;
+}
+ol.rst-cntr li:before {
+  content: counter(item) "." !important;
+  width: 1.2em !important;
+}
+
+.sb-nmbrd ul li::before {
+  list-style-type: disc !important;
+  list-style-position: inside;
+  content: "" !important;
+  display: list-item;
+}
+
+/* -----------------------------------------------------------------------------
+   22. Component: HRCSODA
+----------------------------------------------------------------------------- */
+.hrcsoda-grid-wrapper {
+  margin: -1rem 0 -1rem 0;
+  padding: 1rem;
+}
+
+.hrcsoda-grid-wrapper .thumbnail {
+  margin-bottom: 1rem;
+}
+
+.hrcsoda-image-placeholder {
+  width: 240px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #4b4b4b;
+  background-color: #f8f8f8;
+}
+
+/* -----------------------------------------------------------------------------
+   23. Component: divisional-missing width override
+----------------------------------------------------------------------------- */
 .cnt-wdth-lmtd #divisional-missing .dl-horizontal,
 .cnt-wdth-lmtd main #divisional-missing dd,
 .cnt-wdth-lmtd main #divisional-missing dt,
@@ -677,29 +735,75 @@ main #divisional-missing .cnt-wdth-lmtd h6,
 main #divisional-missing .cnt-wdth-lmtd p {
   max-width: unset;
 }
+
+/* =============================================================================
+   MEDIA QUERIES  —  consolidated, ascending breakpoint order
+   ============================================================================= */
+@media screen and (max-width: 767px) {
+  header .brand img {
+    margin-top: 0;
+  }
+  header .brand img,
+  header .brand object {
+    max-height: 40px;
+  }
+}
+
+@media (max-width: 976px) {
+  div [class*="rcmp-env"] {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  header .brand img {
+    margin-top: 0;
+  }
+}
+
 @media (min-width: 976px) {
   .hrcsoda-exposed-form--landing-page {
     padding-left: 0;
   }
 }
-.hrcsoda-grid-wrapper {
-  margin: -1rem 0rem -1rem 0rem;
-  padding: 1rem;
-}
-.hrcsoda-grid-wrapper .thumbnail {
-  margin-bottom: 1rem;
-}
-.hrcsoda-image-placeholder {
-  width: 240px;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #4b4b4b;
-  background-color: #f8f8f8;
-}
-@media (min-width: 992px) {
+
+@media screen and (min-width: 992px) {
+  .dataTables_wrapper .top {
+    grid-auto-flow: column;
+    grid-auto-columns: auto;
+    grid-template-columns: none;
+  }
+  .dataTables_wrapper .dataTables_length {
+    margin-left: 15px;
+  }
+  .dataTables_wrapper .dataTables_length label {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .dataTables_wrapper .dataTables_length select {
+    margin-right: 1rem;
+    margin-left: -0.5rem;
+  }
+
+  .table.pia h2 {
+    margin-top: 0;
+  }
+  .pia-date {
+    text-align: right;
+  }
+
+  .recruiting-event-grid .event-item .category-text-align,
+  .recruiting-event-grid .event-item .type-text-align {
+    text-align: right;
+  }
+
   .hrcsoda-image-placeholder {
     justify-self: center;
+  }
+}
+
+@media (min-width: 1051px) {
+  .prod-offset {
+    margin-top: 52px !important;
   }
 }

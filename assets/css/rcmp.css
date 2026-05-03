@@ -765,6 +765,7 @@ main #divisional-missing .cnt-wdth-lmtd p {
 @media (min-width: 976px) {
   header .brand img {
     margin-bottom: 0;
+    max-height: 80px;
   }
   .hrcsoda-exposed-form--landing-page {
     padding-left: 0;

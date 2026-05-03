@@ -46,6 +46,16 @@ main {
   border-top: 0;
   margin-bottom: 0;
 }
+h1#wb-cont,
+hgroup#wb-cont h1 {
+  border: 0;
+}
+[dir="rtl"] h1#wb-cont,
+[dir="rtl"] hgroup#wb-cont h1,
+h1#wb-cont[dir="rtl"],
+hgroup#wb-cont[dir="rtl"] h1 {
+  border: 0;
+}
 h1 {
   padding-bottom: 0.2em;
   border-bottom: 0;

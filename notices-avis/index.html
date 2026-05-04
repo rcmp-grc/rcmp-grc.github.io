@@ -5,6 +5,14 @@
     <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
     <title>Content page - Limited width content - Canada.ca</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self';
+               script-src 'self' https://ajax.googleapis.com https://wet-boew.github.io https://use.fontawesome.com;
+               style-src 'self' https://wet-boew.github.io;
+               img-src 'self' data:;
+               font-src 'self' https://use.fontawesome.com;"
+    />
     <meta content="" name="description" />
     <meta content="" name="author" />
     <meta content="Content page - Limited width content" name="dcterms.title" />
@@ -37,10 +45,10 @@
             <h2 class="wb-inv">Language selection</h2>
             <ul class="list-inline mrgn-bttm-0">
               <li>
-                <a href="index-fr.html" hreflang="fr" lang="fr"
-                  ><span class="hidden-xs" translate="no">Français</span>
-                  <abbr class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase" title="Français" translate="no">fr</abbr></a
-                >
+                <a href="index-fr.html" hreflang="fr" lang="fr">
+                  <span class="hidden-xs" translate="no">Français</span>
+                  <span class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase" aria-hidden="true" translate="no">fr</span>
+                </a>
               </li>
             </ul>
           </section>
@@ -73,6 +81,7 @@
                   placeholder="Search RCMP.ca"
                   size="34"
                   type="search"
+                  autocomplete="off"
                   value=""
                 />
                 <datalist id="wb-srch-q-ac"> </datalist>
@@ -234,10 +243,30 @@
         </div>
       </div>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"></script>
-    <script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v6.5.0/js/all.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v6.5.0/js/v4-shims.js"></script>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"
+      integrity="sha384-NnhHqAj4kjlw84Iu86tjmqXvREkBBnKKHoUcfVgfXIxQNIAj2oTOfiiHPNQTFeH1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js"
+      integrity="sha384-DGJ4LOa2bKt4TeN5tIb4ILJ8KASAZ4TMTxydSJUfVIcZ8lV6nU1WZ+L1fkEZOryi"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://use.fontawesome.com/releases/v6.5.0/js/all.js"
+      integrity="sha384-xJg9IXkLBF6DBCGIEmpH5d2Pzct5onYpW8EegteK+7n0rxjhN4PUzfPxGbpWVjQf"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://use.fontawesome.com/releases/v6.5.0/js/v4-shims.js"
+      integrity="sha384-/92mVmELKUSys+AjbeSvITO3rhI9KtDAENPjak7fYPIxTdmKqt1Z2WCbRbI8ybF2"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

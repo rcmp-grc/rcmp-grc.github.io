@@ -336,7 +336,7 @@ body {
 .card-thumb-num {
   font-size: 5rem;
   font-weight: 900;
-  color: rgba(255, 255, 255, 0.06);
+  color: rgba(255, 255, 255, 1);
   position: absolute;
   bottom: -0.75rem;
   right: 0.75rem;

@@ -1,11 +1,9 @@
 (() => {
   "use strict";
 
-  /* ── Language toggle ──────────────────────────────────────── */
   let currentLang = "en";
   const langToggle = document.getElementById("langToggle");
 
-  // Cache all translatable elements ONCE before any textContent is mutated
   const translatables = Array.from(document.querySelectorAll("[data-en]")).map((el) => ({
     el,
     en: el.dataset.en,
@@ -20,19 +18,20 @@
       el.textContent = lang === "fr" ? fr : en;
     });
 
-    // Button always shows the language you can switch TO
     langToggle.textContent = lang === "en" ? "Fran\u00e7ais" : "English";
     langToggle.setAttribute("aria-label", lang === "en" ? "Switch to French / Passer en fran\u00e7ais" : "Switch to English / Passer en anglais");
     langToggle.setAttribute("aria-pressed", String(lang === "fr"));
 
     document.title = lang === "fr" ? "Communications Web \u00b7 GRC" : "Web Communications \u00b7 RCMP";
+
+    const rcmpLink = document.getElementById("rcmpLink");
+    if (rcmpLink) rcmpLink.href = lang === "fr" ? "https://grc.ca/fr" : "https://rcmp.ca/en";
   }
 
   langToggle.addEventListener("click", () => {
     applyLang(currentLang === "en" ? "fr" : "en");
   });
 
-  /* ── Filter buttons ───────────────────────────────────────── */
   const filterBtns = document.querySelectorAll(".filter-btn");
   const projectItems = document.querySelectorAll(".project-item");
   const noResults = document.getElementById("noResults");
@@ -59,7 +58,6 @@
     });
   });
 
-  /* ── Relative time helpers ────────────────────────────────── */
   function timeAgo(date) {
     const s = Math.floor((Date.now() - date) / 1000);
     const slots = [
@@ -94,7 +92,6 @@
     return "à l\u2019instant";
   }
 
-  /* ── GitHub last-updated timestamps ──────────────────────── */
   document.querySelectorAll(".update-time").forEach(async (el) => {
     const path = el.dataset.path;
     const url = `https://api.github.com/repos/rcmp-grc/rcmp-grc.github.io/commits?path=${path}&page=1&per_page=1`;
@@ -108,17 +105,19 @@
       const enText = d ? `Last updated: ${timeAgo(d)}` : "Last updated: unknown";
       const frText = d ? `Derni\u00e8re mise \u00e0 jour\u00a0: ${timeAgoFr(d)}` : "Derni\u00e8re mise \u00e0 jour\u00a0: inconnue";
 
-      // Push into shared cache so applyLang keeps these in sync
       translatables.push({ el, en: enText, fr: frText });
       el.textContent = currentLang === "fr" ? frText : enText;
     } catch (err) {
       console.warn("GitHub fetch error:", err);
-      el.textContent = "Last updated: unavailable";
-      el.title = "Could not retrieve update date from GitHub.";
+      const errEn = "Last updated: unavailable";
+      const errFr = "Dernière mise à jour\u00a0: non disponible";
+      translatables.push({ el, en: errEn, fr: errFr });
+      el.textContent = currentLang === "fr" ? errFr : errEn;
+      el.title =
+        currentLang === "fr" ? "Impossible de récupérer la date de mise à jour depuis GitHub." : "Could not retrieve update date from GitHub.";
     }
   });
 
-  /* ── Close mobile nav on anchor click ────────────────────── */
   document.querySelectorAll("#mobileNav a").forEach((a) => {
     a.addEventListener("click", () => {
       const col = bootstrap.Collapse.getInstance(document.getElementById("mobileNav"));

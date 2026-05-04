@@ -80,6 +80,10 @@ body {
   font-size: 1.05rem;
   font-weight: 700;
   color: var(--ink);
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .nav-brand:hover {

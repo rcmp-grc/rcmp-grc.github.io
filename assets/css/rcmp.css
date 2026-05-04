@@ -47,7 +47,7 @@ header .brand {
 h1#wb-cont,
 hgroup#wb-cont h1 {
   border: 0;
-  margin-top: 0;
+  margin-top: 15px;
 }
 #wb-info .gc-main-footer {
   background: #000;

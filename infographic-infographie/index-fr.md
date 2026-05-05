@@ -28,7 +28,7 @@ issued: 2026-05-04
       </summary>
       <div class="mrgn-tp-md">
         <p>A crime can be considered a cybercrime when a computer or other digital technology plays an important role in committing a criminal offence. The <cite>Criminal Code of Canada</cite> outlines the law around these types of crimes:</p>
-        <dl>
+        <dl class="mrgn-bttm-0">
           <dt>Section 430 (1.1)</dt>
           <dd>Adam watches a friend enter their username and password. Later, Adam logs into his friend's account without their permission and deletes several messages.</dd>
           <dt>Section 342.1</dt>

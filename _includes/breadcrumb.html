@@ -1,0 +1,19 @@
+<nav id="wb-bc" property="breadcrumb">
+  <h2>You are here:</h2>
+  <div class="container">
+    <ol class="breadcrumb" typeof="BreadcrumbList">
+      <li property="itemListElement" typeof="ListItem">
+        <a href="https://rcmp.ca/en" property="item" typeof="WebPage">
+          <span property="name">RCMP.ca</span>
+        </a>
+        <meta content="1" property="position" />
+      </li>
+      {% if page.title %}
+      <li property="itemListElement" typeof="ListItem">
+        <span property="name">{{ page.title }}</span>
+        <meta content="2" property="position" />
+      </li>
+      {% endif %}
+    </ol>
+  </div>
+</nav>

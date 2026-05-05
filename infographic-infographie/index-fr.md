@@ -19,7 +19,7 @@ issued: 2026-05-04
   </ul>
 </div>
 <p class="mrgn-bttm-lg lead">A crime can be considered a cybercrime when a computer or other digital technology plays an important role in committing a criminal offence. This infographic explains how the <cite>Criminal Code of Canada</cite> defines these types of crimes, using everyday scenarios.</p>
-<figure class="mrgn-bttm-lg">
+<figure>
   <img alt="" aria-describedby="infographic-description" class="img-responsive img-thumbnail" src="cyberchoices-infographic-eng.png">
   <figcaption class="mrgn-tp-md">
     <details class="mrgn-bttm-sm" id="infographic-description">

@@ -24,7 +24,7 @@ issued: 2026-05-04
   <figcaption class="mrgn-tp-md">
     <details class="mrgn-bttm-sm" id="infographic-description">
       <summary>
-        Text description: Is this a cybercrime?
+        Description: Is this a cybercrime?
       </summary>
       <div class="mrgn-tp-md">
         <p>A crime can be considered a cybercrime when a computer or other digital technology plays an important role in committing a criminal offence. The <cite>Criminal Code of Canada</cite> outlines the law around these types of crimes:</p>

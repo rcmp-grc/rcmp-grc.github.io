@@ -74,6 +74,10 @@ details[open] > summary {
   border-bottom: none;
   margin-bottom: 0;
 }
+details > *:not(summary) {
+  margin-left: 0;
+  padding-left: 0;
+}
 
 /* -----------------------------------------------------------------------------
    1. CSS Custom Properties

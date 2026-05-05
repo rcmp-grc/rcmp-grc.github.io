@@ -43,7 +43,7 @@ issued: 2026-05-04
         Publication information
       </summary>
       <div class="mrgn-tp-md">
-        <dl class="dl-horizontal">
+        <dl class="dl-horizontal mrgn-bttm-0">
           <dt>Title</dt>
           <dd>Is this a cybercrime?</dd>
           <dt>Copyright</dt>

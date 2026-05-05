@@ -12,10 +12,10 @@ issued: 2026-05-04
 ---
 
 <figure>
-  <img alt="" class="img-responsive" src="cyberchoices-infographic-fra.png">
+  <img alt="" class="img-responsive" src="cyberchoix-infographie-fra.png">
   <figcaption>
-    <details class="print-open">
-      <summary>
+    <details>
+      <summary class="wb-toggle" data-toggle='{"print": "on"}'>
         Text description: Is this a cybercrime?
       </summary>
       <p>A crime can be considered a cybercrime when a computer or other digital technology plays an important role in committing a criminal offence. The <cite>Criminal Code of Canada</cite> outlines the law around these types of crimes:</p>
@@ -28,8 +28,8 @@ issued: 2026-05-04
       <h2 class="h3">Section 342.2</h2>
       <p>Andrew reprograms phones so that they can be used to hack into other devices. He sells them to his tech savvy friends.</p>
     </details>
-    <details class="print-open">
-      <summary>
+    <details>
+      <summary class="wb-toggle" data-toggle='{"print": "on"}'>
         Publication information
       </summary>
       <p>Is this a cybercrime?</p>
@@ -37,6 +37,6 @@ issued: 2026-05-04
       <p>Catalogue number PS64-274/2026E-PDF</p>
       <p>ISBN 978-0-660-99705-6</p>
     </details>
-    <h2 class="h3">Downloadable files</h2><a class="btn btn-call-to-action" href="cyberchoices-infographic-fra.png">Download <span class="wb-inv">Is this a cybercrime?</span> infographic (PNG, 889 KB)</a> <!--<p><a href="">Available from <abbr>GC</abbr> Publications</a>.</p>-->
+    <h2 class="h3">Downloadable files</h2><a class="btn btn-call-to-action" href="cyberchoix-infographie-fra.png">Download <span class="wb-inv">Is this a cybercrime?</span> infographic (PNG, 889 KB)</a> <!--<p><a href="">Available from <abbr>GC</abbr> Publications</a>.</p>-->
   </figcaption>
 </figure>

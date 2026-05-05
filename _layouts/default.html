@@ -6,27 +6,51 @@
   <body class="{{ page.body_class | default: 'cnt-wdth-lmtd' }}" typeof="WebPage" vocab="http://schema.org/">
     <nav>
       <ul id="wb-tphp">
-        <li class="wb-slc"><a class="wb-sl" href="#wb-cont">Skip to main content</a></li>
-        <li class="wb-slc visible-sm visible-md visible-lg"><a class="wb-sl" href="#wb-info">Skip to About this site</a></li>
+        {% if page.lang == 'fr' %}
+          <li class="wb-slc">
+            <a class="wb-sl" href="#wb-cont">Passer au contenu principal</a>
+          </li>
+          <li class="wb-slc visible-sm visible-md visible-lg">
+            <a class="wb-sl" href="#wb-info">Passer à «&#nbsp;À propos de ce site&#nbsp;»</a>
+          </li>
+        {% else %}
+          <li class="wb-slc">
+            <a class="wb-sl" href="#wb-cont">Skip to main content</a>
+          </li>
+          <li class="wb-slc visible-sm visible-md visible-lg">
+            <a class="wb-sl" href="#wb-info">Skip to About this site</a>
+          </li>
+        {% endif %}
       </ul>
     </nav>
-
     {% include header.html %}
-
     <main class="container" property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
       <h1 id="wb-cont" property="name">{{ page.title }}</h1>
-
       {{ content }}
-
       <section class="pagedetails">
-        <h2 class="wb-inv">Page details</h2>
-        <dl id="wb-dtmd">
-          <dt>Date modified:</dt>
-          <dd><time property="dateModified">{{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}</time></dd>
-        </dl>
+        {% if page.lang == 'fr' %}
+          <h2 class="wb-inv">Détails de la page</h2>
+          <dl id="wb-dtmd">
+            <dt>Date de modification :</dt>
+            <dd>
+              <time property="dateModified">
+                {{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}
+              </time>
+            </dd>
+          </dl>
+        {% else %}
+          <h2 class="wb-inv">Page details</h2>
+          <dl id="wb-dtmd">
+            <dt>Date modified:</dt>
+            <dd>
+              <time property="dateModified">
+                {{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}
+              </time>
+            </dd>
+          </dl>
+        {% endif %}
       </section>
     </main>
-
     {% include footer.html %}
   </body>
 </html>

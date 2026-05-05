@@ -18,7 +18,7 @@ issued: 2026-05-04
     <li><span class="label label-default">Criminal Code</span></li>
   </ul>
 </div>
-<p class="mrgn-bttm-lg lead">A crime can be considered a cybercrime when a computer or other digital technology plays an important role in committing a criminal offence. This infographic explains how the <cite>Criminal Code of Canada</cite> defines these types of crimes, using everyday scenarios.</p><!-- 3. Infographic figure — image + accessible caption block -->
+<p class="mrgn-bttm-lg lead">A crime can be considered a cybercrime when a computer or other digital technology plays an important role in committing a criminal offence. This infographic explains how the <cite>Criminal Code of Canada</cite> defines these types of crimes, using everyday scenarios.</p>
 <figure class="mrgn-bttm-lg">
   <img alt="" aria-describedby="infographic-description" class="img-responsive img-thumbnail" src="cyberchoices-infographic-eng.png">
   <figcaption class="mrgn-tp-md">
@@ -62,17 +62,3 @@ issued: 2026-05-04
     </section>
   </figcaption>
 </figure>
-<section aria-label="Share this page" class="gc-followus mrgn-bttm-lg">
-  <h2 class="h4">Share this page</h2>
-  <ul class="list-inline">
-    <li>
-      <a aria-label="Share on Facebook (opens in new tab)" class="btn btn-default btn-sm" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Frcmp.ca%2Fen%2Fyouth%2Fcybercrime-infographic" rel="noreferrer noopener" target="_blank"><span aria-hidden="true" class="fab fa-facebook-f mrgn-rght-sm"></span>Facebook</a>
-    </li>
-    <li>
-      <a aria-label="Share on X, formerly Twitter (opens in new tab)" class="btn btn-default btn-sm" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Frcmp.ca%2Fen%2Fyouth%2Fcybercrime-infographic" rel="noreferrer noopener" target="_blank"><span aria-hidden="true" class="fab fa-x-twitter mrgn-rght-sm"></span>X</a>
-    </li>
-    <li>
-      <a aria-label="Share on LinkedIn (opens in new tab)" class="btn btn-default btn-sm" href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Frcmp.ca%2Fen%2Fyouth%2Fcybercrime-infographic" rel="noreferrer noopener" target="_blank"><span aria-hidden="true" class="fab fa-linkedin-in mrgn-rght-sm"></span>LinkedIn</a>
-    </li>
-  </ul>
-</section>

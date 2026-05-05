@@ -64,20 +64,6 @@ main {
    1. Utilities
 ----------------------------------------------------------------------------- */
 
-@media print {
-  details.print-open {
-    display: block;
-  }
-
-  details.print-open > summary {
-    display: none;
-  }
-
-  details.print-open > *:not(summary) {
-    display: block;
-  }
-}
-
 /* -----------------------------------------------------------------------------
    1. CSS Custom Properties
 ----------------------------------------------------------------------------- */

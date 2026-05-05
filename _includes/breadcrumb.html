@@ -1,19 +1,108 @@
+{% unless page.is_homepage %}
+{% if page.lang == 'fr' %}
+  {% assign base_url   = 'https://grc.ca/fr' %}
+  {% assign base_label = 'GRC.ca' %}
+  {% assign you_are_here = 'Vous êtes ici :' %}
+{% else %}
+  {% assign base_url   = 'https://rcmp.ca/en' %}
+  {% assign base_label = 'RCMP.ca' %}
+  {% assign you_are_here = 'You are here:' %}
+{% endif %}
 <nav id="wb-bc" property="breadcrumb">
-  <h2>You are here:</h2>
+  <h2>{{ you_are_here }}</h2>
   <div class="container">
     <ol class="breadcrumb" typeof="BreadcrumbList">
       <li property="itemListElement" typeof="ListItem">
-        <a href="https://rcmp.ca/en" property="item" typeof="WebPage">
-          <span property="name">RCMP.ca</span>
+        <a href="{{ base_url }}" property="item" typeof="WebPage">
+          <span property="name">{{ base_label }}</span>
         </a>
         <meta content="1" property="position" />
       </li>
-      {% if page.title %}
+      {% if page.breadcrumbs[0] %}
       <li property="itemListElement" typeof="ListItem">
-        <span property="name">{{ page.title }}</span>
+        {% if page.breadcrumbs[0].url %}
+          <a href="{{ base_url }}/{{ page.breadcrumbs[0].url }}" property="item" typeof="WebPage">
+            <span property="name">{{ page.breadcrumbs[0].label }}</span>
+          </a>
+        {% else %}
+          <span property="name">{{ page.breadcrumbs[0].label }}</span>
+        {% endif %}
         <meta content="2" property="position" />
+      </li>
+      {% endif %}
+      {% if page.breadcrumbs[1] %}
+      <li property="itemListElement" typeof="ListItem">
+        {% if page.breadcrumbs[1].url %}
+          <a href="{{ base_url }}/{{ page.breadcrumbs[1].url }}" property="item" typeof="WebPage">
+            <span property="name">{{ page.breadcrumbs[1].label }}</span>
+          </a>
+        {% else %}
+          <span property="name">{{ page.breadcrumbs[1].label }}</span>
+        {% endif %}
+        <meta content="3" property="position" />
+      </li>
+      {% endif %}
+      {% if page.breadcrumbs[2] %}
+      <li property="itemListElement" typeof="ListItem">
+        {% if page.breadcrumbs[2].url %}
+          <a href="{{ base_url }}/{{ page.breadcrumbs[2].url }}" property="item" typeof="WebPage">
+            <span property="name">{{ page.breadcrumbs[2].label }}</span>
+          </a>
+        {% else %}
+          <span property="name">{{ page.breadcrumbs[2].label }}</span>
+        {% endif %}
+        <meta content="4" property="position" />
+      </li>
+      {% endif %}
+      {% if page.breadcrumbs[3] %}
+      <li property="itemListElement" typeof="ListItem">
+        {% if page.breadcrumbs[3].url %}
+          <a href="{{ base_url }}/{{ page.breadcrumbs[3].url }}" property="item" typeof="WebPage">
+            <span property="name">{{ page.breadcrumbs[3].label }}</span>
+          </a>
+        {% else %}
+          <span property="name">{{ page.breadcrumbs[3].label }}</span>
+        {% endif %}
+        <meta content="5" property="position" />
+      </li>
+      {% endif %}
+      {% if page.breadcrumbs[4] %}
+      <li property="itemListElement" typeof="ListItem">
+        {% if page.breadcrumbs[4].url %}
+          <a href="{{ base_url }}/{{ page.breadcrumbs[4].url }}" property="item" typeof="WebPage">
+            <span property="name">{{ page.breadcrumbs[4].label }}</span>
+          </a>
+        {% else %}
+          <span property="name">{{ page.breadcrumbs[4].label }}</span>
+        {% endif %}
+        <meta content="6" property="position" />
+      </li>
+      {% endif %}
+      {% if page.breadcrumbs[5] %}
+      <li property="itemListElement" typeof="ListItem">
+        {% if page.breadcrumbs[5].url %}
+          <a href="{{ base_url }}/{{ page.breadcrumbs[5].url }}" property="item" typeof="WebPage">
+            <span property="name">{{ page.breadcrumbs[5].label }}</span>
+          </a>
+        {% else %}
+          <span property="name">{{ page.breadcrumbs[5].label }}</span>
+        {% endif %}
+        <meta content="7" property="position" />
+      </li>
+      {% endif %}
+      {% if page.breadcrumbs[6] %}
+      <li property="itemListElement" typeof="ListItem">
+        {% if page.breadcrumbs[6].url %}
+          <a href="{{ base_url }}/{{ page.breadcrumbs[6].url }}" property="item" typeof="WebPage">
+            <span property="name">{{ page.breadcrumbs[6].label }}</span>
+          </a>
+        {% else %}
+          <span property="name">{{ page.breadcrumbs[6].label }}</span>
+        {% endif %}
+        <meta content="8" property="position" />
       </li>
       {% endif %}
     </ol>
   </div>
 </nav>
+{% endunless %}

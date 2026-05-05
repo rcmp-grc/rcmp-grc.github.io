@@ -11,4 +11,6 @@ subject:
 issued: 2026-05-04
 ---
 
-I'm English.
+<ul>
+  <li><a href="news-nouvelle-en.html">Landing page</a></li>
+</ul>

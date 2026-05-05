@@ -12,5 +12,5 @@ issued: 2026-05-04
 ---
 
 <ul>
-  <li><a href="news-nouvelle-en.html">Landing page</a></li>
+  <li><a href="news-nouvelles-en.html">Landing page</a></li>
 </ul>

@@ -1,12 +1,40 @@
-{% if page.lang == 'fr' %} {% assign base_url = 'https://grc.ca/fr' %} {% assign org_name = 'Gendarmerie royale du Canada' %} {% assign about_site =
-'À propos de ce site' %} {% assign org_label = 'Organisation de la Gendarmerie royale du Canada' %} {% assign img_alt = 'Symbole du gouvernement du
-Canada' %} {% assign contacts_label = 'Tous les contacts' %} {% assign news_label = 'Nouvelles' %} {% assign about_label = 'À propos de la
-<abbr>GRC</abbr>' %} {% assign themes_label = 'Thèmes et sujets' %} {% assign social_label = 'Médias sociaux' %} {% assign terms_label = 'Avis' %} {%
-else %} {% assign base_url = 'https://rcmp.ca/en' %} {% assign org_name = 'Royal Canadian Mounted Police' %} {% assign about_site = 'About this site'
-%} {% assign org_label = 'Royal Canadian Mounted Police organization' %} {% assign img_alt = 'Symbol of the Government of Canada' %} {% assign
-contacts_label = 'All contacts' %} {% assign news_label = 'News' %} {% assign about_label = 'About the <abbr>RCMP</abbr>' %} {% assign themes_label =
-'Themes and topics' %} {% assign social_label = 'Social media' %} {% assign terms_label = 'Terms and conditions' %} {% endif %}
-
+{% if page.lang == 'fr' %}
+  {% assign base_url    = 'https://grc.ca/fr' %}
+  {% assign org_name    = 'Gendarmerie royale du Canada' %}
+  {% assign about_site  = 'À propos de ce site' %}
+  {% assign org_label   = 'Organisation de la Gendarmerie royale du Canada' %}
+  {% assign img_alt     = 'Symbole du gouvernement du Canada' %}
+  {% assign contacts_url  = '/contactez-grc' %}
+  {% assign contacts_label = 'Tous les contacts' %}
+  {% assign news_url    = '/nouvelles' %}
+  {% assign news_label  = 'Nouvelles' %}
+  {% assign about_url   = '/renseignements-organisationnels/propos-grc' %}
+  {% assign about_label = 'À propos de la <abbr>GRC</abbr>' %}
+  {% assign themes_label = 'Thèmes et sujets' %}
+  {% assign social_url  = '/renseignements-organisationnels/medias-sociaux' %}
+  {% assign social_label = 'Médias sociaux' %}
+  {% assign terms_url   = '/avis' %}
+  {% assign terms_label = 'Avis' %}
+  {% assign theme_links = 'carrieres-grc|Carrières,casiers-judiciaires/verification-casier-judiciaire|Vérification de casier judiciaire,armes-feu|Armes à feu,personnes-disparues|Personnes disparues,police-federale|Police fédérale,gazette|Gazette,renseignements-organisationnels/emplacements-grc|Emplacements,services-police-autochtones|Services de police autochtones,jeunesse|Jeunesse' | split: ',' %}
+{% else %}
+  {% assign base_url    = 'https://rcmp.ca/en' %}
+  {% assign org_name    = 'Royal Canadian Mounted Police' %}
+  {% assign about_site  = 'About this site' %}
+  {% assign org_label   = 'Royal Canadian Mounted Police organization' %}
+  {% assign img_alt     = 'Symbol of the Government of Canada' %}
+  {% assign contacts_url  = '/contact-rcmp' %}
+  {% assign contacts_label = 'All contacts' %}
+  {% assign news_url    = '/news' %}
+  {% assign news_label  = 'News' %}
+  {% assign about_url   = '/corporate-information/about-rcmp' %}
+  {% assign about_label = 'About the <abbr>RCMP</abbr>' %}
+  {% assign themes_label = 'Themes and topics' %}
+  {% assign social_url  = '/corporate-information/social-media' %}
+  {% assign social_label = 'Social media' %}
+  {% assign terms_url   = '/terms-and-conditions' %}
+  {% assign terms_label = 'Terms and conditions' %}
+  {% assign theme_links = 'careers-rcmp|Careers,criminal-records/criminal-record-checks|Criminal record checks,firearms|Firearms,missing-persons|Missing persons,federal-policing|Federal Policing,gazette|Gazette,corporate-information/rcmp-locations|Locations,indigenous-policing|Indigenous policing,youth|Youth' | split: ',' %}
+{% endif %}
 <footer id="wb-info">
   <h2 class="wb-inv">{{ about_site }}</h2>
   <div class="gc-main-footer">
@@ -14,46 +42,27 @@ contacts_label = 'All contacts' %} {% assign news_label = 'News' %} {% assign ab
       <nav>
         <h3 class="wb-gld">{{ org_name }}</h3>
         <ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
-          <li><a href="{{ base_url }}/contact-rcmp">{{ contacts_label }}</a></li>
-          <li><a href="{{ base_url }}/news">{{ news_label }}</a></li>
-          <li><a href="{{ base_url }}/corporate-information/about-rcmp">{{ about_label }}</a></li>
+          <li><a href="{{ base_url }}{{ contacts_url }}">{{ contacts_label }}</a></li>
+          <li><a href="{{ base_url }}{{ news_url }}">{{ news_label }}</a></li>
+          <li><a href="{{ base_url }}{{ about_url }}">{{ about_label }}</a></li>
         </ul>
-
         <h4><span class="wb-inv">{{ themes_label }}</span></h4>
         <ul class="list-unstyled colcount-sm-2 colcount-md-3">
-          {% if page.lang == 'fr' %}
-          <li><a href="{{ base_url }}/carrieres-grc">Carrières</a></li>
-          <li><a href="{{ base_url }}/casiers-judiciaires/verifications-casiers-judiciaires">Vérification du casier judiciaire</a></li>
-          <li><a href="{{ base_url }}/armes-feu">Armes à feu</a></li>
-          <li><a href="{{ base_url }}/personnes-disparues">Personnes disparues</a></li>
-          <li><a href="{{ base_url }}/police-federale">Police fédérale</a></li>
-          <li><a href="{{ base_url }}/gazette">Gazette</a></li>
-          <li><a href="{{ base_url }}/renseignements-organisationnels/emplacements-grc">Emplacements</a></li>
-          <li><a href="{{ base_url }}/services-policiers-autochtones">Services policiers autochtones</a></li>
-          <li><a href="{{ base_url }}/jeunesse">Jeunesse</a></li>
-          {% else %}
-          <li><a href="{{ base_url }}/careers-rcmp">Careers</a></li>
-          <li><a href="{{ base_url }}/criminal-records/criminal-record-checks">Criminal record checks</a></li>
-          <li><a href="{{ base_url }}/firearms">Firearms</a></li>
-          <li><a href="{{ base_url }}/missing-persons">Missing persons</a></li>
-          <li><a href="{{ base_url }}/federal-policing">Federal Policing</a></li>
-          <li><a href="{{ base_url }}/gazette">Gazette</a></li>
-          <li><a href="{{ base_url }}/corporate-information/rcmp-locations">Locations</a></li>
-          <li><a href="{{ base_url }}/indigenous-policing">Indigenous policing</a></li>
-          <li><a href="{{ base_url }}/youth">Youth</a></li>
-          {% endif %}
+          {% for item in theme_links %}
+            {% assign parts = item | split: '|' %}
+            <li><a href="{{ base_url }}/{{ parts[0] }}">{{ parts[1] }}</a></li>
+          {% endfor %}
         </ul>
       </nav>
     </div>
   </div>
-
   <div class="gc-sub-footer">
     <div class="container d-flex align-items-center">
       <nav>
         <h3 class="wb-inv">{{ org_label }}</h3>
         <ul>
-          <li><a href="{{ base_url }}/corporate-information/social-media">{{ social_label }}</a></li>
-          <li><a href="{{ base_url }}/terms-and-conditions">{{ terms_label }}</a></li>
+          <li><a href="{{ base_url }}{{ social_url }}">{{ social_label }}</a></li>
+          <li><a href="{{ base_url }}{{ terms_url }}">{{ terms_label }}</a></li>
         </ul>
       </nav>
       <div class="wtrmrk align-self-end">
@@ -62,30 +71,18 @@ contacts_label = 'All contacts' %} {% assign news_label = 'News' %} {% assign ab
     </div>
   </div>
 </footer>
-
-<!-- Scripts -->
-<script
-  src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
   integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs"
-  crossorigin="anonymous"
-></script>
-<script
-  src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"
+  crossorigin="anonymous"></script>
+<script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"
   integrity="sha384-NnhHqAj4kjlw84Iu86tjmqXvREkBBnKKHoUcfVgfXIxQNIAj2oTOfiiHPNQTFeH1"
-  crossorigin="anonymous"
-></script>
-<script
-  src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js"
+  crossorigin="anonymous"></script>
+<script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js"
   integrity="sha384-DGJ4LOa2bKt4TeN5tIb4ILJ8KASAZ4TMTxydSJUfVIcZ8lV6nU1WZ+L1fkEZOryi"
-  crossorigin="anonymous"
-></script>
-<script
-  src="https://use.fontawesome.com/releases/v6.5.0/js/all.js"
+  crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v6.5.0/js/all.js"
   integrity="sha384-xJg9IXkLBF6DBCGIEmpH5d2Pzct5onYxQNIAj2oTOfiiHPNQTFeH1"
-  crossorigin="anonymous"
-></script>
-<script
-  src="https://use.fontawesome.com/releases/v6.5.0/js/v4-shims.js"
+  crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v6.5.0/js/v4-shims.js"
   integrity="sha384-/92mVmELKUSys+AjbeSvITO3rhI9KtDAENPjak7fYPIxTdmKqt1Z2WCbRbI8ybF2"
-  crossorigin="anonymous"
-></script>
+  crossorigin="anonymous"></script>

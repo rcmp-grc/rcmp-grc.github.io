@@ -14,8 +14,8 @@ issued: 2026-05-04
 <figure>
   <img alt="" class="img-responsive" src="cyberchoices-infographic-eng.png">
   <figcaption>
-    <details>
-      <summary class="wb-toggle" data-toggle='{"print": "on"}'>
+    <details class="print-open">
+      <summary>
         Text description: Is this a cybercrime?
       </summary>
       <p>A crime can be considered a cybercrime when a computer or other digital technology plays an important role in committing a criminal offence. The <cite>Criminal Code of Canada</cite> outlines the law around these types of crimes:</p>
@@ -28,8 +28,8 @@ issued: 2026-05-04
       <h2 class="h3">Section 342.2</h2>
       <p>Andrew reprograms phones so that they can be used to hack into other devices. He sells them to his tech savvy friends.</p>
     </details>
-    <details>
-      <summary class="wb-toggle" data-toggle='{"print": "on"}'>
+    <details class="print-open">
+      <summary>
         Publication information
       </summary>
       <p>Is this a cybercrime?</p>

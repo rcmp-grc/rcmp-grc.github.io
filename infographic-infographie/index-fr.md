@@ -23,7 +23,7 @@ issued: 2026-05-04
   <img alt="" aria-describedby="infographic-description" class="img-responsive img-thumbnail" src="cyberchoices-infographic-eng.png">
   <figcaption class="mrgn-tp-md">
     <details class="mrgn-bttm-sm" id="infographic-description">
-      <summary class="h4 mrgn-tp-md">
+      <summary>
         Text description: Is this a cybercrime?
       </summary>
       <div class="mrgn-tp-md">
@@ -39,7 +39,7 @@ issued: 2026-05-04
       </div>
     </details>
     <details class="mrgn-bttm-md">
-      <summary class="h4 mrgn-tp-md">
+      <summary>
         Publication information
       </summary>
       <div class="mrgn-tp-md">

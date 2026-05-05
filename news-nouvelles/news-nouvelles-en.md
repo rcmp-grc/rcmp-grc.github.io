@@ -4,76 +4,24 @@ title: News and communications
 description: My page description
 date_modified: 2026-05-04
 lang: en
-lang_url: index-fr.html
+lang_url: news-nouvelles-fr.html
 author:
 creator:
 subject:
 issued: 2026-05-04
 ---
 
-
-
 <div class="mwsgeneric-base-html parbase section">
-
-
-
     <div class="row">
-	<div class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
-<p>Find the most recent Government of Canada news content.</p>
-		<!--p><a href="/content/canadasite/en/news/subscribe.html">Subscribe</a> to the news emails.</p-->
-	</div>
-
-
-
-<!--div class="row">
-  <div class="col-md-4">
-    <h3><a href="https://www.pm.gc.ca/en/news?utm_source=canadadotca&utm_medium=landing-page-en&utm_campaign=pco-bcp-news-nouvelles&utm_id=pco-bcp-news-nouvelles">Latest news from the Prime Minister</a></h3>
-    <p>Read all news from the Prime Minister of Canada.</p>
-  </div>
-
-  <div class="col-md-4">
-    <h3><a href="https://www.canada.ca/en/news/subscribe.html">Subscribe to get news by email</a></h3>
-    <p>Receive News releases and Statements by email.</p>
-  </div>
-
-  <div class="col-md-4">
-    <h3><a href="https://webarchiveweb.wayback.bac-lac.canada.ca/web/20260301000000*/https:/www.canada.ca/en/news.html">News archive collection</a></h3>
-    <p>Search News on the Library and Archives Canada's web archive.</p>
-  </div>
-</div-->
-
-
-
-	<!--div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
-		<div class="text-sm-right">
-			<section class="followus">
-				<h2>Follow:</h2>
-				<ul>
-					<li><a rel="external" class="rss" href="https://canada.ca/en/news/web-feeds.html"><span class="wb-inv">Web feeds</span></a></li>
-					<li><a rel="external" class="twitter" href="https://twitter.com/NewsroomGC"><span class="wb-inv">Twitter</span></a></li>
-				</ul>
-			</section>
+		<div class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
+			<p>Find the most recent Government of Canada news content.</p>
 		</div>
-	</div-->
-</div>
-
-
+	</div>
 </div>
 <div class="mwsdoormat-links-container section">
-
-
-<h2 class="wb-inv">Services and information</h2><div class="wb-eqht row wb-init wb-eqht-inited" id="wb-auto-4">
-
-	
-        
-        
-        
-         
-        
-                 
-        
-        
-        	<div class="col-md-4" style="vertical-align: top; min-height: 121px;">
+	<h2 class="wb-inv">Services and information</h2>
+	<div class="wb-eqht row wb-init wb-eqht-inited" id="wb-auto-4">
+		<div class="col-md-4" style="vertical-align: top; min-height: 121px;">
         		
 <section class="gc-drmt">
 	<h3 data-emptytext="Enter heading" class="h5">

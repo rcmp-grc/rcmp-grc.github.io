@@ -3,8 +3,8 @@ layout: default
 title: Content page - Limited width content
 description: My page description
 date_modified: 2026-05-04
-lang: en
-lang_url: index-fr.html
+lang: fr
+lang_url: index.html
 ---
 
-Add the CSS class name `.cnt-wdth-lmtd` to the `<body>` of your page.
+French

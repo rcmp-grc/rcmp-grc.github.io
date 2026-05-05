@@ -64,6 +64,17 @@ main {
    1. Utilities
 ----------------------------------------------------------------------------- */
 
+details > summary {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+details[open] > summary {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
 /* -----------------------------------------------------------------------------
    1. CSS Custom Properties
 ----------------------------------------------------------------------------- */

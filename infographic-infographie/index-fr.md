@@ -28,14 +28,16 @@ issued: 2026-05-04
       </summary>
       <div class="mrgn-tp-md">
         <p>A crime can be considered a cybercrime when a computer or other digital technology plays an important role in committing a criminal offence. The <cite>Criminal Code of Canada</cite> outlines the law around these types of crimes:</p>
-        <h2 class="h3">Section 430 (1.1)</h2>
-        <p>Adam watches a friend enter their username and password. Later, Adam logs into his friend's account without their permission and deletes several messages.</p>
-        <h2 class="h3">Section 342.1</h2>
-        <p>Natalie downloads software that will allow her to log into her girlfriend's laptop, but she has not used it yet.</p>
-        <h2 class="h3">Section 184</h2>
-        <p>Leah sets her phone to record audio and leaves it in a room with her friends without their knowledge. She later listens to their private conversation.</p>
-        <h2 class="h3">Section 342.2</h2>
-        <p>Andrew reprograms phones so that they can be used to hack into other devices. He sells them to his tech savvy friends.</p>
+        <dl>
+          <dt>Section 430 (1.1)</dt>
+          <dd>Adam watches a friend enter their username and password. Later, Adam logs into his friend's account without their permission and deletes several messages.</dd>
+          <dt>Section 342.1</dt>
+          <dd>Natalie downloads software that will allow her to log into her girlfriend's laptop, but she has not used it yet.</dd>
+          <dt>Section 184</dt>
+          <dd>Leah sets her phone to record audio and leaves it in a room with her friends without their knowledge. She later listens to their private conversation.</dd>
+          <dt>Section 342.2</dt>
+          <dd>Andrew reprograms phones so that they can be used to hack into other devices. He sells them to his tech savvy friends.</dd>
+        </dl>
       </div>
     </details>
     <details class="mrgn-bttm-md">

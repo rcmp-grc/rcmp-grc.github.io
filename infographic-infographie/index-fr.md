@@ -55,6 +55,6 @@ issued: 2026-05-04
         </dl>
       </div>
     </details>
-    <p class="mrgn-bttm-sm"><a aria-label="Download Is this a cybercrime? infographic (PNG, 889 KB)" class="btn btn-call-to-action" href="cyberchoices-infographic-eng.png" download target="_blank><span aria-hidden="true" class="glyphicon glyphicon-download-alt mrgn-rght-sm"></span> Download <span class="wb-inv">Is this a cybercrime?</span> infographic</a> <span class="small text-muted mrgn-lft-md">PNG format • 889&nbsp;KB • English</span></p>
+    <p class="mrgn-bttm-sm"><a aria-label="Download Is this a cybercrime? infographic (PNG, 889 KB)" class="btn btn-call-to-action" href="cyberchoices-infographic-eng.png" download target="_blank"><span aria-hidden="true" class="glyphicon glyphicon-download-alt mrgn-rght-sm"></span> Download <span class="wb-inv">Is this a cybercrime?</span> infographic</a> <span class="small text-muted mrgn-lft-md">PNG format • 889&nbsp;KB • English</span></p>
   </figcaption>
 </figure>

@@ -43,19 +43,19 @@ from our executive</a></h3>
 	
 <section class="mrgn-tp-lg">
 	
-<h4 class="h4">Search</h4>
-<form action="https://github.com/rcmp-grc/rcmp-grc.github.io/edit/main/news-nouvelles/news-nouvelles-en.html#wb-news" id="cse-search-box" method="get" name="cse-search-box" role="search">
-<div class="form-group wb-srch-news-qry">
-<label class="wb-inv" for="wb-srch-news">Search RCMP news</label>
-<input class="wb-srch-news form-control" id="wb-srch-news" list="wb-srch-news-q" maxlength="170" name="news" placeholder="RCMP news" size="15" type="search" value="">
-<button class="btn btn-primary btn-small" id="wb-srch-sub" name="wb-srch-sub" type="submit"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
-</div></form>
 
 							
 				<form aria-controls="n" class="wb-tables-filter" data-bind-to="n">
-					<h2 class="mrgn-tp-lg">Filters</h2>				
+					<h2 class="mrgn-tp-lg">Search</h2>				
 
-																			
+					<div class="form-group wb-srch-news-qry">
+<label class="wb-inv" for="wb-srch-news">Search RCMP news</label>
+<input class="wb-srch-news form-control" id="wb-srch-news" list="wb-srch-news-q" maxlength="170" name="news" placeholder="News" size="15" type="search" value="">
+<button class="btn btn-primary btn-small" id="wb-srch-sub" name="wb-srch-sub" type="submit"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
+
+	<div id="description"><p>Apply any of the following 
+filtres to narrow your search:
+</p>div>																		
 						
 						
 						<h3 class="h4 mrgn-tp-lg mrgn-bttm-sm"><label for="dt-type">Type</label></h3>

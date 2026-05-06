@@ -185,13 +185,12 @@ from our executive</a></h3>
 						</div>
 					</div>
 			 </form>
+			 
+			 </section>
+			 </div>
+			 </div>
 
-      </section>
 
-</div>
-
-
-                </div>
             
                 <div class="col-md-9">
 			<section id="body">

@@ -57,7 +57,7 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">About firearms</a></h3>
-        <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+        <p>Firearms in Canada fall into three different classes: non-restricted, restricted, and prohibited.</p>
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Buying, selling and transferring firearms</a></h3>
@@ -81,7 +81,7 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Shooting clubs and ranges</a></h3>
-        <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+        <p>Information on design guidelines and sound requirements for shooting clubs and ranges.</p>
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Executors of estates</a></h3>

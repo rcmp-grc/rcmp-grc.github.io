@@ -10,7 +10,7 @@ creator:
 subject:
 issued: 2026-05-05
 hero: ip-cover-image-1200x726.jpg
-intro: <p>The introduction block pattern introduces the content of a landing page. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet arcu ac velit gravida mattis.</p>
+intro: <p>The introduction block pattern introduces the content of a landing page. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet arcu ac velit gravida mattis.</p><p>Duis eget nisl nec nulla pretium egestas consectetur non dolor.</p>
 ---
 
 <div class="container">
@@ -99,7 +99,7 @@ intro: <p>The introduction block pattern introduces the content of a landing pag
   <div class="container">
     <section>
       <h2>Contact us</h2>
-      <ul class="wb-eqht list-unstyled mrgn-tp-lg lst-spcd-2 colcount-md-3 bold-content">
+      <ul class="wb-eqht list-unstyled mrgn-tp-lg lst-spcd-2 colcount-md-2 bold-content">
         <li>
           <a href="#">Canadian Firearms Program</a>
         </li>

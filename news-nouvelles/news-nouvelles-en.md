@@ -16,45 +16,27 @@ issued: 2026-05-04
 	
 
 <div class="wb-eqht row">
-	<div class="col-md-4">
+<div class="col-md-4">
 <section class="gc-drmt">
-	<h3 data-emptytext="Executive" class="h5">
-		<a href="/en/news/comm-en.html">Read the latest communications 
-from our executive</a>
-	</h3>
-	
-	
-		<p>Read all news from the leaders of the <abbr>RCMP</abbr> across Canada.</p>
-	
-    
+<h3 data-emptytext="Executive" class="h5">
+<a href="/en/news/comm-en.html">Read the latest communications 
+from our executive</a></h3>
+<p>Read all news from the leaders of the <abbr>RCMP</abbr> across Canada.</p>
 </section>
+</div>
 
-
-        	</div>
-
-        	<div class="col-md-4">
-        		
+<div class="col-md-4">       		
 <section class="gc-drmt">
-	<h3 data-emptytext="Subscribe" class="h5">
-		<a href="/en/news/subscribe-en.html">Subscribe to news</a>
-	</h3>
-	
-	
-		<p>Receive news and communications by email.</p>
-	
-    
+<h3 data-emptytext="Subscribe" class="h5">
+<a href="/en/news/subscribe-en.html">Subscribe to news</a></h3>
+<p>Receive news and communications by email.</p>
 </section>
-
-
-        	</div>
-	
-
+</div>
 </div>
 
 
 <!-- To get the name of the component printed when dragged -->
 
-</div>
 <div class="mwscolumns section">
     
 

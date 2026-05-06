@@ -16,8 +16,9 @@ jobs:
           source: ./
           destination: ./_site
 
-      - name: Fix self-closing image tags
-        run: find ./_site -name "*.html" | xargs perl -pi -e 's/ \/>/>/g'
+      - name: Fix self-closing void element tags
+        run: |
+          find ./_site -name "*.html" | xargs perl -pi -e 's/\s*\/>/>/g'
         
       - name: Deploy
         uses: actions/upload-pages-artifact@v3

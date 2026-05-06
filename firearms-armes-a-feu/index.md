@@ -9,15 +9,16 @@ author:
 creator:
 subject:
 issued: 2026-05-05
+hero: ip-cover-image-1200x726.jpg
+intro: <p>The introduction block pattern introduces the content of a landing page. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet arcu ac velit gravida mattis.</p><p>Duis eget nisl nec nulla pretium egestas consectetur non dolor.</p>
 ---
 
-<p>The introduction block pattern introduces the content of a landing page.</p>
-<section class="gc-featured-link wb-init gc-featured-link-inited" id="wb-auto-5">
-  <div class="container">
-    <h2 class="wb-inv">Spotlight on</h2>
-    <p><a class="stretched-link" href="#">[Promotion title]</a></p>
-  </div>
-</section>
+<div class="container">
+  <section class="alert alert-warning mrgn-tp-md mrgn-bttm-md">
+    <h2 class="h3">Warning alert</h2>
+    <p>Alert details.</p>
+  </section>
+</div>
 <section class="gc-most-requested">
   <div class="container">
     <h2>Most requested</h2>
@@ -98,12 +99,12 @@ issued: 2026-05-05
   <div class="container">
     <section>
       <h2>Contact us</h2>
-      <ul class="wb-eqht list-unstyled mrgn-tp-lg lst-spcd-2 colcount-md-3 bold-content wb-init wb-eqht-inited" id="wb-auto-6">
-        <li style="vertical-align: top; min-height: 33px;">
+      <ul class="wb-eqht list-unstyled mrgn-tp-lg lst-spcd-2 colcount-md-2 bold-content">
+        <li>
           <a href="#">Canadian Firearms Program</a>
         </li>
-        <li style="vertical-align: top; min-height: 33px;">
-          <a href="#">Chief Firearms Officers</a>
+        <li>
+          <a href="#">Chief Firearms Officers </a>
         </li>
       </ul>
     </section>
@@ -112,9 +113,9 @@ issued: 2026-05-05
 <div class="container">
   <div class="row">
     <div class="col-md-4">
-      <section class="wb-feeds limit-3 wb-init wb-feeds-inited" id="wb-auto-8">
+      <section class="wb-feeds limit-3">
         <h2>News</h2>
-        <ul class="feeds-cont list-unstyled lst-spcd feed-active">
+        <ul class="feeds-cont list-unstyled lst-spcd">
           <li>
             <a href="#"><cite>Firearms Marking Regulations</cite> deferral</a><br>
             <small class="feeds-date"><time>2026-02-22</time></small>
@@ -136,16 +137,16 @@ issued: 2026-05-05
         <h2>Features</h2>
         <div class="row wb-eqht-grd">
           <div class="col-sm-6 hght-inhrt">
-            <div class="well well-sm eqht-trgt hght-inhrt wb-init wb-eqht-grd-inited" id="wb-auto-10">
-              <img alt="" src="https://picsum.photos/id/425/360/203">
-              <h3><a class="stretched-link" href="#">2025 Annual Report</a></h3>
+            <div class="well well-sm eqht-trgt hght-inhrt">
+              <img alt="" src="https://dummyimage.com/360x203/000000/FFFFFF.png">
+              <h3><a class="stretched-link" href="#">[Feature hyperlink text]</a></h3>
               <p>Brief description of the feature being promoted. Brief description of the feature being promoted.</p>
             </div>
           </div>
           <div class="col-sm-6 hght-inhrt">
-            <div class="well well-sm eqht-trgt hght-inhrt wb-init wb-eqht-grd-inited" id="wb-auto-11">
-              <img alt="" src="https://picsum.photos/id/425/360/203">
-              <h3><a class="stretched-link" href="#">MyCFP</a></h3>
+            <div class="well well-sm eqht-trgt hght-inhrt">
+              <img alt="" src="https://dummyimage.com/360x203/000000/FFFFFF.png">
+              <h3><a class="stretched-link" href="#">[Feature hyperlink text]</a></h3>
               <p>Brief description of the feature being promoted. Brief description of the feature being promoted.</p>
             </div>
           </div>

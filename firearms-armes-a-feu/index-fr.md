@@ -10,13 +10,15 @@ creator:
 subject:
 issued: 2026-05-05
 hero: ip-cover-image-1200x726.jpg
-intro: <p>The introduction block pattern introduces the content of a landing page.</p>
+intro: <p>The introduction block pattern introduces the content of a landing page. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet arcu ac velit gravida mattis.</p>
 ---
 
-<section class="alert alert-warning">
-  <h2 class="h3">Warning alert</h2>
-  <p>Alert details.</p>
-</section>
+<div class="container">
+  <section class="alert alert-warning mrgn-tp-md mrgn-bttm-md">
+    <h2 class="h3">Warning alert</h2>
+    <p>Alert details.</p>
+  </section>
+</div>
 <section class="gc-most-requested">
   <div class="container">
     <h2>Most requested</h2>
@@ -115,10 +117,19 @@ intro: <p>The introduction block pattern introduces the content of a landing pag
         <h2>News</h2>
         <ul class="feeds-cont list-unstyled lst-spcd">
           <li>
-            <a data-ajax="https://wet-boew.github.io/GCWeb/components/feeds/demo/example-en.atom.json" href="#">[Institution] news</a>
+            <a href="#"><cite>Firearms Marking Regulations</cite> deferral</a><br>
+            <small class="feeds-date"><time>2026-02-22</time></small>
+          </li>
+          <li>
+            <a href="#">Don't miss important notifications from the Canadian Firearms Program</a><br>
+            <small class="feeds-date"><time>2026-02-22</time></small>
+          </li>
+          <li>
+            <a href="#">March 7, 2025, firearm prohibition</a><br>
+            <small class="feeds-date"><time>2026-02-22</time></small>
           </li>
         </ul>
-        <p>More: <a href="#">[Institution] news</a></p>
+        <p>More: <a href="#">Firearms news</a></p>
       </section>
     </div>
     <div class="col-md-8">

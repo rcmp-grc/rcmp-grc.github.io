@@ -2,7 +2,7 @@
 layout: super_landing
 title: Firearms
 description: My page description
-date_modified: 2026-05-05
+date_modified: 2026-05-06
 lang: en
 lang_url: index-fr.html
 author:
@@ -10,7 +10,7 @@ creator:
 subject:
 issued: 2026-05-05
 hero: ip-cover-image-1200x726.jpg
-intro: <p>The introduction block pattern introduces the content of a landing page. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet arcu ac velit gravida mattis.</p><p>Duis eget nisl nec nulla pretium egestas consectetur non dolor.</p>
+intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearms Program (CFP) oversees firearms licences and registration, maintains national firearm safety training standards, assists law enforcement agencies and aims to enhance public safety. Firearms in Canada continue to be regulated by the <cite>Firearms Act</cite> and Part III of the <cite>Criminal Code</cite>.</p>
 ---
 
 <div class="container">

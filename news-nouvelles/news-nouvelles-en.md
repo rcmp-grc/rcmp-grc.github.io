@@ -35,11 +35,9 @@ from our executive</a></h3>
 </div>
 
 
-<div class="mwscolumns section">
 <div class="row">
 <div class="col-md-3">
-	
-<div class="news-article-filter section">
+<div class="news-article-filter section">	
 <section class="mrgn-tp-lg">
 <h4 class="h4">Search</h4>
 <form action="https://github.com/rcmp-grc/rcmp-grc.github.io/edit/main/news-nouvelles/news-nouvelles-en.html#wb-news" id="cse-search-box" method="get" name="cse-search-box" role="search">
@@ -47,9 +45,8 @@ from our executive</a></h3>
 <label class="wb-inv" for="wb-srch-news">Search RCMP news</label>
 <input class="wb-srch-news form-control" id="wb-srch-news" list="wb-srch-news-q" maxlength="170" name="news" placeholder="RCMP news" size="15" type="search" value="">
 <button class="btn btn-primary btn-small" id="wb-srch-sub" name="wb-srch-sub" type="submit"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
-</div>
-</form></section>
-
+</div></form>
+</section>
 									<section id="filters">	
 				<form aria-controls="n" class="wb-tables-filter" data-bind-to="n">
 					<h2 class="mrgn-tp-lg">Filters</h2>				
@@ -127,27 +124,26 @@ from our executive</a></h3>
 															<section class="form-group">
 						<fieldset>
 							<legend>
-								<h3 class="h4 mrgn-tp-0 mrgn-bttm-0 lgnd-h4">Publication date</h3>
+								<h3 class="h4 mrgn-tp-0 mrgn-bttm-0 lgnd-h4">Published</h3>
 							</legend>
 							<div class="form-group">
-								<label for="dt_mindate" class="small">Start date</label>
-								<input type="date" class="form-control" id="dt_mindate" name="dt_mindate" data-column="0">
+								<label for="dt_mindate" class="small">Before</label>
+								<input type="text" class="form-control" id="dt_mindate" name="dt_mindate" data-column="0">
 							</div>
 							<div class="form-group">
-								<label for="dt_maxdate" class="small">End date</label>
-								<input type="date" class="form-control" id="dt_maxdate" name="dt_maxdate" data-column="0">
+								<label for="dt_maxdate" class="small">After</label>
+								<input type="text" class="form-control" id="dt_maxdate" name="dt_maxdate" data-column="0">
 							</div>
 						</fieldset>
 					</section>
 					<div class="wb-eqht row">					
-					<div class="row">
-						<div class="col-xs-6">
+						<div class="col-xs-4">
 										<button aria-controls="n" class="btn btn-primary btn-block btn-sm mrgn-tp-lg" type="submit">Apply filters</button></div>
-						<div class="col-xs-6">
-					<button class="btn btn-default btn-block btn-sm" type="reset">Clear filters</button></div>	</div>	</div>			
+						<div class="col-xs-4">
+					<button class="btn btn-default btn-block btn-sm" type="reset">Clear filters</button></div>	</div>		
 				</form>
 			</section>
-				</div></div>
+				</div>
 						
 
 						<div class="col-md-9">

@@ -14,19 +14,17 @@ issued: 2026-05-04
 <div class="mwsgeneric-base-html parbase section">
     <div class="row">
 		<div class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
-			<p>Find the most recent Government of Canada news content.</p>
+			<p>Read the RCMP news and communications.</p>
 		</div>
 	</div>
 </div>
+
 <div class="mwsdoormat-links-container section">
-	<h2 class="wb-inv">Services and information</h2>
-	<div class="wb-eqht row wb-init wb-eqht-inited" id="wb-auto-4">
-		<div class="col-md-4"">
-        		
+	<div class="col-md-4">
 <section class="gc-drmt">
-	<h3 data-emptytext="Enter heading" class="h5">
+	<h3 data-emptytext="Executive" class="h5">
 		<a href="/en/news/comm-en.html">Read the latest communications 
-from our Executive</a>
+from our executive</a>
 	</h3>
 	
 	
@@ -37,16 +35,7 @@ from our Executive</a>
 
 
         	</div>
-          
 
-        
-        
-        
-         
-        
-                 
-        
-        
         	<div class="col-md-4">
         		
 <section class="gc-drmt">

@@ -11,15 +11,11 @@ subject:
 issued: 2026-05-04
 ---
 
-<div class="mwsgeneric-base-html parbase section">
-    <div class="row">
-		<div class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
-			<p>Read the RCMP news and communications.</p>
-		</div>
-	</div>
-</div>
 
-<div class="mwsdoormat-links-container section">
+<p>Read the RCMP news and communications.</p>
+	
+
+<div class="wb-eqht row">
 	<div class="col-md-4">
 <section class="gc-drmt">
 	<h3 data-emptytext="Executive" class="h5">
@@ -39,7 +35,7 @@ from our executive</a>
         	<div class="col-md-4">
         		
 <section class="gc-drmt">
-	<h3 data-emptytext="Enter heading" class="h5">
+	<h3 data-emptytext="Subscribe" class="h5">
 		<a href="/en/news/subscribe-en.html">Subscribe to news</a>
 	</h3>
 	

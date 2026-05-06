@@ -36,22 +36,22 @@ from our executive</a></h3>
 
 
 <div class="mwscolumns section">
-        <div class="row">
-                <div class="col-md-3">
-                    <div class="news-article-filter section">
-	<section class="mrgn-tp-lg">
-	
-				<h4 class="h4">Search</h4>
+<div class="row">
+<div class="col-md-3">
+<div class="news-article-filter section">
+<section class="mrgn-tp-lg">
+<h4 class="h4">Search</h4>
 <form action="https://www.canada.ca/en/royal-canadian-mounted-police/search.html#wb-news" id="cse-search-box" method="get" name="cse-search-box" role="search">
 <div class="form-group wb-srch-qry">
-<label class="wb-inv" for="wb-srch-q">RCMP news</label>
-<input class="wb-srch-q form-control" id="wb-srch-news" list="wb-srch-news-q" maxlength="170" name="q" placeholder="Search RCMP news" size="25" type="search" value="">
+<label class="wb-inv" for="wb-srch-q">Search RCMP news</label>
+<input class="wb-srch-q form-control" id="wb-srch-news" list="wb-srch-news-q" maxlength="170" name="q" placeholder="RCMP news" size="25" type="search" value="">
 <datalist id="wb-srch-q-ac"></datalist>
 </div>
 <div class="form-group submit">
 <button class="btn btn-primary btn-small" id="wb-srch-sub" name="wb-srch-sub" type="submit"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
 </div>
 </form>
+</section>
 				
 			   <form class="wb-tables-filter" data-bind-to="dataset-filter" data-gc-analytics-formname="ServCan:Filter News - Filtrer les Nouvelles" data-gc-analytics-collect="[{&quot;value&quot;:&quot;select&quot;,&quot;emptyField&quot;:&quot;Any&quot;}]">
 				  <div class="form-group">

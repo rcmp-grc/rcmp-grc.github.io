@@ -179,7 +179,7 @@ from our Executive</a>
 				  </div> 
 				<div class="form-group">
 					  <label for="dt_province-territory">Province or territory</label>
-						<select class="form-control" id="dt_department" name="dt_department" data-column="2" data-exact="true">
+						<select class="form-control" id="dt_province-territory" name="dt_province-territory" data-column="2" data-exact="true">
 							<option value="">All provinces and territories</option>
 							
 								<option>Alberta</option>
@@ -266,10 +266,10 @@ from our Executive</a>
 					
 					<div class="row">
 						<div class="col-xs-6">
-							<button type="submit" class="btn btn-primary" aria-controls="dataset-filter">Filter</button>
+							<button type="submit" class="btn btn-primary" aria-controls="dataset-filter">Apply filter</button>
 						</div>
 						<div class="col-xs-6">
-							<button type="reset" class="btn btn-default">Reset filters</button>
+							<button type="reset" class="btn btn-default">Clear filters</button>
 						</div>
 					</div>
 			 </form>

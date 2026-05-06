@@ -206,129 +206,64 @@ from our executive</a></h3>
 
 
 
-    <section class="gc-features">
-	<h2>Features</h2>
-	<!-- START: Add the list of links to the features to display in basic HTML mode -->
-	<ul class="nojs-show">
-		
-        <li><a href="https://www.census.gc.ca/en/index?utm_source=canada-ca-web-tile&amp;utm_medium=pog&amp;utm_campaign=statcan-statcan-2026-genpop-collection-26-27&amp;utm_content=gr-094-en-census-wrapper">The 2026 Census is underway</a></li>
-        
-		<li><a href="https://budget.canada.ca/update-miseajour/2026/home-accueil-en.html?utm_campaign=fin-fin-update-miseajour-26-27">Spring Economic Update 2026</a></li>
+   <div class="container">
+		<div class="row">
+			<section class="gc-features col-md-12 mrgn-bttm-lg">
+				<h2 class="h3">Features</h2>
+				<div class="row wb-eqht">
+				          
+     <div class="col-md-4">
+          <div class="well well-sm brdr-rds-0 eqht-trgt position-relative">               
+                                                 
+                                             <img src="/sites/default/files/styles/feature_tile_image_360x200/public/web-banners-census-pop-web-tile-360x203-final.jpg?h=492aaa26&amp;itok=wC5OvzPC" alt="" />
+               
+               <h3 class="h5">
+                    <a href="https://www.census.gc.ca/en/index?utm_source=rcmp-web-tile&amp;utm_medium=pog&amp;utm_campaign=statcan-statcan-2026-genpop-collection-26-27&amp;utm_content=gr-093-en-census-wrapper" class="stretched-link">The 2026&nbsp;Census is now underway!</a>
+               </h3>
+               
+                 <p>Check your mail and complete your census online today.</p>
 
-		<li><a href="https://www.international.gc.ca/world-monde/issues_development-enjeux_developpement/response_conflict-reponse_conflits/crisis-crises/middle-east-moyen-orient.aspx?lang=fra">Conflict in the Middle East</a></li>
+          </div>
+     </div>     
+          
+     <div class="col-md-4">
+          <div class="well well-sm brdr-rds-0 eqht-trgt position-relative">               
+                                                 
+                                             <img src="/sites/default/files/styles/feature_tile_image_360x200/public/2026-05-05-feature-red-dress-robe-rouge_0.jpg?h=492aaa26&amp;itok=OMZQYuFS" alt="" />
+               
+               <h3 class="h5">
+                    <a href="/en/indigenous-policing/missing-and-murdered-indigenous-women-girls-and-2slgbtqi-people" class="stretched-link">May&#160;5 - Red Dress Day</a>
+               </h3>
+               
+                 <p>Honouring the memories of missing and murdered Indigenous women, girls and <abbr>2SLGBTQI+</abbr> people.</p>
 
-		<li><a href="/en/canadian-heritage/campaigns/asian-heritage-month.html?utm_campaign=pch-pch-ahm---mpa-26-27&amp;utm_medium=pog&amp;utm_source=canadanews&amp;utm_content=ahm2026-en-260501">Celebrate Asian Heritage Month</a></li>
-        
-        <li><a href="/en/services/policing/emergencies/preparedness/get-prepared/emergency-preparedness-week.html">Emergency Preparedness Week 2026</a></li>
-        
-        <li><a href="/en/public-services-procurement/services/communication/digitizing-records.html?utm_campaign=pspc-spac-disc-25-26&amp;utm_medium=vanity-url&amp;utm_source=canada-ca_homepage-feature_en">Document imaging solutions</a></li>
+          </div>
+     </div>     
+          
+     <div class="col-md-4">
+          <div class="well well-sm brdr-rds-0 eqht-trgt position-relative">               
+                                                 
+                                             <img src="/sites/default/files/styles/feature_tile_image_360x200/public/2026-04-29-feature-musical-ride-schedule-horaire-tournee-carrousel.jpg?h=492aaa26&amp;itok=2_mVS_gn" alt="" />
+               
+               <h3 class="h5">
+                    <a href="/en/corporate-information/musical-ride/musical-ride-tour-schedule" class="stretched-link">Musical Ride tour schedule</a>
+               </h3>
+               
+                 <p>This year’s tour schedule is now live! We’ll be making stops in British Columbia, Ontario and Quebec.</p>
 
-		<li><a href="/en/canadian-heritage/campaigns/canada-pass.html?utm_campaign=pch-pch-csp-lpcf-phase3-25-26&amp;utm_medium=canada-ca&amp;utm_source=news&amp;utm_content=featured-en-260116">Your Canadian summer starts here</a></li>
+          </div>
+     </div>     
 
-		<li><a href="https://www.international.gc.ca/world-monde/issues_development-enjeux_developpement/response_conflict-reponse_conflits/crisis-crises/ukraine.aspx?lang=eng&amp;utm_campaign=gac-amc-ukraine-21-22&amp;utm_source=canadahome&amp;utm_medium=feat&amp;utm_content=en">Canada and Ukraine</a></li>
-
-		<li><a href="/en/canadian-heritage/campaigns/soccer-2026.html?utm_campaign=pch-pch-fifa26-2025-2026&amp;utm_medium=canada-ca&amp;utm_source=news-bas&amp;utm_content=web-promos-en-260303">Canada welcomes the FIFA World Cup 2026<abbr title="Trademark">™</abbr></a></li>
-        
-        <li><a href="https://gcsurplus.ca/mn-eng.cfm?utm_campaign=pspc-spac-gcsurplus-25-26&amp;utm_medium=vanity-url&amp;utm_source=canada-ca_news-feature_en">Find great deals on government surplus items</a></li>
-        
-        <li><a href="/en/health-canada/services/healthy-living/improving-health-men-canada.html#j">Your voice matters: #HealthyMen</a></li>
-    
-	</ul>
-	<!-- END -->
-
-	<!-- Add the "data-wb-randomize" attribute to the "row" element to randomize the features -->
-	<div class="row wb-eqht-grd">
-
-    <!-- SLOT 1 -->
-
-		<div class="col-lg-4 col-sm-6 hght-inhrt wb-init wb-randomize-inited" data-wb-randomize="{ &quot;toggle&quot;: &quot;hide&quot; }" id="wb-auto-5">
-			
-			<section class="well well-sm eqht-trgt wb-init wb-eqht-grd-inited hght-inhrt" id="wb-auto-6">
-				<img src="/content/dam/news/features/20260504-1-360x203.jpg" alt="">
-				<h3><a class="stretched-link" href="https://www.census.gc.ca/en/index?utm_source=canada-ca-web-tile&amp;utm_medium=pog&amp;utm_campaign=statcan-statcan-2026-genpop-collection-26-27&amp;utm_content=gr-094-en-census-wrapper">The 2026 Census is underway</a></h3>
-				<p>Check your mail and complete your census online. It’s quick, secure, and confidential</p>
-			</section>	
-
-			<section class="well well-sm eqht-trgt hide wb-init wb-eqht-grd-inited hght-inhrt" id="wb-auto-7">
-				<img src="/content/dam/news/features/20260428-1-360x203.jpg" alt="">
-				<h3><a class="stretched-link" href="https://budget.canada.ca/update-miseajour/2026/home-accueil-en.html?utm_campaign=fin-fin-update-miseajour-26-27">Spring Economic Update 2026</a></h3>
-				<p>The government’s plan to build, protect, and empower Canada amid global uncertainty.</p>
+				</div>			
 			</section>
-			
-			<section class="well well-sm eqht-trgt hide wb-init wb-eqht-grd-inited hght-inhrt" id="wb-auto-8">
-				<img src="/content/dam/news/features/20260304-1-360x203.jpg" alt="">
-				<h3><a class="stretched-link" href="https://www.international.gc.ca/world-monde/issues_development-enjeux_developpement/response_conflict-reponse_conflits/crisis-crises/middle-east-moyen-orient.aspx?lang=fra">Conflict in the Middle East</a></h3>
-				<p>Information for Canadians in the region and worldwide</p>
-			</section>
-								
-		</div>
-
-    <!-- SLOT 2 -->
-
-		<div class="col-lg-4 col-sm-6 hght-inhrt wb-init wb-randomize-inited" data-wb-randomize="{ &quot;toggle&quot;: &quot;hide&quot; }" id="wb-auto-9">
-			
-			<section class="well well-sm eqht-trgt hide wb-init wb-eqht-grd-inited hght-inhrt" id="wb-auto-10">
-				<img src="/content/dam/news/features/20260501-1-360x203.jpg" alt="">
-				<h3><a class="stretched-link" href="/en/canadian-heritage/campaigns/asian-heritage-month.html?utm_campaign=pch-pch-ahm---mpa-26-27&amp;utm_medium=pog&amp;utm_source=canadanews&amp;utm_content=ahm2026-en-260501">Celebrate Asian Heritage Month</a></h3>
-				<p>May is Asian Heritage Month and an opportunity to recognize the outstanding contributions of people of Asian origin in Canada.</p>
-			</section>
-            
-            <section class="well well-sm eqht-trgt wb-init wb-eqht-grd-inited hght-inhrt" id="wb-auto-11">
-				<img src="/content/dam/news/features/20260501-2-360x203.jpg" alt="">
-				<h3><a class="stretched-link" href="/en/services/policing/emergencies/preparedness/get-prepared/emergency-preparedness-week.html">Emergency Preparedness Week 2026</a></h3>
-				<p>Be prepared for emergencies by understanding the risks in your area.</p>
-			</section>
-            
-            <section class="well well-sm eqht-trgt hide wb-init wb-eqht-grd-inited hght-inhrt" id="wb-auto-12">
-				<img src="/content/dam/news/features/20260501-3-360x203.jpg" alt="">
-				<h3><a class="stretched-link" href="/en/public-services-procurement/services/communication/digitizing-records.html?utm_campaign=pspc-spac-disc-25-26&amp;utm_medium=vanity-url&amp;utm_source=canada-ca_homepage-feature_en">Document imaging solutions</a></h3>
-				<p>Transform your records with tailored digitization services that help your organization work cleaner, faster and more efficiently.</p>
-			</section>
-						
-			<section class="well well-sm eqht-trgt hide wb-init wb-eqht-grd-inited hght-inhrt" id="wb-auto-13">
-				<img src="/content/dam/news/features/20260316-2-360x203.jpg" alt="">
-				<h3><a class="stretched-link" href="/en/canadian-heritage/campaigns/canada-pass.html?utm_campaign=pch-pch-csp-lpcf-phase3-25-26&amp;utm_medium=canada-ca&amp;utm_source=news&amp;utm_content=featured-en-260116">Your Canadian summer starts here</a></h3>
-				<p>Free or discounted museums, parks, campsites and trains from June 19 to September 7. Plan your adventure now.</p>
-			</section>
-
-		</div>
-
-    <!-- SLOT 3 -->
-
-		<div class="col-lg-4 col-sm-6 hght-inhrt wb-init wb-randomize-inited" data-wb-randomize="{ &quot;toggle&quot;: &quot;hide&quot; }" id="wb-auto-14">
-			
-			<section class="well well-sm eqht-trgt hide wb-init wb-eqht-grd-inited hght-inhrt" id="wb-auto-15">
-				<img src="/content/dam/news/features/20230201-2-360x203.jpg" alt="">
-				<h3><a class="stretched-link" href="https://www.international.gc.ca/world-monde/issues_development-enjeux_developpement/response_conflict-reponse_conflits/crisis-crises/ukraine.aspx?lang=eng&amp;utm_campaign=gac-amc-ukraine-21-22&amp;utm_source=canadahome&amp;utm_medium=feat&amp;utm_content=en">Canada and Ukraine</a></h3>
-				<p>Learn about Canada’s response to the Russian invasion of Ukraine.</p>
-			</section>
-			
-			<section class="well well-sm eqht-trgt hide wb-init wb-eqht-grd-inited hght-inhrt" id="wb-auto-16">
-				<img src="/content/dam/news/features/20260306-1-360x203.jpg" alt="">
-				<h3><a class="stretched-link" href="/en/canadian-heritage/campaigns/soccer-2026.html?utm_campaign=pch-pch-fifa26-2025-2026&amp;utm_medium=canada-ca&amp;utm_source=news-bas&amp;utm_content=web-promos-en-260303">Canada welcomes the FIFA World Cup 2026<abbr title="Trademark">™</abbr></a></h3>
-				<p>Make the most of the event and discover the best of Canada. Consult the resources for fans, travellers and businesses.</p>
-			</section>
-            
-            <section class="well well-sm eqht-trgt hide wb-init wb-eqht-grd-inited hght-inhrt" id="wb-auto-17">
-				<img src="/content/dam/news/features/20260501-4-360x203.jpg" alt="">
-				<h3><a class="stretched-link" href="https://gcsurplus.ca/mn-eng.cfm?utm_campaign=pspc-spac-gcsurplus-25-26&amp;utm_medium=vanity-url&amp;utm_source=canada-ca_news-feature_en">Find great deals on government surplus items</a></h3>
-				<p>Explore GCSurplus for affordable government surplus items (furniture, vehicles and more) and support sustainability nationwide.</p>
-			</section>
-            
-            <section class="well well-sm eqht-trgt wb-init wb-eqht-grd-inited hght-inhrt" id="wb-auto-18">
-				<img src="/content/dam/news/features/20260501-5-360x203.jpg" alt="">
-				<h3><a class="stretched-link" href="/en/health-canada/services/healthy-living/improving-health-men-canada.html#j">Your voice matters: #HealthyMen</a></h3>
-				<p>Help shape the first Men and Boys’ Health Strategy. Questionnaire closes June 1, 2026.</p>
-			</section>
-
-		</div>
-
-	</div>
-
-</section>
+		</div>		
+	</div>	
+	</section>
 
 
-</div>
+  </div>
+
+  </div>
 
     
 

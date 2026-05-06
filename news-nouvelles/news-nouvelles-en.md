@@ -48,7 +48,7 @@ from our executive</a></h3>
 <form action="https://www.canada.ca/en/royal-canadian-mounted-police/search.html#wb-land" id="cse-search-box" method="get" name="cse-search-box" role="search">
 <div class="form-group wb-srch-qry">
 <label class="wb-inv" for="wb-srch-q">Search RCMP news</label>
-<input class="wb-srch-q form-control" id="wb-srch-q" list="wb-srch-q-ac" maxlength="170" name="q" placeholder="Search RCMP news" size="15" type="search" value="">
+<input class="wb-srch-q form-control" id="wb-srch-q" list="wb-srch-q-ac" maxlength="20" name="q" placeholder="Search RCMP news" size="25" type="search" value="">
 <datalist id="wb-srch-q-ac"></datalist>
 </div>
 <div class="form-group submit">

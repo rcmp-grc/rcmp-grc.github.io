@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: super_landing
 title: Firearms
 description: My page description
 date_modified: 2026-05-05

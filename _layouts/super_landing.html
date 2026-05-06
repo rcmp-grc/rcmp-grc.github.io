@@ -1,0 +1,64 @@
+<!doctype html>
+<html class="no-js" dir="ltr" lang="{{ page.lang | default: 'en' }}">
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="page-type-ilp" typeof="WebPage" vocab="http://schema.org/">
+    <nav>
+      <ul id="wb-tphp">
+        {% if page.lang == 'fr' %}
+          <li class="wb-slc">
+            <a class="wb-sl" href="#wb-cont">Passer au contenu principal</a>
+          </li>
+          <li class="wb-slc visible-sm visible-md visible-lg">
+            <a class="wb-sl" href="#wb-info">Passer à «&nbsp;À propos de ce site&nbsp;»</a>
+          </li>
+        {% else %}
+          <li class="wb-slc">
+            <a class="wb-sl" href="#wb-cont">Skip to main content</a>
+          </li>
+          <li class="wb-slc visible-sm visible-md visible-lg">
+            <a class="wb-sl" href="#wb-info">Skip to About this site</a>
+          </li>
+        {% endif %}
+      </ul>
+    </nav>
+    {% include header.html %}
+    <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+      <div class="bg-center bg-cover" data-bgimg-srcset="https://wet-boew.github.io/vocab/wb/utilities#no-image 991w, img/ip-cover-image-1200x726.jpg 992w">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <h1 id="wb-cont" property="name">{{ page.title }}</h1>
+              {{ content }}
+			  <section class="pagedetails">
+				{% if page.lang == 'fr' %}
+				  <h2 class="wb-inv">Détails de la page</h2>
+				  <dl id="wb-dtmd">
+					<dt>Date de modification :</dt>
+					<dd>
+					  <time property="dateModified">
+						{{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}
+					  </time>
+					</dd>
+				  </dl>
+				{% else %}
+				  <h2 class="wb-inv">Page details</h2>
+				  <dl id="wb-dtmd">
+					<dt>Date modified:</dt>
+					<dd>
+					  <time property="dateModified">
+						{{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}
+					  </time>
+					</dd>
+				  </dl>
+				{% endif %}
+			  </section>
+			</div>
+		  </div>
+        </div>
+      </div>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

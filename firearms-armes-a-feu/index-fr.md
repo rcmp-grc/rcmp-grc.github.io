@@ -15,7 +15,6 @@ issued: 2026-05-05
         <p><a class="btn btn-call-to-action" href="#">Supertask button</a></p>
       </div>
     </div>
-
   </div>
 </div>
 <section class="gc-featured-link">

@@ -45,9 +45,6 @@ from our executive</a></h3>
 <div class="form-group wb-srch-news-qry">
 <label class="wb-inv" for="wb-srch-news">Search RCMP news</label>
 <input class="wb-srch-news form-control" id="wb-srch-news" list="wb-srch-news-q" maxlength="170" name="news" placeholder="RCMP news" size="15" type="search" value="">
-<!--<datalist id="wb-srch-news-ac"></datalist>-->
-</div>
-<div class="form-group submit">
 <button class="btn btn-primary btn-small" id="wb-srch-sub" name="wb-srch-sub" type="submit"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
 </div>
 </form>

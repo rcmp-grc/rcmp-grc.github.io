@@ -96,7 +96,7 @@ from our executive</a></h3>
 																					</select>
 						
 						
-						<h3 class="h4 mrgn-tp-lg mrgn-bttm-sm"><label for="dt-division-or-federal-policing-region">Division or Federal Policing region</label></h3>
+						<h3 class="h4 mrgn-tp-lg mrgn-bttm-sm"><label for="dt-division-or-federal-policing-region">Published by</label></h3>
 						<select 
 							class="form-control"
 							data-column="2"
@@ -145,7 +145,7 @@ from our executive</a></h3>
 										<button aria-controls="n" class="btn btn-primary btn-block btn-sm mrgn-tp-lg" type="submit">Apply filters</button></div>
 						<div class="col-xs-6">
 					<button class="btn btn-default btn-block btn-sm" type="reset">Clear filters</button></div>
-					</div>					
+					</div>	</div>				
 				</form>
 			</section>
 				</div>

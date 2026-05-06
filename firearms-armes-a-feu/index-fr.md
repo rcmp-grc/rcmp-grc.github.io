@@ -3,7 +3,7 @@ layout: super_landing
 title: Armes à feu
 description: My page description
 date_modified: 2026-05-05
-lang: en
+lang: fr
 lang_url: index.html
 author:
 creator:

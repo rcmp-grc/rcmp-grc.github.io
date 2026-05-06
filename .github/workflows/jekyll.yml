@@ -17,8 +17,8 @@ jobs:
           destination: ./_site
 
       - name: Fix self-closing image tags
-        run: find ./_site -name "*.html" -exec sed -i 's/ \/>/>/g' {} +
-
+        run: find ./_site -name "*.html" | xargs perl -pi -e 's/ \/>/>/g'
+        
       - name: Deploy
         uses: actions/upload-pages-artifact@v3
 

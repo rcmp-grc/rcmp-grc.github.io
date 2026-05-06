@@ -13,11 +13,9 @@ hero: ip-cover-image-1200x726.jpg
 intro: <p>The introduction block pattern introduces the content of a landing page.</p>
 ---
 
-<section class="gc-featured-link">
-  <div class="container">
-    <h2 class="wb-inv">Spotlight on</h2>
-    <p><a class="stretched-link" href="#">[Promotion title]</a></p>
-  </div>
+<section class="alert alert-warning">
+  <h2 class="h3">Warning alert</h2>
+  <p>Alert details.</p>
 </section>
 <section class="gc-most-requested">
   <div class="container">

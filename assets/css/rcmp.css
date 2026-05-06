@@ -4,6 +4,10 @@ header {
 header .brand {
   padding-top: 0;
 }
+.app-bar .page-type-ilp h2 {
+  font-size: 0;
+  margin-top: 0;
+}
 #wb-srch button,
 .srchbox button {
   background-color: #b50315;

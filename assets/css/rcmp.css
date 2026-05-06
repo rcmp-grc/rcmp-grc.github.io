@@ -4,8 +4,7 @@ header {
 header .brand {
   padding-top: 0;
 }
-.app-bar .page-type-ilp h2 {
-  font-size: 0;
+.page-type-ilp .app-bar h2 {
   margin-top: 0;
 }
 #wb-srch button,

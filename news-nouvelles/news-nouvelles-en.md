@@ -49,12 +49,6 @@ from our executive</a></h3>
 </div>
 </form>
 
-				
-			  <div class="row mrgn-bttm-lg">
-
-				
-						<div class="col-md-3">
-
 									<section id="filters">	
 				<form aria-controls="n" class="wb-tables-filter" data-bind-to="n">
 					<h2 class="mrgn-tp-lg">Filters</h2>				

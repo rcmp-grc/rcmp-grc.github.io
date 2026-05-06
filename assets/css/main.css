@@ -328,7 +328,48 @@ body {
 .thumb-6 {
   background: #2e1e1e;
 }
-
+.thumb-7 {
+  background: #1a3a2a;
+}
+.thumb-8 {
+  background: #2a1a2e;
+}
+.thumb-9 {
+  background: #1e2a3a;
+}
+.thumb-10 {
+  background: #2e1a2a;
+}
+.thumb-11 {
+  background: #1a2e1e;
+}
+.thumb-12 {
+  background: #2a2e1a;
+}
+.thumb-13 {
+  background: #1e1a2e;
+}
+.thumb-14 {
+  background: #2e2a2a;
+}
+.thumb-15 {
+  background: #1a1e2e;
+}
+.thumb-16 {
+  background: #2a2a1e;
+}
+.thumb-17 {
+  background: #1e2e1e;
+}
+.thumb-18 {
+  background: #2e1e2a;
+}
+.thumb-19 {
+  background: #1a2a2e;
+}
+.thumb-20 {
+  background: #2a1e1a;
+}
 .card-thumb-num {
   font-size: 5rem;
   font-weight: 900;
@@ -346,7 +387,6 @@ body {
   position: relative;
   z-index: 1;
 }
-
 .card-body-inner {
   padding: 1.5rem 1.5rem 1rem;
   flex: 1;
@@ -375,7 +415,6 @@ body {
 .card-project-title a:hover {
   color: var(--red);
 }
-
 .status-badge {
   font-size: 0.68rem;
   font-weight: 700;
@@ -396,7 +435,6 @@ body {
   color: var(--red);
   border: 1px solid rgba(192, 57, 43, 0.22);
 }
-
 .card-desc {
   font-size: 0.875rem;
   color: var(--slate);
@@ -408,13 +446,11 @@ body {
   font-style: italic;
   color: #9ca3af;
 }
-
 .card-actions {
   display: flex;
   gap: 0.45rem;
   flex-wrap: wrap;
 }
-
 .btn-demo {
   font-family: var(--font);
   font-size: 0.82rem;
@@ -458,7 +494,6 @@ body {
   border-color: var(--slate);
   color: var(--ink);
 }
-
 .card-footer-inner {
   padding: 0.75rem 1.5rem;
   border-top: 1px solid var(--border);
@@ -472,7 +507,6 @@ body {
 .card-footer-inner i {
   color: #9ca3af;
 }
-
 .no-results {
   text-align: center;
   padding: 3rem;
@@ -484,7 +518,6 @@ body {
   margin-bottom: 1rem;
   color: #d1d5db;
 }
-
 .site-footer {
   background: var(--ink);
   color: rgba(255, 255, 255, 0.65);

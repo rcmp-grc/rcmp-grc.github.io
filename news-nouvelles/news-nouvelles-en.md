@@ -52,48 +52,6 @@ from our executive</a>
 </div>
 
 
-
-<!-- // <div class="wb-eqht row">
-    <details class="mrgn-tp-md brdr-0" data-sly-attribute.open="" data-sly-test="">
-        <summary class="btn btn-default text-center">Show more</summary>
-      	<sly data-sly-test="false">
-        	<ol start="10">
-        </sly>
-
-            <sly data-sly-list="">
-                <sly data-sly-test="false">
-                    <li>
-                    	<sly data-sly-resource="" data-sly-unwrap="true"></sly>
-                    </li>
-                </sly>
-
-                <sly data-sly-test="false">
-                <div class="col-md-12">
-                    <sly data-sly-resource="" data-sly-unwrap="true"></sly>
-                </div>
-                </sly>
-                
-                <sly data-sly-test="false">
-                <div class="col-md-6">
-                    <sly data-sly-resource="" data-sly-unwrap="true"></sly>
-                </div>
-                </sly>   
-
-                <sly data-sly-test="true">
-                <div class="col-md-4">
-                    <sly data-sly-resource="" data-sly-unwrap="true"></sly>
-                </div>
-                </sly>
-                <sly data-sly-test=""><div class="clearfix"></div></sly>
-            </sly>
-
-        <sly data-sly-test="false">
-        	</ol>
-        </sly>
-    </details>
-</div> //-->
-
-
 <!-- To get the name of the component printed when dragged -->
 
 </div>

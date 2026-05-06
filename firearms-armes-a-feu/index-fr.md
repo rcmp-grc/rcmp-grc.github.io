@@ -2,15 +2,15 @@
 layout: super_landing
 title: Armes à feu
 description: My page description
-date_modified: 2026-05-05
+date_modified: 2026-05-06
 lang: fr
 lang_url: index.html
 author:
 creator:
 subject:
 issued: 2026-05-05
-hero: ip-cover-image-1200x726.jpg
-intro: <p>The introduction block pattern introduces the content of a landing page. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet arcu ac velit gravida mattis.</p><p>Duis eget nisl nec nulla pretium egestas consectetur non dolor.</p>
+hero: new-test.jpg
+intro: <p>Conformément à la Loi sur les armes à feu, le Programme canadien des armes à feu (PCAF) supervise les permis et l'enregistrement des armes à feu, maintient les normes nationales de formation de sécurité en matière d'armes à feu, vient en aide aux organismes d'application de la loi et a pour objectif de renforcer la sécurité publique. Les armes à feu au Canada demeurent réglementées par la Loi sur les armes à feu et la partie III du Code criminel.</p>
 ---
 
 <div class="container">
@@ -50,15 +50,15 @@ intro: <p>The introduction block pattern introduces the content of a landing pag
     <div class="row wb-eqht-grd">
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Licensing information</a></h3>
-        <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+        <p>Information sur les exigences relatives aux permis d'armes à feu, y compris les exceptions, pour les particuliers et les entreprises.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">About firearms</a></h3>
-        <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+        <h3><a href="#">Au sujet des armes à feu</a></h3>
+        <p>Au Canada, les armes à feu sont réparties en trois classes : armes sans restriction, armes à autorisation restreinte et armes prohibées.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Buying, selling and transferring firearms</a></h3>
-        <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+        <h3><a href="#">Achat et vente (cession) d'armes à feu</a></h3>
+        <p>Information sur les exigences liées à l'achat, à la vente et au transfert d'armes à feu.</p>
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Importing and exporting firearms</a></h3>
@@ -77,20 +77,20 @@ intro: <p>The introduction block pattern introduces the content of a landing pag
         <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Shooting clubs and ranges</a></h3>
-        <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+        <h3><a href="#">Clubs et champs de tir</a></h3>
+        <p>Information sur les lignes directrices de conception et les exigences sonores.</p>
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Executors of estates</a></h3>
         <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Firearms forms</a></h3>
-        <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+        <h3><a href="#">Formulaires sur les armes à feu</a></h3>
+        <p>Formulaires sur les armes à feu pour les particuliers, les entreprises, les policiers et les agents publics.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Firearms reports</a></h3>
-        <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+        <h3><a href="#">Rapports sur les armes à feu</a></h3>
+        <p>Formulaires sur les armes à feu pour les particuliers, les entreprises, les policiers et les agents publics.</p>
       </div>
     </div>
   </section>
@@ -101,10 +101,10 @@ intro: <p>The introduction block pattern introduces the content of a landing pag
       <h2>Contact us</h2>
       <ul class="wb-eqht list-unstyled mrgn-tp-lg lst-spcd-2 colcount-md-3 bold-content">
         <li>
-          <a href="#">Canadian Firearms Program</a>
+          <a href="#">Programme canadien des armes à feu</a>
         </li>
         <li>
-          <a href="#">Chief Firearms Officers </a>
+          <a href="#">Contrôleur des armes à feu </a>
         </li>
         <li>
           <a href="#">Northwest Firearms</a>

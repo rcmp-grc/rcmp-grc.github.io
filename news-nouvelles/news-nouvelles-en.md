@@ -36,9 +36,13 @@ from our executive</a></h3>
 
 
 <div class="row">
+	
 <div class="col-md-3">
+	
 <div class="news-article-filter section">	
+	
 <section class="mrgn-tp-lg">
+	
 <h4 class="h4">Search</h4>
 <form action="https://github.com/rcmp-grc/rcmp-grc.github.io/edit/main/news-nouvelles/news-nouvelles-en.html#wb-news" id="cse-search-box" method="get" name="cse-search-box" role="search">
 <div class="form-group wb-srch-news-qry">
@@ -126,14 +130,14 @@ from our executive</a></h3>
 							<legend>
 								<h3 class="h4 mrgn-tp-0 mrgn-bttm-0 lgnd-h4">Published</h3>
 							</legend>
-							<div class="form-group">
+						
 								<label for="dt_mindate" class="small">Before</label>
 								<input type="text" class="form-control" id="dt_mindate" name="dt_mindate" data-column="0">
-							</div>
-							<div class="form-group">
+			
+					
 								<label for="dt_maxdate" class="small">After</label>
 								<input type="text" class="form-control" id="dt_maxdate" name="dt_maxdate" data-column="0">
-							</div>
+				
 						</fieldset>
 			
 					<div class="row">
@@ -143,8 +147,7 @@ from our executive</a></h3>
 						<div class="col-xs-6">
 							<button type="reset" class="btn btn-default">Clear filters</button>
 						</div>
-					</div></form>
-				</section></div></div></div>
+					</div><</form></section> </div></div>
 			
 						
 

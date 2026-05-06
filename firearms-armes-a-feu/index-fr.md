@@ -11,8 +11,13 @@ subject:
 issued: 2026-05-05
 ---
 
-<p>The introduction block pattern introduces the content of a landing page.</p>
-<p><a class="btn btn-call-to-action" href="#">Supertask button</a></p>
+        <p>The introduction block pattern introduces the content of a landing page.</p>
+        <p><a class="btn btn-call-to-action" href="#">Supertask button</a></p>
+      </div>
+    </div>
+
+  </div>
+</div>
 <section class="gc-featured-link">
   <div class="container">
     <h2 class="wb-inv">Spotlight on</h2>

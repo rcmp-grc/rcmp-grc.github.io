@@ -1,10 +1,10 @@
 ---
 layout: super_landing
-title: Firearms
+title: Armes à feu
 description: My page description
 date_modified: 2026-05-05
 lang: en
-lang_url: index-fr.html
+lang_url: index.html
 author:
 creator:
 subject:

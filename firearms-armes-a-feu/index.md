@@ -10,7 +10,7 @@ creator:
 subject:
 issued: 2026-05-05
 hero: ip-cover-image-1200x726.jpg
-intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearms Program (CFP) oversees firearms licences and registration, maintains national firearm safety training standards, assists law enforcement agencies and aims to enhance public safety. Firearms in Canada continue to be regulated by the <cite>Firearms Act</cite> and Part III of the <cite>Criminal Code</cite>.</p>
+intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearms Program (CFP) oversees firearms licences and registration, maintains national firearm safety training standards, assists law enforcement agencies and aims to enhance public safety. Firearms in Canada continue to be regulated by the <a href="https://laws-lois.justice.gc.ca/eng/acts/f-11.6/"><cite>Firearms Act</cite></a> and Part III of the <a href="https://laws-lois.justice.gc.ca/eng/acts/C-46/"><cite>Criminal Code</cite></a>.</p>
 ---
 
 <div class="container">
@@ -24,22 +24,25 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
     <h2>Most requested</h2>
     <ul>
       <li>
-        <a href="#">[Top task hyperlink with a very long task name that spans over two lines 1]</a>
+        <a href="#">Individual Web Services</a>
       </li>
       <li>
-        <a href="#">[Top task hyperlink 2]</a>
+        <a href="#">Business Web Services</a>
       </li>
       <li>
-        <a href="#">[Top task hyperlink 3]</a>
+        <a href="#">Public Agent Web Services</a>
       </li>
       <li>
-        <a href="#">[Top task hyperlink 4]</a>
+        <a href="#">Firearms Reference Table</a>
       </li>
       <li>
-        <a href="#">[Top task hyperlink 5]</a>
+        <a href="#">Licence application for individuals</a>
       </li>
       <li>
-        <a href="#">[Top task hyperlink with a very long task name that spans over two lines 6]</a>
+        <a href="#">Licence application for businesses; carriers; shooting ranges and clubs</a>
+      </li>
+      <li>
+        <a href="#">Canadian Firearms Safety Course instructors</a>
       </li>
     </ul>
   </div>
@@ -50,7 +53,7 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
     <div class="row wb-eqht-grd">
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Licensing information</a></h3>
-        <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+        <p>Information about requirements for firearms licences, including exceptions in certain circumstances, for individuals and businesses.</p>
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">About firearms</a></h3>
@@ -58,15 +61,15 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Buying, selling and transferring firearms</a></h3>
-        <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+        <p>Information about the requirements for buying, selling and transferring firearms.</p>
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Importing and exporting firearms</a></h3>
-        <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+        <p>Information about the procedures and regulations for importing and exporting firearms, ammunition and list of licensed carriers.</p>
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Registering, verifying and deactivating firearms</a></h3>
-        <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+        <p>Information about types of firearms and firearm verification and registration requirements for restricted and prohibited firearms. Find businesses authorized to perform firearm deactivations.</p>
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Transporting and storing firearms</a></h3>
@@ -74,7 +77,7 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Firearms safety and training</a></h3>
-        <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+        <p>Information on firearms safety training and guidelines for safe practices in storing, transporting, and displaying firearms.</p>
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Shooting clubs and ranges</a></h3>
@@ -82,15 +85,15 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Executors of estates</a></h3>
-        <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+        <p>Information for executors of estates and beneficiaries of firearms, including the legal procedures involved.</p>
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Firearms forms</a></h3>
-        <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+        <p>Firearms reports for individuals, businesses and police and public agencies.</p>
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Firearms reports</a></h3>
-        <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+        <p>Firearms forms for individuals, businesses and police and public agencies.</p>
       </div>
     </div>
   </section>
@@ -121,15 +124,15 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
         <ul class="feeds-cont list-unstyled lst-spcd">
           <li>
             <a href="#"><cite>Firearms Marking Regulations</cite> deferral</a><br>
-            <small class="feeds-date"><time>2026-02-22</time></small>
+            <small class="feeds-date"><time>2025-11-30</time></small>
           </li>
           <li>
             <a href="#">Don't miss important notifications from the Canadian Firearms Program</a><br>
-            <small class="feeds-date"><time>2026-02-22</time></small>
+            <small class="feeds-date"><time>2025-11-27</time></small>
           </li>
           <li>
             <a href="#">March 7, 2025, firearm prohibition</a><br>
-            <small class="feeds-date"><time>2026-02-22</time></small>
+            <small class="feeds-date"><time>2025-10-17</time></small>
           </li>
         </ul>
         <p>More: <a href="#">Firearms news</a></p>

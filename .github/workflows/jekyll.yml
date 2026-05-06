@@ -16,9 +16,15 @@ jobs:
           source: ./
           destination: ./_site
 
+      - name: Debug img tags
+        run: grep -r "img\|br\|hr\|input" ./_site --include="*.html" -h | head -20
+
       - name: Fix self-closing void element tags
         run: |
-          find ./_site -name "*.html" | xargs perl -pi -e 's/\s*\/>/>/g'
+          find ./_site -name "*.html" -exec perl -pi -e 's/ \/>/>/g; s/\/>/>/g' {} \;
+
+      - name: Debug after fix
+        run: grep -r "img\|br\|hr\|input" ./_site --include="*.html" -h | head -20
         
       - name: Deploy
         uses: actions/upload-pages-artifact@v3

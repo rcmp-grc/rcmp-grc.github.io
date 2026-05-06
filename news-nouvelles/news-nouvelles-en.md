@@ -147,7 +147,7 @@ from our executive</a></h3>
 						<div class="col-xs-6">
 							<button type="reset" class="btn btn-default">Clear filters</button>
 						</div>
-					</div><</form></section> </div></div>
+					</div></form></section> </div></div>
 			
 						
 

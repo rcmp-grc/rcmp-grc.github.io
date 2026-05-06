@@ -41,10 +41,10 @@ from our executive</a></h3>
 <div class="news-article-filter section">
 <section class="mrgn-tp-lg">
 <h4 class="h4">Search</h4>
-<form action="https://www.canada.ca/en/royal-canadian-mounted-police/search.html#wb-news" id="cse-search-box" method="get" name="cse-search-box" role="search">
+<form action="/en/royal-canadian-mounted-police/news-nouvelles-en.html#wb-news" id="cse-search-box" method="get" name="cse-search-box" role="search">
 <div class="form-group wb-srch-qry">
 <label class="wb-inv" for="wb-srch-q">Search RCMP news</label>
-<input class="wb-srch-q form-control" id="wb-srch-news" list="wb-srch-news-q" maxlength="170" name="q" placeholder="RCMP news" size="25" type="search" value="">
+<input class="wb-srch-q form-control" id="wb-srch-news" list="wb-srch-news-q" maxlength="170" name="q" placeholder="RCMP news" size="15" type="search" value="">
 <datalist id="wb-srch-q-ac"></datalist>
 </div>
 <div class="form-group submit">

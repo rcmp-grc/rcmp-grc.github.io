@@ -30,6 +30,10 @@
           <div class="row">
             <div class="col-md-7">
               <h1 id="wb-cont" property="name">{{ page.title }}</h1>
+            </div>
+          </div>
+        </div>
+      </div>
               {{ content }}
 			  <section class="pagedetails">
 				{% if page.lang == 'fr' %}
@@ -54,10 +58,6 @@
 				  </dl>
 				{% endif %}
 			  </section>
-			</div>
-		  </div>
-        </div>
-      </div>
     </main>
     {% include footer.html %}
   </body>

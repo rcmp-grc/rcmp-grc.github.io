@@ -38,22 +38,52 @@ issued: 2026-05-04
               <p>Apply any of the following filtres to narrow your search:</p></div>
               <h3 class="h4 mrgn-tp-lg mrgn-bttm-sm"><label for="dt-type">Type</label></h3><select class="form-control" data-column="3" id="dt-type" name="dt-type">
                 <option value=''>
-                  All types
+                  All topics
                 </option>
-                <option value='Backgrounders'>
-                  Backgrounders
+                <option value='Assault'>
+                  Assault
                 </option>
-                <option value='Media advisories'>
-                  Media advisories
+                <option value='Break and enter'>
+                  Break and enter
                 </option>
-                <option value='News releases'>
-                  News releases
+                <option value='Disturbance'>
+                  Disturbance
                 </option>
-                <option value='Speeches'>
-                  Speeches
+                <option value='Homicide'>
+                  Homicide
                 </option>
-                <option value='Statements'>
-                  Statements
+                <option value='Illegal border crossing'>
+                  Illegal border crossing
+                </option>
+                 <option value='Illicit drugs'>
+                  Illicit drugs
+                </option>
+                <option value='Missing person'>
+                  Missing person
+                </option>
+                <option value='Organized crime'>
+                  Organized crime 
+                </option>
+                <option value='Property damage'>
+                  Property damage  
+                </option>
+                <option value='Public interest'>
+                  Public interest  
+                </option>
+                <option value='Theft'>
+                  Theft  
+                </option>
+                <option value='Traffic services'>
+                  Traffic services  
+                </option>
+                <option value='Trafficking'>
+                  Trafficking  
+                </option>
+                <option value='Wanted'>
+                  Wanted  
+                </option>
+                <option value='Weapons'>
+                  Weapons  
                 </option>
               </select>
               <h3 class="h4 mrgn-tp-lg mrgn-bttm-sm"><label for="dt-province-or-territory">Province or territory</label></h3><select class="form-control" data-column="5" id="dt-province-or-territory" name="dt-province-or-territory">

@@ -50,149 +50,111 @@ from our executive</a></h3>
 </form>
 
 				
-			   <form class="wb-tables-filter" data-bind-to="dataset-filter" data-gc-analytics-formname="ServCan:Filter News - Filtrer les Nouvelles" data-gc-analytics-collect="[{&quot;value&quot;:&quot;select&quot;,&quot;emptyField&quot;:&quot;Any&quot;}]">
-				  <div class="form-group">
-					<label for="dt_type">News topic</label>
-					<select class="form-control" id="dt_type" name="dt_type" data-column="3" data-exact="true">
-						<option value="">All topics</option>
-						
-							<option>Assault</option>
-						
-							<option>Break and enter</option>
-						
-							<option>Disturbance</option>
-						
-							<option>Fraud</option>
-						
-							<option>Homicide</option>
-						
-							<option>Illegal border crossing</option>
+			  <div class="row mrgn-bttm-lg">
 
-							<option>Illicit drugs</option>
-						
-							<option>Missing person</option>
-						
-							<option>Organized crime</option>
+				
+						<div class="col-md-3">
 
-							<option>Property damage</option>
+									<section id="filters">	
+				<form aria-controls="n" class="wb-tables-filter" data-bind-to="n">
+					<h2 class="mrgn-tp-lg">Filters</h2>				
 
-							<option>Theft</option>
+																				<section class="form-group">
 						
-							<option>Traffic services</option>
 						
-							<option>Trafficking</option>
-
-							<option>Wanted</option>
-
-							<option>Weapons</option>
+						<h3 class="h4 mrgn-tp-lg mrgn-bttm-sm"><label for="dt-type">Type</label></h3>
+						<select 
+							class="form-control"
+							data-column="3"
+							id="dt-type"
+							name="dt-type"
+							>
+																																						<option value=''>All types</option>
+																																							<option value='Backgrounders'>Backgrounders</option>
+																																							<option value='Media advisories'>Media advisories</option>
+																																							<option value='News releases'>News releases</option>
+																																							<option value='Speeches'>Speeches</option>
+																																							<option value='Statements'>Statements</option>
+																					</select>
 						
-					</select>
-				  </div> 
-				  
-				<div class="form-group">
-					  <label for="dt_province-territory">Province or territory</label>
-						<select class="form-control" id="dt_province-territory" name="dt_province-territory" data-column="2" data-exact="true">
-							<option value="">All provinces and territories</option>
-							
-								<option>Alberta</option>
-							
-								<option>British Columbia</option>
-							
-								<option>Manitoba</option>
-							
-								<option>New Brunswick</option>
-							
-								<option>Newfoundland and Labrador</option>
-							
-								<option>Northwest Territories</option>
-							
-								<option>Nova Scotia</option>
-							
-								<option>Nunuvut</option>
-							
-								<option>Ontario</option>
-							
-								<option>Prince Edward Island</option>
-							
-								<option>Quebec</option>
-							
-								<option>Saskatchewan</option>
-							
-								<option>Yukon</option>
-					  </select>
-					</div>
-					<div class="form-group">
-					  <label for="dt_publisher">Published by</label>
-					  <select class="form-control" id="dt_publisher" name="dt_publisher" data-column="7">
-						<option value="">All divisions and regions</option>
 						
-				  			<option>Alberta RCMP</option>
+						<h3 class="h4 mrgn-tp-lg mrgn-bttm-sm"><label for="dt-province-or-territory">Province or territory</label></h3>
+						<select 
+							class="form-control"
+							data-column="5"
+							id="dt-province-or-territory"
+							name="dt-province-or-territory"
+							>
+																																						<option value=''>All provinces and territories</option>
+																																							<option value='Alberta'>Alberta</option>
+																																							<option value='British Columbia'>British Columbia</option>
+																																							<option value='Manitoba'>Manitoba</option>
+																																							<option value='New Brunswick'>New Brunswick</option>
+																																							<option value='Newfoundland and Labrador'>Newfoundland and Labrador</option>
+																																							<option value='Northwest Territories'>Northwest Territories</option>
+																																							<option value='Nova Scotia'>Nova Scotia</option>
+																																							<option value='Nunavut'>Nunavut</option>
+																																							<option value='Ontario'>Ontario</option>
+																																							<option value='Prince Edward Island'>Prince Edward Island</option>
+																																							<option value='Quebec'>Quebec</option>
+																																							<option value='Saskatchewan'>Saskatchewan</option>
+																																							<option value='Yukon'>Yukon</option>
+																					</select>
 						
-				  			<option>British Columbia RCMP</option>
 						
-				  			<option>Federal Policing Central Region</option>
-						
-				  			<option>Federal Policing Eastern Region</option>
-						
-				  			<option>Federal Policing Northwest Region</option>
-						
-				  			<option>Federal Policing Pacific Region</option>
-						
-				  			<option>Manitoba RCMP</option>
-						
-				  			<option>New Brunswick RCMP</option>
-						
-				  			<option>Information and Communications</option>
-						
-				  			<option>Newfoundland and Labour RCMP</option>
-						
-				  			<option>Northwest Territories RCMP</option>
-						
-				  			<option>Nova Scotia RCMP</option>
-						
-				  			<option>Nunavut RCMP</option>
-						
-				  			<option>Prince Edward Island RCMP</option>
-						
-				  			<option>RCMP Depot Division</option>
-						
-				  			<option>RCMP National Headquarters</option>
-						
-				  			<option>Saskatchewan RCMP</option>
-						
-				  			<option>Yukon RCMP</option>
-						
-					  </select>
-					</div>
+						<h3 class="h4 mrgn-tp-lg mrgn-bttm-sm"><label for="dt-division-or-federal-policing-region">Division or Federal Policing region</label></h3>
+						<select 
+							class="form-control"
+							data-column="2"
+							id="dt-division-or-federal-policing-region"
+							name="dt-division-or-federal-policing-region"
+							>
+																																						<option value=''>All divisions or Federal Policing regions</option>
+																																							<option value='Alberta RCMP'>Alberta RCMP</option>
+																																							<option value='British Columbia RCMP'>British Columbia RCMP</option>
+																																							<option value='Federal Policing Central Region'>Federal Policing Central Region</option>
+																																							<option value='Federal Policing Eastern Region'>Federal Policing Eastern Region</option>
+																																							<option value='Federal Policing Northwest Region'>Federal Policing Northwest Region</option>
+																																							<option value='Federal Policing Pacific Region'>Federal Policing Pacific Region</option>
+																																							<option value='Manitoba RCMP'>Manitoba RCMP</option>
+																																							<option value='New Brunswick RCMP'>New Brunswick RCMP</option>
+																																							<option value='Newfoundland and Labrador RCMP'>Newfoundland and Labrador RCMP</option>
+																																							<option value='Northwest Territories RCMP'>Northwest Territories RCMP</option>
+																																							<option value='Nova Scotia RCMP'>Nova Scotia RCMP</option>
+																																							<option value='Nunavut RCMP'>Nunavut RCMP</option>
+																																							<option value='Prince Edward Island RCMP'>Prince Edward Island RCMP</option>
+																																							<option value='RCMP Depot Division'>RCMP Depot Division</option>
+																																							<option value='RCMP National Headquarters'>RCMP National Headquarters</option>
+																																							<option value='Saskatchewan RCMP'>Saskatchewan RCMP</option>
+																																							<option value='Yukon RCMP'>Yukon RCMP</option>
+																					</select>
+											</section>
 					
-					  <label for="dt_date">Published</label>
-					 <div class="form-group">
-								<label for="dt_mindate" class="small">Before</label>
-								<input type="text" class="form-control" id="dt_mindate" name="dt_mindate" data-column="0">
+															<section class="form-group">
+						<fieldset>
+							<legend>
+								<h3 class="h4 mrgn-tp-0 mrgn-bttm-0 lgnd-h4">Publication date</h3>
+							</legend>
+							<div class="form-group">
+								<label for="dt_mindate" class="small">Start date</label>
+								<input type="date" class="form-control" id="dt_mindate" name="dt_mindate" data-column="0">
 							</div>
 							<div class="form-group">
-								<label for="dt_maxdate" class="small">After</label>
-								<input type="text" class="form-control" id="dt_maxdate" name="dt_maxdate" data-column="0">
+								<label for="dt_maxdate" class="small">End date</label>
+								<input type="date" class="form-control" id="dt_maxdate" name="dt_maxdate" data-column="0">
 							</div>
+						</fieldset>
+					</section>
+										
 					
-					
-					<div class="row">
-						<div class="col-xs-6">
-							<button type="submit" class="btn btn-primary" aria-controls="dataset-filter">Apply filter</button>
-						</div>
-						<div class="col-xs-6">
-							<button type="reset" class="btn btn-default">Clear filters</button>
-						</div>
-					</div>
-			 </form>
-			 
-			 </section>
-			 </div>
-			 </div>
+										<button aria-controls="n" class="btn btn-primary btn-block btn-sm mrgn-tp-lg" type="submit">Apply filters</button>
+					<button class="btn btn-default btn-block btn-sm" type="reset">Clear filters</button>					
+				</form>
+			</section>
+					</div></div>
+						
 
-
-            
-                <div class="col-md-9">
+						<div class="col-md-9">
 			<section id="body">
 				  <h2 class="mrgn-tp-lg">List of news</h2>
 <table id="n"  class="wb-tables table nws-tbl table-striped" data-wb-tables-color=".pkey" data-wb5-bind="[data-wbtbl-draw]" data-wb-tables='{
@@ -246,16 +208,6 @@ from our executive</a></h3>
 
 			</section>
 		</div>
-						
-	</div>	
-	</section>
-  </div>
-
-  </div>
-
-    
-
-<div class="mwsgeneric-base-html parbase section">
 
 
 
@@ -382,7 +334,7 @@ from our executive</a></h3>
 
 
 </div>
-<div class="mwscolumns section">
+
     
 
     

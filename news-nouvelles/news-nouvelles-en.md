@@ -21,15 +21,16 @@ issued: 2026-05-04
 <div class="mwsdoormat-links-container section">
 	<h2 class="wb-inv">Services and information</h2>
 	<div class="wb-eqht row wb-init wb-eqht-inited" id="wb-auto-4">
-		<div class="col-md-4" style="vertical-align: top; min-height: 121px;">
+		<div class="col-md-4"">
         		
 <section class="gc-drmt">
 	<h3 data-emptytext="Enter heading" class="h5">
-		<a href="https://www.pm.gc.ca/en/news">Latest news from the Prime Minister</a>
+		<a href="/en/news/comm-en.html">Read the latest communications 
+from our Executive</a>
 	</h3>
 	
 	
-		<p>Read all news from the Prime Minister of Canada.</p>
+		<p>Read all news from the leaders of the RCMP across Canada.</p>
 	
     
 </section>
@@ -46,49 +47,21 @@ issued: 2026-05-04
                  
         
         
-        	<div class="col-md-4" style="vertical-align: top; min-height: 121px;">
+        	<div class="col-md-4">
         		
 <section class="gc-drmt">
 	<h3 data-emptytext="Enter heading" class="h5">
-		<a href="/en/news/subscribe.html">Subscribe to news</a>
+		<a href="/en/news/subscribe-en.html">Subscribe to news</a>
 	</h3>
 	
 	
-		<p>Receive news releases and statements by email.</p>
+		<p>Receive news and communications by email.</p>
 	
     
 </section>
 
 
         	</div>
-          
-
-        
-        
-        
-         
-        
-                 
-        
-        
-        	<div class="col-md-4" style="vertical-align: top; min-height: 121px;">
-        		
-<section class="gc-drmt">
-	<h3 data-emptytext="Enter heading" class="h5">
-		<a href="https://webarchiveweb.wayback.bac-lac.canada.ca/web/20260301000000*/https:/www.canada.ca/en/news.html">News archive collection</a>
-	</h3>
-	
-	
-		<p>Search News on the Library and Archives Canada's web archive.</p>
-	
-    
-</section>
-
-
-        	</div>
-          
-
-        
 	
 
 </div>

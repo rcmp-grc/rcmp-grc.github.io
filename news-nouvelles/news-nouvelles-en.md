@@ -38,6 +38,7 @@ from our executive</a></h3>
 <div class="mwscolumns section">
 <div class="row">
 <div class="col-md-3">
+	
 <div class="news-article-filter section">
 <section class="mrgn-tp-lg">
 <h4 class="h4">Search</h4>
@@ -47,7 +48,7 @@ from our executive</a></h3>
 <input class="wb-srch-news form-control" id="wb-srch-news" list="wb-srch-news-q" maxlength="170" name="news" placeholder="RCMP news" size="15" type="search" value="">
 <button class="btn btn-primary btn-small" id="wb-srch-sub" name="wb-srch-sub" type="submit"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
 </div>
-</form>
+</form></section>
 
 									<section id="filters">	
 				<form aria-controls="n" class="wb-tables-filter" data-bind-to="n">
@@ -69,8 +70,7 @@ from our executive</a></h3>
 																																							<option value='News releases'>News releases</option>
 																																							<option value='Speeches'>Speeches</option>
 																																							<option value='Statements'>Statements</option>
-																					</select>
-						
+																					</select>						
 						
 						<h3 class="h4 mrgn-tp-lg mrgn-bttm-sm"><label for="dt-province-or-territory">Province or territory</label></h3>
 						<select 
@@ -140,12 +140,15 @@ from our executive</a></h3>
 						</fieldset>
 					</section>
 										
-					
-										<button aria-controls="n" class="btn btn-primary btn-block btn-sm mrgn-tp-lg" type="submit">Apply filters</button>
-					<button class="btn btn-default btn-block btn-sm" type="reset">Clear filters</button>					
+					<div class="row">
+						<div class="col-xs-6">
+										<button aria-controls="n" class="btn btn-primary btn-block btn-sm mrgn-tp-lg" type="submit">Apply filters</button></div>
+						<div class="col-xs-6">
+					<button class="btn btn-default btn-block btn-sm" type="reset">Clear filters</button></div>
+					</div>					
 				</form>
 			</section>
-					</div></div>
+				</div>
 						
 
 						<div class="col-md-9">
@@ -201,7 +204,7 @@ from our executive</a></h3>
 </table>
 
 			</section>
-		</div>
+		</div></div>
 
 
 

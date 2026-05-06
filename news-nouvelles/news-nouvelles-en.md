@@ -186,7 +186,9 @@ issued: 2026-05-04
                   Yukon RCMP
                 </option>
               </select>
+            <section>
                 <h3 class="h4 mrgn-tp-0 mrgn-bttm-0 lgnd-h4"><legend>Published</legend></h3><label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
+            </section>
               <div class="row">
                 <div class="col-xs-6">
                   <button aria-controls="dataset-filter" class="btn btn-primary" type="submit">Apply filters</button>

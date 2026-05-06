@@ -138,15 +138,15 @@ from our executive</a></h3>
 					</section>
 					<div class="row">
 						<div class="col-xs-6">
-							<button type="submit" class="btn btn-primary" aria-controls="dataset-filter">Filter</button>
+							<button type="submit" class="btn btn-primary" aria-controls="dataset-filter">Apply filters</button>
 						</div>
 						<div class="col-xs-6">
-							<button type="reset" class="btn btn-default">Clear</button>
+							<button type="reset" class="btn btn-default">Clear filters</button>
 						</div>
 					</div>
 				</form>
 			</section>
-				</div>
+				</div></div>
 						
 
 						<div class="col-md-9">

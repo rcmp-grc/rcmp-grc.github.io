@@ -25,7 +25,7 @@
     </nav>
     {% include header.html %}
     <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
-      <div class="bg-center bg-cover" data-bgimg-srcset="991w, {{ page.hero }} 992w">
+      <div class="bg-center bg-cover" data-bgimg-srcset="{{ page.hero }} 992w">
         <div class="container">
           <div class="row">
             <div class="col-md-7">
@@ -35,30 +35,30 @@
           </div>
         </div>
       </div>
-              {{ content }}
-			  <section class="pagedetails">
-				{% if page.lang == 'fr' %}
-				  <h2 class="wb-inv">Détails de la page</h2>
-				  <dl id="wb-dtmd">
-					<dt>Date de modification :</dt>
-					<dd>
-					  <time property="dateModified">
-						{{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}
-					  </time>
-					</dd>
-				  </dl>
-				{% else %}
-				  <h2 class="wb-inv">Page details</h2>
-				  <dl id="wb-dtmd">
-					<dt>Date modified:</dt>
-					<dd>
-					  <time property="dateModified">
-						{{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}
-					  </time>
-					</dd>
-				  </dl>
-				{% endif %}
-			  </section>
+      {{ content }}
+	  <section class="pagedetails container">
+		{% if page.lang == 'fr' %}
+		  <h2 class="wb-inv">Détails de la page</h2>
+ 		  <dl id="wb-dtmd">
+			<dt>Date de modification :</dt>
+			<dd>
+			  <time property="dateModified">
+				{{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}
+			  </time>
+			</dd>
+		  </dl>
+		{% else %}
+		  <h2 class="wb-inv">Page details</h2>
+		  <dl id="wb-dtmd">
+			<dt>Date modified:</dt>
+			<dd>
+			  <time property="dateModified">
+				{{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}
+			  </time>
+			</dd>
+		  </dl>
+		{% endif %}
+	  </section>
     </main>
     {% include footer.html %}
   </body>

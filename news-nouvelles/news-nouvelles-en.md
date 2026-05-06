@@ -137,13 +137,13 @@ from our executive</a></h3>
 						</fieldset>
 					</section>
 					<div class="wb-eqht row">					
-						<div class="col-xs-4">
+						<div class="col-xs-6">
 										<button aria-controls="n" class="btn btn-primary btn-block btn-sm mrgn-tp-lg" type="submit">Apply filters</button></div>
-						<div class="col-xs-4">
+						<div class="col-xs-6">
 					<button class="btn btn-default btn-block btn-sm" type="reset">Clear filters</button></div>	</div>		
 				</form>
 			</section>
-				</div>
+				</div></div>
 						
 
 						<div class="col-md-9">

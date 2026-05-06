@@ -51,7 +51,7 @@ from our executive</a></h3>
 				<form aria-controls="n" class="wb-tables-filter" data-bind-to="n">
 					<h2 class="mrgn-tp-lg">Filters</h2>				
 
-																				<section class="form-group">
+																			
 						
 						
 						<h3 class="h4 mrgn-tp-lg mrgn-bttm-sm"><label for="dt-type">Type</label></h3>
@@ -119,9 +119,9 @@ from our executive</a></h3>
 																																							<option value='Saskatchewan RCMP'>Saskatchewan RCMP</option>
 																																							<option value='Yukon RCMP'>Yukon RCMP</option>
 																					</select>
-									</section>
+							
 					
-															<section class="form-group">
+														
 						<fieldset>
 							<legend>
 								<h3 class="h4 mrgn-tp-0 mrgn-bttm-0 lgnd-h4">Published</h3>
@@ -135,7 +135,7 @@ from our executive</a></h3>
 								<input type="text" class="form-control" id="dt_maxdate" name="dt_maxdate" data-column="0">
 							</div>
 						</fieldset>
-					</section>
+			
 					<div class="row">
 						<div class="col-xs-6">
 							<button type="submit" class="btn btn-primary" aria-controls="dataset-filter">Apply filters</button>
@@ -144,8 +144,8 @@ from our executive</a></h3>
 							<button type="reset" class="btn btn-default">Clear filters</button>
 						</div>
 					</div>
-				</form>
-				</div></div>
+					</section></div></div></div>
+			
 						
 
 						<div class="col-md-9">

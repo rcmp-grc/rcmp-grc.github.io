@@ -30,7 +30,7 @@ from our Executive</a>
 	</h3>
 	
 	
-		<p>Read all news from the leaders of the RCMP across Canada.</p>
+		<p>Read all news from the leaders of the <abbr>RCMP</abbr> across Canada.</p>
 	
     
 </section>
@@ -121,426 +121,149 @@ from our Executive</a>
 
         
             
-        <div class="row ">
+        <div class="row">
             
                 <div class="col-md-3">
                     <div class="news-article-filter section">
 	<section class="mrgn-tp-lg">
-		<details>
-				<summary><h4 class="h4">Filter news</h4></summary>
-				<p class="mrgn-tp-md">Use filters to search for the most recent news articles.</p>
+	
+				<h4 class="h4">Search</h4>
+<form action="https://www.canada.ca/en/royal-canadian-mounted-police/search.html#wb-land" id="cse-search-box" method="get" name="cse-search-box" role="search">
+<div class="form-group wb-srch-qry">
+<label class="wb-inv" for="wb-srch-q">Search RCMP news</label>
+<input class="wb-srch-q form-control" id="wb-srch-q" list="wb-srch-q-ac" maxlength="170" name="q" placeholder="Search RCMP news" size="25" type="search" value="">
+<datalist id="wb-srch-q-ac"></datalist>
+</div>
+<div class="form-group submit">
+<button class="btn btn-primary btn-small" id="wb-srch-sub" name="wb-srch-sub" type="submit"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
+</div>
+</form>
+				
 			   <form class="wb-tables-filter" data-bind-to="dataset-filter" data-gc-analytics-formname="ServCan:Filter News - Filtrer les Nouvelles" data-gc-analytics-collect="[{&quot;value&quot;:&quot;select&quot;,&quot;emptyField&quot;:&quot;Any&quot;}]">
 				  <div class="form-group">
-					<label for="dt_type">News type</label>
+					<label for="dt_type">News topic</label>
 					<select class="form-control" id="dt_type" name="dt_type" data-column="3" data-exact="true">
-						<option value="">Any</option>
+						<option value="">All topics</option>
 						
-							<option>backgrounders</option>
+							<option>Assault</option>
 						
-							<option>media advisories</option>
+							<option>Break and enter</option>
 						
-							<option>news releases</option>
+							<option>Disturbance</option>
 						
-							<option>readouts</option>
+							<option>Fraud</option>
 						
-							<option>speeches</option>
+							<option>Homicide</option>
 						
-							<option>statements</option>
+							<option>Illegal border crossing</option>
+
+							<option>Illicit drugs</option>
+						
+							<option>Missing person</option>
+						
+							<option>Organized crime</option>
+
+							<option>Property damage</option>
+
+							<option>Theft</option>
+						
+							<option>Traffic services</option>
+						
+							<option>Trafficking</option>
+
+							<option>Wanted</option>
+
+							<option>Weapons</option>
 						
 					</select>
 				  </div> 
 				<div class="form-group">
-					  <label for="dt_department">Institution</label>
+					  <label for="dt_province-territory">Province or territory</label>
 						<select class="form-control" id="dt_department" name="dt_department" data-column="2" data-exact="true">
-							<option value="">Any</option>
+							<option value="">All provinces and territories</option>
 							
-								<option>Accessibility Standards Canada</option>
+								<option>Alberta</option>
 							
-								<option>Administrative Tribunals Support Service of Canada</option>
+								<option>British Columbia</option>
 							
-								<option>Agriculture and Agri-Food Canada</option>
+								<option>Manitoba</option>
 							
-								<option>Atlantic Canada Opportunities Agency</option>
+								<option>New Brunswick</option>
 							
-								<option>Canada Border Services Agency</option>
+								<option>Newfoundland and Labrador</option>
 							
-								<option>Canada Economic Development for Quebec Regions</option>
+								<option>Northwest Territories</option>
 							
-								<option>Canada Energy Regulator</option>
+								<option>Nova Scotia</option>
 							
-								<option>Canada Infrastructure Bank</option>
+								<option>Nunuvut</option>
 							
-								<option>Canada Research Coordinating Committee</option>
+								<option>Ontario</option>
 							
-								<option>Canada Revenue Agency</option>
+								<option>Prince Edward Island</option>
 							
-								<option>Canada School of Public Service</option>
+								<option>Quebec</option>
 							
-								<option>Canada Water Agency</option>
+								<option>Saskatchewan</option>
 							
-								<option>Canadian Centre for Occupational Health and Safety</option>
-							
-								<option>Canadian Coast Guard</option>
-							
-								<option>Canadian Conservation Institute</option>
-							
-								<option>Canadian Food Inspection Agency</option>
-							
-								<option>Canadian Grain Commission</option>
-							
-								<option>Canadian Heritage</option>
-							
-								<option>Canadian Institutes of Health Research</option>
-							
-								<option>Canadian Intellectual Property Office</option>
-							
-								<option>Canadian International Trade Tribunal</option>
-							
-								<option>Canadian Northern Economic Development Agency</option>
-							
-								<option>Canadian Nuclear Safety Commission</option>
-							
-								<option>Canadian Radio-television and Telecommunications Commission</option>
-							
-								<option>Canadian Security Intelligence Service</option>
-							
-								<option>Canadian Space Agency</option>
-							
-								<option>Canadian Special Operations Forces Command</option>
-							
-								<option>Canadian Transportation Agency</option>
-							
-								<option>Communications Security Establishment Canada</option>
-							
-								<option>Competition Bureau Canada</option>
-							
-								<option>Correctional Service Canada</option>
-							
-								<option>Crown-Indigenous Relations and Northern Affairs Canada</option>
-							
-								<option>Defence Investment Agency</option>
-							
-								<option>Democratic Institutions</option>
-							
-								<option>Department of Finance Canada</option>
-							
-								<option>Department of Justice Canada</option>
-							
-								<option>Employment and Social Development Canada</option>
-							
-								<option>Environment and Climate Change Canada</option>
-							
-								<option>Federal Economic Development Agency for Northern Ontario - FedNor</option>
-							
-								<option>Federal Economic Development Agency for Southern Ontario</option>
-							
-								<option>Financial Consumer Agency of Canada</option>
-							
-								<option>Financial Transactions and Reports Analysis Centre of Canada</option>
-							
-								<option>Fisheries and Oceans Canada</option>
-							
-								<option>Global Affairs Canada</option>
-							
-								<option>Health Canada</option>
-							
-								<option>Housing, Infrastructure and Communities Canada</option>
-							
-								<option>Immigration, Refugees and Citizenship Canada</option>
-							
-								<option>Immigration and Refugee Board of Canada</option>
-							
-								<option>Impact Assessment Agency of Canada</option>
-							
-								<option>Indigenous Services Canada</option>
-							
-								<option>Innovation, Science and Economic Development Canada</option>
-							
-								<option>Intergovernmental Affairs</option>
-							
-								<option>Judicial Compensation and Benefits Commission</option>
-							
-								<option>Law Commission of Canada</option>
-							
-								<option>Leader of the Government in the House of Commons</option>
-							
-								<option>Library and Archives Canada</option>
-							
-								<option>Military Police Complaints Commission of Canada</option>
-							
-								<option>National Defence</option>
-							
-								<option>National Film Board</option>
-							
-								<option>National Research Council Canada</option>
-							
-								<option>Natural Resources Canada</option>
-							
-								<option>Natural Sciences and Engineering Research Council</option>
-							
-								<option>Office of the Chief Accessibility Officer</option>
-							
-								<option>Office of the National Defence and Canadian Armed Forces Ombudsman</option>
-							
-								<option>Office of the Procurement Ombud</option>
-							
-								<option>Office of the Taxpayers' Ombudsperson</option>
-							
-								<option>One Canadian Economy</option>
-							
-								<option>Pacific Economic Development</option>
-							
-								<option>Parks Canada</option>
-							
-								<option>Parole Board of Canada</option>
-							
-								<option>Patented Medicine Prices Review Board Canada</option>
-							
-								<option>Polar Knowledge Canada</option>
-							
-								<option>Prairies Economic Development</option>
-							
-								<option>Privy Council Office</option>
-							
-								<option>Public Health Agency of Canada</option>
-							
-								<option>Public Safety Canada</option>
-							
-								<option>Public Service Commission of Canada</option>
-							
-								<option>Public Services and Procurement Canada</option>
-							
-								<option>Royal Canadian Mounted Police</option>
-							
-								<option>Shared Services Canada</option>
-							
-								<option>Social Sciences and Humanities Research Council of Canada</option>
-							
-								<option>Statistics Canada</option>
-							
-								<option>The National Battlefields Commission</option>
-							
-								<option>Transportation Safety Board of Canada</option>
-							
-								<option>Transport Canada</option>
-							
-								<option>Treasury Board of Canada Secretariat</option>
-							
-								<option>Tri-agency Institutional Programs Secretariat</option>
-							
-								<option>Veterans Affairs Canada</option>
-							
-								<option>Women and Gender Equality Canada</option>
-							
+								<option>Yukon</option>
 					  </select>
 					</div>
 					<div class="form-group">
-					  <label for="dt_subject">Subject</label>
-					  <select class="form-control" id="dt_subject" name="dt_subject" data-column="7">
-						<option value="">Any</option>
+					  <label for="dt_publisher">Published by</label>
+					  <select class="form-control" id="dt_publisher" name="dt_publisher" data-column="7">
+						<option value="">All divisions and regions</option>
 						
-				  			<option>Agriculture</option>
+				  			<option>Alberta RCMP</option>
 						
-				  			<option>Arts, Music, Literature</option>
+				  			<option>British Columbia RCMP</option>
 						
-				  			<option>Economics and Industry</option>
+				  			<option>Federal Policing Central Region</option>
 						
-				  			<option>Education and Training</option>
+				  			<option>Federal Policing Eastern Region</option>
 						
-				  			<option>Form descriptors</option>
+				  			<option>Federal Policing Northwest Region</option>
 						
-				  			<option>Government and Politics</option>
+				  			<option>Federal Policing Pacific Region</option>
 						
-				  			<option>Health and Safety</option>
+				  			<option>Manitoba RCMP</option>
 						
-				  			<option>History and Archaeology</option>
+				  			<option>New Brunswick RCMP</option>
 						
 				  			<option>Information and Communications</option>
 						
-				  			<option>Labour</option>
+				  			<option>Newfoundland and Labour RCMP</option>
 						
-				  			<option>Language and Linguistics</option>
+				  			<option>Northwest Territories RCMP</option>
 						
-				  			<option>Law</option>
+				  			<option>Nova Scotia RCMP</option>
 						
-				  			<option>Military</option>
+				  			<option>Nunavut RCMP</option>
 						
-				  			<option>Nature and Environment</option>
+				  			<option>Prince Edward Island RCMP</option>
 						
-				  			<option>Persons</option>
+				  			<option>RCMP Depot Division</option>
 						
-				  			<option>Processes</option>
+				  			<option>RCMP National Headquarters</option>
 						
-				  			<option>Science and Technology</option>
+				  			<option>Saskatchewan RCMP</option>
 						
-				  			<option>Society and Culture</option>
-						
-				  			<option>Transport</option>
+				  			<option>Yukon RCMP</option>
 						
 					  </select>
 					</div>
-					<div class="form-group">
-					  <label for="dt_minister">Person</label>
-					  <select class="form-control" id="dt_minister" name="dt_minister" data-column="8">
-							<option value="">Any</option>
-							
-				  				<option>Hon. Adam van Koeverden</option>
-							
-				  				<option>Hon. Anita Anand</option>
-							
-				  				<option>Hon. Anna Gainey</option>
-							
-				  				<option>Hon. Buckley Belanger</option>
-							
-				  				<option>Hon. Chrystia Freeland</option>
-							
-				  				<option>Hon. David J. McGuinty</option>
-							
-				  				<option>Hon. Dominic LeBlanc</option>
-							
-				  				<option>Hon. Eleanor Olszewski</option>
-							
-				  				<option>Hon. Evan Solomon</option>
-							
-				  				<option>Hon. François-Philippe Champagne</option>
-							
-				  				<option>Hon. Gary Anandasangaree</option>
-							
-				  				<option>Hon. Gregor Robertson</option>
-							
-				  				<option>Hon. Heath MacDonald</option>
-							
-				  				<option>Hon. Jill McKnight</option>
-							
-				  				<option>Hon. Joanne Thompson</option>
-							
-				  				<option>Hon. Joël Lightbound</option>
-							
-				  				<option>Hon. John Zerucelli</option>
-							
-				  				<option>Hon. Julie Dabrusin</option>
-							
-				  				<option>Hon. Lena Metlege Diab</option>
-							
-				  				<option>Hon. Mandy Gull-Masty</option>
-							
-				  				<option>Hon. Maninder Sidhu</option>
-							
-				  				<option>Hon. Marc Miller</option>
-							
-				  				<option>Hon. Marjorie Michel</option>
-							
-				  				<option>Hon. Mélanie Joly</option>
-							
-				  				<option>Hon. Nathalie Provost</option>
-							
-				  				<option>Hon. Patricia A. Hajdu</option>
-							
-				  				<option>Hon. Randeep Sarai</option>
-							
-				  				<option>Hon. Rebecca Alty</option>
-							
-				  				<option>Hon. Rebecca Chartrand</option>
-							
-				  				<option>Hon. Rechie Valdez</option>
-							
-				  				<option>Hon. Ruby Sahota</option>
-							
-				  				<option>Hon. Sean Fraser</option>
-							
-				  				<option>Hon. Shafqat Ali</option>
-							
-				  				<option>Hon. Stephanie McLean</option>
-							
-				  				<option>Hon. Stephen Fuhr</option>
-							
-				  				<option>Hon. Steven MacKinnon</option>
-							
-				  				<option>Hon. Timothy Hodgson</option>
-							
-				  				<option>Hon. Wayne Long</option>
-							
-
-					  </select>
-					</div>
-					<div class="form-group">
-					  <label for="dt_audience">Audience</label>
-					  <select class="form-control" id="dt_audience" name="dt_audience" data-column="6">
-							<option value="">Any</option>
-							
-								<option>Black communities</option>
-							
-								<option>business</option>
-							
-								<option>children</option>
-							
-								<option>consumers</option>
-							
-								<option>educators</option>
-							
-								<option>employers</option>
-							
-								<option>funding applicants</option>
-							
-								<option>general public</option>
-							
-								<option>government</option>
-							
-								<option>immigrants</option>
-							
-								<option>Indigenous peoples</option>
-							
-								<option>job seekers</option>
-							
-								<option>media</option>
-							
-								<option>non-Canadians</option>
-							
-								<option>non-governmental organizations</option>
-							
-								<option>parents</option>
-							
-								<option>persons with disabilities</option>
-							
-								<option>rural community</option>
-							
-								<option>scientists</option>
-							
-								<option>seniors</option>
-							
-								<option>students</option>
-							
-								<option>travellers</option>
-							
-								<option>veterans</option>
-							
-								<option>visitors to Canada</option>
-							
-								<option>women</option>
-							
-								<option>youth</option>
-							
-					  </select>
-					</div>
-					<div class="form-group">
-					  <label for="dt_location">Region</label>
-				   	  <select class="form-control" id="dt_location" name="dt_location" data-column="5">
-							<option value="">Any</option>
-							
-					  			<option>Atlantic</option>
-							
-					  			<option>British Columbia</option>
-							
-					  			<option>Ontario</option>
-							
-					  			<option>Prairies</option>
-							
-					  			<option>Quebec</option>
-							
-					  			<option>Territories</option>
-							
-					  </select>
-					</div>
+					
+					  <label for="dt_date">Published</label>
+					 <div class="form-group">
+								<label for="dt_mindate" class="small">Before</label>
+								<input type="date" class="form-control" id="dt_mindate" name="dt_mindate" data-column="0">
+							</div>
+							<div class="form-group">
+								<label for="dt_maxdate" class="small">After</label>
+								<input type="date" class="form-control" id="dt_maxdate" name="dt_maxdate" data-column="0">
+							</div>
+					
+					
 					<div class="row">
 						<div class="col-xs-6">
 							<button type="submit" class="btn btn-primary" aria-controls="dataset-filter">Filter</button>
@@ -550,7 +273,7 @@ from our Executive</a>
 						</div>
 					</div>
 			 </form>
-		   </details>
+
       </section>
 
 </div>
@@ -566,7 +289,7 @@ from our Executive</a>
 <tr class="well">
   <td colspan="9" class="text-center" valign="top">DATATABLE</td>
 </tr>
-</noscript><div id="dataset-filter_wrapper" class="dataTables_wrapper no-footer"><div class="top"><div id="dataset-filter_filter" class="dataTables_filter"><label>Filter items<input type="search" class="" placeholder="" aria-controls="dataset-filter"></label></div><div class="dataTables_info" id="dataset-filter_info" role="status" aria-live="polite">Showing 1 to 10 of 1,000 entries</div><div class="dataTables_length" id="dataset-filter_length"><label>Show <select name="dataset-filter_length" aria-controls="dataset-filter" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div></div><table class="wb-tables table table-striped table-hover nws-tbl wb-init wb-tables-inited dataTable no-footer" id="dataset-filter" aria-live="polite" data-wb-tables="{
+</noscript><div id="dataset-filter_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="dataset-filter_length"><label>Show <select name="dataset-filter_length" aria-controls="dataset-filter" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div></div><table class="wb-tables table table-striped table-hover nws-tbl wb-init wb-tables-inited dataTable no-footer" id="dataset-filter" aria-live="polite" data-wb-tables="{
             &quot;bDeferRender&quot;: true,
             &quot;ajaxSource&quot;: &quot;./news.datatable.json&quot;,
             &quot;order&quot;: [1, &quot;desc&quot;],
@@ -574,15 +297,8 @@ from our Executive</a>
              &quot;columns&quot;: [
                 { &quot;data&quot;: &quot;TITLE&quot;, &quot;className&quot;: &quot;nws-tbl-ttl h4&quot; },
                 { &quot;data&quot;: &quot;PUBDATE&quot;, &quot;className&quot;: &quot;nws-tbl-date&quot; },
-                { &quot;data&quot;: &quot;DEPT&quot;, &quot;className&quot;: &quot;nws-tbl-dept&quot;},
-                { &quot;data&quot;: &quot;TYPE&quot;, &quot;className&quot;: &quot;nws-tbl-type&quot; },
-                { &quot;data&quot;: &quot;TEASER&quot;,  &quot;className&quot;: &quot;nws-tbl-desc&quot; },
-                { &quot;data&quot;: &quot;LOCATION&quot;,  &quot;visible&quot;: false },
-                { &quot;data&quot;: &quot;AUDIENCE&quot;,  &quot;visible&quot;: false },
-                { &quot;data&quot;: &quot;SUBJECT&quot;, &quot;visible&quot;: false },
-                { &quot;data&quot;: &quot;MINISTER&quot;, &quot;visible&quot;: false }
-      ]}
-" aria-describedby="dataset-filter_info" style="width: 501px;" aria-label="This table provides a sorting feature via the buttons across the column header row with only one instance visible at a time.">
+                { &quot;data&quot;: &quot;DEPT&quot;, &quot;className&quot;: &quot;nws-tbl-province-territory&quot;},
+" aria-describedby="dataset-filter_info" aria-label="This table provides a sorting feature via the buttons across the column header row with only one instance visible at a time.">
 
               <thead class="wb-inv">
             <tr><th class="nws-tbl-ttl h4 sorting_disabled" rowspan="1" colspan="1" style="width: 56px;">Title</th><th class="nws-tbl-date sorting_disabled sorting_desc" rowspan="1" colspan="1" style="width: 116px;">Publication Date</th><th class="nws-tbl-dept sorting_disabled" rowspan="1" colspan="1" style="width: 125px;">Department</th><th class="nws-tbl-type sorting_disabled" rowspan="1" colspan="1" style="width: 56px;">News type</th><th class="nws-tbl-desc sorting_disabled" rowspan="1" colspan="1" style="width: 66px;">Teaser</th></tr>

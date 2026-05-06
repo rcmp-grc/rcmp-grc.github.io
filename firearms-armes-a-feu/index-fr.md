@@ -15,8 +15,8 @@ intro: <p>The introduction block pattern introduces the content of a landing pag
 
 <div class="container">
   <section class="alert alert-warning mrgn-tp-md mrgn-bttm-md">
-    <h2 class="h3">Warning alert</h2>
-    <p>Alert details.</p>
+    <h2 class="h3">Federal Court certifies Government of Canada privacy breach class action</h2>
+    <p>If you received a Notice of Certification or have reason to beleive that you were affected by a privacy breach with respect to your personal or financial information assessed through Government of Canada online accounts between March 1 and December 31, 2020, you may be eligible to participate in a class action lawsuit: <a href="https://www.canada.ca/en/government/system/digital-government/online-security-privacy/sweet-hmk-class-action-suit.html">Government of Canada privacy breach class action</a>. </p>
   </section>
 </div>
 <section class="gc-most-requested">
@@ -53,19 +53,19 @@ intro: <p>The introduction block pattern introduces the content of a landing pag
         <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">About firearms (classes)</a></h3>
+        <h3><a href="#">About firearms</a></h3>
         <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Buying, selling, transferring</a></h3>
+        <h3><a href="#">Buying, selling and transferring firearms</a></h3>
         <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Importing and exporting</a></h3>
+        <h3><a href="#">Importing and exporting firearms</a></h3>
         <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Registration, verification and deactivation</a></h3>
+        <h3><a href="#">Registering, verifying and deactivating firearms</a></h3>
         <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
       </div>
       <div class="col-lg-4 col-md-6">
@@ -81,7 +81,7 @@ intro: <p>The introduction block pattern introduces the content of a landing pag
         <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Executors of estates and beneficiaries</a></h3>
+        <h3><a href="#">Executors of estates</a></h3>
         <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
       </div>
       <div class="col-lg-4 col-md-6">
@@ -99,12 +99,15 @@ intro: <p>The introduction block pattern introduces the content of a landing pag
   <div class="container">
     <section>
       <h2>Contact us</h2>
-      <ul class="wb-eqht list-unstyled mrgn-tp-lg lst-spcd-2 colcount-md-2 bold-content">
+      <ul class="wb-eqht list-unstyled mrgn-tp-lg lst-spcd-2 colcount-md-3 bold-content">
         <li>
           <a href="#">Canadian Firearms Program</a>
         </li>
         <li>
           <a href="#">Chief Firearms Officers </a>
+        </li>
+        <li>
+          <a href="#">Northwest Firearms</a>
         </li>
       </ul>
     </section>

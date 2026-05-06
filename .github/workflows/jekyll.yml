@@ -1,34 +1,24 @@
 name: Build and deploy Jekyll
-
 on:
   push:
     branches: [main]
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
-
-      - name: Debug img tags
-        run: grep -r "img\|br\|hr\|input" ./_site --include="*.html" -h | head -20
-
+      - name: Fix permissions
+        run: sudo chmod -R 777 ./_site
       - name: Fix self-closing void element tags
         run: |
-          find ./_site -name "*.html" -exec perl -pi -e 's/ \/>/>/g; s/\/>/>/g' {} \;
-
-      - name: Debug after fix
-        run: grep -r "img\|br\|hr\|input" ./_site --include="*.html" -h | head -20
-        
+          find ./_site -name "*.html" | xargs perl -pi -e 's/ \/>/>/g; s/\/>/>/g'
       - name: Deploy
         uses: actions/upload-pages-artifact@v3
-
   deploy:
     needs: build
     permissions:

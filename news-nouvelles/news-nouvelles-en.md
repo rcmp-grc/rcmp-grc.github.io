@@ -51,7 +51,7 @@ from our executive</a></h3>
 <button class="btn btn-primary btn-small" id="wb-srch-sub" name="wb-srch-sub" type="submit"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
 </div>
 </form>
-</section>
+
 				
 			   <form class="wb-tables-filter" data-bind-to="dataset-filter" data-gc-analytics-formname="ServCan:Filter News - Filtrer les Nouvelles" data-gc-analytics-collect="[{&quot;value&quot;:&quot;select&quot;,&quot;emptyField&quot;:&quot;Any&quot;}]">
 				  <div class="form-group">
@@ -91,6 +91,7 @@ from our executive</a></h3>
 						
 					</select>
 				  </div> 
+				  
 				<div class="form-group">
 					  <label for="dt_province-territory">Province or territory</label>
 						<select class="form-control" id="dt_province-territory" name="dt_province-territory" data-column="2" data-exact="true">
@@ -170,11 +171,11 @@ from our executive</a></h3>
 					  <label for="dt_date">Published</label>
 					 <div class="form-group">
 								<label for="dt_mindate" class="small">Before</label>
-								<input type="date" class="form-control" id="dt_mindate" name="dt_mindate" data-column="0">
+								<input type="text" class="form-control" id="dt_mindate" name="dt_mindate" data-column="0">
 							</div>
 							<div class="form-group">
 								<label for="dt_maxdate" class="small">After</label>
-								<input type="date" class="form-control" id="dt_maxdate" name="dt_maxdate" data-column="0">
+								<input type="text" class="form-control" id="dt_maxdate" name="dt_maxdate" data-column="0">
 							</div>
 					
 					
@@ -240,43 +241,9 @@ from our executive</a></h3>
 
 
 </div>
-<div class="mwscolumns section">
-    
 
     
 
-        
-
-        
-            
-        <div class="row ">
-            
-                <div class="col-md-3">
-                    
-
-                </div>
-            
-                <div class="col-md-9">
-                    <div class="mwsgeneric-base-html parbase section">
-
-
-
-    <p class="text-center"><a href="/en/news/advanced-news-search/news-results.html">All news articles</a></p>
-
-
-</div>
-
-
-                </div>
-            
-        </div>
-    
-        
-    
-
-
-
-</div>
 <div class="mwsgeneric-base-html parbase section">
 
 

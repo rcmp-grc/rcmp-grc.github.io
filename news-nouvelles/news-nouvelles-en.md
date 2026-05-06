@@ -148,7 +148,7 @@ from our executive</a></h3>
 					</div>	</div>				
 				</form>
 			</section>
-				</div>
+				</div></div>
 						
 
 						<div class="col-md-9">
@@ -204,7 +204,7 @@ from our executive</a></h3>
 </table>
 
 			</section>
-		</div></div>
+		</div></div></div>
 
 
 

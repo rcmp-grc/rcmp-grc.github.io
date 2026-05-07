@@ -98,48 +98,6 @@ main {
   margin-bottom: 8px;
 }
 
-/* Image gallery thumbnails */
-#mp-gallery .wb-lbx li a {
-  display: block;
-  border: 2px solid transparent;
-}
-#mp-gallery .wb-lbx li a:focus,
-#mp-gallery .wb-lbx li a:hover {
-  border-color: #1d70b8; /* GDS focus blue — visible on white */
-  outline: 3px solid #fd0; /* GDS yellow focus ring */
-  outline-offset: 0;
-}
-#mp-gallery .gallery-thumb {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  display: block;
-}
-
-/* Contact box */
-#mp-contact-box {
-  border: 2px solid #0b0c0c;
-  padding: 20px 24px;
-}
-#mp-contact-box p {
-  margin-bottom: 0;
-}
-
-/* Media contact */
-#mp-media-box {
-  background: #f3f2f1;
-  border-left: 4px solid #505a5f;
-  padding: 14px 18px;
-}
-
-/* Focus style supplement for all interactive elements in this page */
-#mp-page a:focus {
-  outline: 3px solid #fd0;
-  outline-offset: 2px;
-  background: #fd0;
-  color: #0b0c0c;
-}
-
 /* -----------------------------------------------------------------------------
    1. Utilities
 ----------------------------------------------------------------------------- */

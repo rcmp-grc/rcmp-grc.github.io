@@ -9,7 +9,7 @@ lead: Personnes disparues
 ---
 
 <div id="mp-page">
-  <div id="alert alert-danger" role="alert" aria-live="polite">
+  <div class="alert alert-danger" role="alert" aria-live="polite">
     <span>This person is reported missing — if you have information, contact your local police or RCMP detachment or call <strong>9-1-1</strong> in an emergency.</span>
   </div>
   <div class="row mrgn-bttm-md">
@@ -32,7 +32,7 @@ lead: Personnes disparues
       </figure>
     </div>
     <div class="clearfix"></div>
-    <div class="col-md-10 col-md-offset-1 mrgn-tp-md">
+    <div class="mrgn-tp-md">
       <p>
         SpongeBob is a good-natured, naive, and enthusiastic sea sponge. He lives in a submerged pineapple with his pet snail Gary in the fictional underwater city of Bikini Bottom, which is also home to other anthropomorphic sea creatures. SpongeBob is often seen in the company of his best friend Patrick Star. He is obsessively attached to his job as a fry cook at the Krusty Krab. His boss is Mr. Krabs, and his co-worker Squidward Tentacles works as the cashier.
       </p>

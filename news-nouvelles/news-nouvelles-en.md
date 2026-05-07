@@ -218,11 +218,11 @@ issued: 2026-05-04
           </tr>
         </thead>
         <tbody>
-<tr>       
-<td><abbr>RCMP</abbr> and <abbr>CBSA</abbr> dismantle crime group after nearly 250&nbsp;<abbr>kg</abbr> of cocaine is detected in shipping container in Halifax</td></tr> 
-<tr><td>2026-05-07 | Federal Policing Central Region | News releases</td></tr> 
-<tr><td><strong>Newmarket</strong>, Ontario</td></tr>
-<tr><td>Canadian federal authorities dismantled an organized crime operation that imported 248.7&nbsp;<abbr>kg</abbr> of cocaine from the Dominican Republic.</td></tr>
+<tr rowspan="4">       
+<td><a href="https://rcmp.ca/en/news/2026/05/4352857"><abbr>RCMP</abbr> and <abbr>CBSA</abbr> dismantle crime group after nearly 250&nbsp;<abbr>kg</abbr> of cocaine is detected in shipping container in Halifax</a></td>
+<td>2026-05-07 | Federal Policing Central Region | News releases</td>
+<td><strong>Newmarket, Ontario</strong></td>
+<td>Canadian federal authorities dismantled an organized crime operation that imported 248.7&nbsp;<abbr>kg</abbr> of cocaine from the Dominican Republic.</td></tr>
         </tbody>
       </table>
      <!-- <h2 class="mrgn-tp-lg">List of news</h2>

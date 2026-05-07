@@ -25,7 +25,14 @@
     </nav>
     {% include header.html %}
     <main class="container" property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+      {% if page.lead %}
+      <hgroup class="mrgn-tp-md">
+        <p class="wb-rd lead mrgn-tp-0 mrgn-bttm-0">{{ page.lead }}</p>
+        <h1 id="wb-cont" property="name">{{ page.title }}</h1>
+      </hgroup>
+      {% else %}
       <h1 id="wb-cont" property="name">{{ page.title }}</h1>
+      {% endif %}
       {{ content }}
       <section class="pagedetails">
         {% if page.lang == 'fr' %}

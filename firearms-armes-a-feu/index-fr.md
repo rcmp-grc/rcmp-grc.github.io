@@ -102,15 +102,12 @@ intro: <p>Conformément à la <cite>Loi sur les armes à feu</cite>, le Programm
   <div class="container">
     <section>
       <h2>Contactez-nous</h2>
-      <ul class="wb-eqht list-unstyled mrgn-tp-lg lst-spcd-2 colcount-md-3 bold-content">
+      <ul class="wb-eqht list-unstyled mrgn-tp-lg lst-spcd-2 colcount-md-2 bold-content">
         <li>
           <a href="#">Programme canadien des armes à feu</a>
         </li>
         <li>
           <a href="#">Contrôleur des armes à feu</a>
-        </li>
-        <li>
-          <a href="#">Les armes à feu du Nord-Ouest</a>
         </li>
       </ul>
     </section>
@@ -140,7 +137,7 @@ intro: <p>Conformément à la <cite>Loi sur les armes à feu</cite>, le Programm
     </div>
     <div class="col-md-8">
       <section class="gc-features">
-        <h2>Features</h2>
+        <h2>En vedette</h2>
         <div class="row wb-eqht-grd">
           <div class="col-sm-6 hght-inhrt">
             <div class="well well-sm eqht-trgt hght-inhrt">

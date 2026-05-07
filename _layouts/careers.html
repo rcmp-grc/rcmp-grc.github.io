@@ -25,6 +25,9 @@
     </nav>
     {% include header.html %}
     {{ content }}
+    <div class="footer-contact">
+      <a class="btn btn-careers btn-contact" href="#">{% if page.lang == 'fr' %}Contact a recruiter{% else %}Communiquer avec le personnel du recrutement{% endif %}</a>
+    </div>
     {% include footer.html %}
   </body>
 </html>

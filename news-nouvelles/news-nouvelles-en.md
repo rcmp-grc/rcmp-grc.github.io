@@ -203,7 +203,7 @@ issued: 2026-05-04
   </div>
   <!-- Adding this hard coded table as a visual - It will not be present when the data is linked -->
   <div class="col-md-9">
-    <div class="well"><i class="fa-duotone fa-solid fa-filter"></i></div>
+    <div class="well"><i class="fa-solid fa-filter"></i>Filtres: </div>
        <section id="body" class="mrgn-tp-lg">
       <h2 class="wb-inv">List of news</h2>
       <table class="wb-tables table nws-tbl table-striped">

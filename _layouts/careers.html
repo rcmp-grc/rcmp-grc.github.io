@@ -57,7 +57,9 @@
       </div>
     </nav>
 	{% include breadcrumb.html %}
-	<h1 id="wb-cont" property="name">{{ page.title }}</h1>
+    <div class="container">
+      <h1 id="wb-cont" property="name" {% if page.h1_hidden %}class="wb-inv"{% endif %}>{{ page.title }}</h1>
+    </div>
     {{ content }}
     </main>
     <div class="footer-contact">

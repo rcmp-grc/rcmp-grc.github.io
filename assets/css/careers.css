@@ -438,9 +438,9 @@ a.btn-careers:hover {
    Reuses --color-navy, --color-yellow, --color-white from :root.
    ============================================================================= */
 #wb-bc {
-  background-color: rgba(0, 28, 61, 0.3); /* --color-navy at 30% opacity */
+  background-color: rgba(180, 185, 190, 0.7); /* neutral grey at 70% opacity */
   position: relative;
-  z-index: 10; /* float above hero layer */
+  z-index: 10;
   border-bottom: 3px solid var(--color-yellow);
   margin-bottom: 0;
   padding: 0;

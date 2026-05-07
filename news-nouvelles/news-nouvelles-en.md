@@ -204,7 +204,7 @@ issued: 2026-05-04
   </div>
   <div class="col-md-9">
     <section id="body">
-      <h2 class="mrgn-tp-lg">List of news</h2>
+      <h2 class="mrgn-tp-lg" class="wb-inv">List of news</h2>
       <table class="wb-tables table nws-tbl table-striped">
         <thead>
           <tr>
@@ -215,11 +215,11 @@ issued: 2026-05-04
           </tr>
         </thead>
         <tbody>
-<tr rowspan="4">       
-<td><a href="https://rcmp.ca/en/news/2026/05/4352857"><abbr>RCMP</abbr> and <abbr>CBSA</abbr> dismantle crime group after nearly 250&nbsp;<abbr>kg</abbr> of cocaine is detected in shipping container in Halifax</a></td>
-<td>2026-05-07 | Federal Policing Central Region | News releases</td>
-<td><strong>Newmarket, Ontario</strong></td>
-<td>Canadian federal authorities dismantled an organized crime operation that imported 248.7&nbsp;<abbr>kg</abbr> of cocaine from the Dominican Republic.</td></tr>
+<tr colspan="4">       
+<td><a href="https://rcmp.ca/en/news/2026/05/4352857"><abbr>RCMP</abbr> and <abbr>CBSA</abbr> dismantle crime group after nearly 250&nbsp;<abbr>kg</abbr> of cocaine is detected in shipping container in Halifax</a><br>
+2026-05-07 | Federal Policing Central Region | News releases<br>
+<strong>Newmarket, Ontario</strong><br>
+Canadian federal authorities dismantled an organized crime operation that imported 248.7&nbsp;<abbr>kg</abbr> of cocaine from the Dominican Republic.</td></tr>
         </tbody>
       </table>
      <!-- <h2 class="mrgn-tp-lg">List of news</h2>

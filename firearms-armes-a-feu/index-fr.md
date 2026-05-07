@@ -123,7 +123,7 @@ intro: <p>Conformément à la <cite>Loi sur les armes à feu</cite>, le Programm
         <h2>Nouvelles</h2>
         <ul class="feeds-cont list-unstyled lst-spcd">
           <li>
-            <a href="#"><cite>Report du Règlement sur le marquage des armes à feu</a><br>
+            <a href="#">Rapport du <cite>Règlement sur le marquage des armes à feu</cite></a><br>
             <small class="feeds-date"><time>2025-11-30</time></small>
           </li>
           <li>

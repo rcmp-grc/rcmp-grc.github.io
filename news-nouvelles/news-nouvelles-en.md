@@ -218,7 +218,7 @@ issued: 2026-05-04
         <tbody>
 <tr colspan="4">       
 <td>
-<div class="col-md-12 mrgn-bttm-md"><strong><a href="https://rcmp.ca/en/news/2026/05/4352857"><abbr>RCMP</abbr> and <abbr>CBSA</abbr> dismantle crime group after nearly 250&nbsp;<abbr>kg</abbr> of cocaine is detected in shipping container in Halifax</a></strong><br>
+<div class="col-md-12 mrgn-bttm-lg"><strong><a href="https://rcmp.ca/en/news/2026/05/4352857"><abbr>RCMP</abbr> and <abbr>CBSA</abbr> dismantle crime group after nearly 250&nbsp;<abbr>kg</abbr> of cocaine is detected in shipping container in Halifax</a></strong><br>
 2026-05-07 | Federal Policing Central Region | News releases<br><br>
 <strong>Newmarket, Ontario</strong><br><br>
 Canadian federal authorities dismantled an organized crime operation that imported 248.7&nbsp;<abbr>kg</abbr> of cocaine from the Dominican Republic.
@@ -227,7 +227,7 @@ Canadian federal authorities dismantled an organized crime operation that import
 </tr>
 <tr colspan="4">       
 <td>
-<div class="col-md-12"><strong><a href="https://rcmp.ca/en/pei/news/2026/05/4352858">Joint Forces Operations Results in Multiple Drug Related Arrests</a></strong><br>
+<div class="col-md-12 mrgn-bttm-lg"><strong><a href="https://rcmp.ca/en/pei/news/2026/05/4352858">Joint Forces Operations Results in Multiple Drug Related Arrests</a></strong><br>
 2026-05-07 | Prince Edward Island <abbr>RCMP</abbr>abbr> | News releases<br><br>
 <strong>Summerside, Prince Edward Island</strong><br><br>
 May 5, 2026, Members of the Prince District Joint Forces Operation (<abbr>JFO</abbr>), Summerside Police, Provincial Joint Enforcement Team (<abbr>JET</abbr>), and <abbr>RCMP</abbr> Police Dog Service, conducted a targeted vehicle stop in Summerside.
@@ -236,7 +236,7 @@ May 5, 2026, Members of the Prince District Joint Forces Operation (<abbr>JFO</a
 </tr> 
 <tr colspan="4">       
 <td>
-<div class="col-md-12"><strong><a href="https://rcmp.ca/en/bc/comox-valley/news/2026/05/4352854">Comox Valley <abbr>RCMP</abbr> looking to locate suspect vehicle after hit-and-run</a></strong><br>
+<div class="col-md-12 mrgn-bttm-lg"><strong><a href="https://rcmp.ca/en/bc/comox-valley/news/2026/05/4352854">Comox Valley <abbr>RCMP</abbr> looking to locate suspect vehicle after hit-and-run</a></strong><br>
 2026-05-07 | Comox Valley <abbr>RCMP</abbr> | News releases<br><br>
 <strong>Summerside, Prince Edward Island</strong><br><br>
 May 5, 2026, Members of the Prince District Joint Forces Operation (<abbr>JFO</abbr>), Summerside Police, Provincial Joint Enforcement Team (<abbr>JET</abbr>), and <abbr>RCMP</abbr> Police Dog Service, conducted a targeted vehicle stop in Summerside.
@@ -245,7 +245,7 @@ May 5, 2026, Members of the Prince District Joint Forces Operation (<abbr>JFO</a
 </tr>       
 <tr colspan="4">       
 <td>
-<div class="col-md-12"><strong><a href="https://rcmp.ca/en/bc/chilliwack/news/2026/05/4352853">Chilliwack RCMP seek public assistance to identify suspect in bus driver assault</a></strong><br>
+<div class="col-md-12 mrgn-bttm-lg"><strong><a href="https://rcmp.ca/en/bc/chilliwack/news/2026/05/4352853">Chilliwack RCMP seek public assistance to identify suspect in bus driver assault</a></strong><br>
 2026-05-06 | Chilliwack <abbr>RCMP</abbr> | News releases<br><br>
 <strong>Chilliwack, British Columbia</strong><br><br>
 The Chilliwack RCMP is requesting the public’s assistance in identifying a man alleged to have been involved in the assault of a BC Transit bus driver in March of 2026.
@@ -254,7 +254,7 @@ The Chilliwack RCMP is requesting the public’s assistance in identifying a man
 </tr>
 <tr colspan="4">       
 <td>         
-<div class="col-md-12"><strong><a href="https://rcmp.ca/en/bc/chilliwack/news/2026/05/4352853">Chilliwack RCMP seek public assistance to identify suspect in bus driver assault</a></strong><br>
+<div class="col-md-12 mrgn-bttm-lg"><strong><a href="https://rcmp.ca/en/bc/chilliwack/news/2026/05/4352853">Chilliwack RCMP seek public assistance to identify suspect in bus driver assault</a></strong><br>
 2026-05-06 | Chilliwack <abbr>RCMP</abbr> | News releases<br><br>
 <strong>Chilliwack, British Columbia</strong><br><br>
 The Chilliwack RCMP is requesting the public’s assistance in identifying a man alleged to have been involved in the assault of a BC Transit bus driver in March of 2026.
@@ -263,7 +263,7 @@ The Chilliwack RCMP is requesting the public’s assistance in identifying a man
 </tr>
 <tr colspan="4">       
 <td>          
-<div class="col-md-12"><strong><a href="https://rcmp.ca/en/bc/hope/news/2026/05/4352851">Hope RCMP weekly snapshot</a></strong><br>
+<div class="col-md-12 mrgn-bttm-lg"><strong><a href="https://rcmp.ca/en/bc/hope/news/2026/05/4352851">Hope RCMP weekly snapshot</a></strong><br>
 2026-05-06 | Hope RCMP | News releases<br><br>
 <strong>Hope, BC, British Columbia</strong><br><br>
 Week of April 27 to May 3
@@ -272,7 +272,7 @@ Week of April 27 to May 3
 </tr> 
 <tr colspan="4">       
 <td>          
-<div class="col-md-12"><strong><a href="https://rcmp.ca/en/nb/news/2026/05/4352850">Missing 49-year-old woman</a></strong><br>
+<div class="col-md-12 mrgn-bttm-lg"><strong><a href="https://rcmp.ca/en/nb/news/2026/05/4352850">Missing 49-year-old woman</a></strong><br>
 2026-05-06 | New Brunswick RCMP | News releases<br><br>
 <strong>Perth-Andover, New Brunswick</strong><br><br>
 The Perth-Andover RCMP is asking for the public’s help to locate a missing 49-year-old woman from Presque Isle, Maine. 
@@ -281,7 +281,7 @@ The Perth-Andover RCMP is asking for the public’s help to locate a missing 49-
 </tr> 
 <tr colspan="4">
 <td>          
-<div class="col-md-12"><strong><a href="https://rcmp.ca/en/nb/news/2026/05/4352849">RCMP seeking public’s help following counterfeit money circulation</a></strong><br>
+<div class="col-md-12 mrgn-bttm-lg"><strong><a href="https://rcmp.ca/en/nb/news/2026/05/4352849">RCMP seeking public’s help following counterfeit money circulation</a></strong><br>
 2026-05-06 | New Brunswick RCMP | News releases<br><br>
 <strong>Kedgwick and Saint-Quentin, New Brunswick</strong><br><br>
 The Saint-Quentin RCMP is seeking the public’s help to identify a person of interest in connection with a counterfeit money investigation.  
@@ -290,7 +290,7 @@ The Saint-Quentin RCMP is seeking the public’s help to identify a person of in
 </tr>   
 <tr colspan="4">
 <td>          
-<div class="col-md-12"><strong><a href="https://rcmp.ca/en/manitoba/news/2026/05/4352847">Suspects arrested after replica handgun seen inside Morris hospital</a></strong><br>
+<div class="col-md-12 mrgn-bttm-lg"><strong><a href="https://rcmp.ca/en/manitoba/news/2026/05/4352847">Suspects arrested after replica handgun seen inside Morris hospital</a></strong><br>
 2026-05-06 | Manitoba RCMP | News releases<br><br>
 <strong>Morris, Manitoba</strong><br><br>
 On May 5, at approximately 4:30 p.m., RCMP responded to a report that an armed male was threatening a female inside Morris General Hospital.  
@@ -299,7 +299,7 @@ On May 5, at approximately 4:30 p.m., RCMP responded to a report that an armed m
 </tr> 
 <tr colspan="4">
 <td>          
-<div class="col-md-12"><strong><a href="https://rcmp.ca/en/nl/news/2026/05/4352845">Bay St. George RCMP issue warning about counterfeit currency circulating in the area</a></strong><br>
+<div class="col-md-12 mrgn-bttm-lg"><strong><a href="https://rcmp.ca/en/nl/news/2026/05/4352845">Bay St. George RCMP issue warning about counterfeit currency circulating in the area</a></strong><br>
 2026-05-06 | Newfoundland and Labrador RCMP | News releases<br><br>
 <strong>Stephenville, Newfoundland and Labrador</strong><br><br>
 Bay St. George RCMP is advising the public about recent circulation of counterfeit currency after reports from local residents and businesses.  

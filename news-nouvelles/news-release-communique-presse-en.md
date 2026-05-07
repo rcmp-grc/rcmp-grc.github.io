@@ -40,19 +40,19 @@ issued: 2026-05-07
 <li data-list-item-id="ef864c2eff32ba69eb6aa48ff09023fa5">Brush up on emergency braking and obstacle avoidance, especially after time off the bike</li>
 </ul>
 <p>For more information on B.C.’s motorcycle laws, helmet standards, fines and penalty points, visit the <a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/motorcycle-safety">Province of British Columbia’s website</a>. For motorcycle licensing, rider training resources, and gear guides, visit the <a href="https://www.icbc.com/road-safety/sharing/motorcycle-safety">ICBC website</a>.</p>
-			</section>
-						<section class="wb-lbx lbx-gal" id="s2">
-			<h2>Image gallery</h2>
-			<ul class="list-inline">		
+</section>
+<section class="wb-lbx lbx-gal" id="s2">
+<h2>Image gallery</h2>
+<ul class="list-inline">		
 <li>     
-    <a href="/sites/default/files/styles/gallery_large_1200x1200/public/2026-05/speedcheck_larger.png?itok=r341He-k" title="">
-    <img src="/sites/default/files/styles/gallery_small_175x175/public/2026-05/speedcheck_larger.png?itok=16xnNKdC" alt="" >
+<a href="/sites/default/files/styles/gallery_large_1200x1200/public/2026-05/speedcheck_larger.png?itok=r341He-k" title="">
+<img src="/sites/default/files/styles/gallery_small_175x175/public/2026-05/speedcheck_larger.png?itok=16xnNKdC" alt="" >
   </a>
 </li>
-			</ul>
-		</section>		
-							<section id="s7">
-				<h2>Contacts</h2>
+</ul>
+</section>		
+<section id="s7">
+<h2>Contacts</h2>
 <div class="contact-signature">
           <strong>Richmond RCMP Media Relations</strong>
      <br>     
@@ -94,7 +94,6 @@ issued: 2026-05-07
           </div>     
      </div>
 </div>
-							</section>
-			</section>
-			<div class="links">
-	</div>
+</section>
+</section>
+

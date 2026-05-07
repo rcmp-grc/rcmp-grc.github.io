@@ -205,7 +205,7 @@ issued: 2026-05-04
     <section id="body" class="mrgn-tp-lg">
   <!-- Adding this hard coded table as a visual - It will not be present when the data is linked -->
       <h2 class="wb-inv">List of news</h2>
-<div class="panel panel-danger">
+<div class="panel panel-danger mrgn-tp-0 mrgn-bttm-0">
   <div class="panel-body">
    <p><i class="fa-solid fa-filter"></i> <span class="wb-inv">Filtres selected:</span></p>
   </div>

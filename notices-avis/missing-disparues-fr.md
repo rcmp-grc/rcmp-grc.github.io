@@ -10,7 +10,7 @@ lead: Personnes disparues
 
 <div id="mp-page">
   <div class="alert alert-danger" role="alert" aria-live="polite">
-    <span>This person is reported missing — if you have information, contact your local police or RCMP detachment or call <strong>9-1-1</strong> in an emergency.</span>
+    <span>This person is reported missing — if you have information, contact your local police or RCMP detachment or call <strong class="nowrap">9-1-1</strong> in an emergency.</span>
   </div>
   <div class="row mrgn-bttm-md">
     <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3" id="mp-photo-col">

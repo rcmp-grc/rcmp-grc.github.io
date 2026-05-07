@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Secondary page
+title: Information for non-residents
 description: My page description
 date_modified: 2026-05-07
 lang: en

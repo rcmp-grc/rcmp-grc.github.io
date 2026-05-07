@@ -41,7 +41,7 @@ issued: 2026-05-07
 </ul>
 <p>For more information on B.C.’s motorcycle laws, helmet standards, fines and penalty points, visit the <a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/motorcycle-safety">Province of British Columbia’s website</a>. For motorcycle licensing, rider training resources, and gear guides, visit the <a href="https://www.icbc.com/road-safety/sharing/motorcycle-safety">ICBC website</a>.</p>
 
-<section class="wb-lbx lbx-gal" id="s2">
+
 <h2>Image gallery</h2>
 <ul class="list-inline">		
 <li>     
@@ -50,7 +50,7 @@ issued: 2026-05-07
   </a>
 </li>
 </ul>
-</section>		
+	
 
 <h2>Contacts</h2>
 <div class="contact-signature">

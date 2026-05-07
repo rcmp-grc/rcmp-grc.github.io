@@ -433,6 +433,96 @@ a.btn-careers:hover {
 }
 
 /* =============================================================================
+   BREADCRUMB — Bordered band (style 08)
+   Overlays on top of the hero below; 30% opaque background.
+   Reuses --color-navy, --color-yellow, --color-white from :root.
+   ============================================================================= */
+#wb-bc {
+  background-color: rgba(0, 28, 61, 0.3); /* --color-navy at 30% opacity */
+  position: relative;
+  z-index: 10; /* float above hero layer */
+  border-bottom: 3px solid var(--color-yellow);
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#wb-bc h2 {
+  /* "You are here:" visually hidden by WET */
+  display: none;
+}
+
+#wb-bc .container {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+#wb-bc ol.breadcrumb {
+  background: transparent;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 0.4rem;
+  list-style: none;
+}
+
+/* Each breadcrumb item */
+#wb-bc ol.breadcrumb > li {
+  display: flex;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.85);
+  padding: 0;
+}
+
+/* Separator chevron between items — matches the › in style 08 */
+#wb-bc ol.breadcrumb > li + li::before {
+  content: "›";
+  padding: 0 0.5rem;
+  color: var(--color-yellow);
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+/* Links */
+#wb-bc ol.breadcrumb > li a,
+#wb-bc ol.breadcrumb > li a:visited {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: var(--radius-sm);
+  transition: var(--transition-color);
+}
+
+#wb-bc ol.breadcrumb > li a:hover,
+#wb-bc ol.breadcrumb > li a:focus {
+  color: var(--color-yellow);
+  text-decoration: underline;
+  text-decoration-color: var(--color-yellow);
+  text-underline-offset: 0.3rem;
+  outline: none;
+}
+
+/* Active / current page (last item, no link) */
+#wb-bc ol.breadcrumb > li.active,
+#wb-bc ol.breadcrumb > li:last-child {
+  color: var(--color-yellow);
+  font-weight: 600;
+}
+
+/* Mobile: slightly smaller */
+@media (max-width: 767px) {
+  #wb-bc ol.breadcrumb > li,
+  #wb-bc ol.breadcrumb > li a {
+    font-size: 1.2rem;
+  }
+}
+
+/* =============================================================================
    HOME PAGE — Hero
    ============================================================================= */
 .hero-content {

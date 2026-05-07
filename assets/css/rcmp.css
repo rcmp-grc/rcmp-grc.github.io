@@ -69,16 +69,14 @@ main {
 }
 
 /* -----------------------------------------------------------------------------
-   1. Missing-person page additions
+   1. Missing-person and wanted page additions
 ----------------------------------------------------------------------------- */
-
-/* Subject photo */
 #mp-photo-col figure {
   margin: 0;
-  border: 1px solid #b1b4b6; /* GDS border grey */
+  border: 1px solid #b1b4b6;
 }
 #mp-photo-col figcaption {
-  background: #f3f2f1; /* GDS light grey */
+  background: #f3f2f1;
   padding: 12px 14px;
   font-size: 0.95em;
   border-top: 1px solid #b1b4b6;
@@ -89,11 +87,9 @@ main {
   margin-bottom: 4px;
 }
 #mp-photo-col .file-number {
-  color: #505a5f; /* GDS secondary text — 4.7:1 on #f3f2f1 */
+  color: #505a5f;
   font-size: 0.9em;
 }
-
-/* Definition lists */
 #mp-page .dl-horizontal dt {
   font-weight: 700;
   color: #0b0c0c;

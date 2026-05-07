@@ -8,7 +8,6 @@ issued: 2026-05-08
 lead: Personnes disparues
 ---
 
-<div id="mp-page">
   <div class="alert alert-danger" role="alert" aria-live="polite">
     <span>This person is reported missing — if you have information, contact your local police or RCMP detachment or call <strong class="nowrap">9-1-1</strong> in an emergency.</span>
   </div>
@@ -19,8 +18,6 @@ lead: Personnes disparues
           alt="Portrait photo of missing person SpongeBob SquarePants"
           class="img-responsive"
           src="https://dummyimage.com/480x600/000/fff"
-          width="480"
-          height="600"
         >
         <figcaption>
           <strong>SpongeBob SquarePants</strong>
@@ -41,7 +38,7 @@ lead: Personnes disparues
   <div class="row">
     <div class="col-md-6">
       <section class="mrgn-bttm-lg" id="s2" aria-labelledby="s2-heading">
-        <h2 class="mrgn-tp-sm mp-section-heading" id="s2-heading">Personal information</h2>
+        <h2 class="mrgn-tp-sm id="s2-heading">Personal information</h2>
         <dl class="dl-horizontal brdr-0">
           <dt>Name</dt>
           <dd>SpongeBob SquarePants</dd>
@@ -72,7 +69,7 @@ lead: Personnes disparues
     </div>
     <div class="col-md-6">
       <section class="mrgn-bttm-lg" id="s3" aria-labelledby="s3-heading">
-        <h2 class="mrgn-tp-sm mp-section-heading" id="s3-heading">Last seen</h2>
+        <h2 class="mrgn-tp-sm id="s3-heading">Last seen</h2>
         <dl class="dl-horizontal brdr-0">
           <dt>Date</dt>
           <dd><time datetime="1999-05-01T00:00:00Z">1999-05-01</time></dd>
@@ -85,7 +82,7 @@ lead: Personnes disparues
         </dl>
       </section>
       <section class="mrgn-bttm-lg" id="s4" aria-labelledby="s4-heading">
-        <h2 class="mrgn-tp-sm mp-section-heading" id="s4-heading">Identifying features</h2>
+        <h2 class="mrgn-tp-sm id="s4-heading">Identifying features</h2>
         <dl class="dl-horizontal brdr-0">
           <dt>Hair style</dt>
           <dd>None</dd>
@@ -98,7 +95,7 @@ lead: Personnes disparues
     </div>
   </div>
   <section class="mrgn-bttm-lg" id="mp-gallery" aria-labelledby="s5-heading">
-    <h2 class="mrgn-tp-sm mp-section-heading" id="s5-heading">Image gallery</h2>
+    <h2 class="mrgn-tp-sm id="s5-heading">Image gallery</h2>
     <ul class="list-inline wb-lbx" aria-label="Additional photographs of SpongeBob SquarePants">
       <li>
         <a href="https://dummyimage.com/600x480/000/fff" title="SpongeBob SquarePants character image — enlarged view">
@@ -106,8 +103,6 @@ lead: Personnes disparues
             alt="SpongeBob SquarePants character image"
             class="gallery-thumb"
             src="https://dummyimage.com/175x175/000/fff"
-            width="100"
-            height="100"
           >
         </a>
       </li>
@@ -117,24 +112,20 @@ lead: Personnes disparues
             alt="SpongeBob and friends illustration"
             class="gallery-thumb"
             src="https://dummyimage.com/175x175/333/fff"
-            width="100"
-            height="100"
           >
         </a>
       </li>
     </ul>
   </section>
   <section class="mrgn-bttm-lg" id="s6" aria-labelledby="s6-heading">
-    <h2 class="mrgn-tp-sm mp-section-heading" id="s6-heading">Do you have any information?</h2>
-    <div id="mp-contact-box">
+    <h2 class="mrgn-tp-sm id="s6-heading">Do you have any information?</h2>
+    <div>
       <p>If you have information regarding SpongeBob SquarePants or his whereabouts in Bikini Bottom, please contact the appropriate media or animation studio.</p>
     </div>
   </section>
   <section class="mrgn-bttm-lg" id="s7" aria-labelledby="s7-heading">
-    <h2 class="mrgn-tp-sm mp-section-heading" id="s7-heading">Media contact</h2>
-    <div id="mp-media-box">
+    <h2 class="mrgn-tp-sm id="s7-heading">Media contact</h2>
+    <div>
       <p>Nickelodeon Media Relations – Animation Department</p>
     </div>
   </section>
-
-</div>

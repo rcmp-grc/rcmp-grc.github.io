@@ -9,11 +9,8 @@ lead: Personnes disparues
 ---
 
 <div id="mp-page">
-  <div id="mp-alert" role="alert" aria-live="polite">
-    <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M12 2L1 21h22L12 2zm0 3.5L20.5 19H3.5L12 5.5zM11 10v4h2v-4h-2zm0 6v2h2v-2h-2z"/>
-    </svg>
-    <span>This person is reported missing — if you have information, contact your local RCMP detachment or call <strong>911</strong> in an emergency.</span>
+  <div id="alert alert-danger" role="alert" aria-live="polite">
+    <span>This person is reported missing — if you have information, contact your local police or RCMP detachment or call <strong>9-1-1</strong> in an emergency.</span>
   </div>
   <div class="row mrgn-bttm-md">
     <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3" id="mp-photo-col">
@@ -36,7 +33,7 @@ lead: Personnes disparues
     </div>
     <div class="clearfix"></div>
     <div class="col-md-10 col-md-offset-1 mrgn-tp-md">
-      <p id="mp-description">
+      <p>
         SpongeBob is a good-natured, naive, and enthusiastic sea sponge. He lives in a submerged pineapple with his pet snail Gary in the fictional underwater city of Bikini Bottom, which is also home to other anthropomorphic sea creatures. SpongeBob is often seen in the company of his best friend Patrick Star. He is obsessively attached to his job as a fry cook at the Krusty Krab. His boss is Mr. Krabs, and his co-worker Squidward Tentacles works as the cashier.
       </p>
     </div>
@@ -104,22 +101,22 @@ lead: Personnes disparues
     <h2 class="mrgn-tp-sm mp-section-heading" id="s5-heading">Image gallery</h2>
     <ul class="list-inline wb-lbx" aria-label="Additional photographs of SpongeBob SquarePants">
       <li>
-        <a href="https://dummyimage.com/175x175/000/fff" title="SpongeBob SquarePants character image — enlarged view">
+        <a href="https://dummyimage.com/600x480/000/fff" title="SpongeBob SquarePants character image — enlarged view">
           <img
             alt="SpongeBob SquarePants character image"
             class="gallery-thumb"
-            src="https://dummyimage.com/100x100/000/fff"
+            src="https://dummyimage.com/175x175/000/fff"
             width="100"
             height="100"
           >
         </a>
       </li>
       <li>
-        <a href="https://dummyimage.com/175x175/000/fff" title="SpongeBob and friends illustration — enlarged view">
+        <a href="https://dummyimage.com/600x480/000/fff" title="SpongeBob and friends illustration — enlarged view">
           <img
             alt="SpongeBob and friends illustration"
             class="gallery-thumb"
-            src="https://dummyimage.com/100x100/333/fff"
+            src="https://dummyimage.com/175x175/333/fff"
             width="100"
             height="100"
           >
@@ -140,4 +137,4 @@ lead: Personnes disparues
     </div>
   </section>
 
-</div>{{/* end #mp-page */}}
+</div>

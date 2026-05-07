@@ -205,6 +205,30 @@ issued: 2026-05-04
   <div class="col-md-9">
     <section id="body">
       <h2 class="mrgn-tp-lg">List of news</h2>
+      <table class="wb-tables table nws-tbl table-striped">
+        <thead>
+          <tr>
+            <th class="hidden" tabindex="-1">Title</th>
+            <th class="hidden" tabindex="-1">Date</th>
+            <th class="hidden" tabindex="-1">Division or Federal Policing region</th>
+            <th class="hidden" tabindex="-1">Type</th>
+            <th class="hidden" tabindex="-1">Location</th>
+            <th class="hidden" tabindex="-1">Province or territory</th>
+            <th class="hidden" tabindex="-1">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+<tr>       
+<td><abbr>RCMP</abbr> and <abbr>CBSA</abbr> dismantle crime group after nearly 250&nbsp;<abbr>kg</abbr> of cocaine is detected in shipping container in Halifax</td>
+<td>2026-05-07 | Federal Policing Central Region | News releases</td>  
+<td><strong>Newmarket</strong>, Ontario</td>
+<td>Canadian federal authorities dismantled an organized crime operation that imported 248.7&nbsp;<abbr>kg</abbr> of cocaine from the Dominican Republic.</td>
+</tr>  
+          
+          
+        </tbody>
+      </table>
+     <!-- <h2 class="mrgn-tp-lg">List of news</h2>
       <table class="wb-tables table nws-tbl table-striped" data-wb-tables='{ "ordering": false, "pageLength": 10, "lengthChange": false, "columns": [{ "data": "title", "className": "nws-tbl-ttl" }, { "data": "date", "className": "nws-tbl-date" }, { "data": "detachment", "className": "nws-tbl-type" }, { "data": "type", "className": "nws-tbl-type" }, { "data": "location", "className": "nws-tbl-desc" }, { "data": "province", "className": "hidden" }, { "data": "description", "className": "nws-tbl-desc mrgn-bbtm-md" } ] }' data-wb-tables-color=".pkey" data-wb5-bind="[data-wbtbl-draw]" id="n">
         <thead>
           <tr>
@@ -218,7 +242,7 @@ issued: 2026-05-04
           </tr>
         </thead>
         <tbody></tbody>
-      </table>
+      </table>-->
     </section>
   </div>
 </div>

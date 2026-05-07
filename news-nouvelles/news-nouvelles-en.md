@@ -229,21 +229,21 @@ issued: 2026-05-04
       <div class="row wb-eqht">
         <div class="col-md-4">
           <div class="well well-sm brdr-rds-0 eqht-trgt position-relative">
-            <img alt="" src="/sites/default/files/styles/feature_tile_image_360x200/public/web-banners-census-pop-web-tile-360x203-final.jpg?h=492aaa26&amp;itok=wC5OvzPC">
+            <img alt="" src="web-banners-census-pop-web-tile-360x203-final.jpg">
             <h3 class="h5"><a class="stretched-link" href="https://www.census.gc.ca/en/index?utm_source=rcmp-web-tile&amp;utm_medium=pog&amp;utm_campaign=statcan-statcan-2026-genpop-collection-26-27&amp;utm_content=gr-093-en-census-wrapper">The 2026&nbsp;Census is now underway!</a></h3>
             <p>Check your mail and complete your census online today.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="well well-sm brdr-rds-0 eqht-trgt position-relative">
-            <img alt="" src="/sites/default/files/styles/feature_tile_image_360x200/public/2026-05-05-feature-red-dress-robe-rouge_0.jpg?h=492aaa26&amp;itok=OMZQYuFS">
+            <img alt="" src="2026-05-05-feature-red-dress-robe-rouge_0.jpg">
             <h3 class="h5"><a class="stretched-link" href="/en/indigenous-policing/missing-and-murdered-indigenous-women-girls-and-2slgbtqi-people">May&#160;5 - Red Dress Day</a></h3>
             <p>Honouring the memories of missing and murdered Indigenous women, girls and <abbr>2SLGBTQI+</abbr> people.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="well well-sm brdr-rds-0 eqht-trgt position-relative">
-            <img alt="" src="/sites/default/files/styles/feature_tile_image_360x200/public/2026-04-29-feature-musical-ride-schedule-horaire-tournee-carrousel.jpg?h=492aaa26&amp;itok=2_mVS_gn">
+            <img alt="" src="2026-04-29-feature-musical-ride-schedule-horaire-tournee-carrousel.jpg">
             <h3 class="h5"><a class="stretched-link" href="/en/corporate-information/musical-ride/musical-ride-tour-schedule">Musical Ride tour schedule</a></h3>
             <p>This year’s tour schedule is now live! We’ll be making stops in British Columbia, Ontario and Quebec.</p>
           </div>

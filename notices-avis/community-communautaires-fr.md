@@ -1,15 +1,9 @@
 ---
 layout: default
-title: Modèles de personnes disparues, de personnes recherchées et de nouvelles communautaires de la division
+title: SpongeBob SquarePants
 date_modified: 2026-05-08
 lang: fr
-lang_url: index.html
+lang_url: community-communautaires-en.html
 issued: 2026-05-08
 lead: Nouvelles communautaires
 ---
-
-<div class="list-group">
-  <a href="missing-disparues-fr.html" class="list-group-item">Personnes disparues de la division</a>
-  <a href="wanted-recherchées-fr.html" class="list-group-item">Personnes recherchées de la division</a>
-  <a href="community-communautaires-fr.html" class="list-group-item">Nouvelles communautaires</a>
-</div>

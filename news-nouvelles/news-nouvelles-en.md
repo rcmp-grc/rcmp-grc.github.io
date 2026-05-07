@@ -307,8 +307,7 @@ Bay St. George RCMP is advising the public about recent circulation of counterfe
 </td>
 </tr>            
         </tbody>
-      </table>
-         
+      </table>       
      <!-- <h2 class="mrgn-tp-lg">List of news</h2>
       <table class="wb-tables table nws-tbl table-striped" data-wb-tables='{ "ordering": false, "pageLength": 10, "lengthChange": false, "columns": [{ "data": "title", "className": "nws-tbl-ttl" }, { "data": "date", "className": "nws-tbl-date" }, { "data": "detachment", "className": "nws-tbl-type" }, { "data": "type", "className": "nws-tbl-type" }, { "data": "location", "className": "nws-tbl-desc" }, { "data": "province", "className": "hidden" }, { "data": "description", "className": "nws-tbl-desc mrgn-bbtm-md" } ] }' data-wb-tables-color=".pkey" data-wb5-bind="[data-wbtbl-draw]" id="n">
         <thead>

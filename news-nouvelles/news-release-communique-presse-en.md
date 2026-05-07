@@ -15,7 +15,7 @@ issued: 2026-05-07
 				<p class="wb-rd lead mrgn-tp-0 mrgn-bttm-0">News release</p>
 				<h1 class="mrgn-tp-0" property="name" id="wb-cont">Richmond RCMP targets high risk driving as motorcycle safety month returns</h1>
 </hgroup>
-<p class="lead">Richmond RCMP Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety</p>
+<p class="lead">Richmond RCMP Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety.</p>
 <hr>
 <p><i class="fa-solid fa-calendar"></i> May 7, 2026 - Richmond, British Columbia</p>
 <p><i class="fa-solid fa-user"></i> <a href="https://rcmp.ca/en/bc/richmond">Richmond <abbr>RCMP</abbr></a></p>
@@ -40,7 +40,7 @@ issued: 2026-05-07
 <li data-list-item-id="ef864c2eff32ba69eb6aa48ff09023fa5">Brush up on emergency braking and obstacle avoidance, especially after time off the bike</li>
 </ul>
 <p>For more information on B.C.’s motorcycle laws, helmet standards, fines and penalty points, visit the <a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/motorcycle-safety">Province of British Columbia’s website</a>. For motorcycle licensing, rider training resources, and gear guides, visit the <a href="https://www.icbc.com/road-safety/sharing/motorcycle-safety">ICBC website</a>.</p>
-</section>
+
 <section class="wb-lbx lbx-gal" id="s2">
 <h2>Image gallery</h2>
 <ul class="list-inline">		
@@ -51,7 +51,7 @@ issued: 2026-05-07
 </li>
 </ul>
 </section>		
-<section id="s7">
+
 <h2>Contacts</h2>
 <div class="contact-signature">
           <strong>Richmond RCMP Media Relations</strong>
@@ -94,6 +94,5 @@ issued: 2026-05-07
           </div>     
      </div>
 </div>
-</section>
-</section>
+
 

@@ -12,7 +12,7 @@ issued: 2026-05-07
 ---
 <section class="alert alert-warning">
   <h2>Online service interruption</h2>
-	<p>Due to maintenance, this service will be unavailable for use on <strong>June 1, 2026, from 7 am until 9 am Eastern time</strong>. We apologize in  advance for any inconvenience this may cause. </p>
+	<p>Due to maintenance, this service will be unavailable for use on <strong>June 1, 2026, from 7 am until 9 am Eastern time</strong>. We apologize in advance for any inconvenience this may cause. </p>
 </section>
 <section>
 <h2>On this page</h2>
@@ -42,7 +42,7 @@ issued: 2026-05-07
 
 <section id="s2">
 <h2>Borrowing firearms in Canada</h2>
-<p>You do not need a licence to borrow a firearm in Canada, as long as you will be under the direct and immediate supervision of an adult with a valid licence for that class of firearm. If you do not have  appropriate supervision, you will need either a possession and acquisition licence or a non-resident temporary borrowing licence for non-restricted firearms. The temporary borrowing licence is valid for 60 days. The fee is $30.</p>
+<p>You do not need a licence to borrow a firearm in Canada, as long as you will be under the direct and immediate supervision of an adult with a valid licence for that class of firearm. If you do not have appropriate supervision, you will need either a possession and acquisition licence or a non-resident temporary borrowing licence for non-restricted firearms. The temporary borrowing licence is valid for 60 days. The fee is $30.</p>
 
 <p>You can apply for a t<a href="/en/firearms/apply-firearms-licence">emporary borrowing licence online</a> or by mail by completing <abbr><a href="/en/firearms/firearms-forms-and-reports#s1">RCMP</a></abbr><a href="/en/firearms/firearms-forms-and-reports#s1"> form 5513: Application for a Non-resident Temporary Borrowing Licence for Non-restricted Firearms</a>. </p>
 

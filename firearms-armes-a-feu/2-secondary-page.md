@@ -15,17 +15,7 @@ issued: 2026-05-07
 <h2 class="h3">Online service interruption</h2>
 	<p>Due to Shared Services Canada maintenance, telephone services and this service will be unavailable for use on Sunday, March&#160;29, 2026, from 9&#160;am until 10:30&#160;am, Eastern time. We apologize in advance for any inconvenience this may cause.</p>
 </section>
-<section>
-  <h2>On this page</h2>
-  <ul>
-    <li>
-      <a href="#s1">Access to Individual Web Services</a>
-    </li>
-    <li>
-      <a href="#s2">Questions and answers</a>
-    </li>
-  </ul>
-</section>
+
 <section class="mrgn-tp-lg alert alert-info">
   <h2 class="h3">Notes</h2>
   <p>The <a href="https://gazette.gc.ca/rp-pr/p2/2025/2025-11-19/html/sor-dors227-eng.html"><cite>Firearms Marking Regulations</cite></a> under the <cite>Firearms Act</cite> that were scheduled to come into force on December 1,&#160;2025, have been deferred to December 1,&#160;2027.</p>

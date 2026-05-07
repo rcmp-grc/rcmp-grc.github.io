@@ -1,1 +1,26 @@
+// Styles for displaying dismissable filtre buttons above news search results //
 
+.filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.tag {
+  background-color: #d1cece;
+  padding: 5px 10px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+}
+.tag close-btn {
+  margib-left: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #888;
+}
+.tag .close-btn:hover {
+  color: #333;
+}

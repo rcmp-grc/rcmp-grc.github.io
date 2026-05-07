@@ -107,7 +107,7 @@ intro: <p>Conformément à la <cite>Loi sur les armes à feu</cite>, le Programm
           <a href="#">Programme canadien des armes à feu</a>
         </li>
         <li>
-          <a href="#">Contrôleur des armes à feu </a>
+          <a href="#">Contrôleur des armes à feu</a>
         </li>
         <li>
           <a href="#">Les armes à feu du Nord-Ouest</a>
@@ -135,7 +135,7 @@ intro: <p>Conformément à la <cite>Loi sur les armes à feu</cite>, le Programm
             <small class="feeds-date"><time>2025-10-17</time></small>
           </li>
         </ul>
-        <p>Plus&#160;: <a href="#">Nouvelles d'armes à feu</a></p>
+        <p>Plus : <a href="#">Nouvelles d'armes à feu</a></p>
       </section>
     </div>
     <div class="col-md-8">

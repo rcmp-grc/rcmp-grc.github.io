@@ -50,6 +50,11 @@ header .brand {
 h1#wb-cont,
 hgroup#wb-cont h1 {
   border: 0;
+}
+h1#wb-cont {
+  margin-top: 15px;
+}
+hgroup#wb-cont h1 {
   margin-top: 0;
 }
 #wb-info .gc-main-footer {

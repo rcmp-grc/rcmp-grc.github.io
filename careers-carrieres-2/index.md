@@ -11,34 +11,6 @@ subject:
 issued: 2026-05-11
 ---
 
-<main class="brdr-tp-0 mrgn-bttm-0">
-  <!-- Nav bar -->
-  <div class="container-fluid careers-nav-container">
-    <div class="container">
-      <nav class="careers-nav hidden-xs">
-        <a class="nav-link active" id="header-police-nav" onclick="headernav('header-police')">Police officer</a> <a class="nav-link" id="header-civilian-nav" onclick="headernav('header-civilian')">Civilian employees</a> <a class="nav-link" id="header-more-nav" onclick="headernav('header-more')">More opportunities</a> <button class="btn btn-careers">Apply now</button>
-      </nav>
-    </div>
-  </div><!-- Mobile nav -->
-  <nav class="careers-nav-sm hidden-sm hidden-md hidden-lg hidden-xl">
-    <div class="container-fluid">
-      <button aria-controls="careers-nav-sm-collapse" aria-expanded="false" class="careers-nav-toggle" id="careers-nav-sm-toggle" onclick="navcollapse()"><span class="careers-nav-toggle-icon"></span></button> <button class="btn btn-careers">Apply now</button>
-      <div class="navbar-collapse collapse" id="careers-nav-sm-collapse">
-        <ul class="navbar-nav mrgn-bttm-sm">
-          <li class="nav-link active">
-            <a href="#police-officer">Police officer</a>
-          </li>
-          <li class="nav-link">
-            <a href="#civilian-employees">Civilian employees</a>
-          </li>
-          <li class="nav-link">
-            <a href="#more-opportunities">More opportunities</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <h1 class="visually-hidden"><abbr>RCMP</abbr> careers</h1>
   <section id="careers-page">
     <div class="container-fluid hero-content">
       <!-- Desktop Headers -->
@@ -189,4 +161,3 @@ issued: 2026-05-11
       </section>
     </div>
   </section>
-</main>

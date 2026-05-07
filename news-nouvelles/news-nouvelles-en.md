@@ -203,8 +203,9 @@ issued: 2026-05-04
   </div>
   
   <div class="col-md-9">
-  <section id="body" class="mrgn-tp-lg">  
+    
     <div class="well"><p><i class="fa-solid fa-filter"></i> Filtres selected: </p></div>
+    <section id="body" class="mrgn-tp-lg">
   <!-- Adding this hard coded table as a visual - It will not be present when the data is linked -->
       <h2 class="wb-inv">List of news</h2>
       <table class="wb-tables table nws-tbl table-striped">

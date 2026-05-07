@@ -228,7 +228,7 @@ Canadian federal authorities dismantled an organized crime operation that import
 <tr colspan="4">       
 <td>
 <div class="col-md-12 mrgn-bttm-lg"><strong><a href="https://rcmp.ca/en/pei/news/2026/05/4352858">Joint Forces Operations Results in Multiple Drug Related Arrests</a></strong><br>
-2026-05-07 | Prince Edward Island <abbr>RCMP</abbr>abbr> | News releases<br><br>
+2026-05-07 | Prince Edward Island <abbr>RCMP</abbr> | News releases<br><br>
 <strong>Summerside, Prince Edward Island</strong><br><br>
 May 5, 2026, Members of the Prince District Joint Forces Operation (<abbr>JFO</abbr>), Summerside Police, Provincial Joint Enforcement Team (<abbr>JET</abbr>), and <abbr>RCMP</abbr> Police Dog Service, conducted a targeted vehicle stop in Summerside.
 </div>

@@ -11,6 +11,7 @@ subject:
 issued: 2026-05-04
 ---
 
+<link rel="stylesheet" media="all" href="/assets/css/news.css" />
 <p>Read the RCMP news and communications.</p>
 <div class="wb-eqht row">
   <div class="col-md-4">

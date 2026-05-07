@@ -25,10 +25,32 @@ lang: en
 
 #### `layout`
 **What it does:** Tells Jekyll which HTML template to use to wrap this page's content.  
-**Accepted value:** `default` (the only layout currently in use).  
+**Accepted values:**
+- `default` — standard content page with a constrained-width container and breadcrumb.
+- `super_landing` — full-width landing page with a hero image banner and intro text displayed inside it. No breadcrumb. Used for high-level topic or campaign pages.
+
 **Example:**
 ```yaml
-layout: default
+layout: super_landing
+```
+
+---
+
+#### `hero`
+**What it does:** Sets the background image for the hero banner on `super_landing` pages. The image is applied via `data-bgimg-srcset` at a 992px breakpoint. Only used when `layout: super_landing`.  
+**Accepted value:** A path or URL to an image file.  
+**Example:**
+```yaml
+hero: /assets/img/hero-firearms.jpg
+```
+
+---
+
+#### `intro`
+**What it does:** A block of HTML or text displayed inside the hero banner, directly below the `<h1>` title, on `super_landing` pages. Typically used for a short introductory sentence or call-to-action. Only used when `layout: super_landing`.  
+**Example:**
+```yaml
+intro: "<p>Explore our programs, services, and resources.</p>"
 ```
 
 ---
@@ -192,10 +214,32 @@ lang: fr
 
 #### `layout`
 **Rôle :** Indique à Jekyll quel gabarit HTML utiliser pour encadrer le contenu de la page.  
-**Valeur acceptée :** `default` (le seul gabarit présentement utilisé).  
+**Valeurs acceptées :**
+- `default` — page de contenu standard avec un conteneur à largeur limitée et un fil d'Ariane.
+- `super_landing` — page d'accueil pleine largeur avec une bannière hero et du texte d'introduction à l'intérieur. Pas de fil d'Ariane. Utilisé pour les pages thématiques ou de campagne de haut niveau.
+
 **Exemple :**
 ```yaml
-layout: default
+layout: super_landing
+```
+
+---
+
+#### `hero`
+**Rôle :** Définit l'image d'arrière-plan de la bannière hero sur les pages `super_landing`. L'image est appliquée via `data-bgimg-srcset` à un point de rupture de 992 px. Utilisé uniquement avec `layout: super_landing`.  
+**Valeur acceptée :** Un chemin ou une URL vers un fichier image.  
+**Exemple :**
+```yaml
+hero: /assets/img/hero-armes-a-feu.jpg
+```
+
+---
+
+#### `intro`
+**Rôle :** Bloc de HTML ou de texte affiché dans la bannière hero, directement sous le titre `<h1>`, sur les pages `super_landing`. Généralement utilisé pour une courte phrase d'introduction ou un appel à l'action. Utilisé uniquement avec `layout: super_landing`.  
+**Exemple :**
+```yaml
+intro: "<p>Explorez nos programmes, services et ressources.</p>"
 ```
 
 ---

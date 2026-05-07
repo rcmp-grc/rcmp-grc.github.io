@@ -210,10 +210,7 @@ issued: 2026-05-04
           <tr>
             <th class="hidden" tabindex="-1">Title</th>
             <th class="hidden" tabindex="-1">Date</th>
-            <th class="hidden" tabindex="-1">Division or Federal Policing region</th>
-            <th class="hidden" tabindex="-1">Type</th>
             <th class="hidden" tabindex="-1">Location</th>
-            <th class="hidden" tabindex="-1">Province or territory</th>
             <th class="hidden" tabindex="-1">Description</th>
           </tr>
         </thead>

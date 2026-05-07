@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: careers
 title: RCMP careers
 description: 
 date_modified: 2026-05-11

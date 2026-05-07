@@ -78,5 +78,5 @@
       <h2 class="h3 mrgn-tp-sm mrgn-bttm-sm">{{ org_name }}</h2>
     </div>
   </div>
-  {% include breadcrumb.html %}
+  {% unless page.layout == 'careers' %}{% include breadcrumb.html %}{% endunless %}
 </header>

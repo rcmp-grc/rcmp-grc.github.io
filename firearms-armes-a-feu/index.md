@@ -93,11 +93,11 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Firearms forms</a></h3>
-        <p>Firearms reports for individuals, businesses and police and public agencies.</p>
+        <p>Firearms forms for individuals, businesses and police and public agencies.</p>
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Firearms reports</a></h3>
-        <p>Firearms forms for individuals, businesses and police and public agencies.</p>
+        <p>Firearms reports for individuals, businesses and police and public agencies.</p>
       </div>
     </div>
   </section>

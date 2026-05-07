@@ -186,7 +186,7 @@ issued: 2026-05-04
                   Yukon RCMP
                 </option>
               </select>
-                <h3 class="h4 mrgn-tp-0 mrgn-bttm-0 lgnd-h4"><label for="dt-publication-date">Published</label></h3
+                <h3 class="h4 mrgn-tp-lg mrgn-bttm-sm">Published</h3
              <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
               <div class="row mrgn-tp-md">
                 <div class="col-xs-6">

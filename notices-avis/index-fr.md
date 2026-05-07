@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Test
-description: Description de ma page
-date_modified: 2026-05-04
+title: Modèles de personnes disparues, de personnes recherchées et de nouvelles communautaires de la division
+date_modified: 2026-05-08
 lang: fr
 lang_url: index.html
-author:
-creator:
-subject:
-issued: 2026-05-04
+issued: 2026-05-08
 ---
 
-je suis français
+<div class="list-group">
+  <a href="missing-disparues-fr.html" class="list-group-item">Personnes disparues de la division</a>
+  <a href="wanted-recherchées-fr.html" class="list-group-item">Personnes recherchées de la division</a>
+  <a href="community-communautaires-fr.html" class="list-group-item">Nouvelles communautaires</a>
+</div>

@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Test
-description: My page description
-date_modified: 2026-05-04
+title: Divisional missing person, wanted, community news templates
+date_modified: 2026-05-08
 lang: en
 lang_url: index-fr.html
-author:
-creator:
-subject:
-issued: 2026-05-04
+issued: 2026-05-08
 ---
 
-I'm English.
+<div class="list-group">
+  <a href="missing-disparues-en.html" class="list-group-item">Divisional missing person</a>
+  <a href="wanted-recherchées-en.html" class="list-group-item">Divisional wanted</a>
+  <a href="community-communautaires-en.html" class="list-group-item">Community news</a>
+</div>

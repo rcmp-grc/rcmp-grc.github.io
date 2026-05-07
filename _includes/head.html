@@ -19,5 +19,6 @@
 <meta content="{{ page.date_modified | default: site.time | date: '%Y-%m-%d' }}" name="dcterms.modified">
 <link href="/favicon.ico" rel="icon" type="image/x-icon">
 <link href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css" rel="stylesheet">
-<link href="{{ page.custom_css | default: '/assets/css/rcmp.css' }}" rel="stylesheet">
+<link href="/assets/css/rcmp.css" rel="stylesheet">
+{% if page.custom_css %}<link href="{{ page.custom_css }}" rel="stylesheet">{% endif %}
 <noscript><link href="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/css/noscript.min.css" rel="stylesheet"></noscript>

@@ -9,6 +9,7 @@ author:
 creator:
 subject:
 issued: 2026-05-11
+custom_css: /assets/css/careers.css
 ---
 
   <section id="careers-page">

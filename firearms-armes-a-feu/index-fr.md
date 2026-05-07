@@ -101,7 +101,7 @@ intro: <p>Conformément à la <cite>Loi sur les armes à feu</cite>, le Programm
 <div class="well well-sm brdr-0 mrgn-bttm-md">
   <div class="container">
     <section>
-      <h2>Contact us</h2>
+      <h2>Contactez-nous</h2>
       <ul class="wb-eqht list-unstyled mrgn-tp-lg lst-spcd-2 colcount-md-3 bold-content">
         <li>
           <a href="#">Programme canadien des armes à feu</a>
@@ -120,7 +120,7 @@ intro: <p>Conformément à la <cite>Loi sur les armes à feu</cite>, le Programm
   <div class="row">
     <div class="col-md-4">
       <section class="wb-feeds limit-3">
-        <h2>News</h2>
+        <h2>Nouvelles</h2>
         <ul class="feeds-cont list-unstyled lst-spcd">
           <li>
             <a href="#"><cite>Report du Règlement sur le marquage des armes à feu</a><br>

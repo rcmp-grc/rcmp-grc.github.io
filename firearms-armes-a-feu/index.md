@@ -68,16 +68,20 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
         <p>Information about the procedures and regulations for importing and exporting firearms, ammunition and list of licensed carriers.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Registering, verifying and deactivating firearms</a></h3>
-        <p>Information about types of firearms and firearm verification and registration requirements for restricted and prohibited firearms. Find businesses authorized to perform firearm deactivations.</p>
+        <h3><a href="#">Registering and verifying firearms</a></h3>
+        <p>Information about types of firearms and firearm verification and registration requirements for restricted and prohibited firearms.</p>
+      </div>
+       <div class="col-lg-4 col-md-6">
+        <h3><a href="#">Deactivating firearms</a></h3>
+        <p>Find businesses authorized to perform firearm deactivations.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Transporting and storing firearms</a></h3>
-        <p>Use action verbs, or simply list keywords to summarize the information or tasks that can be accomplished on the page it links to</p>
+        <h3><a href="#">Display, storage and transportation of firearms</a></h3>
+        <p>Guidelines to safely display, store and transport firearms.</p>
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Firearms safety and training</a></h3>
-        <p>Information on firearms safety training and guidelines for safe practices in storing, transporting, and displaying firearms.</p>
+        <p>Firearms safety training courses and service providers.</p>
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Shooting clubs and ranges</a></h3>
@@ -142,15 +146,15 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
           <div class="col-sm-6 hght-inhrt">
             <div class="well well-sm eqht-trgt hght-inhrt">
               <img alt="" src="https://dummyimage.com/360x203/000000/FFFFFF.png">
-              <h3><a class="stretched-link" href="#">Commissioner of Firearms Reports</a></h3>
-              <p>Read the annual Canadian Firearms Program reports to Parliament.</p>
+              <h3><a class="stretched-link" href="#">Commissioner of Firearm’s 2025 Report</a></h3>
+              <p>Read the report to Parliament.</p>
             </div>
           </div>
           <div class="col-sm-6 hght-inhrt">
             <div class="well well-sm eqht-trgt hght-inhrt">
               <img alt="" src="https://dummyimage.com/360x203/000000/FFFFFF.png">
               <h3><a class="stretched-link" href="#">MyCFP</a></h3>
-              <p>Visit our single access point portal for secure and easy access to online services.</p>
+              <p>Access our portal for secure online services.</p>
             </div>
           </div>
         </div>

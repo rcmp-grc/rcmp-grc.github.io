@@ -102,15 +102,12 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
   <div class="container">
     <section>
       <h2>Contact us</h2>
-      <ul class="wb-eqht list-unstyled mrgn-tp-lg lst-spcd-2 colcount-md-3 bold-content">
+      <ul class="wb-eqht list-unstyled mrgn-tp-lg lst-spcd-2 colcount-md-2 bold-content">
         <li>
           <a href="#">Canadian Firearms Program</a>
         </li>
         <li>
           <a href="#">Chief Firearms Officers</a>
-        </li>
-        <li>
-          <a href="#">Northwest Firearms</a>
         </li>
       </ul>
     </section>
@@ -145,15 +142,15 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
           <div class="col-sm-6 hght-inhrt">
             <div class="well well-sm eqht-trgt hght-inhrt">
               <img alt="" src="https://dummyimage.com/360x203/000000/FFFFFF.png">
-              <h3><a class="stretched-link" href="#">[Feature hyperlink text]</a></h3>
-              <p>Brief description of the feature being promoted. Brief description of the feature being promoted.</p>
+              <h3><a class="stretched-link" href="#">Commissioner of Firearms Reports</a></h3>
+              <p>Read the annual Canadian Firearms Program reports to Parliament.</p>
             </div>
           </div>
           <div class="col-sm-6 hght-inhrt">
             <div class="well well-sm eqht-trgt hght-inhrt">
               <img alt="" src="https://dummyimage.com/360x203/000000/FFFFFF.png">
-              <h3><a class="stretched-link" href="#">[Feature hyperlink text]</a></h3>
-              <p>Brief description of the feature being promoted. Brief description of the feature being promoted.</p>
+              <h3><a class="stretched-link" href="#">MyCFP</a></h3>
+              <p>Visit our single access point portal for secure and easy access to online services.</p>
             </div>
           </div>
         </div>

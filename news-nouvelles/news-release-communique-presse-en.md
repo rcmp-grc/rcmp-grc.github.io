@@ -1,6 +1,6 @@
 ---
 layout: default
-title: News Release
+title: 
 description: My page description
 date_modified: 2026-05-07
 lang: en

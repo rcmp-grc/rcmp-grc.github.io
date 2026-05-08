@@ -79,7 +79,7 @@ issued: 2026-05-07
 	  <li>
         <details>
           <summary>
-            <h2 class="h4">New firearms requirements</h2>
+            <h2 class="h4">New firearms transfer requirements</h2>
           </summary>
           <p>Effective September 1, 2024: new <a href="/en/firearms/requirements-individuals-and-businesses-transfer-firearm-barrel">requirements</a> to transfer a firearm barrel or handgun slide, and to import these parts, ammunition and cartridge magazines.</p>
         </details>

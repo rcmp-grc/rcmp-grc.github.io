@@ -145,7 +145,7 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
         <div class="row wb-eqht-grd">
           <div class="col-sm-6 hght-inhrt">
             <div class="well well-sm eqht-trgt hght-inhrt">
-              <img alt="" src="https://dummyimage.com/360x203/000000/FFFFFF.png">
+              <img alt="" src="feature-1.png">
               <h3><a class="stretched-link" href="#">Commissioner of Firearm’s 2025 Report</a></h3>
               <p>Read the report to Parliament.</p>
             </div>

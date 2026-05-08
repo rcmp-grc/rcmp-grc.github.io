@@ -128,12 +128,30 @@ main {
   color: #505a5f;
   font-size: 0.9em;
 }
+#wp-charges-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 4px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+#wp-charges-list li {
+  background: #0b0c0c;
+  color: #fff;
+  font-size: 0.82em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 4px 10px;
+  text-transform: uppercase;
+}
 
 /* -----------------------------------------------------------------------------
    3. Utilities
 ----------------------------------------------------------------------------- */
 .dl-horizontal dt {
-  white-space: nowrap;
+  word-break: keep-all;
+  overflow-wrap: normal;
 }
 
 /* -----------------------------------------------------------------------------

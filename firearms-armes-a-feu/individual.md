@@ -9,13 +9,11 @@ author:
 creator:
 subject:
 issued: 2026-05-07
----
-			
+---			
 <section class="alert alert-warning">
 <h2 class="h3">Online service interruption</h2>
 	<p>Due to Shared Services Canada maintenance, this service will be unavailable for use on Sunday, March&#160;29, 2026, from 9&#160;am until 10:30&#160;am, Eastern time. We apologize in advance for any inconvenience this may cause.</p>
 </section>
-
 <section id="s1">
   <h2>Access to Individual Web Services</h2>
   <p>When you sign in through the button below, you can:</p>
@@ -29,7 +27,6 @@ issued: 2026-05-07
   </ul>
     <p class="mrgn-tp-lg"><a class="btn btn-call-to-action" href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html?ipeReferer=eCFISIWS">Proceed to the secure site <span class="wb-inv">for
   Individual Web Services</span></a></p>
-	
   <div class="accordion">
     <details class="acc-group">
       <summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>
@@ -55,7 +52,6 @@ issued: 2026-05-07
       </div>
     </details>
   </div>
-	
 	<div class="mrgn-tp-lg alert alert-info">
     <ul class="list-unstyled">
       <li>
@@ -65,8 +61,7 @@ issued: 2026-05-07
           </summary>
             <p>The <a href="https://gazette.gc.ca/rp-pr/p2/2025/2025-11-19/html/sor-dors227-eng.html"><cite>Firearms Marking Regulations</cite></a> under the <cite>Firearms Act</cite> that were scheduled to come into force on December 1,&#160;2025, have been deferred to December 1,&#160;2027.</p>
         </details>
-      </li>
-		
+      </li>	
       <li>
         <details>
           <summary>
@@ -75,7 +70,6 @@ issued: 2026-05-07
           <p>You must inform the Chief Firearms Officer of your province or territory within 30 days of any change to your name or address as a <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-98-199/page-1.html#h-1018947">condition of licence</a>. Please also <a href="/en/firearms/dont-miss-important-notifications-canadian-firearms-program">keep your email address up to date</a> to stay connected with the Canadian Firearms Program and to be informed about enhanced online services and legislative changes.</p>
         </details>
       </li>
-	  
 	  <li>
         <details>
           <summary>
@@ -86,21 +80,18 @@ issued: 2026-05-07
       </li>  
     </ul>
   </div>
-
     <h3>Note</h3>
     <p>You can renew your licence online or via a mailed application if <strong>both</strong> of the following apply:</p>
     <ul>
       <li>your licence expired on or after November 30, 2017</li>
       <li>you are within six months of its expiration date</li>
     </ul>
-	
   <p>To access Canadian Firearms Program services for individuals online you must:</p>
   <ul>
     <li>complete a one-time sign up by registering for a GCKey or Sign-in Partner Services account</li>
     <li>enter an authentication code that will be sent to your email when you sign in. If you do not receive this information, please check your junk mail folder</li>
   </ul>
 </section>
-
 <section id="s2">
 	<div class="well brdr-0 brdr-rds-0 mrgn-tp-md">
   <h2>Questions and answers</h2>

@@ -27,8 +27,8 @@ issued: 2026-05-07
     <li>apply for an authorization to transport firearms</li>
     <li>update your information</li>
   </ul>
-    <p class="mrgn-tp-lg"><a class="btn btn-call-to-action" href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html?ipeReferer=eCFISIWS">Proceed to the secure site for<br>
-  Individual Web Services</a></p>
+    <p class="mrgn-tp-lg"><a class="btn btn-call-to-action" href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html?ipeReferer=eCFISIWS">Proceed to the secure site <span class="wb-inv">for
+  Individual Web Services</span></a></p>
 	
   <div class="accordion">
     <details class="acc-group">

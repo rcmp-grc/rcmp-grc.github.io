@@ -9,6 +9,6 @@ issued: 2026-05-08
 
 <div class="list-group">
   <a href="missing-disparues-fr.html" class="list-group-item">Personnes disparues de la division</a>
-  <a href="wanted-recherchées-fr.html" class="list-group-item">Personnes recherchées de la division</a>
+  <a href="wanted-recherchees-fr.html" class="list-group-item">Personnes recherchées de la division</a>
   <a href="community-communautaires-fr.html" class="list-group-item">Nouvelles communautaires</a>
 </div>

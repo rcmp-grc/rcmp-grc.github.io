@@ -24,3 +24,9 @@
 .tag .close-btn:hover {
   color: #333;
 }
+
+/* Yellow-line to surround the date and location of a new or communication item page  */
+.line {
+  border: 0.6rem solid var(--color-yellow);
+  padding: 1rem;
+}

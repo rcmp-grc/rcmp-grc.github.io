@@ -29,6 +29,7 @@ issued: 2026-05-07
   </ul>
     <p class="mrgn-tp-lg"><a class="btn btn-call-to-action" href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html?ipeReferer=eCFISIWS">Proceed to the secure site for<br>
   Individual Web Services</a></p>
+	
   <div class="accordion">
     <details class="acc-group">
       <summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>
@@ -54,7 +55,6 @@ issued: 2026-05-07
       </div>
     </details>
   </div>
-</section>
 	
 	<div class="alert alert-info">
     <ul class="list-unstyled">
@@ -99,6 +99,7 @@ issued: 2026-05-07
     <li>complete a one-time sign up by registering for a GCKey or Sign-in Partner Services account</li>
     <li>enter an authentication code that will be sent to your email when you sign in. If you do not receive this information, please check your junk mail folder</li>
   </ul>
+</section>
 
 <section id="s2">
   <h2>Questions and answers</h2>

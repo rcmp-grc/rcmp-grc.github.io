@@ -1,8 +1,8 @@
 ---
 layout: super_landing
 title: Firearms
-description: My page description
-date_modified: 2026-05-06
+description: CFP Super landing page
+date_modified: 2026-05-08
 lang: en
 lang_url: index-fr.html
 author:

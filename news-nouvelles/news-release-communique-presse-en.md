@@ -60,6 +60,22 @@ issued: 2026-05-07
 </section>
 <h2>Quotes</h2>
 <blockquote>Most of these collisions come down to choices—a driver who doesn’t take that second look before making a left turn, or a rider going too fast for conditions. Our goal this may is to see fewer collisions, fewer injuries, and every rider and driver getting home safely.</blockquote>
+<h2>Quick facts</h2>
+<ul>
+<li>Wear all the gear, all the time</li>
+<li>Stay out of driver’s blind spots and use signals to communicate intentions</li>
+<li>Manage speed to leave room to brake or steer clear of hazards</li>
+<li>Brush up on emergency braking and obstacle avoidance, especially after time off the bike</li>
+</ul>
+<h2>Related products</h2>
+<ul>
+<li>Safe driving campaign</li>
+</ul>
+<h2>Associated links</h2>
+<ul>
+   <li><a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/motorcycle-safety">Motorcycle safety - the rider and the gear</a></li>
+	<li><a href="https://www.icbc.com/road-safety/sharing/motorcycle-safety">Motorcycle safety</a></li>
+</ul>
 <h2>Contacts</h2>
 <div class="contact-signature">
           <strong>Richmond RCMP Media Relations</strong>

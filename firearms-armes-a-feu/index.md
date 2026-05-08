@@ -16,7 +16,7 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
 <div class="container">
   <section class="alert alert-warning mrgn-tp-md mrgn-bttm-md">
     <h2 class="h3">Federal Court certifies Government of Canada privacy breach class action</h2>
-    <p>If you received a Notice of Certification or have reason to beleive that you were affected by a privacy breach with respect to your personal or financial information assessed through Government of Canada online accounts between March 1 and December 31, 2020, you may be eligible to participate in a class action lawsuit: <a href="https://www.canada.ca/en/government/system/digital-government/online-security-privacy/sweet-hmk-class-action-suit.html">Government of Canada privacy breach class action</a>.</p>
+    <p>If you received a Notice of Certification or have reason to believe that you were affected by a privacy breach with respect to your personal or financial information assessed through Government of Canada online accounts between March 1 and December 31, 2020, you may be eligible to participate in a class action lawsuit: <a href="https://www.canada.ca/en/government/system/digital-government/online-security-privacy/sweet-hmk-class-action-suit.html">Government of Canada privacy breach class action</a>.</p>
   </section>
 </div>
 <section class="gc-most-requested">

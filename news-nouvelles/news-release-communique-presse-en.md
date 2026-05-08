@@ -39,16 +39,29 @@ issued: 2026-05-07
 <li data-list-item-id="ef864c2eff32ba69eb6aa48ff09023fa5">Brush up on emergency braking and obstacle avoidance, especially after time off the bike</li>
 </ul>
 <p>For more information on B.C.’s motorcycle laws, helmet standards, fines and penalty points, visit the <a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/motorcycle-safety">Province of British Columbia’s website</a>. For motorcycle licensing, rider training resources, and gear guides, visit the <a href="https://www.icbc.com/road-safety/sharing/motorcycle-safety">ICBC website</a>.</p>
-<h2>Image gallery</h2>
-<ul class="list-inline">		
-<li>     
-<a href="/sites/default/files/styles/gallery_large_1200x1200/public/2026-05/speedcheck_larger.png?itok=r341He-k" title="">
-<img src="/sites/default/files/styles/gallery_small_175x175/public/2026-05/speedcheck_larger.png?itok=16xnNKdC" alt="" >
-  </a>
-</li>
-</ul>
 <h2>Quotes</h2>
 <blockquote>Most of these collisions come down to choices—a driver who doesn’t take that second look before making a left turn, or a rider going too fast for conditions. Our goal this may is to see fewer collisions, fewer injuries, and every rider and driver getting home safely.</blockquote>
+<section class="wb-lbx lbx-gal">
+    <h2>Image gallery</h2>
+    <ul class="list-inline">
+        <li><a href="/sites/default/files/img/royal-visit-brillon.jpg"
+                title="Superintendent Sebastien Brillon, officer in charge of the Musical Ride offers a royal salute. Image by Andrew Marshall."><img
+                    alt="Officer in Red Serge offers salute next to King Charles III standing on a pedestal."
+                    src="/sites/default/files/img/royal-visit-brillon-thumbnail.jpg"></a></li>
+        <li><a href="/sites/default/files/img/royal-visit-supreme-court.jpg"
+                title="The riders warm up the horses just minutes before the procession. Image by Martine Chenier."><img
+                    alt="Mounties in saddle ride their horses in front of the Supreme Court of Canada."
+                    src="/sites/default/files/img/royal-visit-supreme-court-thumbnail.jpg"></a></li>
+        <li><a href="/sites/default/files/img/royal-visit-escort.jpg"
+                title="Two outriders, Sergeant Sarah Parent and Sergeant Derek Quilley, lead the charge on their horses Idalia and Jingle. Image by Martine Chenier."><img
+                    alt="Two Mounties lead an escort of mounted riders carrying flagpoles."
+                    src="/sites/default/files/img/royal-visit-escort-thumbnail.jpg"></a></li>
+        <li><a href="/sites/default/files/img/royal-visit-sword.jpg"
+                title="Sergeant Major Scott Williamson proudly carries the King's 19th-century cavalry sword, freshly engraved with the new sovereign's initials. Image by Martine Chenier."><img
+                    alt="Mountie on a black horse holds a long sword."
+                    src="/sites/default/files/img/royal-visit-sword-thumbnail.jpg"></a></li>
+    </ul>
+</section>
 <h2>Contacts</h2>
 <div class="contact-signature">
           <strong>Richmond RCMP Media Relations</strong>

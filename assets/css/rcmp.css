@@ -69,7 +69,7 @@ main {
 }
 
 /* -----------------------------------------------------------------------------
-   1. Missing-person, wanted, HRCSODA page additions
+   1. Missing-person additions
 ----------------------------------------------------------------------------- */
 #mp-photo-col figure {
   margin: 0;
@@ -90,18 +90,51 @@ main {
   color: #505a5f;
   font-size: 0.9em;
 }
-#mp-page .dl-horizontal dt {
-  font-weight: 700;
-  color: #0b0c0c;
+
+/* -----------------------------------------------------------------------------
+   2. Wanted additions
+----------------------------------------------------------------------------- */
+#wp-photo-col .wp-wanted-frame {
+  background: repeating-linear-gradient(-45deg, #f5d000 0px, #f5d000 12px, #0b0c0c 12px, #0b0c0c 24px);
+  padding: 12px;
 }
-#mp-page .dl-horizontal dd {
-  color: #0b0c0c;
-  margin-bottom: 8px;
+#wp-photo-col .wp-wanted-label {
+  background: #0b0c0c;
+  color: #f5d000;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  padding: 6px 0 4px;
+  margin: 0 0 0 0;
+}
+#wp-photo-col figure {
+  margin: 0;
+  border: none;
+}
+#wp-photo-col figcaption {
+  background: #f3f2f1;
+  padding: 12px 14px;
+  font-size: 0.95em;
+  border-top: 3px solid #0b0c0c;
+}
+#wp-photo-col figcaption strong {
+  display: block;
+  font-size: 1.05em;
+  margin-bottom: 4px;
+}
+#wp-photo-col .file-number {
+  color: #505a5f;
+  font-size: 0.9em;
 }
 
 /* -----------------------------------------------------------------------------
-   1. Utilities
+   3. Utilities
 ----------------------------------------------------------------------------- */
+.dl-horizontal dt {
+  white-space: nowrap;
+}
 
 /* -----------------------------------------------------------------------------
    1. CSS Custom Properties

@@ -9,64 +9,6 @@ lead: Wanted
 ---
 
 <style>
-/* DANGER / DO-NOT-APPROACH banner */
-#wp-danger-banner {
-  background: #0b0c0c;
-  color: #fff;
-  border-left: 6px solid #b50315;
-  padding: 14px 20px;
-  margin-bottom: 0;
-  display: flex;
-  align-items: flex-start;
-  gap: 14px;
-  font-size: 1em;
-  line-height: 1.5;
-}
-#wp-danger-banner svg { flex-shrink: 0; margin-top: 2px; }
-#wp-danger-banner strong { display: block; font-size: 1.05em; margin-bottom: 2px; }
-
-/* WANTED frame — black/yellow hazard stripe surround */
-#wp-photo-col .wp-wanted-frame {
-  background: repeating-linear-gradient(
-    -45deg,
-    #f5d000 0px,
-    #f5d000 12px,
-    #0b0c0c 12px,
-    #0b0c0c 24px
-  );
-  padding: 12px;
-}
-/* WANTED label bar — #f5d000 on #0b0c0c = 8.59:1, WCAG AAA */
-#wp-photo-col .wp-wanted-label {
-  background: #0b0c0c;
-  color: #f5d000;
-  text-align: center;
-  font-size: 1.5em;
-  font-weight: 700;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  padding: 6px 0 4px;
-  margin: 0 0 0 0;
-}
-#wp-photo-col figure {
-  margin: 0;
-  border: none;
-}
-#wp-photo-col figcaption {
-  background: #f3f2f1;
-  padding: 12px 14px;
-  font-size: 0.95em;
-  border-top: 3px solid #0b0c0c;
-}
-#wp-photo-col figcaption strong {
-  display: block;
-  font-size: 1.05em;
-  margin-bottom: 4px;
-}
-#wp-photo-col .file-number {
-  color: #505a5f;
-  font-size: 0.9em;
-}
 
 /* Charges tag list */
 #wp-charges-list {
@@ -86,28 +28,6 @@ lead: Wanted
   padding: 4px 10px;
   text-transform: uppercase;
 }
-
-/* Summary description */
-#wp-description {
-  border-left: 4px solid #b50315;
-  padding: 12px 16px;
-  background: #fff8f8;
-  margin-bottom: 0;
-  line-height: 1.6;
-}
-
-/* Section headings — UK GOV rule */
-#wp-page h2.wp-section-heading {
-  font-size: 1.3em;
-  border-bottom: 3px solid #0b0c0c;
-  padding-bottom: 6px;
-  margin-top: 0;
-  margin-bottom: 16px;
-}
-
-/* Definition lists */
-#wp-page .dl-horizontal dt { font-weight: 700; color: #0b0c0c; }
-#wp-page .dl-horizontal dd { color: #0b0c0c; margin-bottom: 8px; }
 
 /* Tip CTA box */
 #wp-tip-box {
@@ -161,65 +81,22 @@ lead: Wanted
   margin-bottom: 0;
 }
 
-/* Gallery thumbnails */
-#wp-gallery .wb-lbx li a {
-  display: block;
-  border: 2px solid transparent;
-}
-#wp-gallery .wb-lbx li a:focus,
-#wp-gallery .wb-lbx li a:hover {
-  border-color: #1d70b8;
-  outline: 3px solid #fd0;
-  outline-offset: 0;
-}
-
-/* Media contact */
-#wp-media-box {
-  background: #f3f2f1;
-  border-left: 4px solid #505a5f;
-  padding: 14px 18px;
-}
-
-/* Focus supplement */
-#wp-page a:focus {
-  outline: 3px solid #fd0;
-  outline-offset: 2px;
-  background: #fd0;
-  color: #0b0c0c;
-}
 
 @media (max-width: 767px) {
   #wp-tip-box .tip-numbers { flex-direction: column; }
 }
 </style>
 
-<div id="wp-page">
-
-  <!-- ── DO NOT APPROACH WARNING ──────────────────────────────────────── -->
-  <div aria-live="assertive" id="wp-danger-banner" role="alert">
-    <svg aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 24 24" width="24" height="24">
-      <path d="M1 21L12 2l11 19H1zm11-3h2v-2h-2v2zm0-4h2v-4h-2v4z"/>
-    </svg>
-    <div>
-      <strong>Warning — Do not approach this person.</strong>
-      This suspect may be armed and dangerous. Do not attempt to apprehend them yourself. Report any sightings immediately through the channels below.
-    </div>
-  </div>
-
-  <!-- ── PHOTO + CHARGES ───────────────────────────────────────────────── -->
-  <div class="row mrgn-bttm-md mrgn-tp-md">
-
+<section aria-live="polite" class="alert alert-danger" role="alert">
+	<h2 class="h4">Warning — Do not approach this person.</h2>
+    <p>This suspect may be armed and dangerous. Do not attempt to apprehend them yourself. Report any sightings immediately through the channels below.</p>
+</section>
+<div class="row mrgn-bttm-md">
     <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3" id="wp-photo-col">
       <div class="wp-wanted-frame">
         <p class="wp-wanted-label">Wanted</p>
         <figure>
-          <img
-            alt="Mugshot of wanted person SpongeBob SquarePants"
-            class="img-responsive"
-            src="https://dummyimage.com/480x600/000/fff"
-            width="480"
-            height="600"
-          >
+          <img alt="Mugshot of wanted person SpongeBob SquarePants" class="img-responsive" src="https://dummyimage.com/480x600/000/fff">
           <figcaption>
             <strong>SpongeBob SquarePants</strong>
             <div class="d-flex file-number">
@@ -230,9 +107,7 @@ lead: Wanted
         </figure>
       </div>
     </div>
-
     <div class="clearfix"></div>
-
     <div class="col-md-8 col-md-offset-2 mrgn-tp-md">
       <p class="mrgn-bttm-xs"><strong>Charges:</strong></p>
       <ul id="wp-charges-list" aria-label="Charges against SpongeBob SquarePants">
@@ -252,7 +127,7 @@ lead: Wanted
 
     <div class="col-md-6">
       <section aria-labelledby="s2-heading" class="mrgn-bttm-lg" id="s2">
-        <h2 class="mrgn-tp-sm wp-section-heading" id="s2-heading">Personal information</h2>
+        <h2 class="mrgn-tp-sm" id="s2-heading">Personal information</h2>
         <dl class="dl-horizontal brdr-0">
           <dt>Name</dt>
           <dd>SpongeBob SquarePants</dd>
@@ -287,7 +162,7 @@ lead: Wanted
     <div class="col-md-6">
 
       <section aria-labelledby="s3-heading" class="mrgn-bttm-lg" id="s3">
-        <h2 class="mrgn-tp-sm wp-section-heading" id="s3-heading">Last known location</h2>
+        <h2 class="mrgn-tp-sm" id="s3-heading">Last known location</h2>
         <dl class="dl-horizontal brdr-0">
           <dt>Date last seen</dt>
           <dd><time datetime="1999-05-01T00:00:00Z">1999-05-01</time></dd>
@@ -303,7 +178,7 @@ lead: Wanted
       </section>
 
       <section aria-labelledby="s4-heading" class="mrgn-bttm-lg" id="s4">
-        <h2 class="mrgn-tp-sm wp-section-heading" id="s4-heading">Identifying features</h2>
+        <h2 class="mrgn-tp-sm" id="s4-heading">Identifying features</h2>
         <dl class="dl-horizontal brdr-0">
           <dt>Hair style</dt>
           <dd>None</dd>
@@ -317,28 +192,21 @@ lead: Wanted
     </div>
 
   </div>
-
-  <!-- ── IMAGE GALLERY ─────────────────────────────────────────────────── -->
-  <section aria-labelledby="s5-heading" class="mrgn-bttm-lg wb-lbx lbx-gal" id="wp-gallery">
-    <h2 class="mrgn-tp-sm wp-section-heading" id="s5-heading">Image gallery</h2>
-    <ul aria-label="Additional photographs of SpongeBob SquarePants" class="list-inline">
-      <li>
-        <a href="https://dummyimage.com/480x600/000/fff" title="SpongeBob SquarePants — enlarged view">
-          <img alt="SpongeBob SquarePants character image" src="https://dummyimage.com/175x175/000/fff">
-        </a>
-      </li>
-      <li>
-        <a href="https://dummyimage.com/480x600/333/fff" title="SpongeBob and friends illustration — enlarged view">
-          <img alt="SpongeBob and friends illustration" src="https://dummyimage.com/175x175/333/fff">
-        </a>
-      </li>
-    </ul>
-  </section>
-
-  <!-- ── TIP / REPORT ──────────────────────────────────────────────────── -->
+<section aria-labelledby="s5-heading" class="mrgn-bttm-lg wb-lbx lbx-gal" id="mp-gallery">
+	<h2 class="mrgn-tp-sm" id="s5-heading">Image gallery</h2>
+	<ul aria-label="Additional photographs of SpongeBob SquarePants" class="list-inline">
+		<li>
+			<a href="https://dummyimage.com/480x600/000/fff" title="SpongeBob SquarePants character image">
+      <img alt="SpongeBob SquarePants character image" src="https://dummyimage.com/175x175/000/fff"></a>
+		</li>
+		<li>
+			<a href="https://dummyimage.com/480x600/333/fff" title="SpongeBob and friends illustration">
+      <img alt="SpongeBob and friends illustration" src="https://dummyimage.com/175x175/333/fff"></a>
+		</li>
+	</ul>
+</section>
   <section aria-labelledby="s6-heading" class="mrgn-bttm-lg" id="s6">
-    <h2 class="mrgn-tp-sm wp-section-heading" id="s6-heading">Do you have any information?</h2>
-    <div id="wp-tip-box">
+    <h2 class="mrgn-tp-sm" id="s6-heading">Do you have any information?</h2>
       <p class="tip-headline">If you have information, please contact us — you can remain completely anonymous.</p>
       <p>If you have information regarding SpongeBob SquarePants or his whereabouts, report through one of the following channels. <strong>Do not approach the suspect.</strong></p>
       <div class="tip-numbers" role="list">
@@ -358,15 +226,8 @@ lead: Wanted
       <p class="tip-anonymous-note">
         Tips submitted through Crime Stoppers are fully anonymous — you will never need to speak to an investigator.
       </p>
-    </div>
   </section>
-
-  <!-- ── MEDIA CONTACT ─────────────────────────────────────────────────── -->
   <section aria-labelledby="s7-heading" id="s7">
-    <h2 class="mrgn-tp-sm wp-section-heading" id="s7-heading">Media contact</h2>
-    <div id="wp-media-box">
-      <p>Nickelodeon Media Relations – Animation Department</p>
-    </div>
+    <h2 class="mrgn-tp-sm" id="s7-heading">Media contact</h2>
+    <p>Nickelodeon Media Relations – Animation Department</p>
   </section>
-
-</div>

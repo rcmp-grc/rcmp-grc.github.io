@@ -30,7 +30,7 @@ issued: 2026-05-08
     <p><strong>Time</strong>: 3:00 PM (EDT)</p>
 	<p><strong>Location</strong><br>
 National Press Theatre<br>
-Room 325, 180 Wellington Street<br>
+Room 325, 180 Wellington St<br>
 Ottawa ON</p>
 </div>
 </div>

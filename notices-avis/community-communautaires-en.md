@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Comment la gentillesse d'un gendarme de Bikini Bottom a rassemblé toute une communauté
+title: How one Bikini Bottom officer's kindness brought a community together
 date_modified: 2026-05-08
 lang: en
 lang_url: community-communautaires-fr.html

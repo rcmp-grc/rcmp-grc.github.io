@@ -41,7 +41,7 @@ issued: 2026-05-07
 <p>For more information on B.C.’s motorcycle laws, helmet standards, fines and penalty points, visit the <a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/motorcycle-safety">Province of British Columbia’s website</a>. For motorcycle licensing, rider training resources, and gear guides, visit the <a href="https://www.icbc.com/road-safety/sharing/motorcycle-safety">ICBC website</a>.</p>
 <section>
 <h2>Video</h2>
-<div class="col-md-6">
+<div class="col-md-8">
 <figure class="wb-mltmd" data-wb-mltmd='{"shareUrl": "https://www.youtube.com/watch?v=ow1Buo0PrTE"}'>
 		<video title="We are your next career">
 			<source type="video/youtube" src="https://www.youtube.com/watch?v=ow1Buo0PrTE">

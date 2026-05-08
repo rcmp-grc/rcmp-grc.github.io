@@ -150,8 +150,13 @@ main {
    3. Utilities
 ----------------------------------------------------------------------------- */
 .dl-horizontal dt {
-  word-break: keep-all;
-  overflow-wrap: normal;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+.cnt-wdth-lmtd main h2,
+main .cnt-wdth-lmtd h2 {
+  max-width: 45ch;
 }
 
 /* -----------------------------------------------------------------------------

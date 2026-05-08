@@ -1,8 +1,8 @@
 ---
 layout: super_landing
 title: Armes à feu
-description: My page description
-date_modified: 2026-05-06
+description: French CFP super landing page
+date_modified: 2026-05-08
 lang: fr
 lang_url: index.html
 author:

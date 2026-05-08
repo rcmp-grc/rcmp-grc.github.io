@@ -2,13 +2,13 @@
 layout: default
 title: 
 description: My page description
-date_modified: 2026-05-07
+date_modified: 2026-05-08
 lang: en
-lang_url: news-release-communique-presse-fr.html
+lang_url: media-advisory-avis-medias-fr.html
 author:
 creator:
 subject:
-issued: 2026-05-07
+issued: 2026-05-08
 ---
 
 <hgroup class="mrgn-tp-md">

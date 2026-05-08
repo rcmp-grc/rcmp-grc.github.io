@@ -44,22 +44,22 @@ issued: 2026-05-07
 <section class="wb-lbx lbx-gal">
     <h2>Image gallery</h2>
     <ul class="list-inline">
-        <li><a href="/sites/default/files/img/royal-visit-brillon.jpg"
-                title="Superintendent Sebastien Brillon, officer in charge of the Musical Ride offers a royal salute. Image by Andrew Marshall."><img
-                    alt="Officer in Red Serge offers salute next to King Charles III standing on a pedestal."
-                    src="/sites/default/files/img/royal-visit-brillon-thumbnail.jpg"></a></li>
-        <li><a href="/sites/default/files/img/royal-visit-supreme-court.jpg"
-                title="The riders warm up the horses just minutes before the procession. Image by Martine Chenier."><img
-                    alt="Mounties in saddle ride their horses in front of the Supreme Court of Canada."
-                    src="/sites/default/files/img/royal-visit-supreme-court-thumbnail.jpg"></a></li>
-        <li><a href="/sites/default/files/img/royal-visit-escort.jpg"
-                title="Two outriders, Sergeant Sarah Parent and Sergeant Derek Quilley, lead the charge on their horses Idalia and Jingle. Image by Martine Chenier."><img
-                    alt="Two Mounties lead an escort of mounted riders carrying flagpoles."
-                    src="/sites/default/files/img/royal-visit-escort-thumbnail.jpg"></a></li>
-        <li><a href="/sites/default/files/img/royal-visit-sword.jpg"
-                title="Sergeant Major Scott Williamson proudly carries the King's 19th-century cavalry sword, freshly engraved with the new sovereign's initials. Image by Martine Chenier."><img
-                    alt="Mountie on a black horse holds a long sword."
-                    src="/sites/default/files/img/royal-visit-sword-thumbnail.jpg"></a></li>
+        <li><a href="filler-image.jpg"
+                title="Title 1"><img
+                    alt=" "
+                    src="thumbnail.jpg"></a></li>
+        <li><a href="filler-image.jpg"
+                title="Title 1"><img
+                    alt=" "
+                    src="thumbnail.jpg"></a></li>
+         <li><a href="filler-image.jpg"
+                title="Title 1"><img
+                    alt=" "
+                    src="thumbnail.jpg"></a></li>
+         <li><a href="filler-image.jpg"
+                title="Title 1"><img
+                    alt=" "
+                    src="thumbnail.jpg"></a></li>
     </ul>
 </section>
 <h2>Contacts</h2>

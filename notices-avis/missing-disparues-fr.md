@@ -8,8 +8,10 @@ issued: 2026-05-08
 lead: Personnes disparues
 ---
 
-<div aria-live="polite" class="alert alert-danger" role="alert">
-	<span>This person is reported missing — if you have information, contact your local police or RCMP detachment or call <strong class="nowrap">9-1-1</strong> in an emergency.</span>
+<div class="row">
+  <div aria-live="polite" class="alert alert-danger" role="alert">
+	  <span>This person is reported missing — if you have information, contact your local police or RCMP detachment or call <strong class="nowrap">9-1-1</strong> in an emergency.</span>
+  </div>
 </div>
 <div class="row mrgn-bttm-md">
 	<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3" id="mp-photo-col">
@@ -23,7 +25,8 @@ lead: Personnes disparues
 			</figcaption>
 		</figure>
 	</div>
-	<div class="mrgn-tp-md">
+	<div class="clearfix"></div>
+  <div class="col-md-8 col-md-offset-2 mrgn-tp-md">
 		<p>SpongeBob is a good-natured, naive, and enthusiastic sea sponge. He lives in a submerged pineapple with his pet snail Gary in the fictional underwater city of Bikini Bottom, which is also home to other anthropomorphic sea creatures. SpongeBob is often seen in the company of his best friend Patrick Star. He is obsessively attached to his job as a fry cook at the Krusty Krab. His boss is Mr. Krabs, and his co-worker Squidward Tentacles works as the cashier.</p>
 	</div>
 </div>
@@ -105,7 +108,7 @@ lead: Personnes disparues
 	<h2 class="mrgn-tp-sm" id="s6-heading">Do you have any information?</h2>
 	<p>If you have information regarding SpongeBob SquarePants or his whereabouts in Bikini Bottom, please contact the appropriate media or animation studio.</p>
 </section>
-<section aria-labelledby="s7-heading" class="mrgn-bttm-lg" id="s7">
+<section aria-labelledby="s7-heading" id="s7">
 	<h2 class="mrgn-tp-sm" id="s7-heading">Media contact</h2>
 	<p>Nickelodeon Media Relations – Animation Department</p>
 </section>

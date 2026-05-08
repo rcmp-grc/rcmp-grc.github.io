@@ -30,9 +30,7 @@ lead: Community news
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			<div id="cn-body">
-				<p>It started with a meow. On a warm Tuesday morning in early May, Constable SpongeBob SquarePants of the Bikini Bottom RCMP Detachment was wrapping up a routine community walk when he spotted a small, silver-shelled snail moving slowly along the sidewalk outside the Krusty Krab — alone, unhurried, and a long way from anywhere familiar.</p>
-				<p>Gary, as he would later be identified, had slipped out of his home on Conch Street sometime the previous evening. His owner, a retired jellyfish farmer named Ms. Pearl Krabs, had spent a restless night searching the neighbourhood before finally, tearfully, filing a lost animal report with the detachment that morning. She had not expected to hear back so soon.</p>
-				<div aria-label="Story highlights" class="cn-infobox" role="note">
+							<div aria-label="Story highlights" class="cn-infobox" role="note">
 					<h3>Story highlights</h3>
 					<ul>
 						<li>Constable SquarePants spotted Gary during a morning community walk on <time datetime="2026-05-06">May 6, 2026</time></li>
@@ -41,6 +39,8 @@ lead: Community news
 						<li>The detachment's community walk program has been running for three years</li>
 					</ul>
 				</div>
+				<p>It started with a meow. On a warm Tuesday morning in early May, Constable SpongeBob SquarePants of the Bikini Bottom RCMP Detachment was wrapping up a routine community walk when he spotted a small, silver-shelled snail moving slowly along the sidewalk outside the Krusty Krab — alone, unhurried, and a long way from anywhere familiar.</p>
+				<p>Gary, as he would later be identified, had slipped out of his home on Conch Street sometime the previous evening. His owner, a retired jellyfish farmer named Ms. Pearl Krabs, had spent a restless night searching the neighbourhood before finally, tearfully, filing a lost animal report with the detachment that morning. She had not expected to hear back so soon.</p>
 				<p>"I just knew he belonged to someone," Constable SquarePants said, recalling the moment he spotted Gary. "He had this look — patient, a little confused, but not scared. I figured the right owner was out there, and not too far away." He waited with Gary for nearly twenty minutes, offering him a small piece of his own lunch, before a neighbour passing by recognised the snail and pointed him toward Conch Street.</p>
 				<blockquote class="cn-pullquote">
 					<p>"He had this look — patient, a little confused, but not scared. I figured the right owner was out there, and not too far away."</p><cite>Cst. SpongeBob SquarePants, Bikini Bottom Detachment</cite>
@@ -49,7 +49,7 @@ lead: Community news
 				<h2>A neighbourhood that looks out for itself</h2>
 				<p>What struck many who witnessed the morning's events was less the reunion itself — joyful as it was — and more the ease with which it happened. Neighbours knew each other. They recognised a stray animal that did not belong. They knew which officer was doing his rounds and flagged him down without hesitation.</p>
 				<figure class="cn-inline-figure">
-					<img alt="Residents of Conch Street gathered outside on a sunny morning, chatting with an RCMP officer and holding handmade welcome-home signs for Gary the snail" height="450" src="https://dummyimage.com/800x450/52b788/ffffff&text=Conch+Street+Neighbours+%E2%80%94+May+2026" width="800">
+					<img alt="Residents of Conch Street gathered outside on a sunny morning, chatting with an RCMP officer and holding handmade welcome-home signs for Gary the snail" class="img-responsive" src="https://dummyimage.com/800x450/000/fff">
 					<figcaption>
 						Conch Street residents gathered to welcome Gary home. The spontaneous celebration drew more than thirty neighbours. Photo: Bikini Bottom Detachment / RCMP
 					</figcaption>

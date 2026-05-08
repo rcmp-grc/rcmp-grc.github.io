@@ -1,6 +1,6 @@
 ---
 layout: default
-title: From the deep end: how one Bikini Bottom officer's kindness brought a community together
+title: How one Bikini Bottom officer's kindness brought a community together
 date_modified: 2026-05-08
 lang: en
 lang_url: community-communautaires-fr.html
@@ -11,7 +11,6 @@ lead: Community news
 <div id="cn-page">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
-			<span aria-label="Section: Community spotlight" id="cn-kicker">Community spotlight</span>
 			<p id="cn-deck">When a retired sea snail wandered far from home, one RCMP officer's quiet act of kindness reminded an entire neighbourhood what it means to look out for one another.</p>
 			<div aria-label="Article byline" id="cn-byline">
 				<span class="byline-author">Cpl. Sandy Cheeks — Bikini Bottom Detachment</span> <span aria-hidden="true" class="byline-sep">|</span> <span><time datetime="2026-05-08">May 8, 2026</time></span> <span aria-hidden="true" class="byline-sep">|</span> <span>Bikini Bottom Detachment</span>

@@ -147,7 +147,238 @@ main {
 }
 
 /* -----------------------------------------------------------------------------
-   3. Utilities
+   3. Community news additions
+----------------------------------------------------------------------------- */
+#cn-page {
+  --cn-black: #0b0c0c;
+  --cn-red: #b50315;
+  --cn-grey-lt: #f3f2f1;
+  --cn-grey-md: #b1b4b6;
+  --cn-grey-dk: #505a5f;
+}
+
+/* Kicker */
+#cn-kicker {
+  display: block;
+  font-family: var(--cn-sans);
+  font-size: 0.72em;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--cn-red);
+  margin-bottom: 10px;
+}
+
+/* Headline */
+#cn-page h1#wb-cont {
+  font-family: var(--cn-serif);
+  font-size: clamp(1.75em, 4vw, 2.6em);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--cn-black);
+  margin-top: 8px;
+  margin-bottom: 16px;
+  border: none;
+}
+
+/* Deck / standfirst */
+#cn-deck {
+  font-family: var(--cn-serif);
+  font-size: 1.15em;
+  font-style: italic;
+  line-height: 1.65;
+  color: #2c2c2c;
+  border-left: 3px solid var(--cn-red);
+  padding-left: 16px;
+  margin-bottom: 20px;
+}
+
+/* Byline row */
+#cn-byline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 16px;
+  font-family: var(--cn-sans);
+  font-size: 0.82em;
+  color: var(--cn-grey-dk);
+  border-top: 1px solid var(--cn-grey-md);
+  border-bottom: 1px solid var(--cn-grey-md);
+  padding: 10px 0;
+  margin-bottom: 28px;
+}
+#cn-byline .byline-author {
+  font-weight: 700;
+  color: var(--cn-black);
+}
+#cn-byline .byline-sep {
+  color: var(--cn-grey-md);
+}
+
+/* Hero image */
+#cn-hero {
+  margin: 0 0 8px;
+}
+#cn-hero img {
+  width: 100%;
+  display: block;
+}
+#cn-hero figcaption {
+  font-family: var(--cn-sans);
+  font-size: 0.78em;
+  color: var(--cn-grey-dk);
+  background: var(--cn-grey-lt);
+  padding: 8px 12px;
+  border-top: 2px solid var(--cn-grey-md);
+  line-height: 1.4;
+}
+#cn-hero figcaption strong {
+  display: block;
+  color: var(--cn-black);
+  margin-bottom: 2px;
+}
+
+/* Article body */
+#cn-body {
+  font-family: var(--cn-serif);
+  font-size: 1.05em;
+  line-height: 1.8;
+  color: #1a1a1a;
+  max-width: 68ch;
+}
+#cn-body p {
+  margin-bottom: 1.4em;
+}
+#cn-body p:first-of-type::first-letter {
+  font-size: 3.4em;
+  font-weight: 700;
+  float: left;
+  line-height: 0.8;
+  margin: 6px 8px 0 0;
+  color: var(--cn-red);
+  font-family: var(--cn-serif);
+}
+
+/* Pull quote */
+.cn-pullquote {
+  margin: 28px 0;
+  padding: 20px 24px;
+  border-top: 3px solid var(--cn-black);
+  border-bottom: 1px solid var(--cn-grey-md);
+}
+.cn-pullquote p {
+  font-family: var(--cn-serif);
+  font-size: 1.35em;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--cn-black);
+  margin: 0 0 8px;
+}
+.cn-pullquote cite {
+  font-family: var(--cn-sans);
+  font-size: 0.75em;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--cn-grey-dk);
+}
+
+/* Inline image */
+.cn-inline-figure {
+  margin: 24px 0;
+}
+.cn-inline-figure img {
+  width: 100%;
+  display: block;
+}
+.cn-inline-figure figcaption {
+  font-family: var(--cn-sans);
+  font-size: 0.78em;
+  color: var(--cn-grey-dk);
+  padding: 6px 0 0;
+  border-top: 1px solid var(--cn-grey-md);
+  line-height: 1.4;
+}
+
+/* Highlights box */
+.cn-infobox {
+  background: var(--cn-grey-lt);
+  border-left: 4px solid var(--cn-red);
+  padding: 18px 20px;
+  margin: 28px 0;
+  font-family: var(--cn-sans);
+  font-size: 0.9em;
+}
+.cn-infobox h3 {
+  font-family: var(--cn-sans);
+  font-size: 0.75em;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--cn-red);
+  margin: 0 0 10px;
+}
+.cn-infobox ul {
+  margin: 0;
+  padding-left: 1.2em;
+  color: var(--cn-black);
+  line-height: 1.7;
+}
+
+/* Section subheadings */
+#cn-body h2 {
+  font-family: var(--cn-serif);
+  font-size: 1.25em;
+  font-weight: 700;
+  border-top: 2px solid var(--cn-black);
+  padding-top: 14px;
+  margin-top: 36px;
+  margin-bottom: 14px;
+  color: var(--cn-black);
+}
+
+/* More information strip */
+#cn-contact {
+  border-top: 3px solid var(--cn-black);
+  padding-top: 16px;
+  margin-top: 36px;
+  font-family: var(--cn-sans);
+  font-size: 0.88em;
+  color: var(--cn-grey-dk);
+}
+#cn-contact strong {
+  color: var(--cn-black);
+  display: block;
+  margin-bottom: 4px;
+}
+#cn-contact a {
+  color: var(--cn-black);
+  font-weight: 700;
+}
+#cn-contact a:focus,
+#cn-page a:focus {
+  outline: 3px solid #fd0;
+  outline-offset: 2px;
+  background: #fd0;
+  color: var(--cn-black);
+}
+
+@media (max-width: 767px) {
+  #cn-body {
+    max-width: 100%;
+  }
+  #cn-page h1#wb-cont {
+    font-size: 1.6em;
+  }
+  .cn-pullquote p {
+    font-size: 1.1em;
+  }
+}
+
+/* -----------------------------------------------------------------------------
+   4. Utilities
 ----------------------------------------------------------------------------- */
 .dl-horizontal dt {
   -webkit-hyphens: none;

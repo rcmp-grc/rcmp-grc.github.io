@@ -29,7 +29,7 @@ lead: Personnes recherchées
 	</div>
 	<div class="clearfix"></div>
 	<div class="col-md-8 col-md-offset-2 mrgn-tp-md">
-		<p class="mrgn-bttm-xs"><strong>Accusations :</strong></p>
+		<p class="mrgn-bttm-xs"><strong>Accusations&nbsp;:</strong></p>
 		<ul aria-label="Accusations contre Bob l'éponge" id="wp-charges-list">
 			<li>Vol de la formule du pâté de crabe</li>
 			<li>Complot</li>
@@ -118,7 +118,7 @@ lead: Personnes recherchées
 	<h2 class="mrgn-tp-sm" id="s6-heading">Avez-vous de l'information?</h2>
 	<p>Si vous avez de l'information, veuillez communiquer avec nous. Vous pouvez demeurer complètement anonyme.</p>
 	<p>Si vous avez de l'information concernant Bob l'éponge ou l'endroit où il pourrait se trouver, signalez-le par l'un des moyens suivants. <strong>N'approchez pas le suspect.</strong></p>
-	<dl class="dl-horizontal">
+	<dl class="dl-horizontal mrgn-tp-lg mrgn-bttm-0">
 		<dt>Urgence</dt>
 		<dd>
 			<a aria-label="Composer le 911 pour les urgences" href="tel:911">9-1-1</a>

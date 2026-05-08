@@ -118,7 +118,7 @@ lead: Wanted
 	<h2 class="mrgn-tp-sm" id="s6-heading">Do you have any information?</h2>
 	<p>If you have information, please contact us, you can remain completely anonymous.</p>
 	<p>If you have information regarding SpongeBob SquarePants or his whereabouts, report through one of the following channels. <strong>Do not approach the suspect.</strong></p>
-	<dl class="dl-horizontal">
+	<dl class="dl-horizontal mrgn-tp-lg mrgn-bttm-0">
 		<dt>Emergency</dt>
 		<dd>
 			<a aria-label="Call 911 for emergencies" href="tel:911">9-1-1</a>

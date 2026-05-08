@@ -18,7 +18,7 @@ lead: Personnes disparues
 			<figcaption>
 				<strong>Bob l'éponge</strong>
 				<div class="d-flex file-number">
-					<span class="mrgn-rght-sm">Numéro de dossier :</span> <span>32473043</span>
+					<span class="mrgn-rght-sm">Numéro de dossier&nbsp;:</span> <span>32473043</span>
 				</div>
 			</figcaption>
 		</figure>

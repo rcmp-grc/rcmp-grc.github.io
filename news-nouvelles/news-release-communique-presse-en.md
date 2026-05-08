@@ -53,9 +53,9 @@ issued: 2026-05-07
 <div class="contact-signature">
           <strong>Richmond RCMP Media Relations</strong>
      <br>     
-     <a href="mailto:richmond_media@rcmp-grc.gc.ca">richmond_media@rcmp-grc.gc.ca</a>
+     <i class="fa-solid fa-envelope"></i> <a href="mailto:richmond_media@rcmp-grc.gc.ca">richmond_media@rcmp-grc.gc.ca</a>
      <br>
-     604-207-5189<br>
+     <i class="fa-solid fa-mobile-screen-button"></i> 604-207-5189<br>
      <div class="signature-link-grid">
                     <div class="signature-link-subgrid">
                <div>

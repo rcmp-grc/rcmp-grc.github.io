@@ -16,12 +16,6 @@ issued: 2026-05-07
 	<p>Due to Shared Services Canada maintenance, telephone services and this service will be unavailable for use on Sunday, March&#160;29, 2026, from 9&#160;am until 10:30&#160;am, Eastern time. We apologize in advance for any inconvenience this may cause.</p>
 </section>
 
-<section class="mrgn-tp-lg alert alert-info">
-  <h2 class="h3">Notes</h2>
-  <p>The <a href="https://gazette.gc.ca/rp-pr/p2/2025/2025-11-19/html/sor-dors227-eng.html"><cite>Firearms Marking Regulations</cite></a> under the <cite>Firearms Act</cite> that were scheduled to come into force on December 1,&#160;2025, have been deferred to December 1,&#160;2027.</p>
-  <p>Moving? Name change? You must inform the Chief Firearms Officer of your province or territory within 30 days of any change to your name or address as a <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-98-199/page-1.html#h-1018947">condition of licence</a>. Please also <a href="/en/firearms/dont-miss-important-notifications-canadian-firearms-program">keep your email address up to date</a> to stay connected with the Canadian Firearms Program and to be informed about enhanced online services and legislative changes.</p>
-  <p>Effective September 1, 2024: new <a href="/en/firearms/requirements-individuals-and-businesses-transfer-firearm-barrel">requirements</a> to transfer a firearm barrel or handgun slide, and to import these parts, ammunition and cartridge magazines.</p>
-</section>
 <section id="s1">
   <h2>Access to Individual Web Services</h2>
   <p>When you sign in to the link below, you can:</p>
@@ -33,6 +27,38 @@ issued: 2026-05-07
     <li>apply for an authorization to transport firearms</li>
     <li>update your information</li>
   </ul>
+	
+	<div class="alert alert-info">
+    <ul class="list-unstyled">
+      <li>
+        <details>
+          <summary>
+            <h2 class="h4">Firearms Marking Regualtions</h2>
+          </summary>
+            <p>The <a href="https://gazette.gc.ca/rp-pr/p2/2025/2025-11-19/html/sor-dors227-eng.html"><cite>Firearms Marking Regulations</cite></a> under the <cite>Firearms Act</cite> that were scheduled to come into force on December 1,&#160;2025, have been deferred to December 1,&#160;2027.</p>
+        </details>
+      </li>
+		
+      <li>
+        <details>
+          <summary>
+            <h2 class="h4">Moving? Name change?</h2>
+          </summary>
+          <p>You must inform the Chief Firearms Officer of your province or territory within 30 days of any change to your name or address as a <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-98-199/page-1.html#h-1018947">condition of licence</a>. Please also <a href="/en/firearms/dont-miss-important-notifications-canadian-firearms-program">keep your email address up to date</a> to stay connected with the Canadian Firearms Program and to be informed about enhanced online services and legislative changes.</p>
+        </details>
+      </li>
+	  
+	  <li>
+        <details>
+          <summary>
+            <h2 class="h4">New firearms requirements</h2>
+          </summary>
+          <p>Effective September 1, 2024: new <a href="/en/firearms/requirements-individuals-and-businesses-transfer-firearm-barrel">requirements</a> to transfer a firearm barrel or handgun slide, and to import these parts, ammunition and cartridge magazines.</p>
+        </details>
+      </li>  
+    </ul>
+  </div>
+  
   <section class="alert alert-info">
     <h3>Note</h3>
     <p>You can renew your licence online or via a mailed application if <strong>both</strong> of the following apply:</p>
@@ -41,6 +67,7 @@ issued: 2026-05-07
       <li>you are within six months of its expiration date</li>
     </ul>
   </section>
+	
   <p>To access Canadian Firearms Program services for individuals online you must:</p>
   <ul>
     <li>complete a one-time sign up by registering for a GCKey or Sign-in Partner Services account</li>

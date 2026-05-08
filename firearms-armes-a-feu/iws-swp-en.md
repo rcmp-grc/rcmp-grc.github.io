@@ -18,7 +18,7 @@ issued: 2026-05-07
 
 <section id="s1">
   <h2>Access to Individual Web Services</h2>
-  <p>When you sign in to the link below, you can:</p>
+  <p>When you sign in through the button below, you can:</p>
   <ul>
     <li>renew your firearms licence</li>
     <li>check your application status</li>
@@ -61,7 +61,7 @@ issued: 2026-05-07
       <li>
         <details>
           <summary>
-            <h2 class="h4">Firearms Marking Regulations</h2>
+            <h2 class="h4"><cite>Firearms Marking Regulations</cite></h2>
           </summary>
             <p>The <a href="https://gazette.gc.ca/rp-pr/p2/2025/2025-11-19/html/sor-dors227-eng.html"><cite>Firearms Marking Regulations</cite></a> under the <cite>Firearms Act</cite> that were scheduled to come into force on December 1,&#160;2025, have been deferred to December 1,&#160;2027.</p>
         </details>

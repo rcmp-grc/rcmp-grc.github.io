@@ -23,7 +23,6 @@ lead: Personnes disparues
 			</figcaption>
 		</figure>
 	</div>
-	<div class="clearfix"></div>
 	<div class="mrgn-tp-md">
 		<p>SpongeBob is a good-natured, naive, and enthusiastic sea sponge. He lives in a submerged pineapple with his pet snail Gary in the fictional underwater city of Bikini Bottom, which is also home to other anthropomorphic sea creatures. SpongeBob is often seen in the company of his best friend Patrick Star. He is obsessively attached to his job as a fry cook at the Krusty Krab. His boss is Mr. Krabs, and his co-worker Squidward Tentacles works as the cashier.</p>
 	</div>
@@ -91,12 +90,12 @@ lead: Personnes disparues
 	<h2 class="mrgn-tp-sm" id="s5-heading">Image gallery</h2>
 	<ul aria-label="Additional photographs of SpongeBob SquarePants" class="list-inline">
 		<li>
-			<a href="https://dummyimage.com/600x480/000/fff" title="SpongeBob SquarePants character image">
+			<a href="https://dummyimage.com/480x600/000/fff" title="SpongeBob SquarePants character image">
         <img alt="SpongeBob SquarePants character image" src="https://dummyimage.com/175x175/000/fff">
       </a>
 		</li>
 		<li>
-			<a href="https://dummyimage.com/600x480/000/fff" title="SpongeBob and friends illustration">
+			<a href="https://dummyimage.com/480x600/333/fff" title="SpongeBob and friends illustration">
         <img alt="SpongeBob and friends illustration" src="https://dummyimage.com/175x175/333/fff">
       </a>
 		</li>

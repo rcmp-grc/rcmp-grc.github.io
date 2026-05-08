@@ -19,7 +19,7 @@ issued: 2026-05-08
 <hr>
 <p><i class="fa-solid fa-calendar"></i>  May&nbsp;8, 2026 - Fredericton, New Brunswick</p>
 <p><i class="fa-solid fa-user"></i>  <a href="https://rcmp.ca/en/nb">New Brunswick <abbr>RCMP</abbr></a></p>
-<div class="bg-info">
+<div class="bg-info col-md-8">
 <p>Total number of calls: 299</p>
 <ul>
 <li data-list-item-id="e903ce03b95834f015d7441952bf79264">Priority 1: 14</li>
@@ -63,7 +63,7 @@ issued: 2026-05-08
 <ul>
 <li data-list-item-id="ed6e5b00a9f2341485810ac6ac9afd4e3">Moncton. Missing person. Investigation ongoing.&nbsp;</li>
 <li data-list-item-id="e4da4009466212972a9745c36369ebf14">Riverview. Breach of conditions. Individual arrested.</li>
-</ol>
+</ul>
 </section>
 <section id="n1" class="wb-lbx lbx-gal">
     <h2 class="h3">Image gallery</h2>

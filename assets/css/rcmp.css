@@ -160,25 +160,12 @@ main {
 /* Kicker */
 #cn-kicker {
   display: block;
-  font-family: var(--cn-sans);
   font-size: 0.72em;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--cn-red);
   margin-bottom: 10px;
-}
-
-/* Headline */
-#cn-page h1#wb-cont {
-  font-family: var(--cn-serif);
-  font-size: clamp(1.75em, 4vw, 2.6em);
-  font-weight: 700;
-  line-height: 1.2;
-  color: var(--cn-black);
-  margin-top: 8px;
-  margin-bottom: 16px;
-  border: none;
 }
 
 /* Deck / standfirst */

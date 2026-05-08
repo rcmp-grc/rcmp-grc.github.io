@@ -10,16 +10,16 @@ creator:
 subject:
 issued: 2026-05-07
 ---
-
+<link rel="stylesheet" href="/assets/css/news.css">
 <hgroup class="mrgn-tp-md">
 				<p class="wb-rd lead mrgn-tp-0 mrgn-bttm-0">News release</p>
 				<h1 class="mrgn-tp-0" property="name" id="wb-cont">Richmond RCMP targets high risk driving as motorcycle safety month returns</h1>
 </hgroup>
 <p class="lead">Richmond RCMP Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety.</p>
-<line style="border: 0.6rem solid var(--color-yellow); padding: 1rem;">
+<line></line>
 <p><i class="fa-solid fa-calendar"></i> May 7, 2026 - Richmond, British Columbia</p>
 <p><i class="fa-solid fa-user"></i> <a href="https://rcmp.ca/en/bc/richmond">Richmond <abbr>RCMP</abbr></a></p>
-<hr style="color: yellow;">
+<hr>
  <p>Richmond <abbr title="Royal Canadian Mounted Police">RCMP</abbr> Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety, as part of the province-wide BC Association of Chiefs of Police enforcement calendar in partnership with ICBC.</p>
 <p>As warmer weather brings more motorcycles onto Richmond roads, officers will be focused on the behaviours most often linked to serious crashes including failing to yield, ignoring traffic control devices, following too closely, and improper passing. With six out of ten motorcycle crashes in B.C. occurring at intersections, drivers will see increased patrols at key Richmond intersections throughout the month.</p>
 <p>While motorcycles make up roughly three percent of insured vehicles in B.C., they are involved in approximately ten percent of road fatalities, <a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/motorcycle-safety">according to the Province of British Columbia</a>. The fatality rate for drivers under 25 is on average 15 times higher than drivers over 25 years of age.</p>

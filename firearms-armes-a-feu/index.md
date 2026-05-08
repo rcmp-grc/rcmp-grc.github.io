@@ -4,7 +4,7 @@ title: Index
 description: Index of template pages
 date_modified: 2026-05-08
 lang: en
-lang_url: 
+lang_url: index-fr.html
 author:
 creator:
 subject:

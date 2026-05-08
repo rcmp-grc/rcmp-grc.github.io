@@ -120,5 +120,5 @@ issued: 2026-05-07
 <hr>
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
-  <li class="bg-info"><strong><u>Traffic Services</u></strong></li>
+  <li><span class="label label-primary">Traffic Services</span></li>
 </ol>

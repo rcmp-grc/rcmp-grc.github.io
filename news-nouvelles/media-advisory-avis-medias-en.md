@@ -26,7 +26,7 @@ issued: 2026-05-08
 <p>Participation in the question and answer portion of the technical briefing is for accredited members of the Press Gallery only. Media who are not members of the Press Gallery may contact testemailaddress@rcmp.gc.ca for temporary access.</p>
 </div>
 <div class="col-md-4">
-<dl>
+<dl class="list-inline">
     <dt>Date</dt>
     <dd>
       <p>May 8, 2026 </p>
@@ -40,6 +40,7 @@ Room 325, 180 Wellington Street<br>
 Ottawa ON</dd>
   </dl>	
 </div>
+<div lass="clearfix"></div>
 <section id="n1">
 <h2 class="h3">Contacts</h2>
 <div class="contact-signature">

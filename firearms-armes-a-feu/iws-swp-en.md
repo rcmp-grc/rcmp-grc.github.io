@@ -13,7 +13,7 @@ issued: 2026-05-07
 			
 <section class="alert alert-warning">
 <h2 class="h3">Online service interruption</h2>
-	<p>Due to Shared Services Canada maintenance, telephone services and this service will be unavailable for use on Sunday, March&#160;29, 2026, from 9&#160;am until 10:30&#160;am, Eastern time. We apologize in advance for any inconvenience this may cause.</p>
+	<p>Due to Shared Services Canada maintenance, this service will be unavailable for use on Sunday, March&#160;29, 2026, from 9&#160;am until 10:30&#160;am, Eastern time. We apologize in advance for any inconvenience this may cause.</p>
 </section>
 
 <section id="s1">
@@ -27,6 +27,34 @@ issued: 2026-05-07
     <li>apply for an authorization to transport firearms</li>
     <li>update your information</li>
   </ul>
+    <p class="mrgn-tp-lg"><a class="btn btn-call-to-action" href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html?ipeReferer=eCFISIWS">Proceed to the secure site for<br>
+  Individual Web Services</a></p>
+  <div class="accordion">
+    <details class="acc-group">
+      <summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>
+        Browser and system requirements
+      </summary>
+      <div class="tgl-panel">
+        <p>You may be able to access Canadian Firearms Program (<abbr>CFP</abbr>) services using your choice of web browser, but it may not have been fully tested with the <abbr>CFP</abbr>'s services. If you encounter difficulties, we recommend that you use a different browser.</p>
+        <p>To ensure that you have uninterrupted access to <abbr>CFP</abbr> services, your browser must:</p>
+        <ul>
+          <li>support Transport Layer Security (<abbr>TLS</abbr>) 1.2 or higher (we recommend <abbr>TLS</abbr> 1.3)</li>
+          <li>have <abbr>TLS</abbr> 1.2 or higher enabled</li>
+          <li>have cookies enabled (please see <a href="/en/terms-and-conditions">Terms and conditions</a> for more information on cookies)
+          </li>
+          <li>have JavaScript enabled</li>
+        </ul>
+        <p>If your device is more than five years old, you may encounter difficulties.</p>
+        <p>We recommend using a modern desktop computer.</p>
+        <p>We cannot provide support for internet-enabled mobile devices (including game systems or tablets and smartphones running Android or Apple iOS).</p>
+        <section class="alert alert-info">
+          <h3>Note</h3>
+          <p>The <abbr>CFP</abbr> is not responsible for any difficulties or problems with downloading and installing software. Technical support is provided by the software suppliers.</p>
+        </section>
+      </div>
+    </details>
+  </div>
+</section>
 	
 	<div class="alert alert-info">
     <ul class="list-unstyled">
@@ -42,7 +70,7 @@ issued: 2026-05-07
       <li>
         <details>
           <summary>
-            <h2 class="h4">Are you moving or do you have a name change?</h2>
+            <h2 class="h4">Moving or name change?</h2>
           </summary>
           <p>You must inform the Chief Firearms Officer of your province or territory within 30 days of any change to your name or address as a <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-98-199/page-1.html#h-1018947">condition of licence</a>. Please also <a href="/en/firearms/dont-miss-important-notifications-canadian-firearms-program">keep your email address up to date</a> to stay connected with the Canadian Firearms Program and to be informed about enhanced online services and legislative changes.</p>
         </details>
@@ -71,34 +99,7 @@ issued: 2026-05-07
     <li>complete a one-time sign up by registering for a GCKey or Sign-in Partner Services account</li>
     <li>enter an authentication code that will be sent to your email when you sign in. If you do not receive this information, please check your junk mail folder</li>
   </ul>
-  <p class="mrgn-tp-lg"><a class="btn btn-call-to-action" href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html?ipeReferer=eCFISIWS">Proceed to the secure site for<br>
-  Individual Web Services</a></p>
-  <div class="accordion">
-    <details class="acc-group">
-      <summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>
-        Browser and system requirements
-      </summary>
-      <div class="tgl-panel">
-        <p>You may be able to access Canadian Firearms Program (<abbr>CFP</abbr>) services using your choice of web browser, but it may not have been fully tested with the <abbr>CFP</abbr>'s services. If you encounter difficulties, we recommend that you use a different browser.</p>
-        <p>To ensure that you have uninterrupted access to <abbr>CFP</abbr> services, your browser must:</p>
-        <ul>
-          <li>support Transport Layer Security (<abbr>TLS</abbr>) 1.2 or higher (we recommend <abbr>TLS</abbr> 1.3)</li>
-          <li>have <abbr>TLS</abbr> 1.2 or higher enabled</li>
-          <li>have cookies enabled (please see <a href="/en/terms-and-conditions">Terms and conditions</a> for more information on cookies)
-          </li>
-          <li>have JavaScript enabled</li>
-        </ul>
-        <p>If your device is more than five years old, you may encounter difficulties.</p>
-        <p>We recommend using a modern desktop computer.</p>
-        <p>We cannot provide support for internet-enabled mobile devices (including game systems or tablets and smartphones running Android or Apple iOS).</p>
-        <section class="alert alert-info">
-          <h3>Note</h3>
-          <p>The <abbr>CFP</abbr> is not responsible for any difficulties or problems with downloading and installing software. Technical support is provided by the software suppliers.</p>
-        </section>
-      </div>
-    </details>
-  </div>
-</section>
+
 <section id="s2">
   <h2>Questions and answers</h2>
   <section id="s2-1">

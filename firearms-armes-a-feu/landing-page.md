@@ -152,7 +152,7 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
           </div>
           <div class="col-sm-6 hght-inhrt">
             <div class="well well-sm eqht-trgt hght-inhrt">
-              <img alt="" src="https://dummyimage.com/360x203/000000/FFFFFF.png">
+              <img alt="" src="feature-2.png">
               <h3><a class="stretched-link" href="#">MyCFP</a></h3>
               <p>Access our portal for secure online services.</p>
             </div>

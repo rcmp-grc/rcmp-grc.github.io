@@ -96,6 +96,6 @@ issued: 2026-05-07
 </div>
 <hr>
 <h2>Explore related topics</h2>
-<dl class="horizontal">
+<dl-horizontal>
 <dd class="bg-info">Traffic Services</dd>
-</dl>
+</dl-horizontal>

@@ -35,7 +35,7 @@ lead: Wanted
 			<li>Conspiracy</li>
 			<li>Unlawfully at large</li>
 		</ul>
-		<p class="mrgn-tp-md">SpongeBob SquarePants is a good-natured but allegedly deceptive sea sponge currently wanted in connection with the theft of the Krabby Patty secret formula. He was last observed in the Bikini Bottom area. He is known to frequent the Krusty Krab and Jellyfish Fields, and may be in the company of Patrick Star. Approach is not advised — contact authorities immediately if located.</p>
+		<p class="mrgn-tp-md">SpongeBob SquarePants is a good-natured but allegedly deceptive sea sponge currently wanted in connection with the theft of the Krabby Patty secret formula. He was last observed in the Bikini Bottom area. He is known to frequent the Krusty Krab and Jellyfish Fields, and may be in the company of Patrick Star. Approach is not advised, contact authorities immediately if located.</p>
 	</div>
 </div>
 <div class="row">
@@ -131,7 +131,7 @@ lead: Wanted
 		<dd>
 			<a href="https://rcmp.ca/en/corporate-information/rcmp-locations">Find a detachment</a>
 		</dd>
-	</dl>&gt;
+	</dl>
 	<p>Tips submitted through Crime Stoppers are fully anonymous, you will never need to speak to an investigator.</p>
 </section>
 <section aria-labelledby="s7-heading" id="s7">

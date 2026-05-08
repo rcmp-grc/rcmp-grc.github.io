@@ -12,7 +12,7 @@ issued: 2026-05-08
 ---
 
 <hgroup class="mrgn-tp-md">
-<p class="wb-rd lead mrgn-tp-0 mrgn-bttm-0">News release</p>
+<p class="wb-rd lead mrgn-tp-0 mrgn-bttm-0">Media Advisory</p>
 <h1 class="mrgn-tp-0" property="name" id="wb-cont">Technical briefing on the situation with regard to hantavirus</h1>
 </hgroup>
 

@@ -47,6 +47,8 @@ issued: 2026-05-07
   </a>
 </li>
 </ul>
+<h2>Quotes</h2>
+<blockquote>Most of these collisions come down to choices—a driver who doesn’t take that second look before making a left turn, or a rider going too fast for conditions. Our goal this may is to see fewer collisions, fewer injuries, and every rider and driver getting home safely.</blockquote>
 <h2>Contacts</h2>
 <div class="contact-signature">
           <strong>Richmond RCMP Media Relations</strong>

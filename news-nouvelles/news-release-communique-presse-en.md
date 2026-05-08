@@ -49,15 +49,15 @@ issued: 2026-05-07
                     alt=" "
                     src="thumbnail.jpg"></a></li>
         <li><a href="filler-image.jpg"
-                title="Title 1"><img
+                title="Title 2"><img
                     alt=" "
                     src="thumbnail.jpg"></a></li>
          <li><a href="filler-image.jpg"
-                title="Title 1"><img
+                title="Title 3"><img
                     alt=" "
                     src="thumbnail.jpg"></a></li>
          <li><a href="filler-image.jpg"
-                title="Title 1"><img
+                title="Title 4"><img
                     alt=" "
                     src="thumbnail.jpg"></a></li>
     </ul>

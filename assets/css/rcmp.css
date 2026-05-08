@@ -185,7 +185,6 @@ main {
 #cn-deck {
   font-family: var(--cn-serif);
   font-size: 1.15em;
-  font-style: italic;
   line-height: 1.65;
   color: #2c2c2c;
   border-left: 3px solid var(--cn-red);
@@ -219,10 +218,6 @@ main {
 #cn-hero {
   margin: 0 0 8px;
 }
-#cn-hero img {
-  width: 100%;
-  display: block;
-}
 #cn-hero figcaption {
   font-family: var(--cn-sans);
   font-size: 0.78em;
@@ -240,7 +235,6 @@ main {
 
 /* Article body */
 #cn-body {
-  font-family: var(--cn-serif);
   font-size: 1.05em;
   line-height: 1.8;
   color: #1a1a1a;
@@ -248,15 +242,6 @@ main {
 }
 #cn-body p {
   margin-bottom: 1.4em;
-}
-#cn-body p:first-of-type::first-letter {
-  font-size: 3.4em;
-  font-weight: 700;
-  float: left;
-  line-height: 0.8;
-  margin: 6px 8px 0 0;
-  color: var(--cn-red);
-  font-family: var(--cn-serif);
 }
 
 /* Pull quote */
@@ -267,16 +252,13 @@ main {
   border-bottom: 1px solid var(--cn-grey-md);
 }
 .cn-pullquote p {
-  font-family: var(--cn-serif);
   font-size: 1.35em;
-  font-style: italic;
   font-weight: 600;
   line-height: 1.45;
   color: var(--cn-black);
   margin: 0 0 8px;
 }
 .cn-pullquote cite {
-  font-family: var(--cn-sans);
   font-size: 0.75em;
   font-style: normal;
   font-weight: 700;
@@ -294,7 +276,6 @@ main {
   display: block;
 }
 .cn-inline-figure figcaption {
-  font-family: var(--cn-sans);
   font-size: 0.78em;
   color: var(--cn-grey-dk);
   padding: 6px 0 0;
@@ -312,7 +293,6 @@ main {
   font-size: 0.9em;
 }
 .cn-infobox h3 {
-  font-family: var(--cn-sans);
   font-size: 0.75em;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -329,7 +309,6 @@ main {
 
 /* Section subheadings */
 #cn-body h2 {
-  font-family: var(--cn-serif);
   font-size: 1.25em;
   font-weight: 700;
   border-top: 2px solid var(--cn-black);

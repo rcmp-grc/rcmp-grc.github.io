@@ -20,7 +20,7 @@ lead: Community news
 	<div class="row mrgn-bttm-md">
 		<div class="col-md-10 col-md-offset-1">
 			<figure id="cn-hero">
-				<img alt="RCMP Constable SpongeBob SquarePants kneeling on a sunlit street to greet Gary the snail, surrounded by smiling residents of Bikini Bottom" height="600" src="https://dummyimage.com/1200x600/2d6a4f/ffffff&text=Cst.+SquarePants+%26+Gary+%E2%80%94+Bikini+Bottom%2C+May+2026" width="1200">
+				<img alt="RCMP Constable SpongeBob SquarePants kneeling on a sunlit street to greet Gary the snail, surrounded by smiling residents of Bikini Bottom"   class="img-responsive" src="https://dummyimage.com/1200x600/000/fff">
 				<figcaption>
 					<strong>Constable SpongeBob SquarePants with Gary, shortly before the reunion — Bikini Bottom, May 2026</strong> Neighbours gathered spontaneously outside the Krusty Krab to celebrate Gary's safe return. Photo: Bikini Bottom Detachment / RCMP
 				</figcaption>

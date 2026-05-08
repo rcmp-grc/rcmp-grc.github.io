@@ -12,14 +12,13 @@ issued: 2026-05-07
 ---
 
 <hgroup class="mrgn-tp-md">
-				<p class="wb-rd lead mrgn-tp-0 mrgn-bttm-0">News release</p>
-				<h1 class="mrgn-tp-0" property="name" id="wb-cont">Richmond RCMP targets high risk driving as motorcycle safety month returns</h1>
+<p class="wb-rd lead mrgn-tp-0 mrgn-bttm-0">News release</p>
+<h1 class="mrgn-tp-0" property="name" id="wb-cont">Richmond RCMP targets high risk driving as motorcycle safety month returns</h1>
 </hgroup>
 <p class="lead">Richmond RCMP Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety.</p>
 <hr>
 <p><i class="fa-solid fa-calendar"></i> May 7, 2026 - Richmond, British Columbia</p>
 <p><i class="fa-solid fa-user"></i> <a href="https://rcmp.ca/en/bc/richmond">Richmond <abbr>RCMP</abbr></a></p>
-
  <p>Richmond <abbr title="Royal Canadian Mounted Police">RCMP</abbr> Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety, as part of the province-wide BC Association of Chiefs of Police enforcement calendar in partnership with ICBC.</p>
 <p>As warmer weather brings more motorcycles onto Richmond roads, officers will be focused on the behaviours most often linked to serious crashes including failing to yield, ignoring traffic control devices, following too closely, and improper passing. With six out of ten motorcycle crashes in B.C. occurring at intersections, drivers will see increased patrols at key Richmond intersections throughout the month.</p>
 <p>While motorcycles make up roughly three percent of insured vehicles in B.C., they are involved in approximately ten percent of road fatalities, <a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/motorcycle-safety">according to the Province of British Columbia</a>. The fatality rate for drivers under 25 is on average 15 times higher than drivers over 25 years of age.</p>
@@ -40,8 +39,6 @@ issued: 2026-05-07
 <li data-list-item-id="ef864c2eff32ba69eb6aa48ff09023fa5">Brush up on emergency braking and obstacle avoidance, especially after time off the bike</li>
 </ul>
 <p>For more information on B.C.’s motorcycle laws, helmet standards, fines and penalty points, visit the <a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/motorcycle-safety">Province of British Columbia’s website</a>. For motorcycle licensing, rider training resources, and gear guides, visit the <a href="https://www.icbc.com/road-safety/sharing/motorcycle-safety">ICBC website</a>.</p>
-
-
 <h2>Image gallery</h2>
 <ul class="list-inline">		
 <li>     
@@ -50,8 +47,6 @@ issued: 2026-05-07
   </a>
 </li>
 </ul>
-	
-
 <h2>Contacts</h2>
 <div class="contact-signature">
           <strong>Richmond RCMP Media Relations</strong>
@@ -96,6 +91,6 @@ issued: 2026-05-07
 </div>
 <hr>
 <h2>Explore related topics</h2>
-<dl-horizontal>
-<dd class="bg-info">Traffic Services</dd>
-</dl-horizontal>
+<ol class="list-inline">
+  <li class="bg-info">Traffic Services</li>
+</ol>

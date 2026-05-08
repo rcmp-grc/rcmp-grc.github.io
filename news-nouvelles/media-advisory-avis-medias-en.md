@@ -24,13 +24,15 @@ issued: 2026-05-08
  <p>Accredited journalists can also participate online. <strong>Please note</strong>: Individuals who do not have an access pass to Parliamentary buildings must enter through the entrance at 197 Sparks Street.</p>
 <p>Participation in the question and answer portion of the technical briefing is for accredited members of the Press Gallery only. Media who are not members of the Press Gallery may contact testemailaddress@rcmp.gc.ca for temporary access.</p>
 </div>
-<div class="well col-md-3 mrgn-tp-sm mrgn-bttm-sm">
+<div class="panel panel-warning col-md-3 mrgn-tp-sm mrgn-bttm-sm">
+<div class="panel-body">	
     <p><strong>Date</strong>: May 8, 2026 </p>
     <p><strong>Time</strong>: 3:00 PM (EDT)</p>
 	<p><strong>Location</strong><br>
 National Press Theatre<br>
 Room 325, 180 Wellington Street<br>
 Ottawa ON</p>
+</div>
 </div>
 <div class="clearfix"></div>
 <section id="n1">

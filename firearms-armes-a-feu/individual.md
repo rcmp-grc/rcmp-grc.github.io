@@ -4,7 +4,7 @@ title: Individual Web Services
 description: My page description
 date_modified: 2026-05-08
 lang: en
-lang_url: index-fr.html
+lang_url: individual-fr.html
 author:
 creator:
 subject:
@@ -102,6 +102,7 @@ issued: 2026-05-07
 </section>
 
 <section id="s2">
+	<div class="well brdr-0 brdr-rds-0 mrgn-tp-md">
   <h2>Questions and answers</h2>
   <section id="s2-1">
     <h3>Checking your application status</h3>
@@ -167,4 +168,5 @@ issued: 2026-05-07
       <p>If you are still unable to print, you should either review your print manual or seek outside technical assistance.</p>
     </details>
   </section>
+	</div>
 </section>

@@ -28,7 +28,7 @@ issued: 2026-05-08
     <p><strong>Date</strong>: May 8, 2026 </p>
     <p><strong>Time</strong>: 3:00 PM (EDT)</p>
 	<p><strong>Location</strong><br>
-<p>National Press Theatre<br>
+National Press Theatre<br>
 Room 325, 180 Wellington Street<br>
 Ottawa ON</p>
 </div>

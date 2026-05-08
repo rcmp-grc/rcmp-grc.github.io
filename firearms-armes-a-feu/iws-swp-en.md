@@ -33,7 +33,7 @@ issued: 2026-05-07
       <li>
         <details>
           <summary>
-            <h2 class="h4">Firearms Marking Regualtions</h2>
+            <h2 class="h4">Firearms Marking Regulations</h2>
           </summary>
             <p>The <a href="https://gazette.gc.ca/rp-pr/p2/2025/2025-11-19/html/sor-dors227-eng.html"><cite>Firearms Marking Regulations</cite></a> under the <cite>Firearms Act</cite> that were scheduled to come into force on December 1,&#160;2025, have been deferred to December 1,&#160;2027.</p>
         </details>
@@ -42,7 +42,7 @@ issued: 2026-05-07
       <li>
         <details>
           <summary>
-            <h2 class="h4">Moving? Name change?</h2>
+            <h2 class="h4">Are you moving or do you have a name change?</h2>
           </summary>
           <p>You must inform the Chief Firearms Officer of your province or territory within 30 days of any change to your name or address as a <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-98-199/page-1.html#h-1018947">condition of licence</a>. Please also <a href="/en/firearms/dont-miss-important-notifications-canadian-firearms-program">keep your email address up to date</a> to stay connected with the Canadian Firearms Program and to be informed about enhanced online services and legislative changes.</p>
         </details>
@@ -58,15 +58,13 @@ issued: 2026-05-07
       </li>  
     </ul>
   </div>
-  
-  <section class="alert alert-info">
+
     <h3>Note</h3>
     <p>You can renew your licence online or via a mailed application if <strong>both</strong> of the following apply:</p>
     <ul>
       <li>your licence expired on or after November 30, 2017</li>
       <li>you are within six months of its expiration date</li>
     </ul>
-  </section>
 	
   <p>To access Canadian Firearms Program services for individuals online you must:</p>
   <ul>

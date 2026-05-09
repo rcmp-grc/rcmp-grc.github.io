@@ -8,10 +8,6 @@ issued: 2026-05-09
 ---
 
 <style>
-/* ---------------------------------------------------------------
-   Wanted listing page — page-scoped styles
---------------------------------------------------------------- */
-
 /* Result count + sort bar */
 #wl-toolbar {
   display: flex;
@@ -67,6 +63,9 @@ issued: 2026-05-09
   border: 1px solid #b1b4b6;
   padding: 0;
   margin-bottom: 20px;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
 }
 #wl-filters-heading {
   background: #0b0c0c;
@@ -80,6 +79,9 @@ issued: 2026-05-09
 .wl-filter-group {
   border-bottom: 1px solid #b1b4b6;
   padding: 14px;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
 }
 .wl-filter-group:last-child {
   border-bottom: 0;
@@ -108,13 +110,16 @@ issued: 2026-05-09
   cursor: pointer;
   line-height: 1.4;
   padding: 8px 0;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-between;
 }
 .wl-filter-group .checkbox input[type="checkbox"] {
   -webkit-appearance: none;
   appearance: none;
-  width: 38px;
-  height: 38px;
-  min-width: 38px;
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
   border: 2px solid #0b0c0c;
   background: #fff;
   cursor: pointer;
@@ -129,21 +134,24 @@ issued: 2026-05-09
   content: "";
   display: block;
   position: absolute;
-  top: 4px;
-  left: 10px;
-  width: 13px;
-  height: 20px;
+  top: 3px;
+  left: 7px;
+  width: 10px;
+  height: 16px;
   border: solid #0b0c0c;
-  border-width: 0 4px 4px 0;
+  border-width: 0 3px 3px 0;
   transform: rotate(45deg);
 }
 .wl-filter-badge {
-  margin-left: auto;
   background: #ededed;
   color: #505a5f;
   font-size: 0.78em;
   padding: 1px 6px;
   border-radius: 20px;
+  flex-shrink: 0;
+}
+.cb-text {
+  flex: 1;
 }
 
 /* Profile card grid */
@@ -353,13 +361,13 @@ issued: 2026-05-09
       <fieldset class="wl-filter-group">
         <legend>Gender</legend>
         <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="male">Male <span class="wl-filter-badge">20</span></label>
+          <label><input data-filter="gender" type="checkbox" value="male"><span class="cb-text">ale</span><span class="wl-filter-badge">20</span></label>
         </div>
         <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="female">Female <span class="wl-filter-badge">7</span></label>
+          <label><input data-filter="gender" type="checkbox" value="female"><span class="cb-text">emale</span><span class="wl-filter-badge">7</span></label>
         </div>
         <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="unknown">Unknown <span class="wl-filter-badge">2</span></label>
+          <label><input data-filter="gender" type="checkbox" value="unknown"><span class="cb-text">nknown</span><span class="wl-filter-badge">2</span></label>
         </div>
       </fieldset>
 
@@ -547,7 +555,7 @@ issued: 2026-05-09
           '<img alt="Mugshot of ' + p.name + '" src="' + p.img + '" loading="lazy">' +
           '<div class="wl-card-body">' +
             '<p class="wl-card-name">' + p.name + '</p>' +
-            '<p class="wl-card-meta">File: ' + p.file + '</p>' +
+            '<p class="wl-card-meta">File number: ' + p.file + '</p>' +
             '<p class="wl-card-meta">Updated: ' + p.updated + '</p>' +
           '</div>' +
         '</a>';

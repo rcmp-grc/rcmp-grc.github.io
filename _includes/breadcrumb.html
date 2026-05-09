@@ -1,5 +1,13 @@
-{% unless page.is_homepage %} {% if page.lang == 'fr' %} {% assign base_url = '' %} {% assign base_label = 'GRC.ca' %} {% assign you_are_here = 'Vous
-êtes ici :' %} {% else %} {% assign base_url = '' %} {% assign base_label = 'RCMP.ca' %} {% assign you_are_here = 'You are here:' %} {% endif %}
+{% unless page.is_homepage %}
+  {% if page.lang == 'fr' %}
+    {% assign base_url = '/' %}
+    {% assign base_label = 'GRC.ca' %}
+    {% assign you_are_here = 'Vous êtes ici :' %}
+  {% else %}
+    {% assign base_url = '/' %}
+    {% assign base_label = 'RCMP.ca' %}
+    {% assign you_are_here = 'You are here:' %}
+{% endif %}
 <nav id="wb-bc" property="breadcrumb">
   <h2>{{ you_are_here }}</h2>
   <div class="container">

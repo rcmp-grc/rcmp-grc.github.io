@@ -408,41 +408,37 @@ issued: 2026-05-09
 <script>
 (function () {
   'use strict';
-
-  /* ------------------------------------------------------------------
-     Sample data — 29 fake profiles matching the WET page style
-  ------------------------------------------------------------------ */
-  var PROFILES = [
-    { id:1,  name:'Marcus Dalloway',       file:'21930481', img:'https://dummyimage.com/480x600/222/fff', charges:['Violent offence','Firearms'],         status:'wanted',              province:'bc', gender:'male',   updated:'2026-05-08', views:1420 },
-    { id:2,  name:'Rachel Fontaine',       file:'30847192', img:'https://dummyimage.com/480x600/444/fff', charges:['Drug trafficking'],                   status:'unlawfully-at-large', province:'ab', gender:'female', updated:'2026-05-07', views:980  },
-    { id:3,  name:'Devon Treadwell',       file:'19284730', img:'https://dummyimage.com/480x600/333/fff', charges:['Fraud / financial','Conspiracy'],     status:'canada-wide-warrant', province:'sk', gender:'male',   updated:'2026-05-06', views:741  },
-    { id:4,  name:'Alicia Moreno-Vargas',  file:'28374019', img:'https://dummyimage.com/480x600/111/fff', charges:['Theft / property'],                  status:'wanted',              province:'mb', gender:'female', updated:'2026-05-05', views:610  },
-    { id:5,  name:'Thomas Brierly',        file:'39201847', img:'https://dummyimage.com/480x600/555/fff', charges:['Violent offence'],                   status:'wanted',              province:'ns', gender:'male',   updated:'2026-05-04', views:533  },
-    { id:6,  name:'Sandra Wachtendorf',    file:'10293847', img:'https://dummyimage.com/480x600/666/fff', charges:['Drug trafficking','Firearms'],        status:'wanted',              province:'nb', gender:'female', updated:'2026-05-03', views:498  },
-    { id:7,  name:'Kenji Nakashima',       file:'48201937', img:'https://dummyimage.com/480x600/777/fff', charges:['Fraud / financial'],                  status:'wanted',              province:'bc', gender:'male',   updated:'2026-05-02', views:412  },
-    { id:8,  name:'Louis Bréboeuf',        file:'57839201', img:'https://dummyimage.com/480x600/888/eee', charges:['Violent offence','Assault'],          status:'unlawfully-at-large', province:'ab', gender:'male',   updated:'2026-05-01', views:387  },
-    { id:9,  name:'Priya Sundaram',        file:'67391028', img:'https://dummyimage.com/480x600/999/eee', charges:['Drug trafficking'],                   status:'wanted',              province:'sk', gender:'female', updated:'2026-04-30', views:344  },
-    { id:10, name:'Brett Hollingsworth',   file:'74829103', img:'https://dummyimage.com/480x600/aaa/eee', charges:['Theft / property','Break and enter'], status:'wanted',              province:'mb', gender:'male',   updated:'2026-04-28', views:302  },
-    { id:11, name:'Ingrid Halvorsen',      file:'81920374', img:'https://dummyimage.com/480x600/bbb/eee', charges:['Fraud / financial'],                  status:'canada-wide-warrant', province:'ns', gender:'female', updated:'2026-04-26', views:289  },
-    { id:12, name:'Antoine Beausoleil',    file:'92038471', img:'https://dummyimage.com/480x600/ccc/222', charges:['Violent offence'],                    status:'wanted',              province:'nb', gender:'male',   updated:'2026-04-24', views:265  },
-    { id:13, name:'Fatima Al-Rashidi',     file:'10293821', img:'https://dummyimage.com/480x600/ddd/222', charges:['Drug trafficking','Conspiracy'],      status:'wanted',              province:'bc', gender:'female', updated:'2026-04-22', views:241  },
-    { id:14, name:'Greg Ochieng',          file:'20193847', img:'https://dummyimage.com/480x600/eee/222', charges:['Theft / property'],                  status:'wanted',              province:'ab', gender:'male',   updated:'2026-04-20', views:218  },
-    { id:15, name:'Yvette Lapointe',       file:'30928471', img:'https://dummyimage.com/480x600/111/ccc', charges:['Fraud / financial','Money laundering'],status:'unlawfully-at-large',province:'sk', gender:'female', updated:'2026-04-18', views:197  },
-    { id:16, name:'Rashid Okonkwo',        file:'41092837', img:'https://dummyimage.com/480x600/222/ccc', charges:['Violent offence','Weapons'],          status:'wanted',              province:'mb', gender:'male',   updated:'2026-04-16', views:183  },
-    { id:17, name:'Carla Vandenberg',      file:'51293847', img:'https://dummyimage.com/480x600/333/ccc', charges:['Drug trafficking'],                   status:'canada-wide-warrant', province:'ns', gender:'female', updated:'2026-04-14', views:169  },
-    { id:18, name:'Omar Benali',           file:'61928374', img:'https://dummyimage.com/480x600/444/ccc', charges:['Theft / property'],                  status:'wanted',              province:'nb', gender:'male',   updated:'2026-04-12', views:155  },
-    { id:19, name:'James Whitmore',        file:'72938401', img:'https://dummyimage.com/480x600/555/ccc', charges:['Violent offence','Firearms'],         status:'wanted',              province:'bc', gender:'male',   updated:'2026-04-10', views:143  },
-    { id:20, name:'Sara Pelletier',        file:'83920174', img:'https://dummyimage.com/480x600/666/ccc', charges:['Fraud / financial'],                  status:'unlawfully-at-large', province:'ab', gender:'female', updated:'2026-04-08', views:131  },
-    { id:21, name:'Theo Karsenberg',       file:'91283047', img:'https://dummyimage.com/480x600/777/ccc', charges:['Drug trafficking','Possession'],      status:'wanted',              province:'sk', gender:'male',   updated:'2026-04-06', views:120  },
-    { id:22, name:'Nour El-Din',           file:'12930184', img:'https://dummyimage.com/480x600/888/ccc', charges:['Violent offence'],                    status:'wanted',              province:'mb', gender:'unknown',updated:'2026-04-04', views:110  },
-    { id:23, name:'Patricia Ironwood',     file:'23019384', img:'https://dummyimage.com/480x600/999/ccc', charges:['Theft / property','Conspiracy'],      status:'canada-wide-warrant', province:'bc', gender:'female', updated:'2026-04-02', views:100  },
-    { id:24, name:'Vladimir Strakhov',     file:'34128394', img:'https://dummyimage.com/480x600/aaa/333', charges:['Fraud / financial'],                  status:'wanted',              province:'ab', gender:'male',   updated:'2026-03-30', views:91   },
-    { id:25, name:'Diane Trottier',        file:'45219304', img:'https://dummyimage.com/480x600/bbb/333', charges:['Drug trafficking'],                   status:'wanted',              province:'sk', gender:'female', updated:'2026-03-28', views:83   },
-    { id:26, name:'Hassan Mirpourian',     file:'56320194', img:'https://dummyimage.com/480x600/ccc/333', charges:['Violent offence','Assault'],          status:'wanted',              province:'mb', gender:'male',   updated:'2026-03-26', views:74   },
-    { id:27, name:'Kelly Drummond',        file:'67430294', img:'https://dummyimage.com/480x600/ddd/333', charges:['Theft / property'],                  status:'unlawfully-at-large', province:'ns', gender:'female', updated:'2026-03-24', views:66   },
-    { id:28, name:'Claude Bérubé',         file:'78541304', img:'https://dummyimage.com/480x600/eee/333', charges:['Drug trafficking','Money laundering'],status:'wanted',              province:'nb', gender:'male',   updated:'2026-03-22', views:59   },
-    { id:29, name:'Unknown suspect',       file:'89652414', img:'https://dummyimage.com/480x600/555/333', charges:['Violent offence'],                    status:'wanted',              province:'bc', gender:'unknown',updated:'2026-03-20', views:50   }
-  ];
+var PROFILES = [
+  { id:1,  name:'SpongeBob SquarePants',  file:'21930481', img:'https://dummyimage.com/480x600/000/fff', gender:'male',    updated:'2026-05-08', views:1420 },
+  { id:2,  name:'Sandy Cheeks',           file:'30847192', img:'https://dummyimage.com/480x600/000/fff', gender:'female',  updated:'2026-05-07', views:980  },
+  { id:3,  name:'Patrick Star',           file:'19284730', img:'https://dummyimage.com/480x600/000/fff', gender:'male',    updated:'2026-05-06', views:741  },
+  { id:4,  name:'Pearl Krabs',            file:'28374019', img:'https://dummyimage.com/480x600/000/fff', gender:'female',  updated:'2026-05-05', views:610  },
+  { id:5,  name:'Squidward Tentacles',    file:'39201847', img:'https://dummyimage.com/480x600/000/fff', gender:'male',    updated:'2026-05-04', views:533  },
+  { id:6,  name:'Mrs. Puff',              file:'10293847', img:'https://dummyimage.com/480x600/000/fff', gender:'female',  updated:'2026-05-03', views:498  },
+  { id:7,  name:'Gary the Snail',         file:'48201937', img:'https://dummyimage.com/480x600/000/fff', gender:'male',    updated:'2026-05-02', views:412  },
+  { id:8,  name:'Mr. Krabs',              file:'57839201', img:'https://dummyimage.com/480x600/000/fff', gender:'male',    updated:'2026-05-01', views:387  },
+  { id:9,  name:'Karen Plankton',         file:'67391028', img:'https://dummyimage.com/480x600/000/fff', gender:'female',  updated:'2026-04-30', views:344  },
+  { id:10, name:'Larry the Lobster',      file:'74829103', img:'https://dummyimage.com/480x600/000/fff', gender:'male',    updated:'2026-04-28', views:302  },
+  { id:11, name:'Sandy Cheeks Jr.',       file:'81920374', img:'https://dummyimage.com/480x600/000/fff', gender:'female',  updated:'2026-04-26', views:289  },
+  { id:12, name:'Barnacle Boy',           file:'92038471', img:'https://dummyimage.com/480x600/000/fff', gender:'male',    updated:'2026-04-24', views:265  },
+  { id:13, name:'Mermaid Man',            file:'10293821', img:'https://dummyimage.com/480x600/000/fff', gender:'female',  updated:'2026-04-22', views:241  },
+  { id:14, name:'Plankton',               file:'20193847', img:'https://dummyimage.com/480x600/000/fff', gender:'male',    updated:'2026-04-20', views:218  },
+  { id:15, name:'Squilvia',               file:'30928471', img:'https://dummyimage.com/480x600/000/fff', gender:'female',  updated:'2026-04-18', views:197  },
+  { id:16, name:'Harold SquarePants',     file:'41092837', img:'https://dummyimage.com/480x600/000/fff', gender:'male',    updated:'2026-04-16', views:183  },
+  { id:17, name:'Margaret SquarePants',   file:'51293847', img:'https://dummyimage.com/480x600/000/fff', gender:'female',  updated:'2026-04-14', views:169  },
+  { id:18, name:'Squilliam Fancyson',     file:'61928374', img:'https://dummyimage.com/480x600/000/fff', gender:'male',    updated:'2026-04-12', views:155  },
+  { id:19, name:'Patrick\'s Dad',         file:'72938401', img:'https://dummyimage.com/480x600/000/fff', gender:'male',    updated:'2026-04-10', views:143  },
+  { id:20, name:'Mindy',                  file:'83920174', img:'https://dummyimage.com/480x600/000/fff', gender:'female',  updated:'2026-04-08', views:131  },
+  { id:21, name:'The Flying Dutchman',    file:'91283047', img:'https://dummyimage.com/480x600/000/fff', gender:'male',    updated:'2026-04-06', views:120  },
+  { id:22, name:'DoodleBob',             file:'12930184', img:'https://dummyimage.com/480x600/000/fff', gender:'unknown', updated:'2026-04-04', views:110  },
+  { id:23, name:'Sandy\'s Mom',           file:'23019384', img:'https://dummyimage.com/480x600/000/fff', gender:'female',  updated:'2026-04-02', views:100  },
+  { id:24, name:'Old Man Jenkins',        file:'34128394', img:'https://dummyimage.com/480x600/000/fff', gender:'male',    updated:'2026-03-30', views:91   },
+  { id:25, name:'Bubble Bass',            file:'45219304', img:'https://dummyimage.com/480x600/000/fff', gender:'female',  updated:'2026-03-28', views:83   },
+  { id:26, name:'Flats the Flounder',     file:'56320194', img:'https://dummyimage.com/480x600/000/fff', gender:'male',    updated:'2026-03-26', views:74   },
+  { id:27, name:'Nurse Bazooka',          file:'67430294', img:'https://dummyimage.com/480x600/000/fff', gender:'female',  updated:'2026-03-24', views:66   },
+  { id:28, name:'Fred the Fish',          file:'78541304', img:'https://dummyimage.com/480x600/000/fff', gender:'male',    updated:'2026-03-22', views:59   },
+  { id:29, name:'Mystery the Seahorse',   file:'89652414', img:'https://dummyimage.com/480x600/000/fff', gender:'unknown', updated:'2026-03-20', views:50   }
+];
 
   var PER_PAGE     = 9;
   var currentPage  = 1;

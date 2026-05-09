@@ -7,22 +7,6 @@ lang_url: wanted-recherchees-list-fr.html
 issued: 2026-05-09
 ---
 
----
-
-layout: default
-title: Wanted persons
-date_modified: 2026-05-09
-lang: en
-lang_url: wanted-recherchees-list-fr.html
-issued: 2026-05-09
-lead: Wanted
-breadcrumbs:
-
-- label: Federal Policing
-  url: federal-policing
-
----
-
 <style>
 /* ---------------------------------------------------------------
    Wanted listing page — page-scoped styles

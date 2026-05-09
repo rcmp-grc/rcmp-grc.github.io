@@ -6,6 +6,9 @@ lang: en
 lang_url: wanted-recherchees-fr.html
 issued: 2026-05-08
 lead: Wanted
+breadcrumbs:
+  - label: Wanted
+    url: wantedlist-rechercheesliste-en.html
 ---
 
 <section aria-live="polite" class="alert alert-danger" role="alert">

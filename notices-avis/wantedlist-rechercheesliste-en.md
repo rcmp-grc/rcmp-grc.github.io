@@ -1,5 +1,15 @@
 ---
 layout: default
+title: Wanted
+date_modified: 2026-05-09
+lang: en
+lang_url: wanted-recherchees-list-fr.html
+issued: 2026-05-09
+---
+
+---
+
+layout: default
 title: Wanted persons
 date_modified: 2026-05-09
 lang: en
@@ -7,8 +17,10 @@ lang_url: wanted-recherchees-list-fr.html
 issued: 2026-05-09
 lead: Wanted
 breadcrumbs:
-  - label: Federal Policing
-    url: federal-policing
+
+- label: Federal Policing
+  url: federal-policing
+
 ---
 
 <style>
@@ -101,18 +113,17 @@ breadcrumbs:
   margin: 4px 0;
 }
 .wl-filter-group .checkbox {
-  margin: 6px 0;
+  margin: 0;
 }
 .wl-filter-group .checkbox label {
   font-size: 0.9em;
   color: #0b0c0c;
   display: flex;
-  align-items: flex-start;
-  gap: 10px;
+  align-items: center;
+  gap: 12px;
   cursor: pointer;
   line-height: 1.4;
-  min-height: 40px;
-  padding: 6px 0;
+  padding: 8px 0;
 }
 .wl-filter-group .checkbox input[type="checkbox"] {
   -webkit-appearance: none;
@@ -124,7 +135,6 @@ breadcrumbs:
   background: #fff;
   cursor: pointer;
   flex-shrink: 0;
-  margin-top: 0;
   position: relative;
 }
 .wl-filter-group .checkbox input[type="checkbox"]:focus {
@@ -135,16 +145,13 @@ breadcrumbs:
   content: "";
   display: block;
   position: absolute;
-  top: 3px;
-  left: 9px;
-  width: 14px;
-  height: 22px;
+  top: 4px;
+  left: 10px;
+  width: 13px;
+  height: 20px;
   border: solid #0b0c0c;
   border-width: 0 4px 4px 0;
   transform: rotate(45deg);
-}
-.wl-filter-group .checkbox label span {
-  padding-top: 6px;
 }
 .wl-filter-badge {
   margin-left: auto;
@@ -153,21 +160,6 @@ breadcrumbs:
   font-size: 0.78em;
   padding: 1px 6px;
   border-radius: 20px;
-}
-.wl-clear-filters {
-  display: block;
-  font-size: 0.82em;
-  color: #b50315;
-  text-decoration: underline;
-  cursor: pointer;
-  background: none;
-  border: 0;
-  padding: 10px 14px;
-  width: 100%;
-  text-align: left;
-}
-.wl-clear-filters:hover {
-  color: #7a0010;
 }
 
 /* Profile card grid */
@@ -231,6 +223,7 @@ breadcrumbs:
   aspect-ratio: 4 / 5;
   object-fit: cover;
   display: block;
+  background: #0b0c0c;
 }
 .wl-card-body {
   padding: 10px 12px 12px;
@@ -328,6 +321,7 @@ breadcrumbs:
   gap: 6px;
   margin-bottom: 16px;
   min-height: 0;
+  min-height: 0;
 }
 .wl-filter-tag {
   display: inline-flex;
@@ -375,17 +369,16 @@ breadcrumbs:
       <fieldset class="wl-filter-group">
         <legend>Gender</legend>
         <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="male"><span>Male</span> <span class="wl-filter-badge">20</span></label>
+          <label><input data-filter="gender" type="checkbox" value="male">Male <span class="wl-filter-badge">20</span></label>
         </div>
         <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="female"><span>Female</span> <span class="wl-filter-badge">7</span></label>
+          <label><input data-filter="gender" type="checkbox" value="female">Female <span class="wl-filter-badge">7</span></label>
         </div>
         <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="unknown"><span>Unknown</span> <span class="wl-filter-badge">2</span></label>
+          <label><input data-filter="gender" type="checkbox" value="unknown">Unknown <span class="wl-filter-badge">2</span></label>
         </div>
       </fieldset>
 
-      <button aria-label="Clear all active filters" class="wl-clear-filters" id="wl-clear-btn" type="button">✕ Clear all filters</button>
     </aside>
 
   </div><!-- /sidebar -->
@@ -400,7 +393,7 @@ breadcrumbs:
 
     <!-- Toolbar: count + sort -->
     <div id="wl-toolbar">
-      <p id="wl-count" aria-live="polite"><strong id="wl-count-num">29</strong> wanted persons found</p>
+      <p id="wl-count" aria-live="polite"><strong id="wl-count-num">29</strong>&nbsp;wanted persons found</p>
       <div id="wl-sort">
         <label for="wl-sort-select">Sort by:</label>
         <select aria-label="Sort profiles" id="wl-sort-select">
@@ -413,7 +406,7 @@ breadcrumbs:
 
     <!-- Profile grid -->
     <div aria-label="Wanted persons profiles" id="wl-grid" role="list"></div>
-    <p id="wl-no-results">No profiles match your current filters. <button class="wl-clear-filters" id="wl-no-results-clear" type="button">Clear all filters</button></p>
+    <p id="wl-no-results">No profiles match your current filters.</p>
 
     <!-- Pagination -->
     <nav aria-label="Pagination" class="govuk-pagination govuk-pagination--block" id="wl-pagination">
@@ -493,8 +486,6 @@ breadcrumbs:
   var prevBtn     = document.getElementById('wl-prev');
   var nextBtn     = document.getElementById('wl-next');
   var activeTagsEl= document.getElementById('wl-active-filters');
-  var clearBtn    = document.getElementById('wl-clear-btn');
-  var clearBtn2   = document.getElementById('wl-no-results-clear');
   var checkboxes  = document.querySelectorAll('#wl-filters input[type="checkbox"]');
 
   /* ---- Sorting ---- */
@@ -589,8 +580,8 @@ breadcrumbs:
     if (nextLabel) nextLabel.textContent = (page + 1) + ' of ' + pages;
     prevBtn.disabled = page <= 1;
     nextBtn.disabled = page >= pages;
-    prevBtn.parentElement.style.visibility = page <= 1 ? 'hidden' : 'visible';
-    nextBtn.parentElement.style.visibility = page >= pages ? 'hidden' : 'visible';
+    prevBtn.parentElement.style.display = page <= 1 ? 'none' : 'block';
+    nextBtn.parentElement.style.display = page >= pages ? 'none' : 'block';
   }
 
   /* ---- Master refresh ---- */
@@ -635,12 +626,6 @@ breadcrumbs:
     }
   });
 
-  function clearAll() {
-    checkboxes.forEach(function (cb) { cb.checked = false; });
-    refresh();
-  }
-  clearBtn.addEventListener('click', clearAll);
-  if (clearBtn2) clearBtn2.addEventListener('click', clearAll);
 
   /* ---- Boot ---- */
   refresh();

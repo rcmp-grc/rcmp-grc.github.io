@@ -30,6 +30,7 @@ issued: 2026-05-09
   font-weight: 700;
   display: flex;
   align-items: center;
+  margin-bottom: 0;
 }
 #wl-sort {
   display: flex;

@@ -440,7 +440,7 @@ issued: 2026-05-09
     { id:26, name:'Hassan Mirpourian',     file:'56320194', img:'https://dummyimage.com/480x600/ccc/333', charges:['Violent offence','Assault'],          status:'wanted',              province:'mb', gender:'male',   updated:'2026-03-26', views:74   },
     { id:27, name:'Kelly Drummond',        file:'67430294', img:'https://dummyimage.com/480x600/ddd/333', charges:['Theft / property'],                  status:'unlawfully-at-large', province:'ns', gender:'female', updated:'2026-03-24', views:66   },
     { id:28, name:'Claude Bérubé',         file:'78541304', img:'https://dummyimage.com/480x600/eee/333', charges:['Drug trafficking','Money laundering'],status:'wanted',              province:'nb', gender:'male',   updated:'2026-03-22', views:59   },
-    { id:29, name:'Unknown suspect',       file:'89652414', img:'https://dummyimage.com/480x600/555/555', charges:['Violent offence'],                    status:'wanted',              province:'bc', gender:'unknown',updated:'2026-03-20', views:50   }
+    { id:29, name:'Unknown suspect',       file:'89652414', img:'https://dummyimage.com/480x600/555/333', charges:['Violent offence'],                    status:'wanted',              province:'bc', gender:'unknown',updated:'2026-03-20', views:50   }
   ];
 
   var PER_PAGE     = 9;

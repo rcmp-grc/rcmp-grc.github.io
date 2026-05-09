@@ -20,19 +20,24 @@ breadcrumbs:
 #wl-toolbar {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
   gap: 10px;
   border-bottom: 1px solid #b1b4b6;
   padding-bottom: 12px;
   margin-bottom: 20px;
 }
+#wl-count,
+#wl-sort {
+  display: flex;
+  align-items: center;
+}
 #wl-count {
   font-size: 0.95em;
-  color: #505a5f;
-}
-#wl-count strong {
   color: #0b0c0c;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
 }
 #wl-sort {
   display: flex;
@@ -72,8 +77,7 @@ breadcrumbs:
   color: #fff;
   font-size: 0.88em;
   font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  letter-spacing: 0;
   padding: 10px 14px;
   margin: 0;
 }
@@ -87,8 +91,6 @@ breadcrumbs:
 .wl-filter-group legend {
   font-size: 0.82em;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
   color: #505a5f;
   border: 0;
   padding: 0;
@@ -98,19 +100,51 @@ breadcrumbs:
 .wl-filter-group .checkbox {
   margin: 4px 0;
 }
+.wl-filter-group .checkbox {
+  margin: 6px 0;
+}
 .wl-filter-group .checkbox label {
-  font-size: 0.88em;
+  font-size: 0.9em;
   color: #0b0c0c;
   display: flex;
-  align-items: center;
-  gap: 6px;
+  align-items: flex-start;
+  gap: 10px;
   cursor: pointer;
+  line-height: 1.4;
+  min-height: 40px;
+  padding: 6px 0;
 }
 .wl-filter-group .checkbox input[type="checkbox"] {
-  width: 16px;
-  height: 16px;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 38px;
+  height: 38px;
+  min-width: 38px;
+  border: 2px solid #0b0c0c;
+  background: #fff;
+  cursor: pointer;
   flex-shrink: 0;
-  accent-color: #b50315;
+  margin-top: 0;
+  position: relative;
+}
+.wl-filter-group .checkbox input[type="checkbox"]:focus {
+  outline: 3px solid #fd0;
+  outline-offset: 0;
+}
+.wl-filter-group .checkbox input[type="checkbox"]:checked::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 9px;
+  width: 14px;
+  height: 22px;
+  border: solid #0b0c0c;
+  border-width: 0 4px 4px 0;
+  transform: rotate(45deg);
+}
+.wl-filter-group .checkbox label span {
+  padding-top: 6px;
 }
 .wl-filter-badge {
   margin-left: auto;
@@ -189,7 +223,6 @@ breadcrumbs:
   font-size: 0.72em;
   font-weight: 700;
   letter-spacing: 0.28em;
-  text-transform: uppercase;
   padding: 4px 0 3px;
   margin: 0;
 }
@@ -229,7 +262,10 @@ breadcrumbs:
   gap: 0;
   font-family: inherit;
 }
-.govuk-pagination__prev,
+.govuk-pagination__prev {
+  padding: 0;
+  border-bottom: 1px solid #b1b4b6;
+}
 .govuk-pagination__next {
   padding: 0;
 }
@@ -302,7 +338,6 @@ breadcrumbs:
   font-size: 0.78em;
   font-weight: 700;
   padding: 4px 10px 4px 12px;
-  letter-spacing: 0.02em;
 }
 .wl-filter-tag button {
   background: none;
@@ -340,13 +375,13 @@ breadcrumbs:
       <fieldset class="wl-filter-group">
         <legend>Gender</legend>
         <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="male"> Male <span class="wl-filter-badge">20</span></label>
+          <label><input data-filter="gender" type="checkbox" value="male"><span>Male</span> <span class="wl-filter-badge">20</span></label>
         </div>
         <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="female"> Female <span class="wl-filter-badge">7</span></label>
+          <label><input data-filter="gender" type="checkbox" value="female"><span>Female</span> <span class="wl-filter-badge">7</span></label>
         </div>
         <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="unknown"> Unknown <span class="wl-filter-badge">2</span></label>
+          <label><input data-filter="gender" type="checkbox" value="unknown"><span>Unknown</span> <span class="wl-filter-badge">2</span></label>
         </div>
       </fieldset>
 

@@ -102,14 +102,10 @@ issued: 2026-05-09
   margin: 0;
 }
 .wl-filter-group .checkbox label {
-  font-size: 0.9em;
-  color: #0b0c0c;
   display: flex;
   align-items: center;
   gap: 12px;
   cursor: pointer;
-  line-height: 1.8;
-  padding: 0;
   width: 100%;
   box-sizing: border-box;
   justify-content: space-between;
@@ -152,6 +148,7 @@ issued: 2026-05-09
 }
 .cb-text {
   flex: 1;
+  padding-top: 6px;
 }
 
 /* Profile card grid */
@@ -350,40 +347,25 @@ issued: 2026-05-09
 </style>
 
 <div class="row" id="wl-page">
-
-  <!-- ========================================================
-       Left column — filters
-  ======================================================== -->
   <div class="col-md-3 col-sm-4" id="wl-sidebar">
     <aside aria-labelledby="wl-filters-heading" id="wl-filters">
       <p id="wl-filters-heading">Filter by</p>
-
       <fieldset class="wl-filter-group">
         <legend>Gender</legend>
         <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="male"><span class="cb-text">ale</span><span class="wl-filter-badge">20</span></label>
+          <label><input data-filter="gender" type="checkbox" value="male"><span class="cb-text">male</span><span class="wl-filter-badge">20</span></label>
         </div>
         <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="female"><span class="cb-text">emale</span><span class="wl-filter-badge">7</span></label>
+          <label><input data-filter="gender" type="checkbox" value="female"><span class="cb-text">female</span><span class="wl-filter-badge">7</span></label>
         </div>
         <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="unknown"><span class="cb-text">nknown</span><span class="wl-filter-badge">2</span></label>
+          <label><input data-filter="gender" type="checkbox" value="unknown"><span class="cb-text">unknown</span><span class="wl-filter-badge">2</span></label>
         </div>
       </fieldset>
-
     </aside>
-
-  </div><!-- /sidebar -->
-
-  <!-- ========================================================
-       Right column — results
-  ======================================================== -->
+  </div>
   <div class="col-md-9 col-sm-8" id="wl-results-col">
-
-    <!-- Active filter tags -->
     <div aria-label="Active filters" aria-live="polite" id="wl-active-filters" role="status"></div>
-
-    <!-- Toolbar: count + sort -->
     <div id="wl-toolbar">
       <p id="wl-count" aria-live="polite"><strong id="wl-count-num">29</strong>&nbsp;wanted persons found</p>
       <div id="wl-sort">
@@ -395,12 +377,8 @@ issued: 2026-05-09
         </select>
       </div>
     </div>
-
-    <!-- Profile grid -->
     <div aria-label="Wanted persons profiles" id="wl-grid" role="list"></div>
     <p id="wl-no-results">No profiles match your current filters.</p>
-
-    <!-- Pagination -->
     <nav aria-label="Pagination" class="govuk-pagination govuk-pagination--block" id="wl-pagination">
       <div class="govuk-pagination__prev" id="wl-prev-wrap">
         <button type="button" id="wl-prev" class="govuk-pagination__link" aria-label="Previous page">
@@ -423,9 +401,8 @@ issued: 2026-05-09
         </button>
       </div>
     </nav>
-
-  </div><!-- /results col -->
-</div><!-- /row -->
+  </div>
+</div>
 
 <script>
 (function () {

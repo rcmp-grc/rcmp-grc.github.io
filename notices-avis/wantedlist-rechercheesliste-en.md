@@ -108,8 +108,8 @@ issued: 2026-05-09
   align-items: center;
   gap: 12px;
   cursor: pointer;
-  line-height: 1.4;
-  padding: 8px 0;
+  line-height: 1.8;
+  padding: 0;
   width: 100%;
   box-sizing: border-box;
   justify-content: space-between;

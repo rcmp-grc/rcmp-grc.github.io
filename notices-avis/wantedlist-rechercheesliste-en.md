@@ -3,7 +3,7 @@ layout: default
 title: Wanted persons
 date_modified: 2026-05-09
 lang: en
-lang_url: wantedlist-rechercheesliste-fr.html
+lang_url: wanted-recherchees-list-fr.html
 issued: 2026-05-09
 lead: Wanted
 breadcrumbs:
@@ -217,84 +217,71 @@ breadcrumbs:
   color: #505a5f;
   margin: 0 0 6px;
 }
-.wl-card-charges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.wl-card-charges li {
-  background: #0b0c0c;
-  color: #fff;
-  font-size: 0.68em;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  padding: 2px 7px;
-}
-
-/* Pagination — mimics GOV.UK style via WET nav */
+/* Pagination — GOV.UK block style */
 #wl-pagination {
   margin-top: 28px;
   padding-top: 20px;
   border-top: 1px solid #b1b4b6;
 }
-.wl-pager {
+.govuk-pagination {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 12px;
+  flex-direction: column;
+  gap: 0;
+  font-family: inherit;
 }
-.wl-pager-link {
+.govuk-pagination__prev,
+.govuk-pagination__next {
+  padding: 0;
+}
+.govuk-pagination__link {
   display: inline-flex;
-  align-items: center;
-  gap: 8px;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 1em;
   font-weight: 700;
-  font-size: 0.95em;
   color: #295376;
   text-decoration: underline;
+  padding: 10px 0;
   border: 0;
   background: none;
   cursor: pointer;
-  padding: 6px 0;
+  width: 100%;
 }
-.wl-pager-link:hover,
-.wl-pager-link:focus {
+.govuk-pagination__link:hover,
+.govuk-pagination__link:focus {
   color: #0b0c0c;
   outline: 3px solid #fd0;
   outline-offset: 2px;
-  text-decoration: underline;
-}
-.wl-pager-link .arrow {
-  display: inline-block;
-  width: 0;
-  height: 0;
-}
-.wl-pager-link.prev .arrow {
-  border-top: 7px solid transparent;
-  border-bottom: 7px solid transparent;
-  border-right: 10px solid currentColor;
-}
-.wl-pager-link.next .arrow {
-  border-top: 7px solid transparent;
-  border-bottom: 7px solid transparent;
-  border-left: 10px solid currentColor;
-}
-.wl-pager-title {
-  font-size: 0.75em;
-  font-weight: 400;
-  color: #505a5f;
-  display: block;
+  background: #fd0;
   text-decoration: none;
 }
-.wl-pager-pages {
-  font-size: 0.88em;
-  color: #505a5f;
+.govuk-pagination__icon {
+  flex-shrink: 0;
+  margin-top: 3px;
+  fill: currentColor;
 }
-.wl-pager-pages strong {
+.govuk-pagination__link-title {
+  display: block;
+  font-size: 1em;
+}
+.govuk-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.govuk-pagination__link-label {
+  display: block;
+  font-size: 0.85em;
+  font-weight: 400;
+  color: #505a5f;
+  text-decoration: underline;
+}
+.govuk-pagination__link:hover .govuk-pagination__link-label,
+.govuk-pagination__link:focus .govuk-pagination__link-label {
   color: #0b0c0c;
 }
 
@@ -394,27 +381,26 @@ breadcrumbs:
     <p id="wl-no-results">No profiles match your current filters. <button class="wl-clear-filters" id="wl-no-results-clear" type="button">Clear all filters</button></p>
 
     <!-- Pagination -->
-    <nav aria-label="Pagination" id="wl-pagination">
-      <div class="wl-pager">
-        <span id="wl-prev-wrap">
-          <button aria-label="Previous page" class="wl-pager-link prev" id="wl-prev" type="button">
-            <span aria-hidden="true" class="arrow"></span>
-            <span>
-              <span class="wl-pager-title">Previous</span>
-              page
-            </span>
-          </button>
-        </span>
-        <p class="wl-pager-pages" id="wl-page-indicator">Page <strong>1</strong> of <strong>4</strong></p>
-        <span id="wl-next-wrap">
-          <button aria-label="Next page" class="wl-pager-link next" id="wl-next" type="button">
-            <span>
-              <span class="wl-pager-title">Next</span>
-              page
-            </span>
-            <span aria-hidden="true" class="arrow"></span>
-          </button>
-        </span>
+    <nav aria-label="Pagination" class="govuk-pagination govuk-pagination--block" id="wl-pagination">
+      <div class="govuk-pagination__prev" id="wl-prev-wrap">
+        <button type="button" id="wl-prev" class="govuk-pagination__link" aria-label="Previous page">
+          <svg class="govuk-pagination__icon govuk-pagination__icon--prev" xmlns="http://www.w3.org/2000/svg" height="13" width="15" aria-hidden="true" focusable="false" viewBox="0 0 15 13">
+            <path d="m6.5938-0.0078125-6.7266 6.7266 6.7441 6.4062 1.377-1.449-4.1856-3.9768h12.896v-2h-12.984l4.2931-4.293-1.414-1.414z"></path>
+          </svg>
+          <span class="govuk-pagination__link-title">Previous page</span>
+          <span class="govuk-visually-hidden">:</span>
+          <span class="govuk-pagination__link-label" id="wl-prev-label"></span>
+        </button>
+      </div>
+      <div class="govuk-pagination__next" id="wl-next-wrap">
+        <button type="button" id="wl-next" class="govuk-pagination__link" aria-label="Next page">
+          <svg class="govuk-pagination__icon govuk-pagination__icon--next" xmlns="http://www.w3.org/2000/svg" height="13" width="15" aria-hidden="true" focusable="false" viewBox="0 0 15 13">
+            <path d="m8.107-0.0078125-1.4136 1.414 4.2926 4.293h-12.986v2h12.896l-4.1855 3.9766 1.377 1.4492 6.7441-6.4062-6.7246-6.7266z"></path>
+          </svg>
+          <span class="govuk-pagination__link-title">Next page</span>
+          <span class="govuk-visually-hidden">:</span>
+          <span class="govuk-pagination__link-label" id="wl-next-label"></span>
+        </button>
       </div>
     </nav>
 
@@ -471,7 +457,6 @@ breadcrumbs:
   var sortSel     = document.getElementById('wl-sort-select');
   var prevBtn     = document.getElementById('wl-prev');
   var nextBtn     = document.getElementById('wl-next');
-  var pageInd     = document.getElementById('wl-page-indicator');
   var activeTagsEl= document.getElementById('wl-active-filters');
   var clearBtn    = document.getElementById('wl-clear-btn');
   var clearBtn2   = document.getElementById('wl-no-results-clear');
@@ -549,16 +534,11 @@ breadcrumbs:
       li.setAttribute('role', 'listitem');
       li.innerHTML =
         '<a class="wl-card" href="wanted-recherchees-en.html" aria-label="View profile: ' + p.name + '">' +
-          '<div class="wl-card-stripe">' +
-            '<p class="wl-card-wanted-label">' + statusLabel(p.status) + '</p>' +
-          '</div>' +
           '<img alt="Mugshot of ' + p.name + '" src="' + p.img + '" loading="lazy">' +
           '<div class="wl-card-body">' +
             '<p class="wl-card-name">' + p.name + '</p>' +
-            '<p class="wl-card-meta">File: ' + p.file + ' &nbsp;·&nbsp; Updated: ' + p.updated + '</p>' +
-            '<ul class="wl-card-charges" aria-label="Charges">' +
-              p.charges.map(function(c){ return '<li>' + c + '</li>'; }).join('') +
-            '</ul>' +
+            '<p class="wl-card-meta">File: ' + p.file + '</p>' +
+            '<p class="wl-card-meta">Updated: ' + p.updated + '</p>' +
           '</div>' +
         '</a>';
       grid.appendChild(li);
@@ -568,7 +548,10 @@ breadcrumbs:
   /* ---- Render pagination ---- */
   function renderPagination(total, page) {
     var pages = Math.ceil(total / PER_PAGE);
-    pageInd.innerHTML = 'Page <strong>' + page + '</strong> of <strong>' + Math.max(pages, 1) + '</strong>';
+    var prevLabel = document.getElementById('wl-prev-label');
+    var nextLabel = document.getElementById('wl-next-label');
+    if (prevLabel) prevLabel.textContent = (page - 1) + ' of ' + pages;
+    if (nextLabel) nextLabel.textContent = (page + 1) + ' of ' + pages;
     prevBtn.disabled = page <= 1;
     nextBtn.disabled = page >= pages;
     prevBtn.parentElement.style.visibility = page <= 1 ? 'hidden' : 'visible';

@@ -8,7 +8,7 @@ issued: 2026-05-08
 lead: Personnes recherchées
 breadcrumbs:
   - label: Personnes recherchées
-    url: /notices-avis/wantedlist-rechercheesliste-fr.html
+    url: wantedlist-rechercheesliste-fr.html
 ---
 
 <section aria-live="polite" class="alert alert-danger" role="alert">

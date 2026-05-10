@@ -11,10 +11,8 @@ issued: 2026-05-09
   <div class="col-md-3 col-sm-4" id="wp-sidebar">
     <aside aria-labelledby="wp-filters-heading" id="wp-filters">
       <h2 class="h3" id="wp-filters-heading">Filtrer par</h2>
-      <details class="wp-filter-group" open="">
-        <summary class="wp-filter-group-toggle">
-          <span>Genre</span>
-        </summary>
+      <details class="wp-filter-group">
+        <summary class="wp-filter-group-toggle"><span class="wp-filter-summary-label">Genre</span></summary>
         <fieldset>
           <legend class="wb-inv">Genre</legend>
           <div class="checkbox">
@@ -38,7 +36,8 @@ issued: 2026-05-09
     <div id="wp-toolbar">
       <p aria-live="polite" id="wp-count"><strong id="wp-count-num">29</strong>&nbsp;personnes recherchées trouvées</p>
       <div id="wp-sort">
-        <label for="wp-sort-select">Trier par&nbsp;:</label> <select aria-label="Trier les profils" id="wp-sort-select">
+        <label for="wp-sort-select">Trier par&nbsp;:</label>
+        <select aria-label="Trier les profils" id="wp-sort-select">
           <option value="newest">
             Mise à jour (plus récent)
           </option>

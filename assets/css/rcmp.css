@@ -214,17 +214,21 @@ main {
   text-decoration: none !important;
   color: #0b0c0c !important;
 }
+.wp-filter-group summary:hover span {
+  text-decoration: underline;
+}
 .wp-filter-group summary::-webkit-details-marker {
   display: none;
 }
-.wp-filter-group summary::after {
-  content: "▼";
+.wp-filter-group summary::before {
+  content: "▶";
   font-size: 0.7em;
-  float: right;
-  margin-top: 0.2em;
+  margin-right: 8px;
+  display: inline-block;
+  vertical-align: middle;
 }
-details[open].wp-filter-group summary::after {
-  content: "▲";
+details[open].wp-filter-group summary::before {
+  content: "▼";
 }
 .wp-filter-badge {
   background: #ededed;

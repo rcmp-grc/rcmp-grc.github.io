@@ -11,36 +11,43 @@ issued: 2026-05-09
   <div class="col-md-3 col-sm-4" id="wp-sidebar">
     <aside aria-labelledby="wp-filters-heading" id="wp-filters">
       <h2 class="h3" id="wp-filters-heading">Filter by</h2>
-      <details class="wp-filter-group" open>
-        <summary class="wp-filter-group-toggle"><span>Gender</span></summary>
+      <details class="wp-filter-group" open="">
+        <summary class="wp-filter-group-toggle">
+          <span>Gender</span>
+        </summary>
         <fieldset>
-        <legend class="wb-inv">Gender</legend>
-        <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="male"><span class="cb-text">male</span><span class="wp-filter-badge">20</span></label>
-        </div>
-        <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="female"><span class="cb-text">female</span><span class="wp-filter-badge">7</span></label>
-        </div>
-        <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="other"><span class="cb-text">other</span><span class="wp-filter-badge">0</span></label>
-        </div>
-        <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="unknown"><span class="cb-text">unknown</span><span class="wp-filter-badge">2</span></label>
-        </div>
-      </fieldset>
-    </details>
-  </aside>
+          <legend class="wb-inv">Gender</legend>
+          <div class="checkbox">
+            <label><input data-filter="gender" type="checkbox" value="male"><span class="cb-text">male</span><span class="wp-filter-badge">20</span></label>
+          </div>
+          <div class="checkbox">
+            <label><input data-filter="gender" type="checkbox" value="female"><span class="cb-text">female</span><span class="wp-filter-badge">7</span></label>
+          </div>
+          <div class="checkbox">
+            <label><input data-filter="gender" type="checkbox" value="other"><span class="cb-text">other</span><span class="wp-filter-badge">0</span></label>
+          </div>
+          <div class="checkbox">
+            <label><input data-filter="gender" type="checkbox" value="unknown"><span class="cb-text">unknown</span><span class="wp-filter-badge">2</span></label>
+          </div>
+        </fieldset>
+      </details>
+    </aside>
   </div>
   <div class="col-md-9 col-sm-8" id="wp-results-col">
     <div aria-label="Active filters" aria-live="polite" id="wp-active-filters" role="status"></div>
     <div id="wp-toolbar">
-      <p id="wp-count" aria-live="polite"><strong id="wp-count-num">29</strong>&nbsp;wanted persons found</p>
+      <p aria-live="polite" id="wp-count"><strong id="wp-count-num">29</strong>&nbsp;wanted persons found</p>
       <div id="wp-sort">
-        <label for="wp-sort-select">Sort by:</label>
-        <select aria-label="Sort profiles" id="wp-sort-select">
-          <option value="newest">Updated (newest)</option>
-          <option value="oldest">Updated (oldest)</option>
-          <option value="views">Most viewed</option>
+        <label for="wp-sort-select">Sort by:</label> <select aria-label="Sort profiles" id="wp-sort-select">
+          <option value="newest">
+            Updated (newest)
+          </option>
+          <option value="oldest">
+            Updated (oldest)
+          </option>
+          <option value="views">
+            Most viewed
+          </option>
         </select>
       </div>
     </div>
@@ -48,24 +55,10 @@ issued: 2026-05-09
     <p id="wp-no-results">No profiles match your current filters.</p>
     <nav aria-label="Pagination" class="rcmp-pagination rcmp-pagination--block" id="rcmp-pagination">
       <div class="rcmp-pagination__prev" id="wp-prev-wrap">
-        <button type="button" id="wp-prev" class="rcmp-pagination__link" aria-label="Previous page">
-          <span class="rcmp-pagination__title-row">
-            <i class="rcmp-pagination__icon fa-solid fa-chevron-left" aria-hidden="true"></i>
-            <span class="rcmp-pagination__link-title">Previous page</span>
-          </span>
-          <span class="rcmp-visually-hidden">:</span>
-          <span class="rcmp-pagination__link-label" id="wp-prev-label"></span>
-        </button>
+        <button aria-label="Previous page" class="rcmp-pagination__link" id="wp-prev" type="button"><span class="rcmp-pagination__title-row"><i aria-hidden="true" class="rcmp-pagination__icon fa-solid fa-chevron-left"></i> <span class="rcmp-pagination__link-title">Previous page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-pagination__link-label" id="wp-prev-label"></span></button>
       </div>
       <div class="rcmp-pagination__next" id="wp-next-wrap">
-        <button type="button" id="wp-next" class="rcmp-pagination__link" aria-label="Next page">
-          <span class="rcmp-pagination__title-row">
-            <i class="rcmp-pagination__icon fa-solid fa-chevron-right" aria-hidden="true"></i>
-            <span class="rcmp-pagination__link-title">Next page</span>
-          </span>
-          <span class="rcmp-visually-hidden">:</span>
-          <span class="rcmp-pagination__link-label" id="wp-next-label"></span>
-        </button>
+        <button aria-label="Next page" class="rcmp-pagination__link" id="wp-next" type="button"><span class="rcmp-pagination__title-row"><i aria-hidden="true" class="rcmp-pagination__icon fa-solid fa-chevron-right"></i> <span class="rcmp-pagination__link-title">Next page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-pagination__link-label" id="wp-next-label"></span></button>
       </div>
     </nav>
   </div>

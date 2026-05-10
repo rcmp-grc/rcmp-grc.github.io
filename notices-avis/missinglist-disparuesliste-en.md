@@ -37,7 +37,7 @@ issued: 2026-05-09
   <div class="col-md-9 col-sm-8" id="mp-results-col">
     <div aria-label="Active filters" aria-live="polite" id="mp-active-filters" role="status"></div>
     <div id="wp-toolbar">
-      <p id="wp-count" aria-live="polite"><strong id="mp-count-num">29</strong>&nbsp;missing persons found</p>
+      <p id="wp-count" aria-live="polite"><strong id="mp-count-num">0</strong>&nbsp;missing persons found</p>
       <div id="wp-sort">
         <label for="mp-sort-select">Sort by:</label>
         <select aria-label="Sort profiles" id="mp-sort-select">

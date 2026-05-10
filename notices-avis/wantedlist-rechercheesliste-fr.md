@@ -36,19 +36,13 @@ issued: 2026-05-09
   <div class="col-md-9 col-sm-8" id="wp-results-col">
     <div aria-label="Filtres actifs" aria-live="polite" id="wp-active-filters" role="status"></div>
     <div id="wp-toolbar">
-      <p aria-live="polite" id="wp-count"><strong id="wp-count-num">29</strong>&nbsp;personnes recherchées trouvées</p>
+      <p aria-live="polite" id="wp-count"><strong id="wp-count-num">0</strong>&nbsp;personnes recherchées trouvées</p>
       <div id="wp-sort">
         <label for="wp-sort-select">Trier par&nbsp;:</label>
         <select aria-label="Trier les profils" id="wp-sort-select">
-          <option value="newest">
-            Mise à jour (plus récent)
-          </option>
-          <option value="oldest">
-            Mise à jour (plus ancien)
-          </option>
-          <option value="views">
-            Les plus consultés
-          </option>
+          <option value="newest">Mise à jour (plus récent)</option>
+          <option value="oldest">Mise à jour (plus ancien)</option>
+          <option value="views">Les plus consultés</option>
         </select>
       </div>
     </div>
@@ -56,10 +50,24 @@ issued: 2026-05-09
     <p id="wp-no-results">Aucun profil ne correspond aux filtres sélectionnés.</p>
     <nav aria-label="Pagination" class="rcmp-pagination rcmp-pagination--block" id="rcmp-pagination">
       <div class="rcmp-pagination__prev" id="wp-prev-wrap">
-        <button aria-label="Page précédente" class="rcmp-pagination__link" id="wp-prev" type="button"><span class="rcmp-pagination__title-row"><i aria-hidden="true" class="rcmp-pagination__icon fa-solid fa-chevron-left"></i> <span class="rcmp-pagination__link-title">Page précédente</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-pagination__link-label" id="wp-prev-label"></span></button>
+        <button aria-label="Page précédente" class="rcmp-pagination__link" id="wp-prev" type="button">
+          <span class="rcmp-pagination__title-row">
+            <i aria-hidden="true" class="rcmp-pagination__icon fa-solid fa-chevron-left"></i>
+            <span class="rcmp-pagination__link-title">Page précédente</span>
+          </span>
+          <span class="rcmp-visually-hidden">:</span>
+          <span class="rcmp-pagination__link-label" id="wp-prev-label"></span>
+        </button>
       </div>
       <div class="rcmp-pagination__next" id="wp-next-wrap">
-        <button aria-label="Page suivante" class="rcmp-pagination__link" id="wp-next" type="button"><span class="rcmp-pagination__title-row"><i aria-hidden="true" class="rcmp-pagination__icon fa-solid fa-chevron-right"></i> <span class="rcmp-pagination__link-title">Page suivante</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-pagination__link-label" id="wp-next-label"></span></button>
+        <button aria-label="Page suivante" class="rcmp-pagination__link" id="wp-next" type="button">
+          <span class="rcmp-pagination__title-row">
+            <i aria-hidden="true" class="rcmp-pagination__icon fa-solid fa-chevron-right"></i>
+            <span class="rcmp-pagination__link-title">Page suivante</span>
+          </span>
+          <span class="rcmp-visually-hidden">:</span>
+          <span class="rcmp-pagination__link-label" id="wp-next-label"></span>
+        </button>
       </div>
     </nav>
   </div>

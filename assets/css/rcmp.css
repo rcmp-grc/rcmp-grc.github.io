@@ -90,21 +90,6 @@ main {
   color: #505a5f;
   font-size: 0.9em;
 }
-#mp-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-}
-@media (max-width: 767px) {
-  #mp-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 480px) {
-  #mp-grid {
-    grid-template-columns: 1fr;
-  }
-}
 #mp-filters {
   border: 1px solid #b1b4b6;
   padding: 0;
@@ -308,23 +293,6 @@ details.wp-filter-group[open] {
 }
 .wp-filter-tag button:hover {
   opacity: 1;
-}
-#wp-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-}
-
-@media (max-width: 767px) {
-  #wp-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
-  #wp-grid {
-    grid-template-columns: 1fr;
-  }
 }
 .wp-card {
   display: flex;
@@ -637,6 +605,24 @@ details.wp-filter-group[open] {
 .cnt-wdth-lmtd main h2,
 main .cnt-wdth-lmtd h2 {
   max-width: 45ch;
+}
+#mp-grid,
+#wp-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+@media (max-width: 767px) {
+  #mp-grid,
+  #wp-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  #mp-grid,
+  #wp-grid {
+    grid-template-columns: 1fr;
+  }
 }
 #rcmp-pagination {
   margin-top: 28px;

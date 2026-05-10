@@ -12,7 +12,9 @@ issued: 2026-05-09
     <aside aria-labelledby="wp-filters-heading" id="wp-filters">
       <h2 class="h3" id="wp-filters-heading">Filter by</h2>
       <details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle"><i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">Gender</span></summary>
+        <summary class="wp-filter-group-toggle">
+          <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">Gender</span>
+        </summary>
         <fieldset>
           <legend class="wb-inv">Gender</legend>
           <div class="checkbox">

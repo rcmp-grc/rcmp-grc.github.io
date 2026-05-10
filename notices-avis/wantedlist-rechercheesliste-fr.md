@@ -12,7 +12,9 @@ issued: 2026-05-09
     <aside aria-labelledby="wp-filters-heading" id="wp-filters">
       <h2 class="h3" id="wp-filters-heading">Filtrer par</h2>
       <details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle"><i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">Genre</span></summary>
+        <summary class="wp-filter-group-toggle">
+          <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">Genre</span>
+        </summary>
         <fieldset>
           <legend class="wb-inv">Genre</legend>
           <div class="checkbox">

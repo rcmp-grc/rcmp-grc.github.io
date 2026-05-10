@@ -206,11 +206,14 @@ main {
   font-weight: bold;
   padding: 0.5em 0;
   border-top: 1px solid #b1b4b6;
-  text-decoration: none;
+  text-decoration: none !important;
+  color: #0b0c0c !important;
 }
 .wp-filter-group summary:hover,
-.wp-filter-group summary:focus {
-  text-decoration: none;
+.wp-filter-group summary:focus,
+.wp-filter-group summary:visited {
+  text-decoration: none !important;
+  color: #0b0c0c !important;
 }
 .wp-filter-group summary::-webkit-details-marker {
   display: none;

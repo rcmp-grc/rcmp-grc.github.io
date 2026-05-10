@@ -104,7 +104,6 @@ var PROFILES = [
   var currentPage  = 1;
   var activeData   = PROFILES.slice();
 
-  /* ---- DOM refs ---- */
   var grid        = document.getElementById('wp-grid');
   var countNum    = document.getElementById('wp-count-num');
   var noResults   = document.getElementById('wp-no-results');
@@ -114,7 +113,6 @@ var PROFILES = [
   var activeTagsEl= document.getElementById('wp-active-filters');
   var checkboxes  = document.querySelectorAll('#wp-filters input[type="checkbox"]');
 
-  /* ---- Sorting ---- */
   function sortData(data, mode) {
     return data.slice().sort(function (a, b) {
       if (mode === 'newest') return b.updated.localeCompare(a.updated);
@@ -124,7 +122,6 @@ var PROFILES = [
     });
   }
 
-  /* ---- Filtering ---- */
   function getActiveFilters() {
     var active = { gender:[] };
     checkboxes.forEach(function (cb) {
@@ -139,7 +136,6 @@ var PROFILES = [
     });
   }
 
-  /* ---- Render active filter tags ---- */
   function renderTags(filters) {
     var labels = {
       gender: { male:'Male',female:'Female',unknown:'Unknown' }
@@ -161,7 +157,6 @@ var PROFILES = [
     });
   }
 
-  /* ---- Render grid ---- */
   function statusLabel(s) {
     if (s === 'unlawfully-at-large') return 'Unlawfully at large';
     if (s === 'canada-wide-warrant') return 'Canada-wide warrant';
@@ -197,7 +192,6 @@ var PROFILES = [
     });
   }
 
-  /* ---- Render pagination ---- */
   function renderPagination(total, page) {
     var pages = Math.ceil(total / PER_PAGE);
     var prevLabel = document.getElementById('wp-prev-label');
@@ -210,7 +204,6 @@ var PROFILES = [
     nextBtn.parentElement.style.display = page >= pages ? 'none' : 'block';
   }
 
-  /* ---- Master refresh ---- */
   function refresh() {
     var filters = getActiveFilters();
     var filtered = filterData(filters);
@@ -222,7 +215,6 @@ var PROFILES = [
     renderPagination(activeData.length, currentPage);
   }
 
-  /* ---- Event listeners ---- */
   checkboxes.forEach(function (cb) {
     cb.addEventListener('change', refresh);
   });
@@ -234,12 +226,13 @@ var PROFILES = [
     renderPagination(activeData.length, currentPage);
   });
 
-  prevBtn.addEventListener('click', function () {
+prevBtn.addEventListener('click', function () {
     if (currentPage > 1) {
       currentPage--;
       renderGrid(activeData, currentPage);
       renderPagination(activeData.length, currentPage);
       grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      prevBtn.blur();
     }
   });
 
@@ -249,11 +242,10 @@ var PROFILES = [
       renderGrid(activeData, currentPage);
       renderPagination(activeData.length, currentPage);
       grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      nextBtn.blur();
     }
   });
 
-
-  /* ---- Boot ---- */
   refresh();
 })();
 </script>

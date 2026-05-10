@@ -329,13 +329,11 @@ main {
   margin: 0 0 6px;
 }
 #wp-no-results {
-  width: 100%;
-  display: block;
-  clear: both;
   display: none;
   padding: 32px;
   text-align: center;
   border: 1px dashed #b1b4b6;
+  max-width: initial;
 }
 #wp-photo-col figure {
   margin: 0;

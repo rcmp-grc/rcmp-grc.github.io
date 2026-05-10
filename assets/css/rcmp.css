@@ -638,13 +638,12 @@ main .cnt-wdth-lmtd h2 {
 }
 .rcmp-pagination__prev {
   padding: 0;
-  border-bottom: 1px solid #b1b4b6;
-}
-.rcmp-pagination__prev:last-child {
-  border-bottom: 0;
 }
 .rcmp-pagination__next {
   padding: 0;
+}
+.rcmp-pagination--block:has(.rcmp-pagination__next[style*="block"]) .rcmp-pagination__prev {
+  border-bottom: 1px solid #b1b4b6;
 }
 .rcmp-pagination__link {
   display: inline-flex;

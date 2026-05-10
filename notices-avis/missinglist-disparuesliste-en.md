@@ -49,7 +49,7 @@ issued: 2026-05-09
     </div>
     <div aria-label="Missing persons profiles" id="mp-grid" role="list"></div>
     <p id="mp-no-results">No profiles match your current filters.</p>
-    <nav aria-label="Pagination" class="rcmp-pagination rcmp-pagination--block" id="mp-pagination">
+    <nav aria-label="Pagination" class="rcmp-pagination rcmp-pagination--block" id="rcmp-pagination">
       <div class="rcmp-pagination__prev" id="mp-prev-wrap">
         <button type="button" id="mp-prev" class="rcmp-pagination__link" aria-label="Previous page">
           <span class="rcmp-pagination__title-row">

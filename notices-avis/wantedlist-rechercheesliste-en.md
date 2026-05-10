@@ -73,7 +73,7 @@ issued: 2026-05-09
 
   var I18N = {
     en: {
-      genderLabels: { male: 'Male',     female: 'Female',  unknown: 'Unknown' },
+      genderLabels: { male: 'male',     female: 'female',  unknown: 'unknown' },
       removeFilter: 'Remove filter: ',
       profileHref:  'wanted-recherchees-en.html',
       viewProfile:  'View profile: ',
@@ -83,13 +83,13 @@ issued: 2026-05-09
       ofPages:      ' of '
     },
     fr: {
-      genderLabels: { male: 'Masculin', female: 'Féminin', unknown: 'Inconnu' },
-      removeFilter: 'Retirer le filtre : ',
+      genderLabels: { male: 'homme', female: 'Femme', unknown: 'inconnu' },
+      removeFilter: 'Retirer le filtre&nbps;: ',
       profileHref:  'wanted-recherchees-fr.html',
-      viewProfile:  'Voir le profil : ',
+      viewProfile:  'Voir le profil&nbps;: ',
       mugshot:      'Photo judiciaire de ',
-      fileNumber:   'Numéro de dossier : ',
-      updated:      'Mise à jour : ',
+      fileNumber:   'Numéro de dossier&nbps;: ',
+      updated:      'Mise à jour&nbps;: ',
       ofPages:      ' sur '
     }
   };
@@ -100,7 +100,7 @@ issued: 2026-05-09
 
   // [nameEN, nameFR, file, gender, updated, views]
   var RAW = [
-    ['SpongeBob SquarePants',  "Bob l’éponge",          '21930481', 'male',    '2026-05-08', 1420],
+    ['SpongeBob SquarePants',  "Bob l'éponge",          '21930481', 'male',    '2026-05-08', 1420],
     ['Sandy Cheeks',           'Sandy Écureuil',         '30847192', 'female',  '2026-05-07', 980 ],
     ['Patrick Star',           'Patrick Étoile',         '19284730', 'male',    '2026-05-06', 741 ],
     ['Pearl Krabs',            'Perle Krabs',            '28374019', 'female',  '2026-05-05', 610 ],
@@ -111,8 +111,8 @@ issued: 2026-05-09
     ['Karen Plankton',         'Karen',                  '67391028', 'female',  '2026-04-30', 344 ],
     ['Larry the Lobster',      'Larry le Homard',        '74829103', 'male',    '2026-04-28', 302 ],
     ['Sandy Cheeks Jr.',       'Sandy Écureuil Jr.',     '81920374', 'female',  '2026-04-26', 289 ],
-    ['Barnacle Boy',           "Bernard l’Hermite",    '92038471', 'male',    '2026-04-24', 265 ],
-    ['Mermaid Man',            "L’Homme Sirène",       '10293821', 'male',    '2026-04-22', 241 ],
+    ['Barnacle Boy',           "Bernard l'Hermite",    '92038471', 'male',    '2026-04-24', 265 ],
+    ['Mermaid Man',            "L'Homme Sirène",       '10293821', 'male',    '2026-04-22', 241 ],
     ['Plankton',               'Plankton',               '20193847', 'male',    '2026-04-20', 218 ],
     ['Squilvia',               'Squilvia',               '30928471', 'female',  '2026-04-18', 197 ],
     ['Harold SquarePants',     'Harold SquarePants',     '41092837', 'male',    '2026-04-16', 183 ],
@@ -125,10 +125,10 @@ issued: 2026-05-09
     ["Sandy's Mom",            'La mère de Sandy',       '23019384', 'female',  '2026-04-02', 100 ],
     ['Old Man Jenkins',        'Vieux Jenkins',          '34128394', 'male',    '2026-03-30', 91  ],
     ['Bubble Bass',            'Bubble Bass',            '45219304', 'male',    '2026-03-28', 83  ],
-    ['Flats the Flounder',     "Flats l’Achigan",      '56320194', 'male',    '2026-03-26', 74  ],
+    ['Flats the Flounder',     "Flats l'Achigan",      '56320194', 'male',    '2026-03-26', 74  ],
     ['Nurse Bazooka',          'Infirmière Bazooka',     '67430294', 'female',  '2026-03-24', 66  ],
     ['Fred the Fish',          'Fred le Poisson',        '78541304', 'male',    '2026-03-22', 59  ],
-    ['Mystery the Seahorse',   "Mystère l’Hippocampe", '89652414', 'unknown', '2026-03-20', 50  ]
+    ['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'unknown', '2026-03-20', 50  ]
   ];
 
   var PROFILES = RAW.map(function (r, i) {

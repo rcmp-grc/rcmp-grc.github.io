@@ -199,10 +199,6 @@ main {
   flex-shrink: 0;
   position: relative;
 }
-.wp-filter-group .checkbox input[type="checkbox"]:focus {
-  outline: 3px solid #fd0;
-  outline-offset: 0;
-}
 .wp-filter-group .checkbox input[type="checkbox"]:checked::after {
   content: "";
   display: block;
@@ -290,8 +286,6 @@ main {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
   text-decoration: none;
   color: inherit;
-  outline: 3px solid #fd0;
-  outline-offset: 2px;
 }
 .wp-card-stripe,
 #wp-photo-col .wp-wanted-frame {
@@ -608,8 +602,9 @@ main .cnt-wdth-lmtd h2 {
 }
 .rcmp-pagination__link {
   display: inline-flex;
+  flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
+  gap: 0;
   font-size: 1em;
   font-weight: 700;
   color: #295376;
@@ -623,15 +618,19 @@ main .cnt-wdth-lmtd h2 {
 .rcmp-pagination__link:hover,
 .rcmp-pagination__link:focus {
   color: #0b0c0c;
-  outline: 3px solid #fd0;
+  outline: 3px solid #d0d0d0;
   outline-offset: 2px;
-  background: #fd0;
+  background: #e8e8e8;
   text-decoration: none;
+}
+.rcmp-pagination__title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .rcmp-pagination__icon {
   flex-shrink: 0;
-  margin-top: 3px;
-  fill: currentColor;
+  font-size: 1.1em;
 }
 .rcmp-pagination__link-title {
   display: block;
@@ -643,6 +642,7 @@ main .cnt-wdth-lmtd h2 {
   font-weight: 400;
   color: #505a5f;
   text-decoration: underline;
+  padding-left: 26px;
 }
 .rcmp-pagination__link:hover .rcmp-pagination__link-label,
 .rcmp-pagination__link:focus .rcmp-pagination__link-label {

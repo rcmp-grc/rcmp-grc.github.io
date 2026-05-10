@@ -43,20 +43,20 @@ issued: 2026-05-09
     <nav aria-label="Pagination" class="rcmp-pagination rcmp-pagination--block" id="rcmp-pagination">
       <div class="rcmp-pagination__prev" id="wp-prev-wrap">
         <button type="button" id="wp-prev" class="rcmp-pagination__link" aria-label="Previous page">
-          <svg class="rcmp-pagination__icon rcmp-pagination__icon--prev" xmlns="http://www.w3.org/2000/svg" height="13" width="15" aria-hidden="true" focusable="false" viewBox="0 0 15 13">
-            <path d="m6.5938-0.0078125-6.7266 6.7266 6.7441 6.4062 1.377-1.449-4.1856-3.9768h12.896v-2h-12.984l4.2931-4.293-1.414-1.414z"></path>
-          </svg>
-          <span class="rcmp-pagination__link-title">Previous page</span>
+          <div class="rcmp-pagination__title-row">
+            <i class="rcmp-pagination__icon fa-solid fa-chevron-left" aria-hidden="true"></i>
+            <span class="rcmp-pagination__link-title">Previous page</span>
+          </div>
           <span class="rcmp-visually-hidden">:</span>
           <span class="rcmp-pagination__link-label" id="wp-prev-label"></span>
         </button>
       </div>
       <div class="rcmp-pagination__next" id="wp-next-wrap">
         <button type="button" id="wp-next" class="rcmp-pagination__link" aria-label="Next page">
-          <svg class="rcmp-pagination__icon rcmp-pagination__icon--next" xmlns="http://www.w3.org/2000/svg" height="13" width="15" aria-hidden="true" focusable="false" viewBox="0 0 15 13">
-            <path d="m8.107-0.0078125-1.4136 1.414 4.2926 4.293h-12.986v2h12.896l-4.1855 3.9766 1.377 1.4492 6.7441-6.4062-6.7246-6.7266z"></path>
-          </svg>
-          <span class="rcmp-pagination__link-title">Next page</span>
+          <div class="rcmp-pagination__title-row">
+            <i class="rcmp-pagination__icon fa-solid fa-chevron-right" aria-hidden="true"></i>
+            <span class="rcmp-pagination__link-title">Next page</span>
+          </div>
           <span class="rcmp-visually-hidden">:</span>
           <span class="rcmp-pagination__link-label" id="wp-next-label"></span>
         </button>

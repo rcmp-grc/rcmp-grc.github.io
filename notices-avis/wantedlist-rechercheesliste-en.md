@@ -3,7 +3,7 @@ layout: default
 title: Wanted
 date_modified: 2026-05-09
 lang: en
-lang_url: wanted-recherchees-list-fr.html
+lang_url: wantedlist-rechercheesliste-fr.html
 issued: 2026-05-09
 ---
 

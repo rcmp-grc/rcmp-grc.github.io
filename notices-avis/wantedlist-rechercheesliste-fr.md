@@ -3,7 +3,7 @@ layout: default
 title: Personnes recherchées
 date_modified: 2026-05-09
 lang: fr
-lang_url: wanted-recherchees-list-en.html
+lang_url: wantedlist-rechercheesliste-en.html
 issued: 2026-05-09
 ---
 

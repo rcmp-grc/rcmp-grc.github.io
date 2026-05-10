@@ -10,9 +10,11 @@ issued: 2026-05-09
 <div class="row" id="wp-page">
   <div class="col-md-3 col-sm-4" id="wp-sidebar">
     <aside aria-labelledby="wp-filters-heading" id="wp-filters">
-      <p id="wp-filters-heading">Filter by</p>
-      <fieldset class="wp-filter-group">
-        <legend>Gender</legend>
+      <h2 class="h3" id="wp-filters-heading">Filter by</h2>
+      <details class="wp-filter-group" open>
+        <summary class="wp-filter-group-toggle"><span>Gender</span></summary>
+        <fieldset>
+        <legend class="wb-inv">Gender</legend>
         <div class="checkbox">
           <label><input data-filter="gender" type="checkbox" value="male"><span class="cb-text">male</span><span class="wp-filter-badge">20</span></label>
         </div>
@@ -26,7 +28,8 @@ issued: 2026-05-09
           <label><input data-filter="gender" type="checkbox" value="unknown"><span class="cb-text">unknown</span><span class="wp-filter-badge">2</span></label>
         </div>
       </fieldset>
-    </aside>
+    </details>
+  </aside>
   </div>
   <div class="col-md-9 col-sm-8" id="wp-results-col">
     <div aria-label="Active filters" aria-live="polite" id="wp-active-filters" role="status"></div>

@@ -7,398 +7,58 @@ lang_url: wanted-recherchees-list-fr.html
 issued: 2026-05-09
 ---
 
-<style>
-/* Result count + sort bar */
-#wl-toolbar {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-  justify-content: space-between;
-  gap: 10px;
-  border-bottom: 1px solid #b1b4b6;
-  padding-bottom: 12px;
-  margin-bottom: 20px;
-}
-#wl-count,
-#wl-sort {
-  display: flex;
-  align-items: center;
-}
-#wl-count {
-  font-size: 0.95em;
-  color: #0b0c0c;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  margin-bottom: 0;
-}
-#wl-sort {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-#wl-sort label {
-  font-size: 0.88em;
-  font-weight: 700;
-  color: #0b0c0c;
-  margin: 0;
-  white-space: nowrap;
-}
-#wl-sort select {
-  font-size: 0.88em;
-  padding: 5px 32px 5px 10px;
-  border: 2px solid #0b0c0c;
-  border-radius: 0;
-  background: #fff;
-  -webkit-appearance: none;
-  appearance: none;
-  cursor: pointer;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%230b0c0c' d='M0 0l6 8 6-8z'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right 10px center;
-}
-
-/* Filter sidebar */
-#wl-filters {
-  border: 1px solid #b1b4b6;
-  padding: 0;
-  margin-bottom: 20px;
-  overflow: hidden;
-  width: 100%;
-  box-sizing: border-box;
-}
-#wl-filters-heading {
-  background: #0b0c0c;
-  color: #fff;
-  font-size: 0.88em;
-  font-weight: 700;
-  letter-spacing: 0;
-  padding: 10px 14px;
-  margin: 0;
-}
-.wl-filter-group {
-  border-bottom: 1px solid #b1b4b6;
-  padding: 14px;
-  overflow: hidden;
-  box-sizing: border-box;
-  width: 100%;
-}
-.wl-filter-group:last-child {
-  border-bottom: 0;
-}
-.wl-filter-group legend {
-  font-size: 0.82em;
-  font-weight: 700;
-  color: #505a5f;
-  border: 0;
-  padding: 0;
-  margin-bottom: 8px;
-  width: 100%;
-}
-.wl-filter-group .checkbox {
-  margin: 4px 0;
-}
-.wl-filter-group .checkbox {
-  margin: 0;
-}
-.wl-filter-group .checkbox label {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  cursor: pointer;
-  width: 100%;
-  box-sizing: border-box;
-  justify-content: space-between;
-}
-.wl-filter-group .checkbox input[type="checkbox"] {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 28px;
-  height: 28px;
-  min-width: 28px;
-  border: 2px solid #0b0c0c;
-  background: #fff;
-  cursor: pointer;
-  flex-shrink: 0;
-  position: relative;
-}
-.wl-filter-group .checkbox input[type="checkbox"]:focus {
-  outline: 3px solid #fd0;
-  outline-offset: 0;
-}
-.wl-filter-group .checkbox input[type="checkbox"]:checked::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 3px;
-  left: 7px;
-  width: 10px;
-  height: 16px;
-  border: solid #0b0c0c;
-  border-width: 0 3px 3px 0;
-  transform: rotate(45deg);
-}
-.wl-filter-badge {
-  background: #ededed;
-  color: #505a5f;
-  font-size: 0.78em;
-  padding: 1px 6px;
-  border-radius: 20px;
-  flex-shrink: 0;
-}
-.cb-text {
-  flex: 1;
-  padding-top: 6px;
-}
-
-/* Profile card grid */
-#wl-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-}
-@media (max-width: 767px) {
-  #wl-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 480px) {
-  #wl-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* Individual profile card */
-.wl-card {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #b1b4b6;
-  text-decoration: none;
-  color: inherit;
-  background: #fff;
-  transition: box-shadow 0.15s ease, border-color 0.15s ease;
-}
-.wl-card:hover,
-.wl-card:focus {
-  border-color: #0b0c0c;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
-  text-decoration: none;
-  color: inherit;
-  outline: 3px solid #fd0;
-  outline-offset: 2px;
-}
-
-/* Wanted stripe header on each card */
-.wl-card-stripe {
-  background: repeating-linear-gradient(
-    -45deg,
-    #f5d000 0px, #f5d000 8px,
-    #0b0c0c 8px, #0b0c0c 16px
-  );
-  padding: 6px;
-}
-.wl-card-wanted-label {
-  background: #0b0c0c;
-  color: #f5d000;
-  text-align: center;
-  font-size: 0.72em;
-  font-weight: 700;
-  letter-spacing: 0.28em;
-  padding: 4px 0 3px;
-  margin: 0;
-}
-.wl-card img {
-  width: 100%;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  display: block;
-  background: #0b0c0c;
-}
-.wl-card-body {
-  padding: 10px 12px 12px;
-  flex: 1;
-  border-top: 1px solid #b1b4b6;
-  background: #f3f2f1;
-}
-.wl-card-name {
-  font-size: 0.92em;
-  font-weight: 700;
-  color: #0b0c0c;
-  margin: 0 0 4px;
-  line-height: 1.3;
-}
-.wl-card-meta {
-  font-size: 0.78em;
-  color: #505a5f;
-  margin: 0 0 6px;
-}
-/* Pagination — GOV.UK block style */
-#wl-pagination {
-  margin-top: 28px;
-  padding-top: 20px;
-  border-top: 1px solid #b1b4b6;
-}
-.govuk-pagination {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  font-family: inherit;
-}
-.govuk-pagination__prev {
-  padding: 0;
-  border-bottom: 1px solid #b1b4b6;
-}
-.govuk-pagination__next {
-  padding: 0;
-}
-.govuk-pagination__link {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 10px;
-  font-size: 1em;
-  font-weight: 700;
-  color: #295376;
-  text-decoration: underline;
-  padding: 10px 0;
-  border: 0;
-  background: none;
-  cursor: pointer;
-  width: 100%;
-}
-.govuk-pagination__link:hover,
-.govuk-pagination__link:focus {
-  color: #0b0c0c;
-  outline: 3px solid #fd0;
-  outline-offset: 2px;
-  background: #fd0;
-  text-decoration: none;
-}
-.govuk-pagination__icon {
-  flex-shrink: 0;
-  margin-top: 3px;
-  fill: currentColor;
-}
-.govuk-pagination__link-title {
-  display: block;
-  font-size: 1em;
-}
-.govuk-visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  white-space: nowrap;
-}
-.govuk-pagination__link-label {
-  display: block;
-  font-size: 0.85em;
-  font-weight: 400;
-  color: #505a5f;
-  text-decoration: underline;
-}
-.govuk-pagination__link:hover .govuk-pagination__link-label,
-.govuk-pagination__link:focus .govuk-pagination__link-label {
-  color: #0b0c0c;
-}
-
-/* Active filters display */
-#wl-active-filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-bottom: 16px;
-  min-height: 0;
-  min-height: 0;
-}
-.wl-filter-tag {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background: #0b0c0c;
-  color: #fff;
-  font-size: 0.78em;
-  font-weight: 700;
-  padding: 4px 10px 4px 12px;
-}
-.wl-filter-tag button {
-  background: none;
-  border: 0;
-  color: #fff;
-  font-size: 1em;
-  cursor: pointer;
-  padding: 0;
-  line-height: 1;
-  opacity: 0.7;
-}
-.wl-filter-tag button:hover {
-  opacity: 1;
-}
-
-/* No results */
-#wl-no-results {
-  display: none;
-  padding: 32px;
-  text-align: center;
-  border: 1px dashed #b1b4b6;
-  color: #505a5f;
-}
-</style>
-
-<div class="row" id="wl-page">
-  <div class="col-md-3 col-sm-4" id="wl-sidebar">
-    <aside aria-labelledby="wl-filters-heading" id="wl-filters">
-      <p id="wl-filters-heading">Filter by</p>
-      <fieldset class="wl-filter-group">
+<div class="row" id="wp-page">
+  <div class="col-md-3 col-sm-4" id="wp-sidebar">
+    <aside aria-labelledby="wp-filters-heading" id="wp-filters">
+      <p id="wp-filters-heading">Filter by</p>
+      <fieldset class="wp-filter-group">
         <legend>Gender</legend>
         <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="male"><span class="cb-text">male</span><span class="wl-filter-badge">20</span></label>
+          <label><input data-filter="gender" type="checkbox" value="male"><span class="cb-text">male</span><span class="wp-filter-badge">20</span></label>
         </div>
         <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="female"><span class="cb-text">female</span><span class="wl-filter-badge">7</span></label>
+          <label><input data-filter="gender" type="checkbox" value="female"><span class="cb-text">female</span><span class="wp-filter-badge">7</span></label>
         </div>
         <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="unknown"><span class="cb-text">unknown</span><span class="wl-filter-badge">2</span></label>
+          <label><input data-filter="gender" type="checkbox" value="unknown"><span class="cb-text">unknown</span><span class="wp-filter-badge">2</span></label>
         </div>
       </fieldset>
     </aside>
   </div>
-  <div class="col-md-9 col-sm-8" id="wl-results-col">
-    <div aria-label="Active filters" aria-live="polite" id="wl-active-filters" role="status"></div>
-    <div id="wl-toolbar">
-      <p id="wl-count" aria-live="polite"><strong id="wl-count-num">29</strong>&nbsp;wanted persons found</p>
-      <div id="wl-sort">
-        <label for="wl-sort-select">Sort by:</label>
-        <select aria-label="Sort profiles" id="wl-sort-select">
+  <div class="col-md-9 col-sm-8" id="wp-results-col">
+    <div aria-label="Active filters" aria-live="polite" id="wp-active-filters" role="status"></div>
+    <div id="wp-toolbar">
+      <p id="wp-count" aria-live="polite"><strong id="wp-count-num">29</strong>&nbsp;wanted persons found</p>
+      <div id="wp-sort">
+        <label for="wp-sort-select">Sort by:</label>
+        <select aria-label="Sort profiles" id="wp-sort-select">
           <option value="newest">Updated (newest)</option>
           <option value="oldest">Updated (oldest)</option>
           <option value="views">Most viewed</option>
         </select>
       </div>
     </div>
-    <div aria-label="Wanted persons profiles" id="wl-grid" role="list"></div>
-    <p id="wl-no-results">No profiles match your current filters.</p>
-    <nav aria-label="Pagination" class="govuk-pagination govuk-pagination--block" id="wl-pagination">
-      <div class="govuk-pagination__prev" id="wl-prev-wrap">
-        <button type="button" id="wl-prev" class="govuk-pagination__link" aria-label="Previous page">
-          <svg class="govuk-pagination__icon govuk-pagination__icon--prev" xmlns="http://www.w3.org/2000/svg" height="13" width="15" aria-hidden="true" focusable="false" viewBox="0 0 15 13">
+    <div aria-label="Wanted persons profiles" id="wp-grid" role="list"></div>
+    <p id="wp-no-results">No profiles match your current filters.</p>
+    <nav aria-label="Pagination" class="rcmp-pagination rcmp-pagination--block" id="rcmp-pagination">
+      <div class="rcmp-pagination__prev" id="wp-prev-wrap">
+        <button type="button" id="wp-prev" class="rcmp-pagination__link" aria-label="Previous page">
+          <svg class="rcmp-pagination__icon rcmp-pagination__icon--prev" xmlns="http://www.w3.org/2000/svg" height="13" width="15" aria-hidden="true" focusable="false" viewBox="0 0 15 13">
             <path d="m6.5938-0.0078125-6.7266 6.7266 6.7441 6.4062 1.377-1.449-4.1856-3.9768h12.896v-2h-12.984l4.2931-4.293-1.414-1.414z"></path>
           </svg>
-          <span class="govuk-pagination__link-title">Previous page</span>
-          <span class="govuk-visually-hidden">:</span>
-          <span class="govuk-pagination__link-label" id="wl-prev-label"></span>
+          <span class="rcmp-pagination__link-title">Previous page</span>
+          <span class="rcmp-visually-hidden">:</span>
+          <span class="rcmp-pagination__link-label" id="wp-prev-label"></span>
         </button>
       </div>
-      <div class="govuk-pagination__next" id="wl-next-wrap">
-        <button type="button" id="wl-next" class="govuk-pagination__link" aria-label="Next page">
-          <svg class="govuk-pagination__icon govuk-pagination__icon--next" xmlns="http://www.w3.org/2000/svg" height="13" width="15" aria-hidden="true" focusable="false" viewBox="0 0 15 13">
+      <div class="rcmp-pagination__next" id="wp-next-wrap">
+        <button type="button" id="wp-next" class="rcmp-pagination__link" aria-label="Next page">
+          <svg class="rcmp-pagination__icon rcmp-pagination__icon--next" xmlns="http://www.w3.org/2000/svg" height="13" width="15" aria-hidden="true" focusable="false" viewBox="0 0 15 13">
             <path d="m8.107-0.0078125-1.4136 1.414 4.2926 4.293h-12.986v2h12.896l-4.1855 3.9766 1.377 1.4492 6.7441-6.4062-6.7246-6.7266z"></path>
           </svg>
-          <span class="govuk-pagination__link-title">Next page</span>
-          <span class="govuk-visually-hidden">:</span>
-          <span class="govuk-pagination__link-label" id="wl-next-label"></span>
+          <span class="rcmp-pagination__link-title">Next page</span>
+          <span class="rcmp-visually-hidden">:</span>
+          <span class="rcmp-pagination__link-label" id="wp-next-label"></span>
         </button>
       </div>
     </nav>
@@ -445,14 +105,14 @@ var PROFILES = [
   var activeData   = PROFILES.slice();
 
   /* ---- DOM refs ---- */
-  var grid        = document.getElementById('wl-grid');
-  var countNum    = document.getElementById('wl-count-num');
-  var noResults   = document.getElementById('wl-no-results');
-  var sortSel     = document.getElementById('wl-sort-select');
-  var prevBtn     = document.getElementById('wl-prev');
-  var nextBtn     = document.getElementById('wl-next');
-  var activeTagsEl= document.getElementById('wl-active-filters');
-  var checkboxes  = document.querySelectorAll('#wl-filters input[type="checkbox"]');
+  var grid        = document.getElementById('wp-grid');
+  var countNum    = document.getElementById('wp-count-num');
+  var noResults   = document.getElementById('wp-no-results');
+  var sortSel     = document.getElementById('wp-sort-select');
+  var prevBtn     = document.getElementById('wp-prev');
+  var nextBtn     = document.getElementById('wp-next');
+  var activeTagsEl= document.getElementById('wp-active-filters');
+  var checkboxes  = document.querySelectorAll('#wp-filters input[type="checkbox"]');
 
   /* ---- Sorting ---- */
   function sortData(data, mode) {
@@ -490,7 +150,7 @@ var PROFILES = [
       filters[cat].forEach(function (val) {
         any = true;
         var tag  = document.createElement('span');
-        tag.className = 'wl-filter-tag';
+        tag.className = 'wp-filter-tag';
         tag.innerHTML = (labels[cat][val] || val) + ' <button type="button" aria-label="Remove filter: ' + (labels[cat][val] || val) + '">✕</button>';
         tag.querySelector('button').addEventListener('click', function () {
           var cb = document.querySelector('input[data-filter="' + cat + '"][value="' + val + '"]');
@@ -515,22 +175,22 @@ var PROFILES = [
 
     if (!slice.length) {
       noResults.style.display = 'block';
-      document.getElementById('wl-pagination').style.display = 'none';
+      document.getElementById('rcmp-pagination').style.display = 'none';
       return;
     }
     noResults.style.display = 'none';
-    document.getElementById('wl-pagination').style.display = 'block';
+    document.getElementById('rcmp-pagination').style.display = 'block';
 
     slice.forEach(function (p) {
       var li = document.createElement('div');
       li.setAttribute('role', 'listitem');
       li.innerHTML =
-        '<a class="wl-card" href="wanted-recherchees-en.html" aria-label="View profile: ' + p.name + '">' +
+        '<a class="wp-card" href="wanted-recherchees-en.html" aria-label="View profile: ' + p.name + '">' +
           '<img alt="Mugshot of ' + p.name + '" src="' + p.img + '" loading="lazy">' +
-          '<div class="wl-card-body">' +
-            '<p class="wl-card-name">' + p.name + '</p>' +
-            '<p class="wl-card-meta">File number: ' + p.file + '</p>' +
-            '<p class="wl-card-meta">Updated: ' + p.updated + '</p>' +
+          '<div class="wp-card-body">' +
+            '<p class="wp-card-name">' + p.name + '</p>' +
+            '<p class="wp-card-meta">File number: ' + p.file + '</p>' +
+            '<p class="wp-card-meta">Updated: ' + p.updated + '</p>' +
           '</div>' +
         '</a>';
       grid.appendChild(li);
@@ -540,8 +200,8 @@ var PROFILES = [
   /* ---- Render pagination ---- */
   function renderPagination(total, page) {
     var pages = Math.ceil(total / PER_PAGE);
-    var prevLabel = document.getElementById('wl-prev-label');
-    var nextLabel = document.getElementById('wl-next-label');
+    var prevLabel = document.getElementById('wp-prev-label');
+    var nextLabel = document.getElementById('wp-next-label');
     if (prevLabel) prevLabel.textContent = (page - 1) + ' of ' + pages;
     if (nextLabel) nextLabel.textContent = (page + 1) + ' of ' + pages;
     prevBtn.disabled = page <= 1;

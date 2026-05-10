@@ -203,17 +203,10 @@ main {
   list-style: none;
   font-weight: bold;
   padding: 0.5em 0;
-  text-decoration: none !important;
-  color: #0b0c0c !important;
+  text-decoration: none;
   border: 0;
   border-radius: 0;
   text-indent: 0;
-}
-.wp-filter-group summary:hover,
-.wp-filter-group summary:focus,
-.wp-filter-group summary:visited {
-  text-decoration: none !important;
-  color: #0b0c0c !important;
 }
 .wp-filter-group summary:hover span {
   text-decoration: underline;

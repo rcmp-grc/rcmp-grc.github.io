@@ -605,9 +605,7 @@ main .cnt-wdth-lmtd h2 {
   flex-direction: column;
   align-items: flex-start;
   gap: 0;
-  font-size: 1em;
   font-weight: 700;
-  color: #295376;
   text-decoration: underline;
   padding: 10px 0;
   border: 0;
@@ -618,8 +616,6 @@ main .cnt-wdth-lmtd h2 {
 .rcmp-pagination__link:hover,
 .rcmp-pagination__link:focus {
   color: #0b0c0c;
-  outline: 3px solid #d0d0d0;
-  outline-offset: 2px;
   background: #e8e8e8;
   text-decoration: none;
 }
@@ -638,15 +634,8 @@ main .cnt-wdth-lmtd h2 {
 }
 .rcmp-pagination__link-label {
   display: block;
-  font-size: 0.85em;
   font-weight: 400;
-  color: #505a5f;
-  text-decoration: underline;
   padding-left: 26px;
-}
-.rcmp-pagination__link:hover .rcmp-pagination__link-label,
-.rcmp-pagination__link:focus .rcmp-pagination__link-label {
-  color: #0b0c0c;
 }
 .rcmp-visually-hidden {
   position: absolute;

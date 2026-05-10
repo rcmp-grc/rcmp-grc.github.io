@@ -265,6 +265,7 @@ details.wp-filter-group[open] {
   flex: 1;
   padding-top: 6px;
 }
+#mp-active-filters,
 #wp-active-filters {
   display: flex;
   flex-wrap: wrap;

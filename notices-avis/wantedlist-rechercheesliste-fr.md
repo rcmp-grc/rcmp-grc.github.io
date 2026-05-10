@@ -140,7 +140,15 @@ issued: 2026-05-09
   ];
 
   var PROFILES = RAW.map(function (r, i) {
-    return { id: i + 1, name: r[ni], file: r[2], img: 'https://dummyimage.com/480x600/000/fff', gender: r[3], updated: r[4], views: r[5] };
+    return {
+      id:       i + 1,
+      name:     r[ni],
+      file:     r[2],
+      img:      'https://dummyimage.com/480x600/000/fff',
+      gender:   r[3],
+      updated:  r[4],
+      views:    r[5]
+    };
   });
 
   var PER_PAGE    = 9;
@@ -156,6 +164,18 @@ issued: 2026-05-09
   var activeTagsEl = $('wp-active-filters');
   var pagination   = $('rcmp-pagination');
   var checkboxes   = document.querySelectorAll('#wp-filters input[type="checkbox"]');
+
+  function updateBadges() {
+    checkboxes.forEach(function (cb) {
+      var cat = cb.dataset.filter;
+      var val = cb.value;
+      var count = PROFILES.filter(function (p) {
+        return p[cat] === val;
+      }).length;
+      var badge = cb.closest('label').querySelector('.wp-filter-badge');
+      if (badge) badge.textContent = count;
+    });
+  }
 
   function sortData(data, mode) {
     return data.slice().sort(function (a, b) {
@@ -184,7 +204,7 @@ issued: 2026-05-09
     activeTagsEl.innerHTML = '';
     Object.keys(filters).forEach(function (cat) {
       filters[cat].forEach(function (val) {
-        var label = t.genderLabels[val] || val;
+        var label = cat === 'gender' ? (t.genderLabels[val] || val) : val.replace(/-/g, ' ');
         var tag   = document.createElement('span');
         tag.className = 'wp-filter-tag';
         tag.innerHTML =
@@ -272,6 +292,7 @@ issued: 2026-05-09
     if (currentPage < Math.ceil(activeData.length / PER_PAGE)) paginate(1, nextBtn);
   });
 
+  updateBadges();
   refresh();
 }());
 </script>

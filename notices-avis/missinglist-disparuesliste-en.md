@@ -109,37 +109,37 @@ issued: 2026-05-09
   var $  = document.getElementById.bind(document);
   var ni = lang === 'fr' ? 1 : 0;
 
-  // [nameEN, nameFR, file, gender, location, lastSeen, updated, views]
+  // [nameEN, nameFR, file, gender, lastSeen, updated, views]
   var RAW = [
-    ['SpongeBob SquarePants',  "Bob l'éponge",        '32473043', 'male',    'saskatoon',     '1999-05-01', '2026-05-08', 1420],
-    ['Sandy Cheeks',           'Sandy Écureuil',       '30847192', 'female',  'regina',        '2020-03-15', '2026-05-07', 980 ],
-    ['Patrick Star',           'Patrick Étoile',       '19284730', 'male',    'calgary',       '2021-07-04', '2026-05-06', 741 ],
-    ['Pearl Krabs',            'Perle Krabs',          '28374019', 'female',  'vancouver',     '2022-01-10', '2026-05-05', 610 ],
-    ['Squidward Tentacles',    'Carlo Tentacules',     '39201847', 'male',    'edmonton',      '2023-06-22', '2026-05-04', 533 ],
-    ['Mrs. Puff',              'Madame Puff',          '10293847', 'female',  'winnipeg',      '2024-09-30', '2026-05-03', 498 ],
-    ['Gary the Snail',         'Gary',                 '48201937', 'male',    'toronto',       '2022-11-18', '2026-05-02', 412 ],
-    ['Mr. Krabs',              'Monsieur Krabs',       '57839201', 'male',    'ottawa',        '2023-02-28', '2026-05-01', 387 ],
-    ['Karen Plankton',         'Karen',                '67391028', 'female',  'montreal',      '2025-01-05', '2026-04-30', 344 ],
-    ['Larry the Lobster',      'Larry le Homard',      '74829103', 'male',    'victoria',      '2024-04-12', '2026-04-28', 302 ],
-    ['Sandy Cheeks Jr.',       'Sandy Écureuil Jr.',   '81920374', 'female',  'saskatoon',     '2023-08-09', '2026-04-26', 289 ],
-    ['Barnacle Boy',           "Bernard l'Hermite",    '92038471', 'male',    'halifax',       '2022-05-17', '2026-04-24', 265 ],
-    ['Mermaid Man',            "L'Homme Sirène",       '10293821', 'male',    'fredericton',   '2021-12-01', '2026-04-22', 241 ],
-    ['Plankton',               'Plankton',             '20193847', 'male',    'prince-george', '2025-03-14', '2026-04-20', 218 ],
-    ['Squilvia',               'Squilvia',             '30928471', 'female',  'quebec-city',   '2024-07-07', '2026-04-18', 197 ],
-    ['Harold SquarePants',     'Harold SquarePants',   '41092837', 'male',    'lethbridge',    '2023-10-23', '2026-04-16', 183 ],
-    ['Margaret SquarePants',   'Margaret SquarePants', '51293847', 'female',  'surrey',        '2022-09-11', '2026-04-14', 169 ],
-    ['Squilliam Fancyson',     'Squilliam Fancyson',   '61928374', 'male',    'hamilton',      '2024-02-19', '2026-04-12', 155 ],
-    ["Patrick's Dad",          'Le père de Patrick',   '72938401', 'male',    'moncton',       '2023-04-30', '2026-04-10', 143 ],
-    ['Mindy',                  'Mindy',                '83920174', 'female',  'whitehorse',    '2025-05-01', '2026-04-08', 131 ],
-    ['The Flying Dutchman',    'Le Hollandais volant', '91283047', 'unknown', 'yellowknife',   '2021-03-08', '2026-04-06', 120 ],
-    ['DoodleBob',              'Gribouille Bob',       '12930184', 'unknown', 'iqaluit',       '2024-11-15', '2026-04-04', 110 ],
-    ["Sandy's Mom",            'La mère de Sandy',     '23019384', 'female',  'sherbrooke',    '2023-07-20', '2026-04-02', 100 ],
-    ['Old Man Jenkins',        'Vieux Jenkins',        '34128394', 'male',    'brandon',       '2022-06-06', '2026-03-30', 91  ],
-    ['Bubble Bass',            'Bubble Bass',          '45219304', 'male',    'london-on',     '2025-02-14', '2026-03-28', 83  ],
-    ['Flats the Flounder',     "Flats l'Achigan",      '56320194', 'male',    'gatineau',      '2023-09-03', '2026-03-26', 74  ],
-    ['Nurse Bazooka',          'Infirmière Bazooka',   '67430294', 'female',  'charlottetown', '2024-06-18', '2026-03-24', 66  ],
-    ['Fred the Fish',          'Fred le Poisson',      '78541304', 'male',    'cape-breton',   '2022-12-25', '2026-03-22', 59  ],
-    ['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'other',   'prince-albert', '2025-04-10', '2026-03-20', 50  ]
+    ['SpongeBob SquarePants',  "Bob l'éponge",        '32473043', 'male',     '1999-05-01', '2026-05-08', 1420],
+    ['Sandy Cheeks',           'Sandy Écureuil',       '30847192', 'female',  '2020-03-15', '2026-05-07', 980 ],
+    ['Patrick Star',           'Patrick Étoile',       '19284730', 'male',    '2021-07-04', '2026-05-06', 741 ],
+    ['Pearl Krabs',            'Perle Krabs',          '28374019', 'female',  '2022-01-10', '2026-05-05', 610 ],
+    ['Squidward Tentacles',    'Carlo Tentacules',     '39201847', 'male',    '2023-06-22', '2026-05-04', 533 ],
+    ['Mrs. Puff',              'Madame Puff',          '10293847', 'female',  '2024-09-30', '2026-05-03', 498 ],
+    ['Gary the Snail',         'Gary',                 '48201937', 'male',    '2022-11-18', '2026-05-02', 412 ],
+    ['Mr. Krabs',              'Monsieur Krabs',       '57839201', 'male',    '2023-02-28', '2026-05-01', 387 ],
+    ['Karen Plankton',         'Karen',                '67391028', 'female',  '2025-01-05', '2026-04-30', 344 ],
+    ['Larry the Lobster',      'Larry le Homard',      '74829103', 'male',    '2024-04-12', '2026-04-28', 302 ],
+    ['Sandy Cheeks Jr.',       'Sandy Écureuil Jr.',   '81920374', 'female',  '2023-08-09', '2026-04-26', 289 ],
+    ['Barnacle Boy',           "Bernard l'Hermite",    '92038471', 'male',    '2022-05-17', '2026-04-24', 265 ],
+    ['Mermaid Man',            "L'Homme Sirène",       '10293821', 'male',    '2021-12-01', '2026-04-22', 241 ],
+    ['Plankton',               'Plankton',             '20193847', 'male',    '2025-03-14', '2026-04-20', 218 ],
+    ['Squilvia',               'Squilvia',             '30928471', 'female',  '2024-07-07', '2026-04-18', 197 ],
+    ['Harold SquarePants',     'Harold SquarePants',   '41092837', 'male',    '2023-10-23', '2026-04-16', 183 ],
+    ['Margaret SquarePants',   'Margaret SquarePants', '51293847', 'female',  '2022-09-11', '2026-04-14', 169 ],
+    ['Squilliam Fancyson',     'Squilliam Fancyson',   '61928374', 'male',    '2024-02-19', '2026-04-12', 155 ],
+    ["Patrick's Dad",          'Le père de Patrick',   '72938401', 'male',    '2023-04-30', '2026-04-10', 143 ],
+    ['Mindy',                  'Mindy',                '83920174', 'female',  '2025-05-01', '2026-04-08', 131 ],
+    ['The Flying Dutchman',    'Le Hollandais volant', '91283047', 'unknown', '2021-03-08', '2026-04-06', 120 ],
+    ['DoodleBob',              'Gribouille Bob',       '12930184', 'unknown', '2024-11-15', '2026-04-04', 110 ],
+    ["Sandy's Mom",            'La mère de Sandy',     '23019384', 'female',  '2023-07-20', '2026-04-02', 100 ],
+    ['Old Man Jenkins',        'Vieux Jenkins',        '34128394', 'male',    '2022-06-06', '2026-03-30', 91  ],
+    ['Bubble Bass',            'Bubble Bass',          '45219304', 'male',    '2025-02-14', '2026-03-28', 83  ],
+    ['Flats the Flounder',     "Flats l'Achigan",      '56320194', 'male',    '2023-09-03', '2026-03-26', 74  ],
+    ['Nurse Bazooka',          'Infirmière Bazooka',   '67430294', 'female',  '2024-06-18', '2026-03-24', 66  ],
+    ['Fred the Fish',          'Fred le Poisson',      '78541304', 'male',    '2022-12-25', '2026-03-22', 59  ],
+    ['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'other',   '2025-04-10', '2026-03-20', 50  ]
   ];
 
   var PROFILES = RAW.map(function (r, i) {
@@ -149,10 +149,9 @@ issued: 2026-05-09
       file:     r[2],
       img:      'https://dummyimage.com/480x600/000/fff',
       gender:   r[3],
-      location: r[4],
-      lastSeen: r[5],
-      updated:  r[6],
-      views:    r[7]
+      lastSeen: r[4],
+      updated:  r[5],
+      views:    r[6]
     };
   });
 
@@ -167,10 +166,9 @@ issued: 2026-05-09
   var prevBtn      = $('mp-prev');
   var nextBtn      = $('mp-next');
   var activeTagsEl = $('mp-active-filters');
-  var pagination   = $('mp-pagination');
+  var pagination   = $('rcmp-pagination');
   var checkboxes   = document.querySelectorAll('#mp-filters input[type="checkbox"]');
 
-  // update all filter badges on load
   function updateBadges() {
     checkboxes.forEach(function (cb) {
       var cat = cb.dataset.filter;
@@ -193,7 +191,7 @@ issued: 2026-05-09
   }
 
   function getActiveFilters() {
-    var active = { gender: [], location: [] };
+    var active = { gender: [] };
     checkboxes.forEach(function (cb) {
       if (cb.checked) active[cb.dataset.filter].push(cb.value);
     });
@@ -202,9 +200,7 @@ issued: 2026-05-09
 
   function filterData(filters) {
     return PROFILES.filter(function (p) {
-      var genderOk   = !filters.gender.length   || filters.gender.indexOf(p.gender)     > -1;
-      var locationOk = !filters.location.length || filters.location.indexOf(p.location) > -1;
-      return genderOk && locationOk;
+      return !filters.gender.length || filters.gender.indexOf(p.gender) > -1;
     });
   }
 

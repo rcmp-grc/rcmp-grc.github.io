@@ -149,6 +149,8 @@ main {
   margin: 0;
 }
 .wp-filter-group {
+  border-bottom: 1px solid #b1b4b6;
+  padding: 14px;
   overflow: hidden;
   box-sizing: border-box;
   width: 100%;
@@ -197,34 +199,6 @@ main {
   border: solid #0b0c0c;
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
-}
-.wp-filter-group summary {
-  cursor: pointer;
-  list-style: none;
-  font-weight: bold;
-  padding: 0.5em 0;
-  border-top: 1px solid #b1b4b6;
-}
-.wp-filter-group summary::-webkit-details-marker {
-  display: none;
-}
-.wp-filter-group summary::after {
-  content: "\f078"; /* fa-chevron-down */
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  float: right;
-}
-details[open].wp-filter-group summary::after {
-  content: "\f077"; /* fa-chevron-up */
-}
-details {
-  margin-bottom: 0;
-  padding-left: 0.8em;
-  padding-right: 0.8em;
-}
-fieldset {
-  border-top: 0;
-  padding-top: 10px;
 }
 .wp-filter-badge {
   background: #ededed;

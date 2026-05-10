@@ -149,7 +149,6 @@ main {
   margin: 0;
 }
 .wp-filter-group {
-  padding: 14px;
   overflow: visible;
   box-sizing: border-box;
   width: 100%;
@@ -204,9 +203,11 @@ main {
   list-style: none;
   font-weight: bold;
   padding: 0.5em 0;
-  border-top: 1px solid #b1b4b6;
   text-decoration: none !important;
   color: #0b0c0c !important;
+  border: 0;
+  border-radius: 0;
+  text-indent: 0;
 }
 .wp-filter-group summary:hover,
 .wp-filter-group summary:focus,
@@ -221,14 +222,23 @@ main {
   display: none;
 }
 .wp-filter-group summary::before {
-  content: "▶";
-  font-size: 0.7em;
+  content: "\f078";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 0.75em;
   margin-right: 8px;
   display: inline-block;
   vertical-align: middle;
 }
 details[open].wp-filter-group summary::before {
-  content: "▼";
+  content: "\f077";
+}
+.wp-filter-group fieldset {
+  border-top: 0;
+  padding-top: 0;
+}
+.wp-filter-group details {
+  margin-bottom: 0;
 }
 .wp-filter-badge {
   background: #ededed;

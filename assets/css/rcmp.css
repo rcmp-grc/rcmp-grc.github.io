@@ -124,50 +124,6 @@ main {
 #mp-no-results {
   display: none;
 }
-.mp-province-group {
-  border-top: 1px solid #e8e8e8;
-  margin-top: 6px;
-  padding-top: 4px;
-}
-.mp-province-group:first-of-type {
-  border-top: 0;
-  margin-top: 0;
-}
-.mp-province-toggle {
-  cursor: pointer;
-  list-style: none;
-  font-size: 0.9em;
-  font-weight: 600;
-  color: #0b0c0c !important;
-  text-decoration: none !important;
-  padding: 4px 0;
-  display: flex;
-  align-items: center;
-  gap: 0;
-}
-.mp-province-toggle::-webkit-details-marker {
-  display: none;
-}
-.mp-province-toggle:hover span {
-  text-decoration: underline;
-}
-.mp-province-toggle:hover,
-.mp-province-toggle:focus,
-.mp-province-toggle:visited {
-  text-decoration: none !important;
-  color: #0b0c0c !important;
-}
-.mp-province-group > summary .wp-filter-chevron {
-  font-size: 0.65em;
-  margin-right: 6px;
-}
-.mp-cities {
-  padding-left: 20px;
-  padding-top: 4px;
-}
-.mp-cities .checkbox {
-  margin: 0;
-}
 
 /* -----------------------------------------------------------------------------
    2. Wanted additions

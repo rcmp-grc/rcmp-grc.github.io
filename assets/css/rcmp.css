@@ -200,6 +200,25 @@ main {
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
 }
+.wp-filter-group summary {
+  cursor: pointer;
+  list-style: none;
+  font-weight: bold;
+  padding: 0.5em 0;
+  border-top: 1px solid #b1b4b6;
+}
+.wp-filter-group summary::-webkit-details-marker {
+  display: none;
+}
+.wp-filter-group summary::after {
+  content: "\f078";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  float: right;
+}
+details[open].wp-filter-group summary::after {
+  content: "\f077";
+}
 .wp-filter-badge {
   background: #ededed;
   color: #505a5f;

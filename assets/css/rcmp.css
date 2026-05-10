@@ -117,9 +117,6 @@ main {
   flex-wrap: wrap;
 }
 #wp-sort label {
-  font-size: 0.88em;
-  font-weight: 700;
-  color: #0b0c0c;
   margin: 0;
   white-space: nowrap;
 }
@@ -210,7 +207,6 @@ main {
   color: #505a5f;
   font-size: 0.78em;
   padding: 1px 6px;
-  border-radius: 20px;
   flex-shrink: 0;
 }
 .cb-text {

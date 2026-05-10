@@ -216,7 +216,7 @@ main {
 }
 .wp-filter-chevron {
   font-size: 0.75em;
-  margin: 8px 0;
+  margin: 0 8px;
   vertical-align: middle;
   transition: transform 0.2s ease;
   transform: rotate(0deg);
@@ -226,10 +226,14 @@ details[open] .wp-filter-chevron {
 }
 .wp-filter-group fieldset {
   border-top: 0;
-  padding-top: 0;
+  padding-top: 8px;
 }
 details.wp-filter-group {
   margin-bottom: 0;
+}
+details.wp-filter-group[open] {
+  border: 0;
+  border-radius: 0;
 }
 .wp-filter-badge {
   background: #ededed;

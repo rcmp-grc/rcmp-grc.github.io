@@ -149,9 +149,8 @@ main {
   margin: 0;
 }
 .wp-filter-group {
-  border-bottom: 1px solid #b1b4b6;
   padding: 14px;
-  overflow: hidden;
+  overflow: visible;
   box-sizing: border-box;
   width: 100%;
 }
@@ -219,13 +218,13 @@ main {
   display: none;
 }
 .wp-filter-group summary::after {
-  content: "\f078";
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
+  content: "▼";
+  font-size: 0.7em;
   float: right;
+  margin-top: 0.2em;
 }
 details[open].wp-filter-group summary::after {
-  content: "\f077";
+  content: "▲";
 }
 .wp-filter-badge {
   background: #ededed;

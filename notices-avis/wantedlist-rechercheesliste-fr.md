@@ -1,61 +1,61 @@
 ---
 layout: default
-title: Wanted
+title: Personnes recherchées
 date_modified: 2026-05-09
-lang: en
-lang_url: wanted-recherchees-list-fr.html
+lang: fr
+lang_url: wanted-recherchees-list-en.html
 issued: 2026-05-09
 ---
 
 <div class="row" id="wp-page">
   <div class="col-md-3 col-sm-4" id="wp-sidebar">
     <aside aria-labelledby="wp-filters-heading" id="wp-filters">
-      <p id="wp-filters-heading">Filter by</p>
+      <p id="wp-filters-heading">Filtrer par</p>
       <fieldset class="wp-filter-group">
-        <legend>Gender</legend>
+        <legend>Sexe</legend>
         <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="male"><span class="cb-text">male</span><span class="wp-filter-badge">20</span></label>
+          <label><input data-filter="gender" type="checkbox" value="male"><span class="cb-text">Masculin</span><span class="wp-filter-badge">20</span></label>
         </div>
         <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="female"><span class="cb-text">female</span><span class="wp-filter-badge">7</span></label>
+          <label><input data-filter="gender" type="checkbox" value="female"><span class="cb-text">Féminin</span><span class="wp-filter-badge">7</span></label>
         </div>
         <div class="checkbox">
-          <label><input data-filter="gender" type="checkbox" value="unknown"><span class="cb-text">unknown</span><span class="wp-filter-badge">2</span></label>
+          <label><input data-filter="gender" type="checkbox" value="unknown"><span class="cb-text">Inconnu</span><span class="wp-filter-badge">2</span></label>
         </div>
       </fieldset>
     </aside>
   </div>
   <div class="col-md-9 col-sm-8" id="wp-results-col">
-    <div aria-label="Active filters" aria-live="polite" id="wp-active-filters" role="status"></div>
+    <div aria-label="Filtres actifs" aria-live="polite" id="wp-active-filters" role="status"></div>
     <div id="wp-toolbar">
-      <p id="wp-count" aria-live="polite"><strong id="wp-count-num">29</strong>&nbsp;wanted persons found</p>
+      <p id="wp-count" aria-live="polite"><strong id="wp-count-num">29</strong>&nbsp;personnes recherchées trouvées</p>
       <div id="wp-sort">
-        <label for="wp-sort-select">Sort by:</label>
-        <select aria-label="Sort profiles" id="wp-sort-select">
-          <option value="newest">Updated (newest)</option>
-          <option value="oldest">Updated (oldest)</option>
-          <option value="views">Most viewed</option>
+        <label for="wp-sort-select">Trier par :</label>
+        <select aria-label="Trier les profils" id="wp-sort-select">
+          <option value="newest">Mise à jour (plus récent)</option>
+          <option value="oldest">Mise à jour (plus ancien)</option>
+          <option value="views">Les plus consultés</option>
         </select>
       </div>
     </div>
-    <div aria-label="Wanted persons profiles" id="wp-grid" role="list"></div>
-    <p id="wp-no-results">No profiles match your current filters.</p>
+    <div aria-label="Profils des personnes recherchées" id="wp-grid" role="list"></div>
+    <p id="wp-no-results">Aucun profil ne correspond aux filtres sélectionnés.</p>
     <nav aria-label="Pagination" class="rcmp-pagination rcmp-pagination--block" id="rcmp-pagination">
       <div class="rcmp-pagination__prev" id="wp-prev-wrap">
-        <button type="button" id="wp-prev" class="rcmp-pagination__link" aria-label="Previous page">
+        <button type="button" id="wp-prev" class="rcmp-pagination__link" aria-label="Page précédente">
           <span class="rcmp-pagination__title-row">
             <i class="rcmp-pagination__icon fa-solid fa-chevron-left" aria-hidden="true"></i>
-            <span class="rcmp-pagination__link-title">Previous page</span>
+            <span class="rcmp-pagination__link-title">Page précédente</span>
           </span>
           <span class="rcmp-visually-hidden">:</span>
           <span class="rcmp-pagination__link-label" id="wp-prev-label"></span>
         </button>
       </div>
       <div class="rcmp-pagination__next" id="wp-next-wrap">
-        <button type="button" id="wp-next" class="rcmp-pagination__link" aria-label="Next page">
+        <button type="button" id="wp-next" class="rcmp-pagination__link" aria-label="Page suivante">
           <span class="rcmp-pagination__title-row">
             <i class="rcmp-pagination__icon fa-solid fa-chevron-right" aria-hidden="true"></i>
-            <span class="rcmp-pagination__link-title">Next page</span>
+            <span class="rcmp-pagination__link-title">Page suivante</span>
           </span>
           <span class="rcmp-visually-hidden">:</span>
           <span class="rcmp-pagination__link-label" id="wp-next-label"></span>

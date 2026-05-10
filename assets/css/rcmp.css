@@ -214,23 +214,21 @@ main {
 .wp-filter-group summary::-webkit-details-marker {
   display: none;
 }
-.wp-filter-group summary::before {
-  content: "\f078";
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
+.wp-filter-chevron {
   font-size: 0.75em;
-  margin-right: 8px;
-  display: inline-block;
+  margin: 8px 0;
   vertical-align: middle;
+  transition: transform 0.2s ease;
+  transform: rotate(0deg);
 }
-details[open].wp-filter-group summary::before {
-  content: "\f077";
+details[open] .wp-filter-chevron {
+  transform: rotate(180deg);
 }
 .wp-filter-group fieldset {
   border-top: 0;
   padding-top: 0;
 }
-.wp-filter-group details {
+details.wp-filter-group {
   margin-bottom: 0;
 }
 .wp-filter-badge {

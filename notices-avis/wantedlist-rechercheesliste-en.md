@@ -20,6 +20,9 @@ issued: 2026-05-09
           <label><input data-filter="gender" type="checkbox" value="female"><span class="cb-text">female</span><span class="wp-filter-badge">7</span></label>
         </div>
         <div class="checkbox">
+          <label><input data-filter="gender" type="checkbox" value="other"><span class="cb-text">other</span><span class="wp-filter-badge">0</span></label>
+        </div>
+        <div class="checkbox">
           <label><input data-filter="gender" type="checkbox" value="unknown"><span class="cb-text">unknown</span><span class="wp-filter-badge">2</span></label>
         </div>
       </fieldset>
@@ -73,7 +76,7 @@ issued: 2026-05-09
 
   var I18N = {
     en: {
-      genderLabels: { male: 'male',     female: 'female',  unknown: 'unknown' },
+      genderLabels: { male: 'male', female: 'female', other: 'other', unknown: 'unknown' },
       removeFilter: 'Remove filter: ',
       profileHref:  'wanted-recherchees-en.html',
       viewProfile:  'View profile: ',
@@ -83,13 +86,13 @@ issued: 2026-05-09
       ofPages:      ' of '
     },
     fr: {
-      genderLabels: { male: 'homme', female: 'Femme', unknown: 'inconnu' },
-      removeFilter: 'Retirer le filtre&nbps;: ',
+      genderLabels: { male: 'homme', female: 'Femme', other: 'autre', unknown: 'inconnu' },
+      removeFilter: 'Retirer le filtre\u00A0: ',
       profileHref:  'wanted-recherchees-fr.html',
-      viewProfile:  'Voir le profil&nbps;: ',
+      viewProfile:  'Voir le profil\u00A0: ',
       mugshot:      'Photo judiciaire de ',
-      fileNumber:   'Numéro de dossier&nbps;: ',
-      updated:      'Mise à jour&nbps;: ',
+      fileNumber:   'Numéro de dossier\u00A0: ',
+      updated:      'Mise à jour\u00A0: ',
       ofPages:      ' sur '
     }
   };

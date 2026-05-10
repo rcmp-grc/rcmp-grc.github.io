@@ -18,16 +18,16 @@ issued: 2026-05-09
         <fieldset>
           <legend class="wb-inv">Genre</legend>
           <div class="checkbox">
-            <label><input data-filter="gender" type="checkbox" value="male"><span class="cb-text">homme</span> <span class="wp-filter-badge">20</span></label>
+            <label><input data-filter="gender" type="checkbox" value="male"><span class="cb-text">homme</span> <span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="gender" type="checkbox" value="female"><span class="cb-text">femme</span><span class="wp-filter-badge">7</span></label>
+            <label><input data-filter="gender" type="checkbox" value="female"><span class="cb-text">femme</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
             <label><input data-filter="gender" type="checkbox" value="other"><span class="cb-text">autre</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="gender" type="checkbox" value="unknown"><span class="cb-text">inconnu</span><span class="wp-filter-badge">2</span></label>
+            <label><input data-filter="gender" type="checkbox" value="unknown"><span class="cb-text">inconnu</span><span class="wp-filter-badge">0</span></label>
           </div>
         </fieldset>
       </details>

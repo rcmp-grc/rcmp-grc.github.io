@@ -100,6 +100,11 @@ button,
   align-self: stretch;
   transition: none;
 }
+@media (min-width: 768px) {
+  .careers-nav__links li:first-child a {
+    padding-left: 0;
+  }
+}
 .careers-nav__links a::after {
   content: "";
   display: block;
@@ -134,7 +139,7 @@ button,
   color: #000;
   border: 1px solid #fec111;
   padding: 10px 22px;
-  font-size: 0.95rem;
+  font-size: 1em;
   font-weight: 600;
   text-decoration: none;
   border-radius: 2px;
@@ -227,7 +232,7 @@ button,
   }
   .careers-nav__apply a {
     padding: 8px 14px;
-    font-size: 0.85rem;
+    font-size: 1em;
   }
 }
 

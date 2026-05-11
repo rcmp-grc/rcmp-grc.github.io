@@ -387,7 +387,7 @@ Bay St. George RCMP is advising the public about recent circulation of counterfe
   (function () {
   'use strict';
   var PER_PAGE    = 9;
-  var currentPage = 1;
+  var currentPage = 1; 
   var prevBtn      = $('mp-prev');
   var nextBtn      = $('mp-next');
   var pagination   = $('rcmp-pagination');

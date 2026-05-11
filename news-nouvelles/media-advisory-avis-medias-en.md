@@ -27,6 +27,10 @@ issued: 2026-05-08
 .icon-grid .icon-subgrid div:first-child {
   min-width: 2.75rem;
 }	
+.icon-grid svg.svg-inline--fa.circle-user,
+.icon-grid svg.svg-inline--fa.fa-calendar-days {
+  color: #000;
+}
 </style>
 <p class="lead">Officials from the Public Health Agency of Canada will provide details about the Andes Hantavirus outbreak on the MV Hondius and actions taken by the Government of Canada.</p>
 <hr>

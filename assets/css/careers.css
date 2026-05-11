@@ -1654,3 +1654,8 @@ button#next-button {
   height: 1px;
   overflow: hidden;
 }
+.careers-nav .nav-link {
+  background: none;
+  border: none;
+  padding: 0;
+}

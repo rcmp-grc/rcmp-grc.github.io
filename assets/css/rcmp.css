@@ -1,6 +1,3 @@
-/* =============================================================================
-   DESIGN TOKENS — all colour values declared here, used via var() throughout
-   ============================================================================= */
 :root {
   /* Brand */
   --rcmp-red: #b50315;
@@ -482,7 +479,6 @@ details.wp-filter-group[open] {
 .cn-pullquote p {
   font-size: 1.2em;
   font-weight: 400;
-  font-style: italic;
   line-height: 1.6;
   color: var(--cn-grey-dk);
   margin: 0 0 6px;

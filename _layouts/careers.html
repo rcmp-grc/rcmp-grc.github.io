@@ -31,8 +31,9 @@
       </ul>
     </nav>
     {% include header.html %}
+    <div class="container"></div>"
     <nav class="careers-nav" aria-label="{% if page.lang == 'fr' %}Navigation des carrières{% else %}Careers navigation{% endif %}">
-      <div class="container" style="padding-left: 0; padding-right: 0">
+      <div>
         <button
           class="careers-nav__toggle"
           aria-controls="careers-nav-links"
@@ -57,8 +58,8 @@
         <div class="careers-nav__apply">
           <a href="#">{% if page.lang == 'fr' %}Postuler maintenant{% else %}Apply now{% endif %}</a>
         </div>
-      </div>
     </nav>
+      </div>
     <main class="brdr-tp-0 mrgn-bttm-0">
       {% include breadcrumb.html %}
       <div class="container">

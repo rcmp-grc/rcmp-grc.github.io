@@ -11,7 +11,7 @@ subject:
 issued: 2026-05-07
 ---			
 	<section class="alert alert-warning">
-	<h2 class="h3">Online service interruption!</h2>
+	<h2 class="h3">Online service interruption2</h2>
 	<p>Due to Shared Services Canada maintenance, this service will be unavailable for use on Sunday, March&#160;29, 2026, from 9&#160;am until 10:30&#160;am, Eastern time. We apologize in advance for any inconvenience this may cause.</p>
 	</section>
 	<section id="s1">
@@ -43,9 +43,9 @@ issued: 2026-05-07
       </li>  
     </ul>
 	</section>
-	<section id="s2">
 	<div class="row">
-	<div class="col-xs-6">	  
+	<div class="col-xs-6">
+	<section id="s2">
   	<h2>Access to Individual Web Services</h2>
   	<p>When you sign in through the button below, you can:</p>
   <ul>
@@ -96,13 +96,13 @@ issued: 2026-05-07
     <li>enter an authentication code that will be sent to your email when you sign in. If you do not receive this information, please check your junk mail folder</li>
   </ul>
 </div>
-	</section>
+	</section>	
 <div class="row">
-	<div class="col-xs-6">
-	<section id="s2">
+<div class="col-xs-6">
+<section id="s3">
 	<div class="well brdr-0 brdr-rds-0 mrgn-tp-md">
   	<h2>Questions and answers</h2>
-  	<section id="s2-1">
+  	<section id="s3-1">
     <h3>Checking your application status</h3>
     <details>
       <summary>
@@ -110,8 +110,8 @@ issued: 2026-05-07
       </summary>
       <p>The application status displayed online is of a general nature and will typically inform you if your application has been received, is in processing or has been finalized. If your application has been sent by mail, please allow 2 to 4 weeks for the application to be entered into the system. For more detailed information you may wish to contact the Canadian Firearms Program directly by calling <span class="text-nowrap">1-800-731-4000</span>.</p>
     </details>
-  </section>
-  <section id="s2-2">
+  	</section>		
+  <section id="s3-2">
     <h3>Registering your firearms</h3>
     <details>
       <summary>
@@ -128,9 +128,9 @@ issued: 2026-05-07
       <p>Public access to the Internet is available at kiosks in libraries and Internet cafes. There is <strong>no requirement</strong> to use the online service to register your firearm; you are still free to renew by paper form available for download on the website or by mail by <a href="/en/firearms/contact-canadian-firearms-program">contacting the Canadian Firearms Program</a>.</p>
     </details>
   </section>
-	</div>
+	</div>	
 <div class="col-xs-6">
-  <section id="s2-3">
+  <section id="s3-3">
     <h3>Renewing your licence</h3>
     <details>
       <summary>
@@ -147,7 +147,7 @@ issued: 2026-05-07
       <p>You may be contacted for additional information to process your renewal application.</p>
     </details>
   </section>
-  <section id="s2-4">
+  <section id="s3-4">
     <h3>Signing up to use the system</h3>
     <details>
       <summary>
@@ -158,7 +158,7 @@ issued: 2026-05-07
       <p>If you don't have an email account, set one up by searching "free email services" on the Internet.</p>
     </details>
   </section>
-  <section id="s2-5">
+  <section id="s3-5">
     <h3>Printing</h3>
     <details>
       <summary>

@@ -16,7 +16,7 @@ issued: 2026-05-04
 </div>
 <p class="mrgn-bttm-lg lead">Un délit peut être qualifié de cybercriminalité lorsqu'un ordinateur ou toute autre technologie numérique joue un rôle important dans la commission de l'infraction. Cette infographie explique comment le <cite>Code criminel du Canada</cite> définit ce type de délits, à l'aide de situations de la vie quotidienne.</p>
 <figure>
-  <img alt="" aria-describedby="infographic-description" class="img-responsive img-thumbnail" src="cyberchoix-infographie-fra.png">
+  <img alt="" aria-describedby="infographic-description" class="img-responsive img-thumbnail" src="cyberchoix-infographie-fra-1.png">
   <figcaption class="mrgn-tp-md">
     <details class="mrgn-bttm-sm" id="infographic-description">
       <summary>

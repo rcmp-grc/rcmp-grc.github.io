@@ -329,6 +329,28 @@ Bay St. George RCMP is advising the public about recent circulation of counterfe
         <tbody></tbody>
       </table>-->
     </section>
+    <nav aria-label="Pagination" class="rcmp-pagination rcmp-pagination--block" id="rcmp-pagination">
+      <div class="rcmp-pagination__prev" id="mp-prev-wrap">
+        <button type="button" id="mp-prev" class="rcmp-pagination__link" aria-label="Previous page">
+          <span class="rcmp-pagination__title-row">
+            <i class="rcmp-pagination__icon fa-solid fa-chevron-left" aria-hidden="true"></i>
+            <span class="rcmp-pagination__link-title">Previous page</span>
+          </span>
+          <span class="rcmp-visually-hidden">:</span>
+          <span class="rcmp-pagination__link-label" id="mp-prev-label"></span>
+        </button>
+      </div>
+      <div class="rcmp-pagination__next" id="mp-next-wrap">
+        <button type="button" id="mp-next" class="rcmp-pagination__link" aria-label="Next page">
+          <span class="rcmp-pagination__title-row">
+            <i class="rcmp-pagination__icon fa-solid fa-chevron-right" aria-hidden="true"></i>
+            <span class="rcmp-pagination__link-title">Next page</span>
+          </span>
+          <span class="rcmp-visually-hidden">:</span>
+          <span class="rcmp-pagination__link-label" id="mp-next-label"></span>
+        </button>
+      </div>
+    </nav>
   </div>
 </div>
 <div class="container">

@@ -9,7 +9,7 @@ lead: Media Advisory
 issued: 2026-05-08
 ---
 <style>
-	.hr
+	hr
 	 { border-bottom: 2px solid var(--rcmp-gold);
 	 }
 </style>

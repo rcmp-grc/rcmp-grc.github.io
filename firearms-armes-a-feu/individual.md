@@ -100,7 +100,6 @@ issued: 2026-05-07
     <li>complete a one-time sign up by registering for a GCKey or Sign-in Partner Services account</li>
     <li>enter an authentication code that will be sent to your email when you sign in. If you do not receive this information, please check your junk mail folder</li>
   </ul>
-</div>
 <div class="col-xs-6">
 	<section id="s2">
 	<div class="well brdr-0 brdr-rds-0 mrgn-tp-md">

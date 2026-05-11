@@ -14,6 +14,26 @@ h1_hidden: true
 ---
 
 <script>
+    /* =============================================================================
+   nav.js
+   ============================================================================= */
+        // Careers nav mobile toggle
+      (function () {
+        var toggle = document.querySelector('.careers-nav__toggle');
+        var links  = document.getElementById('careers-nav-links');
+        if (!toggle || !links) return;
+        toggle.addEventListener('click', function () {
+          var open = links.classList.toggle('is-open');
+          toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+        });
+        // Close drawer when a link is tapped
+        links.querySelectorAll('a').forEach(function (a) {
+          a.addEventListener('click', function () {
+            links.classList.remove('is-open');
+            toggle.setAttribute('aria-expanded', 'false');
+          });
+        });
+      })();
   /* =============================================================================
    rcmp-loader.js
    ============================================================================= */

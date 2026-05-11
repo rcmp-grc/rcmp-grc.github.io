@@ -43,9 +43,9 @@ issued: 2026-05-07
       </li>  
     </ul>
 	</section>
-<div class="row">
-	<div class="col-xs-6">	  
 	<section id="s2">
+	<div class="row">
+	<div class="col-xs-6">	  
   	<h2>Access to Individual Web Services</h2>
   	<p>When you sign in through the button below, you can:</p>
   <ul>
@@ -83,7 +83,6 @@ issued: 2026-05-07
       </div>
     </details>
   </div>
-	</section>
   <div class="col-xs-6">
 	<h3>Note</h3>
     <p>You can renew your licence online or via a mailed application if <strong>both</strong> of the following apply:</p>
@@ -97,6 +96,7 @@ issued: 2026-05-07
     <li>enter an authentication code that will be sent to your email when you sign in. If you do not receive this information, please check your junk mail folder</li>
   </ul>
 </div>
+	</section>
 <div class="row">
 	<div class="col-xs-6">
 	<section id="s2">

@@ -31,9 +31,8 @@
       </ul>
     </nav>
     {% include header.html %}
-    <div class="container">
-<nav class="row careers-nav" aria-label="{% if page.lang == 'fr' %}Navigation des carrières{% else %}Careers navigation{% endif %}">
-      <div>
+    <nav class="careers-nav" aria-label="{% if page.lang == 'fr' %}Navigation des carrières{% else %}Careers navigation{% endif %}">
+      <div class="container careers-nav__inner">
         <button
           class="careers-nav__toggle"
           aria-controls="careers-nav-links"
@@ -50,16 +49,16 @@
           <li><a href="#employes-civils">Employés civils</a></li>
           <li><a href="#autres-possibilites">Autres possibilités</a></li>
           {% else %}
-          <li><a href="#police-officer">Police officer</a></li>
-          <li><a href="#civilian-employees">Civilian employees</a></li>
-          <li><a href="#more-opportunities">More opportunities</a></li>
+          <li><a href="https://rcmp-grc.github.io/careers-carrieres-2/#police-officer">Police officer</a></li>
+          <li><a href="https://rcmp-grc.github.io/careers-carrieres-2/#civilian-employees">Civilian employees</a></li>
+          <li><a href="https://rcmp-grc.github.io/careers-carrieres-2/#more-opportunities">More opportunities</a></li>
           {% endif %}
         </ul>
         <div class="careers-nav__apply">
           <a href="#">{% if page.lang == 'fr' %}Postuler maintenant{% else %}Apply now{% endif %}</a>
         </div>
-    </nav>
       </div>
+    </nav>
     <main class="brdr-tp-0 mrgn-bttm-0">
       {% include breadcrumb.html %}
       <div class="container">

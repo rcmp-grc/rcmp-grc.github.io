@@ -2,7 +2,7 @@
 layout: super_landing
 title: Armes à feu
 description: French CFP super landing page
-date_modified: 2026-05-08
+date_modified: 2026-05-11
 lang: fr
 lang_url: index.html
 author:
@@ -141,14 +141,14 @@ intro: <p>Conformément à la <cite>Loi sur les armes à feu</cite>, le Programm
         <div class="row wb-eqht-grd">
           <div class="col-sm-6 hght-inhrt">
             <div class="well well-sm eqht-trgt hght-inhrt">
-              <img alt="" src="https://dummyimage.com/360x203/000000/FFFFFF.png">
+              <img alt="" src="feature-3.png">
               <h3><a class="stretched-link" href="#">[Feature hyperlink text]</a></h3>
               <p>Brief description of the feature being promoted. Brief description of the feature being promoted.</p>
             </div>
           </div>
           <div class="col-sm-6 hght-inhrt">
             <div class="well well-sm eqht-trgt hght-inhrt">
-              <img alt="" src="https://dummyimage.com/360x203/000000/FFFFFF.png">
+              <img alt="" src="feature-2.png">
               <h3><a class="stretched-link" href="#">[Feature hyperlink text]</a></h3>
               <p>Brief description of the feature being promoted. Brief description of the feature being promoted.</p>
             </div>

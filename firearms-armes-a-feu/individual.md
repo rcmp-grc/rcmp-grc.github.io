@@ -47,6 +47,7 @@ issued: 2026-05-07
         </details>
       </li>  
     </ul>
+	<div class="clearfix visible-xs"></div>
   </div>
   </div>
 </div>

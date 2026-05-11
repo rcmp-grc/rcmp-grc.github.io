@@ -235,18 +235,36 @@ a.btn-careers:hover {
   }
 }
 
-/* --- Contact (sticky footer) --- */
-.btn-contact {
+/* Sticky "Contact a recruiter" button */
+.footer-contact {
+  position: sticky;
+  bottom: 0;
+  z-index: 100;
+}
+.footer-contact .btn-contact {
   background-color: var(--color-yellow);
   color: var(--color-black);
   border: 2px solid var(--color-yellow);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20rem;
+  border-radius: 0;
 }
-.btn-contact:visited {
+.footer-contact.btn-contact:visited {
   color: var(--color-black);
 }
-.btn-contact:hover,
-.btn-contact:focus {
+.footer-contact.btn-contact:hover,
+.footer-contact.btn-contact:focus {
   color: var(--color-white);
+}
+@media (max-width: 767px) {
+  .footer-contact {
+    margin-top: 5rem;
+  }
+  .footer-contact .btn-contact {
+    width: 100%;
+  }
 }
 
 /* =============================================================================
@@ -805,29 +823,6 @@ a.btn-careers:hover {
 .gc-careers-footer a:hover,
 .gc-careers-footer a:focus {
   text-decoration: underline !important;
-}
-
-/* Sticky "Contact a recruiter" button */
-.footer-contact {
-  position: sticky;
-  bottom: 0;
-  z-index: 100;
-}
-.footer-contact .btn-contact {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 40rem;
-  border-radius: 0;
-}
-
-@media (max-width: 767px) {
-  .footer-contact {
-    margin-top: 5rem;
-  }
-  .footer-contact .btn-contact {
-    width: 100%;
-  }
 }
 
 /* =============================================================================

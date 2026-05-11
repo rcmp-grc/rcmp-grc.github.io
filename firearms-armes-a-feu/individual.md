@@ -89,6 +89,17 @@ issued: 2026-05-07
       </div>
     </details>
   </div>
+	<h3>Note</h3>
+    <p>You can renew your licence online or via a mailed application if <strong>both</strong> of the following apply:</p>
+    <ul>
+      <li>your licence expired on or after November 30, 2017</li>
+      <li>you are within six months of its expiration date</li>
+    </ul>
+  <p>To access Canadian Firearms Program services for individuals online you must:</p>
+  <ul>
+    <li>complete a one-time sign up by registering for a GCKey or Sign-in Partner Services account</li>
+    <li>enter an authentication code that will be sent to your email when you sign in. If you do not receive this information, please check your junk mail folder</li>
+  </ul>
 </div>
 <div class="col-xs-6">
 	<section id="s2">
@@ -163,19 +174,5 @@ issued: 2026-05-07
 </div>
 </div>
 </div>
-<div class="row">
-	<div class="col-xs-6">
-    <h3>Note</h3>
-    <p>You can renew your licence online or via a mailed application if <strong>both</strong> of the following apply:</p>
-    <ul>
-      <li>your licence expired on or after November 30, 2017</li>
-      <li>you are within six months of its expiration date</li>
-    </ul>
-  <p>To access Canadian Firearms Program services for individuals online you must:</p>
-  <ul>
-    <li>complete a one-time sign up by registering for a GCKey or Sign-in Partner Services account</li>
-    <li>enter an authentication code that will be sent to your email when you sign in. If you do not receive this information, please check your junk mail folder</li>
-  </ul>
-</section>
 </div>
 </div>

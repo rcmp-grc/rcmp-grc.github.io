@@ -112,7 +112,7 @@ button,
   width: 0;
   background-color: #fec111;
   position: absolute;
-  bottom: 0;
+  bottom: 4px;
   left: 50%;
   transform: translateX(-50%);
   transition: width 0.2s ease;
@@ -120,6 +120,15 @@ button,
 .careers-nav__links a:hover::after,
 .careers-nav__links a:focus::after {
   width: calc(100% - 36px);
+}
+
+@media (min-width: 768px) {
+  .careers-nav__links li:first-child a:hover::after,
+  .careers-nav__links li:first-child a:focus::after {
+    width: calc(100% - 18px);
+    left: 0;
+    transform: none;
+  }
 }
 .careers-nav__links a:hover,
 .careers-nav__links a:focus {

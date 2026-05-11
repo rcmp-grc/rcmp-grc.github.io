@@ -1,5 +1,38 @@
+/* =============================================================================
+   DESIGN TOKENS — all colour values declared here, used via var() throughout
+   ============================================================================= */
+:root {
+  /* Brand */
+  --rcmp-red: #b50315;
+  --rcmp-red-dark: #82373e;
+  --rcmp-gold: #bea468;
+  --rcmp-gold-warn: #ecb731;
+  --rcmp-yellow: #f5d000;
+
+  /* Neutrals */
+  --rcmp-black: #0b0c0c;
+  --rcmp-grey-dk: #505a5f;
+  --rcmp-grey-md: #b1b4b6;
+  --rcmp-grey-lt: #f3f2f1;
+  --rcmp-grey-bg: #ededed;
+  --rcmp-white: #fff;
+
+  /* Focus */
+  --rcmp-focus: #fd0;
+
+  /* Community-news aliases (kept for backward compat with var(--cn-*) usage) */
+  --cn-black: var(--rcmp-black);
+  --cn-red: var(--rcmp-red);
+  --cn-grey-lt: var(--rcmp-grey-lt);
+  --cn-grey-md: var(--rcmp-grey-md);
+  --cn-grey-dk: var(--rcmp-grey-dk);
+}
+
+/* =============================================================================
+   BASE — header, main, breadcrumb, footer
+   ============================================================================= */
 header {
-  background-color: #fff;
+  background-color: var(--rcmp-white);
 }
 header .brand {
   padding-top: 0;
@@ -9,31 +42,10 @@ header .brand {
 }
 #wb-srch button,
 .srchbox button {
-  background-color: #b50315;
+  background-color: var(--rcmp-red);
   border: 0;
-  border-bottom-width: 0px;
-  border-bottom-style: none;
-  border-bottom-color: currentcolor;
-  border-bottom: #b50315 solid 1px;
+  border-bottom: var(--rcmp-red) solid 1px;
   font-size: 17px;
-}
-#wb-srch button:active,
-#wb-srch button:focus,
-#wb-srch button:hover,
-.srchbox button:active,
-.srchbox button:focus,
-.srchbox button:hover {
-  background: #444;
-  border-bottom: #444 solid 1px;
-}
-#wb-srch button:active,
-#wb-srch button:focus,
-#wb-srch button:hover,
-.srchbox button:active,
-.srchbox button:focus,
-.srchbox button:hover {
-  background: #444;
-  border-bottom: #444 solid 1px;
 }
 #wb-srch button:active,
 #wb-srch button:focus,
@@ -58,28 +70,32 @@ hgroup#wb-cont h1 {
   margin-top: 0;
 }
 #wb-info .gc-main-footer {
-  background: #000;
+  background: var(--rcmp-black);
 }
 #wb-info .gc-main-footer h4::before {
-  border-bottom: 4px solid #bea468;
+  border-bottom: 4px solid var(--rcmp-gold);
 }
 main {
-  border-top: 5px solid #82373e;
-  background-color: #fff;
+  border-top: 5px solid var(--rcmp-red-dark);
+  background-color: var(--rcmp-white);
+}
+#wb-bc,
+body {
+  background-color: var(--rcmp-grey-bg);
 }
 
-/* -----------------------------------------------------------------------------
+/* =============================================================================
    1. Missing-person additions
------------------------------------------------------------------------------ */
+   ============================================================================= */
 #mp-photo-col figure {
   margin: 0;
-  border: 1px solid #b1b4b6;
+  border: 1px solid var(--rcmp-grey-md);
 }
 #mp-photo-col figcaption {
-  background: #f3f2f1;
+  background: var(--rcmp-grey-lt);
   padding: 12px 14px;
   font-size: 0.95em;
-  border-top: 1px solid #b1b4b6;
+  border-top: 1px solid var(--rcmp-grey-md);
 }
 #mp-photo-col figcaption strong {
   display: block;
@@ -87,19 +103,20 @@ main {
   margin-bottom: 4px;
 }
 #mp-photo-col .file-number {
-  color: #505a5f;
+  color: var(--rcmp-grey-dk);
   font-size: 0.9em;
 }
-/* -----------------------------------------------------------------------------
+
+/* =============================================================================
    2. Wanted + Missing shared additions
------------------------------------------------------------------------------ */
+   ============================================================================= */
 #wp-toolbar {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: space-between;
   gap: 10px;
-  border-bottom: 1px solid #b1b4b6;
+  border-bottom: 1px solid var(--rcmp-grey-md);
   padding-bottom: 12px;
   margin-bottom: 20px;
 }
@@ -121,9 +138,9 @@ main {
 }
 #wp-sort select {
   padding: 5px 32px 5px 10px;
-  border: 2px solid #0b0c0c;
+  border: 2px solid var(--rcmp-black);
   border-radius: 0;
-  background: #fff;
+  background: var(--rcmp-white);
   -webkit-appearance: none;
   appearance: none;
   cursor: pointer;
@@ -133,7 +150,7 @@ main {
 }
 #mp-filters,
 #wp-filters {
-  border: 1px solid #b1b4b6;
+  border: 1px solid var(--rcmp-grey-md);
   padding: 0;
   margin-bottom: 20px;
   overflow: hidden;
@@ -142,8 +159,8 @@ main {
 }
 #mp-filters-heading,
 #wp-filters-heading {
-  background: #0b0c0c;
-  color: #fff;
+  background: var(--rcmp-black);
+  color: var(--rcmp-white);
   font-weight: 700;
   letter-spacing: 0;
   padding: 10px 14px;
@@ -154,7 +171,7 @@ main {
   display: none;
   padding: 32px;
   text-align: center;
-  border: 1px dashed #b1b4b6;
+  border: 1px dashed var(--rcmp-grey-md);
   max-width: initial;
 }
 .wp-filter-group {
@@ -189,8 +206,8 @@ main {
   width: 28px;
   height: 28px;
   min-width: 28px;
-  border: 2px solid #0b0c0c;
-  background: #fff;
+  border: 2px solid var(--rcmp-black);
+  background: var(--rcmp-white);
   cursor: pointer;
   flex-shrink: 0;
   position: relative;
@@ -203,7 +220,7 @@ main {
   left: 7px;
   width: 10px;
   height: 16px;
-  border: solid #0b0c0c;
+  border: solid var(--rcmp-black);
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
 }
@@ -245,8 +262,8 @@ details.wp-filter-group[open] {
   border-radius: 0;
 }
 .wp-filter-badge {
-  background: #ededed;
-  color: #505a5f;
+  background: var(--rcmp-grey-bg);
+  color: var(--rcmp-grey-dk);
   font-size: 0.78em;
   padding: 1px 6px;
   flex-shrink: 0;
@@ -266,8 +283,8 @@ details.wp-filter-group[open] {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: #0b0c0c;
-  color: #fff;
+  background: var(--rcmp-black);
+  color: var(--rcmp-white);
   font-size: 0.78em;
   font-weight: 700;
   padding: 4px 10px 4px 12px;
@@ -275,7 +292,7 @@ details.wp-filter-group[open] {
 .wp-filter-tag button {
   background: none;
   border: 0;
-  color: #fff;
+  color: var(--rcmp-white);
   font-size: 1em;
   cursor: pointer;
   padding: 0;
@@ -288,34 +305,34 @@ details.wp-filter-group[open] {
 .wp-card {
   display: flex;
   flex-direction: column;
-  border: 1px solid #b1b4b6;
+  border: 1px solid var(--rcmp-grey-md);
   text-decoration: none;
   color: inherit;
-  background: #fff;
+  background: var(--rcmp-white);
   transition:
     box-shadow 0.15s ease,
     border-color 0.15s ease;
 }
 .wp-card:hover,
 .wp-card:focus {
-  border-color: #0b0c0c;
+  border-color: var(--rcmp-black);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
   text-decoration: none;
   color: inherit;
 }
 .wp-card-stripe,
 #wp-photo-col .wp-wanted-frame {
-  background: repeating-linear-gradient(-45deg, #f5d000 0px, #f5d000 8px, #0b0c0c 8px, #0b0c0c 16px);
+  background: repeating-linear-gradient(-45deg, var(--rcmp-yellow) 0px, var(--rcmp-yellow) 8px, var(--rcmp-black) 8px, var(--rcmp-black) 16px);
   padding: 6px;
 }
 #wp-photo-col .wp-wanted-frame {
   padding: 12px;
-  background: repeating-linear-gradient(-45deg, #f5d000 0px, #f5d000 12px, #0b0c0c 12px, #0b0c0c 24px);
+  background: repeating-linear-gradient(-45deg, var(--rcmp-yellow) 0px, var(--rcmp-yellow) 12px, var(--rcmp-black) 12px, var(--rcmp-black) 24px);
 }
 .wp-card-wanted-label,
 #wp-photo-col .wp-wanted-label {
-  background: #0b0c0c;
-  color: #f5d000;
+  background: var(--rcmp-black);
+  color: var(--rcmp-yellow);
   text-align: center;
   font-weight: 700;
   letter-spacing: 0.28em;
@@ -336,24 +353,24 @@ details.wp-filter-group[open] {
   aspect-ratio: 4 / 5;
   object-fit: cover;
   display: block;
-  background: #0b0c0c;
+  background: var(--rcmp-black);
 }
 .wp-card-body {
   padding: 10px 12px 12px;
   flex: 1;
-  border-top: 1px solid #b1b4b6;
-  background: #f3f2f1;
+  border-top: 1px solid var(--rcmp-grey-md);
+  background: var(--rcmp-grey-lt);
 }
 .wp-card-name {
   font-size: 0.92em;
   font-weight: 700;
-  color: #0b0c0c;
+  color: var(--rcmp-black);
   margin: 0 0 4px;
   line-height: 1.3;
 }
 .wp-card-meta {
   font-size: 0.78em;
-  color: #505a5f;
+  color: var(--rcmp-grey-dk);
   margin: 0 0 6px;
 }
 #wp-photo-col figure {
@@ -361,10 +378,10 @@ details.wp-filter-group[open] {
   border: none;
 }
 #wp-photo-col figcaption {
-  background: #f3f2f1;
+  background: var(--rcmp-grey-lt);
   padding: 12px 14px;
   font-size: 0.95em;
-  border-top: 3px solid #0b0c0c;
+  border-top: 3px solid var(--rcmp-black);
 }
 #wp-photo-col figcaption strong {
   display: block;
@@ -372,7 +389,7 @@ details.wp-filter-group[open] {
   margin-bottom: 4px;
 }
 #wp-photo-col .file-number {
-  color: #505a5f;
+  color: var(--rcmp-grey-dk);
   font-size: 0.9em;
 }
 #wp-charges-list {
@@ -384,24 +401,17 @@ details.wp-filter-group[open] {
   gap: 6px;
 }
 #wp-charges-list li {
-  background: #000;
-  color: #fff;
+  background: var(--rcmp-black);
+  color: var(--rcmp-white);
   font-size: 0.82em;
   font-weight: 700;
   letter-spacing: 0.04em;
   padding: 4px 10px;
 }
 
-/* -----------------------------------------------------------------------------
+/* =============================================================================
    3. Community news additions
------------------------------------------------------------------------------ */
-#cn-page {
-  --cn-black: #0b0c0c;
-  --cn-red: #b50315;
-  --cn-grey-lt: #f3f2f1;
-  --cn-grey-md: #b1b4b6;
-  --cn-grey-dk: #505a5f;
-}
+   ============================================================================= */
 #cn-kicker {
   display: block;
   font-size: 0.72em;
@@ -411,7 +421,6 @@ details.wp-filter-group[open] {
   margin-bottom: 10px;
 }
 #cn-deck {
-  font-family: var(--cn-serif);
   font-size: 1.15em;
   line-height: 1.65;
   color: #2c2c2c;
@@ -424,7 +433,6 @@ details.wp-filter-group[open] {
   flex-wrap: wrap;
   align-items: center;
   gap: 6px 16px;
-  font-family: var(--cn-sans);
   font-size: 0.82em;
   color: var(--cn-grey-dk);
   border-top: 1px solid var(--cn-grey-md);
@@ -443,7 +451,6 @@ details.wp-filter-group[open] {
   margin: 0 0 8px;
 }
 #cn-hero figcaption {
-  font-family: var(--cn-sans);
   font-size: 0.78em;
   color: var(--cn-grey-dk);
   background: var(--cn-grey-lt);
@@ -475,6 +482,7 @@ details.wp-filter-group[open] {
 .cn-pullquote p {
   font-size: 1.2em;
   font-weight: 400;
+  font-style: italic;
   line-height: 1.6;
   color: var(--cn-grey-dk);
   margin: 0 0 6px;
@@ -505,7 +513,6 @@ details.wp-filter-group[open] {
   border-left: 4px solid var(--cn-red);
   padding: 18px 20px;
   margin: 28px 0;
-  font-family: var(--cn-sans);
   font-size: 0.9em;
 }
 .cn-infobox h3 {
@@ -520,6 +527,20 @@ details.wp-filter-group[open] {
   padding-left: 1.2em;
   color: var(--cn-black);
   line-height: 1.7;
+}
+#cn-gallery {
+  margin: 28px 0;
+}
+#cn-gallery h2 {
+  margin-bottom: 12px;
+}
+#cn-gallery .list-inline > li {
+  margin-bottom: 8px;
+  padding-left: 0;
+}
+#cn-gallery .list-inline img {
+  display: block;
+  border: 1px solid var(--cn-grey-md);
 }
 #cn-related {
   border-top: 3px solid var(--cn-black);
@@ -537,40 +558,52 @@ details.wp-filter-group[open] {
   line-height: 1.8;
 }
 #cn-page a:focus {
-  outline: 3px solid #fd0;
+  outline: 3px solid var(--rcmp-focus);
   outline-offset: 2px;
-  background: #fd0;
+  background: var(--rcmp-focus);
   color: var(--cn-black);
 }
-#cn-gallery {
-  margin: 28px 0;
+
+/* =============================================================================
+   4. Utilities — layout / grid
+   ============================================================================= */
+.grid {
+  display: grid;
 }
-#cn-gallery h2 {
-  margin-bottom: 12px;
+.inline-grid {
+  display: inline-grid;
 }
-#cn-gallery .list-inline > li {
-  margin-bottom: 8px;
-  padding-left: 0;
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
-#cn-gallery .list-inline img {
-  display: block;
-  border: 1px solid var(--cn-grey-md);
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-@media (max-width: 767px) {
-  #cn-body {
-    max-width: 100%;
-  }
-  #cn-page h1#wb-cont {
-    font-size: 1.6em;
-  }
-  .cn-pullquote p {
-    font-size: 1.1em;
-  }
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.grid-cols-none {
+  grid-template-columns: none;
+}
+.items-center {
+  align-items: center;
+}
+.justify-start {
+  justify-content: start;
+}
+.justify-end {
+  justify-content: end;
+}
+.gap-6px {
+  gap: 6px;
 }
 
-/* -----------------------------------------------------------------------------
-   4. Utilities
------------------------------------------------------------------------------ */
+/* =============================================================================
+   5. Utilities — typography / text
+   ============================================================================= */
 .dl-horizontal dt {
   -webkit-hyphens: none;
   -ms-hyphens: none;
@@ -580,28 +613,82 @@ details.wp-filter-group[open] {
 main .cnt-wdth-lmtd h2 {
   max-width: 45ch;
 }
+.cnt-wdth-lmtd .lead {
+  max-width: 55ch;
+}
+.lgnd-h4 {
+  font-size: 0.8em;
+}
+.td-none {
+  text-decoration: none;
+}
+.td-underline {
+  text-decoration: underline;
+}
+.deploy-time {
+  text-align: right;
+}
+
+/* =============================================================================
+   6. Utilities — spacing
+   ============================================================================= */
+.pb-1 {
+  padding-bottom: 0.5rem !important;
+}
+.py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.pl-0 {
+  padding-left: 0;
+}
+.brdr-tp-0 {
+  border-top: none;
+}
+.pddng-tp-0 {
+  padding-top: 0 !important;
+}
+.pddng-rght-0 {
+  padding-right: 0 !important;
+}
+.pddng-bttm-0 {
+  padding-bottom: 0 !important;
+}
+.pddng-lft-0,
+ol.rst-cntr {
+  padding-left: 0 !important;
+}
+
+/* =============================================================================
+   7. Utilities — colour helpers
+   ============================================================================= */
+.wb-gld {
+  color: var(--rcmp-gold);
+}
+.wb-chrcl {
+  color: #363636;
+}
+.wb-rd {
+  color: var(--rcmp-red);
+}
+
+/* =============================================================================
+   8. Grids — missing / wanted listing pages
+   ============================================================================= */
 #mp-grid,
 #wp-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
 }
-@media (max-width: 767px) {
-  #mp-grid,
-  #wp-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 480px) {
-  #mp-grid,
-  #wp-grid {
-    grid-template-columns: 1fr;
-  }
-}
+
+/* =============================================================================
+   9. Component: Pagination
+   ============================================================================= */
 #rcmp-pagination {
   margin-top: 28px;
   padding-top: 20px;
-  border-top: 1px solid #b1b4b6;
+  border-top: 1px solid var(--rcmp-grey-md);
 }
 .rcmp-pagination {
   display: flex;
@@ -616,7 +703,7 @@ main .cnt-wdth-lmtd h2 {
   padding: 0;
 }
 .rcmp-pagination--block:has(.rcmp-pagination__next[style*="block"]) .rcmp-pagination__prev {
-  border-bottom: 1px solid #b1b4b6;
+  border-bottom: 1px solid var(--rcmp-grey-md);
 }
 .rcmp-pagination__link {
   display: inline-flex;
@@ -664,9 +751,168 @@ main .cnt-wdth-lmtd h2 {
   white-space: nowrap;
 }
 
-/* -----------------------------------------------------------------------------
-   1. CSS Custom Properties
------------------------------------------------------------------------------ */
+/* =============================================================================
+   10. Component: Header / App bar
+   ============================================================================= */
+.app-bar {
+  background: var(--rcmp-red);
+  margin-top: 5px;
+  color: var(--rcmp-white);
+  font-size: 1.6em;
+  padding: 5px;
+}
+
+/* =============================================================================
+   11. Component: Breadcrumb
+   ============================================================================= */
+#wb-bc .breadcrumb li a {
+  padding: 0;
+}
+.block-poweb-breadcrumbs nav.breadcrumb,
+nav.block-menu ul.menu {
+  padding: 0 2px;
+}
+.block-poweb-breadcrumbs nav.breadcrumb ol {
+  padding-inline-start: 0;
+}
+
+/* =============================================================================
+   12. Component: Home page hero banner
+   ============================================================================= */
+#home-page .hero-bnr {
+  min-height: 500px;
+  height: 500px;
+  max-height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+#home-page .hero-bnr img {
+  background-color: var(--rcmp-white);
+  min-height: 500px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#home-page .hero-bnr .hero-txt {
+  padding: 0 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#home-page .hero-bnr .hero-txt .hero-ttl {
+  border-bottom: 3px solid var(--rcmp-gold-warn);
+}
+
+/* =============================================================================
+   13. Component: Navigation misc
+   ============================================================================= */
+[dir="ltr"] .contextual .trigger::before {
+  transform: translate(-50%, -50%) scale(2) !important;
+}
+.contextual-region .form-item .label {
+  color: inherit;
+}
+.contextual-region .form-item .label:after {
+  content: ":";
+}
+.provisional.gc-topic-bg img {
+  height: 200px;
+  object-fit: cover;
+  object-position: left;
+}
+
+/* =============================================================================
+   14. Component: Follow-us social icons
+   ============================================================================= */
+.gc-followus ul.list-inline li {
+  display: inline-block;
+  padding-right: 0;
+  margin-bottom: 21px;
+}
+.gc-followus ul.list-inline li a {
+  height: 38px;
+  width: 38px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+}
+.gc-followus .facebook::before {
+  background-image: url(/themes/custom/poweb/assets/gc-follow-us/facebook.svg);
+}
+.gc-followus .x::before {
+  background-image: url(/themes/custom/poweb/assets/gc-follow-us/x.svg);
+}
+.gc-followus .youtube::before {
+  background-image: url(/themes/custom/poweb/assets/gc-follow-us/youtube.svg);
+}
+.gc-followus .instagram::before {
+  background-image: url(/themes/custom/poweb/assets/gc-follow-us/instagram.svg);
+}
+.gc-followus .linkedin::before {
+  background-image: url(/themes/custom/poweb/assets/gc-follow-us/linkedin.svg);
+}
+.gc-followus .facebook::before,
+.gc-followus .x::before,
+.gc-followus .youtube::before,
+.gc-followus .instagram::before,
+.gc-followus .linkedin::before {
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  height: 38px;
+  margin-right: 10px;
+  min-width: 38px;
+}
+
+/* =============================================================================
+   15. Component: Unilingual banner
+   ============================================================================= */
+.unilingual-wrapper {
+  background-color: var(--rcmp-grey-bg);
+}
+.unilingual-container details,
+.unilingual-container summary,
+.unilingual-container summary:hover,
+.unilingual-container summary:focus {
+  background-color: var(--rcmp-white);
+}
+.unilingual-container #unilingual {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.unilingual-container p.h2 {
+  margin-bottom: 15px;
+}
+#unilingual-bnr {
+  background: #f9f4d4;
+}
+#unilingual-bnr p {
+  margin: 0;
+  text-align: center;
+  line-height: 1.3;
+}
+#unilingual-bnr a {
+  color: #000;
+  display: block;
+  font-weight: 700;
+  padding: 0.75em 44px;
+  text-decoration: underline;
+}
+#unilingual-bnr .overlay-close {
+  color: #000;
+  background-color: transparent;
+}
+#unilingual-bnr .overlay-close:hover {
+  border: solid 1px #000;
+}
+#unilingual-bnr.wb-overlay.open {
+  position: absolute;
+}
+
+/* =============================================================================
+   16. Component: Topic pills (#tp-*)
+   ============================================================================= */
 #tp-1,
 p.tp-1 {
   --color: #99b186;
@@ -716,313 +962,6 @@ p.tp-12 {
   --color: #f3dd8c;
 }
 
-/* -----------------------------------------------------------------------------
-   2. Colour utilities
------------------------------------------------------------------------------ */
-.wb-gld {
-  color: #bea468;
-}
-.wb-chrcl {
-  color: #363636;
-}
-.wb-rd {
-  color: #b50315;
-}
-
-/* -----------------------------------------------------------------------------
-   3. Layout / grid utilities
------------------------------------------------------------------------------ */
-
-.grid {
-  display: grid;
-}
-.inline-grid {
-  display: inline-grid;
-}
-
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-.grid-cols-none {
-  grid-template-columns: none;
-}
-
-.items-center {
-  align-items: center;
-}
-.justify-start {
-  justify-content: start;
-}
-.justify-end {
-  justify-content: end;
-}
-.gap-6px {
-  gap: 6px;
-}
-
-/* -----------------------------------------------------------------------------
-   4. Typography / text utilities
------------------------------------------------------------------------------ */
-.lgnd-h4 {
-  font-size: 0.8em;
-}
-.td-none {
-  text-decoration: none;
-}
-.td-underline {
-  text-decoration: underline;
-}
-.deploy-time {
-  text-align: right;
-}
-
-/* -----------------------------------------------------------------------------
-   5. Spacing utilities
------------------------------------------------------------------------------ */
-.pb-1 {
-  padding-bottom: 0.5rem !important;
-}
-.py-0 {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-.pl-0 {
-  padding-left: 0;
-}
-.brdr-tp-0 {
-  border-top: none;
-}
-
-.pddng-tp-0 {
-  padding-top: 0 !important;
-}
-.pddng-rght-0 {
-  padding-right: 0 !important;
-}
-.pddng-bttm-0 {
-  padding-bottom: 0 !important;
-}
-
-.pddng-lft-0,
-ol.rst-cntr {
-  padding-left: 0 !important;
-}
-
-/* -----------------------------------------------------------------------------
-   6. Component: Header / App bar
------------------------------------------------------------------------------ */
-.app-bar {
-  background: #b50315;
-  margin-top: 5px;
-  color: #fff;
-  font-size: 1.6em;
-  padding: 5px;
-}
-
-/* -----------------------------------------------------------------------------
-   7. Component: Breadcrumb
------------------------------------------------------------------------------ */
-#wb-bc .breadcrumb li a {
-  padding: 0;
-}
-
-.block-poweb-breadcrumbs nav.breadcrumb,
-nav.block-menu ul.menu {
-  padding: 0 2px;
-}
-
-.block-poweb-breadcrumbs nav.breadcrumb ol {
-  padding-inline-start: 0;
-}
-
-/* -----------------------------------------------------------------------------
-   8. Component: Home page hero banner
------------------------------------------------------------------------------ */
-#home-page .hero-bnr {
-  min-height: 500px;
-  height: 500px;
-  max-height: 500px;
-  overflow: hidden;
-  position: relative;
-}
-
-#home-page .hero-bnr img {
-  background-color: white;
-  min-height: 500px;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-#home-page .hero-bnr .hero-txt {
-  padding: 0 25px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-#home-page .hero-bnr .hero-txt .hero-ttl {
-  border-bottom: 3px solid #ecb731;
-}
-
-/* -----------------------------------------------------------------------------
-   9. Component: Navigation misc
------------------------------------------------------------------------------ */
-[dir="ltr"] .contextual .trigger::before {
-  transform: translate(-50%, -50%) scale(2) !important;
-}
-
-.contextual-region .form-item .label {
-  color: inherit;
-}
-.contextual-region .form-item .label:after {
-  content: ":";
-}
-
-.provisional.gc-topic-bg img {
-  height: 200px;
-  object-fit: cover;
-  object-position: left;
-}
-
-/* -----------------------------------------------------------------------------
-   10. Component: DataTables
------------------------------------------------------------------------------ */
-.dataTables_filter label {
-  display: flex;
-  margin-bottom: 0;
-}
-
-.dataTables_filter input {
-  margin-bottom: 0;
-  height: 3.5rem;
-}
-
-.dataTables_wrapper .dataTables_info:after {
-  content: "" !important;
-  font-size: unset !important;
-  line-height: unset !important;
-  padding: unset !important;
-}
-
-.dataTables_wrapper .dataTables_length label {
-  margin-bottom: 0;
-}
-
-/* -----------------------------------------------------------------------------
-   11. Component: Follow-us social icons
------------------------------------------------------------------------------ */
-.gc-followus ul.list-inline li {
-  display: inline-block;
-  padding-right: 0;
-  margin-bottom: 21px;
-}
-
-.gc-followus ul.list-inline li a {
-  height: 38px;
-  width: 38px;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-decoration: none;
-}
-
-.gc-followus .facebook::before {
-  background-image: url(/themes/custom/poweb/assets/gc-follow-us/facebook.svg);
-}
-.gc-followus .x::before {
-  background-image: url(/themes/custom/poweb/assets/gc-follow-us/x.svg);
-}
-.gc-followus .youtube::before {
-  background-image: url(/themes/custom/poweb/assets/gc-follow-us/youtube.svg);
-}
-.gc-followus .instagram::before {
-  background-image: url(/themes/custom/poweb/assets/gc-follow-us/instagram.svg);
-}
-.gc-followus .linkedin::before {
-  background-image: url(/themes/custom/poweb/assets/gc-follow-us/linkedin.svg);
-}
-
-.gc-followus .facebook::before,
-.gc-followus .x::before,
-.gc-followus .youtube::before,
-.gc-followus .instagram::before,
-.gc-followus .linkedin::before {
-  background-repeat: no-repeat;
-  background-size: cover;
-  content: "";
-  height: 38px;
-  margin-right: 10px;
-  min-width: 38px;
-}
-
-/* -----------------------------------------------------------------------------
-   12. Component: Unilingual banner
------------------------------------------------------------------------------ */
-.unilingual-wrapper {
-  background-color: #ededed;
-}
-
-.unilingual-container details,
-.unilingual-container summary,
-.unilingual-container summary:hover,
-.unilingual-container summary:focus {
-  background-color: #fff;
-}
-
-.unilingual-container #unilingual {
-  margin-top: 15px;
-  margin-bottom: 0;
-}
-
-.unilingual-container p.h2 {
-  margin-bottom: 15px;
-}
-
-#unilingual-bnr {
-  background: #f9f4d4;
-}
-
-#unilingual-bnr p {
-  margin: 0;
-  text-align: center;
-  line-height: 1.3;
-}
-
-#unilingual-bnr a {
-  color: #000;
-  display: block;
-  font-weight: 700;
-  padding: 0.75em 44px;
-  text-decoration: underline;
-}
-
-#unilingual-bnr .overlay-close {
-  color: #000;
-  background-color: transparent;
-}
-
-#unilingual-bnr .overlay-close:hover {
-  border: solid 1px #000;
-}
-#unilingual-bnr.wb-overlay.open {
-  position: absolute;
-}
-
-/* -----------------------------------------------------------------------------
-   13. Component: Topic pills (#tp-*)
------------------------------------------------------------------------------ */
-/* Variable tokens are declared in section 1 above */
-
 p.tp-1,
 p.tp-2,
 p.tp-3,
@@ -1042,7 +981,6 @@ p.tp-12 {
   padding: 10px;
   font-weight: bold;
 }
-
 #tp-1,
 #tp-2,
 #tp-3,
@@ -1059,7 +997,6 @@ p.tp-12 {
   background: var(--color);
   border-color: var(--color);
 }
-
 #tp-1:focus,
 #tp-2:focus,
 #tp-3:focus,
@@ -1085,52 +1022,49 @@ p.tp-12 {
 #tp-11:hover,
 #tp-12:hover {
   color: #000;
-  background-color: #fff;
+  background-color: var(--rcmp-white);
   border-color: var(--color);
 }
 
-/* -----------------------------------------------------------------------------
-   14. Component: Gazette label
------------------------------------------------------------------------------ */
+/* =============================================================================
+   17. Component: Gazette label
+   ============================================================================= */
 .label-gazette,
 .label-gazette[href]:active,
 .label-gazette[href]:focus,
 .label-gazette[href]:hover {
   background: #ccc;
-  border-color: #b50315;
+  border-color: var(--rcmp-red);
   color: #000;
 }
 
-/* -----------------------------------------------------------------------------
-   15. Component: Environment banner (rcmp-env)
------------------------------------------------------------------------------ */
+/* =============================================================================
+   18. Component: Environment banner (rcmp-env)
+   ============================================================================= */
 div[class^="rcmp-env"] {
   min-height: 2.75rem;
   padding: 0.5rem 1rem;
 }
-
 .rcmp-env-local,
 .rcmp-env-dev {
-  color: #fff;
+  color: var(--rcmp-white);
   background: linear-gradient(0deg, #66bb6a, #1b6c1c);
   border-color: #071a07;
 }
-
 .rcmp-env-stage {
-  color: #fff;
+  color: var(--rcmp-white);
   background: linear-gradient(0deg, #d12ae5, #7e198b);
   border-color: #6b1d1c;
 }
-
 .rcmp-env-test {
-  color: #fff;
+  color: var(--rcmp-white);
   background: linear-gradient(0deg, #3994e1, #1c588b);
   border-color: #143c5f;
 }
 
-/* -----------------------------------------------------------------------------
-   16. Component: PIA table
------------------------------------------------------------------------------ */
+/* =============================================================================
+   19. Component: PIA table
+   ============================================================================= */
 .table.pia h2 {
   margin-top: 15px;
 }
@@ -1138,30 +1072,27 @@ div[class^="rcmp-env"] {
   text-align: left;
 }
 
-/* -----------------------------------------------------------------------------
-   17. Component: Recruiting event grid
------------------------------------------------------------------------------ */
+/* =============================================================================
+   20. Component: Recruiting event grid
+   ============================================================================= */
 .table tbody.recruiting-event-grid tr td {
   padding: 0;
 }
-
 .recruiting-event-grid .event-item .category-text-align,
 .recruiting-event-grid .event-item .type-text-align {
   text-align: left;
 }
 
-/* -----------------------------------------------------------------------------
-   18. Component: Contact / signature
------------------------------------------------------------------------------ */
+/* =============================================================================
+   21. Component: Contact / signature
+   ============================================================================= */
 .contact-signature {
   margin-bottom: 3rem;
 }
-
 .signature-link-grid {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
-
 .signature-link-grid .signature-link-subgrid {
   display: grid;
   grid-auto-columns: auto;
@@ -1169,17 +1100,14 @@ div[class^="rcmp-env"] {
   column-gap: 1rem;
   justify-content: flex-start;
 }
-
 .signature-link-grid .signature-link-subgrid div:first-child {
   min-width: 2.75rem;
 }
-
 .contact-signature svg.svg-inline--fa.fa-link,
 .contact-signature svg.svg-inline--fa.fa-x-twitter,
 .contact-signature svg.svg-inline--fa.fa-instagram {
   color: #000;
 }
-
 .contact-signature svg.svg-inline--fa.fa-square-facebook {
   color: #3c5a99;
 }
@@ -1187,9 +1115,9 @@ div[class^="rcmp-env"] {
   color: #d92632;
 }
 
-/* -----------------------------------------------------------------------------
-   19. Component: Button
------------------------------------------------------------------------------ */
+/* =============================================================================
+   22. Component: Button
+   ============================================================================= */
 .btn-all-services {
   border: 2px solid #26374a;
   color: #26374a;
@@ -1198,16 +1126,15 @@ div[class^="rcmp-env"] {
   padding: 0.65em 1.1em;
 }
 
-/* -----------------------------------------------------------------------------
-   20. Component: Misc helpers
------------------------------------------------------------------------------ */
+/* =============================================================================
+   23. Component: Misc helpers
+   ============================================================================= */
 .no-c {
   border: 0;
-  background-color: #fff;
+  background-color: var(--rcmp-white);
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-
 .toolbar-horizontal {
   margin-top: 8rem;
 }
@@ -1217,61 +1144,43 @@ div[class^="rcmp-env"] {
 .prod-offset {
   margin-top: 38px !important;
 }
-
-.cnt-wdth-lmtd .lead {
-  max-width: 55ch;
-}
-
 .rcmp-imgFig .rcmp-imgFig-inner-wrapper figcaption > :last-child {
   margin-bottom: 0 !important;
 }
-
 .wb-lbx .list-inline > li {
   margin-bottom: 0.4em;
   padding-left: 0;
 }
-
 .wb-fnote {
   margin: 5px 0 30px;
 }
-
 .splash main {
   border-top: 0;
   margin-bottom: 0;
 }
 
-#wb-bc,
-body {
-  background-color: #ededed;
-}
-
-/* -----------------------------------------------------------------------------
-   21. Component: Numbered list (sb-nmbrd / rst-cntr)
------------------------------------------------------------------------------ */
+/* =============================================================================
+   24. Component: Numbered list (sb-nmbrd / rst-cntr)
+   ============================================================================= */
 ol.plcs.sb-nmbrd li:before {
   float: left;
   padding-right: 1rem;
   font-weight: 700;
 }
-
 ol .alert {
   margin-bottom: 0 !important;
 }
-
 ol.sb-nmbrd {
   counter-reset: first;
 }
-
 ol.sb-nmbrd > li:before {
   content: counters(first, ".") ".";
   counter-increment: first;
 }
-
 ol.plcs.sb-nmbrd > li:before {
   margin-top: 3px;
   font-size: 3.4rem;
 }
-
 ol.sb-nmbrd li ol {
   counter-reset: second;
 }
@@ -1300,12 +1209,10 @@ ol.sb-nmbrd li ol li ol li ol li ol li:before {
   content: counters(first, ".") "." counters(second, ".") "." counters(third, ".") "." counters(fourth, ".") "." counters(fifth, ".");
   counter-increment: fifth;
 }
-
 ol.rst-cntr {
   list-style: none !important;
   counter-reset: item !important;
 }
-
 ol.rst-cntr li {
   counter-increment: item !important;
 }
@@ -1313,7 +1220,6 @@ ol.rst-cntr li:before {
   content: counter(item) "." !important;
   width: 1.2em !important;
 }
-
 .sb-nmbrd ul li::before {
   list-style-type: disc !important;
   list-style-position: inside;
@@ -1321,18 +1227,16 @@ ol.rst-cntr li:before {
   display: list-item;
 }
 
-/* -----------------------------------------------------------------------------
-   22. Component: HRCSODA
------------------------------------------------------------------------------ */
+/* =============================================================================
+   25. Component: HRCSODA
+   ============================================================================= */
 .hrcsoda-grid-wrapper {
   margin: -1rem 0 -1rem 0;
   padding: 1rem;
 }
-
 .hrcsoda-grid-wrapper .thumbnail {
   margin-bottom: 1rem;
 }
-
 .hrcsoda-image-placeholder {
   width: 240px;
   height: 300px;
@@ -1343,9 +1247,9 @@ ol.rst-cntr li:before {
   background-color: #f8f8f8;
 }
 
-/* -----------------------------------------------------------------------------
-   23. Component: divisional-missing width override
------------------------------------------------------------------------------ */
+/* =============================================================================
+   26. Component: Divisional-missing width override
+   ============================================================================= */
 .cnt-wdth-lmtd #divisional-missing .dl-horizontal,
 .cnt-wdth-lmtd main #divisional-missing dd,
 .cnt-wdth-lmtd main #divisional-missing dt,
@@ -1361,15 +1265,35 @@ main #divisional-missing .cnt-wdth-lmtd p {
 }
 
 /* =============================================================================
-   MEDIA QUERIES  —  consolidated, ascending breakpoint order
+   MEDIA QUERIES — consolidated, ascending breakpoint order
    ============================================================================= */
 @media screen and (max-width: 767px) {
   header .brand img {
-    margin-top: 10;
+    margin-top: 10px;
   }
   header .brand img,
   header .brand object {
     max-height: 40px;
+  }
+  #mp-grid,
+  #wp-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #cn-body {
+    max-width: 100%;
+  }
+  #cn-page h1#wb-cont {
+    font-size: 1.6em;
+  }
+  .cn-pullquote p {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 480px) {
+  #mp-grid,
+  #wp-grid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -1397,35 +1321,16 @@ main #divisional-missing .cnt-wdth-lmtd p {
 }
 
 @media screen and (min-width: 992px) {
-  .dataTables_wrapper .top {
-    grid-auto-flow: column;
-    grid-auto-columns: auto;
-    grid-template-columns: none;
-  }
-  .dataTables_wrapper .dataTables_length {
-    margin-left: 15px;
-  }
-  .dataTables_wrapper .dataTables_length label {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-  .dataTables_wrapper .dataTables_length select {
-    margin-right: 1rem;
-    margin-left: -0.5rem;
-  }
-
   .table.pia h2 {
     margin-top: 0;
   }
   .pia-date {
     text-align: right;
   }
-
   .recruiting-event-grid .event-item .category-text-align,
   .recruiting-event-grid .event-item .type-text-align {
     text-align: right;
   }
-
   .hrcsoda-image-placeholder {
     justify-self: center;
   }

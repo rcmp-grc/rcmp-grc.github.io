@@ -15,7 +15,7 @@ issued: 2026-05-08
 </style>
 <p class="lead">Officials from the Public Health Agency of Canada will provide details about the Andes Hantavirus outbreak on the MV Hondius and actions taken by the Government of Canada.</p>
 <hr>
-<p><i class="fa-solid fa-calendar-days"></i> May&nbsp;8, 2026 - Ottawa, Ontario</p>
+<p><i class="fa-solid fa-calendar-days"></i>   May&nbsp;8, 2026 - Ottawa, Ontario</p>
 <p><i class="fa-regular fa-circle-user"></i>  <a href="https://rcmp.ca/en/"><abbr>RCMP</abbr> Headquaters</a></p>
 <div class="row">
 <div class="col-md-8">

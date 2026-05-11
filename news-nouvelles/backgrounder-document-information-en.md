@@ -1,24 +1,23 @@
 ---
 layout: default
-title: 
+title: Daily Occurrence Report - 6 a.m. May 7 to 6 a.m. May 8
 description: My page description
 date_modified: 2026-05-08
 lang: en
 lang_url: backgrounder-document-information-fr.html
-author:
-creator:
-subject:
+lead: Bacgrounder
 issued: 2026-05-08
 ---
 
-<hgroup class="mrgn-tp-md">
-<p class="wb-rd lead mrgn-tp-0 mrgn-bttm-0">Bacgrounder</p>
-<h1 class="mrgn-tp-0" property="name" id="wb-cont">Daily Occurrence Report - 6 a.m. May 7 to 6 a.m. May 8</h1>
-</hgroup>
+<style>
+	hr
+	 { border-bottom: 2px solid var(--rcmp-gold);
+	 }
+</style>
 <p class="lead">Total number of calls: 299</p>
 <hr>
-<p><i class="fa-solid fa-calendar"></i>  May&nbsp;8, 2026 - Fredericton, New Brunswick</p>
-<p><i class="fa-solid fa-user"></i>  <a href="https://rcmp.ca/en/nb">New Brunswick <abbr>RCMP</abbr></a></p>
+<div><i class="fa-solid fa-calendar-days"></i> May&nbsp;8, 2026 - Ottawa, Ontario</div>
+<div class="mrgn-tp-0 mrgn-bttm-md"><i class="fa-regular fa-circle-user"></i> <a href="https://rcmp.ca/en/"><abbr>RCMP</abbr> Headquaters</a></div>
 <div class="bg-info col-md-8">
 <p><strong>Total number of calls: 299</strong></p>
 <ul>

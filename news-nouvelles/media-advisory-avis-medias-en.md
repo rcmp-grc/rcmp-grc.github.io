@@ -19,6 +19,7 @@ issued: 2026-05-08
 <hr>
 <p><i class="fa-solid fa-calendar"></i>  May&nbsp;8, 2026 - Ottawa, Ontario</p>
 <p><i class="fa-solid fa-user"></i>  <a href="https://rcmp.ca/en/"><abbr>RCMP</abbr> Headquaters</a></p>
+<div class="row">
 <div class="col-md-8">
  <p>Accredited journalists can also participate online. <strong>Please note</strong>: Individuals who do not have an access pass to Parliamentary buildings must enter through the entrance at 197 Sparks Street.</p>
 <p>Participation in the question and answer portion of the technical briefing is for accredited members of the Press Gallery only. Media who are not members of the Press Gallery may contact testemailaddress@rcmp.gc.ca for temporary access.</p>
@@ -30,6 +31,7 @@ issued: 2026-05-08
 National Press Theatre<br>
 Room 325, 180 Wellington St<br>
 Ottawa ON</p>
+</div>
 </div>
 <div class="clearfix"></div>
 <section id="n1">

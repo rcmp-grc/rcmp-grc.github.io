@@ -90,28 +90,8 @@ main {
   color: #505a5f;
   font-size: 0.9em;
 }
-#mp-filters {
-  border: 1px solid #b1b4b6;
-  padding: 0;
-  margin-bottom: 20px;
-  overflow: visible;
-  width: 100%;
-  box-sizing: border-box;
-}
-#mp-filters-heading {
-  background: #0b0c0c;
-  color: #fff;
-  font-weight: 700;
-  letter-spacing: 0;
-  padding: 10px 14px;
-  margin: 0;
-}
-#mp-no-results {
-  display: none;
-}
-
 /* -----------------------------------------------------------------------------
-   2. Wanted additions
+   2. Wanted + Missing shared additions
 ----------------------------------------------------------------------------- */
 #wp-toolbar {
   display: flex;
@@ -151,6 +131,7 @@ main {
   background-repeat: no-repeat;
   background-position: right 10px center;
 }
+#mp-filters,
 #wp-filters {
   border: 1px solid #b1b4b6;
   padding: 0;
@@ -159,6 +140,7 @@ main {
   width: 100%;
   box-sizing: border-box;
 }
+#mp-filters-heading,
 #wp-filters-heading {
   background: #0b0c0c;
   color: #fff;
@@ -166,6 +148,14 @@ main {
   letter-spacing: 0;
   padding: 10px 14px;
   margin: 0;
+}
+#mp-no-results,
+#wp-no-results {
+  display: none;
+  padding: 32px;
+  text-align: center;
+  border: 1px dashed #b1b4b6;
+  max-width: initial;
 }
 .wp-filter-group {
   overflow: visible;
@@ -365,13 +355,6 @@ details.wp-filter-group[open] {
   font-size: 0.78em;
   color: #505a5f;
   margin: 0 0 6px;
-}
-#wp-no-results {
-  display: none;
-  padding: 32px;
-  text-align: center;
-  border: 1px dashed #b1b4b6;
-  max-width: initial;
 }
 #wp-photo-col figure {
   margin: 0;

@@ -21,7 +21,6 @@ issued: 2026-05-08
 
 <div><i class="fa-solid fa-calendar-days"></i> May&nbsp;8, 2026 - Ottawa, Ontario</div>
 <div class="mrgn-tp-0 mrgn-bttm-md"><i class="fa-regular fa-circle-user"></i> <a href="https://rcmp.ca/en/"><abbr>RCMP</abbr> Headquaters</a></div>
-
 <div class="row">
 <div class="col-md-8">
  <p>Accredited journalists can also participate online. <strong>Please note</strong>: Individuals who do not have an access pass to Parliamentary buildings must enter through the entrance at 197 Sparks Street.</p>

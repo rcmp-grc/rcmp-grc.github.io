@@ -12,7 +12,7 @@ issued: 2026-05-07
 ---			
 <div class="container">  
 <div class="row">
-  <div class="col-xs-12 col-md-6">		
+  <div class="col-xs-6">		
 <section class="alert alert-warning">
 <h2 class="h3">Online service interruption</h2>
 	<p>Due to Shared Services Canada maintenance, this service will be unavailable for use on Sunday, March&#160;29, 2026, from 9&#160;am until 10:30&#160;am, Eastern time. We apologize in advance for any inconvenience this may cause.</p>
@@ -98,7 +98,7 @@ issued: 2026-05-07
 </div>
 </div>
 <div class="row">
-  <div class="col-xs-12 col-md-6">
+  <div class="col-xs-6">
 	<section id="s2">
 	<div class="well brdr-0 brdr-rds-0 mrgn-tp-md">
   	<h2>Questions and answers</h2>

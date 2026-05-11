@@ -80,6 +80,9 @@ button,
   border-bottom: 6px solid transparent;
   transition: border-color 0.15s ease;
   white-space: nowrap;
+  text-transform: uppercase;
+  width: fit-content;
+  align-self: stretch;
 }
 .careers-nav__links a:hover,
 .careers-nav__links a:focus {
@@ -95,7 +98,7 @@ button,
 .careers-nav__apply a {
   display: inline-block;
   background-color: #fec111;
-  color: #fff;
+  color: #000;
   border: 1px solid #fec111;
   padding: 10px 22px;
   font-size: 0.95rem;

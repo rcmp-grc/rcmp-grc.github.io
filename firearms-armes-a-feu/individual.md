@@ -10,16 +10,13 @@ creator:
 subject:
 issued: 2026-05-07
 ---			
-<div class="container">  
-<div class="row margin: 0 -15px;">
-  <div class="col-xs-6">		
 	<section class="alert alert-warning">
 	<h2 class="h3">Online service interruption</h2>
 	<p>Due to Shared Services Canada maintenance, this service will be unavailable for use on Sunday, March&#160;29, 2026, from 9&#160;am until 10:30&#160;am, Eastern time. We apologize in advance for any inconvenience this may cause.</p>
 	</section>
-  </div>
-	<div class="clearfix visible-xs"></div>
-  <div class="col-xs-6">
+	
+<div class="row">
+  <div class="col-xs-6">	
 		<div class="mrgn-tp-lg alert alert-info">
 			<h2 class="h3">Recent updates</h2>
     <ul class="list-unstyled">

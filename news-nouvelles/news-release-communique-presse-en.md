@@ -43,7 +43,7 @@ lead: News release
 </section>
 <section id="n3">	
 <h2 class="h3">Video</h2>
-<div class="col-md-8">
+<div class="col-md-8 mrgn-left-0">
 <figure class="wb-mltmd">
 		<video title="We are your next career">
 			<source type="video/youtube" src="https://www.youtube.com/watch?v=ow1Buo0PrTE">

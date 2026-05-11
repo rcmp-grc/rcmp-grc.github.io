@@ -20,19 +20,19 @@ lead: News release
 <section id="n1">
 <h2 class="h3">Tips for drivers sharing the road with motorcycles</h2>
 <ul>
-<li data-list-item-id="e5a4420fc2d9aea968a38e34cb44762d2">Scan intersections carefully and take an extra moment to look for motorcycles when turning left</li>
-<li data-list-item-id="e7316966545caa9fb49b05dd120d2e357">Allow at least three&nbsp;seconds of following distance behind a motorcycle</li>
-<li data-list-item-id="e24ffdb66e13843e762a1bc77980070bf">Maintain at least one metre of space when passing in zones up to 50&nbsp;<abbr>km</abbr>/<abbr>h</abbr>, and at least 1.5&nbsp;metres when passing in higher-speed zones</li>
+<li>Scan intersections carefully and take an extra moment to look for motorcycles when turning left</li>
+<li>Allow at least three&nbsp;seconds of following distance behind a motorcycle</li>
+<li>Maintain at least one metre of space when passing in zones up to 50&nbsp;<abbr>km</abbr>/<abbr>h</abbr>, and at least 1.5&nbsp;metres when passing in higher-speed zones</li>
 <li data-list-item-id="ed76d29f416b45e5d95fa86b6257b8e69">Stay alert and avoid distractions</li>
 </ul>
 </section>
 <section id="n2">
 <h2 class="h3">Tips for riders</h2>
 <ul>
-<li data-list-item-id="e558a9cb9252c56bd0c9e96ad03bd8fa8">Wear all the gear, all the time</li>
-<li data-list-item-id="ec628194a693b58a0dde3a2cea7ceae32">Stay out of driver’s blind spots and use signals to communicate intentions</li>
-<li data-list-item-id="eec0f92cb2a1ba8ca8d1b11d332d271ee">Manage speed to leave room to brake or steer clear of hazards</li>
-<li data-list-item-id="ef864c2eff32ba69eb6aa48ff09023fa5">Brush up on emergency braking and obstacle avoidance, especially after time off the bike</li>
+<li>Wear all the gear, all the time</li>
+<li>Stay out of driver’s blind spots and use signals to communicate intentions</li>
+<li>Manage speed to leave room to brake or steer clear of hazards</li>
+<li>Brush up on emergency braking and obstacle avoidance, especially after time off the bike</li>
 </ul>
 <p>For more information on <abbr>BC</abbr>’s motorcycle laws, helmet standards, fines and penalty points, visit the <a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/motorcycle-safety">Province of British Columbia’s website</a>. For motorcycle licensing, rider training resources, and gear guides, visit the <a href="https://www.icbc.com/road-safety/sharing/motorcycle-safety"><abbr>ICBC</abbr>&nbsp;website</a>.</p>
 </section>
@@ -49,10 +49,10 @@ lead: News release
 <section id="n4" class="wb-lbx lbx-gal">
     <h2 class="h3">Image gallery</h2>
     <ul class="list-inline">
-        <li><a href="filler-image.jpg" title="Title 1"><img alt="" src="thumbnail.jpg"></a></li>
-        <li><a href="filler-image.jpg" title="Title 2"><img alt="" src="thumbnail.jpg"></a></li>
-        <li><a href="filler-image.jpg" title="Title 3"><img alt="" src="thumbnail.jpg"></a></li>
-        <li><a href="filler-image.jpg" title="Title 4"><img alt="" src="thumbnail.jpg"></a></li>
+        <li><a href="filler-image.jpg" title="Title 1"><img alt="" src="175x175.jpg"></a></li>
+        <li><a href="filler-image.jpg" title="Title 2"><img alt="" src="175x175.jpg"></a></li>
+        <li><a href="filler-image.jpg" title="Title 3"><img alt="" src="175x175.jpg"></a></li>
+        <li><a href="filler-image.jpg" title="Title 4"><img alt="" src="175x175.jpg"></a></li>
     </ul>
 </section>
 <section id="n5">

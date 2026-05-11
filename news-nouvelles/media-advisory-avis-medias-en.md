@@ -33,7 +33,7 @@ issued: 2026-05-08
 <div class="icon-grid">
 	<div class="icon-subgrid">
 <div><i class="fa-solid fa-calendar-days"></i>   May&nbsp;8, 2026 - Ottawa, Ontario</div>
-<div class="mrgn-tp-0"><i class="fa-regular fa-circle-user"></i>  <a href="https://rcmp.ca/en/"><abbr>RCMP</abbr> Headquaters</a></div>
+<div class="mrgn-tp-0 mrgn-bttm-small"><i class="fa-regular fa-circle-user"></i>  <a href="https://rcmp.ca/en/"><abbr>RCMP</abbr> Headquaters</a></div>
 	</div>
 </div>
 <div class="row">

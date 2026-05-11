@@ -48,10 +48,11 @@ issued: 2026-05-07
     </ul>
   </div>
   </div>
-<div class="col-xs-6">	  
-<section id="s1">
-  <h2>Access to Individual Web Services</h2>
-  <p>When you sign in through the button below, you can:</p>
+<div class="row">
+	<div class="col-xs-6">	  
+	<section id="s1">
+  	<h2>Access to Individual Web Services</h2>
+  	<p>When you sign in through the button below, you can:</p>
   <ul>
     <li>renew your firearms licence</li>
     <li>check your application status</li>
@@ -160,7 +161,10 @@ issued: 2026-05-07
 	</div>
 </section>
 </div>
-<div class="col-xs-6">
+</div>
+</div>
+<div class="row">
+	<div class="col-xs-6">
     <h3>Note</h3>
     <p>You can renew your licence online or via a mailed application if <strong>both</strong> of the following apply:</p>
     <ul>

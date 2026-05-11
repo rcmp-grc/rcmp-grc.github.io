@@ -13,7 +13,8 @@ issued: 2026-05-07
 	<section class="alert alert-warning">
 	<h2 class="h3">Online service interruption</h2>
 	<p>Due to Shared Services Canada maintenance, this service will be unavailable for use on Sunday, March&#160;29, 2026, from 9&#160;am until 10:30&#160;am, Eastern time. We apologize in advance for any inconvenience this may cause.</p>
-	</section>		
+	</section>
+	<section id="s1">
 	<h2 class="h3">Recent updates</h2>
     <ul class="list-unstyled">
       <li>
@@ -41,12 +42,10 @@ issued: 2026-05-07
         </details>
       </li>  
     </ul>
-  </div>
-  </div>
-</div>	
+	</section>
 <div class="row">
 	<div class="col-xs-6">	  
-	<section id="s1">
+	<section id="s2">
   	<h2>Access to Individual Web Services</h2>
   	<p>When you sign in through the button below, you can:</p>
   <ul>
@@ -57,7 +56,6 @@ issued: 2026-05-07
     <li>apply for an authorization to transport firearms</li>
     <li>update your information</li>
   </ul>
-</section>
     <p class="mrgn-tp-lg"><a class="btn btn-call-to-action" href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html?ipeReferer=eCFISIWS">Proceed to the secure site <span class="wb-inv">for
   Individual Web Services</span></a></p>
   <div class="accordion">
@@ -85,6 +83,7 @@ issued: 2026-05-07
       </div>
     </details>
   </div>
+	</section>
   <div class="col-xs-6">
 	<h3>Note</h3>
     <p>You can renew your licence online or via a mailed application if <strong>both</strong> of the following apply:</p>

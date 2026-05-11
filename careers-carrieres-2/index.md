@@ -196,7 +196,10 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
    ============================================================================= */
 
 window.setTimeout(function(){
-    $(window).scrollTop(document.getElementById("careers-page").getBoundingClientRect().top);
+    const careersPage = document.getElementById("careers-page");
+    if (careersPage) {
+        window.scrollTo(0, careersPage.getBoundingClientRect().top + window.scrollY);
+    }
 }, 1);
 
 var currentNav = "header-police";

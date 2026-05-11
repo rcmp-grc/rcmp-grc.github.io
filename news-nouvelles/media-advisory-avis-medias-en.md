@@ -8,16 +8,34 @@ lang_url: media-advisory-avis-medias-fr.html
 lead: Media Advisory
 issued: 2026-05-08
 ---
+
 <style>
 	hr
 	 { border-bottom: 2px solid var(--rcmp-gold);
 	 }
-	
+	.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.icon-grid .signature-link-subgrid {
+  display: grid;
+  grid-auto-columns: auto;
+  grid-auto-flow: column;
+  column-gap: 1rem;
+  justify-content: flex-start;
+}
+.icon-grid .icon-subgrid div:first-child {
+  min-width: 2.75rem;
+}	
 </style>
 <p class="lead">Officials from the Public Health Agency of Canada will provide details about the Andes Hantavirus outbreak on the MV Hondius and actions taken by the Government of Canada.</p>
 <hr>
-<p><i class="fa-solid fa-calendar-days"></i>   May&nbsp;8, 2026 - Ottawa, Ontario</p>
-<p class="mrgn-tp-0"><i class="fa-regular fa-circle-user"></i>  <a href="https://rcmp.ca/en/"><abbr>RCMP</abbr> Headquaters</a></p>
+<div class=icon-grid">
+	<div class="icon-subgrid">
+<div><i class="fa-solid fa-calendar-days"></i>   May&nbsp;8, 2026 - Ottawa, Ontario</div>
+<div class="mrgn-tp-0"><i class="fa-regular fa-circle-user"></i>  <a href="https://rcmp.ca/en/"><abbr>RCMP</abbr> Headquaters</a></div>
+	</div>
+</div>
 <div class="row">
 <div class="col-md-8">
  <p>Accredited journalists can also participate online. <strong>Please note</strong>: Individuals who do not have an access pass to Parliamentary buildings must enter through the entrance at 197 Sparks Street.</p>

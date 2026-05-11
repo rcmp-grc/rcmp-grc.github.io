@@ -13,12 +13,8 @@ issued: 2026-05-07
 	<section class="alert alert-warning">
 	<h2 class="h3">Online service interruption</h2>
 	<p>Due to Shared Services Canada maintenance, this service will be unavailable for use on Sunday, March&#160;29, 2026, from 9&#160;am until 10:30&#160;am, Eastern time. We apologize in advance for any inconvenience this may cause.</p>
-	</section>
-	
-<div class="row">
-  <div class="col-xs-6">	
-		<div class="mrgn-tp-lg alert alert-info">
-			<h2 class="h3">Recent updates</h2>
+	</section>		
+	<h2 class="h3">Recent updates</h2>
     <ul class="list-unstyled">
       <li>
         <details>
@@ -48,7 +44,7 @@ issued: 2026-05-07
   </div>
   </div>
 </div>	
-<div class="row margin: 0 -15px;">
+<div class="row">
 	<div class="col-xs-6">	  
 	<section id="s1">
   	<h2>Access to Individual Web Services</h2>
@@ -89,6 +85,7 @@ issued: 2026-05-07
       </div>
     </details>
   </div>
+  <div class="col-xs-6">
 	<h3>Note</h3>
     <p>You can renew your licence online or via a mailed application if <strong>both</strong> of the following apply:</p>
     <ul>
@@ -101,7 +98,8 @@ issued: 2026-05-07
     <li>enter an authentication code that will be sent to your email when you sign in. If you do not receive this information, please check your junk mail folder</li>
   </ul>
 </div>
-<div class="col-xs-6">
+<div class="row">
+	<div class="col-xs-6">
 	<section id="s2">
 	<div class="well brdr-0 brdr-rds-0 mrgn-tp-md">
   	<h2>Questions and answers</h2>
@@ -131,6 +129,8 @@ issued: 2026-05-07
       <p>Public access to the Internet is available at kiosks in libraries and Internet cafes. There is <strong>no requirement</strong> to use the online service to register your firearm; you are still free to renew by paper form available for download on the website or by mail by <a href="/en/firearms/contact-canadian-firearms-program">contacting the Canadian Firearms Program</a>.</p>
     </details>
   </section>
+	</div>
+<div class="col-xs-6">
   <section id="s2-3">
     <h3>Renewing your licence</h3>
     <details>
@@ -171,7 +171,6 @@ issued: 2026-05-07
   </section>		
 	</div>
 </section>
-</div>
 </div>
 </div>
 

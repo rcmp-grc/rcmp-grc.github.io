@@ -251,11 +251,9 @@ a.btn-careers:hover {
   width: 20rem;
   border-radius: 0;
 }
-.footer-contact.btn-contact:visited {
-  color: var(--color-black);
-}
 .footer-contact.btn-contact:hover,
 .footer-contact.btn-contact:focus {
+  background-color: var(--color-black);
   color: var(--color-white);
 }
 @media (max-width: 767px) {

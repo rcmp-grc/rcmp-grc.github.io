@@ -69,10 +69,10 @@ issued: 2026-05-08
 <section id="n2" class="wb-lbx lbx-gal">
     <h2 class="h3">Image gallery</h2>
     <ul class="list-inline">
-        <li><a href="filler-image.jpg" title="Title 1"><img alt="" src="thumbnail.jpg"></a></li>
-        <li><a href="filler-image.jpg" title="Title 2"><img alt="" src="thumbnail.jpg"></a></li>
-        <li><a href="filler-image.jpg" title="Title 3"><img alt="" src="thumbnail.jpg"></a></li>
-        <li><a href="filler-image.jpg" title="Title 4"><img alt="" src="thumbnail.jpg"></a></li>
+        <li><a href="filler-image.jpg" title="Title 1"><img alt="" src="175x175.jpg"></a></li>
+        <li><a href="filler-image.jpg" title="Title 2"><img alt="" src="175x175.jpg"></a></li>
+        <li><a href="filler-image.jpg" title="Title 3"><img alt="" src="175x175.jpg"></a></li>
+        <li><a href="filler-image.jpg" title="Title 4"><img alt="" src="175x175.jpg"></a></li>
     </ul>
 </section>
 <hr>

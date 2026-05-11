@@ -48,6 +48,8 @@ issued: 2026-05-07
     </ul>
   </div>
   </div>
+</div>
+	
 <div class="row">
 	<div class="col-xs-6">	  
 	<section id="s1">
@@ -88,6 +90,7 @@ issued: 2026-05-07
         </section>
       </div>
     </details>
+  </div>
 	<h3>Note</h3>
     <p>You can renew your licence online or via a mailed application if <strong>both</strong> of the following apply:</p>
     <ul>
@@ -100,6 +103,7 @@ issued: 2026-05-07
     <li>enter an authentication code that will be sent to your email when you sign in. If you do not receive this information, please check your junk mail folder</li>
   </ul>
 </div>
+	
 <div class="col-xs-6">
 	<section id="s2">
 	<div class="well brdr-0 brdr-rds-0 mrgn-tp-md">
@@ -167,11 +171,11 @@ issued: 2026-05-07
       <p>If you are able to save and open the document, but cannot print it, you may have a problem with your printer. Make sure the printer cable is properly plugged into your computer or that your wireless router is working properly if you have a wireless connection.</p>
       <p>If you are still unable to print, you should either review your print manual or seek outside technical assistance.</p>
     </details>
-  </section>
+  </section>		
 	</div>
 </section>
 </div>
 </div>
 </div>
-</div>
-</div>
+
+

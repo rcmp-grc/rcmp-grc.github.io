@@ -45,7 +45,8 @@ lead: Community news
         <p>"I had a feeling someone was missing him," Constable SquarePants said. "He didn't seem frightened. Just a little lost." The officer stayed nearby with Gary for several minutes and offered him a small piece of lunch while checking with people in the area to see if anyone recognised the snail.</p>
         <p>Before long, a resident passing by identified Gary and directed the officer toward Conch Street.</p>
         <blockquote class="cn-pullquote">
-          <p>"I had a feeling someone was missing him. He didn't seem frightened. Just a little lost."</p><cite>Cst. SpongeBob SquarePants, Bikini Bottom Detachment</cite>
+          <p>"I had a feeling someone was missing him. He didn't seem frightened. Just a little lost."</p>
+          <footer><cite>Cst. SpongeBob SquarePants, Bikini Bottom Detachment</cite></footer>
         </blockquote>
         <p>Less than two hours after Gary was found, Ms. Krabs arrived at the detachment to bring him home. According to witnesses, the reunion was immediate. Gary circled around her feet before settling beside her while neighbours nearby applauded and cheered.</p>
         <h2>A community built through small connections</h2>
@@ -60,7 +61,8 @@ lead: Community news
         <p>The Bikini Bottom Detachment's community walk program has supported those kinds of connections for the past three years. Officers regularly patrol neighbourhoods on foot, speaking with residents, visiting local businesses and spending time in public spaces.</p>
         <p>"People interact differently when you're walking beside them instead of driving past in a vehicle," said Staff Sergeant Patrick Star, who oversees the program. "You have conversations you might not otherwise have. Trust grows over time, often through simple everyday interactions."</p>
         <blockquote class="cn-pullquote">
-          <p>"Trust grows over time, often through simple everyday interactions."</p><cite>S/Sgt. Patrick Star, Bikini Bottom Detachment</cite>
+          <p>"Trust grows over time, often through simple everyday interactions."</p>
+          <footer><cite>S/Sgt. Patrick Star, Bikini Bottom Detachment</cite></footer>
         </blockquote>
         <h2>A small reminder that stayed with people</h2>
         <p>Since Gary's return, Ms. Krabs has added an identification tag to his shell that includes the detachment's non-emergency contact number. She also delivered homemade kelp cookies to the detachment with a short handwritten note thanking "the officer who waited."</p>
@@ -68,10 +70,33 @@ lead: Community news
         <p>"You see something that needs help, and you help," he said. "That's really all there was to it."</p>
         <p>For residents of Conch Street, though, the moment left a lasting impression. It was a reminder that community safety is not always about large events or major incidents. Sometimes it is found in quieter moments — a neighbour paying attention, an officer stopping to help, and a small lost snail making his way back home.</p>
       </div>
-      <div aria-label="More information" id="cn-contact" role="complementary">
-        <strong>Learn more about community policing in your area</strong>
-        <p>To connect with your local RCMP detachment or learn more about community programs, visit <a href="https://rcmp.ca/en/contact-rcmp">rcmp.ca/en/contact-rcmp</a>. For non-emergency inquiries, contact the <strong>Bikini Bottom Detachment</strong> through the RCMP national non-emergency line.</p>
-      </div>
+      <section aria-labelledby="cn-gallery-heading" id="cn-gallery">
+        <h2 id="cn-gallery-heading">Image gallery</h2>
+        <ul aria-label="Additional photographs from the story" class="list-inline wb-lbx lbx-gal">
+          <li>
+            <a href="https://dummyimage.com/1200x600/000/fff" title="Constable SquarePants with Gary outside the Krusty Krab">
+              <img alt="Constable SquarePants kneeling beside Gary on the sidewalk outside the Krusty Krab" src="https://dummyimage.com/175x175/000/fff">
+            </a>
+          </li>
+          <li>
+            <a href="https://dummyimage.com/800x450/333/fff" title="Residents of Conch Street gathered to welcome Gary home">
+              <img alt="Residents holding welcome-home signs gathered outside on Conch Street" src="https://dummyimage.com/175x175/333/fff">
+            </a>
+          </li>
+          <li>
+            <a href="https://dummyimage.com/800x450/555/fff" title="Ms. Pearl Krabs reunited with Gary at the detachment">
+              <img alt="Ms. Pearl Krabs smiling as Gary settles at her feet inside the detachment" src="https://dummyimage.com/175x175/555/fff">
+            </a>
+          </li>
+        </ul>
+      </section>
+      <nav aria-labelledby="cn-related-heading" id="cn-related">
+        <h2 id="cn-related-heading">Associated links</h2>
+        <ul>
+          <li><a href="https://rcmp.ca/en/community-policing">Community policing programs</a></li>
+          <li><a href="https://rcmp.ca/en/youth">Youth and community outreach</a></li>
+        </ul>
+      </nav>
     </div>
   </div>
 </div>

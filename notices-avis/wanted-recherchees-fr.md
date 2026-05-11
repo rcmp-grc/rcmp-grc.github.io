@@ -18,7 +18,7 @@ breadcrumbs:
 <div class="row mrgn-bttm-md">
 	<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3" id="wp-photo-col">
 		<div class="wp-wanted-frame">
-			<p class="wp-wanted-label">Recherché</p>
+			<p class="wp-wanted-label">Recherché(e)</p>
 			<figure>
 				<img alt="Photo judiciaire de la personne recherchée Bob l'éponge" class="img-responsive" src="https://dummyimage.com/480x600/000/fff">
 				<figcaption>

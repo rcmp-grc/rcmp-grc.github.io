@@ -402,19 +402,14 @@ details.wp-filter-group[open] {
   --cn-grey-md: #b1b4b6;
   --cn-grey-dk: #505a5f;
 }
-
-/* Kicker */
 #cn-kicker {
   display: block;
   font-size: 0.72em;
   font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  letter-spacing: 0;
   color: var(--cn-red);
   margin-bottom: 10px;
 }
-
-/* Deck / standfirst */
 #cn-deck {
   font-family: var(--cn-serif);
   font-size: 1.15em;
@@ -424,8 +419,6 @@ details.wp-filter-group[open] {
   padding-left: 16px;
   margin-bottom: 20px;
 }
-
-/* Byline row */
 #cn-byline {
   display: flex;
   flex-wrap: wrap;
@@ -446,8 +439,6 @@ details.wp-filter-group[open] {
 #cn-byline .byline-sep {
   color: var(--cn-grey-md);
 }
-
-/* Hero image */
 #cn-hero {
   margin: 0 0 8px;
 }
@@ -465,8 +456,6 @@ details.wp-filter-group[open] {
   color: var(--cn-black);
   margin-bottom: 2px;
 }
-
-/* Article body */
 #cn-body {
   font-size: 1.05em;
   line-height: 1.8;
@@ -476,31 +465,28 @@ details.wp-filter-group[open] {
 #cn-body p {
   margin-bottom: 1.4em;
 }
-
-/* Pull quote */
 .cn-pullquote {
   margin: 28px 0;
-  padding: 20px 24px;
-  border-top: 3px solid var(--cn-black);
-  border-bottom: 1px solid var(--cn-grey-md);
+  padding: 0 0 0 20px;
+  border-left: 4px solid var(--cn-red);
+  border-top: 0;
+  border-bottom: 0;
 }
 .cn-pullquote p {
-  font-size: 1.35em;
-  font-weight: 600;
-  line-height: 1.45;
-  color: var(--cn-black);
-  margin: 0 0 8px;
+  font-size: 1.2em;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--cn-grey-dk);
+  margin: 0 0 6px;
 }
 .cn-pullquote cite {
-  font-size: 0.75em;
+  font-size: 0.8em;
   font-style: normal;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0;
   color: var(--cn-grey-dk);
 }
-
-/* Inline image */
 .cn-inline-figure {
   margin: 24px 0;
 }
@@ -515,8 +501,6 @@ details.wp-filter-group[open] {
   border-top: 1px solid var(--cn-grey-md);
   line-height: 1.4;
 }
-
-/* Highlights box */
 .cn-infobox {
   background: var(--cn-grey-lt);
   border-left: 4px solid var(--cn-red);
@@ -526,10 +510,9 @@ details.wp-filter-group[open] {
   font-size: 0.9em;
 }
 .cn-infobox h3 {
-  font-size: 0.75em;
+  font-size: 0.85em;
   font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  letter-spacing: 0;
   color: var(--cn-red);
   margin: 0 0 10px;
 }
@@ -539,33 +522,41 @@ details.wp-filter-group[open] {
   color: var(--cn-black);
   line-height: 1.7;
 }
-
-/* More information strip */
-#cn-contact {
+#cn-related {
   border-top: 3px solid var(--cn-black);
   padding-top: 16px;
   margin-top: 36px;
-  font-family: var(--cn-sans);
-  font-size: 0.88em;
-  color: var(--cn-grey-dk);
+  font-size: 0.95em;
 }
-#cn-contact strong {
-  color: var(--cn-black);
-  display: block;
-  margin-bottom: 4px;
+#cn-related h2 {
+  font-size: 1.1em;
+  margin: 0 0 12px;
 }
-#cn-contact a {
-  color: var(--cn-black);
-  font-weight: 700;
+#cn-related ul {
+  margin: 0;
+  padding-left: 1.2em;
+  line-height: 1.8;
 }
-#cn-contact a:focus,
 #cn-page a:focus {
   outline: 3px solid #fd0;
   outline-offset: 2px;
   background: #fd0;
   color: var(--cn-black);
 }
-
+#cn-gallery {
+  margin: 28px 0;
+}
+#cn-gallery h2 {
+  margin-bottom: 12px;
+}
+#cn-gallery .list-inline > li {
+  margin-bottom: 8px;
+  padding-left: 0;
+}
+#cn-gallery .list-inline img {
+  display: block;
+  border: 1px solid var(--cn-grey-md);
+}
 @media (max-width: 767px) {
   #cn-body {
     max-width: 100%;

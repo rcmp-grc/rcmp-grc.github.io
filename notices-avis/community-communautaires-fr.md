@@ -45,7 +45,8 @@ lead: Nouvelles communautaires
         <p>« J'avais l'impression que quelqu'un devait le chercher », a raconté le gendarme SquarePants. « Il n'avait pas l'air effrayé. Juste un peu perdu. » Le gendarme est demeuré auprès de Gary pendant plusieurs minutes et lui a offert un morceau de son repas tout en demandant aux passants si quelqu'un reconnaissait l'escargot.</p>
         <p>Peu après, un résident a reconnu Gary et a dirigé le gendarme vers la rue Conch.</p>
         <blockquote class="cn-pullquote">
-          <p>« J'avais l'impression que quelqu'un devait le chercher. Il n'avait pas l'air effrayé. Juste un peu perdu. »</p><cite>Gend. SpongeBob SquarePants, détachement de Bikini Bottom</cite>
+          <p>« J'avais l'impression que quelqu'un devait le chercher. Il n'avait pas l'air effrayé. Juste un peu perdu. »</p>
+          <footer><cite>Gend. SpongeBob SquarePants, détachement de Bikini Bottom</cite></footer>
         </blockquote>
         <p>Moins de deux heures après avoir été retrouvé, Gary a pu rentrer chez lui. Mme Krabs s'est présentée au détachement pour le récupérer. Selon les témoins sur place, les retrouvailles ont été immédiates. Gary a tourné autour d'elle avant de venir se déposer près de ses pieds pendant que des voisins applaudissaient et célébraient la nouvelle.</p>
         <h2>Une communauté bâtie sur les petits liens du quotidien</h2>
@@ -60,7 +61,8 @@ lead: Nouvelles communautaires
         <p>Le programme de marche communautaire du détachement de Bikini Bottom contribue à renforcer ce type de liens depuis maintenant trois ans. Les gendarmes patrouillent régulièrement à pied dans les quartiers résidentiels afin de rencontrer les citoyens, visiter les commerces locaux et être présents dans les espaces publics.</p>
         <p>« Les échanges sont différents quand on marche aux côtés des gens plutôt que de passer devant eux en voiture », explique le sergent d'état-major Patrick Star, responsable du programme. « Les conversations se font naturellement. La confiance se construit avec le temps, souvent grâce à de simples interactions du quotidien. »</p>
         <blockquote class="cn-pullquote">
-          <p>« La confiance se construit avec le temps, souvent grâce à de simples interactions du quotidien. »</p><cite>S.-M. Patrick Star, détachement de Bikini Bottom</cite>
+          <p>« La confiance se construit avec le temps, souvent grâce à de simples interactions du quotidien. »</p>
+          <footer><cite>S.-M. Patrick Star, détachement de Bikini Bottom</cite></footer>
         </blockquote>
         <h2>Un petit moment dont les gens se souviendront</h2>
         <p>Depuis le retour de Gary, Mme Krabs a ajouté une plaque d'identification à sa coquille comprenant le numéro sans frais d'urgence du détachement. Elle a aussi apporté des biscuits maison aux algues au poste, accompagnés d'un court message remerciant simplement « le gendarme qui est resté avec lui ».</p>
@@ -68,10 +70,34 @@ lead: Nouvelles communautaires
         <p>« Quand on voit quelque chose qui a besoin d'aide, on aide », a-t-il expliqué. « C'est aussi simple que ça. »</p>
         <p>Pour les résidents de la rue Conch, ce moment a laissé une impression durable. Il leur a rappelé que la sécurité communautaire ne repose pas uniquement sur les grandes interventions ou les situations d'urgence. Parfois, elle se trouve dans des moments beaucoup plus simples : un voisin attentif, un gendarme qui prend le temps d'aider et un petit escargot perdu qui retrouve finalement le chemin de la maison.</p>
       </div>
-      <div aria-label="Plus d'information" id="cn-contact" role="complementary">
-        <strong>En savoir plus sur les services de police communautaire dans votre région</strong>
-        <p>Pour communiquer avec votre détachement local de la GRC ou en apprendre davantage sur les programmes communautaires offerts dans votre région, visitez <a href="https://rcmp.ca/fr/communiquez-avec-grc">rcmp.ca/fr/communiquez-avec-grc</a>. Pour toute demande non urgente, communiquez directement avec le <strong>détachement de Bikini Bottom</strong> par l'entremise de la ligne nationale des demandes non urgentes de la GRC.</p>
-      </div>
+      <section aria-labelledby="cn-gallery-heading" id="cn-gallery">
+        <h2 id="cn-gallery-heading">Galerie d'images</h2>
+        <ul aria-label="Photos supplémentaires associées à l'article" class="list-inline wb-lbx lbx-gal">
+          <li>
+            <a href="https://dummyimage.com/1200x600/000/fff" title="Le gendarme SquarePants avec Gary devant le Krusty Krab">
+              <img alt="Le gendarme SquarePants agenouillé à côté de Gary sur le trottoir devant le Krusty Krab" src="https://dummyimage.com/175x175/000/fff">
+            </a>
+          </li>
+          <li>
+            <a href="https://dummyimage.com/800x450/333/fff" title="Des résidents de la rue Conch rassemblés pour souhaiter la bienvenue à Gary">
+              <img alt="Des résidents tenant des pancartes de bienvenue rassemblés à l'extérieur sur la rue Conch" src="https://dummyimage.com/175x175/333/fff">
+            </a>
+          </li>
+          <li>
+            <a href="https://dummyimage.com/800x450/555/fff" title="Mme Pearl Krabs retrouve Gary au détachement">
+              <img alt="Mme Pearl Krabs souriante pendant que Gary se dépose à ses pieds à l'intérieur du détachement" src="https://dummyimage.com/175x175/555/fff">
+            </a>
+          </li>
+        </ul>
+      </section>
+      <nav aria-labelledby="cn-related-heading" id="cn-related">
+        <h2 id="cn-related-heading">Liens associés</h2>
+        <ul>
+          <li><a href="https://rcmp.ca/fr/communiquez-avec-grc">Trouver votre détachement local de la GRC</a></li>
+          <li><a href="https://rcmp.ca/fr/police-communautaire">Programmes de police communautaire</a></li>
+          <li><a href="https://rcmp.ca/fr/jeunesse">Sensibilisation des jeunes et de la communauté</a></li>
+        </ul>
+      </nav>
     </div>
   </div>
 </div>

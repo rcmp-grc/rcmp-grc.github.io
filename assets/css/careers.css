@@ -245,14 +245,15 @@ a.btn-careers:hover {
   background-color: var(--color-yellow);
   color: var(--color-black);
   border: 2px solid var(--color-yellow);
+  font-weight: 600;
   position: absolute;
   bottom: 0;
   right: 0;
   width: 20rem;
   border-radius: 0;
 }
-.footer-contact.btn-contact:hover,
-.footer-contact.btn-contact:focus {
+.footer-contact .btn-contact:hover,
+.footer-contact .btn-contact:focus {
   background-color: var(--color-black);
   color: var(--color-white);
 }

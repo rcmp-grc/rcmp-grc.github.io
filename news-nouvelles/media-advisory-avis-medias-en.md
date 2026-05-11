@@ -1,36 +1,35 @@
 ---
 layout: default
-title: 
+title: Technical briefing on the situation with regard to hantavirus
 description: My page description
 date_modified: 2026-05-08
 lang: en
 lang_url: media-advisory-avis-medias-fr.html
-author:
-creator:
-subject:
+lead: Media Advisory
 issued: 2026-05-08
 ---
-
-<hgroup class="mrgn-tp-md">
-<p class="wb-rd lead mrgn-tp-0 mrgn-bttm-0">Media Advisory</p>
-<h1 class="mrgn-tp-0" property="name" id="wb-cont">Technical briefing on the situation with regard to hantavirus</h1>
-</hgroup>
+<style>
+	hr
+	 { border-bottom: 2px solid var(--rcmp-gold);
+	 }
+</style>
 <p class="lead">Officials from the Public Health Agency of Canada will provide details about the Andes Hantavirus outbreak on the MV Hondius and actions taken by the Government of Canada.</p>
 <hr>
-<p><i class="fa-solid fa-calendar"></i>  May&nbsp;8, 2026 - Ottawa, Ontario</p>
-<p><i class="fa-solid fa-user"></i>  <a href="https://rcmp.ca/en/"><abbr>RCMP</abbr> Headquaters</a></p>
-<div class="col-md-8 mrgn-lft-0">
+<p><i class="fa-regular fa-calendar-days"></i>  May&nbsp;8, 2026 - Ottawa, Ontario</p>
+<p><i class="fa-regular fa-address-card"></i>  <a href="https://rcmp.ca/en/"><abbr>RCMP</abbr> Headquaters</a></p>
+<div class="row">
+<div class="col-md-8">
  <p>Accredited journalists can also participate online. <strong>Please note</strong>: Individuals who do not have an access pass to Parliamentary buildings must enter through the entrance at 197 Sparks Street.</p>
-<p>Participation in the question and answer portion of the technical briefing is for accredited members of the Press Gallery only. Media who are not members of the Press Gallery may contact testemailaddress@rcmp.gc.ca for temporary access.</p>
+ <p>Participation in the question and answer portion of the technical briefing is for accredited members of the Press Gallery only. Media who are not members of the Press Gallery may contact testemailaddress@rcmp.gc.ca for temporary access.</p>
 </div>
-<div class="panel panel-warning col-md-4">
-	
+<div class="col-md-4 bg-warning">
     <p><strong>Date</strong>: May 8, 2026 </p>
-    <p><strong>Time</strong>: 3:00 PM (EDT)</p>
+    <p><strong>Time</strong>: 3:00 pm (EDT)</p>
 	<p><strong>Location</strong><br>
 National Press Theatre<br>
 Room 325, 180 Wellington St<br>
 Ottawa ON</p>
+</div>
 </div>
 <div class="clearfix"></div>
 <section id="n1">

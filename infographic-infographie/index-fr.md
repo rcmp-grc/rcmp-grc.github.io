@@ -1,18 +1,14 @@
 ---
 layout: default
 title: Gabarit d'infographie
-description: Description de ma page
-date_modified: 2026-05-04
+date_modified: 2026-05-11
 lang: fr
 lang_url: index.html
-author:
-creator:
-subject:
 issued: 2026-05-04
 ---
 
 <div class="mrgn-tp-sm mrgn-bttm-md">
-  <ul aria-label="Topics covered by this page" class="list-inline">
+  <ul aria-label="Thèmes abordés sur cette page" class="list-inline">
     <li><span class="label label-info">Cybercriminalité</span></li>
     <li><span class="label label-default">Jeunesse</span></li>
     <li><span class="label label-default">Code criminel</span></li>
@@ -57,6 +53,6 @@ issued: 2026-05-04
         </dl>
       </div>
     </details>
-    <p class="mrgn-bttm-sm"><a aria-label="Download S'agit-il d'un cybercrime? infographie (format PNG, 889 ko)" class="btn btn-call-to-action" href="cyberchoix-infographie-fra.png" download target="_blank"><span aria-hidden="true" class="glyphicon glyphicon-download-alt mrgn-rght-sm"></span> Télécharger <span class="wb-inv">S'agit-il d'un cybercrime?</span> infographie</a> <span aria-hidden="true" class="small text-muted mrgn-lft-md nowrap">format PNG • 889&nbsp;ko</span></p>
+    <p class="mrgn-bttm-sm"><a aria-label="Télécharger S'agit-il d'un cybercrime? infographie (format PNG, 889 ko)" class="btn btn-call-to-action" href="cyberchoix-infographie-fra.png" download target="_blank"><span aria-hidden="true" class="glyphicon glyphicon-download-alt mrgn-rght-sm"></span> Télécharger <span class="wb-inv">S'agit-il d'un cybercrime?</span> infographie</a> <span aria-hidden="true" class="small text-muted mrgn-lft-md nowrap">format PNG • 889&nbsp;ko</span></p>
   </figcaption>
 </figure>

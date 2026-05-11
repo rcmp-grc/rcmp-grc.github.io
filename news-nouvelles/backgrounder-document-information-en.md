@@ -9,6 +9,11 @@ lead: Bacgrounder
 issued: 2026-05-08
 ---
 
+<style>
+	hr
+	 { border-bottom: 2px solid var(--rcmp-gold);
+	 }
+</style>
 <p class="lead">Total number of calls: 299</p>
 <hr>
 <p><i class="fa-solid fa-calendar"></i>  May&nbsp;8, 2026 - Fredericton, New Brunswick</p>

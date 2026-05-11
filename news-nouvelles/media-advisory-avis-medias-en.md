@@ -1,20 +1,14 @@
 ---
 layout: default
-title: 
+title: Technical briefing on the situation with regard to hantavirus
 description: My page description
 date_modified: 2026-05-08
 lang: en
 lang_url: media-advisory-avis-medias-fr.html
-author:
-creator:
-subject:
+lead: Media Advisory
 issued: 2026-05-08
 ---
 
-<hgroup class="mrgn-tp-md">
-<p class="wb-rd lead mrgn-tp-0 mrgn-bttm-0">Media Advisory</p>
-<h1 class="mrgn-tp-0" property="name" id="wb-cont">Technical briefing on the situation with regard to hantavirus</h1>
-</hgroup>
 <p class="lead">Officials from the Public Health Agency of Canada will provide details about the Andes Hantavirus outbreak on the MV Hondius and actions taken by the Government of Canada.</p>
 <hr>
 <p><i class="fa-solid fa-calendar"></i>  May&nbsp;8, 2026 - Ottawa, Ontario</p>

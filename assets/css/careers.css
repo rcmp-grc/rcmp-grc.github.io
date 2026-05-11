@@ -27,6 +27,25 @@
 }
 
 /* =============================================================================
+   LOADER
+   ============================================================================= */
+#loader {
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transition: opacity 0.3s ease;
+}
+
+#loader.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* =============================================================================
    BASE / RESETS
    ============================================================================= */
 main {
@@ -148,7 +167,6 @@ button,
     transform 0.2s ease,
     opacity 0.2s ease;
 }
-/* open state */
 .careers-nav__toggle[aria-expanded="true"] span:nth-child(1) {
   transform: translateY(7px) rotate(45deg);
 }
@@ -169,7 +187,6 @@ button,
   .careers-nav__toggle {
     display: flex;
   }
-  /* collapsed drawer */
   .careers-nav__links {
     display: none;
     flex-direction: column;
@@ -202,7 +219,6 @@ button,
     border-bottom-color: transparent;
     border-left-color: #fec111;
   }
-  /* Apply button stays visible on mobile */
   .careers-nav__apply {
     margin-left: auto;
     margin-right: 10px;

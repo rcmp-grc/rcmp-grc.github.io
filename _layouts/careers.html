@@ -4,6 +4,13 @@
     {% include head.html %}
   </head>
   <body class="cnt-wdth-lmtd" typeof="WebPage" vocab="http://schema.org/">
+    <div id="loader" role="status" aria-live="polite" aria-label="Page loading">
+      <img src="/assets/rcmp-grc.svg" alt="" width="150" height="150" aria-hidden="true" />
+      <span class="sr-only"
+        >{% if page.lang == 'fr' %}Chargement du contenu de la page, veuillez patienter...{% else %}Loading page content, please wait...{% endif
+        %}</span
+      >
+    </div>
     <nav>
       <ul id="wb-tphp">
         {% if page.lang == 'fr' %}

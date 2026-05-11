@@ -13,55 +13,13 @@ issued: 2026-05-07
 <div class="container">  
 <div class="row">
   <div class="col-xs-6">		
-<section class="alert alert-warning">
-<h2 class="h3">Online service interruption</h2>
+	<section class="alert alert-warning">
+	<h2 class="h3">Online service interruption</h2>
 	<p>Due to Shared Services Canada maintenance, this service will be unavailable for use on Sunday, March&#160;29, 2026, from 9&#160;am until 10:30&#160;am, Eastern time. We apologize in advance for any inconvenience this may cause.</p>
-</section>
-	  <div class="col-xs-6">
-<section id="s1">
-  <h2>Access to Individual Web Services</h2>
-  <p>When you sign in through the button below, you can:</p>
-  <ul>
-    <li>renew your firearms licence</li>
-    <li>check your application status</li>
-    <li>register firearms</li>
-    <li>verify a buyer's licence for a non-restricted firearms transfer</li>
-    <li>apply for an authorization to transport firearms</li>
-    <li>update your information</li>
-  </ul>
-</section>
-	  </div>
-	<div class="col-xs-6">
-    <p class="mrgn-tp-lg"><a class="btn btn-call-to-action" href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html?ipeReferer=eCFISIWS">Proceed to the secure site <span class="wb-inv">for
-  Individual Web Services</span></a></p>
-  <div class="accordion">
-    <details class="acc-group">
-      <summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>
-        Browser and system requirements
-      </summary>
-      <div class="tgl-panel">
-        <p>You may be able to access Canadian Firearms Program (<abbr>CFP</abbr>) services using your choice of web browser, but it may not have been fully tested with the <abbr>CFP</abbr>'s services. If you encounter difficulties, we recommend that you use a different browser.</p>
-        <p>To ensure that you have uninterrupted access to <abbr>CFP</abbr> services, your browser must:</p>
-        <ul>
-          <li>support Transport Layer Security (<abbr>TLS</abbr>) 1.2 or higher (we recommend <abbr>TLS</abbr> 1.3)</li>
-          <li>have <abbr>TLS</abbr> 1.2 or higher enabled</li>
-          <li>have cookies enabled (please see <a href="/en/terms-and-conditions">Terms and conditions</a> for more information on cookies)
-          </li>
-          <li>have JavaScript enabled</li>
-        </ul>
-        <p>If your device is more than five years old, you may encounter difficulties.</p>
-        <p>We recommend using a modern desktop computer.</p>
-        <p>We cannot provide support for internet-enabled mobile devices (including game systems or tablets and smartphones running Android or Apple iOS).</p>
-        <section class="alert alert-info">
-          <h3>Note</h3>
-          <p>The <abbr>CFP</abbr> is not responsible for any difficulties or problems with downloading and installing software. Technical support is provided by the software suppliers.</p>
-        </section>
-      </div>
-    </details>
+	</section>
   </div>
-	</div>
-	  <div class="col-xs-6">
-	<div class="mrgn-tp-lg alert alert-info">
+  <div class="col-xs-6">
+		<div class="mrgn-tp-lg alert alert-info">
     <ul class="list-unstyled">
       <li>
         <details>
@@ -89,20 +47,49 @@ issued: 2026-05-07
       </li>  
     </ul>
   </div>
-    <h3>Note</h3>
-    <p>You can renew your licence online or via a mailed application if <strong>both</strong> of the following apply:</p>
-    <ul>
-      <li>your licence expired on or after November 30, 2017</li>
-      <li>you are within six months of its expiration date</li>
-    </ul>
-  <p>To access Canadian Firearms Program services for individuals online you must:</p>
+  </div>
+<div class="col-xs-6">	  
+<section id="s1">
+  <h2>Access to Individual Web Services</h2>
+  <p>When you sign in through the button below, you can:</p>
   <ul>
-    <li>complete a one-time sign up by registering for a GCKey or Sign-in Partner Services account</li>
-    <li>enter an authentication code that will be sent to your email when you sign in. If you do not receive this information, please check your junk mail folder</li>
+    <li>renew your firearms licence</li>
+    <li>check your application status</li>
+    <li>register firearms</li>
+    <li>verify a buyer's licence for a non-restricted firearms transfer</li>
+    <li>apply for an authorization to transport firearms</li>
+    <li>update your information</li>
   </ul>
 </section>
-	  </div>
-  <div class="col-xs-6">
+    <p class="mrgn-tp-lg"><a class="btn btn-call-to-action" href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html?ipeReferer=eCFISIWS">Proceed to the secure site <span class="wb-inv">for
+  Individual Web Services</span></a></p>
+  <div class="accordion">
+    <details class="acc-group">
+      <summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>
+        Browser and system requirements
+      </summary>
+      <div class="tgl-panel">
+        <p>You may be able to access Canadian Firearms Program (<abbr>CFP</abbr>) services using your choice of web browser, but it may not have been fully tested with the <abbr>CFP</abbr>'s services. If you encounter difficulties, we recommend that you use a different browser.</p>
+        <p>To ensure that you have uninterrupted access to <abbr>CFP</abbr> services, your browser must:</p>
+        <ul>
+          <li>support Transport Layer Security (<abbr>TLS</abbr>) 1.2 or higher (we recommend <abbr>TLS</abbr> 1.3)</li>
+          <li>have <abbr>TLS</abbr> 1.2 or higher enabled</li>
+          <li>have cookies enabled (please see <a href="/en/terms-and-conditions">Terms and conditions</a> for more information on cookies)
+          </li>
+          <li>have JavaScript enabled</li>
+        </ul>
+        <p>If your device is more than five years old, you may encounter difficulties.</p>
+        <p>We recommend using a modern desktop computer.</p>
+        <p>We cannot provide support for internet-enabled mobile devices (including game systems or tablets and smartphones running Android or Apple iOS).</p>
+        <section class="alert alert-info">
+          <h3>Note</h3>
+          <p>The <abbr>CFP</abbr> is not responsible for any difficulties or problems with downloading and installing software. Technical support is provided by the software suppliers.</p>
+        </section>
+      </div>
+    </details>
+  </div>
+</div>
+<div class="col-xs-6">
 	<section id="s2">
 	<div class="well brdr-0 brdr-rds-0 mrgn-tp-md">
   	<h2>Questions and answers</h2>
@@ -173,5 +160,18 @@ issued: 2026-05-07
 	</div>
 </section>
 </div>
+<div class="col-xs-6">
+    <h3>Note</h3>
+    <p>You can renew your licence online or via a mailed application if <strong>both</strong> of the following apply:</p>
+    <ul>
+      <li>your licence expired on or after November 30, 2017</li>
+      <li>you are within six months of its expiration date</li>
+    </ul>
+  <p>To access Canadian Firearms Program services for individuals online you must:</p>
+  <ul>
+    <li>complete a one-time sign up by registering for a GCKey or Sign-in Partner Services account</li>
+    <li>enter an authentication code that will be sent to your email when you sign in. If you do not receive this information, please check your junk mail folder</li>
+  </ul>
+</section>
 </div>
 </div>

@@ -11,7 +11,7 @@ subject:
 issued: 2026-05-07
 ---			
 	<section class="alert alert-warning">
-	<h2 class="h3">Online service interruption2</h2>
+	<h2 class="h3">Online service interruption3</h2>
 	<p>Due to Shared Services Canada maintenance, this service will be unavailable for use on Sunday, March&#160;29, 2026, from 9&#160;am until 10:30&#160;am, Eastern time. We apologize in advance for any inconvenience this may cause.</p>
 	</section>
 	<section id="s1">
@@ -43,9 +43,9 @@ issued: 2026-05-07
       </li>  
     </ul>
 	</section>
+	<section id="s2">
 	<div class="row">
 	<div class="col-xs-6">
-	<section id="s2">
   	<h2>Access to Individual Web Services</h2>
   	<p>When you sign in through the button below, you can:</p>
   <ul>
@@ -96,10 +96,11 @@ issued: 2026-05-07
     <li>enter an authentication code that will be sent to your email when you sign in. If you do not receive this information, please check your junk mail folder</li>
   </ul>
 </div>
-	</section>	
+</div>
+</section>
+<section id="s3">	
 <div class="row">
 <div class="col-xs-6">
-<section id="s3">
 	<div class="well brdr-0 brdr-rds-0 mrgn-tp-md">
   	<h2>Questions and answers</h2>
   	<section id="s3-1">
@@ -130,6 +131,7 @@ issued: 2026-05-07
   </section>
 	</div>	
 <div class="col-xs-6">
+		<div class="well brdr-0 brdr-rds-0 mrgn-tp-md">
   <section id="s3-3">
     <h3>Renewing your licence</h3>
     <details>
@@ -169,8 +171,8 @@ issued: 2026-05-07
     </details>
   </section>		
 	</div>
+</div>
+</div>
 </section>
-</div>
-</div>
 
 

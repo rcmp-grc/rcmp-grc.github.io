@@ -57,7 +57,7 @@ lead: News release
         <li><a href="filler-image.jpg" title="Title 1"><img alt="" src="175x175.jpg"></a></li>
         <li><a href="filler-image.jpg" title="Title 2"><img alt="" src="175x175.jpg"></a></li>
         <li><a href="filler-image.jpg" title="Title 3"><img alt="" src="175x175.jpg"></a></li>
-        <li><a href="filler-image.jpg" title="Title 4"><img alt="" src="175x175.jpg"></a></li>
+
     </ul>
 </section>
 <section id="s5">

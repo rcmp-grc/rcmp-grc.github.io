@@ -384,6 +384,8 @@ Bay St. George RCMP is advising the public about recent circulation of counterfe
   </div>
 </div>
 <script>
+  (function () {
+  'use strict';
   var PER_PAGE    = 9;
   var currentPage = 1;
   var activeData  = PROFILES.slice();
@@ -409,4 +411,5 @@ Bay St. George RCMP is advising the public about recent circulation of counterfe
       if (badge) badge.textContent = count;
     });
   }
+  }());
 </script>

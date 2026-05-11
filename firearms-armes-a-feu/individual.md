@@ -10,13 +10,13 @@ creator:
 subject:
 issued: 2026-05-07
 ---			
-	<section class="alert alert-warning">
+<section class="alert alert-warning">
 	<h2 class="h3">Online service interruption3</h2>
 	<p>Due to Shared Services Canada maintenance, this service will be unavailable for use on Sunday, March&#160;29, 2026, from 9&#160;am until 10:30&#160;am, Eastern time. We apologize in advance for any inconvenience this may cause.</p>
-	</section>
+</section>    
 	<section id="s1">
 	<h2 class="h3">Recent updates</h2>
-    <ul class="list-unstyled">
+    <ul class="list-unstyled">   
       <li>
         <details>
           <summary>
@@ -24,7 +24,7 @@ issued: 2026-05-07
           </summary>
             <p>The <a href="https://gazette.gc.ca/rp-pr/p2/2025/2025-11-19/html/sor-dors227-eng.html"><cite>Firearms Marking Regulations</cite></a> under the <cite>Firearms Act</cite> that were scheduled to come into force on December 1,&#160;2025, have been deferred to December 1,&#160;2027.</p>
         </details>
-      </li>	
+      </li>	     
       <li>
         <details>
           <summary>
@@ -32,7 +32,7 @@ issued: 2026-05-07
           </summary>
           <p>You must inform the Chief Firearms Officer of your province or territory within 30 days of any change to your name or address as a <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-98-199/page-1.html#h-1018947">condition of licence</a>. Please also <a href="/en/firearms/dont-miss-important-notifications-canadian-firearms-program">keep your email address up to date</a> to stay connected with the Canadian Firearms Program and to be informed about enhanced online services and legislative changes.</p>
         </details>
-      </li>
+      </li>      
 	  <li>
         <details>
           <summary>
@@ -42,7 +42,7 @@ issued: 2026-05-07
         </details>
       </li>  
     </ul>
-	</section>
+	</section>    
 	<section id="s2">
 	<div class="row">
 	<div class="col-xs-6">
@@ -57,7 +57,7 @@ issued: 2026-05-07
     <li>update your information</li>
   </ul>
     <p class="mrgn-tp-lg"><a class="btn btn-call-to-action" href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html?ipeReferer=eCFISIWS">Proceed to the secure site <span class="wb-inv">for
-  Individual Web Services</span></a></p>
+  Individual Web Services</span></a></p>  
   <div class="accordion">
     <details class="acc-group">
       <summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>
@@ -75,14 +75,15 @@ issued: 2026-05-07
         </ul>
         <p>If your device is more than five years old, you may encounter difficulties.</p>
         <p>We recommend using a modern desktop computer.</p>
-        <p>We cannot provide support for internet-enabled mobile devices (including game systems or tablets and smartphones running Android or Apple iOS).</p>
+        <p>We cannot provide support for internet-enabled mobile devices (including game systems or tablets and smartphones running Android or Apple iOS).</p>        
         <section class="alert alert-info">
           <h3>Note</h3>
           <p>The <abbr>CFP</abbr> is not responsible for any difficulties or problems with downloading and installing software. Technical support is provided by the software suppliers.</p>
         </section>
-      </div>
-    </details>
+        </div>
+	</details>
   </div>
+  </div>  
   <div class="col-xs-6">
 	<h3>Note</h3>
     <p>You can renew your licence online or via a mailed application if <strong>both</strong> of the following apply:</p>
@@ -103,6 +104,7 @@ issued: 2026-05-07
 <div class="col-xs-6">
 	<div class="well brdr-0 brdr-rds-0 mrgn-tp-md">
   	<h2>Questions and answers</h2>
+    
   	<section id="s3-1">
     <h3>Checking your application status</h3>
     <details>
@@ -111,7 +113,7 @@ issued: 2026-05-07
       </summary>
       <p>The application status displayed online is of a general nature and will typically inform you if your application has been received, is in processing or has been finalized. If your application has been sent by mail, please allow 2 to 4 weeks for the application to be entered into the system. For more detailed information you may wish to contact the Canadian Firearms Program directly by calling <span class="text-nowrap">1-800-731-4000</span>.</p>
     </details>
-  	</section>		
+  	</section>    		
   <section id="s3-2">
     <h3>Registering your firearms</h3>
     <details>
@@ -127,11 +129,11 @@ issued: 2026-05-07
         I need to register my firearm but I don't have access to the Internet. What do I do?
       </summary>
       <p>Public access to the Internet is available at kiosks in libraries and Internet cafes. There is <strong>no requirement</strong> to use the online service to register your firearm; you are still free to renew by paper form available for download on the website or by mail by <a href="/en/firearms/contact-canadian-firearms-program">contacting the Canadian Firearms Program</a>.</p>
-    </details>
-  </section>
-	</div>	
+    </details>    
+  </section> 
+	</div>	   
 <div class="col-xs-6">
-		<div class="well brdr-0 brdr-rds-0 mrgn-tp-md">
+	<div class="well brdr-0 brdr-rds-0 mrgn-tp-md">
   <section id="s3-3">
     <h3>Renewing your licence</h3>
     <details>
@@ -139,7 +141,7 @@ issued: 2026-05-07
         Does the online licence renewal apply to business firearms licences?
       </summary>
       <p>No. There is no functionality to renew a business licence online at this time.</p>
-    </details>
+    </details>    
     <details>
       <summary>
         Is my licence renewed once I submit it online?
@@ -148,7 +150,7 @@ issued: 2026-05-07
       <p>You will receive a confirmation number to prove your renewal is in progress.</p>
       <p>You may be contacted for additional information to process your renewal application.</p>
     </details>
-  </section>
+  </section>  
   <section id="s3-4">
     <h3>Signing up to use the system</h3>
     <details>
@@ -159,7 +161,7 @@ issued: 2026-05-07
       <p>In the future the Canadian Firearms Program will be able to offer clients the choice to email vital updates and communications about your licence in a timely manner.</p>
       <p>If you don't have an email account, set one up by searching "free email services" on the Internet.</p>
     </details>
-  </section>
+  </section>  
   <section id="s3-5">
     <h3>Printing</h3>
     <details>
@@ -169,10 +171,8 @@ issued: 2026-05-07
       <p>If you are able to save and open the document, but cannot print it, you may have a problem with your printer. Make sure the printer cable is properly plugged into your computer or that your wireless router is working properly if you have a wireless connection.</p>
       <p>If you are still unable to print, you should either review your print manual or seek outside technical assistance.</p>
     </details>
-  </section>		
+  </section> 		
 	</div>
 </div>
 </div>
 </section>
-
-

@@ -11,7 +11,7 @@ subject:
 issued: 2026-05-07
 ---			
 <section class="alert alert-warning">
-	<h2 class="h3">Online service interruption4</h2>
+	<h2 class="h3">Online service interruption5</h2>
 	<p>Due to Shared Services Canada maintenance, this service will be unavailable for use on Sunday, March&#160;29, 2026, from 9&#160;am until 10:30&#160;am, Eastern time. We apologize in advance for any inconvenience this may cause.</p>
 </section>    
 	<section id="s1">
@@ -131,7 +131,8 @@ issued: 2026-05-07
       <p>Public access to the Internet is available at kiosks in libraries and Internet cafes. There is <strong>no requirement</strong> to use the online service to register your firearm; you are still free to renew by paper form available for download on the website or by mail by <a href="/en/firearms/contact-canadian-firearms-program">contacting the Canadian Firearms Program</a>.</p>
     </details>    
   </section> 
-	</div>	   
+	</div>
+	</div>
 <div class="col-xs-6">
 	<div class="well brdr-0 brdr-rds-0 mrgn-tp-md">
   <section id="s3-3">

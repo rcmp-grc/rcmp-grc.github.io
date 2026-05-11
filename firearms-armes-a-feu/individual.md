@@ -2,7 +2,7 @@
 layout: default
 title: Individual Web Services
 description: My page description
-date_modified: 2026-05-08
+date_modified: 2026-05-11
 lang: en
 lang_url: individual-fr.html
 author:
@@ -10,6 +10,9 @@ creator:
 subject:
 issued: 2026-05-07
 ---			
+<div class="container">  
+<div class="row">
+  <div class="col-xs-12 col-md-">		
 <section class="alert alert-warning">
 <h2 class="h3">Online service interruption</h2>
 	<p>Due to Shared Services Canada maintenance, this service will be unavailable for use on Sunday, March&#160;29, 2026, from 9&#160;am until 10:30&#160;am, Eastern time. We apologize in advance for any inconvenience this may cause.</p>
@@ -92,10 +95,14 @@ issued: 2026-05-07
     <li>enter an authentication code that will be sent to your email when you sign in. If you do not receive this information, please check your junk mail folder</li>
   </ul>
 </section>
-<section id="s2">
+</div>
+</div>
+<div class="row">
+  <div class="col-xs-12 col-md-6">
+	<section id="s2">
 	<div class="well brdr-0 brdr-rds-0 mrgn-tp-md">
-  <h2>Questions and answers</h2>
-  <section id="s2-1">
+  	<h2>Questions and answers</h2>
+  	<section id="s2-1">
     <h3>Checking your application status</h3>
     <details>
       <summary>
@@ -161,3 +168,6 @@ issued: 2026-05-07
   </section>
 	</div>
 </section>
+</div>
+</div>
+</div>

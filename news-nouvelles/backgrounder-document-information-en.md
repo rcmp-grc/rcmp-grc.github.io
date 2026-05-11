@@ -39,7 +39,7 @@ issued: 2026-05-08
 <h3 class="h4">Southeast</h3>
 <ul>
 <li>Caledonia Region. Sudden death. No criminality suspected.</li>
-<li">Elsipogtog. Assault with a weapon. Individual arrested. Investigation ongoing.</li>
+<li>Elsipogtog. Assault with a weapon. Individual arrested. Investigation ongoing.</li>
 <li>Richibucto. Mischief. Investigation ongoing.</li>
 <li>Richibucto. Theft of vehicle. Investigation ongoing.</li>
 <li>Richibucto. Sudden death. No criminality suspected.</li>

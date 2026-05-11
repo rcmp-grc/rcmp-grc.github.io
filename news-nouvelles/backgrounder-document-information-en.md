@@ -1,20 +1,14 @@
 ---
 layout: default
-title: 
+title: Daily Occurrence Report - 6 a.m. May 7 to 6 a.m. May 8
 description: My page description
 date_modified: 2026-05-08
 lang: en
 lang_url: backgrounder-document-information-fr.html
-author:
-creator:
-subject:
+lead: Bacgrounder
 issued: 2026-05-08
 ---
 
-<hgroup class="mrgn-tp-md">
-<p class="wb-rd lead mrgn-tp-0 mrgn-bttm-0">Bacgrounder</p>
-<h1 class="mrgn-tp-0" property="name" id="wb-cont">Daily Occurrence Report - 6 a.m. May 7 to 6 a.m. May 8</h1>
-</hgroup>
 <p class="lead">Total number of calls: 299</p>
 <hr>
 <p><i class="fa-solid fa-calendar"></i>  May&nbsp;8, 2026 - Fredericton, New Brunswick</p>

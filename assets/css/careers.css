@@ -48,9 +48,7 @@ button,
   width: 100%;
 }
 .careers-nav .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  position: relative;
   width: 100%;
   padding: 0 15px;
 }
@@ -59,14 +57,13 @@ button,
   padding-right: 15px;
 }
 .careers-nav__links {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
   gap: 0;
-  flex-wrap: wrap;
-  margin-left: -18px;
+  vertical-align: top;
 }
 .careers-nav__links li {
   display: flex;
@@ -76,7 +73,7 @@ button,
 .careers-nav__links a {
   color: #fff;
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 1em;
   font-weight: 500;
   padding: 0 18px;
   height: 100%;
@@ -114,8 +111,10 @@ button,
   outline-offset: -3px;
 }
 .careers-nav__apply {
-  flex-shrink: 0;
-  margin-left: 12px;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .careers-nav__apply a {
   display: inline-block;

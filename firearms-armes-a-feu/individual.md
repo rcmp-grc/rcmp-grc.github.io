@@ -97,6 +97,7 @@ issued: 2026-05-07
 </section>
 </div>
 </div>
+<div class="container"> 
 <div class="row">
   <div class="col-xs-6">
 	<section id="s2">
@@ -168,6 +169,7 @@ issued: 2026-05-07
   </section>
 	</div>
 </section>
+</div>
 </div>
 </div>
 </div>

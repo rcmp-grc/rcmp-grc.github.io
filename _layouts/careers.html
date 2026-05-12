@@ -65,6 +65,25 @@
         <h1 id="wb-cont" property="name" {% if page.h1_hidden %}class="wb-inv" {% endif %}>{{ page.title }}</h1>
       </div>
       {{ content }}
+      <section class="pagedetails">
+        {% if page.lang == 'fr' %}
+        <h2 class="wb-inv">Détails de la page</h2>
+        <dl id="wb-dtmd">
+          <dt>Date de modification :</dt>
+          <dd>
+            <time property="dateModified"> {{ page.date_modified | default: site.time | date: "%Y-%m-%d" }} </time>
+          </dd>
+        </dl>
+        {% else %}
+        <h2 class="wb-inv">Page details</h2>
+        <dl id="wb-dtmd">
+          <dt>Date modified:</dt>
+          <dd>
+            <time property="dateModified"> {{ page.date_modified | default: site.time | date: "%Y-%m-%d" }} </time>
+          </dd>
+        </dl>
+        {% endif %}
+      </section>
     </main>
     <div class="footer-contact">
       <a class="btn btn-contact" href="#"

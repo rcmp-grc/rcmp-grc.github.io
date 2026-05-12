@@ -57,12 +57,12 @@ input, select, button { padding: 8px; }
     <form id="filterForm">
      <div class="filter-container">
         <div class="filter-group">
-            <dv><input type="text" id="searchInput" placeholder="Search..."></dv>
+            <div><input type="text" id="searchInput" placeholder="Search..."></div><br>
             <div><select id="categorySelect">
                 <option value="">All Categories</option>
                 <option value="electronics">Electronics</option>
                 <option value="clothing">Clothing</option>
-            </select></div>
+            </select></div><br>
             <div><button type="submit">Apply Filters</button></div>
         </div>
      </div>

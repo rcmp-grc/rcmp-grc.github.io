@@ -18,7 +18,6 @@ issued: 2026-05-04
   gap: 8px;
   margin-bottom: 15px;
 }
-
 .tag {
   background-color: #d1cece;
   padding: 5px 10px;
@@ -27,21 +26,18 @@ issued: 2026-05-04
   align-items: center;
   font-size: 11px;
 }
-
 .tag .close-btn {
   margin-left: 8px;
   cursor: pointer;
   font-weight: bold;
   color: #888;
 }
-
 .tag .close-btn:hover {
   color: #333;
 }
 </style>
-<link rel="stylesheet" media="all" href="/assets/css/news.css" />
 <p>Read the RCMP news and communications.</p>
-<div class="wb-eqht row">
+<div class="row">
   <div class="col-md-4">
     <section class="gc-drmt">
       <h3 class="h5" data-emptytext="Executive"><a href="/en/news/comm-en.html">Read the latest communications from our executive</a></h3>

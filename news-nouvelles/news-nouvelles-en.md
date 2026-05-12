@@ -26,7 +26,6 @@ issued: 2026-05-04
     </section>
   </div>
 </div>
-<div class="row">
 <div class="row mrgn-bttm-lg">
 						<div class="col-md-3">
        <section id="filters">	
@@ -202,7 +201,6 @@ issued: 2026-05-04
 		</form>
 	   </section>
 						</div>
-</div>
   <div class="col-md-9">
     <section id="body" class="mrgn-tp-lg">
   <!-- Adding this hard coded table as a visual - It will not be present when the data is linked -->

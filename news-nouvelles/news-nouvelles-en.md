@@ -27,8 +27,8 @@ issued: 2026-05-04
   </div>
 </div>
 <div class="row">
-  <div class="row mrgn-bttm-lg">
-	<div class="col-md-3">
+<div class="row mrgn-bttm-lg">
+						<div class="col-md-3">
        <section id="filters">	
         <form aria-controls="n" class="wb-tables-filter" data-bind-to="n">
           <h2 class="mrgn-tp-lg">Search</h2>
@@ -36,7 +36,6 @@ issued: 2026-05-04
           <div class="form-group wb-srch-news-qry">
             <label class="wb-inv" for="wb-srch-news">Search RCMP news</label> <input class="wb-srch-news form-control" id="wb-srch-news" list="wb-srch-news-q" maxlength="170" name="news"  size="15" type="search" value=""> <button class="btn btn-primary btn-small" id="wb-srch-sub" name="wb-srch-sub" type="submit"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button></div>
             <div id="description"><p class="small">Apply any of the following filtres to narrow your search.</p></div>
-     <div class="filter-container">
               <h3 class="h4 mrgn-tp-lg mrgn-bttm-sm">
                 <label for="category-filter">Category</label></h3>
 <select id="category-filter">
@@ -200,11 +199,10 @@ issued: 2026-05-04
 				</div>
 			  </div>
 	 </div>
-		 </div>
 		</form>
 	   </section>
-	</div>
-  </div>
+						</div>
+</div>
   <div class="col-md-9">
     <section id="body" class="mrgn-tp-lg">
   <!-- Adding this hard coded table as a visual - It will not be present when the data is linked -->

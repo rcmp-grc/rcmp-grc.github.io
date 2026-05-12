@@ -386,4 +386,25 @@ Bay St. George RCMP is advising the public about recent circulation of counterfe
 (function () {
   'use strict';	
 function renderPagination(total, page) { var pages = Math.ceil(total / PER_PAGE); var prevLabel = $('mp-prev-label'); var nextLabel = $('mp-next-label'); if (prevLabel) prevLabel.textContent = (page - 1) + t.ofPages + pages; if (nextLabel) nextLabel.textContent = (page + 1) + t.ofPages + pages; prevBtn.disabled = page <= 1; nextBtn.disabled = page >= pages; prevBtn.parentElement.style.display = page <= 1 ? 'none' : 'block'; nextBtn.parentElement.style.display = page >= pages ? 'none' : 'block'; } function draw() { renderGrid(activeData, currentPage); renderPagination(activeData.length, currentPage); } function refresh() { var filters = getActiveFilters(); activeData = sortData(filterData(filters), sortSel.value); currentPage = 1; countNum.textContent = activeData.length; renderTags(filters); draw(); } checkboxes.forEach(function (cb) { cb.addEventListener('change', refresh); }); sortSel.addEventListener('change', function () { activeData = sortData(activeData, sortSel.value); currentPage = 1; draw(); }); function paginate(dir, btn) { currentPage += dir; draw(); grid.scrollIntoView({ behavior: 'smooth', block: 'start' }); btn.blur(); } prevBtn.addEventListener('click', function () { if (currentPage > 1) paginate(-1, prevBtn); }); nextBtn.addEventListener('click', function () { if (currentPage < Math.ceil(activeData.length / PER_PAGE)) paginate(1, nextBtn); }); updateBadges(); refresh(); }());
+// 1. Get references to form elements
+const form = document.getElementById('filter-form');
+const input = document.getElementById('filter-input');
+const list = document.getElementById('results-list');
+// Sample Data
+const data = ['Apple', 'Banana', 'Orange', 'Grapes'];
+// 2. Add submit event listener
+form.addEventListener('submit', (e) => {
+    e.preventDefault(); // Prevent page reload
+    // 3. Filter data based on input
+    const searchTerm = input.value.toLowerCase();
+    const filteredData = data.filter(item => 
+        item.toLowerCase().includes(searchTerm)
+    );
+    // 4. Update the DOM
+    list.innerHTML = ''; // Clear current list
+    filteredData.forEach(item => {
+        const li = document.createElement('li');
+        li.textContent = item;
+        list.appendChild(li);
+    });
 </script>

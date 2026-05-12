@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Individual Web Services
-date_modified: 2026-05-11
+date_modified: 2026-05-12
 lang: en
 lang_url: individual-particuliers-fr.html
 issued: 2026-05-07
@@ -82,7 +82,11 @@ issued: 2026-05-07
         <div class="two-col-panel">
           <section aria-labelledby="iws-notes-heading">
             <h2 class="mrgn-tp-0 h4" id="iws-notes-heading">Important information</h2>
-            <section aria-labelledby="iws-contact-heading">
+            <section aria-labelledby="iws-marking-heading">
+              <h3 class="h5" id="iws-marking-heading"><cite>Firearms Marking Regulations</cite></h3>
+              <p>The <a href="https://gazette.gc.ca/rp-pr/p2/2025/2025-11-19/html/sor-dors227-eng.html"><cite>Firearms Marking Regulations</cite></a> under the <cite>Firearms Act</cite> that were scheduled to come into force on December 1,&#160;2025, have been deferred to December 1,&#160;2027.</p>
+            </section>
+              <section aria-labelledby="iws-contact-heading">
               <h3 class="h5" id="iws-contact-heading">Update your contact information</h3>
               <p>If you move or change your name, you must notify the Chief Firearms Officer in your province or territory within 30 days. This is a <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-98-199/page-1.html#h-1018947">condition of your firearms licence</a>.</p>
               <p>Keep your email address up to date so you can:</p>
@@ -99,14 +103,6 @@ issued: 2026-05-07
                 <li>transferring firearm barrels or handgun slides</li>
                 <li>importing these parts</li>
                 <li>importing ammunition and cartridge magazines</li>
-              </ul>
-            </section>
-            <section aria-labelledby="iws-renewal-heading">
-              <h3 class="h5" id="iws-renewal-heading">Licence renewal eligibility</h3>
-              <p>You can renew your licence online or by mail if both of the following apply:</p>
-              <ul>
-                <li>your licence expired on or after November 30, 2017</li>
-                <li>you are within 6 months of the expiry date</li>
               </ul>
             </section>
           </section>
@@ -214,6 +210,17 @@ issued: 2026-05-07
           <p>Submitting your renewal application online does not automatically renew your licence. Your application must still be reviewed and validated.</p>
           <p>After you apply, you will receive a confirmation number showing that your renewal request is being processed.</p>
           <p>You may be contacted if more information is needed.</p>
+        </details>
+      </section>
+      <section aria-labelledby="qa-eligibility-heading">
+        <h3 id="qa-eligibility-heading">Licence renewal eligibility</h3>
+        <details>
+          <summary>What are the eligibility requirements for renewing my licence?</summary>
+          <p>You can renew your licence online or by mail if both of the following apply:</p>
+              <ul>
+                <li>your licence expired on or after November 30, 2017</li>
+                <li>you are within 6 months of the expiry date</li>
+              </ul>
         </details>
       </section>
       <section aria-labelledby="qa-print-heading">

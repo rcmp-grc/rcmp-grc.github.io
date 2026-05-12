@@ -58,7 +58,7 @@ input, select, button { padding: 8px; }
         <form aria-controls="n" class="wb-tables-filter" data-bind-to="n">
           <h2 class="mrgn-tp-lg">Search</h2>
           <div class="form-group wb-srch-news-qry">
-            <label class="wb-inv" for="wb-srch-news">Search RCMP news</label> <input class="wb-srch-news form-control" id="wb-srch-news" list="wb-srch-news-q" maxlength="170" name="news"  size="15" type="search" value=""> <button class="btn btn-primary btn-small" id="wb-srch-sub" name="wb-srch-sub" type="submit"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
+            <label class="wb-inv" for="wb-srch-news">Search RCMP news</label> <input class="wb-srch-news form-control" id="wb-srch-news" list="wb-srch-news-q" maxlength="170" name="news"  size="15" type="search" value=""> <button class="btn btn-primary btn-small" id="wb-srch-sub" name="wb-srch-sub" type="submit"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button></div>
             <div id="description"><p class="small">Apply any of the following filtres to narrow your search.</p></div>
      <div class="filter-container">
               <h3 class="h4 mrgn-tp-lg mrgn-bttm-sm">

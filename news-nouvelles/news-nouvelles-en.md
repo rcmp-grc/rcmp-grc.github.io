@@ -210,9 +210,18 @@ issued: 2026-05-04
    <p><i class="fa-solid fa-filter"></i> <span class="wb-inv">Filtres selected:</span> </p>
    </div>
 </div>  
-		<ul id="results-list">
-		</ul>
-      <table class="wb-tables table nws-tbl table-striped">
+<form id="filterForm">
+  <input type="text" id="titleFilter" placeholder="Search by name...">
+  <button type="submit">Filter</button>
+</form>
+		 <table id="dataTable" class="wb-tables table nws-tbl table-striped">
+			 <thead>
+    <tr><th class="hidden" tabindex="-1">Title</th><th class="hidden" tabindex="-1">Date</th>  <th class="hidden" tabindex="-1">Location</th><th class="hidden" tabindex="-1">Description</th></tr>
+  </thead>
+  <tbody id="tableBody"></tbody>
+		</tbody>
+		 </table>
+      <table id="results-list" class="wb-tables table nws-tbl table-striped">
         <thead>
           <tr>
             <th class="hidden" tabindex="-1">Title</th>
@@ -385,30 +394,29 @@ Bay St. George RCMP is advising the public about recent circulation of counterfe
   </div>
 </div>
 <script>
-(function () {
-  'use strict';	
-function renderPagination(total, page) { var pages = Math.ceil(total / PER_PAGE); var prevLabel = $('mp-prev-label'); var nextLabel = $('mp-next-label'); if (prevLabel) prevLabel.textContent = (page - 1) + t.ofPages + pages; if (nextLabel) nextLabel.textContent = (page + 1) + t.ofPages + pages; prevBtn.disabled = page <= 1; nextBtn.disabled = page >= pages; prevBtn.parentElement.style.display = page <= 1 ? 'none' : 'block'; nextBtn.parentElement.style.display = page >= pages ? 'none' : 'block'; } function draw() { renderGrid(activeData, currentPage); renderPagination(activeData.length, currentPage); } function refresh() { var filters = getActiveFilters(); activeData = sortData(filterData(filters), sortSel.value); currentPage = 1; countNum.textContent = activeData.length; renderTags(filters); draw(); } checkboxes.forEach(function (cb) { cb.addEventListener('change', refresh); }); sortSel.addEventListener('change', function () { activeData = sortData(activeData, sortSel.value); currentPage = 1; draw(); }); function paginate(dir, btn) { currentPage += dir; draw(); grid.scrollIntoView({ behavior: 'smooth', block: 'start' }); btn.blur(); } prevBtn.addEventListener('click', function () { if (currentPage > 1) paginate(-1, prevBtn); }); nextBtn.addEventListener('click', function () { if (currentPage < Math.ceil(activeData.length / PER_PAGE)) paginate(1, nextBtn); }); updateBadges(); refresh(); }());
-(function () {	
-'use strict';		
-// 1. Get references to form elements
-const form = document.getElementById('filter-form');
-const input = document.getElementById('filter-input');
-const list = document.getElementById('results-list');
-// Sample Data
-const data = ['Apple', 'Banana', 'Orange', 'Grapes'];
-// 2. Add submit event listener
+const users = [
+  { title: '<strong><a href="https://rcmp.ca/en/news/2026/05/4352857"><abbr>RCMP</abbr> and <abbr>CBSA</abbr> dismantle crime group after nearly 250&nbsp;<abbr>kg</abbr> of cocaine is detected in shipping container in Halifax</a></strong>',  date: '2026-05-07 | Federal Policing Central Region | News releases', location: '<strong>Newmarket, Ontario</strong>', description: 'Canadian federal authorities dismantled an organized crime operation that imported 248.7&nbsp;<abbr>kg</abbr> of cocaine from the Dominican Republic.' },
+  { title: '<strong><a href="https://rcmp.ca/en/pei/news/2026/05/4352858">Joint Forces Operations Results in Multiple Drug Related Arrests</a></strong>',  date: '2026-05-07 | Prince Edward Island <abbr>RCMP</abbr>', location: '<strong>Summerside, Prince Edward Island</strong>', description: 'May 5, 2026, Members of the Prince District Joint Forces Operation (<abbr>JFO</abbr>), Summerside Police, Provincial Joint Enforcement Team (<abbr>JET</abbr>), and <abbr>RCMP</abbr> Police Dog Service, conducted a targeted vehicle stop in Summerside.' },
+  { title: '<strong><a href="https://rcmp.ca/en/bc/chilliwack/news/2026/05/4352853">Chilliwack RCMP seek public assistance to identify suspect in bus driver assault</a></strong>',  date: '2026-05-06 | Chilliwack <abbr>RCMP</abbr> | News releases', location: '<strong>Chilliwack, British Columbia</strong>', description: 'The Chilliwack RCMP is requesting the public’s assistance in identifying a man alleged to have been involved in the assault of a BC Transit bus driver in March of 2026.' }
+		];
+const form = document.getElementById('filterForm');
+const tableBody = document.getElementById('tableBody');
 form.addEventListener('submit', (e) => {
-    e.preventDefault(); // Prevent page reload
-    // 3. Filter data based on input
-    const searchTerm = input.value.toLowerCase();
-    const filteredData = data.filter(item => 
-        item.toLowerCase().includes(searchTerm)
-    );
-    // 4. Update the DOM
-    list.innerHTML = ''; // Clear current list
-    filteredData.forEach(item => {
-        const li = document.createElement('li');
-        li.textContent = item;
-        list.appendChild(li);
-    });
+  e.preventDefault(); // Stop page reload
+  const searchTerm = document.getElementById('nameFilter').value.toLowerCase();
+  // Filter the data
+  const filteredData = users.filter(user => 
+    user.title.toLowerCase().includes(searchTerm)
+  );
+  renderTable(filteredData);
+});
+function renderTable(data) {
+  tableBody.innerHTML = ''; // Clear current rows
+  data.forEach(item => {
+    const row = `<tr><td>${item.title}</td><td>${item.date}</td><td>${item.location}</td><td>${item.description}</td></tr>`;
+    tableBody.insertAdjacentHTML('beforeend', row); // Build table
+  });
+}
+// Initial load
+renderTable(users);
 </script>

@@ -12,7 +12,7 @@ issued: 2026-05-04
 ---
 
 <style>
- .filter-container { font-family: sans-serif; padding: 20px; }
+.filter-container { font-family: sans-serif; padding: 20px; }
 .filter-group { display: flex; gap: 10px; margin-bottom: 10px; }
 input, select, button { padding: 8px; }
 /* Active Filters Area */
@@ -53,6 +53,19 @@ input, select, button { padding: 8px; }
 </div>
 <div class="row">
   <div class="col-md-3">
+   <div class="filter-container">
+    <form id="filterForm">
+        <div class="filter-group">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <select id="categorySelect">
+                <option value="">All Categories</option>
+                <option value="electronics">Electronics</option>
+                <option value="clothing">Clothing</option>
+            </select>
+            <button type="submit">Apply Filters</button>
+        </div>
+    </form>
+   </div>
         <div class="filter-group">
             <input type="text" id="searchInput" placeholder="Search...">
         <form aria-controls="n" class="wb-tables-filter" data-bind-to="n">
@@ -233,10 +246,12 @@ input, select, button { padding: 8px; }
     <section id="body" class="mrgn-tp-lg">
   <!-- Adding this hard coded table as a visual - It will not be present when the data is linked -->
       <h2 class="wb-inv">List of news</h2>
-<div id="active-filters" class="panel panel-warning filter-container mrgn-tp-0 mrgn-bttm-sm">
+<div class="panel panel-warning filter-container mrgn-tp-0 mrgn-bttm-sm">
   <div class="panel-body">
    <p><i class="fa-solid fa-filter"></i> <span class="wb-inv">Filtres selected:</span> </p>
+   <div class="filter-container">
    <div id="activeFilters" class="active-filters"></div>
+   </div>
 </div>  
 </div>
       <table class="wb-tables table nws-tbl table-striped">

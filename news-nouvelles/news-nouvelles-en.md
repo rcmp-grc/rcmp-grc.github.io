@@ -12,29 +12,6 @@ issued: 2026-05-04
 ---
 
 <style>
-.filter-container { font-family: sans-serif; padding: 20px; }
-.filter-group { display: flex; gap: 10px; margin-bottom: 10px; }
-input, select, button { padding: 8px; }
-/* Active Filters Area */
-.active-filters { display: flex; gap: 5px; flex-wrap: wrap; min-height: 30px; }
-/* Dismissible Tag Style */
-.filter-tag {
-    background-color: #007bff;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    font-size: 14px;
-}
-.filter-tag .remove-btn {
-    cursor: pointer;
-    font-weight: bold;
-    background: none;
-    border: none;
-    color: white;
-}
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row">
@@ -54,19 +31,6 @@ input, select, button { padding: 8px; }
 <div class="row">
   <div class="row mrgn-bttm-lg">
 	<div class="col-md-3">
-    <form id="filterForm">
-     <div class="filter-container">
-        <div class="filter-group">
-            <div><input type="text" id="searchInput" placeholder="Search..."></div><br>
-            <div><select id="categorySelect">
-                <option value="">All Categories</option>
-                <option value="electronics">Electronics</option>
-                <option value="clothing">Clothing</option>
-            </select></div><br>
-            <div><button type="submit">Apply Filters</button></div>
-        </div>
-     </div>
-    </form>
        <section id="filters">	
         <form aria-controls="n" class="wb-tables-filter" data-bind-to="n">
           <h2 class="mrgn-tp-lg">Search</h2>
@@ -242,7 +206,8 @@ input, select, button { padding: 8px; }
 		</form>
 	   </section>
 	</div>
-
+  </div>
+</div>
   <div class="col-md-9">
     <section id="body" class="mrgn-tp-lg">
   <!-- Adding this hard coded table as a visual - It will not be present when the data is linked -->

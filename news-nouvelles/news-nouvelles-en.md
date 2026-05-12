@@ -237,11 +237,12 @@ input, select, button { padding: 8px; }
                   <button class="btn btn-default" type="reset">Clear filters</button>
                 </div>
               </div>
-            </div>
+     </div>
+         </div>
         </form>
- </section>
-    </div>
+        </div>
   </div>
+</div>
   <div class="col-md-9">
     <section id="body" class="mrgn-tp-lg">
   <!-- Adding this hard coded table as a visual - It will not be present when the data is linked -->

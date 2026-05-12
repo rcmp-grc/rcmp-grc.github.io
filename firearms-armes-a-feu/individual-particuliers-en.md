@@ -33,21 +33,14 @@ issued: 2026-05-07
     border-left: 3px solid #6f6f6f;
   }
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
+.btn-call-to-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
 }
-.btn:focus-visible,
-a.btn:focus-visible {
-  outline: 3px solid #005fcc;
-  outline-offset: 3px;
+.btn-call-to-action .fa-solid {
+  flex-shrink: 0;
 }
 </style>
 <section aria-label="Service interruption notice">
@@ -82,7 +75,7 @@ a.btn:focus-visible {
             </ul>
             <p>If you do not receive the code, check your junk mail or spam folder.</p>
             <div class="mrgn-tp-lg">
-              <p><a class="btn btn-call-to-action btn-lg btn-block p-sm-3 mya" href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html?ipeReferer=eCFISIWS"><i aria-hidden="true" class="fa-solid fa-lock"></i> Proceed to the secure site for<br> Individual Web Services</a></p>
+              <p><a class="btn btn-call-to-action btn-lg btn-block p-sm-3" href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html?ipeReferer=eCFISIWS"><i aria-hidden="true" class="fa-solid fa-lock"></i> Proceed to the secure site for<br> Individual Web Services</a></p>
             </div>
           </section>
         </div>

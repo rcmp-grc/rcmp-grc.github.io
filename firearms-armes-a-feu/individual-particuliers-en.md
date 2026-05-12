@@ -8,28 +8,28 @@ issued: 2026-05-07
 ---
 
 <style>
-.two-col-or {
+.two-col-app {
   display: flex;
   flex-direction: column;
   gap: 1.5em;
 }
 @media screen and (min-width: 992px) {
-  .two-col-or {
+  .two-col-app {
     flex-direction: row;
     align-items: stretch;
     gap: 0;
   }
-  .two-col-or .two-col-panel {
+  .two-col-app .two-col-panel {
     flex: 1 1 0;
     padding: 0 2em;
   }
-  .two-col-or .two-col-panel:first-child {
+  .two-col-app .two-col-panel:first-child {
     padding-left: 0;
   }
-  .two-col-or .two-col-panel:last-child {
+  .two-col-app .two-col-panel:last-child {
     padding-right: 0;
   }
-  .two-col-or .two-col-panel + .two-col-panel {
+  .two-col-app .two-col-panel + .two-col-panel {
     border-left: 3px solid #6f6f6f;
   }
 }
@@ -59,10 +59,10 @@ a.btn:focus-visible {
 <div class="well well-sm brdr-rds-0 mrgn-tp-lg">
   <div class="panel panel-default mrgn-bttm-0 brdr-rds-0">
     <div class="panel-body">
-      <div class="two-col-or">
+      <div class="two-col-app">
         <div class="two-col-panel">
           <section aria-labelledby="iws-access-heading">
-            <h2 class="mrgn-tp-0 h4" id="iws-access-heading">Access to Individual Web Services</h2>
+            <h2 class="mrgn-tp-0 h3" id="iws-access-heading">Access to Individual Web Services</h2>
             <p>When you sign in, you can:</p>
             <ul>
               <li>renew your firearms licence</li>
@@ -74,7 +74,7 @@ a.btn:focus-visible {
             </ul>
           </section>
           <section aria-labelledby="iws-before-signin-heading">
-            <h2 id="iws-before-signin-heading">Before you sign in</h2>
+            <h2 class="mrgn-tp-0 h3" id="iws-before-signin-heading">Before you sign in</h2>
             <p>To use online services from the Canadian Firearms Program, you must:</p>
             <ul>
               <li>complete a one-time registration using a GCKey or Sign-In Partner account</li>
@@ -82,7 +82,7 @@ a.btn:focus-visible {
             </ul>
             <p>If you do not receive the code, check your junk mail or spam folder.</p>
             <div class="mrgn-tp-lg">
-              <p><a class="btn btn-call-to-action btn-lg btn-block p-sm-3 mya" href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html?ipeReferer=eCFISIWS"><i aria-hidden="true" class="fa-solid fa-lock"></i> Proceed to the secure site<br> for Individual Web Services</a></p>
+              <p><a class="btn btn-call-to-action btn-lg btn-block p-sm-3 mya" href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html?ipeReferer=eCFISIWS"><i aria-hidden="true" class="fa-solid fa-lock"></i> Proceed to the secure site for<br> Individual Web Services</a></p>
             </div>
           </section>
         </div>
@@ -123,7 +123,7 @@ a.btn:focus-visible {
   </div>
 </div>
 <details class="mrgn-bttm-lg">
-  <summary><span class="h3" style="display:inline;">Browser and system requirements</span></summary>
+  <summary><span class="h4" style="display:inline;">Browser and system requirements</span></summary>
   <p>You may be able to use Canadian Firearms Program (CFP) online services with different web browsers. However, some browsers may not be fully tested with these services.</p>
   <p>If you experience technical issues, try using a different browser.</p>
   <p>To access CFP services, your browser must:</p>
@@ -143,7 +143,7 @@ a.btn:focus-visible {
     <li>gaming systems</li>
   </ul>
   <p>This includes devices running Android or Apple iOS.</p>
-  <p>Technical support notice</p>
+  <p class="h5">Technical support notice</p>
   <p>The CFP is not responsible for issues related to downloading or installing software.</p>
   <p>For technical support, contact the software provider directly.</p>
 </details>

@@ -12,28 +12,28 @@ issued: 2026-05-04
 ---
 
 <style>
-  .filter-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 15px;
+ .filter-container { font-family: sans-serif; padding: 20px; }
+.filter-group { display: flex; gap: 10px; margin-bottom: 10px; }
+input, select, button { padding: 8px; }
+/* Active Filters Area */
+.active-filters { display: flex; gap: 5px; flex-wrap: wrap; min-height: 30px; }
+/* Dismissible Tag Style */
+.filter-tag {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
 }
-.tag {
-  background-color: #d1cece;
-  padding: 5px 10px;
-  border-radius: 16px;
-  display: flex;
-  align-items: center;
-  font-size: 11px;
-}
-.tag .close-btn {
-  margin-left: 8px;
-  cursor: pointer;
-  font-weight: bold;
-  color: #888;
-}
-.tag .close-btn:hover {
-  color: #333;
+.filter-tag .remove-btn {
+    cursor: pointer;
+    font-weight: bold;
+    background: none;
+    border: none;
+    color: white;
 }
 </style>
 <p>Read the RCMP news and communications.</p>
@@ -59,7 +59,21 @@ issued: 2026-05-04
           <h2 class="mrgn-tp-lg">Search</h2>
           <div class="form-group wb-srch-news-qry">
             <label class="wb-inv" for="wb-srch-news">Search RCMP news</label> <input class="wb-srch-news form-control" id="wb-srch-news" list="wb-srch-news-q" maxlength="170" name="news"  size="15" type="search" value=""> <button class="btn btn-primary btn-small" id="wb-srch-sub" name="wb-srch-sub" type="submit"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
-            <div id="description"><p class="small">Apply any of the following filtres to narrow your search:</p></div>
+            <div id="description"><p class="small">Apply any of the following filtres to narrow your search.</p></div>
+    <form id="filterForm">
+        <div class="filter-group">
+            <input type="text" id="searchInput" placeholder="Search...">
+            
+            <select id="categorySelect">
+                <option value="">All Categories</option>
+                <option value="electronics">Electronics</option>
+                <option value="clothing">Clothing</option>
+            </select>
+            
+            <button type="submit">Apply Filters</button>
+        </div>
+    </form>
+     <div class="filter-container">
               <h3 class="h4 mrgn-tp-lg mrgn-bttm-sm">
                 <label for="category-filter">Category</label></h3>
 <select id="category-filter">
@@ -233,8 +247,9 @@ issued: 2026-05-04
       <h2 class="wb-inv">List of news</h2>
 <div id="active-filters" class="panel panel-warning filter-container mrgn-tp-0 mrgn-bttm-sm">
   <div class="panel-body">
-   <p><i class="fa-solid fa-filter"></i> <span class="wb-inv">Filtres selected:</span></p>
-   <div id="active-filters" class="filter-container"></div>
+   <p><i class="fa-solid fa-filter"></i> <span class="wb-inv">Filtres selected: </span> <div id="activeFilters" class="active-filters"></div>
+</div></p>
+   
   </div>
 </div>
       <table class="wb-tables table nws-tbl table-striped">
@@ -410,33 +425,36 @@ Bay St. George RCMP is advising the public about recent circulation of counterfe
   </div>
 </div>
 <script>
-  const filterDropdown = document.getElementById('category-filter');
-const activeFiltersContainer = document.getElementById('active-filters');
-let selectedFilters = new Set(); // Use a Set to prevent duplicate filters
-filterDropdown.addEventListener('change', (e) => {
-  const value = e.target.value;
-  const text = e.target.options[e.target.selectedIndex].text;
-  if (value && !selectedFilters.has(value)) {
-    addFilterTag(value, text);
-    selectedFilters.add(value);
-  }
-  // Reset dropdown to default after selection
-  filterDropdown.selectedIndex = 0;
+  document.getElementById('filterForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    applyFilter();
 });
-function addFilterTag(value, text) {
-  const tag = document.createElement('div');
-  tag.className = 'tag';
-  tag.innerHTML = `
-    ${text}
-    <span class="close-btn" onclick="removeFilter('${value}', this)">&times;</span>
-  `;
-  activeFiltersContainer.appendChild(chip);
+function applyFilter() {
+    const search = document.getElementById('searchInput').value;
+    const category = document.getElementById('categorySelect').value;
+    const activeFilters = document.getElementById('activeFilters');
+    // Clear existing tag for this demo (only show one at a time for simplicity)
+    activeFilters.innerHTML = ''; 
+    if (search || category) {
+        let filterText = search ? `Search: ${search}` : `Category: ${category}`;
+        // Create Tag
+        const tag = document.createElement('span');
+        tag.className = 'filter-tag';
+        tag.innerHTML = `${filterText} <button class="remove-btn" onclick="removeFilter(this)">×</button>`;
+        activeFilters.appendChild(tag);
+        // --- ADD YOUR FILTERING LOGIC HERE (AJAX/TABLE FILTER) ---
+        console.log(`Filtering by: ${search} ${category}`);
+    }
 }
-function removeFilter(value, element) {
-  selectedFilters.delete(value);
-  element.parentElement.remove();
-  // Add logic here to re-filter your content/table
-} 
+function removeFilter(button) {
+    // Remove the tag
+    button.parentElement.remove(); 
+    // Clear input fields
+    document.getElementById('searchInput').value = '';
+    document.getElementById('categorySelect').value = '';
+    // --- ADD YOUR RESET LOGIC HERE ---
+    console.log('Filter removed');
+}
   function renderGrid(data, page) {
     var slice = data.slice((page - 1) * PER_PAGE, page * PER_PAGE);
     grid.innerHTML = '';

@@ -11,7 +11,7 @@
   --rcmp-grey-dk: #505a5f;
   --rcmp-grey-md: #b1b4b6;
   --rcmp-grey-lt: #f3f2f1;
-  --rcmp-grey-bg: #ededed;
+  --rcmp-charcoil: #363636;
   --rcmp-white: #fff;
 
   /* Focus */
@@ -78,10 +78,10 @@ main {
 }
 #wb-bc,
 body {
-  background-color: var(--rcmp-grey-bg);
+  background-color: var(--rcmp-grey-lt);
 }
 #wb-info .gc-contextual {
-  background-color: var(--rcmp-grey-bg);
+  background-color: var(--rcmp-charcoil);
   color: var(--rcmp-white);
 }
 
@@ -263,7 +263,7 @@ details.wp-filter-group[open] {
   border-radius: 0;
 }
 .wp-filter-badge {
-  background: var(--rcmp-grey-bg);
+  background: var(--rcmp-grey-lt);
   color: var(--rcmp-grey-dk);
   font-size: 0.78em;
   padding: 1px 6px;
@@ -666,7 +666,7 @@ ol.rst-cntr {
   color: var(--rcmp-gold);
 }
 .wb-chrcl {
-  color: #363636;
+  color: var(--rcmp-charcoil);
 }
 .wb-rd {
   color: var(--rcmp-red);
@@ -869,7 +869,7 @@ nav.block-menu ul.menu {
    15. Component: Unilingual banner
    ============================================================================= */
 .unilingual-wrapper {
-  background-color: var(--rcmp-grey-bg);
+  background-color: var(--rcmp-grey-lt);
 }
 .unilingual-container details,
 .unilingual-container summary,

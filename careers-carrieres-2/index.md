@@ -1,16 +1,11 @@
 ---
 layout: careers
 title: RCMP careers
-description:
 date_modified: 2026-05-11
 lang: en
 lang_url: index-fr.html
-author:
-creator:
-subject:
 issued: 2026-05-11
 custom_css: /assets/css/careers.css
-h1_hidden: true
 ---
 
 <section class="alert alert-info" role="note">

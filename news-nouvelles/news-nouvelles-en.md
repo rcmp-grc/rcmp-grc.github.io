@@ -219,8 +219,7 @@ issued: 2026-05-04
     <tr><th class="hidden" tabindex="-1">Title</th><th class="hidden" tabindex="-1">Date</th>  <th class="hidden" tabindex="-1">Location</th><th class="hidden" tabindex="-1">Description</th></tr>
   </thead>
   <tbody id="tableBody"></tbody>
-		</tbody>
-		 </table>
+		 </table> 
       <table id="results-list" class="wb-tables table nws-tbl table-striped">
         <thead>
           <tr>

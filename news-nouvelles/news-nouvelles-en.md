@@ -11,6 +11,34 @@ subject:
 issued: 2026-05-04
 ---
 
+<style>
+  .filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.tag {
+  background-color: #d1cece;
+  padding: 5px 10px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+}
+
+.tag .close-btn {
+  margin-left: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #888;
+}
+
+.tag .close-btn:hover {
+  color: #333;
+}
+</style>
 <link rel="stylesheet" media="all" href="/assets/css/news.css" />
 <p>Read the RCMP news and communications.</p>
 <div class="wb-eqht row">
@@ -37,7 +65,8 @@ issued: 2026-05-04
             <label class="wb-inv" for="wb-srch-news">Search RCMP news</label> <input class="wb-srch-news form-control" id="wb-srch-news" list="wb-srch-news-q" maxlength="170" name="news"  size="15" type="search" value=""> <button class="btn btn-primary btn-small" id="wb-srch-sub" name="wb-srch-sub" type="submit"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
             <div id="description">
               <p class="small">Apply any of the following filtres to narrow your search:</p></div>
-              <h3 class="h4 mrgn-tp-lg mrgn-bttm-sm"><label for="dt-type">Type</label></h3><select class="form-control" data-column="3" id="dt-type" name="dt-type">
+              <h3 class="h4 mrgn-tp-lg mrgn-bttm-sm"><label for="category-filter">Choose Category:</label>
+<select id="category-filter">
                 <option value=''>
                   All topics
                 </option>
@@ -400,4 +429,31 @@ Bay St. George RCMP is advising the public about recent circulation of counterfe
   var pagination   = $('rcmp-pagination');
   }
   }());
+const filterDropdown = document.getElementById('category-filter');
+const activeFiltersContainer = document.getElementById('active-filters');
+let selectedFilters = new Set(); // Use a Set to prevent duplicate filters
+filterDropdown.addEventListener('change', (e) => {
+  const value = e.target.value;
+  const text = e.target.options[e.target.selectedIndex].text;
+  if (value && !selectedFilters.has(value)) {
+    addFilterTag(value, text);
+    selectedFilters.add(value);
+  }
+  // Reset dropdown to default after selection
+  filterDropdown.selectedIndex = 0;
+});
+function addFilterTag(value, text) {
+  const tag = document.createElement('div');
+  tag.className = 'tag';
+  tag.innerHTML = `
+    ${text}
+    <span class="close-btn" onclick="removeFilter('${value}', this)">&times;</span>
+  `;
+  activeFiltersContainer.appendChild(chip);
+}
+function removeFilter(value, element) {
+  selectedFilters.delete(value);
+  element.parentElement.remove();
+  // Add logic here to re-filter your content/table
+} 
 </script>

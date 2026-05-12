@@ -52,7 +52,8 @@ input, select, button { padding: 8px; }
   </div>
 </div>
 <div class="row">
-  <div class="col-md-3">
+  <div class="row mrgn-bttm-lg">
+	<div class="col-md-3">
     <form id="filterForm">
      <div class="filter-container">
         <div class="filter-group">
@@ -66,7 +67,7 @@ input, select, button { padding: 8px; }
         </div>
      </div>
     </form>
-        <div class="filter-group">
+       <section id="filters">	
             <input type="text" id="searchInput" placeholder="Search...">
         <form aria-controls="n" class="wb-tables-filter" data-bind-to="n">
           <h2 class="mrgn-tp-lg">Search</h2>

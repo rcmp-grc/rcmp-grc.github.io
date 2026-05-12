@@ -394,4 +394,32 @@ Bay St. George RCMP is advising the public about recent circulation of counterfe
   var activeTagsEl = $('mp-active-filters');
   var pagination   = $('rcmp-pagination');
   var checkboxes   = document.querySelectorAll('#mp-filters input[type="checkbox"]');
+	 function renderPagination(total, page) {
+    var pages     = Math.ceil(total / PER_PAGE);
+    var prevLabel = $('mp-prev-label');
+    var nextLabel = $('mp-next-label');
+    if (prevLabel) prevLabel.textContent = (page - 1) + t.ofPages + pages;
+    if (nextLabel) nextLabel.textContent = (page + 1) + t.ofPages + pages;
+    prevBtn.disabled                    = page <= 1;
+    nextBtn.disabled                    = page >= pages;
+    prevBtn.parentElement.style.display = page <= 1    ? 'none' : 'block';
+    nextBtn.parentElement.style.display = page >= pages ? 'none' : 'block';
+  }
+  function draw() {
+    renderGrid(activeData, currentPage);
+    renderPagination(activeData.length, currentPage);
+  }
+  function paginate(dir, btn) {
+    currentPage += dir;
+    draw();
+    grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    btn.blur();
+  }
+  prevBtn.addEventListener('click', function () {
+    if (currentPage > 1) paginate(-1, prevBtn);
+  });
+  nextBtn.addEventListener('click', function () {
+    if (currentPage < Math.ceil(activeData.length / PER_PAGE)) paginate(1, nextBtn);
+  });
+}());
 </script>

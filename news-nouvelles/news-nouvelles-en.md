@@ -244,10 +244,8 @@ input, select, button { padding: 8px; }
       <h2 class="wb-inv">List of news</h2>
 <div id="active-filters" class="panel panel-warning filter-container mrgn-tp-0 mrgn-bttm-sm">
   <div class="panel-body">
-   <p><i class="fa-solid fa-filter"></i> <span class="wb-inv">Filtres selected: </span> <div id="activeFilters" class="active-filters"></div>
-</div></p>
-   
-  </div>
+   <p><i class="fa-solid fa-filter"></i> <span class="wb-inv">Filtres selected: </span><div id="activeFilters" class="active-filters"></div></p>
+</div>  
 </div>
       <table class="wb-tables table nws-tbl table-striped">
         <thead>

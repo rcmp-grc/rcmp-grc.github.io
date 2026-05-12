@@ -424,7 +424,6 @@ Bay St. George RCMP is advising the public about recent circulation of counterfe
   var nextBtn      = $('mp-next');
   var pagination   = $('rcmp-pagination');
   }
-  }());
 const filterDropdown = document.getElementById('category-filter');
 const activeFiltersContainer = document.getElementById('active-filters');
 let selectedFilters = new Set(); // Use a Set to prevent duplicate filters
@@ -452,4 +451,5 @@ function removeFilter(value, element) {
   element.parentElement.remove();
   // Add logic here to re-filter your content/table
 } 
+      }());
 </script>

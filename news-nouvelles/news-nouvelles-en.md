@@ -386,18 +386,18 @@ Bay St. George RCMP is advising the public about recent circulation of counterfe
 (function () {
   'use strict';
    var grid         = $('mp-grid');
-  var countNum     = $('mp-count-num');
-  var noResults    = $('mp-no-results');
-  var sortSel      = $('mp-sort-select');
-  var prevBtn      = $('mp-prev');
-  var nextBtn      = $('mp-next');
-  var activeTagsEl = $('mp-active-filters');
-  var pagination   = $('rcmp-pagination');
-  var checkboxes   = document.querySelectorAll('#mp-filters input[type="checkbox"]');
-	 function renderPagination(total, page) {
-    var pages     = Math.ceil(total / PER_PAGE);
-    var prevLabel = $('mp-prev-label');
-    var nextLabel = $('mp-next-label');
+   var countNum     = $('mp-count-num');
+   var noResults    = $('mp-no-results');
+   var sortSel      = $('mp-sort-select');
+   var prevBtn      = $('mp-prev');
+   var nextBtn      = $('mp-next');
+   var activeTagsEl = $('mp-active-filters');
+   var pagination   = $('rcmp-pagination');
+   var checkboxes   = document.querySelectorAll('#mp-filters input[type="checkbox"]');
+  function renderPagination(total, page) {
+   var pages     = Math.ceil(total / PER_PAGE);
+   var prevLabel = $('mp-prev-label');
+   var nextLabel = $('mp-next-label');
     if (prevLabel) prevLabel.textContent = (page - 1) + t.ofPages + pages;
     if (nextLabel) nextLabel.textContent = (page + 1) + t.ofPages + pages;
     prevBtn.disabled                    = page <= 1;
@@ -421,5 +421,7 @@ Bay St. George RCMP is advising the public about recent circulation of counterfe
   nextBtn.addEventListener('click', function () {
     if (currentPage < Math.ceil(activeData.length / PER_PAGE)) paginate(1, nextBtn);
   });
+  updateBadges();
+  refresh();
 }());
 </script>

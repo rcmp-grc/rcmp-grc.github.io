@@ -103,8 +103,7 @@ issued: 2026-05-07
 <div class="row">
 <div class="col-xs-6">
 	<div class="well brdr-0 brdr-rds-0 mrgn-tp-md">
-  	<h2>Questions and answers</h2>
-    
+  	<h2>Questions and answers</h2>    
   	<section id="s3-1">
     <h3>Checking your application status</h3>
     <details>

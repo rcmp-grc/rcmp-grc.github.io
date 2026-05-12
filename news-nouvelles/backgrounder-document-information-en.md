@@ -5,7 +5,7 @@ description: My page description
 date_modified: 2026-05-08
 lang: en
 lang_url: backgrounder-document-information-fr.html
-lead: Bacgrounder
+lead: Backgrounder
 issued: 2026-05-08
 ---
 

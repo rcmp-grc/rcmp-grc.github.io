@@ -210,11 +210,8 @@ issued: 2026-05-04
 <div class="panel panel-warning filter-container mrgn-tp-0 mrgn-bttm-sm">
   <div class="panel-body">
    <p><i class="fa-solid fa-filter"></i> <span class="wb-inv">Filtres selected:</span> </p>
-   <div class="filter-container">
-   <div id="activeFilters" class="active-filters"></div>
    </div>
 </div>  
-</div>
       <table class="wb-tables table nws-tbl table-striped">
         <thead>
           <tr>
@@ -388,36 +385,6 @@ Bay St. George RCMP is advising the public about recent circulation of counterfe
   </div>
 </div>
 <script>
-  document.getElementById('filterForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    applyFilter();
-   });
-function applyFilter() {
-    const search = document.getElementById('searchInput').value;
-    const category = document.getElementById('categorySelect').value;
-    const activeFilters = document.getElementById('activeFilters');
-    // Clear existing tag for this demo (only show one at a time for simplicity)
-    activeFilters.innerHTML = ''; 
-    if (search || category) {
-        let filterText = search ? `Search: ${search}` : `Category: ${category}`;
-        // Create Tag
-        const tag = document.createElement('span');
-        tag.className = 'filter-tag';
-        tag.innerHTML = `${filterText} <button class="remove-btn" onclick="removeFilter(this)">×</button>`;
-        activeFilters.appendChild(tag);
-        // --- ADD YOUR FILTERING LOGIC HERE (AJAX/TABLE FILTER) ---
-        console.log(`Filtering by: ${search} ${category}`);
-    }
-}
-function removeFilter(button) {
-    // Remove the tag
-    button.parentElement.remove(); 
-    // Clear input fields
-    document.getElementById('searchInput').value = '';
-    document.getElementById('categorySelect').value = '';
-    // --- ADD YOUR RESET LOGIC HERE ---
-    console.log('Filter removed');
-}}());
   function renderGrid(data, page) {
     var slice = data.slice((page - 1) * PER_PAGE, page * PER_PAGE);
     grid.innerHTML = '';

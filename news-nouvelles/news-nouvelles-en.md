@@ -29,7 +29,7 @@ issued: 2026-05-04
 <div class="row mrgn-bttm-lg">
 						<div class="col-md-3">
        <section id="filters">	
-        <form aria-controls="n" class="wb-tables-filter" data-bind-to="n">
+        <form aria-controls="n" id="filter-form" class="wb-tables-filter" data-bind-to="n">
           <h2 class="mrgn-tp-lg">Search</h2>
          <div class="filter-container">
           <div class="form-group wb-srch-news-qry">
@@ -37,7 +37,7 @@ issued: 2026-05-04
             <div id="description"><p class="small">Apply any of the following filtres to narrow your search.</p></div>
               <h3 class="h4 mrgn-tp-lg mrgn-bttm-sm">
                 <label for="category-filter">Category</label></h3>
-<select id="category-filter">
+<select id="filter-input">
                 <option value=''>
                   All topics
                 </option>
@@ -87,7 +87,7 @@ issued: 2026-05-04
                   Weapons  
                 </option>
               </select>
-              <h3 class="h4 mrgn-tp-lg mrgn-bttm-sm"><label for="dt-province-or-territory">Province or territory</label></h3><select class="form-control" data-column="5" id="dt-province-or-territory" name="dt-province-or-territory">
+              <h3 class="h4 mrgn-tp-lg mrgn-bttm-sm"><label for="dt-province-or-territory">Province or territory</label></h3><select class="form-control" data-column="5" id="filter-input" name="dt-province-or-territory">
                 <option value=''>
                   All provinces and territories
                 </option>
@@ -131,7 +131,7 @@ issued: 2026-05-04
                   Yukon
                 </option>
               </select>
-              <h3 class="h4 mrgn-tp-lg mrgn-bttm-sm"><label for="dt-division-or-federal-policing-region">Published by</label></h3><select class="form-control" data-column="2" id="dt-division-or-federal-policing-region" name="dt-division-or-federal-policing-region">
+              <h3 class="h4 mrgn-tp-lg mrgn-bttm-sm"><label for="dt-division-or-federal-policing-region">Published by</label></h3><select class="form-control" data-column="2" id="filter-input" name="dt-division-or-federal-policing-region">
                 <option value=''>
                   All divisions or Federal Policing regions
                 </option>
@@ -188,7 +188,7 @@ issued: 2026-05-04
                 </option>
               </select>
                 <h3 class="h4 mrgn-tp-lg mrgn-bttm-sm">Published</h3>
-             <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
+             <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="filter-input" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
               <div class="row mrgn-tp-md">
                 <div class="col-xs-6">
                   <button aria-controls="dataset-filter" class="btn btn-primary" type="submit">Apply filters</button>
@@ -210,6 +210,8 @@ issued: 2026-05-04
    <p><i class="fa-solid fa-filter"></i> <span class="wb-inv">Filtres selected:</span> </p>
    </div>
 </div>  
+		<ul id="results-list">
+		</ul>
       <table class="wb-tables table nws-tbl table-striped">
         <thead>
           <tr>

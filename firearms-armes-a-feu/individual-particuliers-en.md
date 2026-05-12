@@ -31,8 +31,8 @@ issued: 2026-05-07
             <li>complete a one-time sign up by registering for a GCKey or Sign-in Partner Services account</li>
             <li>enter an authentication code that will be sent to your email when you sign in. If you do not receive this information, please check your junk mail folder</li>
           </ul>
-          <div class="mrgn-tp-md">
-            <p><a class="btn btn-primary btn-lg btn-block p-sm-3 mya" data-gc-analytics-customclick="CRA|ARC:Option 1 button click:Sign-In Partner Login/Register button" href="https://ams-sga-cra-arc.fjgc-gccf.gc.ca/gol-ged/awsc/amss/commonDomain/w?target=login&amp;lang=en&amp;program=spoe&amp;idp=idp1&amp;dm=x" rel="noreferrer noopener"><span class="h4"><span class="fas fa-university fa-lg fa-pull-left mrgn-rght-sm"></span>Sign-In Partner<span class="wb-inv">: Sign in</span></span></a></p>
+          <div class="mrgn-tp-lg">
+            <p><a class="btn btn-call-to-action btn-lg btn-block p-sm-3 mya" href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html?ipeReferer=eCFISIWS"><i class="fa-regular fa-lock"></i> Proceed to the secure <span class="wb-inv">for Individual Web Services</span></a></p>
           </div>
         </li>
         <li class="cnjnctn-col">
@@ -85,6 +85,19 @@ issued: 2026-05-07
         </details>
       </section>
       <section id="s2-3">
+        <h3 class="wb-inv">Signing up to use the system</h3>
+        <details>
+          <summary>
+            Why am I asked to update my profile with an email address?
+          </summary>
+          <p>Like individuals, businesses and other government services, the Canadian Firearms Program is gradually transitioning from paper correspondence to electronic messaging like email. This is a cost-saving benefit to taxpayers, as well as providing a faster, easily available communication to clients. Email is virtually instant, especially as more and more clients use mobile devices to receive emails while on-the-go.</p>
+          <p>In the future the Canadian Firearms Program will be able to offer clients the choice to email vital updates and communications about your licence in a timely manner.</p>
+          <p>If you don't have an email account, set one up by searching "free email services" on the Internet.</p>
+        </details>
+      </section>
+    </div>
+    <div class="col-sm-6">
+      <section id="s2-4">
         <h3 class="wb-inv">Renewing your licence</h3>
         <details>
           <summary>
@@ -99,19 +112,6 @@ issued: 2026-05-07
           <p>No. The online renewals tool allows you to <strong>submit</strong> your application but it still must go through several stages of validation to ensure you remain qualified to maintain a valid licence and privileges.</p>
           <p>You will receive a confirmation number to prove your renewal is in progress.</p>
           <p>You may be contacted for additional information to process your renewal application.</p>
-        </details>
-      </section>
-    </div>
-    <div class="col-sm-6">
-      <section id="s2-4">
-        <h3 class="wb-inv">Signing up to use the system</h3>
-        <details>
-          <summary>
-            Why am I asked to update my profile with an email address?
-          </summary>
-          <p>Like individuals, businesses and other government services, the Canadian Firearms Program is gradually transitioning from paper correspondence to electronic messaging like email. This is a cost-saving benefit to taxpayers, as well as providing a faster, easily available communication to clients. Email is virtually instant, especially as more and more clients use mobile devices to receive emails while on-the-go.</p>
-          <p>In the future the Canadian Firearms Program will be able to offer clients the choice to email vital updates and communications about your licence in a timely manner.</p>
-          <p>If you don't have an email account, set one up by searching "free email services" on the Internet.</p>
         </details>
       </section>
       <section id="s2-5">

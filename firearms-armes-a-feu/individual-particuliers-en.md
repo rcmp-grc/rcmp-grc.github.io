@@ -75,8 +75,7 @@ html:lang(en) .cnjnctn-type-or>[class*="cnjnctn-col"]:not(:first-child)::before 
     </div>
   </div>
 </div>
-<div>
-  <details>
+  <details class="mrgn-bttm-lg">
     <summary>
       Browser and system requirements
     </summary>
@@ -97,7 +96,6 @@ html:lang(en) .cnjnctn-type-or>[class*="cnjnctn-col"]:not(:first-child)::before 
       <p>The <abbr>CFP</abbr> is not responsible for any difficulties or problems with downloading and installing software. Technical support is provided by the software suppliers.</p>
     </section>
   </details>
-</div>
 <section class="well brdr-0 brdr-rds-0">
   <h2 class="mrgn-tp-0">Questions and answers</h2>
   <div class="row">

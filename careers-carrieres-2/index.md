@@ -13,6 +13,78 @@ custom_css: /assets/css/careers.css
 h1_hidden: true
 ---
 
+<section class="alert alert-info" role="note">
+  <h2 class="h3">Note</h2>
+  <p>The Indigenous Pre-Cadet Training Program (IPTP) is open to individuals who are First Nation, Inuit or Métis. Apply today!</p>
+</section>
+<nav aria-label="On this page">
+  <h2>On this page</h2>
+  <ul>
+    <li>
+      <a href="#s1">Eligibility</a>
+    </li>
+    <li>
+      <a href="#s2">What past graduates are saying</a>
+    </li>
+    <li>
+      <a href="#s3">How to apply</a>
+    </li>
+    <li>
+      <a href="#s4">Related pages</a>
+    </li>
+  </ul>
+  <p>The Indigenous Pre-Cadet Training Program includes a three-week training session at the RCMP Academy (Depot) in Regina, Saskatchewan.</p>
+  <p>Candidates will learn:</p>
+  <ul>
+    <li>Working as part of a police team</li>
+    <li>Basics of the <cite>Criminal Code</cite> and RCMP policies</li>
+    <li>Physical fitness and drill training</li>
+    <li>Skills to help you apply to become a police officer</li>
+  </ul>
+  <p>At Depot, RCMP police officers provide candidates with a range of support and insight. The program is considerate of candidate needs, accommodating dietary restrictions and other needs as identified.</p>
+</nav>
+<section id="s1">
+  <h2>Eligibility</h2>
+  <p>To apply you must be:</p>
+  <ul>
+    <li>First Nation, Inuit or Métis descent</li>
+    <li>a Canadian citizen</li>
+    <li>a graduate of a Canadian secondary school (or equivalent)</li>
+    <li>able to pass an enhanced reliability security check (details on the security check will be provided during application)</li>
+    <li>in good physical condition</li>
+  </ul>
+</section>
+<section id="s2">
+  <h2>What past graduates are saying</h2>
+  <blockquote>
+    <p>Applying to the Aboriginal (Indigenous) Pre-Cadet Training Program is the best choice I've ever made.</p>
+    <footer><cite>Nathaniel McAdam, Saskatchewan</cite></footer>
+  </blockquote>
+  <blockquote>
+    <p>I wasn't sure about a career with the RCMP. The Aboriginal (Indigenous) Pre-Cadet Training Program changed that for me. I loved every drill, fitness, and classroom session at Depot.</p>
+    <footer><cite>Hannah Millier, New Brunswick</cite></footer>
+  </blockquote>
+  <blockquote>
+    <p>I'm excited to be able to one day become an RCMP officer and inspire more to join to show that we can make a difference in society.</p>
+    <footer><cite>Phoebe Niviaqsiaq, Nunavut</cite></footer>
+  </blockquote>
+</section>
+<section id="s3">
+  <h2>How to apply</h2>
+  <p>For more information or to learn how to apply, please email us at <a href="mailto:iptp-pfpa@rcmp-grc.gc.ca" aria-label="Email us at iptp-pfpa@rcmp-grc.gc.ca">iptp-pfpa@rcmp-grc.gc.ca</a>.</p>
+</section>
+<section id="s4">
+  <h2>Related pages</h2>
+  <ul>
+    <li>
+      <a href="https://rcmp.ca/en/pei/your-community/meet-darcie-augustine-pei-rcmps-first-candidate-indigenous-pre-cadet-training-program">Prince Edward Island RCMP welcome Darcie Augustine - Indigenous Pre-Cadet Training Program graduate</a>
+    </li>
+    <li>
+      <a href="https://rcmp.ca/en/gazette/police-program-jump-starts-rcmp-careers-nearly-75-indigenous-youth">RCMP Gazette story: Police program jump-starts RCMP careers for nearly 75 Indigenous youth</a>
+    </li>
+  </ul>
+</section>
+
 <script>
     /* =============================================================================
    nav.js
@@ -168,11 +240,11 @@ function navcollapse(){
 const questions = [
   {
     number: 1,
-    title: "<abbr>RCMP</abbr> core values",
+    title: "RCMP core values",
     details:
-      '<abbr>RCMP</abbr> officers and cadets are expected to consistently live and demonstrate the <abbr>RCMP</abbr>\'s core values; <strong><a href="https://rcmp.ca/en/corporate-information/royal-canadian-mounted-police-core-values" target="_blank" rel="noopener noreferrer" aria-label="Royal Canadian Mounted Police core values - Opens in a new window">take responsibility, show respect, serve with excellence, demonstrate compassion and act with integrity</a></strong> both on and off duty.',
+      'RCMP officers and cadets are expected to consistently live and demonstrate the RCMP\'s core values; <strong><a href="https://rcmp.ca/en/corporate-information/royal-canadian-mounted-police-core-values" target="_blank" rel="noopener noreferrer" aria-label="Royal Canadian Mounted Police core values - Opens in a new window">take responsibility, show respect, serve with excellence, demonstrate compassion and act with integrity</a></strong> both on and off duty.',
     bullets: [],
-    question: "Are you willing to live by the <abbr>RCMP</abbr>'s core values in all areas of your life? This means:",
+    question: "Are you willing to live by the RCMP's core values in all areas of your life? This means:",
     questionBullets: [
       "taking responsibility for your actions, mistakes and decisions",
       "treating all people with respect, even if they are disrespectful toward you",
@@ -180,13 +252,13 @@ const questions = [
       "showing compassion toward people in crisis, including victims, offenders and vulnerable populations",
       "striving for excellence by accepting feedback, correction and high standards of conduct",
     ],
-    info: "The <abbr>RCMP</abbr> core values guide how officers treat the public, colleagues, partners and people in their care, especially in stressful or challenging situations.</p> <p>At Depot, failure to demonstrate these values (for example, through behaviour or conduct) will result in termination from the Cadet Training Program.",
+    info: "The RCMP core values guide how officers treat the public, colleagues, partners and people in their care, especially in stressful or challenging situations.</p> <p>At Depot, failure to demonstrate these values (for example, through behaviour or conduct) will result in termination from the Cadet Training Program.",
     link: "/careers-carrieres/police-officer",
   },
   {
     number: 2,
     title: "Operational driving",
-    details: "<abbr>RCMP</abbr> officers are expected to handle driving in various scenarios with confidence.",
+    details: "RCMP officers are expected to handle driving in various scenarios with confidence.",
     bullets: [],
     question: "Would you be comfortable driving in these conditions?",
     questionBullets: [
@@ -230,7 +302,7 @@ const questions = [
     ],
     question: "Do you currently meet these fitness standards?",
     questionBullets: [],
-    info: 'Arrive to the <abbr>RCMP</abbr> Training Academy ready to pass the <a href="#" target="_blank" rel="noopener noreferrer" aria-label=" - Opens in a new window">Police Fitness Assessment <span class="sr-only">(opens in new window)</span></a> within the first few weeks of the training program.',
+    info: 'Arrive to the RCMP Training Academy ready to pass the <a href="#" target="_blank" rel="noopener noreferrer" aria-label=" - Opens in a new window">Police Fitness Assessment <span class="sr-only">(opens in new window)</span></a> within the first few weeks of the training program.',
     link: "/careers-carrieres/police-officer",
   },
   {
@@ -240,7 +312,7 @@ const questions = [
     bullets: [],
     question: "Are you willing to:",
     questionBullets: [
-      "spend 6 months in Regina, Saskatchewan at the <abbr>RCMP</abbr> training academy",
+      "spend 6 months in Regina, Saskatchewan at the RCMP training academy",
       "be away from friends and family",
       "live in co-ed dorms onsite at Depot",
       "learn and study Canadian law",
@@ -255,7 +327,7 @@ const questions = [
     bullets: [],
     question: "Are you willing to move anywhere in Canada after graduation from the Cadet Training Program?",
     questionBullets: [],
-    info: "The <abbr>RCMP</abbr> is a national police service. While preference is considered, postings are based on operational needs, including northern and remote regions.",
+    info: "The RCMP is a national police service. While preference is considered, postings are based on operational needs, including northern and remote regions.",
     link: "/careers-carrieres/police-officer",
   },
   {
@@ -435,7 +507,7 @@ function showResults() {
             <div class="results success">
                 <h2 id="results-heading" class="oswald-500 uppercase">Congratulations!</h2>
                 <div class="results-content">
-                    <p>Looks like you might have what it takes to be an <abbr>RCMP</abbr> police officer.</p>
+                    <p>Looks like you might have what it takes to be an RCMP police officer.</p>
                     <p>Next steps:</p>
 
                     <ol>
@@ -451,7 +523,7 @@ function showResults() {
             <div class="results warning">
                 <h2 id="results-heading" class="oswald-500 uppercase">Additional preparation needed</h2>
                 <div class="results-content">
-                    <p>Looks like you're not ready to apply. Review the <a href="#" target="_blank" rel="noopener noreferrer" aria-label="basic requirements - Opens in a new window">basic requirements <span class="sr-only">(opens in new window)</span></a> to be an <abbr>RCMP</abbr> police officer to make sure you're fit and ready for a career in policing.</p>
+                    <p>Looks like you're not ready to apply. Review the <a href="#" target="_blank" rel="noopener noreferrer" aria-label="basic requirements - Opens in a new window">basic requirements <span class="sr-only">(opens in new window)</span></a> to be an RCMP police officer to make sure you're fit and ready for a career in policing.</p>
                     <p style="margin-top: 15px;"><strong>You answered "Yes" to ${yesCount} out of ${questions.length} questions.</strong></p>
                     <p>Take a closer look at the requirement(s):</p>
                     <ul>`;
@@ -486,7 +558,7 @@ function showResults() {
   }
 
   if (yesCount === questions.length) {
-    announce("Quiz complete! Congratulations, you appear suited to be an <abbr>RCMP</abbr> police officer.");
+    announce("Quiz complete! Congratulations, you appear suited to be an RCMP police officer.");
   } else {
     announce(`Quiz complete! You answered yes to ${yesCount} out of ${questions.length} questions. Additional preparation may be needed.`);
   }

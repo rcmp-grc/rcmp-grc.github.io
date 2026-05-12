@@ -7,6 +7,23 @@ lang_url: individual-particuliers-fr.html
 issued: 2026-05-07
 ---
 
+<style
+html:lang(en) .cnjnctn-type-or>[class*="cnjnctn-col"]:not(:first-child)::before {
+  content: "";
+}
+@media screen and (min-width: 992px) {
+  [class*="cnjnctn-type-"].cnjnctn-md>[class*="cnjnctn-col"]:not(:first-child)::after {
+    -o-border-image: none;
+    border-image: none;
+    border-image: none;
+    border-left: 3px solid #6f6f6f;
+    margin-left: -1.6em;
+  }
+}
+[class*="cnjnctn-type-"]>[class*="cnjnctn-col"]:not(:first-child) {
+  margin-top: 0;
+}
+</style>
 <section class="alert alert-warning">
   <h2 class="h3">Online service interruption</h2>
   <p>Due to Shared Services Canada maintenance, this service will be unavailable for use on Sunday, March&#160;29, 2026, from 9&#160;am until 10:30&#160;am, Eastern time. We apologize in advance for any inconvenience this may cause.</p>
@@ -32,7 +49,7 @@ issued: 2026-05-07
             <li>enter an authentication code that will be sent to your email when you sign in. If you do not receive this information, please check your junk mail folder</li>
           </ul>
           <div class="mrgn-tp-lg">
-            <p><a class="btn btn-call-to-action btn-lg btn-block p-sm-3 mya" href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html?ipeReferer=eCFISIWS"><i class="fa-regular fa-lock"></i> Proceed to the secure <span class="wb-inv">for Individual Web Services</span></a></p>
+            <p><a class="btn btn-call-to-action btn-lg btn-block p-sm-3 mya" href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html?ipeReferer=eCFISIWS"><i class="fa-solid fa-lock"></i> Proceed to the secure <span class="wb-inv">for Individual Web Services</span></a></p>
           </div>
         </li>
         <li class="cnjnctn-col">

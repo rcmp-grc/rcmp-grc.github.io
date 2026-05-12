@@ -233,6 +233,7 @@ issued: 2026-05-04
 <div id="active-filters" class="panel panel-warning filter-container mrgn-tp-0 mrgn-bttm-sm">
   <div class="panel-body">
    <p><i class="fa-solid fa-filter"></i> <span class="wb-inv">Filtres selected:</span></p>
+   <div id="active-filters" class="filter-container"></div>
   </div>
 </div>
       <table class="wb-tables table nws-tbl table-striped">

@@ -68,7 +68,6 @@ input, select, button { padding: 8px; }
      </div>
     </form>
        <section id="filters">	
-            <input type="text" id="searchInput" placeholder="Search...">
         <form aria-controls="n" class="wb-tables-filter" data-bind-to="n">
           <h2 class="mrgn-tp-lg">Search</h2>
          <div class="filter-container">
@@ -236,14 +235,14 @@ input, select, button { padding: 8px; }
                 </div>
                 <div class="col-xs-6">
                   <button class="btn btn-default" type="reset">Clear filters</button>
-                </div>
-              </div>
-     </div>
-         </div>
-        </form>
-        </div>
+				</div>
+			  </div>
+	 </div>
+		 </div>
+		</form>
+	   </section>
+	</div>
   </div>
-</div>
   <div class="col-md-9">
     <section id="body" class="mrgn-tp-lg">
   <!-- Adding this hard coded table as a visual - It will not be present when the data is linked -->

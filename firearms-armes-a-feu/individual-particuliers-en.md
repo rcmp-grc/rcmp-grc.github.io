@@ -1,3 +1,12 @@
+---
+layout: default
+title: Individual Web Services
+date_modified: 2026-05-11
+lang: en
+lang_url: individual-particuliers-fr.html
+issued: 2026-05-07
+---
+
 <section class="alert alert-warning">
   <h2 class="h3">Online service interruption</h2>
   <p>Due to Shared Services Canada maintenance, this service will be unavailable for use on Sunday, March&#160;29, 2026, from 9&#160;am until 10:30&#160;am, Eastern time. We apologize in advance for any inconvenience this may cause.</p>
@@ -42,160 +51,74 @@
     </div>
   </div>
 </div>
-<div class="well brdr-0 brdr-rds-0">
-  <section class="container">
-    <h2 class="mrgn-tp-0">Help</h2>
-    <h3 class="h5 wb-inv">Common issues</h3>
-    <div class="row">
-      <div class="col-sm-6">
-        <details id="ajax-forgotten-password-userID">
-          <summary>
-            You forgot your CRA user ID or password
-          </summary>
-          <details>
-            <summary>
-              Recovering your user ID
-            </summary>
-            <p>To recover your CRA user ID:</p>
-            <ol class="wb-init wb-data-ajax-append-inited" data-ajax-append="/content/canadasite/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/cra-userid-password.html#ajax-recover-password-userID details:nth-of-type(1) ol&gt;li:not(:first-child)" id="wb-auto-8">
-              <li>Select <strong>CRA user ID and password</strong> from the sign-in options</li>
-              <li>Select <strong>Forgot your user ID?</strong></li>
-              <li>Provide the following information:
-                <ul>
-                  <li>Your social insurance number (SIN)</li>
-                  <li>Your date of birth</li>
-                  <li>Amount you entered on line&nbsp;15000 of your most recent income tax and benefit return, from one of the previous 2&nbsp;tax years</li>
-                </ul>
-              </li>
-              <li>Answer the security questions you set up during registration</li>
-            </ol>
-          </details>
-          <details>
-            <summary>
-              Recovering your password
-            </summary>
-            <p>If you have forgotten your CRA password:</p>
-            <ol class="wb-init wb-data-ajax-append-inited" data-ajax-append="/content/canadasite/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/cra-userid-password.html#ajax-recover-password-userID details:nth-of-type(2) ol&gt;li:not(:first-child)" id="wb-auto-9">
-              <li>Select <strong>CRA user ID and password</strong> from the sign-in options</li>
-              <li>Select <strong>Forgot your password?</strong></li>
-              <li>Enter your CRA user ID</li>
-              <li>Answer the security questions you set up during registration</li>
-            </ol>
-          </details>
-          <details>
-            <summary>
-              If you can’t access your account
-            </summary>
-            <p>If you lost access to your CRA account, going through the <a href="/en/revenue-agency/services/e-services/cra-login-services/register-cra-sign-in-services.html#cant-access-account">registration process</a> again may help you get your access back.</p>
-          </details>
-          <p class="mrgn-tp-md"><a href="/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/cra-userid-password.html">More help with CRA user ID and password</a></p>
-        </details>
-        <details id="ajax-did-not-receive-passcode">
-          <summary>
-            You did not receive your one-time passcode
-          </summary>
-          <p>Try the following options to receive your one-time passcode:</p>
-          <ul>
-            <li>Ask for the passcode to be sent again, or sent to a different phone number that you have already enrolled with</li>
-            <li>Use the <strong>Call me</strong> option instead of <strong>Text me</strong> if you are using a VoIP service</li>
-            <li>Use the passcode grid if you are already enrolled with that option</li>
-            <li>Use the third-party authenticator app if it is already set up</li>
-          </ul>
-          <p>If none of these options are available to you or you still can't receive your one-time passcode, you will need to <a href="/en/revenue-agency/corporate/contact-information.html#assistance">contact us</a>.</p>
-          <p class="mrgn-tp-md"><a href="/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/multi-factor-authentication.html">More help with multi-factor authentication</a></p>
-        </details>
-        <details id="ajax-expired-security-code">
-          <summary>
-            You have not received your CRA security code
-          </summary>
-          <p class="mrgn-tp-md">If your CRA security code has been lost or has not arrived after 10&nbsp;business days, you can either:</p>
-          <ul>
-            <li>Use the <a href="/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/verify-identity.html#section1">document verification service</a> instead to verify your identity
-            </li>
-            <li>
-              <a href="/en/revenue-agency/corporate/contact-information.html#assistance">Contact us</a> to get a new one by mail
-            </li>
-          </ul>
-          <p>If your CRA security code has expired, you can either:</p>
-          <ul>
-            <li>Use the document verification service instead to verify your identity</li>
-            <li>Sign in to request a new CRA security code to be sent by mail</li>
-          </ul>
-        </details>
-        <details id="ajax-change-information">
-          <summary>
-            Update your information with the CRA
-          </summary>
-          <p>Inform the CRA about changes to your direct deposit or contact information, such as address, phone number or name changes.</p><a href="/en/revenue-agency/services/update-information-cra.html">Update your information with the CRA</a>
-        </details>
-      </div>
-      <div class="col-sm-6">
-        <details id="ajax-recover-locked-account">
-          <summary>
-            Your account is locked
-          </summary>
-          <div class="wb-init wb-data-ajax-replace-inited" data-ajax-replace="/content/canadasite/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/locked-account.html#ajax-account-locked" id="wb-auto-10">
-            <div id="ajax-account-locked">
-              <p>Your account will become locked if you enter the wrong information too many times for any of the following:</p>
-              <ul>
-                <li>CRA user ID or password</li>
-                <li>One-time passcode for multi-factor authentication (MFA)
-                  <details>
-                    <summary>
-                      You do not need to call if you are only temporarily locked out
-                    </summary>
-                    <section class="wb-init wb-data-ajax-replace-inited" data-ajax-replace="/content/canadasite/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/multi-factor-authentication.html#ajax-temporary" id="wb-auto-25">
-                      <p id="ajax-temporary">If your account becomes locked due to entering the wrong one-time passcode too many times, you will be temporarily locked out for 30&nbsp;minutes. After that period, you can try again or use another method you are enrolled with. If this happens 3&nbsp;times, you will be permanently locked out and will need to <a href="/en/revenue-agency/corporate/contact-information.html#assistance">contact us</a>.</p>
-                    </section>
-                  </details>
-                </li>
-                <li>Security questions</li>
-                <li>CRA security code</li>
-                <li>The document verification service</li>
-              </ul>
-              <p>To regain access to your CRA account, you can either:</p>
-              <ul>
-                <li>Go through the <a href="/en/revenue-agency/services/e-services/cra-login-services/register-cra-sign-in-services.html#cant-access-account">registration process</a> again
-                </li>
-                <li>
-                  <a href="/en/revenue-agency/corporate/contact-information.html#assistance">Contact us</a> to have your account unlocked
-                </li>
-              </ul>
-            </div>
-          </div>
-        </details>
-        <details id="ajax-revoked">
-          <summary>
-            Your CRA user ID and password have been revoked
-          </summary>
-          <p class="mrgn-tp-md">If your CRA user ID and password have been revoked, you can regain access to your account in either of the following ways:</p>
-          <ul>
-            <li>Use a different sign-in option</li>
-            <li>Go through the <a href="/en/revenue-agency/services/e-services/cra-login-services/register-cra-sign-in-services.html#cant-access-account">registration process</a> again to get a new CRA user ID and password
-            </li>
-          </ul>
-          <p><a href="/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/cra-userid-password.html#section3a">More help with revoked CRA user ID and password</a></p>
-        </details>
-        <details id="ajax-change-sign-in-option">
-          <summary>
-            Change the option you sign in with
-          </summary>
-          <p>If you registered with a <strong>provincial partner</strong>, you can also create a CRA user ID and password or use a Sign-In Partner.</p>
-          <p>If you registered with a <strong>CRA user ID and password</strong>, you can sign in with your CRA user ID and password and <a href="/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/cra-userid-password.html#section3c">revoke your credential</a> so you can register with a different sign-in option or create a new CRA user ID and password.</p>
-          <p>If you registered with a <strong>Sign-In Partner</strong>, you can sign in to your current Sign-In Partner and <a href="/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services/sign-in-partners.html#section5">switch to a different Sign-In Partner</a>.</p>
-        </details>
-      </div>
-    </div>
-    <h3 class="wb-inv">Help and about sign-in</h3>
-    <div class="row gc-srvinfo mrgn-tp-lg">
-      <div class="col-md-6">
-        <h3 class="mrgn-tp-0"><a href="/en/revenue-agency/services/e-services/cra-login-services/help-cra-sign-in-services.html">Help with using your CRA account</a></h3>
-        <p>How to register, manage and update your information, use multi-factor authentication (MFA)</p>
-      </div>
-      <div class="col-md-6">
-        <h3 class="mrgn-tp-0"><a href="/en/revenue-agency/services/e-services/cra-login-services/about-cra-sign-in-services.html">About your CRA account</a></h3>
-        <p>What’s new and updated, services, privacy commitments</p>
-      </div>
-    </div>
-  </section>
-</div>
+<section class="well brdr-0 brdr-rds-0">
+  <h2 class="mrgn-tp-0">Questions and answers</h2>
+  <div class="row">
+    <section id="s2-1">
+      <h3 class="wb-inv">Checking your application status</h3>
+      <details>
+        <summary>
+          My application status information doesn't tell me what I want to know. Where can I get more detail?
+        </summary>
+        <p>The application status displayed online is of a general nature and will typically inform you if your application has been received, is in processing or has been finalized. If your application has been sent by mail, please allow 2 to 4 weeks for the application to be entered into the system. For more detailed information you may wish to contact the Canadian Firearms Program directly by calling <span class="text-nowrap">1-800-731-4000</span>.</p>
+      </details>
+    </section>
+    <section id="s2-2">
+      <h3 class="wb-inv">Registering your firearms</h3>
+      <details>
+        <summary>
+          Is my firearm registered once I submit it online? Will I be able to print the registration certificate?
+        </summary>
+        <p>No. The online registration tool allows you to <strong>submit</strong> your application but it still must go through several stages of validation to ensure you maintain a valid licence and privileges for that firearm.</p>
+        <p>You will receive a confirmation number to prove your registration is in progress and you are making every attempt to comply with the law, however you will not be able to print the registration certificate.</p>
+        <p>You may be contacted for additional information to process your registration application.</p>
+      </details>
+      <details>
+        <summary>
+          I need to register my firearm but I don't have access to the Internet. What do I do?
+        </summary>
+        <p>Public access to the Internet is available at kiosks in libraries and Internet cafes. There is <strong>no requirement</strong> to use the online service to register your firearm; you are still free to renew by paper form available for download on the website or by mail by <a href="/en/firearms/contact-canadian-firearms-program">contacting the Canadian Firearms Program</a>.</p>
+      </details>
+    </section>
+    <section id="s2-3">
+      <h3 class="wb-inv">Renewing your licence</h3>
+      <details>
+        <summary>
+          Does the online licence renewal apply to business firearms licences?
+        </summary>
+        <p>No. There is no functionality to renew a business licence online at this time.</p>
+      </details>
+      <details>
+        <summary>
+          Is my licence renewed once I submit it online?
+        </summary>
+        <p>No. The online renewals tool allows you to <strong>submit</strong> your application but it still must go through several stages of validation to ensure you remain qualified to maintain a valid licence and privileges.</p>
+        <p>You will receive a confirmation number to prove your renewal is in progress.</p>
+        <p>You may be contacted for additional information to process your renewal application.</p>
+      </details>
+    </section>
+  </div>
+  <div class="col-sm-6">
+    <section id="s2-4">
+      <h3 class="wb-inv">Signing up to use the system</h3>
+      <details>
+        <summary>
+          Why am I asked to update my profile with an email address?
+        </summary>
+        <p>Like individuals, businesses and other government services, the Canadian Firearms Program is gradually transitioning from paper correspondence to electronic messaging like email. This is a cost-saving benefit to taxpayers, as well as providing a faster, easily available communication to clients. Email is virtually instant, especially as more and more clients use mobile devices to receive emails while on-the-go.</p>
+        <p>In the future the Canadian Firearms Program will be able to offer clients the choice to email vital updates and communications about your licence in a timely manner.</p>
+        <p>If you don't have an email account, set one up by searching "free email services" on the Internet.</p>
+      </details>
+    </section>
+    <section id="s2-5">
+      <h3 class="wb-inv">Printing</h3>
+      <details>
+        <summary>
+          I can't print a document from the system. What should I do?
+        </summary>
+        <p>If you are able to save and open the document, but cannot print it, you may have a problem with your printer. Make sure the printer cable is properly plugged into your computer or that your wireless router is working properly if you have a wireless connection.</p>
+        <p>If you are still unable to print, you should either review your print manual or seek outside technical assistance.</p>
+      </details>
+    </section>
+  </div>
+</section>

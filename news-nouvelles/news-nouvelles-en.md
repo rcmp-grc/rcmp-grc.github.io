@@ -57,7 +57,7 @@ input, select, button { padding: 8px; }
     <form id="filterForm">
      <div class="filter-container">
         <div class="filter-group">
-            <input type="text" id="searchInput" placeholder="Search...">
+            <input type="text" id="searchInput" placeholder="Search..."><br>
             <select id="categorySelect">
                 <option value="">All Categories</option>
                 <option value="electronics">Electronics</option>

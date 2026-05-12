@@ -2,7 +2,7 @@
 layout: default
 title: News and communications
 description: My page description
-date_modified: 2026-05-04
+date_modified: 2026-05-12
 lang: en
 lang_url: news-nouvelles-fr.html
 author:
@@ -60,7 +60,8 @@ issued: 2026-05-04
           <div class="form-group wb-srch-news-qry">
             <label class="wb-inv" for="wb-srch-news">Search RCMP news</label> <input class="wb-srch-news form-control" id="wb-srch-news" list="wb-srch-news-q" maxlength="170" name="news"  size="15" type="search" value=""> <button class="btn btn-primary btn-small" id="wb-srch-sub" name="wb-srch-sub" type="submit"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
             <div id="description"><p class="small">Apply any of the following filtres to narrow your search:</p></div>
-              <h3 class="h4 mrgn-tp-lg mrgn-bttm-sm"><label for="category-filter">Category</label></h3>
+              <h3 class="h4 mrgn-tp-lg mrgn-bttm-sm">
+                <label for="category-filter">Category</label></h3>
 <select id="category-filter">
                 <option value=''>
                   All topics
@@ -409,22 +410,7 @@ Bay St. George RCMP is advising the public about recent circulation of counterfe
   </div>
 </div>
 <script>
-  function renderGrid(data, page) {
-    var slice = data.slice((page - 1) * PER_PAGE, page * PER_PAGE);
-    grid.innerHTML = '';
-    var show = !!slice.length;
-    noResults.style.display  = show ? 'none'  : 'block';
-    pagination.style.display = show ? 'block' : 'none';
-    if (!show) return;
-  (function () {
-  'use strict';
-  var PER_PAGE    = 9;
-  var currentPage = 1; 
-  var prevBtn      = $('mp-prev');
-  var nextBtn      = $('mp-next');
-  var pagination   = $('rcmp-pagination');
-  }
-const filterDropdown = document.getElementById('category-filter');
+  const filterDropdown = document.getElementById('category-filter');
 const activeFiltersContainer = document.getElementById('active-filters');
 let selectedFilters = new Set(); // Use a Set to prevent duplicate filters
 filterDropdown.addEventListener('change', (e) => {
@@ -451,5 +437,20 @@ function removeFilter(value, element) {
   element.parentElement.remove();
   // Add logic here to re-filter your content/table
 } 
+  function renderGrid(data, page) {
+    var slice = data.slice((page - 1) * PER_PAGE, page * PER_PAGE);
+    grid.innerHTML = '';
+    var show = !!slice.length;
+    noResults.style.display  = show ? 'none'  : 'block';
+    pagination.style.display = show ? 'block' : 'none';
+    if (!show) return;
+  (function () {
+  'use strict';
+  var PER_PAGE    = 9;
+  var currentPage = 1; 
+  var prevBtn      = $('mp-prev');
+  var nextBtn      = $('mp-next');
+  var pagination   = $('rcmp-pagination');
+  }
       }());
 </script>

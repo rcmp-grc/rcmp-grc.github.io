@@ -207,7 +207,7 @@ issued: 2026-05-04
 	   </section>
 	</div>
   </div>
-</div>
+
   <div class="col-md-9">
     <section id="body" class="mrgn-tp-lg">
   <!-- Adding this hard coded table as a visual - It will not be present when the data is linked -->

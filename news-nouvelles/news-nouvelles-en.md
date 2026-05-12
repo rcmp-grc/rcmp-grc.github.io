@@ -53,8 +53,8 @@ input, select, button { padding: 8px; }
 </div>
 <div class="row">
   <div class="col-md-3">
-   <div class="filter-container">
     <form id="filterForm">
+     <div class="filter-container">
         <div class="filter-group">
             <input type="text" id="searchInput" placeholder="Search...">
             <select id="categorySelect">
@@ -64,8 +64,8 @@ input, select, button { padding: 8px; }
             </select>
             <button type="submit">Apply Filters</button>
         </div>
+     </div>
     </form>
-   </div>
         <div class="filter-group">
             <input type="text" id="searchInput" placeholder="Search...">
         <form aria-controls="n" class="wb-tables-filter" data-bind-to="n">

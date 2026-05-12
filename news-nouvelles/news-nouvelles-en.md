@@ -242,7 +242,7 @@ input, select, button { padding: 8px; }
 		</form>
 	   </section>
 	</div>
-  </div>
+
   <div class="col-md-9">
     <section id="body" class="mrgn-tp-lg">
   <!-- Adding this hard coded table as a visual - It will not be present when the data is linked -->

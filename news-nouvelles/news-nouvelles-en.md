@@ -34,48 +34,78 @@ issued: 2026-05-04
   <button type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
             <div id="description"><p class="small">Apply any of the following filtres to narrow your search.</p></div>
               <fieldset>
-                <legend for="category-filter" class="small">Category</legend>
+                <legend class="small">Category</legend>
+				  <div class="checkbox">
                 <label for="assault"><input type="checkbox" value="Assault">
                   Assault</label>
+				  </div>
+				  <div class="checkbox">
                 <label for="brake-and-enter"><input type="checkbox" value="break-and-enter">
                   Break and enter</label>
+				  </div>
+				  <div class="checkbox">
                 <label for="disturbance"><input type="checkbox" value="disturbance">
                   Disturbance</label>
+				  </div>
+				  <div class="checkbox">
                  <label for="homicide"><input type="checkbox" value="homicide">
                   Homicide</label>
+				  </div>
+				  <div class="checkbox">
                  <label for="illegal-border-crossing"><input type="checkbox" value="illegal-border-crossing">
                   Illegal border crossing
 				 </label>
+				  </div>
+				  <div class="checkbox">
                  <label for="illicit-drugs"><input type="checkbox" value="illicit-drugs">
                   Illicit drugs
 				 </label>
+				  </div>
+				  <div class="checkbox">
                 <label for="missing-person"><input type="checkbox" value="missing-person">
                   Missing person
 				</label>
+				  </div>
+				  <div class="checkbox">
                 <label for="organized-crime"><input type="checkbox" value='organized-crime'>
                   Organized crime 
 				</label>
+				  </div>
+				  <div class="checkbox">
                 <label for="property-damage"><input type="checkbox" value="property-damage">
                   Property damage  
 				</label>
+				  </div>
+				 <div class="checkbox"> 
                 <label for="public-interest"><input type="checkbox" value="public-interest">
                   Public interest  
 				</label>
+				 </div>
+				  <div class="checkbox">
                 <label for="theft"><input type="checkbox" value="theft">
                   Theft  
 				</label>
+				  </div>
+				  <div class="checkbox">
                 <label for="traffic-services"><input type="checkbox" value="traffic-services">
                   Traffic services  
 				</label>
+				  </div>
+				  <div class="checkbox">
                 <label for="trafficking"><input type="checkbox" value="trafficking">
                   Trafficking  
 				</label>
+				  </div>
+				  <div class="checkbox">
                 <label for="wanted"><input type="checkbox" value="wanted">
                   Wanted  
 				</label>
+				  </div>
+				  <div class="checkbox">
                 <label for="weapons"><input type="checkbox" value="weapons">
                   Weapons  
 				</label>
+				  </div>
           </fieldset>
 				<fieldset>	 
 			 <legend>Province or Territory</legend>

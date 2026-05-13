@@ -29,11 +29,11 @@ issued: 2026-05-04
 <div class="row mrgn-bttm-lg">
 						<div class="col-md-3">
        <section id="filters">	
-        <form aria-controls="n" id="filter-form" class="wb-tables-filter" data-bind-to="n">
-          <h2 class="mrgn-tp-lg">Search</h2>
-         <div class="filter-container">
-          <div class="form-group wb-srch-news-qry">
-            <label class="wb-inv" for="wb-srch-news">Search RCMP news</label> <input class="wb-srch-news form-control" id="wb-srch-news" list="wb-srch-news-q" maxlength="170" name="news"  size="15" type="search" value=""> <button class="btn btn-primary btn-small" id="wb-srch-sub" name="wb-srch-sub" type="submit"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button></div>
+        <form id="filterForm">
+  <input type="text" id="titleFilter" placeholder="Search by name...">
+  <button type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+</form>
+		    <form id="filterForm">
             <div id="description"><p class="small">Apply any of the following filtres to narrow your search.</p></div>
               <h3 class="h4 mrgn-tp-lg mrgn-bttm-sm">
                 <label for="category-filter">Category</label></h3>
@@ -209,10 +209,10 @@ issued: 2026-05-04
    <p><i class="fa-solid fa-filter"></i> <span class="wb-inv">Filtres selected:</span> </p>
    </div>
 </div>  
-<form id="filterForm">
+!--<form id="filterForm">
   <input type="text" id="titleFilter" placeholder="Search by name...">
   <button type="submit">Filter</button>
-</form>
+</form>-->
 		 <table id="dataTable" class="wb-tables table nws-tbl table-striped">
 			 <thead>
     <tr><th class="hidden" tabindex="-1">Title</th><th class="hidden" tabindex="-1">Date</th>  <th class="hidden" tabindex="-1">Location</th><th class="hidden" tabindex="-1">Description</th></tr>

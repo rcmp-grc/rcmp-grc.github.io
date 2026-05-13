@@ -77,7 +77,7 @@ issued: 2026-05-04
                 <label for="weapons"><input type="checkbox" value="weapons">
                   Weapons  
 				</label>
-              </select></fieldset>
+          </fieldset>
 				<fieldset>	 
 			 <legend>Province or Territory</legend>
               <label for="dt-province-or-territory">Province or territory</label><select class="form-control" data-column="5" id="filter-input" name="dt-province-or-territory">

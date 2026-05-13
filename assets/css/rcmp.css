@@ -686,27 +686,27 @@ ol.rst-cntr {
 /* =============================================================================
    9. Component: Pagination
    ============================================================================= */
-#rcmp-pagination {
+#rcmp-content-page {
   margin-top: 28px;
   padding-top: 20px;
   border-top: 1px solid var(--rcmp-grey-md);
 }
-.rcmp-pagination {
+.rcmp-content-page {
   display: flex;
   flex-direction: column;
   gap: 0;
   font-family: inherit;
 }
-.rcmp-pagination__prev {
+.rcmp-content-page__prev {
   padding: 0;
 }
-.rcmp-pagination__next {
+.rcmp-content-page__next {
   padding: 0;
 }
-.rcmp-pagination--block:has(.rcmp-pagination__next[style*="block"]) .rcmp-pagination__prev {
+.rcmp-content-page--block:has(.rcmp-content-page__next[style*="block"]) .rcmp-content-page__prev {
   border-bottom: 1px solid var(--rcmp-grey-md);
 }
-.rcmp-pagination__link {
+.rcmp-content-page__link {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -719,25 +719,25 @@ ol.rst-cntr {
   cursor: pointer;
   width: 100%;
 }
-.rcmp-pagination__link:hover,
-.rcmp-pagination__link:focus {
+.rcmp-content-page__link:hover,
+.rcmp-content-page__link:focus {
   background: #e8e8e8;
   text-decoration: none;
 }
-.rcmp-pagination__title-row {
+.rcmp-content-page__title-row {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.rcmp-pagination__icon {
+.rcmp-content-page__icon {
   flex-shrink: 0;
   font-size: 1.1em;
 }
-.rcmp-pagination__link-title {
+.rcmp-content-page__link-title {
   display: block;
   font-size: 1em;
 }
-.rcmp-pagination__link-label {
+.rcmp-content-page__link-label {
   display: block;
   font-weight: 400;
   padding-left: 26px;

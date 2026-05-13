@@ -12,7 +12,7 @@ lead: Nouvelles communautaires
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
       <p id="cn-deck">Après qu'un escargot de mer retraité se soit éloigné de chez lui, un simple geste de gentillesse d'un agent de la GRC a permis de rassembler tout un quartier et de rappeler l'importance de veiller les uns sur les autres.</p>
-      <div aria-label="Article byline" id="cn-byline">
+      <div aria-label="Signature de l'article" id="cn-byline" role="group">
         <span class="byline-author">Cpl Sandy Cheeks — Détachement de Bikini Bottom</span> <span aria-hidden="true" class="byline-sep">|</span> <span><time datetime="2026-05-08">8 mai 2026</time></span> <span aria-hidden="true" class="byline-sep">|</span> <span>Détachement de Bikini Bottom</span>
       </div>
     </div>
@@ -31,7 +31,7 @@ lead: Nouvelles communautaires
     <div class="col-md-8 col-md-offset-2">
       <div id="cn-body">
         <div aria-label="Faits saillants" class="cn-infobox" role="note">
-          <h3>Faits saillants</h3>
+          <h2>Faits saillants</h2>
           <ul>
             <li>Le gendarme SquarePants a aperçu Gary lors d'une marche communautaire le <time datetime="2026-05-06">6 mai 2026</time></li>
             <li>Gary a retrouvé sa propriétaire moins de deux heures plus tard</li>

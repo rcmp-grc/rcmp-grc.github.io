@@ -12,7 +12,7 @@ lead: Community news
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
       <p id="cn-deck">After a retired sea snail wandered away from home, one RCMP officer's simple act of kindness helped bring a neighbourhood together and reminded residents of the value of looking out for one another.</p>
-      <div aria-label="Article byline" id="cn-byline">
+      <div aria-label="Article byline" id="cn-byline" role="group">
         <span class="byline-author">Cpl. Sandy Cheeks — Bikini Bottom Detachment</span> <span aria-hidden="true" class="byline-sep">|</span> <span><time datetime="2026-05-08">May 8, 2026</time></span> <span aria-hidden="true" class="byline-sep">|</span> <span>Bikini Bottom Detachment</span>
       </div>
     </div>
@@ -31,7 +31,7 @@ lead: Community news
     <div class="col-md-8 col-md-offset-2">
       <div id="cn-body">
         <div aria-label="Story highlights" class="cn-infobox" role="note">
-          <h3>Story highlights</h3>
+          <h2>Story highlights</h2>
           <ul>
             <li>Constable SquarePants spotted Gary during a morning community walk on <time datetime="2026-05-06">May 6, 2026</time></li>
             <li>Gary was reunited with his owner within two hours</li>

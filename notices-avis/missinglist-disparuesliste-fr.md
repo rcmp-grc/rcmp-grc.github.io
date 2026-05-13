@@ -49,25 +49,25 @@ issued: 2026-05-09
     </div>
     <div aria-label="Profils des personnes disparues" id="mp-grid" role="list"></div>
     <p id="mp-no-results">Aucun profil ne correspond aux filtres sélectionnés.</p>
-    <nav aria-label="Pagination" class="rcmp-pagination rcmp-pagination--block" id="rcmp-pagination">
-      <div class="rcmp-pagination__prev" id="mp-prev-wrap">
-        <button type="button" id="mp-prev" class="rcmp-pagination__link" aria-label="Page précédente">
-          <span class="rcmp-pagination__title-row">
-            <i class="rcmp-pagination__icon fa-solid fa-chevron-left" aria-hidden="true"></i>
-            <span class="rcmp-pagination__link-title">Page précédente</span>
+    <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
+      <div class="rcmp-content-page__prev" id="mp-prev-wrap">
+        <button type="button" id="mp-prev" class="rcmp-content-page__link" aria-label="Page précédente">
+          <span class="rcmp-content-page__title-row">
+            <i class="rcmp-content-page__icon fa-solid fa-chevron-left" aria-hidden="true"></i>
+            <span class="rcmp-content-page__link-title">Page précédente</span>
           </span>
           <span class="rcmp-visually-hidden">:</span>
-          <span class="rcmp-pagination__link-label" id="mp-prev-label"></span>
+          <span class="rcmp-content-page__link-label" id="mp-prev-label"></span>
         </button>
       </div>
-      <div class="rcmp-pagination__next" id="mp-next-wrap">
-        <button type="button" id="mp-next" class="rcmp-pagination__link" aria-label="Page suivante">
-          <span class="rcmp-pagination__title-row">
-            <i class="rcmp-pagination__icon fa-solid fa-chevron-right" aria-hidden="true"></i>
-            <span class="rcmp-pagination__link-title">Page suivante</span>
+      <div class="rcmp-content-page__next" id="mp-next-wrap">
+        <button type="button" id="mp-next" class="rcmp-content-page__link" aria-label="Page suivante">
+          <span class="rcmp-content-page__title-row">
+            <i class="rcmp-content-page__icon fa-solid fa-chevron-right" aria-hidden="true"></i>
+            <span class="rcmp-content-page__link-title">Page suivante</span>
           </span>
           <span class="rcmp-visually-hidden">:</span>
-          <span class="rcmp-pagination__link-label" id="mp-next-label"></span>
+          <span class="rcmp-content-page__link-label" id="mp-next-label"></span>
         </button>
       </div>
     </nav>
@@ -166,7 +166,7 @@ issued: 2026-05-09
   var prevBtn      = $('mp-prev');
   var nextBtn      = $('mp-next');
   var activeTagsEl = $('mp-active-filters');
-  var pagination   = $('rcmp-pagination');
+  var pagination   = $('rcmp-content-page');
   var checkboxes   = document.querySelectorAll('#mp-filters input[type="checkbox"]');
 
   function updateBadges() {

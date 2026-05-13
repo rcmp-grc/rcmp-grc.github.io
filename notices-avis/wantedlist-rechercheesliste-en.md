@@ -48,25 +48,25 @@ issued: 2026-05-09
     </div>
     <div aria-label="Wanted persons profiles" id="wp-grid" role="list"></div>
     <p id="wp-no-results">No profiles match your current filters.</p>
-    <nav aria-label="Pagination" class="rcmp-pagination rcmp-pagination--block" id="rcmp-pagination">
-      <div class="rcmp-pagination__prev" id="wp-prev-wrap">
-        <button aria-label="Previous page" class="rcmp-pagination__link" id="wp-prev" type="button">
-          <span class="rcmp-pagination__title-row">
-            <i aria-hidden="true" class="rcmp-pagination__icon fa-solid fa-chevron-left"></i>
-            <span class="rcmp-pagination__link-title">Previous page</span>
+    <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
+      <div class="rcmp-content-page__prev" id="wp-prev-wrap">
+        <button aria-label="Previous page" class="rcmp-content-page__link" id="wp-prev" type="button">
+          <span class="rcmp-content-page__title-row">
+            <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i>
+            <span class="rcmp-content-page__link-title">Previous page</span>
           </span>
           <span class="rcmp-visually-hidden">:</span>
-          <span class="rcmp-pagination__link-label" id="wp-prev-label"></span>
+          <span class="rcmp-content-page__link-label" id="wp-prev-label"></span>
         </button>
       </div>
-      <div class="rcmp-pagination__next" id="wp-next-wrap">
-        <button aria-label="Next page" class="rcmp-pagination__link" id="wp-next" type="button">
-          <span class="rcmp-pagination__title-row">
-            <i aria-hidden="true" class="rcmp-pagination__icon fa-solid fa-chevron-right"></i>
-            <span class="rcmp-pagination__link-title">Next page</span>
+      <div class="rcmp-content-page__next" id="wp-next-wrap">
+        <button aria-label="Next page" class="rcmp-content-page__link" id="wp-next" type="button">
+          <span class="rcmp-content-page__title-row">
+            <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
+            <span class="rcmp-content-page__link-title">Next page</span>
           </span>
           <span class="rcmp-visually-hidden">:</span>
-          <span class="rcmp-pagination__link-label" id="wp-next-label"></span>
+          <span class="rcmp-content-page__link-label" id="wp-next-label"></span>
         </button>
       </div>
     </nav>
@@ -162,7 +162,7 @@ issued: 2026-05-09
   var prevBtn      = $('wp-prev');
   var nextBtn      = $('wp-next');
   var activeTagsEl = $('wp-active-filters');
-  var pagination   = $('rcmp-pagination');
+  var pagination   = $('rcmp-content-page');
   var checkboxes   = document.querySelectorAll('#wp-filters input[type="checkbox"]');
 
   function updateBadges() {

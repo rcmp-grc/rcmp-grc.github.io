@@ -34,7 +34,7 @@ issued: 2026-05-04
   <button type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
 			<details>
  <summary>
-            <div id="description"><p class="small">Apply any of the following filtres to narrow your search.</p></div></summary>
+            <p class="small">Apply any of the following filtres to narrow your search.</p></summary>
 			<fieldset>
                 <legend class="small"><strong>Category</strong></legend>
 				  <div class="checkbox">

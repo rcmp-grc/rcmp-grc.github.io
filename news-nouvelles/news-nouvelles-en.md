@@ -220,18 +220,6 @@ issued: 2026-05-04
   </thead>
   <tbody id="tableBody"></tbody>
 		 </table> 
-      <table id="results-list" class="wb-tables table nws-tbl table-striped">
-        <thead>
-          <tr>
-            <th class="hidden" tabindex="-1">Title</th>
-            <th class="hidden" tabindex="-1">Date</th>
-            <th class="hidden" tabindex="-1">Location</th>
-            <th class="hidden" tabindex="-1">Description</th>
-          </tr>
-        </thead>
-        <tbody id="tableBody">
-		</tbody>
-	  </table>
     </section>
     <nav aria-label="Pagination" class="rcmp-pagination rcmp-pagination--block" id="rcmp-pagination">
       <div class="rcmp-pagination__prev" id="mp-prev-wrap">

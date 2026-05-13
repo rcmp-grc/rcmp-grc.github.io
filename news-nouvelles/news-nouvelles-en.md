@@ -118,7 +118,7 @@ issued: 2026-05-04
                 <option value="Alberta">
                   Alberta
                 </option>
-                <option value="British Columbia">
+                <option value="British_Columbia">
                   British Columbia
                 </option>
                 <option value="Manitoba">

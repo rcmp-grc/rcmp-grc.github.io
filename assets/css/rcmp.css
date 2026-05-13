@@ -746,10 +746,10 @@ ol.rst-cntr {
   white-space: nowrap;
 }
 .rcmp-item-pagination {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
   margin-top: 28px;
   padding-top: 20px;
   border-top: 1px solid var(--rcmp-grey-md);
@@ -757,10 +757,11 @@ ol.rst-cntr {
 }
 .rcmp-item-pagination__prev,
 .rcmp-item-pagination__next {
-  flex: 0 0 auto;
+  flex: 0 0 auto !important;
+  display: flex !important;
 }
 .rcmp-item-pagination__link {
-  display: inline-flex;
+  display: inline-flex !important;
   flex-direction: row;
   align-items: center;
   gap: 6px;
@@ -787,23 +788,23 @@ ol.rst-cntr {
   font-size: 1em;
 }
 .rcmp-item-pagination__list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
   align-items: center;
   justify-content: center;
-  flex: 1 1 auto;
+  flex: 1 1 auto !important;
   list-style: none;
   margin: 0;
   padding: 0;
   gap: 2px;
 }
 .rcmp-item-pagination__item {
-  display: flex;
+  display: flex !important;
   flex: 0 0 auto;
 }
 .rcmp-item-pagination__item-link {
-  display: inline-flex;
+  display: inline-flex !important;
   align-items: center;
   justify-content: center;
   min-width: 36px;
@@ -831,7 +832,7 @@ ol.rst-cntr {
   pointer-events: none;
 }
 .rcmp-item-pagination__item--ellipsis {
-  display: inline-flex;
+  display: inline-flex !important;
   align-items: center;
   justify-content: center;
   min-width: 24px;
@@ -842,20 +843,19 @@ ol.rst-cntr {
 }
 @media (max-width: 767px) {
   .rcmp-item-pagination {
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 20px !important;
   }
   .rcmp-item-pagination__prev,
   .rcmp-item-pagination__next {
     width: 100%;
-    display: flex;
     justify-content: center;
   }
   .rcmp-item-pagination__list {
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
     justify-content: center;
-    flex: 0 0 auto;
+    flex: 0 0 auto !important;
     width: 100%;
   }
 }

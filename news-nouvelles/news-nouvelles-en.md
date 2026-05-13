@@ -33,8 +33,8 @@ issued: 2026-05-04
   <input type="text" id="titleFilter" placeholder="Search news">
   <button type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
 			<details>
- <summary>
-            <p class="small">Apply any of the following filtres to narrow your search.</p></summary>
+ <summary><strong>Filtres</strong></summary>
+            <div><p class="small">Apply the following filtres to narrow your search</p></div>
 			<fieldset>
                 <legend class="small"><strong>Category</strong></legend>
 				  <div class="checkbox">

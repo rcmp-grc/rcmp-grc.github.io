@@ -317,13 +317,10 @@ const form = document.getElementById('filterForm');
 const tableBody = document.getElementById('tableBody');
 form.addEventListener('submit', (e) => {
   e.preventDefault(); // Stop page reload
-  const searchTerm = document.getElementById('titleFilter', 'dateFilter', 'locationFilter', 'descriptionFilter').value.toLowerCase();
+  const searchTerm = document.getElementById('titleFilter').value.toLowerCase();
   // Filter the data
   const filteredData = news.filter(news => 
     news.title.toLowerCase().includes(searchTerm),
-	news.date.toLowerCase().includes(searchTerm),	
-	news.location.toLowerCase().includes(searchTerm),
-	news.description.toLowerCase().includes(searchTerm)
   );
   renderTable(filteredData);
 });

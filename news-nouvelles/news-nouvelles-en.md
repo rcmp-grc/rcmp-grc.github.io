@@ -225,8 +225,6 @@ issued: 2026-05-04
                   <button class="btn btn-default" type="reset">Clear filters</button>
 				</div>
 			  </div>
-		 </div>
-			  </fieldset>
 		</form>
 	   </section>
 						</div>

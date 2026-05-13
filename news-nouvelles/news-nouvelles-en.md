@@ -32,8 +32,10 @@ issued: 2026-05-04
         <form id="filterForm">
   <input type="text" id="titleFilter" placeholder="Search news">
   <button type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
-            <div id="description"><p class="small">Apply any of the following filtres to narrow your search.</p></div>
-              <fieldset>
+			<details>
+ <summary>
+            <div id="description"><p class="small">Apply any of the following filtres to narrow your search.</p></div></summary>
+			<fieldset>
                 <legend class="small"><strong>Category</strong></legend>
 				  <div class="checkbox">
                 <label for="assault"><input type="checkbox" value="Assault">
@@ -225,6 +227,7 @@ issued: 2026-05-04
                   <button class="btn btn-default" type="reset">Clear filters</button>
 				</div>
 			  </div>
+			</details>
 		</form>
 	   </section>
 						</div>

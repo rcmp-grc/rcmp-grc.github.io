@@ -209,10 +209,6 @@ issued: 2026-05-04
    <p><i class="fa-solid fa-filter"></i> <span class="wb-inv">Filtres selected:</span> </p>
    </div>
 </div>  
-!--<form id="filterForm">
-  <input type="text" id="titleFilter" placeholder="Search by name...">
-  <button type="submit">Filter</button>
-</form>-->
 		 <table id="dataTable" class="wb-tables table nws-tbl table-striped">
 			 <thead>
     <tr><th class="hidden" tabindex="-1">Title</th><th class="hidden" tabindex="-1">Date</th>  <th class="hidden" tabindex="-1">Location</th><th class="hidden" tabindex="-1">Description</th></tr>
@@ -293,7 +289,7 @@ const form = document.getElementById('filterForm');
 const tableBody = document.getElementById('tableBody');
 form.addEventListener('submit', (e) => {
   e.preventDefault(); // Stop page reload
-  const searchTerm = document.getElementById('nameFilter').value.toLowerCase();
+  const searchTerm = document.getElementById('titleFilter').value.toLowerCase();
   // Filter the data
   const filteredData = users.filter(user => 
     user.title.toLowerCase().includes(searchTerm)

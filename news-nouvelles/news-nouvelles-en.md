@@ -230,113 +230,8 @@ issued: 2026-05-04
           </tr>
         </thead>
         <tbody>
-<tr colspan="4">       
-<td>
-<div class="col-md-12 mrgn-bttm-lg"><strong><a href="https://rcmp.ca/en/news/2026/05/4352857"><abbr>RCMP</abbr> and <abbr>CBSA</abbr> dismantle crime group after nearly 250&nbsp;<abbr>kg</abbr> of cocaine is detected in shipping container in Halifax</a></strong><br>
-2026-05-07 | Federal Policing Central Region | News releases<br><br>
-<strong>Newmarket, Ontario</strong><br><br>
-Canadian federal authorities dismantled an organized crime operation that imported 248.7&nbsp;<abbr>kg</abbr> of cocaine from the Dominican Republic.
-</div>
-</td>
-</tr>
-<tr colspan="4">       
-<td>
-<div class="col-md-12 mrgn-bttm-lg"><strong><a href="https://rcmp.ca/en/pei/news/2026/05/4352858">Joint Forces Operations Results in Multiple Drug Related Arrests</a></strong><br>
-2026-05-07 | Prince Edward Island <abbr>RCMP</abbr> | News releases<br><br>
-<strong>Summerside, Prince Edward Island</strong><br><br>
-May 5, 2026, Members of the Prince District Joint Forces Operation (<abbr>JFO</abbr>), Summerside Police, Provincial Joint Enforcement Team (<abbr>JET</abbr>), and <abbr>RCMP</abbr> Police Dog Service, conducted a targeted vehicle stop in Summerside.
-</div>
-</td>
-</tr> 
-<tr colspan="4">       
-<td>
-<div class="col-md-12 mrgn-bttm-lg"><strong><a href="https://rcmp.ca/en/bc/comox-valley/news/2026/05/4352854">Comox Valley <abbr>RCMP</abbr> looking to locate suspect vehicle after hit-and-run</a></strong><br>
-2026-05-07 | Comox Valley <abbr>RCMP</abbr> | News releases<br><br>
-<strong>Summerside, Prince Edward Island</strong><br><br>
-May 5, 2026, Members of the Prince District Joint Forces Operation (<abbr>JFO</abbr>), Summerside Police, Provincial Joint Enforcement Team (<abbr>JET</abbr>), and <abbr>RCMP</abbr> Police Dog Service, conducted a targeted vehicle stop in Summerside.
-</div>
-</td>
-</tr>       
-<tr colspan="4">       
-<td>
-<div class="col-md-12 mrgn-bttm-lg"><strong><a href="https://rcmp.ca/en/bc/chilliwack/news/2026/05/4352853">Chilliwack RCMP seek public assistance to identify suspect in bus driver assault</a></strong><br>
-2026-05-06 | Chilliwack <abbr>RCMP</abbr> | News releases<br><br>
-<strong>Chilliwack, British Columbia</strong><br><br>
-The Chilliwack RCMP is requesting the public’s assistance in identifying a man alleged to have been involved in the assault of a BC Transit bus driver in March of 2026.
-</div>
-</td>
-</tr>
-<tr colspan="4">       
-<td>         
-<div class="col-md-12 mrgn-bttm-lg"><strong><a href="https://rcmp.ca/en/bc/chilliwack/news/2026/05/4352853">Chilliwack RCMP seek public assistance to identify suspect in bus driver assault</a></strong><br>
-2026-05-06 | Chilliwack <abbr>RCMP</abbr> | News releases<br><br>
-<strong>Chilliwack, British Columbia</strong><br><br>
-The Chilliwack RCMP is requesting the public’s assistance in identifying a man alleged to have been involved in the assault of a BC Transit bus driver in March of 2026.
-</div>  
-</td>
-</tr>
-<tr colspan="4">       
-<td>          
-<div class="col-md-12 mrgn-bttm-lg"><strong><a href="https://rcmp.ca/en/bc/hope/news/2026/05/4352851">Hope RCMP weekly snapshot</a></strong><br>
-2026-05-06 | Hope RCMP | News releases<br><br>
-<strong>Hope, BC, British Columbia</strong><br><br>
-Week of April 27 to May 3
-</div>    
-</td>
-</tr> 
-<tr colspan="4">       
-<td>          
-<div class="col-md-12 mrgn-bttm-lg"><strong><a href="https://rcmp.ca/en/nb/news/2026/05/4352850">Missing 49-year-old woman</a></strong><br>
-2026-05-06 | New Brunswick RCMP | News releases<br><br>
-<strong>Perth-Andover, New Brunswick</strong><br><br>
-The Perth-Andover RCMP is asking for the public’s help to locate a missing 49-year-old woman from Presque Isle, Maine. 
-</div>    
-</td>
-</tr> 
-<tr colspan="4">
-<td>          
-<div class="col-md-12 mrgn-bttm-lg"><strong><a href="https://rcmp.ca/en/nb/news/2026/05/4352849">RCMP seeking public’s help following counterfeit money circulation</a></strong><br>
-2026-05-06 | New Brunswick RCMP | News releases<br><br>
-<strong>Kedgwick and Saint-Quentin, New Brunswick</strong><br><br>
-The Saint-Quentin RCMP is seeking the public’s help to identify a person of interest in connection with a counterfeit money investigation.  
-</div>    
-</td>
-</tr>   
-<tr colspan="4">
-<td>          
-<div class="col-md-12 mrgn-bttm-lg"><strong><a href="https://rcmp.ca/en/manitoba/news/2026/05/4352847">Suspects arrested after replica handgun seen inside Morris hospital</a></strong><br>
-2026-05-06 | Manitoba RCMP | News releases<br><br>
-<strong>Morris, Manitoba</strong><br><br>
-On May 5, at approximately 4:30 p.m., RCMP responded to a report that an armed male was threatening a female inside Morris General Hospital.  
-</div>    
-</td>
-</tr> 
-<tr colspan="4">
-<td>          
-<div class="col-md-12 mrgn-bttm-lg"><strong><a href="https://rcmp.ca/en/nl/news/2026/05/4352845">Bay St. George RCMP issue warning about counterfeit currency circulating in the area</a></strong><br>
-2026-05-06 | Newfoundland and Labrador RCMP | News releases<br><br>
-<strong>Stephenville, Newfoundland and Labrador</strong><br><br>
-Bay St. George RCMP is advising the public about recent circulation of counterfeit currency after reports from local residents and businesses.  
-</div>    
-</td>
-</tr>            
-        </tbody>
-      </table>       
-     <!-- <h2 class="mrgn-tp-lg">List of news</h2>
-      <table class="wb-tables table nws-tbl table-striped" data-wb-tables='{ "ordering": false, "pageLength": 10, "lengthChange": false, "columns": [{ "data": "title", "className": "nws-tbl-ttl" }, { "data": "date", "className": "nws-tbl-date" }, { "data": "detachment", "className": "nws-tbl-type" }, { "data": "type", "className": "nws-tbl-type" }, { "data": "location", "className": "nws-tbl-desc" }, { "data": "province", "className": "hidden" }, { "data": "description", "className": "nws-tbl-desc mrgn-bbtm-md" } ] }' data-wb-tables-color=".pkey" data-wb5-bind="[data-wbtbl-draw]" id="n">
-        <thead>
-          <tr>
-            <th class="hidden" tabindex="-1">Title</th>
-            <th class="hidden" tabindex="-1">Date</th>
-            <th class="hidden" tabindex="-1">Division or Federal Policing region</th>
-            <th class="hidden" tabindex="-1">Type</th>
-            <th class="hidden" tabindex="-1">Location</th>
-            <th class="hidden" tabindex="-1">Province or territory</th>
-            <th class="hidden" tabindex="-1">Description</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>-->
+		</tbody>
+	  </table>
     </section>
     <nav aria-label="Pagination" class="rcmp-pagination rcmp-pagination--block" id="rcmp-pagination">
       <div class="rcmp-pagination__prev" id="mp-prev-wrap">
@@ -394,9 +289,17 @@ Bay St. George RCMP is advising the public about recent circulation of counterfe
 </div>
 <script>
 const users = [
-  { title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/news/2026/05/4352857"><abbr>RCMP</abbr> and <abbr>CBSA</abbr> dismantle crime group after nearly 250&nbsp;<abbr>kg</abbr> of cocaine is detected in shipping container in Halifax</a></strong><br>',  date: '2026-05-07 | Federal Policing Central Region | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Newmarket, Ontario</strong></div>', description: '<div class="mrgn-lft-md">Canadian federal authorities dismantled an organized crime operation that imported 248.7&nbsp;<abbr>kg</abbr> of cocaine from the Dominican Republic.</div>' },
-  { title: '<strong><a href="https://rcmp.ca/en/pei/news/2026/05/4352858">Joint Forces Operations Results in Multiple Drug Related Arrests</a></strong>',  date: '2026-05-07 | Prince Edward Island <abbr>RCMP</abbr>', location: '<strong>Summerside, Prince Edward Island</strong>', description: 'May 5, 2026, Members of the Prince District Joint Forces Operation (<abbr>JFO</abbr>), Summerside Police, Provincial Joint Enforcement Team (<abbr>JET</abbr>), and <abbr>RCMP</abbr> Police Dog Service, conducted a targeted vehicle stop in Summerside.' },
-  { title: '<strong><a href="https://rcmp.ca/en/bc/chilliwack/news/2026/05/4352853">Chilliwack RCMP seek public assistance to identify suspect in bus driver assault</a></strong>',  date: '2026-05-06 | Chilliwack <abbr>RCMP</abbr> | News releases', location: '<strong>Chilliwack, British Columbia</strong>', description: 'The Chilliwack RCMP is requesting the public’s assistance in identifying a man alleged to have been involved in the assault of a BC Transit bus driver in March of 2026.' }
+{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/news/2026/05/4352857"><abbr>RCMP</abbr> and <abbr>CBSA</abbr> dismantle crime group after nearly 250&nbsp;<abbr>kg</abbr> of cocaine is detected in shipping container in Halifax</a></strong><br>',  date: '2026-05-07 | Federal Policing Central Region | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Newmarket, Ontario</strong></div>', description: '<div class="mrgn-lft-md">Canadian federal authorities dismantled an organized crime operation that imported 248.7&nbsp;<abbr>kg</abbr> of cocaine from the Dominican Republic.</div>' },
+{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/nl/news/2026/05/4352845">Bay St. George RCMP issue warning about counterfeit currency circulating in the area</a></strong><br>',  date: '2026-05-06 | Manitoba RCMP | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Newmarket, Ontario</strong></div>', description: '<div class="mrgn-lft-md">Bay St. George RCMP is advising the public about recent circulation of counterfeit currency after reports from local residents and businesses.</div>' },
+{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/manitoba/news/2026/05/4352847">Suspects arrested after replica handgun seen inside Morris hospital</a></strong><br>',  date: '2026-05-07 | Federal Policing Central Region | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Morris, Manitoba</strong></div>', description: '<div class="mrgn-lft-md">On May 5, at approximately 4:30 p.m., RCMP responded to a report that an armed male was threatening a female inside Morris General Hospital. </div>' },	
+{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/nb/news/2026/05/4352849">RCMP seeking public’s help following counterfeit money circulation</a></strong><br>',  date: '2026-05-06 | New Brunswick RCMP | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Kedgwick and Saint-Quentin, New Brunswick</strong></div>', description: '<div class="mrgn-lft-md">The Saint-Quentin RCMP is seeking the public’s help to identify a person of interest in connection with a counterfeit money investigation.</div>' },	
+{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/nb/news/2026/05/4352850">Missing 49-year-old woman</a></strong><br>',  date: '2026-05-06 | Chilliwack <abbr>RCMP</abbr> | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Perth-Andover, New Brunswick</strong></div>', description: '<div class="mrgn-lft-md">The Perth-Andover RCMP is asking for the public’s help to locate a missing 49-year-old woman from Presque Isle, Maine.</div>' },
+{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/bc/chilliwack/news/2026/05/4352853">Chilliwack RCMP seek public assistance to identify suspect in bus driver assault</a></strong><br>',  date: '2026-05-07 | Comox Valley <abbr>RCMP</abbr> | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Chilliwack, British Columbia</strong></div>', description: '<div class="mrgn-lft-md">The Chilliwack RCMP is requesting the public’s assistance in identifying a man alleged to have been involved in the assault of a BC Transit bus driver in March of 2026.</div>' },
+{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/bc/comox-valley/news/2026/05/4352854">Comox Valley <abbr>RCMP</abbr> looking to locate suspect vehicle after hit-and-run</a></strong><br>',  date: '2026-05-07 | Federal Policing Central Region | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Summerside, Prince Edward Island</strong></div>', description: '<div class="mrgn-lft-md">May 5, 2026, Members of the Prince District Joint Forces Operation (<abbr>JFO</abbr>), Summerside Police, Provincial Joint Enforcement Team (<abbr>JET</abbr>), and <abbr>RCMP</abbr> Police Dog Service, conducted a targeted vehicle stop in Summerside.</div>' },
+{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/pei/news/2026/05/4352858">Joint Forces Operations Results in Multiple Drug Related Arrests</a></strong><br>',  date: '2026-05-07 | Prince Edward Island <abbr>RCMP</abbr> | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Summerside, Prince Edward Island</strong></div>', description: '<div class="mrgn-lft-md">May 5, 2026, Members of the Prince District Joint Forces Operation (<abbr>JFO</abbr>), Summerside Police, Provincial Joint Enforcement Team (<abbr>JET</abbr>), and <abbr>RCMP</abbr> Police Dog Service, conducted a targeted vehicle stop in Summerside.</div>' },
+{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/manitoba/news/2026/05/4353043">Steinbach RCMP served an IRP on Monday morning</a></strong><br>',  date: '2026-05-13 | Manitoba RCMP | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Steinbach, Manitoba</strong></div>', description: '<div class="mrgn-lft-md">On May 11, 2026, at 6:50 AM, Steinbach RCMP received a report of a possible impaired driver in a brown SUV on Mckenzie Avenue in Steinbach.</div>' },
+{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/nunavut/news/2026/05/4353041">Nunavut RCMP charge a male with multiple offenses</a></strong><br>',  date: '2026-05-13 | Nunavut RCMP | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Iqaluit, Nunavut</strong></div>', description: '<div class="mrgn-lft-md">The Iqaluit RCMP's GIS unit with the assistance from the Pangnirtung RCMP, charged a 27-year-old man with multiple offences.</div>' },
+{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/nova-scotia/news/2026/05/4353038">Antigonish County District RCMP charges man after he flees from officers</a></strong><br>',  date: '2026-05-13 | Nova Scotia RCMP | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Maryvale, Nova Scotia</strong></div>', description: '<div class="mrgn-lft-md">Antigonish County District RCMP has charged a man after he fled from officers near Maryvale.</div>' }	
 		];
 const form = document.getElementById('filterForm');
 const tableBody = document.getElementById('tableBody');

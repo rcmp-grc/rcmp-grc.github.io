@@ -38,80 +38,80 @@ issued: 2026-05-04
 			<fieldset>
                 <legend class="small"><strong>Category</strong></legend>
 				  <div class="checkbox">
-                <label for="assault"><input type="checkbox" value="Assault">
+                <label for="assault"><input id="form-input" type="checkbox" value="Assault">
                   Assault</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="brake-and-enter"><input type="checkbox" value="break-and-enter">
+                <label for="brake-and-enter"><input id="form-input" type="checkbox" value="break-and-enter">
                   Break and enter</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="disturbance"><input type="checkbox" value="disturbance">
+                <label for="disturbance"><input id="form-input" type="checkbox" value="disturbance">
                   Disturbance</label>
 				  </div>
 				  <div class="checkbox">
-                 <label for="homicide"><input type="checkbox" value="homicide">
+                 <label for="homicide"><input id="form-input" type="checkbox" value="homicide">
                   Homicide</label>
 				  </div>
 				  <div class="checkbox">
-                 <label for="illegal-border-crossing"><input type="checkbox" value="illegal-border-crossing">
+                 <label for="illegal-border-crossing"><input id="form-input" type="checkbox" value="illegal-border-crossing">
                   Illegal border crossing
 				 </label>
 				  </div>
 				  <div class="checkbox">
-                 <label for="illicit-drugs"><input type="checkbox" value="illicit-drugs">
+                 <label for="illicit-drugs"><input id="form-input" type="checkbox" value="illicit-drugs">
                   Illicit drugs
 				 </label>
 				  </div>
 				  <div class="checkbox">
-                <label for="missing-person"><input type="checkbox" value="missing-person">
+                <label for="missing-person"><input id="form-input" type="checkbox" value="missing-person">
                   Missing person
 				</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="organized-crime"><input type="checkbox" value='organized-crime'>
+                <label for="organized-crime"><input id="form-input" type="checkbox" value='organized-crime'>
                   Organized crime 
 				</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="property-damage"><input type="checkbox" value="property-damage">
+                <label for="property-damage"><input id="form-input" type="checkbox" value="property-damage">
                   Property damage  
 				</label>
 				  </div>
 				 <div class="checkbox"> 
-                <label for="public-interest"><input type="checkbox" value="public-interest">
+                <label for="public-interest"><input id="form-input" type="checkbox" value="public-interest">
                   Public interest  
 				</label>
 				 </div>
 				  <div class="checkbox">
-                <label for="theft"><input type="checkbox" value="theft">
+                <label for="theft"><input id="form-input" type="checkbox" value="theft">
                   Theft  
 				</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="traffic-services"><input type="checkbox" value="traffic-services">
+                <label for="traffic-services"><input id="form-input" type="checkbox" value="traffic-services">
                   Traffic services  
 				</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="trafficking"><input type="checkbox" value="trafficking">
+                <label for="trafficking"><input id="form-input" type="checkbox" value="trafficking">
                   Trafficking  
 				</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="wanted"><input type="checkbox" value="wanted">
+                <label for="wanted"><input id="form-input" type="checkbox" value="wanted">
                   Wanted  
 				</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="weapons"><input type="checkbox" value="weapons">
+                <label for="weapons"><input id="form-input" type="checkbox" value="weapons">
                   Weapons  
 				</label>
 				  </div>
           </fieldset>
 				<fieldset>	 
 			 <legend class="small"><strong>Province or Territory</strong></legend>
-				<label for="dt-province-territory"></label><select class="form-control" data-column="2" id="filter-input" name="dt-province-territory">	
+				<label for="dt-province-territory"></label><select class="form-control" data-column="2" id="form-input" name="dt-province-territory">	
                 <option value="All provinces and territories">
                   All provinces and territories
                 </option>
@@ -158,7 +158,7 @@ issued: 2026-05-04
 				</fieldset>
 				  <fieldset>
 				<legend class="small"><strong>Published by</strong></legend>
-                <label for="dt-division-or-federal-policing-region"></label><select class="form-control" data-column="2" id="filter-input" name="dt-division-or-federal-policing-region">
+                <label for="dt-division-or-federal-policing-region"></label><select class="form-control" data-column="2" id="form-input" name="dt-division-or-federal-policing-region">
                 <option value="All policing regions">
                   All divisions or Federal Policing regions
                 </option>
@@ -217,7 +217,7 @@ issued: 2026-05-04
 				  </fieldset>
 				  <fieldset>
 					  <legend class="small"><strong>Published</strong></legend>
-             <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="filter-input" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
+             <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="form-input" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
 				</fieldset>
               <div class="row mrgn-tp-md">
                 <div class="col-xs-6">
@@ -333,4 +333,17 @@ function renderTable(data) {
 }
 // Initial load
 renderTable(news);
+  function filterTable() {
+  const input = document.getElementById("form-input");
+  const filter = input.value.toUpperCase();
+  // Loop through all table rows, excluding the header (start at i=1)
+  for (let i = 1; i < tr.length; i++) {
+    const td = tr[i].getElementsByTagName("td")[0]; // Filters based on first column
+    if (td) {
+      const txtValue = td.textContent || td.innerText;
+      // Show row if text match is found, otherwise hide it
+      tr[i].style.display = txtValue.toUpperCase().indexOf(filter) > -1 ? "" : "none";
+    }
+  }
+}
 </script>

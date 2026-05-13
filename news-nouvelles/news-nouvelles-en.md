@@ -331,9 +331,7 @@ function renderTable(data) {
     tableBody.insertAdjacentHTML('beforeend', row); // Build table
   });
 }
-// Initial load
-renderTable(news);
-  function filterTable() {
+ function filterTable(data) {
   const input = document.getElementById("form-input");
   const filter = input.value.toUpperCase();
   // Loop through all table rows, excluding the header (start at i=1)
@@ -345,5 +343,7 @@ renderTable(news);
       tr[i].style.display = txtValue.toUpperCase().indexOf(filter) > -1 ? "" : "none";
     }
   }
-}
+}	
+// Initial load
+renderTable(news);
 </script>

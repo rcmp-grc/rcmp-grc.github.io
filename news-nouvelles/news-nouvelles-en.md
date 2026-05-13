@@ -207,7 +207,6 @@ issued: 2026-05-04
 <div class="panel panel-body panel-warning mrgn-tp-0 mrgn-bttm-sm">
    <p><i class="fa-solid fa-filter"></i> <span class="wb-inv">Filtres selected:</span> </p>
    </div>
-</div>  
 		 <table id="dataTable" class="wb-tables table nws-tbl table-striped">
 			 <thead>
     <tr><th class="hidden" tabindex="-1">Title</th><th class="hidden" tabindex="-1">Date</th>  <th class="hidden" tabindex="-1">Location</th><th class="hidden" tabindex="-1">Description</th></tr>

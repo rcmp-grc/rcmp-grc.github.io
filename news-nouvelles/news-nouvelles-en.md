@@ -34,7 +34,7 @@ issued: 2026-05-04
   <button type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
             <div id="description"><p class="small">Apply any of the following filtres to narrow your search.</p></div>
               <fieldset>
-                <legend class="small">Category</legend>
+                <legend class="small"><strong>Category</strong></legend>
 				  <div class="checkbox">
                 <label for="assault"><input type="checkbox" value="Assault">
                   Assault</label>
@@ -108,7 +108,7 @@ issued: 2026-05-04
 				  </div>
           </fieldset>
 				<fieldset>	 
-			 <legend>Province or Territory</legend>
+			 <legend class="small"><strong>Province or Territory</strong></legend></legend>
               <label for="dt-province-or-territory">Province or territory</label><select class="form-control" data-column="5" id="filter-input" name="dt-province-or-territory">
                 <option value="All provinces and territories">
                   All provinces and territories
@@ -155,7 +155,7 @@ issued: 2026-05-04
               </select>
 				</fieldset>
 				  <fieldset>
-				<legend>Published by</legend>
+				<legend class="small"><strong>Published by</strong></legend>
                 <label for="dt-division-or-federal-policing-region"></label><select class="form-control" data-column="2" id="filter-input" name="dt-division-or-federal-policing-region">
                 <option value="All policing regions">
                   All divisions or Federal Policing regions
@@ -214,7 +214,7 @@ issued: 2026-05-04
               </select>
 				  </fieldset>
 				  <fieldset>
-					  <legend>Published</legend>
+					  <legend class="small"><strong>Published</strong></legend>
              <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="filter-input" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
 				</fieldset>
               <div class="row mrgn-tp-md">

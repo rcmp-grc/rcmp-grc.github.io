@@ -48,25 +48,18 @@ issued: 2026-05-09
     </div>
     <div aria-label="Profils des personnes recherchées" id="wp-grid" role="list"></div>
     <p id="wp-no-results">Aucun profil ne correspond aux filtres sélectionnés.</p>
-    <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
-      <div class="rcmp-content-page__prev" id="wp-prev-wrap">
-        <button aria-label="Page précédente" class="rcmp-content-page__link" id="wp-prev" type="button">
-          <span class="rcmp-content-page__title-row">
-            <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i>
-            <span class="rcmp-content-page__link-title">Page précédente</span>
-          </span>
-          <span class="rcmp-visually-hidden">:</span>
-          <span class="rcmp-content-page__link-label" id="wp-prev-label"></span>
+    <nav aria-label="Pagination" class="rcmp-item-pagination" id="rcmp-content-page">
+      <div class="rcmp-item-pagination__prev" id="wp-prev-wrap">
+        <button aria-label="Page précédente" class="rcmp-item-pagination__link" id="wp-prev" type="button">
+          <i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-left"></i>
+          <span class="rcmp-item-pagination__link-title">Précédente<span class="rcmp-visually-hidden"> page</span></span>
         </button>
       </div>
-      <div class="rcmp-content-page__next" id="wp-next-wrap">
-        <button aria-label="Page suivante" class="rcmp-content-page__link" id="wp-next" type="button">
-          <span class="rcmp-content-page__title-row">
-            <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
-            <span class="rcmp-content-page__link-title">Page suivante</span>
-          </span>
-          <span class="rcmp-visually-hidden">:</span>
-          <span class="rcmp-content-page__link-label" id="wp-next-label"></span>
+      <ul class="rcmp-item-pagination__list" id="wp-page-list"></ul>
+      <div class="rcmp-item-pagination__next" id="wp-next-wrap">
+        <button aria-label="Page suivante" class="rcmp-item-pagination__link" id="wp-next" type="button">
+          <span class="rcmp-item-pagination__link-title">Suivante<span class="rcmp-visually-hidden"> page</span></span>
+          <i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-right"></i>
         </button>
       </div>
     </nav>
@@ -88,7 +81,8 @@ issued: 2026-05-09
       mugshot:      'Mugshot of ',
       fileNumber:   'File number: ',
       updated:      'Updated: ',
-      ofPages:      ' of '
+      ofPages:      ' of ',
+      pageLabel:    'Page '
     },
     fr: {
       genderLabels: { male: 'homme', female: 'Femme', other: 'autre', unknown: 'inconnu' },
@@ -98,7 +92,8 @@ issued: 2026-05-09
       mugshot:      'Photo judiciaire de ',
       fileNumber:   'Numéro de dossier\u00A0: ',
       updated:      'Mise à jour\u00A0: ',
-      ofPages:      ' sur '
+      ofPages:      ' sur ',
+      pageLabel:    'Page '
     }
   };
 
@@ -243,17 +238,55 @@ issued: 2026-05-09
   }
 
   function renderPagination(total, page) {
-    var pages     = Math.ceil(total / PER_PAGE);
-    var prevLabel = $('wp-prev-label');
-    var nextLabel = $('wp-next-label');
-
-    if (prevLabel) prevLabel.textContent = (page - 1) + t.ofPages + pages;
-    if (nextLabel) nextLabel.textContent = (page + 1) + t.ofPages + pages;
+    var pages    = Math.ceil(total / PER_PAGE);
+    var pageList = $('wp-page-list');
 
     prevBtn.disabled                    = page <= 1;
     nextBtn.disabled                    = page >= pages;
-    prevBtn.parentElement.style.display = page <= 1   ? 'none' : 'block';
-    nextBtn.parentElement.style.display = page >= pages ? 'none' : 'block';
+    prevBtn.parentElement.style.display = page <= 1    ? 'none' : '';
+    nextBtn.parentElement.style.display = page >= pages ? 'none' : '';
+
+    if (!pageList) return;
+    pageList.innerHTML = '';
+
+    var slots = buildPageSlots(page, pages);
+    slots.forEach(function (slot) {
+      var li = document.createElement('li');
+      if (slot === '…') {
+        li.className = 'rcmp-item-pagination__item rcmp-item-pagination__item--ellipsis';
+        li.setAttribute('aria-hidden', 'true');
+        li.textContent = '⋯';
+      } else {
+        li.className = 'rcmp-item-pagination__item' + (slot === page ? ' rcmp-item-pagination__item--current' : '');
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'rcmp-item-pagination__item-link';
+        btn.setAttribute('aria-label', t.pageLabel + slot);
+        if (slot === page) btn.setAttribute('aria-current', 'page');
+        btn.textContent = slot;
+        btn.addEventListener('click', function () {
+          currentPage = slot;
+          draw();
+          grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+        li.appendChild(btn);
+      }
+      pageList.appendChild(li);
+    });
+  }
+
+  function buildPageSlots(page, pages) {
+    if (pages <= 7) {
+      var all = [];
+      for (var i = 1; i <= pages; i++) all.push(i);
+      return all;
+    }
+    var slots = [1];
+    if (page > 3) slots.push('…');
+    for (var p = Math.max(2, page - 1); p <= Math.min(pages - 1, page + 1); p++) slots.push(p);
+    if (page < pages - 2) slots.push('…');
+    slots.push(pages);
+    return slots;
   }
 
   function draw() {

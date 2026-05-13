@@ -278,8 +278,20 @@ details.wp-filter-group[open] {
 #wp-active-filters {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 6px;
   margin-bottom: 16px;
+}
+.wp-filter-showing-label {
+  font-weight: 700;
+  font-size: 0.9em;
+  color: var(--rcmp-black);
+  white-space: nowrap;
+}
+.wp-filter-tag-sep {
+  font-size: 0.9em;
+  color: var(--rcmp-grey-dk);
+  white-space: nowrap;
 }
 .wp-filter-tag {
   display: inline-flex;

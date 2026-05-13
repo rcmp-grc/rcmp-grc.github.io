@@ -108,8 +108,7 @@ issued: 2026-05-04
 				  </div>
           </fieldset>
 				<fieldset>	 
-			 <legend class="small"><strong>Province or Territory</strong></legend></legend>
-              <label for="dt-province-or-territory">Province or territory</label><select class="form-control" data-column="5" id="filter-input" name="dt-province-or-territory">
+			 <legend class="small"><strong>Province or Territory</strong></legend>
                 <option value="All provinces and territories">
                   All provinces and territories
                 </option>

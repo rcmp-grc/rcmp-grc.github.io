@@ -514,12 +514,8 @@ details.wp-filter-group[open] {
   border-left: 4px solid var(--cn-red);
   padding: 18px 20px;
   margin: 28px 0;
-  font-size: 0.9em;
 }
-.cn-infobox h3 {
-  font-size: 0.85em;
-  font-weight: 700;
-  letter-spacing: 0;
+.cn-infobox h2 {
   color: var(--cn-red);
   margin: 0 0 10px;
 }
@@ -754,13 +750,13 @@ ol.rst-cntr {
 .rcmp-item-pagination {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 8px;
+  flex-wrap: nowrap;
+  gap: 4px;
   margin-top: 28px;
   padding-top: 20px;
   border-top: 1px solid var(--rcmp-grey-md);
   font-family: inherit;
+  overflow-x: auto;
 }
 .rcmp-item-pagination__prev,
 .rcmp-item-pagination__next {
@@ -769,14 +765,15 @@ ol.rst-cntr {
 .rcmp-item-pagination__link {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   font-weight: 700;
   color: var(--rcmp-black);
   text-decoration: underline;
   background: none;
   border: 0;
-  padding: 6px 0;
+  padding: 6px 8px;
   cursor: pointer;
+  white-space: nowrap;
 }
 .rcmp-item-pagination__link:hover,
 .rcmp-item-pagination__link:focus {
@@ -786,6 +783,7 @@ ol.rst-cntr {
 }
 .rcmp-item-pagination__icon {
   flex-shrink: 0;
+  font-size: 0.85em;
 }
 .rcmp-item-pagination__link-title {
   font-size: 1em;
@@ -793,14 +791,16 @@ ol.rst-cntr {
 .rcmp-item-pagination__list {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 4px;
+  flex-wrap: nowrap;
+  gap: 2px;
   list-style: none;
   margin: 0;
   padding: 0;
+  flex-shrink: 0;
 }
 .rcmp-item-pagination__item {
   display: flex;
+  flex-shrink: 0;
 }
 .rcmp-item-pagination__item-link {
   display: inline-flex;
@@ -812,8 +812,10 @@ ol.rst-cntr {
   font-weight: 700;
   color: var(--rcmp-black);
   text-decoration: underline;
-  border: 2px solid transparent;
+  border: 0;
+  background: none;
   cursor: pointer;
+  white-space: nowrap;
 }
 .rcmp-item-pagination__item-link:hover,
 .rcmp-item-pagination__item-link:focus {
@@ -832,11 +834,12 @@ ol.rst-cntr {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 36px;
+  min-width: 28px;
   height: 36px;
   font-weight: 700;
   color: var(--rcmp-grey-dk);
   cursor: default;
+  flex-shrink: 0;
 }
 
 /* =============================================================================

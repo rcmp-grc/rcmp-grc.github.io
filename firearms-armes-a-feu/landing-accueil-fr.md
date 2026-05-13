@@ -137,14 +137,14 @@ intro: <p>Conformément à la <cite>Loi sur les armes à feu</cite>, le Programm
         <div class="row wb-eqht-grd">
           <div class="col-sm-6 hght-inhrt">
             <div class="well well-sm eqht-trgt hght-inhrt">
-              <img alt="" src="feature-3.png">
+              <img alt="" src="feature-1-360x203.png">
               <h3><a class="stretched-link" href="#">[Feature hyperlink text]</a></h3>
               <p>Brief description of the feature being promoted. Brief description of the feature being promoted.</p>
             </div>
           </div>
           <div class="col-sm-6 hght-inhrt">
             <div class="well well-sm eqht-trgt hght-inhrt">
-              <img alt="" src="feature-2.png">
+              <img alt="" src="feature-2-360x203.png">
               <h3><a class="stretched-link" href="#">[Feature hyperlink text]</a></h3>
               <p>Brief description of the feature being promoted. Brief description of the feature being promoted.</p>
             </div>

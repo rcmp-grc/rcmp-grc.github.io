@@ -201,7 +201,7 @@ issued: 2026-05-04
 		</form>
 	   </section>
 						</div>
-  <div class="col-md-9 class="mrgn-tp-lg">
+  <div class="col-md-9 mrgn-tp-lg">
     <section id="body">
       <h2 class="wb-inv">List of news</h2>
 <div class="panel panel-warning filter-container mrgn-tp-0 mrgn-bttm-sm">

@@ -40,7 +40,7 @@ issued: 2026-05-04
                   Assault</label>
                 <label for="brake-and-enter"><input type="checkbox" value="break-and-enter">
                   Break and enter</label>
-                <label for="disturbance"><input tpe="checkbox" value="disturbance">
+                <label for="disturbance"><input type="checkbox" value="disturbance">
                   Disturbance</label>
                  <label for="homicide"><input type="checkbox" value="homicide">
                   Homicide</label>

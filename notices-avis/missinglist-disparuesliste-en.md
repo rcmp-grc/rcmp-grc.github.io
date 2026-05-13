@@ -10,7 +10,7 @@ issued: 2026-05-09
 <div class="row" id="mp-page">
   <div class="col-md-3 col-sm-4" id="mp-sidebar">
     <aside aria-labelledby="mp-filters-heading" id="mp-filters">
-      <h2 class="h3" id="mp-filters-heading">Filter by</h2>
+      <h2 class="h4" id="mp-filters-heading">Filter by</h2>
       <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
           <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i>

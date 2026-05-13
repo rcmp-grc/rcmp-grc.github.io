@@ -200,7 +200,7 @@ issued: 2026-05-04
 		 </div>
 		</form>
 	   </section>
-						</div>
+						</div></div>
   <div class="col-md-9">
     <section id="body" class="mrgn-tp-lg">
       <h2 class="wb-inv">List of news</h2>

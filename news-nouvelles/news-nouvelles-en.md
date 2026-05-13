@@ -299,7 +299,7 @@ issued: 2026-05-04
   </div>
 </div>
 <script>
-const users = [
+const news = [
 { title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/news/2026/05/4352857"><abbr>RCMP</abbr> and <abbr>CBSA</abbr> dismantle crime group after nearly 250&nbsp;<abbr>kg</abbr> of cocaine is detected in shipping container in Halifax</a></strong><br>',  date: '2026-05-07 | Federal Policing Central Region | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Newmarket, Ontario</strong></div>', description: '<div class="mrgn-lft-md">Canadian federal authorities dismantled an organized crime operation that imported 248.7&nbsp;<abbr>kg</abbr> of cocaine from the Dominican Republic.</div>' },
 { title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/nl/news/2026/05/4352845">Bay St. George RCMP issue warning about counterfeit currency circulating in the area</a></strong><br>',  date: '2026-05-06 | Manitoba RCMP | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Newmarket, Ontario</strong></div>', description: '<div class="mrgn-lft-md">Bay St. George RCMP is advising the public about recent circulation of counterfeit currency after reports from local residents and businesses.</div>' },
 { title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/manitoba/news/2026/05/4352847">Suspects arrested after replica handgun seen inside Morris hospital</a></strong><br>',  date: '2026-05-07 | Federal Policing Central Region | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Morris, Manitoba</strong></div>', description: '<div class="mrgn-lft-md">On May 5, at approximately 4:30 p.m., RCMP responded to a report that an armed male was threatening a female inside Morris General Hospital. </div>' },	
@@ -319,7 +319,7 @@ form.addEventListener('submit', (e) => {
   e.preventDefault(); // Stop page reload
   const searchTerm = document.getElementById('titleFilter').value.toLowerCase();
   // Filter the data
-  const filteredData = users.filter(user => 
+  const filteredData = news.filter(news => 
     user.title.toLowerCase().includes(searchTerm)
   );
   renderTable(filteredData);
@@ -332,5 +332,5 @@ function renderTable(data) {
   });
 }
 // Initial load
-renderTable(users);
+renderTable(news);
 </script>

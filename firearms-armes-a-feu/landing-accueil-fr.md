@@ -1,13 +1,9 @@
 ---
 layout: super_landing
 title: Armes à feu
-description: French CFP super landing page
 date_modified: 2026-05-11
 lang: fr
 lang_url: index.html
-author:
-creator:
-subject:
 issued: 2026-05-05
 hero: ip-cover-image-1200x726.jpg
 intro: <p>Conformément à la <cite>Loi sur les armes à feu</cite>, le Programme canadien des armes à feu (<abbr>PCAF</abbr>) supervise les permis et l'enregistrement des armes à feu, maintient les normes nationales de formation de sécurité en matière d'armes à feu, vient en aide aux organismes d'application de la loi et a pour objectif de renforcer la sécurité publique. Les armes à feu au Canada demeurent réglementées par la Loi sur les armes à feu et la partie III du <cite>Code criminel</cite>.</p>

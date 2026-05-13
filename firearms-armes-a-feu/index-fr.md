@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Index
-date_modified: 2026-05-08
-lang: en
-lang_url: index.md
+title: Modèles sur les armes à feu
+date_modified: 2026-05-13
+lang: fr
+lang_url: index.html
 issued: 2026-05-08
 ---
 
 <div class="list-group">
-  <a href="landing-page-fr.html" class="list-group-item">Super landing page - template</a>
-  <a href="iws-swp-fr.html" class="list-group-item">Services Web pour les particuliers - template</a>
-  <a href="non-residents-fr.html" class="list-group-item">Non-résidents - templates</a>
+  <a href="landing-accueil-fr.html" class="list-group-item">Super page d'accueil</a>
+  <a href="individual-particuliers-fr.html" class="list-group-item">Page d'entrée de l'application</a>
+  <a href="secondary-secondaire-fr.html" class="list-group-item">Page secondaire</a>
 </div>

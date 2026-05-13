@@ -82,7 +82,9 @@ issued: 2026-05-09
       fileNumber:   'File number: ',
       updated:      'Updated: ',
       ofPages:      ' of ',
-      pageLabel:    'Page '
+      pageLabel:    'Page ',
+      showing:      'Showing:',
+      orSep:        'or'
     },
     fr: {
       genderLabels: { male: 'homme', female: 'Femme', other: 'autre', unknown: 'inconnu' },
@@ -93,7 +95,9 @@ issued: 2026-05-09
       fileNumber:   'Numéro de dossier\u00A0: ',
       updated:      'Mise à jour\u00A0: ',
       ofPages:      ' sur ',
-      pageLabel:    'Page '
+      pageLabel:    'Page ',
+      showing:      'Affichage\u00A0:',
+      orSep:        'ou'
     }
   };
 
@@ -131,7 +135,7 @@ issued: 2026-05-09
     ['Flats the Flounder',     "Flats l'Achigan",      '56320194', 'male',    '2026-03-26', 74  ],
     ['Nurse Bazooka',          'Infirmière Bazooka',     '67430294', 'female',  '2026-03-24', 66  ],
     ['Fred the Fish',          'Fred le Poisson',        '78541304', 'male',    '2026-03-22', 59  ],
-    ['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'unknown', '2026-03-20', 50  ]
+    ['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'unknown', '2026-03-20', 50  ],
   ];
 
   var PROFILES = RAW.map(function (r, i) {
@@ -197,19 +201,40 @@ issued: 2026-05-09
 
   function renderTags(filters) {
     activeTagsEl.innerHTML = '';
+
+    var allTags = [];
     Object.keys(filters).forEach(function (cat) {
       filters[cat].forEach(function (val) {
-        var label = cat === 'gender' ? (t.genderLabels[val] || val) : val.replace(/-/g, ' ');
-        var tag   = document.createElement('span');
-        tag.className = 'wp-filter-tag';
-        tag.innerHTML =
-          label + ' <button type="button" aria-label="' + t.removeFilter + label + '">✕</button>';
-        tag.querySelector('button').addEventListener('click', function () {
-          var cb = document.querySelector('input[data-filter="' + cat + '"][value="' + val + '"]');
-          if (cb) { cb.checked = false; refresh(); }
-        });
-        activeTagsEl.appendChild(tag);
+        allTags.push({ cat: cat, val: val });
       });
+    });
+
+    if (!allTags.length) return;
+
+    var showingLabel = document.createElement('span');
+    showingLabel.className = 'wp-filter-showing-label';
+    showingLabel.textContent = t.showing;
+    activeTagsEl.appendChild(showingLabel);
+
+    allTags.forEach(function (item, index) {
+      var label = item.cat === 'gender' ? (t.genderLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
+
+      if (index > 0) {
+        var sep = document.createElement('span');
+        sep.className = 'wp-filter-tag-sep';
+        sep.textContent = t.orSep;
+        activeTagsEl.appendChild(sep);
+      }
+
+      var tag = document.createElement('span');
+      tag.className = 'wp-filter-tag';
+      tag.innerHTML =
+        label + ' <button type="button" aria-label="' + t.removeFilter + label + '">\u2715</button>';
+      tag.querySelector('button').addEventListener('click', function () {
+        var cb = document.querySelector('input[data-filter="' + item.cat + '"][value="' + item.val + '"]');
+        if (cb) { cb.checked = false; refresh(); }
+      });
+      activeTagsEl.appendChild(tag);
     });
   }
 

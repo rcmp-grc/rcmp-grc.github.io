@@ -34,8 +34,7 @@ issued: 2026-05-04
   <button type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
             <div id="description"><p class="small">Apply any of the following filtres to narrow your search.</p></div>
               <fieldset>
-                <legend for="category-filter">Category</legend>
-				 <div class="checkbox"> 
+                <legend for="category-filter" class="small">Category</legend>
                 <label for="assault"><input type="checkbox" value="Assault">
                   Assault</label>
                 <label for="brake-and-enter"><input type="checkbox" value="break-and-enter">

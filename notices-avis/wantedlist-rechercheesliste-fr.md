@@ -74,7 +74,7 @@ issued: 2026-05-09
 
   var I18N = {
     en: {
-      genderLabels: { male: 'male', female: 'female', other: 'other', unknown: 'unknown' },
+      genderLabels: { male: 'Male', female: 'Female', other: 'Other', unknown: 'Unknown' },
       removeFilter: 'Remove filter: ',
       profileHref:  'wanted-recherchees-en.html',
       viewProfile:  'View profile: ',

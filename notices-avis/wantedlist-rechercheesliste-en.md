@@ -18,16 +18,16 @@ issued: 2026-05-09
         <fieldset>
           <legend class="wb-inv">Gender</legend>
           <div class="checkbox">
-            <label><input data-filter="gender" type="checkbox" value="male"><span class="cb-text">male</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="gender" type="checkbox" value="male"><span class="cb-text">Male</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="gender" type="checkbox" value="female"><span class="cb-text">female</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="gender" type="checkbox" value="female"><span class="cb-text">Female</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="gender" type="checkbox" value="other"><span class="cb-text">other</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="gender" type="checkbox" value="other"><span class="cb-text">Other</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="gender" type="checkbox" value="unknown"><span class="cb-text">unknown</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="gender" type="checkbox" value="unknown"><span class="cb-text">Unknown</span><span class="wp-filter-badge">0</span></label>
           </div>
         </fieldset>
       </details>
@@ -74,7 +74,7 @@ issued: 2026-05-09
 
   var I18N = {
     en: {
-      genderLabels: { male: 'male', female: 'female', other: 'other', unknown: 'unknown' },
+      genderLabels: { male: 'Male', female: 'Female', other: 'Other', unknown: 'Unknown' },
       removeFilter: 'Remove filter: ',
       profileHref:  'wanted-recherchees-en.html',
       viewProfile:  'View profile: ',

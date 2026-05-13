@@ -31,7 +31,7 @@ lead: Community news
     <div class="col-md-8 col-md-offset-2">
       <div id="cn-body">
         <div aria-label="Story highlights" class="cn-infobox" role="note">
-          <h2>Story highlights</h2>
+          <h2 class="h3">Story highlights</h2>
           <ul>
             <li>Constable SquarePants spotted Gary during a morning community walk on <time datetime="2026-05-06">May 6, 2026</time></li>
             <li>Gary was reunited with his owner within two hours</li>

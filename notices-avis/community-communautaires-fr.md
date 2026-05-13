@@ -31,7 +31,7 @@ lead: Nouvelles communautaires
     <div class="col-md-8 col-md-offset-2">
       <div id="cn-body">
         <div aria-label="Faits saillants" class="cn-infobox" role="note">
-          <h2>Faits saillants</h2>
+          <h2 class="h3">Faits saillants</h2>
           <ul>
             <li>Le gendarme SquarePants a aperçu Gary lors d'une marche communautaire le <time datetime="2026-05-06">6 mai 2026</time></li>
             <li>Gary a retrouvé sa propriétaire moins de deux heures plus tard</li>

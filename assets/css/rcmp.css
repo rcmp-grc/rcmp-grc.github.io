@@ -489,10 +489,8 @@ details.wp-filter-group[open] {
   margin: 0 0 6px;
 }
 .cn-pullquote cite {
-  font-size: 0.8em;
   font-style: normal;
   font-weight: 600;
-  letter-spacing: 0;
   color: var(--cn-grey-dk);
 }
 .cn-inline-figure {

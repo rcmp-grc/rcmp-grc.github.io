@@ -32,163 +32,162 @@ issued: 2026-05-04
         <form id="filterForm">
   <input type="text" id="titleFilter" placeholder="Search news">
   <button type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
-</form>
-		    <form id="filterForm">
             <div id="description"><p class="small">Apply any of the following filtres to narrow your search.</p></div>
-              <h3 class="h4 mrgn-tp-lg mrgn-bttm-sm">
-                <label for="category-filter">Category</label></h3>
-<select id="filter-input">
-                <option value=''>
-                  All topics
-                </option>
-                <option value='Assault'>
-                  Assault
-                </option>
-                <option value='Break and enter'>
-                  Break and enter
-                </option>
-                <option value='Disturbance'>
-                  Disturbance
-                </option>
-                <option value='Homicide'>
-                  Homicide
-                </option>
-                <option value='Illegal border crossing'>
+              <fieldset>
+                <legend for="category-filter">Category</legend>
+				 <div class="checkbox"> 
+                <label for="assault"><input type="checkbox" value="Assault">
+                  Assault</label>
+                <label for="brake-and-enter"><input type="checkbox" value="break-and-enter">
+                  Break and enter</label>
+                <label for="disturbance"><input tpe="checkbox" value="disturbance">
+                  Disturbance</label>
+                 <label for="homicide"><input type="checkbox" value="homicide">
+                  Homicide</label>
+                 <label for="illegal-border-crossing"><input type="checkbox" value="illegal-border-crossing">
                   Illegal border crossing
-                </option>
-                 <option value='Illicit drugs'>
+				 </label>
+                 <label for="illicit-drugs"><input type="checkbox" value="illicit-drugs">
                   Illicit drugs
-                </option>
-                <option value='Missing person'>
+				 </label>
+                <label for="missing-person"><input type="checkbox" value="missing-person">
                   Missing person
-                </option>
-                <option value='Organized crime'>
+				</label>
+                <label for="organized-crime"><input type="checkbox" value='organized-crime'>
                   Organized crime 
-                </option>
-                <option value='Property damage'>
+				</label>
+                <label for="property-damage"><input type="checkbox" value="property-damage">
                   Property damage  
-                </option>
-                <option value='Public interest'>
+				</label>
+                <label for="public-interest"><input type="checkbox" value="public-interest">
                   Public interest  
-                </option>
-                <option value='Theft'>
+				</label>
+                <label for="theft"><input type="checkbox" value="theft">
                   Theft  
-                </option>
-                <option value='Traffic services'>
+				</label>
+                <label for="traffic-services"><input type="checkbox" value="traffic-services">
                   Traffic services  
-                </option>
-                <option value='Trafficking'>
+				</label>
+                <label for="trafficking"><input type="checkbox" value="trafficking">
                   Trafficking  
-                </option>
-                <option value='Wanted'>
+				</label>
+                <label for="wanted"><input type="checkbox" value="wanted">
                   Wanted  
-                </option>
-                <option value='Weapons'>
+				</label>
+                <label for="weapons"><input type="checkbox" value="weapons">
                   Weapons  
-                </option>
-              </select>
-              <h3 class="h4 mrgn-tp-lg mrgn-bttm-sm"><label for="dt-province-or-territory">Province or territory</label></h3><select class="form-control" data-column="5" id="filter-input" name="dt-province-or-territory">
-                <option value=''>
+				</label>
+              </select></fieldset>
+				<fieldset>	 
+			 <legend>Province or Territory</legend>
+              <label for="dt-province-or-territory">Province or territory</label><select class="form-control" data-column="5" id="filter-input" name="dt-province-or-territory">
+                <option value="All provinces and territories">
                   All provinces and territories
                 </option>
-                <option value='Alberta'>
+                <option value="Alberta">
                   Alberta
                 </option>
-                <option value='British Columbia'>
+                <option value="British Columbia">
                   British Columbia
                 </option>
-                <option value='Manitoba'>
+                <option value="Manitoba">
                   Manitoba
                 </option>
-                <option value='New Brunswick'>
+                <option value="New Brunswick">
                   New Brunswick
                 </option>
-                <option value='Newfoundland and Labrador'>
+                <option value="Newfoundland and Labrador">
                   Newfoundland and Labrador
                 </option>
-                <option value='Northwest Territories'>
+                <option value="Northwest Territories">
                   Northwest Territories
                 </option>
-                <option value='Nova Scotia'>
+                <option value="Nova Scotia">
                   Nova Scotia
                 </option>
-                <option value='Nunavut'>
+                <option value="Nunavut">
                   Nunavut
                 </option>
-                <option value='Ontario'>
+                <option value="Ontario">
                   Ontario
                 </option>
-                <option value='Prince Edward Island'>
+                <option value="Prince Edward Island">
                   Prince Edward Island
                 </option>
-                <option value='Quebec'>
+                <option value="Quebec">
                   Quebec
                 </option>
-                <option value='Saskatchewan'>
+                <option value="Saskatchewan">
                   Saskatchewan
                 </option>
-                <option value='Yukon'>
+                <option value="Yukon">
                   Yukon
                 </option>
               </select>
-              <h3 class="h4 mrgn-tp-lg mrgn-bttm-sm"><label for="dt-division-or-federal-policing-region">Published by</label></h3><select class="form-control" data-column="2" id="filter-input" name="dt-division-or-federal-policing-region">
-                <option value=''>
+				</fieldset>
+				  <fieldset>
+				<legend>Published by</legend>
+                <label for="dt-division-or-federal-policing-region"></label><select class="form-control" data-column="2" id="filter-input" name="dt-division-or-federal-policing-region">
+                <option value="All policing regions">
                   All divisions or Federal Policing regions
                 </option>
-                <option value='Alberta RCMP'>
+                <option value="Alberta RCMP">
                   Alberta RCMP
                 </option>
-                <option value='British Columbia RCMP'>
+                <option value="British Columbia RCMP">
                   British Columbia RCMP
                 </option>
-                <option value='Federal Policing Central Region'>
+                <option value="Federal Policing Central Region">
                   Federal Policing Central Region
                 </option>
-                <option value='Federal Policing Eastern Region'>
+                <option value="Federal Policing Eastern Region">
                   Federal Policing Eastern Region
                 </option>
-                <option value='Federal Policing Northwest Region'>
+                <option value="Federal Policing Northwest Region">
                   Federal Policing Northwest Region
                 </option>
-                <option value='Federal Policing Pacific Region'>
+                <option value="Federal Policing Pacific Region">
                   Federal Policing Pacific Region
                 </option>
-                <option value='Manitoba RCMP'>
+                <option value="Manitoba RCMP">
                   Manitoba RCMP
                 </option>
-                <option value='New Brunswick RCMP'>
+                <option value="New Brunswick RCMP">
                   New Brunswick RCMP
                 </option>
-                <option value='Newfoundland and Labrador RCMP'>
+                <option value="Newfoundland and Labrador RCMP">
                   Newfoundland and Labrador RCMP
                 </option>
-                <option value='Northwest Territories RCMP'>
+                <option value="Northwest Territories RCMP">
                   Northwest Territories RCMP
                 </option>
-                <option value='Nova Scotia RCMP'>
+                <option value="Nova Scotia RCMP">
                   Nova Scotia RCMP
                 </option>
-                <option value='Nunavut RCMP'>
+                <option value="Nunavut RCMP">
                   Nunavut RCMP
                 </option>
-                <option value='Prince Edward Island RCMP'>
+                <option value="Prince Edward Island RCMP">
                   Prince Edward Island RCMP
                 </option>
-                <option value='RCMP Depot Division'>
+                <option value="RCMP Depot Division">
                   RCMP Depot Division
                 </option>
-                <option value='RCMP National Headquarters'>
+                <option value="RCMP National Headquarters">
                   RCMP National Headquarters
                 </option>
-                <option value='Saskatchewan RCMP'>
+                <option value="Saskatchewan RCMP">
                   Saskatchewan RCMP
                 </option>
-                <option value='Yukon RCMP'>
+                <option value="Yukon RCMP">
                   Yukon RCMP
                 </option>
               </select>
-                <h3 class="h4 mrgn-tp-lg mrgn-bttm-sm">Published</h3>
+				  </fieldset>
+				  <fieldset>
+					  <legend>Published</legend>
              <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="filter-input" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
+				</fieldset>
               <div class="row mrgn-tp-md">
                 <div class="col-xs-6">
                   <button aria-controls="dataset-filter" class="btn btn-primary" type="submit">Apply filters</button>
@@ -198,6 +197,7 @@ issued: 2026-05-04
 				</div>
 			  </div>
 		 </div>
+			  </fieldset>
 		</form>
 	   </section>
 						</div>

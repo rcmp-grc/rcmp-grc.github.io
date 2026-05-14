@@ -333,6 +333,8 @@ function renderTable(data) {
 }
 // Initial load
 renderTable(news);
+</script>
+<script>
 function searchTable() {
   const input = document.getElementById("titleFilter");
   const filter = input.value.toLowerCase(); // Case-insensitive

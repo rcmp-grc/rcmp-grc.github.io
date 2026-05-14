@@ -32,8 +32,8 @@ lead: News release
 </div>
 <div class="clearfix"></div>
 <div class="details">
-<p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May&nbsp;7, 2026 - Richmond, British Columbia</p>
-<p class="mrgn-tp-0"><i class="fa-regular fa-circle-user"></i> <a href="https://rcmp.ca/en/bc/richmond">Richmond <abbr>RCMP</abbr></a></p></div>
+<p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May&nbsp;7, 2026 - Richmond, British Columbia<br>
+<i class="fa-regular fa-circle-user"></i> <a href="https://rcmp.ca/en/bc/richmond">Richmond <abbr>RCMP</abbr></a></p></div>
 <div class="col-md-8 mrgn-lft-0">
 <div class="panel panel-default">
   <div class="panel-body">

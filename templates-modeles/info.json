@@ -26,7 +26,7 @@
     "desc_fr": "Localisateur pour les détachements",
     "version": "v.0",
     "status_en": "In development",
-    "status_fr": "En cours 🔃",
+    "status_fr": "En cours",
     "owner": "Victor Rivilla"
   },
   {
@@ -176,7 +176,7 @@
     "desc_fr": "Liste des nouvelles de toutes les provinces et de tous les territoires",
     "version": "v.0",
     "status_en": "In development",
-    "status_fr": "En cours 🔃",
+    "status_fr": "En cours",
     "owner": "Tanya Buhler"
   },
   {
@@ -184,7 +184,7 @@
     "fr": "Publication",
     "desc_en": "",
     "desc_fr": "",
-    "version": "v.0",
+    "version": "v0.0.0",
     "status_en": "",
     "status_fr": "",
     "owner": ""

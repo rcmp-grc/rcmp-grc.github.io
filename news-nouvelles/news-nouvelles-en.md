@@ -331,19 +331,26 @@ function renderTable(data) {
     tableBody.insertAdjacentHTML('beforeend', row); // Build table
   });
 }
- function filterTable(data) {
-  const input = document.getElementById("form-input");
-  const filter = input.value.toUpperCase();
-  // Loop through all table rows, excluding the header (start at i=1)
-  for (let i = 1; i < tr.length; i++) {
-    const td = tr[i].getElementsByTagName("td")[0]; // Filters based on first column
-    if (td) {
-      const txtValue = td.textContent || td.innerText;
-      // Show row if text match is found, otherwise hide it
-      tr[i].style.display = txtValue.toUpperCase().indexOf(filter) > -1 ? "" : "none";
-    }
-  }
-}	
 // Initial load
 renderTable(news);
+function searchTable() {
+  const input = document.getElementById("titleFilter");
+  const filter = input.value.toLowerCase(); // Case-insensitive
+  const table = document.getElementById("dataTable");
+  const tr = table.getElementsByTagName("tr");
+  // Loop through all table rows (skipping the header)
+  for (let i = 1; i < tr.length; i++) {
+    let match = false;
+    const td = tr[i].getElementsByTagName("td");
+    // Check all columns in the row
+    for (let j = 0; j < td.length; j++) {
+      if (td[j] && td[j].innerText.toLowerCase().includes(filter)) {
+        match = true;
+        break;
+      }
+    }
+    // Show row if match found, else hide it
+    tr[i].style.display = match ? "" : "none";
+  }
+}
 </script>

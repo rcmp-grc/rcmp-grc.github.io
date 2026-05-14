@@ -334,5 +334,5 @@ function searchTable() {
   }
 }
 	// Initial load
-renderTable(dataTable);
+renderTable(news);
 </script>

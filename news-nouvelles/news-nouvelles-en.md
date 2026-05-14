@@ -320,7 +320,7 @@ form.addEventListener('submit', (e) => {
   const searchTerm = document.getElementById('titleFilter').value.toLowerCase();
   // Filter the data
   const filteredData = news.filter(news => 
-    news.title.toLowerCase().includes(searchTerm),
+    news.title.toLowerCase().includes(searchTerm), news.date.toLowerCase().includes(searchTerm), news.location.toLowerCase().includes(searchTerm), news.description.toLowerCase().includes(searchTerm),
   );
   renderTable(filteredData);
 });

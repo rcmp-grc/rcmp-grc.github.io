@@ -6,11 +6,8 @@
 
 **Check against delivery**
 
-**Location:** Iqaluit, Nunavut
-
+**Location:** Iqaluit, Nunavut\
 **Date:** May 14, 2026
-
----
 
 Good afternoon everyone,
 
@@ -51,8 +48,6 @@ The RCMP believes strong communities are built through:
 
 These values guide our work across Canada every day.
 
----
-
 ## Northern resilience
 
 Northern communities continue to show incredible resilience, leadership, and generosity.
@@ -66,8 +61,6 @@ The RCMP remains committed to supporting communities through:
 * culturally informed engagement;
 * youth programming; and
 * public safety partnerships.
-
----
 
 ## Closing remarks
 
@@ -87,19 +80,15 @@ Stay safe, travel carefully, and enjoy the rest of the event.
 
 Thank you.
 
----
-
 ## Media contact
 
 ### Media Relations
 
-National Communications and Public Affairs
+National Communications and Public Affairs\
 Royal Canadian Mounted Police
 
-Telephone: 613-555-0100
+Telephone: 613-555-0100\
 Email: [media@rcmp-grc.gc.ca](mailto:media@rcmp-grc.gc.ca)
-
----
 
 ## Related information
 

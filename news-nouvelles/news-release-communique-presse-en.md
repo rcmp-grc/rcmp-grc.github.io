@@ -9,11 +9,12 @@ lead: News release
 ---
 
 <style>
-	.lead
+	p .lead
 	 { border-bottom: 2px solid var(--rcmp-gold); 
+	   margin-bottom: 10px
 	 }
 	.explore
-	{ border-bottom: 2px solid var(--rcmp-gold);
+	{ border-top: 2px solid var(--rcmp-gold);
 	 }
 </style>
 <div class="col-md-8">

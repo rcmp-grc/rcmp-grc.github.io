@@ -49,7 +49,7 @@ issued: 2026-05-04
 				<tr id="20190">
 					<td class="hidden">2</td>
 					<td class="nws-tbl-desc mrgn-lft-md">
-						<h2 class="mrgn-tp-0">Beaver Creek Detachment</h2>
+						<h2 class="mrgn-tp-0">Test Detachment</h2>
 					</td>
 					<td class="nws-tbl-desc mrgn-lft-lg">
 						<dl>

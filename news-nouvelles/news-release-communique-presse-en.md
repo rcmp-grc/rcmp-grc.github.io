@@ -9,10 +9,14 @@ lead: News release
 ---
 
 <style>
-	hr
+	.lead
 	 { border-bottom: 2px solid var(--rcmp-gold);
 	 }
+	.explore
+	{ border-bottom: 2px solid var(--rcmp-gold);
+	 }
 </style>
+<div class="col-md-8">
 <p class="lead">Richmond RCMP Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety.</p>
 <hr>
 <div><i class="fa-solid fa-calendar-days"></i> May&nbsp;7, 2026 - Richmond, British Columbia</div>
@@ -130,9 +134,11 @@ lead: News release
 </div>
 </section>
 <hr>
+<div class="explore">		
 <section id="s9">
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
-  <li><span class="label label-primary"><u>Traffic Services</u></span></li>
+  <li><span class="label label-primary"><a href="#">Traffic Services</a></span></li>
 </ol>
 </section>
+</div>

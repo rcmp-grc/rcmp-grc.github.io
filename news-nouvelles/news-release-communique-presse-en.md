@@ -20,16 +20,17 @@ lead: News release
 	{ border-top: 2px solid var(--rcmp-gold);
 	 }
 </style>
-<div class="col-sm-12">
+
 <p class="summary">Richmond RCMP Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety.</p>
 <div><i class="fa-solid fa-calendar-days"></i> May&nbsp;7, 2026 - Richmond, British Columbia</div>
 <div class="mrgn-tp-0 mrgn-bttm-md"><i class="fa-regular fa-circle-user"></i> <a href="https://rcmp.ca/en/bc/richmond">Richmond <abbr>RCMP</abbr></a></div>
-<div class="panel panel-default">
+<div class="panel panel-default col-md-8">
   <div class="panel-body">
    <img class="img-responsive full-width" src="news-img.jpg" alt="" />
   </div>
   <footer class="panel-footer">Caption for the image</footer>
 </div>	
+<div class="cklearfix"></div>
 <p>Richmond <abbr>RCMP</abbr> Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety, as part of the province-wide <abbr>BC</abbr> Association of Chiefs of Police enforcement calendar in partnership with <abbr>ICBC</abbr>.</p>
 <p>As warmer weather brings more motorcycles onto Richmond roads, officers will be focused on the behaviours most often linked to serious crashes including failing to yield, ignoring traffic control devices, following too closely, and improper passing. With six out of ten motorcycle crashes in <abbr>BC</abbr> occurring at intersections, drivers will see increased patrols at key Richmond intersections throughout the month.</p>
 <p>While motorcycles make up roughly three percent of insured vehicles in <abbr>BC</abbr>, they are involved in approximately ten percent of road fatalities, <a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/motorcycle-safety">according to the Province of British Columbia</a>. The fatality rate for drivers under 25 is on average 15 times higher than drivers over 25&nbsp;years of age.</p>
@@ -146,6 +147,5 @@ lead: News release
   <li><span class="label label-primary"><a href="#">Traffic Services</a></span></li>
 </ol>
 </section>
-</div>
 </div>
 

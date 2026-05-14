@@ -11,7 +11,7 @@ lead: News release
 <style>
 	.summary
 	 { border-bottom: 2px solid var(--rcmp-gold);
-	   margin: 0 0 15px 0;
+	   margin: 0 0 0 15px;
 	 }
 	.explore
 	{ border-top: 2px solid var(--rcmp-gold);

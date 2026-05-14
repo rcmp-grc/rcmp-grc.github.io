@@ -142,3 +142,6 @@ lead: News release
 </ol>
 </section>
 </div>
+<div class="col-md-4">
+</div>
+<div class="clear"></div>

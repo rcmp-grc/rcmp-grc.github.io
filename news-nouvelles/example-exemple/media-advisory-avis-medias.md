@@ -63,8 +63,7 @@ Please arrive at least 20 minutes before the start of the event.
 
 ### Media Relations
 
-National Communications and Public Affairs
-
+National Communications and Public Affairs\
 Royal Canadian Mounted Police
 
 Telephone: 613-555-0100\

@@ -2,19 +2,14 @@
 
 ## Bob the Polar Bear joins the RCMP family
 
-**From:** National Communications and Public Affairs
-
+**From:** National Communications and Public Affairs\
 **Date:** May 14, 2026
-
----
 
 ## Overview
 
 Bob the Polar Bear is the Royal Canadian Mounted Police’s newest unofficial northern mascot. Friendly, curious, and known for wandering into community events uninvited but somehow always welcomed, Bob has quickly become a recognizable face at RCMP outreach activities across northern and Arctic communities.
 
 This backgrounder provides general information about Bob, his role in public engagement activities, and how the RCMP uses light-hearted community initiatives to help build relationships with Canadians.
-
----
 
 ## Quick facts
 
@@ -30,8 +25,6 @@ This backgrounder provides general information about Bob, his role in public eng
   * environmental awareness; and
   * positive police-community relationships.
 
----
-
 ## About Bob
 
 Bob is described as calm, polite, and unusually interested in traffic safety presentations. According to unofficial RCMP folklore, he once attended an entire community town hall simply because someone mentioned free hot chocolate.
@@ -45,8 +38,6 @@ Bob is especially popular with children during:
 * holiday parades;
 * northern recruitment events; and
 * winter festivals.
-
----
 
 ## Community engagement
 
@@ -72,8 +63,6 @@ Although Bob is a fictional mascot, polar bears are real wild animals and can be
 More information on wildlife safety is available through:
 [Polar bear safety information](#)
 
----
-
 ## Quotes
 
 > “Community policing is about relationships. Sometimes those relationships include a six-foot polar bear mascot wearing an RCMP scarf.”
@@ -84,22 +73,18 @@ More information on wildlife safety is available through:
 >
 > — National Communications and Public Affairs
 
----
-
 ## Related information
 
 * [Royal Canadian Mounted Police](#)
 * [Emergency preparedness](#)
 * [Arctic and northern affairs](#)
 
----
-
 ## Contacts
 
 ### Media Relations
 
-National Communications and Public Affairs
+National Communications and Public Affairs\
 Royal Canadian Mounted Police
 
-Telephone: 613-555-0100
+Telephone: 613-555-0100\
 Email: [media@rcmp-grc.gc.ca](mailto:media@rcmp-grc.gc.ca)

@@ -313,28 +313,6 @@ const news = [
 { title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/alberta/news/2026/05/4353033">Alberta RCMP enforces safe driving during Canada Road Safety Week and Victoria Day long weekend</a></strong><br>',  date: '2026-05-12 | Alberta RCMP | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Edmonton, Alberta</strong></div>', description: '<div class="mrgn-lft-md">May 12-18, 2026, marks Canada Road Safety Week, a seven-day national campaign, made in partnership with the Canadian Association of Chiefs of Police, aimed at making Canada’s roads the safest in the world. The Alberta RCMP will be promoting safe driving behaviours during the week as well as conducting targeted enforcement to remove impaired drivers from Alberta roadways during Victoria Day long weekend and National Impaired Driving Prevention Enforcement Day on May 16, 2026.</div>' },	
 { title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/bc/chilliwack/news/2026/05/4352853">Chilliwack RCMP seek public assistance to identify suspect in bus driver assault</a></strong><br>',  date: '2026-05-07 | Comox Valley <abbr>RCMP</abbr> | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Chilliwack, British Columbia</strong></div>', description: '<div class="mrgn-lft-md">The Chilliwack RCMP is requesting the public’s assistance in identifying a man alleged to have been involved in the assault of a BC Transit bus driver in March of 2026.</div>' }
 		];
-const form = document.getElementById('filterForm');
-const tableBody = document.getElementById('tableBody');
-form.addEventListener('submit', (e) => {
-  e.preventDefault(); // Stop page reload
-  const searchTerm = document.getElementById('titleFilter').value.toLowerCase();
-  // Filter the data
-  const filteredData = news.filter(news => 
-    news.title.toLowerCase().includes(searchTerm),
-  );
-  renderTable(filteredData);
-});
-function renderTable(data) {
-  tableBody.innerHTML = ''; // Clear current rows
-  data.forEach(item => {
-    const row = `<tr><td>${item.title}</td><td>${item.date}</td><td>${item.location}</td><td>${item.description}</td></tr>`;
-    tableBody.insertAdjacentHTML('beforeend', row); // Build table
-  });
-}
-// Initial load
-renderTable(news);
-</script>
-<script>
 function searchTable() {
   const input = document.getElementById("titleFilter");
   const filter = input.value.toLowerCase(); // Case-insensitive
@@ -355,4 +333,6 @@ function searchTable() {
     tr[i].style.display = match ? "" : "none";
   }
 }
+	// Initial load
+renderTable(dataTable);
 </script>

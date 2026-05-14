@@ -9,7 +9,7 @@ lead: News release
 ---
 
 <style>
-	p .lead
+	p.lead
 	 { border-bottom: 2px solid var(--rcmp-gold); 
 	   margin-bottom: 10px
 	 }
@@ -141,7 +141,5 @@ lead: News release
   <li><span class="label label-primary"><a href="#">Traffic Services</a></span></li>
 </ol>
 </section>
-</div>
-<div class="col-md-4">
 </div>
 <div class="clearfix"></div>

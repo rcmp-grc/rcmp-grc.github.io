@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Richmond RCMP targets high risk driving as motorcycle safety month returns
-date_modified: 2026-05-07
+date_modified: 2026-05-14
 lang: en
 lang_url: news-release-communique-presse-fr.html
 issued: 2026-05-07
@@ -17,6 +17,9 @@ lead: News release
 <hr>
 <div><i class="fa-solid fa-calendar-days"></i> May&nbsp;7, 2026 - Richmond, British Columbia</div>
 <div class="mrgn-tp-0 mrgn-bttm-md"><i class="fa-regular fa-circle-user"></i> <a href="https://rcmp.ca/en/bc/richmond">Richmond <abbr>RCMP</abbr></a></div>
+<figure class="mrgn-bttm-lg">	
+<img class="img-responsive full-width" src="800x600.jpg" alt="" />
+</figure>
 <p>Richmond <abbr>RCMP</abbr> Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety, as part of the province-wide <abbr>BC</abbr> Association of Chiefs of Police enforcement calendar in partnership with <abbr>ICBC</abbr>.</p>
 <p>As warmer weather brings more motorcycles onto Richmond roads, officers will be focused on the behaviours most often linked to serious crashes including failing to yield, ignoring traffic control devices, following too closely, and improper passing. With six out of ten motorcycle crashes in <abbr>BC</abbr> occurring at intersections, drivers will see increased patrols at key Richmond intersections throughout the month.</p>
 <p>While motorcycles make up roughly three percent of insured vehicles in <abbr>BC</abbr>, they are involved in approximately ten percent of road fatalities, <a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/motorcycle-safety">according to the Province of British Columbia</a>. The fatality rate for drivers under 25 is on average 15 times higher than drivers over 25&nbsp;years of age.</p>
@@ -28,7 +31,7 @@ lead: News release
 <li>Scan intersections carefully and take an extra moment to look for motorcycles when turning left</li>
 <li>Allow at least three&nbsp;seconds of following distance behind a motorcycle</li>
 <li>Maintain at least one metre of space when passing in zones up to 50&nbsp;<abbr>km</abbr>/<abbr>h</abbr>, and at least 1.5&nbsp;metres when passing in higher-speed zones</li>
-<li data-list-item-id="ed76d29f416b45e5d95fa86b6257b8e69">Stay alert and avoid distractions</li>
+<li>Stay alert and avoid distractions</li>
 </ul>
 </section>
 <section id="s2">

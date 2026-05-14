@@ -1,0 +1,26 @@
+name: Update README from info.json
+
+on:
+  push:
+    paths:
+      - "templates-modeles/info.json"
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate README
+        run: node templates-modeles/action.js
+
+      - name: Commit updated README
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: regenerate README from info.json"
+          file_pattern: "templates-modeles/README.md"

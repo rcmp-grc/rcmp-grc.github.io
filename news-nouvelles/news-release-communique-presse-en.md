@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Richmond RCMP targets high risk driving as motorcycle safety month returns
+title: Richmond RCMP targets high risk driving as motorcycle safety month returns <span class="label label-warning small">Updated</span>
 date_modified: 2026-05-14
 lang: en
 lang_url: news-release-communique-presse-fr.html

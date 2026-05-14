@@ -23,7 +23,7 @@ lead: News release
 <div><i class="fa-solid fa-calendar-days"></i> May&nbsp;7, 2026 - Richmond, British Columbia</div>
 <div class="mrgn-tp-0 mrgn-bttm-md"><i class="fa-regular fa-circle-user"></i> <a href="https://rcmp.ca/en/bc/richmond">Richmond <abbr>RCMP</abbr></a></div>
 <figure class="mrgn-bttm-lg">	
-<img class="img-responsive full-width" src="news-image.jpg" alt="" />
+<img class="img-responsive full-width" src="news-img.jpg" alt="" />
 </figure>
 <p>Richmond <abbr>RCMP</abbr> Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety, as part of the province-wide <abbr>BC</abbr> Association of Chiefs of Police enforcement calendar in partnership with <abbr>ICBC</abbr>.</p>
 <p>As warmer weather brings more motorcycles onto Richmond roads, officers will be focused on the behaviours most often linked to serious crashes including failing to yield, ignoring traffic control devices, following too closely, and improper passing. With six out of ten motorcycle crashes in <abbr>BC</abbr> occurring at intersections, drivers will see increased patrols at key Richmond intersections throughout the month.</p>

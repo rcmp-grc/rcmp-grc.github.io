@@ -38,73 +38,73 @@ issued: 2026-05-04
 			<fieldset>
                 <legend class="small"><strong>Category</strong></legend>
 				  <div class="checkbox">
-                <label for="assault"><input id="titleFilter" type="checkbox" value="Assault">
+                <label for="assault"><input data-filter="category" id="titleFilter" type="checkbox" value="Assault">
                   Assault</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="brake-and-enter"><input id="titleFilter" type="checkbox" value="break-and-enter">
+                <label for="brake-and-enter"><input data-filter="category" id="titleFilter" type="checkbox" value="break-and-enter">
                   Break and enter</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="disturbance"><input id="titleFilter" type="checkbox" value="disturbance">
+                <label for="disturbance"><input data-filter="category" id="titleFilter" type="checkbox" value="disturbance">
                   Disturbance</label>
 				  </div>
 				  <div class="checkbox">
-                 <label for="homicide"><input id="titleFilter" type="checkbox" value="homicide">
+                 <label for="homicide"><input data-filter="category" id="titleFilter" type="checkbox" value="homicide">
                   Homicide</label>
 				  </div>
 				  <div class="checkbox">
-                 <label for="illegal-border-crossing"><input id="titleFilter" type="checkbox" value="illegal-border-crossing">
+                 <label for="illegal-border-crossing"><input data-filter="category" id="titleFilter" type="checkbox" value="illegal-border-crossing">
                   Illegal border crossing
 				 </label>
 				  </div>
 				  <div class="checkbox">
-                 <label for="illicit-drugs"><input id="titleFilter" type="checkbox" value="illicit-drugs">
+                 <label for="illicit-drugs"><input data-filter="category" id="titleFilter" type="checkbox" value="illicit-drugs">
                   Illicit drugs
 				 </label>
 				  </div>
 				  <div class="checkbox">
-                <label for="missing-person"><input id="titleFilter" type="checkbox" value="missing-person">
+                <label for="missing-person"><input data-filter="category" id="titleFilter" type="checkbox" value="missing-person">
                   Missing person
 				</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="organized-crime"><input id="titleFilter" type="checkbox" value='organized-crime'>
+                <label for="organized-crime"><input data-filter="category" id="titleFilter" type="checkbox" value='organized-crime'>
                   Organized crime 
 				</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="property-damage"><input id="titleFilter" type="checkbox" value="property-damage">
+                <label for="property-damage"><input data-filter="category" id="titleFilter" type="checkbox" value="property-damage">
                   Property damage  
 				</label>
 				  </div>
 				 <div class="checkbox"> 
-                <label for="public-interest"><input id="titleFilter" type="checkbox" value="public-interest">
+                <label for="public-interest"><input data-filter="category" id="titleFilter" type="checkbox" value="public-interest">
                   Public interest  
 				</label>
 				 </div>
 				  <div class="checkbox">
-                <label for="theft"><input id="titleFilter" type="checkbox" value="theft">
+                <label for="theft"><input data-filter="category" id="titleFilter" type="checkbox" value="theft">
                   Theft  
 				</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="traffic-services"><input id="titleFilter" type="checkbox" value="traffic-services">
+                <label for="traffic-services"><input data-filter="category" id="titleFilter" type="checkbox" value="traffic-services">
                   Traffic services  
 				</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="trafficking"><input id="titleFilter" type="checkbox" value="trafficking">
+                <label for="trafficking"><input data-filter="category" id="titleFilter" type="checkbox" value="trafficking">
                   Trafficking  
 				</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="wanted"><input id="titleFilter" type="checkbox" value="wanted">
+                <label for="wanted"><input data-filter="category" id="titleFilter" type="checkbox" value="wanted">
                   Wanted  
 				</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="weapons"><input id="titleFilter" type="checkbox" value="weapons">
+                <label for="weapons"><input data-filter="category" id="titleFilter" type="checkbox" value="weapons">
                   Weapons  
 				</label>
 				  </div>
@@ -333,4 +333,18 @@ function renderTable(data) {
 }
 	// Initial load
 renderTable(news);
-</script>
+	var checkboxes   = document.querySelectorAll('#mp-filters input[type="checkbox"]');
+	 function getActiveFilters() {
+    var active = { category: [] };
+    checkboxes.forEach(function (cb) {
+      if (cb.checked) active[cb.dataset.filter].push(cb.value);
+    });
+    return active;
+  }
+checkboxes.forEach(function (cb) { cb.addEventListener('change', refresh); });
+sortSel.addEventListener('change', function () {
+    activeData  = sortData(activeData, sortSel.value);
+    currentPage = 1;
+    draw();
+  });
+	</script>

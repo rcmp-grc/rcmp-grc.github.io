@@ -17,7 +17,7 @@ lead: News release
 	{ border-top: 2px solid var(--rcmp-gold);
 	 }
 </style>
-
+<div class="col-md-10 col-md-offset-1">
 <p class="lead">Richmond RCMP Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety.</p>
 
 <div><i class="fa-solid fa-calendar-days"></i> May&nbsp;7, 2026 - Richmond, British Columbia</div>
@@ -141,4 +141,5 @@ lead: News release
   <li><span class="label label-primary"><a href="#">Traffic Services</a></span></li>
 </ol>
 </section>
+</div>
 

@@ -5,8 +5,8 @@
     "desc_en": "A general-purpose page for most content on the site",
     "desc_fr": "Une page polyvalente pour la plupart des contenus du site",
     "version": "v0.0.0",
-    "status_en": "🔵 Planning",
-    "status_fr": "🔵 Planification",
+    "status_en": "🟡 In development",
+    "status_fr": "🟡 En cours",
     "owner": "Moira"
   },
   {
@@ -15,9 +15,9 @@
     "desc_en": "A promotional page built to support a specific campaign or initiative",
     "desc_fr": "Une page promotionnelle conçue pour appuyer une campagne ou une initiative particulière",
     "version": "v0.0.0",
-    "status_en": "🔵 Planning",
-    "status_fr": "🔵 Planification",
-    "owner": ""
+    "status_en": "🟡 In development",
+    "status_fr": "🟡 En cours",
+    "owner": "Maryam"
   },
   {
     "en": "Detachment list",

@@ -175,9 +175,9 @@
     "desc_en": "A high-level landing page for major campaigns or sections, with featured content areas and navigation",
     "desc_fr": "Une page d'accueil de haut niveau pour les grandes campagnes ou sections, avec des zones de contenu mises en vedette et une navigation",
     "version": "v0.0.0",
-    "status_en": "🔵 Planning",
-    "status_fr": "🔵 Planification",
-    "owner": ""
+    "status_en": "🟡 In development",
+    "status_fr": "🟡 En cours",
+    "owner": "Nicole"
   },
   {
     "en": "News landing",
@@ -245,9 +245,9 @@
     "desc_en": "A page shown when a visitor tries to reach a link that no longer exists or was entered incorrectly",
     "desc_fr": "Une page affichée lorsqu'un visiteur tente d'accéder à un lien qui n'existe plus ou qui a été saisi incorrectement",
     "version": "v0.0.0",
-    "status_en": "🔵 Planning",
-    "status_fr": "🔵 Planification",
-    "owner": ""
+    "status_en": "🟡 In development",
+    "status_fr": "🟡 En cours",
+    "owner": "Martin"
   },
   {
     "en": "Publication",

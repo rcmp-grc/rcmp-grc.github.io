@@ -49,7 +49,7 @@ issued: 2026-05-09
     <div aria-label="Profils des personnes recherchées" id="wp-grid" role="list"></div>
     <p id="wp-no-results">Aucun profil ne correspond aux filtres sélectionnés.</p>
     <nav aria-label="Pagination" class="rcmp-item-pagination" id="rcmp-content-page">
-      <div class="rcmp-item-pagination__prev" id="wp-prev-wrap" style="display:none">
+      <div class="rcmp-item-pagination__prev" id="wp-prev-wrap">
         <button aria-label="Page précédente" class="rcmp-item-pagination__link" id="wp-prev" type="button">
           <i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-left"></i>
           <span class="rcmp-item-pagination__link-title">Précédente<span class="rcmp-visually-hidden"> page</span></span>
@@ -268,8 +268,8 @@ issued: 2026-05-09
 
     prevBtn.disabled                    = page <= 1;
     nextBtn.disabled                    = page >= pages;
-    prevBtn.parentElement.style.display = page <= 1    ? 'none' : '';
-    nextBtn.parentElement.style.display = page >= pages ? 'none' : '';
+    prevBtn.parentElement.style.setProperty('display', page <= 1    ? 'none' : '', 'important');
+    nextBtn.parentElement.style.setProperty('display', page >= pages ? 'none' : '', 'important');
 
     if (!pageList) return;
     pageList.innerHTML = '';

@@ -3,7 +3,7 @@ layout: default
 title: Page de base
 description: Une page polyvalente pour la plupart des contenus du site
 lang: fr
-lang_url: index.md
+lang_url: index.html
 # date_modified: 2026-05-04
 # author: RCMP Web Team
 # custom_css: /assets/css/special-page.css

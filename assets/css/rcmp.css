@@ -776,7 +776,8 @@ ol.rst-cntr {
 .rcmp-item-pagination__next[style*="display:none"],
 .rcmp-item-pagination__prev[style*="display: none"],
 .rcmp-item-pagination__next[style*="display: none"] {
-  display: none !important;
+  visibility: hidden !important;
+  display: flex !important;
 }
 .rcmp-item-pagination__link {
   display: inline-flex !important;

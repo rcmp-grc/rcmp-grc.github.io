@@ -576,8 +576,8 @@ issued: 2026-05-09
 
     prevBtn.disabled                    = page <= 1;
     nextBtn.disabled                    = page >= pages;
-    prevBtn.parentElement.style.setProperty('display', page <= 1    ? 'none' : '', 'important');
-    nextBtn.parentElement.style.setProperty('display', page >= pages ? 'none' : '', 'important');
+    prevBtn.parentElement.style.visibility = page <= 1     ? 'hidden' : '';
+    nextBtn.parentElement.style.visibility = page >= pages ? 'hidden' : '';
 
     if (!pageList) return;
     pageList.innerHTML = '';

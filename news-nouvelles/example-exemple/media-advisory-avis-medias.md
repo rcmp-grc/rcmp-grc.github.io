@@ -1,4 +1,4 @@
-# Media Advisory
+# Media advisory
 
 ## RCMP and Bob the Polar Bear to host northern community winter safety event
 
@@ -33,12 +33,12 @@ Iqaluit, Nunavut
 
 Activities are expected to include:
 
-* winter safety presentations;
-* emergency preparedness demonstrations;
-* RCMP vehicle displays;
-* youth activities and games;
-* community partner information booths; and
-* a meet-and-greet with Bob the Polar Bear.
+- winter safety presentations;
+- emergency preparedness demonstrations;
+- RCMP vehicle displays;
+- youth activities and games;
+- community partner information booths; and
+- a meet-and-greet with Bob the Polar Bear.
 
 Media attending the event may also observe Bob participating in what organizers are calling a “friendly” snowshoe race with local RCMP officers. Internal confidence in officer performance remains low.
 
@@ -46,10 +46,10 @@ Media attending the event may also observe Bob participating in what organizers 
 
 Media representatives will have opportunities to:
 
-* interview RCMP representatives;
-* speak with community partners;
-* capture photos and video of activities; and
-* attend scheduled remarks from event organizers.
+- interview RCMP representatives;
+- speak with community partners;
+- capture photos and video of activities; and
+- attend scheduled remarks from event organizers.
 
 Interviews with Bob the Polar Bear will be limited to non-political topics and snack-related questions.
 
@@ -61,7 +61,7 @@ Please arrive at least 20 minutes before the start of the event.
 
 ## Media contact
 
-### Media Relations
+### Media relations
 
 National Communications and Public Affairs\
 Royal Canadian Mounted Police
@@ -71,6 +71,6 @@ Email: [media@rcmp-grc.gc.ca](mailto:media@rcmp-grc.gc.ca)
 
 ## Related information
 
-* [Royal Canadian Mounted Police](#)
-* [Emergency preparedness](#)
-* [Arctic and northern affairs](#)
+- [Royal Canadian Mounted Police](#)
+- [Emergency preparedness](#)
+- [Arctic and northern affairs](#)

@@ -17,10 +17,10 @@ Although Bob is a fictional mascot used during community outreach activities, th
 
 The RCMP remains committed to:
 
-* community safety;
-* meaningful engagement;
-* youth outreach; and
-* public trust.
+- community safety;
+- meaningful engagement;
+- youth outreach; and
+- public trust.
 
 As part of that work, the organization continues to support activities that encourage positive interactions between police and the public in safe and welcoming environments.
 
@@ -30,7 +30,7 @@ No further information is available.
 
 ## Media contact
 
-### Media Relations
+### Media relations
 
 National Communications and Public Affairs\
 Royal Canadian Mounted Police
@@ -40,5 +40,5 @@ Email: [media@rcmp-grc.gc.ca](mailto:media@rcmp-grc.gc.ca)
 
 ## Related information
 
-* [Royal Canadian Mounted Police](#)
-* [Community safety resources](#)
+- [Royal Canadian Mounted Police](#)
+- [Community safety resources](#)

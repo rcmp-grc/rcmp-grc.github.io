@@ -13,17 +13,16 @@ This backgrounder provides general information about Bob, his role in public eng
 
 ## Quick facts
 
-* Bob is a fictional RCMP community mascot inspired by Canada’s Arctic wildlife.
-* Bob first appeared during a winter community safety event in Nunavut.
-* The character is used during educational campaigns, school visits, recruitment events, and family-focused community activities.
-* Bob’s “uniform” includes a red serge-inspired scarf and a blue RCMP toque.
-* Bob promotes:
-
-  * winter safety;
-  * kindness and inclusion;
-  * emergency preparedness;
-  * environmental awareness; and
-  * positive police-community relationships.
+- Bob is a fictional RCMP community mascot inspired by Canada’s Arctic wildlife.
+- Bob first appeared during a winter community safety event in Nunavut.
+- The character is used during educational campaigns, school visits, recruitment events, and family-focused community activities.
+- Bob’s “uniform” includes a red serge-inspired scarf and a blue RCMP toque.
+- Bob promotes:
+  - winter safety;
+  - kindness and inclusion;
+  - emergency preparedness;
+  - environmental awareness; and
+  - positive police-community relationships.
 
 ## About Bob
 
@@ -33,11 +32,11 @@ While Bob is not an operational member of the RCMP, the character is used to sup
 
 Bob is especially popular with children during:
 
-* community barbecues;
-* school visits;
-* holiday parades;
-* northern recruitment events; and
-* winter festivals.
+- community barbecues;
+- school visits;
+- holiday parades;
+- northern recruitment events; and
+- winter festivals.
 
 ## Community engagement
 
@@ -45,12 +44,12 @@ The RCMP works with communities across Canada to build trust, encourage open dia
 
 Bob has supported awareness activities related to:
 
-* ice safety;
-* safe snowmobile use;
-* emergency kits and winter preparedness;
-* anti-bullying initiatives;
-* mental health awareness campaigns; and
-* environmental stewardship.
+- ice safety;
+- safe snowmobile use;
+- emergency kits and winter preparedness;
+- anti-bullying initiatives;
+- mental health awareness campaigns; and
+- environmental stewardship.
 
 At some events, Bob has also been known to challenge RCMP officers to snowshoe races. Results remain disputed.
 
@@ -75,13 +74,13 @@ More information on wildlife safety is available through:
 
 ## Related information
 
-* [Royal Canadian Mounted Police](#)
-* [Emergency preparedness](#)
-* [Arctic and northern affairs](#)
+- [Royal Canadian Mounted Police](#)
+- [Emergency preparedness](#)
+- [Arctic and northern affairs](#)
 
 ## Contacts
 
-### Media Relations
+### Media relations
 
 National Communications and Public Affairs\
 Royal Canadian Mounted Police

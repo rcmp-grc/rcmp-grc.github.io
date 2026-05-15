@@ -1,8 +1,8 @@
 # Speech
 
-## Remarks by Superintendent Bob the Polar Bear
+## Remarks by superintendent Bob the Polar Bear
 
-### Community Winter Safety and Northern Outreach Event
+### Community winter safety and northern outreach event
 
 **Check against delivery**
 
@@ -23,11 +23,11 @@ The RCMP continues to work with local communities, Indigenous partners, youth or
 
 Today’s event may be fun and family focused, but the message behind it is serious:
 
-* check weather conditions before travelling;
-* carry emergency supplies;
-* wear proper winter gear;
-* tell someone where you are going; and
-* look after your neighbours.
+- check weather conditions before travelling;
+- carry emergency supplies;
+- wear proper winter gear;
+- tell someone where you are going; and
+- look after your neighbours.
 
 And please, if you see a polar bear wearing an RCMP scarf, do not attempt to recruit him into traffic enforcement. I have already declined twice.
 
@@ -41,10 +41,10 @@ Community events like this create opportunities for conversations that feel natu
 
 The RCMP believes strong communities are built through:
 
-* respect;
-* collaboration;
-* inclusion; and
-* shared responsibility.
+- respect;
+- collaboration;
+- inclusion; and
+- shared responsibility.
 
 These values guide our work across Canada every day.
 
@@ -56,21 +56,21 @@ Whether responding to severe weather, supporting search and rescue efforts, or o
 
 The RCMP remains committed to supporting communities through:
 
-* crime prevention initiatives;
-* emergency preparedness awareness;
-* culturally informed engagement;
-* youth programming; and
-* public safety partnerships.
+- crime prevention initiatives;
+- emergency preparedness awareness;
+- culturally informed engagement;
+- youth programming; and
+- public safety partnerships.
 
 ## Closing remarks
 
 Before I conclude, I would like to thank:
 
-* community organizers;
-* local volunteers;
-* emergency responders;
-* RCMP employees; and
-* everyone attending today’s event.
+- community organizers;
+- local volunteers;
+- emergency responders;
+- RCMP employees; and
+- everyone attending today’s event.
 
 Your work and participation help strengthen safer and healthier communities.
 
@@ -82,7 +82,7 @@ Thank you.
 
 ## Media contact
 
-### Media Relations
+### Media relations
 
 National Communications and Public Affairs\
 Royal Canadian Mounted Police
@@ -92,6 +92,6 @@ Email: [media@rcmp-grc.gc.ca](mailto:media@rcmp-grc.gc.ca)
 
 ## Related information
 
-* [Royal Canadian Mounted Police](#)
-* [Emergency preparedness](#)
-* [Winter safety information](#)
+- [Royal Canadian Mounted Police](#)
+- [Emergency preparedness](#)
+- [Winter safety information](#)

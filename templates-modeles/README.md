@@ -34,8 +34,8 @@ All templates start at `v0.0.0` while in initial development. They move to `v1.0
 
 | Template | Description | Version | Status | Owner |
 | -------- | ----------- | ------- | ------ | ----- |
-| Basic page | A general-purpose page for most content on the site | v0.0.0 | 🔵 Planning | Moira |
-| Campaign | A promotional page built to support a specific campaign or initiative | v0.0.0 | 🔵 Planning |  |
+| Basic page | A general-purpose page for most content on the site | v0.0.0 | 🟡 In development | Moira |
+| Campaign | A promotional page built to support a specific campaign or initiative | v0.0.0 | 🟡 In development | Maryam |
 | Detachment list | A searchable list to help the public find their local RCMP detachment | v0.0.0 | 🟡 In development | Victor |
 | Divisional community news | A list of local news and updates from a specific RCMP division | v0.0.0 | 🔴 In review | Martin |
 | Divisional missing landing | A landing page for missing persons cases within a specific RCMP division | v0.0.0 | 🔴 In review | Martin |
@@ -99,8 +99,8 @@ Tous les modèles commencent à `v0.0.0` pendant le développement initial. Ils 
 
 | Modèle | Description | Version | État | Responsable |
 | ------ | ----------- | ------- | ---- | ----------- |
-| Page de base | Une page polyvalente pour la plupart des contenus du site | v0.0.0 | 🔵 Planification | Moira |
-| Campagne | Une page promotionnelle conçue pour appuyer une campagne ou une initiative particulière | v0.0.0 | 🔵 Planification |  |
+| Page de base | Une page polyvalente pour la plupart des contenus du site | v0.0.0 | 🟡 En cours | Moira |
+| Campagne | Une page promotionnelle conçue pour appuyer une campagne ou une initiative particulière | v0.0.0 | 🟡 En cours | Maryam |
 | Liste des détachements | Une liste consultable pour aider le public à trouver le détachement de la GRC le plus près | v0.0.0 | 🟡 En cours | Victor |
 | Nouvelles de la communauté des divisions | Une liste d'actualités locales et de mises à jour provenant d'une division de la GRC | v0.0.0 | 🔴 En révision | Martin |
 | Page d'accueil des personnes disparues des divisions | Une page d'accueil pour les cas de personnes disparues au sein d'une division de la GRC | v0.0.0 | 🔴 En révision | Martin |

@@ -35,7 +35,7 @@ lang_url: index.html
       </section>
     </section>
   </section>
-  <p>Beef ribs minim lorem swine sirloin bacon pork chop pariatur shoulder biltong fugiat landjaeger. Fugiat magna laborum ut cupidatat capicola pig nisi doner. Chicken laboris eu doner reprehenderit. Aute bresaola shank shankle pork belly t-bone cillum chuck fatback. Et do ullamco, pork belly cupidatat frankfurter esse spare ribs brisket cow est consectetur reprehenderit. See also: <a href="#s3">Link to Lists</a></p>
+  <p>Beef ribs minim lorem swine sirloin bacon pork chop pariatur shoulder biltong fugiat landjaeger. Fugiat magna laborum ut cupidatat capicola pig nisi doner. Chicken laboris eu doner reprehenderit. Aute bresaola shank shankle pork belly t-bone cillum chuck fatback. Et do ullamco, pork belly cupidatat frankfurter esse spare ribs brisket cow est consectetur reprehenderit. Voir aussi: <a href="#s3">Lien vers la section Listes</a></p>
 </section>
 <section id="s2">
   <h2>Images</h2>

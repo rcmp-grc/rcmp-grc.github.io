@@ -49,7 +49,7 @@ issued: 2026-05-09
     <div aria-label="Profils des personnes recherchées" id="wp-grid" role="list"></div>
     <p id="wp-no-results">Aucun profil ne correspond aux filtres sélectionnés.</p>
     <nav aria-label="Pagination" class="rcmp-item-pagination" id="rcmp-content-page">
-      <div class="rcmp-item-pagination__prev" id="wp-prev-wrap">
+      <div class="rcmp-item-pagination__prev" id="wp-prev-wrap" style="display:none">
         <button aria-label="Page précédente" class="rcmp-item-pagination__link" id="wp-prev" type="button">
           <i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-left"></i>
           <span class="rcmp-item-pagination__link-title">Précédente<span class="rcmp-visually-hidden"> page</span></span>

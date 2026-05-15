@@ -6,6 +6,9 @@ lang: en
 lang_url: missing-disparues-fr.html
 issued: 2026-05-08
 lead: Missing person
+breadcrumbs:
+  - label: Missing person
+    url: notices-avis/missinglist-disparuesliste-en.html
 ---
 
 <div aria-live="polite" class="alert alert-danger" role="alert">

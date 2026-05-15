@@ -56,7 +56,7 @@ lang_url: index-fr.md
     <div class="pull-right col-xs-12 col-md-3 col-lg-4">
       <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
         <figure>
-          <img alt="A sample of a image that is 480x600" class="img-responsive full-width" src="/../assets/basic-image-480x600.jpg">
+          <img alt="A sample of a image that is 480x600" class="img-responsive full-width" src="../assets/basic-image-480x600.jpg">
           <figcaption>
             <b>Sample image</b><br>
             480x600<br>

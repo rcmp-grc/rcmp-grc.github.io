@@ -48,7 +48,7 @@ permalink: /404.html
     <p>La page que vous souhaitez consulter a peut-être été déplacée ou supprimée. Assurez-vous que l'adresse Web (URL) est exacte. N'incluez pas de caractères spéciaux ni d'espaces dans l'URL.</p>
     <p>Vous cherchez peut-être l'une des pages suivantes&nbsp;:</p>
     <ul>
-      <li><a href="https://grc.ca/fr">Page d'accueil de GRC.ca</a></li>
+      <li><a href="https://grc.ca/fr">Page d'accueil de la GRC.ca</a></li>
       <li><a href="https://grc.ca/fr/contactez-grc">Contactez la GRC</a></li>
       <li><a href="https://grc.ca/fr/nouvelles">Nouvelles</a></li>
       <li><a href="https://grc.ca/fr/personnes-disparues">Personnes disparues</a></li>

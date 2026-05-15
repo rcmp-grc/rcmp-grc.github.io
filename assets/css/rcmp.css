@@ -1393,6 +1393,21 @@ main #divisional-missing .cnt-wdth-lmtd p {
 }
 
 /* =============================================================================
+   404 page
+   ============================================================================= */
+#page-404 body {
+  background-color: var(--rcmp-white);
+}
+#page-404 main {
+  border: 0;
+}
+#page-404body .btn-primary {
+  background-color: var(--rcmp-red);
+  border-color: var(--rcmp-red);
+  color: var(--rcmp-white);
+}
+
+/* =============================================================================
    MEDIA QUERIES — consolidated, ascending breakpoint order
    ============================================================================= */
 @media screen and (max-width: 767px) {

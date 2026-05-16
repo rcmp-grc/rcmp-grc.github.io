@@ -1412,6 +1412,72 @@ main #divisional-missing .cnt-wdth-lmtd p {
 }
 
 /* =============================================================================
+   500 page
+   ============================================================================= */
+#page-500 {
+  background-color: var(--rcmp-white);
+}
+#page-500 main {
+  border: 0;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+#page-500 .error-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  align-items: center;
+}
+#page-500 .error-col-img,
+#page-500 .error-col-text {
+  flex: 0 0 50%;
+  max-width: 50%;
+  box-sizing: border-box;
+}
+#page-500 .error-col-img {
+  padding-right: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#page-500 .error-col-text {
+  padding-left: 32px;
+  border-left: 1px solid var(--rcmp-grey-md);
+}
+#page-500 .error-illustration {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border: 0;
+  box-shadow: none;
+  filter: none;
+  mix-blend-mode: multiply;
+  background: var(--rcmp-white);
+}
+#page-500 .error-lang-divider {
+  border: 0;
+  border-top: 1px solid var(--rcmp-grey-md);
+  margin: 24px 0;
+}
+@media (max-width: 767px) {
+  #page-500 .error-col-img,
+  #page-500 .error-col-text {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0;
+    border: 0;
+  }
+  #page-500 .error-col-img {
+    margin-bottom: 24px;
+  }
+  #page-500 .error-illustration {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+}
+
+/* =============================================================================
    MEDIA QUERIES — consolidated, ascending breakpoint order
    ============================================================================= */
 @media screen and (max-width: 767px) {

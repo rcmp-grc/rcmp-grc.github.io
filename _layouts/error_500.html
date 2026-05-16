@@ -36,42 +36,7 @@
       lang="fr"
       content="Erreur 500 — Service non disponible : Nous sommes désolés, notre site Web est temporairement incapable de traiter votre demande."
     />
-    <style>
-      #page-500 main {
-        padding-top: 30px;
-        padding-bottom: 40px;
-      }
-      .error-illustration {
-        display: block;
-        max-width: 340px;
-        width: 100%;
-        box-shadow: none !important;
-        filter: none !important;
-        border: 0;
-        background: #fff;
-        mix-blend-mode: multiply;
-        margin: 0 auto 24px;
-      }
-      @media (min-width: 992px) {
-        .error-illustration {
-          margin: 0;
-          max-width: 100%;
-        }
-      }
-      .error-divider {
-        border: 0;
-        border-left: 1px solid #b1b4b6;
-        height: auto;
-        align-self: stretch;
-      }
-      @media (max-width: 767px) {
-        .error-divider {
-          display: none;
-        }
-      }
-    </style>
   </head>
-
   <body class="cnt-wdth-lmtd" id="page-500" vocab="http://schema.org/" resource="#wb-webpage" typeof="WebPage">
     <header>
       <div id="wb-bnr" class="container">
@@ -91,30 +56,32 @@
       <p class="wb-slc hidden-xs hidden-sm">
         <a class="wb-sl" href="#fr">Aller à la version française</a>
       </p>
-      <div class="row" style="align-items: flex-start">
-        <div class="col-md-4 col-sm-12 text-center" style="padding-top: 10px">
-          <img src="/404/404.png" alt="" role="presentation" class="error-illustration" />
+      <div class="error-layout">
+        <div class="error-col-img">
+          <img src="/assets/img/500.png" alt="" role="presentation" class="error-illustration" />
         </div>
-        <div class="col-md-4 col-sm-12" id="en" style="padding-top: 10px">
-          <h2>Service unavailable</h2>
-          <p><span class="label label-danger">500 error</span></p>
-          <p class="hidden-xl hidden-md hidden-lg">
-            <a href="#fr">Aller à la version française</a>
-          </p>
-          <p>We're sorry. Our website is temporarily unable to process your request due to a technical problem.</p>
-          <p>We're working to resolve the issue. Please try again later.</p>
-          <p>If you need immediate assistance, please call us directly at <strong>1-800-959-8281</strong>.</p>
-        </div>
-        <div class="hidden-xs hidden-sm col-md-1 error-divider" aria-hidden="true"></div>
-        <div class="col-md-3 col-sm-12" id="fr" lang="fr" style="padding-top: 10px">
-          <h2>Service non disponible</h2>
-          <p><span class="label label-danger">Erreur 500</span></p>
-          <p class="hidden-xl hidden-md hidden-lg">
-            <a href="#en">Go to the English version</a>
-          </p>
-          <p>Nous sommes désolés. Notre site Web est temporairement incapable de traiter votre demande en raison d'un problème technique.</p>
-          <p>Nous travaillons à résoudre le problème. Veuillez réessayer plus tard.</p>
-          <p>Si vous avez besoin d'une aide immédiate, veuillez nous appeler directement au <strong>1-800-959-8281</strong>.</p>
+        <div class="error-col-text">
+          <div id="en">
+            <h2>Service unavailable</h2>
+            <p><span class="label label-danger">500 error</span></p>
+            <p class="hidden-xl hidden-md hidden-lg">
+              <a href="#fr">Aller à la version française</a>
+            </p>
+            <p>We're sorry. Our website is temporarily unable to process your request due to a technical problem.</p>
+            <p>We're working to resolve the issue. Please try again later.</p>
+            <p>If you need immediate assistance, please call us directly at <strong>1-800-959-8281</strong>.</p>
+          </div>
+          <hr class="error-lang-divider" aria-hidden="true" />
+          <div id="fr" lang="fr">
+            <h2>Service non disponible</h2>
+            <p><span class="label label-danger">Erreur 500</span></p>
+            <p class="hidden-xl hidden-md hidden-lg">
+              <a href="#en">Go to the English version</a>
+            </p>
+            <p>Nous sommes désolés. Notre site Web est temporairement incapable de traiter votre demande en raison d'un problème technique.</p>
+            <p>Nous travaillons à résoudre le problème. Veuillez réessayer plus tard.</p>
+            <p>Si vous avez besoin d'une aide immédiate, veuillez nous appeler directement au <strong>1&nbsp;800&nbsp;959-8281</strong>.</p>
+          </div>
         </div>
       </div>
     </main>

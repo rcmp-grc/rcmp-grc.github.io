@@ -37,7 +37,6 @@
       content="Erreur 500 — Service non disponible : Nous sommes désolés, notre site Web est temporairement incapable de traiter votre demande."
     />
     <style>
-      /* ── 500-page overrides ── */
       #page-500 main {
         padding-top: 30px;
         padding-bottom: 40px;
@@ -46,19 +45,16 @@
         display: block;
         max-width: 340px;
         width: 100%;
-        /* strip any rogue box-shadow / filter the browser might apply */
         box-shadow: none !important;
         filter: none !important;
         border: 0;
-        /* keep the white canvas of the PNG from looking grey on #f3f2f1 body */
         background: #fff;
-        /* remove the image background entirely so it blends perfectly */
         mix-blend-mode: multiply;
         margin: 0 auto 24px;
       }
       @media (min-width: 992px) {
         .error-illustration {
-          margin: 0; /* align left on wide screens */
+          margin: 0;
           max-width: 100%;
         }
       }

@@ -1,5 +1,5 @@
 ---
-layout: 404
+layout: error_404
 title: "Page not found / Page non trouvée"
 description_en: "404 error page not found: The page you're looking for may have been moved or deleted."
 description_fr: "Page d'erreur 404 introuvable : La page que vous souhaitez consulter a peut-être été déplacée ou supprimée."

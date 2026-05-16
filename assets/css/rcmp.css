@@ -1414,19 +1414,16 @@ main #divisional-missing .cnt-wdth-lmtd p {
 /* =============================================================================
    500 page
    ============================================================================= */
-#page-500 {
-  background-color: var(--rcmp-white);
-}
 #page-500 main {
   border: 0;
-  padding-top: 30px;
-  padding-bottom: 40px;
+  padding: 0;
 }
 #page-500 .error-layout {
   display: flex;
   flex-wrap: wrap;
   gap: 0;
-  align-items: center;
+  align-items: stretch;
+  min-height: 60vh;
 }
 #page-500 .error-col-img,
 #page-500 .error-col-text {
@@ -1435,20 +1432,24 @@ main #divisional-missing .cnt-wdth-lmtd p {
   box-sizing: border-box;
 }
 #page-500 .error-col-img {
-  padding-right: 32px;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  background: var(--rcmp-white);
 }
 #page-500 .error-col-text {
-  padding-left: 32px;
+  padding: 40px 40px 40px 48px;
   border-left: 1px solid var(--rcmp-grey-md);
 }
 #page-500 .error-illustration {
   display: block;
   width: 100%;
-  max-width: 420px;
-  height: auto;
+  height: 100%;
+  max-width: none;
+  object-fit: contain;
+  object-position: center;
   border: 0;
   box-shadow: none;
   filter: none;
@@ -1465,15 +1466,19 @@ main #divisional-missing .cnt-wdth-lmtd p {
   #page-500 .error-col-text {
     flex: 0 0 100%;
     max-width: 100%;
-    padding: 0;
     border: 0;
   }
   #page-500 .error-col-img {
-    margin-bottom: 24px;
+    padding: 24px 20px;
+  }
+  #page-500 .error-col-text {
+    padding: 24px 20px;
   }
   #page-500 .error-illustration {
     max-width: 280px;
+    height: auto;
     margin: 0 auto;
+    display: block;
   }
 }
 

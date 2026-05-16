@@ -2,169 +2,84 @@
 <html class="no-js" dir="ltr" lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>{{ page.title }}</title>
+    <title>Service unavailable / Service non disponible</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta name="robots" content="noindex, nofollow, noarchive" />
-    <meta name="description" content="{{ page.description_en }}" />
-    <meta name="dcterms.title" content="{{ page.title }}" />
-    <meta name="dcterms.description" content="{{ page.description_en }}" />
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css" />
+    <link href="/assets/css/rcmp.css" rel="stylesheet" />
+    <noscript><link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/css/noscript.min.css" /></noscript>
+    <meta name="description" content="500 error – Service unavailable: We're sorry, our website is temporarily unable to process your request." />
+    <meta name="dcterms.title" content="Service unavailable / Service non disponible" />
+    <meta
+      name="dcterms.description"
+      content="500 error – Service unavailable: We're sorry, our website is temporarily unable to process your request."
+    />
     <meta name="dcterms.creator" content="Royal Canadian Mounted Police" />
     <meta name="dcterms.language" content="eng" />
     <meta name="dcterms.subject" content="" />
-    <meta name="dcterms.issued" content="{{ page.issued }}" />
-    <meta name="dcterms.modified" content="{{ page.date_modified | default: site.time | date: '%Y-%m-%d' }}" />
-    <meta property="dcterms:title" lang="en" content="{{ page.title }}" />
+    <meta name="dcterms.issued" content="2026-05-14" />
+    <meta name="dcterms.modified" content="2026-05-14" />
+    <meta property="dcterms:title" lang="en" content="Service unavailable / Service non disponible" />
     <meta property="dcterms:creator" lang="en" content="Royal Canadian Mounted Police" />
-    <meta property="dcterms:description" lang="en" content="{{ page.description_en }}" />
-    <meta property="dcterms:title" lang="fr" content="{{ page.title }}" />
+    <meta property="dcterms:subject" lang="en" content="500 Error Service Unavailable" />
+    <meta
+      property="dcterms:description"
+      lang="en"
+      content="500 error – Service unavailable: We're sorry, our website is temporarily unable to process your request."
+    />
+    <meta property="dcterms:title" lang="fr" content="Service non disponible / Service unavailable" />
     <meta property="dcterms:creator" lang="fr" content="Gendarmerie royale du Canada" />
-    <meta property="dcterms:description" lang="fr" content="{{ page.description_fr }}" />
+    <meta property="dcterms:subject" lang="fr" content="Erreur 500 — Service non disponible" />
+    <meta
+      property="dcterms:description"
+      lang="fr"
+      content="Erreur 500 — Service non disponible : Nous sommes désolés, notre site Web est temporairement incapable de traiter votre demande."
+    />
     <style>
-      *,
-      *::before,
-      *::after {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
+      /* ── 500-page overrides ── */
+      #page-500 main {
+        padding-top: 30px;
+        padding-bottom: 40px;
       }
-
-      body {
-        font-family: "Noto Sans", "Helvetica Neue", Arial, sans-serif;
-        background: #ffffff;
-        color: #333333;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-      }
-
-      /* ── Skip link ── */
-      .wb-slc {
-        position: absolute;
-        left: -9999px;
-      }
-      .wb-slc:focus {
-        left: 0;
-      }
-      .wb-inv {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-      }
-
-      /* ── Header — mirrors 404.html structure ── */
-      #wb-bnr {
-        background: #ffffff;
-        border-bottom: 4px solid #af1e23;
-        padding: 0.75rem 1.5rem;
-      }
-      #wb-bnr .row {
-        display: flex;
-        align-items: center;
-      }
-      .brand img {
-        height: 44px;
-        width: auto;
+      .error-illustration {
         display: block;
-      }
-
-      /* ── Main ── */
-      main.container {
-        flex: 1;
-        max-width: 960px;
-        margin: 0 auto;
-        padding: 2.5rem 1.5rem 3rem;
+        max-width: 340px;
         width: 100%;
+        /* strip any rogue box-shadow / filter the browser might apply */
+        box-shadow: none !important;
+        filter: none !important;
+        border: 0;
+        /* keep the white canvas of the PNG from looking grey on #f3f2f1 body */
+        background: #fff;
+        /* remove the image background entirely so it blends perfectly */
+        mix-blend-mode: multiply;
+        margin: 0 auto 24px;
       }
-
-      /* Image — no shadow, white bg */
-      main img[src^="data:image"] {
-        display: block;
-        margin: 0 auto 2rem;
-        width: min(320px, 88vw);
-        height: auto;
-        /* no filter, no box-shadow */
-      }
-
-      /* GCWeb-style label */
-      .label {
-        display: inline;
-        padding: 0.2em 0.6em 0.3em;
-        font-size: 75%;
-        font-weight: 700;
-        line-height: 1;
-        color: #fff;
-        text-align: center;
-        white-space: nowrap;
-        vertical-align: baseline;
-        border-radius: 0.25em;
-      }
-      .label-danger {
-        background-color: #af1e23;
-      }
-
-      /* Two-column row */
-      .row {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 -15px;
-      }
-      .col-md-6 {
-        flex: 0 0 50%;
-        max-width: 50%;
-        padding: 0 15px;
-      }
-      @media (max-width: 767px) {
-        .col-md-6 {
-          flex: 0 0 100%;
+      @media (min-width: 992px) {
+        .error-illustration {
+          margin: 0; /* align left on wide screens */
           max-width: 100%;
         }
-        .hidden-xl.hidden-md.hidden-lg {
-          display: block !important;
+      }
+      .error-divider {
+        border: 0;
+        border-left: 1px solid #b1b4b6;
+        height: auto;
+        align-self: stretch;
+      }
+      @media (max-width: 767px) {
+        .error-divider {
+          display: none;
         }
-      }
-      .hidden-xl.hidden-md.hidden-lg {
-        display: none;
-      }
-
-      h2 {
-        font-size: 1.4rem;
-        font-weight: 700;
-        color: #1a2e4a;
-        margin-bottom: 0.6rem;
-        line-height: 1.25;
-      }
-      p {
-        font-size: 0.95rem;
-        line-height: 1.7;
-        margin-top: 0.6rem;
-      }
-      p:first-of-type {
-        margin-top: 0.4rem;
-      }
-
-      /* ── Footer — mirrors 404.html ── */
-      footer.py-3 {
-        background: #ffffff;
-        border-top: 1px solid #d8d8d8;
-        padding: 0.75rem 1.5rem;
-      }
-      footer .container {
-        max-width: 960px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: flex-end;
-      }
-      footer img#wmms {
-        height: 28px;
-        width: auto;
       }
     </style>
   </head>
-  <body vocab="http://schema.org/" resource="#wb-webpage" typeof="WebPage">
+
+  <body class="cnt-wdth-lmtd" id="page-500" vocab="http://schema.org/" resource="#wb-webpage" typeof="WebPage">
+    <!-- ── Minimal header (no nav/search — catastrophic failure) ── -->
     <header>
-      <div id="wb-bnr">
+      <div id="wb-bnr" class="container">
         <div class="row">
           <div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
             <img src="/assets/sig-blk-en.svg" alt="Royal Canadian Mounted Police" property="logo" />
@@ -176,7 +91,53 @@
         </div>
       </div>
     </header>
-    <main role="main" property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement" class="container">{{ content }}</main>
+
+    <!-- ── Main content ── -->
+    <main role="main" property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement" class="container">
+      <h1 class="wb-inv" id="wb-cont">Service unavailable / <span lang="fr">Service non disponible</span></h1>
+
+      <!-- Skip link visible only on desktop -->
+      <p class="wb-slc hidden-xs hidden-sm">
+        <a class="wb-sl" href="#fr">Aller à la version française</a>
+      </p>
+
+      <div class="row" style="align-items: flex-start">
+        <!-- ── Illustration column ── -->
+        <div class="col-md-4 col-sm-12 text-center" style="padding-top: 10px">
+          <img src="404.png" alt="" role="presentation" class="error-illustration" />
+        </div>
+
+        <!-- ── English column ── -->
+        <div class="col-md-4 col-sm-12" id="en" style="padding-top: 10px">
+          <h2>Service unavailable</h2>
+          <p><span class="label label-danger">500 error</span></p>
+          <p class="hidden-xl hidden-md hidden-lg">
+            <a href="#fr">Aller à la version française</a>
+          </p>
+          <p>We're sorry. Our website is temporarily unable to process your request due to a technical problem.</p>
+          <p>We're working to resolve the issue. Please try again later.</p>
+          <p>If you need immediate assistance, please call us directly at <strong>1-800-959-8281</strong>.</p>
+        </div>
+
+        <!-- ── Vertical divider (desktop only) ── -->
+        <div class="hidden-xs hidden-sm col-md-1 error-divider" aria-hidden="true"></div>
+
+        <!-- ── French column ── -->
+        <div class="col-md-3 col-sm-12" id="fr" lang="fr" style="padding-top: 10px">
+          <h2>Service non disponible</h2>
+          <p><span class="label label-danger">Erreur 500</span></p>
+          <p class="hidden-xl hidden-md hidden-lg">
+            <a href="#en">Go to the English version</a>
+          </p>
+          <p>Nous sommes désolés. Notre site Web est temporairement incapable de traiter votre demande en raison d'un problème technique.</p>
+          <p>Nous travaillons à résoudre le problème. Veuillez réessayer plus tard.</p>
+          <p>Si vous avez besoin d'une aide immédiate, veuillez nous appeler directement au <strong>1-800-959-8281</strong>.</p>
+        </div>
+      </div>
+      <!-- /row -->
+    </main>
+
+    <!-- ── Minimal footer (no nav links — catastrophic failure) ── -->
     <footer class="py-3">
       <div class="container" property="publisher" resource="#wb-publisher" typeof="GovernmentOrganization">
         <div class="align-self-end">
@@ -184,5 +145,15 @@
         </div>
       </div>
     </footer>
+
+    <!-- Scripts are intentionally kept minimal; WET-BOEW is still loaded so
+         wb-inv / wb-sl / label utilities work, but no search or nav JS needed. -->
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"></script>
+    <script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js"></script>
   </body>
 </html>

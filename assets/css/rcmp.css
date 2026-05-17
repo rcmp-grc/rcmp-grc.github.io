@@ -1425,23 +1425,23 @@ main #divisional-missing .cnt-wdth-lmtd p {
   align-items: stretch;
   min-height: 60vh;
 }
+#page-500 .error-col-img,
+#page-500 .error-col-text {
+  flex: 0 0 50%;
+  max-width: 50%;
+  box-sizing: border-box;
+}
 #page-500 .error-col-img {
-  flex: 1 1 auto;
-  min-width: 0;
   padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   background: var(--rcmp-white);
-  box-sizing: border-box;
 }
 #page-500 .error-col-text {
-  flex: 0 0 auto;
-  width: 480px;
   padding: 40px 40px 40px 48px;
   border-left: 1px solid var(--rcmp-grey-md);
-  box-sizing: border-box;
 }
 #page-500 .error-illustration {
   display: block;

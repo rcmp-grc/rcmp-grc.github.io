@@ -1,28 +1,30 @@
 {% if page.lang == 'fr' %}
-  {% assign home_url = 'https://grc.ca/fr' %}
+  {% assign home_url = 'https://infoweb.rcmp-grc.gc.ca/index-fr.html' %}
   {% assign logo_src = '/assets/sig-blk-fr.svg' %}
   {% assign logo_alt = 'Gendarmerie royale du Canada' %}
   {% assign org_name = 'Gendarmerie royale du Canada' %}
   {% assign lang_label = 'English' %}
   {% assign lang_code = 'en' %}
   {% assign lang_selection = 'Sélection de la langue' %}
-  {% assign search_action = 'https://www.canada.ca/fr/gendarmerie-royale-canada/rechercher.html#wb-land' %}
+  {% assign search_action = 'https://www.canada.ca/fr/sr/srb.html#wb-land' %}
   {% assign search_heading = 'Recherche' %}
-  {% assign search_label = 'Rechercher dans GRC.ca' %}
-  {% assign search_placeholder = 'Rechercher dans GRC.ca' %}
+  {% assign search_label = 'Rechercher dans Infoweb' %}
+  {% assign search_placeholder = 'Rechercher dans Infoweb' %}
   {% assign search_btn = 'Recherche' %}
 {% else %}
-  {% assign home_url = 'https://rcmp.ca/en' %}
+  {% assign home_url = 'https://infoweb.rcmp-grc.gc.ca/index-en.html' %}
   {% assign logo_src = '/assets/sig-blk-en.svg' %}
   {% assign logo_alt = 'Royal Canadian Mounted Police' %}
   {% assign org_name = 'Royal Canadian Mounted Police' %}
   {% assign lang_label = 'Français' %}
   {% assign lang_code = 'fr' %}
   {% assign lang_selection = 'Language selection' %}
-  {% assign search_action = 'https://www.canada.ca/en/royal-canadian-mounted-police/search.html#wb-land' %}
+  {% assign search_action = 'https://www.canada.ca/en/sr/srb.html#wb-land' %}
   {% assign search_heading = 'Search' %}
-  {% assign search_label = 'Search RCMP.ca' %} {% assign search_placeholder = 'Search RCMP.ca' %} {% assign search_btn = 'Search' %} {%
-endif %}
+  {% assign search_label = 'Search Infoweb' %}
+  {% assign search_placeholder = 'Search Infoweb' %}
+  {% assign search_btn = 'Search' %}
+{% endif %}
 <header>
   <div class="container" id="wb-bnr">
     <div class="row">

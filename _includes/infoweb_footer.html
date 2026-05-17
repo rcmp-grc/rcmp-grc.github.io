@@ -90,8 +90,37 @@
       </div>
     </div>
   </div>
+  <div class="iw-fab-wrapper">
+    <button id="iw-fab" class="iw-fab" type="button" aria-label="{% if page.lang == 'fr' %}Ressources d'accessibilité et de mieux-être{% else %}Accessibility and wellness resources{% endif %}" aria-haspopup="dialog">
+      <i class="fa-solid fa-hand-holding-heart" aria-hidden="true"></i>
+    </button>
+    <dialog id="iw-fab-dialog" class="iw-fab-dialog" aria-labelledby="iw-fab-dialog-title" aria-modal="true">
+      <div class="iw-fab-dialog-header">
+        <h2 id="iw-fab-dialog-title" class="iw-fab-dialog-title">
+          {% if page.lang == 'fr' %}Ressources{% else %}Resources{% endif %}
+        </h2>
+        <button class="iw-fab-dialog-close" type="button" aria-label="{% if page.lang == 'fr' %}Fermer{% else %}Close{% endif %}" id="iw-fab-dialog-close">
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="iw-fab-dialog-body">
+        {% if page.lang == 'fr' %}
+        <ul class="iw-fab-links">
+          <li><a href="/accessibilite">Accessibilité</a></li>
+          <li><a href="/mieux-etre">Mieux-être</a></li>
+          <li><a href="/aide">Aide et soutien</a></li>
+        </ul>
+        {% else %}
+        <ul class="iw-fab-links">
+          <li><a href="/accessibility">Accessibility</a></li>
+          <li><a href="/wellness">Wellness</a></li>
+          <li><a href="/help">Help and support</a></li>
+        </ul>
+        {% endif %}
+      </div>
+    </dialog>
+  </div>
 </footer>
-<script>
 (function () {
   'use strict';
  

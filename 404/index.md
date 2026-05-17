@@ -33,7 +33,7 @@ permalink: /404.html
           <datalist id="wb-srch-q-ac"></datalist>
           <span class="input-group-btn">
             <button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small ml-0" name="wb-srch-sub">
-              <span class="glyphicon glyphicon-search"></span>
+              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
               <span class="wb-inv">Search</span>
             </button>
           </span>
@@ -65,7 +65,7 @@ permalink: /404.html
           <datalist id="wb-srch-q-ac-fr"></datalist>
           <span class="input-group-btn">
             <button type="submit" id="wb-srch-sub-fr" class="btn btn-primary btn-small" name="wb-srch-sub-fr">
-              <span class="glyphicon glyphicon-search"></span>
+              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
               <span class="wb-inv">Recherche</span>
             </button>
           </span>

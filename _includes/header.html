@@ -1,30 +1,13 @@
-{% if page.lang == 'fr' %}
-  {% assign home_url        = 'https://grc.ca/fr' %}
-  {% assign logo_src        = '/assets/sig-blk-fr.svg' %}
-  {% assign logo_alt        = 'Gendarmerie royale du Canada' %}
-  {% assign org_name        = 'Gendarmerie royale du Canada' %}
-  {% assign lang_label      = 'English' %}
-  {% assign lang_code       = 'en' %}
-  {% assign lang_selection  = 'Sélection de la langue' %}
-  {% assign search_action   = 'https://www.canada.ca/fr/gendarmerie-royale-canada/rechercher.html#wb-land' %}
-  {% assign search_heading  = 'Recherche' %}
-  {% assign search_label    = 'Rechercher dans GRC.ca' %}
-  {% assign search_placeholder = 'Rechercher dans GRC.ca' %}
-  {% assign search_btn      = 'Recherche' %}
-{% else %}
-  {% assign home_url        = 'https://rcmp.ca/en' %}
-  {% assign logo_src        = '/assets/sig-blk-en.svg' %}
-  {% assign logo_alt        = 'Royal Canadian Mounted Police' %}
-  {% assign org_name        = 'Royal Canadian Mounted Police' %}
-  {% assign lang_label      = 'Français' %}
-  {% assign lang_code       = 'fr' %}
-  {% assign lang_selection  = 'Language selection' %}
-  {% assign search_action   = 'https://www.canada.ca/en/royal-canadian-mounted-police/search.html#wb-land' %}
-  {% assign search_heading  = 'Search' %}
-  {% assign search_label    = 'Search RCMP.ca' %}
-  {% assign search_placeholder = 'Search RCMP.ca' %}
-  {% assign search_btn      = 'Search' %}
-{% endif %}
+{% if page.lang == 'fr' %} {% assign home_url = 'https://grc.ca/fr' %} {% assign logo_src = '/assets/sig-blk-fr.svg' %} {% assign logo_alt =
+'Gendarmerie royale du Canada' %} {% assign org_name = 'Gendarmerie royale du Canada' %} {% assign lang_label = 'English' %} {% assign lang_code =
+'en' %} {% assign lang_selection = 'Sélection de la langue' %} {% assign search_action =
+'https://www.canada.ca/fr/gendarmerie-royale-canada/rechercher.html#wb-land' %} {% assign search_heading = 'Recherche' %} {% assign search_label =
+'Rechercher dans GRC.ca' %} {% assign search_placeholder = 'Rechercher dans GRC.ca' %} {% assign search_btn = 'Recherche' %} {% else %} {% assign
+home_url = 'https://rcmp.ca/en' %} {% assign logo_src = '/assets/sig-blk-en.svg' %} {% assign logo_alt = 'Royal Canadian Mounted Police' %} {% assign
+org_name = 'Royal Canadian Mounted Police' %} {% assign lang_label = 'Français' %} {% assign lang_code = 'fr' %} {% assign lang_selection = 'Language
+selection' %} {% assign search_action = 'https://www.canada.ca/en/royal-canadian-mounted-police/search.html#wb-land' %} {% assign search_heading =
+'Search' %} {% assign search_label = 'Search RCMP.ca' %} {% assign search_placeholder = 'Search RCMP.ca' %} {% assign search_btn = 'Search' %} {%
+endif %}
 <header>
   <div class="container" id="wb-bnr">
     <div class="row">
@@ -41,11 +24,11 @@
       </section>
       <div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
         <a href="{{ home_url }}" property="url">
-          <img alt="{{ logo_alt }}" property="logo" src="{{ logo_src }}">
+          <img alt="{{ logo_alt }}" property="logo" src="{{ logo_src }}" />
           <span class="wb-inv">/ <span lang="{{ lang_code }}">{{ org_name }}</span></span>
         </a>
-        <meta content="{{ logo_alt }}" property="name">
-        <meta content="Canada" property="areaServed" typeof="Country">
+        <meta content="{{ logo_alt }}" property="name" />
+        <meta content="Canada" property="areaServed" typeof="Country" />
       </div>
       <section class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4" id="wb-srch">
         <h2>{{ search_heading }}</h2>
@@ -61,11 +44,11 @@
               type="search"
               autocomplete="off"
               value=""
-           >
+            />
           </div>
           <div class="form-group submit">
             <button class="btn btn-primary btn-small" type="submit">
-              <span class="glyphicon-search glyphicon"></span>
+              <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
               <span class="wb-inv">{{ search_btn }}</span>
             </button>
           </div>

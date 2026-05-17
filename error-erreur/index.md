@@ -8,6 +8,6 @@ issued: 2026-05-14
 ---
 
 <div class="list-group">
-  <a href="error-erreur-404.html" class="list-group-item">404 – Page not found</a>
-  <a href="error-erreur-500.html" class="list-group-item">500 – Service unavailable</a>
+  <a href="/error-erreur-404.html" class="list-group-item">404 – Page not found</a>
+  <a href="/error-erreur-500.html" class="list-group-item">500 – Service unavailable</a>
 </div>

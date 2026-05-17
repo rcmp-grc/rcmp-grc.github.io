@@ -93,15 +93,6 @@
 }
 
 /* =============================================================================
-   BASE
-   ============================================================================= */
-body,
-#wb-bc {
-  background-color: var(--iw-bg);
-  color: var(--iw-text-primary);
-}
-
-/* =============================================================================
    HEADER
    ============================================================================= */
 header {
@@ -252,7 +243,6 @@ header .brand {
    MAIN
    ============================================================================= */
 main {
-  background-color: var(--iw-surface);
   color: var(--iw-text-primary);
 }
 
@@ -290,9 +280,7 @@ main a:hover {
 }
 
 .pagedetails {
-  border-top: 1px solid var(--iw-border);
   margin-top: 2rem;
-  padding-top: 1rem;
   color: var(--iw-text-secondary);
 }
 

@@ -252,7 +252,6 @@ header .brand {
    MAIN
    ============================================================================= */
 main {
-  border-top: 5px solid var(--iw-accent-dark);
   background-color: var(--iw-surface);
   color: var(--iw-text-primary);
 }
@@ -274,7 +273,7 @@ hgroup#wb-cont h1 {
 }
 
 h1#wb-cont {
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 

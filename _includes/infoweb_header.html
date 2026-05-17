@@ -30,13 +30,20 @@
     <div class="row">
       <section class="col-xs-3 col-sm-12 pull-right text-right" id="wb-lng">
         <h2 class="wb-inv">{{ lang_selection }}</h2>
-        <ul class="list-inline mrgn-bttm-0">
+        <ul class="list-inline mrgn-bttm-0 iw-top-controls">
           <li>
             <a href="{{ page.lang_url }}" hreflang="{{ lang_code }}" lang="{{ lang_code }}">
               <span class="hidden-xs" translate="no">{{ lang_label }}</span>
               <span class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase" aria-hidden="true" translate="no">{{ lang_code }}</span>
             </a>
           </li>
+          <li>
+            <button id="iw-theme-toggle" class="iw-theme-btn" type="button" aria-label="{% if page.lang == 'fr' %}Basculer vers le mode sombre{% else %}Switch to dark mode{% endif %}" aria-pressed="false">
+              <span class="iw-theme-icon iw-icon-light" aria-hidden="true">&#9788;</span>
+              <span class="iw-theme-icon iw-icon-dark"  aria-hidden="true">&#9790;</span>
+              <span class="iw-theme-label hidden-xs">{% if page.lang == 'fr' %}Thème{% else %}Theme{% endif %}</span>
+            </button>
+         </li>
         </ul>
       </section>
       <div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">

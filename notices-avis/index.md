@@ -1,16 +1,13 @@
 ---
 layout: default
-title: Divisional missing person, wanted, community news templates
-date_modified: 2026-05-08
+title: Error pages
+date_modified: 2026-05-14
 lang: en
 lang_url: index-fr.html
-issued: 2026-05-08
+issued: 2026-05-14
 ---
 
 <div class="list-group">
-  <a href="missing-disparues-en.html" class="list-group-item">Divisional missing person</a>
-  <a href="missinglist-disparuesliste-en.html" class="list-group-item">Divisional missing person landing</a>
-  <a href="wanted-recherchees-en.html" class="list-group-item">Divisional wanted</a>
-  <a href="wantedlist-rechercheesliste-en.html" class="list-group-item">Divisional wanted landing</a>
-  <a href="community-communautaires-en.html" class="list-group-item">Community news</a>
+  <a href="404.html" class="list-group-item">404 – Page not found</a>
+  <a href="500.html" class="list-group-item">500 – Service unavailable</a>
 </div>

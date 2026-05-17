@@ -91,6 +91,57 @@
     </div>
   </div>
 </footer>
+<script>
+(function () {
+  'use strict';
+ 
+  var STORAGE_KEY = 'iw-theme';
+  var root        = document.documentElement;
+  var btn         = document.getElementById('iw-theme-toggle');
+  var isFr        = root.lang && root.lang.startsWith('fr');
+ 
+  var labels = {
+    toDark:  { en: 'Switch to dark mode',  fr: 'Basculer vers le mode sombre' },
+    toLight: { en: 'Switch to light mode', fr: 'Basculer vers le mode clair'  }
+  };
+ 
+  function currentTheme() {
+    var stored = localStorage.getItem(STORAGE_KEY);
+    if (stored === 'dark' || stored === 'light') return stored;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+ 
+  function applyTheme(theme) {
+    root.setAttribute('data-theme', theme);
+    if (btn) {
+      var lang = isFr ? 'fr' : 'en';
+      if (theme === 'dark') {
+        btn.setAttribute('aria-label', labels.toLight[lang]);
+        btn.setAttribute('aria-pressed', 'true');
+      } else {
+        btn.setAttribute('aria-label', labels.toDark[lang]);
+        btn.setAttribute('aria-pressed', 'false');
+      }
+    }
+  }
+ 
+  applyTheme(currentTheme());
+ 
+  if (btn) {
+    btn.addEventListener('click', function () {
+      var next = currentTheme() === 'dark' ? 'light' : 'dark';
+      localStorage.setItem(STORAGE_KEY, next);
+      applyTheme(next);
+    });
+  }
+ 
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
+    if (!localStorage.getItem(STORAGE_KEY)) {
+      applyTheme(e.matches ? 'dark' : 'light');
+    }
+  });
+})();
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
 <script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js" crossorigin="anonymous"></script>
 <script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js" crossorigin="anonymous"></script>

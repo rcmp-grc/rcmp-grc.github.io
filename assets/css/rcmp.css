@@ -1447,7 +1447,6 @@ main #divisional-missing .cnt-wdth-lmtd p {
 #page-500 .error-illustration {
   display: block;
   width: 100%;
-  max-width: 100px;
   height: auto;
   border: 0;
   box-shadow: none;

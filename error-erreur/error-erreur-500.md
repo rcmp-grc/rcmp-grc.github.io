@@ -5,5 +5,5 @@ description_en: "500 error – Service unavailable: We're sorry, our website is 
 description_fr: "Erreur 500 — Service non disponible : Nous sommes désolés, notre site Web est temporairement incapable de traiter votre demande."
 date_modified: 2026-05-14
 issued: 2026-05-14
-permalink: /500.html
+permalink: error-erreur-500.html
 ---

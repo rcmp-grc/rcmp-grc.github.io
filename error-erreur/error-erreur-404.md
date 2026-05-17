@@ -5,7 +5,7 @@ description_en: "404 error page not found: The page you're looking for may have 
 description_fr: "Page d'erreur 404 introuvable : La page que vous souhaitez consulter a peut-être été déplacée ou supprimée."
 date_modified: 2026-05-14
 issued: 2026-05-14
-permalink: /404.html
+permalink: error-erreur-404.html
 ---
 
 <div class="row">

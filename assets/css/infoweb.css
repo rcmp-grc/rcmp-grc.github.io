@@ -24,6 +24,7 @@
   :root {
     --iw-accent: #ccccff;
     --iw-accent-dark: #1a1a3a;
+    --iw-app-bar-dark: #1a1a3a; /* explicit dark app bar token */
     --iw-indigo: #9999c8;
     --iw-indigo-hover: #bbbbee;
 
@@ -73,20 +74,19 @@ header .brand {
    APP BAR
    ============================================================================= */
 .app-bar {
-  background-color: var(--iw-accent);
+  background-color: #ccccff;
 }
 
 .app-bar h2 {
-  color: var(--iw-accent-dark);
+  color: #1a1a3a;
 }
-
 @media (prefers-color-scheme: dark) {
   .app-bar {
-    background-color: var(--iw-accent-dark);
+    background-color: #1a1a3a;
   }
 
   .app-bar h2 {
-    color: var(--iw-accent);
+    color: #ccccff;
   }
 }
 
@@ -131,7 +131,6 @@ header .brand {
    MAIN
    ============================================================================= */
 main {
-  border-top: 5px solid var(--iw-accent-dark);
   background-color: var(--iw-surface);
   color: var(--iw-text-primary);
 }
@@ -149,7 +148,7 @@ hgroup#wb-cont h1 {
 }
 
 h1#wb-cont {
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 

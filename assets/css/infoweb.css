@@ -304,14 +304,44 @@ main a:hover {
 }
 
 #wb-info .gc-sub-footer {
-  background-color: var(--iw-accent-dark);
+  background-color: #ffffff;
+  border-top: 2px solid var(--iw-border);
 }
 
 #wb-info .gc-sub-footer nav a {
-  color: var(--iw-accent);
+  color: #1a1a3a;
 }
 
 #wb-info .gc-sub-footer nav a:hover {
+  color: var(--iw-indigo);
+}
+
+[data-theme="dark"] #wb-info .gc-sub-footer,
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) #wb-info .gc-sub-footer {
+    background-color: var(--iw-accent-dark);
+    border-top-color: var(--iw-border);
+  }
+
+  :root:not([data-theme="light"]) #wb-info .gc-sub-footer nav a {
+    color: var(--iw-accent);
+  }
+
+  :root:not([data-theme="light"]) #wb-info .gc-sub-footer nav a:hover {
+    color: #ffffff;
+  }
+}
+
+[data-theme="dark"] #wb-info .gc-sub-footer {
+  background-color: var(--iw-accent-dark);
+  border-top-color: var(--iw-border);
+}
+
+[data-theme="dark"] #wb-info .gc-sub-footer nav a {
+  color: var(--iw-accent);
+}
+
+[data-theme="dark"] #wb-info .gc-sub-footer nav a:hover {
   color: #ffffff;
 }
 

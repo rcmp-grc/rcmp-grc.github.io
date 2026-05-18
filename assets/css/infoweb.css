@@ -316,7 +316,19 @@ main a:hover {
   color: var(--iw-indigo);
 }
 
-[data-theme="dark"] #wb-info .gc-sub-footer,
+[data-theme="dark"] #wb-info .gc-sub-footer {
+  background-color: var(--iw-accent-dark);
+  border-top-color: var(--iw-border);
+}
+
+[data-theme="dark"] #wb-info .gc-sub-footer nav a {
+  color: var(--iw-accent);
+}
+
+[data-theme="dark"] #wb-info .gc-sub-footer nav a:hover {
+  color: #ffffff;
+}
+
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) #wb-info .gc-sub-footer {
     background-color: var(--iw-accent-dark);
@@ -569,7 +581,7 @@ main a:hover {
 
 @media screen and (max-width: 480px) {
   .iw-fab-wrapper {
-    bottom: 16px;
+    bottom: 80px;
     right: 16px;
   }
 
@@ -585,7 +597,6 @@ main a:hover {
   align-items: center;
   justify-content: space-between;
   flex-wrap: nowrap;
-  width: 100%;
 }
 
 .iw-app-bar-inner h2 {

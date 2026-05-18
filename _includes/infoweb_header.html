@@ -86,10 +86,5 @@
       <a href="{% if page.lang == 'fr' %}/connexion{% else %}/sign-in{% endif %}" class="iw-sign-in-btn" aria-label="{% if page.lang == 'fr' %}Se connecter à Infoweb{% else %}Sign in to Infoweb{% endif %}"><i class="fa-solid fa-right-to-bracket" aria-hidden="true"></i> <span>{% if page.lang == 'fr' %}Se connecter{% else %}Sign in{% endif %}</span></a>
     </div>
   </div>
-  <div class="app-bar">
-    <div class="container">
-      <h2 class="h3 mrgn-tp-sm mrgn-bttm-sm">{{ org_name }}</h2>
-    </div>
-  </div>
   {% include infoweb_breadcrumb.html %}
 </header>

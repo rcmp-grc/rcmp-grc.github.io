@@ -91,15 +91,31 @@
     </div>
   </div>
   <div class="iw-fab-wrapper">
-    <button id="iw-fab" class="iw-fab" type="button" aria-label="{% if page.lang == 'fr' %}Ressources d'accessibilité et de mieux-être{% else %}Accessibility and wellness resources{% endif %}" aria-haspopup="dialog">
+    <button
+      id="iw-fab"
+      class="iw-fab"
+      type="button"
+      aria-label="{% if page.lang == 'fr' %}Ressources d'accessibilité et de mieux-être{% else %}Accessibility and wellness resources{% endif %}"
+      aria-haspopup="dialog"
+    >
       <i class="fa-solid fa-hand-holding-heart" aria-hidden="true"></i>
     </button>
-    <dialog id="iw-fab-dialog" class="iw-fab-dialog" aria-labelledby="iw-fab-dialog-title" aria-modal="true">
+    <dialog
+      id="iw-fab-dialog"
+      class="iw-fab-dialog"
+      aria-labelledby="iw-fab-dialog-title"
+      aria-modal="true"
+    >
       <div class="iw-fab-dialog-header">
         <h2 id="iw-fab-dialog-title" class="iw-fab-dialog-title">
           {% if page.lang == 'fr' %}Ressources{% else %}Resources{% endif %}
         </h2>
-        <button class="iw-fab-dialog-close" type="button" aria-label="{% if page.lang == 'fr' %}Fermer{% else %}Close{% endif %}" id="iw-fab-dialog-close">
+        <button
+          class="iw-fab-dialog-close"
+          type="button"
+          aria-label="{% if page.lang == 'fr' %}Fermer{% else %}Close{% endif %}"
+          id="iw-fab-dialog-close"
+        >
           <i class="fa-solid fa-xmark" aria-hidden="true"></i>
         </button>
       </div>
@@ -121,6 +137,49 @@
     </dialog>
   </div>
 </footer>
+<script>
+/* --- FAB dialog --- */
+(function () {
+  'use strict';
+  var fab     = document.getElementById('iw-fab');
+  var dialog  = document.getElementById('iw-fab-dialog');
+  var closeBtn = document.getElementById('iw-fab-dialog-close');
+
+  if (!fab || !dialog) return;
+
+  function openDialog() {
+    dialog.showModal();
+    fab.setAttribute('aria-expanded', 'true');
+    closeBtn && closeBtn.focus();
+  }
+
+  function closeDialog() {
+    dialog.close();
+    fab.setAttribute('aria-expanded', 'false');
+    fab.focus();
+  }
+
+  fab.addEventListener('click', openDialog);
+  closeBtn && closeBtn.addEventListener('click', closeDialog);
+
+  /* Close on backdrop click */
+  dialog.addEventListener('click', function (e) {
+    var rect = dialog.getBoundingClientRect();
+    if (
+      e.clientX < rect.left || e.clientX > rect.right ||
+      e.clientY < rect.top  || e.clientY > rect.bottom
+    ) {
+      closeDialog();
+    }
+  });
+
+  /* Close on Escape is native to <dialog>; restore focus manually */
+  dialog.addEventListener('cancel', function () {
+    fab.setAttribute('aria-expanded', 'false');
+    fab.focus();
+  });
+})();
+</script>
 <script>
 (function () {
   'use strict';

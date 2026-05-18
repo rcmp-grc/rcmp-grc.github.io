@@ -579,3 +579,87 @@ main a:hover {
     width: calc(100vw - 32px);
   }
 }
+
+.iw-app-bar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.iw-sign-in-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 16px;
+  background-color: #1a1a3a;
+  color: #ccccff;
+  border: 2px solid #1a1a3a;
+  border-radius: 3px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  min-height: 44px;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.iw-sign-in-btn:hover {
+  background-color: #4d4d99;
+  color: #ffffff;
+  border-color: #4d4d99;
+  text-decoration: none;
+}
+
+.iw-sign-in-btn:focus-visible {
+  outline: 3px solid #1a1a3a;
+  outline-offset: 3px;
+}
+
+[data-theme="dark"] .iw-sign-in-btn {
+  background-color: #ccccff;
+  color: #1a1a3a;
+  border-color: #ccccff;
+}
+
+[data-theme="dark"] .iw-sign-in-btn:hover {
+  background-color: #e6e6ff;
+  color: #1a1a3a;
+  border-color: #e6e6ff;
+}
+
+[data-theme="dark"] .iw-sign-in-btn:focus-visible {
+  outline-color: #ccccff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .iw-sign-in-btn {
+    background-color: #ccccff;
+    color: #1a1a3a;
+    border-color: #ccccff;
+  }
+
+  :root:not([data-theme="light"]) .iw-sign-in-btn:hover {
+    background-color: #e6e6ff;
+    color: #1a1a3a;
+    border-color: #e6e6ff;
+  }
+
+  :root:not([data-theme="light"]) .iw-sign-in-btn:focus-visible {
+    outline-color: #ccccff;
+  }
+}
+
+/* Responsive — hide label text on xs, keep icon only */
+@media screen and (max-width: 767px) {
+  .iw-sign-in-btn span {
+    display: none;
+  }
+
+  .iw-sign-in-btn {
+    padding: 6px 12px;
+  }
+}

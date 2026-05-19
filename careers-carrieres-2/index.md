@@ -118,7 +118,12 @@ window.addEventListener('load', function () {
 
       var nav = document.querySelector('.careers-nav');
       if (nav) {
-        var navTop = nav.getBoundingClientRect().top + window.pageYOffset;
+        var navTop = 0;
+        var el = nav;
+        while (el) {
+          navTop += el.offsetTop;
+          el = el.offsetParent;
+        }
         function onScroll() {
           if (window.pageYOffset >= navTop) {
             nav.classList.add('is-stuck');

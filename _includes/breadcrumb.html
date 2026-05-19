@@ -7,7 +7,7 @@
     {% assign you_are_here = 'You are here:' %}
   {% endif %}
   {% assign base_url = site.url | default: '' %}
-<nav id="wb-bc" property="breadcrumb">
+<nav id="wb-bc" property="breadcrumb" aria-label="{% if page.lang == 'fr' %}Chemin de navigation{% else %}Breadcrumb{% endif %}">
   <h2>{{ you_are_here }}</h2>
   <div class="container">
     <ol class="breadcrumb" typeof="BreadcrumbList">
@@ -19,13 +19,13 @@
       </li>
       {% if page.breadcrumbs[0] %}
       <li property="itemListElement" typeof="ListItem">
-        {% if page.breadcrumbs[0].url %}
-        <a href="{{ base_url }}/{{ page.breadcrumbs[0].url }}" property="item" typeof="WebPage">
-          <span property="name">{{ page.breadcrumbs[0].label }}</span>
-        </a>
-        {% else %}
-        <span property="name">{{ page.breadcrumbs[0].label }}</span>
-        {% endif %}
+		{% if page.breadcrumbs[0].url %}
+		<a href="{{ base_url }}/{{ page.breadcrumbs[0].url }}" property="item" typeof="WebPage">
+		  <span property="name">{{ page.breadcrumbs[0].label }}</span>
+		</a>
+		{% else %}
+		<span property="name" aria-current="page">{{ page.breadcrumbs[0].label }}</span>
+        {% endif %}		
         <meta content="2" property="position" />
       </li>
       {% endif %}

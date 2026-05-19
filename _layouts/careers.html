@@ -4,13 +4,11 @@
     {% include head.html %}
   </head>
   <body class="cnt-wdth-lmtd" typeof="WebPage" vocab="http://schema.org/">
-    <div id="loader" role="status" aria-live="polite" aria-label="Page loading">
-      <img src="/assets/rcmp-grc.svg" alt="" width="150" height="150" aria-hidden="true" />
-      <span class="sr-only"
-        >{% if page.lang == 'fr' %}Chargement du contenu de la page, veuillez patienter...{% else %}Loading page content, please wait...{% endif
-        %}</span
-      >
-    </div>
+    <div id="loader" role="status" aria-live="polite" aria-label="{% if page.lang == 'fr' %}Chargement en cours{% else %}Page loading{% endif %}">
+	  <noscript><style>#loader{display:none}</style></noscript>
+	  <img src="/assets/rcmp-grc.svg" alt="" width="150" height="150" aria-hidden="true" />
+	  <span class="sr-only">{% if page.lang == 'fr' %}Chargement du contenu de la page, veuillez patienter...{% else %}Loading page content, please wait...{% endif %}</span>
+	</div>
     <nav>
       <ul id="wb-tphp">
         {% if page.lang == 'fr' %}
@@ -33,16 +31,11 @@
     {% include header.html %}
     <nav class="careers-nav" aria-label="{% if page.lang == 'fr' %}Navigation des carrières{% else %}Careers navigation{% endif %}">
       <div class="container careers-nav__inner">
-        <button
-          class="careers-nav__toggle"
-          aria-controls="careers-nav-links"
-          aria-expanded="false"
-          aria-label="{% if page.lang == 'fr' %}Ouvrir le menu des carrières{% else %}Open careers menu{% endif %}"
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+		<button class="careers-nav__toggle" aria-controls="careers-nav-links" aria-expanded="false" aria-label="{% if page.lang == 'fr' %}Ouvrir le menu des carrières{% else %}Open careers menu{% endif %}">
+		  <span aria-hidden="true"></span>
+		  <span aria-hidden="true"></span>
+		  <span aria-hidden="true"></span>
+		</button>
         <ul class="careers-nav__links" id="careers-nav-links">
           {% if page.lang == 'fr' %}
           <li><a href="#agent-police">Agent de police</a></li>
@@ -55,8 +48,8 @@
           {% endif %}
         </ul>
         <div class="careers-nav__apply">
-          <a href="#">{% if page.lang == 'fr' %}Postuler maintenant{% else %}Apply now{% endif %}</a>
-        </div>
+		  <a href="#" aria-label="{% if page.lang == 'fr' %}Postuler maintenant à la GRC{% else %}Apply now to the RCMP{% endif %}">{% if page.lang == 'fr' %}Postuler maintenant{% else %}Apply now{% endif %}</a>
+		</div>
       </div>
     </nav>
     <main class="container" property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
@@ -85,11 +78,9 @@
         {% endif %}
       </section>
     </main>
-    <div class="footer-contact">
-      <a class="btn btn-contact" href="#"
-        >{% if page.lang == 'fr' %}Communiquer avec le personnel du recrutement{% else %}Contact a recruiter{% endif %}</a
-      >
-    </div>
+	<div class="footer-contact">
+	  <a class="btn btn-contact" href="#recruiter-contact-form">{% if page.lang == 'fr' %}Communiquer avec le personnel du recrutement{% else %}Contact a recruiter{% endif %}</a>
+	</div>
     {% include footer.html %}
   </body>
 </html>

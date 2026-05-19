@@ -95,6 +95,12 @@ button,
   position: relative;
   align-self: stretch;
   transition: none;
+  outline: 3px solid transparent;
+  outline-offset: 2px;
+}
+.careers-nav__links a:focus-visible {
+  outline: 3px solid #fec111;
+  outline-offset: 2px;
 }
 @media (min-width: 768px) {
   .careers-nav__links li:first-child a {
@@ -168,6 +174,12 @@ button,
   padding: 8px;
   flex-direction: column;
   gap: 5px;
+  outline: 3px solid transparent;
+  outline-offset: 2px;
+}
+.careers-nav__toggle:focus-visible {
+  outline: 3px solid #fec111;
+  outline-offset: 2px;
 }
 .careers-nav__toggle span {
   display: block;

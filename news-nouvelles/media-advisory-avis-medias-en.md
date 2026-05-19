@@ -47,14 +47,20 @@ issued: 2026-05-08
 	  border-right: 3px solid #f2f2f2;
 	  border-bottom: 3px solid #f2f2f2;
 	  border-top: 3px solid #f2f2f2;
-	  margin-left: 0px;
 	  padding-left: 0px;
+	  margin-right: 15px;
 	}
 	.event-tag
 	{ font-weight: bold;
 	  font-color: #0b0c0c;
 	  padding-left: 0px; 
 	  width: 130px;
+	  background-color: #f2f2f2;
+	}
+	.event-details
+	{ font-weight: normal;
+	  font-color: #0b0c0c;
+	  padding-left: 10px; 
 	  background-color: #f2f2f2;
 	}
 </style>
@@ -149,18 +155,10 @@ issued: 2026-05-08
      </div>
 </div>
 </section>
-<div class="explore">
-<section id="s5">
-<h2 class="h3">Explore related topics</h2>
-<ol class="list-inline">
-  <li><span class="label label-danger"><u>Media Relations</u></span></li>
-  <li><span class="label label-default"><u>Community interest</u></span></li>
-</ol>
-</section>
-</div>
 </div>
 <div class="col-md-4 event">
 <div class="event-tag"><p>Event details</p></div>  
+<div class="event-details">	
 <p><strong>Date</strong>: Saturday, May 23, 2026</p>
 <p><strong>Time</strong>: 1-4 pm (local time)</p>
 <p><strong>Location</strong><br>
@@ -170,4 +168,13 @@ Iqaluit, Nunavut</p>
   </div>
 </div>
 <div class="clearfix"></div>
+<div class="explore">
+<section id="s5">
+<h2 class="h3">Explore related topics</h2>
+<ol class="list-inline">
+  <li><span class="label label-danger"><u>Media Relations</u></span></li>
+  <li><span class="label label-default"><u>Community interest</u></span></li>
+</ol>
+</section>
+</div>
 

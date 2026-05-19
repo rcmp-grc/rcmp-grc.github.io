@@ -21,7 +21,7 @@ lead: News release
 <p class="lead">Richmond RCMP Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety.</p>
 <div class="panel panel-warning">
   <header class="panel-heading">
-   <h2 class="h5 panel-title"><i class="fa-regular fa-pen-to-square"></i> Updated</h5></header>	
+   <h2 class="h5 panel-title"><i class="fa-regular fa-pen-to-square"></i> Updated</h2></header>	
   <div class="panel-body">
   <ul>
     <li><strong>2026-04-30, 13:58 pm</strong>: Last seen location</li>

@@ -100,3 +100,62 @@
 <script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js" crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/releases/v6.5.0/js/all.js" integrity="sha384-xJg9IXkLBF6DBCGIEmpH5d2Pzct5onYpW8EegteK+7n0rxjhN4PUzfPxGbpWVjQf" crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/releases/v6.5.0/js/v4-shims.js" integrity="sha384-/92mVmELKUSys+AjbeSvITO3rhI9KtDAENPjak7fYPIxTdmKqt1Z2WCbRbI8ybF2" crossorigin="anonymous"></script>
+{% if page.layout == 'careers' %}<script>
+(function () {
+  var toggle = document.querySelector('.careers-nav__toggle');
+  var links = document.getElementById('careers-nav-links');
+  if (!toggle || !links) return;
+
+  toggle.addEventListener('click', function () {
+    var open = links.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+
+  links.querySelectorAll('a').forEach(function (a) {
+    a.addEventListener('click', function () {
+      links.classList.remove('is-open');
+      toggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+})();
+
+window.addEventListener('load', function () {
+  var loader = document.getElementById('loader');
+  if (loader) {
+    var srText = loader.querySelector('.sr-only');
+    if (srText) srText.textContent = loader.dataset.loadedMsg || 'Page loaded successfully';
+    loader.classList.add('hidden');
+    setTimeout(function () {
+      loader.setAttribute('aria-hidden', 'true');
+      loader.style.display = 'none';
+
+      var nav = document.querySelector('.careers-nav');
+      if (nav) {
+        var navTop = 0;
+        var el = nav;
+        while (el) {
+          navTop += el.offsetTop;
+          el = el.offsetParent;
+        }
+        function onScroll() {
+          if (window.pageYOffset >= navTop) {
+            nav.classList.add('is-stuck');
+          } else {
+            nav.classList.remove('is-stuck');
+          }
+        }
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+      }
+    }, 300);
+  }
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    var spinner = document.querySelector('.spinner');
+    if (spinner) spinner.style.animation = 'none';
+  }
+});
+</script>
+{% endif %}

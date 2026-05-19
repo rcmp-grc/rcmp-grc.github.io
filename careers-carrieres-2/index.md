@@ -107,20 +107,6 @@ custom_css: /assets/css/careers.css
 })();
 
 window.addEventListener('load', function () {
-  var nav = document.querySelector('.careers-nav');
-  if (nav) {
-    var navTop = nav.getBoundingClientRect().top + window.pageYOffset;
-    function onScroll() {
-      if (window.pageYOffset >= navTop) {
-        nav.classList.add('is-stuck');
-      } else {
-        nav.classList.remove('is-stuck');
-      }
-    }
-    window.addEventListener('scroll', onScroll, { passive: true });
-    onScroll();
-  }
-
   var loader = document.getElementById('loader');
   if (loader) {
     var srText = loader.querySelector('.sr-only');
@@ -129,6 +115,20 @@ window.addEventListener('load', function () {
     setTimeout(function () {
       loader.setAttribute('aria-hidden', 'true');
       loader.style.display = 'none';
+
+      var nav = document.querySelector('.careers-nav');
+      if (nav) {
+        var navTop = nav.getBoundingClientRect().top + window.pageYOffset;
+        function onScroll() {
+          if (window.pageYOffset >= navTop) {
+            nav.classList.add('is-stuck');
+          } else {
+            nav.classList.remove('is-stuck');
+          }
+        }
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+      }
     }, 300);
   }
 });

@@ -341,7 +341,7 @@ button,
   border-bottom: 0.5rem solid var(--c-yellow);
   border-image: linear-gradient(to right, var(--c-yellow) 25%, transparent 25%);
   border-image-slice: 1;
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
   font-weight: 500;

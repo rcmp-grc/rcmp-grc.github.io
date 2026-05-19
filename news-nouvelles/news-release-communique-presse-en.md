@@ -29,10 +29,11 @@ lead: News release
 	{ font-weight: bold;
 	  font-color: rgb(0,0,0);
 	  margin-left: 0px;
+	  background-color: solid var(--rcmp-gold);
 	}
 </style>
 <div class="update col-md-8">
-	<p class="update-tag"><i class="fa-regular fa-pen-to-square"></i> Updated</p>
+	<div class="update-tag"><p><i class="fa-regular fa-pen-to-square"></i> Updated</p></div>
   <ul>
     <li><strong>2026-04-30, 13:58 pm</strong>: Last seen location</li>
     <li><strong>2026-04-21, 13:58 pm</strong>: Missing person wearing prescription glasses</li>

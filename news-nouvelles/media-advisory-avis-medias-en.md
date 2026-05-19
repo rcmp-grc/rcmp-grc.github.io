@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Technical briefing on the situation with regard to hantavirus
+title: CMP and Bob the Polar Bear to host northern community winter safety event
 description: My page description
-date_modified: 2026-05-08
+date_modified: 2026-05-19
 lang: en
 lang_url: media-advisory-avis-medias-fr.html
 lead: Media Advisory
@@ -10,10 +10,40 @@ issued: 2026-05-08
 ---
 
 <style>
-	hr
-	 { border-bottom: 2px solid var(--rcmp-gold);
+	.details
+	 { border-top: 2px solid var(--rcmp-gold);
+	   margin-bottom: 10px;
+	   margin-left: 0px;
 	 }
+	.explore
+	{ border-top: 2px solid var(--rcmp-gold);
+	 }
+	.update
+	{ border-left: 5px solid var(--rcmp-gold);
+	  border-right: 5px solid var(--rcmp-gold);
+	  border-bottom: 5px solid var(--rcmp-gold);
+	  border-top: 5px solid var(--rcmp-gold);
+	  margin-left: 0px;
+	  padding-left: 0px;
+	  margin-bottom: 15px;
+	}
+	.update-tag
+	{ font-weight: bold;
+	  font-color: #0b0c0c;
+	  padding-left: 0px;
+	  width: 130px;
+	  background-color: #bea468;
+	}
+	.left 
+	{ justify-content: left;
+	  align-items: left;
+	  margin-left: 0px;
+    }
+	.wb-lbx lbx-gal
+	{ padding-left: 15px;
+	}
 </style>
+
 <p class="lead">Officials from the Public Health Agency of Canada will provide details about the Andes Hantavirus outbreak on the MV Hondius and actions taken by the Government of Canada.</p>
 <hr>
 

@@ -104,10 +104,6 @@ button,
   outline: 3px solid #fec111;
   outline-offset: 2px;
 }
-@media (min-width: 768px) {
-  .careers-nav__links li:first-child a {
-  }
-}
 .careers-nav__links a::after {
   content: "";
   display: block;
@@ -126,11 +122,14 @@ button,
 }
 
 @media (min-width: 768px) {
+  .careers-nav__links li:first-child a {
+    padding-left: 0;
+  }
   .careers-nav__links li:first-child a:hover::after,
   .careers-nav__links li:first-child a:focus::after {
-    width: calc(100% - 36px);
-    left: 50%;
-    transform: translateX(-50%);
+    width: calc(100% - 18px);
+    left: 0;
+    transform: none;
   }
 }
 .careers-nav__links a:hover,
@@ -138,7 +137,11 @@ button,
   color: #fff;
   border-bottom-color: #fec111;
   text-decoration: none;
-  outline-offset: -3px;
+  outline: none;
+}
+.careers-nav__links a:focus-visible {
+  outline: 3px solid #fec111;
+  outline-offset: 2px;
 }
 .careers-nav__apply {
   margin-left: auto;
@@ -282,4 +285,79 @@ button,
   .footer-contact .btn-contact {
     width: 100%;
   }
+}
+
+/* =============================================================================
+   BREADCRUMB — banded gold/navy style
+   ============================================================================= */
+#wb-bc {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.bc-showcase {
+  background: #222;
+  border-bottom: 2px solid #fec111;
+}
+.bc-showcase-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.bc-row {
+  display: flex;
+  align-items: center;
+  min-height: 52px;
+}
+.bc-nav-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.bc-nav-wrap.bc-wrap-outer {
+  padding: 9px 0;
+}
+.bc-band {
+  display: inline-flex;
+  align-items: center;
+  border-left: 4px solid #fec111;
+  background: #011b3c;
+  border-radius: 0 5px 5px 0;
+  padding: 8px 15px;
+}
+.bc {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.bc a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fec111;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.15s;
+}
+.bc a:hover {
+  color: #ffd966;
+}
+.bc a:focus-visible {
+  outline: 3px solid #fec111;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+.bc [aria-current="page"] {
+  font-size: 13px;
+  font-weight: 600;
+  color: #f0f0f0;
+}
+.bc .bc-sep {
+  color: #2a5080;
+  padding: 0 9px;
+  font-size: 15px;
+  font-weight: 700;
 }

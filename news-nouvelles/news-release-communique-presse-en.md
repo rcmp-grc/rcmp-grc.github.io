@@ -27,9 +27,9 @@ lead: News release
 	}
 	.update-tag
 	{ font-weight: bold;
-	  font-color: rgb(0,0,0);
+	  font-color: #bea468;
 	  margin-left: 0px;
-	  background-color: solid var(--rcmp-gold);
+	  background-color: #0b0c0c;
 	}
 </style>
 <div class="update col-md-8">

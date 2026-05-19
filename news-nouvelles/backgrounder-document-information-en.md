@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Daily Occurrence Report - 6 a.m. May 7 to 6 a.m. May 8
+title: Bob the Polar Bear joins the RCMP family
 description: My page description
 date_modified: 2026-05-19
 lang: en

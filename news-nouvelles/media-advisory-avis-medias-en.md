@@ -43,42 +43,43 @@ issued: 2026-05-08
 	{ padding-left: 15px;
 	}
 </style>
-
-<p class="lead">Officials from the Public Health Agency of Canada will provide details about the Andes Hantavirus outbreak on the MV Hondius and actions taken by the Government of Canada.</p>
-<hr>
-
-<div><i class="fa-solid fa-calendar-days"></i> May&nbsp;8, 2026 - Ottawa, Ontario</div>
-<div class="mrgn-tp-0 mrgn-bttm-md"><i class="fa-regular fa-circle-user"></i> <a href="https://rcmp.ca/en/"><abbr>RCMP</abbr> Headquaters</a></div>
 <div class="row">
 <div class="col-md-8">
- <p>Accredited journalists can also participate online. <strong>Please note</strong>: Individuals who do not have an access pass to Parliamentary buildings must enter through the entrance at 197 Sparks Street.</p>
- <p>Participation in the question and answer portion of the technical briefing is for accredited members of the Press Gallery only. Media who are not members of the Press Gallery may contact testemailaddress@rcmp.gc.ca for temporary access.</p>
+<p class="lead">The Royal Canadian Mounted Police will host a community winter safety event featuring Bob the Polar Bear, the RCMP’s unofficial northern mascot.</p>
+<div class="details">
+<p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May 14, 2026<br>
+<i class="fa-regular fa-circle-user"></i> <a href="https://rcmp.ca/en/bc/richmond">National Communications and Public Affairs</p></div>
+<div><i class="fa-solid fa-calendar-days"></i> May&nbsp;8, 2026 - Ottawa, Ontario</div>
+<div class="mrgn-tp-0 mrgn-bttm-md"><i class="fa-regular fa-circle-user"></i> <a href="https://rcmp.ca/en/"><abbr>RCMP</abbr> Headquaters</a></div>
+ <p>Members of the media are invited to attend.</p>
+ <p>The event will focus on winter preparedness, youth engagement, emergency awareness, and community safety. Activities will include safety demonstrations, educational booths, family activities, and opportunities for interviews and photos.</p>
+<p>Bob the Polar Bear is also expected to make a special appearance, weather and fish supply permitting.</p>
 </div>
-<div class="col-md-4 bg-warning">
-    <p><strong>Date</strong>: May 8, 2026 </p>
-    <p><strong>Time</strong>: 3:00 pm (EDT)</p>
-	<p><strong>Location</strong><br>
-National Press Theatre<br>
-Room 325, 180 Wellington St<br>
-Ottawa ON</p>
+<div class="col-md-4">
+<p><strong>Date</strong>: Saturday, May 23, 2026</p>
+<p><strong>Time</strong>: 1-4 pm (local time)</p>
+<p><strong>Location</strong><br>
+Northern Community Recreation Centre<br>
+100 Aurora Road<br>
+Iqaluit, Nunavut</p>
 </div>
 </div>
 <div class="clearfix"></div>
 <section id="n1">
 <h2 class="h3">Contacts</h2>
 <div class="contact-signature">
-          <strong>Richmond RCMP Media Relations</strong>
+    <strong>National Communications and Public Affairs</strong>
      <br>     
-     <a href="mailto:richmond_media@rcmp-grc.gc.ca">richmond_media@rcmp-grc.gc.ca</a>
+     <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a>
      <br>
-     604-207-5189<br>
+     613-555-0100<br>
      <div class="signature-link-grid">
                     <div class="signature-link-subgrid">
                <div>
                     <i class="fa fa-link" aria-hidden="true"></i>
                </div>
                <div>
-                    <a href="https://rcmp.ca/en/bc/richmond">Richmond RCMP</a>
+                    <a href="https://rcmp.ca/en/bc/richmond">National Communications and Public Affairs</a>
                </div>
           </div>   
                     <div class="signature-link-subgrid">

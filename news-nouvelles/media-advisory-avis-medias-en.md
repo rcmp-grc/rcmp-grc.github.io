@@ -48,7 +48,6 @@ issued: 2026-05-08
 	  border-bottom: 3px solid #f2f2f2;
 	  border-top: 3px solid #f2f2f2;
 	  padding-left: 0px;
-	  margin-right: 15px;
 	}
 	.event-tag
 	{ font-weight: bold;

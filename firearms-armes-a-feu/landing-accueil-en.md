@@ -84,7 +84,7 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
         <p>Information on design guidelines and sound requirements for shooting clubs and ranges.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Executors of estates</a></h3>
+        <h3><a href="#">Firearms left in an estate</a></h3>
         <p>Information for executors of estates and beneficiaries of firearms, including the legal procedures involved.</p>
       </div>
       <div class="col-lg-4 col-md-6">

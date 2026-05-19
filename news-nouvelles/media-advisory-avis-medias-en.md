@@ -61,7 +61,7 @@ issued: 2026-05-08
 	{ font-weight: normal;
 	  font-color: #0b0c0c;
 	  padding-left: 10px; 
-	  background-color: #f2f2f2;
+	  background-color: #ffffff;
 	}
 </style>
 <p class="lead">The Royal Canadian Mounted Police will host a community winter safety event featuring Bob the Polar Bear, the RCMP’s unofficial northern mascot.</p>
@@ -166,6 +166,7 @@ Northern Community Recreation Centre<br>
 100 Aurora Road<br>
 Iqaluit, Nunavut</p>
   </div>
+</div>
 </div>
 <div class="clearfix"></div>
 <div class="explore">

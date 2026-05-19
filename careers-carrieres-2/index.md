@@ -31,16 +31,16 @@ custom_css: /assets/css/careers.css
       <a href="#s4">Related pages</a>
     </li>
   </ul>
-  <p>The Indigenous Pre-Cadet Training Program includes a three-week training session at the RCMP Academy (Depot) in Regina, Saskatchewan.</p>
-  <p>Candidates will learn:</p>
-  <ul>
-    <li>Working as part of a police team</li>
-    <li>Basics of the <cite>Criminal Code</cite> and RCMP policies</li>
-    <li>Physical fitness and drill training</li>
-    <li>Skills to help you apply to become a police officer</li>
-  </ul>
-  <p>At Depot, RCMP police officers provide candidates with a range of support and insight. The program is considerate of candidate needs, accommodating dietary restrictions and other needs as identified.</p>
 </nav>
+<p>The Indigenous Pre-Cadet Training Program includes a three-week training session at the RCMP Academy (Depot) in Regina, Saskatchewan.</p>
+<p>Candidates will learn:</p>
+<ul>
+  <li>Working as part of a police team</li>
+  <li>Basics of the <cite>Criminal Code</cite> and RCMP policies</li>
+  <li>Physical fitness and drill training</li>
+  <li>Skills to help you apply to become a police officer</li>
+</ul>
+<p>At Depot, RCMP police officers provide candidates with a range of support and insight. The program is considerate of candidate needs, accommodating dietary restrictions and other needs as identified.</p>
 <section id="s1">
   <h2>Eligibility</h2>
   <p>To apply you must be:</p>

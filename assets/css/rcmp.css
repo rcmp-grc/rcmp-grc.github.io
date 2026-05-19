@@ -91,6 +91,11 @@ body {
   color: var(--rcmp-white);
 }
 
+main nav[aria-label="On this page"],
+main nav[aria-label="Sur cette page"] {
+  padding-bottom: 2rem;
+}
+
 /* =============================================================================
    1. Missing-person additions
    ============================================================================= */

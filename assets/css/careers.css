@@ -378,10 +378,6 @@ button,
     z-index: 500;
   }
 
-  .careers-nav ~ main {
-    padding-top: 56px;
-  }
-
   .careers-nav__toggle {
     display: flex;
   }

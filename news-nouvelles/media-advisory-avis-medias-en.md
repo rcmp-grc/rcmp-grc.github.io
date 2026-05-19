@@ -42,6 +42,13 @@ issued: 2026-05-08
 	.wb-lbx lbx-gal
 	{ padding-left: 15px;
 	}
+	.event-tag
+	{ font-weight: bold;
+	  font-color: #0b0c0c;
+	  padding-left: 0px;
+	  width: 150px;
+	  background-color: #f2f2f2;
+	}
 </style>
 <p class="lead">The Royal Canadian Mounted Police will host a community winter safety event featuring Bob the Polar Bear, the RCMP’s unofficial northern mascot.</p>
 <div class="details">
@@ -55,10 +62,8 @@ issued: 2026-05-08
 </div>
 <div class="col-md-4  mrgn-tp-md">
 <section class="panel panel-default">
-  <header class="panel-heading">
-   <h5 class="panel-title">Event details</h5>
-  </header>
   <div class="panel-body">
+<div class="event-tag"><p>Event details</p></div>  
 <p><strong>Date</strong>: Saturday, May 23, 2026</p>
 <p><strong>Time</strong>: 1-4 pm (local time)</p>
 <p><strong>Location</strong><br>

@@ -377,6 +377,18 @@ button,
     width: 100%;
   }
 
+  .careers-nav.is-stuck {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  .careers-nav.is-stuck ~ main {
+    padding-top: 56px;
+  }
+
   .careers-nav ~ main {
     padding-top: 56px;
   }

@@ -1,12 +1,16 @@
 ---
 layout: careers
-title: RCMP careers
+title: Indigenous Pre-Cadet Training Program
 date_modified: 2026-05-11
 lang: en
 lang_url: index-fr.html
 issued: 2026-05-11
 breadcrumbs:
   - label: "RCMP careers"
+    url: "#"
+  - label: "Police officer careers"
+    url: "#"
+  - label: "Indigenous recruiting"
     url: "#"
 custom_css: /assets/css/careers.css
 ---
@@ -86,7 +90,7 @@ custom_css: /assets/css/careers.css
 <script>
 (function () {
   var toggle = document.querySelector('.careers-nav__toggle');
-  var links  = document.getElementById('careers-nav-links');
+  var links = document.getElementById('careers-nav-links');
   if (!toggle || !links) return;
 
   toggle.addEventListener('click', function () {
@@ -103,15 +107,30 @@ custom_css: /assets/css/careers.css
 })();
 
 window.addEventListener('load', function () {
+  var nav = document.querySelector('.careers-nav');
+  if (nav) {
+    var navTop = nav.getBoundingClientRect().top + window.pageYOffset;
+    function onScroll() {
+      if (window.pageYOffset >= navTop) {
+        nav.classList.add('is-stuck');
+      } else {
+        nav.classList.remove('is-stuck');
+      }
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
+
   var loader = document.getElementById('loader');
-  if (!loader) return;
-  var srText = loader.querySelector('.sr-only');
-  if (srText) srText.textContent = loader.dataset.loadedMsg || 'Page loaded successfully';
-  loader.classList.add('hidden');
-  setTimeout(function () {
-    loader.setAttribute('aria-hidden', 'true');
-    loader.style.display = 'none';
-  }, 300);
+  if (loader) {
+    var srText = loader.querySelector('.sr-only');
+    if (srText) srText.textContent = loader.dataset.loadedMsg || 'Page loaded successfully';
+    loader.classList.add('hidden');
+    setTimeout(function () {
+      loader.setAttribute('aria-hidden', 'true');
+      loader.style.display = 'none';
+    }, 300);
+  }
 });
 
 document.addEventListener('DOMContentLoaded', function () {

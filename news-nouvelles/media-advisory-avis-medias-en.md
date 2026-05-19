@@ -47,12 +47,12 @@ issued: 2026-05-08
 	  border-right: 3px solid #f2f2f2;
 	  border-bottom: 3px solid #f2f2f2;
 	  border-top: 3px solid #f2f2f2;
-	  padding-left: 10px;
+	  padding-left: 0px;
 	}
 	.event-tag
 	{ font-weight: bold;
 	  font-color: #0b0c0c;
-	  padding-left: 0px;
+	  padding-left: 0px; 
 	  width: 130px;
 	  background-color: #f2f2f2;
 	}
@@ -66,18 +66,6 @@ issued: 2026-05-08
  <p>Members of the media are invited to attend.</p>	
  <p>The event will focus on winter preparedness, youth engagement, emergency awareness, and community safety. Activities will include safety demonstrations, educational booths, family activities, and opportunities for interviews and photos.</p>
 <p>Bob the Polar Bear is also expected to make a special appearance, weather and fish supply permitting.</p>
-</div>
-<div class="col-md-4 event mrgn-tp-md">
-<div class="event-tag"><p>Event details</p></div>  
-<p><strong>Date</strong>: Saturday, May 23, 2026</p>
-<p><strong>Time</strong>: 1-4 pm (local time)</p>
-<p><strong>Location</strong><br>
-Northern Community Recreation Centre<br>
-100 Aurora Road<br>
-Iqaluit, Nunavut</p>
-  </div>
-</div>
-<div class="clearfix"></div>
 <section id="s1">
 <h2 class="h3">Planned activities</h2>	
 	<p>Activities are expected to include:</p>
@@ -169,3 +157,16 @@ Iqaluit, Nunavut</p>
 </ol>
 </section>
 </div>
+</div>
+<div class="col-md-4 event">
+<div class="event-tag"><p>Event details</p></div>  
+<p><strong>Date</strong>: Saturday, May 23, 2026</p>
+<p><strong>Time</strong>: 1-4 pm (local time)</p>
+<p><strong>Location</strong><br>
+Northern Community Recreation Centre<br>
+100 Aurora Road<br>
+Iqaluit, Nunavut</p>
+  </div>
+</div>
+<div class="clearfix"></div>
+

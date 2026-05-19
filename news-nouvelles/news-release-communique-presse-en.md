@@ -39,7 +39,7 @@ lead: News release
 	  margin-left: 0px;
     }
 	.wb-lbx lbx-gal
-	{ margin-left: 10px;
+	{ padding-left: 15px;
 	}
 </style>
 <div class="update col-md-8">

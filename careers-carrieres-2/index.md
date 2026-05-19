@@ -5,6 +5,9 @@ date_modified: 2026-05-11
 lang: en
 lang_url: index-fr.html
 issued: 2026-05-11
+breadcrumbs:
+  - label: "RCMP careers"
+    url: "#"
 custom_css: /assets/css/careers.css
 ---
 

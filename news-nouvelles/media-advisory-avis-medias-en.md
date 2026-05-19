@@ -53,7 +53,7 @@ issued: 2026-05-08
  <p>The event will focus on winter preparedness, youth engagement, emergency awareness, and community safety. Activities will include safety demonstrations, educational booths, family activities, and opportunities for interviews and photos.</p>
 <p>Bob the Polar Bear is also expected to make a special appearance, weather and fish supply permitting.</p>
 </div>
-<div class="col-md-4">
+<div class="col-md-4  mrgn-bttm-md">
 <p><strong>Date</strong>: Saturday, May 23, 2026</p>
 <p><strong>Time</strong>: 1-4 pm (local time)</p>
 <p><strong>Location</strong><br>
@@ -115,7 +115,7 @@ Iqaluit, Nunavut</p>
                     <i class="fa fa-link" aria-hidden="true"></i>
                </div>
                <div>
-                    <a href="https://rcmp.ca/en/bc/richmond">National Communications and Public Affairs</a>
+                    <a href="https://rcmp.ca/en/#">National Communications and Public Affairs</a>
                </div>
           </div>   
                     <div class="signature-link-subgrid">
@@ -123,7 +123,7 @@ Iqaluit, Nunavut</p>
                      <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
                </div>
                <div>
-                    <a href="https://x.com/RichmondRCMP">@RichmondRCMP</a>
+                    <a href="https://x.com/#">@NCPA</a>
                </div>
           </div>
                     <div class="signature-link-subgrid">
@@ -131,7 +131,7 @@ Iqaluit, Nunavut</p>
                     <i class="fa fa-facebook-square" aria-hidden="true"></i>
                </div>
                <div>
-                    <a href="https://www.facebook.com/BCRCMPnews">BC RCMP</a>
+                    <a href="https://www.facebook.com/#">NCPA</a>
                </div>
           </div>
                     <div class="signature-link-subgrid">
@@ -139,7 +139,7 @@ Iqaluit, Nunavut</p>
                     <i class="fa fa-instagram" aria-hidden="true"></i>
                </div>
                <div>
-                    <a href="https://www.instagram.com/bcrcmp">@bcrcmp</a>
+                    <a href="https://www.instagram.com/#">@ncpa</a>
                </div>
           </div>     
      </div>

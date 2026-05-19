@@ -42,6 +42,14 @@ issued: 2026-05-08
 	.wb-lbx lbx-gal
 	{ padding-left: 15px;
 	}
+	.event
+	{ border-left: 3px solid #f2f2f2;
+	  border-right: 3px solid #f2f2f2;
+	  border-bottom: 3px solid s#f2f2f2;
+	  border-top: 3px solid #f2f2f2;
+	  margin-left: 0px;
+	  padding-left: 0px;
+	}
 	.event-tag
 	{ font-weight: bold;
 	  font-color: #0b0c0c;
@@ -60,9 +68,7 @@ issued: 2026-05-08
  <p>The event will focus on winter preparedness, youth engagement, emergency awareness, and community safety. Activities will include safety demonstrations, educational booths, family activities, and opportunities for interviews and photos.</p>
 <p>Bob the Polar Bear is also expected to make a special appearance, weather and fish supply permitting.</p>
 </div>
-<div class="col-md-4  mrgn-tp-md">
-<section class="panel panel-default">
-  <div class="panel-body">
+<div class="col-md-4 event mrgn-tp-md"><p> Event details</p>
 <div class="event-tag"><p>Event details</p></div>  
 <p><strong>Date</strong>: Saturday, May 23, 2026</p>
 <p><strong>Time</strong>: 1-4 pm (local time)</p>

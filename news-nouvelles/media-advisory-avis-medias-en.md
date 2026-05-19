@@ -47,6 +47,7 @@ issued: 2026-05-08
 	  border-right: 3px solid #f2f2f2;
 	  border-bottom: 3px solid #f2f2f2;
 	  border-top: 3px solid #f2f2f2;
+	  margin-left: 0px;
 	  padding-left: 0px;
 	}
 	.event-tag

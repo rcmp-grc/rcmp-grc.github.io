@@ -57,6 +57,13 @@ button,
 .careers-nav ~ main {
   border-top: 0;
 }
+body {
+  background-color: #fff;
+}
+#wb-bc,
+body {
+  background-color: #fff;
+}
 .careers-nav {
   background-color: #000;
   width: 100%;
@@ -296,10 +303,6 @@ button,
   padding: 0;
   margin: 0;
 }
-.bc-showcase {
-  background: #222;
-  border-bottom: 2px solid #fec111;
-}
 .bc-showcase-inner {
   max-width: 1200px;
   margin: 0 auto;
@@ -308,7 +311,7 @@ button,
 .bc-row {
   display: flex;
   align-items: center;
-  min-height: 52px;
+  min-height: 68px;
 }
 .bc-nav-wrap {
   flex: 1;
@@ -335,8 +338,8 @@ button,
   padding: 0;
 }
 .bc a {
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 0.85em;
+  font-weight: 400;
   color: #fec111;
   text-decoration: underline;
   text-underline-offset: 2px;
@@ -351,8 +354,8 @@ button,
   border-radius: 2px;
 }
 .bc [aria-current="page"] {
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 0.85em;
+  font-weight: 400;
   color: #f0f0f0;
 }
 .bc .bc-sep {

@@ -358,9 +358,9 @@ body {
   font-weight: 400;
   color: #f0f0f0;
 }
-.bc8 .bc-sep {
-  color: #fec111;
-  padding: 0 9px;
+.bc .bc-sep {
+  color: #fff;
+  padding: 0 14px;
   font-size: 15px;
   font-weight: 700;
 }
@@ -385,8 +385,15 @@ body {
   border-radius: 0;
   padding-left: 1.5rem;
 }
-#wb-bc ol {
+.careers-layout #wb-bc {
   margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+  display: block;
+  line-height: 0;
+}
+.careers-layout .bc-row {
+  line-height: normal;
 }
 .careers-layout h1#wb-cont {
   border-bottom: 0.5rem solid #fec111;
@@ -399,6 +406,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  padding-bottom: 30px;
 }
 .careers-layout blockquote {
   border-left-color: #fec111;

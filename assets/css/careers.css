@@ -211,6 +211,8 @@ button,
   position: sticky;
   bottom: 0;
   z-index: var(--z-footer-contact);
+  display: flex;
+  justify-content: flex-end;
 }
 
 .footer-contact .btn-contact {
@@ -218,12 +220,10 @@ button,
   color: var(--c-black);
   border: 2px solid var(--c-yellow);
   font-weight: 600;
-  position: absolute;
-  bottom: 0;
-  right: 0;
   width: 20rem;
   border-radius: 0;
   display: block;
+  text-align: center;
 }
 
 .footer-contact .btn-contact:hover,
@@ -419,13 +419,10 @@ button,
   }
 
   .footer-contact {
-    margin-top: 5rem;
-    position: static;
+    margin-top: 0;
   }
 
   .footer-contact .btn-contact {
-    position: static;
     width: 100%;
-    text-align: center;
   }
 }

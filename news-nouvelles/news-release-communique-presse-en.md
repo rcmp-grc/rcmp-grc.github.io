@@ -5,7 +5,7 @@ date_modified: 2026-05-14
 lang: en
 lang_url: news-release-communique-presse-fr.html
 issued: 2026-05-07
-lead: News release <span class="label label-warning"><strong>Updated</strong></span>
+lead: News release <span class="update-tag">Updated</span>
 ---
 
 <style>
@@ -18,16 +18,20 @@ lead: News release <span class="label label-warning"><strong>Updated</strong></s
 	{ border-top: 2px solid var(--rcmp-gold);
 	 }
 	.update
-	{ border-left: 5px solid var(--rcmp-gold);
+	{ border-left: 5px solid rgb(0,0,0);
 	  margin-left: 0px;
+	  margin-bottom: 15px;
 	}
 	.update-tag
-	{}
-		
+	{ background-color: #f5d000;
+	  font-weight: bold;
+	  font-color: rgb(0,0,0);
+	  border-left: 5px solid rgb(0,0,0);
+	}		
 </style>
 <p class="lead">Richmond RCMP Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety.</p>
 <div class="update col-md-8">
-   <h2 class="h5 panel-title"><i class="fa-regular fa-pen-to-square"></i> Updated</h2>
+   <h2 class="h5"><i class="fa-regular fa-pen-to-square"></i> Updated</h2>
   <ul>
     <li><strong>2026-04-30, 13:58 pm</strong>: Last seen location</li>
     <li><strong>2026-04-21, 13:58 pm</strong>: Missing person wearing prescription glasses</li>

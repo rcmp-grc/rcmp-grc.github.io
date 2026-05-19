@@ -4,7 +4,7 @@
     {% include head.html %}
   </head>
   <body class="cnt-wdth-lmtd careers-layout" typeof="WebPage" vocab="http://schema.org/">
-    <div id="loader" role="status" aria-live="polite" aria-label="{% if page.lang == 'fr' %}Chargement en cours{% else %}Page loading{% endif %}">
+    <div id="loader" role="status" aria-live="polite" aria-atomic="true" aria-label="{% if page.lang == 'fr' %}Chargement en cours{% else %}Page loading{% endif %}" data-loaded-msg="{% if page.lang == 'fr' %}Page chargée avec succès{% else %}Page loaded successfully{% endif %}">
 	  <noscript><style>#loader{display:none}</style></noscript>
 	  <img src="/assets/rcmp-grc.svg" alt="" width="150" height="150" aria-hidden="true" />
 	  <span class="sr-only">{% if page.lang == 'fr' %}Chargement du contenu de la page, veuillez patienter...{% else %}Loading page content, please wait...{% endif %}</span>

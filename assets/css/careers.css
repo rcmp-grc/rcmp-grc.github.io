@@ -50,6 +50,10 @@ body {
   background-color: var(--c-white);
 }
 
+.careers-layout {
+  overflow-x: hidden;
+}
+
 button,
 [type="button"],
 [type="reset"],
@@ -64,6 +68,7 @@ button,
 .careers-nav {
   background-color: var(--c-nav-bg);
   width: 100%;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 500;
@@ -307,8 +312,8 @@ button,
 
 .bc .bc-sep {
   color: var(--c-white);
-  padding: 0 14px;
-  font-size: 15px;
+  padding: 0 14px !important;
+  font-size: 0.85em;
   font-weight: 700;
 }
 
@@ -343,6 +348,7 @@ button,
   font-style: normal;
   padding-bottom: 15px;
   margin-bottom: 30px;
+  margin-top: 15px;
 }
 
 .careers-layout blockquote {

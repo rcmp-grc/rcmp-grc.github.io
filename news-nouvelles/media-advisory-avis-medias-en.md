@@ -77,8 +77,6 @@ Northern Community Recreation Centre<br>
 100 Aurora Road<br>
 Iqaluit, Nunavut</p>
   </div>
-</section>	
-</div>
 </div>
 <div class="clearfix"></div>
 <section id="s1">

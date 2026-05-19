@@ -53,13 +53,20 @@ issued: 2026-05-08
  <p>The event will focus on winter preparedness, youth engagement, emergency awareness, and community safety. Activities will include safety demonstrations, educational booths, family activities, and opportunities for interviews and photos.</p>
 <p>Bob the Polar Bear is also expected to make a special appearance, weather and fish supply permitting.</p>
 </div>
-<div class="col-md-4  mrgn-bttm-md">
+<div class="col-md-4  mrgn-tp-md">
+<section class="panel panel-default">
+  <header class="panel-heading">
+   <h5 class="panel-title">Event details</h5>
+  </header>
+  <div class="panel-body">
 <p><strong>Date</strong>: Saturday, May 23, 2026</p>
 <p><strong>Time</strong>: 1-4 pm (local time)</p>
 <p><strong>Location</strong><br>
 Northern Community Recreation Centre<br>
 100 Aurora Road<br>
 Iqaluit, Nunavut</p>
+  </div>
+</section>	
 </div>
 </div>
 <div class="clearfix"></div>

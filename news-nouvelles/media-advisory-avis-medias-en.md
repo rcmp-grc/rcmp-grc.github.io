@@ -45,15 +45,15 @@ issued: 2026-05-08
 	.event
 	{ border-left: 3px solid #f2f2f2;
 	  border-right: 3px solid #f2f2f2;
-	  border-bottom: 3px solid s#f2f2f2;
+	  border-bottom: 3px solid #f2f2f2;
 	  border-top: 3px solid #f2f2f2;
-	  padding-left: 5px;
+	  padding-left: 10px;
 	}
 	.event-tag
 	{ font-weight: bold;
 	  font-color: #0b0c0c;
-	  padding-left: 5px;
-	  width: 150px;
+	  padding-left: 0px;
+	  width: 130px;
 	  background-color: #f2f2f2;
 	}
 </style>

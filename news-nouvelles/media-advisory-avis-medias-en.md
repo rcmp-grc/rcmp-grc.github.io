@@ -54,7 +54,7 @@ issued: 2026-05-08
 	{ font-weight: bold;
 	  font-color: #0b0c0c;
 	  padding-left: 0px; 
-	  width: 130px;
+	  width: 150px;
 	  background-color: #f2f2f2;
 	}
 	.event-details

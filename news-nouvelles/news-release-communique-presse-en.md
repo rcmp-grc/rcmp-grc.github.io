@@ -23,6 +23,7 @@ lead: News release
 	  border-bottom: 5px solid var(--rcmp-gold);
 	  border-top: 5px solid var(--rcmp-gold);
 	  margin-left: 0px;
+	  padding-left: 0px;
 	  margin-bottom: 15px;
 	}
 	.update-tag

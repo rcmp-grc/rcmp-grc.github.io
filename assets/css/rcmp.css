@@ -53,11 +53,7 @@ header .brand {
   background: #444;
   border-bottom: #444 solid 1px;
 }
-#wb-srch button:focus-visible,
-.srchbox button:focus-visible {
-  outline: 3px solid var(--rcmp-focus);
-  outline-offset: 2px;
-}
+
 #wb-bc ol {
   margin-top: 5px;
 }

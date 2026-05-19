@@ -24,9 +24,6 @@
   --z-footer-contact: 100;
 
   --nav-height: 68px;
-
-  --focus-outline: 3px solid var(--c-yellow);
-  --focus-offset: 2px;
 }
 
 #loader {
@@ -113,7 +110,6 @@ button,
   align-self: stretch;
   transition: none;
   outline: 3px solid transparent;
-  outline-offset: var(--focus-offset);
 }
 
 .careers-nav__links a::after {
@@ -129,21 +125,14 @@ button,
   transition: width 0.2s ease;
 }
 
-.careers-nav__links a:hover,
-.careers-nav__links a:focus {
+.careers-nav__links a:hover {
   color: var(--c-white);
   border-bottom-color: var(--c-yellow);
   text-decoration: none;
   outline: none;
 }
 
-.careers-nav__links a:focus-visible {
-  outline: var(--focus-outline);
-  outline-offset: var(--focus-offset);
-}
-
-.careers-nav__links a:hover::after,
-.careers-nav__links a:focus::after {
+.careers-nav__links a:hover::after {
   width: calc(100% - 36px);
 }
 
@@ -167,8 +156,7 @@ button,
   white-space: nowrap;
 }
 
-.careers-nav__apply a:hover,
-.careers-nav__apply a:focus {
+.careers-nav__apply a:hover {
   background-color: var(--c-nav-bg);
   color: var(--c-white);
   text-decoration: none;
@@ -183,12 +171,6 @@ button,
   flex-direction: column;
   gap: 5px;
   outline: 3px solid transparent;
-  outline-offset: var(--focus-offset);
-}
-
-.careers-nav__toggle:focus-visible {
-  outline: var(--focus-outline);
-  outline-offset: var(--focus-offset);
 }
 
 .careers-nav__toggle span {
@@ -233,8 +215,7 @@ button,
   text-align: center;
 }
 
-.footer-contact .btn-contact:hover,
-.footer-contact .btn-contact:focus {
+.footer-contact .btn-contact:hover {
   background-color: var(--c-black);
   color: var(--c-white);
 }
@@ -298,12 +279,6 @@ button,
   color: var(--c-yellow-hover);
 }
 
-.bc a:focus-visible {
-  outline: var(--focus-outline);
-  outline-offset: 3px;
-  border-radius: 2px;
-}
-
 .bc [aria-current="page"] {
   font-size: 0.85em;
   font-weight: 400;
@@ -360,8 +335,7 @@ button,
     padding-left: 0;
   }
 
-  .careers-nav__links li:first-child a:hover::after,
-  .careers-nav__links li:first-child a:focus::after {
+  .careers-nav__links li:first-child a:hover::after {
     width: calc(100% - 18px);
     left: 0;
     transform: none;
@@ -412,8 +386,7 @@ button,
     height: auto;
   }
 
-  .careers-nav__links a:hover,
-  .careers-nav__links a:focus {
+  .careers-nav__links a:hover {
     border-bottom-color: transparent;
     border-left-color: var(--c-yellow);
   }

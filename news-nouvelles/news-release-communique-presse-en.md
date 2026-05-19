@@ -30,6 +30,8 @@ lead: News release
   </ul>
   </div>
 </div>
+</section>
+</div>
 <div class="clearfix"></div>
 <div class="details">
 <p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May&nbsp;7, 2026 - Richmond, British Columbia<br>

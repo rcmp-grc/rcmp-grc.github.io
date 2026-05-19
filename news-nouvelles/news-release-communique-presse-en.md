@@ -30,7 +30,7 @@ lead: News release
 	{ font-weight: bold;
 	  font-color: #0b0c0c;
 	  padding-left: 0px;
-	  width: 100px;
+	  width: 150px;
 	  background-color: #bea468;
 	}
 </style>

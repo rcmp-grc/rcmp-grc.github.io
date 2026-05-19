@@ -29,7 +29,6 @@ lead: News release
     <li><strong>2026-04-21, 13:58 pm</strong>: Missing person wearing prescription glasses</li>
   </ul>
   </div>
-</div>
 </section>
 </div>
 <div class="clearfix"></div>

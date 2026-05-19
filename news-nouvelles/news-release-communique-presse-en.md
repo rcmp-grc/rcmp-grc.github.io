@@ -38,6 +38,9 @@ lead: News release
 	  align-items: left;
 	  margin-left: 0px;
     }
+	.wb-lbx lbx-gal
+	{ margin-left: 10px;
+	}
 </style>
 <div class="update col-md-8">
 	<div class="update-tag"><p><i class="fa-regular fa-pen-to-square"></i> Updated</p></div>

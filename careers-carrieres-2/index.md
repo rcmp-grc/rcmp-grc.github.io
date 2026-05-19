@@ -8,10 +8,7 @@ issued: 2026-05-11
 breadcrumbs:
   - label: "RCMP careers"
     url: "#"
-  - label: "Police officer careers"
-    url: "#"
-  - label: "Indigenous recruiting"
-    url: "#"
+
 custom_css: /assets/css/careers.css
 ---
 

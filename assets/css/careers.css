@@ -366,7 +366,15 @@ body {
 }
 .bc li.bc-sep::before,
 .bc li.bc-sep::after {
-  content: none;
+  content: none !important;
+}
+.bc.breadcrumb > li + li::before {
+  content: none !important;
+  display: none !important;
+}
+#wb-bc .bc > li + li::before {
+  content: none !important;
+  display: none !important;
 }
 .bc-showcase-inner {
   max-width: 1200px;
@@ -376,4 +384,7 @@ body {
 .bc-band {
   border-radius: 0;
   padding-left: 1.5rem;
+}
+#wb-bc ol {
+  margin-top: 0;
 }

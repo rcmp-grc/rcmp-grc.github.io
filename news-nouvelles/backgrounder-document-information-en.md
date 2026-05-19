@@ -125,6 +125,48 @@ issued: 2026-05-08
 <li><a href="#">Emergency preparedness</a></li>
 <li><a href="#">Arctic and northern affairs</a></li>	
 </ul>
+<h2 class="h3">Contacts</h2>
+<div class="contact-signature">
+    <strong>National Communications and Public Affairs</strong>
+     <br>     
+     <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a>
+     <br>
+     613-555-0100<br>
+     <div class="signature-link-grid">
+                    <div class="signature-link-subgrid">
+               <div>
+                    <i class="fa fa-link" aria-hidden="true"></i>
+               </div>
+               <div>
+                    <a href="https://rcmp.ca/en/#">National Communications and Public Affairs</a>
+               </div>
+          </div>   
+                    <div class="signature-link-subgrid">
+               <div>
+                     <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+               </div>
+               <div>
+                    <a href="https://x.com/#">@NCPA</a>
+               </div>
+          </div>
+                    <div class="signature-link-subgrid">
+               <div>
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+               </div>
+               <div>
+                    <a href="https://www.facebook.com/#">NCPA</a>
+               </div>
+          </div>
+                    <div class="signature-link-subgrid">
+               <div>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+               </div>
+               <div>
+                    <a href="https://www.instagram.com/#">@ncpa</a>
+               </div>
+          </div>     
+     </div>
+</div>	
 <div class="explore">	
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">

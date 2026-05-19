@@ -54,7 +54,7 @@ issued: 2026-05-08
 	{ font-weight: bold;
 	  font-color: #0b0c0c;
 	  padding-left: 0px; 
-	  width: 150px;
+	  width: 175px;
 	  background-color: #f2f2f2;
 	}
 	.event-details
@@ -157,7 +157,7 @@ issued: 2026-05-08
 </section>
 </div>
 <div class="col-md-4 event">
-<div class="event-tag"><p><i class="fa-solid fa-paperclip"></i> Event details</p></div>  
+<div class="event-tag"><p><i class="fa-solid fa-thumbtack"></i> Event details</p></div>  
 <div class="event-details">	
 <p><strong>Date</strong>: Saturday, May 23, 2026</p>
 <p><strong>Time</strong>: 1-4 pm (local time)</p>

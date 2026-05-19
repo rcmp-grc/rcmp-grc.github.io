@@ -319,14 +319,14 @@ body {
   align-items: center;
 }
 .bc-nav-wrap.bc-wrap-outer {
-  padding: 9px 0;
+  padding: 0;
 }
 .bc-band {
   display: inline-flex;
   align-items: center;
   border-left: 4px solid #fec111;
   background: #011b3c;
-  border-radius: 0 5px 5px 0;
+  border-radius: 0;
   padding: 8px 15px;
 }
 .bc {
@@ -358,9 +358,22 @@ body {
   font-weight: 400;
   color: #f0f0f0;
 }
-.bc .bc-sep {
-  color: #2a5080;
+.bc8 .bc-sep {
+  color: #fec111;
   padding: 0 9px;
   font-size: 15px;
   font-weight: 700;
+}
+.bc li.bc-sep::before,
+.bc li.bc-sep::after {
+  content: none;
+}
+.bc-showcase-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+.bc-band {
+  border-radius: 0;
+  padding-left: 1.5rem;
 }

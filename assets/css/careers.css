@@ -370,10 +370,15 @@ button,
 
 @media (max-width: 767px) {
   .careers-nav {
-    height: auto;
-    flex-wrap: wrap;
-    padding: 0;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  .careers-nav ~ main {
+    padding-top: 56px;
   }
 
   .careers-nav__toggle {

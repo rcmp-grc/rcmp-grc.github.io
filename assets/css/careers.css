@@ -400,13 +400,12 @@ body {
   border-image: linear-gradient(to right, #fec111 25%, transparent 25%);
   border-image-slice: 1;
   font-size: 4rem;
-  line-height: 1.5;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 .careers-layout blockquote {
   border-left-color: #fec111;

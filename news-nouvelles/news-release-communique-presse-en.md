@@ -33,6 +33,11 @@ lead: News release
 	  width: 130px;
 	  background-color: #bea468;
 	}
+	.left 
+	{ justify-content: left;
+	  align-items: left;
+	  margin-left: 0px;
+    }
 </style>
 <div class="update col-md-8">
 	<div class="update-tag"><p><i class="fa-regular fa-pen-to-square"></i> Updated</p></div>
@@ -81,7 +86,7 @@ lead: News release
 </section>
 <section id="s3">	
 <h2 class="h3">Video</h2>
-<div class="col-md-8 mrgn-lft-0">
+<div class="col-md-8 left">
 <figure class="wb-mltmd">
 		<video title="We are your next career">
 			<source type="video/youtube" src="https://www.youtube.com/watch?v=ow1Buo0PrTE">

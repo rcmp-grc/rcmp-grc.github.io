@@ -115,10 +115,10 @@ issued: 2026-05-08
 <p>Although Bob is a fictional mascot, polar bears are real wild animals and can be dangerous. Canadians visiting northern regions should always follow local wildlife safety guidance and instructions from authorities and community leaders.</p>
 <p>More information on wildlife safety is available through: Polar bear safety information</p>	
 <h2 class="h3">Quotes</h2>
-<blockquote><p>Community policing is about relationships. Sometimes those relationships include a six-foot polar bear mascot wearing an RCMP scarf.<br>
-— RCMP Community Engagement Officer</p></blockquote>
-<blockquote><p>Bob reminds people that public safety conversations do not always need to feel formal. A little humour can go a long way.<br>
-— National Communications and Public Affairs</p></blockquote>
+<blockquote class="cn-pullquote"><p>Community policing is about relationships. Sometimes those relationships include a six-foot polar bear mascot wearing an RCMP scarf.<br>
+— <cite>RCMP Community Engagement Officer</cite></p></blockquote>
+<blockquote class="cn-pullquote"><p>Bob reminds people that public safety conversations do not always need to feel formal. A little humour can go a long way.<br>
+— <cite>National Communications and Public Affairs</cite></p></blockquote>
 <h2 class="h3">Associated links</h2>
 <ul>
 <li><a href="#">Royal Canadian Mounted Police</a></li>	

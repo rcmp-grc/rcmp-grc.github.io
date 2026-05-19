@@ -23,10 +23,11 @@ lead: News release <span class="update-tag">Updated</span>
 	  margin-bottom: 15px;
 	}
 	.update-tag
-	{ background-color: #f5d000;
+	{ background-color: var(--rcmp-gold);
 	  font-weight: bold;
-	  font-color: #000;
-	  border-left: 5px solid #000;
+	  font-color: rgb(0,0,0);
+	 
+	  border-left: 5px solid rgb(0,0,0);
 	}		
 </style>
 <p class="lead">Richmond RCMP Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety.</p>

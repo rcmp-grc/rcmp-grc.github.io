@@ -19,8 +19,7 @@ lead: News release
 	 }
 </style>
 <p class="lead">Richmond RCMP Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety.</p>
-<div class="col-md-8">
-<section class="panel panel-warning">
+<div class="panel panel-warning">
   <header class="panel-heading">
    <h2 class="h5 panel-title"><i class="fa-regular fa-pen-to-square"></i> Updated</h5></header>	
   <div class="panel-body">
@@ -29,7 +28,6 @@ lead: News release
     <li><strong>2026-04-21, 13:58 pm</strong>: Missing person wearing prescription glasses</li>
   </ul>
   </div>
-</section>
 </div>
 <div class="clearfix"></div>
 <div class="details">

@@ -24,7 +24,6 @@
   --z-footer-contact: 100;
 
   --nav-height: 68px;
-  --bc-band-padding-left: 1.5rem;
 
   --focus-outline: 3px solid var(--c-yellow);
   --focus-offset: 2px;
@@ -251,7 +250,6 @@ button,
 .bc-row {
   display: flex;
   align-items: center;
-  min-height: var(--nav-height);
 }
 
 .bc-nav-wrap {
@@ -270,7 +268,7 @@ button,
   border-left: 4px solid var(--c-yellow);
   background: var(--c-navy);
   border-radius: 0;
-  padding: 8px 15px 8px var(--bc-band-padding-left);
+  padding: 0 20px 10px 20px;
 }
 
 .bc {

@@ -43,9 +43,9 @@ issued: 2026-05-08
 	{ padding-left: 15px;
 	}
 </style>
+<p class="lead">The Royal Canadian Mounted Police will host a community winter safety event featuring Bob the Polar Bear, the RCMP’s unofficial northern mascot.</p>
 <div class="row">
 <div class="col-md-8">
-<p class="lead">The Royal Canadian Mounted Police will host a community winter safety event featuring Bob the Polar Bear, the RCMP’s unofficial northern mascot.</p>
 <div class="details">
 <p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May 14, 2026<br>
 <i class="fa-regular fa-circle-user"></i> <a href="#">National Communications and Public Affairs</a></p></div>

@@ -65,7 +65,45 @@ Iqaluit, Nunavut</p>
 </div>
 </div>
 <div class="clearfix"></div>
-<section id="n1">
+<section id="s1">
+<h2 class="h3">Planned activities</h2>	
+	<p>Activities are expected to include:</p>
+	<ul>
+		<li>winter safety presentations</li>
+		<li>emergency preparedness demonstrations</li>
+		<li>RCMP vehicle displays</li>
+		<li>youth activities and games</li>
+		<li>community partner information booths</li>
+		<li>a meet-and-greet with Bob the Polar Bear</li>
+	</ul>
+	<p>Media attending the event may also observe Bob participating in what organizers are calling a “friendly” snowshoe race with local RCMP officers. Internal confidence in officer performance remains low.</p>
+</section>
+<section id="s2">
+<h2 class="h3">Media opportunities</h2>	
+	<p>Media representatives will have opportunities to:</p>
+	<ul>
+		<li>interview RCMP representatives</li>
+		<li>speak with community partners</li>
+		<li>capture photos and video of activities</li>
+		<li>attend scheduled remarks from event organizers</li>
+	</ul>
+	<p>Interviews with Bob the Polar Bear will be limited to non-political topics and snack-related questions.</p>
+</section>	
+<section id="s2">
+<h2 class="h3">Accreditation</h2>	
+	<p>Media representatives are asked to confirm attendance in advance by contacting Media Relations.
+</p>
+	<p>Please arrive at least 20 minutes before the start of the event.</p>
+</section>		
+<section id="s3">
+<h2 class="h3">Associated links</h2>	
+<ul>
+	<li><a href="#">Royal Canadian Mounted Police</a></li>
+	<li><a href="#">Emergency preparedness</a></li>
+    <li><a href="#">Arctic and northern affairs</a></li>
+</ul>
+</section>
+<section id="s4">
 <h2 class="h3">Contacts</h2>
 <div class="contact-signature">
     <strong>National Communications and Public Affairs</strong>
@@ -109,11 +147,12 @@ Iqaluit, Nunavut</p>
      </div>
 </div>
 </section>
-<hr>
-<section id="n2">
+<div class="explore">
+<section id="s5">
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
   <li><span class="label label-danger"><u>Media Relations</u></span></li>
   <li><span class="label label-default"><u>Community interest</u></span></li>
 </ol>
 </section>
+</div>

@@ -80,7 +80,7 @@ intro: <p>Conformément à la <cite>Loi sur les armes à feu</cite>, le Programm
         <p>Information sur les lignes directrices de conception et les exigences sonores.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Exécuteurs testamentaires</a></h3>
+        <h3><a href="#">Armes à feu laissées dans une succession</a></h3>
         <p>Information à l'intention des exécuteurs testamentaires et des bénéficiaires d'armes à feu, y compris la procédure judiciaire qui s'applique.</p>
       </div>
       <div class="col-lg-4 col-md-6">

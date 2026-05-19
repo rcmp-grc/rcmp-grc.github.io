@@ -20,12 +20,15 @@ lead: News release
 	.update
 	{ border-left: 5px solid var(--rcmp-gold);
 	  border-right: 5px solid var(--rcmp-gold);
+	  border-bottom: 5px solid var(--rcmp-gold);
+	  border-top: 5px solid var(--rcmp-gold);
 	  margin-left: 0px;
 	  margin-bottom: 15px;
 	}
 	.update-tag
 	{ font-weight: bold;
 	  font-color: rgb(0,0,0);
+	  background-color: #be2468;
 	}
 </style>
 <div class="update col-md-8">

@@ -83,7 +83,13 @@ issued: 2026-05-20
 <p>As part of that work, the organization continues to support activities that encourage positive interactions between police and the public in safe and welcoming environments.</p>
 <p>Questions have also been raised regarding reports that Bob briefly attempted to “supervise” a morning briefing. At this time, there is no evidence that operational decisions were influenced by polar bear input.</p>
 <p>No further information is available.</p>
-
+<section id="s1">
+<h2 class="h3">Associated links</h2>
+<ul>
+<li><a href="#">Royal Canadian Mounted Police</a></li>	
+<li><a href="#">Emergency preparedness</a></li>
+</ul>
+</section>	
 <section id="s2">
 <h2 class="h3">Contacts</h2>
 <div class="contact-signature">

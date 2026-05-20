@@ -66,7 +66,7 @@ issued: 2026-05-20
 </style>
 <p class="lead">Earlier today, employees at RCMP National Headquarters received an unexpected visitor.</p>
 <div class="details">
-<p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May 14, 2026<br>
+<p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May 14, 2026 - Hay River, Northwest Territories<br>
 <i class="fa-regular fa-circle-user"></i> <a href="#">National Communications and Public Affairs</a></p></div>
 <p>Earlier today, employees at RCMP National Headquarters received an unexpected visitor when Bob the Polar Bear, the RCMP’s unofficial northern mascot, entered the main lobby carrying what witnesses described as “extremely strong confidence” and a travel mug.</p>
  <p>At no time was public safety at risk.</p>	

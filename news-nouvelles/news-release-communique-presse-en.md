@@ -167,8 +167,15 @@ lead: News release
 </div>
 </section>
 </div>
+<div class="col-md-4 event">
+<p><strong>Date</strong>: Saturday, May 23, 2026</p>
+<p><strong>Time</strong>: 1-4 pm (local time)</p>
+<p><strong>Location</strong><br>
+Northern Community Recreation Centre<br>
+100 Aurora Road<br>
+Iqaluit, Nunavut</p>
 </div>
-
+</div>
 <div class="explore">		
 <section id="s9">
 <h2 class="h3">Explore related topics</h2>

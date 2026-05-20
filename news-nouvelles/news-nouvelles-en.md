@@ -280,6 +280,7 @@ issued: 2026-05-04
              <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="titleFilter" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
 				</fieldset>
 			</details>
+	</div>
 		</form>
 	   </section>
 						</div>

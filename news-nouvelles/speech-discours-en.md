@@ -4,7 +4,7 @@ title: Remarks by superintendent Bob the Polar Bear
 description: My page description
 date_modified: 2026-05-20
 lang: en
-lang_url: media-advisory-avis-medias-fr.html
+lang_url: speech-discours-fr.html
 lead: Speech
 issued: 2026-05-20
 ---

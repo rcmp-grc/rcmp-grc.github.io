@@ -30,8 +30,7 @@ issued: 2026-05-04
 						<div class="col-md-3">
        <section id="filters">	
         <form id="filterForm">
-  <input type="text" id="titleFilter" placeholder="Search news">
-  <button type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+  <input type="text" id="titleFilter" placeholder="Search news"><button type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
 			<details>
  <summary><strong>Filtres</strong></summary>
             <div><p class="small">Apply the following filtres to narrow your search</p></div>

@@ -42,7 +42,7 @@ lead: News release
 	{ padding-left: 15px;
 	}
 </style>
-<div class="col-md-8 mrgn-lft-0">
+
 <div class="update">
 	<div class="update-tag"><p><i class="fa-regular fa-pen-to-square"></i> Updated</p></div>
   <ul>
@@ -179,5 +179,3 @@ lead: News release
 </ol>
 </section>
 </div>
-</div>
-<div class="clearfix"></div>

@@ -65,7 +65,7 @@ issued: 2026-05-04
 	  padding-left: 10px; 
 	  background-color: #ffffff;
 	}
-	#summary
+	.summary
 	{ background-color: #0b0c0c;
 	  font-color: #ffffff;
 	}
@@ -94,7 +94,9 @@ issued: 2026-05-04
           </div><!--<button class="srchbox button" type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>-->
 			 <div><p class="small">Apply the following filtres to narrow your search</p></div>
 			<details>
- <summary><strong>Filtre by</strong></summary>
+				
+ <summary><div class="summary"><strong>Filtre by</strong></div></summary>
+
 			<fieldset>
                 <legend class="small"><strong>Category</strong></legend>
 				  <div class="checkbox">

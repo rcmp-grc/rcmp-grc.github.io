@@ -74,12 +74,12 @@ issued: 2026-05-20
 <p>The RCMP appreciates the professionalism shown by employees and security personnel during the visit. Staff members responded appropriately, remained calm, and, in most cases, resisted taking selfies while on duty.</p>
 <p>Although Bob is a fictional mascot used during community outreach activities, the RCMP recognizes the positive role public engagement initiatives can play in building relationships with communities across Canada.</p>
 <p>The RCMP remains committed to:</p>
-	<ul>
+<ul>
 		<li>community safety</li>
 		<li>meaningful engagement</li>
 		<li>youth outreach</li>
 		<li>public trust</li>
-	</ul>
+</ul>
 <p>As part of that work, the organization continues to support activities that encourage positive interactions between police and the public in safe and welcoming environments.</p>
 <p>Questions have also been raised regarding reports that Bob briefly attempted to “supervise” a morning briefing. At this time, there is no evidence that operational decisions were influenced by polar bear input.</p>
 <p>No further information is available.</p>

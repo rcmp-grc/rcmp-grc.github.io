@@ -42,8 +42,7 @@ lead: News release
 	{ padding-left: 15px;
 	}
 </style>
-<div class="row">
-<div class="col-md-8"> 
+
 <div class="update">
 	<div class="update-tag"><p><i class="fa-regular fa-pen-to-square"></i> Updated</p></div>
   <ul>
@@ -55,15 +54,8 @@ lead: News release
 <div class="details">
 <p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May&nbsp;7, 2026 - Richmond, British Columbia<br>
 <i class="fa-regular fa-circle-user"></i> <a href="https://rcmp.ca/en/bc/richmond">Richmond <abbr>RCMP</abbr></a></p></div>
-<div class="col-md-6 center-block mrgn-lft-0">
-<div class="panel panel-default">
-  <div class="panel-body">
-   <img class="img-responsive" src="news-img.jpg" alt="" />
-  </div>
-  <footer class="panel-footer">Caption for the image</footer>
-</div>	
-</div>
-<div class="clearfix"></div>
+<div class="row">
+<div class="col-md-8"> 
 <p>Richmond <abbr>RCMP</abbr> Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety, as part of the province-wide <abbr>BC</abbr> Association of Chiefs of Police enforcement calendar in partnership with <abbr>ICBC</abbr>.</p>
 <p>As warmer weather brings more motorcycles onto Richmond roads, officers will be focused on the behaviours most often linked to serious crashes including failing to yield, ignoring traffic control devices, following too closely, and improper passing. With six out of ten motorcycle crashes in <abbr>BC</abbr> occurring at intersections, drivers will see increased patrols at key Richmond intersections throughout the month.</p>
 <p>While motorcycles make up roughly three percent of insured vehicles in <abbr>BC</abbr>, they are involved in approximately ten percent of road fatalities, <a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/motorcycle-safety">according to the Province of British Columbia</a>. The fatality rate for drivers under 25 is on average 15 times higher than drivers over 25&nbsp;years of age.</p>
@@ -175,7 +167,8 @@ lead: News release
 </div>
 </section>
 </div>
-	
+</div>
+
 <div class="explore">		
 <section id="s9">
 <h2 class="h3">Explore related topics</h2>

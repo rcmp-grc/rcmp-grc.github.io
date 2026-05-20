@@ -30,7 +30,16 @@ issued: 2026-05-04
 						<div class="col-md-3">
        <section id="filters">	
         <form id="filterForm">
-  <input type="text" id="titleFilter" placeholder="Search news"><button class="srchbox button" type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+			<div class="form-group wb-srch-qry">		
+			<label class="wb-inv" for="titleFilter">Search RCMP news</label>	
+  <input type="text" class="wb-srch-q form-control" maxlength="100" id="titleFilter" placeholder="Search news">
+			</div>
+			<div class="form-group submit">
+            <button class="btn btn-primary btn-small" type="submit" title="Search">
+              <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
+              <span class="wb-inv">Search</span>
+            </button>
+          </div><!--<button class="srchbox button" type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>-->
 			<details>
  <summary><strong>Filtres</strong></summary>
             <div><p class="small">Apply the following filtres to narrow your search</p></div>

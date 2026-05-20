@@ -65,9 +65,8 @@ issued: 2026-05-04
 	  padding-left: 10px; 
 	  background-color: #ffffff;
 	}
-	.summary
-	{ background-color: #0b0c0c;
-	  font-color: #ffffff;
+	#details
+	{ background-color: #f3f2f1;
 	}
 </style>
 <p>Read the RCMP news and communications.</p>
@@ -94,8 +93,7 @@ issued: 2026-05-04
           </div><!--<button class="srchbox button" type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>-->
 			 <div><p class="small">Apply the following filtres to narrow your search</p></div>
 			<details>
-				
- <summary><div class="summary"><strong>Filtre by</strong></div></summary>
+ <summary><strong>Filtre by</strong></summary>
 
 			<fieldset>
                 <legend class="small"><strong>Category</strong></legend>

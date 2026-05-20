@@ -106,12 +106,14 @@ lead: News release
 	</ul>
 </div>
 </div>
+<div class="clearfix"></div>	
 </section>
 <section id="s5">
 <h2 class="h3">Quotes</h2>
 <div class="col-md-6 mrgn-lft-0">	
 <blockquote class="cn-pullquote">Most of these collisions come down to choices—a driver who doesn’t take that second look before making a left turn, or a rider going too fast for conditions. Our goal this may is to see fewer collisions, fewer injuries, and every rider and driver getting home safely.</blockquote>
 </div>
+<div class="clearfix"></div>	
 </section>	
 <section id="s6">
 <h2 class="h3">Quick facts</h2>

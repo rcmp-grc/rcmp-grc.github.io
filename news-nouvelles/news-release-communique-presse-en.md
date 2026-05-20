@@ -169,7 +169,7 @@ lead: News release
 <div class="col-md-4">
 <div class="panel panel-default">
   <div class="panel-body">
-	 <img src="news-img.jpg" class="img-responsive full-width" alt="" /> 
+	 <img src="primary-news.jpg" class="img-responsive full-width" alt="" /> 
   </div>
 	<footer class="panel-footer">
    <p>Caption for the photo</p>

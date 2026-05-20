@@ -26,7 +26,7 @@ issued: 2026-05-04
     </section>
   </div>
 </div>
-<div class="row mrgn-tp-lg">
+<div class="row">
 						<div class="col-md-3">
        <section id="filters">	
         <form id="filterForm">
@@ -231,7 +231,7 @@ issued: 2026-05-04
 		</form>
 	   </section>
 						</div>
-  <div class="col-md-9 mrgn-tp-lg">
+  <div class="col-md-9">
     <section id="body">
       <h2 class="wb-inv">List of news</h2>
 <div class="panel panel-body panel-warning mrgn-tp-0 mrgn-bttm-sm">

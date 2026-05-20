@@ -11,6 +11,65 @@ subject:
 issued: 2026-05-04
 ---
 
+<style>
+	.details
+	 { border-top: 2px solid var(--rcmp-gold);
+	   margin-bottom: 10px;
+	   margin-left: 0px;
+	 }
+	.explore
+	{ border-top: 2px solid var(--rcmp-gold);
+	 }
+	.update
+	{ border-left: 5px solid var(--rcmp-gold);
+	  border-right: 5px solid var(--rcmp-gold);
+	  border-bottom: 5px solid var(--rcmp-gold);
+	  border-top: 5px solid var(--rcmp-gold);
+	  margin-left: 0px;
+	  padding-left: 0px;
+	  margin-bottom: 15px;
+	}
+	.update-tag
+	{ font-weight: bold;
+	  font-color: #0b0c0c;
+	  padding-left: 0px;
+	  width: 130px;
+	  background-color: #bea468;
+	}
+	.left 
+	{ justify-content: left;
+	  align-items: left;
+	  margin-left: 0px;
+    }
+	.wb-lbx lbx-gal
+	{ padding-left: 15px;
+	}
+	.event
+	{ border-left: 3px solid #f2f2f2;
+	  border-right: 3px solid #f2f2f2;
+	  border-bottom: 3px solid #f2f2f2;
+	  border-top: 3px solid #f2f2f2;
+	  padding-left: 0px;
+	  padding-right: 10px;
+	}
+	.event-tag
+	{ font-weight: bold;
+	  font-color: #0b0c0c;
+	  padding-left: 0px; 
+	  width: 175px;
+	  background-color: #f2f2f2;
+	}
+	.event-details
+	{ font-weight: normal;
+	  font-color: #0b0c0c;
+	  padding-left: 10px; 
+	  background-color: #ffffff;
+	}
+	#summary
+	{ background-color: #0b0c0c;
+	  font-color: #ffffff;
+	}
+</style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">
   <div class="col-md-4">

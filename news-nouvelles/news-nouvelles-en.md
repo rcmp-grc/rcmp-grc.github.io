@@ -12,7 +12,7 @@ issued: 2026-05-04
 ---
 
 <p>Read the RCMP news and communications.</p>
-<div class="row">
+<div class="row mrgn-bttm-lg">
   <div class="col-md-4">
     <section class="gc-drmt">
       <h3 class="h5" data-emptytext="Executive"><a href="/en/news/comm-en.html">Read the latest communications from our executive</a></h3>

@@ -42,7 +42,6 @@ lead: News release
 	{ padding-left: 15px;
 	}
 </style>
-
 <div class="update col-md-8">
 	<div class="update-tag"><p><i class="fa-regular fa-pen-to-square"></i> Updated</p></div>
   <ul>
@@ -54,7 +53,7 @@ lead: News release
 <div class="details">
 <p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May&nbsp;7, 2026 - Richmond, British Columbia<br>
 <i class="fa-regular fa-circle-user"></i> <a href="https://rcmp.ca/en/bc/richmond">Richmond <abbr>RCMP</abbr></a></p></div>
-<div class="panel panel-default">
+<div class="panel panel-default col-md-8">
   <div class="panel-body">
    <img class="img-responsive" src="news-img.jpg" alt="" />
   </div>

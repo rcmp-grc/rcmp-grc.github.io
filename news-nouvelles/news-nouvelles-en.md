@@ -32,7 +32,7 @@ issued: 2026-05-04
         <form id="filterForm">
 			<div class="form-group wb-srch-qry">		
 			<label class="wb-inv" for="titleFilter">Search RCMP news</label>	
-  <input type="text" class="wb-srch-q form-control" maxlength="100" id="titleFilter" placeholder="Search news">
+  <input type="text" class="wb-srch-q form-control" maxlength="50" id="titleFilter" placeholder="Search news">
 			</div>
 			<div class="form-group submit">
             <button class="btn btn-primary btn-small" type="submit" title="Search">

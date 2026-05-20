@@ -45,8 +45,8 @@ permalink: error-erreur-404.html
     <h2>Page non trouvée</h2>
     <p><span class="label label-danger">Erreur 404</span></p>
     <p class="hidden-xl hidden-md hidden-lg"><a href="#en">Go to the English version</a></p>
-    <p>La page que vous souhaitez consulter a peut-être été déplacée, renommée ou supprimée. Assurez-vous que l'adresse Web (URL) est exacte ou utilisez l’un des liens ci-dessous pour continuer à naviguer RCMP.ca.</p>
-    <p>Liens populaires &nbsp;:</p>
+    <p>La page que vous souhaitez consulter a peut-être été déplacée, renommée ou supprimée. Assurez-vous que l'adresse Web (URL) est exacte ou utilisez l'un des liens ci-dessous pour continuer à naviguer GRC.ca.</p>
+    <p>Liens populaires&nbsp;:</p>
     <ul>
       <li><a href="https://grc.ca/fr">Page d'accueil de la GRC.ca</a></li>
       <li><a href="https://grc.ca/fr/contactez-grc">Contactez la GRC</a></li>

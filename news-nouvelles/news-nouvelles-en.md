@@ -90,11 +90,7 @@ issued: 2026-05-04
        <section id="filters">	
         <form id="filterForm">
 				<div class="form-group wb-srch-qry">		
-			<label class="wb-inv" for="titleFilter">Search RCMP news</label>	
-  <input type="text" class="wb-srch-q form-control" maxlength="20" id="titleFilter" placeholder="Search news">
-			</div>
-			<div class="form-group submit mrgn-lft-0">
-            <button class="btn btn-primary btn-small" type="submit" title="Search">
+<label class="wb-inv" for="titleFilter">Search RCMP news</label><input type="text" class="wb-srch-q form-control" maxlength="10" id="titleFilter" placeholder="Search news"><button class="btn btn-primary btn-small" type="submit" title="Search">
               <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
               <span class="wb-inv">Search</span>
             </button>

@@ -169,13 +169,16 @@ lead: News release
 </div>
 <div class="col-md-4">
 <div class="panel panel-default">
-	<img src="news-img" alt="" />
   <div class="panel-body">
+	 <img src="news-img.jpg" alt="" /> 
+  </div>
+	<footer class="panel-footer">
    <p>Caption for the photo</p>
+	</footer>
   </div>
 </div>
 </div>
-</div>
+<div class="clearfix"></div>
 <div class="explore">		
 <section id="s9">
 <h2 class="h3">Explore related topics</h2>

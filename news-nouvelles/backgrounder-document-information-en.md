@@ -110,10 +110,12 @@ issued: 2026-05-08
 <li>mental health awareness campaigns</li>
 <li>environmental stewardship</li>
 </ul>
-	<p>At some events, Bob has also been known to challenge RCMP officers to snowshoe races. Results remain disputed.</p>
-<h2 class="h3">Safety and wildlife message</h2>
+<p>At some events, Bob has also been known to challenge RCMP officers to snowshoe races. Results remain disputed.</p>
+<section class="alert alert-warning">
+ <h2 class="h3">Safety and wildlife message</h2>
 <p>Although Bob is a fictional mascot, polar bears are real wild animals and can be dangerous. Canadians visiting northern regions should always follow local wildlife safety guidance and instructions from authorities and community leaders.</p>
-<p>More information on wildlife safety is available through: Polar bear safety information</p>	
+<p>More information on wildlife safety is available through: <a href="#">Polar bear safety information</a>.</p>	
+</section>	
 <h2 class="h3">Quotes</h2>
 <blockquote class="cn-pullquote"><p>Community policing is about relationships. Sometimes those relationships include a six-foot polar bear mascot wearing an RCMP scarf.<br>
 — <cite>RCMP Community Engagement Officer</cite></p></blockquote>

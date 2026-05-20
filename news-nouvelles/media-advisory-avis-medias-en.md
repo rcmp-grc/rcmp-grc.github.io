@@ -157,7 +157,7 @@ issued: 2026-05-08
 </div>
 </section>
 </div>
-<div class="col-md-4 event pull-left">
+<div class="col-md-4 event">
 <div class="event-tag"><p><i class="fa-solid fa-thumbtack"></i> Event details</p></div>  
 <div class="event-details">	
 <p><strong>Date</strong>: Saturday, May 23, 2026</p>

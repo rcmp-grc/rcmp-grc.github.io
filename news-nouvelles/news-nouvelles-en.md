@@ -40,9 +40,9 @@ issued: 2026-05-04
               <span class="wb-inv">Search</span>
             </button>
           </div><!--<button class="srchbox button" type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>-->
+			 <div><p class="small">Apply the following filtres to narrow your search</p></div>
 			<details>
- <summary><strong>Filtres</strong></summary>
-            <div><p class="small">Apply the following filtres to narrow your search</p></div>
+ <summary><strong>Filtre by</strong></summary>
 			<fieldset>
                 <legend class="small"><strong>Category</strong></legend>
 				  <div class="checkbox">
@@ -227,14 +227,6 @@ issued: 2026-05-04
 					  <legend class="small"><strong>Published</strong></legend>
              <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="titleFilter" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
 				</fieldset>
-              <div class="row mrgn-tp-md">
-                <div class="col-xs-6">
-                  <button class="btn btn-primary" type="submit" title="Search">Apply filters</button>
-                </div>
-                <div class="col-xs-6">
-                  <button class="btn btn-default" type="reset">Clear filters</button>
-				</div>
-			  </div>
 			</details>
 		</form>
 	   </section>

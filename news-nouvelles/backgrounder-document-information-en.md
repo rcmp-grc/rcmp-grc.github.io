@@ -118,9 +118,9 @@ issued: 2026-05-08
 </section>	
 <h2 class="h3">Quotes</h2>
 <blockquote class="cn-pullquote"><p>Community policing is about relationships. Sometimes those relationships include a six-foot polar bear mascot wearing an RCMP scarf.<br>
-— <cite>RCMP Community Engagement Officer</cite></p></blockquote>
+<span class="small">— <span class="small"><cite>RCMP Community Engagement Officer</cite></span></p></blockquote>
 <blockquote class="cn-pullquote"><p>Bob reminds people that public safety conversations do not always need to feel formal. A little humour can go a long way.<br>
-— <cite>National Communications and Public Affairs</cite></p></blockquote>
+<span class="small">— <cite>National Communications and Public Affairs</cite></span></p></blockquote>
 <h2 class="h3">Associated links</h2>
 <ul>
 <li><a href="#">Royal Canadian Mounted Police</a></li>	

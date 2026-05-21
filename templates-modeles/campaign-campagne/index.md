@@ -13,8 +13,8 @@ issued: 2026-05-15
 <nav>
     <h2>On this page</h2>
     <ul>
-        <li><a href="#s1">Section 1</a></li>>
-        <li><a href="#">Section 2</a></li>>
+        <li><a href="#s1">Section 1</a></li>
+        <li><a href="#">Section 2</a></li>
         <li><a href="#">Section 3</a></li>
     </ul>
 </nav>

@@ -68,6 +68,26 @@ issued: 2026-05-04
 	.form-details
 	{ background-color: #f3f2f1;
 	}
+	#applied-filters 
+	{ display: flex; 
+	 gap: 10px; 
+	 margin-bottom: 20px; } 
+	.filter-pill 
+	{ background-color: #e0e0e0; 
+	 padding: 8px 15px; 
+	 border-radius: 20px; 
+	 display: flex; 
+	 align-items: center; 
+	 gap: 8px; 
+	 transition: opacity 0.3s ease, transform 0.3s ease; } 
+	.filter-pill button 
+	{ background: none; 
+	 border: none; 
+	 font-size: 18px; 
+	 cursor: pointer; } 
+	.filter-pill.fade-out 
+	{ opacity: 0; 
+	 transform: scale(0.8); }
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">
@@ -289,7 +309,11 @@ issued: 2026-05-04
       <h2 class="wb-inv">List of news</h2>
 <div class="panel panel-body panel-warning mrgn-tp-0 mrgn-bttm-sm">
    <p><i class="fa-solid fa-filter"></i> <span class="wb-inv">Filtres selected:</span> </p>
-   </div>
+<div id="applied-filters"> 
+<div class="filter-pill" data-filter="category-electronics"><button onclick="removeFilter(this)">×</button> Electronics </div> 
+<div class="filter-pill" data-filter="status-active"><button onclick="removeFilter(this)">×</button> Active </div> 
+</div>
+</div>
 		 <table id="dataTable" class="wb-tables table nws-tbl table-striped">
 			 <thead>
     <tr><th class="hidden" tabindex="-1">Title</th><th class="hidden" tabindex="-1">Date</th>  <th class="hidden" tabindex="-1">Location</th><th class="hidden" tabindex="-1">Description</th></tr>

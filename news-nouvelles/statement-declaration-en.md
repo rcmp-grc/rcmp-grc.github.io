@@ -1,12 +1,12 @@
 ---
 layout: default
-title: CMP and Bob the Polar Bear to host northern community winter safety event
+title: Bob the Polar Bear’s unexpected visit to headquarters
 description: My page description
-date_modified: 2026-05-19
+date_modified: 2026-05-20
 lang: en
-lang_url: media-advisory-avis-medias-fr.html
-lead: Media Advisory
-issued: 2026-05-08
+lang_url: statement-declaration-fr.html
+lead: Statement
+issued: 2026-05-20
 ---
 
 <style>
@@ -64,55 +64,33 @@ issued: 2026-05-08
 	  background-color: #ffffff;
 	}
 </style>
-<p class="lead">The Royal Canadian Mounted Police will host a community winter safety event featuring Bob the Polar Bear, the RCMP’s unofficial northern mascot.</p>
+<p class="lead">Earlier today, employees at RCMP National Headquarters received an unexpected visitor.</p>
 <div class="details">
-<p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May 14, 2026 - Ottawa, Ontario<br>
+<p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May 14, 2026 - Hay River, Northwest Territories<br>
 <i class="fa-regular fa-circle-user"></i> <a href="#">National Communications and Public Affairs</a></p></div>
-<div class="row">
-<div class="col-md-8"> 
-<p>The Royal Canadian Mounted Police will host a community winter safety event featuring Bob the Polar Bear, the RCMP’s unofficial northern mascot.</p>
- <p>Members of the media are invited to attend.</p>	
- <p>The event will focus on winter preparedness, youth engagement, emergency awareness, and community safety. Activities will include safety demonstrations, educational booths, family activities, and opportunities for interviews and photos.</p>
-<p>Bob the Polar Bear is also expected to make a special appearance, weather and fish supply permitting.</p>
+<p>Earlier today, employees at RCMP National Headquarters received an unexpected visitor when Bob the Polar Bear, the RCMP’s unofficial northern mascot, entered the main lobby carrying what witnesses described as “extremely strong confidence” and a travel mug.</p>
+ <p>At no time was public safety at risk.</p>	
+ <p>Bob’s visit appears to have been connected to an informal campaign advocating for longer outdoor lunch breaks during winter months. Discussions reportedly ended after officials agreed that “fresh air is important” and someone provided frozen salmon snacks.</p>
+<p>The RCMP appreciates the professionalism shown by employees and security personnel during the visit. Staff members responded appropriately, remained calm, and, in most cases, resisted taking selfies while on duty.</p>
+<p>Although Bob is a fictional mascot used during community outreach activities, the RCMP recognizes the positive role public engagement initiatives can play in building relationships with communities across Canada.</p>
+<p>The RCMP remains committed to:</p>
+<ul>
+		<li>community safety</li>
+		<li>meaningful engagement</li>
+		<li>youth outreach</li>
+		<li>public trust</li>
+</ul>
+<p>As part of that work, the organization continues to support activities that encourage positive interactions between police and the public in safe and welcoming environments.</p>
+<p>Questions have also been raised regarding reports that Bob briefly attempted to “supervise” a morning briefing. At this time, there is no evidence that operational decisions were influenced by polar bear input.</p>
+<p>No further information is available.</p>
 <section id="s1">
-<h2 class="h3">Planned activities</h2>	
-	<p>Activities are expected to include:</p>
-	<ul>
-		<li>winter safety presentations</li>
-		<li>emergency preparedness demonstrations</li>
-		<li>RCMP vehicle displays</li>
-		<li>youth activities and games</li>
-		<li>community partner information booths</li>
-		<li>a meet-and-greet with Bob the Polar Bear</li>
-	</ul>
-	<p>Media attending the event may also observe Bob participating in what organizers are calling a “friendly” snowshoe race with local RCMP officers. Internal confidence in officer performance remains low.</p>
-</section>
-<section id="s2">
-<h2 class="h3">Media opportunities</h2>	
-	<p>Media representatives will have opportunities to:</p>
-	<ul>
-		<li>interview RCMP representatives</li>
-		<li>speak with community partners</li>
-		<li>capture photos and video of activities</li>
-		<li>attend scheduled remarks from event organizers</li>
-	</ul>
-	<p>Interviews with Bob the Polar Bear will be limited to non-political topics and snack-related questions.</p>
+<h2 class="h3">Associated links</h2>
+<ul>
+<li><a href="#">Royal Canadian Mounted Police</a></li>	
+<li><a href="#">Emergency preparedness</a></li>
+</ul>
 </section>	
 <section id="s2">
-<h2 class="h3">Accreditation</h2>	
-	<p>Media representatives are asked to confirm attendance in advance by contacting Media Relations.
-</p>
-	<p>Please arrive at least 20 minutes before the start of the event.</p>
-</section>		
-<section id="s3">
-<h2 class="h3">Associated links</h2>	
-<ul>
-	<li><a href="#">Royal Canadian Mounted Police</a></li>
-	<li><a href="#">Emergency preparedness</a></li>
-    <li><a href="#">Arctic and northern affairs</a></li>
-</ul>
-</section>
-<section id="s4">
 <h2 class="h3">Contacts</h2>
 <div class="contact-signature">
     <strong>National Communications and Public Affairs</strong>
@@ -156,20 +134,6 @@ issued: 2026-05-08
      </div>
 </div>
 </section>
-</div>
-<div class="col-md-4 event">
-<div class="event-tag"><p><i class="fa-solid fa-thumbtack"></i> Event details</p></div>  
-<div class="event-details">	
-<p><strong>Date</strong>: Saturday, May 23, 2026</p>
-<p><strong>Time</strong>: 1-4 pm (local time)</p>
-<p><strong>Location</strong><br>
-Northern Community Recreation Centre<br>
-100 Aurora Road<br>
-Iqaluit, Nunavut</p>
-  </div>
-</div>
-</div>
-<div class="clearfix"></div>
 <div class="explore">
 <section id="s5">
 <h2 class="h3">Explore related topics</h2>

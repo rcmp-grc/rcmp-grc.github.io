@@ -11,8 +11,66 @@ subject:
 issued: 2026-05-04
 ---
 
+<style>
+	.details
+	 { border-top: 2px solid var(--rcmp-gold);
+	   margin-bottom: 10px;
+	   margin-left: 0px;
+	 }
+	.explore
+	{ border-top: 2px solid var(--rcmp-gold);
+	 }
+	.update
+	{ border-left: 5px solid var(--rcmp-gold);
+	  border-right: 5px solid var(--rcmp-gold);
+	  border-bottom: 5px solid var(--rcmp-gold);
+	  border-top: 5px solid var(--rcmp-gold);
+	  margin-left: 0px;
+	  padding-left: 0px;
+	  margin-bottom: 15px;
+	}
+	.update-tag
+	{ font-weight: bold;
+	  font-color: #0b0c0c;
+	  padding-left: 0px;
+	  width: 130px;
+	  background-color: #bea468;
+	}
+	.left 
+	{ justify-content: left;
+	  align-items: left;
+	  margin-left: 0px;
+    }
+	.wb-lbx lbx-gal
+	{ padding-left: 15px;
+	}
+	.event
+	{ border-left: 3px solid #f2f2f2;
+	  border-right: 3px solid #f2f2f2;
+	  border-bottom: 3px solid #f2f2f2;
+	  border-top: 3px solid #f2f2f2;
+	  padding-left: 0px;
+	  padding-right: 10px;
+	}
+	.event-tag
+	{ font-weight: bold;
+	  font-color: #0b0c0c;
+	  padding-left: 0px; 
+	  width: 175px;
+	  background-color: #f2f2f2;
+	}
+	.event-details
+	{ font-weight: normal;
+	  font-color: #0b0c0c;
+	  padding-left: 10px; 
+	  background-color: #ffffff;
+	}
+	.form-details
+	{ background-color: #f3f2f1;
+	}
+</style>
 <p>Read the RCMP news and communications.</p>
-<div class="row">
+<div class="row mrgn-bttm-lg">
   <div class="col-md-4">
     <section class="gc-drmt">
       <h3 class="h5" data-emptytext="Executive"><a href="/en/news/comm-en.html">Read the latest communications from our executive</a></h3>
@@ -26,15 +84,17 @@ issued: 2026-05-04
     </section>
   </div>
 </div>
-<div class="row mrgn-tp-lg">
+<div class="row">
 						<div class="col-md-3">
        <section id="filters">	
         <form id="filterForm">
-  <input type="text" id="titleFilter" placeholder="Search news">
-  <button type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+				<div class="form-group wb-srch-qry">		
+<label class="wb-inv" for="titleFilter">Search RCMP news</label><input type="text" maxlength="20" id="titleFilter"><button class="btn btn-primary btn-small" type="submit" title="Search"><span class="glyphicon-search glyphicon" aria-hidden="true"></span><span class="wb-inv">Search</span></button>
+          </div><!--<button class="srchbox button" type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>-->
+			 <div><p class="small">Apply the following filtres to narrow your search</p></div>
+	<div class="form-details">
 			<details>
- <summary><strong>Filtres</strong></summary>
-            <div><p class="small">Apply the following filtres to narrow your search</p></div>
+ <summary><strong>Filtre by</strong></summary>
 			<fieldset>
                 <legend class="small"><strong>Category</strong></legend>
 				  <div class="checkbox">
@@ -219,19 +279,12 @@ issued: 2026-05-04
 					  <legend class="small"><strong>Published</strong></legend>
              <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="titleFilter" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
 				</fieldset>
-              <div class="row mrgn-tp-md">
-                <div class="col-xs-6">
-                  <button class="btn btn-primary" type="submit" title="Search">Apply filters</button>
-                </div>
-                <div class="col-xs-6">
-                  <button class="btn btn-default" type="reset">Clear filters</button>
-				</div>
-			  </div>
 			</details>
+	</div>
 		</form>
 	   </section>
 						</div>
-  <div class="col-md-9 mrgn-tp-lg">
+  <div class="col-md-9">
     <section id="body">
       <h2 class="wb-inv">List of news</h2>
 <div class="panel panel-body panel-warning mrgn-tp-0 mrgn-bttm-sm">

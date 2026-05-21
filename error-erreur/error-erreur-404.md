@@ -13,8 +13,8 @@ permalink: error-erreur-404.html
     <h2>Page not found</h2>
     <p><span class="label label-danger">404 error</span></p>
     <p class="hidden-xl hidden-md hidden-lg"><a href="#fr">Aller à la version française</a></p>
-    <p>The page you're looking for may have been moved or deleted. Check that the web address (URL) is spelled correctly. Do not include special characters or spaces in the URL.</p>
-    <p>You may be looking for:</p>
+    <p>The page you're looking for may have been moved, renamed or deleted. Check that the web address (URL) is entered correctly or use one of the links below to continue browsing RCMP.ca.</p>
+    <p>Popular links:</p>
     <ul>
       <li><a href="https://rcmp.ca/en">RCMP.ca home page</a></li>
       <li><a href="https://rcmp.ca/en/contact-rcmp">Contact the RCMP</a></li>
@@ -45,8 +45,8 @@ permalink: error-erreur-404.html
     <h2>Page non trouvée</h2>
     <p><span class="label label-danger">Erreur 404</span></p>
     <p class="hidden-xl hidden-md hidden-lg"><a href="#en">Go to the English version</a></p>
-    <p>La page que vous souhaitez consulter a peut-être été déplacée ou supprimée. Assurez-vous que l'adresse Web (URL) est exacte. N'incluez pas de caractères spéciaux ni d'espaces dans l'URL.</p>
-    <p>Vous cherchez peut-être l'une des pages suivantes&nbsp;:</p>
+    <p>La page que vous souhaitez consulter a peut-être été déplacée, renommée ou supprimée. Assurez-vous que l'adresse Web (URL) est exacte ou utilisez l'un des liens ci-dessous pour continuer à naviguer GRC.ca.</p>
+    <p>Liens populaires&nbsp;:</p>
     <ul>
       <li><a href="https://grc.ca/fr">Page d'accueil de la GRC.ca</a></li>
       <li><a href="https://grc.ca/fr/contactez-grc">Contactez la GRC</a></li>

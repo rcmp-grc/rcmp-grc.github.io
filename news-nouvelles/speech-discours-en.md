@@ -1,12 +1,12 @@
 ---
 layout: default
-title: CMP and Bob the Polar Bear to host northern community winter safety event
+title: Remarks by superintendent Bob the Polar Bear
 description: My page description
-date_modified: 2026-05-19
+date_modified: 2026-05-20
 lang: en
-lang_url: media-advisory-avis-medias-fr.html
-lead: Media Advisory
-issued: 2026-05-08
+lang_url: speech-discours-fr.html
+lead: Speech
+issued: 2026-05-20
 ---
 
 <style>
@@ -64,45 +64,67 @@ issued: 2026-05-08
 	  background-color: #ffffff;
 	}
 </style>
-<p class="lead">The Royal Canadian Mounted Police will host a community winter safety event featuring Bob the Polar Bear, the RCMP’s unofficial northern mascot.</p>
+<p class="lead">It is not every day a polar bear gets invited indoors and offered coffee before the officers.</p>
 <div class="details">
 <p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May 14, 2026 - Ottawa, Ontario<br>
-<i class="fa-regular fa-circle-user"></i> <a href="#">National Communications and Public Affairs</a></p></div>
-<div class="row">
-<div class="col-md-8"> 
-<p>The Royal Canadian Mounted Police will host a community winter safety event featuring Bob the Polar Bear, the RCMP’s unofficial northern mascot.</p>
- <p>Members of the media are invited to attend.</p>	
- <p>The event will focus on winter preparedness, youth engagement, emergency awareness, and community safety. Activities will include safety demonstrations, educational booths, family activities, and opportunities for interviews and photos.</p>
-<p>Bob the Polar Bear is also expected to make a special appearance, weather and fish supply permitting.</p>
+<i class="fa-regular fa-circle-user"></i> <a href="#">National Communications and Public Affairs</a></p>
+<p><strong>Community winter safety and northern outreach event<br>
+Check against deliver</strong></p>
+</div>
+<p>Good afternoon everyone,</p>	
+ <p>Thank you for the warm welcome. It is not every day a polar bear gets invited indoors and offered coffee before the officers.</p>
+<p>I am proud to be here today on behalf of the Royal Canadian Mounted Police to talk about something important to all of us: community, safety, and looking out for one another, especially during long Canadian winters.</p>
+<p>Across northern communities, people rely on each other. Weather changes fast. Conditions can shift without warning. Sometimes a short trip becomes much more complicated than expected. That is why preparation matters.</p>
+<p>It is also why relationships matter.</p>
+<p>The RCMP continues to work with local communities, Indigenous partners, youth organizations, schools, Elders, and municipal leaders to support public safety in practical and meaningful ways.</p>
+<p>Today’s event may be fun and family focused, but the message behind it is serious:</p>
+<ul>
+<li>check weather conditions before travelling</li>
+<li>carry emergency supplies</li>
+<li>wear proper winter gear</li>
+<li>tell someone where you are going</li>
+<li>look after your neighbours.</li>
+</ul>
+<p>And please, if you see a polar bear wearing an RCMP scarf, do not attempt to recruit him into traffic enforcement. I have already declined twice.</p>
 <section id="s1">
-<h2 class="h3">Planned activities</h2>	
-	<p>Activities are expected to include:</p>
+<h2 class="h3">Supporting youth and community connections</h2>	
+	<p>One of the most important parts of policing is building trust with young people.</p>
+<p>Community events like this create opportunities for conversations that feel natural. Children get to meet officers, ask questions, and learn about safety in a positive environment. Sometimes they also ask whether RCMP patrol vehicles come with heated fish storage compartments. For the record, they do not.</p>
+<p>The RCMP believes strong communities are built through:</p>
 	<ul>
-		<li>winter safety presentations</li>
-		<li>emergency preparedness demonstrations</li>
-		<li>RCMP vehicle displays</li>
-		<li>youth activities and games</li>
-		<li>community partner information booths</li>
-		<li>a meet-and-greet with Bob the Polar Bear</li>
+		<li>respect</li>
+		<li>collaboration</li>
+		<li>inclusion</li>
+		<li>shared responsibility</li>
 	</ul>
 	<p>Media attending the event may also observe Bob participating in what organizers are calling a “friendly” snowshoe race with local RCMP officers. Internal confidence in officer performance remains low.</p>
 </section>
 <section id="s2">
-<h2 class="h3">Media opportunities</h2>	
-	<p>Media representatives will have opportunities to:</p>
+<h2 class="h3">Northern resilience</h2>	
+	<p>Northern communities continue to show incredible resilience, leadership, and generosity.</p>
+<p>Whether responding to severe weather, supporting search and rescue efforts, or organizing local outreach activities, people consistently step forward to help one another. That spirit deserves recognition.</p>
+<p>The RCMP remains committed to supporting communities through:</p>
 	<ul>
-		<li>interview RCMP representatives</li>
-		<li>speak with community partners</li>
-		<li>capture photos and video of activities</li>
-		<li>attend scheduled remarks from event organizers</li>
+		<li>crime prevention initiatives</li>
+		<li>emergency preparedness awareness</li>
+		<li>culturally informed engagement</li>
+		<li>youth programming</li>
+    <li>public safety partnerships</li>
 	</ul>
-	<p>Interviews with Bob the Polar Bear will be limited to non-political topics and snack-related questions.</p>
-</section>	
 <section id="s2">
-<h2 class="h3">Accreditation</h2>	
-	<p>Media representatives are asked to confirm attendance in advance by contacting Media Relations.
-</p>
-	<p>Please arrive at least 20 minutes before the start of the event.</p>
+<h2 class="h3">Closing remarks</h2>	
+	<p>Before I conclude, I would like to thank:</p>
+  <ul>
+<li>community organizers</li>
+<li>local volunteers</li>
+<li>emergency responders</li>
+<li>RCMP employees</li>
+<li>everyone attending today’s event</li>
+</ul>
+<p>Your work and participation help strengthen safer and healthier communities.</p>
+<p>And finally, thank you for continuing to pretend not to notice the fish treats in my uniform pocket.</p>
+<p>Stay safe, travel carefully, and enjoy the rest of the event.</p>
+<p>Thank you.</p>
 </section>		
 <section id="s3">
 <h2 class="h3">Associated links</h2>	
@@ -156,20 +178,6 @@ issued: 2026-05-08
      </div>
 </div>
 </section>
-</div>
-<div class="col-md-4 event">
-<div class="event-tag"><p><i class="fa-solid fa-thumbtack"></i> Event details</p></div>  
-<div class="event-details">	
-<p><strong>Date</strong>: Saturday, May 23, 2026</p>
-<p><strong>Time</strong>: 1-4 pm (local time)</p>
-<p><strong>Location</strong><br>
-Northern Community Recreation Centre<br>
-100 Aurora Road<br>
-Iqaluit, Nunavut</p>
-  </div>
-</div>
-</div>
-<div class="clearfix"></div>
 <div class="explore">
 <section id="s5">
 <h2 class="h3">Explore related topics</h2>

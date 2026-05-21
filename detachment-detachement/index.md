@@ -77,8 +77,6 @@ issued: 2026-05-04
 									<dl>
 										<dt>General inquiries</dt>
 										<dd>867-862-5555</dd>
-										<dt>Fax</dt>
-										<dd>867-862-7804</dd>
 									</dl>
 								</dd>
 							</dl>

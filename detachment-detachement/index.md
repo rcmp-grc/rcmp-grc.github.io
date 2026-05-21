@@ -56,9 +56,6 @@ issued: 2026-05-04
             Residents of Conch Street gathered to welcome Gary home. More than thirty neighbours attended the informal celebration. Photo: Bikini Bottom Detachment / RCMP
           </figcaption>
         </figure>
-					</td>
-					<td class="nws-tbl-desc mrgn-lft-lg">
-					</td>
 					<td class="nws-tbl-desc mrgn-lft-lg">
 						<dl>
 							<dt>Service language</dt>

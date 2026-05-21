@@ -301,10 +301,10 @@ issued: 2026-05-04
 					  <legend class="small"><strong>Published</strong></legend>
              <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
 				</fieldset>
+</form>
 			</details>
 	</div>
-		</form>
-	   </section>
+		</section>
 						</div>
   <div class="col-md-9">
     <section id="body">

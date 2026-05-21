@@ -51,7 +51,7 @@ issued: 2026-05-04
 					<td class="nws-tbl-desc mrgn-lft-md">
 						<h2 class="mrgn-tp-0">Test Detachment</h2>
 						<figure class="cn-inline-figure">
-          <img alt="Residents of Conch Street gathered outside on a sunny morning, chatting with an RCMP officer and holding handmade welcome-home signs for Gary the snail" class="img-responsive" src="https://dummyimage.com/800x450/000/fff">
+          <img alt="Residents of Conch Street gathered outside on a sunny morning, chatting with an RCMP officer and holding handmade welcome-home signs for Gary the snail" class="img-responsive" src="https://dummyimage.com/600x400/000/fff">
           <figcaption>
             Residents of Conch Street gathered to welcome Gary home. More than thirty neighbours attended the informal celebration. Photo: Bikini Bottom Detachment / RCMP
           </figcaption>

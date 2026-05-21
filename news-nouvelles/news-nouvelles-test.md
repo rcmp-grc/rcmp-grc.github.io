@@ -99,8 +99,8 @@ issued: 2026-05-04
     </section>
   </div>
 </div>
-<div class="row">
-	<div class="col-md-3">
+<div class="row" id="news-page">
+  <div class="col-md-3 col-sm-4" id="news-sidebar">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
       <h2 class="h4" id="news-filters-heading">Filter by</h2>
       <details class="wp-filter-group">
@@ -125,6 +125,7 @@ issued: 2026-05-04
         </fieldset>
       </details>
     </aside>
+  </div>
        	<!--<section id="filters">
         <form id="filterForm">
 				<div class="form-group wb-srch-qry">		
@@ -325,7 +326,7 @@ issued: 2026-05-04
 	</div>
 		</section>-->
 						</div>
-  <div class="col-md-9">
+  <div class="col-md-9 col-sm-8" id="news-results">
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div>
     <div id="wp-toolbar">
       <p id="wp-count" aria-live="polite"><strong id="news-count-num">0</strong>&nbsp;missing persons found</p>

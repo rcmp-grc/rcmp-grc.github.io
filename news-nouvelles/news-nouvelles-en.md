@@ -106,92 +106,95 @@ issued: 2026-05-04
 </div>
 <div class="row">
 						<div class="col-md-3">
-       <section id="filters">	
+       	<section id="filters">
         <form id="filterForm">
 				<div class="form-group wb-srch-qry">		
 <label class="wb-inv" for="titleFilter">Search RCMP news</label><input type="text" maxlength="20" id="titleFilter"><button class="btn btn-primary btn-small" type="submit" title="Search"><span class="glyphicon-search glyphicon" aria-hidden="true"></span><span class="wb-inv">Search</span></button>
           </div><!--<button class="srchbox button" type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>-->
+		</form>
+		   
 			 <div><p class="small">Apply the following filtres to narrow your search</p></div>
 	<div class="form-details">
 			<details>
  <summary><strong>Filtre by</strong></summary>
+<form id="filterForm" method="get">
 			<fieldset>
                 <legend class="small"><strong>Category</strong></legend>
 				  <div class="checkbox">
-                <label for="assault"><input data-filter="category" id="titleFilter" type="checkbox" value="Assault">
+                <label for="assault"><input name="category" data-filter="category" type="checkbox" value="Assault" id="Assault">
                   Assault</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="brake-and-enter"><input data-filter="category" id="titleFilter" type="checkbox" value="break-and-enter">
+                <label for="brake-and-enter"><input name="category" data-filter="category" type="checkbox" value="break-and-enter" id="break-and-enter">
                   Break and enter</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="disturbance"><input data-filter="category" id="titleFilter" type="checkbox" value="disturbance">
+                <label for="disturbance"><input name="category" data-filter="category" type="checkbox" value="disturbance" id="disturbance">
                   Disturbance</label>
 				  </div>
 				  <div class="checkbox">
-                 <label for="homicide"><input data-filter="category" id="titleFilter" type="checkbox" value="homicide">
+                 <label for="homicide"><input name="category" data-filter="category" type="checkbox" value="homicide" id="homicide">
                   Homicide</label>
 				  </div>
 				  <div class="checkbox">
-                 <label for="illegal-border-crossing"><input data-filter="category" id="titleFilter" type="checkbox" value="illegal-border-crossing">
+                 <label for="illegal-border-crossing"><input name="category" data-filter="category" type="checkbox" value="illegal-border-crossing" id="illegal-border-crossing">
                   Illegal border crossing
 				 </label>
 				  </div>
 				  <div class="checkbox">
-                 <label for="illicit-drugs"><input data-filter="category" id="titleFilter" type="checkbox" value="illicit-drugs">
+                 <label for="illicit-drugs"><input name="category" data-filter="category" type="checkbox" value="illicit-drugs" id="illicit-drugs">
                   Illicit drugs
 				 </label>
 				  </div>
 				  <div class="checkbox">
-                <label for="missing-person"><input data-filter="category" id="titleFilter" type="checkbox" value="missing-person">
+                <label for="missing-person"><input name="category" data-filter="category" type="checkbox" value="missing-person" id="missing-person">
                   Missing person
 				</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="organized-crime"><input data-filter="category" id="titleFilter" type="checkbox" value='organized-crime'>
+                <label for="organized-crime"><input name="category" data-filter="category" type="checkbox" value='organized-crime' id="organized-crime">
                   Organized crime 
 				</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="property-damage"><input data-filter="category" id="titleFilter" type="checkbox" value="property-damage">
+                <label for="property-damage"><input name="category" data-filter="category" type="checkbox" value="property-damage" id="property-damage">
                   Property damage  
 				</label>
 				  </div>
 				 <div class="checkbox"> 
-                <label for="public-interest"><input data-filter="category" id="titleFilter" type="checkbox" value="public-interest">
+                <label for="public-interest"><input name="category" data-filter="category" type="checkbox" value="public-interest" id="public-interest">
                   Public interest  
 				</label>
 				 </div>
 				  <div class="checkbox">
-                <label for="theft"><input data-filter="category" id="titleFilter" type="checkbox" value="theft">
+                <label for="theft"><input name="category" data-filter="category" type="checkbox" value="theft" id="theft">
                   Theft  
 				</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="traffic-services"><input data-filter="category" id="titleFilter" type="checkbox" value="traffic-services">
+                <label for="traffic-services"><input name="category" data-filter="category" type="checkbox" value="traffic-services" id="traffic-services">
                   Traffic services  
 				</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="trafficking"><input data-filter="category" id="titleFilter" type="checkbox" value="trafficking">
+                <label for="trafficking"><input name="category" data-filter="category" type="checkbox" value="trafficking" id="trafficking">
                   Trafficking  
 				</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="wanted"><input data-filter="category" id="titleFilter" type="checkbox" value="wanted">
+                <label for="wanted"><input name="category" data-filter="category" type="checkbox" value="wanted" id="wanted">
                   Wanted  
 				</label>
 				  </div>
 				  <div class="checkbox">
-                <label for="weapons"><input data-filter="category" id="titleFilter" type="checkbox" value="weapons">
+                <label for="weapons"><input name="category" data-filter="category" type="checkbox" value="weapons" id="weapons">
                   Weapons  
 				</label>
 				  </div>
           </fieldset>
 				<fieldset>	 
 			 <legend class="small"><strong>Province or Territory</strong></legend>
-				<label for="dt-province-territory"></label><select class="form-control" data-column="2" id="titleFilter" name="dt-province-territory">	
+				<label for="dt-province-territory"></label><select class="form-control" data-column="2" id="dt-province-territory" name="dt-province-territory">	
                 <option value="All provinces and territories">
                   All provinces and territories
                 </option>
@@ -238,7 +241,7 @@ issued: 2026-05-04
 				</fieldset>
 				  <fieldset>
 				<legend class="small"><strong>Published by</strong></legend>
-                <label for="dt-division-or-federal-policing-region"></label><select class="form-control" data-column="2" id="titleFilter" name="dt-division-or-federal-policing-region">
+                <label for="dt-division-or-federal-policing-region"></label><select class="form-control" data-column="2" id="dt-division-or-federal-policing-region" name="dt-division-or-federal-policing-region">
                 <option value="All policing regions">
                   All divisions or Federal Policing regions
                 </option>
@@ -297,7 +300,7 @@ issued: 2026-05-04
 				  </fieldset>
 				  <fieldset>
 					  <legend class="small"><strong>Published</strong></legend>
-             <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="titleFilter" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
+             <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
 				</fieldset>
 			</details>
 	</div>
@@ -308,10 +311,12 @@ issued: 2026-05-04
     <section id="body">
       <h2 class="wb-inv">List of news</h2>
 <div class="panel panel-body panel-warning mrgn-tp-0 mrgn-bttm-sm">
-   <p><i class="fa-solid fa-filter"></i> <span class="wb-inv">Filtres selected:</span> </p>
+	<div class="row">
+   <div><p><i class="fa-solid fa-filter"></i> <span class="wb-inv">Filtres selected:</span> </p></div>
 <div id="applied-filters"> 
 <div class="filter-pill" data-filter="category-electronics"><button onclick="removeFilter(this)">×</button> Electronics </div> 
 <div class="filter-pill" data-filter="status-active"><button onclick="removeFilter(this)">×</button> Active </div> 
+</div>
 </div>
 </div>
 		 <table id="dataTable" class="wb-tables table nws-tbl table-striped">

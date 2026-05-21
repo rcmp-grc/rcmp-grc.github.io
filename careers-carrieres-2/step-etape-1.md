@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: Indigenous Pre-Cadet Training Program
+title: Submit an online application
 date_modified: 2026-05-11
 lang: en
 lang_url: #
@@ -9,8 +9,6 @@ breadcrumbs:
   - label: "RCMP careers"
     url: "#"
   - label: "Police officer careers"
-    url: "#"
-  - label: "First Nations, Inuit and Métis applicant programs"
     url: "#"
 custom_css: /assets/css/careers.css
 ---

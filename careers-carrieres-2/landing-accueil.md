@@ -3,7 +3,7 @@ layout: careers
 title: First Nations, Inuit and Métis applicant programs
 date_modified: 2026-05-11
 lang: en
-lang_url: index-fr.html
+lang_url: #
 issued: 2026-05-11
 breadcrumbs:
   - label: "RCMP careers"

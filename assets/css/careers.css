@@ -464,13 +464,19 @@ button,
 .careers-layout .gc-features ul.list-unstyled {
   display: flex;
   flex-wrap: wrap;
+  align-items: stretch;
 }
 
 .careers-layout .gc-features ul.list-unstyled > li {
   display: flex;
+  flex-direction: column;
   margin-bottom: 20px;
 }
 
 .careers-layout .gc-features ul.list-unstyled > li:last-child {
   margin-bottom: 0;
+}
+
+.careers-layout .gc-features .well {
+  flex: 1;
 }

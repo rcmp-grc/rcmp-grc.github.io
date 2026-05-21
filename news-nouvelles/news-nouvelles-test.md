@@ -106,21 +106,21 @@ issued: 2026-05-04
       <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
           <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i>
-          <span class="wp-filter-summary-label">Gender</span>
+          <span class="wp-filter-summary-label">Category</span>
         </summary>
         <fieldset>
           <legend class="wb-inv">Gender</legend>
           <div class="checkbox">
-            <label><input data-filter="gender" type="checkbox" value="male"><span class="cb-text">Male</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="category" type="checkbox" value="male"><span class="cb-text">Male</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="gender" type="checkbox" value="female"><span class="cb-text">Female</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="category" type="checkbox" value="female"><span class="cb-text">Female</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="gender" type="checkbox" value="other"><span class="cb-text">Other</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="category" type="checkbox" value="other"><span class="cb-text">Other</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="gender" type="checkbox" value="unknown"><span class="cb-text">Unknown</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="category" type="checkbox" value="unknown"><span class="cb-text">Unknown</span><span class="wp-filter-badge">0</span></label>
           </div>
         </fieldset>
       </details>
@@ -443,7 +443,7 @@ issued: 2026-05-04
 
   var I18N = {
     en: {
-      genderLabels:   { male: 'Male', female: 'Female', other: 'Other', unknown: 'Unknown' },
+      categoryLabels:   { male: 'Male', female: 'Female', other: 'Other', unknown: 'Unknown' },
       removeFilter:   'Remove filter: ',
       profileHref:    'missing-disparues-en.html',
       viewProfile:    'View profile: ',
@@ -456,7 +456,7 @@ issued: 2026-05-04
       orSep:          'or'
     },
     fr: {
-      genderLabels:   { male: 'homme', female: 'femme', other: 'autre', unknown: 'inconnu' },
+      categoryLabels:   { male: 'homme', female: 'femme', other: 'autre', unknown: 'inconnu' },
       removeFilter:   'Retirer le filtre\u00A0: ',
       profileHref:    'missing-disparues-fr.html',
       viewProfile:    'Voir le profil\u00A0: ',
@@ -474,7 +474,7 @@ issued: 2026-05-04
   var $  = document.getElementById.bind(document);
   var ni = lang === 'fr' ? 1 : 0;
 
-  // [nameEN, nameFR, file, gender, lastSeen, updated, views]
+  // [nameEN, nameFR, file, category, lastSeen, updated, views]
   var RAW = [
     ['SpongeBob SquarePants',  "Bob l'éponge",        '32473043', 'male',     '1999-05-01', '2026-05-08', 1420],
     ['Sandy Cheeks',           'Sandy Écureuil',       '30847192', 'female',  '2020-03-15', '2026-05-07', 980 ],
@@ -556,7 +556,7 @@ issued: 2026-05-04
   }
 
   function getActiveFilters() {
-    var active = { gender: [] };
+    var active = { category: [] };
     checkboxes.forEach(function (cb) {
       if (cb.checked) active[cb.dataset.filter].push(cb.value);
     });
@@ -565,7 +565,7 @@ issued: 2026-05-04
 
   function filterData(filters) {
     return PROFILES.filter(function (p) {
-      return !filters.gender.length || filters.gender.indexOf(p.gender) > -1;
+      return !filters.category.length || filters.category.indexOf(p.category) > -1;
     });
   }
 
@@ -587,7 +587,7 @@ issued: 2026-05-04
     activeTagsEl.appendChild(showingLabel);
 
     allTags.forEach(function (item, index) {
-      var label = item.cat === 'gender' ? (t.genderLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
+      var label = item.cat === 'category' ? (t.categoryLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
 
       if (index > 0) {
         var sep = document.createElement('span');

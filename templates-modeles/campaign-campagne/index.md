@@ -1,38 +1,26 @@
 ---
-layout: default
-title: Campaign
+layout: campaign
+title: Campaign page
 description: A promotional page built to support a specific campaign or initiative
+banner_sm: ../assets/campaign-banner-image-small-250x125.jpg
+banner_lg: ../assets/campaign-banner-image-large-480x150.jpg
+banner_2xl: ../assets/campaign-banner-image-2xl-960x150.jpg
 date_modified: 2026-05-15
 lang: en
 lang_url: index-fr.html
-author:
-creator:
-subject:
 issued: 2026-05-15
 ---
+<nav>
+    <h2>On this page</h2>
+    <ul>
+        <li><a href="#s1">Section 1</a></li>>
+        <li><a href="#">Section 2</a></li>>
+        <li><a href="#">Section 3</a></li>
+    </ul>
+</nav>
 
-<div class="row">
-    <div class="col-xs-12 p-0">
-        <span data-alt="" data-class="img-responsive full-width" data-pic="data-pic" id="wb-auto-1">
-            <span data-src="../assets/campaign-banner-image-large-480x150.jpg"></span> <!-- Large (960 x 300) -->
-            <span data-src="../assets/campaign-banner-image-small-250x125.jpg" data-media="(min-width: 0px)"></span> <!-- Small (500 x 250) -->
-            <span data-src="../assets/campaign-banner-image-large-480x150.jpg" data-media="(min-width: 960px)"></span> <!-- Large (960 x 300) -->
-            <span data-src="../assets/campaign-banner-image-2xl-960x150.jpg" data-media="(min-width: 1200px)"><img alt="" class="img-responsive full-width" src=""></span> <!-- Full width (1920 x 300)-->
-            <noscript><img alt="" src="../assets/campaign-banner-image-2xl-960x150.jpg"></noscript>
-        </span>
-    </div>
-</div>
+<section id="s1">
+    <h2>Section 1</h2>
 
-<section id="campaign" class="container">
-    <h1 class="mrgn-tp-md" property="name" id="wb-cont">H1</h1>
-    
-    <section>
-        <h2>On this page</h2>
-        <ul>
-            <li>
-                <a href="#s1">Section</a>
-            </li>
-        </ul>
-    </section>
-    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam corrupti est corporis libero! Nulla in natus veritatis blanditiis. Laborum, temporibus voluptate. Similique nemo sed ducimus quos, officia at perferendis id.</p>
 </section>

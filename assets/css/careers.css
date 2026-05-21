@@ -309,6 +309,10 @@ button,
   line-height: normal;
 }
 
+.careers-layout #wb-bc ol {
+  margin-top: 0;
+}
+
 .careers-layout h1#wb-cont {
   border-bottom: 0.5rem solid var(--c-yellow);
   border-image: linear-gradient(to right, var(--c-yellow) 25%, transparent 25%);

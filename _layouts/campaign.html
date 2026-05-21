@@ -24,20 +24,22 @@
       </ul>
     </nav>
     {% include header.html %}
-    <main class="container" property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
-        <div class="row">
-            <div class="col-xs-12 p-0">
-                <span data-alt="" data-class="img-responsive full-width" data-pic="data-pic">
-                    <span data-src="./templates-modeles/assets/campaign-banner-image-large-480x150.jpg"></span> <!-- Default -->
-                    <span data-src="{{ page.banner_sm }}" data-media="(min-width: 0px)"></span> <!-- Small (500 x 250) -->
-                    <span data-src="{{ page.banner_lg }}" data-media="(min-width: 960px)"></span> <!-- Large (960 x 300) -->
-                    <span data-src="{{ page.banner_2xl }}" data-media="(min-width: 1200px)"><img alt="" class="img-responsive full-width" src=""></span> <!-- Full width (1920 x 300)-->
-                    <noscript><img alt="" src="./templates-modeles/assets/campaign-banner-image-2xl-960x150.jpg"></noscript> <!-- Fallback -->
-                </span>
-            </div>
+    <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+      <div class="row">
+        <div class="col-xs-12 p-0">
+          <span data-alt="" data-class="img-responsive full-width" data-pic="data-pic">
+            <span data-src="./templates-modeles/assets/campaign-banner-image-large-480x150.jpg"></span> <!-- Default -->
+            <span data-src="{{ page.banner_sm }}" data-media="(min-width: 0px)"></span> <!-- Small (500 x 250) -->
+            <span data-src="{{ page.banner_lg }}" data-media="(min-width: 960px)"></span> <!-- Large (960 x 300) -->
+            <span data-src="{{ page.banner_2xl }}" data-media="(min-width: 1200px)"><img alt="" class="img-responsive full-width" src=""></span> <!-- Full width (1920 x 300)-->
+            <noscript><img alt="" src="./templates-modeles/assets/campaign-banner-image-2xl-960x150.jpg"></noscript> <!-- Fallback -->
+          </span>
         </div>
-      <h1 id="wb-cont" property="name">{{ page.title }}</h1>
-      {{ content }}
+      </div>
+      <section id="campaign" class="container">
+        <h1 id="wb-cont" property="name">{{ page.title }}</h1>
+        {{ content }}
+      </section>
       <section class="pagedetails">
         {% if page.lang == 'fr' %}
           <h2 class="wb-inv">Détails de la page</h2>

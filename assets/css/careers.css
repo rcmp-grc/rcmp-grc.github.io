@@ -254,7 +254,7 @@ button,
   background: var(--c-grey-light);
   border-left: 4px solid var(--c-yellow);
   border-radius: 0;
-  padding: 10px 20px;
+  padding: 8px 20px;
 }
 
 .bc {
@@ -306,10 +306,6 @@ button,
   padding-top: 0;
   border-top: 0;
   display: block;
-  line-height: 0;
-}
-
-.careers-layout .bc-row {
   line-height: normal;
 }
 

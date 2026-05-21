@@ -74,8 +74,8 @@ issued: 2026-05-04
 	 margin-bottom: 10px; } 
 	.filter-pill 
 	{ background-color: #e0e0e0; 
-	 padding: 8px 15px; 
-	 border-radius: 20px; 
+	 padding: 8px 8px; 
+	 border-radius: 15px; 
 	 display: flex; 
 	 align-items: center; 
 	 gap: 8px; 

@@ -100,9 +100,9 @@ issued: 2026-05-04
   </div>
 </div>
 <div class="row">
-						<div class="col-md-3">
-              <aside aria-labelledby="mp-filters-heading" id="mp-filters">
-      <h2 class="h4" id="mp-filters-heading">Filter by</h2>
+	<div class="col-md-3">
+    <aside aria-labelledby="news-filters-heading" id="news-filters">
+      <h2 class="h4" id="news-filters-heading">Filter by</h2>
       <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
           <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i>
@@ -326,39 +326,39 @@ issued: 2026-05-04
 		</section>-->
 						</div>
   <div class="col-md-9">
-     <div aria-label="Active filters" aria-live="polite" id="mp-active-filters" role="status"></div>
+     <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div>
     <div id="wp-toolbar">
-      <p id="wp-count" aria-live="polite"><strong id="mp-count-num">0</strong>&nbsp;missing persons found</p>
+      <p id="wp-count" aria-live="polite"><strong id="news-count-num">0</strong>&nbsp;missing persons found</p>
       <div id="wp-sort">
-        <label for="mp-sort-select">Sort by:</label>
-        <select aria-label="Sort profiles" id="mp-sort-select">
+        <label for="news-sort-select">Sort by:</label>
+        <select aria-label="Sort profiles" id="news-sort-select">
           <option value="newest">Updated (newest)</option>
           <option value="oldest">Updated (oldest)</option>
           <option value="views">Most viewed</option>
         </select>
       </div>
     </div>
-    <div aria-label="Missing persons profiles" id="mp-grid" role="list"></div>
-    <p id="mp-no-results">No profiles match your current filters.</p>
+    <div aria-label="Missing persons profiles" id="news-grid" role="list"></div>
+    <p id="news-no-results">No profiles match your current filters.</p>
     <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
-      <div class="rcmp-content-page__prev" id="mp-prev-wrap">
-        <button type="button" id="mp-prev" class="rcmp-content-page__link" aria-label="Previous page">
+      <div class="rcmp-content-page__prev" id="news-prev-wrap">
+        <button type="button" id="news-prev" class="rcmp-content-page__link" aria-label="Previous page">
           <span class="rcmp-content-page__title-row">
             <i class="rcmp-content-page__icon fa-solid fa-chevron-left" aria-hidden="true"></i>
             <span class="rcmp-content-page__link-title">Previous page</span>
           </span>
           <span class="rcmp-visually-hidden">:</span>
-          <span class="rcmp-content-page__link-label" id="mp-prev-label"></span>
+          <span class="rcmp-content-page__link-label" id="news-prev-label"></span>
         </button>
       </div>
-      <div class="rcmp-content-page__next" id="mp-next-wrap">
-        <button type="button" id="mp-next" class="rcmp-content-page__link" aria-label="Next page">
+      <div class="rcmp-content-page__next" id="news-next-wrap">
+        <button type="button" id="news-next" class="rcmp-content-page__link" aria-label="Next page">
           <span class="rcmp-content-page__title-row">
             <i class="rcmp-content-page__icon fa-solid fa-chevron-right" aria-hidden="true"></i>
             <span class="rcmp-content-page__link-title">Next page</span>
           </span>
           <span class="rcmp-visually-hidden">:</span>
-          <span class="rcmp-content-page__link-label" id="mp-next-label"></span>
+          <span class="rcmp-content-page__link-label" id="news-next-label"></span>
         </button>
       </div>
     </nav>
@@ -524,15 +524,15 @@ issued: 2026-05-04
   var currentPage = 1;
   var activeData  = PROFILES.slice();
 
-  var grid         = $('mp-grid');
-  var countNum     = $('mp-count-num');
-  var noResults    = $('mp-no-results');
-  var sortSel      = $('mp-sort-select');
-  var prevBtn      = $('mp-prev');
-  var nextBtn      = $('mp-next');
-  var activeTagsEl = $('mp-active-filters');
+  var grid         = $('news-grid');
+  var countNum     = $('news-count-num');
+  var noResults    = $('news-no-results');
+  var sortSel      = $('news-sort-select');
+  var prevBtn      = $('news-prev');
+  var nextBtn      = $('news-next');
+  var activeTagsEl = $('news-active-filters');
   var pagination   = $('rcmp-content-page');
-  var checkboxes   = document.querySelectorAll('#mp-filters input[type="checkbox"]');
+  var checkboxes   = document.querySelectorAll('#news-filters input[type="checkbox"]');
 
   function updateBadges() {
     checkboxes.forEach(function (cb) {

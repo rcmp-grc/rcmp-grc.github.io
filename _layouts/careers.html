@@ -52,13 +52,13 @@
 		</div>
       </div>
     </nav>
+    {% if page.hero_image %}
+    <div class="careers-hero">
+      <img src="{{ page.hero_image }}" alt="{{ page.hero_image_alt | default: '' }}">
+    </div>
+    {% endif %}
     <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
       {% include breadcrumb.html %}
-      {% if page.hero_image %}
-      <div class="careers-hero">
-        <img src="{{ page.hero_image }}" alt="{{ page.hero_image_alt | default: '' }}">
-      </div>
-      {% endif %}
 	  <div class="container">
         <h1 id="wb-cont" property="name" {% if page.h1_hidden %}class="wb-inv" {% endif %}>{{ page.title }}</h1>
         {{ content }}

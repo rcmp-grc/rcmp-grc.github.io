@@ -109,7 +109,7 @@ issued: 2026-05-04
           <span class="wp-filter-summary-label">Category</span>
         </summary>
         <fieldset>
-          <legend class="wb-inv">Gender</legend>
+          <legend class="wb-inv">Category</legend>
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="male"><span class="cb-text">Male</span><span class="wp-filter-badge">0</span></label>
           </div>
@@ -513,7 +513,7 @@ issued: 2026-05-04
       name:     r[ni],
       file:     r[2],
       img:      'https://dummyimage.com/480x600/000/fff',
-      gender:   r[3],
+      category: r[3],
       lastSeen: r[4],
       updated:  r[5],
       views:    r[6]

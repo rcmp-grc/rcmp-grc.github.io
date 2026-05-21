@@ -71,7 +71,7 @@ issued: 2026-05-04
 	#applied-filters 
 	{ display: flex; 
 	 gap: 10px; 
-	 margin-bottom: 20px; } 
+	 margin-bottom: 10px; } 
 	.filter-pill 
 	{ background-color: #e0e0e0; 
 	 padding: 8px 15px; 
@@ -83,7 +83,7 @@ issued: 2026-05-04
 	.filter-pill button 
 	{ background: none; 
 	 border: none; 
-	 font-size: 18px; 
+	 font-size: 10px; 
 	 cursor: pointer; } 
 	.filter-pill.fade-out 
 	{ opacity: 0; 

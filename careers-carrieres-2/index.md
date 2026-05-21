@@ -10,7 +10,7 @@ breadcrumbs:
     url: "#"
   - label: "Police officer careers"
     url: "#"
-  - label: "Indigenous recruiting"
+  - label: "First Nations, Inuit and Métis applicant programs"
     url: "#"
 custom_css: /assets/css/careers.css
 ---

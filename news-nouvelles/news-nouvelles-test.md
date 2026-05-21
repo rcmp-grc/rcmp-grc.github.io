@@ -105,7 +105,7 @@ issued: 2026-05-21
   </div>
 </div>
 <div class="row">
-  <div class="col-md-3">
+	<div class="col-md-3">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
       <h2 class="h4" id="news-filters-heading">Filter by</h2>
       <details class="wp-filter-group">
@@ -130,7 +130,6 @@ issued: 2026-05-21
         </fieldset>
       </details>
     </aside>
-  </div>
        	<!--<section id="filters">
         <form id="filterForm">
 				<div class="form-group wb-srch-qry">		
@@ -743,4 +742,3 @@ sortSel.addEventListener('change', function () {
     draw();
   });
 	</script>-->
-

@@ -13,22 +13,23 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<section class="landing-text">
-  <p>The RCMP is committed to building a more inclusive and representative police service that reflects the strengths and diversity of First Nations, Inuit, and Métis communities across Canada.</p>
-  <p>We are actively seeking Indigenous candidates who want to help keep communities safe. Honouring Indigenous cultures and ways of being are at the heart of the RCMP's mandate.</p>
-  <p>We've created two programs to support Indigenous recruitment and retention. These efforts reinforce our mandate toward building a renewed relationship and trust with the approximately 600 Indigenous communities we serve.</p>
-  <div class="si-links p-0">
-    <div class="si-card">
-      <div>
-        <h3><a href="#">Indigenous Pre-Cadet Training Program</a></h3>
+<p>The RCMP is committed to building a more inclusive and representative police service that reflects the strengths and diversity of First Nations, Inuit, and Métis communities across Canada.</p>
+<p>We are actively seeking Indigenous candidates who want to help keep communities safe. Honouring Indigenous cultures and ways of being are at the heart of the RCMP's mandate.</p>
+<p>We've created two programs to support Indigenous recruitment and retention. These efforts reinforce our mandate toward building a renewed relationship and trust with the approximately 600 Indigenous communities we serve.</p>
+<section class="gc-features">
+  <h2 class="wb-inv">Service and information</h2>
+  <ul class="list-unstyled row">
+    <li class="col-md-6">
+      <div class="well well-sm brdr-rds-0 eqht-trgt">
+        <h3 class="h5"><a href="#">Indigenous Pre-Cadet Training Program</a></h3>
         <p>This program is designed to give Indigenous people across Canada a first-hand look at a career in policing with the RCMP.</p>
       </div>
-    </div>
-    <div class="si-card">
-      <div>
-        <h3><a href="#">Indigenous Applicant Mentorship Program</a></h3>
+    </li>
+    <li class="col-md-6">
+      <div class="well well-sm brdr-rds-0 eqht-trgt">
+        <h3 class="h5"><a href="#">Indigenous Applicant Mentorship Program</a></h3>
         <p>This program is designed to support and guide First Nations, Inuit and Métis applicants throughout the RCMP application process.</p>
       </div>
-    </div>
-  </div>
+    </li>
+  </ul>
 </section>

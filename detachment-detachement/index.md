@@ -48,7 +48,7 @@ issued: 2026-05-04
 			<tbody>
 				<tr id="20190">
 					<td class="hidden">2</td>
-					<td class="nws-tbl-desc mrgn-lft-md">
+					<td class="nws-tbl-desc mrgn-lft-md width=50">
 						<h2 class="mrgn-tp-0">Test Detachment</h2>
 						<figure class="cn-inline-figure">
           <img alt="Residents of Conch Street gathered outside on a sunny morning, chatting with an RCMP officer and holding handmade welcome-home signs for Gary the snail" class="img-responsive" src="https://dummyimage.com/600x400/000/fff">

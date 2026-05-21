@@ -130,7 +130,6 @@ issued: 2026-05-04
 				<div class="form-group wb-srch-qry">		
 <label class="wb-inv" for="titleFilter">Search RCMP news</label><input type="text" maxlength="20" id="titleFilter"><!--<button class="btn btn-primary btn-small" type="submit" title="Search"><span class="glyphicon-search glyphicon" aria-hidden="true"></span><span class="wb-inv">Search</span></button>
           </div><button class="srchbox button" type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>-->
-		
 	<div><p class="small">Apply the following filtres to narrow your search</p></div>
 	<div class="form-details">
 			<details>

@@ -105,7 +105,7 @@ issued: 2026-05-21
   </div>
 </div>
 <div class="row">
-  <div class="col-md-3 col-sm-4">
+  <div class="col-md-3">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
       <h2 class="h4" id="news-filters-heading">Filter by</h2>
       <details class="wp-filter-group">
@@ -331,7 +331,7 @@ issued: 2026-05-21
 	</div>
 		</section>-->
 						</div>
-  <div class="col-md-9 col-sm-8">
+  <div class="col-md-9">
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div>
     <div id="wp-toolbar">
       <p id="wp-count" aria-live="polite"><strong id="news-count-num">0</strong>&nbsp;missing persons found</p>

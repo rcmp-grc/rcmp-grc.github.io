@@ -11,6 +11,7 @@ breadcrumbs:
   - label: "Police officer careers"
     url: "#"
 custom_css: /assets/css/careers.css
+hero_image: landing-accueil.jpg
 ---
 
 <p>The RCMP is committed to building a more inclusive and representative police service that reflects the strengths and diversity of First Nations, Inuit, and Métis communities across Canada.</p>

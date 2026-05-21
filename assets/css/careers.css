@@ -251,7 +251,7 @@ button,
 .bc-band {
   display: inline-flex;
   align-items: center;
-  border-left: 4px solid var(--c-yellow);
+  border-left: 4px solid var(--c-black);
   background: var(--c-navy);
   border-radius: 0;
   padding: 0 20px 10px 20px;
@@ -269,20 +269,21 @@ button,
 .bc a {
   font-size: 0.85em;
   font-weight: 400;
-  color: var(--c-yellow);
+  color: var(--c-black);
   text-decoration: underline;
   text-underline-offset: 2px;
   transition: color 0.15s;
 }
 
 .bc a:hover {
-  color: var(--c-yellow-hover);
+  color: var(--c-black);
+  text-decoration: none;
 }
 
 .bc [aria-current="page"] {
   font-size: 0.85em;
   font-weight: 400;
-  color: #f0f0f0;
+  color: #b0b0b0;
 }
 
 .bc .bc-sep {

@@ -202,7 +202,7 @@ issued: 2026-05-21
             <label><input data-filter="region" type="checkbox" value="bc"><span class="cb-text">British Columbia RCMP</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="cenral"><span class="cb-text">Federal Policing Central Region</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="region" type="checkbox" value="central"><span class="cb-text">Federal Policing Central Region</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
             <label><input data-filter="region" type="checkbox" value="eastern"><span class="cb-text">Federal Policing Eastern Region</span><span class="wp-filter-badge">0</span></label>
@@ -229,7 +229,7 @@ issued: 2026-05-21
                 <label><input data-filter="region" type="checkbox" value="ns"><span class="cb-text">Nova Scotia RCMP</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="nunuvut"><span class="cb-text">Nunavut RCMP</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="region" type="checkbox" value="nunavut"><span class="cb-text">Nunavut RCMP</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
                 <label><input data-filter="region" type="checkbox" value="pei"><span class="cb-text">Prince Edward Island RCMP</span><span class="wp-filter-badge">0</span></label>
@@ -247,13 +247,14 @@ issued: 2026-05-21
                 <label><input data-filter="region" type="checkbox" value="yukon"><span class="cb-text">Yukon RCMP</span><span class="wp-filter-badge">0</span></label>
 				  </div>
         </fieldset>
-      </details>
-		
+      </details>	
     </aside>
 						</div>
   <div class="col-md-9">
-     <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div>
+	  <h2 class="wb-inv">List of news</h2>
+     <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 
     <div id="wp-toolbar">
+    <div class="panel panel-body panel-warning mrgn-tp-0 mrgn-bttm-sm">	
       <p id="wp-count" aria-live="polite"><strong id="news-count-num">0</strong>&nbsp;news and communications items found</p>
       <div id="wp-sort">
         <label for="news-sort-select">Sort by:</label>
@@ -264,6 +265,7 @@ issued: 2026-05-21
         </select>
       </div>
     </div>
+	</div>
     <div aria-label="News profiles" id="news-grid" role="list"></div>
     <p id="news-no-results">No news or communications match your current filters.</p>
     <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">

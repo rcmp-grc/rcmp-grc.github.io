@@ -326,7 +326,7 @@ issued: 2026-05-21
   var lang = document.documentElement.lang === 'fr' ? 'fr' : 'en';
   var I18N = {
     en: {
- categoryLabels:  {Assault: 'assault', be: 'Break and enter', disturbance: 'Disturbance', homicide: 'Homicide', crossing: 'Illegal border crossing', drugs: 'Illicit drugs', missing: 'Missing person', crime: 'Organized crime', property: 'Interest', property: 'Public interest', theft: 'Theft', traffic: 'Traffic services', trafficking: 'Trafficking', wanted: 'Wanted', weapons: 'Weapons' },
+ categoryLabels:  {assault: 'Assault', be: 'Break and enter', disturbance: 'Disturbance', homicide: 'Homicide', crossing: 'Illegal border crossing', drugs: 'Illicit drugs', missing: 'Missing person', crime: 'Organized crime', property: 'Interest', property: 'Public interest', theft: 'Theft', traffic: 'Traffic services', trafficking: 'Trafficking', wanted: 'Wanted', weapons: 'Weapons' },
  territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manitoba', nb: 'New Brunswick', nl: 'Newfoundland and Labrador', nwt: 'Northwest Territories', ns: 'Nova Scotia', nunavut: 'Nunavut', ontario: 'Ontario', pei: 'Prince Edward Island', saskatchewan: 'Saskatchewan RCMP', yukon: 'Yukon RCMP' },
 regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 'Federal Policing Central Region', eastern: 'Federal Policing Eastern Region', nw: 'Federal Policing Northwest Region', pacific: 'Federal Policing Pacific Region', manitoba: 'Manitoba RCMP', nb: 'New Brunswick RCMP', nl: 'Newfoundland and Labrador RCMP', nwt: 'Northwest Territories RCMP', ns: 'Nova Scotia RCMP', nunavut: 'Nunavut  RCMP', pei: 'Prince Edward Island RCMP', depot: 'RCMP Depot Division', hq: 'RCMP National Headquarters', quebec: 'Quebec', saskatchewan: 'Saskatchewan', yukon: 'Yukon' },		
       removeFilter:   'Remove filter: ',
@@ -363,8 +363,8 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   var ni = lang === 'fr' ? 1 : 0;
   // [nameEN, nameFR, file, category, territory, region, lastSeen, updated, views]
   var RAW = [
-    ['SpongeBob SquarePants',  "Bob l'éponge",         '32473043', 'assault', 'nwt', 'nwt', '1999-05-01', '2026-05-08', 1420],
-    ['Sandy Cheeks',           'Sandy Écureuil',       '30847192', 'assault', 'nunavut', 'nunavut', '2020-03-15', '2026-05-07', 980 ],
+    ['SpongeBob SquarePants',  "Bob l'éponge",         '32473043', 'Assault', 'nwt', 'nwt', '1999-05-01', '2026-05-08', 1420],
+    ['Sandy Cheeks',           'Sandy Écureuil',       '30847192', 'Assault', 'nunavut', 'nunavut', '2020-03-15', '2026-05-07', 980 ],
     ['Patrick Star',           'Patrick Étoile',       '19284730', 'disturbance', 'pei', 'pei', '2021-07-04', '2026-05-06', 741 ],
     ['Pearl Krabs',            'Perle Krabs',          '28374019', 'disturbance', 'pei', 'pei', '2022-01-10', '2026-05-05', 610 ],
     ['Squidward Tentacles',    'Carlo Tentacules',     '39201847', 'disturbance', 'nunavut', 'nunavut',  '2023-06-22', '2026-05-04', 533 ],

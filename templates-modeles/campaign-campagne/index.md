@@ -2,9 +2,9 @@
 layout: campaign
 title: Campaign page
 description: A promotional page built to support a specific campaign or initiative
-banner_sm: ../assets/campaign-banner-image-small-250x125.jpg
-banner_lg: ../assets/campaign-banner-image-large-480x150.jpg
-banner_2xl: ../assets/campaign-banner-image-2xl-960x150.jpg
+banner_sm: ../assets/campaign-small-250x125.svg
+banner_lg: ../assets/campaign-large-480x150.svg
+banner_2xl: ../assets/campaign-2xl-960x150.svg
 date_modified: 2026-05-15
 lang: en
 lang_url: index-fr.html

@@ -62,6 +62,13 @@ button,
   border-top: 0;
 }
 
+.careers-layout main[style*="background-image"] {
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  background-position: top center;
+  background-attachment: local;
+}
+
 .careers-nav {
   background-color: var(--c-nav-bg);
   width: 100%;

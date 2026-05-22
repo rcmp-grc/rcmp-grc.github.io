@@ -577,11 +577,11 @@ territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manit
       name:     r[ni],
       file:     r[2],
       img:      'https://dummyimage.com/480x600/000/fff',
-      category: r[4],
-      territory: r[5],
-      lastSeen: r[6],
-      updated:  r[7],
-      views:    r[8]
+      category: r[3],
+      territory: r[4],
+      lastSeen: r[5],
+      updated:  r[6],
+      views:    r[7]
     };
   });
   var PER_PAGE    = 9;

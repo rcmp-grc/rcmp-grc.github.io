@@ -450,7 +450,7 @@ issued: 2026-05-21
     en: {
       categoryLabels:   { male: 'Male', female: 'Female', other: 'Other', unknown: 'Unknown', assault: 'Assault' },
       removeFilter:   'Remove filter: ',
-      profileHref:    'missing-disparues-en.html',
+      profileHref:    'news-nouvelles-en.html',
       viewProfile:    'View profile: ',
       photo:          'Photo of missing person ',
       fileNumber:     'File number: ',
@@ -463,7 +463,7 @@ issued: 2026-05-21
     fr: {
       categoryLabels:   { male: 'homme', female: 'femme', other: 'autre', unknown: 'inconnu', assault: 'Assault' },
       removeFilter:   'Retirer le filtre\u00A0: ',
-      profileHref:    'missing-disparues-fr.html',
+      profileHref:    'news-nouvelles-fr.html',
       viewProfile:    'Voir le profil\u00A0: ',
       photo:          'Photo de la personne disparue ',
       fileNumber:     'Numéro de dossier\u00A0: ',

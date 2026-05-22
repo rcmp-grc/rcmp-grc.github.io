@@ -189,6 +189,66 @@ issued: 2026-05-21
 				  </div>
         </fieldset>
       </details>
+<details class="summary">
+        <summary>
+       Published by
+        </summary>
+        <fieldset>
+          <legend class="wb-inv">Policing regions</legend>
+          <div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="alberta"><span class="cb-text">Alberta RCMP</span><span class="wp-filter-badge">0</span></label>
+          </div>
+          <div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="bc"><span class="cb-text">British Columbia RCMP</span><span class="wp-filter-badge">0</span></label>
+          </div>
+          <div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="cenral"><span class="cb-text">Federal Policing Central Region</span><span class="wp-filter-badge">0</span></label>
+          </div>
+          <div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="eastern"><span class="cb-text">Federal Policing Eastern Region</span><span class="wp-filter-badge">0</span></label>
+          </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="nw"><span class="cb-text">Federal Policing Northwest Region</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="pacific"><span class="cb-text">Federal Policing Pacific Region</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+<div class="checkbox">
+                <label><input data-filter="territory" type="checkbox" value="manitoba"><span class="cb-text">Manitoba RCMP</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="nb"><span class="cb-text">New Brunswick RCMP</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="nl"><span class="cb-text">Newfoundland and Labrador RCMP</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="nwt"><span class="cb-text">Northwest Territories RCMP</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="ns"><span class="cb-text">Nova Scotia RCMP</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="nunuvut"><span class="cb-text">Nunavut RCMP</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="pei"><span class="cb-text">Prince Edward Island RCMP</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="depot"><span class="cb-text">RCMP Depot Division</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="hq"><span class="cb-text">RCMP National Headquarters</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="saskatchwan"><span class="cb-text">Saskatchewan RCMP</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="yukon"><span class="cb-text">Yukon RCMP</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+        </fieldset>
+      </details>
+		
     </aside>
        	<!--<section id="filters">
         <form id="filterForm">
@@ -507,7 +567,8 @@ issued: 2026-05-21
   var I18N = {
     en: {
  categoryLabels:  { assault: 'Assault', be: 'Break and enter', disturbance: 'Disturbance', homicide: 'Homicide', crossing: 'Illegal border crossing', drugs: 'Illicit drugs', missing: 'Missing person', crime: 'Organized crime', property: 'Interest', property: 'Public interest', theft: 'Theft', traffic: 'Traffic services', trafficking: 'Trafficking', wanted: 'Wanted', weapons: 'Weapons' },
- territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manitoba', nb: 'New Brunswick', nl: 'Newfoundland and Labrador', nwt: 'Northwest Territories', ns: 'Nova Scotia', nunavut: 'Nunavut', ontario: 'Ontario', pei: 'Prince Edward Island', quebec: 'Quebec', saskatchewan: 'Saskatchewan', yukon: 'Yukon' },		
+ territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manitoba', nb: 'New Brunswick', nl: 'Newfoundland and Labrador', nwt: 'Northwest Territories', ns: 'Nova Scotia', nunavut: 'Nunavut', ontario: 'Ontario', pei: 'Prince Edward Island', saskatchewan: 'Saskatchewan RCMP', yukon: 'Yukon RCMP' },
+regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 'Federal Policing Central Region', eastern: 'Federal Policing Eastern Region', nw: 'Federal Policing Northwest Region', pacific: 'Federal Policing Pacific Region', manitoba: 'Manitoba RCMP', nb: 'New Brunswick RCMP', nl: 'Newfoundland and Labrador RCMP', nwt: 'Northwest Territories RCMP', ns: 'Nova Scotia RCMP', nunavut: 'Nunavut  RCMP', pei: 'Prince Edward Island RCMP', depot: 'RCMP Depot Division', hq: 'RCMP National Headquarters', quebec: 'Quebec', saskatchewan: 'Saskatchewan', yukon: 'Yukon' },		
       removeFilter:   'Remove filter: ',
       profileHref:    'news-nouvelles-en.html',
       viewProfile:    'View profile: ',

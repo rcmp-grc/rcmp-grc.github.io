@@ -65,29 +65,9 @@ issued: 2026-05-21
 	  padding-left: 10px; 
 	  background-color: #ffffff;
 	}
-	.form-details
+	.summary
 	{ background-color: #f3f2f1;
 	}
-	#applied-filters 
-	{ display: flex; 
-	 gap: 10px; 
-	 margin-bottom: 10px; } 
-	.filter-pill 
-	{ background-color: #e0e0e0; 
-	 padding: 8px 8px; 
-	 border-radius: 15px; 
-	 display: flex; 
-	 align-items: center; 
-	 gap: 8px; 
-	 transition: opacity 0.3s ease, transform 0.3s ease; } 
-	.filter-pill button 
-	{ background: none; 
-	 border: none; 
-	 font-size: 10px; 
-	 cursor: pointer; } 
-	.filter-pill.fade-out 
-	{ opacity: 0; 
-	 transform: scale(0.8); }
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">
@@ -110,25 +90,25 @@ issued: 2026-05-21
       <h2 class="h4" id="news-filters-heading">Filter by</h2>
 		<div><p class="small">Apply the following filtres to narrow your search</p></div>
       <details>
-        <summary>
+        <summary class="summary">
         Category
         </summary>
         <fieldset>
           <legend class="wb-inv">Category</legend>
           <div class="checkbox">
-            <label><input data-filter="category" type="checkbox" value="male"><span class="cb-text">Male</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="category" type="checkbox" value="assault"><span class="cb-text">Assault</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="category" type="checkbox" value="female"><span class="cb-text">Female</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="category" type="checkbox" value="be"><span class="cb-text">Break-and-Enter</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="category" type="checkbox" value="other"><span class="cb-text">Other</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="category" type="checkbox" value="disturbance"><span class="cb-text">Disturbance</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="category" type="checkbox" value="unknown"><span class="cb-text">Unknown</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="category" type="checkbox" value="homicide"><span class="cb-text">Homicide</span><span class="wp-filter-badge">0</span></label>
           </div>
 			 <div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="assault"><span class="cb-text">Assault</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="category" type="checkbox" value="crossing"><span class="cb-text">Illegal border crossing</span><span class="wp-filter-badge">0</span></label>
 				  </div>
         </fieldset>
       </details>
@@ -449,7 +429,7 @@ issued: 2026-05-21
   var lang = document.documentElement.lang === 'fr' ? 'fr' : 'en';
   var I18N = {
     en: {
-      categoryLabels:   { male: 'Male', female: 'Female', other: 'Other', unknown: 'Unknown', assault: 'Assault' },
+      categoryLabels:  { assault: 'Assault', be: 'Break and enter', disturbance: 'Disturbance', homicide: 'Homicide', crossing: 'Illegal border crossing' },
       removeFilter:   'Remove filter: ',
       profileHref:    'news-nouvelles-en.html',
       viewProfile:    'View profile: ',
@@ -462,7 +442,7 @@ issued: 2026-05-21
       orSep:          'or'
     },
     fr: {
-      categoryLabels:   { male: 'homme', female: 'femme', other: 'autre', unknown: 'inconnu', assault: 'Assault' },
+      categoryLabels:  { assault: 'Assault', be: 'Break and enter', disturbance: 'Disturbance', homicide: 'Homicide', crossing: 'Illegal border crossing' },
       removeFilter:   'Retirer le filtre\u00A0: ',
       profileHref:    'news-nouvelles-fr.html',
       viewProfile:    'Voir le profil\u00A0: ',
@@ -480,37 +460,37 @@ issued: 2026-05-21
   var ni = lang === 'fr' ? 1 : 0;
   // [nameEN, nameFR, file, category, lastSeen, updated, views]
   var RAW = [
-    ['SpongeBob SquarePants',  "Bob l'éponge",        '32473043', 'male',     '1999-05-01', '2026-05-08', 1420],
-    ['Sandy Cheeks',           'Sandy Écureuil',       '30847192', 'female',  '2020-03-15', '2026-05-07', 980 ],
-    ['Patrick Star',           'Patrick Étoile',       '19284730', 'male',    '2021-07-04', '2026-05-06', 741 ],
-    ['Pearl Krabs',            'Perle Krabs',          '28374019', 'female',  '2022-01-10', '2026-05-05', 610 ],
-    ['Squidward Tentacles',    'Carlo Tentacules',     '39201847', 'male',    '2023-06-22', '2026-05-04', 533 ],
-    ['Mrs. Puff',              'Madame Puff',          '10293847', 'female',  '2024-09-30', '2026-05-03', 498 ],
-    ['Gary the Snail',         'Gary',                 '48201937', 'male',    '2022-11-18', '2026-05-02', 412 ],
-    ['Mr. Krabs',              'Monsieur Krabs',       '57839201', 'male',    '2023-02-28', '2026-05-01', 387 ],
-    ['Karen Plankton',         'Karen',                '67391028', 'female',  '2025-01-05', '2026-04-30', 344 ],
-    ['Larry the Lobster',      'Larry le Homard',      '74829103', 'male',    '2024-04-12', '2026-04-28', 302 ],
-    ['Sandy Cheeks Jr.',       'Sandy Écureuil Jr.',   '81920374', 'female',  '2023-08-09', '2026-04-26', 289 ],
-    ['Barnacle Boy',           "Bernard l'Hermite",    '92038471', 'male',    '2022-05-17', '2026-04-24', 265 ],
-    ['Mermaid Man',            "L'Homme Sirène",       '10293821', 'male',    '2021-12-01', '2026-04-22', 241 ],
-    ['Plankton',               'Plankton',             '20193847', 'male',    '2025-03-14', '2026-04-20', 218 ],
-    ['Squilvia',               'Squilvia',             '30928471', 'female',  '2024-07-07', '2026-04-18', 197 ],
-    ['Harold SquarePants',     'Harold SquarePants',   '41092837', 'male',    '2023-10-23', '2026-04-16', 183 ],
-    ['Margaret SquarePants',   'Margaret SquarePants', '51293847', 'female',  '2022-09-11', '2026-04-14', 169 ],
-    ['Squilliam Fancyson',     'Squilliam Fancyson',   '61928374', 'male',    '2024-02-19', '2026-04-12', 155 ],
-    ["Patrick's Dad",          'Le père de Patrick',   '72938401', 'male',    '2023-04-30', '2026-04-10', 143 ],
-    ['Mindy',                  'Mindy',                '83920174', 'female',  '2025-05-01', '2026-04-08', 131 ],
-    ['The Flying Dutchman',    'Le Hollandais volant', '91283047', 'unknown', '2021-03-08', '2026-04-06', 120 ],
-    ['DoodleBob',              'Gribouille Bob',       '12930184', 'unknown', '2024-11-15', '2026-04-04', 110 ],
-    ["Sandy's Mom",            'La mère de Sandy',     '23019384', 'female',  '2023-07-20', '2026-04-02', 100 ],
-    ['Old Man Jenkins',        'Vieux Jenkins',        '34128394', 'male',    '2022-06-06', '2026-03-30', 91  ],
-    ['Bubble Bass',            'Bubble Bass',          '45219304', 'male',    '2025-02-14', '2026-03-28', 83  ],
-    ['Flats the Flounder',     "Flats l'Achigan",      '56320194', 'male',    '2023-09-03', '2026-03-26', 74  ],
-    ['Nurse Bazooka',          'Infirmière Bazooka',   '67430294', 'female',  '2024-06-18', '2026-03-24', 66  ],
-    ['Fred the Fish',          'Fred le Poisson',      '78541304', 'male',    '2022-12-25', '2026-03-22', 59  ],
-    ['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'other',   '2025-04-10', '2026-03-20', 50  ],
-	['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'assault',   '2025-04-10', '2026-03-20', 50  ],
-	['Flats the Flounder',     "Flats l'Achigan",      '56320194', 'community',    '2023-09-03', '2026-03-26', 74  ]
+    ['SpongeBob SquarePants',  "Bob l'éponge",        '32473043', 'assault',     '1999-05-01', '2026-05-08', 1420],
+    ['Sandy Cheeks',           'Sandy Écureuil',       '30847192', 'assault',  '2020-03-15', '2026-05-07', 980 ],
+    ['Patrick Star',           'Patrick Étoile',       '19284730', 'disturbance',    '2021-07-04', '2026-05-06', 741 ],
+    ['Pearl Krabs',            'Perle Krabs',          '28374019', 'disturbance',  '2022-01-10', '2026-05-05', 610 ],
+    ['Squidward Tentacles',    'Carlo Tentacules',     '39201847', 'disturbance',    '2023-06-22', '2026-05-04', 533 ],
+    ['Mrs. Puff',              'Madame Puff',          '10293847', 'disturbance',  '2024-09-30', '2026-05-03', 498 ],
+    ['Gary the Snail',         'Gary',                 '48201937', 'disturbance',    '2022-11-18', '2026-05-02', 412 ],
+    ['Mr. Krabs',              'Monsieur Krabs',       '57839201', 'disturbance',    '2023-02-28', '2026-05-01', 387 ],
+    ['Karen Plankton',         'Karen',                '67391028', 'disturbance',  '2025-01-05', '2026-04-30', 344 ],
+    ['Larry the Lobster',      'Larry le Homard',      '74829103', 'be',    '2024-04-12', '2026-04-28', 302 ],
+    ['Sandy Cheeks Jr.',       'Sandy Écureuil Jr.',   '81920374', 'be',  '2023-08-09', '2026-04-26', 289 ],
+    ['Barnacle Boy',           "Bernard l'Hermite",    '92038471', 'homicide',    '2022-05-17', '2026-04-24', 265 ],
+    ['Mermaid Man',            "L'Homme Sirène",       '10293821', 'homicide',    '2021-12-01', '2026-04-22', 241 ],
+    ['Plankton',               'Plankton',             '20193847', 'homicide',    '2025-03-14', '2026-04-20', 218 ],
+    ['Squilvia',               'Squilvia',             '30928471', 'homicide',  '2024-07-07', '2026-04-18', 197 ],
+    ['Harold SquarePants',     'Harold SquarePants',   '41092837', 'assault',    '2023-10-23', '2026-04-16', 183 ],
+    ['Margaret SquarePants',   'Margaret SquarePants', '51293847', 'drugs',  '2022-09-11', '2026-04-14', 169 ],
+    ['Squilliam Fancyson',     'Squilliam Fancyson',   '61928374', 'drugs',    '2024-02-19', '2026-04-12', 155 ],
+    ["Patrick's Dad",          'Le père de Patrick',   '72938401', 'drugs',    '2023-04-30', '2026-04-10', 143 ],
+    ['Mindy',                  'Mindy',                '83920174', 'drugs',  '2025-05-01', '2026-04-08', 131 ],
+    ['The Flying Dutchman',    'Le Hollandais volant', '91283047', 'disturbance', '2021-03-08', '2026-04-06', 120 ],
+    ['DoodleBob',              'Gribouille Bob',       '12930184', 'disturbance', '2024-11-15', '2026-04-04', 110 ],
+    ["Sandy's Mom",            'La mère de Sandy',     '23019384', 'disturbance',  '2023-07-20', '2026-04-02', 100 ],
+    ['Old Man Jenkins',        'Vieux Jenkins',        '34128394', 'disturbance',    '2022-06-06', '2026-03-30', 91  ],
+    ['Bubble Bass',            'Bubble Bass',          '45219304', 'be',    '2025-02-14', '2026-03-28', 83  ],
+    ['Flats the Flounder',     "Flats l'Achigan",      '56320194', 'be',    '2023-09-03', '2026-03-26', 74  ],
+    ['Nurse Bazooka',          'Infirmière Bazooka',   '67430294', 'be',  '2024-06-18', '2026-03-24', 66  ],
+    ['Fred the Fish',          'Fred le Poisson',      '78541304', 'be',    '2022-12-25', '2026-03-22', 59  ],
+    ['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'be',   '2025-04-10', '2026-03-20', 50  ],
+	['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'be',   '2025-04-10', '2026-03-20', 50  ],
+	['Flats the Flounder',     "Flats l'Achigan",      '56320194', 'be',    '2023-09-03', '2026-03-26', 74  ]
   ];
   var PROFILES = RAW.map(function (r, i) {
     return {

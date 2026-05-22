@@ -254,7 +254,6 @@ issued: 2026-05-21
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 
     <div id="wp-toolbar">
-    <div class="panel panel-body panel-warning mrgn-tp-0 mrgn-bttm-sm">	
       <p id="wp-count" aria-live="polite"><strong id="news-count-num">0</strong>&nbsp;news and communications items found</p>
       <div id="wp-sort">
         <label for="news-sort-select">Sort by:</label>
@@ -264,7 +263,6 @@ issued: 2026-05-21
           <option value="views">Most viewed</option>
         </select>
       </div>
-    </div>
 	</div>
     <div aria-label="News profiles" id="news-grid" role="list"></div>
     <p id="news-no-results">No news or communications match your current filters.</p>
@@ -504,6 +502,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
           '<div class="wp-card-body">' +
             '<p class="wp-card-name">'  + p.name + '</p>' +
             '<p class="wp-card-meta">'  + t.fileNumber + p.file + '</p>' +
+		    '<p class="wp-card-meta">'  + t.category   + p.category + '</p>' +
 		    '<p class="wp-card-meta">'  + t.territory  + p.territory + '</p>' +
 		    '<p class="wp-card-meta">'  + t.region     + p.region + '</p>' +
             '<p class="wp-card-meta">'  + t.lastSeen   + p.lastSeen + '</p>' +

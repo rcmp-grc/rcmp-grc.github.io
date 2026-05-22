@@ -110,7 +110,6 @@ issued: 2026-05-21
       <h2 class="h4" id="news-filters-heading">Filter by</h2>
       <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
-          <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i>
           <span class="wp-filter-summary-label">Category</span>
         </summary>
         <fieldset>
@@ -128,10 +127,10 @@ issued: 2026-05-21
             <label><input data-filter="category" type="checkbox" value="unknown"><span class="cb-text">Unknown</span><span class="wp-filter-badge">0</span></label>
           </div>
 			 <div class="checkbox">
-                <label for="assault"><input name="category" data-filter="category" type="checkbox" value="assault"><span class="cb-text">Assault</span><span class="wp-filter-badge">0</span></label>
+                <label for="assault"><input data-filter="category" type="checkbox" value="assault"><span class="cb-text">Assault</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label for="brake-and-enter"><input name="category" data-filter="category" type="checkbox" value="brake-and-enter"><span class="cb-text">Break and enter</span><span class="wp-filter-badge">0</span></label>
+                <label for="brake-and-enter"><input data-filter="category" type="checkbox" value="brake-and-enter"><span class="cb-text">Break and enter</span><span class="wp-filter-badge">0</span></label>
 				  </div>
         </fieldset>
       </details>

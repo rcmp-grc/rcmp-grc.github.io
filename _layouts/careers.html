@@ -58,7 +58,7 @@
       {% include breadcrumb.html %}
     </div>
     {% endif %}
-    <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+	<main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement" {% if page.background %}style="background-image: url('{{ page.hero_image }}');"{% endif %}>
       {% unless page.hero_image %}
         {% include breadcrumb.html %}
       {% endunless %}

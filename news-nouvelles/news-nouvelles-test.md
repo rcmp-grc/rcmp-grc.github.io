@@ -96,7 +96,7 @@ issued: 2026-05-21
         <fieldset>
           <legend class="wb-inv">Category</legend>
           <div class="checkbox">
-            <label><input data-filter="category" type="checkbox" value="assault"><span class="cb-text">Assault</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="be"><span class="cb-text">Break-and-Enter</span><span class="wp-filter-badge">0</span></label>
@@ -334,8 +334,8 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       viewProfile:    'View profile: ',
       photo:          'Photo of missing person ',
       fileNumber:     'File number: ',
-	  territory: 	  'Territory:',
-	  region: 	      'Region:',	
+	  territory: 	  'Territory: ',
+	  region: 	      'Region: ',	
       updated:        'Updated: ',
       lastSeen:       'Last seen: ',
       ofPages:        ' of ',

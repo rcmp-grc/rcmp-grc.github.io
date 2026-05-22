@@ -108,9 +108,10 @@ issued: 2026-05-21
 	<div class="col-md-3">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
       <h2 class="h4" id="news-filters-heading">Filter by</h2>
-      <details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle">
-          <span class="wp-filter-summary-label">Category</span>
+		<div><p class="small">Apply the following filtres to narrow your search</p></div>
+      <details>
+        <summary>
+        Category
         </summary>
         <fieldset>
           <legend class="wb-inv">Category</legend>

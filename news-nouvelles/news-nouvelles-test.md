@@ -516,6 +516,7 @@ issued: 2026-05-21
     ['Fred the Fish',          'Fred le Poisson',      '78541304', 'male',    '2022-12-25', '2026-03-22', 59  ],
     ['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'other',   '2025-04-10', '2026-03-20', 50  ],
 	['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'assault',   '2025-04-10', '2026-03-20', 50  ],
+	['Flats the Flounder',     "Flats l'Achigan",      '56320194', 'be',    '2023-09-03', '2026-03-26', 74  ]
   ];
 
   var PROFILES = RAW.map(function (r, i) {

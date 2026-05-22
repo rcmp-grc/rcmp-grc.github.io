@@ -11,6 +11,7 @@ breadcrumbs:
   - label: "Police officer careers"
     url: "#"
 custom_css: /assets/css/careers.css
+hero_image: landing-accueil.jpg
 ---
 
 <section class="alert alert-info" role="note">

@@ -11,6 +11,7 @@ breadcrumbs:
   - label: "Police officer careers"
     url: "#"
 custom_css: /assets/css/careers.css
+hero_image: landing-accueil.jpg
 ---
 
 <p>Understand each step in the process to become a police officer – from the application submission to cadet training.</p>

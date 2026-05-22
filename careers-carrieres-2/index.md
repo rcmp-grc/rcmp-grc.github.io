@@ -13,7 +13,6 @@ breadcrumbs:
   - label: "First Nations, Inuit and Métis applicant programs"
     url: "#"
 custom_css: /assets/css/careers.css
-background: background.png
 ---
 
 <section class="alert alert-info" role="note">

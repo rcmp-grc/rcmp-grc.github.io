@@ -62,11 +62,14 @@ button,
   border-top: 0;
 }
 
-.careers-layout main[style*="background-image"] {
-  background-size: 100% auto;
-  background-repeat: repeat-y;
-  background-position: top center;
-  background-attachment: local;
+@media (min-width: 1200px) {
+  .careers-layout main {
+    background-image: url("background.png");
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: top center;
+    background-attachment: local;
+  }
 }
 
 .careers-nav {

@@ -393,7 +393,7 @@ issued: 2026-05-21
   <div class="col-md-9">
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div>
     <div id="wp-toolbar">
-      <p id="wp-count" aria-live="polite"><strong id="news-count-num">0</strong>&nbsp;missing persons found</p>
+      <p id="wp-count" aria-live="polite"><strong id="news-count-num">0</strong>&nbsp;news and communications items found</p>
       <div id="wp-sort">
         <label for="news-sort-select">Sort by:</label>
         <select aria-label="Sort profiles" id="news-sort-select">
@@ -577,11 +577,11 @@ territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manit
       name:     r[ni],
       file:     r[2],
       img:      'https://dummyimage.com/480x600/000/fff',
-      category: r[3],
-      territory: r[4],
-      lastSeen: r[5],
-      updated:  r[6],
-      views:    r[7]
+      category: r[4],
+      territory: r[5],
+      lastSeen: r[6],
+      updated:  r[7],
+      views:    r[8]
     };
   });
   var PER_PAGE    = 9;

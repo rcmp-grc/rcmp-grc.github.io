@@ -578,7 +578,7 @@ territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manit
       file:     r[2],
       img:      'https://dummyimage.com/480x600/000/fff',
       category: r[3],
-      territory: r[4],
+      territory:r[4],
       lastSeen: r[5],
       updated:  r[6],
       views:    r[7]
@@ -616,25 +616,16 @@ territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manit
     });
   }
   function getActiveFilters() {
-    var active = { category: [] };
+    var active = { category: [], territory: [] };
     checkboxes.forEach(function (cb) {
       if (cb.checked) active[cb.dataset.filter].push(cb.value);
     });
     return active;
-  var active = { territory: [] };
-    checkboxes.forEach(function (cb) {
-      if (cb.checked) active[cb.dataset.filter].push(cb.value);
-    });
-    return active;  
   }
   function filterData(filters) {
     return PROFILES.filter(function (p) {
-      return !filters.category.length || filters.category.indexOf(p.category) > -1;
-    });
-  }
-	function filterData(filters) {
-    return PROFILES.filter(function (p) {
-      return !filters.territory.length || filters.category.indexOf(p.territory) > -1;
+    return !filters.category.length || filters.category.indexOf(p.category) > -1;
+	return !filters.territory.length || filters.territory.indexOf(p.territory) > -1;	
     });
   }
   function renderTags(filters) {
@@ -652,17 +643,12 @@ territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manit
     activeTagsEl.appendChild(showingLabel);
     allTags.forEach(function (item, index) {
       var label = item.cat === 'category' ? (t.categoryLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
-      if (index > 0) {
-        var sep = document.createElement('span');
-        sep.className = 'wp-filter-tag-sep';
-        sep.textContent = t.orSep;
-        activeTagsEl.appendChild(sep);
 	  var label = item.cat === 'territory' ? (t.territoryLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
       if (index > 0) {
         var sep = document.createElement('span');
         sep.className = 'wp-filter-tag-sep';
         sep.textContent = t.orSep;
-        activeTagsEl.appendChild(sep);  
+        activeTagsEl.appendChild(sep);
       }
       var tag = document.createElement('span');
       tag.className = 'wp-filter-tag';

@@ -2,7 +2,7 @@
 layout: default
 title: News and communications
 description: My page description
-date_modified: 2026-05-21
+date_modified: 2026-05-22
 lang: en
 lang_url: news-nouvelles-fr.html
 author:
@@ -127,10 +127,10 @@ issued: 2026-05-21
             <label><input data-filter="category" type="checkbox" value="unknown"><span class="cb-text">Unknown</span><span class="wp-filter-badge">0</span></label>
           </div>
 			 <div class="checkbox">
-                <label for="assault"><input data-filter="category" type="checkbox" value="assault"><span class="cb-text">Assault</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="category" type="checkbox" value="assault"><span class="cb-text">Assault</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label for="brake-and-enter"><input data-filter="category" type="checkbox" value="brake-and-enter"><span class="cb-text">Break and enter</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="category" type="checkbox" value="be"><span class="cb-text">Break and enter</span><span class="wp-filter-badge">0</span></label>
 				  </div>
         </fieldset>
       </details>
@@ -453,7 +453,7 @@ issued: 2026-05-21
 
   var I18N = {
     en: {
-      categoryLabels:   { male: 'Male', female: 'Female', other: 'Other', unknown: 'Unknown', assault: 'Assault', break-and-enter: 'Break and enter' },
+      categoryLabels:   { male: 'Male', female: 'Female', other: 'Other', unknown: 'Unknown', assault: 'Assault', be: 'Break and enter' },
       removeFilter:   'Remove filter: ',
       profileHref:    'missing-disparues-en.html',
       viewProfile:    'View profile: ',

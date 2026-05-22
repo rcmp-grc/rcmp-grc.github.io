@@ -127,6 +127,12 @@ issued: 2026-05-21
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="unknown"><span class="cb-text">Unknown</span><span class="wp-filter-badge">0</span></label>
           </div>
+			 <div class="checkbox">
+                <label for="assault"><input name="category" data-filter="category" type="checkbox" value="assault"><span class="cb-text">Assault</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label for="brake-and-enter"><input name="category" data-filter="category" type="checkbox" value="brake-and-enter"><span class="cb-text">Break and enter</span><span class="wp-filter-badge">0</span></label>
+				  </div>
         </fieldset>
       </details>
     </aside>
@@ -448,9 +454,9 @@ issued: 2026-05-21
 
   var I18N = {
     en: {
-      categoryLabels:   { male: 'Male', female: 'Female', other: 'Other', unknown: 'Unknown' },
+      categoryLabels:   { male: 'Male', female: 'Female', other: 'Other', unknown: 'Unknown', assault: 'Assault', break-and-enter: 'Break and enter' },
       removeFilter:   'Remove filter: ',
-      profileHref:    'missing-disparues-en.html',
+      profileHref:    'news-nouvelles-en.html',
       viewProfile:    'View profile: ',
       photo:          'Photo of missing person ',
       fileNumber:     'File number: ',
@@ -461,9 +467,9 @@ issued: 2026-05-21
       orSep:          'or'
     },
     fr: {
-      categoryLabels:   { male: 'homme', female: 'femme', other: 'autre', unknown: 'inconnu' },
+      categoryLabels:   { male: 'homme', female: 'femme', other: 'autre', unknown: 'inconnu', assault: 'Assault', break-and-enter: 'Break and enter' },
       removeFilter:   'Retirer le filtre\u00A0: ',
-      profileHref:    'missing-disparues-fr.html',
+      profileHref:    'news-nouvelles-fr.html',
       viewProfile:    'Voir le profil\u00A0: ',
       photo:          'Photo de la personne disparue ',
       fileNumber:     'Numéro de dossier\u00A0: ',

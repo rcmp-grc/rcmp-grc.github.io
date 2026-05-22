@@ -11,4 +11,3 @@ lang_url: index.html
 issued: 2026-05-22
 ---
 
-{% include_relative ./basic-base/index-fr.md %}

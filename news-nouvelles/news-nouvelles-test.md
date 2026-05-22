@@ -130,7 +130,7 @@ issued: 2026-05-21
                 <label><input data-filter="category" type="checkbox" value="assault"><span class="cb-text">Assault</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="community"><span class="cb-text">Community interest</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="category" type="checkbox" value="community"><span class="cb-text">Community</span><span class="wp-filter-badge">0</span></label>
 				  </div>
         </fieldset>
       </details>
@@ -448,12 +448,10 @@ issued: 2026-05-21
 <script>
 (function () {
   'use strict';
-
   var lang = document.documentElement.lang === 'fr' ? 'fr' : 'en';
-
   var I18N = {
     en: {
-      categoryLabels:   { male: 'Male', female: 'Female', other: 'Other', unknown: 'Unknown', assault: 'Assault', community: Community interest, },
+      categoryLabels:   { male: 'Male', female: 'Female', other: 'Other', unknown: 'Unknown', assault: 'Assault', community: Community },
       removeFilter:   'Remove filter: ',
       profileHref:    'missing-disparues-en.html',
       viewProfile:    'View profile: ',
@@ -466,7 +464,7 @@ issued: 2026-05-21
       orSep:          'or'
     },
     fr: {
-      categoryLabels:   { male: 'homme', female: 'femme', other: 'autre', unknown: 'inconnu', assault: 'Assault', community: Community interest, },
+      categoryLabels:   { male: 'homme', female: 'femme', other: 'autre', unknown: 'inconnu', assault: 'Assault', community: Community },
       removeFilter:   'Retirer le filtre\u00A0: ',
       profileHref:    'missing-disparues-fr.html',
       viewProfile:    'Voir le profil\u00A0: ',
@@ -479,11 +477,9 @@ issued: 2026-05-21
       orSep:          'ou'
     }
   };
-
   var t  = I18N[lang];
   var $  = document.getElementById.bind(document);
   var ni = lang === 'fr' ? 1 : 0;
-
   // [nameEN, nameFR, file, category, lastSeen, updated, views]
   var RAW = [
     ['SpongeBob SquarePants',  "Bob l'éponge",        '32473043', 'male',     '1999-05-01', '2026-05-08', 1420],
@@ -518,7 +514,6 @@ issued: 2026-05-21
 	['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'assault',   '2025-04-10', '2026-03-20', 50  ],
 	['Flats the Flounder',     "Flats l'Achigan",      '56320194', 'community',    '2023-09-03', '2026-03-26', 74  ]
   ];
-
   var PROFILES = RAW.map(function (r, i) {
     return {
       id:       i + 1,
@@ -531,11 +526,9 @@ issued: 2026-05-21
       views:    r[6]
     };
   });
-
   var PER_PAGE    = 9;
   var currentPage = 1;
   var activeData  = PROFILES.slice();
-
   var grid         = $('news-grid');
   var countNum     = $('news-count-num');
   var noResults    = $('news-no-results');
@@ -545,7 +538,6 @@ issued: 2026-05-21
   var activeTagsEl = $('news-active-filters');
   var pagination   = $('rcmp-content-page');
   var checkboxes   = document.querySelectorAll('#news-filters input[type="checkbox"]');
-
   function updateBadges() {
     checkboxes.forEach(function (cb) {
       var cat = cb.dataset.filter;
@@ -557,7 +549,6 @@ issued: 2026-05-21
       if (badge) badge.textContent = count;
     });
   }
-
   function sortData(data, mode) {
     return data.slice().sort(function (a, b) {
       if (mode === 'newest') return b.updated.localeCompare(a.updated);
@@ -566,7 +557,6 @@ issued: 2026-05-21
       return 0;
     });
   }
-
   function getActiveFilters() {
     var active = { category: [] };
     checkboxes.forEach(function (cb) {
@@ -574,40 +564,32 @@ issued: 2026-05-21
     });
     return active;
   }
-
   function filterData(filters) {
     return PROFILES.filter(function (p) {
       return !filters.category.length || filters.category.indexOf(p.category) > -1;
     });
   }
-
   function renderTags(filters) {
     activeTagsEl.innerHTML = '';
-
     var allTags = [];
     Object.keys(filters).forEach(function (cat) {
       filters[cat].forEach(function (val) {
         allTags.push({ cat: cat, val: val });
       });
     });
-
     if (!allTags.length) return;
-
     var showingLabel = document.createElement('span');
     showingLabel.className = 'wp-filter-showing-label';
     showingLabel.textContent = t.showing;
     activeTagsEl.appendChild(showingLabel);
-
     allTags.forEach(function (item, index) {
       var label = item.cat === 'category' ? (t.categoryLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
-
       if (index > 0) {
         var sep = document.createElement('span');
         sep.className = 'wp-filter-tag-sep';
         sep.textContent = t.orSep;
         activeTagsEl.appendChild(sep);
       }
-
       var tag = document.createElement('span');
       tag.className = 'wp-filter-tag';
       tag.innerHTML =
@@ -619,16 +601,13 @@ issued: 2026-05-21
       activeTagsEl.appendChild(tag);
     });
   }
-
   function renderGrid(data, page) {
     var slice = data.slice((page - 1) * PER_PAGE, page * PER_PAGE);
     grid.innerHTML = '';
-
     var show = !!slice.length;
     noResults.style.display  = show ? 'none'  : 'block';
     pagination.style.display = show ? 'block' : 'none';
     if (!show) return;
-
     slice.forEach(function (p) {
       var li = document.createElement('div');
       li.setAttribute('role', 'listitem');
@@ -644,26 +623,21 @@ issued: 2026-05-21
       grid.appendChild(li);
     });
   }
-
   function renderPagination(total, page) {
     var pages     = Math.ceil(total / PER_PAGE);
     var prevLabel = $('mp-prev-label');
     var nextLabel = $('mp-next-label');
-
     if (prevLabel) prevLabel.textContent = (page - 1) + t.ofPages + pages;
     if (nextLabel) nextLabel.textContent = (page + 1) + t.ofPages + pages;
-
     prevBtn.disabled                    = page <= 1;
     nextBtn.disabled                    = page >= pages;
     prevBtn.parentElement.style.display = page <= 1    ? 'none' : 'block';
     nextBtn.parentElement.style.display = page >= pages ? 'none' : 'block';
   }
-
   function draw() {
     renderGrid(activeData, currentPage);
     renderPagination(activeData.length, currentPage);
   }
-
   function refresh() {
     var filters  = getActiveFilters();
     activeData  = sortData(filterData(filters), sortSel.value);
@@ -672,29 +646,24 @@ issued: 2026-05-21
     renderTags(filters);
     draw();
   }
-
   checkboxes.forEach(function (cb) { cb.addEventListener('change', refresh); });
-
   sortSel.addEventListener('change', function () {
     activeData  = sortData(activeData, sortSel.value);
     currentPage = 1;
     draw();
   });
-
   function paginate(dir, btn) {
     currentPage += dir;
     draw();
     grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
     btn.blur();
   }
-
   prevBtn.addEventListener('click', function () {
     if (currentPage > 1) paginate(-1, prevBtn);
   });
   nextBtn.addEventListener('click', function () {
     if (currentPage < Math.ceil(activeData.length / PER_PAGE)) paginate(1, nextBtn);
   });
-
   updateBadges();
   refresh();
 }());

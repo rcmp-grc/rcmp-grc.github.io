@@ -7,7 +7,8 @@
     "version": "v0.0.0",
     "status_en": "🟡 In development",
     "status_fr": "🟡 En cours",
-    "owner": "Moira"
+    "owner": "Moira",
+    "folder": "basic-base"
   },
   {
     "en": "Campaign",
@@ -18,6 +19,7 @@
     "status_en": "🟡 In development",
     "status_fr": "🟡 En cours",
     "owner": "Maryam"
+    "folder": "campaign-campagne"
   },
   {
     "en": "Detachment list",

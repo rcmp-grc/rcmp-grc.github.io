@@ -129,9 +129,6 @@ issued: 2026-05-21
 			 <div class="checkbox">
                 <label><input data-filter="category" type="checkbox" value="assault"><span class="cb-text">Assault</span><span class="wp-filter-badge">0</span></label>
 				  </div>
-			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="community"><span class="cb-text">Community</span><span class="wp-filter-badge">0</span></label>
-				  </div>
         </fieldset>
       </details>
     </aside>

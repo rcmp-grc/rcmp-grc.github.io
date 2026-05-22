@@ -62,7 +62,7 @@ button,
   border-top: 0;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   .careers-layout main {
     background-image: url("/assets/careers-background.png");
     background-size: 100% auto;

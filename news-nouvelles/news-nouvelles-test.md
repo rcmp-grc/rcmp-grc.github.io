@@ -129,9 +129,6 @@ issued: 2026-05-21
 			 <div class="checkbox">
                 <label><input data-filter="category" type="checkbox" value="assault"><span class="cb-text">Assault</span><span class="wp-filter-badge">0</span></label>
 				  </div>
-			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="be"><span class="cb-text">Break and enter</span><span class="wp-filter-badge">0</span></label>
-				  </div>
         </fieldset>
       </details>
     </aside>
@@ -453,7 +450,7 @@ issued: 2026-05-21
 
   var I18N = {
     en: {
-      categoryLabels:   { male: 'Male', female: 'Female', other: 'Other', unknown: 'Unknown', assault: 'Assault', be: 'Break and enter' },
+      categoryLabels:   { male: 'Male', female: 'Female', other: 'Other', unknown: 'Unknown', assault: 'Assault' },
       removeFilter:   'Remove filter: ',
       profileHref:    'missing-disparues-en.html',
       viewProfile:    'View profile: ',
@@ -466,7 +463,7 @@ issued: 2026-05-21
       orSep:          'or'
     },
     fr: {
-      categoryLabels:   { male: 'homme', female: 'femme', other: 'autre', unknown: 'inconnu', assault: 'Assault', break-and-enter: 'Break and enter' },
+      categoryLabels:   { male: 'homme', female: 'femme', other: 'autre', unknown: 'inconnu', assault: 'Assault' },
       removeFilter:   'Retirer le filtre\u00A0: ',
       profileHref:    'missing-disparues-fr.html',
       viewProfile:    'Voir le profil\u00A0: ',
@@ -516,7 +513,6 @@ issued: 2026-05-21
     ['Fred the Fish',          'Fred le Poisson',      '78541304', 'male',    '2022-12-25', '2026-03-22', 59  ],
     ['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'other',   '2025-04-10', '2026-03-20', 50  ],
 	['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'assault',   '2025-04-10', '2026-03-20', 50  ],
-['Nurse Bazooka',          'Infirmière Bazooka',   '67430294', 'break-and-enter',  '2024-06-18', '2026-03-24', 66  ]	
   ];
 
   var PROFILES = RAW.map(function (r, i) {

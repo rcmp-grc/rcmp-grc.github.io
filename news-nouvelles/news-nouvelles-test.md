@@ -456,7 +456,7 @@ issued: 2026-05-21
     en: {
       categoryLabels:   { male: 'Male', female: 'Female', other: 'Other', unknown: 'Unknown', assault: 'Assault', break-and-enter: 'Break and enter' },
       removeFilter:   'Remove filter: ',
-      profileHref:    'news-nouvelles-en.html',
+      profileHref:    'news-nouvelles-test.html',
       viewProfile:    'View profile: ',
       photo:          'Photo of missing person ',
       fileNumber:     'File number: ',
@@ -515,7 +515,9 @@ issued: 2026-05-21
     ['Flats the Flounder',     "Flats l'Achigan",      '56320194', 'male',    '2023-09-03', '2026-03-26', 74  ],
     ['Nurse Bazooka',          'Infirmière Bazooka',   '67430294', 'female',  '2024-06-18', '2026-03-24', 66  ],
     ['Fred the Fish',          'Fred le Poisson',      '78541304', 'male',    '2022-12-25', '2026-03-22', 59  ],
-    ['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'other',   '2025-04-10', '2026-03-20', 50  ]
+    ['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'other',   '2025-04-10', '2026-03-20', 50  ],
+	['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'assault',   '2025-04-10', '2026-03-20', 50  ],
+['Nurse Bazooka',          'Infirmière Bazooka',   '67430294', 'break-and-enter',  '2024-06-18', '2026-03-24', 66  ]	
   ];
 
   var PROFILES = RAW.map(function (r, i) {

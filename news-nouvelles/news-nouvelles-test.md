@@ -264,7 +264,7 @@ issued: 2026-05-21
         </select>
       </div>
     </div>
-    <div aria-label="Missing persons profiles" id="news-grid" role="list"></div>
+    <div aria-label="News profiles" id="news-grid" role="list"></div>
     <p id="news-no-results">No news or communications match your current filters.</p>
     <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
       <div class="rcmp-content-page__prev" id="news-prev-wrap">
@@ -334,8 +334,6 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       viewProfile:    'View profile: ',
       photo:          'Photo of missing person ',
       fileNumber:     'File number: ',
-	  territory: 	  'Territory: ',
-	  region: 	      'Region: ',	
       updated:        'Updated: ',
       lastSeen:       'Last seen: ',
       ofPages:        ' of ',
@@ -397,16 +395,16 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   ];
   var PROFILES = RAW.map(function (r, i) {
     return {
-      id:       i + 1,
-      name:     r[ni],
-      file:     r[2],
-      img:      'https://dummyimage.com/480x600/000/fff',
-      category: r[3],
+      id:        i + 1,
+      name:      r[ni],
+      file:      r[2],
+      img:       'https://dummyimage.com/480x600/000/fff',
+      category:  r[3],
       territory: r[4],
-      region:   r[5],
-      lastSeen: r[6],
-      updated:  r[7],
-      views:    r[8]
+      region:    r[5],
+      lastSeen:  r[6],
+      updated:   r[7],
+      views:     r[8]
     };
   });
   var PER_PAGE    = 9;
@@ -468,8 +466,8 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     showingLabel.textContent = t.showing;
     activeTagsEl.appendChild(showingLabel);
     allTags.forEach(function (item, index) {
-      var label = item.cat === 'category' ? (t.categoryLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
-	  var label = item.cat === 'territory' ? (t.territoryLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
+      var label = item.cat === 'category' ? (t.categoryLabels[item.val] || item.val) : item.val.replace(/-/g, ' '),
+	  var label = item.cat === 'territory' ? (t.territoryLabels[item.val] || item.val) : item.val.replace(/-/g, ' '),
 	  var label = item.cat === 'region' ? (t.regionLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
       if (index > 0) {
         var sep = document.createElement('span');
@@ -518,10 +516,10 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     var nextLabel = $('mp-next-label');
     if (prevLabel) prevLabel.textContent = (page - 1) + t.ofPages + pages;
     if (nextLabel) nextLabel.textContent = (page + 1) + t.ofPages + pages;
-    prevBtn.disabled                    = page <= 1;
-    nextBtn.disabled                    = page >= pages;
-    prevBtn.parentElement.style.display = page <= 1    ? 'none' : 'block';
-    nextBtn.parentElement.style.display = page >= pages ? 'none' : 'block';
+    prevBtn.disabled                     = page <= 1;
+    nextBtn.disabled                     = page >= pages;
+    prevBtn.parentElement.style.display  = page <= 1    ? 'none' : 'block';
+    nextBtn.parentElement.style.display  = page >= pages ? 'none' : 'block';
   }
   function draw() {
     renderGrid(activeData, currentPage);

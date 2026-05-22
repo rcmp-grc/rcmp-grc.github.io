@@ -464,7 +464,7 @@ issued: 2026-05-21
       </div>
     </div>
     <div aria-label="Missing persons profiles" id="news-grid" role="list"></div>
-    <p id="news-no-results">No profiles match your current filters.</p>
+    <p id="news-no-results">No news or communications match your current filters.</p>
     <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
       <div class="rcmp-content-page__prev" id="news-prev-wrap">
         <button type="button" id="news-prev" class="rcmp-content-page__link" aria-label="Previous page">
@@ -582,7 +582,8 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     },
     fr: {
 categoryLabels:  { assault: 'Assault', be: 'Break and enter', disturbance: 'Disturbance', homicide: 'Homicide', crossing: 'Illegal border crossing', drugs: 'Illicit drugs', missing: 'Missing person', crime: 'Organized crime', property: 'Interest', property: 'Public interest', theft: 'Theft', traffic: 'Traffic services', trafficking: 'Trafficking', wanted: 'Wanted', weapons: 'Weapons' },
-territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manitoba', nb: 'New Brunswick', nl: 'Newfoundland and Labrador', nwt: 'Northwest Territories', ns: 'Nova Scotia', nunavut: 'Nunavut', ontario: 'Ontario', pei: 'Prince Edward Island', quebec: 'Quebec', saskatchewan: 'Saskatchewan', yukon: 'Yukon' },			
+territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manitoba', nb: 'New Brunswick', nl: 'Newfoundland and Labrador', nwt: 'Northwest Territories', ns: 'Nova Scotia', nunavut: 'Nunavut', ontario: 'Ontario', pei: 'Prince Edward Island', quebec: 'Quebec', saskatchewan: 'Saskatchewan', yukon: 'Yukon' },		
+regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 'Federal Policing Central Region', eastern: 'Federal Policing Eastern Region', nw: 'Federal Policing Northwest Region', pacific: 'Federal Policing Pacific Region', manitoba: 'Manitoba RCMP', nb: 'New Brunswick RCMP', nl: 'Newfoundland and Labrador RCMP', nwt: 'Northwest Territories RCMP', ns: 'Nova Scotia RCMP', nunavut: 'Nunavut  RCMP', pei: 'Prince Edward Island RCMP', depot: 'RCMP Depot Division', hq: 'RCMP National Headquarters', quebec: 'Quebec', saskatchewan: 'Saskatchewan', yukon: 'Yukon' },		
       removeFilter:   'Retirer le filtre\u00A0: ',
       profileHref:    'news-nouvelles-fr.html',
       viewProfile:    'Voir le profil\u00A0: ',
@@ -598,39 +599,39 @@ territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manit
   var t  = I18N[lang];
   var $  = document.getElementById.bind(document);
   var ni = lang === 'fr' ? 1 : 0;
-  // [nameEN, nameFR, file, category, territory, lastSeen, updated, views]
+  // [nameEN, nameFR, file, category, territory, region, lastSeen, updated, views]
   var RAW = [
-    ['SpongeBob SquarePants',  "Bob l'éponge",         '32473043', 'assault', 'nwt', '1999-05-01', '2026-05-08', 1420],
-    ['Sandy Cheeks',           'Sandy Écureuil',       '30847192', 'assault', 'nunavut', '2020-03-15', '2026-05-07', 980 ],
-    ['Patrick Star',           'Patrick Étoile',       '19284730', 'disturbance', 'pei', '2021-07-04', '2026-05-06', 741 ],
-    ['Pearl Krabs',            'Perle Krabs',          '28374019', 'disturbance', 'pei', '2022-01-10', '2026-05-05', 610 ],
-    ['Squidward Tentacles',    'Carlo Tentacules',     '39201847', 'disturbance', 'nunavut',  '2023-06-22', '2026-05-04', 533 ],
-    ['Mrs. Puff',              'Madame Puff',          '10293847', 'disturbance', 'quebec', '2024-09-30', '2026-05-03', 498 ],
-    ['Gary the Snail',         'Gary',                 '48201937', 'disturbance',  'quebec',  '2022-11-18', '2026-05-02', 412 ],
-    ['Mr. Krabs',              'Monsieur Krabs',       '57839201', 'disturbance', 'quebec',   '2023-02-28', '2026-05-01', 387 ],
-    ['Karen Plankton',         'Karen',                '67391028', 'disturbance', 'saskatchewan', '2025-01-05', '2026-04-30', 344 ],
-    ['Larry the Lobster',      'Larry le Homard',      '74829103', 'be',  'ontario',  '2024-04-12', '2026-04-28', 302 ],
-    ['Sandy Cheeks Jr.',       'Sandy Écureuil Jr.',   '81920374', 'be', 'pei', '2023-08-09', '2026-04-26', 289 ],
-    ['Barnacle Boy',           "Bernard l'Hermite",    '92038471', 'homicide',  'ontario',  '2022-05-17', '2026-04-24', 265 ],
-    ['Mermaid Man',            "L'Homme Sirène",       '10293821', 'wanted',  'quebec',  '2021-12-01', '2026-04-22', 241 ],
-    ['Plankton',               'Plankton',             '20193847', 'drugs',  'pei',  '2025-03-14', '2026-04-20', 218 ],
-    ['Squilvia',               'Squilvia',             '30928471', 'missing', 'ontario', '2024-07-07', '2026-04-18', 197 ],
-    ['Harold SquarePants',     'Harold SquarePants',   '41092837', 'missing', 'saskatchewan',  '2023-10-23', '2026-04-16', 183 ],
-    ['Margaret SquarePants',   'Margaret SquarePants', '51293847', 'drugs', 'yukon', '2022-09-11', '2026-04-14', 169 ],
-    ['Squilliam Fancyson',     'Squilliam Fancyson',   '61928374', 'drugs', 'yukon',  '2024-02-19', '2026-04-12', 155 ],
-    ["Patrick's Dad",          'Le père de Patrick',   '72938401', 'drugs', 'bc',   '2023-04-30', '2026-04-10', 143 ],
-    ['Mindy',                  'Mindy',                '83920174', 'drugs', 'ns', '2025-05-01', '2026-04-08', 131 ],
-    ['The Flying Dutchman',    'Le Hollandais volant', '91283047', 'disturbance', 'nwt', '2021-03-08', '2026-04-06', 120 ],
-    ['DoodleBob',              'Gribouille Bob',       '12930184', 'disturbance', 'yukon', '2024-11-15', '2026-04-04', 110 ],
-    ["Sandy's Mom",            'La mère de Sandy',     '23019384', 'interest', 'nl', '2023-07-20', '2026-04-02', 100 ],
-    ['Old Man Jenkins',        'Vieux Jenkins',        '34128394', 'interest',  'nl',  '2022-06-06', '2026-03-30', 91  ],
-    ['Bubble Bass',            'Bubble Bass',          '45219304', 'illigal border crossing',  'nwt',  '2025-02-14', '2026-03-28', 83  ],
-    ['Flats the Flounder',     "Flats l'Achigan",      '56320194', 'weapons',  'nwt',  '2023-09-03', '2026-03-26', 74  ],
-    ['Nurse Bazooka',          'Infirmière Bazooka',   '67430294', 'traffic', 'bc', '2024-06-18', '2026-03-24', 66  ],
-    ['Fred the Fish',          'Fred le Poisson',      '78541304', 'trafficking', 'ns',   '2022-12-25', '2026-03-22', 59  ],
-    ['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'theft',  'ns', '2025-04-10', '2026-03-20', 50  ],
-	['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'property', 'ns',  '2025-04-10', '2026-03-20', 50  ],
-	['Flats the Flounder',     "Flats l'Achigan",      '56320194', 'crime',  'bc',  '2023-09-03', '2026-03-26', 74  ]
+    ['SpongeBob SquarePants',  "Bob l'éponge",         '32473043', 'assault', 'nwt', 'nwt', '1999-05-01', '2026-05-08', 1420],
+    ['Sandy Cheeks',           'Sandy Écureuil',       '30847192', 'assault', 'nunavut', 'nunavut', '2020-03-15', '2026-05-07', 980 ],
+    ['Patrick Star',           'Patrick Étoile',       '19284730', 'disturbance', 'pei', 'pei', '2021-07-04', '2026-05-06', 741 ],
+    ['Pearl Krabs',            'Perle Krabs',          '28374019', 'disturbance', 'pei', 'pei', '2022-01-10', '2026-05-05', 610 ],
+    ['Squidward Tentacles',    'Carlo Tentacules',     '39201847', 'disturbance', 'nunavut', 'nunavut',  '2023-06-22', '2026-05-04', 533 ],
+    ['Mrs. Puff',              'Madame Puff',          '10293847', 'disturbance', 'quebec', 'central', '2024-09-30', '2026-05-03', 498 ],
+    ['Gary the Snail',         'Gary',                 '48201937', 'disturbance',  'quebec', 'central',  '2022-11-18', '2026-05-02', 412 ],
+    ['Mr. Krabs',              'Monsieur Krabs',       '57839201', 'disturbance', 'quebec', 'central',   '2023-02-28', '2026-05-01', 387 ],
+    ['Karen Plankton',         'Karen',                '67391028', 'disturbance', 'saskatchewan', 'saskatchewan', '2025-01-05', '2026-04-30', 344 ],
+    ['Larry the Lobster',      'Larry le Homard',      '74829103', 'be',  'ontario',  'hq',  '2024-04-12', '2026-04-28', 302 ],
+    ['Sandy Cheeks Jr.',       'Sandy Écureuil Jr.',   '81920374', 'be', 'pei', 'pei', '2023-08-09', '2026-04-26', 289 ],
+    ['Barnacle Boy',           "Bernard l'Hermite",    '92038471', 'homicide',  'ontario', 'hq',  '2022-05-17', '2026-04-24', 265 ],
+    ['Mermaid Man',            "L'Homme Sirène",       '10293821', 'wanted',  'quebec', 'central', '2021-12-01', '2026-04-22', 241 ],
+    ['Plankton',               'Plankton',             '20193847', 'drugs',  'pei',  'pei', '2025-03-14', '2026-04-20', 218 ],
+    ['Squilvia',               'Squilvia',             '30928471', 'missing', 'ontario', 'hq', '2024-07-07', '2026-04-18', 197 ],
+    ['Harold SquarePants',     'Harold SquarePants',   '41092837', 'missing', 'saskatchewan',  'saskatchewan', '2023-10-23', '2026-04-16', 183 ],
+    ['Margaret SquarePants',   'Margaret SquarePants', '51293847', 'drugs', 'yukon',  'yukon', '2022-09-11', '2026-04-14', 169 ],
+    ['Squilliam Fancyson',     'Squilliam Fancyson',   '61928374', 'drugs', 'yukon',  'yukon', '2024-02-19', '2026-04-12', 155 ],
+    ["Patrick's Dad",          'Le père de Patrick',   '72938401', 'drugs', 'bc', 'pacific', '2023-04-30', '2026-04-10', 143 ],
+    ['Mindy',                  'Mindy',                '83920174', 'drugs', 'ns', 'ns', '2025-05-01', '2026-04-08', 131 ],
+    ['The Flying Dutchman',    'Le Hollandais volant', '91283047', 'disturbance', 'nwt', 'nwt', '2021-03-08', '2026-04-06', 120 ],
+    ['DoodleBob',              'Gribouille Bob',       '12930184', 'disturbance', 'yukon', 'yukon', '2024-11-15', '2026-04-04', 110 ],
+    ["Sandy's Mom",            'La mère de Sandy',     '23019384', 'interest', 'nl', 'nl', '2023-07-20', '2026-04-02', 100 ],
+    ['Old Man Jenkins',        'Vieux Jenkins',        '34128394', 'interest',  'nl', 'nl',  '2022-06-06', '2026-03-30', 91  ],
+    ['Bubble Bass',            'Bubble Bass',          '45219304', 'illigal border crossing',  'nwt',  'nwt', '2025-02-14', '2026-03-28', 83  ],
+    ['Flats the Flounder',     "Flats l'Achigan",      '56320194', 'weapons',  'nwt',  'nwt',  '2023-09-03', '2026-03-26', 74  ],
+    ['Nurse Bazooka',          'Infirmière Bazooka',   '67430294', 'traffic', 'bc', 'bc', '2024-06-18', '2026-03-24', 66  ],
+    ['Fred the Fish',          'Fred le Poisson',      '78541304', 'trafficking', 'ns', 'ns',   '2022-12-25', '2026-03-22', 59  ],
+    ['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'theft',  'ns', 'ns', '2025-04-10', '2026-03-20', 50  ],
+	['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'property', 'ns', 'ns',  '2025-04-10', '2026-03-20', 50  ],
+	['Flats the Flounder',     "Flats l'Achigan",      '56320194', 'crime',  'bc', 'pacific',  '2023-09-03', '2026-03-26', 74  ]
   ];
   var PROFILES = RAW.map(function (r, i) {
     return {
@@ -640,9 +641,10 @@ territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manit
       img:      'https://dummyimage.com/480x600/000/fff',
       category: r[3],
       territory: r[4],
-      lastSeen: r[5],
-      updated:  r[6],
-      views:    r[7]
+      region:   r[5],
+      lastSeen: r[6],
+      updated:  r[7],
+      views:    r[8]
     };
   });
   var PER_PAGE    = 9;
@@ -677,7 +679,7 @@ territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manit
     });
   }
   function getActiveFilters() {
-    var active = { category: [], territory: [] };
+    var active = { category: [], territory: [], region: [] };
     checkboxes.forEach(function (cb) {
       if (cb.checked) active[cb.dataset.filter].push(cb.value);
     });
@@ -686,7 +688,8 @@ territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manit
   function filterData(filters) {
     return PROFILES.filter(function (p) {
     return !filters.category.length || filters.category.indexOf(p.category) > -1;
-	return !filters.territory.length || filters.territory.indexOf(p.territory) > -1;	
+	return !filters.territory.length || filters.territory.indexOf(p.territory) > -1;
+	return !filters.region.length || filters.region.indexOf(p.region) > -1;	
     });
   }
   function renderTags(filters) {
@@ -705,6 +708,7 @@ territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manit
     allTags.forEach(function (item, index) {
       var label = item.cat === 'category' ? (t.categoryLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
 	  var label = item.cat === 'territory' ? (t.territoryLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
+	  var label = item.cat === 'region' ? (t.regionLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
       if (index > 0) {
         var sep = document.createElement('span');
         sep.className = 'wp-filter-tag-sep';
@@ -738,7 +742,8 @@ territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manit
           '<div class="wp-card-body">' +
             '<p class="wp-card-name">'  + p.name + '</p>' +
             '<p class="wp-card-meta">'  + t.fileNumber + p.file + '</p>' +
-		    '<p class="wp-card-meta">'  + t.territory + p.file + '</p>' +
+		    '<p class="wp-card-meta">'  + t.territory + p.territory + '</p>' +
+		    '<p class="wp-card-meta">'  + t.region + p.region + '</p>' +
             '<p class="wp-card-meta">'  + t.lastSeen   + p.lastSeen + '</p>' +
             '<p class="wp-card-meta">'  + t.updated    + p.updated + '</p>' +
           '</div></a>';

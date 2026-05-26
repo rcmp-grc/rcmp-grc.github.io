@@ -14,6 +14,7 @@ lang_url: index-fr.html
     <li><a href="#s1">Headings</a></li>
     <li><a href="#s2">Images</a></li>
     <li><a href="#s3">Lists</a></li>
+    <li><a href="#s4">Alerts</a></li>
   </ul>
 </section>
 <section id="s1">
@@ -141,7 +142,7 @@ lang_url: index-fr.html
       <dd>Definition of term 2</dd>
     </dl>
     <section id="s3-3-1">
-      <h4>Definition lists − horizontal layout</h4>
+      <h4>Definition list − horizontal layout</h4>
       <dl class="dl-horizontal">
         <dt>Term 1</dt>
         <dd>Definition of term 1</dd>
@@ -186,5 +187,40 @@ lang_url: index-fr.html
       <li>Inline list item 2</li>
       <li>Inline list item 3</li>
     </ol>
+  </section>
+</section>
+<section id="s4">
+  <h2>Alerts</h2>
+  <section class="alert alert-danger">
+    <h3>Danger alert</h3>
+    <p>Alert details.</p>
+  </section>
+  <section class="alert alert-warning">
+    <h3>Warning alert</h3>
+    <p>Alert details.</p>
+  </section>
+  <section class="alert alert-success">
+    <h3>Success alert</h3>
+    <p>Alert details.</p>
+  </section>
+  <section class="alert alert-info">
+    <h3>Info alert</h3>
+    <p>Alert details.</p>
+  </section>
+  <section class="alert alert-success">
+    <h3>(Success Title)</h3>
+    <p> Success content goes here <a href="#" class="alert-link">link text</a>.</p>
+  </section>
+  <section class="alert alert-info">
+    <h3>(Info Title)</h3>
+    <p> Info content goes here <a href="#" class="alert-link">link text</a>.</p>
+  </section>
+  <section class="alert alert-warning">
+    <h3>(Warning Title)</h3>
+    <p> Warning content goes here <a href="#" class="alert-link">link text</a>.</p>
+  </section>
+  <section class="alert alert-danger">
+    <h3>(Info Title)</h3>
+    <p> Danger content goes here <a href="#" class="alert-link">link text</a>.</p>
   </section>
 </section>

@@ -47,8 +47,9 @@ lang_url: index-fr.html
       <footer><cite>Cookie Monster<br>
           CEO of C-is-for-Cookie, Inc</cite></footer>
     </blockquote>
+    <div class="clearfix"></div>
   </section>
-  <section id="1-3">
+  <section id="s1-3">
     <h3>Footnotes</h3>
     <p>Cotton candy biscuit icing marshmallow bear claw pastry oat cake. Candy jelly gingerbread candy canes jujubes macaroon jujubes donut. Jujubes lemon drops cotton candy jelly beans chocolate chocolate cake oat cake jujubes jujubes<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">footnote</span> 1</a></sup>. Sweet roll marshmallow cake candy icing pastry. Tart jelly dragée cotton candy wafer gingerbread sweet. Jelly toffee muffin cotton candy cookie<sup id="fn2-rf"><a class="fn-lnk" href="#fn2"><span class="wb-inv">footnote</span> 2</a></sup>. Pastry dragée biscuit apple pie jujubes marshmallow wafer cotton candy. Fruitcake cotton candy pie brownie pudding chupa chups lollipop candy canes cake. Carrot cake sugar plum dragée cake gingerbread powder. Sweet roll toffee candy ice cream pastry chocolate bar jelly. Dessert cookie wafer soufflé lemon drops cake carrot cake cookie. Carrot cake jelly-o gummi bears croissant jelly-o cupcake. Caramels halvah liquorice wafer pastry toffee carrot cake lollipop. Apple pie shortbread chocolate bar pastry cake.</p>
   </section>
@@ -230,31 +231,41 @@ lang_url: index-fr.html
   <h2>Tables</h2>
   <div class="table-responsive small" id="t1" tabindex="-1">
     <table class="table table-bordered table-condensed">
-      <caption class="text-left">Table 5: Pies</caption>
+      <caption class="text-left">Table 1: Pies</caption>
       <thead>
         <tr class="active">
           <th scope="col">Type</th>
           <th scope="col" class="text-right">Number</th>
+          <th scope="col" class="text-right">Price ($)</th>          
+          <th scope="col" class="text-right">Total ($)</th>          
         </tr>
       </thead>
       <tbody>
         <tr>
           <th scope="row">Apple pie</th>
           <td class="text-right">26</td>
+          <td class="text-right">10</td>
+          <td class="text-right">260</td>
         </tr>
         <tr>
           <th scope="row">Strawberry pie</th>
+          <td class="text-right">5</td>
           <td class="text-right">12</td>
+          <td class="text-right">60</td>
         </tr>
         <tr>
           <th scope="row">Cherry pie</th>
           <td class="text-right">18</td>
+          <td class="text-right">8</td>
+          <td class="text-right">144</td>
         </tr>
       </tbody>
       <tfoot>
         <tr class="active">
           <th scope="row">Total</th>
+          <td class="text-right nowrap">49</td>
           <td class="text-right nowrap"></td>
+          <td class="text-right nowrap">464</td>
         </tr>
       </tfoot>
     </table>

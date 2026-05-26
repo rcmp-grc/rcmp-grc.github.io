@@ -47,6 +47,7 @@ lang_url: index.html
       <footer><cite>Cannelle<br>
           PDG de Cannelle et Saveurs d’Érable inc</cite></footer>
     </blockquote>
+    <div class="clearfix"></div>
   </section>
   <section id="s1-3">
     <h3>Notes de bas de page</h3>
@@ -228,33 +229,43 @@ lang_url: index.html
 </section>
 <section id="s5">
   <h2>Tableau</h2>
-  <div class="table-responsive small" id="t5" tabindex="-1">
+  <div class="table-responsive small" id="t1" tabindex="-1">
     <table class="table table-bordered table-condensed">
-      <caption class="text-left">Tableau 5: Tarte</caption>
+      <caption class="text-left">Tableau 1: Tartes</caption>
       <thead>
         <tr class="active">
           <th scope="col">Type</th>
           <th scope="col" class="text-right">Nombre</th>
+          <th scope="col" class="text-right">Prix ($)</th>
+          <th scope="col" class="text-right">Total ($)</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <th scope="row">Tarte aux pommes</th>
           <td class="text-right">26</td>
+          <td class="text-right">10</td>
+          <td class="text-right">260</td>
         </tr>
         <tr>
           <th scope="row">Tarte aux fraises</th>
+          <td class="text-right">5</td>
           <td class="text-right">12</td>
+          <td class="text-right">60</td>
         </tr>
         <tr>
           <th scope="row">Tarte aux cerises</th>
           <td class="text-right">18</td>
+          <td class="text-right">8</td>
+          <td class="text-right">144</td>
         </tr>
       </tbody>
       <tfoot>
         <tr class="active">
           <th scope="row">Total</th>
-          <td class="text-right nowrap">56</td>
+          <td class="text-right nowrap">49</td>
+          <td class="text-right nowrap"></td>
+          <td class="text-right nowrap">464</td>
         </tr>
       </tfoot>
     </table>

@@ -15,6 +15,7 @@ lang_url: index-fr.html
     <li><a href="#s2">Images</a></li>
     <li><a href="#s3">Lists</a></li>
     <li><a href="#s4">Alerts</a></li>
+    <li><a href="#s5">Tables</a></li>
     <li><a href="#sfn">Footnotes</a></li>
   </ul>
 </section>

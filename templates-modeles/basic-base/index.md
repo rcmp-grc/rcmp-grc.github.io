@@ -101,14 +101,10 @@ lang_url: index-fr.html
           </li>
         </ol>
       </li>
-      <li>numbered list
+      <li>Numbered list
         <ol class="lst-num">
           <li>numbered list - level 2</li>
           <li>numbered list - level 2
-            <ol>
-              <li>numbered list - level 3</li>
-              <li>numbered list - level 3</li>
-            </ol>
           </li>
         </ol>
       </li>
@@ -116,7 +112,7 @@ lang_url: index-fr.html
         <ol class="lst-lwr-alph">
           <li>lower alpha list - level 2</li>
           <li>lower alpha list - level 2
-            <ol>
+            <ol class="lst-lwr-alph">
               <li>lower alpha list - level 3</li>
               <li>lower alpha list - level 3</li>
             </ol>

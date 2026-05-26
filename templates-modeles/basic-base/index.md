@@ -85,19 +85,72 @@ lang_url: index-fr.html
       </li>
     </ul>
   </section>
-  <h3>Ordered list</h3>
-  <ol>
-    <li>ordered list - level 1</li>
-    <li>ordered list - level 1
-      <ol>
-        <li>ordered list - level 2</li>
-        <li>ordered list - level 2
-          <ol>
-            <li>ordered list - level 3</li>
-            <li>ordered list - level 3</li>
-          </ol>
+  <section id="s3-2">
+    <h3>Ordered list</h3>
+    <ol>
+      <li>ordered list - level 1</li>
+      <li>ordered list - level 1
+        <ol>
+          <li>ordered list - level 2</li>
+          <li>ordered list - level 2
+            <ol>
+              <li>ordered list - level 3</li>
+              <li>ordered list - level 3</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </section>
+  <section id="s3-3">
+    <h3>Description list</h3>
+    <dl>
+      <dt>Term 1</dt>
+      <dd>Definition of term 1</dd>
+      <dt>Term 2</dt>
+      <dd>Definition of term 2</dd>
+  </section>
+  <section id="s3-4">
+    <h3>Unstyled lists</h3>
+    <section id="s3-4-1">
+      <h4>Unstyled list</h4>
+      <ul class="list-unstyled">
+        <li>List item 1</li>
+        <li>List item 2
+          <ul>
+            <li>List item 2a</li>
+            <li>List item 2b</li>
+          </ul>
         </li>
-      </ol>
-    </li>
-  </ol>
+        <li>List item 3</li>
+      </ul>
+    </section>
+    <section id="s3-4-2">
+      <h4>Unstyled nested list</h4>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2
+          <ul class="lst-none">
+            <li>List item 2a</li>
+            <li>List item 2b</li>
+          </ul>
+        </li>
+        <li>List item 3</li>
+      </ul>
+    </section>
+  </section>
+  <section id="s3-5">
+    <h3>Numbered lists</h3>
+    <ol>
+      <li>List item 1</li>
+      <li>
+        List item 2
+        <ol class="lst-num">
+          <li>List item 2a</li>
+          <li>List item 2b</li>
+        </ol>
+      </li>
+      <li>List item 3</li>
+    </ol>
+  </section>
 </section>

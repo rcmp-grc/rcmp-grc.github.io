@@ -109,6 +109,7 @@ lang_url: index-fr.html
       <dd>Definition of term 1</dd>
       <dt>Term 2</dt>
       <dd>Definition of term 2</dd>
+    </dl>
   </section>
   <section id="s3-4">
     <h3>Unstyled lists</h3>

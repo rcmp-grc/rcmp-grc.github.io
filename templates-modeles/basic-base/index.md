@@ -89,67 +89,45 @@ lang_url: index-fr.html
   <section id="s3-2">
     <h3>Ordered list</h3>
     <ol>
-      <li>ordered list - level 1</li>
-      <li>ordered list - level 1
+      <li>Ordered list - level 1
         <ol>
-          <li>ordered list - level 2</li>
-          <li>ordered list - level 2
+          <li>Ordered list - level 2</li>
+          <li>Ordered list - level 2
             <ol>
-              <li>ordered list - level 3</li>
-              <li>ordered list - level 3</li>
+              <li>Ordered list - level 3</li>
+              <li>Ordered list - level 3</li>
             </ol>
           </li>
         </ol>
       </li>
       <li>Numbered list
         <ol class="lst-num">
-          <li>numbered list - level 2</li>
-          <li>numbered list - level 2
-          </li>
+          <li>Numbered list item 1</li>
+          <li>Numbered list item 2</li>
         </ol>
       </li>
-      <li>lower alpha list
+      <li>Lower alpha list
         <ol class="lst-lwr-alph">
-          <li>lower alpha list - level 2</li>
-          <li>lower alpha list - level 2
-            <ol class="lst-lwr-alph">
-              <li>lower alpha list - level 3</li>
-              <li>lower alpha list - level 3</li>
-            </ol>
-          </li>
+          <li>Lower alpha list item 1</li>
+          <li>Lower alpha list item 2</li>
         </ol>
       </li>
-      <li>upper alpha list
+      <li>Upper alpha list
         <ol class="lst-upr-alph">
-          <li>Upper alpha list - level 2</li>
-          <li>Upper alpha list - level 2
-            <ol>
-              <li>Upper alpha list - level 3</li>
-              <li>Upper alpha list - level 3</li>
-            </ol>
-          </li>
+          <li>Upper alpha list item 1</li>
+          <li>Upper alpha list item 2</li>
         </ol>
       </li>
-      <li>lower Roman numeral list
+      <li>Lower Roman numeral list
         <ol class="lst-lwr-rmn">
-          <li>lower Roman numeral list - level 2</li>
-          <li>lower Roman numeral list - level 2
-            <ol>
-              <li>lower Roman numeral list - level 3</li>
-              <li>lower Roman numeral list - level 3</li>
-            </ol>
-          </li>
+          <li>Lower Roman numeral list item 1</li>
+          <li>Lower Roman numeral list item 2</li>
         </ol>
       </li>
-      <li>upper Roman numeral list
+      <li>Upper Roman numeral list
         <ol class="lst-upr-rmn">
-          <li>upper Roman numeral list - level 2</li>
-          <li>upper Roman numeral list - level 2
-            <ol>
-              <li>upper Roman numeral list - level 3</li>
-              <li>upper Roman numeral list - level 3</li>
-            </ol>
-          </li>
+          <li>Upper Roman numeral item 1</li>
+          <li>Upper Roman numeral item 2</li>
         </ol>
       </li>
     </ol>
@@ -200,5 +178,13 @@ lang_url: index-fr.html
         <li>List item 3</li>
       </ul>
     </section>
+  </section>
+  <section id="s3-5">
+    <h3>Inline list</h3>
+    <ol class="list-inline">
+      <li>Inline list item 1</li>
+      <li>Inline list item 2</li>
+      <li>Inline list item 3</li>
+    </ol>
   </section>
 </section>

@@ -71,6 +71,7 @@ lang_url: index.html
 </section>
 <section id="s3">
   <h2>Listes</h2>
+  <p>Reference: <a href="https://wet-boew.github.io/GCWeb/common/list/lists-en.html">https://wet-boew.github.io/GCWeb/common/list/lists-en.html</a></p>
   <section id="s3-1">
     <h3>Liste à puces</h3>
     <ul>
@@ -85,19 +86,105 @@ lang_url: index.html
       </li>
     </ul>
   </section>
-  <h3>Liste ordonnée</h3>
-  <ol>
-    <li>liste ordonnée - niveau 1</li>
-    <li>liste ordonnée - niveau 1
-      <ol>
-        <li>liste ordonnée - niveau 2</li>
-        <li>liste ordonnée - niveau 2
-          <ol>
-            <li>liste ordonnée - niveau 3</li>
-            <li>liste ordonnée - niveau 3</li>
-          </ol>
+  <section id="s3-2">
+    <h3>Liste ordonnée</h3>
+    <ol>
+      <li>Liste ordonnée - niveau 1
+        <ol>
+          <li>Liste ordonnée - niveau 2</li>
+          <li>Liste ordonnée - niveau 2
+            <ol>
+              <li>Liste ordonnée - niveau 3</li>
+              <li>Liste ordonnée - niveau 3</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li>Liste numérotée
+        <ol class="lst-num">
+          <li>Liste numérotée point 1</li>
+          <li>Liste numérotée point 2</li>
+        </ol>
+      </li>
+      <li>Liste alphabétique − minuscule
+        <ol class="lst-lwr-alph">
+          <li>Liste alphabétique − minuscule − point 1</li>
+          <li>Liste alphabétique − minuscule − point 2</li>
+        </ol>
+      </li>
+      <li>Liste alphabétique − majuscule
+        <ol class="lst-upr-alph">
+          <li>Liste alphabétique − majuscule − point 1</li>
+          <li>Liste alphabétique − majuscule − point 2</li>
+        </ol>
+      </li>
+      <li>Chiffres romains − minuscules
+        <ol class="lst-lwr-rmn">
+          <li>Chiffres romains − minuscules − point 1</li>
+          <li>Chiffres romains − minuscules − point 2</li>
+        </ol>
+      </li>
+      <li>Chiffres romains − majuscules
+        <ol class="lst-upr-rmn">
+          <li>Chiffres romains − majuscules − point 1</li>
+          <li>Chiffres romains − majuscules − point 2</li>
+        </ol>
+      </li>
+    </ol>
+  </section>
+  <section id="s3-3">
+    <h3>Liste de définitions</h3>
+    <dl>
+      <dt>Terme 1</dt>
+      <dd>Définition du terme 1</dd>
+      <dt>Terme 2</dt>
+      <dd>Définition du terme 2</dd>
+    </dl>
+    <section id="s3-3-1">
+      <h4>Definition lists − horizontal layout</h4>
+      <dl class="dl-horizontal">
+        <dt>Terme 1</dt>
+        <dd>Définition du terme 1</dd>
+        <dt>Terme 2</dt>
+        <dd>Définition du terme 2</dd>
+      </dl>
+    </section>
+  </section>
+  <section id="s3-4">
+    <h3>Listes non stylées</h3>
+    <section id="s3-4-1">
+      <h4>Liste non stylée</h4>
+      <ul class="list-unstyled">
+        <li>Point 1</li>
+        <li>Point 2
+          <ul>
+            <li>Point 2a</li>
+            <li>Point 2b</li>
+          </ul>
         </li>
-      </ol>
-    </li>
-  </ol>
+        <li>Point 3</li>
+      </ul>
+    </section>
+    <section id="s3-4-2">
+      <h4>Liste imbriquée non stylée</h4>
+      <ul>
+        <li>Point 1</li>
+        <li>Point 2
+          <ul class="lst-none">
+            <li>Point 2a</li>
+            <li>Point 2b</li>
+          </ul>
+        </li>
+        <li>Point 3</li>
+      </ul>
+    </section>
+  </section>
+  <section id="s3-5">
+    <h3>Liste en ligne</h3>
+    <ol class="list-inline">
+      <li>Liste en ligne point 1</li>
+      <li>Liste en ligne point 2</li>
+      <li>Liste en ligne point 3</li>
+    </ol>
+  </section>
 </section>

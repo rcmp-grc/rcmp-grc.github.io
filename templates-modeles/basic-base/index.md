@@ -71,6 +71,7 @@ lang_url: index-fr.html
 </section>
 <section id="s3">
   <h2>Lists</h2>
+  <p>Reference: <a href="https://wet-boew.github.io/GCWeb/common/list/lists-en.html">https://wet-boew.github.io/GCWeb/common/list/lists-en.html</a></p>
   <section id="s3-1">
     <h3>Unordered list</h3>
     <ul>
@@ -100,16 +101,80 @@ lang_url: index-fr.html
           </li>
         </ol>
       </li>
+      <li>numbered list
+        <ol class="lst-num">
+          <li>numbered list - level 2</li>
+          <li>numbered list - level 2
+            <ol>
+              <li>numbered list - level 3</li>
+              <li>numbered list - level 3</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li>lower alpha list
+        <ol class="lst-lwr-alph">
+          <li>lower alpha list - level 2</li>
+          <li>lower alpha list - level 2
+            <ol>
+              <li>lower alpha list - level 3</li>
+              <li>lower alpha list - level 3</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li>upper alpha list
+        <ol class="lst-upr-alph">
+          <li>Upper alpha list - level 2</li>
+          <li>Upper alpha list - level 2
+            <ol>
+              <li>Upper alpha list - level 3</li>
+              <li>Upper alpha list - level 3</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li>lower Roman numeral list
+        <ol class="lst-lwr-rmn">
+          <li>lower Roman numeral list - level 2</li>
+          <li>lower Roman numeral list - level 2
+            <ol>
+              <li>lower Roman numeral list - level 3</li>
+              <li>lower Roman numeral list - level 3</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li>upper Roman numeral list
+        <ol class="lst-upr-rmn">
+          <li>upper Roman numeral list - level 2</li>
+          <li>upper Roman numeral list - level 2
+            <ol>
+              <li>upper Roman numeral list - level 3</li>
+              <li>upper Roman numeral list - level 3</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
     </ol>
   </section>
   <section id="s3-3">
-    <h3>Description list</h3>
+    <h3>Definition list</h3>
     <dl>
       <dt>Term 1</dt>
       <dd>Definition of term 1</dd>
       <dt>Term 2</dt>
       <dd>Definition of term 2</dd>
     </dl>
+    <section id="s3-3-1">
+      <h4>Definition lists − horizontal layout</h4>
+      <dl class="dl-horizontal">
+        <dt>Term 1</dt>
+        <dd>Definition of term 1</dd>
+        <dt>Term 2</dt>
+        <dd>Definition of term 2</dd>
+      </dl>
+    </section>
   </section>
   <section id="s3-4">
     <h3>Unstyled lists</h3>
@@ -139,19 +204,5 @@ lang_url: index-fr.html
         <li>List item 3</li>
       </ul>
     </section>
-  </section>
-  <section id="s3-5">
-    <h3>Numbered lists</h3>
-    <ol>
-      <li>List item 1</li>
-      <li>
-        List item 2
-        <ol class="lst-num">
-          <li>List item 2a</li>
-          <li>List item 2b</li>
-        </ol>
-      </li>
-      <li>List item 3</li>
-    </ol>
   </section>
 </section>

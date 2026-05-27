@@ -611,37 +611,67 @@ button,
 }
 
 .rc-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
   list-style: none;
-  margin: 0.75rem 0 0;
+  margin: 1.25rem 0 0;
   padding: 0;
 }
 
 .rc-option {
-  margin-bottom: 0.5rem;
-}
-
-.rc-option .radio {
   margin: 0;
-  padding: 0;
 }
 
-.rc-option .radio label {
+.rc-option input[type="radio"] {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  opacity: 0 !important;
+  margin: 0 !important;
+}
+
+.rc-option label {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  justify-content: center;
+  width: 100%;
+  min-height: 3.25rem;
+  padding: 0.75rem 1.25rem;
+  background: var(--c-white);
+  border: 2px solid var(--c-grey-dark);
+  border-radius: 4px;
+  font-family: var(--font-base);
+  font-weight: 600;
+  color: var(--c-black);
   cursor: pointer;
-  font-weight: 400;
-  padding-left: 0;
+  text-align: center;
+  transition: var(--transition-bg);
+  box-sizing: border-box;
+  margin: 0;
+  user-select: none;
 }
 
-.rc-option .radio input[type="radio"] {
-  position: static !important;
-  opacity: 1 !important;
-  width: auto !important;
-  height: auto !important;
-  margin: 0 !important;
-  cursor: pointer;
-  flex-shrink: 0;
+.rc-option label:hover {
+  background: var(--c-grey-light);
+  border-color: var(--c-black);
+}
+
+.rc-option input[type="radio"]:checked + label {
+  background: var(--c-navy);
+  border-color: var(--c-navy);
+  color: var(--c-white);
+}
+
+.rc-option input[type="radio"]:focus-visible + label {
+  outline: 3px solid var(--c-yellow);
+  outline-offset: 2px;
+}
+
+@media (max-width: 767px) {
+  .rc-options {
+    grid-template-columns: 1fr;
+  }
 }
 
 .rc-info-panel {

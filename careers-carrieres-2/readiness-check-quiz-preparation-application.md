@@ -250,12 +250,20 @@ custom_css: /assets/css/careers.css
           '<legend class="rc-legend" id="q-legend-' + q.number + '">' + legendInner + '</legend>',
           '<ul class="rc-options" role="list">',
             '<li class="rc-option">',
-              '<input type="radio" id="yes-' + q.number + '" name="q-' + q.number + '" value="yes" ' + yesChecked + ' aria-describedby="q-legend-' + q.number + '">',
-              '<label for="yes-' + q.number + '">Yes</label>',
+              '<div class="radio">',
+                '<label for="yes-' + q.number + '">',
+                  '<input type="radio" id="yes-' + q.number + '" name="q-' + q.number + '" value="yes" ' + yesChecked + ' aria-describedby="q-legend-' + q.number + '">',
+                  ' Yes',
+                '</label>',
+              '</div>',
             '</li>',
             '<li class="rc-option">',
-              '<input type="radio" id="no-' + q.number + '" name="q-' + q.number + '" value="no" ' + noChecked + ' aria-describedby="q-legend-' + q.number + '">',
-              '<label for="no-' + q.number + '">No</label>',
+              '<div class="radio">',
+                '<label for="no-' + q.number + '">',
+                  '<input type="radio" id="no-' + q.number + '" name="q-' + q.number + '" value="no" ' + noChecked + ' aria-describedby="q-legend-' + q.number + '">',
+                  ' No',
+                '</label>',
+              '</div>',
             '</li>',
           '</ul>',
         '</fieldset>',
@@ -311,6 +319,7 @@ custom_css: /assets/css/careers.css
 
   /* ── Navigation state ── */
   function updateNav() {
+    prevButton.style.display = currentIndex === 0 ? "none" : "";
     prevButton.disabled = currentIndex === 0;
 
     var hasAnswer = answers[currentIndex] !== null;

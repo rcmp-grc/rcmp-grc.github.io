@@ -612,30 +612,36 @@ button,
 
 .rc-options {
   list-style: none;
-  margin: 0.5rem 0 0;
+  margin: 0.75rem 0 0;
   padding: 0;
 }
 
 .rc-option {
-  display: flex;
-  align-items: center;
   margin-bottom: 0.5rem;
 }
 
-.rc-option input[type="radio"] {
-  margin: 0 0.5rem 0 0;
-  width: 1.2em;
-  height: 1.2em;
-  cursor: pointer;
-  flex-shrink: 0;
+.rc-option .radio {
+  margin: 0;
+  padding: 0;
 }
 
-.rc-option label {
-  font-size: 1rem;
-  font-weight: 400;
-  color: var(--c-black);
+.rc-option .radio label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   cursor: pointer;
-  margin: 0;
+  font-weight: 400;
+  padding-left: 0;
+}
+
+.rc-option .radio input[type="radio"] {
+  position: static !important;
+  opacity: 1 !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 !important;
+  cursor: pointer;
+  flex-shrink: 0;
 }
 
 .rc-info-panel {

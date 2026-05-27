@@ -481,7 +481,6 @@ button,
 }
 
 .rc-quiz-wrap {
-  max-width: 760px;
   margin: 0 0 3rem;
 }
 
@@ -495,6 +494,7 @@ button,
 }
 
 .rc-progress-bar-wrap {
+  max-width: 100%;
   margin-bottom: 2rem;
 }
 
@@ -528,9 +528,19 @@ button,
   background: var(--c-white);
   border: 1px solid var(--c-grey-mid);
   border-radius: var(--border-radius-card);
-  padding: 2rem 2rem 1.5rem;
   box-shadow: var(--shadow-card);
   margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+
+.rc-question-card__body {
+  padding: 2rem 2rem 1.5rem;
+}
+
+.rc-question-card__answers {
+  background: var(--c-grey-light);
+  border-top: 1px solid var(--c-grey-mid);
+  padding: 1.5rem 2rem;
 }
 
 .rc-question-num {
@@ -615,7 +625,7 @@ button,
   grid-template-columns: 1fr 1fr;
   gap: 0.75rem;
   list-style: none;
-  margin: 1.25rem 0 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -668,7 +678,7 @@ button,
   outline-offset: 2px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 599px) {
   .rc-options {
     grid-template-columns: 1fr;
   }

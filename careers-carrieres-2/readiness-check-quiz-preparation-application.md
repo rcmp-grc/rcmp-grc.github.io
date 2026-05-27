@@ -15,6 +15,11 @@ custom_css: /assets/css/careers.css
 
 <div aria-live="polite" aria-atomic="true" class="rc-live-region sr-only" id="live-region"></div>
 <div class="rc-quiz-wrap">
+  <noscript>
+    <div class="alert alert-warning">
+      <p>This quiz requires JavaScript to be enabled in your browser. Please enable JavaScript and reload the page to take the readiness check.</p>
+    </div>
+  </noscript>
   <div class="rc-intro" id="quiz-intro">
     <p>Take this short quiz to know if you're ready to apply to be a police officer with the RCMP.</p>
   </div>

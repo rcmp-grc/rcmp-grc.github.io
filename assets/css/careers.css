@@ -482,7 +482,7 @@ button,
 
 .rc-quiz-wrap {
   max-width: 760px;
-  margin: 0 auto 3rem;
+  margin: 0 0 3rem;
 }
 
 .rc-intro {
@@ -527,7 +527,6 @@ button,
 .rc-question-card {
   background: var(--c-white);
   border: 1px solid var(--c-grey-mid);
-  border-top: 4px solid var(--c-yellow);
   border-radius: var(--border-radius-card);
   padding: 2rem 2rem 1.5rem;
   box-shadow: var(--shadow-card);
@@ -556,8 +555,7 @@ button,
 }
 
 .rc-question-title:focus {
-  outline: 3px solid var(--c-yellow);
-  outline-offset: 3px;
+  outline: none;
 }
 
 .rc-question-body {
@@ -612,55 +610,32 @@ button,
   padding: 0;
 }
 
+.rc-options {
+  list-style: none;
+  margin: 0.5rem 0 0;
+  padding: 0;
+}
+
 .rc-option {
-  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
 }
 
 .rc-option input[type="radio"] {
-  position: absolute;
-  top: 50%;
-  left: 1.1rem;
-  transform: translateY(-50%);
-  width: 1.5rem;
-  height: 1.5rem;
-  margin: 0;
+  margin: 0 0.5rem 0 0;
+  width: 1.2em;
+  height: 1.2em;
   cursor: pointer;
-  accent-color: var(--c-navy);
-}
-
-.rc-option input[type="radio"]:focus-visible + label {
-  outline: 3px solid var(--c-yellow);
-  outline-offset: 2px;
-  border-color: var(--c-navy);
+  flex-shrink: 0;
 }
 
 .rc-option label {
-  display: flex;
-  align-items: center;
-  min-height: 3.5rem;
-  padding: 0.85rem 1rem 0.85rem 3.5rem;
-  background: var(--c-white);
-  border: 2px solid var(--c-grey-mid);
-  border-radius: 4px;
-  font-size: 1.05rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 400;
   color: var(--c-black);
   cursor: pointer;
-  transition:
-    border-color 0.15s,
-    background 0.15s;
-  line-height: 1.3;
-}
-
-.rc-option label:hover {
-  border-color: var(--c-navy);
-  background: var(--c-grey-light);
-}
-
-.rc-option input[type="radio"]:checked + label {
-  border-color: var(--c-navy);
-  background: var(--c-grey-light);
-  font-weight: 700;
+  margin: 0;
 }
 
 .rc-info-panel {
@@ -740,7 +715,6 @@ button,
 .rc-results {
   background: var(--c-white);
   border: 1px solid var(--c-grey-mid);
-  border-top: 4px solid var(--c-yellow);
   border-radius: var(--border-radius-card);
   padding: 2rem;
   box-shadow: var(--shadow-card);

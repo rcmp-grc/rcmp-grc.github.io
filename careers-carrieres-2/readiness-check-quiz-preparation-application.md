@@ -55,7 +55,6 @@ custom_css: /assets/css/careers.css
 (function () {
   "use strict";
 
-/_ ── Questions ── _/
 var questions = [
 {
 number: 1,
@@ -167,11 +166,9 @@ link: "/careers-carrieres/police-officer",
 },
 ];
 
-/_ ── State ── _/
 var currentIndex = 0;
 var answers = new Array(questions.length).fill(null);
 
-/_ ── DOM refs ── _/
 var questionContainer = document.getElementById("question-container");
 var prevButton = document.getElementById("prev-button");
 var nextButton = document.getElementById("next-button");
@@ -188,7 +185,6 @@ var quizScrollTarget = document.getElementById("quiz-section");
 
 totalQSpan.textContent = questions.length;
 
-/_ ── Helpers ── _/
 function announce(msg) {
 liveRegion.textContent = "";
 // Tiny delay so screen-readers notice the change even on repeat messages
@@ -201,7 +197,6 @@ quizScrollTarget.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 }
 
-/_ ── Render ── _/
 function renderQuestion() {
 var q = questions[currentIndex];
 

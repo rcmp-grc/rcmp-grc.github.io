@@ -19,6 +19,10 @@ lang_url: index-fr.html
     <li><a href="#sfn">Footnotes</a></li>
   </ul>
 </section>
+<dl class="dl-horizontal">
+  <dt><a href="long-index-index-long-en.html">Long index page (basic)</a></dt>
+  <dd>A general-purpose page with an alphabetical list and a filter to show only items that contain the term (for example, Services and information). Use the long index page template to present a list of 50+ related links that do not have text descriptions.</dd>
+</dl>
 <section id="s1">
   <h2>Headings (h2)</h2>
   <p>Cupcake ipsum dolor sit amet cookie. Sugar plum muffin lemon drops cake brownie halvah cotton candy tootsie roll. Liquorice jelly beans tootsie roll lollipop chupa chups. Lemon drops lollipop gummies croissant jelly soufflé pastry soufflé soufflé. Tart danish sugar plum icing jelly-o. Sesame snaps sugar plum croissant oat cake pie cotton candy. Biscuit powder bear claw jelly topping fruitcake wafer marzipan. Sweet roll toffee brownie marshmallow cupcake cookie tiramisu wafer. Halvah marzipan caramels cake wafer gingerbread shortbread sesame snaps caramels. Apple pie chocolate bar sugar plum cake pastry danish macaroon muffin gummi bears. Cake muffin chocolate cake fruitcake sweet. Oat cake bear claw soufflé sweet apple pie candy canes cheesecake.</p>

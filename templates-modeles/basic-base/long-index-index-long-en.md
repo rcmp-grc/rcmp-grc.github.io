@@ -3,7 +3,7 @@ layout: default
 title: Long index page (basic)
 description: Use the long index page template to present a list of 50+ related links that do not have text descriptions.
 lang: en
-lang_url: /fr/long-index-index-long-fr.html
+lang_url: /long-index-index-long-fr.html
 # date_modified: 2026-05-04
 # author: RCMP Web Team
 # custom_css: /assets/css/special-page.css

@@ -3,15 +3,14 @@ layout: careers
 title: First Nations, Inuit and Métis applicant programs
 date_modified: 2026-05-11
 lang: en
-lang_url: #
-issued: 2026-05-11
+lang_url: topics-sujets-fr.html
 breadcrumbs:
   - label: "RCMP careers"
     url: "#"
   - label: "Police officer careers"
     url: "#"
 custom_css: /assets/css/careers.css
-hero_image: landing-accueil.jpg
+hero_image: topics-sujets.jpg
 ---
 
 <p>The RCMP is committed to building a more inclusive and representative police service that reflects the strengths and diversity of First Nations, Inuit, and Métis communities across Canada.</p>

@@ -161,21 +161,3 @@ custom_css: /assets/css/careers.css
 <div aria-hidden="true" class="po-end" role="presentation">
   <div class="po-end-gradient"></div>
 </div>
-<script>
-(function () {
-  'use strict';
-
-function randomSrc(id, base, max) {
-var n = Math.floor(Math.random() \* max) + 1;
-if (n === 1) { return; }
-var el = document.getElementById(id);
-if (el) { el.src = base + n + '.jpg'; }
-}
-
-document.addEventListener('DOMContentLoaded', function () {
-randomSrc('life-img', '/assets/img/life-police-officer-', 3);
-randomSrc('federal-img', '/assets/img/federal-policing-', 3);
-randomSrc('cadet-img', '/assets/img/cadet-hub-', 3);
-});
-}());
-</script>

@@ -1,39 +1,38 @@
 {% if page.lang == 'fr' %}
-  {% assign base_url = 'https://grc.ca/fr' %}
-  {% assign org_name = 'Gendarmerie royale du Canada' %}
-  {% assign about_site = 'À propos de ce site' %}
-  {% assign org_label = 'Organisation de la Gendarmerie royale du Canada' %}
-  {% assign img_alt = 'Symbole du gouvernement du Canada' %}
-  {% assign contacts_url = '/contactez-grc' %}
-  {% assign contacts_label = 'Tous les contacts' %}
-  {% assign news_url = '/nouvelles' %}
-  {% assign news_label = 'Nouvelles' %}
-  {% assign about_url = '/renseignements-organisationnels/propos-grc' %}
-  {% assign about_label = 'À propos de la GRC' %}
-  {% assign themes_label = 'Thèmes et sujets' %}
-  {% assign social_url = '/renseignements-organisationnels/medias-sociaux' %}
-  {% assign social_label = 'Médias sociaux' %}
-  {% assign terms_url = '/avis' %}
-  {% assign terms_label = 'Avis' %}
-  {% assign theme_links = 'carrieres-grc|Carrières,casiers-judiciaires/verification-casier-judiciaire|Vérification de casier judiciaire,armes-feu|Armes à feu,personnes-disparues|Personnes disparues,police-federale|Police fédérale,gazette|Gazette,renseignements-organisationnels/emplacements-grc|Emplacements,services-police-autochtones|Services de police autochtones,jeunesse|Jeunesse' | split: ',' %}
+ {% assign base_url = 'https://grc.ca/fr' %}
+ {% assign org_name = 'Gendarmerie royale du Canada' %}
+ {% assign about_site = 'À propos de ce site' %}
+ {% assign org_label = 'Organisation de la Gendarmerie royale du Canada' %}
+ {% assign img_alt = 'Symbole du gouvernement du Canada' %}
+ {% assign contacts_url = '/contactez-grc' %}
+ {% assign contacts_label = 'Tous les contacts' %}
+ {% assign news_url = '/nouvelles' %}
+ {% assign news_label = 'Nouvelles' %}
+ {% assign about_url = '/renseignements-organisationnels/propos-grc' %}
+ {% assign about_label = 'À propos de la GRC'%}
+ {% assign themes_label = 'Thèmes et sujets' %}
+ {% assign social_url = '/renseignements-organisationnels/medias-sociaux' %}
+ {% assign social_label = 'Médias sociaux' %}
+ {% assign terms_url = '/avis' %} {% assign terms_label = 'Avis' %}
+ {% assign theme_links = 'carrieres-grc|Carrières,casiers-judiciaires/verification-casier-judiciaire|Vérification de casier judiciaire,armes-feu|Armes à feu,personnes-disparues|Personnes disparues,police-federale|Police fédérale,gazette|Gazette,renseignements-organisationnels/emplacements-grc|Emplacements,services-police-autochtones|Services de police autochtones,jeunesse|Jeunesse' | split: ',' %}
 {% else %}
-  {% assign base_url = 'https://rcmp.ca/en' %}
-  {% assign org_name = 'Royal Canadian Mounted Police' %}
-  {% assign about_site = 'About this site' %}
-  {% assign org_label = 'Royal Canadian Mounted Police organization' %}
-  {% assign img_alt = 'Symbol of the Government of Canada' %}
-  {% assign contacts_url = '/contact-rcmp' %}
-  {% assign contacts_label = 'All contacts' %}
-  {% assign news_url = '/news' %}
-  {% assign news_label = 'News' %}
-  {% assign about_url = '/corporate-information/about-rcmp' %}
-  {% assign about_label = 'About the RCMP' %}
-  {% assign themes_label = 'Themes and topics' %}
-  {% assign social_url = '/corporate-information/social-media' %}
-  {% assign social_label = 'Social media' %}
-  {% assign terms_url = '/terms-and-conditions' %}
-  {% assign terms_label = 'Terms and conditions' %}
-  {% assign theme_links = 'careers-rcmp|Careers,criminal-records/criminal-record-checks|Criminal record checks,firearms|Firearms,missing-persons|Missing persons,federal-policing|Federal Policing,gazette|Gazette,corporate-information/rcmp-locations|Locations,indigenous-policing|Indigenous policing,youth|Youth' | split: ',' %}
+ {% assign base_url = 'https://rcmp.ca/en' %}
+ {% assign org_name = 'Royal Canadian Mounted Police' %}
+ {% assign about_site = 'About this site' %}
+ {% assign org_label = 'Royal Canadian Mounted Police organization' %}
+ {% assign img_alt = 'Symbol of the Government of Canada' %}
+ {% assign contacts_url = '/contact-rcmp' %}
+ {% assign contacts_label = 'All contacts' %}
+ {% assign news_url = '/news' %}
+ {% assign news_label = 'News' %}
+ {% assign about_url = '/corporate-information/about-rcmp' %}
+ {% assign about_label = 'About the RCMP' %}
+ {% assign themes_label = 'Themes and topics' %}
+ {% assign social_url = '/corporate-information/social-media' %}
+ {% assign social_label = 'Social media' %}
+ {% assign terms_url = '/terms-and-conditions' %}
+ {% assign terms_label = 'Terms and conditions' %}
+ {% assign theme_links = 'careers-rcmp|Careers,criminal-records/criminal-record-checks|Criminal record checks,firearms|Firearms,missing-persons|Missing persons,federal-policing|Federal Policing,gazette|Gazette,corporate-information/rcmp-locations|Locations,indigenous-policing|Indigenous policing,youth|Youth' | split: ',' %}
 {% endif %}
 <footer id="wb-info">
   <h2 class="wb-inv">{{ about_site }}</h2>
@@ -100,43 +99,95 @@
 <script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js" crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/releases/v6.5.0/js/all.js" integrity="sha384-xJg9IXkLBF6DBCGIEmpH5d2Pzct5onYpW8EegteK+7n0rxjhN4PUzfPxGbpWVjQf" crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/releases/v6.5.0/js/v4-shims.js" integrity="sha384-/92mVmELKUSys+AjbeSvITO3rhI9KtDAENPjak7fYPIxTdmKqt1Z2WCbRbI8ybF2" crossorigin="anonymous"></script>
-{% if page.layout == 'careers' %}<script>
+{% if page.layout == 'careers' %}
+<script>
 (function () {
-  var toggle = document.querySelector('.careers-nav__toggle');
-  var links = document.getElementById('careers-nav-links');
-  if (!toggle || !links) return;
+  'use strict';
 
-  toggle.addEventListener('click', function () {
-    var open = links.classList.toggle('is-open');
-    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-  });
+  function initCareersNav() {
+    var toggle = document.querySelector('.careers-nav__toggle');
+    var links = document.getElementById('careers-nav-links');
+    if (!toggle || !links) return;
 
-  links.querySelectorAll('a').forEach(function (a) {
-    a.addEventListener('click', function () {
-      links.classList.remove('is-open');
-      toggle.setAttribute('aria-expanded', 'false');
+    // WCAG improvement: explicit relationship
+    if (!toggle.getAttribute('aria-controls')) {
+      toggle.setAttribute('aria-controls', 'careers-nav-links');
+    }
+
+    toggle.addEventListener('click', function () {
+      var isOpen = links.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
     });
-  });
-})();
 
-window.addEventListener('load', function () {
-  var loader = document.getElementById('loader');
-  if (loader) {
+    var linkNodes = links.querySelectorAll('a');
+    Array.prototype.forEach.call(linkNodes, function (a) {
+      a.addEventListener('click', function () {
+        links.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
+
+  function initLoader() {
+    var loader = document.getElementById('loader');
+    if (!loader) return;
+
     var srText = loader.querySelector('.sr-only');
-    if (srText) srText.textContent = loader.dataset.loadedMsg || 'Page loaded successfully';
+    if (srText) {
+      srText.textContent = loader.dataset.loadedMsg || 'Page loaded successfully';
+    }
+
+    // Hide from accessibility tree immediately
+    loader.setAttribute('aria-hidden', 'true');
     loader.classList.add('hidden');
+
     setTimeout(function () {
-      loader.setAttribute('aria-hidden', 'true');
       loader.style.display = 'none';
     }, 300);
   }
-});
 
-document.addEventListener('DOMContentLoaded', function () {
-  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    var spinner = document.querySelector('.spinner');
-    if (spinner) spinner.style.animation = 'none';
+  function initReducedMotion() {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.documentElement.classList.add('reduce-motion');
+
+      var spinner = document.querySelector('.spinner');
+      if (spinner) {
+        spinner.style.animation = 'none';
+      }
+    }
   }
-});
+
+  function randomSrc(id, base, max) {
+    var el = document.getElementById(id);
+    if (!el) return;
+
+    var n = Math.floor(Math.random() * max) + 1;
+    var src = base + n + '.jpg';
+
+    el.src = src;
+
+    el.onerror = function () {
+      this.onerror = null;
+      this.src = base + '1.jpg';
+    };
+  }
+
+  function initImages() {
+    randomSrc('life-img', '/assets/img/life-police-officer-', 3);
+    randomSrc('federal-img', '/assets/img/federal-policing-', 3);
+    randomSrc('cadet-img', '/assets/img/cadet-hub-', 3);
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    initCareersNav();
+    initReducedMotion();
+    initImages();
+  });
+
+  window.addEventListener('load', function () {
+    initLoader();
+  });
+
+}());
 </script>
 {% endif %}

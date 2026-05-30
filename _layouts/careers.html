@@ -62,10 +62,17 @@
       {% unless page.hero_image %}
         {% include breadcrumb.html %}
       {% endunless %}
+    {% if page.url contains 'officer-agent' %}
+    <div class="po-content-full">
+      <h1 id="wb-cont" property="name" class="wb-inv">{{ page.title }}</h1>
+      {{ content }}
+      <section class="pagedetails container">
+    {% else %}
 	  <div class="container">
         <h1 id="wb-cont" property="name" {% if page.h1_hidden %}class="wb-inv" {% endif %}>{{ page.title }}</h1>
         {{ content }}
         <section class="pagedetails">
+    {% endif %}
           {% if page.lang == 'fr' %}
           <h2 class="wb-inv">Détails de la page</h2>
           <dl id="wb-dtmd">

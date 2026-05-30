@@ -68,11 +68,7 @@ button,
 
 @media (min-width: 1440px) {
   .careers-layout main {
-    background-image: url("/assets/careers-background.png");
-    background-size: 100% auto;
-    background-repeat: repeat-y;
-    background-position: top center;
-    background-attachment: local;
+    background-image: none;
   }
 }
 
@@ -314,6 +310,21 @@ button,
 #wb-bc .bc > li + li::before {
   content: none !important;
   display: none !important;
+}
+
+.careers-layout main {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.po-content-full {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+}
+
+.po-content-full > .pagedetails {
+  padding: 2rem 1.5rem;
 }
 
 .careers-layout #wb-bc {

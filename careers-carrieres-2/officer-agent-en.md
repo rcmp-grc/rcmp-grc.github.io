@@ -14,7 +14,7 @@ subject: Police officer careers; RCMP recruitment; law enforcement jobs Canada
 breadcrumbs:
   - label: "RCMP careers"
     url: "careers-rcmp"
-hero_image: /careers-carrieres-2/assets/img/po-header.jpg
+hero_image: /assets/img/po-header.jpg
 hero_image_alt: ""
 custom_css: /assets/css/careers.css
 ---

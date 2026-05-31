@@ -1293,6 +1293,14 @@ a.btn-careers:hover {
   z-index: 0;
 }
 
+.po-hero-cta::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, transparent 30%, var(--c-navy) 70%);
+  z-index: 1;
+}
+
 .po-hero-cta__content {
   position: relative;
   z-index: 2;
@@ -1302,7 +1310,7 @@ a.btn-careers:hover {
   flex-direction: column;
   justify-content: center;
   padding: 4rem 5rem;
-  background: linear-gradient(to right, transparent 0%, var(--c-navy) 30%);
+  background: none;
 }
 
 .po-hero-cta__content p {

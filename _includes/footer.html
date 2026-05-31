@@ -99,31 +99,38 @@
 <script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js" crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/releases/v6.5.0/js/all.js" integrity="sha384-xJg9IXkLBF6DBCGIEmpH5d2Pzct5onYpW8EegteK+7n0rxjhN4PUzfPxGbpWVjQf" crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/releases/v6.5.0/js/v4-shims.js" integrity="sha384-/92mVmELKUSys+AjbeSvITO3rhI9KtDAENPjak7fYPIxTdmKqt1Z2WCbRbI8ybF2" crossorigin="anonymous"></script>
+{% if page.layout == 'careers' and page.url contains 'officer-agent' %}
+<script>
+(function () {
+  function r(i, b, m) {
+    var e = document.getElementById(i);
+    if (!e) return;
+    e.src = b + (Math.floor(Math.random() * m) + 1) + '.jpg';
+    e.onerror = function () { this.onerror = null; this.src = b + '1.jpg'; };
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    r('life-img',    '/assets/img/life-police-officer-', 3);
+    r('federal-img', '/assets/img/federal-policing-',   3);
+    r('cadet-img',   '/assets/img/cadet-hub-',          3);
+  });
+}());
+</script>
+{% endif %}
 {% if page.layout == 'careers' %}
 <script>
 (function () {
-  'use strict';
-
   function initCareersNav() {
-    var toggle = document.querySelector('.careers-nav__toggle');
-    var links = document.getElementById('careers-nav-links');
-    if (!toggle || !links) return;
-
-    // WCAG improvement: explicit relationship
-    if (!toggle.getAttribute('aria-controls')) {
-      toggle.setAttribute('aria-controls', 'careers-nav-links');
-    }
-
-    toggle.addEventListener('click', function () {
-      var isOpen = links.classList.toggle('is-open');
-      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    var t = document.querySelector('.careers-nav__toggle');
+    var l = document.getElementById('careers-nav-links');
+    if (!t || !l) return;
+    if (!t.getAttribute('aria-controls')) t.setAttribute('aria-controls', 'careers-nav-links');
+    t.addEventListener('click', function () {
+      t.setAttribute('aria-expanded', l.classList.toggle('is-open') ? 'true' : 'false');
     });
-
-    var linkNodes = links.querySelectorAll('a');
-    Array.prototype.forEach.call(linkNodes, function (a) {
+    Array.prototype.forEach.call(l.querySelectorAll('a'), function (a) {
       a.addEventListener('click', function () {
-        links.classList.remove('is-open');
-        toggle.setAttribute('aria-expanded', 'false');
+        l.classList.remove('is-open');
+        t.setAttribute('aria-expanded', 'false');
       });
     });
   }
@@ -131,41 +138,25 @@
   function initLoader() {
     var loader = document.getElementById('loader');
     if (!loader) return;
-
-    var srText = loader.querySelector('.sr-only');
-    if (srText) {
-      srText.textContent = loader.dataset.loadedMsg || 'Page loaded successfully';
-    }
-
-    // Hide from accessibility tree immediately
+    var sr = loader.querySelector('.sr-only');
+    if (sr) sr.textContent = loader.dataset.loadedMsg || 'Page loaded successfully';
     loader.setAttribute('aria-hidden', 'true');
     loader.classList.add('hidden');
-
-    setTimeout(function () {
-      loader.style.display = 'none';
-    }, 300);
+    setTimeout(function () { loader.style.display = 'none'; }, 300);
   }
 
   function initReducedMotion() {
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      document.documentElement.classList.add('reduce-motion');
-
-      var spinner = document.querySelector('.spinner');
-      if (spinner) {
-        spinner.style.animation = 'none';
-      }
-    }
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    document.documentElement.classList.add('reduce-motion');
+    var spinner = document.querySelector('.spinner');
+    if (spinner) spinner.style.animation = 'none';
   }
 
   document.addEventListener('DOMContentLoaded', function () {
     initCareersNav();
     initReducedMotion();
   });
-
-  window.addEventListener('load', function () {
-    initLoader();
-  });
-
+  window.addEventListener('load', initLoader);
 }());
 </script>
 {% endif %}

@@ -69,7 +69,7 @@ custom_css: /assets/css/careers.css
   </div>
 </section>
 <section aria-labelledby="ribbon-life-heading" class="po-ribbon po-ribbon-dark">
-<div class="po-ribbon-img po-ribbon-img-left" data-wb-randomize='{"toggle": "hide", "selector": "img"}'><img class="hide" src="/assets/img/life-police-officer-1.jpg" alt=""><img class="hide" src="/assets/img/life-police-officer-2.jpg" alt=""><img class="hide" src="/assets/img/life-police-officer-3.jpg" alt=""></div>
+<div class="po-ribbon-img po-ribbon-img-left"><img id="life-img" src="/assets/img/life-police-officer-1.jpg" alt=""></div>
   <div class="po-ribbon-text">
     <h2 class="mrgn-tp-0" id="ribbon-life-heading"><a href="#">Life as a police officer</a></h2>
     <p>Explore the realities, rewards and impact of life as a police officer.</p>
@@ -77,41 +77,41 @@ custom_css: /assets/css/careers.css
     <p>Experience a career path you won't find anywhere else.</p>
   </div>
 </section>
-<section aria-labelledby="streams-heading" class="c-grid-container">
-  <h2 class="h2-line" id="streams-heading">Dedicated recruitment streams</h2>
-  <div class="c-grid">
-    <div class="c-card">
-      <img alt="" src="/assets/img/po-indigenous-recruiting.jpg">
-      <div class="c-card-container">
+<section aria-labelledby="streams-heading" class="gc-features">
+  <h2 id="streams-heading">Dedicated recruitment streams</h2>
+  <ul class="list-unstyled row">
+    <li class="col-md-6">
+      <div class="well">
+        <img alt="" class="img-responsive full-width" src="/assets/img/po-indigenous-recruiting.jpg">
         <h3 class="h5"><a href="topics-sujets-en.html">First Nations, Inuit and Métis applicant programs</a></h3>
         <p>Join us in building an inclusive RCMP that reflects Indigenous strength and diversity.</p>
       </div>
-    </div>
-    <div class="c-card">
-      <img alt="" src="/assets/img/experienced-police-officers.jpg">
-      <div class="c-card-container">
+    </li>
+    <li class="col-md-6">
+      <div class="well">
+        <img alt="" class="img-responsive full-width" src="/assets/img/experienced-police-officers.jpg">
         <h3 class="h5"><a href="#">Experienced Police Officers</a></h3>
         <p>Learn how to transfer your policing career to the RCMP.</p>
       </div>
-    </div>
-    <div class="c-card">
-      <img alt="" src="/assets/img/mo-dice.jpg">
-      <div class="c-card-container">
+    </li>
+    <li class="col-md-6">
+      <div class="well">
+        <img alt="" class="img-responsive full-width" src="/assets/img/mo-dice.jpg">
         <h3 class="h5"><a href="#">Diverse and Inclusive Pre-Cadet Experience</a></h3>
         <p>Get a firsthand look into policing before you apply. Designed to support racialized and underrepresented communities.</p>
       </div>
-    </div>
-    <div class="c-card">
-      <img alt="" src="/assets/img/po-reserve.jpg">
-      <div class="c-card-container">
+    </li>
+    <li class="col-md-6">
+      <div class="well">
+        <img alt="" class="img-responsive full-width" src="/assets/img/po-reserve.jpg">
         <h3 class="h5"><a href="#">RCMP Reserve Program</a></h3>
         <p>Continue to serve communities after retirement or leaving the service.</p>
       </div>
-    </div>
-  </div>
+    </li>
+  </ul>
 </section>
 <section aria-labelledby="ribbon-federal-heading" class="po-ribbon po-ribbon-dark">
-<div class="po-ribbon-img po-ribbon-img-left" data-wb-randomize='{"toggle": "hide", "selector": "img"}'><img class="hide" src="/assets/img/federal-policing-1.jpg" alt=""><img class="hide" src="/assets/img/federal-policing-2.jpg" alt=""><img class="hide" src="/assets/img/federal-policing-3.jpg" alt=""></div>
+<div class="po-ribbon-img po-ribbon-img-left"><img id="federal-img" src="/assets/img/federal-policing-1.jpg" alt=""></div>
   <div class="po-ribbon-text">
     <h2 id="ribbon-federal-heading"><a href="#">Explore your future in Federal Policing</a></h2>
     <p>Federal Policing protects Canada, its people, and its interests against the greatest domestic and international criminal threats, including risks to national security, transnational and serious organized crime, and cybercrime.</p>
@@ -127,7 +127,7 @@ custom_css: /assets/css/careers.css
       <li>Understand the fitness standards and how to prepare</li>
     </ul>
   </div>
-<div class="po-ribbon-img po-ribbon-img-right" data-wb-randomize='{"toggle": "hide", "selector": "img"}'><img class="hide" src="/assets/img/cadet-hub-1.jpg" alt=""><img class="hide" src="/assets/img/cadet-hub-2.jpg" alt=""><img class="hide" src="/assets/img/cadet-hub-3.jpg" alt=""></div>
+<div class="po-ribbon-img po-ribbon-img-right"><img id="cadet-img" src="/assets/img/cadet-hub-1.jpg" alt=""></div>
 </section>
 <section aria-labelledby="events-heading" class="po-events">
   <h2 class="h2-line mrgn-tp-0" id="events-heading">Upcoming recruitment events</h2>

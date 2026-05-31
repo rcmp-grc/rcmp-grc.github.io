@@ -157,31 +157,9 @@
     }
   }
 
-  function randomSrc(id, base, max) {
-    var el = document.getElementById(id);
-    if (!el) return;
-
-    var n = Math.floor(Math.random() * max) + 1;
-    var src = base + n + '.jpg';
-
-    el.src = src;
-
-    el.onerror = function () {
-      this.onerror = null;
-      this.src = base + '1.jpg';
-    };
-  }
-
-  function initImages() {
-    randomSrc('life-img', '/assets/img/life-police-officer-', 3);
-    randomSrc('federal-img', '/assets/img/federal-policing-', 3);
-    randomSrc('cadet-img', '/assets/img/cadet-hub-', 3);
-  }
-
   document.addEventListener('DOMContentLoaded', function () {
     initCareersNav();
     initReducedMotion();
-    initImages();
   });
 
   window.addEventListener('load', function () {

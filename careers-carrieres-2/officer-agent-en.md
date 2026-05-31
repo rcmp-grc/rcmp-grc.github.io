@@ -21,7 +21,7 @@ custom_css: /assets/css/careers.css
 
 <div class="po-hero-cta">
   <p>The RCMP is hiring motivated team players who are physically fit and can lead with integrity and compassion.</p>
-  <p><strong>Are you ready to be a police officer?</strong></p><a class="ready-btn mrgn-tp-sm" href="/careers-carrieres/police-officer/readiness-check"><i aria-hidden="true" class="fa-solid fa-square-check"></i> <span>Check your readiness</span></a>
+  <p><strong>Are you ready to be a police officer?</strong></p><a class="ready-btn mrgn-tp-sm" href="readiness-preparation-en.html"><i aria-hidden="true" class="fa-solid fa-square-check"></i> <span>Check your readiness</span></a>
 </div>
 <section class="po-banner">
   <div class="po-banner-text">
@@ -45,13 +45,13 @@ custom_css: /assets/css/careers.css
   </div>
   <div class="si-card">
     <div>
-      <h3><i aria-hidden="true" class="fa-solid fa-clipboard-check"></i> <a href="/careers-carrieres/police-officer/readiness-check">Readiness Check</a></h3>
+      <h3><i aria-hidden="true" class="fa-solid fa-clipboard-check"></i> <a href="readiness-preparation-en.html">Readiness Check</a></h3>
       <p>Determine if a career in policing is right for you before you apply.</p>
     </div>
   </div>
   <div class="si-card">
     <div>
-      <h3><i aria-hidden="true" class="fa-solid fa-folder-open"></i> <a href="/careers-carrieres/police-officer/police-officer-application-process">Application process</a></h3>
+      <h3><i aria-hidden="true" class="fa-solid fa-folder-open"></i> <a href="application-candidature-en.html">Application process</a></h3>
       <p>Understand each step — from application to cadet training.</p>
     </div>
   </div>
@@ -63,13 +63,13 @@ custom_css: /assets/css/careers.css
   </div>
   <div class="si-card">
     <div>
-      <h3><i aria-hidden="true" class="fa-solid fa-calendar-days"></i> <a href="/careers-carrieres/police-officer/recruiting-events">Recruiting events</a></h3>
+      <h3><i aria-hidden="true" class="fa-solid fa-calendar-days"></i> <a href="#">Recruiting events</a></h3>
       <p>Connect with recruiters and learn about a career in policing.</p>
     </div>
   </div>
 </section>
 <section aria-labelledby="ribbon-life-heading" class="po-ribbon po-ribbon-dark">
-  <div class="po-ribbon-img po-ribbon-img-left"><img alt="" aria-hidden="true" id="life-img" src="/assets/img/life-police-officer-1.jpg"></div>
+<div class="po-ribbon-img po-ribbon-img-left" id="bg" data-wb-randomize='{"shuffle":true, "selector": "img", "toggle": "hide" }'><img class="hide" src="/assets/img/life-police-officer-1.jpg" alt=""><img class="hide" src="/assets/img/life-police-officer-2.jpg" alt=""><img class="hide" src="/assets/img/life-police-officer-3.jpg" alt=""></div>
   <div class="po-ribbon-text">
     <h2 class="mrgn-tp-0" id="ribbon-life-heading"><a href="#">Life as a police officer</a></h2>
     <p>Explore the realities, rewards and impact of life as a police officer.</p>
@@ -81,28 +81,28 @@ custom_css: /assets/css/careers.css
   <h2 class="h2-line" id="streams-heading">Dedicated recruitment streams</h2>
   <div class="c-grid">
     <div class="c-card">
-      <img alt="" src="/careers-carrieres-2/assets/img/po-indigenous-recruiting.jpg">
+      <img alt="" src="/assets/img/po-indigenous-recruiting.jpg">
       <div class="c-card-container">
-        <h3 class="h5"><a href="/careers-carrieres/police-officer/first-nations-inuit-metis-applicant-programs">First Nations, Inuit and Métis applicant programs</a></h3>
+        <h3 class="h5"><a href="topics-sujets-en.html">First Nations, Inuit and Métis applicant programs</a></h3>
         <p>Join us in building an inclusive RCMP that reflects Indigenous strength and diversity.</p>
       </div>
     </div>
     <div class="c-card">
-      <img alt="" src="/careers-carrieres-2/assets/img/experienced-police-officers.jpg">
+      <img alt="" src="/assets/img/experienced-police-officers.jpg">
       <div class="c-card-container">
         <h3 class="h5"><a href="#">Experienced Police Officers</a></h3>
         <p>Learn how to transfer your policing career to the RCMP.</p>
       </div>
     </div>
     <div class="c-card">
-      <img alt="" src="/careers-carrieres-2/assets/img/mo-dice.jpg">
+      <img alt="" src="/assets/img/mo-dice.jpg">
       <div class="c-card-container">
         <h3 class="h5"><a href="#">Diverse and Inclusive Pre-Cadet Experience</a></h3>
         <p>Get a firsthand look into policing before you apply. Designed to support racialized and underrepresented communities.</p>
       </div>
     </div>
     <div class="c-card">
-      <img alt="" src="/careers-carrieres-2/assets/img/po-reserve.jpg">
+      <img alt="" src="/assets/img/po-reserve.jpg">
       <div class="c-card-container">
         <h3 class="h5"><a href="#">RCMP Reserve Program</a></h3>
         <p>Continue to serve communities after retirement or leaving the service.</p>
@@ -111,8 +111,7 @@ custom_css: /assets/css/careers.css
   </div>
 </section>
 <section aria-labelledby="ribbon-federal-heading" class="po-ribbon po-ribbon-dark">
-  <div class="po-ribbon-img po-ribbon-img-left"><img alt="" aria-hidden="true" id="federal-img" src="/assets/img/federal-policing-1.jpg"></div>
-  <div class="po-ribbon-text">
+<div class="po-ribbon-img po-ribbon-img-left" id="bg" data-wb-randomize='{"shuffle":true, "selector": "img", "toggle": "hide" }'><img class="hide" src="/assets/img/federal-policing-1.jpg" alt=""><img class="hide" src="/assets/img/federal-policing-2.jpg" alt=""><img class="hide" src="/assets/img/federal-policing-3.jpg" alt=""></div>  <div class="po-ribbon-text">
     <h2 id="ribbon-federal-heading"><a href="#">Explore your future in Federal Policing</a></h2>
     <p>Federal Policing protects Canada, its people, and its interests against the greatest domestic and international criminal threats, including risks to national security, transnational and serious organized crime, and cybercrime.</p>
   </div>
@@ -127,7 +126,7 @@ custom_css: /assets/css/careers.css
       <li>Understand the fitness standards and how to prepare</li>
     </ul>
   </div>
-  <div class="po-ribbon-img po-ribbon-img-right"><img alt="" aria-hidden="true" id="cadet-img" src="/assets/img/cadet-hub-1.jpg"></div>
+  <div class="po-ribbon-img po-ribbon-img-right" id="bg" data-wb-randomize='{"shuffle":true, "selector": "img", "toggle": "hide" }'><img class="hide" src="/assets/img/cadet-hub-1.jpg" alt=""><img class="hide" src="/assets/img/cadet-hub-2.jpg" alt=""><img class="hide" src="/assets/img/cadet-hub-3.jpg" alt=""></div>
 </section>
 <section aria-labelledby="events-heading" class="po-events">
   <h2 class="h2-line mrgn-tp-0" id="events-heading">Upcoming recruitment events</h2>

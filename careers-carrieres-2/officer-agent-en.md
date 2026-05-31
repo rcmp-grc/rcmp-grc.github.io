@@ -79,7 +79,6 @@ custom_css: /assets/css/careers.css
 </section>
 <section aria-labelledby="streams-heading" class="gc-features">
   <h2 class="h2-line" id="streams-heading">Dedicated recruitment streams</h2>
-  <h2 id="streams-heading">Dedicated recruitment streams</h2>
   <ul class="list-unstyled row">
     <li class="col-md-3">
       <div class="well">

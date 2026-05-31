@@ -967,7 +967,7 @@ a.btn-careers:hover {
 }
 
 .po-banner {
-  padding-top: 6rem;
+  padding-top: 3rem;
 }
 .po-banner-text {
   padding-right: 6rem;
@@ -1117,7 +1117,7 @@ a.btn-careers:hover {
     grid-template-columns: 1fr;
   }
   .po-ribbon-light .po-ribbon-img-right {
-    order: 1;
+    order: -1;
   }
   .po-ribbon-light .po-ribbon-text {
     order: 0;

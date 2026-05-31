@@ -28,8 +28,8 @@ custom_css: /assets/css/careers.css
 </div>
 <section class="po-banner">
   <div class="po-banner-text">
-    <p>Join Canada's national police service</p>
-    <p>From frontline policing to specialized units, the RCMP offers a career with purpose — one that protects Canadians, strengthens communities, and safeguards national security. Make a real impact while serving in every corner of the country.</p>
+    <p class="po-banner-heading">Join Canada's national police service</p>
+    <p class="po-banner-body">From frontline policing to specialized units, the RCMP offers a career with purpose — one that protects Canadians, strengthens communities, and safeguards national security. Make a real impact while serving in every corner of the country.</p>
   </div>
 </section>
 <section aria-labelledby="si-heading" class="gc-features">

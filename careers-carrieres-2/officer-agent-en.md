@@ -82,28 +82,28 @@ custom_css: /assets/css/careers.css
 <section aria-labelledby="streams-heading" class="gc-features">
   <h2 class="h2-line" id="streams-heading">Dedicated recruitment streams</h2>
   <ul class="list-unstyled row">
-    <li class="col-md-3 col-sm-6">
+    <li class="col-lg-3 col-md-6">
       <div class="well">
         <img alt="" class="img-responsive full-width" src="/assets/img/po-indigenous-recruiting.jpg">
         <h3 class="h5"><a href="topics-sujets-en.html">First Nations, Inuit and Métis applicant programs</a></h3>
         <p>Join us in building an inclusive RCMP that reflects Indigenous strength and diversity.</p>
       </div>
     </li>
-    <li class="col-md-3 col-sm-6">
+    <li class="col-lg-3 col-md-6">
       <div class="well">
         <img alt="" class="img-responsive full-width" src="/assets/img/experienced-police-officers.jpg">
         <h3 class="h5"><a href="#">Experienced Police Officers</a></h3>
         <p>Learn how to transfer your policing career to the RCMP.</p>
       </div>
     </li>
-    <li class="col-md-3 col-sm-6">
+    <li class="col-lg-3 col-md-6">
       <div class="well">
         <img alt="" class="img-responsive full-width" src="/assets/img/mo-dice.jpg">
         <h3 class="h5"><a href="#">Diverse and Inclusive Pre-Cadet Experience</a></h3>
         <p>Get a firsthand look into policing before you apply. Designed to support racialized and underrepresented communities.</p>
       </div>
     </li>
-    <li class="col-md-3 col-sm-6">
+    <li class="col-lg-3 col-md-6">
       <div class="well">
         <img alt="" class="img-responsive full-width" src="/assets/img/po-reserve.jpg">
         <h3 class="h5"><a href="#">RCMP Reserve Program</a></h3>

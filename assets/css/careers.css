@@ -1297,7 +1297,7 @@ a.btn-careers:hover {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(to right, transparent 30%, var(--c-navy) 70%);
+  background: linear-gradient(to right, transparent 30%, var(--c-navy) 55%);
   z-index: 1;
 }
 
@@ -1384,4 +1384,12 @@ a.btn-careers:hover {
 .po-banner-body {
   font-size: 1.6rem !important;
   line-height: 1.65 !important;
+}
+
+.po-hero-cta #wb-bc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
 }

@@ -19,6 +19,7 @@ custom_css: /assets/css/careers.css
 
 <div class="po-hero-cta">
   <img src="/assets/img/po-header.jpg" alt="" class="po-hero-bg">
+  {% include breadcrumb.html %}
   <div class="po-hero-cta__content">
     <p class="po-hero-title">Police officer careers</p>
     <p>The RCMP is hiring motivated team players who are physically fit and can lead with integrity and compassion.</p>

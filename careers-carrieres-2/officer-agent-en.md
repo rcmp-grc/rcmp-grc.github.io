@@ -20,8 +20,9 @@ custom_css: /assets/css/careers.css
 ---
 
 <div class="po-hero-cta">
+  <p class="po-hero-title">Police officer careers</p>
   <p>The RCMP is hiring motivated team players who are physically fit and can lead with integrity and compassion.</p>
-  <p><strong>Are you ready to be a police officer?</strong></p><a class="ready-btn mrgn-tp-sm" href="readiness-preparation-en.html"><i aria-hidden="true" class="fa-solid fa-square-check"></i> <span>Check your readiness</span></a>
+  <p><strong>Are you ready to be a police officer?</strong></p><a class="ready-btn mrgn-tp-sm" href="/careers-carrieres/police-officer/readiness-check"><i aria-hidden="true" class="fa-solid fa-square-check"></i> <span>Check your readiness</span></a>
 </div>
 <section class="po-banner">
   <div class="po-banner-text">

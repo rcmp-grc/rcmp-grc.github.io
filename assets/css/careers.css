@@ -401,6 +401,22 @@ button,
   flex: 1;
 }
 
+.careers-layout .gc-features {
+  padding: 6rem;
+}
+
+.careers-layout .gc-features > h2 {
+  border-left: 0.6rem solid var(--c-yellow);
+  padding-left: 1rem;
+  margin-left: 0;
+}
+
+@media (max-width: 767px) {
+  .careers-layout .gc-features {
+    padding: 4rem 3rem;
+  }
+}
+
 .careers-layout .gc-features .well p:last-child {
   margin-bottom: 0;
 }

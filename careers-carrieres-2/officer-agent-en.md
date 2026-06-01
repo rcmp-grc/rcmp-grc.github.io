@@ -27,12 +27,12 @@ custom_css: /assets/css/careers.css
     <a class="ready-btn mrgn-tp-sm" href="/careers-carrieres/police-officer/readiness-check"><i aria-hidden="true" class="fa-solid fa-square-check"></i> <span>Check your readiness</span></a>
   </div>
 </div>
-<section class="po-banner">
+<div class="po-banner">
   <div class="po-banner-text">
     <p class="po-banner-heading">Join Canada's national police service</p>
     <p class="po-banner-body">From frontline policing to specialized units, the RCMP offers a career with purpose — one that protects Canadians, strengthens communities, and safeguards national security. Make a real impact while serving in every corner of the country.</p>
   </div>
-</section>
+</div>
 <section aria-labelledby="si-heading" class="gc-features">
   <h2 class="wb-inv" id="si-heading">Services and information</h2>
   <ul class="list-unstyled row">

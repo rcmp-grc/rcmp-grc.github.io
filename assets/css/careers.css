@@ -218,15 +218,8 @@ button,
   background-color: var(--c-white);
 }
 
-.po-full-width ~ .footer-contact,
-.po-full-width .footer-contact {
+.po-full-width ~ .footer-contact {
   background-color: transparent;
-}
-
-.po-full-width .footer-contact {
-  background-color: transparent;
-  position: relative;
-  z-index: 10;
 }
 
 .footer-contact .btn-contact {
@@ -1421,11 +1414,6 @@ a.btn-careers:hover {
   }
 }
 
-.po-pagedetails {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .po-end-overlay .pagedetails {
   width: 100%;
   background: rgba(0, 0, 0, 0.55);
@@ -1438,10 +1426,6 @@ a.btn-careers:hover {
 .po-end-overlay .pagedetails dd,
 .po-end-overlay .pagedetails time {
   color: var(--c-white);
-}
-
-.po-full-width .footer-contact .btn-contact {
-  border-radius: 0;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -1469,9 +1453,4 @@ a.btn-careers:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-}
-
-.po-end-overlay .footer-contact {
-  position: relative;
-  bottom: auto;
 }

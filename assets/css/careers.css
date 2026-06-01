@@ -398,12 +398,11 @@ button,
 }
 
 .careers-layout .gc-features {
-  padding: 6rem;
+  margin-top: 15px;
 }
 
 .po-content-full .gc-features {
-  padding: 6rem;
-  margin-top: 30px;
+  padding: 0rem 6rem;
 }
 
 .careers-layout .gc-features > h2 {

@@ -260,7 +260,7 @@ issued: 2026-05-21
        Publish date
         </summary>
 		  <fieldset>
-			 <div><legend>Published date</legend>
+			 <div><legend class="wb-inv">Publish date</legend>
              <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text"></div>
 				</fieldset>
 		</details>
@@ -280,7 +280,7 @@ issued: 2026-05-21
         </select>
       </div>
 	</div>
-    <div aria-label="News profiles" id="news-grid" role="list"></div>
+    <div aria-label="News" id="news-grid" role="list"></div>
     <p id="news-no-results">No news or communications match your current filters.</p>
     <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
       <div class="rcmp-content-page__prev" id="news-prev-wrap">
@@ -348,7 +348,6 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       removeFilter:   'Remove filter: ',
       profileHref:    'news-nouvelles-en.html',
       viewProfile:    'View profile: ',
-      photo:          'Photo of missing person ',
       fileNumber:     'File number: ',
       updated:        'Updated: ',
       lastSeen:       'Last seen: ',
@@ -363,7 +362,6 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       removeFilter:   'Retirer le filtre\u00A0: ',
       profileHref:    'news-nouvelles-fr.html',
       viewProfile:    'Voir le profil\u00A0: ',
-      photo:          'Photo de la personne disparue ',
       fileNumber:     'Numéro de dossier\u00A0: ',
 	  updated:        'Mise à jour\u00A0: ',
       lastSeen:       'Vu(e) pour la dernière fois\u00A0: ',

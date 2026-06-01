@@ -412,7 +412,6 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       id:        i + 1,
       name:      r[ni],
       file:      r[2],
-      img:       'https://dummyimage.com/480x600/000/fff',
       category:  r[3],
       territory: r[4],
       region:    r[5],
@@ -512,7 +511,6 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       li.setAttribute('role', 'listitem');
       li.innerHTML =
         '<a class="wp-card" href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' +
-          '<img alt="' + t.photo + p.name + '" src="' + p.img + '" loading="lazy">' +
           '<div class="wp-card-body">' +
             '<p class="wp-card-name">'  + p.name + '</p>' +
             '<p class="wp-card-meta">'  + t.fileNumber + p.file + '</p>' +

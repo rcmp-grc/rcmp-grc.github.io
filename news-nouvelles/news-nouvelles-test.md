@@ -103,49 +103,49 @@ issued: 2026-05-21
         <fieldset>
           <legend class="wb-inv">Category</legend>
           <div class="checkbox">
-            <label><input data-filter="category" type="checkbox" value="assault"><span class="cb-text">Assault</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="category" type="checkbox" value="be"><span class="cb-text">Break-and-Enter</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="category" type="checkbox" value="Break and Enter"><span class="cb-text">Break-and-Enter</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="category" type="checkbox" value="disturbance"><span class="cb-text">Disturbance</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="category" type="checkbox" value="Disturbance"><span class="cb-text">Disturbance</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="category" type="checkbox" value="homicide"><span class="cb-text">Homicide</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="category" type="checkbox" value="Homicide"><span class="cb-text">Homicide</span><span class="wp-filter-badge">0</span></label>
           </div>
 			 <div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="crossing"><span class="cb-text">Illegal border crossing</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="category" type="checkbox" value="Illigal border crossing"><span class="cb-text">Illegal border crossing</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="drugs"><span class="cb-text">Illicit drugs</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="category" type="checkbox" value="Illicit drugs"><span class="cb-text">Illicit drugs</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="missing"><span class="cb-text">Missing person</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="category" type="checkbox" value="Missing"><span class="cb-text">Missing person</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="crime"><span class="cb-text">Organized crime</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="category" type="checkbox" value="Organized crime"><span class="cb-text">Organized crime</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="property"><span class="cb-text">Property damage</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="category" type="checkbox" value="Property damage"><span class="cb-text">Property damage</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="interest"><span class="cb-text">Public interest</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="category" type="checkbox" value="Public interest"><span class="cb-text">Public interest</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="theft"><span class="cb-text">Theft</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="category" type="checkbox" value="Theft"><span class="cb-text">Theft</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="traffic"><span class="cb-text">Traffic services</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="category" type="checkbox" value="Traffic"><span class="cb-text">Traffic services</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="trafficking"><span class="cb-text">Trafficking</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="category" type="checkbox" value="Trafficking"><span class="cb-text">Trafficking</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 		<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="wanted"><span class="cb-text">Wanted</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="category" type="checkbox" value="Wanted"><span class="cb-text">Wanted</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 		<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="weapons"><span class="cb-text">Weapons</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span><span class="wp-filter-badge">0</span></label>
 				  </div>		
         </fieldset>
       </details>

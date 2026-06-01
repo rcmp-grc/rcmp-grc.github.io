@@ -1432,6 +1432,7 @@ a.btn-careers:hover {
 .po-end-overlay .pagedetails {
   width: 100%;
   background: rgba(0, 0, 0, 0.55);
+  padding-top: 0;
   padding-bottom: 2rem;
   padding-left: 385px;
 }

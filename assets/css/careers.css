@@ -327,10 +327,6 @@ button,
   padding: 0;
 }
 
-.po-content-full > .pagedetails {
-  padding: 2rem 1.5rem;
-}
-
 .careers-layout #wb-bc {
   margin-top: 0;
   padding-top: 0;
@@ -1410,10 +1406,14 @@ a.btn-careers:hover {
 }
 
 .po-pagedetails {
-  padding-top: 0;
-  padding-bottom: 2rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   padding-left: 385px;
   margin: 0;
+}
+
+.po-pagedetails #wb-dtmd {
+  margin-top: 0;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {

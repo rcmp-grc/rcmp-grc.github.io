@@ -260,7 +260,7 @@ issued: 2026-05-21
        Publish date
         </summary>
 		  <fieldset>
-			 <div><legend><strong>Published date</strong></legend>
+			 <div><legend>Published date</legend>
              <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text"></div>
 				</fieldset>
 		</details>

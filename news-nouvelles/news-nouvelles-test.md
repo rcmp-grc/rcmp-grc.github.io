@@ -255,7 +255,7 @@ issued: 2026-05-21
 				  </div>
         </fieldset>
       </details>	
-		<details class="publish">
+		<details class="summary"> 
         <summary>
        Publish date
         </summary>

@@ -1427,13 +1427,3 @@ a.btn-careers:hover {
     padding-left: 1.5rem;
   }
 }
-
-.po-pagedetails dt,
-.po-pagedetails dd,
-.po-pagedetails time {
-  color: var(--c-white);
-}
-
-.po-pagedetails {
-  background: rgba(0, 0, 0, 0.55);
-}

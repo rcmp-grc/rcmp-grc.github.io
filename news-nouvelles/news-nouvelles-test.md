@@ -342,17 +342,19 @@ issued: 2026-05-21
   var lang = document.documentElement.lang === 'fr' ? 'fr' : 'en';
   var I18N = {
     en: {
- categoryLabels:  {assault: 'Assault', be: 'Break and enter', disturbance: 'Disturbance', homicide: 'Homicide', crossing: 'Illegal border crossing', drugs: 'Illicit drugs', missing: 'Missing person', crime: 'Organized crime', property: 'Interest', property: 'Public interest', theft: 'Theft', traffic: 'Traffic services', trafficking: 'Trafficking', wanted: 'Wanted', weapons: 'Weapons' },
+categoryLabels:  {assault: 'Assault', be: 'Break and enter', disturbance: 'Disturbance', homicide: 'Homicide', crossing: 'Illegal border crossing', drugs: 'Illicit drugs', missing: 'Missing person', crime: 'Organized crime', property: 'Interest', property: 'Public interest', theft: 'Theft', traffic: 'Traffic services', trafficking: 'Trafficking', wanted: 'Wanted', weapons: 'Weapons' },
  territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manitoba', nb: 'New Brunswick', nl: 'Newfoundland and Labrador', nwt: 'Northwest Territories', ns: 'Nova Scotia', nunavut: 'Nunavut', ontario: 'Ontario', pei: 'Prince Edward Island', saskatchewan: 'Saskatchewan RCMP', yukon: 'Yukon RCMP' },
 regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 'Federal Policing Central Region', eastern: 'Federal Policing Eastern Region', nw: 'Federal Policing Northwest Region', pacific: 'Federal Policing Pacific Region', manitoba: 'Manitoba RCMP', nb: 'New Brunswick RCMP', nl: 'Newfoundland and Labrador RCMP', nwt: 'Northwest Territories RCMP', ns: 'Nova Scotia RCMP', nunavut: 'Nunavut  RCMP', pei: 'Prince Edward Island RCMP', depot: 'RCMP Depot Division', hq: 'RCMP National Headquarters', quebec: 'Quebec', saskatchewan: 'Saskatchewan', yukon: 'Yukon' },		
       removeFilter:   'Remove filter: ',
       profileHref:    'news-nouvelles-en.html',
       viewProfile:    'View profile: ',
-      fileNumber:     'File number: ',
-      updated:        'Updated: ',
-      lastSeen:       'Last seen: ',
+	  fileNumber:     'File number\u00A0: ',	
+      category:       'Category\u00A0: ',
+	  territory:      'Territory\u00A0: ',	
+      region:         'Region\u00A0: ',
+      lastSeen:       'Last seen\u00A0: ',
       ofPages:        ' of ',
-      showing:        'Showing:',
+      showing:        'Showing\u00A0: ',
       orSep:          'or'
     },
     fr: {
@@ -363,6 +365,9 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       profileHref:    'news-nouvelles-fr.html',
       viewProfile:    'Voir le profil\u00A0: ',
       fileNumber:     'Numéro de dossier\u00A0: ',
+	  category:       'Category\u00A0: ',
+	  territory:      'Territory\u00A0: ',	
+      region:         'Region\u00A0: ',
 	  updated:        'Mise à jour\u00A0: ',
       lastSeen:       'Vu(e) pour la dernière fois\u00A0: ',
       ofPages:        ' sur ',

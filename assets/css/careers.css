@@ -1348,17 +1348,39 @@ a.btn-careers:hover {
 @media (max-width: 991px) {
   .po-hero-cta {
     height: auto;
+    min-height: 0;
     flex-direction: column;
   }
+
+  .po-hero-cta #wb-bc {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+  }
+
   .po-hero-bg {
     position: relative;
-    height: 280px;
     width: 100%;
+    height: 280px;
+    object-fit: cover;
+    object-position: center top;
   }
+
+  .po-hero-cta::after {
+    display: none;
+  }
+
   .po-hero-cta__content {
+    margin-left: 0;
     width: 100%;
     background: var(--c-navy);
     padding: 3rem;
+  }
+
+  .po-hero-cta .ready-btn {
+    width: 100%;
+    justify-content: center;
   }
 }
 

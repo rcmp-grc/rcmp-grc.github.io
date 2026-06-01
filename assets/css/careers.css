@@ -217,17 +217,6 @@ button,
   justify-content: flex-end;
 }
 
-.po-full-width ~ .footer-contact {
-  background-color: transparent;
-}
-
-.po-footer-contact {
-  position: sticky;
-  bottom: 0;
-  z-index: var(--z-footer-contact);
-  background-color: transparent;
-}
-
 .po-end-overlay .footer-contact {
   position: absolute;
   bottom: 0;
@@ -1426,36 +1415,13 @@ a.btn-careers:hover {
   }
 }
 
-.po-end-overlay .pagedetails {
-  width: 100%;
-  background: rgba(0, 0, 0, 0.55);
-  padding-top: 0;
-  padding-bottom: 2rem;
-  padding-left: 385px;
-  display: flex;
-  align-items: center;
-}
-
-.po-end-overlay .pagedetails dt,
-.po-end-overlay .pagedetails dd,
-.po-end-overlay .pagedetails time {
-  color: var(--c-white);
-}
-
-@media (min-width: 768px) and (max-width: 1199px) {
-  .po-end-overlay .pagedetails {
-    padding-left: 2rem;
-  }
-}
-
-@media (max-width: 767px) {
-  .po-end-overlay .pagedetails {
-    padding-left: 1.5rem;
-  }
-}
-
 .po-end-wrap {
   position: relative;
+}
+
+.po-end-overlay .pagedetails {
+  display: flex;
+  align-items: center;
 }
 
 .po-end-overlay {
@@ -1466,13 +1432,47 @@ a.btn-careers:hover {
   z-index: 10;
 }
 
-.po-end-overlay .pagedetails {
+.po-end-overlay__bar {
   display: flex;
-  align-items: center;
+  align-items: stretch;
+  background: rgba(0, 0, 0, 0.55);
+  width: 100%;
 }
 
-.po-end-overlay .footer-contact {
-  position: absolute;
-  bottom: 0;
-  right: 0;
+.po-end-overlay__bar .pagedetails {
+  flex: 1;
+  padding-top: 0;
+  padding-bottom: 2rem;
+  padding-left: 385px;
+  margin: 0;
+}
+
+.po-end-overlay__bar .pagedetails dt,
+.po-end-overlay__bar .pagedetails dd,
+.po-end-overlay__bar .pagedetails time {
+  color: var(--c-white);
+}
+
+.po-end-overlay__bar .footer-contact {
+  position: relative;
+  flex-shrink: 0;
+  background: transparent;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .po-end-overlay__bar .pagedetails {
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .po-end-overlay__bar {
+    flex-direction: column;
+  }
+  .po-end-overlay__bar .pagedetails {
+    padding-left: 1.5rem;
+  }
+  .po-end-overlay__bar .footer-contact .btn-contact {
+    width: 100%;
+  }
 }

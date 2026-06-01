@@ -169,12 +169,17 @@ custom_css: /assets/css/careers.css
     <div class="po-end-gradient"></div>
   </div>
   <div class="po-end-overlay">
-    <section class="pagedetails container">
-      <h2 class="wb-inv">Page details</h2>
-      <dl id="wb-dtmd">
-        <dt>Date modified:</dt>
-        <dd><time property="dateModified">{{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}</time></dd>
-      </dl>
-    </section>
+    <div class="po-end-overlay__bar">
+      <section class="pagedetails container">
+        <h2 class="wb-inv">Page details</h2>
+        <dl id="wb-dtmd">
+          <dt>Date modified:</dt>
+          <dd><time property="dateModified">{{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}</time></dd>
+        </dl>
+      </section>
+      <div class="footer-contact">
+        <a class="btn btn-contact" href="#recruiter-contact-form">Contact a recruiter</a>
+      </div>
+    </div>
   </div>
 </div>

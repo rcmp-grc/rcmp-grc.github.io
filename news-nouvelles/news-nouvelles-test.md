@@ -87,6 +87,13 @@ issued: 2026-05-21
 <div class="row">
 	<div class="col-md-3">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
+		  <h2 class="h4" id="news-filters-heading">Search</h2>
+		<fieldset>
+		<legend class="wb-inv">Search RCMP news</legend>
+		<div><label class="wb-inv" for="titleFilter">Search by key word</label>
+			<input type="text" maxlength="20" id="titleFilter"><!--<button class="btn btn-primary btn-small" type="submit" title="Search"><span class="glyphicon-search glyphicon" aria-hidden="true"></span><span class="wb-inv">Search</span></button>
+          </div><button class="srchbox button" type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button></div>
+		 </fieldset>
       <h2 class="h4" id="news-filters-heading">Filter by</h2>
 		<div><p class="small">Apply the following filtres to narrow your search</p></div>
       <details class="summary">
@@ -250,7 +257,7 @@ issued: 2026-05-21
       </details>	
     </aside>
 						</div>
-  <div class="col-md-9">
+  <div class="col-md-9 mrgn-tp-md">
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 
     <div id="wp-toolbar">

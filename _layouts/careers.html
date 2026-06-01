@@ -67,6 +67,9 @@
           <h1 class="wb-inv" property="name">{{ page.title }}</h1>
           {{ content }}
         </div>
+        <div class="footer-contact po-footer-contact">
+          <a class="btn btn-contact" href="#recruiter-contact-form">{% if page.lang == 'fr' %}Communiquer avec le personnel du recrutement{% else %}Contact a recruiter{% endif %}</a>
+        </div>
       {% else %}
         <div class="container">
           <h1 id="wb-cont" property="name" {% if page.h1_hidden %}class="wb-inv" {% endif %}>{{ page.title }}</h1>

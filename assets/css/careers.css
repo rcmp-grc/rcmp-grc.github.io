@@ -218,10 +218,20 @@ button,
 }
 
 .po-full-width ~ .footer-contact {
+  background-color: transparent;
+}
+
+.po-footer-contact {
+  position: sticky;
+  bottom: 0;
+  z-index: var(--z-footer-contact);
+  background-color: transparent;
+}
+
+.po-end-overlay .footer-contact {
   position: absolute;
   bottom: 0;
   right: 0;
-  z-index: var(--z-footer-contact);
 }
 
 .footer-contact .btn-contact {
@@ -853,7 +863,7 @@ a.btn-careers:hover {
 
 .po-hero-cta {
   position: relative;
-  height: 70vh;
+  height: 75vh;
   min-height: 480px;
   overflow: hidden;
   display: flex;

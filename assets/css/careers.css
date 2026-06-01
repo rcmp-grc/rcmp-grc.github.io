@@ -218,6 +218,11 @@ button,
   background-color: var(--c-white);
 }
 
+.po-full-width ~ .footer-contact,
+.po-full-width .footer-contact {
+  background-color: transparent;
+}
+
 .po-full-width .footer-contact {
   background-color: transparent;
   position: relative;

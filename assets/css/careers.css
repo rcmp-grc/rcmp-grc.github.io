@@ -1427,3 +1427,8 @@ a.btn-careers:hover {
     padding-left: 1.5rem;
   }
 }
+
+.pagedetails {
+  padding-bottom: 0.75em;
+  padding-top: 0.75em;
+}

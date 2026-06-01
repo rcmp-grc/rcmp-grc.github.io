@@ -156,7 +156,7 @@ issued: 2026-05-21
         <fieldset>
           <legend class="wb-inv">Territory</legend>
           <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value=Alberta"><span class="cb-text">Alberta</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="territory" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
             <label><input data-filter="territory" type="checkbox" value="British Columbia"><span class="cb-text">British Columbia</span><span class="wp-filter-badge">0</span></label>

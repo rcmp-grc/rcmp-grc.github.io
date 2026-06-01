@@ -376,7 +376,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   var t  = I18N[lang];
   var $  = document.getElementById.bind(document);
   var ni = lang === 'fr' ? 1 : 0;
-  // [nameEN, nameFR, file, category, territory, region, lastSeen, updated, views]
+  // [nameEN, nameFR, category, territory, region, lastSeen, updated, views]
   var RAW = [
     ['SpongeBob SquarePants',  "Bob l'éponge", 'assault',                  'nwt',          'nwt',          '1999-05-01', '2026-05-08', 1420],
     ['Sandy Cheeks',           'Sandy Écureuil', 'assault',                  'nunavut',      'nunavut',      '2020-03-15', '2026-05-07', 980 ],

@@ -69,22 +69,22 @@
           <div class="footer-contact">
             <a class="btn btn-contact" href="#recruiter-contact-form">{% if page.lang == 'fr' %}Communiquer avec le personnel du recrutement{% else %}Contact a recruiter{% endif %}</a>
           </div>
+          <section class="pagedetails container">
+            {% if page.lang == 'fr' %}
+              <h2 class="wb-inv">Détails de la page</h2>
+              <dl id="wb-dtmd">
+                <dt>Date de modification :</dt>
+                <dd><time property="dateModified"> {{ page.date_modified | default: site.time | date: "%Y-%m-%d" }} </time></dd>
+              </dl>
+            {% else %}
+              <h2 class="wb-inv">Page details</h2>
+              <dl id="wb-dtmd">
+                <dt>Date modified:</dt>
+                <dd><time property="dateModified"> {{ page.date_modified | default: site.time | date: "%Y-%m-%d" }} </time></dd>
+              </dl>
+            {% endif %}
+          </section>
         </div>
-        <section class="pagedetails container">
-          {% if page.lang == 'fr' %}
-            <h2 class="wb-inv">Détails de la page</h2>
-            <dl id="wb-dtmd">
-              <dt>Date de modification :</dt>
-              <dd><time property="dateModified"> {{ page.date_modified | default: site.time | date: "%Y-%m-%d" }} </time></dd>
-            </dl>
-          {% else %}
-            <h2 class="wb-inv">Page details</h2>
-            <dl id="wb-dtmd">
-              <dt>Date modified:</dt>
-              <dd><time property="dateModified"> {{ page.date_modified | default: site.time | date: "%Y-%m-%d" }} </time></dd>
-            </dl>
-          {% endif %}
-        </section>
       {% else %}
         <div class="container">
           <h1 id="wb-cont" property="name" {% if page.h1_hidden %}class="wb-inv" {% endif %}>{{ page.title }}</h1>

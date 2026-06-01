@@ -1422,6 +1422,8 @@ a.btn-careers:hover {
   padding-top: 0;
   padding-bottom: 2rem;
   padding-left: 385px;
+  display: flex;
+  align-items: center;
 }
 
 .po-end-overlay .pagedetails dt,
@@ -1452,7 +1454,15 @@ a.btn-careers:hover {
   left: 0;
   right: 0;
   z-index: 10;
+}
+
+.po-end-overlay .pagedetails {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
+}
+
+.po-end-overlay .footer-contact {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }

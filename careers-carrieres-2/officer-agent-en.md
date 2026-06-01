@@ -164,22 +164,13 @@ custom_css: /assets/css/careers.css
     </div>
   </div><a class="btn btn-careers-grey mrgn-tp-lg" href="/careers-carrieres/police-officer/recruiting-events">View all recruitment events</a>
 </section>
-<div class="po-end-wrap">
-  <div aria-hidden="true" class="po-end" role="presentation">
-    <div class="po-end-gradient"></div>
-  </div>
-  <div class="po-end-overlay">
-    <div class="po-end-overlay__bar">
-      <section class="pagedetails container">
-        <h2 class="wb-inv">Page details</h2>
-        <dl id="wb-dtmd">
-          <dt>Date modified:</dt>
-          <dd><time property="dateModified">{{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}</time></dd>
-        </dl>
-      </section>
-      <div class="footer-contact">
-        <a class="btn btn-contact" href="#recruiter-contact-form">Contact a recruiter</a>
-      </div>
-    </div>
-  </div>
+<div aria-hidden="true" class="po-end" role="presentation">
+  <div class="po-end-gradient"></div>
 </div>
+<section class="po-pagedetails pagedetails container">
+  <h2 class="wb-inv">Page details</h2>
+  <dl id="wb-dtmd">
+    <dt>Date modified:</dt>
+    <dd><time property="dateModified">{{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}</time></dd>
+  </dl>
+</section>

@@ -156,43 +156,43 @@ issued: 2026-05-21
         <fieldset>
           <legend class="wb-inv">Territory</legend>
           <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="alberta"><span class="cb-text">Alberta</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="territory" type="checkbox" value=Alberta"><span class="cb-text">Alberta</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="bc"><span class="cb-text">British Columbia</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="territory" type="checkbox" value="British Columbia"><span class="cb-text">British Columbia</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="manitoba"><span class="cb-text">Manitoba</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="territory" type="checkbox" value="Manitoba"><span class="cb-text">Manitoba</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="nb"><span class="cb-text">New Brunswick</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="territory" type="checkbox" value="New Brunswick"><span class="cb-text">New Brunswick</span><span class="wp-filter-badge">0</span></label>
           </div>
 			 <div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="nl"><span class="cb-text">Newfoundland and Labrador</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="territory" type="checkbox" value="Newfoundland and Labrador"><span class="cb-text">Newfoundland and Labrador</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="nwt"><span class="cb-text">Northwest Territories</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="territory" type="checkbox" value="Northwest Territories"><span class="cb-text">Northwest Territories</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="ns"><span class="cb-text">Nova Scotia</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="territory" type="checkbox" value="Nova Scotia"><span class="cb-text">Nova Scotia</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="nunavut"><span class="cb-text">Nunavut</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="territory" type="checkbox" value="Nunavut"><span class="cb-text">Nunavut</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="ontario"><span class="cb-text">Ontario</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="territory" type="checkbox" value="Ontario"><span class="cb-text">Ontario</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="pei"><span class="cb-text">Prince Edward Island</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="territory" type="checkbox" value="Prince Edward Island"><span class="cb-text">Prince Edward Island</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="quebec"><span class="cb-text">Quebec</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="territory" type="checkbox" value="Quebec"><span class="cb-text">Quebec</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="saskatchewan"><span class="cb-text">Saskatchewan</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="territory" type="checkbox" value="Saskatchewan"><span class="cb-text">Saskatchewan</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="yukon"><span class="cb-text">Yukon</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="territory" type="checkbox" value="Yukon"><span class="cb-text">Yukon</span><span class="wp-filter-badge">0</span></label>
 				  </div>
         </fieldset>
       </details>
@@ -203,55 +203,55 @@ issued: 2026-05-21
         <fieldset>
           <legend class="wb-inv">Policing regions</legend>
           <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="alberta"><span class="cb-text">Alberta RCMP</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="region" type="checkbox" value="Alberta RCMP"><span class="cb-text">Alberta RCMP</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="bc"><span class="cb-text">British Columbia RCMP</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="region" type="checkbox" value="British Columbia RCMP"><span class="cb-text">British Columbia RCMP</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="central"><span class="cb-text">Federal Policing Central Region</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="region" type="checkbox" value="Federal Policing Central Region"><span class="cb-text">Federal Policing Central Region</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="eastern"><span class="cb-text">Federal Policing Eastern Region</span><span class="wp-filter-badge">0</span></label>
+            <label><input data-filter="region" type="checkbox" value="Federal Policing Eastern Region"><span class="cb-text">Federal Policing Eastern Region</span><span class="wp-filter-badge">0</span></label>
           </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="nw"><span class="cb-text">Federal Policing Northwest Region</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="region" type="checkbox" value="Federal Policing Northwest Region"><span class="cb-text">Federal Policing Northwest Region</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="pacific"><span class="cb-text">Federal Policing Pacific Region</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="region" type="checkbox" value="Federal Policing Pacific Region"><span class="cb-text">Federal Policing Pacific Region</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 <div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="manitoba"><span class="cb-text">Manitoba RCMP</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="region" type="checkbox" value="Manitoba RCMP"><span class="cb-text">Manitoba RCMP</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="nb"><span class="cb-text">New Brunswick RCMP</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="region" type="checkbox" value="New Brunswick RCMP"><span class="cb-text">New Brunswick RCMP</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="nl"><span class="cb-text">Newfoundland and Labrador RCMP</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="region" type="checkbox" value="Newfoundland and Labrador RCMP"><span class="cb-text">Newfoundland and Labrador RCMP</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="nwt"><span class="cb-text">Northwest Territories RCMP</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="region" type="checkbox" value="Northwest Territories RCMP"><span class="cb-text">Northwest Territories RCMP</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="ns"><span class="cb-text">Nova Scotia RCMP</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="region" type="checkbox" value="Nova Scotia RCMP"><span class="cb-text">Nova Scotia RCMP</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="nunavut"><span class="cb-text">Nunavut RCMP</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="region" type="checkbox" value="Nunavut RCMP"><span class="cb-text">Nunavut RCMP</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="pei"><span class="cb-text">Prince Edward Island RCMP</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="region" type="checkbox" value="Prince Edward Island RCMP"><span class="cb-text">Prince Edward Island RCMP</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="depot"><span class="cb-text">RCMP Depot Division</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="region" type="checkbox" value="RCMP Depot Division"><span class="cb-text">RCMP Depot Division</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="hq"><span class="cb-text">RCMP National Headquarters</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="region" type="checkbox" value="RCMP National Headquarters"><span class="cb-text">RCMP National Headquarters</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="saskatchwan"><span class="cb-text">Saskatchewan RCMP</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="region" type="checkbox" value="Saskatchewan RCMP"><span class="cb-text">Saskatchewan RCMP</span><span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="yukon"><span class="cb-text">Yukon RCMP</span><span class="wp-filter-badge">0</span></label>
+                <label><input data-filter="region" type="checkbox" value="Yukon RCMP"><span class="cb-text">Yukon RCMP</span><span class="wp-filter-badge">0</span></label>
 				  </div>
         </fieldset>
       </details>	
@@ -363,7 +363,6 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       removeFilter:   'Retirer le filtre\u00A0: ',
       profileHref:    'news-nouvelles-fr.html',
       viewProfile:    'Voir le profil\u00A0: ',
-      fileNumber:     'Numéro de dossier\u00A0: ',
 	  category:       'Category\u00A0: ',
 	  territory:      'Territory\u00A0: ',	
       region:         'Region\u00A0: ',
@@ -379,37 +378,37 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   var ni = lang === 'fr' ? 1 : 0;
   // [nameEN, nameFR, file, category, territory, region, lastSeen, updated, views]
   var RAW = [
-    ['SpongeBob SquarePants',  "Bob l'éponge",         '32473043', 'Assault',                  'Northwest Territories', 'Northwest Territories', '1999-05-01', '2026-05-08', 1420],
-    ['Sandy Cheeks',           'Sandy Écureuil',       '30847192', 'Assault',                  'Nunavut',               'Nunavut',               '2020-03-15', '2026-05-07', 980 ],
-    ['Patrick Star',           'Patrick Étoile',       '19284730', 'Disturbance',              'Prince Edward Island',  'Prince Edward Island',  '2021-07-04', '2026-05-06', 741 ],
-    ['Pearl Krabs',            'Perle Krabs',          '28374019', 'Disturbance',              'Prince Edward Island',  'Prince Edward Island',  '2022-01-10', '2026-05-05', 610 ],
-    ['Squidward Tentacles',    'Carlo Tentacules',     '39201847', 'Disturbance',              'Nunavut',               'Nunavut',               '2023-06-22', '2026-05-04', 533 ],
-    ['Mrs. Puff',              'Madame Puff',          '10293847', 'Disturbance',              'Quebec',                'Central',               '2024-09-30', '2026-05-03', 498 ],
-    ['Gary the Snail',         'Gary',                 '48201937', 'Disturbance',              'Quebec',                'Central',               '2022-11-18', '2026-05-02', 412 ],
-    ['Mr. Krabs',              'Monsieur Krabs',       '57839201', 'Disturbance',              'Quebec',                'Central',               '2023-02-28', '2026-05-01', 387 ],
-    ['Karen Plankton',         'Karen',                '67391028', 'Disturbance',              'Saskatchewan',          'Saskatchewan',          '2025-01-05', '2026-04-30', 344 ],
-    ['Larry the Lobster',      'Larry le Homard',      '74829103', 'Break and Enter',          'Ontario',               'Headquarters',          '2024-04-12', '2026-04-28', 302 ],
-    ['Sandy Cheeks Jr.',       'Sandy Écureuil Jr.',   '81920374', 'Break and Enter',          'Prince Edward Island',  'Prince Edward Island',  '2023-08-09', '2026-04-26', 289 ],
-    ['Barnacle Boy',           "Bernard l'Hermite",    '92038471', 'Homicide',                 'Ontario',               'Headquarters',          '2022-05-17', '2026-04-24', 265 ],
-    ['Mermaid Man',            "L'Homme Sirène",       '10293821', 'Wanted',                   'Quebec',                'Central',               '2021-12-01', '2026-04-22', 241 ],
-    ['Plankton',               'Plankton',             '20193847', 'Illict drugs',             'Prince Edward Island',  'Prince Edward Island',  '2025-03-14', '2026-04-20', 218 ],
-    ['Squilvia',               'Squilvia',             '30928471', 'Missing',                  'Ontario',               'Headquarters',          '2024-07-07', '2026-04-18', 197 ],
-    ['Harold SquarePants',     'Harold SquarePants',   '41092837', 'Missing',                  'Saskatchewan',          'Saskatchewan',          '2023-10-23', '2026-04-16', 183 ],
-    ['Margaret SquarePants',   'Margaret SquarePants', '51293847', 'Illict drugs',             'Yukon',                 'Yukon',                 '2022-09-11', '2026-04-14', 169 ],
-    ['Squilliam Fancyson',     'Squilliam Fancyson',   '61928374', 'Illict drugs',             'Yukon',                 'Yukon',                 '2024-02-19', '2026-04-12', 155 ],
-    ["Patrick's Dad",          'Le père de Patrick',   '72938401', 'Illict drugs',             'British Columbia',      'Pacific',               '2023-04-30', '2026-04-10', 143 ],
-    ['Mindy',                  'Mindy',                '83920174', 'Illict drugs',             'Nova Scotia',           'Nova Scotia',           '2025-05-01', '2026-04-08', 131 ],
-    ['The Flying Dutchman',    'Le Hollandais volant', '91283047', 'Disturbance',              'Northwest Territories', 'Northwest Territories', '2021-03-08', '2026-04-06', 120 ],
-    ['DoodleBob',              'Gribouille Bob',       '12930184', 'Disturbance',              'Yukon',                 'Yukon',                 '2024-11-15', '2026-04-04', 110 ],
-    ["Sandy's Mom",            'La mère de Sandy',     '23019384', 'Public interest',          'Newfoundland',          'Newfoundland',          '2023-07-20', '2026-04-02', 100 ],
-    ['Old Man Jenkins',        'Vieux Jenkins',        '34128394', 'Public interest',          'Newfoundland',          'Newfoundland',          '2022-06-06', '2026-03-30', 91  ],
-    ['Bubble Bass',            'Bubble Bass',          '45219304', 'Illigal border crossing',  'Northwest Territories', 'Northwest Territories', '2025-02-14', '2026-03-28', 83  ],
-    ['Flats the Flounder',     "Flats l'Achigan",      '56320194', 'Weapons',                  'Northwest Territories', 'Northwest Territories', '2023-09-03', '2026-03-26', 74  ],
-    ['Nurse Bazooka',          'Infirmière Bazooka',   '67430294', 'Traffic services',         'British Columbia',      'British Columbia',      '2024-06-18', '2026-03-24', 66  ],
-    ['Fred the Fish',          'Fred le Poisson',      '78541304', 'Trafficking',              'Nova Scotia',           'Nova Scotia',           '2022-12-25', '2026-03-22', 59  ],
-    ['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'Theft',                    'Nova Scotia',           'Nova Scotia',           '2025-04-10', '2026-03-20', 50  ],
-	['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'Property damage',          'Nova Scotia',           'Nova Scotia',           '2025-04-10', '2026-03-20', 50  ],
-	['Flats the Flounder',     "Flats l'Achigan",      '56320194', 'Organized crime',          'British Columbia',      'Pacific',               '2023-09-03', '2026-03-26', 74  ]
+    ['SpongeBob SquarePants',  "Bob l'éponge",         '32473043', 'Assault',                  'Northwest Territories', 'Northwest Territories RCMP', '1999-05-01', '2026-05-08', 1420],
+    ['Sandy Cheeks',           'Sandy Écureuil',       '30847192', 'Assault',                  'Nunavut',               'Nunavut RCMP',               '2020-03-15', '2026-05-07', 980 ],
+    ['Patrick Star',           'Patrick Étoile',       '19284730', 'Disturbance',              'Prince Edward Island',  'Prince Edward Island RCMP',  '2021-07-04', '2026-05-06', 741 ],
+    ['Pearl Krabs',            'Perle Krabs',          '28374019', 'Disturbance',              'Prince Edward Island',  'Prince Edward Island RCMP',  '2022-01-10', '2026-05-05', 610 ],
+    ['Squidward Tentacles',    'Carlo Tentacules',     '39201847', 'Disturbance',              'Nunavut',               'Nunavut RCMP',               '2023-06-22', '2026-05-04', 533 ],
+    ['Mrs. Puff',              'Madame Puff',          '10293847', 'Disturbance',              'Quebec',                'Federal Policing Central Region',               '2024-09-30', '2026-05-03', 498 ],
+    ['Gary the Snail',         'Gary',                 '48201937', 'Disturbance',              'Quebec',                'Federal Policing Central Region',               '2022-11-18', '2026-05-02', 412 ],
+    ['Mr. Krabs',              'Monsieur Krabs',       '57839201', 'Disturbance',              'Quebec',                'Federal Policing Central Region',               '2023-02-28', '2026-05-01', 387 ],
+    ['Karen Plankton',         'Karen',                '67391028', 'Disturbance',              'Saskatchewan',          'Saskatchewan RCMP',          '2025-01-05', '2026-04-30', 344 ],
+    ['Larry the Lobster',      'Larry le Homard',      '74829103', 'Break and Enter',          'Ontario',               'RCMP National Headquarters',          '2024-04-12', '2026-04-28', 302 ],
+    ['Sandy Cheeks Jr.',       'Sandy Écureuil Jr.',   '81920374', 'Break and Enter',          'Prince Edward Island',  'Prince Edward Island RCMP',  '2023-08-09', '2026-04-26', 289 ],
+    ['Barnacle Boy',           "Bernard l'Hermite",    '92038471', 'Homicide',                 'Ontario',               'RCMP National Headquarters',          '2022-05-17', '2026-04-24', 265 ],
+    ['Mermaid Man',            "L'Homme Sirène",       '10293821', 'Wanted',                   'Quebec',                'Federal Policing Central Region',               '2021-12-01', '2026-04-22', 241 ],
+    ['Plankton',               'Plankton',             '20193847', 'Illict drugs',             'Prince Edward Island',  'Prince Edward Island RCMP',  '2025-03-14', '2026-04-20', 218 ],
+    ['Squilvia',               'Squilvia',             '30928471', 'Missing',                  'Ontario',               'RCMP National Headquarters',          '2024-07-07', '2026-04-18', 197 ],
+    ['Harold SquarePants',     'Harold SquarePants',   '41092837', 'Missing',                  'Saskatchewan',          'Saskatchewan RCMP',          '2023-10-23', '2026-04-16', 183 ],
+    ['Margaret SquarePants',   'Margaret SquarePants', '51293847', 'Illict drugs',             'Yukon',                 'Yukon RCMP',                 '2022-09-11', '2026-04-14', 169 ],
+    ['Squilliam Fancyson',     'Squilliam Fancyson',   '61928374', 'Illict drugs',             'Yukon',                 'Yukon RCMP',                 '2024-02-19', '2026-04-12', 155 ],
+    ["Patrick's Dad",          'Le père de Patrick',   '72938401', 'Illict drugs',             'British Columbia',      'Federal Policing Pacific Region',               '2023-04-30', '2026-04-10', 143 ],
+    ['Mindy',                  'Mindy',                '83920174', 'Illict drugs',             'Nova Scotia',           'Nova Scotia RCMP',           '2025-05-01', '2026-04-08', 131 ],
+    ['The Flying Dutchman',    'Le Hollandais volant', '91283047', 'Disturbance',              'Northwest Territories', 'Northwest Territories RCMP', '2021-03-08', '2026-04-06', 120 ],
+    ['DoodleBob',              'Gribouille Bob',       '12930184', 'Disturbance',              'Yukon',                 'Yukon RCMP',                 '2024-11-15', '2026-04-04', 110 ],
+    ["Sandy's Mom",            'La mère de Sandy',     '23019384', 'Public interest',          'Newfoundland and Labrador',          'Newfoundland and Labrador',          '2023-07-20', '2026-04-02', 100 ],
+    ['Old Man Jenkins',        'Vieux Jenkins',        '34128394', 'Public interest',          'Newfoundland and Labrador',          'Newfoundland and Labrador',          '2022-06-06', '2026-03-30', 91  ],
+    ['Bubble Bass',            'Bubble Bass',          '45219304', 'Illigal border crossing',  'Northwest Territories', 'Northwest Territories RCMP', '2025-02-14', '2026-03-28', 83  ],
+    ['Flats the Flounder',     "Flats l'Achigan",      '56320194', 'Weapons',                  'Northwest Territories', 'Northwest Territories RCMP', '2023-09-03', '2026-03-26', 74  ],
+    ['Nurse Bazooka',          'Infirmière Bazooka',   '67430294', 'Traffic services',         'British Columbia',      'British Columbia RCMP',      '2024-06-18', '2026-03-24', 66  ],
+    ['Fred the Fish',          'Fred le Poisson',      '78541304', 'Trafficking',              'Nova Scotia',           'Nova Scotia RCMP',           '2022-12-25', '2026-03-22', 59  ],
+    ['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'Theft',                    'Nova Scotia',           'Nova Scotia RCMP',           '2025-04-10', '2026-03-20', 50  ],
+	['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'Property damage',          'Nova Scotia',           'Nova Scotia RCMP',           '2025-04-10', '2026-03-20', 50  ],
+	['Flats the Flounder',     "Flats l'Achigan",      '56320194', 'Organized crime',          'British Columbia',      'Federal Policing Pacific Region',               '2023-09-03', '2026-03-26', 74  ]
   ];
   var PROFILES = RAW.map(function (r, i) {
     return {

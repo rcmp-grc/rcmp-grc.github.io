@@ -1408,3 +1408,8 @@ a.btn-careers:hover {
     grid-template-columns: 1fr;
   }
 }
+
+.po-pagedetails {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}

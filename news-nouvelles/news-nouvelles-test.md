@@ -379,7 +379,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   var ni = lang === 'fr' ? 1 : 0;
   // [nameEN, nameFR, file, category, territory, region, lastSeen, updated, views]
   var RAW = [
-    ['SpongeBob SquarePants',  "Bob l'éponge",         '32473043', 'assault',                  'nwt',          'nwt',          '1999-05-01', '2026-05-08', 1420],
+    ['SpongeBob SquarePants',  "Bob l'éponge",         '32473043', 'assault',                  'Northwest Territories',          'Northwest Territories',          '1999-05-01', '2026-05-08', 1420],
     ['Sandy Cheeks',           'Sandy Écureuil',       '30847192', 'assault',                  'nunavut',      'nunavut',      '2020-03-15', '2026-05-07', 980 ],
     ['Patrick Star',           'Patrick Étoile',       '19284730', 'disturbance',              'pei',          'pei',          '2021-07-04', '2026-05-06', 741 ],
     ['Pearl Krabs',            'Perle Krabs',          '28374019', 'disturbance',              'pei',          'pei',          '2022-01-10', '2026-05-05', 610 ],
@@ -403,8 +403,8 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     ['DoodleBob',              'Gribouille Bob',       '12930184', 'disturbance',              'yukon',        'yukon',        '2024-11-15', '2026-04-04', 110 ],
     ["Sandy's Mom",            'La mère de Sandy',     '23019384', 'interest',                 'nl',           'nl',           '2023-07-20', '2026-04-02', 100 ],
     ['Old Man Jenkins',        'Vieux Jenkins',        '34128394', 'interest',                 'nl',           'nl',           '2022-06-06', '2026-03-30', 91  ],
-    ['Bubble Bass',            'Bubble Bass',          '45219304', 'illigal border crossing',  'nwt',          'nwt',          '2025-02-14', '2026-03-28', 83  ],
-    ['Flats the Flounder',     "Flats l'Achigan",      '56320194', 'weapons',                  'nwt',          'nwt',          '2023-09-03', '2026-03-26', 74  ],
+    ['Bubble Bass',            'Bubble Bass',          '45219304', 'illigal border crossing',  'Northwest Territories',          'Northwest Territories',          '2025-02-14', '2026-03-28', 83  ],
+    ['Flats the Flounder',     "Flats l'Achigan",      '56320194', 'weapons',                  'Northwest Territories',          'Northwest Territories',          '2023-09-03', '2026-03-26', 74  ],
     ['Nurse Bazooka',          'Infirmière Bazooka',   '67430294', 'traffic',                  'bc',           'bc',           '2024-06-18', '2026-03-24', 66  ],
     ['Fred the Fish',          'Fred le Poisson',      '78541304', 'trafficking',              'ns',           'ns',           '2022-12-25', '2026-03-22', 59  ],
     ['Mystery the Seahorse',   "Mystère l'Hippocampe", '89652414', 'theft',                    'ns',           'ns',           '2025-04-10', '2026-03-20', 50  ],

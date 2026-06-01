@@ -215,11 +215,13 @@ button,
   z-index: var(--z-footer-contact);
   display: flex;
   justify-content: flex-end;
-  background-color: var(--c-white);
 }
 
 .po-full-width ~ .footer-contact {
-  background-color: transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: var(--z-footer-contact);
 }
 
 .footer-contact .btn-contact {
@@ -1261,7 +1263,7 @@ a.btn-careers:hover {
     padding: 8px 14px;
   }
 
-  .footer-contact {
+  .footer-contact:not(.po-end-overlay .footer-contact) {
     margin-top: 0;
   }
 

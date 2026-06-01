@@ -169,6 +169,9 @@ custom_css: /assets/css/careers.css
     <div class="po-end-gradient"></div>
   </div>
   <div class="po-end-overlay">
+    <div class="footer-contact">
+      <a class="btn btn-contact" href="#recruiter-contact-form">Contact a recruiter</a>
+    </div>
     <section class="pagedetails container">
       <h2 class="wb-inv">Page details</h2>
       <dl id="wb-dtmd">

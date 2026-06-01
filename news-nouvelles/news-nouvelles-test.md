@@ -348,7 +348,6 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       removeFilter:   'Remove filter: ',
       profileHref:    'news-nouvelles-en.html',
       viewProfile:    'View profile: ',
-	  fileNumber:     'File number\u00A0: ',	
       category:       'Category\u00A0: ',
 	  territory:      'Territory\u00A0: ',	
       region:         'Region\u00A0: ',
@@ -517,7 +516,6 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
         '<a class="wp-card" href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' +
           '<div class="wp-card-body">' +
             '<p class="wp-card-name">'  + p.name + '</p>' +
-            '<p class="wp-card-meta">'  + t.fileNumber + p.file + '</p>' +
 		    '<p class="wp-card-meta">'  + t.category   + p.category + '</p>' +
 		    '<p class="wp-card-meta">'  + t.territory  + p.territory + '</p>' +
 		    '<p class="wp-card-meta">'  + t.region     + p.region + '</p>' +

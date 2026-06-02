@@ -17,6 +17,11 @@ issued: 2026-05-21
 	   margin-bottom: 10px;
 	   margin-left: 0px;
 	 }
+	.details-landing
+	 { margin-top: 0px;
+	   margin-bottom: 10px;
+	   margin-left: 0px;
+	 }
 	.explore
 	{ border-top: 2px solid var(--rcmp-gold);
 	 }
@@ -495,10 +500,10 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       li.setAttribute('role', 'listitem');
       li.innerHTML =
 		  '<div class="wp-card-body">' +
-          '<p>' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' +'</p>' +
-		  '<p>' + '<div class="wb-inv">' + t.category + '</div>' + p.category + '</p>' +
-		  '<p>' + '<div class="wb-inv">' + t.territory + '</div>' + p.territory + '</p>' +
+          '<h2 class="h4">' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' +'</h2>' +
+		  '<div class="details-landing">' + '<p>' + '<div class="wb-inv">' + t.updated + '</div>' + p.updated + '|'+ '<div class="wb-inv">' + t.region + '</div>' + p.region + '|' + '<div class="wb-inv">' + t.category + '</div>' + p.category + '</p>' + '</div>' +
 		  '<p>' + '<div class="wb-inv">' + t.region + '</div>' + p.region + '</p>' +
+		  '<p>' + '<div class="wb-inv">' + t.territory + '</div>' + p.territory + '</p>' +
           '<p>' + '<div class="wb-inv">' + t.lastSeen + '</div>' + p.lastSeen + '</p>' +
           '<p>' + '<div class="wb-inv">' + t.updated + '</div>' + p.updated + '</p>' +
 		  '</div>';

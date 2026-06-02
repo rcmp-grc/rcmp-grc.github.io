@@ -396,7 +396,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     return {
       id:        i + 1,
       name:      r[ni],
-      category:  r[ni],
+      category:  r[3],
       territory: r[4],
       region:    r[5],
       lastSeen:  r[6],
@@ -494,15 +494,17 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       var li = document.createElement('div');
       li.setAttribute('role', 'listitem');
       li.innerHTML =
-        '<a class="wp-card" href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' +
-          '<div class="wp-card-body">' +
-            '<p class="wp-card-name">'  + p.name + '</p>' +
-		    '<p class="wp-card-meta">'  + t.category   + p.category + '</p>' +
-		    '<p class="wp-card-meta">'  + t.territory  + p.territory + '</p>' +
-		    '<p class="wp-card-meta">'  + t.region     + p.region + '</p>' +
-            '<p class="wp-card-meta">'  + t.lastSeen   + p.lastSeen + '</p>' +
-            '<p class="wp-card-meta">'  + t.updated    + p.updated + '</p>' +
-          '</div></a>';
+          '<table id="dataTable" class="wb-tables table nws-tbl table-striped">' +
+		  '<a class="wp-card" href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' +
+		  '<tr>' +
+            '<th>'  + p.name + '</th>' +
+		    '<th>'  + t.category   + p.category + '</th>' +
+		    '<th>'  + t.territory  + p.territory + '</th>' +
+		    '<th>'  + t.region     + p.region + '</th>' +
+            '<th>'  + t.lastSeen   + p.lastSeen + '</th>' +
+            '<th>'  + t.updated    + p.updated + '</th>' +
+		   '</tr></a>' +
+          '</table>';
       grid.appendChild(li);
     });
   }

@@ -498,12 +498,12 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
 		  '<thead>' +
 		  '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' +
 		  '<tr>' +
-            '<th class="hidden">'  + p.name + '</th>' +
-		    '<th class="hidden">'  + t.category + '</th>' +
-		    '<th class="hidden">'  + t.territory + '</th>' +
-		    '<th class="hidden">'  + t.region + '</th>' +
-            '<th class="hidden">'  + t.lastSeen + '</th>' +
-            '<th class="hidden">'  + t.updated + '</th>' +
+            '<th>'  + p.name + '</th>' +
+		    '<th>'  + t.category + '</th>' +
+		    '<th>'  + t.territory + '</th>' +
+		    '<th>'  + t.region + '</th>' +
+            '<th>'  + t.lastSeen + '</th>' +
+            '<th>'  + t.updated + '</th>' +
 		   '</tr></a></thead>' +
 		  '<tbody id="tableBody">' +
 		  '<tr>' +

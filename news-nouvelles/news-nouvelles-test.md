@@ -497,7 +497,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
           '<table class="wb-tables table-striped">' +
 		  '<thead>' +
 		  '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' +
-		  '<tr>' +
+		  '<tr class="wb-inv">' +
             '<th>'  + p.name + '</th>' +
 		    '<th>'  + t.category + '</th>' +
 		    '<th>'  + t.territory + '</th>' +

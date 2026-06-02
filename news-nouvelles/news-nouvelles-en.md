@@ -495,26 +495,15 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       li.setAttribute('role', 'listitem');
       li.innerHTML =
           '<table class="table table-striped table-hover">' +
-		  '<thead>' +
 		  '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' +
-		  '<tr class="wb-inv">' +
-            '<th>'  + p.name + '</th>' +
-		    '<th>'  + t.category + '</th>' +
-		    '<th>'  + t.territory + '</th>' +
-		    '<th>'  + t.region + '</th>' +
-            '<th>'  + t.lastSeen + '</th>' +
-            '<th>'  + t.updated + '</th>' +
-		   '</tr></a></thead>' +
-		  '<tbody id="tableBody">' +
 		  '<tr>' +
-		  '<td colspan="6">'  + p.name + '</td>' + '</tr>' +
-		  '<tr colspan="6">'  + '<td>'  + p.category + '</td>'  + '</tr>' +
-		  '<tr colspan="6">'  + '<td>'  + p.territory + '</td>'  + '</tr>' +
-		  '<tr colspan="6">'  + '<td>'  + p.region + '</td>'  + '</tr>' +
-          '<tr colspan="6">'  + '<td>'  + p.lastSeen + '</td>'  + '</tr>' +
-          '<tr colspan="6">'  + '<td>'  + p.updated + '</td>'  + '</tr>' +
-		  '</tr>' +
-		  '</tbody>' +
+          '<th class="wb-inv">'  + p.name + '</th>' +  '<td>'  + p.name + '</td>' + '</tr>' +
+		  '<tr>' + '<th class="wb-inv">'  + t.category + '</th>' + '<td>'  + p.category + '</td>'  + '</tr>' +
+		  '<tr>' + '<th class="wb-inv">'  + t.territory + '</th>' + '<td>'  + p.territory + '</td>'  + '</tr>' +
+		  '<tr>' + '<th class="wb-inv">'  + t.region + '</th>' + '<td>'  + p.region + '</td>'  + '</tr>' +
+          '<tr>' + '<th class="wb-inv">'  + t.lastSeen + '</th>' + '<td>'  + p.lastSeen + '</td>'  + '</tr>' +
+          '<tr>' + '<th class="wb-inv">'  + t.updated + '</th>' + '<td>'  + p.updated + '</td>'  + '</tr>' +
+		   '</tr></a>' +
           '</table>';
       grid.appendChild(li);
     });

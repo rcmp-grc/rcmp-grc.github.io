@@ -494,7 +494,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       var li = document.createElement('div');
       li.setAttribute('role', 'listitem');
       li.innerHTML =
-          '<table class="wb-tables table nws-tbl table-striped">' +
+          '<table class="wb-tables table-striped">' +
 		  '<thead>' +
 		  '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' +
 		  '<tr>' +

@@ -2,13 +2,13 @@
 layout: default
 title: News and communications
 description: My page description
-date_modified: 2026-05-12
+date_modified: 2026-06-02
 lang: en
 lang_url: news-nouvelles-fr.html
 author:
 creator:
 subject:
-issued: 2026-05-04
+issued: 2026-05-21
 ---
 
 <style>
@@ -65,29 +65,9 @@ issued: 2026-05-04
 	  padding-left: 10px; 
 	  background-color: #ffffff;
 	}
-	.form-details
+	.summary
 	{ background-color: #f3f2f1;
 	}
-	#applied-filters 
-	{ display: flex; 
-	 gap: 10px; 
-	 margin-bottom: 10px; } 
-	.filter-pill 
-	{ background-color: #e0e0e0; 
-	 padding: 8px 8px; 
-	 border-radius: 15px; 
-	 display: flex; 
-	 align-items: center; 
-	 gap: 8px; 
-	 transition: opacity 0.3s ease, transform 0.3s ease; } 
-	.filter-pill button 
-	{ background: none; 
-	 border: none; 
-	 font-size: 10px; 
-	 cursor: pointer; } 
-	.filter-pill.fade-out 
-	{ opacity: 0; 
-	 transform: scale(0.8); }
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">
@@ -105,245 +85,222 @@ issued: 2026-05-04
   </div>
 </div>
 <div class="row">
-						<div class="col-md-3">
-       	<section id="filters">
-        <form id="filterForm">
-				<div class="form-group wb-srch-qry">		
-<label class="wb-inv" for="titleFilter">Search RCMP news</label><input type="text" maxlength="20" id="titleFilter"><button class="btn btn-primary btn-small" type="submit" title="Search"><span class="glyphicon-search glyphicon" aria-hidden="true"></span><span class="wb-inv">Search</span></button>
-          </div><!--<button class="srchbox button" type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>-->
-		</form>
-	<p class="small">Apply the following filtres to narrow your search</p>
-	<div class="form-details">
-			<details>
- <summary><strong>Filtre by</strong></summary>
-<form id="filterForm" method="get">
-			<fieldset>
-                <legend class="small"><strong>Category</strong></legend>
-				  <div class="checkbox">
-                <label for="assault"><input name="category" data-filter="category" type="checkbox" value="Assault" id="Assault">
-                  Assault</label>
+	<div class="col-md-3">
+    <aside aria-labelledby="news-filters-heading" id="news-filters">
+		  <h2 class="h4" id="news-filters-heading">Search</h2>
+		<fieldset>
+		<legend class="wb-inv">Search RCMP news</legend>
+		<div><label class="wb-inv" for="titleFilter">Search by key word</label>
+			<input type="text" maxlength="20" id="titleFilter"><!--<button class="btn btn-primary btn-small" type="submit" title="Search"><span class="glyphicon-search glyphicon" aria-hidden="true"></span><span class="wb-inv">Search</span></button>
+          </div><button class="srchbox button" type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>--></div>
+		 </fieldset>
+      <h2 class="h4" id="news-filters-heading">Filter by</h2>
+		<div><p class="small">Apply the following filtres to narrow your search</p></div>
+      <details class="summary">
+        <summary>
+        Category
+        </summary>
+        <fieldset>
+          <legend class="wb-inv">Category</legend>
+          <div class="checkbox">
+            <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span><span class="wp-filter-badge">0</span></label>
+          </div>
+          <div class="checkbox">
+            <label><input data-filter="category" type="checkbox" value="Break and Enter"><span class="cb-text">Break-and-Enter</span><span class="wp-filter-badge">0</span></label>
+          </div>
+          <div class="checkbox">
+            <label><input data-filter="category" type="checkbox" value="Disturbance"><span class="cb-text">Disturbance</span><span class="wp-filter-badge">0</span></label>
+          </div>
+          <div class="checkbox">
+            <label><input data-filter="category" type="checkbox" value="Homicide"><span class="cb-text">Homicide</span><span class="wp-filter-badge">0</span></label>
+          </div>
+			 <div class="checkbox">
+                <label><input data-filter="category" type="checkbox" value="Illigal border crossing"><span class="cb-text">Illegal border crossing</span><span class="wp-filter-badge">0</span></label>
 				  </div>
-				  <div class="checkbox">
-                <label for="brake-and-enter"><input name="category" data-filter="category" type="checkbox" value="break-and-enter" id="break-and-enter">
-                  Break and enter</label>
+			<div class="checkbox">
+                <label><input data-filter="category" type="checkbox" value="Illicit drugs"><span class="cb-text">Illicit drugs</span><span class="wp-filter-badge">0</span></label>
 				  </div>
-				  <div class="checkbox">
-                <label for="disturbance"><input name="category" data-filter="category" type="checkbox" value="disturbance" id="disturbance">
-                  Disturbance</label>
+			<div class="checkbox">
+                <label><input data-filter="category" type="checkbox" value="Missing"><span class="cb-text">Missing person</span><span class="wp-filter-badge">0</span></label>
 				  </div>
-				  <div class="checkbox">
-                 <label for="homicide"><input name="category" data-filter="category" type="checkbox" value="homicide" id="homicide">
-                  Homicide</label>
+			<div class="checkbox">
+                <label><input data-filter="category" type="checkbox" value="Organized crime"><span class="cb-text">Organized crime</span><span class="wp-filter-badge">0</span></label>
 				  </div>
-				  <div class="checkbox">
-                 <label for="illegal-border-crossing"><input name="category" data-filter="category" type="checkbox" value="illegal-border-crossing" id="illegal-border-crossing">
-                  Illegal border crossing
-				 </label>
+			<div class="checkbox">
+                <label><input data-filter="category" type="checkbox" value="Property damage"><span class="cb-text">Property damage</span><span class="wp-filter-badge">0</span></label>
 				  </div>
-				  <div class="checkbox">
-                 <label for="illicit-drugs"><input name="category" data-filter="category" type="checkbox" value="illicit-drugs" id="illicit-drugs">
-                  Illicit drugs
-				 </label>
+			<div class="checkbox">
+                <label><input data-filter="category" type="checkbox" value="Public interest"><span class="cb-text">Public interest</span><span class="wp-filter-badge">0</span></label>
 				  </div>
-				  <div class="checkbox">
-                <label for="missing-person"><input name="category" data-filter="category" type="checkbox" value="missing-person" id="missing-person">
-                  Missing person
-				</label>
+			<div class="checkbox">
+                <label><input data-filter="category" type="checkbox" value="Theft"><span class="cb-text">Theft</span><span class="wp-filter-badge">0</span></label>
 				  </div>
-				  <div class="checkbox">
-                <label for="organized-crime"><input name="category" data-filter="category" type="checkbox" value='organized-crime' id="organized-crime">
-                  Organized crime 
-				</label>
+			<div class="checkbox">
+                <label><input data-filter="category" type="checkbox" value="Traffic"><span class="cb-text">Traffic services</span><span class="wp-filter-badge">0</span></label>
 				  </div>
-				  <div class="checkbox">
-                <label for="property-damage"><input name="category" data-filter="category" type="checkbox" value="property-damage" id="property-damage">
-                  Property damage  
-				</label>
+			<div class="checkbox">
+                <label><input data-filter="category" type="checkbox" value="Trafficking"><span class="cb-text">Trafficking</span><span class="wp-filter-badge">0</span></label>
 				  </div>
-				 <div class="checkbox"> 
-                <label for="public-interest"><input name="category" data-filter="category" type="checkbox" value="public-interest" id="public-interest">
-                  Public interest  
-				</label>
-				 </div>
-				  <div class="checkbox">
-                <label for="theft"><input name="category" data-filter="category" type="checkbox" value="theft" id="theft">
-                  Theft  
-				</label>
+		<div class="checkbox">
+                <label><input data-filter="category" type="checkbox" value="Wanted"><span class="cb-text">Wanted</span><span class="wp-filter-badge">0</span></label>
 				  </div>
-				  <div class="checkbox">
-                <label for="traffic-services"><input name="category" data-filter="category" type="checkbox" value="traffic-services" id="traffic-services">
-                  Traffic services  
-				</label>
+		<div class="checkbox">
+                <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span><span class="wp-filter-badge">0</span></label>
+				  </div>		
+        </fieldset>
+      </details>
+		<details class="summary">
+        <summary>
+       Province or Territory
+        </summary>
+        <fieldset>
+          <legend class="wb-inv">Territory</legend>
+          <div class="checkbox">
+            <label><input data-filter="territory" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span><span class="wp-filter-badge">0</span></label>
+          </div>
+          <div class="checkbox">
+            <label><input data-filter="territory" type="checkbox" value="British Columbia"><span class="cb-text">British Columbia</span><span class="wp-filter-badge">0</span></label>
+          </div>
+          <div class="checkbox">
+            <label><input data-filter="territory" type="checkbox" value="Manitoba"><span class="cb-text">Manitoba</span><span class="wp-filter-badge">0</span></label>
+          </div>
+          <div class="checkbox">
+            <label><input data-filter="territory" type="checkbox" value="New Brunswick"><span class="cb-text">New Brunswick</span><span class="wp-filter-badge">0</span></label>
+          </div>
+			 <div class="checkbox">
+                <label><input data-filter="territory" type="checkbox" value="Newfoundland and Labrador"><span class="cb-text">Newfoundland and Labrador</span><span class="wp-filter-badge">0</span></label>
 				  </div>
-				  <div class="checkbox">
-                <label for="trafficking"><input name="category" data-filter="category" type="checkbox" value="trafficking" id="trafficking">
-                  Trafficking  
-				</label>
+			<div class="checkbox">
+                <label><input data-filter="territory" type="checkbox" value="Northwest Territories"><span class="cb-text">Northwest Territories</span><span class="wp-filter-badge">0</span></label>
 				  </div>
-				  <div class="checkbox">
-                <label for="wanted"><input name="category" data-filter="category" type="checkbox" value="wanted" id="wanted">
-                  Wanted  
-				</label>
+			<div class="checkbox">
+                <label><input data-filter="territory" type="checkbox" value="Nova Scotia"><span class="cb-text">Nova Scotia</span><span class="wp-filter-badge">0</span></label>
 				  </div>
-				  <div class="checkbox">
-                <label for="weapons"><input name="category" data-filter="category" type="checkbox" value="weapons" id="weapons">
-                  Weapons  
-				</label>
+			<div class="checkbox">
+                <label><input data-filter="territory" type="checkbox" value="Nunavut"><span class="cb-text">Nunavut</span><span class="wp-filter-badge">0</span></label>
 				  </div>
-          </fieldset>
-				<fieldset>	 
-			 <legend class="small"><strong>Province or Territory</strong></legend>
-				<label for="dt-province-territory"></label><select class="form-control" data-column="2" id="dt-province-territory" name="dt-province-territory">	
-                <option value="All provinces and territories">
-                  All provinces and territories
-                </option>
-                <option value="Alberta">
-                  Alberta
-                </option>
-                <option value="British_Columbia">
-                  British Columbia
-                </option>
-                <option value="Manitoba">
-                  Manitoba
-                </option>
-                <option value="New Brunswick">
-                  New Brunswick
-                </option>
-                <option value="Newfoundland and Labrador">
-                  Newfoundland and Labrador
-                </option>
-                <option value="Northwest Territories">
-                  Northwest Territories
-                </option>
-                <option value="Nova Scotia">
-                  Nova Scotia
-                </option>
-                <option value="Nunavut">
-                  Nunavut
-                </option>
-                <option value="Ontario">
-                  Ontario
-                </option>
-                <option value="Prince Edward Island">
-                  Prince Edward Island
-                </option>
-                <option value="Quebec">
-                  Quebec
-                </option>
-                <option value="Saskatchewan">
-                  Saskatchewan
-                </option>
-                <option value="Yukon">
-                  Yukon
-                </option>
-              </select>
+			<div class="checkbox">
+                <label><input data-filter="territory" type="checkbox" value="Ontario"><span class="cb-text">Ontario</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="territory" type="checkbox" value="Prince Edward Island"><span class="cb-text">Prince Edward Island</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="territory" type="checkbox" value="Quebec"><span class="cb-text">Quebec</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="territory" type="checkbox" value="Saskatchewan"><span class="cb-text">Saskatchewan</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="territory" type="checkbox" value="Yukon"><span class="cb-text">Yukon</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+        </fieldset>
+      </details>
+<details class="summary">
+        <summary>
+       Published by
+        </summary>
+        <fieldset>
+          <legend class="wb-inv">Policing regions</legend>
+          <div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="Alberta RCMP"><span class="cb-text">Alberta RCMP</span><span class="wp-filter-badge">0</span></label>
+          </div>
+          <div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="British Columbia RCMP"><span class="cb-text">British Columbia RCMP</span><span class="wp-filter-badge">0</span></label>
+          </div>
+          <div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="Federal Policing Central Region"><span class="cb-text">Federal Policing Central Region</span><span class="wp-filter-badge">0</span></label>
+          </div>
+          <div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="Federal Policing Eastern Region"><span class="cb-text">Federal Policing Eastern Region</span><span class="wp-filter-badge">0</span></label>
+          </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="Federal Policing Northwest Region"><span class="cb-text">Federal Policing Northwest Region</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="Federal Policing Pacific Region"><span class="cb-text">Federal Policing Pacific Region</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="Manitoba RCMP"><span class="cb-text">Manitoba RCMP</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="New Brunswick RCMP"><span class="cb-text">New Brunswick RCMP</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="Newfoundland and Labrador RCMP"><span class="cb-text">Newfoundland and Labrador RCMP</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="Northwest Territories RCMP"><span class="cb-text">Northwest Territories RCMP</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="Nova Scotia RCMP"><span class="cb-text">Nova Scotia RCMP</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="Nunavut RCMP"><span class="cb-text">Nunavut RCMP</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="Prince Edward Island RCMP"><span class="cb-text">Prince Edward Island RCMP</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="RCMP Depot Division"><span class="cb-text">RCMP Depot Division</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="RCMP National Headquarters"><span class="cb-text">RCMP National Headquarters</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="Saskatchewan RCMP"><span class="cb-text">Saskatchewan RCMP</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="Yukon RCMP"><span class="cb-text">Yukon RCMP</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+        </fieldset>
+      </details>	
+		<details class="summary"> 
+        <summary>
+       Publish date
+        </summary>
+		  <fieldset>
+			 <div><legend class="wb-inv">Publish date</legend>
+             <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text"></div>
 				</fieldset>
-				  <fieldset>
-				<legend class="small"><strong>Published by</strong></legend>
-                <label for="dt-division-or-federal-policing-region"></label><select class="form-control" data-column="2" id="dt-division-or-federal-policing-region" name="dt-division-or-federal-policing-region">
-                <option value="All policing regions">
-                  All divisions or Federal Policing regions
-                </option>
-                <option value="Alberta RCMP">
-                  Alberta RCMP
-                </option>
-                <option value="British Columbia RCMP">
-                  British Columbia RCMP
-                </option>
-                <option value="Federal Policing Central Region">
-                  Federal Policing Central Region
-                </option>
-                <option value="Federal Policing Eastern Region">
-                  Federal Policing Eastern Region
-                </option>
-                <option value="Federal Policing Northwest Region">
-                  Federal Policing Northwest Region
-                </option>
-                <option value="Federal Policing Pacific Region">
-                  Federal Policing Pacific Region
-                </option>
-                <option value="Manitoba RCMP">
-                  Manitoba RCMP
-                </option>
-                <option value="New Brunswick RCMP">
-                  New Brunswick RCMP
-                </option>
-                <option value="Newfoundland and Labrador RCMP">
-                  Newfoundland and Labrador RCMP
-                </option>
-                <option value="Northwest Territories RCMP">
-                  Northwest Territories RCMP
-                </option>
-                <option value="Nova Scotia RCMP">
-                  Nova Scotia RCMP
-                </option>
-                <option value="Nunavut RCMP">
-                  Nunavut RCMP
-                </option>
-                <option value="Prince Edward Island RCMP">
-                  Prince Edward Island RCMP
-                </option>
-                <option value="RCMP Depot Division">
-                  RCMP Depot Division
-                </option>
-                <option value="RCMP National Headquarters">
-                  RCMP National Headquarters
-                </option>
-                <option value="Saskatchewan RCMP">
-                  Saskatchewan RCMP
-                </option>
-                <option value="Yukon RCMP">
-                  Yukon RCMP
-                </option>
-              </select>
-				  </fieldset>
-				  <fieldset>
-					  <legend class="small"><strong>Published</strong></legend>
-             <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
-				</fieldset>
-</form>
-			</details>
-	</div>
-		</section>
+		</details>
+    </aside>
 						</div>
-  <div class="col-md-9">
-    <section id="body">
-      <h2 class="wb-inv">List of news</h2>
-<div class="panel panel-body panel-warning mrgn-tp-0 mrgn-bttm-sm">
-	<div class="row">
-   <div><p><i class="fa-solid fa-filter"></i> <span class="wb-inv">Filtres selected:</span> </p></div>
-<div id="applied-filters"> 
-<div class="filter-pill" data-filter="category-electronics"><button onclick="removeFilter(this)">×</button> Electronics </div> 
-<div class="filter-pill" data-filter="status-active"><button onclick="removeFilter(this)">×</button> Active </div> 
-</div>
-</div>
-</div>
-		 <table id="dataTable" class="wb-tables table nws-tbl table-striped">
-			 <thead>
-    <tr><th class="hidden" tabindex="-1">Title</th><th class="hidden" tabindex="-1">Date</th>  <th class="hidden" tabindex="-1">Location</th><th class="hidden" tabindex="-1">Description</th></tr>
-  </thead>
-  <tbody id="tableBody"></tbody>
-		 </table> 
-    </section>
-    <nav aria-label="Pagination" class="rcmp-pagination rcmp-pagination--block" id="rcmp-pagination">
-      <div class="rcmp-pagination__prev" id="mp-prev-wrap">
-        <button type="button" id="mp-prev" class="rcmp-pagination__link" aria-label="Previous page">
-          <span class="rcmp-pagination__title-row">
-            <i class="rcmp-pagination__icon fa-solid fa-chevron-left" aria-hidden="true"></i>
-            <span class="rcmp-pagination__link-title">Previous page</span>
+  <div class="col-md-9 mrgn-tp-md">
+	  <h2 class="wb-inv">List of news</h2>
+     <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 
+    <div id="wp-toolbar">
+      <p id="wp-count" aria-live="polite"><strong id="news-count-num">0</strong>&nbsp;news and communications items found</p>
+      <div id="wp-sort">
+        <label for="news-sort-select">Sort by:</label>
+        <select aria-label="Sort profiles" id="news-sort-select">
+          <option value="newest">Updated (newest)</option>
+          <option value="oldest">Updated (oldest)</option>
+          <option value="views">Most viewed</option>
+        </select>
+      </div>
+	</div>
+    <div aria-label="News" id="news-grid" role="list"></div>
+    <p id="news-no-results">No news or communications match your current filters.</p>
+    <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
+      <div class="rcmp-content-page__prev" id="news-prev-wrap">
+        <button type="button" id="news-prev" class="rcmp-content-page__link" aria-label="Previous page">
+          <span class="rcmp-content-page__title-row">
+            <i class="rcmp-content-page__icon fa-solid fa-chevron-left" aria-hidden="true"></i>
+            <span class="rcmp-content-page__link-title">Previous page</span>
           </span>
           <span class="rcmp-visually-hidden">:</span>
-          <span class="rcmp-pagination__link-label" id="mp-prev-label"></span>
+          <span class="rcmp-content-page__link-label" id="news-prev-label"></span>
         </button>
       </div>
-      <div class="rcmp-pagination__next" id="mp-next-wrap">
-        <button type="button" id="mp-next" class="rcmp-pagination__link" aria-label="Next page">
-          <span class="rcmp-pagination__title-row">
-            <i class="rcmp-pagination__icon fa-solid fa-chevron-right" aria-hidden="true"></i>
-            <span class="rcmp-pagination__link-title">Next page</span>
+      <div class="rcmp-content-page__next" id="news-next-wrap">
+        <button type="button" id="news-next" class="rcmp-content-page__link" aria-label="Next page">
+          <span class="rcmp-content-page__title-row">
+            <i class="rcmp-content-page__icon fa-solid fa-chevron-right" aria-hidden="true"></i>
+            <span class="rcmp-content-page__link-title">Next page</span>
           </span>
           <span class="rcmp-visually-hidden">:</span>
-          <span class="rcmp-pagination__link-label" id="mp-next-label"></span>
+          <span class="rcmp-content-page__link-label" id="news-next-label"></span>
         </button>
       </div>
     </nav>
@@ -380,52 +337,230 @@ issued: 2026-05-04
   </div>
 </div>
 <script>
-const news = [
-{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/news/2026/05/4352857"><abbr>RCMP</abbr> and <abbr>CBSA</abbr> dismantle crime group after nearly 250&nbsp;<abbr>kg</abbr> of cocaine is detected in shipping container in Halifax</a></strong><br>',  date: '2026-05-07 | Federal Policing Central Region | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Newmarket, Ontario</strong></div>', description: '<div class="mrgn-lft-md">Canadian federal authorities dismantled an organized crime operation that imported 248.7&nbsp;<abbr>kg</abbr> of cocaine from the Dominican Republic.</div>' },
-{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/nl/news/2026/05/4352845">Bay St. George RCMP issue warning about counterfeit currency circulating in the area</a></strong><br>',  date: '2026-05-06 | Manitoba RCMP | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Newmarket, Ontario</strong></div>', description: '<div class="mrgn-lft-md">Bay St. George RCMP is advising the public about recent circulation of counterfeit currency after reports from local residents and businesses.</div>' },
-{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/manitoba/news/2026/05/4352847">Suspects arrested after replica handgun seen inside Morris hospital</a></strong><br>',  date: '2026-05-07 | Federal Policing Central Region | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Morris, Manitoba</strong></div>', description: '<div class="mrgn-lft-md">On May 5, at approximately 4:30 p.m., RCMP responded to a report that an armed male was threatening a female inside Morris General Hospital. </div>' },	
-{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/nb/news/2026/05/4352849">RCMP seeking public’s help following counterfeit money circulation</a></strong><br>',  date: '2026-05-06 | New Brunswick RCMP | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Kedgwick and Saint-Quentin, New Brunswick</strong></div>', description: '<div class="mrgn-lft-md">The Saint-Quentin RCMP is seeking the public’s help to identify a person of interest in connection with a counterfeit money investigation.</div>' },	
-{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/bc/comox-valley/news/2026/05/4352854">Comox Valley <abbr>RCMP</abbr> looking to locate suspect vehicle after hit-and-run</a></strong><br>',  date: '2026-05-07 | Federal Policing Central Region | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Summerside, Prince Edward Island</strong></div>', description: '<div class="mrgn-lft-md">May 5, 2026, Members of the Prince District Joint Forces Operation (<abbr>JFO</abbr>), Summerside Police, Provincial Joint Enforcement Team (<abbr>JET</abbr>), and <abbr>RCMP</abbr> Police Dog Service, conducted a targeted vehicle stop in Summerside.</div>' },
-{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/pei/news/2026/05/4352858">Joint Forces Operations Results in Multiple Drug Related Arrests</a></strong><br>',  date: '2026-05-07 | Prince Edward Island <abbr>RCMP</abbr> | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Summerside, Prince Edward Island</strong></div>', description: '<div class="mrgn-lft-md">May 5, 2026, Members of the Prince District Joint Forces Operation (<abbr>JFO</abbr>), Summerside Police, Provincial Joint Enforcement Team (<abbr>JET</abbr>), and <abbr>RCMP</abbr> Police Dog Service, conducted a targeted vehicle stop in Summerside.</div>' },	
-{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/nb/news/2026/05/4352850">Missing 49-year-old woman</a></strong><br>',  date: '2026-05-06 | Chilliwack <abbr>RCMP</abbr> | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Perth-Andover, New Brunswick</strong></div>', description: '<div class="mrgn-lft-md">The Perth-Andover RCMP is asking for the public’s help to locate a missing 49-year-old woman from Presque Isle, Maine.</div>' },
-{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/manitoba/news/2026/05/4353043">Steinbach RCMP served an IRP on Monday morning</a></strong><br>',  date: '2026-05-13 | Manitoba RCMP | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Steinbach, Manitoba</strong></div>', description: '<div class="mrgn-lft-md">On May 11, 2026, at 6:50 AM, Steinbach RCMP received a report of a possible impaired driver in a brown SUV on Mckenzie Avenue in Steinbach.</div>' },
-{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/nova-scotia/news/2026/05/4353038">Antigonish County District RCMP charges man after he flees from officers</a></strong><br>',  date: '2026-05-13 | Nova Scotia RCMP | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Maryvale, Nova Scotia</strong></div>', description: '<div class="mrgn-lft-md">Antigonish County District RCMP has charged a man after he fled from officers near Maryvale.</div>' },	
-{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/bc/pitt-meadows/news/2026/05/4352855">RCMP opening ceremonies for new detachment in the City of Pitt Meadows</a></strong><br>',  date: '2026-05-12 | Pitt Meadows RCMP | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Pitt Meadows, British Columbia</strong></div>', description: '<div class="mrgn-lft-md">The City of Pitt Meadows and q̓ic̓əy̓ (Katzie) First Nation welcomed the much-anticipated opening of a new RCMP Detachment in Pitt Meadows.</div>' },	
-{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/alberta/news/2026/05/4353033">Alberta RCMP enforces safe driving during Canada Road Safety Week and Victoria Day long weekend</a></strong><br>',  date: '2026-05-12 | Alberta RCMP | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Edmonton, Alberta</strong></div>', description: '<div class="mrgn-lft-md">May 12-18, 2026, marks Canada Road Safety Week, a seven-day national campaign, made in partnership with the Canadian Association of Chiefs of Police, aimed at making Canada’s roads the safest in the world. The Alberta RCMP will be promoting safe driving behaviours during the week as well as conducting targeted enforcement to remove impaired drivers from Alberta roadways during Victoria Day long weekend and National Impaired Driving Prevention Enforcement Day on May 16, 2026.</div>' },	
-{ title: '<div class="mrgn-lft-md"><strong><a href="https://rcmp.ca/en/bc/chilliwack/news/2026/05/4352853">Chilliwack RCMP seek public assistance to identify suspect in bus driver assault</a></strong><br>',  date: '2026-05-07 | Comox Valley <abbr>RCMP</abbr> | News releases</div>', location: '<div class="mrgn-lft-md mrgn-tp-lg"><strong>Chilliwack, British Columbia</strong></div>', description: '<div class="mrgn-lft-md">The Chilliwack RCMP is requesting the public’s assistance in identifying a man alleged to have been involved in the assault of a BC Transit bus driver in March of 2026.</div>' }
-		];
-const form = document.getElementById('filterForm');
-const tableBody = document.getElementById('tableBody');
-form.addEventListener('submit', (e) => {
-  e.preventDefault(); // Stop page reload
-  const searchTerm = document.getElementById('titleFilter').value.toLowerCase();
-  // Filter the data
-  const filteredData = news.filter(news => 
-    news.title.toLowerCase().includes(searchTerm),
-  );
-  renderTable(filteredData);
-});
-function renderTable(data) {
-  tableBody.innerHTML = ''; // Clear current rows
-  data.forEach(item => {
-    const row = `<tr><td>${item.title}</td><td>${item.date}</td><td>${item.location}</td><td>${item.description}</td></tr>`;
-    tableBody.insertAdjacentHTML('beforeend', row); // Build table
+(function () {
+  'use strict';
+  var lang = document.documentElement.lang === 'fr' ? 'fr' : 'en';
+  var I18N = {
+    en: {
+categoryLabels:  {assault: 'Assault', be: 'Break and enter', disturbance: 'Disturbance', homicide: 'Homicide', crossing: 'Illegal border crossing', drugs: 'Illicit drugs', missing: 'Missing person', crime: 'Organized crime', property: 'Interest', property: 'Public interest', theft: 'Theft', traffic: 'Traffic services', trafficking: 'Trafficking', wanted: 'Wanted', weapons: 'Weapons' },
+ territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manitoba', nb: 'New Brunswick', nl: 'Newfoundland and Labrador', nwt: 'Northwest Territories', ns: 'Nova Scotia', nunavut: 'Nunavut', ontario: 'Ontario', pei: 'Prince Edward Island', saskatchewan: 'Saskatchewan RCMP', yukon: 'Yukon RCMP' },
+regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 'Federal Policing Central Region', eastern: 'Federal Policing Eastern Region', nw: 'Federal Policing Northwest Region', pacific: 'Federal Policing Pacific Region', manitoba: 'Manitoba RCMP', nb: 'New Brunswick RCMP', nl: 'Newfoundland and Labrador RCMP', nwt: 'Northwest Territories RCMP', ns: 'Nova Scotia RCMP', nunavut: 'Nunavut  RCMP', pei: 'Prince Edward Island RCMP', depot: 'RCMP Depot Division', hq: 'RCMP National Headquarters', quebec: 'Quebec', saskatchewan: 'Saskatchewan', yukon: 'Yukon' },		
+      removeFilter:   'Remove filter: ',
+      profileHref:    'news-nouvelles-en.html',
+      viewProfile:    'View profile: ',
+      category:       'Category\u00A0: ',
+	  territory:      'Territory\u00A0: ',	
+      region:         'Region\u00A0: ',
+      lastSeen:       'Last seen\u00A0: ',
+      ofPages:        ' of ',
+      showing:        'Showing\u00A0: ',
+      orSep:          'or'
+    },
+    fr: {
+categoryLabels:  { assault: 'Assault', be: 'Break and enter', disturbance: 'Disturbance', homicide: 'Homicide', crossing: 'Illegal border crossing', drugs: 'Illicit drugs', missing: 'Missing person', crime: 'Organized crime', property: 'Interest', property: 'Public interest', theft: 'Theft', traffic: 'Traffic services', trafficking: 'Trafficking', wanted: 'Wanted', weapons: 'Weapons' },
+territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manitoba', nb: 'New Brunswick', nl: 'Newfoundland and Labrador', nwt: 'Northwest Territories', ns: 'Nova Scotia', nunavut: 'Nunavut', ontario: 'Ontario', pei: 'Prince Edward Island', quebec: 'Quebec', saskatchewan: 'Saskatchewan', yukon: 'Yukon' },		
+regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 'Federal Policing Central Region', eastern: 'Federal Policing Eastern Region', nw: 'Federal Policing Northwest Region', pacific: 'Federal Policing Pacific Region', manitoba: 'Manitoba RCMP', nb: 'New Brunswick RCMP', nl: 'Newfoundland and Labrador RCMP', nwt: 'Northwest Territories RCMP', ns: 'Nova Scotia RCMP', nunavut: 'Nunavut  RCMP', pei: 'Prince Edward Island RCMP', depot: 'RCMP Depot Division', hq: 'RCMP National Headquarters', quebec: 'Quebec', saskatchewan: 'Saskatchewan', yukon: 'Yukon' },		
+      removeFilter:   'Retirer le filtre\u00A0: ',
+      profileHref:    'news-nouvelles-fr.html',
+      viewProfile:    'Voir le profil\u00A0: ',
+	  category:       'Category\u00A0: ',
+	  territory:      'Territory\u00A0: ',	
+      region:         'Region\u00A0: ',
+	  updated:        'Mise à jour\u00A0: ',
+      lastSeen:       'Vu(e) pour la dernière fois\u00A0: ',
+      ofPages:        ' sur ',
+      showing:        'Affichage\u00A0:',
+      orSep:          'ou'
+    }
+  };
+  var t  = I18N[lang];
+  var $  = document.getElementById.bind(document);
+  var ni = lang === 'fr' ? 1 : 0;
+  // [nameEN, nameFR, file, category, territory, region, lastSeen, updated, views]
+  var RAW = [
+    ['RCMP and CBSA dismantle crime group after nearly 250&nbsp;kg of cocaine is detected in shipping container in Halifax', 'RCMP and CBSA dismantle crime group after nearly 250&nbsp;kg of cocaine is detected in shipping container in Halifax', '32473043', 'Organized crime and Illicit drugs', 'Northwest Territories', 'Northwest Territories RCMP', '1999-05-01', '2026-05-08', 1420],
+    ['Bay St. George RCMP issue warning about counterfeit currency circulating in the area', 'Bay St. George RCMP issue warning about counterfeit currency circulating in the area', '30847192', 'Fraud', 'Nunavut', 'Nunavut RCMP', '2020-03-15', '2026-05-07', 980 ],
+    ['Suspects arrested after replica handgun seen inside Morris hospital', 'Suspects arrested after replica handgun seen inside Morris hospital', '19284730', 'Weapons', 'Prince Edward Island', 'Prince Edward Island RCMP', '2021-07-04', '2026-05-06', 741 ],
+    ['RCMP seeking public’s help following counterfeit money circulation', 'RCMP seeking public’s help following counterfeit money circulation', '28374019', 'Fraud',  'Prince Edward Island', 'Prince Edward Island RCMP', '2022-01-10', '2026-05-05', 610 ],
+    ['Comox Valley RCMP looking to locate suspect vehicle after hit-and-run', 'Comox Valley RCMP looking to locate suspect vehicle after hit-and-run', '39201847', 'Wanted and Traffic services', 'Nunavut', 'Nunavut RCMP', '2023-06-22', '2026-05-04', 533 ],
+    ['Joint Forces Operations results in Multiple Drug Related Arrests', 'Joint Forces Operations Results in Multiple Drug Related Arrests', '10293847', 'Illicit drugs',  'Quebec',  'Federal Policing Central Region', '2024-09-30', '2026-05-03', 498 ],
+    ['Missing 49-year-old woman', 'Missing 49-year-old woman', '48201937', 'Missing', 'Quebec', 'Federal Policing Central Region', '2022-11-18', '2026-05-02', 412 ],
+    ['Steinbach RCMP served an IRP on Monday morning', 'Steinbach RCMP served an IRP on Monday morning', '67391028', 'Disturbance', 'Saskatchewan', 'Saskatchewan RCMP', '2025-01-05', '2026-04-30', 344 ],
+    ['Antigonish County District RCMP charges man after he flees from officers', 'Antigonish County District RCMP charges man after he flees from officers', '74829103', 'Break and Enter', 'Ontario', 'RCMP National Headquarters', '2024-04-12', '2026-04-28', 302 ],
+    ['RCMP opening ceremonies for new detachment in the City of Pitt Meadows', 'RCMP opening ceremonies for new detachment in the City of Pitt Meadows', '81920374', 'Public interest', 'Prince Edward Island', 'Prince Edward Island RCMP', '2023-08-09', '2026-04-26', 289 ],
+	['Police Dog Service, conducted a targeted vehicle stop in Summerside', 'Police Dog Service, conducted a targeted vehicle stop in Summerside', '81920374', 'Traffic services', 'Prince Edward Island', 'Prince Edward Island RCMP', '2023-08-09', '2026-04-26', 289 ],  
+    ['Alberta RCMP enforces safe driving during Canada Road Safety Week and Victoria Day long weekend', 'Alberta RCMP enforces safe driving during Canada Road Safety Week and Victoria Day long weekend', '92038471', 'Traffic services', 'Ontario', 'RCMP National Headquarters', '2022-05-17', '2026-04-24', 265 ],
+    ['Chilliwack RCMP seek public assistance to identify suspect in bus driver assault', 'Chilliwack RCMP seek public assistance to identify suspect in bus driver assault', '10293821', 'Wanted','Quebec','Federal Policing Central Region','2021-12-01', '2026-04-22', 241 ]
+  ];
+  var PROFILES = RAW.map(function (r, i) {
+    return {
+      id:        i + 1,
+      name:      r[ni],
+      category:  r[3],
+      territory: r[4],
+      region:    r[5],
+      lastSeen:  r[6],
+      updated:   r[7],
+      views:     r[8]
+    };
   });
-}
-	// Initial load
-renderTable(news);
-	var checkboxes   = document.querySelectorAll('#mp-filters input[type="checkbox"]');
-	 function getActiveFilters() {
-    var active = { category: [] };
+  var PER_PAGE    = 9;
+  var currentPage = 1;
+  var activeData  = PROFILES.slice();
+  var grid         = $('news-grid');
+  var countNum     = $('news-count-num');
+  var noResults    = $('news-no-results');
+  var sortSel      = $('news-sort-select');
+  var prevBtn      = $('news-prev');
+  var nextBtn      = $('news-next');
+  var activeTagsEl = $('news-active-filters');
+  var pagination   = $('rcmp-content-page');
+  var checkboxes   = document.querySelectorAll('#news-filters input[type="checkbox"]');
+  function updateBadges() {
+    checkboxes.forEach(function (cb) {
+      var cat = cb.dataset.filter;
+      var val = cb.value;
+      var count = PROFILES.filter(function (p) {
+        return p[cat] === val;
+      }).length;
+      var badge = cb.closest('label').querySelector('.wp-filter-badge');
+      if (badge) badge.textContent = count;
+    });
+  }
+  function sortData(data, mode) {
+    return data.slice().sort(function (a, b) {
+      if (mode === 'newest') return b.updated.localeCompare(a.updated);
+      if (mode === 'oldest') return a.updated.localeCompare(b.updated);
+      if (mode === 'views')  return b.views - a.views;
+      return 0;
+    });
+  }
+  function getActiveFilters() {
+    var active = { category: [], territory: [], region: [] };
     checkboxes.forEach(function (cb) {
       if (cb.checked) active[cb.dataset.filter].push(cb.value);
     });
     return active;
   }
-checkboxes.forEach(function (cb) { cb.addEventListener('change', refresh); });
-sortSel.addEventListener('change', function () {
+  function filterData(filters) {
+    return PROFILES.filter(function (p) {
+    return !filters.category.length || filters.category.indexOf(p.category) > -1;
+	return !filters.territory.length || filters.territory.indexOf(p.territory) > -1;
+	return !filters.region.length || filters.region.indexOf(p.region) > -1;	
+    });
+  }
+  function renderTags(filters) {
+    activeTagsEl.innerHTML = '';
+    var allTags = [];
+    Object.keys(filters).forEach(function (cat) {
+      filters[cat].forEach(function (val) {
+        allTags.push({ cat: cat, val: val });
+      });
+    });
+    if (!allTags.length) return;
+    var showingLabel = document.createElement('span');
+    showingLabel.className = 'wp-filter-showing-label';
+    showingLabel.textContent = t.showing;
+    activeTagsEl.appendChild(showingLabel);
+    allTags.forEach(function (item, index) {
+      var label = item.cat === 'category' ? (t.categoryLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
+	  var label = item.cat === 'territory' ? (t.territoryLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
+	  var label = item.cat === 'region' ? (t.regionLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
+      if (index > 0) {
+        var sep = document.createElement('span');
+        sep.className = 'wp-filter-tag-sep';
+        sep.textContent = t.orSep;
+        activeTagsEl.appendChild(sep);
+      }
+      var tag = document.createElement('span');
+      tag.className = 'wp-filter-tag';
+      tag.innerHTML =
+        label + ' <button type="button" aria-label="' + t.removeFilter + label + '">\u2715</button>';
+      tag.querySelector('button').addEventListener('click', function () {
+        var cb = document.querySelector('input[data-filter="' + item.cat + '"][value="' + item.val + '"]');
+        if (cb) { cb.checked = false; refresh(); }
+      });
+      activeTagsEl.appendChild(tag);
+    });
+  }
+  function renderGrid(data, page) {
+    var slice = data.slice((page - 1) * PER_PAGE, page * PER_PAGE);
+    grid.innerHTML = '';
+    var show = !!slice.length;
+    noResults.style.display  = show ? 'none'  : 'block';
+    pagination.style.display = show ? 'block' : 'none';
+    if (!show) return;
+    slice.forEach(function (p) {
+      var li = document.createElement('div');
+      li.setAttribute('role', 'listitem');
+      li.innerHTML =
+          '<table class="table table-striped table-hover">' +
+		  '<thead>' +
+		  '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' +
+		  '<tr class="wb-inv">' +
+            '<th>'  + p.name + '</th>' +
+		    '<th>'  + t.category + '</th>' +
+		    '<th>'  + t.territory + '</th>' +
+		    '<th>'  + t.region + '</th>' +
+            '<th>'  + t.lastSeen + '</th>' +
+            '<th>'  + t.updated + '</th>' +
+		   '</tr></a></thead>' +
+		  '<tbody id="tableBody">' +
+		  '<tr>' +
+		  '<td>'  + p.name + '</td>' +
+		    '<td>'  + p.category + '</td>' +
+		    '<td>'  + p.territory + '</td>' +
+		    '<td>'  + p.region + '</td>' +
+            '<td>'  + p.lastSeen + '</td>' +
+            '<td>'  + p.updated + '</td>' +
+		  '</tr>' +
+		  '</tbody>' +
+          '</table>';
+      grid.appendChild(li);
+    });
+  }
+  function renderPagination(total, page) {
+    var pages     = Math.ceil(total / PER_PAGE);
+    var prevLabel = $('mp-prev-label');
+    var nextLabel = $('mp-next-label');
+    if (prevLabel) prevLabel.textContent = (page - 1) + t.ofPages + pages;
+    if (nextLabel) nextLabel.textContent = (page + 1) + t.ofPages + pages;
+    prevBtn.disabled                     = page <= 1;
+    nextBtn.disabled                     = page >= pages;
+    prevBtn.parentElement.style.display  = page <= 1    ? 'none' : 'block';
+    nextBtn.parentElement.style.display  = page >= pages ? 'none' : 'block';
+  }
+  function draw() {
+    renderGrid(activeData, currentPage);
+    renderPagination(activeData.length, currentPage);
+  }
+  function refresh() {
+    var filters  = getActiveFilters();
+    activeData  = sortData(filterData(filters), sortSel.value);
+    currentPage = 1;
+    countNum.textContent = activeData.length;
+    renderTags(filters);
+    draw();
+  }
+  checkboxes.forEach(function (cb) { cb.addEventListener('change', refresh); });
+  sortSel.addEventListener('change', function () {
     activeData  = sortData(activeData, sortSel.value);
     currentPage = 1;
     draw();
   });
-	</script>
+  function paginate(dir, btn) {
+    currentPage += dir;
+    draw();
+    grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    btn.blur();
+  }
+  prevBtn.addEventListener('click', function () {
+    if (currentPage > 1) paginate(-1, prevBtn);
+  });
+  nextBtn.addEventListener('click', function () {
+    if (currentPage < Math.ceil(activeData.length / PER_PAGE)) paginate(1, nextBtn);
+  });
+  updateBadges();
+  refresh();
+}());
+</script>

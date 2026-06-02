@@ -494,16 +494,27 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       var li = document.createElement('div');
       li.setAttribute('role', 'listitem');
       li.innerHTML =
-          '<table id="dataTable" class="wb-tables table nws-tbl table-striped">' +
-		  '<a class="wp-card" href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' +
+          '<table class="wb-tables table nws-tbl table-striped">' +
+		  '<thead>' +
+		  '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' +
 		  '<tr>' +
-            '<th>'  + p.name + '</th>' +
-		    '<th>'  + t.category   + p.category + '</th>' +
-		    '<th>'  + t.territory  + p.territory + '</th>' +
-		    '<th>'  + t.region     + p.region + '</th>' +
-            '<th>'  + t.lastSeen   + p.lastSeen + '</th>' +
-            '<th>'  + t.updated    + p.updated + '</th>' +
-		   '</tr></a>' +
+            '<th class="hidden" tabindex="-1">'  + p.name + '</th>' +
+		    '<th class="hidden" tabindex="-1">'  + t.category + '</th>' +
+		    '<th class="hidden" tabindex="-1">'  + t.territory + '</th>' +
+		    '<th class="hidden" tabindex="-1">'  + t.region + '</th>' +
+            '<th class="hidden" tabindex="-1">'  + t.lastSeen + '</th>' +
+            '<th class="hidden" tabindex="-1">'  + t.updated + '</th>' +
+		   '</tr></a></thead>' +
+		  '<tbody id="tableBody">' +
+		  '<tr>' +
+		  '<td>'  + p.name + '</td>' +
+		    '<td>'  + p.category + '</td>' +
+		    '<td>'  + p.territory + '</td>' +
+		    '<td>'  + p.region + '</td>' +
+            '<td>'  + p.lastSeen + '</td>' +
+            '<td>'  + p.updated + '</td>' +
+		  '</tr>' +
+		  '</tbody>' +
           '</table>';
       grid.appendChild(li);
     });

@@ -496,13 +496,13 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       li.innerHTML =
 		  '<a  class="wp-card" href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' +
 		  '<div class="wp-card-body">' +
-          '<p>' +'<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' +'</p>' +
-		  '<p>' +'<div class="wb-inv">' + t.category + '</div>' + p.category  + '</p>' +
-		  '<p>' +'<div class="wb-inv">' + t.territory + '</div>' + p.territory  + '</p>' +
-		  '<p>' +'<div class="wb-inv">' + t.region + '</div>' + p.region  + '</p>' +
-          '<p>' +'<div class="wb-inv">' + t.lastSeen + '</div>' + p.lastSeen  + '</p>' +
-          '<p>' +'<div class="wb-inv">' + t.updated + '</div>' + p.updated  + '</p>' +
-		  '</div>  + '</a>';
+          '<p>' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' +'</p>' +
+		  '<p>' + '<div class="wb-inv">' + t.category + '</div>' + p.category + '</p>' +
+		  '<p>' + '<div class="wb-inv">' + t.territory + '</div>' + p.territory + '</p>' +
+		  '<p>' + '<div class="wb-inv">' + t.region + '</div>' + p.region + '</p>' +
+          '<p>' + '<div class="wb-inv">' + t.lastSeen + '</div>' + p.lastSeen + '</p>' +
+          '<p>' + '<div class="wb-inv">' + t.updated + '</div>' + p.updated + '</p>' +
+		  '</div>' + '</a>';
       grid.appendChild(li);
     });
   }

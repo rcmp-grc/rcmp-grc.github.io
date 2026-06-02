@@ -502,7 +502,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
 		  '<div class="wp-card-body">' +
           '<h2 class="h4">' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' +'</h2>' +
 		  '<div class="details-landing">' + '<p>' + '<div class="wb-inv">' + t.updated + '</div>' + p.updated + '|'+ '<div class="wb-inv">' + t.region + '</div>' + p.region + '|' + '<div class="wb-inv">' + t.category + '</div>' + p.category + '</p>' + '</div>' +
-		  '<p>' + '<div class="wb-inv">' + t.territory + '</div>' + '<strong> + p.territory + '</strong>' + '</p>' +
+		  '<p>' + '<div class="wb-inv">' + t.territory + '</div>' + '<strong>' + p.territory + '</strong>' + '</p>' +
           '<p>' + '<div class="wb-inv">' + t.lastSeen + '</div>' + p.lastSeen + '</p>' +
 		  '</div>';
       grid.appendChild(li);

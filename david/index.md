@@ -69,7 +69,7 @@ th {
 			border-bottom: 1px solid #ccc;
 		}
 
-		&.table-condensed, &.table-sm) tbody {
+		&.table-condensed tbody, &.table-sm tbody {
 			td {
 				padding: 0.2em 0.6em;
 			}

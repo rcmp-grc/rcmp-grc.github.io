@@ -23,6 +23,10 @@ th {
 @media screen and (max-width: 991px) {
 	table:has(td[data-label]) {
 
+		&.table-bordered {
+			border: none;
+		}
+
 		thead {
 			display: none;
 		}
@@ -33,7 +37,8 @@ th {
 			border: 1px solid #ccc;
 		}
 
-		tbody td, tbody th {
+		tbody td,
+		tbody th {
 			display: block;
 			padding: 0.35em 0.75em;
 			border: none;
@@ -41,7 +46,8 @@ th {
 			white-space: normal;
 		}
 
-		tbody td::before, tbody th::before {
+		tbody td::before,
+		tbody th::before {
 			content: attr(data-label);
 			display: block;
 			font-weight: 700;
@@ -50,7 +56,7 @@ th {
 			margin-bottom: 0.1em;
 		}
 
-		td+td {
+		:is(td,th) + :is(td,th) {
 			border-top: 1px solid #e8e8e8;
 			padding-top: 0.5em;
 		}
@@ -76,7 +82,7 @@ th {
 				font-size: 0.8em;
 			}
 
-			td+td {
+			:is(td,th) + :is(td,th) {
 				padding-top: 0.3em;
 			}
 		}
@@ -92,10 +98,7 @@ th {
 
 <section id="tables">
   <h2>Table tests</h2>
-
-<p>Table 1: table with DATA-LABEL</p>
-
-<p>Table 1: table with DATA-LABEL</p>
+<p>Table 1: table with TH and DATA-LABEL</p>
 
 <table class="table" id="t1">
 	<caption>Table 1</caption>
@@ -109,19 +112,19 @@ th {
 	</thead>
 	<tbody>
 		<tr>
-			<td data-label="Province or territory">Alberta</td>
+			<th scope="row" data-label="Province or territory">Alberta</th>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">385,449</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">3,406</td>
 			<td data-label="Total" class="text-right nowrap">388,855</td>
 		</tr>
 		<tr>
-			<td data-label="Province or territory">British Columbia</td>
+			<th scope="row" data-label="Province or territory">British Columbia</th>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">377,271</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">1,667</td>
 			<td data-label="Total" class="text-right nowrap">378,938</td>
 		</tr>
 		<tr class="active">
-			<td data-label="Province or territory">Total</td>
+			<th scope="row" data-label="Province or territory">Total</th>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
 			<td data-label="Total" class="text-right nowrap">2,473,661</td>
@@ -129,7 +132,7 @@ th {
 	</tbody>
 </table>
 
-<p>Table 2: table without DATA-LABEL</p>
+<p>Table 2: table with TH without DATA-LABEL</p>
 
 <table class="table" id="t2">
 	<caption>Table 2</caption>
@@ -143,19 +146,19 @@ th {
 	</thead>
 	<tbody>
 		<tr>
-			<td>Manitoba</td>
+			<th scope="row">Manitoba</th>
 			<td class="text-right nowrap">105,185</td>
 			<td class="text-right nowrap">846</td>
 			<td class="text-right nowrap">106,031</td>
 		</tr>
 		<tr>
-			<td>New Brunswick</td>
+			<th scope="row">New Brunswick</th>
 			<td class="text-right nowrap">77,820</td>
 			<td class="text-right nowrap">290</td>
 			<td class="text-right nowrap">78,110</td>
 		</tr>
 		<tr class="active">
-			<td>Total</td>
+			<th scope="row">Total</th>
 			<td class="text-right nowrap">2,458,677</td>
 			<td class="text-right nowrap">14,984</td>
 			<td class="text-right nowrap">2,473,661</td>
@@ -319,7 +322,7 @@ th {
 			<td data-label="Total" class="text-right nowrap">388,855</td>
 		</tr>
 		<tr>
-			<td colspan="4">New section</td>
+			<th scope="rowgroup" colspan="4">New section</th>
 		</tr>
 		<tr class="active">
 			<td data-label="Province or territory">Total</td>
@@ -350,7 +353,7 @@ th {
 			<td class="text-right nowrap">106,031</td>
 		</tr>
 		<tr>
-			<td colspan="4">New section</td>
+			<th scope="rowgroup" colspan="4">New section</th>
 		</tr>
 		<tr class="active">
 			<td>Total</td>
@@ -394,7 +397,6 @@ th {
 		</tr>
 	</tbody>
 </table>
-
 
 
 </section>

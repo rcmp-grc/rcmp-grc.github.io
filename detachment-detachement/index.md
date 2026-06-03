@@ -112,13 +112,11 @@ issued: 2026-05-04
 						<dl>
 							<dt>Services and accessibility information</dt>
 							<dd>
-								<ul>
-									<li><i class="fa-solid fa-wheelchair-move"></i> Access For People With Reduced Mobility</li>
-									<li><i class="fa-solid fa-shield-dog"></i> Assistance Dogs Welcome</li>
-									<li><i class="fa-solid fa-kit-medical"></i> First Aid</li>
-									<li><i class="fa-solid fa-user-clock"></i> Twenty Four Hr Access</li>
-									<li><i class="fa-solid fa-door-open"></i> Automatic Doors</li>
-								</ul>							
+								<i class="fa-solid fa-wheelchair-move"></i> Access For People With Reduced Mobility<br>
+								<i class="fa-solid fa-shield-dog"></i> Assistance Dogs Welcome<br>
+								<i class="fa-solid fa-kit-medical"></i> First Aid<br>
+								<i class="fa-solid fa-user-clock"></i> Twenty Four Hr Access<br>
+								<i class="fa-solid fa-door-open"></i> Automatic Doors<br>							
 							</dd>
 						</dl>
 					</td>

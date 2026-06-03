@@ -21,7 +21,7 @@ th {
 /* Fluid tables */
 
 @media screen and (max-width: 991px) {
-	table:has(td[data-label]) {
+	table:not(.boring):has(td[data-label]) {
 
 		&.table-bordered {
 			border: none;
@@ -69,7 +69,7 @@ th {
 			border-bottom: 1px solid #ccc;
 		}
 
-		&:where(.table-condensed, .table-sm) tbody {
+		&.table-condensed, &.table-sm) tbody {
 			td {
 				padding: 0.2em 0.6em;
 			}

@@ -113,7 +113,7 @@ issued: 2026-05-04
 							<dt>Services and accessibility information</dt>
 							<dd>
 								<ul>
-									<li <i class="fa-solid fa-wheelchair-move"></i>>Access For People With Reduced Mobility</li>
+									<li><i class="fa-solid fa-wheelchair-move"></i>Access For People With Reduced Mobility</li>
 									<li>Assistance Dogs Welcome</li>
 									<li>First Aid</li>
 									<li>Twenty Four Hr Access</li>

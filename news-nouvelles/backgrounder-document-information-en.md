@@ -101,6 +101,11 @@ issued: 2026-05-08
 </ul>
 <h2 class="h3">Community engagement</h2>
 <p>The RCMP works with communities across Canada to build trust, encourage open dialogue, and support public safety initiatives. Creative outreach tools and mascots can help start conversations, especially with youth.</p>
+<section class="alert alert-warning">
+ <h2 class="h3">Safety and wildlife message</h2>
+<p>Although Bob is a fictional mascot, polar bears are real wild animals and can be dangerous. Canadians visiting northern regions should always follow local wildlife safety guidance and instructions from authorities and community leaders.</p>
+<p>More information on wildlife safety is available through: <a href="#">Polar bear safety information</a>.</p>	
+</section>		
 <p>Bob has supported awareness activities related to:</p>	
 <ul>
 <li>ice safety</li>
@@ -111,11 +116,6 @@ issued: 2026-05-08
 <li>environmental stewardship</li>
 </ul>
 <p>At some events, Bob has also been known to challenge RCMP officers to snowshoe races. Results remain disputed.</p>
-<section class="alert alert-warning">
- <h2 class="h3">Safety and wildlife message</h2>
-<p>Although Bob is a fictional mascot, polar bears are real wild animals and can be dangerous. Canadians visiting northern regions should always follow local wildlife safety guidance and instructions from authorities and community leaders.</p>
-<p>More information on wildlife safety is available through: <a href="#">Polar bear safety information</a>.</p>	
-</section>	
 <h2 class="h3">Quotes</h2>
 <blockquote class="cn-pullquote"><p>Community policing is about relationships. Sometimes those relationships include a six-foot polar bear mascot wearing an RCMP scarf.<br>
 <span class="small"><cite>RCMP Community Engagement Officer</cite></span></p></blockquote>

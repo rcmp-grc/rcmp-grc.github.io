@@ -111,7 +111,15 @@ issued: 2026-05-04
 					<td class="nws-tbl-desc mrgn-lft-lg">
 						<dl>
 							<dt>Services and accessibility information</dt>
-							<dd>The services available may differ. Please contact the detachment directly to find out which services are offered.</dd>
+							<dd>
+								<ul>
+									<li>Access For People With Reduced Mobility</li>
+									<li>Assistance Dogs Welcome</li>
+									<li>First Aid</li>
+									<li>Twenty Four Hr Access</li>
+									<li>Automatic Doors</li>
+								</ul>							
+							</dd>
 						</dl>
 					</td>
 				</tr>

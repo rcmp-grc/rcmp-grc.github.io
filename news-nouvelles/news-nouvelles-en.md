@@ -403,8 +403,8 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     return {
       id:        i + 1,
       name:      r[ni],
-      category:  r[3],	
-      territory: r[4],	
+      category:  r[3],
+      territory: r[4],
       region:    r[5],
       summary:   r[6],
       updated:   r[7],

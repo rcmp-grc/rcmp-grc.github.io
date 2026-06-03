@@ -383,7 +383,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   var t  = I18N[lang];
   var $  = document.getElementById.bind(document);
   var ni = lang === 'fr' ? 1 : 0;
-  // [nameEN, nameFR, file, category, territory, region, summary, updated, views]
+  // [nameEN, nameFR, file, category, location, territory, region, summary, updated, views]
   var RAW = [
     ['RCMP and CBSA dismantle crime group after nearly 250&nbsp;kg of cocaine is detected in shipping container in Halifax', 'RCMP and CBSA dismantle crime group after nearly 250&nbsp;kg of cocaine is detected in shipping container in Halifax', '32473043', 'Organized crime and Illicit drugs', 'Halifax, Nova Scotia', 'Nova Scotia RCMP', 'RCMP and CBSA dismantle crime group', '2026-05-08', 1420],
     ['Bay St. George RCMP issue warning about counterfeit currency circulating in the area', 'Bay St. George RCMP issue warning about counterfeit currency circulating in the area', '30847192', 'Fraud', 'Bay St. George', 'Nunavut', 'Nunavut RCMP', 'Counterfeit currency circulating in the Bay St. George area.', '2026-05-07', 980 ],
@@ -505,7 +505,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
 		  '<div class="wp-card-body">' +
           '<h2 class="h4">' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' +'</h2>' +
 		  '<div class="details-landing">' + '<div class="wb-inv">' + t.updated + '</div>' + p.updated + '|'+ '<div class="wb-inv">' + t.region + '</div>' + p.region + '|' + '<div class="wb-inv">' + t.category + '</div>' + p.category + '</div>' +
-		  '<p>' + '<div class="wb-inv">' + t.location + t.territory + '</div>' + '<strong>' + p.location + ',' + p.territory + '</strong>' + '</p>' +
+		  '<p>' + '<div class="wb-inv">' + t.location + t.territory + '</div>' + '<strong>' + p.location + ',&nbsp;' + p.territory + '</strong>' + '</p>' +
           '<p>' + '<div class="wb-inv">' + t.summary + '</div>' + p.summary + '</p>' +
 		  '</div>';
       grid.appendChild(li);

@@ -23,10 +23,6 @@ thead th {
 @media screen and (max-width: 991px) {
 	table:not(.fixed):has(td[data-label]) {
 
-		&.table-bordered {
-			border: none;
-		}
-
 		thead {
 			display: none;
 		}
@@ -34,7 +30,7 @@ thead th {
 		tr {
 			display: block;
 			margin-bottom: 1em;
-			border: 1px solid #ccc;
+			border-block: 1px solid var(--rcmp-grey-md);
 		}
 
 		tbody td,
@@ -52,24 +48,29 @@ thead th {
 			display: block;
 			font-weight: 700;
 			font-size: 0.85em;
-			color: #5a5a5a;
+			color: var(--rcmp-grey-dk);
 			margin-bottom: 0.1em;
 		}
 
-		:is(td,th) + :is(td,th) {
-			border-top: 1px solid #e8e8e8;
-			padding-top: 0.5em;
+		:is(td, th)+ :is(td, th) {
+			/* border-top: 1px solid var(--rcmp-grey-lt); */
+			/* padding-top: 0.5em; */
 		}
 
 		th[colspan] {
 			display: block;
-			background-color: #f5f5f5;
+			background-color: var(--rcmp-grey-lt);
 			padding: 0.5em 0.75em;
 			font-weight: bold;
-			border-bottom: 1px solid #ccc;
+			/* border-bottom: 1px solid var(--rcmp-grey-md); */
 		}
 
-		&.table-condensed tbody, &.table-sm tbody {
+		&.table-bordered {
+			border: none;
+		}
+
+		&.table-condensed tbody,
+		&.table-sm tbody {
 			td {
 				padding: 0.2em 0.6em;
 			}
@@ -82,7 +83,7 @@ thead th {
 				font-size: 0.8em;
 			}
 
-			:is(td,th) + :is(td,th) {
+			:is(td, th)+ :is(td, th) {
 				padding-top: 0.3em;
 			}
 		}
@@ -99,8 +100,7 @@ thead th {
 <section id="tables">
   <h2>Table tests</h2>
 
-
-	<p>Table 1: table with TH and DATA-LABEL</p>
+<p>Table 1: table with TH and DATA-LABEL</p>
 
 <table class="table" id="t1">
 	<caption>Table 1</caption>
@@ -285,16 +285,31 @@ thead th {
 	</thead>
 	<tbody>
 		<tr>
-			<td data-label="Province or territory">Alberta</td>
+			<th scope="rowgroup" colspan="4">West Coast</th>
+		</tr>
+		<tr class="active">
+			<th scope="row" data-label="Province or territory">British Columbia</th>
+			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
+			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
+			<td data-label="Total" class="text-right nowrap">2,473,661</td>
+		</tr>
+		<tr>
+			<th scope="rowgroup" colspan="4">Prairies</th>
+		</tr>
+		<tr>
+			<th scope="row" data-label="Province or territory">Alberta</th>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">385,449</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">3,406</td>
 			<td data-label="Total" class="text-right nowrap">388,855</td>
 		</tr>
 		<tr>
-			<th scope="rowgroup" colspan="4">New section</th>
+			<th scope="row" data-label="Province or territory">Saskatchewan</th>
+			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">385,449</td>
+			<td data-label="Minor's Licence" class="text-right nowrap">3,406</td>
+			<td data-label="Total" class="text-right nowrap">388,855</td>
 		</tr>
 		<tr class="active">
-			<td data-label="Province or territory">Total</td>
+			<th scope="row" data-label="Province or territory">Manitoba</th>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
 			<td data-label="Total" class="text-right nowrap">2,473,661</td>
@@ -316,19 +331,34 @@ thead th {
 	</thead>
 	<tbody>
 		<tr>
-			<td>Manitoba</td>
+			<th scope="rowgroup" colspan="4">West Coast</th>
+		</tr>
+		<tr>
+			<th scope="row">British Columbia</th>
 			<td class="text-right nowrap">105,185</td>
 			<td class="text-right nowrap">846</td>
 			<td class="text-right nowrap">106,031</td>
 		</tr>
 		<tr>
-			<th scope="rowgroup" colspan="4">New section</th>
+			<th scope="rowgroup" colspan="4">Prairies</th>
 		</tr>
-		<tr class="active">
-			<td>Total</td>
-			<td class="text-right nowrap">2,458,677</td>
-			<td class="text-right nowrap">14,984</td>
-			<td class="text-right nowrap">2,473,661</td>
+		<tr>
+			<th scope="row">Alberta</th>
+			<td class="text-right nowrap">105,185</td>
+			<td class="text-right nowrap">846</td>
+			<td class="text-right nowrap">106,031</td>
+		</tr>
+		<tr>
+			<th scope="row">Saskatchewan</th>
+			<td class="text-right nowrap">105,185</td>
+			<td class="text-right nowrap">846</td>
+			<td class="text-right nowrap">106,031</td>
+		</tr>
+		<tr>
+			<th scope="row">Manitoba</th>
+			<td class="text-right nowrap">105,185</td>
+			<td class="text-right nowrap">846</td>
+			<td class="text-right nowrap">106,031</td>
 		</tr>
 	</tbody>
 </table>
@@ -381,27 +411,26 @@ thead th {
 	</thead>
 	<tbody>
 		<tr>
-			<th scope="rowgroup" rowspan="2" data-label="Province or territory">Alberta</th>
-			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">385,449</td>
-			<td data-label="Minor's Licence" class="text-right nowrap">3,406</td>
-			<td data-label="Total" class="text-right nowrap">388,855</td>
+			<th scope="rowgroup" rowspan="2">Alberta</th>
+			<td class="text-right nowrap">385,449</td>
+			<td class="text-right nowrap">3,406</td>
+			<td class="text-right nowrap">388,855</td>
 		</tr>
 		<tr>
-			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">458,677</td>
-			<td data-label="Minor's Licence" class="text-right nowrap">4,984</td>
-			<td data-label="Total" class="text-right nowrap">473,661</td>
+			<td class="text-right nowrap">458,677</td>
+			<td class="text-right nowrap">4,984</td>
+			<td class="text-right nowrap">473,661</td>
 		</tr>
 		<tr class="active">
-			<td data-label="Province or territory">Total</td>
-			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
-			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
-			<td data-label="Total" class="text-right nowrap">2,473,661</td>
+			<th>Total</th>
+			<td class="text-right nowrap">2,458,677</td>
+			<td class="text-right nowrap">14,984</td>
+			<td class="text-right nowrap">2,473,661</td>
 		</tr>
 	</tbody>
 </table>
 
 </section>
 
-<script>
-  
-</script>
+
+<script></script>

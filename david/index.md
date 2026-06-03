@@ -29,7 +29,8 @@ thead th {
 
 		tr {
 			display: block;
-			margin-bottom: 1em;
+			/* margin-bottom: 1em; */
+			padding-block: 1em;
 			border-block: 1px solid var(--rcmp-grey-md);
 		}
 
@@ -46,7 +47,7 @@ thead th {
 		tbody th::before {
 			content: attr(data-label) / attr(data-label);
 			display: block;
-			font-weight: 700;
+			font-weight: 400;
 			font-size: 0.85em;
 			color: var(--rcmp-grey-dk);
 			margin-bottom: 0.1em;

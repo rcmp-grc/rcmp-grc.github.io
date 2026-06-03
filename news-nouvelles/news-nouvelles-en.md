@@ -79,7 +79,7 @@ issued: 2026-05-21
   <div class="col-md-4">
     <section class="gc-drmt">
       <h3 class="h5" data-emptytext="Executive"><a href="/en/news/comm-en.html">Read the latest communications from our executive</a></h3>
-      <p>Read all news from the leaders of the <abbr>RCMP</abbr> across Canada.</p>
+      <p>Read news shared by the leaders of the <abbr>RCMP</abbr> across Canada.</p>
     </section>
   </div>
   <div class="col-md-4">
@@ -356,7 +356,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       category:       'Category\u00A0: ',
 	  territory:      'Territory\u00A0: ',	
       region:         'Region\u00A0: ',
-      lastSeen:       'Last seen\u00A0: ',
+      summary:        'Summary\u00A0: ',
       ofPages:        ' of ',
       showing:        'Showing\u00A0: ',
       orSep:          'or'
@@ -372,7 +372,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
 	  territory:      'Territory\u00A0: ',	
       region:         'Region\u00A0: ',
 	  updated:        'Mise à jour\u00A0: ',
-      lastSeen:       'Vu(e) pour la dernière fois\u00A0: ',
+      summary:       'Sommaire\u00A0: ',
       ofPages:        ' sur ',
       showing:        'Affichage\u00A0:',
       orSep:          'ou'
@@ -381,7 +381,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   var t  = I18N[lang];
   var $  = document.getElementById.bind(document);
   var ni = lang === 'fr' ? 1 : 0;
-  // [nameEN, nameFR, file, category, territory, region, lastSeen, updated, views]
+  // [nameEN, nameFR, file, category, territory, region, summary, updated, views]
   var RAW = [
     ['RCMP and CBSA dismantle crime group after nearly 250&nbsp;kg of cocaine is detected in shipping container in Halifax', 'RCMP and CBSA dismantle crime group after nearly 250&nbsp;kg of cocaine is detected in shipping container in Halifax', '32473043', 'Organized crime and Illicit drugs', 'Halifax, Nova Scotia', 'Nova Scotia RCMP', 'RCMP and CBSA dismantle crime group', '2026-05-08', 1420],
     ['Bay St. George RCMP issue warning about counterfeit currency circulating in the area', 'Bay St. George RCMP issue warning about counterfeit currency circulating in the area', '30847192', 'Fraud', 'Bay St. George, Nunavut', 'Nunavut RCMP', 'Counterfeit currency circulating in the Bay St. George area.', '2026-05-07', 980 ],
@@ -404,7 +404,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       category:  r[3],
       territory: r[4],
       region:    r[5],
-      lastSeen:  r[6],
+      summary:   r[6],
       updated:   r[7],
       views:     r[8]
     };
@@ -503,7 +503,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
           '<h2 class="h4">' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' +'</h2>' +
 		  '<div class="details-landing">' + '<div class="wb-inv">' + t.updated + '</div>' + p.updated + '|'+ '<div class="wb-inv">' + t.region + '</div>' + p.region + '|' + '<div class="wb-inv">' + t.category + '</div>' + p.category + '</div>' +
 		  '<p>' + '<div class="wb-inv">' + t.territory + '</div>' + '<strong>' + p.territory + '</strong>' + '</p>' +
-          '<p>' + '<div class="wb-inv">' + t.lastSeen + '</div>' + p.lastSeen + '</p>' +
+          '<p>' + '<div class="wb-inv">' + t.summary + '</div>' + p.summary + '</p>' +
 		  '</div>';
       grid.appendChild(li);
     });

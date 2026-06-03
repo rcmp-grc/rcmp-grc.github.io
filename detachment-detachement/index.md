@@ -114,10 +114,10 @@ issued: 2026-05-04
 							<dd>
 								<ul>
 									<li><i class="fa-solid fa-wheelchair-move"></i> Access For People With Reduced Mobility</li>
-									<li>Assistance Dogs Welcome</li>
-									<li>First Aid</li>
-									<li>Twenty Four Hr Access</li>
-									<li>Automatic Doors</li>
+									<li><i class="fa-light fa-dog-leashed"></i> Assistance Dogs Welcome</li>
+									<li><i class="fa-light fa-kit-medical"></i> First Aid</li>
+									<li><i class="fa-regular fa-shop-24"></i> Twenty Four Hr Access</li>
+									<li><i class="fa-regular fa-door-open"></i> Automatic Doors</li>
 								</ul>							
 							</dd>
 						</dl>

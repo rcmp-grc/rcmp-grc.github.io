@@ -113,7 +113,8 @@ issued: 2026-05-04
 							<dt>Services and accessibility information</dt>
 							<dd>
 								<i class="fa-solid fa-fingerprint"></i> Fingerprinting (by appointment only)<br>
-								<i class="fa-solid fa-wheelchair-move"></i> Access For People With Reduced Mobility<br>
+								<i class="fa-solid fa-file-lines"></i> Criminal records check<br>
+								<i class="fa-solid fa-wheelchair-move"></i> Wheelchair accessible<br>
 								<i class="fa-solid fa-shield-dog"></i> Assistance Dogs Welcome<br>
 								<i class="fa-solid fa-kit-medical"></i> First Aid<br>
 								<i class="fa-solid fa-user-clock"></i> Twenty Four Hr Access<br>

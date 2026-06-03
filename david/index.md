@@ -23,6 +23,8 @@ thead th {
 @media screen and (max-width: 991px) {
 	table:not(.fixed):has(td[data-label]) {
 
+		border: none;
+
 		thead {
 			display: none;
 		}
@@ -31,13 +33,15 @@ thead th {
 			display: block;
 			/* margin-bottom: 1em; */
 			padding-block: 1em;
-			border-block: 1px solid var(--rcmp-grey-md);
+			border-block-end: 1px solid var(--rcmp-grey-md);
 		}
+
+/* Can we get rid of tboday? what if they use tfoot for data? */
 
 		tbody td,
 		tbody th {
 			display: block;
-			padding: 0.35em 0.75em;
+			padding-block: 0.35em;
 			border: none;
 			text-align: left !important;
 			white-space: normal;
@@ -61,14 +65,14 @@ thead th {
 		th[colspan] {
 			display: block;
 			background-color: var(--rcmp-grey-lt);
-			padding: 0.5em 0.75em;
+			padding-block: 0.5em;
 			font-weight: bold;
 			/* border-bottom: 1px solid var(--rcmp-grey-md); */
 		}
 
-		&.table-bordered {
+		/* &.table-bordered {
 			border: none;
-		}
+		} */
 
 		&.table-condensed tbody,
 		&.table-sm tbody {

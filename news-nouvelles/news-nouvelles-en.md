@@ -403,13 +403,12 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     return {
       id:        i + 1,
       name:      r[ni],
-      category:  r[3],
-	  location:  r[4],	
-      territory: r[5],	
-      region:    r[6],
-      summary:   r[7],
-      updated:   r[8],
-      views:     r[9]
+      category:  r[3],	
+      territory: r[4],	
+      region:    r[5],
+      summary:   r[6],
+      updated:   r[7],
+      views:     r[8]
     };
   });
   var PER_PAGE    = 9;

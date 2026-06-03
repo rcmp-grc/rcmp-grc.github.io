@@ -1,13 +1,13 @@
 ---
 layout: default
-title: David's testing grounds
+title: Dave's testing grounds
 date_modified: 2026-06-03
 lang: en
 lang_url: index-fr.html
 ---
 
 <style>
-  /* Give tables in charts a white background */
+/* Give tables in charts a white background */
 figure td {
 	background-color: var(--rcmp-white, #fff)
 }
@@ -21,11 +21,7 @@ th {
 /* Fluid tables */
 
 @media screen and (max-width: 991px) {
-	table:not(.boring):has(td[data-label]) {
-
-		&.table-bordered {
-		border: none;
-		}
+	table:has(td[data-label]) {
 
 		thead {
 			display: none;
@@ -37,7 +33,7 @@ th {
 			border: 1px solid #ccc;
 		}
 
-		tbody td {
+		tbody td, tbody th {
 			display: block;
 			padding: 0.35em 0.75em;
 			border: none;
@@ -45,8 +41,8 @@ th {
 			white-space: normal;
 		}
 
-		tbody td::before {
-			content: attr(data-label) / attr(data-label);
+		tbody td::before, tbody th::before {
+			content: attr(data-label);
 			display: block;
 			font-weight: 700;
 			font-size: 0.85em;
@@ -99,6 +95,8 @@ th {
 
 <p>Table 1: table with DATA-LABEL</p>
 
+<p>Table 1: table with DATA-LABEL</p>
+
 <table class="table" id="t1">
 	<caption>Table 1</caption>
 	<thead>
@@ -141,7 +139,6 @@ th {
 			<th scope="col" class="text-right">Possession and Acquisition Licence</th>
 			<th scope="col" class="text-right">Minor's Licence</th>
 			<th scope="col" class="text-right">Total</th>
-		</tr>
 		</tr>
 	</thead>
 	<tbody>
@@ -211,7 +208,6 @@ th {
 			<th scope="col" class="text-right">Minor's Licence</th>
 			<th scope="col" class="text-right">Total</th>
 		</tr>
-		</tr>
 	</thead>
 	<tbody>
 		<tr>
@@ -280,7 +276,6 @@ th {
 			<th scope="col" class="text-right">Minor's Licence</th>
 			<th scope="col" class="text-right">Total</th>
 		</tr>
-		</tr>
 	</thead>
 	<tbody>
 		<tr>
@@ -346,7 +341,6 @@ th {
 			<th scope="col" class="text-right">Minor's Licence</th>
 			<th scope="col" class="text-right">Total</th>
 		</tr>
-		</tr>
 	</thead>
 	<tbody>
 		<tr>
@@ -400,6 +394,7 @@ th {
 		</tr>
 	</tbody>
 </table>
+
 
 
 </section>

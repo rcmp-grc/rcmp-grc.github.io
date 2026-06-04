@@ -1164,14 +1164,8 @@ a.btn-careers:hover {
 }
 
 .po-end {
-  background: url("/assets/img/po-end.jpg") center / cover no-repeat;
-  height: 65vh;
-}
-
-.po-end-gradient {
-  background: linear-gradient(180deg, var(--c-white) 0%, transparent 15%);
-  width: 100%;
-  height: 100%;
+  background: url("/assets/img/po-end.jpg") bottom / cover no-repeat;
+  height: 40vh;
 }
 
 @media (min-width: 768px) {

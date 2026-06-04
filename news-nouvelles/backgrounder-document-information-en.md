@@ -135,17 +135,15 @@ issued: 2026-05-08
 <li><a href="#">Arctic and northern affairs</a></li>	
 </ul>
 </section>
-<section id="s7">
-<h2 class="h3">Contacts</h2>
 <div class="contact-signature">
+	<section id="s7">
+	<h2 class="h3">Contact us</h2>
     <h3 class="h5 mrgn-tp-lg">National Communications and Public Affairs</h3>
-     <p>
-     <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a>
-     <br>
-     613-555-0100</p>
+     <p> <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a>
+     <br> 613-555-0100</p>
 	<section class="gc-followus">
-							<h4 class="h6 mrgn-tp-lg">Follow us</h4>
-							<ul class="list-inline">  
+	<h4 class="h6 mrgn-tp-lg">Follow us</h4>
+	<ul class="list-inline">  
 <li>
      <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
           <span class="wb-inv">X: </span>X: Royal Canadian Mounted Police</a>
@@ -160,7 +158,7 @@ issued: 2026-05-08
 </li>               
 							</ul>
 						</section>		
-</div>	</section>
+	</section></div>
 <div class="explore">	
 <section id="s8">	
 <h2 class="h3">Explore related topics</h2>

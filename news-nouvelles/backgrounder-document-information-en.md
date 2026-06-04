@@ -133,50 +133,26 @@ issued: 2026-05-08
 <section id="s7">
 <h2 class="h3">Contacts</h2>
 <div class="contact-signature">
-    <strong>National Communications and Public Affairs</strong>
+    <h3 class="h5 mrgn-tp-lg">National Communications and Public Affairs</h3>
      <br>     
      <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a>
      <br>
      613-555-0100<br>
 	<section class="gc-followus">
-							<h3 class="h5 mrgn-tp-lg">Follow us</h3>
-							<ul class="list-inline">
-								
-
-               
-<li>
-     <a href="https://www.facebook.com/rcmpgrc" class="facebook" rel="external">
-          <span class="wb-inv">Facebook: </span>Facebook: Royal Canadian Mounted Police</a>
-</li>
-
-
-               
-<li>
-     <a href="https://www.instagram.com/rcmpgrcpolice/" class="instagram" rel="external">
-          <span class="wb-inv">Instagram: </span>Instagram: Royal Canadian Mounted Police</a>
-</li>
-
-
-               
-<li>
-     <a href="https://www.linkedin.com/company/rcmp-grc/" class="linkedin" rel="external">
-          <span class="wb-inv">LinkedIn: </span>LinkedIn: Royal Canadian Mounted Police</a>
-</li>
-
-
-               
+							<h4 class="h6 mrgn-tp-lg">Follow us</h4>
+							<ul class="list-inline">  
 <li>
      <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
           <span class="wb-inv">X: </span>X: Royal Canadian Mounted Police</a>
-</li>
-
-
-               
+</li>									
 <li>
-     <a href="https://www.youtube.com/user/rcmpgrcpolice" class="youtube" rel="external">
-          <span class="wb-inv">YouTube: </span>YouTube: Royal Canadian Mounted Police</a>
-</li>
-
+     <a href="https://www.facebook.com/rcmpgrc" class="facebook" rel="external">
+          <span class="wb-inv">Facebook: </span>Facebook: Royal Canadian Mounted Police</a>
+</li>          							
+<li>
+     <a href="https://www.instagram.com/rcmpgrcpolice/" class="instagram" rel="external">
+          <span class="wb-inv">Instagram: </span>Instagram: Royal Canadian Mounted Police</a>
+</li>               
 							</ul>
 						</section>		
 </div>	</section>

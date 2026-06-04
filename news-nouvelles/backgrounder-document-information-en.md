@@ -42,36 +42,61 @@ issued: 2026-05-08
 	.wb-lbx lbx-gal
 	{ padding-left: 15px;
 	}
-	.event
-	{ border-left: 3px solid #f2f2f2;
-	  border-right: 3px solid #f2f2f2;
-	  border-bottom: 3px solid #f2f2f2;
-	  border-top: 3px solid #f2f2f2;
-	  padding-left: 0px;
-	  padding-right: 10px;
-	}
-	.event-tag
-	{ font-weight: bold;
-	  font-color: #0b0c0c;
-	  padding-left: 0px; 
-	  width: 175px;
-	  background-color: #f2f2f2;
-	}
-	.event-details
-	{ font-weight: normal;
-	  font-color: #0b0c0c;
-	  padding-left: 10px; 
-	  background-color: #ffffff;
-	}
 </style>
 <p class="lead">Bob the Polar Bear is the Royal Canadian Mounted Police’s newest unofficial northern mascot.</p>
 <div class="details">
 <p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May&nbsp;14, 2026 - Richmond, British Columbia<br>
 <i class="fa-regular fa-circle-user"></i> <a href="https://rcmp.ca/en/#">National Communications and Public Affairs</a></p></div>
-<section id="n1">
+<section id="page-navigation">
+	<h2 class="h3">On this page</h2>
+	<ul>
+		<li><a href="#s1">Overview</a></li>
+		<li><a href="#s2">About Bob</a></li>
+		<li><a href="#s3">Community engagement</a></li>
+		<li><a href="#s4">Quick facts</a></li>
+		<li><a href="#s5">Quotes</a></li>
+		<li><a href="#s6">Associated links</a></li>
+		<li><a href="#s7">Contacts</a></li>
+		<li><a href="#s8">Explore related topics</a></li>
+	</ul>
+</section>
+<section id="s1">
 <h2 class="h3">Overview</h2>
 <p>Bob the Polar Bear is the Royal Canadian Mounted Police’s newest unofficial northern mascot. Friendly, curious, and known for wandering into community events uninvited but somehow always welcomed, Bob has quickly become a recognizable face at RCMP outreach activities across northern and Arctic communities.</p>
 <p>This backgrounder provides general information about Bob, his role in public engagement activities, and how the RCMP uses light-hearted community initiatives to help build relationships with Canadians.</p>
+</section>
+<section id="s2">
+<h2 class="h3">About Bob</h2>
+<p>Bob is described as calm, polite, and unusually interested in traffic safety presentations. According to unofficial RCMP folklore, he once attended an entire community town hall simply because someone mentioned free hot chocolate.</p>
+<p>While Bob is not an operational member of the RCMP, the character is used to support public education and outreach activities in a way that is approachable and family friendly.</p>
+<p>Bob is especially popular with children during:</p>
+<ul>
+<li>community barbecues</li>
+<li>school visits</li>
+<li>holiday parades</li>
+<li>northern recruitment events</li>
+<li>winter festivals</li>
+</ul>
+</section>
+<section id="s3">
+<h2 class="h3">Community engagement</h2>
+<p>The RCMP works with communities across Canada to build trust, encourage open dialogue, and support public safety initiatives. Creative outreach tools and mascots can help start conversations, especially with youth.</p>
+<section class="alert alert-warning">
+ <h3 class="h4">Safety and wildlife message</h3>
+<p>Although Bob is a fictional mascot, polar bears are real wild animals and can be dangerous. Canadians visiting northern regions should always follow local wildlife safety guidance and instructions from authorities and community leaders.</p>
+<p>More information on wildlife safety is available through: <a href="#">Polar bear safety information</a>.</p>	
+</section>		
+<p>Bob has supported awareness activities related to:</p>	
+<ul>
+<li>ice safety</li>
+<li>safe snowmobile use</li>
+<li>emergency kits and winter preparedness</li>
+<li>anti-bullying initiatives</li>
+<li>mental health awareness campaigns</li>
+<li>environmental stewardship</li>
+</ul>	
+</section>
+<section id="s4">
 <h2 class="h3">Quick facts</h2>
 <ul>
 <li>Bob is a fictional RCMP community mascot inspired by Canada’s Arctic wildlife</li>
@@ -88,45 +113,24 @@ issued: 2026-05-08
 </ul>
 </li>
 </ul>
-<h2 class="h3">About Bob</h2>
-<p>Bob is described as calm, polite, and unusually interested in traffic safety presentations. According to unofficial RCMP folklore, he once attended an entire community town hall simply because someone mentioned free hot chocolate.</p>
-<p>While Bob is not an operational member of the RCMP, the character is used to support public education and outreach activities in a way that is approachable and family friendly.</p>
-<p>Bob is especially popular with children during:</p>
-<ul>
-<li>community barbecues</li>
-<li>school visits</li>
-<li>holiday parades</li>
-<li>northern recruitment events</li>
-<li>winter festivals</li>
-</ul>
-<h2 class="h3">Community engagement</h2>
-<p>The RCMP works with communities across Canada to build trust, encourage open dialogue, and support public safety initiatives. Creative outreach tools and mascots can help start conversations, especially with youth.</p>
-<section class="alert alert-warning">
- <h2 class="h3">Safety and wildlife message</h2>
-<p>Although Bob is a fictional mascot, polar bears are real wild animals and can be dangerous. Canadians visiting northern regions should always follow local wildlife safety guidance and instructions from authorities and community leaders.</p>
-<p>More information on wildlife safety is available through: <a href="#">Polar bear safety information</a>.</p>	
-</section>		
-<p>Bob has supported awareness activities related to:</p>	
-<ul>
-<li>ice safety</li>
-<li>safe snowmobile use</li>
-<li>emergency kits and winter preparedness</li>
-<li>anti-bullying initiatives</li>
-<li>mental health awareness campaigns</li>
-<li>environmental stewardship</li>
-</ul>
 <p>At some events, Bob has also been known to challenge RCMP officers to snowshoe races. Results remain disputed.</p>
+</section>
+<section id="s5">
 <h2 class="h3">Quotes</h2>
 <blockquote class="cn-pullquote"><p>Community policing is about relationships. Sometimes those relationships include a six-foot polar bear mascot wearing an RCMP scarf.<br>
 <span class="small"><cite>RCMP Community Engagement Officer</cite></span></p></blockquote>
 <blockquote class="cn-pullquote"><p>Bob reminds people that public safety conversations do not always need to feel formal. A little humour can go a long way.<br>
 <span class="small"><cite>National Communications and Public Affairs</cite></span></p></blockquote>
+</section>
+<section id="s6">
 <h2 class="h3">Associated links</h2>
 <ul>
 <li><a href="#">Royal Canadian Mounted Police</a></li>	
 <li><a href="#">Emergency preparedness</a></li>
 <li><a href="#">Arctic and northern affairs</a></li>	
 </ul>
+</section>
+<section id="s7">
 <h2 class="h3">Contacts</h2>
 <div class="contact-signature">
     <strong>National Communications and Public Affairs</strong>
@@ -168,10 +172,12 @@ issued: 2026-05-08
                </div>
           </div>     
      </div>
-</div>	
+</div>	</section>
 <div class="explore">	
+<section id="s8">	
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
-  <li><span class="label label-default"><u>Community interest</u></span></li>
+  <li><span class="label label-default"><a href="#">Community interest</a></span></li>
 </ol>
+</section>
 </div>

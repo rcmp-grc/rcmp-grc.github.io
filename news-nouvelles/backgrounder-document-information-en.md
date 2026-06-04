@@ -138,27 +138,47 @@ issued: 2026-05-08
      <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a>
      <br>
      613-555-0100<br>
-     <div class="signature-link-grid">
-                    <div class="signature-link-subgrid">
-                    <a href="https://rcmp.ca/en/#">National Communications and Public Affairs</a>
-               </div> 
-                    <div class="signature-link-subgrid">
-               <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
-          <span class="wb-inv">X: </span>X: Royal Canadian Mounted Police</a>
-               </div>
-          </div>
-                    <div class="signature-link-subgrid">
-               <div>
-                    <a href="#" class="facebook" rel="external">
+	<section class="gc-followus">
+							<h3 class="h5 mrgn-tp-lg">Follow us</h3>
+							<ul class="list-inline">
+								
+
+               
+<li>
+     <a href="https://www.facebook.com/rcmpgrc" class="facebook" rel="external">
           <span class="wb-inv">Facebook: </span>Facebook: Royal Canadian Mounted Police</a>
-               </div>
-          </div>
-                    <div class="signature-link-subgrid">
-               <a href="https://www.instagram.com/rcmpgrcpolice/" class="instagram" rel="external">
+</li>
+
+
+               
+<li>
+     <a href="https://www.instagram.com/rcmpgrcpolice/" class="instagram" rel="external">
           <span class="wb-inv">Instagram: </span>Instagram: Royal Canadian Mounted Police</a>
-               </div>
-          </div>     
-     </div>
+</li>
+
+
+               
+<li>
+     <a href="https://www.linkedin.com/company/rcmp-grc/" class="linkedin" rel="external">
+          <span class="wb-inv">LinkedIn: </span>LinkedIn: Royal Canadian Mounted Police</a>
+</li>
+
+
+               
+<li>
+     <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
+          <span class="wb-inv">X: </span>X: Royal Canadian Mounted Police</a>
+</li>
+
+
+               
+<li>
+     <a href="https://www.youtube.com/user/rcmpgrcpolice" class="youtube" rel="external">
+          <span class="wb-inv">YouTube: </span>YouTube: Royal Canadian Mounted Police</a>
+</li>
+
+							</ul>
+						</section>		
 </div>	</section>
 <div class="explore">	
 <section id="s8">	

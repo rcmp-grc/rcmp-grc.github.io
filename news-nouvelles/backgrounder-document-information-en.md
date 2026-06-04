@@ -134,10 +134,10 @@ issued: 2026-05-08
 <h2 class="h3">Contacts</h2>
 <div class="contact-signature">
     <h3 class="h5 mrgn-tp-lg">National Communications and Public Affairs</h3>
-     <br>     
+     <p>
      <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a>
      <br>
-     613-555-0100<br>
+     613-555-0100</p>
 	<section class="gc-followus">
 							<h4 class="h6 mrgn-tp-lg">Follow us</h4>
 							<ul class="list-inline">  

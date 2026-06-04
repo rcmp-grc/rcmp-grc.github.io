@@ -112,13 +112,15 @@ issued: 2026-05-04
 						<dl>
 							<dt>Services and accessibility information</dt>
 							<dd>
-								<i class="fa-solid fa-fingerprint"></i> Fingerprinting (by appointment only)<br>
-								<i class="fa-solid fa-file-lines"></i> Criminal records check<br>
-								<i class="fa-solid fa-wheelchair-move"></i> Wheelchair accessible<br>
-								<i class="fa-solid fa-shield-dog"></i> Assistance Dogs Welcome<br>
-								<i class="fa-solid fa-kit-medical"></i> First Aid<br>
-								<i class="fa-solid fa-user-clock"></i> Twenty Four Hr Access<br>
-								<i class="fa-solid fa-door-open"></i> Automatic Doors<br>							
+								<ul class="list-unstyled">
+								<li><i class="fa-solid fa-fingerprint"></i> Fingerprinting (by appointment only)</li>
+								<li><i class="fa-solid fa-file-lines"></i> Criminal records check</li>
+								<li><i class="fa-solid fa-wheelchair-move"></i> Wheelchair accessible</li>
+								<li><i class="fa-solid fa-shield-dog"></i> Assistance Dogs Welcome</li>
+								<li><i class="fa-solid fa-kit-medical"></i> First Aid</li>
+								<li><i class="fa-solid fa-user-clock"></i> Twenty Four Hr Access</li>
+								<li><i class="fa-solid fa-door-open"></i> Automatic Doors</li>						
+								</ul>							
 							</dd>
 						</dl>
 					</td>

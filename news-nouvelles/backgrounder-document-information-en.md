@@ -140,35 +140,22 @@ issued: 2026-05-08
      613-555-0100<br>
      <div class="signature-link-grid">
                     <div class="signature-link-subgrid">
-               <div>
-                    <i class="fa fa-link" aria-hidden="true"></i>
-               </div>
-               <div>
                     <a href="https://rcmp.ca/en/#">National Communications and Public Affairs</a>
-               </div>
-          </div>   
+               </div> 
                     <div class="signature-link-subgrid">
-               <div>
-                     <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
-               </div>
-               <div>
-                    <a href="https://x.com/#">@NCPA</a>
+               <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
+          <span class="wb-inv">X: </span>X: Royal Canadian Mounted Police</a>
                </div>
           </div>
                     <div class="signature-link-subgrid">
                <div>
-                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
-               </div>
-               <div>
-                    <a href="https://www.facebook.com/#">NCPA</a>
+                    <a href="#" class="facebook" rel="external">
+          <span class="wb-inv">Facebook: </span>Facebook: Royal Canadian Mounted Police</a>
                </div>
           </div>
                     <div class="signature-link-subgrid">
-               <div>
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-               </div>
-               <div>
-                    <a href="https://www.instagram.com/#">@ncpa</a>
+               <a href="https://www.instagram.com/rcmpgrcpolice/" class="instagram" rel="external">
+          <span class="wb-inv">Instagram: </span>Instagram: Royal Canadian Mounted Police</a>
                </div>
           </div>     
      </div>

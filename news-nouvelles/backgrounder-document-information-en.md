@@ -88,7 +88,7 @@ issued: 2026-05-08
 <li>environmental stewardship</li>
 </ul>	
 </section>
-<section id="s4">
+<section id="facts">
 <h2 class="h3">Quick facts</h2>
 <ul>
 <li>Bob is a fictional RCMP community mascot inspired by Canada’s Arctic wildlife</li>
@@ -107,14 +107,14 @@ issued: 2026-05-08
 </ul>
 <p>At some events, Bob has also been known to challenge RCMP officers to snowshoe races. Results remain disputed.</p>
 </section>
-<section id="s5">
+<section id="quotes">
 <h2 class="h3">Quotes</h2>
 <blockquote class="cn-pullquote"><p>Community policing is about relationships. Sometimes those relationships include a six-foot polar bear mascot wearing an RCMP scarf.<br>
 <span class="small"><cite>RCMP Community Engagement Officer</cite></span></p></blockquote>
 <blockquote class="cn-pullquote"><p>Bob reminds people that public safety conversations do not always need to feel formal. A little humour can go a long way.<br>
 <span class="small"><cite>National Communications and Public Affairs</cite></span></p></blockquote>
 </section>
-<section id="s6">
+<section id="links">
 <h2 class="h3">Associated links</h2>
 <ul>
 <li><a href="#">Royal Canadian Mounted Police</a></li>	
@@ -122,12 +122,14 @@ issued: 2026-05-08
 <li><a href="#">Arctic and northern affairs</a></li>	
 </ul>
 </section>
-	<section id="s7">
+<section id="gc-contact">
 	<h2 class="h3">Contact us</h2>
 	<div class="contact-signature">	
     <p><strong>National Communications and Public Affairs</strong><br>
    <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
    613-555-0100</p>
+	 <div class="signature-link-grid">
+    <div class="signature-link-subgrid">	
 	<section class="gc-followus">
 	<h3 class="h6 wb-inv">Follow us</h4>
 	<ul class="list-inline">  
@@ -146,9 +148,11 @@ issued: 2026-05-08
 							</ul>
 						</section>	
 	</div>
+	 </div>
+	</div>
 	</section>
 <div class="explore">	
-<section id="s8">	
+<section id="topics">	
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
   <li><span class="label label-default"><a href="#">Community interest</a></span></li>

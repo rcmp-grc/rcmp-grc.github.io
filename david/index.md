@@ -121,7 +121,7 @@ thead th {
 <section id="tables">
   <h2>Table tests</h2>
 
-<p>Table 1: table with TH and DATA-LABEL</p>
+<p>Table 1: table with TH and DATA-LABEL and TFOOT</p>
 
 <table class="table" id="t1">
 	<caption>Table 1: This table should collapse when small since it has DATA-LABEL attributes on the TD and TH elements</caption>
@@ -155,10 +155,9 @@ thead th {
 			<td data-label="Total" class="text-right nowrap">2,473,661</td>
 		</tr>
 	</tfoot>
-	</tbody>
 </table>
 
-<p>Table 2: table with TH without DATA-LABEL</p>
+<p>Table 2: table with TH without DATA-LABEL and TFOOT</p>
 
 <table class="table" id="t2">
 	<caption>Table 2: This table should not collapse when small since it does not have DATA-LABEL attributes</caption>
@@ -194,7 +193,7 @@ thead th {
 	</tfoot>
 </table>
 
-<p>Table 3: table table-fixed with DATA-LABEL (same as first, but fixed)</p>
+<p>Table 3: table table-fixed with DATA-LABEL and TFOOT (same as first, but fixed)</p>
 
 <table class="table table-fixed" id="t3">
 	<caption>Table 3: This table should not collapse when small because it has the TABLE-FIXED class, even though it has DATA-LABEL attributes on the TD and TH elements</caption>
@@ -245,19 +244,19 @@ thead th {
 	</thead>
 	<tbody>
 		<tr>
-			<th scope="row" data-label="Province or territory">Alberta</th>
+			<td data-label="Province or territory">Alberta</td>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">385,449</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">3,406</td>
 			<td data-label="Total" class="text-right nowrap">388,855</td>
 		</tr>
 		<tr>
-			<th scope="row" data-label="Province or territory">British Columbia</th>
+			<td data-label="Province or territory">British Columbia</td>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">377,271</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">1,667</td>
 			<td data-label="Total" class="text-right nowrap">378,938</td>
 		</tr>
-		<tr class="active">
-			<th scope="row" data-label="Province or territory">Total</th>
+		<tr>
+			<td data-label="Province or territory">Total</td>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
 			<td data-label="Total" class="text-right nowrap">2,473,661</td>

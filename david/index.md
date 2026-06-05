@@ -32,23 +32,38 @@ thead th {
 		tr {
 			display: block;
 			/* margin-bottom: 1em; */
-			padding-block: 1em;
+			padding: 0;
 			border-block-end: 1px solid var(--rcmp-grey-md);
 		}
 
-/* Can we get rid of tboday? what if they use tfoot for data? */
+		/* Can we get rid of tbody? what if they use tfoot for data? */
 
-		tbody td,
-		tbody th {
+		th,
+		td {
 			display: block;
-			padding-block: 0.35em;
 			border: none;
 			text-align: left !important;
 			white-space: normal;
 		}
 
-		tbody td::before,
-		tbody th::before {
+		th {
+			padding: 0.75em 0;
+		}
+
+		td {
+			padding: 0.375em 0;
+
+			&:first-of-type {
+				padding-block-start: 0.75em;
+			}
+
+			&:last-of-type {
+				padding-block-end: 0.75em;
+			}
+		}
+
+		td::before,
+		th::before {
 			content: attr(data-label) / attr(data-label);
 			display: block;
 			font-weight: 400;
@@ -57,39 +72,39 @@ thead th {
 			margin-bottom: 0.1em;
 		}
 
-		:is(td, th)+ :is(td, th) {
-			/* border-top: 1px solid var(--rcmp-grey-lt); */
-			/* padding-top: 0.5em; */
-		}
+		/* :is(td, th)+ :is(td, th) {
+			/* border-top: 1px solid var(--rcmp-grey-lt); 
+			padding-top: 0.375em;
+		} */
 
 		th[colspan] {
-			display: block;
+			/* display: block; */
 			background-color: var(--rcmp-grey-lt);
-			padding-block: 0.5em;
-			font-weight: bold;
+			/* padding: 0.75em 0; */
+			/* font-weight: bold; */
 			/* border-bottom: 1px solid var(--rcmp-grey-md); */
 		}
 
-		/* &.table-bordered {
-			border: none;
+		/* &.table-bordered td {
+			border-block-start: 1px solid var(--rcmp-grey-lt);
 		} */
 
 		&.table-condensed tbody,
 		&.table-sm tbody {
 			td {
-				padding: 0.2em 0.6em;
+				padding: 0.25em 0;
 			}
 
 			th[colspan] {
-				padding: 0.3em 0.6em;
+				padding: 0.375em 0;
 			}
 
 			td::before {
-				font-size: 0.8em;
+				font-size: 0.75em;
 			}
 
 			:is(td, th)+ :is(td, th) {
-				padding-top: 0.3em;
+				padding-top: 0.25em;
 			}
 		}
 	}

@@ -127,9 +127,7 @@ issued: 2026-05-08
 	<div class="contact-signature">	
     <p><strong>National Communications and Public Affairs</strong><br>
    <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
-   613-555-0100</p>
-	 <div class="signature-link-grid">
-    <div class="signature-link-subgrid">	
+   613-555-0100</p>	
 	<section class="gc-followus">
 <h2 class="h4 mrgn-tp-lg wb-inv">Follow us</h2>
 <ul class="list-inline">     
@@ -147,8 +145,6 @@ issued: 2026-05-08
 </li>
 							</ul>
 	</section>
-	</div>
-	 </div>
 	</div>
 	</section>
 <div class="explore">	

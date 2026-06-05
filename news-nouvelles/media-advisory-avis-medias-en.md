@@ -85,47 +85,26 @@ issued: 2026-05-08
 </section>
 <section id="s4">
 <h2 class="h3">Contacts</h2>
-<div class="contact-signature">
-    <strong>National Communications and Public Affairs</strong>
-     <br>     
-     <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a>
-     <br>
-     613-555-0100<br>
-     <div class="signature-link-grid">
-                    <div class="signature-link-subgrid">
-               <div>
-                    <i class="fa fa-link" aria-hidden="true"></i>
-               </div>
-               <div>
-                    <a href="https://rcmp.ca/en/#">National Communications and Public Affairs</a>
-               </div>
-          </div>   
-                    <div class="signature-link-subgrid">
-               <div>
-                     <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
-               </div>
-               <div>
-                    <a href="https://x.com/#">@NCPA</a>
-               </div>
-          </div>
-                    <div class="signature-link-subgrid">
-               <div>
-                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
-               </div>
-               <div>
-                    <a href="https://www.facebook.com/#">NCPA</a>
-               </div>
-          </div>
-                    <div class="signature-link-subgrid">
-               <div>
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-               </div>
-               <div>
-                    <a href="https://www.instagram.com/#">@ncpa</a>
-               </div>
-          </div>     
-     </div>
-</div>
+    <p><strong>National Communications and Public Affairs</strong><br>
+   <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
+   613-555-0100</p>
+	<section class="gc-followus">
+	<h4 class="h6 wb-inv">Follow us</h4>
+	<ul class="list-inline">  
+<li>
+     <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
+          <span class="wb-inv">X: </span>X: Royal Canadian Mounted Police</a>
+</li>									
+<li>
+     <a href="https://www.facebook.com/rcmpgrc" class="facebook" rel="external">
+          <span class="wb-inv">Facebook: </span>Facebook: Royal Canadian Mounted Police</a>
+</li>          							
+<li>
+     <a href="https://www.instagram.com/rcmpgrcpolice/" class="instagram" rel="external">
+          <span class="wb-inv">Instagram: </span>Instagram: Royal Canadian Mounted Police</a>
+</li>               
+							</ul>
+						</section>	
 </section>
 </div>
 <div class="col-md-4 card">

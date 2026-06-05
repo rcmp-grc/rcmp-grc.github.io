@@ -59,6 +59,12 @@ issued: 2026-05-21
       <p>Receive news and communications by email.</p>
     </section>
   </div>
+	<div class="col-md-4">
+    <section class="gc-drmt">
+      <h3 class="h5" data-emptytext="Subscribe"><a href="#">Resources</a></h3>
+      <p> Acess web feeds, media relations office, Canada.ca news and Public Safety Canada news</p>
+    </section>
+  </div>
 </div>
 <div class="row">
 	<div class="col-md-3">
@@ -129,7 +135,7 @@ issued: 2026-05-21
         <summary>
        Province or Territory
         </summary>
-        <fieldset>
+			<fieldset>
           <legend class="wb-inv">Territory</legend>
           <div class="checkbox">
             <label><input data-filter="territory" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span><span class="wp-filter-badge">0</span></label>
@@ -177,25 +183,13 @@ issued: 2026-05-21
        Published by
         </summary>
         <fieldset>
-          <legend class="wb-inv">Policing regions</legend>
+          <legend>Division</legend>
           <div class="checkbox">
             <label><input data-filter="region" type="checkbox" value="Alberta RCMP"><span class="cb-text">Alberta RCMP</span><span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
             <label><input data-filter="region" type="checkbox" value="British Columbia RCMP"><span class="cb-text">British Columbia RCMP</span><span class="wp-filter-badge">0</span></label>
           </div>
-          <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="Federal Policing Central Region"><span class="cb-text">Federal Policing Central Region</span><span class="wp-filter-badge">0</span></label>
-          </div>
-          <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="Federal Policing Eastern Region"><span class="cb-text">Federal Policing Eastern Region</span><span class="wp-filter-badge">0</span></label>
-          </div>
-			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Federal Policing Northwest Region"><span class="cb-text">Federal Policing Northwest Region</span><span class="wp-filter-badge">0</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Federal Policing Pacific Region"><span class="cb-text">Federal Policing Pacific Region</span><span class="wp-filter-badge">0</span></label>
-				  </div>
 <div class="checkbox">
                 <label><input data-filter="region" type="checkbox" value="Manitoba RCMP"><span class="cb-text">Manitoba RCMP</span><span class="wp-filter-badge">0</span></label>
 				  </div>
@@ -228,6 +222,24 @@ issued: 2026-05-21
 				  </div>
 			<div class="checkbox">
                 <label><input data-filter="region" type="checkbox" value="Yukon RCMP"><span class="cb-text">Yukon RCMP</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+        </fieldset>
+	<fieldset>
+          <legend>Fededral Policing regions</legend>
+          <div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="Federal Policing Central Region"><span class="cb-text">Central</span><span class="wp-filter-badge">0</span></label>
+          </div>
+          <div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="Federal Policing Eastern Region"><span class="cb-text">Eastern</span><span class="wp-filter-badge">0</span></label>
+          </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="Federal Policing Northwest Region"><span class="cb-text">Northwest</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="Federal Policing Pacific Region"><span class="cb-text">Pacific</span><span class="wp-filter-badge">0</span></label>
+				  </div>
+			<div class="checkbox">
+                <label><input data-filter="region" type="checkbox" value="RCMP National Headquarters"><span class="cb-text">National Headquarters</span><span class="wp-filter-badge">0</span></label>
 				  </div>
         </fieldset>
       </details>	

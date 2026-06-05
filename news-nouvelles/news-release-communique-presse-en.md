@@ -17,162 +17,28 @@ lead: News release
 	.explore
 	{ border-top: 2px solid var(--rcmp-gold);
 	 }
-	.update
-	{ border-left: 5px solid var(--rcmp-gold);
-	  border-right: 5px solid var(--rcmp-gold);
-	  border-bottom: 5px solid var(--rcmp-gold);
-	  border-top: 5px solid var(--rcmp-gold);
+	.card
+	{ border-left: 2px solid var(--rcmp-gold);
+	  border-right: 2px solid var(--rcmp-gold);
+	  border-bottom: 2px solid var(--rcmp-gold);
+	  border-top: 2px solid var(--rcmp-gold);
 	  margin-left: 0px;
 	  padding-left: 0px;
 	  margin-bottom: 15px;
 	}
-	.update-tag
+	.card-tag
 	{ font-weight: bold;
 	  font-color: #0b0c0c;
 	  padding-left: 0px;
 	  width: 130px;
 	  background-color: #bea468;
 	}
-	.left 
-	{ justify-content: left;
-	  align-items: left;
-	  margin-left: 0px;
-    }
 	.wb-lbx lbx-gal
 	{ padding-left: 15px;
 	}
-	@layer reset, default, link, hover, focus;
-
-@layer reset {
-  :host {
-    display: block;
-
-    * {
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-    }
-
-    slot {
-      display: initial;
-    }
-  }
-}
-
-@layer default {
-  :host .gcds-card {
-    background-color: var(--gcds-card-background-color);
-    display: block;
-    padding: var(--gcds-card-padding);
-    height: 100%;
-    color: var(--gcds-card-color);
-    position: relative;
-    border: var(--gcds-card-border);
-    overflow: hidden;
-    max-width: var(--gcds-card-max-width);
-
-    .gcds-badge {
-      background-color: var(--gcds-card-badge-background-color);
-      position: absolute;
-      top: 0;
-      left: 0;
-      padding: var(--gcds-card-badge-padding);
-      text-wrap: nowrap;
-
-      @media only screen and (width < 48em) {
-        padding: var(--gcds-card-badge-mobile-padding);
-      }
-    }
-
-    .gcds-card__image {
-      display: block;
-      width: 100%;
-      margin: var(--gcds-card-image-margin);
-    }
-
-    .gcds-card__title {
-      width: fit-content;
-
-      font: var(--gcds-card-title-font-desktop);
-
-      @media only screen and (width < 48em) {
-        font: var(--gcds-card-title-font-mobile);
-      }
-
-      &:has(+ .gcds-card__description) {
-        margin: var(--gcds-card-title-margin);
-      }
-    }
-
-    .gcds-card__description {
-      --gcds-text-size-body-desktop: var(--gcds-card-description-font-desktop);
-
-      & > * {
-        z-index: 1;
-        position: relative;
-      }
-
-      @media only screen and (width < 48em) {
-        font: var(--gcds-card-description-font-mobile);
-      }
-    }
-  }
-}
-
-@layer link {
-  :host .gcds-card gcds-link::part(link):after {
-    z-index: 0;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    pointer-events: auto;
-    content: '';
-  }
-}
-
-@layer hover {
-  @media (hover: hover) {
-    :host .gcds-card:hover {
-      box-shadow: var(--gcds-card-hover-box-shadow);
-      background-color: var(--gcds-card-hover-background-color);
-      cursor: pointer;
-    }
-  }
-}
-
-@layer focus {
-  :host {
-    .gcds-card:focus-within {
-      box-shadow: var(--gcds-card-focus-box-shadow);
-      outline: var(--gcds-card-focus-outline);
-      outline-offset: var(--gcds-card-focus-outline-offset);
-    }
-
-    gcds-link::part(link):focus {
-      border: var(--gcds-card-focus-link-border);
-      box-shadow: var(--gcds-card-focus-link-box-shadow);
-      color: var(--gcds-card-focus-link-color);
-      background-color: var(--gcds-card-focus-link-background-color);
-      outline: var(--gcds-card-focus-link-outline);
-      text-decoration: underline currentColor
-        var(--gcds-card-focus-link-text-decoration-thickness);
-    }
-  }
-}
 </style>
-<div class="update col-md-8">
-	<gcds-card
-      card-title="<i class="fa-regular fa-pen-to-square"></i> Updated"
-      card-title-tag="h3"
-      description="<ul>
-    <li><strong>2026-04-30, 13:58 pm</strong>: Last seen location</li>
-    <li><strong>2026-04-21, 13:58 pm</strong>: Missing person wearing prescription glasses</li>
-  </ul>"
-    >
-    </gcds-card>
-	<div class="update-tag"><p><i class="fa-regular fa-pen-to-square"></i> Updated</p></div>
+<div class="card col-md-8">
+	<div class="card-tag"><p><i class="fa-regular fa-pen-to-square"></i> Updated</p></div>
   <ul>
     <li><strong>2026-04-30, 13:58 pm</strong>: Last seen location</li>
     <li><strong>2026-04-21, 13:58 pm</strong>: Missing person wearing prescription glasses</li>

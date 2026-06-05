@@ -124,6 +124,7 @@ issued: 2026-05-08
 </section>
 	<section id="s7">
 	<h2 class="h3">Contact us</h2>
+	<div class="contact-signature">	
     <p><strong>National Communications and Public Affairs</strong><br>
    <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
    613-555-0100</p>
@@ -143,7 +144,8 @@ issued: 2026-05-08
           <span class="wb-inv">Instagram: </span>Instagram: Royal Canadian Mounted Police</a>
 </li>               
 							</ul>
-						</section>		
+						</section>	
+	</div>
 	</section>
 <div class="explore">	
 <section id="s8">	

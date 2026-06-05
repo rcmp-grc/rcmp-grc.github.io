@@ -36,7 +36,7 @@ issued: 2026-05-08
 	}
 	.contact-us
 	{
-	colour: #f5f5f5;
+	background-color: #f5f5f5;
 	}
 </style>
 <p class="lead">Bob the Polar Bear is the Royal Canadian Mounted Police’s newest unofficial northern mascot.</p>

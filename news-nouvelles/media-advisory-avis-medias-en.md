@@ -74,13 +74,13 @@ issued: 2026-05-08
 	</ul>
 	<p>Interviews with Bob the Polar Bear will be limited to non-political topics and snack-related questions.</p>
 </section>	
-<section id="s2">
+<section id="s3">
 <h2 class="h3">Accreditation</h2>	
 	<p>Media representatives are asked to confirm attendance in advance by contacting Media Relations.
 </p>
 	<p>Please arrive at least 20 minutes before the start of the event.</p>
 </section>		
-<section id="s3">
+<section id="links">
 <h2 class="h3">Associated links</h2>	
 <ul>
 	<li><a href="#">Royal Canadian Mounted Police</a></li>
@@ -126,7 +126,7 @@ Iqaluit, Nunavut</p>
 </div>
 <div class="clearfix"></div>
 <div class="explore">
-<section id="s5">
+<section id="topics">
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
   <li><span class="label label-danger"><u>Media Relations</u></span></li>

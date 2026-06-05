@@ -131,22 +131,22 @@ issued: 2026-05-08
 	 <div class="signature-link-grid">
     <div class="signature-link-subgrid">	
 	<section class="gc-followus">
-	<h3 class="h6 wb-inv">Follow us</h4>
-	<ul class="list-inline">  
+<h2 class="h4 mrgn-tp-lg">Follow us</h2>
+<ul class="list-inline">     
 <li>
      <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
           <span class="wb-inv">X: </span>X: Royal Canadian Mounted Police</a>
-</li>									
+</li>	
 <li>
      <a href="https://www.facebook.com/rcmpgrc" class="facebook" rel="external">
           <span class="wb-inv">Facebook: </span>Facebook: Royal Canadian Mounted Police</a>
-</li>          							
+</li>           
 <li>
      <a href="https://www.instagram.com/rcmpgrcpolice/" class="instagram" rel="external">
           <span class="wb-inv">Instagram: </span>Instagram: Royal Canadian Mounted Police</a>
-</li>               
+</li>
 							</ul>
-						</section>	
+	</section>
 	</div>
 	 </div>
 	</div>

@@ -21,9 +21,10 @@ thead th {
 /* Fluid tables */
 
 @media screen and (max-width: 991px) {
-	table:not(.fixed):has(td[data-label]) {
+	table:not(.table-fixed):has(td[data-label]) {
 
 		border: none;
+		border-block-start: 1px solid var(--rcmp-grey-md);
 
 		thead {
 			display: none;
@@ -123,9 +124,9 @@ thead th {
 <p>Table 1: table with TH and DATA-LABEL</p>
 
 <table class="table" id="t1">
-	<caption>Table 1</caption>
+	<caption>Table 1: This table should collapse when small since it has DATA-LABEL attributes on the TD and TH elements</caption>
 	<thead>
-		<tr class="active">
+		<tr>
 			<th scope="col">Province or territory</th>
 			<th scope="col" class="text-right">Possession and Acquisition Licence</th>
 			<th scope="col" class="text-right">Minor's Licence</th>
@@ -145,7 +146,7 @@ thead th {
 			<td data-label="Minor's Licence" class="text-right nowrap">1,667</td>
 			<td data-label="Total" class="text-right nowrap">378,938</td>
 		</tr>
-		<tr class="active">
+		<tr>
 			<th scope="row" data-label="Province or territory">Total</th>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
@@ -157,9 +158,9 @@ thead th {
 <p>Table 2: table with TH without DATA-LABEL</p>
 
 <table class="table" id="t2">
-	<caption>Table 2</caption>
+	<caption>Table 2: This table should not collapse when small since it does not have DATA-LABEL attributes</caption>
 	<thead>
-		<tr class="active">
+		<tr>
 			<th scope="col">Province or territory</th>
 			<th scope="col" class="text-right">Possession and Acquisition Licence</th>
 			<th scope="col" class="text-right">Minor's Licence</th>
@@ -188,10 +189,10 @@ thead th {
 	</tbody>
 </table>
 
-<p>Table 3: table fixed with DATA-LABEL (same as first, but fixed)</p>
+<p>Table 3: table table-fixed with DATA-LABEL (same as first, but fixed)</p>
 
-<table class="table fixed" id="t3">
-	<caption>Table 3</caption>
+<table class="table table-fixed" id="t3">
+	<caption>Table 3: This table should not collapse when small because it has the TABLE-FIXED class, even though it has DATA-LABEL attributes on the TD and TH elements</caption>
 	<thead>
 		<tr class="active">
 			<th scope="col">Province or territory</th>
@@ -449,7 +450,6 @@ thead th {
 		</tr>
 	</tbody>
 </table>
-
 </section>
 
 

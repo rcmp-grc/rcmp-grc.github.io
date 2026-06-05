@@ -31,7 +31,7 @@ issued: 2026-05-20
 	{ font-weight: bold;
 	  font-color: #0b0c0c;
 	  padding-left: 0px;
-	  width: 130px;
+	  width: 160px;
 	  background-color: var(--rcmp-grey-lt);
 	}
 	.contact-us 
@@ -87,7 +87,7 @@ Check against deliver</strong></p>
 		<li>youth programming</li>
     <li>public safety partnerships</li>
 	</ul>
-<section id="s2">
+<section id="s3">
 <h2 class="h3">Closing remarks</h2>	
 	<p>Before I conclude, I would like to thank:</p>
   <ul>
@@ -102,7 +102,7 @@ Check against deliver</strong></p>
 <p>Stay safe, travel carefully, and enjoy the rest of the event.</p>
 <p>Thank you.</p>
 </section>		
-<section id="s3">
+<section id="links">
 <h2 class="h3">Associated links</h2>	
 <ul>
 	<li><a href="#">Royal Canadian Mounted Police</a></li>
@@ -136,7 +136,7 @@ Check against deliver</strong></p>
 	</div>
 	</section>
 <div class="explore">
-<section id="s5">
+<section id="topics">
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
   <li><span class="label label-danger"><u>Media Relations</u></span></li>

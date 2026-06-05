@@ -34,6 +34,7 @@ issued: 2026-05-08
 	  width: 130px;
 	  background-color: var(--rcmp-grey-lt);
 	}
+	.contact-us 
 	{
 	background-color: #f5f5f5;
 	padding-left: 10px;

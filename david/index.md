@@ -319,29 +319,29 @@ thead th {
 	<caption>Table 6</caption>
 	<thead>
 		<tr class="active">
-			<th scope="col">Province or territory</th>
-			<th scope="col" class="text-right">Possession and Acquisition Licence</th>
-			<th scope="col" class="text-right">Minor's Licence</th>
-			<th scope="col" class="text-right">Total</th>
+			<th scope="col">Recommendation</th>
+			<th scope="col" class="text-right">Solution</th>
+			<th scope="col" class="text-right">Description</th>
+			<th scope="col" class="text-right">Target date</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th scope="rowgroup" rowspan="2" data-label="Province or territory">Alberta</th>
-			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">385,449</td>
-			<td data-label="Minor's Licence" class="text-right nowrap">3,406</td>
-			<td data-label="Total" class="text-right nowrap">388,855</td>
+			<th scope="rowgroup" rowspan="2" data-label="Recommendation">Recommendation 1: Provide more entertainment</th>
+			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">Foosball</td>
+			<td data-label="Minor's Licence" class="text-right nowrap">Add a foosball table in the common area</td>
+			<td data-label="Total" class="text-right nowrap">July&nbsp;1, 2026</td>
 		</tr>
 		<tr>
-			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">458,677</td>
+			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">Ms Pacman machine</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">4,984</td>
-			<td data-label="Total" class="text-right nowrap">473,661</td>
+			<td data-label="Total" class="text-right nowrap">August 2026</td>
 		</tr>
-		<tr class="active">
-			<td data-label="Province or territory">Total</td>
-			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
-			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
-			<td data-label="Total" class="text-right nowrap">2,473,661</td>
+		<tr>
+			<td data-label="Recommendation">Recommendation 2: Provide more candy</td>
+			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">Chocolate fountain</td>
+			<td data-label="Minor's Licence" class="text-right nowrap">Install a chocolate fountain in the break room</td>
+			<td data-label="Total" class="text-right nowrap">January 2027</td>
 		</tr>
 	</tbody>
 </table>

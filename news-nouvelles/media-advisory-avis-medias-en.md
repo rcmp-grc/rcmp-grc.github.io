@@ -84,12 +84,12 @@ issued: 2026-05-08
 </ul>
 </section>
 <section id="s4">
-<h2 class="h3">Contacts</h2>
+<h2 class="h3">Contact us</h2>
     <p><strong>National Communications and Public Affairs</strong><br>
    <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
    613-555-0100</p>
 	<section class="gc-followus">
-	<h4 class="h6 wb-inv">Follow us</h4>
+	<h3 class="h4 wb-inv">Follow us</h4>
 	<ul class="list-inline">  
 <li>
      <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">

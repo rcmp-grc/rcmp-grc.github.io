@@ -34,6 +34,7 @@ thead th {
 			display: block;
 			/* margin-bottom: 1em; */
 			padding: 0;
+			border: none;
 			border-block-end: 1px solid var(--rcmp-grey-md);
 		}
 
@@ -71,6 +72,7 @@ thead th {
 			font-size: 0.85em;
 			color: var(--rcmp-grey-dk);
 			margin-bottom: 0.1em;
+			float: none;
 		}
 
 		/* :is(td, th)+ :is(td, th) {
@@ -93,11 +95,11 @@ thead th {
 		&.table-condensed tbody,
 		&.table-sm tbody {
 			td {
-				padding: 0.25em 0;
+				padding: 0.25em .25em;
 			}
 
 			th[colspan] {
-				padding: 0.375em 0;
+				padding: 0.375em .25em;
 			}
 
 			td::before {

@@ -163,7 +163,7 @@ issued: 2026-05-08
 <section id="topics">	
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
-  <li><span class="label-news"><a href="#">Community interest</a></span></li>
+  <li><div class="label-news"><a href="#">Community interest</a></div></li>
 </ol>
 </section>
 </div>

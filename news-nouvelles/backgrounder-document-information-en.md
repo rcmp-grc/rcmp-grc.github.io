@@ -122,7 +122,6 @@ issued: 2026-05-08
 <li><a href="#">Arctic and northern affairs</a></li>	
 </ul>
 </section>
-<div class="contact-signature">
 	<section id="s7">
 	<h2 class="h3">Contact us</h2>
     <p><strong>National Communications and Public Affairs</strong><br>
@@ -145,7 +144,7 @@ issued: 2026-05-08
 </li>               
 							</ul>
 						</section>		
-	</section></div>
+	</section>
 <div class="explore">	
 <section id="s8">	
 <h2 class="h3">Explore related topics</h2>

@@ -31,7 +31,7 @@ issued: 2026-05-08
 	{ font-weight: bold;
 	  font-color: #0b0c0c;
 	  padding-left: 0px;
-	  width: 150px;
+	  width: 160px;
 	  background-color: var(--rcmp-grey-lt);
 	}
 	.contact-us 

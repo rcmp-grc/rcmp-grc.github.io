@@ -18,7 +18,6 @@ issued: 2026-05-20
 	.explore
 	{ border-top: 2px solid var(--rcmp-gold);
 	 }
-	//This style is for the Card - GoC //
 	.card
 	{ border-left: 2px solid var(--rcmp-grey-lt);
 	  border-right: 2px solid var(--rcmp-grey-lt);
@@ -35,7 +34,6 @@ issued: 2026-05-20
 	  width: 130px;
 	  background-color: var(--rcmp-grey-lt);
 	}
-	//This style is for the Contact us band - GoC //
 	.contact-us 
 	{
 	background-color: #f5f5f5;
@@ -68,29 +66,31 @@ issued: 2026-05-20
 <li><a href="#">Emergency preparedness</a></li>
 </ul>
 </section>	
-<section id="s2">
-<h2 class="h3">Contact us</h2>
+<section id="gc-contact" class="contact-us">
+	<h2 class="h3">Contact us</h2>
+	<div class="contact-signature">	
     <p><strong>National Communications and Public Affairs</strong><br>
    <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
-   613-555-0100</p>
+   613-555-0100</p>	
 	<section class="gc-followus">
-	<h3 class="h6 wb-inv">Follow us</h4>
-	<ul class="list-inline">  
+<h2 class="h4 mrgn-tp-lg wb-inv">Follow us</h2>
+<ul class="list-inline">     
 <li>
      <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
           <span class="wb-inv">X: </span>X: Royal Canadian Mounted Police</a>
-</li>									
+</li>	
 <li>
      <a href="https://www.facebook.com/rcmpgrc" class="facebook" rel="external">
           <span class="wb-inv">Facebook: </span>Facebook: Royal Canadian Mounted Police</a>
-</li>          							
+</li>           
 <li>
      <a href="https://www.instagram.com/rcmpgrcpolice/" class="instagram" rel="external">
           <span class="wb-inv">Instagram: </span>Instagram: Royal Canadian Mounted Police</a>
-</li>               
+</li>
 							</ul>
-						</section>
-</section>
+	</section>
+	</div>
+	</section>
 <div class="explore">
 <section id="s5">
 <h2 class="h3">Explore related topics</h2>

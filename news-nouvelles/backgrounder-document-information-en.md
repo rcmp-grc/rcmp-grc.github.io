@@ -131,7 +131,7 @@ issued: 2026-05-08
 	 <div class="signature-link-grid">
     <div class="signature-link-subgrid">	
 	<section class="gc-followus">
-<h2 class="h4 mrgn-tp-lg">Follow us</h2>
+<h2 class="h4 mrgn-tp-lg wb-inv">Follow us</h2>
 <ul class="list-inline">     
 <li>
      <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">

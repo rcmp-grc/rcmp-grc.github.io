@@ -95,8 +95,8 @@ issued: 2026-05-20
 <section id="topics">
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
-  <li><span class="label label-danger"><u>Media Relations</u></span></li>
-  <li><span class="label label-default"><u>Community interest</u></span></li>
+  <li><a href="#"><span class="label label-danger">Media Relations</span></a></li>
+  <li><a href="#"><span class="label label-default">Community interest</span></a></li>
 </ol>
 </section>
 </div>

@@ -41,6 +41,9 @@ issued: 2026-05-21
 	background-color: #f5f5f5;
 	padding-left: 10px;
 	}
+	.summary
+	{ background-color: #f3f2f1;
+	}
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">

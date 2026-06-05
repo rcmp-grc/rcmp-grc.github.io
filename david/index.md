@@ -120,13 +120,12 @@ thead th {
 
 <section id="tables">
   <h2>Table tests</h2>
-
 <p>Table 1: table with TH and DATA-LABEL and TFOOT</p>
 
 <table class="table" id="t1">
 	<caption>Table 1: This table should collapse when small since it has DATA-LABEL attributes on the TD and TH elements</caption>
 	<thead>
-		<tr>
+		<tr class="active">
 			<th scope="col">Province or territory</th>
 			<th scope="col" class="text-right">Possession and Acquisition Licence</th>
 			<th scope="col" class="text-right">Minor's Licence</th>
@@ -148,7 +147,7 @@ thead th {
 		</tr>
 	</tbody>
 	<tfoot>
-		<tr>
+		<tr class="active">
 			<th scope="row" data-label="Province or territory">Total</th>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
@@ -162,7 +161,7 @@ thead th {
 <table class="table" id="t2">
 	<caption>Table 2: This table should not collapse when small since it does not have DATA-LABEL attributes</caption>
 	<thead>
-		<tr>
+		<tr class="active">
 			<th scope="col">Province or territory</th>
 			<th scope="col" class="text-right">Possession and Acquisition Licence</th>
 			<th scope="col" class="text-right">Minor's Licence</th>
@@ -229,7 +228,6 @@ thead th {
 	</tfoot>
 </table>
 
-
 <p>Table 4: table table-bordered table-condensed</p>
 
 <table class="table table-bordered table-condensed" id="t4">
@@ -255,7 +253,7 @@ thead th {
 			<td data-label="Minor's Licence" class="text-right nowrap">1,667</td>
 			<td data-label="Total" class="text-right nowrap">378,938</td>
 		</tr>
-		<tr>
+		<tr class="active">
 			<td data-label="Province or territory">Total</td>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
@@ -280,7 +278,7 @@ thead th {
 		<tr>
 			<th scope="rowgroup" colspan="4">West Coast</th>
 		</tr>
-		<tr class="active">
+		<tr>
 			<th scope="row" data-label="Province or territory">British Columbia</th>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
@@ -303,7 +301,7 @@ thead th {
 			<td data-label="Minor's Licence" class="text-right nowrap">3,406</td>
 			<td data-label="Total" class="text-right nowrap">388,855</td>
 		</tr>
-		<tr class="active">
+		<tr>
 			<th scope="row" data-label="Province or territory">Manitoba</th>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
@@ -337,7 +335,7 @@ thead th {
 			<td data-label="Total" class="text-right nowrap">August 2026</td>
 		</tr>
 		<tr>
-			<td data-label="Recommendation">Recommendation 2: Provide more candy</td>
+			<th scope="row" data-label="Recommendation">Recommendation 2: Provide more candy</th>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">Chocolate fountain</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">Install a chocolate fountain in the break room</td>
 			<td data-label="Total" class="text-right nowrap">January 2027</td>
@@ -350,7 +348,7 @@ thead th {
 <table class="table table-zebra" id="t7">
 	<caption>Table 7: This is testing striping</caption>
 	<thead>
-		<tr class="active">
+		<tr>
 			<th scope="col">Province or territory</th>
 			<th scope="col" class="text-right">Possession and Acquisition Licence</th>
 			<th scope="col" class="text-right">Minor's Licence</th>
@@ -358,7 +356,7 @@ thead th {
 		</tr>
 	</thead>
 	<tbody>
-		<tr class="active">
+		<tr>
 			<th scope="row" data-label="Province or territory">British Columbia</th>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
@@ -376,13 +374,13 @@ thead th {
 			<td data-label="Minor's Licence" class="text-right nowrap">3,406</td>
 			<td data-label="Total" class="text-right nowrap">388,855</td>
 		</tr>
-		<tr class="active">
+		<tr>
 			<th scope="row" data-label="Province or territory">Manitoba</th>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
 			<td data-label="Total" class="text-right nowrap">2,473,661</td>
 		</tr>
-		<tr class="active">
+		<tr>
 			<th scope="row" data-label="Province or territory">British Columbia</th>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
@@ -400,7 +398,7 @@ thead th {
 			<td data-label="Minor's Licence" class="text-right nowrap">3,406</td>
 			<td data-label="Total" class="text-right nowrap">388,855</td>
 		</tr>
-		<tr class="active">
+		<tr>
 			<th scope="row" data-label="Province or territory">Manitoba</th>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
@@ -424,26 +422,23 @@ thead th {
 	</thead>
 	<tbody>
 		<tr>
-			<th scope="row" data-label="Province or territory">Alberta</th>
+			<td data-label="Province or territory">Alberta</td>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">385,449</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">3,406</td>
 			<td data-label="Total" class="text-right nowrap">388,855</td>
 		</tr>
 		<tr>
-			<th scope="row" data-label="Province or territory">British Columbia</th>
+			<td data-label="Province or territory">British Columbia</td>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">377,271</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">1,667</td>
 			<td data-label="Total" class="text-right nowrap">378,938</td>
 		</tr>
-	</tbody>
-	<tfoot>
 		<tr>
-			<th scope="row" data-label="Province or territory">Total</th>
+			<td data-label="Province or territory">Total</td>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
 			<td data-label="Total" class="text-right nowrap">2,473,661</td>
 		</tr>
-	</tfoot>
 	</tbody>
 </table>
 </section>

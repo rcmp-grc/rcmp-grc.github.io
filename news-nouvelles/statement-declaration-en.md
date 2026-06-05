@@ -18,50 +18,28 @@ issued: 2026-05-20
 	.explore
 	{ border-top: 2px solid var(--rcmp-gold);
 	 }
-	.update
-	{ border-left: 5px solid var(--rcmp-gold);
-	  border-right: 5px solid var(--rcmp-gold);
-	  border-bottom: 5px solid var(--rcmp-gold);
-	  border-top: 5px solid var(--rcmp-gold);
+	//This style is for the Card - GoC //
+	.card
+	{ border-left: 2px solid var(--rcmp-grey-lt);
+	  border-right: 2px solid var(--rcmp-grey-lt);
+	  border-bottom: 2px solid var(--rcmp-grey-lt);
+	  border-top: 2px solid var(--rcmp-grey-lt);
 	  margin-left: 0px;
 	  padding-left: 0px;
 	  margin-bottom: 15px;
 	}
-	.update-tag
+	.card-tag
 	{ font-weight: bold;
 	  font-color: #0b0c0c;
 	  padding-left: 0px;
 	  width: 130px;
-	  background-color: #bea468;
+	  background-color: var(--rcmp-grey-lt);
 	}
-	.left 
-	{ justify-content: left;
-	  align-items: left;
-	  margin-left: 0px;
-    }
-	.wb-lbx lbx-gal
-	{ padding-left: 15px;
-	}
-	.event
-	{ border-left: 3px solid #f2f2f2;
-	  border-right: 3px solid #f2f2f2;
-	  border-bottom: 3px solid #f2f2f2;
-	  border-top: 3px solid #f2f2f2;
-	  padding-left: 0px;
-	  padding-right: 10px;
-	}
-	.event-tag
-	{ font-weight: bold;
-	  font-color: #0b0c0c;
-	  padding-left: 0px; 
-	  width: 175px;
-	  background-color: #f2f2f2;
-	}
-	.event-details
-	{ font-weight: normal;
-	  font-color: #0b0c0c;
-	  padding-left: 10px; 
-	  background-color: #ffffff;
+	//This style is for the Contact us band - GoC //
+	.contact-us 
+	{
+	background-color: #f5f5f5;
+	padding-left: 10px;
 	}
 </style>
 <p class="lead">Earlier today, employees at RCMP National Headquarters received an unexpected visitor.</p>

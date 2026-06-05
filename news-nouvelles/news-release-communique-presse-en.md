@@ -18,10 +18,10 @@ lead: News release
 	{ border-top: 2px solid var(--rcmp-gold);
 	 }
 	.card
-	{ border-left: 1px solid var(--rcmp-gold);
-	  border-right: 1px solid var(--rcmp-gold);
-	  border-bottom: 1px solid var(--rcmp-gold);
-	  border-top: 1px solid var(--rcmp-gold);
+	{ border-left: 1px solid default;
+	  border-right: 1px solid default;
+	  border-bottom: 1px solid default;
+	  border-top: 1px solid default;
 	  margin-left: 0px;
 	  padding-left: 0px;
 	  margin-bottom: 15px;
@@ -31,7 +31,7 @@ lead: News release
 	  font-color: #0b0c0c;
 	  padding-left: 0px;
 	  width: 130px;
-	  background-color: #bea468;
+	  background-color: default;
 	}
 	.wb-lbx lbx-gal
 	{ padding-left: 15px;

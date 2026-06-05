@@ -50,11 +50,11 @@ issued: 2026-05-08
 		<li><a href="#s1">Overview</a></li>
 		<li><a href="#s2">About Bob</a></li>
 		<li><a href="#s3">Community engagement</a></li>
-		<li><a href="#s4">Quick facts</a></li>
-		<li><a href="#s5">Quotes</a></li>
-		<li><a href="#s6">Associated links</a></li>
-		<li><a href="#s7">Contacts</a></li>
-		<li><a href="#s8">Explore related topics</a></li>
+		<li><a href="#facts">Quick facts</a></li>
+		<li><a href="#quotes">Quotes</a></li>
+		<li><a href="#links">Associated links</a></li>
+		<li><a href="#gc-contact">Contacts</a></li>
+		<li><a href="#topics">Explore related topics</a></li>
 	</ul>
 </section>
 <section id="s1">

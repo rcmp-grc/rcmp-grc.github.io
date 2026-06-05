@@ -18,10 +18,10 @@ lead: News release
 	{ border-top: 2px solid var(--rcmp-gold);
 	 }
 	.card
-	{ border-left: 2px solid var(--rcmp-gold);
-	  border-right: 2px solid var(--rcmp-gold);
-	  border-bottom: 2px solid var(--rcmp-gold);
-	  border-top: 2px solid var(--rcmp-gold);
+	{ border-left: 1px solid var(--rcmp-gold);
+	  border-right: 1px solid var(--rcmp-gold);
+	  border-bottom: 1px solid var(--rcmp-gold);
+	  border-top: 1px solid var(--rcmp-gold);
 	  margin-left: 0px;
 	  padding-left: 0px;
 	  margin-bottom: 15px;

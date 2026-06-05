@@ -114,48 +114,27 @@ lead: News release
 </ul>
 </section>
 <section id="s8">
-<h2 class="h3">Contacts</h2>
-<div class="contact-signature">
-          <strong>Richmond RCMP Media Relations</strong>
-     <br>     
-     <a href="mailto:richmond_media@rcmp-grc.gc.ca">richmond_media@rcmp-grc.gc.ca</a>
-     <br>
-     604-207-5189<br>
-     <div class="signature-link-grid">
-                    <div class="signature-link-subgrid">
-               <div>
-                    <i class="fa fa-link" aria-hidden="true"></i>
-               </div>
-               <div>
-                    <a href="https://rcmp.ca/en/bc/richmond">Richmond RCMP</a>
-               </div>
-          </div>   
-                    <div class="signature-link-subgrid">
-               <div>
-                     <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
-               </div>
-               <div>
-                    <a href="https://x.com/RichmondRCMP">@RichmondRCMP</a>
-               </div>
-          </div>
-                    <div class="signature-link-subgrid">
-               <div>
-                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
-               </div>
-               <div>
-                    <a href="https://www.facebook.com/BCRCMPnews">BC RCMP</a>
-               </div>
-          </div>
-                    <div class="signature-link-subgrid">
-               <div>
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-               </div>
-               <div>
-                    <a href="https://www.instagram.com/bcrcmp">@bcrcmp</a>
-               </div>
-          </div>     
-     </div>
-</div>
+<h2 class="h3">Contact us</h2>
+    <p><strong>National Communications and Public Affairs</strong><br>
+   <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
+   613-555-0100</p>
+	<section class="gc-followus">
+	<h3 class="h4 wb-inv">Follow us</h3>
+	<ul class="list-inline">  
+<li>
+     <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
+          <span class="wb-inv">X: </span>X: Royal Canadian Mounted Police</a>
+</li>									
+<li>
+     <a href="https://www.facebook.com/rcmpgrc" class="facebook" rel="external">
+          <span class="wb-inv">Facebook: </span>Facebook: Royal Canadian Mounted Police</a>
+</li>          							
+<li>
+     <a href="https://www.instagram.com/rcmpgrcpolice/" class="instagram" rel="external">
+          <span class="wb-inv">Instagram: </span>Instagram: Royal Canadian Mounted Police</a>
+</li>               
+							</ul>
+						</section>	
 </section>
 </div>
 <div class="col-md-4">

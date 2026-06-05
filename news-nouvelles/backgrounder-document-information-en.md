@@ -39,6 +39,13 @@ issued: 2026-05-08
 	background-color: #f5f5f5;
 	padding-left: 10px;
 	}
+	.label-news,
+    .label-news[href]:active,
+    .label-news[href]:focus,
+    .label-news[href]:hover {
+    background: #ccc;
+    color: #000;
+}
 </style>
 <p class="lead">Bob the Polar Bear is the Royal Canadian Mounted Police’s newest unofficial northern mascot.</p>
 <div class="details">
@@ -156,7 +163,7 @@ issued: 2026-05-08
 <section id="topics">	
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
-  <li><span class="bg-success"><a href="#">Community interest</a></span></li>
+  <li><span class="label-news"><a href="#">Community interest</a></span></li>
 </ol>
 </section>
 </div>

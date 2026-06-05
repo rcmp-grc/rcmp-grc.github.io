@@ -152,7 +152,6 @@ issued: 2026-05-08
 </li>
 							</ul>
 	</section>
-	</div>
 	</section>
 <div class="explore">	
 <section id="topics">	

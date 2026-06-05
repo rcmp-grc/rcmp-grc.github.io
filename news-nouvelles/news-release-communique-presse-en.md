@@ -33,9 +33,6 @@ lead: News release
 	  width: 130px;
 	  background-color: var(--rcmp-grey-lt);
 	}
-	.wb-lbx lbx-gal
-	{ padding-left: 15px;
-	}
 </style>
 <div class="card col-md-8">
 	<div class="card-tag"><p><i class="fa-regular fa-pen-to-square"></i> Updated</p></div>

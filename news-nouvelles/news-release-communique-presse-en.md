@@ -160,7 +160,7 @@ lead: News release
 <section id="topics">
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
-  <li><span class="label label-primary"><a href="#">Traffic Services</a></span></li>
+  <li><a href="#"><span class="label label-primary">Traffic Services</span></a></li>
 </ol>
 </section>
 </div>

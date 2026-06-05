@@ -96,7 +96,7 @@ issued: 2026-06-05
             <div class="col-sm-12">
                 <ul class="list-unstyled">
                     <li class="col-md-4">
-                        <a class="btn btn-default btn-block well hght-inhrt mrgn-bttm-0" href="#" id="tp-1">
+                        <a class="btn btn-default btn-block well hght-inhrt" href="#" id="tp-1">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <p class="h4 mrgn-tp-0 mrgn-bttm-0">Careers</p>
@@ -105,7 +105,7 @@ issued: 2026-06-05
                         </a>
                     </li>
                     <li class="col-md-4">
-                        <a class="btn btn-default btn-block well hght-inhrt mrgn-bttm-0" href="#" id="tp-9">
+                        <a class="btn btn-default btn-block well hght-inhrt" href="#" id="tp-9">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <p class="h4 mrgn-tp-0 mrgn-bttm-0">Children and youth</p>
@@ -114,7 +114,7 @@ issued: 2026-06-05
                         </a>
                     </li>
                     <li class="col-md-4">
-                        <a class="btn btn-default btn-block well hght-inhrt mrgn-bttm-0" href="#" id="tp-3">
+                        <a class="btn btn-default btn-block well hght-inhrt" href="#" id="tp-3">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <p class="h4 mrgn-tp-0 mrgn-bttm-0">Health and environment</p>
@@ -123,7 +123,7 @@ issued: 2026-06-05
                         </a>
                     </li>
                     <li class="col-md-4">
-                        <a class="btn btn-default btn-block well hght-inhrt mrgn-bttm-0" href="#" id="tp-4">
+                        <a class="btn btn-default btn-block well hght-inhrt" href="#" id="tp-4">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <p class="h4 mrgn-tp-0 mrgn-bttm-0">Human interest</p>
@@ -132,7 +132,7 @@ issued: 2026-06-05
                         </a>
                     </li>
                     <li class="col-md-4">
-                        <a class="btn btn-default btn-block well hght-inhrt mrgn-bttm-0" href="#" id="tp-11">
+                        <a class="btn btn-default btn-block well hght-inhrt" href="#" id="tp-11">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <p class="h4 mrgn-tp-0 mrgn-bttm-0">Operations</p>
@@ -141,7 +141,7 @@ issued: 2026-06-05
                         </a>
                     </li>
                     <li class="col-md-4">
-                        <a class="btn btn-default btn-block well hght-inhrt mrgn-bttm-0" href="#" id="tp-6">
+                        <a class="btn btn-default btn-block well hght-inhrt" href="#" id="tp-6">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <p class="h4 mrgn-tp-0 mrgn-bttm-0">People and culture</p>
@@ -150,7 +150,7 @@ issued: 2026-06-05
                         </a>
                     </li>
                     <li class="col-md-4">
-                        <a class="btn btn-default btn-block well hght-inhrt mrgn-bttm-0" href="#" id="tp-2">
+                        <a class="btn btn-default btn-block well hght-inhrt" href="#" id="tp-2">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <p class="h4 mrgn-tp-0 mrgn-bttm-0">Public safety</p>
@@ -159,7 +159,7 @@ issued: 2026-06-05
                         </a>
                     </li>
                     <li class="col-md-4">
-                        <a class="btn btn-default btn-block well hght-inhrt mrgn-bttm-0" href="#" id="tp-5">
+                        <a class="btn btn-default btn-block well hght-inhrt" href="#" id="tp-5">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <p class="h4 mrgn-tp-0 mrgn-bttm-0">Reconciliation</p>
@@ -168,7 +168,7 @@ issued: 2026-06-05
                         </a>
                     </li>
                     <li class="col-md-4">
-                        <a class="btn btn-default btn-block well hght-inhrt mrgn-bttm-0" href="#" id="tp-8">
+                        <a class="btn btn-default btn-block well hght-inhrt" href="#" id="tp-8">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <p class="h4 mrgn-tp-0 mrgn-bttm-0">Technology</p>

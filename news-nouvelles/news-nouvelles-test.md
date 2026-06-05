@@ -2,7 +2,7 @@
 layout: default
 title: News and communications
 description: My page description
-date_modified: 2026-05-22
+date_modified: 2026-06-02
 lang: en
 lang_url: news-nouvelles-fr.html
 author:
@@ -14,6 +14,11 @@ issued: 2026-05-21
 <style>
 	.details
 	 { border-top: 2px solid var(--rcmp-gold);
+	   margin-bottom: 10px;
+	   margin-left: 0px;
+	 }
+	.details-landing
+	 { margin-top: 0px;
 	   margin-bottom: 10px;
 	   margin-left: 0px;
 	 }
@@ -74,7 +79,7 @@ issued: 2026-05-21
   <div class="col-md-4">
     <section class="gc-drmt">
       <h3 class="h5" data-emptytext="Executive"><a href="/en/news/comm-en.html">Read the latest communications from our executive</a></h3>
-      <p>Read all news from the leaders of the <abbr>RCMP</abbr> across Canada.</p>
+      <p>Read news shared by the leaders of the <abbr>RCMP</abbr> across Canada.</p>
     </section>
   </div>
   <div class="col-md-4">
@@ -351,7 +356,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       category:       'Category\u00A0: ',
 	  territory:      'Territory\u00A0: ',	
       region:         'Region\u00A0: ',
-      lastSeen:       'Last seen\u00A0: ',
+      summary:        'Summary\u00A0: ',
       ofPages:        ' of ',
       showing:        'Showing\u00A0: ',
       orSep:          'or'
@@ -367,7 +372,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
 	  territory:      'Territory\u00A0: ',	
       region:         'Region\u00A0: ',
 	  updated:        'Mise à jour\u00A0: ',
-      lastSeen:       'Vu(e) pour la dernière fois\u00A0: ',
+      summary:       'Sommaire\u00A0: ',
       ofPages:        ' sur ',
       showing:        'Affichage\u00A0:',
       orSep:          'ou'
@@ -376,21 +381,21 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   var t  = I18N[lang];
   var $  = document.getElementById.bind(document);
   var ni = lang === 'fr' ? 1 : 0;
-  // [nameEN, nameFR, file, category, territory, region, lastSeen, updated, views]
+  // [nameEN, nameFR, file, category, territory, region, summary, updated, views]
   var RAW = [
-    ['RCMP and CBSA dismantle crime group after nearly 250&nbsp;kg of cocaine is detected in shipping container in Halifax', 'RCMP and CBSA dismantle crime group after nearly 250&nbsp;kg of cocaine is detected in shipping container in Halifax', '32473043', 'Organized crime and Illicit drugs', 'Northwest Territories', 'Northwest Territories RCMP', '1999-05-01', '2026-05-08', 1420],
-    ['Bay St. George RCMP issue warning about counterfeit currency circulating in the area', 'Bay St. George RCMP issue warning about counterfeit currency circulating in the area', '30847192', 'Fraud', 'Nunavut', 'Nunavut RCMP', '2020-03-15', '2026-05-07', 980 ],
-    ['Suspects arrested after replica handgun seen inside Morris hospital', 'Suspects arrested after replica handgun seen inside Morris hospital', '19284730', 'Weapons', 'Prince Edward Island', 'Prince Edward Island RCMP', '2021-07-04', '2026-05-06', 741 ],
-    ['RCMP seeking public’s help following counterfeit money circulation', 'RCMP seeking public’s help following counterfeit money circulation', '28374019', 'Fraud',  'Prince Edward Island', 'Prince Edward Island RCMP', '2022-01-10', '2026-05-05', 610 ],
-    ['Comox Valley RCMP looking to locate suspect vehicle after hit-and-run', 'Comox Valley RCMP looking to locate suspect vehicle after hit-and-run', '39201847', 'Wanted and Traffic services', 'Nunavut', 'Nunavut RCMP', '2023-06-22', '2026-05-04', 533 ],
-    ['Joint Forces Operations results in Multiple Drug Related Arrests', 'Joint Forces Operations Results in Multiple Drug Related Arrests', '10293847', 'Illicit drugs',  'Quebec',  'Federal Policing Central Region', '2024-09-30', '2026-05-03', 498 ],
-    ['Missing 49-year-old woman', 'Missing 49-year-old woman', '48201937', 'Missing', 'Quebec', 'Federal Policing Central Region', '2022-11-18', '2026-05-02', 412 ],
-    ['Steinbach RCMP served an IRP on Monday morning', 'Steinbach RCMP served an IRP on Monday morning', '67391028', 'Disturbance', 'Saskatchewan', 'Saskatchewan RCMP', '2025-01-05', '2026-04-30', 344 ],
-    ['Antigonish County District RCMP charges man after he flees from officers', 'Antigonish County District RCMP charges man after he flees from officers', '74829103', 'Break and Enter', 'Ontario', 'RCMP National Headquarters', '2024-04-12', '2026-04-28', 302 ],
-    ['RCMP opening ceremonies for new detachment in the City of Pitt Meadows', 'RCMP opening ceremonies for new detachment in the City of Pitt Meadows', '81920374', 'Public interest', 'Prince Edward Island', 'Prince Edward Island RCMP', '2023-08-09', '2026-04-26', 289 ],
-	['Police Dog Service, conducted a targeted vehicle stop in Summerside', 'Police Dog Service, conducted a targeted vehicle stop in Summerside', '81920374', 'Traffic services', 'Prince Edward Island', 'Prince Edward Island RCMP', '2023-08-09', '2026-04-26', 289 ],  
-    ['Alberta RCMP enforces safe driving during Canada Road Safety Week and Victoria Day long weekend', 'Alberta RCMP enforces safe driving during Canada Road Safety Week and Victoria Day long weekend', '92038471', 'Traffic services', 'Ontario', 'RCMP National Headquarters', '2022-05-17', '2026-04-24', 265 ],
-    ['Chilliwack RCMP seek public assistance to identify suspect in bus driver assault', 'Chilliwack RCMP seek public assistance to identify suspect in bus driver assault', '10293821', 'Wanted','Quebec','Federal Policing Central Region','2021-12-01', '2026-04-22', 241 ]
+    ['RCMP and CBSA dismantle crime group after nearly 250&nbsp;kg of cocaine is detected in shipping container in Halifax', 'RCMP and CBSA dismantle crime group after nearly 250&nbsp;kg of cocaine is detected in shipping container in Halifax', '32473043', 'Organized crime and Illicit drugs', 'Halifax, Nova Scotia', 'Nova Scotia RCMP', 'RCMP and CBSA dismantle crime group', '2026-05-08', 1420],
+    ['Bay St. George RCMP issue warning about counterfeit currency circulating in the area', 'Bay St. George RCMP issue warning about counterfeit currency circulating in the area', '30847192', 'Fraud', 'Bay St. George, Nunavut', 'Nunavut RCMP', 'Counterfeit currency circulating in the Bay St. George area.', '2026-05-07', 980 ],
+    ['Suspects arrested after replica handgun seen inside Morris hospital', 'Suspects arrested after replica handgun seen inside Morris hospital', '19284730', 'Weapons', 'Manitoba (Morris)', 'Manitoba RCMP', 'Suspects arrested in Morris.', '2026-05-06', 741 ],
+    ['RCMP seeking public’s help following counterfeit money circulation', 'RCMP seeking public’s help following counterfeit money circulation', '28374019', 'Fraud',  'Charlottetown, Prince Edward Island', 'Prince Edward Island RCMP', 'Seeking public’s help following counterfeit money circulation', '2026-05-05', 610 ],
+    ['Comox Valley RCMP looking to locate suspect vehicle after hit-and-run', 'Comox Valley RCMP looking to locate suspect vehicle after hit-and-run', '39201847', 'Wanted and Traffic services', 'Comox Valley, British Columbia', 'British Columbia RCMP', 'Looking to locate suspect vehicle after hit-and-run', '2026-05-04', 533 ],
+    ['Joint Forces Operations results in Multiple Drug Related Arrests', 'Joint Forces Operations Results in Multiple Drug Related Arrests', '10293847', 'Illicit drugs',  'Quebec City, Quebec',  'Federal Policing Central Region', 'Multiple drug-related arrests', '2026-05-03', 498 ],
+    ['Missing 49-year-old woman', 'Missing 49-year-old woman', '48201937', 'Missing', 'Steinbach, Manitoba', 'Federal Policing Western Region', 'Missing 49-year-old woman, last seen April 30, 2026', '2026-05-02', 412 ],
+    ['Regina RCMP served an IRP on Monday morning', 'Regina RCMP served an IRP on Monday morning', '67391028', 'Disturbance', 'Regina, Saskatchewan', 'Saskatchewan RCMP', 'Regina RCMP served an IRP', '2026-04-30', 344 ],
+    ['Antigonish County District RCMP charges man after he flees from officers', 'Antigonish County District RCMP charges man after he flees from officers', '74829103', 'Break and Enter', 'Antigonish, Nova Scotia', 'Nova Scotia RCMP', 'RCMP charges man after he flees from officers', '2026-04-28', 302 ],
+    ['RCMP opening ceremonies for new detachment in the City of Pitt Meadows', 'RCMP opening ceremonies for new detachment in the City of Pitt Meadows', '81920374', 'Public interest', 'Pitt Meadows, British Columbia', 'British Columbia RCMP', 'New detachment in the city of Pitt Meadows', '2026-04-26', 289 ],
+	['Police Dog Service, conducted a targeted vehicle stop in Summerside', 'Police Dog Service, conducted a targeted vehicle stop in Summerside', '81920374', 'Traffic services', 'Summerside, British Columbia', 'British Columbia RCMP', 'Targeted vehicle stop in Summerside', '2026-04-26', 289 ],  
+    ['Alberta RCMP enforces safe driving during Canada Road Safety Week and Victoria Day long weekend', 'Alberta RCMP enforces safe driving during Canada Road Safety Week and Victoria Day long weekend', '92038471', 'Traffic services', 'Edmonton, Alberta', 'Alberta RCMP', 'Safe driving during Canada Road Safety Week and Victoria Day long weekend', '2026-04-24', 265 ],
+    ['RCMP seek public assistance to identify suspect in bus driver assault', 'RCMP seek public assistance to identify suspect in bus driver assault', '10293821', 'Wanted', 'Ottawa, Ontario','RCMP National Headquarters', 'Seeking public assistance to identify suspect in bus driver assault', '2026-04-22', 241 ]
   ];
   var PROFILES = RAW.map(function (r, i) {
     return {
@@ -399,7 +404,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       category:  r[3],
       territory: r[4],
       region:    r[5],
-      lastSeen:  r[6],
+      summary:   r[6],
       updated:   r[7],
       views:     r[8]
     };
@@ -494,28 +499,12 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       var li = document.createElement('div');
       li.setAttribute('role', 'listitem');
       li.innerHTML =
-          '<table class="table table-striped table-hover">' +
-		  '<thead>' +
-		  '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' +
-		  '<tr class="wb-inv">' +
-            '<th>'  + p.name + '</th>' +
-		    '<th>'  + t.category + '</th>' +
-		    '<th>'  + t.territory + '</th>' +
-		    '<th>'  + t.region + '</th>' +
-            '<th>'  + t.lastSeen + '</th>' +
-            '<th>'  + t.updated + '</th>' +
-		   '</tr></a></thead>' +
-		  '<tbody id="tableBody">' +
-		  '<tr>' +
-		  '<td>'  + p.name + '</td>' +
-		    '<td>'  + p.category + '</td>' +
-		    '<td>'  + p.territory + '</td>' +
-		    '<td>'  + p.region + '</td>' +
-            '<td>'  + p.lastSeen + '</td>' +
-            '<td>'  + p.updated + '</td>' +
-		  '</tr>' +
-		  '</tbody>' +
-          '</table>';
+		  '<div class="wp-card-body">' +
+          '<h2 class="h4">' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' +'</h2>' +
+		  '<div class="details-landing">' + '<div class="wb-inv">' + t.updated + '</div>' + p.updated + '|'+ '<div class="wb-inv">' + t.region + '</div>' + p.region + '|' + '<div class="wb-inv">' + t.category + '</div>' + p.category + '</div>' +
+		  '<p>' + '<div class="wb-inv">' + t.territory + '</div>' + '<strong>' + p.territory + '</strong>' + '</p>' +
+          '<p>' + '<div class="wb-inv">' + t.summary + '</div>' + p.summary + '</p>' +
+		  '</div>';
       grid.appendChild(li);
     });
   }

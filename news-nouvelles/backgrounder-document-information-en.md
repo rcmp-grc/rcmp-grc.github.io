@@ -44,6 +44,7 @@ issued: 2026-05-08
 <div class="details">
 <p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May&nbsp;14, 2026 - Richmond, British Columbia<br>
 <i class="fa-regular fa-circle-user"></i> <a href="https://rcmp.ca/en/#">National Communications and Public Affairs</a></p></div>
+<div class="col-md-8">
 <section id="page-navigation">
 	<h2 class="h3">On this page</h2>
 	<ul>
@@ -152,6 +153,7 @@ issued: 2026-05-08
 	</section>
 	</div>
 	</section>
+</div>
 <div class="explore">	
 <section id="topics">	
 <h2 class="h3">Explore related topics</h2>

@@ -32,7 +32,7 @@ thead th {
 
 		tr {
 			display: block;
-			/* margin-bottom: 1em; */
+			margin: 0;
 			padding: 0;
 			border: none;
 			border-block-end: 1px solid var(--rcmp-grey-md);
@@ -91,6 +91,10 @@ thead th {
 		/* &.table-bordered td {
 			border-block-start: 1px solid var(--rcmp-grey-lt);
 		} */
+
+		tbody+tbody {
+			border: none;
+		}
 
 		&.table-condensed tbody,
 		&.table-sm tbody {

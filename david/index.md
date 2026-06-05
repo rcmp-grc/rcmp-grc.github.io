@@ -48,11 +48,11 @@ thead th {
 		}
 
 		th {
-			padding: 0.75em 0;
+			padding: 0.75em 0.25em;
 		}
 
 		td {
-			padding: 0.375em 0;
+			padding: 0.375em 0.25em;
 
 			&:first-of-type {
 				padding-block-start: 0.75em;
@@ -146,12 +146,15 @@ thead th {
 			<td data-label="Minor's Licence" class="text-right nowrap">1,667</td>
 			<td data-label="Total" class="text-right nowrap">378,938</td>
 		</tr>
+	</tbody>
+	<tfoot>
 		<tr>
 			<th scope="row" data-label="Province or territory">Total</th>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
 			<td data-label="Total" class="text-right nowrap">2,473,661</td>
 		</tr>
+	</tfoot>
 	</tbody>
 </table>
 
@@ -180,13 +183,15 @@ thead th {
 			<td class="text-right nowrap">290</td>
 			<td class="text-right nowrap">78,110</td>
 		</tr>
+	</tbody>
+	<tfoot>
 		<tr class="active">
 			<th scope="row">Total</th>
 			<td class="text-right nowrap">2,458,677</td>
 			<td class="text-right nowrap">14,984</td>
 			<td class="text-right nowrap">2,473,661</td>
 		</tr>
-	</tbody>
+	</tfoot>
 </table>
 
 <p>Table 3: table table-fixed with DATA-LABEL (same as first, but fixed)</p>
@@ -203,31 +208,33 @@ thead th {
 	</thead>
 	<tbody>
 		<tr>
-			<td data-label="Province or territory">Alberta</td>
+			<th scope="row" data-label="Province or territory">Alberta</th>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">385,449</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">3,406</td>
 			<td data-label="Total" class="text-right nowrap">388,855</td>
 		</tr>
 		<tr>
-			<td data-label="Province or territory">British Columbia</td>
+			<th scope="row" data-label="Province or territory">British Columbia</th>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">377,271</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">1,667</td>
 			<td data-label="Total" class="text-right nowrap">378,938</td>
 		</tr>
+	</tbody>
+	<tfoot>
 		<tr class="active">
-			<td data-label="Province or territory">Total</td>
+			<th scope="row" data-label="Province or territory">Total</th>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
 			<td data-label="Total" class="text-right nowrap">2,473,661</td>
 		</tr>
-	</tbody>
+	</tfoot>
 </table>
 
 
-<p>Table 4: table table-bordered table-condensed with DATA-LABEL</p>
+<p>Table 4: table table-bordered table-condensed</p>
 
 <table class="table table-bordered table-condensed" id="t4">
-	<caption>Table 4</caption>
+	<caption>Table 4: This table has TABLE-BORDERED and TABLE-CONDENSED classes. They don't do anything when collapsed, but should they?</caption>
 	<thead>
 		<tr class="active">
 			<th scope="col">Province or territory</th>
@@ -238,19 +245,19 @@ thead th {
 	</thead>
 	<tbody>
 		<tr>
-			<td data-label="Province or territory">Alberta</td>
+			<th scope="row" data-label="Province or territory">Alberta</th>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">385,449</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">3,406</td>
 			<td data-label="Total" class="text-right nowrap">388,855</td>
 		</tr>
 		<tr>
-			<td data-label="Province or territory">British Columbia</td>
+			<th scope="row" data-label="Province or territory">British Columbia</th>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">377,271</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">1,667</td>
 			<td data-label="Total" class="text-right nowrap">378,938</td>
 		</tr>
 		<tr class="active">
-			<td data-label="Province or territory">Total</td>
+			<th scope="row" data-label="Province or territory">Total</th>
 			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
 			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
 			<td data-label="Total" class="text-right nowrap">2,473,661</td>
@@ -258,44 +265,10 @@ thead th {
 	</tbody>
 </table>
 
-<p>Table 5: table table-bordered table-condensed without DATA-LABEL</p>
+<p>Table 5: Table with multiple TBODYs and COLSPAN</p>
 
-<table class="table table-bordered table-condensed" id="t5">
-	<caption>Table 5</caption>
-	<thead>
-		<tr class="active">
-			<th scope="col">Province or territory</th>
-			<th scope="col" class="text-right">Possession and Acquisition Licence</th>
-			<th scope="col" class="text-right">Minor's Licence</th>
-			<th scope="col" class="text-right">Total</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Manitoba</td>
-			<td class="text-right nowrap">105,185</td>
-			<td class="text-right nowrap">846</td>
-			<td class="text-right nowrap">106,031</td>
-		</tr>
-		<tr>
-			<td>New Brunswick</td>
-			<td class="text-right nowrap">77,820</td>
-			<td class="text-right nowrap">290</td>
-			<td class="text-right nowrap">78,110</td>
-		</tr>
-		<tr class="active">
-			<td>Total</td>
-			<td class="text-right nowrap">2,458,677</td>
-			<td class="text-right nowrap">14,984</td>
-			<td class="text-right nowrap">2,473,661</td>
-		</tr>
-	</tbody>
-</table>
-
-<p>Table 6: table with COLSPAN with DATA-LABEL</p>
-
-<table class="table" id="t6">
-	<caption>Table 6</caption>
+<table class="table" id="t5">
+	<caption>Table 5: This is testing two things: multiple TBODY elements and a TH with COLSPAN for in-table headers</caption>
 	<thead>
 		<tr class="active">
 			<th scope="col">Province or territory</th>
@@ -314,6 +287,8 @@ thead th {
 			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
 			<td data-label="Total" class="text-right nowrap">2,473,661</td>
 		</tr>
+	</tbody>
+	<tbody>
 		<tr>
 			<th scope="rowgroup" colspan="4">Prairies</th>
 		</tr>
@@ -338,57 +313,10 @@ thead th {
 	</tbody>
 </table>
 
-<p>Table 7: table with COLSPAN without DATA-LABEL</p>
+<p>Table 6: table with ROWSPAN</p>
 
-<table class="table" id="t7">
-	<caption>Table 7</caption>
-	<thead>
-		<tr class="active">
-			<th scope="col">Province or territory</th>
-			<th scope="col" class="text-right">Possession and Acquisition Licence</th>
-			<th scope="col" class="text-right">Minor's Licence</th>
-			<th scope="col" class="text-right">Total</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th scope="rowgroup" colspan="4">West Coast</th>
-		</tr>
-		<tr>
-			<th scope="row">British Columbia</th>
-			<td class="text-right nowrap">105,185</td>
-			<td class="text-right nowrap">846</td>
-			<td class="text-right nowrap">106,031</td>
-		</tr>
-		<tr>
-			<th scope="rowgroup" colspan="4">Prairies</th>
-		</tr>
-		<tr>
-			<th scope="row">Alberta</th>
-			<td class="text-right nowrap">105,185</td>
-			<td class="text-right nowrap">846</td>
-			<td class="text-right nowrap">106,031</td>
-		</tr>
-		<tr>
-			<th scope="row">Saskatchewan</th>
-			<td class="text-right nowrap">105,185</td>
-			<td class="text-right nowrap">846</td>
-			<td class="text-right nowrap">106,031</td>
-		</tr>
-		<tr>
-			<th scope="row">Manitoba</th>
-			<td class="text-right nowrap">105,185</td>
-			<td class="text-right nowrap">846</td>
-			<td class="text-right nowrap">106,031</td>
-		</tr>
-	</tbody>
-</table>
-
-
-<p>Table 8: table with ROWSPAN with DATA-LABEL</p>
-
-<table class="table" id="t8">
-	<caption>Table 8</caption>
+<table class="table table-bordered" id="t6">
+	<caption>Table 6</caption>
 	<thead>
 		<tr class="active">
 			<th scope="col">Province or territory</th>
@@ -418,10 +346,10 @@ thead th {
 	</tbody>
 </table>
 
-<p>Table 9: table with COLSPAN without DATA-LABEL</p>
+<p>Table 7: Table with TABLE-ZEBRA</p>
 
-<table class="table" id="t9">
-	<caption>Table 9</caption>
+<table class="table table-zebra" id="t7">
+	<caption>Table 7: This is testing striping</caption>
 	<thead>
 		<tr class="active">
 			<th scope="col">Province or territory</th>
@@ -431,23 +359,92 @@ thead th {
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
-			<th scope="rowgroup" rowspan="2">Alberta</th>
-			<td class="text-right nowrap">385,449</td>
-			<td class="text-right nowrap">3,406</td>
-			<td class="text-right nowrap">388,855</td>
+		<tr class="active">
+			<th scope="row" data-label="Province or territory">British Columbia</th>
+			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
+			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
+			<td data-label="Total" class="text-right nowrap">2,473,661</td>
 		</tr>
 		<tr>
-			<td class="text-right nowrap">458,677</td>
-			<td class="text-right nowrap">4,984</td>
-			<td class="text-right nowrap">473,661</td>
+			<th scope="row" data-label="Province or territory">Alberta</th>
+			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">385,449</td>
+			<td data-label="Minor's Licence" class="text-right nowrap">3,406</td>
+			<td data-label="Total" class="text-right nowrap">388,855</td>
+		</tr>
+		<tr>
+			<th scope="row" data-label="Province or territory">Saskatchewan</th>
+			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">385,449</td>
+			<td data-label="Minor's Licence" class="text-right nowrap">3,406</td>
+			<td data-label="Total" class="text-right nowrap">388,855</td>
 		</tr>
 		<tr class="active">
-			<th>Total</th>
-			<td class="text-right nowrap">2,458,677</td>
-			<td class="text-right nowrap">14,984</td>
-			<td class="text-right nowrap">2,473,661</td>
+			<th scope="row" data-label="Province or territory">Manitoba</th>
+			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
+			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
+			<td data-label="Total" class="text-right nowrap">2,473,661</td>
 		</tr>
+		<tr class="active">
+			<th scope="row" data-label="Province or territory">British Columbia</th>
+			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
+			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
+			<td data-label="Total" class="text-right nowrap">2,473,661</td>
+		</tr>
+		<tr>
+			<th scope="row" data-label="Province or territory">Alberta</th>
+			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">385,449</td>
+			<td data-label="Minor's Licence" class="text-right nowrap">3,406</td>
+			<td data-label="Total" class="text-right nowrap">388,855</td>
+		</tr>
+		<tr>
+			<th scope="row" data-label="Province or territory">Saskatchewan</th>
+			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">385,449</td>
+			<td data-label="Minor's Licence" class="text-right nowrap">3,406</td>
+			<td data-label="Total" class="text-right nowrap">388,855</td>
+		</tr>
+		<tr class="active">
+			<th scope="row" data-label="Province or territory">Manitoba</th>
+			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
+			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
+			<td data-label="Total" class="text-right nowrap">2,473,661</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<p>Table 8: table with PROVISIONAL and GC-TABLE</p>
+
+<table class="table provisional gc-table" id="t8">
+	<caption>Table 8: This table has beta classes. Do they clash? Get ignored? Do we need to override specific declarations?</caption>
+	<thead>
+		<tr>
+			<th scope="col">Province or territory</th>
+			<th scope="col" class="text-right">Possession and Acquisition Licence</th>
+			<th scope="col" class="text-right">Minor's Licence</th>
+			<th scope="col" class="text-right">Total</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row" data-label="Province or territory">Alberta</th>
+			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">385,449</td>
+			<td data-label="Minor's Licence" class="text-right nowrap">3,406</td>
+			<td data-label="Total" class="text-right nowrap">388,855</td>
+		</tr>
+		<tr>
+			<th scope="row" data-label="Province or territory">British Columbia</th>
+			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">377,271</td>
+			<td data-label="Minor's Licence" class="text-right nowrap">1,667</td>
+			<td data-label="Total" class="text-right nowrap">378,938</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<th scope="row" data-label="Province or territory">Total</th>
+			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
+			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
+			<td data-label="Total" class="text-right nowrap">2,473,661</td>
+		</tr>
+	</tfoot>
 	</tbody>
 </table>
 </section>

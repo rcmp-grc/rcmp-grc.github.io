@@ -89,7 +89,7 @@ issued: 2026-05-08
    <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
    613-555-0100</p>
 	<section class="gc-followus">
-	<h3 class="h4 wb-inv">Follow us</h4>
+	<h3 class="h6 wb-inv">Follow us</h4>
 	<ul class="list-inline">  
 <li>
      <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">

@@ -31,7 +31,7 @@ issued: 2026-05-20
 	{ font-weight: bold;
 	  font-color: #0b0c0c;
 	  padding-left: 0px;
-	  width: 130px;
+	  width: 160px;
 	  background-color: var(--rcmp-grey-lt);
 	}
 	.contact-us 
@@ -59,7 +59,7 @@ issued: 2026-05-20
 <p>As part of that work, the organization continues to support activities that encourage positive interactions between police and the public in safe and welcoming environments.</p>
 <p>Questions have also been raised regarding reports that Bob briefly attempted to “supervise” a morning briefing. At this time, there is no evidence that operational decisions were influenced by polar bear input.</p>
 <p>No further information is available.</p>
-<section id="s1">
+<section id="links">
 <h2 class="h3">Associated links</h2>
 <ul>
 <li><a href="#">Royal Canadian Mounted Police</a></li>	
@@ -92,7 +92,7 @@ issued: 2026-05-20
 	</div>
 	</section>
 <div class="explore">
-<section id="s5">
+<section id="topics">
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
   <li><span class="label label-danger"><u>Media Relations</u></span></li>

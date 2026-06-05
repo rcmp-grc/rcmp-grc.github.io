@@ -18,6 +18,7 @@ issued: 2026-05-08
 	.explore
 	{ border-top: 2px solid var(--rcmp-gold);
 	 }
+	//This style is for the Card - GoC //
 	.card
 	{ border-left: 2px solid var(--rcmp-grey-lt);
 	  border-right: 2px solid var(--rcmp-grey-lt);
@@ -33,6 +34,12 @@ issued: 2026-05-08
 	  padding-left: 0px;
 	  width: 130px;
 	  background-color: var(--rcmp-grey-lt);
+	}
+	//This style is for the Contact us band - GoC //
+	.contact-us 
+	{
+	background-color: #f5f5f5;
+	padding-left: 10px;
 	}
 </style>
 <p class="lead">The Royal Canadian Mounted Police will host a community winter safety event featuring Bob the Polar Bear, the RCMP’s unofficial northern mascot.</p>

@@ -120,7 +120,8 @@ thead th {
 
 <section id="tables">
   <h2>Table tests</h2>
-<p>Table 1: table with TH and DATA-LABEL and TFOOT</p>
+
+	<p>Table 1: table with TH and DATA-LABEL and TFOOT</p>
 
 <table class="table" id="t1">
 	<caption>Table 1: This table should collapse when small since it has DATA-LABEL attributes on the TD and TH elements</caption>
@@ -324,28 +325,28 @@ thead th {
 	</thead>
 	<tbody>
 		<tr>
-			<th scope="rowgroup" rowspan="2" data-label="Recommendation">Recommendation 1: Provide more entertainment</th>
-			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">Foosball</td>
-			<td data-label="Minor's Licence" class="text-right nowrap">Add a foosball table in the common area</td>
-			<td data-label="Total" class="text-right nowrap">July&nbsp;1, 2026</td>
+			<th scope="rowgroup" rowspan="2" data-label="Recommendation">1: Provide more entertainment</th>
+			<td data-label="Solution">Foosball</td>
+			<td data-label="Description">Add a foosball table in the common area</td>
+			<td data-label="Target date">July&nbsp;1, 2026</td>
 		</tr>
 		<tr>
-			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">Ms Pacman machine</td>
-			<td data-label="Minor's Licence" class="text-right nowrap">4,984</td>
-			<td data-label="Total" class="text-right nowrap">August 2026</td>
+			<td data-label="Solution">Ms Pacman machine</td>
+			<td data-label="Description">Inky, Blinky, Pinky and Sue!</td>
+			<td data-label="Target date">August 2026</td>
 		</tr>
 		<tr>
-			<th scope="row" data-label="Recommendation">Recommendation 2: Provide more candy</th>
-			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">Chocolate fountain</td>
-			<td data-label="Minor's Licence" class="text-right nowrap">Install a chocolate fountain in the break room</td>
-			<td data-label="Total" class="text-right nowrap">January 2027</td>
+			<th scope="row" data-label="Recommendation">2: Provide more candy</th>
+			<td data-label="Solution">Chocolate fountain</td>
+			<td data-label="Description">Install a chocolate fountain in the break room</td>
+			<td data-label="Target date">January 2027</td>
 		</tr>
 	</tbody>
 </table>
 
-<p>Table 7: Table with TABLE-ZEBRA</p>
+<p>Table 7: Table with TABLE-STRIPED</p>
 
-<table class="table table-zebra" id="t7">
+<table class="table table-zebra table-striped" id="t7">
 	<caption>Table 7: This is testing striping</caption>
 	<thead>
 		<tr>
@@ -407,11 +408,10 @@ thead th {
 	</tbody>
 </table>
 
-
 <p>Table 8: table with PROVISIONAL and GC-TABLE</p>
 
 <table class="table provisional gc-table" id="t8">
-	<caption>Table 8: This table has beta classes. Do they clash? Get ignored? Do we need to override specific declarations?</caption>
+	<caption>Table 8: This table has the beta classes. Do they clash? Get ignored? Do we need to override specific declarations?</caption>
 	<thead>
 		<tr>
 			<th scope="col">Province or territory</th>
@@ -441,6 +441,7 @@ thead th {
 		</tr>
 	</tbody>
 </table>
+
 </section>
 
 

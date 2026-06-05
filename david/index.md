@@ -238,7 +238,7 @@ thead th {
 <p>Table 4: table table-bordered table-condensed</p>
 
 <table class="table table-bordered table-condensed" id="t4">
-	<caption>Table 4: This table has TABLE-BORDERED and TABLE-CONDENSED classes. They don't do anything when collapsed, but should they?</caption>
+	<caption>Table 4: This table has TABLE-BORDERED and TABLE-CONDENSED classes</caption>
 	<thead>
 		<tr class="active">
 			<th scope="col">Province or territory</th>
@@ -324,9 +324,9 @@ thead th {
 	<thead>
 		<tr class="active">
 			<th scope="col">Recommendation</th>
-			<th scope="col" class="text-right">Solution</th>
-			<th scope="col" class="text-right">Description</th>
-			<th scope="col" class="text-right">Target date</th>
+			<th scope="col">Solution</th>
+			<th scope="col">Description</th>
+			<th scope="col">Target date</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -417,7 +417,7 @@ thead th {
 <p>Table 8: table with PROVISIONAL and GC-TABLE</p>
 
 <table class="table provisional gc-table" id="t8">
-	<caption>Table 8: This table has the beta classes. Do they clash? Get ignored? Do we need to override specific declarations?</caption>
+	<caption>Table 8: This table has the beta classes, but they are all overridden to match the new look</caption>
 	<thead>
 		<tr>
 			<th scope="col">Province or territory</th>
@@ -447,7 +447,6 @@ thead th {
 		</tr>
 	</tbody>
 </table>
-
 </section>
 
 

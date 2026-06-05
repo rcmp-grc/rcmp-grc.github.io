@@ -17,6 +17,7 @@ lead: News release
 	.explore
 	{ border-top: 2px solid var(--rcmp-gold);
 	 }
+	//This style is for the Card - GoC //
 	.card
 	{ border-left: 2px solid var(--rcmp-grey-lt);
 	  border-right: 2px solid var(--rcmp-grey-lt);
@@ -32,6 +33,12 @@ lead: News release
 	  padding-left: 0px;
 	  width: 130px;
 	  background-color: var(--rcmp-grey-lt);
+	}
+	//This style is for the Contact us band - GoC //
+	.contact-us 
+	{
+	background-color: #f5f5f5;
+	padding-left: 10px;
 	}
 </style>
 <div class="card col-md-8">

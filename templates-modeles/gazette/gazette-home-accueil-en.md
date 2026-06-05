@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Gazette home
+title: RCMP Gazette
 description: The home page for the RCMP Gazette magazine, featuring recent, trending, and highlighted stories
 date_modified: 2026-06-05
 lang: en
@@ -9,7 +9,6 @@ issued: 2026-06-05
 ---
 
 <section id="gazette-home">
-    <h1 class="mrgn-tp-md" property="name" id="wb-cont"><abbr>RCMP</abbr> Gazette</h1>
     <section id="s1">
         <h2 class="wb-inv">Latest articles</h2>
         <div class="row wb-eqht wb-eqht-grd wb-init wb-eqht-inited" id="wb-auto-1">
@@ -310,7 +309,7 @@ issued: 2026-06-05
         </section>
         <section class="col-md-4 mrgn-bttm-lg pddng-lft-0" id="s5">
             <h2 class="h4 mrgn-tp-lg mrgn-bttm-lg">About Gazette magazine</h2>
-            <p>First published in 1939, the Gazette covers the latest topics in policing, offers crime-prevention and safety tips, and highlights the exceptional work of <abbr>RCMP</abbr> employees at home and abroad.</p>
+            <p>First published in 1939, the Gazette covers the latest topics in policing, offers crime-prevention and safety tips, and highlights the exceptional work of RCMP employees at home and abroad.</p>
             <p>We publish all our content online.</p>
             <p>Contact us at <a href="mailto:gazette@rcmp-grc.gc.ca">gazette@rcmp-grc.gc.ca</a></p>
         </section>

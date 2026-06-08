@@ -1261,6 +1261,10 @@ a.btn-careers:hover {
     margin-top: 0;
   }
 
+  .po-content-full .gc-features {
+    padding: 15px;
+  }
+
   .rc-question-card {
     padding: 1.25rem 1rem 1rem;
   }

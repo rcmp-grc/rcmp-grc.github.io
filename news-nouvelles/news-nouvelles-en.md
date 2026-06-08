@@ -269,25 +269,18 @@ issued: 2026-05-21
 	</div>
     <div aria-label="News" id="news-grid" role="list"></div>
     <p id="news-no-results">No news or communications match your current filters.</p>
-    <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
-      <div class="rcmp-content-page__prev" id="news-prev-wrap">
-        <button type="button" id="news-prev" class="rcmp-content-page__link" aria-label="Previous page">
-          <span class="rcmp-content-page__title-row">
-            <i class="rcmp-content-page__icon fa-solid fa-chevron-left" aria-hidden="true"></i>
-            <span class="rcmp-content-page__link-title">Previous page</span>
-          </span>
-          <span class="rcmp-visually-hidden">:</span>
-          <span class="rcmp-content-page__link-label" id="news-prev-label"></span>
+   <nav aria-label="Pagination" class="rcmp-item-pagination" id="rcmp-content-page">
+      <div class="rcmp-item-pagination__prev" id="wp-prev-wrap">
+        <button aria-label="Previous page" class="rcmp-item-pagination__link" id="wp-prev" type="button">
+          <i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-left"></i>
+          <span class="rcmp-item-pagination__link-title">Previous<span class="rcmp-visually-hidden"> page</span></span>
         </button>
       </div>
-      <div class="rcmp-content-page__next" id="news-next-wrap">
-        <button type="button" id="news-next" class="rcmp-content-page__link" aria-label="Next page">
-          <span class="rcmp-content-page__title-row">
-            <i class="rcmp-content-page__icon fa-solid fa-chevron-right" aria-hidden="true"></i>
-            <span class="rcmp-content-page__link-title">Next page</span>
-          </span>
-          <span class="rcmp-visually-hidden">:</span>
-          <span class="rcmp-content-page__link-label" id="news-next-label"></span>
+      <ul class="rcmp-item-pagination__list" id="wp-page-list"></ul>
+      <div class="rcmp-item-pagination__next" id="wp-next-wrap">
+        <button aria-label="Next page" class="rcmp-item-pagination__link" id="wp-next" type="button">
+          <span class="rcmp-item-pagination__link-title">Next<span class="rcmp-visually-hidden"> page</span></span>
+          <i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-right"></i>
         </button>
       </div>
     </nav>
@@ -490,15 +483,51 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     });
   }
   function renderPagination(total, page) {
-    var pages     = Math.ceil(total / PER_PAGE);
-    var prevLabel = $('mp-prev-label');
-    var nextLabel = $('mp-next-label');
-    if (prevLabel) prevLabel.textContent = (page - 1) + t.ofPages + pages;
-    if (nextLabel) nextLabel.textContent = (page + 1) + t.ofPages + pages;
-    prevBtn.disabled                     = page <= 1;
-    nextBtn.disabled                     = page >= pages;
-    prevBtn.parentElement.style.display  = page <= 1    ? 'none' : 'block';
-    nextBtn.parentElement.style.display  = page >= pages ? 'none' : 'block';
+    var pages    = Math.ceil(total / PER_PAGE);
+    var pageList = $('wp-page-list');
+    prevBtn.disabled                    = page <= 1;
+    nextBtn.disabled                    = page >= pages;
+    prevBtn.parentElement.style.visibility = page <= 1     ? 'hidden' : '';
+    nextBtn.parentElement.style.visibility = page >= pages ? 'hidden' : '';
+    if (!pageList) return;
+    pageList.innerHTML = '';
+    var slots = buildPageSlots(page, pages);
+    slots.forEach(function (slot) {
+      var li = document.createElement('li');
+      if (slot === '…') {
+        li.className = 'rcmp-item-pagination__item rcmp-item-pagination__item--ellipsis';
+        li.setAttribute('aria-hidden', 'true');
+        li.textContent = '⋯';
+      } else {
+        li.className = 'rcmp-item-pagination__item' + (slot === page ? ' rcmp-item-pagination__item--current' : '');
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'rcmp-item-pagination__item-link';
+        btn.setAttribute('aria-label', t.pageLabel + slot);
+        if (slot === page) btn.setAttribute('aria-current', 'page');
+        btn.textContent = slot;
+        btn.addEventListener('click', function () {
+          currentPage = slot;
+          draw();
+          grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+        li.appendChild(btn);
+      }
+      pageList.appendChild(li);
+    });
+  }
+  function buildPageSlots(page, pages) {
+    if (pages <= 7) {
+      var all = [];
+      for (var i = 1; i <= pages; i++) all.push(i);
+      return all;
+    }
+    var slots = [1];
+    if (page > 3) slots.push('…');
+    for (var p = Math.max(2, page - 1); p <= Math.min(pages - 1, page + 1); p++) slots.push(p);
+    if (page < pages - 2) slots.push('…');
+    slots.push(pages);
+    return slots;
   }
   function draw() {
     renderGrid(activeData, currentPage);

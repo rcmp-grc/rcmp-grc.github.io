@@ -358,7 +358,7 @@ button,
 
 .careers-hero {
   width: 100%;
-  min-height: 220px;
+  min-height: 315px;
   overflow: hidden;
   position: relative;
 }
@@ -1202,6 +1202,23 @@ a.btn-careers:hover {
 }
 
 @media (max-width: 767px) {
+  .careers-hero {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+
+  .careers-hero #wb-bc {
+    position: static;
+    order: -1;
+  }
+
+  .careers-hero img {
+    position: static;
+    height: 220px;
+    order: 0;
+  }
+
   .careers-nav__toggle {
     display: flex;
   }

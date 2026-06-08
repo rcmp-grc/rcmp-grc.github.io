@@ -1257,10 +1257,6 @@ a.btn-careers:hover {
     width: 100%;
   }
 
-  .careers-layout .gc-features {
-    padding: 0 var(--pad-section-sm);
-  }
-
   .rc-question-card {
     padding: 1.25rem 1rem 1rem;
   }

@@ -3,7 +3,7 @@ layout: careers
 title: Submit an online application
 date_modified: 2026-06-10
 lang: en
-lang_url: application-candidate-1-fr.html
+lang_url: application-candidature-1-fr.html
 lead: Police officer application process
 breadcrumbs:
   - label: "RCMP careers"
@@ -62,7 +62,7 @@ custom_css: /assets/css/careers.css
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
   <div class="rcmp-content-page__next" id="mp-next-wrap">
-    <a aria-label="Next page: Online career presentation and entrance assessment" class="rcmp-content-page__link" href="application-candidate-2-en.html" id="mp-next">
+    <a aria-label="Next page: Online career presentation and entrance assessment" class="rcmp-content-page__link" href="application-candidature-2-en.html" id="mp-next">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
         <span class="rcmp-content-page__link-title">Next page</span>

@@ -3,7 +3,7 @@ layout: careers
 title: Submit an online application
 date_modified: 2026-06-10
 lang: en
-lang_url: application-candidate-fr.html
+lang_url: application-candidature-fr.html
 lead: Police officer application process
 breadcrumbs:
   - label: "RCMP careers"

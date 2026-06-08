@@ -1326,8 +1326,7 @@ a.btn-careers:hover {
   }
 
   .po-banner-text {
-    padding-left: var(--pad-section-sm);
-    padding-right: var(--pad-section-sm);
+    padding: 0 15px;
   }
 
   .po-banner-text p:nth-child(1) {

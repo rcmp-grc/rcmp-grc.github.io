@@ -264,7 +264,6 @@ issued: 2026-05-21
         <select aria-label="Sort profiles" id="news-sort-select">
           <option value="newest">Updated (newest)</option>
           <option value="oldest">Updated (oldest)</option>
-          <option value="views">Most viewed</option>
         </select>
       </div>
 	</div>

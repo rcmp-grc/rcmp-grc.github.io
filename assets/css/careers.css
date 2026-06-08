@@ -401,6 +401,10 @@ button,
   padding: 0 15px;
 }
 
+.careers-layout .gc-features {
+  margin-top: 30px;
+}
+
 .po-content-full .gc-features {
   padding: 0 var(--pad-section);
 }
@@ -1251,6 +1255,10 @@ a.btn-careers:hover {
 
   .footer-contact .btn-contact {
     width: 100%;
+  }
+
+  .careers-layout .gc-features {
+    margin-top: 0;
   }
 
   .rc-question-card {

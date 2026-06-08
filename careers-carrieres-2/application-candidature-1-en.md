@@ -39,9 +39,9 @@ custom_css: /assets/css/careers.css
 </nav>
 <section id="s1">
   <h2>New applicants</h2>
-  <p>If you're applying to the <abbr>RCMP</abbr> for the first time, it's important to decide if are suited and ready to become an <abbr>RCMP</abbr> police officer. Take the Readiness Check</p>
-  <p>Understanding the entry requirements and the application process is the first step towards starting your career with the <abbr>RCMP</abbr>.</p>
-  <p>All applications are submitted through the <abbr>GC</abbr> Jobs portal. You will need to create a <abbr>GC</abbr> Jobs account to complete your online application. The <abbr>RCMP</abbr> job posting for police officers is on the <a href="#"><abbr>GC</abbr> Jobs</a>.</p>
+  <p>If you're applying to the RCMP for the first time, it's important to decide if are suited and ready to become an RCMP police officer. Take the Readiness Check</p>
+  <p>Understanding the entry requirements and the application process is the first step towards starting your career with the RCMP.</p>
+  <p>All applications are submitted through the GC Jobs portal. You will need to create a GC Jobs account to complete your online application. The RCMP job posting for police officers is on the <a href="#">GC Jobs</a>.</p>
   <p>To find the posting:</p>
   <ol>
     <li>Search "Police Officer" under "Job title"</li>
@@ -52,10 +52,10 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s2">
   <h2>Returning applicants</h2>
-  <p>If you applied to become a police officer with the <abbr>RCMP</abbr> in the past, you may be eligible to re-apply if you meet the conditions:</p>
+  <p>If you applied to become a police officer with the RCMP in the past, you may be eligible to re-apply if you meet the conditions:</p>
   <ul>
     <li>Your deferral period has passed. The deferral period is indicated in your conclude letter. If no date was provided, you can re-apply 3 months from the date your file was concluded</li>
-    <li>You still meet the <abbr>RCMP</abbr>'s qualifications and requirements</li>
+    <li>You still meet the RCMP's qualifications and requirements</li>
   </ul>
   <p>If you don't meet one of these conditions, your application may be rejected. You won't be able to re-apply for 3 months.</p>
   <p>After we receive your application, we'll review it along with your previous application file. We'll contact you to advise on next steps in the application process.</p>

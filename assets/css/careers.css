@@ -321,6 +321,10 @@ button,
   padding-right: 0;
 }
 
+.uppercase {
+  text-transform: uppercase !important;
+}
+
 .po-content-full {
   width: 100%;
   max-width: 100%;

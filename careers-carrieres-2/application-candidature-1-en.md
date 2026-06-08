@@ -15,7 +15,7 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<nav>
+<nav aria-label="On this page">
   <h2>On this page</h2>
   <ul>
     <li>
@@ -26,8 +26,8 @@ custom_css: /assets/css/careers.css
     </li>
   </ul>
 </nav>
-<nav class="gc-subway" data-sections-title="Steps">
-	<h1>Police officer application process</h1>
+<nav class="gc-subway" data-sections-title="Steps" aria-label="Application process steps">
+  <p class="wb-inv">Police officer application process</p>
 	<ul>
 		<li><a href="application-candidature-1-en.html" class="active">Submit an online application</a></li>
 		<li><a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a></li>
@@ -39,7 +39,7 @@ custom_css: /assets/css/careers.css
 </nav>
 <section id="s1">
   <h2>New applicants</h2>
-  <p>If you're applying to the RCMP for the first time, it's important to decide if are suited and ready to become an RCMP police officer. Take the Readiness Check</p>
+  <p>If you're applying to the RCMP for the first time, it's important to decide if you are suited and ready to become an RCMP police officer. <a href="#">Take the Readiness Check</a>.</p>
   <p>Understanding the entry requirements and the application process is the first step towards starting your career with the RCMP.</p>
   <p>All applications are submitted through the GC Jobs portal. You will need to create a GC Jobs account to complete your online application. The RCMP job posting for police officers is on the <a href="#">GC Jobs</a>.</p>
   <p>To find the posting:</p>

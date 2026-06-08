@@ -394,12 +394,11 @@ button,
 }
 
 .careers-layout .gc-features .well img {
-  border-radius: var(--border-radius-card);
+  border-radius: 8px 8px 0 0;
 }
 
-.careers-layout .gc-features .well h3,
 .careers-layout .gc-features .well p {
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .careers-layout .gc-features {
@@ -421,7 +420,7 @@ button,
 }
 
 .careers-layout .gc-features .well h3 {
-  margin-top: 0;
+  margin-top: 15;
   padding-top: 0;
 }
 

@@ -1006,7 +1006,7 @@ a.btn-careers:hover {
 
 .po-ribbon {
   display: grid;
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 
 .po-ribbon-dark {
@@ -1056,7 +1056,7 @@ a.btn-careers:hover {
 
 .po-ribbon-dark .po-ribbon-text,
 .po-ribbon-light .po-ribbon-text {
-  padding: 5rem var(--pad-section);
+  padding: 1rem var(--pad-section);
 }
 
 .po-ribbon-text h2:first-of-type {

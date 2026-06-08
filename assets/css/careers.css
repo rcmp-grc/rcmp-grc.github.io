@@ -384,7 +384,7 @@ button,
 .careers-layout .gc-features .well {
   background-color: var(--c-white);
   border-radius: var(--border-radius-card);
-  padding: 0px;
+  padding: 0 0 15px 0;
   box-shadow: var(--shadow-card);
   border: 1px solid var(--c-grey-mid);
   display: flex;
@@ -420,8 +420,7 @@ button,
 }
 
 .careers-layout .gc-features .well h3 {
-  margin-top: 15;
-  padding-top: 0;
+  margin-top: 15px 15px 0 15px;
 }
 
 .careers-layout .gc-features ul.list-unstyled {

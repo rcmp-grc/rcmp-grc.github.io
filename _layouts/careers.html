@@ -2,96 +2,134 @@
 <html class="no-js" dir="ltr" lang="{{ page.lang | default: 'en' }}">
   <head>
     {% include head.html %}
-    <noscript><style>#loader{display:none}</style></noscript>
+    <noscript><style>#loader { display: none }</style></noscript>
   </head>
   <body class="cnt-wdth-lmtd careers-layout" typeof="WebPage" vocab="http://schema.org/">
-    <div id="loader" role="status" aria-live="polite" aria-atomic="true" aria-label="{% if page.lang == 'fr' %}Chargement en cours{% else %}Page loading{% endif %}" data-loaded-msg="{% if page.lang == 'fr' %}Page chargée avec succès{% else %}Page loaded successfully{% endif %}">
+    <div id="loader"
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+      aria-label="{% if page.lang == 'fr' %}Chargement en cours{% else %}Page loading{% endif %}"
+      data-loaded-msg="{% if page.lang == 'fr' %}Page chargée avec succès{% else %}Page loaded successfully{% endif %}">
       <img src="/assets/rcmp-grc.svg" alt="" width="150" height="150" aria-hidden="true">
-      <span class="sr-only">{% if page.lang == 'fr' %}Chargement du contenu de la page, veuillez patienter...{% else %}Loading page content, please wait...{% endif %}</span>
+      <span class="sr-only">
+        {% if page.lang == 'fr' %}Chargement du contenu de la page, veuillez patienter...
+        {% else %}Loading page content, please wait...
+        {% endif %}
+      </span>
     </div>
     <nav>
       <ul id="wb-tphp">
         {% if page.lang == 'fr' %}
-        <li class="wb-slc">
-          <a class="wb-sl" href="#wb-cont">Passer au contenu principal</a>
-        </li>
-        <li class="wb-slc visible-sm visible-md visible-lg">
-          <a class="wb-sl" href="#wb-info">Passer à «&nbsp;À propos de ce site&nbsp;»</a>
-        </li>
+          <li class="wb-slc">
+            <a class="wb-sl" href="#wb-cont">Passer au contenu principal</a>
+          </li>
+          <li class="wb-slc visible-sm visible-md visible-lg">
+            <a class="wb-sl" href="#wb-info">Passer à «&nbsp;À propos de ce site&nbsp;»</a>
+          </li>
         {% else %}
-        <li class="wb-slc">
-          <a class="wb-sl" href="#wb-cont">Skip to main content</a>
-        </li>
-        <li class="wb-slc visible-sm visible-md visible-lg">
-          <a class="wb-sl" href="#wb-info">Skip to About this site</a>
-        </li>
+          <li class="wb-slc">
+            <a class="wb-sl" href="#wb-cont">Skip to main content</a>
+          </li>
+          <li class="wb-slc visible-sm visible-md visible-lg">
+            <a class="wb-sl" href="#wb-info">Skip to About this site</a>
+          </li>
         {% endif %}
       </ul>
     </nav>
     {% include header.html %}
     <nav class="careers-nav" aria-label="{% if page.lang == 'fr' %}Navigation des carrières{% else %}Careers navigation{% endif %}">
       <div class="container careers-nav__inner">
-        <button class="careers-nav__toggle" aria-controls="careers-nav-links" aria-expanded="false" aria-label="{% if page.lang == 'fr' %}Ouvrir ou fermer le menu Carrières{% else %}Toggle careers menu{% endif %}">
+        <button
+          class="careers-nav__toggle"
+          aria-controls="careers-nav-links"
+          aria-expanded="false"
+          aria-label="{% if page.lang == 'fr' %}Ouvrir ou fermer le menu Carrières{% else %}Toggle careers menu{% endif %}">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </button>
         <ul class="careers-nav__links" id="careers-nav-links">
           {% if page.lang == 'fr' %}
-          <li><a href="#agent-police">Agent de police</a></li>
-          <li><a href="#employes-civils">Employés civils</a></li>
-          <li><a href="#autres-possibilites">Autres possibilités</a></li>
+            <li><a href="#agent-police">Agent de police</a></li>
+            <li><a href="#employes-civils">Employés civils</a></li>
+            <li><a href="#autres-possibilites">Autres possibilités</a></li>
           {% else %}
-          <li><a href="https://rcmp-grc.github.io/careers-carrieres-2/#police-officer">Police officer</a></li>
-          <li><a href="https://rcmp-grc.github.io/careers-carrieres-2/#civilian-employees">Civilian employees</a></li>
-          <li><a href="https://rcmp-grc.github.io/careers-carrieres-2/#more-opportunities">More opportunities</a></li>
+            <li><a href="https://rcmp-grc.github.io/careers-carrieres-2/#police-officer">Police officer</a></li>
+            <li><a href="https://rcmp-grc.github.io/careers-carrieres-2/#civilian-employees">Civilian employees</a></li>
+            <li><a href="https://rcmp-grc.github.io/careers-carrieres-2/#more-opportunities">More opportunities</a></li>
           {% endif %}
         </ul>
         <div class="careers-nav__apply">
-          <a href="#" aria-label="{% if page.lang == 'fr' %}Postuler maintenant à la GRC{% else %}Apply now to the RCMP{% endif %}">{% if page.lang == 'fr' %}Postuler maintenant{% else %}Apply now{% endif %}</a>
+          <a href="#" aria-label="{% if page.lang == 'fr' %}Postuler maintenant à la GRC{% else %}Apply now to the RCMP{% endif %}">
+            {% if page.lang == 'fr' %}Postuler maintenant{% else %}Apply now{% endif %}
+          </a>
         </div>
       </div>
     </nav>
     {% if page.hero_image %}
-    <div class="careers-hero">
-      <img src="{{ page.hero_image }}" alt="{{ page.hero_image_alt | default: '' }}">
-      {% include breadcrumb.html %}
-    </div>
+      <div class="careers-hero">
+        <img src="{{ page.hero_image }}" alt="{{ page.hero_image_alt | default: '' }}">
+        {% include breadcrumb.html %}
+      </div>
     {% endif %}
-    <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement" {% if page.url contains 'officer-agent' %}class="po-full-width" {% endif %}{% if page.background %}style="background-image: url('{{ page.background }}');"{% endif %}>
+    <main
+      property="mainContentOfPage"
+      resource="#wb-main"
+      typeof="WebPageElement"
+      {% if page.url contains 'officer-agent' %}class="po-full-width"{% endif %}
+      {% if page.background %}style="background-image: url('{{ page.background }}');"{% endif %}>
       {% unless page.hero_image or page.url contains 'officer-agent' %}
         {% include breadcrumb.html %}
       {% endunless %}
-	  {% if page.url contains 'officer-agent' %}
+      {% if page.url contains 'officer-agent' %}
         <div class="po-content-full">
-          <h1 class="wb-inv" property="name">{{ page.title }}</h1>
+          {% if page.lead %}
+            <hgroup class="mrgn-tp-md">
+              <p class="wb-rd lead mrgn-tp-0 mrgn-bttm-0">{{ page.lead }}</p>
+              <h1 id="wb-cont" property="name">{{ page.title }}</h1>
+            </hgroup>
+          {% else %}
+            <h1 id="wb-cont" property="name">{{ page.title }}</h1>
+          {% endif %}
           {{ content }}
         </div>
         <div class="footer-contact">
-          <a class="btn btn-contact" href="#recruiter-contact-form">{% if page.lang == 'fr' %}Communiquer avec le personnel du recrutement{% else %}Contact a recruiter{% endif %}</a>
+          <a class="btn btn-contact" href="#recruiter-contact-form">
+            {% if page.lang == 'fr' %}Communiquer avec le personnel du recrutement{% else %}Contact a recruiter{% endif %}
+          </a>
         </div>
       {% else %}
         <div class="container">
-          <h1 id="wb-cont" property="name" {% if page.h1_hidden %}class="wb-inv" {% endif %}>{{ page.title }}</h1>
+          {% if page.lead %}
+            <hgroup class="mrgn-tp-md">
+              <p class="wb-rd lead mrgn-tp-0 mrgn-bttm-0">{{ page.lead }}</p>
+              <h1 id="wb-cont" property="name" {% if page.h1_hidden %}class="wb-inv"{% endif %}>{{ page.title }}</h1>
+            </hgroup>
+          {% else %}
+            <h1 id="wb-cont" property="name" {% if page.h1_hidden %}class="wb-inv"{% endif %}>{{ page.title }}</h1>
+          {% endif %}
           {{ content }}
           <section class="pagedetails">
             {% if page.lang == 'fr' %}
               <h2 class="wb-inv">Détails de la page</h2>
               <dl id="wb-dtmd">
                 <dt>Date de modification :</dt>
-                <dd><time property="dateModified"> {{ page.date_modified | default: site.time | date: "%Y-%m-%d" }} </time></dd>
+                <dd><time property="dateModified">{{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}</time></dd>
               </dl>
             {% else %}
               <h2 class="wb-inv">Page details</h2>
               <dl id="wb-dtmd">
                 <dt>Date modified:</dt>
-                <dd><time property="dateModified"> {{ page.date_modified | default: site.time | date: "%Y-%m-%d" }} </time></dd>
+                <dd><time property="dateModified">{{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}</time></dd>
               </dl>
             {% endif %}
           </section>
         </div>
         <div class="footer-contact">
-          <a class="btn btn-contact" href="#recruiter-contact-form">{% if page.lang == 'fr' %}Communiquer avec le personnel du recrutement{% else %}Contact a recruiter{% endif %}</a>
+          <a class="btn btn-contact" href="#recruiter-contact-form">
+            {% if page.lang == 'fr' %}Communiquer avec le personnel du recrutement{% else %}Contact a recruiter{% endif %}
+          </a>
         </div>
       {% endif %}
     </main>

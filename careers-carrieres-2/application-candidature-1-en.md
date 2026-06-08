@@ -26,7 +26,7 @@ custom_css: /assets/css/careers.css
     </li>
   </ul>
 </nav>
-<nav class="gc-subway" data-sections-title="Steps">>
+<nav class="gc-subway" data-sections-title="Steps">
 	<h1>Police officer application process</h1>
 	<ul>
 		<li><a href="application-candidature-1-en.html" class="active">Submit an online application</a></li>

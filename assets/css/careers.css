@@ -393,6 +393,10 @@ button,
   flex: 1;
 }
 
+.careers-layout .gc-features .well img {
+  border-radius: var(--border-radius-card);
+}
+
 .careers-layout .gc-features .well h3,
 .careers-layout .gc-features .well p {
   padding: 15px;

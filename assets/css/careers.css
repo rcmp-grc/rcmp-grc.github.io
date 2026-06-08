@@ -415,12 +415,8 @@ button,
   margin-left: 0;
 }
 
-.careers-layout .gc-features .well p:last-child {
-  margin-bottom: 0;
-}
-
 .careers-layout .gc-features .well h3 {
-  margin: 15px 15px 0 15px;
+  margin: 15px 15px 10px 15px;
 }
 
 .careers-layout .gc-features ul.list-unstyled {

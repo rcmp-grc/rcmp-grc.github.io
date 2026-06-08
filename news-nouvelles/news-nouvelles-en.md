@@ -257,9 +257,9 @@ issued: 2026-05-21
   <div class="col-md-9 mrgn-tp-md">
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 
-    <div id="wp-toolbar">
-      <p id="wp-count" aria-live="polite"><strong id="news-count-num">0</strong>&nbsp;news and communications items found</p>
-      <div id="wp-sort">
+    <div id="news-toolbar">
+      <p id="news-count" aria-live="polite"><strong id="news-count-num">0</strong>&nbsp;news and communications items found</p>
+      <div id="news-sort">
         <label for="news-sort-select">Sort by:</label>
         <select aria-label="Sort profiles" id="news-sort-select">
           <option value="newest">Updated (newest)</option>
@@ -270,15 +270,15 @@ issued: 2026-05-21
     <div aria-label="News" id="news-grid" role="list"></div>
     <p id="news-no-results">No news or communications match your current filters.</p>
    <nav aria-label="Pagination" class="rcmp-item-pagination" id="rcmp-content-page">
-      <div class="rcmp-item-pagination__prev" id="wp-prev-wrap">
-        <button aria-label="Previous page" class="rcmp-item-pagination__link" id="wp-prev" type="button">
+      <div class="rcmp-item-pagination__prev" id="news-prev-wrap">
+        <button aria-label="Previous page" class="rcmp-item-pagination__link" id="news-prev" type="button">
           <i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-left"></i>
           <span class="rcmp-item-pagination__link-title">Previous<span class="rcmp-visually-hidden"> page</span></span>
         </button>
       </div>
-      <ul class="rcmp-item-pagination__list" id="wp-page-list"></ul>
-      <div class="rcmp-item-pagination__next" id="wp-next-wrap">
-        <button aria-label="Next page" class="rcmp-item-pagination__link" id="wp-next" type="button">
+      <ul class="rcmp-item-pagination__list" id="news-page-list"></ul>
+      <div class="rcmp-item-pagination__next" id="news-next-wrap">
+        <button aria-label="Next page" class="rcmp-item-pagination__link" id="news-next" type="button">
           <span class="rcmp-item-pagination__link-title">Next<span class="rcmp-visually-hidden"> page</span></span>
           <i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-right"></i>
         </button>

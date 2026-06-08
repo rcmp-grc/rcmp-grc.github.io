@@ -9,10 +9,11 @@ lang_url: index-fr.html
 <style></style>
 
 <nav>
+<p>Current experiments:</p>
 <ul>
 	<li><a href="tables.html">Mobile-friendly tables</a></li>
 	<li><a href="downloads.html">Downloads</a></li>
 </ul>
-</div>
+</nav>
 
 <script></script>

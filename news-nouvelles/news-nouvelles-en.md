@@ -381,7 +381,6 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       region:    r[5],
       summary:   r[6],
       updated:   r[7],
-      views:     r[8]
     };
   });
   var PER_PAGE    = 9;
@@ -438,7 +437,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     });
     if (!allTags.length) return;
     var showingLabel = document.createElement('span');
-    showingLabel.className = 'wp-filter-showing-label';
+    showingLabel.className = 'news-filter-showing-label';
     showingLabel.textContent = t.showing;
     activeTagsEl.appendChild(showingLabel);
     allTags.forEach(function (item, index) {
@@ -447,7 +446,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
 	  var label = item.cat === 'region' ? (t.regionLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
       if (index > 0) {
         var sep = document.createElement('span');
-        sep.className = 'wp-filter-tag-sep';
+        sep.className = 'news-filter-tag-sep';
         sep.textContent = t.orSep;
         activeTagsEl.appendChild(sep);
       }
@@ -484,7 +483,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   }
   function renderPagination(total, page) {
     var pages    = Math.ceil(total / PER_PAGE);
-    var pageList = $('wp-page-list');
+    var pageList = $('news-page-list');
     prevBtn.disabled                    = page <= 1;
     nextBtn.disabled                    = page >= pages;
     prevBtn.parentElement.style.visibility = page <= 1     ? 'hidden' : '';

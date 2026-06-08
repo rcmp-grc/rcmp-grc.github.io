@@ -21,8 +21,10 @@
   {% assign lang_selection = 'Language selection' %}
   {% assign search_action = 'https://www.canada.ca/en/royal-canadian-mounted-police/search.html#wb-land' %}
   {% assign search_heading = 'Search' %}
-  {% assign search_label = 'Search RCMP.ca' %} {% assign search_placeholder = 'Search RCMP.ca' %} {% assign search_btn = 'Search' %} {%
-endif %}
+  {% assign search_label = 'Search RCMP.ca' %}
+  {% assign search_placeholder = 'Search RCMP.ca' %}
+  {% assign search_btn = 'Search' %}
+{% endif %}
 <header>
   <div class="container" id="wb-bnr">
     <div class="row">
@@ -30,10 +32,10 @@ endif %}
         <h2 class="wb-inv">{{ lang_selection }}</h2>
         <ul class="list-inline mrgn-bttm-0">
           <li>
-			<a href="{{ page.lang_url }}" hreflang="{{ lang_code }}" lang="{{ lang_code }}">
-			  <span class="hidden-xs" translate="no">{{ lang_label }}</span>
-			  <span class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase" translate="no">{{ lang_code }}</span>
-			</a>
+            <a href="{{ page.lang_url }}" hreflang="{{ lang_code }}" lang="{{ lang_code }}">
+              <span class="hidden-xs" translate="no">{{ lang_label }}</span>
+              <span class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase" translate="no">{{ lang_code }}</span>
+            </a>
           </li>
         </ul>
       </section>
@@ -47,7 +49,7 @@ endif %}
       </div>
       <section class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4" id="wb-srch">
         <h2>{{ search_heading }}</h2>
-        <form action="{{ search_action }}" id="cse-search-box" method="get" role="search">
+        <form action="{{ search_action }}" id="cse-search-box" method="get" role="search" aria-label="Search RCMP.ca">
           <div class="form-group wb-srch-qry">
             <label class="wb-inv" for="wb-srch-q">{{ search_label }}</label>
             <input

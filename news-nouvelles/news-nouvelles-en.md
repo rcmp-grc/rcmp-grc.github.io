@@ -419,7 +419,6 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     return data.slice().sort(function (a, b) {
       if (mode === 'newest') return b.updated.localeCompare(a.updated);
       if (mode === 'oldest') return a.updated.localeCompare(b.updated);
-      if (mode === 'views')  return b.views - a.views;
       return 0;
     });
   }

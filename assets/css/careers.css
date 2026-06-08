@@ -321,7 +321,8 @@ button,
   padding-right: 0;
 }
 
-.uppercase {
+.careers-layout .uppercase {
+  color: var(--c-black);
   text-transform: uppercase !important;
 }
 

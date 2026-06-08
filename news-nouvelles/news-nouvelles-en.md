@@ -402,7 +402,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       var count = PROFILES.filter(function (p) {
         return p[cat] === val;
       }).length;
-      var badge = cb.closest('label').querySelector('.wp-filter-badge');
+      var badge = cb.closest('label').querySelector('.news-filter-badge');
       if (badge) badge.textContent = count;
     });
   }
@@ -451,7 +451,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
         activeTagsEl.appendChild(sep);
       }
       var tag = document.createElement('span');
-      tag.className = 'wp-filter-tag';
+      tag.className = 'news-filter-tag';
       tag.innerHTML =
         label + ' <button type="button" aria-label="' + t.removeFilter + label + '">\u2715</button>';
       tag.querySelector('button').addEventListener('click', function () {

@@ -13,18 +13,20 @@ custom_css: /assets/css/careers.css
     <section id="police-officer">
       <div class="container header-text-container">
         <p class="uppercase">Welcome to <abbr>RCMP</abbr> careers</p>
-        <h2 class="oswald-500 uppercase">Police officer<br />careers</h2>
+        <h2 class="oswald-500 uppercase">Police officer careers</h2>
         <p class="header-description">There's a uniform with your name on it. Serve boldly.</p>
-        <a href="/careers-carrieres/police-officer" class="btn btn-careers">
+        <a href="#" class="btn btn-careers">
           More information<span class="wb-inv"> about police officer careers</span>
         </a>
       </div>
     </section>
     <section id="civilian-employees">
       <div class="container header-text-container">
-        <h2 class="oswald-500 uppercase">Civilian<br />careers</h2>
+        <h2 class="oswald-500 uppercase">Civilian careers</h2>
         <p class="header-description">Your skills. Our mission. Roles with impact.</p>
-        <button class="btn btn-careers">More information<span class="wb-inv"> about civilian careers</span></button>
+        <a href="#" class="btn btn-careers">
+          More information<span class="wb-inv"> about civilian careers</span>
+        </a>
       </div>
     </section>
     <section id="more-opportunities">

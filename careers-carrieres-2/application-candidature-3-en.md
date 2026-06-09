@@ -46,9 +46,15 @@ custom_css: /assets/css/careers.css
 <p>Once you are contacted by a recruiting analyst, you'll have 14 days to complete all required forms and documents, including the Security Screening Application and submit them through a secure online portal.</p>
 <section id="s1">
   <h2>Required forms</h2>
-  <ul>
+  <ul class="gc-link-list" role="list" lang="en">
     <li>
-      <a href="#">Regular Member Applicant Hearing Examination Report (RCMP 6509)</a> [PDF - 852.72 KB]
+        <a href="rcmp-6509-en.pdf" class="gc-pdf-link">
+        <i class="fa-regular fa-file-pdf" aria-hidden="true"></i>
+        <span>
+          <span class="gc-link-title">Regular Member Applicant Hearing Examination Report (RCMP 6509)</span>
+          <span class="gc-link-meta" data-pdf-meta>PDF</span>
+        </span>
+      </a>
     </li>
     <li>
       <a href="#">Vision Examination of Applicant (RCMP 2180)</a> [PDF - 239.74 KB]

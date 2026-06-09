@@ -119,16 +119,24 @@
 {% if page.layout == 'careers' %}
 <script>
 (function () {
+
+  /* ----------------------------------------
+     CAREERS NAV
+  ---------------------------------------- */
   function initCareersNav() {
     var t = document.querySelector('.careers-nav__toggle');
     var l = document.getElementById('careers-nav-links');
     if (!t || !l) return;
+
     if (!t.getAttribute('aria-controls')) t.setAttribute('aria-controls', 'careers-nav-links');
+    if (!t.getAttribute('aria-expanded')) t.setAttribute('aria-expanded', 'false');
+
     t.addEventListener('click', function () {
       var isOpen = l.classList.toggle('is-open');
-        t.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-        t.setAttribute('aria-label', isOpen ? 'Close careers menu' : 'Open careers menu');
+      t.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      t.setAttribute('aria-label', isOpen ? 'Close careers menu' : 'Open careers menu');
     });
+
     Array.prototype.forEach.call(l.querySelectorAll('a'), function (a) {
       a.addEventListener('click', function () {
         l.classList.remove('is-open');
@@ -137,9 +145,13 @@
     });
   }
 
+  /* ----------------------------------------
+     LOADER
+  ---------------------------------------- */
   function initLoader() {
     var loader = document.getElementById('loader');
     if (!loader) return;
+
     var sr = loader.querySelector('.sr-only');
     if (sr) sr.textContent = loader.dataset.loadedMsg || 'Page loaded successfully';
     loader.setAttribute('aria-hidden', 'true');
@@ -147,6 +159,9 @@
     setTimeout(function () { loader.style.display = 'none'; }, 300);
   }
 
+  /* ----------------------------------------
+     REDUCED MOTION
+  ---------------------------------------- */
   function initReducedMotion() {
     if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     document.documentElement.classList.add('reduce-motion');
@@ -154,11 +169,65 @@
     if (spinner) spinner.style.animation = 'none';
   }
 
+  /* ----------------------------------------
+     PDF LINK FILE SIZE
+  ---------------------------------------- */
+  function formatBytes(bytes, lang) {
+    var isFr = lang === 'fr';
+    var fmt = function (n, decimals) {
+      return isFr
+        ? n.toFixed(decimals).replace('.', ',')
+        : n.toFixed(decimals);
+    };
+    if (bytes < 1024) return bytes + '\u00a0B';
+    if (bytes < 1024 * 1024) return fmt(bytes / 1024, 2) + (isFr ? '\u00a0Ko' : '\u00a0KB');
+    return fmt(bytes / (1024 * 1024), 2) + (isFr ? '\u00a0Mo' : '\u00a0MB');
+  }
+
+  function fetchSize(url) {
+    return fetch(url, { method: 'HEAD' })
+      .then(function (res) {
+        var bytes = res.headers.get('content-length');
+        return bytes ? parseInt(bytes, 10) : null;
+      })
+      .catch(function () { return null; });
+  }
+
+  function annotatePdfLinks() {
+    var links = document.querySelectorAll('a.gc-pdf-link');
+    Array.prototype.forEach.call(links, function (link) {
+      var metaEl = link.querySelector('[data-pdf-meta]');
+      if (!metaEl) return;
+
+      var lang = metaEl.dataset.lang
+        || document.documentElement.lang.split('-')[0]
+        || 'en';
+
+      var isFr = lang === 'fr';
+      var href = link.getAttribute('href');
+
+      var abbr = isFr
+        ? '<abbr title="Format de document portable">PDF</abbr>'
+        : '<abbr title="Portable Document Format">PDF</abbr>';
+
+      fetchSize(href).then(function (bytes) {
+        var sizeStr = bytes ? formatBytes(bytes, lang) : null;
+        metaEl.innerHTML = sizeStr ? (abbr + ',\u00a0' + sizeStr) : abbr;
+      });
+    });
+  }
+
+  /* ----------------------------------------
+     INIT
+  ---------------------------------------- */
   document.addEventListener('DOMContentLoaded', function () {
     initCareersNav();
     initReducedMotion();
+    annotatePdfLinks();
   });
+
   window.addEventListener('load', initLoader);
+
 }());
 </script>
 {% endif %}

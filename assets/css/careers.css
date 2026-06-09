@@ -150,13 +150,6 @@ button,
   outline-offset: -16px;
 }
 
-@media (min-width: 768px) {
-  .careers-nav__links li:first-child a:focus-visible {
-    outline-offset: -14px;
-    padding-left: var(--nav-link-pad-x);
-  }
-}
-
 .careers-nav__links a:hover::after {
   width: calc(100% - calc(var(--nav-link-pad-x) * 2));
 }
@@ -1189,18 +1182,6 @@ a.btn-careers:hover {
 .po-end {
   background: url("/assets/img/po-end.jpg") bottom / cover no-repeat;
   height: 40vh;
-}
-
-@media (min-width: 768px) {
-  .careers-nav__links li:first-child a {
-    padding-left: 0;
-  }
-
-  .careers-nav__links li:first-child a:hover::after {
-    width: calc(100% - var(--nav-link-pad-x));
-    left: 0;
-    transform: none;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

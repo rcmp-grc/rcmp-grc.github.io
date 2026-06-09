@@ -43,7 +43,7 @@ issued: 2026-05-08
 	{
    background-color: #d6f5e1;
    font-size: 0.8em;
-   padding: 4px 8px 4px 10px;		
+   padding: 4px 8px 4px 8px;		
 	}
 	.news-topic-2
 	{

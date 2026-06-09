@@ -56,14 +56,16 @@ issued: 2026-05-08
 	.news-topic-3
 	{
     background-color: #e1d6f5;
-     font-weight: bold;	
+	font-size: 0.8em;
+    font-weight: bold;	
     padding: 4px 8px 8px 8px;		
 	}
    .news-topic-4
 	{
    background-color: #f9d2d7;
-    font-weight: bold;	
-    padding: 4px 8px 8px 8px;		
+   font-size: 0.8em;	
+   font-weight: bold;	
+   padding: 4px 8px 8px 8px;		
 	}
 </style>
 <p class="lead">The Royal Canadian Mounted Police will host a community winter safety event featuring Bob the Polar Bear, the RCMP’s unofficial northern mascot.</p>

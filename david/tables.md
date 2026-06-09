@@ -439,46 +439,54 @@ thead th {
 		</tr>
 	</tbody>
 </table>
-</section>
 
 <p>Table 9: TABLE in a FIGURE</p>
 
-<figure>
-<figcaption>
-<table class="table" id="t9">
-	<caption>Table 9: This table is in a figure, which gives a light-grey background, but the cells should be white to give adequate contrast</caption>
-	<thead>
-		<tr class="active">
-			<th scope="col">Province or territory</th>
-			<th scope="col" class="text-right">Possession and Acquisition Licence</th>
-			<th scope="col" class="text-right">Minor's Licence</th>
-			<th scope="col" class="text-right">Total</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th scope="row" data-label="Province or territory">Alberta</th>
-			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">385,449</td>
-			<td data-label="Minor's Licence" class="text-right nowrap">3,406</td>
-			<td data-label="Total" class="text-right nowrap">388,855</td>
-		</tr>
-		<tr>
-			<th scope="row" data-label="Province or territory">British Columbia</th>
-			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">377,271</td>
-			<td data-label="Minor's Licence" class="text-right nowrap">1,667</td>
-			<td data-label="Total" class="text-right nowrap">378,938</td>
-		</tr>
-	</tbody>
-	<tfoot>
-		<tr class="active">
-			<th scope="row" data-label="Province or territory">Total</th>
-			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
-			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
-			<td data-label="Total" class="text-right nowrap">2,473,661</td>
-		</tr>
-	</tfoot>
-</table>
-</figcaption>
+<figure id="f1" class="panel panel-default mrgn-bttm-lg">
+	<figcaption class="panel-heading">Figure 1<br><b>FIGURE_TITLE</b></figcaption>
+	<div class="panel-body">
+		<p></p>
+		<img alt="SHORT_DESCRIPTION" aria-describedby="f1-desc" class="full-width img-responsive" src="/sites/default/files/img/X_X_X.png">
+		<p></p>
+	</div>
+	<footer class="panel-footer">
+		<details class="mrgn-tp-sm print-open" id="f1-desc">
+			<summary>Text version</summary>
+			<table class="table" id="t9">
+				<caption>Table 9: This table is in a figure, which gives a light-grey background, but the cells should be white to give adequate contrast</caption>
+				<thead>
+					<tr class="active">
+						<th scope="col">Province or territory</th>
+						<th scope="col" class="text-right">Possession and Acquisition Licence</th>
+						<th scope="col" class="text-right">Minor's Licence</th>
+						<th scope="col" class="text-right">Total</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row" data-label="Province or territory">Alberta</th>
+						<td data-label="Possession and Acquisition Licence" class="text-right nowrap">385,449</td>
+						<td data-label="Minor's Licence" class="text-right nowrap">3,406</td>
+						<td data-label="Total" class="text-right nowrap">388,855</td>
+					</tr>
+					<tr>
+						<th scope="row" data-label="Province or territory">British Columbia</th>
+						<td data-label="Possession and Acquisition Licence" class="text-right nowrap">377,271</td>
+						<td data-label="Minor's Licence" class="text-right nowrap">1,667</td>
+						<td data-label="Total" class="text-right nowrap">378,938</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr class="active">
+						<th scope="row" data-label="Province or territory">Total</th>
+						<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
+						<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
+						<td data-label="Total" class="text-right nowrap">2,473,661</td>
+					</tr>
+				</tfoot>
+			</table>
+		</details>
+	</footer>
 </figure>
 
 <script></script>

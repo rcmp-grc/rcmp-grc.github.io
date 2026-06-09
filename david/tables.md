@@ -7,9 +7,10 @@ lang_url: tables-fr.html
 ---
 
 <style>
-/* Give tables in charts a white background */
-figure td {
-	background-color: var(--rcmp-white, #fff)
+/* Give tables in charts a white background and a white outline */
+figure table {
+	background-color: var(--rcmp-white, #fff);
+	outline: solid 2px var(--rcmp-white, #fff);
 }
 
 /* Balanced table headers */

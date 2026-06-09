@@ -48,8 +48,8 @@ issued: 2026-05-08
 	.news-topic-1
 	{
    background-color: #d6f5e1;
-   font-size: 0.9em;
-   padding: 4px 10px 4px 10px;	
+   font-size: 0.8em;
+   padding: 4px 8px 4px 8px;	
    text-decoration: none;	
 	}
 	.news-topic-3

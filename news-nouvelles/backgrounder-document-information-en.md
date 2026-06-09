@@ -10,13 +10,9 @@ issued: 2026-05-08
 ---
 
 <style>
-	.details
-	 { border-top: 2px solid var(--rcmp-gold);
-	   margin-bottom: 10px;
-	   margin-left: 0px;
-	 }
 	.explore
 	{ border-top: 2px solid var(--rcmp-gold);
+	  margin-bottom: 10px;
 	 }
 	.card
 	{ border-left: 2px solid var(--rcmp-grey-lt);
@@ -74,7 +70,7 @@ issued: 2026-05-08
 </style>
 <p class="lead">Bob the Polar Bear is the Royal Canadian Mounted Police’s newest unofficial northern mascot.</p>
 <div class="details">
-<p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May&nbsp;14, 2026 - Richmond, British Columbia<br>
+<p><i class="fa-solid fa-calendar-days"></i>  May&nbsp;14, 2026 - Richmond, British Columbia<br>
 <i class="fa-regular fa-circle-user"></i> <a href="https://rcmp.ca/en/#">National Communications and Public Affairs</a></p></div>
 <section id="page-navigation">
 	<h2 class="h3">On this page</h2>

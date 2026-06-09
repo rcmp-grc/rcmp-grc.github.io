@@ -3,7 +3,7 @@ layout: careers
 title: Complete psychological and medical suitability assessments
 date_modified: 2026-06-10
 lang: en
-lang_url: application-candidature-5-fr.html
+lang_url: application-candidature-5-1-fr.html
 lead: Police officer application process
 breadcrumbs:
   - label: "RCMP careers"

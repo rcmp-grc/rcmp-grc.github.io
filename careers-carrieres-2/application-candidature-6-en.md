@@ -1,9 +1,9 @@
 ---
 layout: careers
-title: How to complete the forms
+title: Complete a field investigation and security assessment
 date_modified: 2026-06-10
 lang: en
-lang_url: application-candidature-3-1-fr.html
+lang_url: application-candidature-6-fr.html
 lead: Police officer application process
 breadcrumbs:
   - label: "RCMP careers"
@@ -23,126 +23,75 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-3-en.html">Submit the required forms and documents</a>
       <ul class="noline">
         <li>
-          <a class="active" href="application-candidature-3-1-en.html">How to complete the forms</a>
+          <a href="application-candidature-3-1-en.html">How to complete the forms</a>
         </li>
       </ul>
     </li>
     <li><a href="application-candidature-4-en.html">Complete a suitability interview</a></li>
-    <li><a href="application-candidature-5-en.html">Complete psychological and medical suitability assessments</a></li>
-    <li><a href="application-candidature-6-en.html">Complete a field investigation and security assessment</a></li>
+    <li><a href="application-candidature-5-en.html">Complete psychological and medical suitability assessments</a>
+      <ul class="noline">
+        <li>
+          <a href="application-candidature-5-1-en.html">Health conditions that could impact your suitability to become a police officer</a>
+        </li>
+      </ul>
+    </li>
+    <li><a class="active" href="application-candidature-6-en.html">Complete a field investigation and security assessment</a></li>
   </ul>
 </nav>
 <nav aria-label="On this page">
   <h2>On this page</h2>
   <ul>
     <li>
-      <a href="#s1">Vision and hearing exams</a>
+      <a href="#s1">What to expect from the security clearance process</a>
     </li>
     <li>
-      <a href="#s2">Security screening application</a>
+      <a href="#s2">What to do if you've been away from Canada</a>
     </li>
     <li>
-      <a href="#s3">Additional guidance on completing forms</a>
+      <a href="#s3">Application process complete</a>
     </li>
   </ul>
 </nav>
+<p>The final step in the application process is a field investigation along with a security assessment. The RCMP will conduct a thorough investigation into your background, including your activities during the past 10 years, to further assess your reliability and suitability. If successful, you will receive your security clearance.</p>
 <section id="s1">
-  <h2>Vision and hearing exams</h2>
-  <p>You need to submit the following two forms to your Recruiting Analyst on request. The forms must be received before to your medical assessment.</p>
+  <h2>What to expect from the security clearance process</h2>
+  <p>The investigation focuses on:</p>
   <ul>
-    <li>Vision exam</li>
-    <li>Hearing exam</li>
+    <li>previous employment</li>
+    <li>education</li>
+    <li>personal references</li>
+    <li>personal finances</li>
+    <li>drug and alcohol use</li>
+    <li>online activities</li>
+    <li>criminal activities</li>
+    <li>associations</li>
+    <li>integrity</li>
+    <li>personal behaviour</li>
+    <li>loyalty to Canada</li>
   </ul>
-  <section class="alert alert-info">
-    <h3 class="h4">Note</h3>
-    <p>The results of these exams are valid for 2 years. Applicants must pay for vision and hearing exams. These costs are not reimbursed.</p>
-  </section>
-  <section id="s1-1">
-    <h3>Vision exam</h3>
-    <p>The vision exam and form (Vision Examination of Applicant (RCMP 2180)) must be completed by a Canadian optometrist/ophthalmologist.</p>
-    <p>If you've had laser eye surgery, you must wait before completing a vision exam:</p>
-    <ul>
-      <li>LASIK (Laser-assisted in-situ keratomileusis): 30 days</li>
-      <li>PRK (Photorefractive keratectomy): 90 days</li>
-      <li>ICL, POL (Implanted corrective lenses with anterior chamber lens): 6 months</li>
-      <li>ICL, POL (Implanted corrective lenses with posterior chamber lens): 12 months</li>
-      <li>SMILE (Small incision lenticule extraction): 30 to 90 days</li>
-      <li>SBK (Sub-bowman's keratomileusis): 30 days</li>
-    </ul>
-    <section id="s1-1-1">
-      <h4>Visual acuity</h4>
-      <p>You'll need to meet <strong>both</strong> corrected and uncorrected vision standards. If you fail one or both, you don't meet the minimum vision requirements for regular member applicants.</p>
-      <p>Minimum vision requirements:</p>
-      <ul>
-        <li>Corrected vision (with glasses or contacts): Visual acuity must be at least 6/6 (20/20) in one eye and 6/9 (20/30) in the other; and</li>
-        <li>Uncorrected vision (without glasses or contacts lenses): Visual acuity must be at least 6/18 (20/60) in each eye or 6/12 (20/40) in one eye and at least 6/30 (20/100) in the other eye</li>
-      </ul>
-      <p>This minimum vision acuity is required for safe performance of policing duties if glasses or contacts are lost or displaced.</p>
-    </section>
-    <section id="s1-1-2">
-      <h4>Field of vision</h4>
-      <p>You must have a field of vision that is at least 150 degrees. It must be continuous along the horizontal meridian and 20 degrees continuous above and below fixation with both eyes open and examined together.</p>
-    </section>
-    <section id="s1-1-3">
-      <h4>Colour vision testing</h4>
-      <p>We test colour vison using the standardized Ishihara pseudo-isochromatic plates. To pass, you must correctly identify at least 17 of 21 patterns.</p>
-      <p>If required, further evaluation will be conducted using the Farnsworth D-15 test. If you pass, you meet the minimum colour vision standard.</p>
-    </section>
-    <section id="s1-1-4">
-      <h4>Ocular disease</h4>
-      <p>You must not have any ocular (eye) diseases that impair your vision. We may ask for more information during your health assessment.</p>
-    </section>
-  </section>
-  <section id="s1-2">
-    <h3>Hearing exam</h3>
-    <p>You cannot use a hearing aid during the exam. The minimum requirements are listed below.</p>
-    <p>An audiologist must test the following frequencies:</p>
-    <ul>
-      <li>500 Hz</li>
-      <li>1,000 Hz</li>
-      <li>2,000 Hz</li>
-      <li>3,000 Hz</li>
-      <li>4,000 Hz</li>
-      <li>6,000 Hz</li>
-      <li>8,000 Hz</li>
-    </ul>
-    <p>The hearing exam and form (Regular Member Applicant Hearing Examination Report (RCMP 6509)) must be completed by a practitioner in accordance with the Canadian Standards Association Standard on Pure Tone Air Conduction Audiometers for Hearing Conservation and for Screening.</p>
-    <section id="s1-2-1">
-      <h4>Minimum hearing standards</h4>
-      <ul>
-        <li>In your better ear: between 500 and 3000 Hz with no more than 30 decibels of hearing loss</li>
-        <li>In your worse ear: 3000 Hz with no more than 50 decibels of hearing loss</li>
-      </ul>
-    </section>
-  </section>
 </section>
 <section id="s2">
-  <h2>Security screening application</h2>
-  <p>You must complete an online Security Screening Application, accessed through GCKey. GCKey is a service provided by the Government of Canada that allows you to securely access programs and services. If selected, we will send you instructions on how to create your GCKey and submit your personal information through the online Security Screening Application.</p>
-  <p>If you have any technical issues or questions about the security screening process, contact one of the following:</p>
+  <h2>What to do if you've been away from Canada</h2>
+  <p>If you're a Canadian citizen and you've been outside of Canada for more than 6 months in a row during the past 10 years, you'll need to provide details of your activities during that time.</p>
+  <p>In some cases, we may ask you to provide details of your activities even if you've been outside of Canada for less than 6 months. Examples of documents to help you provide details of your activities include:</p>
   <ul>
-    <li>For GCKey account: 1-855-438-1102</li>
-    <li>For Security Screening Application: <a href="mailto:rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca">rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca</a>
-    </li>
+    <li>letters of reference or referral from foreign embassies and missions in Canada</li>
+    <li>letters of reference or referral from Canadian embassies or missions in the country in which you lived while abroad</li>
+    <li>security screening information from countries with which Canada has security information exchange agreements</li>
+    <li>letters or police clearance certificates from law enforcement agencies in the country or countries you lived in while abroad</li>
+    <li>credit summaries from established foreign financial institutions</li>
+    <li>letters of reference from foreign educational institutions or universities</li>
   </ul>
+  <p>If you were away from Canada working for the Government of Canada or with the Canadian Armed Forces, you may not need to account for your activities.</p>
 </section>
 <section id="s3">
-  <h2>Additional guidance on completing forms</h2>
-  <p>Review these considerations to make sure your forms and documents are completed and submitted correctly:</p>
-  <ul>
-    <li>Complete the forms electronically, print them and sign them · Some forms require initials which can only be signed once the form has been printed</li>
-    <li>Submit your forms and documentation electronically, based on instructions provided. Hand delivered, mailed or emailed packages will not be accepted</li>
-    <li>Retain original copies of all forms for your records. You may be asked to provide printed copies to authenticate your documentation</li>
-    <li>Use the following date format: YYYY/MM/DD</li>
-    <li>Incorrect or incomplete forms may cause a considerable delay in your recruiting process and may lead to your file being closed</li>
-  </ul>
-  <p>To be able to fill and save our PDF forms, you must first download them to your computer and open them with <a href="https://get.adobe.com/reader/otherversions/">Adobe Reader® 10</a> (or a more recent version). Note that mobile devices cannot be used to open and fill PDF forms.</p>
+  <h2>Application process complete</h2>
+  <p>If you've successfully completed the application process, you're ready for the RCMP Cadet Training Program at Depot, the RCMP's training academy.</p>
+  <p><strong>Whether you're gathering information because you're curious about a career in policing, or you've completed your application, and you're headed to Depot – you're one step closer to becoming a police officer with the RCMP.</strong></p>
+  <p>Curious if a job in policing is right for you?</p><a class="btn btn-careers mrgn-bttm-lg">Take the Readiness Check</a>
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page" style="display: block;">
   <div class="rcmp-content-page__prev" id="mp-prev-wrap" style="display: block;">
-    <a aria-label="Next page: Submit the required forms and documents" class="rcmp-content-page__link" href="application-candidature-3-en.html" id="mp-next"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i> <span class="rcmp-content-page__link-title">Previous page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-prev-label">Submit the required forms and documents</span></a>
-  </div>
-  <div class="rcmp-content-page__next" id="mp-next-wrap" style="display: block;">
-    <a aria-label="Next page: Complete a suitability interview" class="rcmp-content-page__link" href="application-candidature-4-en.html" id="mp-next"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i> <span class="rcmp-content-page__link-title">Next page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-next-label">Complete a suitability interview</span></a>
+    <a aria-label="Next page: Complete psychological and medical suitability assessments" class="rcmp-content-page__link" href="application-candidature-5-1-en.html" id="mp-next"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i> <span class="rcmp-content-page__link-title">Previous page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-prev-label">Complete psychological and medical suitability assessments</span></a>
   </div>
 </nav>

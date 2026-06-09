@@ -32,7 +32,7 @@ issued: 2026-05-21
   </div>
 	<div class="col-md-4">
     <section class="gc-drmt">
-      <h3 class="h5" data-emptytext="Subscribe"><a href="#">Resources</a></h3>
+      <h3 class="h5" data-emptytext="Subscribe"><a href="#">New resources</a></h3>
       <p>Acess web feeds, media relations office, Canada.ca news and Public Safety Canada news</p>
     </section>
   </div>
@@ -258,7 +258,6 @@ issued: 2026-05-21
   </div>
 </div>
 <div class="container">
-  <div class="row">
     <section class="gc-features col-md-12 mrgn-bttm-lg">
       <h2 class="h3">Features</h2>
       <div class="row wb-eqht">
@@ -285,7 +284,6 @@ issued: 2026-05-21
         </div>
       </div>
     </section>
-  </div>
 </div>
 <script>
 (function () {

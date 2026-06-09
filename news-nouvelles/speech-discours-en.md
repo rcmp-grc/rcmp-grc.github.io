@@ -10,13 +10,9 @@ issued: 2026-05-20
 ---
 
 <style>
-	.details
-	 { border-top: 2px solid var(--rcmp-gold);
-	   margin-bottom: 10px;
-	   margin-left: 0px;
-	 }
 	.explore
 	{ border-top: 2px solid var(--rcmp-gold);
+	  margin-bottom: 10px;
 	 }
 	.card
 	{ border-left: 2px solid var(--rcmp-grey-lt);
@@ -73,7 +69,7 @@ issued: 2026-05-20
 	}
 </style>
 <p class="lead">It is not every day a polar bear gets invited indoors and offered coffee before the officers.</p>
-<div class="details">
+<div class="explore">
 <p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May 14, 2026 - Ottawa, Ontario<br>
 <i class="fa-regular fa-circle-user"></i> <a href="#">National Communications and Public Affairs</a></p>
 <p><strong>Community winter safety and northern outreach event<br>

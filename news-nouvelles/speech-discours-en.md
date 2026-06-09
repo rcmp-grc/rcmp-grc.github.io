@@ -39,6 +39,34 @@ issued: 2026-05-20
 	background-color: #f5f5f5;
 	padding-left: 10px;
 	}
+	.news-topic-1
+	{
+    background-color: #d6f5e1;
+    font-size: 0.8em;
+    font-weight: bold;	
+    padding: 4px 8px 8px 8px;		
+	}
+	.news-topic-2
+	{
+    background-color: #d6e4f5;
+	font-size: 0.8em;
+    font-weight: bold;	
+    padding: 4px 8px 8px 8px;	
+	}
+	.news-topic-3
+	{
+    background-color: #e1d6f5;
+	font-size: 0.8em;
+    font-weight: bold;	
+    padding: 4px 8px 8px 8px;		
+	}
+   .news-topic-4
+	{
+   background-color: #f9d2d7;
+   font-size: 0.8em;	
+   font-weight: bold;	
+   padding: 4px 8px 8px 8px;		
+	}
 </style>
 <p class="lead">It is not every day a polar bear gets invited indoors and offered coffee before the officers.</p>
 <div class="details">
@@ -139,8 +167,8 @@ Check against deliver</strong></p>
 <section id="topics">
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
-  <li><a href="#"><span class="label label-danger">Media Relations</span></a></li>
-  <li><a href="#"><span class="label label-default">Community interest</span></a></li>
+  <li><a href="#"><span class="news-topic-2">Media Relations</span></a></li>
+  <li><a href="#"><span class="news-topic-1">Community interest</span></a></li>
 </ol>
 </section>
 </div>

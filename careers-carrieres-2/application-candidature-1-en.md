@@ -26,7 +26,7 @@ custom_css: /assets/css/careers.css
 		<li><a href="application-candidature-6-en.html">Complete a field investigation and security assessment</a></li>
 	</ul>
 </nav>
-<nav>
+<nav aria-label="On this page">
   <h2>On this page</h2>
   <ul>
     <li>

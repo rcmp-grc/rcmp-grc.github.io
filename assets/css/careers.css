@@ -1662,7 +1662,7 @@ a.btn-careers:hover {
 .gc-pdf-link .fa-file-pdf {
   flex-shrink: 0;
   font-size: 28px;
-  margin-top: 2px;
+  margin-top: 10px;
 }
 .gc-link-title {
   display: block;

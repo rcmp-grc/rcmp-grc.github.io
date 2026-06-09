@@ -1250,6 +1250,10 @@ a.btn-careers:hover {
     height: auto;
   }
 
+  .careers-nav__links li:first-child {
+    margin-left: 0;
+  }
+
   .careers-nav__links a {
     padding: 12px 20px 12px 24px;
     border-bottom: none;

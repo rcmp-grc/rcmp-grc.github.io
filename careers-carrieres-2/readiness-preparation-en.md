@@ -7,9 +7,9 @@ lang_url: #
 issued: 2026-05-11
 breadcrumbs:
   - label: "RCMP careers"
-    url: "#"
+    url: "careers-carrieres-en.html"
   - label: "Police officer careers"
-    url: "#"
+    url: "officer-agent-en.html"
 custom_css: /assets/css/careers.css
 ---
 

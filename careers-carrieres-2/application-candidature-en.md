@@ -6,9 +6,9 @@ lang: en
 lang_url: application-candidature-fr.html
 breadcrumbs:
   - label: "RCMP careers"
-    url: "#"
+    url: "careers-carrieres-en.html"
   - label: "Police officer careers"
-    url: "#"
+    url: "officer-agent-en.html"
 custom_css: /assets/css/careers.css
 ---
 

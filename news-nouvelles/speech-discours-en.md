@@ -56,14 +56,16 @@ issued: 2026-05-20
 	.news-topic-3
 	{
     background-color: #e1d6f5;
-     font-weight: bold;	
+	font-size: 0.8em;
+    font-weight: bold;	
     padding: 4px 8px 8px 8px;		
 	}
    .news-topic-4
 	{
    background-color: #f9d2d7;
-    font-weight: bold;	
-    padding: 4px 8px 8px 8px;		
+   font-size: 0.8em;	
+   font-weight: bold;	
+   padding: 4px 8px 8px 8px;		
 	}
 </style>
 <p class="lead">It is not every day a polar bear gets invited indoors and offered coffee before the officers.</p>

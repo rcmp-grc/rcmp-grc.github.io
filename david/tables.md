@@ -10,7 +10,9 @@ lang_url: tables-fr.html
 /* Give tables in charts a white background and a white outline */
 figure table {
 	background-color: var(--rcmp-white, #fff);
-	outline: solid 2px var(--rcmp-white, #fff);
+	tr {
+		border-inline: 1px solid var(--rcmp-grey-md);
+	}
 }
 
 /* Balanced table headers */

@@ -1,15 +1,15 @@
 ---
 layout: careers
 title: Readiness check
-date_modified: 2026-05-11
+date_modified: 2026-06-10
 lang: en
 lang_url: #
 issued: 2026-05-11
 breadcrumbs:
   - label: "RCMP careers"
-    url: "careers-carrieres-en.html"
+    url: "/careers-carrieres-2/careers-carrieres-en.html"
   - label: "Police officer careers"
-    url: "officer-agent-en.html"
+    url: "/careers-carrieres-2/officer-agent-en.html"
 custom_css: /assets/css/careers.css
 ---
 

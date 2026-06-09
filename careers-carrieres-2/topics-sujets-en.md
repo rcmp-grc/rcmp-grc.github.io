@@ -1,14 +1,14 @@
 ---
 layout: careers
 title: First Nations, Inuit and Métis applicant programs
-date_modified: 2026-05-11
+date_modified: 2026-06-10
 lang: en
 lang_url: topics-sujets-fr.html
 breadcrumbs:
   - label: "RCMP careers"
-    url: "careers-carrieres-en.html"
+    url: "/careers-carrieres-2/careers-carrieres-en.html"
   - label: "Police officer careers"
-    url: "officer-agent-en.html"
+    url: "/careers-carrieres-2/officer-agent-en.html"
 custom_css: /assets/css/careers.css
 hero_image: /assets/img/topics-sujets.jpg
 ---

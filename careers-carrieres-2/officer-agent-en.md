@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Police officer careers
-date_modified: 2026-05-29
+date_modified: 2026-06-10
 lang: en
 lang_url: agent-police-fr.html
 description: >

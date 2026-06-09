@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pages de carrières et de recrutement de la GRC
-date_modified: 2026-06-01
+date_modified: 2026-06-10
 lang: fr
 lang_url: index.html
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: RCMP careers and recruitment pages
-date_modified: 2026-06-01
+date_modified: 2026-06-10
 lang: en
 lang_url: index-fr.html
 ---

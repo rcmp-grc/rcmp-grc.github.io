@@ -7,11 +7,11 @@ lang_url: application-candidature-3-fr.html
 lead: Police officer application process
 breadcrumbs:
   - label: "RCMP careers"
-    url: "careers-carrieres-en.html"
+    url: "/careers-carrieres-2/careers-carrieres-en.html"
   - label: "Police officer careers"
-    url: "officer-agent-en.html"
+    url: "/careers-carrieres-2/officer-agent-en.html"
   - label: "Police officer application process"
-    url: "/application-candidature-en.html"
+    url: "/careers-carrieres-2/application-candidature-en.html"
 custom_css: /assets/css/careers.css
 ---
 

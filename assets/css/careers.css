@@ -147,7 +147,7 @@ button,
 
 .careers-nav__links a:focus-visible {
   outline: 2px solid var(--c-yellow);
-  outline-offset: -4px;
+  outline-offset: -8px;
 }
 
 @media (min-width: 768px) {

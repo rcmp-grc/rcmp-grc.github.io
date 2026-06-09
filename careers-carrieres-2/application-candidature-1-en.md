@@ -15,8 +15,8 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<nav aria-label="Application process steps" class="gc-subway" data-sections-title="Steps">
-  <h1>Police officer application process</h1>
+<nav aria-label="Application process steps" class="gc-subway" data-sections-title="Steps" data-headingoffset="1">
+  <h2>Police officer application process</h2>
   <ul>
     <li><a class="active" href="application-candidature-1-en.html">Submit an online application</a></li>
     <li><a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a></li>

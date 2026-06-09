@@ -1652,12 +1652,8 @@ a.btn-careers:hover {
   padding: 12px 4px;
   color: #284162;
   text-decoration: underline;
-  font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
-}
-.gc-pdf-link:hover {
-  color: #0535d2;
 }
 .gc-pdf-link:focus {
   outline: 3px solid #ffbf47;
@@ -1666,7 +1662,6 @@ a.btn-careers:hover {
 .gc-pdf-link .fa-file-pdf {
   flex-shrink: 0;
   font-size: 28px;
-  color: #b00;
   margin-top: 2px;
 }
 .gc-link-title {
@@ -1674,7 +1669,6 @@ a.btn-careers:hover {
 }
 .gc-link-meta {
   display: block;
-  font-size: 13px;
   color: var(--color-text-secondary);
   font-weight: 400;
   text-decoration: none;

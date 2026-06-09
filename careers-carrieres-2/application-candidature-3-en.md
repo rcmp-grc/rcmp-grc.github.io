@@ -49,7 +49,7 @@ custom_css: /assets/css/careers.css
   <ul class="gc-link-list" role="list">
     <li>
         <a href="rcmp-6509-en.pdf" class="gc-pdf-link">
-        <i class="fa-regular fa-file-pdf" aria-hidden="true"></i>
+       <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
         <span>
           <span class="gc-link-title">Regular Member Applicant Hearing Examination Report (RCMP 6509)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
@@ -57,16 +57,40 @@ custom_css: /assets/css/careers.css
       </a>
     </li>
     <li>
-      <a href="#">Vision Examination of Applicant (RCMP 2180)</a> [PDF - 239.74 KB]
+        <a href="rcmp-2180-en.pdf" class="gc-pdf-link">
+       <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+        <span>
+          <span class="gc-link-title">Vision Examination of Applicant (RCMP 2180)</span>
+          <span class="gc-link-meta" data-pdf-meta>PDF</span>
+        </span>
+      </a>
     </li>
     <li>
-      <a href="#">Regular Member Applicant Questionnaire (RCMP 5096)</a> [PDF - 454.68 KB]
+        <a href="rcmp-5096-en.pdf" class="gc-pdf-link">
+       <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+        <span>
+          <span class="gc-link-title">Regular Member Applicant Questionnaire (RCMP 5096)</span>
+          <span class="gc-link-meta" data-pdf-meta>PDF</span>
+        </span>
+      </a>
     </li>
     <li>
-      <a href="#">Suitability Screening Form (RCMP 1980)</a> [PDF - 270.75 KB]
+        <a href="rcmp-1980-en.pdf" class="gc-pdf-link">
+       <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+        <span>
+          <span class="gc-link-title">Suitability Screening Form (RCMP 1980)</span>
+          <span class="gc-link-meta" data-pdf-meta>PDF</span>
+        </span>
+      </a>
     </li>
     <li>
-      <a href="#">Acknowledgement of Professional Responsibilities in the Royal Canadian Mounted Police (RCMP 6465)</a> [PDF - 191.37 KB]
+        <a href="rcmp-6465-en.pdf" class="gc-pdf-link">
+       <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+        <span>
+          <span class="gc-link-title">Acknowledgement of Professional Responsibilities in the Royal Canadian Mounted Police (RCMP 6465)</span>
+          <span class="gc-link-meta" data-pdf-meta>PDF</span>
+        </span>
+      </a>
     </li>
   </ul>
   <p><strong>Review guidance to help you complete your forms and documents accurately.</strong></p>

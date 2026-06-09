@@ -71,7 +71,7 @@ hgroup#wb-cont h1 {
 #wb-info .gc-main-footer {
   background: var(--rcmp-black);
 }
-#wb-info .gc-main-footer h4::before {
+#wb-info .gc-main-footer h3::before {
   border-bottom: 4px solid var(--rcmp-gold);
 }
 main {

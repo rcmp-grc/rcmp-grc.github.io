@@ -150,6 +150,12 @@ button,
   outline-offset: 0px;
 }
 
+@media (min-width: 768px) {
+  .careers-nav__links li:first-child a:focus-visible {
+    padding-left: var(--nav-link-pad-x);
+  }
+}
+
 .careers-nav__links a:hover::after {
   width: calc(100% - calc(var(--nav-link-pad-x) * 2));
 }

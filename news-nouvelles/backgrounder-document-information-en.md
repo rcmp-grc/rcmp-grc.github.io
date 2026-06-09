@@ -41,7 +41,9 @@ issued: 2026-05-08
 }
 	.news-topic-1
 	{
+	text-align: center;	
     background-color: #d6e4f5;
+	font-eize:;
 	}
 	.news-topic-2
 	{

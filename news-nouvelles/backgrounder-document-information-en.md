@@ -45,6 +45,11 @@ issued: 2026-05-08
 	font-size: 0.9em;
 	padding: 4px 10px 4px 10px;	
 	}
+	.news-topic-link: hover,
+    .news-topic-link: focus {
+    text-decoration: none;
+    border-color: var(--rcmp-black);
+	}
 	.news-topic-1
 	{
    background-color: #d6f5e1;

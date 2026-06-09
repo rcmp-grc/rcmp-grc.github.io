@@ -47,7 +47,7 @@ custom_css: /assets/css/careers.css
   <p>After you attend the online career presentation, your next step is to complete the RCMP Online Entrance Assessment. We'll include a link to the assessment in the same career presentation invitation email.</p>
   <p>You'll have 14 days to complete the online assessment from the date you received the link.</p>
   <section id="s2-1">
-    <h2>What is the RCMP Online Entrance Assessment?</h2>
+    <h3>What is the RCMP Online Entrance Assessment?</h3>
     <p>The RCMP Online Entrance Assessment is a biased-free tool to assess applicants as part of the RCMP Officer recruiting process.</p>
     <p>The Assessment is not an exam, it's an assessment of your personality, behaviour, and cognitive ability. It consists of 6 sections:</p>
     <ul>
@@ -61,11 +61,11 @@ custom_css: /assets/css/careers.css
     <p>Schedule approximately 55 to 70 minutes to complete the assessment. Some sections of the assessment are timed, but there's no overall time limit. We recommend that you complete the entire assessment in one session.</p>
   </section>
   <section id="s2-2">
-    <h2>How do I prepare?</h2>
+    <h3>How do I prepare?</h3>
     <p>Use the <a href="#">Online Entrance Assessment Preparatory Guide</a> to prepare for the assessment. It has sample questions and scenarios to help you understand what to expect and how to succeed.</p>
   </section>
   <section id="s2-3">
-    <h2>Do I need a minimum score to move on?</h2>
+    <h3>Do I need a minimum score to move on?</h3>
     <p>Completing the RCMP Online Entrance Assessment doesn't guarantee advancement in the recruitment process. If you've passed the RCMP Online Entrance Assessment, your application has been retained. You'll continue with your application but you're not yet active in the recruitment process. If you're unsuccessful, you can re-apply after a 3-month waiting period.</p>
   </section>
 </section>

@@ -24,8 +24,12 @@ issued: 2026-05-08
 	  border-bottom: 2px solid var(--rcmp-grey-lt);
 	  border-top: 2px solid var(--rcmp-grey-lt);
 	  margin-left: 0px;
-	  padding-left: 10px;
+	  padding-left: 0px;
 	  margin-bottom: 15px;
+	}
+	.card p
+	{
+	  margin-left: 10px;
 	}
 	.card-tag
 	{ font-weight: bold;

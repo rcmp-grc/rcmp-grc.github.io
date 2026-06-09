@@ -16,7 +16,7 @@ custom_css: /assets/css/careers.css
 ---
 
 <nav aria-label="Application process steps" class="gc-subway" data-sections-title="Steps">
-  <h1 aria-level="2" role="heading">Police officer application process</h1>
+  <h1>Police officer application process</h1>
   <ul>
     <li><a class="active" href="application-candidature-1-en.html">Submit an online application</a></li>
     <li><a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a></li>
@@ -84,7 +84,7 @@ custom_css: /assets/css/careers.css
   </div>
 </nav>
 <script>
-  (function () {
+  document.addEventListener('wb-ready.wb', function () {
     var subwayH1 = document.querySelector('.gc-subway h1');
     if (subwayH1) {
       var h2 = document.createElement('h2');
@@ -92,5 +92,5 @@ custom_css: /assets/css/careers.css
       h2.innerHTML = subwayH1.innerHTML;
       subwayH1.parentNode.replaceChild(h2, subwayH1);
     }
-  }());
+  });
 </script>

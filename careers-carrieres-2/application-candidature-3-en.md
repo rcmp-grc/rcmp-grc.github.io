@@ -46,7 +46,7 @@ custom_css: /assets/css/careers.css
 <p>Once you are contacted by a recruiting analyst, you'll have 14 days to complete all required forms and documents, including the Security Screening Application and submit them through a secure online portal.</p>
 <section id="s1">
   <h2>Required forms</h2>
-  <ul class="gc-link-list" role="list" lang="en">
+  <ul class="gc-link-list" role="list">
     <li>
         <a href="rcmp-6509-en.pdf" class="gc-pdf-link">
         <i class="fa-regular fa-file-pdf" aria-hidden="true"></i>

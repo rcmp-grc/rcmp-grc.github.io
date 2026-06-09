@@ -1659,7 +1659,7 @@ a.btn-careers:hover {
   outline: 3px solid #ffbf47;
   outline-offset: 2px;
 }
-.gc-pdf-link .fa-file-pdf {
+.gc-pdf-link .fa-file-arrow-down {
   flex-shrink: 0;
   font-size: 28px;
   margin-top: 10px;

@@ -145,6 +145,11 @@ button,
   outline: none;
 }
 
+.careers-nav__links a:focus-visible {
+  outline: 3px solid var(--c-yellow);
+  outline-offset: -3px;
+}
+
 .careers-nav__links a:hover::after {
   width: calc(100% - calc(var(--nav-link-pad-x) * 2));
 }

@@ -92,6 +92,11 @@ main nav[aria-label="Sur cette page"] {
   padding-bottom: 2rem;
 }
 
+main nav[aria-label="On this page"] + h2,
+main nav[aria-label="Sur cette page"] + h2 {
+  margin-top: 0;
+}
+
 .gc-link-list {
   list-style: none;
   margin: 0;

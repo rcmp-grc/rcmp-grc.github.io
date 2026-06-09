@@ -84,7 +84,7 @@ custom_css: /assets/css/careers.css
   </div>
 </nav>
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
+  (function () {
     var subwayH1 = document.querySelector('.gc-subway h1');
     if (subwayH1) {
       var h2 = document.createElement('h2');
@@ -92,5 +92,5 @@ custom_css: /assets/css/careers.css
       h2.innerHTML = subwayH1.innerHTML;
       subwayH1.parentNode.replaceChild(h2, subwayH1);
     }
-  });
+  }());
 </script>

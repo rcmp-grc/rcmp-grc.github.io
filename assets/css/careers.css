@@ -147,7 +147,7 @@ button,
 
 .careers-nav__links a:focus-visible {
   outline: 3px solid var(--c-yellow);
-  outline-offset: -3px;
+  outline-offset: 0;
 }
 
 .careers-nav__links a:hover::after {

@@ -152,7 +152,7 @@ button,
 
 @media (min-width: 768px) {
   .careers-nav__links li:first-child a:focus-visible {
-    padding-left: var(--nav-link-pad-x);
+    outline-offset: 3px;
   }
 }
 

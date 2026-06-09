@@ -73,26 +73,13 @@
         {% include breadcrumb.html %}
       </div>
     {% endif %}
-    <main
-      property="mainContentOfPage"
-      resource="#wb-main"
-      typeof="WebPageElement"
-      {% if page.url contains 'officer-agent' %}class="po-full-width"{% endif %}
-      {% if page.background %}style="background-image: url('{{ page.background }}');"{% endif %}>
+    <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement" {% if page.url contains 'officer-agent' %}class="po-full-width"{% endif %} {% if page.background %}style="background-image: url('{{ page.background }}');"{% endif %}>
       {% unless page.hero_image or page.url contains 'officer-agent' %}
         {% include breadcrumb.html %}
       {% endunless %}
       {% if page.url contains 'officer-agent' %}
         <div class="po-content-full">
-          {% if page.lead %}
-            <hgroup class="mrgn-tp-md">
-              <p class="wb-rd lead mrgn-tp-0 mrgn-bttm-0">{{ page.lead }}</p>
-              <h1 id="wb-cont" property="name">{{ page.title }}</h1>
-            </hgroup>
-          {% else %}
-            <h1 id="wb-cont" property="name">{{ page.title }}</h1>
-          {% endif %}
-          {{ content }}
+          <h1 class="wb-inv" property="name">{{ page.title }}</h1>
         </div>
         <div class="footer-contact">
           <a class="btn btn-contact" href="#recruiter-contact-form">

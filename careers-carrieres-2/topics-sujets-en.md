@@ -6,9 +6,9 @@ lang: en
 lang_url: topics-sujets-fr.html
 breadcrumbs:
   - label: "RCMP careers"
-    url: "/careers-carrieres-2/careers-carrieres-en.html"
+    url: "careers-carrieres-2/careers-carrieres-en.html"
   - label: "Police officer careers"
-    url: "/careers-carrieres-2/officer-agent-en.html"
+    url: "careers-carrieres-2/officer-agent-en.html"
 custom_css: /assets/css/careers.css
 hero_image: /assets/img/topics-sujets.jpg
 ---

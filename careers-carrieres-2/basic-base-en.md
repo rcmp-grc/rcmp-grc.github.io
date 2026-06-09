@@ -6,11 +6,11 @@ lang: en
 lang_url: basic-base-fr.html
 breadcrumbs:
   - label: "RCMP careers"
-    url: "/careers-carrieres-2/careers-carrieres-en.html"
+    url: "careers-carrieres-2/careers-carrieres-en.html"
   - label: "Police officer careers"
-    url: "/careers-carrieres-2/officer-agent-en.html"
+    url: "careers-carrieres-2/officer-agent-en.html"
   - label: "First Nations, Inuit and Métis applicant programs"
-    url: "/careers-carrieres-2/topics-sujets-en.html"
+    url: "careers-carrieres-2/topics-sujets-en.html"
 custom_css: /assets/css/careers.css
 ---
 

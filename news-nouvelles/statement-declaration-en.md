@@ -10,11 +10,6 @@ issued: 2026-05-20
 ---
 
 <style>
-	.details
-	 { border-top: 2px solid var(--rcmp-gold);
-	   margin-bottom: 10px;
-	   margin-left: 0px;
-	 }
 	.explore
 	{ border-top: 2px solid var(--rcmp-gold);
 	 }

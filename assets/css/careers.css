@@ -1251,7 +1251,7 @@ a.btn-careers:hover {
   }
 
   .careers-nav__links a {
-    padding: 12px 20px;
+    padding: 12px 20px 12px 24px;
     border-bottom: none;
     border-left: 4px solid transparent;
     width: 100%;

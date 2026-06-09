@@ -39,15 +39,18 @@ issued: 2026-05-08
 	background-color: #f5f5f5;
 	padding-left: 10px;
 }
-	.news-topic-1
+	.news-topic-2
 	{
     background-color: #d6e4f5;
 	font-size: 0.9em;
-	padding: 4px 10px 4px 12px;	
+	padding: 4px 10px 4px 10px;	
 	}
-	.news-topic-2
+	.news-topic-1
 	{
    background-color: #d6f5e1;
+   font-size: 0.9em;
+   padding: 4px 10px 4px 10px;	
+   text-decoration: none;	
 	}
 	.news-topic-3
 	{

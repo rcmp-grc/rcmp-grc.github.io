@@ -88,7 +88,8 @@ custom_css: /assets/css/careers.css
   <h2>Application process complete</h2>
   <p>If you've successfully completed the application process, you're ready for the RCMP Cadet Training Program at Depot, the RCMP's training academy.</p>
   <p><strong>Whether you're gathering information because you're curious about a career in policing, or you've completed your application, and you're headed to Depot – you're one step closer to becoming a police officer with the RCMP.</strong></p>
-  <p>Curious if a job in policing is right for you?</p><a class="btn btn-careers mrgn-bttm-lg">Take the Readiness Check</a>
+  <p>Curious if a job in policing is right for you?</p>
+  <p><a class="btn btn-careers mrgn-bttm-lg">Take the Readiness Check</a></p>
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page" style="display: block;">
   <div class="rcmp-content-page__prev" id="mp-prev-wrap" style="display: block;">

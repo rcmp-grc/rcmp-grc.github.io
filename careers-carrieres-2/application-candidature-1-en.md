@@ -15,7 +15,18 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<nav aria-label="On this page">
+<nav class="gc-subway" data-sections-title="Steps" aria-label="Application process steps">
+  <h1>Police officer application process</h1>
+	<ul>
+		<li><a href="application-candidature-1-en.html" class="active">Submit an online application</a></li>
+		<li><a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a></li>
+		<li><a href="application-candidature-3-en.html">Submit the required forms and documents</a></li>
+		<li><a href="application-candidature-4-en.html">Complete a suitability interview</a></li>
+		<li><a href="application-candidature-5-en.html">Complete psychological and medical suitability assessments</a></li>
+		<li><a href="application-candidature-6-en.html">Complete a field investigation and security assessment</a></li>
+	</ul>
+</nav>
+<nav>
   <h2>On this page</h2>
   <ul>
     <li>

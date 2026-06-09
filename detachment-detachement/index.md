@@ -113,7 +113,7 @@ issued: 2026-05-04
 							<dt>Services and accessibility information</dt>
 							<dd>
 								<ul class="list-unstyled">
-									<li><i class="fa-solid fa-fingerprint"></i> Fingerprinting (by appointment only)</li>
+									<li><i class="fa-solid fa-fingerprint"></i>Fingerprinting (by appointment only)</li>
 									<li><i class="fa-solid fa-file-lines"></i> Criminal records check</li>
 									<li><i class="fa-solid fa-wheelchair-move"></i> Wheelchair accessible</li>
 									<li><i class="fa-solid fa-shield-dog"></i> Assistance Dogs Welcome</li>

@@ -38,6 +38,32 @@ lead: News release
 	background-color: #f5f5f5;
 	padding-left: 10px;
 	}
+	.news-topic-1
+	{
+    background-color: #d6f5e1;
+    font-size: 0.8em;
+    font-weight: bold;	
+    padding: 4px 8px 8px 8px;		
+	}
+	.news-topic-2
+	{
+    background-color: #d6e4f5;
+	font-size: 0.8em;
+    font-weight: bold;	
+    padding: 4px 8px 8px 8px;	
+	}
+	.news-topic-3
+	{
+    background-color: #e1d6f5;
+     font-weight: bold;	
+    padding: 4px 8px 8px 8px;		
+	}
+   .news-topic-4
+	{
+   background-color: #f9d2d7;
+    font-weight: bold;	
+    padding: 4px 8px 8px 8px;		
+	}
 </style>
 <div class="card col-md-8">
 	<div class="card-tag"><p><i class="fa-regular fa-pen-to-square"></i> Updated</p></div>
@@ -160,7 +186,7 @@ lead: News release
 <section id="topics">
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
-  <li><a href="#"><span class="label label-primary">Traffic Services</span></a></li>
+  <li><a href="#"><span class="news-topic-3">Traffic Services</span></a></li>
 </ol>
 </section>
 </div>

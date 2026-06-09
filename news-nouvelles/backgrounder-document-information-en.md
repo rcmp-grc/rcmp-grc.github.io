@@ -27,6 +27,10 @@ issued: 2026-05-08
 	  padding-left: 0px;
 	  margin-bottom: 15px;
 	}
+	.card p
+	{
+	  margin-left: 10px;
+	}
 	.card-tag
 	{ font-weight: bold;
 	  font-color: #0b0c0c;

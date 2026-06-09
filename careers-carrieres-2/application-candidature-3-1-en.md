@@ -16,7 +16,7 @@ custom_css: /assets/css/careers.css
 ---
 
 <nav aria-label="Application process steps" class="gc-subway" data-sections-title="Steps">
-  <h1>Police officer application process</h1>
+  <h2>Police officer application process</h2>
   <ul>
     <li><a href="application-candidature-1-en.html">Submit an online application</a></li>
     <li><a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a></li>
@@ -152,3 +152,21 @@ custom_css: /assets/css/careers.css
     <a aria-label="Next page: Complete a suitability interview" class="rcmp-content-page__link" href="application-candidature-4-en.html" id="mp-next"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i> <span class="rcmp-content-page__link-title">Next page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-next-label">Complete a suitability interview</span></a>
   </div>
 </nav>
+<script>
+  var subwayH2 = document.querySelector('.gc-subway h2');
+  if (subwayH2) {
+    var h1 = document.createElement('h1');
+    h1.className = subwayH2.className;
+    h1.innerHTML = subwayH2.innerHTML;
+    subwayH2.parentNode.replaceChild(h1, subwayH2);
+  }
+  document.addEventListener('wb-ready.wb', function () {
+    var subwayH1 = document.querySelector('.gc-subway h1');
+    if (subwayH1) {
+      var h2 = document.createElement('h2');
+      h2.className = subwayH1.className;
+      h2.innerHTML = subwayH1.innerHTML;
+      subwayH1.parentNode.replaceChild(h2, subwayH1);
+    }
+  });
+</script>

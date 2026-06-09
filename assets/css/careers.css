@@ -1633,3 +1633,50 @@ a.btn-careers:hover {
     padding-top: 0.25em;
   }
 }
+
+.gc-link-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.gc-link-list li {
+  border-bottom: 1px solid var(--color-border-tertiary);
+}
+.gc-link-list li:first-child {
+  border-top: 1px solid var(--color-border-tertiary);
+}
+.gc-pdf-link {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 4px;
+  color: #284162;
+  text-decoration: underline;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.gc-pdf-link:hover {
+  color: #0535d2;
+}
+.gc-pdf-link:focus {
+  outline: 3px solid #ffbf47;
+  outline-offset: 2px;
+}
+.gc-pdf-link .fa-file-pdf {
+  flex-shrink: 0;
+  font-size: 28px;
+  color: #b00;
+  margin-top: 2px;
+}
+.gc-link-title {
+  display: block;
+}
+.gc-link-meta {
+  display: block;
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  font-weight: 400;
+  text-decoration: none;
+  margin-top: 2px;
+}

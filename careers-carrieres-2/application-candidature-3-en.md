@@ -48,7 +48,7 @@ custom_css: /assets/css/careers.css
   <h2>Required forms</h2>
   <ul class="gc-link-list" role="list">
     <li>
-        <a href="rcmp-6509-en.pdf" class="gc-pdf-link">
+        <a href="6509e.pdf" class="gc-pdf-link">
        <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
         <span>
           <span class="gc-link-title">Regular Member Applicant Hearing Examination Report (RCMP 6509)</span>
@@ -57,7 +57,7 @@ custom_css: /assets/css/careers.css
       </a>
     </li>
     <li>
-        <a href="rcmp-2180-en.pdf" class="gc-pdf-link">
+        <a href="2180e.pdf" class="gc-pdf-link">
        <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
         <span>
           <span class="gc-link-title">Vision Examination of Applicant (RCMP 2180)</span>
@@ -66,7 +66,7 @@ custom_css: /assets/css/careers.css
       </a>
     </li>
     <li>
-        <a href="rcmp-5096-en.pdf" class="gc-pdf-link">
+        <a href="5096e.pdf" class="gc-pdf-link">
        <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
         <span>
           <span class="gc-link-title">Regular Member Applicant Questionnaire (RCMP 5096)</span>
@@ -75,7 +75,7 @@ custom_css: /assets/css/careers.css
       </a>
     </li>
     <li>
-        <a href="rcmp-1980-en.pdf" class="gc-pdf-link">
+        <a href="1980e.pdf" class="gc-pdf-link">
        <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
         <span>
           <span class="gc-link-title">Suitability Screening Form (RCMP 1980)</span>
@@ -84,7 +84,7 @@ custom_css: /assets/css/careers.css
       </a>
     </li>
     <li>
-        <a href="rcmp-6465-en.pdf" class="gc-pdf-link">
+        <a href="6465e.pdf" class="gc-pdf-link">
        <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
         <span>
           <span class="gc-link-title">Acknowledgement of Professional Responsibilities in the Royal Canadian Mounted Police (RCMP 6465)</span>

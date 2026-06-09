@@ -206,13 +206,9 @@
       var isFr = lang === 'fr';
       var href = link.getAttribute('href');
 
-      var abbr = isFr
-        ? '<abbr title="Format de document portable">PDF</abbr>'
-        : '<abbr title="Portable Document Format">PDF</abbr>';
-
       fetchSize(href).then(function (bytes) {
         var sizeStr = bytes ? formatBytes(bytes, lang) : null;
-        metaEl.innerHTML = sizeStr ? (abbr + ',\u00a0' + sizeStr) : abbr;
+        metaEl.innerHTML = sizeStr ? ('PDF,\u00a0' + sizeStr) : 'PDF';
       });
     });
   }

@@ -92,8 +92,8 @@ main nav[aria-label="Sur cette page"] {
   padding-bottom: 2rem;
 }
 
-main nav[aria-label="On this page"] + h2,
-main nav[aria-label="Sur cette page"] + h2 {
+main nav[aria-label="On this page"] + section > h2:first-child,
+main nav[aria-label="Sur cette page"] + section > h2:first-child {
   margin-top: 0;
 }
 

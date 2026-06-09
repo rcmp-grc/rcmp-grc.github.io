@@ -1256,6 +1256,7 @@ a.btn-careers:hover {
     border-left: 4px solid transparent;
     width: 100%;
     height: auto;
+    justify-content: center;
   }
 
   .careers-nav__links a:hover {

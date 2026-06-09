@@ -147,7 +147,11 @@ button,
 
 .careers-nav__links a:focus-visible {
   outline: 2px solid var(--c-yellow);
-  outline-offset: -16px;
+  outline-offset: -8px;
+}
+
+.careers-nav__links li:first-child {
+  margin-left: calc(var(--nav-link-pad-x) * -1);
 }
 
 .careers-nav__links a:hover::after {

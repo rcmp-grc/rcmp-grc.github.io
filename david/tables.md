@@ -7,11 +7,11 @@ lang_url: tables-fr.html
 ---
 
 <style>
-/* Give tables in charts a white background and a white outline */
+/* Give tables in charts a white background and a white outline. Can we do a generic container query for non-white background? */
 figure table {
 	background-color: var(--rcmp-white, #fff);
 	tr {
-		border-inline: 1px solid var(--rcmp-grey-md);
+		border: 1px solid var(--rcmp-grey-md);
 	}
 }
 

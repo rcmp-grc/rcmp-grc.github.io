@@ -182,7 +182,7 @@ issued: 2026-05-08
 <section id="topics">	
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
-  <li><a href="#"><span class="news-topic-1">Community interest</span></a></li>
+  <li><a class="news-topic-link" href="#"><span class="news-topic-1">Community interest</span></a></li>
 </ol>
 </section>
 </div>

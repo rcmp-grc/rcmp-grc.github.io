@@ -441,7 +441,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       var li = document.createElement('div');
       li.setAttribute('role', 'listitem');
       li.innerHTML =
-		  '<div class="wp-card-body">' +
+		  '<div class="wp-card-body mrgn-tp-sm mrgn-bttm-sm">' +
           '<h2 class="h4 mrgn-bttm-0">' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' +'</h2>' +
 		  '<p class="mrgn-tp-0">' + '<div class="wb-inv">' + t.updated + '</div>' + p.updated + '|'+ '<div class="wb-inv">' + t.region + '</div>' + p.region + '|' + '<div class="wb-inv">' + t.category + '</div>' + p.category + '</p>' +
 		  '<p>' + '<div class="wb-inv">' + t.territory + '</div>' + '<strong>' + p.territory + '</strong>' + '</p>' +

@@ -323,7 +323,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
 	  territory:      'Territory\u00A0: ',	
       region:         'Region\u00A0: ',
 	  updated:        'Mise à jour\u00A0: ',
-      summary:       'Sommaire\u00A0: ',
+      summary:        'Sommaire\u00A0: ',
       ofPages:        ' sur ',
       showing:        'Affichage\u00A0:',
       orSep:          'ou'
@@ -450,7 +450,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       li.innerHTML =
 		  '<div class="card-body">' +
           '<h2 class="h4">' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' +'</h2>' +
-		  '<p class="mrgn-tp-0">' + '<div class="wb-inv">' + t.updated + '</div>' + p.updated + '|'+ '<div class="wb-inv">' + t.region + '</div>' + p.region + '|' + '<div class="wb-inv">' + t.category + '</div>' + p.category + '</p>' +
+		  '<p>' + '<div class="wb-inv">' + t.updated + '</div>' + p.updated + '|'+ '<div class="wb-inv">' + t.region + '</div>' + p.region + '|' + '<div class="wb-inv">' + t.category + '</div>' + p.category + '</p>' +
 		  '<p>' + '<div class="wb-inv">' + t.territory + '</div>' + '<strong>' + p.territory + '</strong>' + '</p>' +
           '<p>' + '<div class="wb-inv">' + t.summary + '</div>' + p.summary + '</p>' +
 		  '</div>';

@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: Complete psychological and medical suitability assessments
+title: Health conditions that could impact your suitability to become a police officer
 date_modified: 2026-06-10
 lang: en
 lang_url: application-candidature-5-1-fr.html

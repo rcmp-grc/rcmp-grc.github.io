@@ -237,7 +237,7 @@ issued: 2026-05-21
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 
     <div id="news-toolbar">
       <p id="news-count" aria-live="polite"><strong id="news-count-num">0</strong>&nbsp;news and communications items found</p>
-      <div id="news-sort">
+      <div id="wp-sort">
         <label for="news-sort-select">Sort by:</label>
         <select aria-label="Sort profiles" id="news-sort-select">
           <option value="newest">Updated (newest)</option>

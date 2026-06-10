@@ -523,7 +523,9 @@ button,
   text-transform: uppercase;
   color: var(--c-navy);
   margin: 0 0 1.25rem;
-  border-bottom: 3px solid var(--c-yellow);
+  border-bottom: 0.5rem solid var(--c-yellow);
+  border-image: linear-gradient(to right, var(--c-yellow) 25%, transparent 25%);
+  border-image-slice: 1;
   padding-bottom: 0.75rem;
   line-height: 1.2;
 }
@@ -664,7 +666,9 @@ button,
   color: var(--c-navy);
   margin: 0 0 0.6rem;
   padding-bottom: 0.4rem;
-  border-bottom: 2px solid var(--c-yellow);
+  border-bottom: 0.5rem solid var(--c-yellow);
+  border-image: linear-gradient(to right, var(--c-yellow) 25%, transparent 25%);
+  border-image-slice: 1;
 }
 
 .rc-info-panel p {

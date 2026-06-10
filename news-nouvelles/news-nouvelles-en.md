@@ -336,7 +336,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   var RAW = [
     ['RCMP and CBSA dismantle crime group after nearly 250&nbsp;kg of cocaine is detected in shipping container in Halifax', 'RCMP and CBSA dismantle crime group after nearly 250&nbsp;kg of cocaine is detected in shipping container in Halifax', '32473043', 'Organized crime and Illicit drugs', 'Halifax', 'Nova Scotia', 'Nova Scotia RCMP', 'RCMP and CBSA dismantle crime group', '2026-05-08', 1420],
     ['Bay St. George RCMP issue warning about counterfeit currency circulating in the area', 'Bay St. George RCMP issue warning about counterfeit currency circulating in the area', '30847192', 'Fraud', 'Bay St. George', 'Nunavut', 'Nunavut RCMP', 'Counterfeit currency circulating in the Bay St. George area.', '2026-05-07', 980 ],
-    ['Suspects arrested after replica handgun seen inside Morris hospital', 'Suspects arrested after replica handgun seen inside Morris hospital', '19284730', 'Weapons', 'Morris', 'Manitoba RCMP', 'Suspects arrested in Morris.', '2026-05-06', 741 ],
+    ['Suspects arrested after replica handgun seen inside Morris hospital', 'Suspects arrested after replica handgun seen inside Morris hospital', '19284730', 'Weapons', 'Morris', 'Manitoba', 'Manitoba RCMP', 'Suspects arrested in Morris.', '2026-05-06', 741 ],
     ['RCMP seeking public’s help following counterfeit money circulation', 'RCMP seeking public’s help following counterfeit money circulation', '28374019', 'Fraud',  'Charlottetown', 'Prince Edward Island', 'Prince Edward Island RCMP', 'Seeking public’s help following counterfeit money circulation', '2026-05-05', 610 ],
     ['Comox Valley RCMP looking to locate suspect vehicle after hit-and-run', 'Comox Valley RCMP looking to locate suspect vehicle after hit-and-run', '39201847', 'Wanted and Traffic services', 'Comox Valley', 'British Columbia', 'British Columbia RCMP', 'Looking to locate suspect vehicle after hit-and-run', '2026-05-04', 533 ],
     ['Joint Forces Operations results in Multiple Drug Related Arrests', 'Joint Forces Operations Results in Multiple Drug Related Arrests', '10293847', 'Illicit drugs',  'Quebec City', 'Quebec',  'Federal Policing Central Region', 'Multiple drug-related arrests', '2026-05-03', 498 ],
@@ -353,10 +353,11 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       id:        i + 1,
       name:      r[ni],
       category:  r[3],
-      territory: r[4],
-      region:    r[5],
-      summary:   r[6],
-      updated:   r[7],
+	  location:  r[4],	
+      territory: r[5],
+      region:    r[6],
+      summary:   r[7],
+      updated:   r[8],
     };
   });
   var PER_PAGE    = 9;
@@ -399,6 +400,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   function filterData(filters) {
     return PROFILES.filter(function (p) {
     return !filters.category.length || filters.category.indexOf(p.category) > -1;
+	return !filters.location.length || filters.location.indexOf(p.location) > -1;	
 	return !filters.territory.length || filters.territory.indexOf(p.territory) > -1;
 	return !filters.region.length || filters.region.indexOf(p.region) > -1;	
     });
@@ -418,6 +420,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     activeTagsEl.appendChild(showingLabel);
     allTags.forEach(function (item, index) {
       var label = item.cat === 'category' ? (t.categoryLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
+	  var label = item.cat === 'location' ? (t.locationLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
 	  var label = item.cat === 'territory' ? (t.territoryLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
 	  var label = item.cat === 'region' ? (t.regionLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
       if (index > 0) {
@@ -451,7 +454,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
 		  '<div class="card-body">' +
           '<h2 class="h4">' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' +'</h2>' +
 		  '<p>' + '<div class="wb-inv">' + t.updated + '</div>' + p.updated + '|'+ '<div class="wb-inv">' + t.region + '</div>' + p.region + '|' + '<div class="wb-inv">' + t.category + '</div>' + p.category + '</p>' +
-		  '<p>' + '<div class="wb-inv">' + t.location + t.territory + '</div>' + '<strong>' + p.location + ',' + p.territory + '</strong>' + '</p>' +
+		  '<p>' + '<div class="wb-inv">' + t.location + '</div>' + p.location + ', ' + '<div class="wb-inv">' + t.territory + '</div>' + p.territory + '</strong>' + '</p>' +
           '<p>' + '<div class="wb-inv">' + t.summary + '</div>' + p.summary + '</p>' +
 		  '</div>';
       grid.appendChild(li);

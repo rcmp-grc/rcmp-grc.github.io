@@ -1312,10 +1312,15 @@ a.btn-careers:hover {
 
   .rc-question-card__body {
     padding: 1rem 1rem 0.75rem;
+    font-size: 1rem;
   }
 
   .rc-question-title {
-    font-size: clamp(1.4rem, 4vw, 1.6rem);
+    font-size: 1.8rem;
+  }
+
+  .rc-fieldset {
+    font-size: 1rem;
   }
 
   .rc-btn {

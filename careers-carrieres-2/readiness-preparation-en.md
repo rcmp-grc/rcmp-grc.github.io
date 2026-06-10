@@ -3,8 +3,7 @@ layout: careers
 title: Readiness check
 date_modified: 2026-06-10
 lang: en
-lang_url: #
-issued: 2026-05-11
+lang_url: readiness-preparation-fr.html
 breadcrumbs:
   - label: "RCMP careers"
     url: "careers-carrieres-2/careers-carrieres-en.html"
@@ -201,8 +200,9 @@ custom_css: /assets/css/careers.css
   }
 
   function scrollToQuiz() {
-    if (quizScrollTarget) {
-      quizScrollTarget.scrollIntoView({ behavior: "smooth", block: "start" });
+    var target = document.querySelector(".rc-progress-bar-wrap") || quizScrollTarget;
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   }
 
@@ -244,7 +244,6 @@ custom_css: /assets/css/careers.css
     var html = [
       '<div class="rc-question-card">',
         '<div class="rc-question-card__body">',
-          '<p class="rc-question-num" aria-hidden="true">Question ' + (currentIndex + 1) + ' of ' + questions.length + '</p>',
           '<h2 class="rc-question-title" id="q-title-' + q.number + '" tabindex="-1">' + q.titleHTML + '</h2>',
           bodyHTML,
           '<fieldset class="rc-fieldset">',

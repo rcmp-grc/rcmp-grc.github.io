@@ -456,11 +456,6 @@ button,
   margin: 0 0 3rem;
 }
 
-.rc-intro {
-  margin-bottom: 2rem;
-  font-size: var(--font-size-body-md);
-}
-
 .rc-intro.hidden {
   display: none;
 }
@@ -515,18 +510,8 @@ button,
   padding: 1.5rem 2rem;
 }
 
-.rc-question-num {
-  font-size: 0.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--c-grey-dark);
-  margin: 0 0 0.4rem;
-}
-
 .rc-question-title {
   font-family: var(--font-display);
-  font-size: 1.6rem;
   font-weight: 500;
   text-transform: uppercase;
   color: var(--c-navy);
@@ -541,7 +526,6 @@ button,
 }
 
 .rc-question-body {
-  font-size: 1rem;
   color: var(--c-grey-dark);
   margin-bottom: 1.25rem;
 }
@@ -566,7 +550,6 @@ button,
 }
 
 .rc-legend {
-  font-size: 1.05rem;
   font-weight: 700;
   color: var(--c-black);
   margin-bottom: 1rem;
@@ -641,19 +624,51 @@ button,
   outline-offset: 2px;
 }
 
+.rc-intro {
+  margin-bottom: 2rem;
+}
+
+.rc-question-num {
+  display: none;
+}
+
 .rc-info-panel {
   display: none;
-  background: var(--c-grey-light);
-  border-left: 4px solid var(--c-yellow);
-  border-radius: 0 4px 4px 0;
-  padding: 1rem 1.25rem;
+  background: #fffbe6;
+  border: 2px solid var(--c-yellow);
+  border-left: 6px solid #d4960a;
+  border-radius: 4px;
+  padding: 1.25rem 1.5rem;
   margin-top: 1.5rem;
-  font-size: 0.95rem;
-  color: var(--c-grey-dark);
+  color: var(--c-black);
+  box-shadow: 0 2px 8px rgba(254, 193, 17, 0.25);
 }
 
 .rc-info-panel.show {
   display: block;
+  animation: rc-info-appear 0.25s ease;
+}
+
+@keyframes rc-info-appear {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.rc-info-panel::before {
+  content: "ℹ️  Additional information";
+  display: block;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #7a5500;
+  margin-bottom: 0.5rem;
 }
 
 .rc-info-panel p {
@@ -664,7 +679,13 @@ button,
   display: flex;
   gap: 0.75rem;
   flex-wrap: wrap;
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
+  position: sticky;
+  bottom: 4.5rem; /* above the "Contact a recruiter" sticky bar */
+  background: var(--c-white);
+  padding: 1rem 0;
+  border-top: 1px solid var(--c-grey-mid);
+  z-index: 10;
 }
 
 .rc-btn {
@@ -673,7 +694,6 @@ button,
   gap: 0.4rem;
   padding: 0.75rem 1.5rem;
   font-family: var(--font-base);
-  font-size: 1rem;
   font-weight: 600;
   border-radius: 4px;
   cursor: pointer;

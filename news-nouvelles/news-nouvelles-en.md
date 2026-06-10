@@ -140,7 +140,7 @@ issued: 2026-05-21
                 <label><input data-filter="territory" type="checkbox" value="Nunavut"><span class="cb-text">Nunavut</span> <span class="news-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="Ontario"><span class="cb-text">Ontario</span>< span class="news-filter-badge">0</span></label>
+                <label><input data-filter="territory" type="checkbox" value="Ontario"><span class="cb-text">Ontario</span> <span class="news-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
                 <label><input data-filter="territory" type="checkbox" value="Prince Edward Island"><span class="cb-text">Prince Edward Island</span> <span class="news-filter-badge">0</span></label>
@@ -413,7 +413,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     });
     if (!allTags.length) return;
     var showingLabel = document.createElement('span');
-    showingLabel.className = 'news-filter-showing-label';
+    showingLabel.className = 'wp-filter-showing-label';
     showingLabel.textContent = t.showing;
     activeTagsEl.appendChild(showingLabel);
     allTags.forEach(function (item, index) {
@@ -422,12 +422,12 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
 	  var label = item.cat === 'region' ? (t.regionLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
       if (index > 0) {
         var sep = document.createElement('span');
-        sep.className = 'news-filter-tag-sep';
+        sep.className = 'wp-filter-tag-sep';
         sep.textContent = t.orSep;
         activeTagsEl.appendChild(sep);
       }
       var tag = document.createElement('span');
-      tag.className = 'news-filter-tag';
+      tag.className = 'wp-filter-tag';
       tag.innerHTML =
         label + ' <button type="button" aria-label="' + t.removeFilter + label + '">\u2715</button>';
       tag.querySelector('button').addEventListener('click', function () {
@@ -449,7 +449,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       li.setAttribute('role', 'listitem');
       li.innerHTML =
 		  '<div class="card-body">' +
-          '<h2 class="h4 mrgn-tp-0">' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' +'</h2>' +
+          '<h2 class="h4">' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' +'</h2>' +
 		  '<p class="mrgn-tp-0">' + '<div class="wb-inv">' + t.updated + '</div>' + p.updated + '|'+ '<div class="wb-inv">' + t.region + '</div>' + p.region + '|' + '<div class="wb-inv">' + t.category + '</div>' + p.category + '</p>' +
 		  '<p>' + '<div class="wb-inv">' + t.territory + '</div>' + '<strong>' + p.territory + '</strong>' + '</p>' +
           '<p>' + '<div class="wb-inv">' + t.summary + '</div>' + p.summary + '</p>' +

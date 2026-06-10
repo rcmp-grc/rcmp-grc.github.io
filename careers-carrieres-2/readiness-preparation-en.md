@@ -263,6 +263,7 @@ function scrollToQuiz() {
             '</li>',
           '</ul>',
           '<div class="rc-info-panel ' + (answers[currentIndex] !== null ? "show" : "") + '" id="info-' + q.number + '" role="note" aria-label="Additional information">',
+            '<h3 class="rc-info-panel__heading">Additional information</h3>',
             '<p>' + q.info + '</p>',
           '</div>',
         '</div>',

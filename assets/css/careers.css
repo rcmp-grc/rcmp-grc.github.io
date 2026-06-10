@@ -472,7 +472,6 @@ button,
 .rc-progress-meta {
   display: flex;
   justify-content: space-between;
-  font-size: 0.9rem;
   font-weight: 600;
   color: var(--c-grey-dark);
   margin-bottom: 6px;
@@ -634,14 +633,12 @@ button,
 
 .rc-info-panel {
   display: none;
-  background: #fffbe6;
-  border: 2px solid var(--c-yellow);
-  border-left: 6px solid #d4960a;
-  border-radius: 4px;
+  background: var(--c-white);
+  border: 2px solid var(--c-navy);
+  border-radius: var(--border-radius-card);
   padding: 1.25rem 1.5rem;
   margin-top: 1.5rem;
   color: var(--c-black);
-  box-shadow: 0 2px 8px rgba(254, 193, 17, 0.25);
 }
 
 .rc-info-panel.show {
@@ -660,15 +657,14 @@ button,
   }
 }
 
-.rc-info-panel::before {
-  content: "ℹ  Additional information";
-  display: block;
-  font-weight: 700;
-  font-size: 0.85rem;
+.rc-info-panel__heading {
+  font-family: var(--font-display);
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: #7a5500;
-  margin-bottom: 0.5rem;
+  color: var(--c-navy);
+  margin: 0 0 0.6rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--c-yellow);
 }
 
 .rc-info-panel p {

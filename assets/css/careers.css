@@ -1307,11 +1307,15 @@ a.btn-careers:hover {
   }
 
   .rc-question-card {
-    padding: 1.25rem 1rem 1rem;
+    padding: 0.75rem 0.75rem 0.75rem;
+  }
+
+  .rc-question-card__body {
+    padding: 1rem 1rem 0.75rem;
   }
 
   .rc-question-title {
-    font-size: 1.3rem;
+    font-size: clamp(1.4rem, 4vw, 1.6rem);
   }
 
   .rc-btn {

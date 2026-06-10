@@ -199,12 +199,13 @@ custom_css: /assets/css/careers.css
     setTimeout(function () { liveRegion.textContent = msg; }, 50);
   }
 
-  function scrollToQuiz() {
-    var target = document.querySelector(".rc-progress-bar-wrap") || quizScrollTarget;
-    if (target) {
-      target.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
+function scrollToQuiz() {
+  var target = document.querySelector(".rc-progress-bar-wrap") || quizScrollTarget;
+  if (target) {
+    var offset = target.getBoundingClientRect().top + window.pageYOffset - 80;
+    window.scrollTo({ top: offset, behavior: "smooth" });
   }
+}
 
   /* ── Render ── */
   function renderQuestion() {

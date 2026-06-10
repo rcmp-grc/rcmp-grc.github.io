@@ -17,7 +17,7 @@ issued: 2026-05-21
 	}
 	.card-body
 	{
-	padding: 5px 12px 12px;
+	padding: 0px 12px 12px;
 	flex: 1;
 	border-top: 1px solid var(--rcmp-grey-md);
 	background: var(--rcmp-grey-lt);

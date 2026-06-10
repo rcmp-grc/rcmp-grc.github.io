@@ -456,6 +456,10 @@ button,
   margin: 0 0 3rem;
 }
 
+.rc-intro {
+  margin-bottom: 2rem;
+}
+
 .rc-intro.hidden {
   display: none;
 }
@@ -508,6 +512,10 @@ button,
   background: var(--c-grey-light);
   border-top: 1px solid var(--c-grey-mid);
   padding: 1.5rem 2rem;
+}
+
+.rc-question-num {
+  display: none;
 }
 
 .rc-question-title {
@@ -624,14 +632,6 @@ button,
   outline-offset: 2px;
 }
 
-.rc-intro {
-  margin-bottom: 2rem;
-}
-
-.rc-question-num {
-  display: none;
-}
-
 .rc-info-panel {
   display: none;
   background: #fffbe6;
@@ -661,7 +661,7 @@ button,
 }
 
 .rc-info-panel::before {
-  content: "ℹ️  Additional information";
+  content: "ℹ  Additional information";
   display: block;
   font-weight: 700;
   font-size: 0.85rem;
@@ -681,7 +681,7 @@ button,
   flex-wrap: wrap;
   margin-top: 1.5rem;
   position: sticky;
-  bottom: 4.5rem; /* above the "Contact a recruiter" sticky bar */
+  bottom: 4.5rem;
   background: var(--c-white);
   padding: 1rem 0;
   border-top: 1px solid var(--c-grey-mid);

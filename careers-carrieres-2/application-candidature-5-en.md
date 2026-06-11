@@ -99,7 +99,7 @@ custom_css: /assets/css/careers.css
     </section>
     <section id="s1-2-2">
       <h4>Completing the fitness for duty assessment</h4>
-      <p>To complete your fitness for duty assessment, the RCMP Health Services Officer may request that you provide additional information from your primary health care provider or your specialist such as:</p>
+      <p>To complete your <a href="#">fitness for duty assessment</a>a>, the RCMP Health Services Officer may request that you provide additional information from your primary health care provider or your specialist such as:</p>
       <ul>
         <li>copies of relevant medical records</li>
         <li>specialist consultations</li>

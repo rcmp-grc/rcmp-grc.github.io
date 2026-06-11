@@ -52,7 +52,7 @@ body {
 }
 
 .careers-layout {
-  overflow: visible;
+  overflow-x: clip;
 }
 
 button,
@@ -1726,8 +1726,7 @@ a.btn-careers:hover {
   margin-left: -50vw;
   margin-right: -50vw;
   margin-top: 0;
-  overflow-x: hidden;
-  /* Ensure first section starts immediately after the breadcrumb band */
+  overflow-x: clip;
   display: block;
 }
 
@@ -1961,6 +1960,7 @@ body {
   padding-left: 0 !important;
 }
 
-[id] {
+/* Offset only section anchors linked from "On this page" nav */
+section[id^="s"] {
   scroll-margin-top: calc(var(--nav-height) + 1rem);
 }

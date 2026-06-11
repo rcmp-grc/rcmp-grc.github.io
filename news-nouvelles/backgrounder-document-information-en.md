@@ -46,7 +46,7 @@ issued: 2026-05-08
     font-weight: bold;	
     padding: 8px 10px 10px 10px;		
 	}
-	.news-topic-1 a:link, a:visited {
+	.news-topic-1 a:link, a:visited, a:active  {
     background-color: #d6f5e1;
     font-size: 0.8em;
     font-weight: bold;	
@@ -54,7 +54,7 @@ issued: 2026-05-08
 	text-decoration: none;
 	display: inline-block;
 }
-	.news-topic-1 a:hover, a:active {
+	.news-topic-1 a:hover {
     background-color: #d6f5e0;
     font-size: 0.8em;
     font-weight: bold;	

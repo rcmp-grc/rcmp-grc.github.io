@@ -1863,8 +1863,17 @@ body {
 }
 
 .fp-section:not(.fp-section--scroll) {
-  height: calc(100svh - var(--nav-height));
-  max-height: calc(100svh - var(--nav-height));
+  height: 100svh;
+  max-height: 100svh;
+}
+
+#careers-fullpage {
+  scroll-snap-type: y mandatory;
+}
+
+.fp-section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 .fp-section--scroll .container {

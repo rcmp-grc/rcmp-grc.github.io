@@ -98,13 +98,6 @@ custom_css: /assets/css/careers.css
           </div>
         </li>
       </ul>
-</section>
-    <section class="pagedetails">
-      <h2 class="wb-inv">Page details</h2>
-      <dl id="wb-dtmd">
-        <dt>Date modified:</dt>
-        <dd><time property="dateModified">2026-06-10</time></dd>
-      </dl>
     </section>
   </div>
 </section>
@@ -125,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function () {
     sections[index].scrollIntoView({ behavior: 'smooth', block: 'start' });
     setTimeout(function () { scrolling = false; }, DURATION);
   }
-  var wheelTimer = null;
+var wheelTimer = null;
   var halfHeight = window.innerHeight * 0.5;
   window.addEventListener('wheel', function (e) {
     if (current >= sections.length - 1 && e.deltaY > 0) return;
@@ -139,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function () {
     clearTimeout(wheelTimer);
     wheelTimer = setTimeout(function () {
       goTo(current + (e.deltaY > 0 ? 1 : -1));
-    }, 50);
+    }, 120);
   }, { passive: false });
   var touchStartY = 0;
   window.addEventListener('touchstart', function (e) { touchStartY = e.touches[0].clientY; }, { passive: true });

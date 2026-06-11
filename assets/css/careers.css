@@ -1850,6 +1850,10 @@ a.btn-careers:hover {
   bottom: auto;
 }
 
+#police-officer .fp-arrow--down {
+  bottom: calc(1rem + 80px);
+}
+
 #civilian-employees .fp-arrow--up {
   top: calc(1rem + 70px);
 }

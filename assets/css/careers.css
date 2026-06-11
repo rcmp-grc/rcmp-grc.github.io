@@ -1699,3 +1699,133 @@ a.btn-careers:hover {
   text-decoration: none;
   margin-top: 2px;
 }
+
+/* =============================================
+   FULL-PAGE SNAP SECTIONS
+   ============================================= */
+
+#careers-fullpage {
+  /* snap container — takes full viewport */
+}
+
+.fp-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+/* Dark overlay so text is always readable */
+.fp-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(1, 27, 60, 0.75) 40%, rgba(1, 27, 60, 0.2) 100%);
+  z-index: 1;
+}
+
+/* Text content sits above the overlay */
+.fp-content {
+  position: relative;
+  z-index: 2;
+  color: var(--c-white);
+  padding: 4rem 2rem;
+  max-width: 600px;
+}
+
+.fp-content p.uppercase {
+  text-transform: uppercase;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+  color: var(--c-yellow);
+  margin-bottom: 0.5rem;
+}
+
+.fp-content h2 {
+  font-family: var(--font-display);
+  font-size: 3.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--c-white);
+  margin: 0 0 1.25rem;
+  line-height: 1.1;
+}
+
+.fp-content .header-description {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: var(--c-white);
+  margin-bottom: 2rem;
+}
+
+/* Arrow navigation buttons */
+.fp-arrow {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: var(--c-white);
+  font-size: 2rem;
+  line-height: 1;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+}
+
+.fp-arrow:hover {
+  background: rgba(254, 193, 17, 0.7);
+  border-color: var(--c-yellow);
+  color: var(--c-black);
+}
+
+.fp-arrow--down {
+  bottom: 1.5rem;
+}
+.fp-arrow--up {
+  top: 1.5rem;
+  bottom: auto;
+}
+
+/* Third section — normal scroll, light background */
+.fp-section--scroll {
+  height: auto;
+  min-height: 100vh;
+  background: var(--c-grey-light);
+  align-items: flex-start;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.fp-section--scroll .container {
+  width: 100%;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .fp-content h2 {
+    font-size: 2.4rem;
+  }
+
+  .fp-content {
+    max-width: 100%;
+    padding: 3rem 1.5rem;
+  }
+
+  .fp-section--scroll {
+    padding-top: 2rem;
+  }
+}

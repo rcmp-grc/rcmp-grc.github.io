@@ -103,104 +103,104 @@ custom_css: /assets/css/careers.css
 <section id="s1">
   <h2>Respiratory disease</h2>
   <ul>
-    <li>asthma</li>
-    <li>chronic obstructive pulmonary disease (COPD)</li>
-    <li>emphysema</li>
+    <li>Asthma</li>
+    <li>Chronic obstructive pulmonary disease (COPD)</li>
+    <li>Emphysema</li>
   </ul>
 </section>
 <section id="s2">
   <h2>Cardiovascular conditions</h2>
   <ul>
-    <li>high blood pressure</li>
-    <li>ischemic heart disease</li>
-    <li>myocardial infarction</li>
-    <li>cerebrovascular disease</li>
-    <li>aortic aneurysm</li>
-    <li>congestive heart failure</li>
-    <li>cardiac arrhythmia, including use of pacemaker</li>
-    <li>valvular heart disease</li>
-    <li>cardiomyopathy</li>
-    <li>peripheral vascular disease</li>
+    <li>High blood pressure</li>
+    <li>Ischemic heart disease</li>
+    <li>Myocardial infarction</li>
+    <li>Cerebrovascular disease</li>
+    <li>Aortic aneurysm</li>
+    <li>Congestive heart failure</li>
+    <li>Cardiac arrhythmia, including use of pacemaker</li>
+    <li>Valvular heart disease</li>
+    <li>Cardiomyopathy</li>
+    <li>Peripheral vascular disease</li>
   </ul>
 </section>
 <section id="s3">
   <h2>Neurological conditions</h2>
   <ul>
-    <li>seizure disorders and epilepsy (must be seizure free for at least 5 years)</li>
-    <li>narcolepsy</li>
-    <li>sleep apnea and other disturbances of consciousness</li>
-    <li>vestibular disorders</li>
-    <li>multiple sclerosis</li>
-    <li>disorders of coordination and muscle control</li>
-    <li>head injury</li>
-    <li>post traumatic conditions</li>
-    <li>intracranial tumour</li>
+    <li>Seizure disorders and epilepsy (must be seizure free for at least 5 years)</li>
+    <li>Narcolepsy</li>
+    <li>Sleep apnea and other disturbances of consciousness</li>
+    <li>Vestibular disorders</li>
+    <li>Multiple sclerosis</li>
+    <li>Disorders of coordination and muscle control</li>
+    <li>Head injury</li>
+    <li>Post traumatic conditions</li>
+    <li>Intracranial tumour</li>
   </ul>
 </section>
 <section id="s4">
   <h2>Endocrine conditions</h2>
   <ul>
-    <li>diabetes mellitus</li>
-    <li>thyroid disease</li>
+    <li>Diabetes mellitus</li>
+    <li>Thyroid disease</li>
     <li>Cushing's disease</li>
     <li>Addison's disease</li>
-    <li>pheochromocytoma</li>
+    <li>Pheochromocytoma</li>
   </ul>
 </section>
 <section id="s5">
   <h2>Musculoskeletal conditions</h2>
   <ul>
-    <li>rheumatoid arthritis and systemic lupus erythematosus</li>
-    <li>disease of the spine</li>
-    <li>significant joint dysfunction with unstable ligament or tear such as shoulder dislocation or ligamentous tears</li>
-    <li>limb amputation</li>
+    <li>Rheumatoid arthritis and systemic lupus erythematosus</li>
+    <li>Disease of the spine</li>
+    <li>Significant joint dysfunction with unstable ligament or tear such as shoulder dislocation or ligamentous tears</li>
+    <li>Limb amputation</li>
   </ul>
 </section>
 <section id="s6">
   <h2>Abdominal conditions</h2>
   <ul>
-    <li>inflammatory bowel disease including Crohn's disease and ulcerative colitis</li>
-    <li>irritable bowel syndrome</li>
-    <li>kidney diseases such as kidney stone or kidney failure requiring dialysis</li>
-    <li>disease of the liver such as cirrhosis</li>
+    <li>Inflammatory bowel disease including Crohn's disease and ulcerative colitis</li>
+    <li>Irritable bowel syndrome</li>
+    <li>Kidney diseases such as kidney stone or kidney failure requiring dialysis</li>
+    <li>Disease of the liver such as cirrhosis</li>
   </ul>
 </section>
 <section id="s7">
   <h2>Eye or ear conditions</h2>
   <ul>
-    <li>ocular disorders associated with impaired visual function, including distant visual acuity, field of vision and colour vision</li>
-    <li>hearing impairment such as hearing acuity, Meniere's disease and benign positional vertigo</li>
+    <li>Ocular disorders associated with impaired visual function, including distant visual acuity, field of vision and colour vision</li>
+    <li>Hearing impairment such as hearing acuity, Meniere's disease and benign positional vertigo</li>
   </ul>
 </section>
 <section id="s8">
   <h2>Hematologic conditions</h2>
   <ul>
-    <li>bleeding disorders</li>
-    <li>clotting disorders including deep vein thrombosis and pulmonary embolisms</li>
-    <li>the use of anti-coagulation medications may pose a risk to occupational policing and therefore may be disqualifying</li>
+    <li>Bleeding disorders</li>
+    <li>Clotting disorders including deep vein thrombosis and pulmonary embolisms</li>
+    <li>The use of anti-coagulation medications may pose a risk to occupational policing and therefore may be disqualifying</li>
   </ul>
 </section>
 <section id="s9">
   <h2>Immunologic/allergic/oncologic and infectious conditions</h2>
   <ul>
-    <li>immune disorder with immunocompromised state</li>
-    <li>cancer</li>
-    <li>life threatening allergies</li>
-    <li>chronic and/or life-threatening infectious disease</li>
+    <li>Immune disorder with immunocompromised state</li>
+    <li>Cancer</li>
+    <li>Life threatening allergies</li>
+    <li>Chronic and/or life-threatening infectious disease</li>
   </ul>
 </section>
 <section id="s10">
   <h2>Psychological/psychiatric or mental health conditions</h2>
   <ul>
-    <li>mood (affective) disorders including depression, mania, bipolar disorder</li>
-    <li>anxiety disorders including panic disorder, phobia</li>
-    <li>stress related disorders including post-traumatic stress disorder</li>
-    <li>psychotic disorders including schizophrenia and delusional disorder</li>
-    <li>cognitive disorders including acquired brain injury and dementia</li>
-    <li>personality disorders</li>
-    <li>substance use and addictive disorders</li>
+    <li>Mood (affective) disorders including depression, mania, bipolar disorder</li>
+    <li>Anxiety disorders including panic disorder, phobia</li>
+    <li>Stress related disorders including post-traumatic stress disorder</li>
+    <li>Psychotic disorders including schizophrenia and delusional disorder</li>
+    <li>Cognitive disorders including acquired brain injury and dementia</li>
+    <li>Personality disorders</li>
+    <li>Substance use and addictive disorders</li>
     <li>ADHD (neurodevelopmental disorders including Attention Deficit Hyperactivity Disorder) and Autism Spectrum Disorder (ASD)</li>
-    <li>other mental health disorders associated with significant distress or impairment in social, occupational or other areas of functioning, including somatoform disorder, and OCD (obsessive compulsive disorder)</li>
+    <li>Other mental health disorders associated with significant distress or impairment in social, occupational or other areas of functioning, including somatoform disorder, and OCD (obsessive compulsive disorder)</li>
   </ul>
 </section>
 <section id="s11">

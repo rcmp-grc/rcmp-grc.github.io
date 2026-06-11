@@ -1850,16 +1850,8 @@ a.btn-careers:hover {
   bottom: auto;
 }
 
-#police-officer .fp-arrow--down {
-  bottom: calc(1rem - 80px);
-}
-
 #civilian-employees .fp-arrow--up {
   top: calc(1rem + 70px);
-}
-
-#civilian-employees .fp-arrow--down {
-  bottom: calc(1rem + 70px);
 }
 
 .fp-arrow--more-opp-up {
@@ -1956,4 +1948,15 @@ body {
   padding-left: 0;
   padding-right: 0;
   margin-top: 2rem;
+  margin-left: 0;
+}
+
+.fp-section--scroll .pagedetails dl {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.fp-section--scroll #wb-dtmd {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
 }

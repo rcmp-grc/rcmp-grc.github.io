@@ -28,8 +28,8 @@ custom_css: /assets/css/careers.css
         </div>
       </div>
     </nav>
-    <div class="fp-content container">
-      <p class="uppercase">Welcome to <abbr>RCMP</abbr> careers</p>
+<div class="fp-content">
+      <p class="uppercase">Welcome to RCMP careers</p>
       <h2 class="oswald-500 uppercase">Police officer careers</h2>
       <p class="header-description">There's a uniform with your name on it. Serve boldly.</p>
       <a href="#" class="btn btn-careers">
@@ -40,7 +40,7 @@ custom_css: /assets/css/careers.css
   </section>
   <section id="civilian-employees" class="fp-section" style="background-image: url('/assets/img/hero-civilian.jpg');">
     <div class="fp-overlay"></div>
-    <div class="fp-content container">
+    <div class="fp-content">
       <h2 class="oswald-500 uppercase">Civilian careers</h2>
       <p class="header-description">Your skills. Our mission. Roles with impact.</p>
       <a href="#" class="btn btn-careers">
@@ -50,7 +50,7 @@ custom_css: /assets/css/careers.css
     <button class="fp-arrow fp-arrow--up" aria-label="Scroll to previous section"><i class="fa-solid fa-chevron-up" aria-hidden="true"></i> Police officer</button>
     <button class="fp-arrow fp-arrow--down" aria-label="Scroll to next section"><i class="fa-solid fa-chevron-down" aria-hidden="true"></i> More opportunities</button>
   </section>
- <section id="more-opportunities" class="fp-section fp-section--scroll">
+ <section id="more-opportunities" class="fp-section fp-section--scroll fp-section--light">
   <div class="container">
     <section aria-labelledby="more-opp-heading" class="gc-features">
       <h2 class="h2-line" id="more-opp-heading">More opportunities</h2>
@@ -65,7 +65,7 @@ custom_css: /assets/css/careers.css
         <li class="col-lg-3 col-md-6">
           <div class="well">
             <img alt="" class="img-responsive full-width" src="/assets/img/mo-rcmp-reserve.jpg">
-            <h3 class="h5"><a href="#"><abbr>RCMP</abbr> Reserve program</a></h3>
+            <h3 class="h5"><a href="#">RCMP Reserve program</a></h3>
             <p>Continue to serve the community after retirement or leaving the service.</p>
           </div>
         </li>
@@ -73,12 +73,12 @@ custom_css: /assets/css/careers.css
           <div class="well">
             <img alt="" class="img-responsive full-width" src="/assets/img/mo-volunteer.jpg">
             <h3 class="h5"><a href="#">Volunteer programs</a></h3>
-            <p>Support local detachments as a community partner and help to tell the <abbr>RCMP</abbr> story across Canada.</p>
+            <p>Support local detachments as a community partner and help to tell the RCMP story across Canada.</p>
           </div>
         </li>
         <li class="col-lg-3 col-md-6">
           <div class="well">
-            <img alt="" class="img-responsive full-width" src="/assets/img/mo-dice.jpg">
+            <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-3.jpg">
             <h3 class="h5"><a href="#">Diverse and Inclusive Pre-Cadet Experience</a></h3>
             <p>Get a firsthand look into policing before you apply. Designed to support racialized and underrepresented communities.</p>
           </div>
@@ -92,7 +92,7 @@ custom_css: /assets/css/careers.css
         </li>
         <li class="col-lg-3 col-md-6">
           <div class="well">
-            <img alt="" class="img-responsive full-width" src="img/mo-student-jobs.jpg">
+            <img alt="" class="img-responsive full-width" src="/assets/img/mo-student-jobs.jpg">
             <h3 class="h5"><a href="#">Student jobs</a></h3>
             <p>Start your career with purpose and drive national impact while you study.</p>
           </div>

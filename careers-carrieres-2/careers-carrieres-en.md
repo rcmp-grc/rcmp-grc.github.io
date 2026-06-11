@@ -17,17 +17,12 @@ custom_css: /assets/css/careers.css
         <div class="bc-row">
           <div class="bc-nav-wrap bc-wrap-outer">
             <div class="bc-band">
-              <ol class="bc" typeof="BreadcrumbList">
-                <li property="itemListElement" typeof="ListItem">
-                  <a href="/" property="item" typeof="WebPage"><span property="name">RCMP.ca</span></a>
-                  <meta content="1" property="position" />
-                </li>
-                <li class="bc-sep" aria-hidden="true">›</li>
-                <li property="itemListElement" typeof="ListItem">
-                  <span property="name" aria-current="page">Careers</span>
-                  <meta content="2" property="position" />
-                </li>
-              </ol>
+<ol class="bc" typeof="BreadcrumbList">
+  <li property="itemListElement" typeof="ListItem">
+    <a href="/" property="item" typeof="WebPage"><span property="name">RCMP.ca</span></a>
+    <meta content="1" property="position" />
+  </li>
+</ol>
             </div>
           </div>
         </div>
@@ -126,50 +121,46 @@ document.addEventListener('DOMContentLoaded', function () {
   var current = 0;
   var scrolling = false;
   var DURATION = 800;
-function goTo(index) {
-if (index < 0 || index >= sections.length || scrolling) return;
-scrolling = true;
-current = index;
-sections[index].scrollIntoView({ behavior: 'smooth', block: 'start' });
-setTimeout(function () { scrolling = false; }, DURATION);
-}
-/_ wheel _/
-var wheelTimer = null;
-window.addEventListener('wheel', function (e) {
-if (current >= sections.length - 1 && e.deltaY > 0) return; /_ let last section scroll naturally _/
-if (current === 0 && e.deltaY < 0) return;
-/_ only intercept while inside the fp sections _/
-var inFp = sections.some(function (s) {
-var r = s.getBoundingClientRect();
-return r.top <= 1 && r.bottom >= window.innerHeight \* 0.5;
-});
-if (!inFp) return;
-e.preventDefault();
-clearTimeout(wheelTimer);
-wheelTimer = setTimeout(function () {
-goTo(current + (e.deltaY > 0 ? 1 : -1));
-}, 50);
-}, { passive: false });
-/_ touch _/
-var touchStartY = 0;
-window.addEventListener('touchstart', function (e) { touchStartY = e.touches[0].clientY; }, { passive: true });
-window.addEventListener('touchend', function (e) {
-var dy = touchStartY - e.changedTouches[0].clientY;
-if (Math.abs(dy) < 50) return;
-if (current >= sections.length - 1 && dy > 0) return;
-goTo(current + (dy > 0 ? 1 : -1));
-});
-/_ arrow keys _/
-document.addEventListener('keydown', function (e) {
-if (e.key === 'ArrowDown' && current < sections.length - 1) { e.preventDefault(); goTo(current + 1); }
-if (e.key === 'ArrowUp' && current > 0) { e.preventDefault(); goTo(current - 1); }
-});
-/_ arrow buttons — delegated so they work even if DOM order changes _/
-document.getElementById('careers-fullpage').addEventListener('click', function (e) {
-var btn = e.target.closest('.fp-arrow');
-if (!btn) return;
-if (btn.classList.contains('fp-arrow--down')) goTo(current + 1);
-if (btn.classList.contains('fp-arrow--up')) goTo(current - 1);
-});
+  function goTo(index) {
+    if (index < 0 || index >= sections.length || scrolling) return;
+    scrolling = true;
+    current = index;
+    sections[index].scrollIntoView({ behavior: 'smooth', block: 'start' });
+    setTimeout(function () { scrolling = false; }, DURATION);
+  }
+  var wheelTimer = null;
+  var halfHeight = window.innerHeight * 0.5;
+  window.addEventListener('wheel', function (e) {
+    if (current >= sections.length - 1 && e.deltaY > 0) return;
+    if (current === 0 && e.deltaY < 0) return;
+    var inFp = sections.some(function (s) {
+      var r = s.getBoundingClientRect();
+      return r.top <= 1 && r.bottom >= halfHeight;
+    });
+    if (!inFp) return;
+    e.preventDefault();
+    clearTimeout(wheelTimer);
+    wheelTimer = setTimeout(function () {
+      goTo(current + (e.deltaY > 0 ? 1 : -1));
+    }, 50);
+  }, { passive: false });
+  var touchStartY = 0;
+  window.addEventListener('touchstart', function (e) { touchStartY = e.touches[0].clientY; }, { passive: true });
+  window.addEventListener('touchend', function (e) {
+    var dy = touchStartY - e.changedTouches[0].clientY;
+    if (Math.abs(dy) < 50) return;
+    if (current >= sections.length - 1 && dy > 0) return;
+    goTo(current + (dy > 0 ? 1 : -1));
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'ArrowDown' && current < sections.length - 1) { e.preventDefault(); goTo(current + 1); }
+    if (e.key === 'ArrowUp' && current > 0) { e.preventDefault(); goTo(current - 1); }
+  });
+  document.getElementById('careers-fullpage').addEventListener('click', function (e) {
+    var btn = e.target.closest('.fp-arrow');
+    if (!btn) return;
+    if (btn.classList.contains('fp-arrow--down')) goTo(current + 1);
+    if (btn.classList.contains('fp-arrow--up')) goTo(current - 1);
+  });
 });
 </script>

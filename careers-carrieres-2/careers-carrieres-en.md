@@ -36,7 +36,7 @@ custom_css: /assets/css/careers.css
         More information<span class="wb-inv"> about police officer careers</span>
       </a>
     </div>
-    <button class="fp-arrow fp-arrow--down" aria-label="Scroll to next section">&#8964;</button>
+    <button class="fp-arrow fp-arrow--down" aria-label="Scroll to next section"><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button>
   </section>
   <section id="civilian-employees" class="fp-section" style="background-image: url('/assets/img/hero-civilian.jpg');">
     <div class="fp-overlay"></div>
@@ -47,8 +47,8 @@ custom_css: /assets/css/careers.css
         More information<span class="wb-inv"> about civilian careers</span>
       </a>
     </div>
-    <button class="fp-arrow fp-arrow--up" aria-label="Scroll to previous section">&#8963;</button>
-    <button class="fp-arrow fp-arrow--down" aria-label="Scroll to next section">&#8964;</button>
+    <button class="fp-arrow fp-arrow--up" aria-label="Scroll to previous section"><i class="fa-solid fa-chevron-up" aria-hidden="true"></i></button>
+    <button class="fp-arrow fp-arrow--down" aria-label="Scroll to next section"><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button>
   </section>
   <section id="more-opportunities" class="fp-section fp-section--scroll">
     <div class="container">

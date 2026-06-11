@@ -99,8 +99,82 @@
 <script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js" crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/releases/v6.5.0/js/all.js" integrity="sha384-xJg9IXkLBF6DBCGIEmpH5d2Pzct5onYpW8EegteK+7n0rxjhN4PUzfPxGbpWVjQf" crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/releases/v6.5.0/js/v4-shims.js" integrity="sha384-/92mVmELKUSys+AjbeSvITO3rhI9KtDAENPjak7fYPIxTdmKqt1Z2WCbRbI8ybF2" crossorigin="anonymous"></script>
-{% if page.layout == 'careers' and page.url contains 'officer-agent' %}
-<script>
+{% if page.layout == 'careers' and page.url contains 'careers-carrieres' %}<script>
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
+document.addEventListener('DOMContentLoaded', function() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'instant'
+  });
+  var sections = Array.from(document.querySelectorAll('#careers-fullpage .fp-section'));
+  if (!sections.length) return;
+  var current = 0;
+  var scrolling = false;
+  var DURATION = 800;
+
+  function goTo(index) {
+    if (index < 0 || index >= sections.length || scrolling) return;
+    scrolling = true;
+    current = index;
+    sections[index].scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+    setTimeout(function() {
+      scrolling = false;
+    }, DURATION);
+  }
+  var wheelTimer = null;
+  var halfHeight = window.innerHeight * 0.5;
+  window.addEventListener('wheel', function(e) {
+    if (current >= sections.length - 1 && e.deltaY > 0) return;
+    if (current === 0 && e.deltaY < 0) return;
+    var inFp = sections.some(function(s) {
+      var r = s.getBoundingClientRect();
+      return r.top <= 1 && r.bottom >= halfHeight;
+    });
+    if (!inFp) return;
+    e.preventDefault();
+    clearTimeout(wheelTimer);
+    wheelTimer = setTimeout(function() {
+      goTo(current + (e.deltaY > 0 ? 1 : -1));
+    }, 120);
+  }, {
+    passive: false
+  });
+  var touchStartY = 0;
+  window.addEventListener('touchstart', function(e) {
+    touchStartY = e.touches[0].clientY;
+  }, {
+    passive: true
+  });
+  window.addEventListener('touchend', function(e) {
+    var dy = touchStartY - e.changedTouches[0].clientY;
+    if (Math.abs(dy) < 50) return;
+    if (current >= sections.length - 1 && dy > 0) return;
+    goTo(current + (dy > 0 ? 1 : -1));
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowDown' && current < sections.length - 1) {
+      e.preventDefault();
+      goTo(current + 1);
+    }
+    if (e.key === 'ArrowUp' && current > 0) {
+      e.preventDefault();
+      goTo(current - 1);
+    }
+  });
+  document.getElementById('careers-fullpage').addEventListener('click', function(e) {
+    var btn = e.target.closest('.fp-arrow');
+    if (!btn) return;
+    if (btn.classList.contains('fp-arrow--down')) goTo(current + 1);
+    if (btn.classList.contains('fp-arrow--up')) goTo(current - 1);
+  });
+});
+</script>{% endif %}
+{% if page.layout == 'careers' and page.url contains 'officer-agent' %}<script>
 (function () {
   function r(i, b, m) {
     var e = document.getElementById(i);
@@ -114,12 +188,9 @@
     r('cadet-img',   '/assets/img/cadet-hub-',          3);
   });
 }());
-</script>
-{% endif %}
-{% if page.layout == 'careers' %}
-<script>
-(function () {
-
+</script>{% endif %}
+{% if page.layout == 'careers' %}<script>
+(function() {
   /* ----------------------------------------
      CAREERS NAV
   ---------------------------------------- */
@@ -127,38 +198,34 @@
     var t = document.querySelector('.careers-nav__toggle');
     var l = document.getElementById('careers-nav-links');
     if (!t || !l) return;
-
     if (!t.getAttribute('aria-controls')) t.setAttribute('aria-controls', 'careers-nav-links');
     if (!t.getAttribute('aria-expanded')) t.setAttribute('aria-expanded', 'false');
-
-    t.addEventListener('click', function () {
+    t.addEventListener('click', function() {
       var isOpen = l.classList.toggle('is-open');
       t.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
       t.setAttribute('aria-label', isOpen ? 'Close careers menu' : 'Open careers menu');
     });
-
-    Array.prototype.forEach.call(l.querySelectorAll('a'), function (a) {
-      a.addEventListener('click', function () {
+    Array.prototype.forEach.call(l.querySelectorAll('a'), function(a) {
+      a.addEventListener('click', function() {
         l.classList.remove('is-open');
         t.setAttribute('aria-expanded', 'false');
       });
     });
   }
-
   /* ----------------------------------------
      LOADER
   ---------------------------------------- */
   function initLoader() {
     var loader = document.getElementById('loader');
     if (!loader) return;
-
     var sr = loader.querySelector('.sr-only');
     if (sr) sr.textContent = loader.dataset.loadedMsg || 'Page loaded successfully';
     loader.setAttribute('aria-hidden', 'true');
     loader.classList.add('hidden');
-    setTimeout(function () { loader.style.display = 'none'; }, 300);
+    setTimeout(function() {
+      loader.style.display = 'none';
+    }, 300);
   }
-
   /* ----------------------------------------
      REDUCED MOTION
   ---------------------------------------- */
@@ -168,16 +235,13 @@
     var spinner = document.querySelector('.spinner');
     if (spinner) spinner.style.animation = 'none';
   }
-
   /* ----------------------------------------
      PDF LINK FILE SIZE
   ---------------------------------------- */
   function formatBytes(bytes, lang) {
     var isFr = lang === 'fr';
-    var fmt = function (n, decimals) {
-      return isFr
-        ? n.toFixed(decimals).replace('.', ',')
-        : n.toFixed(decimals);
+    var fmt = function(n, decimals) {
+      return isFr ? n.toFixed(decimals).replace('.', ',') : n.toFixed(decimals);
     };
     if (bytes < 1024) return bytes + '\u00a0B';
     if (bytes < 1024 * 1024) return fmt(bytes / 1024, 2) + (isFr ? '\u00a0Ko' : '\u00a0KB');
@@ -185,45 +249,38 @@
   }
 
   function fetchSize(url) {
-    return fetch(url, { method: 'HEAD' })
-      .then(function (res) {
-        var bytes = res.headers.get('content-length');
-        return bytes ? parseInt(bytes, 10) : null;
-      })
-      .catch(function () { return null; });
+    return fetch(url, {
+      method: 'HEAD'
+    }).then(function(res) {
+      var bytes = res.headers.get('content-length');
+      return bytes ? parseInt(bytes, 10) : null;
+    }).catch(function() {
+      return null;
+    });
   }
 
   function annotatePdfLinks() {
     var links = document.querySelectorAll('a.gc-pdf-link');
-    Array.prototype.forEach.call(links, function (link) {
+    Array.prototype.forEach.call(links, function(link) {
       var metaEl = link.querySelector('[data-pdf-meta]');
       if (!metaEl) return;
-
-      var lang = metaEl.dataset.lang
-        || document.documentElement.lang.split('-')[0]
-        || 'en';
-
+      var lang = metaEl.dataset.lang || document.documentElement.lang.split('-')[0] || 'en';
       var isFr = lang === 'fr';
       var href = link.getAttribute('href');
-
-      fetchSize(href).then(function (bytes) {
+      fetchSize(href).then(function(bytes) {
         var sizeStr = bytes ? formatBytes(bytes, lang) : null;
         metaEl.innerHTML = sizeStr ? ('PDF,\u00a0' + sizeStr) : 'PDF';
       });
     });
   }
-
   /* ----------------------------------------
      INIT
   ---------------------------------------- */
-  document.addEventListener('DOMContentLoaded', function () {
+  document.addEventListener('DOMContentLoaded', function() {
     initCareersNav();
     initReducedMotion();
     annotatePdfLinks();
   });
-
   window.addEventListener('load', initLoader);
-
 }());
-</script>
-{% endif %}
+</script>{% endif %}

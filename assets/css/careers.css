@@ -68,7 +68,7 @@ button,
 
 @media (min-width: 1440px) {
   .careers-layout main:not(.po-full-width) {
-    background-image: url("/assets/img/careers-background.png");
+    background-image: url("/assets/img/careers-background-1.png");
     background-size: 100% auto;
     background-repeat: repeat-y;
     background-position: top center;

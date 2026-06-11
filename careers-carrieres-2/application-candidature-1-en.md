@@ -51,7 +51,8 @@ custom_css: /assets/css/careers.css
 </nav>
 <section id="s1">
   <h2>New applicants</h2>
-  <p>If you're applying to the RCMP for the first time, it's important to decide if you are suited and ready to become an RCMP police officer. <a href="#">Take the Readiness Check</a>.</p>
+  <p>If you're applying to the RCMP for the first time, it's important to decide if you are suited and ready to become an RCMP police officer.</p>
+  <p><a href="#">Take the Readiness Check</a></p>
   <p>Understanding the entry requirements and the application process is the first step towards starting your career with the RCMP.</p>
   <p>All applications are submitted through the GC Jobs portal. You will need to create a GC Jobs account to complete your online application. The RCMP job posting for police officers is on the <a href="#">GC Jobs</a>.</p>
   <p>To find the posting:</p>

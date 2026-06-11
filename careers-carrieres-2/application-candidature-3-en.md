@@ -99,24 +99,23 @@ custom_css: /assets/css/careers.css
       </a>
     </li>
   </ul>
-  <p><strong>Review guidance to help you complete your forms and documents accurately.</strong></p>
 </section>
 <section id="s2">
   <h2>Required personal documents</h2>
   <p>You must scan the following original documents. We do not accept scans of copies.</p>
   <ul>
-    <li>If you were born in Canada: Canadian birth certificate (front and back)</li>
-    <li>If you were born outside of Canada: Canadian Citizenship or permanent resident card, and Confirmation of Permanent Residence (IMM 5292), if applicable</li>
-    <li>Social insurance number</li>
-    <li>Marriage, divorce, separation, or name change certificate, if applicable</li>
-    <li>Custody agreement, if applicable</li>
-    <li>Recent photo of yourself from the shoulders up</li>
-    <li>Proof of education: Canadian high school transcript showing graduation, or equivalency assessment</li>
-    <li>Valid Canadian driver's license (front and back)</li>
-    <li>Driving record from every province or territory that you have lived in for the last 3 years</li>
-    <li>Provincial health card (front and back)</li>
-    <li>Valid standard first aid certificate, including Level C CPR for infant, child and adult (must be valid for the duration of your Cadet Training Program)</li>
-    <li>Fitness logs and Self-Declaration</li>
+    <li>if you were born in Canada: Canadian birth certificate (front and back)</li>
+    <li>if you were born outside of Canada: Canadian Citizenship or permanent resident card, and Confirmation of Permanent Residence (IMM 5292), if applicable</li>
+    <li>social insurance number</li>
+    <li>marriage, divorce, separation, or name change certificate, if applicable</li>
+    <li>custody agreement, if applicable</li>
+    <li>recent photo of yourself from the shoulders up</li>
+    <li>proof of education: Canadian high school transcript showing graduation, or equivalency assessment</li>
+    <li>valid Canadian driver's license (front and back)</li>
+    <li>driving record from every province or territory that you have lived in for the last 3 years</li>
+    <li>provincial health card (front and back)</li>
+    <li>valid standard first aid certificate, including Level C CPR for infant, child and adult (must be valid for the duration of your Cadet Training Program)</li>
+    <li>fitness logs and self-declaration</li>
   </ul>
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page" style="display: block;">

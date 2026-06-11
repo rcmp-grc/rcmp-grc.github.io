@@ -1764,9 +1764,9 @@ a.btn-careers:hover {
   position: absolute;
   z-index: 2;
   color: var(--c-white);
-  bottom: 5rem;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   width: 100%;
   max-width: 1200px;
   padding: 0 15px;
@@ -1851,14 +1851,10 @@ a.btn-careers:hover {
 .fp-section--scroll {
   height: auto;
   min-height: 100vh;
-  background: var(--c-white);
+  background: none;
   align-items: flex-start;
   padding-top: 4rem;
   padding-bottom: 4rem;
-}
-
-.fp-section--light {
-  background: var(--c-grey-light);
 }
 
 html,

@@ -50,7 +50,7 @@ custom_css: /assets/css/careers.css
     <button class="fp-arrow fp-arrow--up" aria-label="Scroll to previous section"><i class="fa-solid fa-chevron-up" aria-hidden="true"></i> Police officer</button>
     <button class="fp-arrow fp-arrow--down" aria-label="Scroll to next section"><i class="fa-solid fa-chevron-down" aria-hidden="true"></i> More opportunities</button>
   </section>
- <section id="more-opportunities" class="fp-section fp-section--scroll fp-section--light">
+  <section id="more-opportunities" class="fp-section fp-section--scroll">
   <div class="container">
     <section aria-labelledby="more-opp-heading" class="gc-features">
       <h2 class="h2-line" id="more-opp-heading">More opportunities</h2>
@@ -98,9 +98,16 @@ custom_css: /assets/css/careers.css
           </div>
         </li>
       </ul>
+</section>
+    <section class="pagedetails">
+      <h2 class="wb-inv">Page details</h2>
+      <dl id="wb-dtmd">
+        <dt>Date modified:</dt>
+        <dd><time property="dateModified">2026-06-10</time></dd>
+      </dl>
     </section>
   </div>
-</section> 
+</section>
 </div>
 <script>
 if ('scrollRestoration' in history) { history.scrollRestoration = 'manual'; }

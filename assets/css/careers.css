@@ -1960,3 +1960,7 @@ body {
   margin-left: 0 !important;
   padding-left: 0 !important;
 }
+
+[id] {
+  scroll-margin-top: calc(var(--nav-height) + 1rem);
+}

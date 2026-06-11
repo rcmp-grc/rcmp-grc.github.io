@@ -17,26 +17,26 @@ custom_css: /assets/css/careers.css
         <div class="bc-row">
           <div class="bc-nav-wrap bc-wrap-outer">
             <div class="bc-band">
-<ol class="bc" typeof="BreadcrumbList">
-  <li property="itemListElement" typeof="ListItem">
-    <a href="/" property="item" typeof="WebPage"><span property="name">RCMP.ca</span></a>
-    <meta content="1" property="position" />
-  </li>
-</ol>
+              <ol class="bc" typeof="BreadcrumbList">
+                <li property="itemListElement" typeof="ListItem">
+                  <a href="/" property="item" typeof="WebPage"><span property="name">RCMP.ca</span></a>
+                  <meta content="1" property="position" />
+                </li>
+              </ol>
             </div>
           </div>
         </div>
       </div>
     </nav>
-<div class="fp-content">
-      <p class="uppercase">Welcome to RCMP careers</p>
+    <div class="fp-content">
+      <p class="uppercase">Welcome to <abbr>RCMP</abbr> careers</p>
       <h2 class="oswald-500 uppercase">Police officer careers</h2>
       <p class="header-description">There's a uniform with your name on it. Serve boldly.</p>
       <a href="#" class="btn btn-careers">
         More information<span class="wb-inv"> about police officer careers</span>
       </a>
     </div>
-    <button class="fp-arrow fp-arrow--down" aria-label="Scroll to next section"><i class="fa-solid fa-chevron-down" aria-hidden="true"></i> Civilian careers</button>
+    <button class="fp-arrow fp-arrow--down" aria-label="Scroll to civilian careers"><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button>
   </section>
   <section id="civilian-employees" class="fp-section" style="background-image: url('/assets/img/hero-civilian.jpg');">
     <div class="fp-overlay"></div>
@@ -47,11 +47,11 @@ custom_css: /assets/css/careers.css
         More information<span class="wb-inv"> about civilian careers</span>
       </a>
     </div>
-    <button class="fp-arrow fp-arrow--up" aria-label="Scroll to previous section"><i class="fa-solid fa-chevron-up" aria-hidden="true"></i> Police officer</button>
-    <button class="fp-arrow fp-arrow--down" aria-label="Scroll to next section"><i class="fa-solid fa-chevron-down" aria-hidden="true"></i> More opportunities</button>
+    <button class="fp-arrow fp-arrow--up" aria-label="Scroll to police officer"><i class="fa-solid fa-chevron-up" aria-hidden="true"></i></button>
+    <button class="fp-arrow fp-arrow--down" aria-label="Scroll to more opportunities"><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button>
   </section>
 <section id="more-opportunities" class="fp-section fp-section--scroll">
-  <button class="fp-arrow fp-arrow--up fp-arrow--more-opp-up" aria-label="Scroll to civilian employees"><i class="fa-solid fa-chevron-up" aria-hidden="true"></i> Civilian careers</button>
+  <button class="fp-arrow fp-arrow--up fp-arrow--more-opp-up" aria-label="Scroll to civilian careers"><i class="fa-solid fa-chevron-up" aria-hidden="true"></i></button>
   <div class="container">
     <h2 id="more-opp-heading" class="careers-h1 mrgn-tp-md">More opportunities</h2>
     <section aria-labelledby="more-opp-heading" class="gc-features">

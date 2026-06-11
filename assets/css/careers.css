@@ -1806,25 +1806,18 @@ a.btn-careers:hover {
   background: rgba(0, 0, 0, 0.45);
   border: 2px solid var(--c-yellow);
   color: var(--c-yellow);
-  font-size: 1.4rem;
-  line-height: 1.4;
+  width: 4rem;
+  height: 4rem;
   cursor: pointer;
   z-index: 10;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.75rem 2.5rem;
-  border-radius: 2px;
+  padding: 0;
+  border-radius: 4px;
   transition:
     background 0.2s ease,
     color 0.2s ease;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  font-family: var(--font-display);
-  font-weight: 500;
-  white-space: nowrap;
-  gap: 0.5rem;
-  vertical-align: middle;
   appearance: none;
   -webkit-appearance: none;
   box-sizing: border-box;
@@ -1839,10 +1832,12 @@ a.btn-careers:hover {
 }
 
 .fp-arrow i {
-  font-size: 1rem;
+  font-size: 2.2rem;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   pointer-events: none;
+  line-height: 1;
 }
 
 .fp-arrow--down {
@@ -1954,6 +1949,7 @@ body {
   max-width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 5rem;
 }
 
 .fp-section--scroll .pagedetails {

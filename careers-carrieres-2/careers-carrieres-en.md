@@ -48,71 +48,59 @@ custom_css: /assets/css/careers.css
       </a>
     </div>
     <button class="fp-arrow fp-arrow--up" aria-label="Scroll to previous section"><i class="fa-solid fa-chevron-up" aria-hidden="true"></i> Police officer</button>
-<button class="fp-arrow fp-arrow--down" aria-label="Scroll to next section"><i class="fa-solid fa-chevron-down" aria-hidden="true"></i> More opportunities</button>
+    <button class="fp-arrow fp-arrow--down" aria-label="Scroll to next section"><i class="fa-solid fa-chevron-down" aria-hidden="true"></i> More opportunities</button>
   </section>
-  <section id="more-opportunities" class="fp-section fp-section--scroll">
-    <div class="container">
-      <h2 class="oswald-500 uppercase">More opportunities</h2>
-      <div class="c-grid-container">
-        <div class="c-grid">
-          <div class="c-card">
-            <img src="img/mo-community-constables.jpg" alt="" />
-            <div class="c-card-container">
-              <h3 class="h5">Community constables</h3>
-              <p>Build trust and help to reduce crime in your own community.</p>
-              <button class="btn btn-careers-outline mrgn-tp-md">
-                More information<span class="wb-inv"> about community constables</span>
-              </button>
-            </div>
+ <section id="more-opportunities" class="fp-section fp-section--scroll">
+  <div class="container">
+    <section aria-labelledby="more-opp-heading" class="gc-features">
+      <h2 class="h2-line" id="more-opp-heading">More opportunities</h2>
+      <ul class="list-unstyled row">
+        <li class="col-lg-3 col-md-6">
+          <div class="well">
+            <img alt="" class="img-responsive full-width" src="/assets/img/mo-community-constables.jpg">
+            <h3 class="h5"><a href="#">Community constables</a></h3>
+            <p>Build trust and help to reduce crime in your own community.</p>
           </div>
-          <div class="c-card">
-            <img src="img/mo-rcmp-reserve.jpg" alt="" />
-            <div class="c-card-container">
-              <h3 class="h5"><abbr>RCMP</abbr> Reserve program</h3>
-              <p>Continue to serve the community after retirement or leaving the service.</p>
-              <button class="btn btn-careers-outline mrgn-tp-md">
-                More information<span class="wb-inv"> about the <abbr>RCMP</abbr> reserve program</span>
-              </button>
-            </div>
+        </li>
+        <li class="col-lg-3 col-md-6">
+          <div class="well">
+            <img alt="" class="img-responsive full-width" src="/assets/img/mo-rcmp-reserve.jpg">
+            <h3 class="h5"><a href="#"><abbr>RCMP</abbr> Reserve program</a></h3>
+            <p>Continue to serve the community after retirement or leaving the service.</p>
           </div>
-          <div class="c-card">
-            <img src="img/mo-volunteer.jpg" alt="" />
-            <div class="c-card-container">
-              <h3 class="h5">Volunteer programs</h3>
-              <p>Support local detachments as a community partner and help to tell the <abbr>RCMP</abbr> story across Canada.</p>
-              <button class="btn btn-careers-outline mrgn-tp-md">
-                More information<span class="wb-inv"> about volunteer programs</span>
-              </button>
-            </div>
+        </li>
+        <li class="col-lg-3 col-md-6">
+          <div class="well">
+            <img alt="" class="img-responsive full-width" src="/assets/img/mo-volunteer.jpg">
+            <h3 class="h5"><a href="#">Volunteer programs</a></h3>
+            <p>Support local detachments as a community partner and help to tell the <abbr>RCMP</abbr> story across Canada.</p>
           </div>
-          <div class="c-card">
-            <img src="img/mo-dice.jpg" alt="" />
-            <div class="c-card-container">
-              <h3 class="h5">Diverse and Inclusive Pre-Cadet Experience</h3>
-              <p>Get a firsthand look into policing before you apply. Designed to support racialized and unrepresented communities.</p>
-              <button class="btn btn-careers-outline mrgn-tp-md">More information</button>
-            </div>
+        </li>
+        <li class="col-lg-3 col-md-6">
+          <div class="well">
+            <img alt="" class="img-responsive full-width" src="/assets/img/mo-dice.jpg">
+            <h3 class="h5"><a href="#">Diverse and Inclusive Pre-Cadet Experience</a></h3>
+            <p>Get a firsthand look into policing before you apply. Designed to support racialized and underrepresented communities.</p>
           </div>
-          <div class="c-card">
-            <img src="img/mo-indigenous-recruitment.jpg" alt="" />
-            <div class="c-card-container">
-              <h3 class="h5">Indigenous recruitment</h3>
-              <p>Discover programs that support Indigenous applicants considering a career in policing.</p>
-              <button class="btn btn-careers-outline mrgn-tp-md">More information</button>
-            </div>
+        </li>
+        <li class="col-lg-3 col-md-6">
+          <div class="well">
+            <img alt="" class="img-responsive full-width" src="/assets/img/mo-indigenous-recruitment.jpg">
+            <h3 class="h5"><a href="#">Indigenous recruitment</a></h3>
+            <p>Discover programs that support Indigenous applicants considering a career in policing.</p>
           </div>
-          <div class="c-card">
-            <img src="img/mo-student-jobs.jpg" alt="" />
-            <div class="c-card-container">
-              <h3 class="h5">Student jobs</h3>
-              <p>Start your career with purpose and drive national impact while you study.</p>
-              <button class="btn btn-careers-outline mrgn-tp-md">More information</button>
-            </div>
+        </li>
+        <li class="col-lg-3 col-md-6">
+          <div class="well">
+            <img alt="" class="img-responsive full-width" src="img/mo-student-jobs.jpg">
+            <h3 class="h5"><a href="#">Student jobs</a></h3>
+            <p>Start your career with purpose and drive national impact while you study.</p>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        </li>
+      </ul>
+    </section>
+  </div>
+</section> 
 </div>
 <script>
 if ('scrollRestoration' in history) { history.scrollRestoration = 'manual'; }

@@ -50,7 +50,8 @@ custom_css: /assets/css/careers.css
     <button class="fp-arrow fp-arrow--up" aria-label="Scroll to previous section"><i class="fa-solid fa-chevron-up" aria-hidden="true"></i> Police officer</button>
     <button class="fp-arrow fp-arrow--down" aria-label="Scroll to next section"><i class="fa-solid fa-chevron-down" aria-hidden="true"></i> More opportunities</button>
   </section>
-  <section id="more-opportunities" class="fp-section fp-section--scroll">
+<section id="more-opportunities" class="fp-section fp-section--scroll">
+  <button class="fp-arrow fp-arrow--up fp-arrow--more-opp-up" aria-label="Scroll to civilian employees"><i class="fa-solid fa-chevron-up" aria-hidden="true"></i> Civilian careers</button>
   <div class="container">
     <h2 id="more-opp-heading" class="careers-h1 mrgn-tp-md">More opportunities</h2>
     <section aria-labelledby="more-opp-heading" class="gc-features">

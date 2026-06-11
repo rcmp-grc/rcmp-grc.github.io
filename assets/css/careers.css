@@ -1807,13 +1807,13 @@ a.btn-careers:hover {
   border: 2px solid var(--c-yellow);
   color: var(--c-yellow);
   font-size: 1.4rem;
-  line-height: 1;
+  line-height: 1.4;
   cursor: pointer;
   z-index: 10;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.6rem 2.5rem;
+  padding: 0.75rem 2.5rem;
   border-radius: 2px;
   transition:
     background 0.2s ease,
@@ -1824,12 +1824,25 @@ a.btn-careers:hover {
   font-weight: 500;
   white-space: nowrap;
   gap: 0.5rem;
+  vertical-align: middle;
+  appearance: none;
+  -webkit-appearance: none;
+  box-sizing: border-box;
 }
 
-.fp-arrow:hover {
+.fp-arrow:hover,
+.fp-arrow:focus {
   background: var(--c-yellow);
   color: var(--c-black);
   transform: translateX(-50%);
+  outline: none;
+}
+
+.fp-arrow i {
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  pointer-events: none;
 }
 
 .fp-arrow--down {
@@ -1840,6 +1853,22 @@ a.btn-careers:hover {
 .fp-arrow--up {
   top: 1rem;
   bottom: auto;
+}
+
+#police-officer .fp-arrow--down {
+  bottom: calc(1rem - 80px);
+}
+
+#civilian-employees .fp-arrow--up {
+  top: calc(1rem + 70px);
+}
+
+#civilian-employees .fp-arrow--down {
+  bottom: calc(1rem + 70px);
+}
+
+.fp-arrow--more-opp-up {
+  top: calc(1rem + 70px);
 }
 
 .fp-arrow i {

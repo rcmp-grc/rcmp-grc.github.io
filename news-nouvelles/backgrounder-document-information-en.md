@@ -44,7 +44,21 @@ issued: 2026-05-08
     background-color: #d6f5e1;
     font-size: 0.8em;
     font-weight: bold;	
-    padding: 4px 8px 8px 8px;		
+    padding: 8px 10px 10px 10px;		
+	}
+	.news-topic-1 a:link, a:visited {
+    background-color: #d6f5e1;
+    font-size: 0.8em;
+    font-weight: bold;	
+    padding: 8px 10px 10px 10px;		
+	text-decoration: none;
+	display: inline-block;
+}
+	.news-topic-1 a:hover, a:active {
+    background-color: #d6f5e0;
+    font-size: 0.8em;
+    font-weight: bold;	
+	padding: 8px 10px 10px 10px;	
 	}
 	.news-topic-2
 	{

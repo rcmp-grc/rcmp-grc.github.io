@@ -65,7 +65,7 @@ custom_css: /assets/css/careers.css
   </section>
   <section id="s1-1">
     <h3>Vision exam</h3>
-    <p>The vision exam and form (Vision Examination of Applicant (RCMP 2180)) must be completed by a Canadian optometrist/ophthalmologist.</p>
+    <p>The vision exam and form (Vision Examination of Applicant (RCMP 2180)) must be completed by a Canadian optometrist or ophthalmologist.</p>
     <p>If you've had laser eye surgery, you must wait before completing a vision exam:</p>
     <ul>
       <li>LASIK (Laser-assisted in-situ keratomileusis): 30 days</li>
@@ -80,8 +80,8 @@ custom_css: /assets/css/careers.css
       <p>You'll need to meet <strong>both</strong> corrected and uncorrected vision standards. If you fail one or both, you don't meet the minimum vision requirements for regular member applicants.</p>
       <p>Minimum vision requirements:</p>
       <ul>
-        <li>Corrected vision (with glasses or contacts): Visual acuity must be at least 6/6 (20/20) in one eye and 6/9 (20/30) in the other; and</li>
-        <li>Uncorrected vision (without glasses or contacts lenses): Visual acuity must be at least 6/18 (20/60) in each eye or 6/12 (20/40) in one eye and at least 6/30 (20/100) in the other eye</li>
+        <li>corrected vision (with glasses or contacts): Visual acuity must be at least 6/6 (20/20) in one eye and 6/9 (20/30) in the other; and</li>
+        <li>uncorrected vision (without glasses or contacts lenses): Visual acuity must be at least 6/18 (20/60) in each eye or 6/12 (20/40) in one eye and at least 6/30 (20/100) in the other eye</li>
       </ul>
       <p>This minimum vision acuity is required for safe performance of policing duties if glasses or contacts are lost or displaced.</p>
     </section>
@@ -136,11 +136,12 @@ custom_css: /assets/css/careers.css
   <h2>Additional guidance on completing forms</h2>
   <p>Review these considerations to make sure your forms and documents are completed and submitted correctly:</p>
   <ul>
-    <li>Complete the forms electronically, print them and sign them · Some forms require initials which can only be signed once the form has been printed</li>
-    <li>Submit your forms and documentation electronically, based on instructions provided. Hand delivered, mailed or emailed packages will not be accepted</li>
-    <li>Retain original copies of all forms for your records. You may be asked to provide printed copies to authenticate your documentation</li>
-    <li>Use the following date format: YYYY/MM/DD</li>
-    <li>Incorrect or incomplete forms may cause a considerable delay in your recruiting process and may lead to your file being closed</li>
+    <li>complete the forms electronically, print them and sign them</li>
+    <li>some forms require initials which can only be signed once the form has been printed</li>
+    <li>submit your forms and documentation electronically, based on instructions provided. Hand delivered, mailed or emailed packages will not be accepted</li>
+    <li>retain original copies of all forms for your records. You may be asked to provide printed copies to authenticate your documentation</li>
+    <li>use the following date format: YYYY/MM/DD</li>
+    <li>incorrect or incomplete forms may cause a considerable delay in your recruiting process and may lead to your file being closed</li>
   </ul>
   <p>To be able to fill and save our PDF forms, you must first download them to your computer and open them with <a href="https://get.adobe.com/reader/otherversions/">Adobe Reader® 10</a> (or a more recent version). Note that mobile devices cannot be used to open and fill PDF forms.</p>
 </section>

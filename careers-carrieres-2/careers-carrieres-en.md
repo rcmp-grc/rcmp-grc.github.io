@@ -52,8 +52,11 @@ custom_css: /assets/css/careers.css
   </section>
   <section id="more-opportunities" class="fp-section fp-section--scroll">
   <div class="container">
+    <hgroup class="mrgn-tp-md">
+      <p class="wb-rd lead mrgn-tp-0 mrgn-bttm-0" aria-hidden="true">RCMP careers</p>
+      <h2 id="more-opp-heading" class="careers-h1">More opportunities</h2>
+    </hgroup>
     <section aria-labelledby="more-opp-heading" class="gc-features">
-      <h2 class="h2-line" id="more-opp-heading">More opportunities</h2>
       <ul class="list-unstyled row">
         <li class="col-lg-3 col-md-6">
           <div class="well">

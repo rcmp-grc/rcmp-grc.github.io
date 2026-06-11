@@ -1898,3 +1898,22 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.careers-h1 {
+  border-bottom: 0.5rem solid var(--c-yellow);
+  border-image: linear-gradient(to right, var(--c-yellow) 25%, transparent 25%);
+  border-image-slice: 1;
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-style: normal;
+  padding-bottom: 15px;
+  margin: 15px 0 30px;
+}
+
+.fp-section--scroll .container {
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+}

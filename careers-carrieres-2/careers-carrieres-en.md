@@ -58,21 +58,21 @@ custom_css: /assets/css/careers.css
       <ul class="list-unstyled row">
         <li class="col-lg-4 col-md-6 col-xs-12">
           <div class="well">
-            <img alt="" class="img-responsive full-width" src="/assets/img/mo-community-constables.jpg">
+            <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-5.jpg">
             <h3 class="h5"><a href="#">Community constables</a></h3>
             <p>Build trust and help to reduce crime in your own community.</p>
           </div>
         </li>
         <li class="col-lg-4 col-md-6 col-xs-12">
           <div class="well">
-            <img alt="" class="img-responsive full-width" src="/assets/img/mo-rcmp-reserve.jpg">
+            <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-6.jpg">
             <h3 class="h5"><a href="#">RCMP Reserve program</a></h3>
             <p>Continue to serve the community after retirement or leaving the service.</p>
           </div>
         </li>
         <li class="col-lg-4 col-md-6 col-xs-12">
           <div class="well">
-            <img alt="" class="img-responsive full-width" src="/assets/img/mo-volunteer.jpg">
+            <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-7.jpg">
             <h3 class="h5"><a href="#">Volunteer programs</a></h3>
             <p>Support local detachments as a community partner and help to tell the RCMP story across Canada.</p>
           </div>
@@ -86,14 +86,14 @@ custom_css: /assets/css/careers.css
         </li>
         <li class="col-lg-4 col-md-6 col-xs-12">
           <div class="well">
-            <img alt="" class="img-responsive full-width" src="/assets/img/mo-indigenous-recruitment.jpg">
+            <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-8.jpg">
             <h3 class="h5"><a href="#">Indigenous recruitment</a></h3>
             <p>Discover programs that support Indigenous applicants considering a career in policing.</p>
           </div>
         </li>
         <li class="col-lg-4 col-md-6 col-xs-12">
           <div class="well">
-            <img alt="" class="img-responsive full-width" src="/assets/img/mo-student-jobs.jpg">
+            <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-9.jpg">
             <h3 class="h5"><a href="#">Student jobs</a></h3>
             <p>Start your career with purpose and drive national impact while you study.</p>
           </div>

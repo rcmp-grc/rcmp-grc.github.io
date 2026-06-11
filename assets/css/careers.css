@@ -68,7 +68,17 @@ button,
 
 @media (min-width: 1440px) {
   .careers-layout main:not(.po-full-width) {
-    background-image: none; /* disable decorative bison pattern behind hero sections */
+    background-image: url("/assets/img/careers-background.png");
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: top center;
+    background-attachment: local;
+  }
+
+  /* Hide the decorative pattern only behind the fullpage hero sections */
+  .careers-layout main:not(.po-full-width) #careers-fullpage {
+    background-image: none;
+    background: none;
   }
 }
 
@@ -324,6 +334,14 @@ button,
 .careers-layout main {
   padding-left: 0;
   padding-right: 0;
+}
+
+/* Remove container padding around the fullpage block specifically */
+.careers-layout main .container:has(#careers-fullpage) {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  max-width: 100%;
 }
 
 .careers-layout .lead {
@@ -1700,7 +1718,6 @@ a.btn-careers:hover {
    FULL-PAGE SNAP SECTIONS
    ============================================= */
 
-/* Pull the fullpage wrapper edge-to-edge, outside GCWeb container constraints */
 #careers-fullpage {
   position: relative;
   width: 100vw;
@@ -1708,6 +1725,16 @@ a.btn-careers:hover {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
+  margin-top: 0;
+  overflow-x: hidden;
+  /* Ensure first section starts immediately after the breadcrumb band */
+  display: block;
+}
+
+/* The breadcrumb band sits above; pull sections flush to it */
+#wb-bc + * #careers-fullpage,
+#careers-fullpage:first-child {
+  margin-top: 0;
 }
 
 .fp-section {
@@ -1830,4 +1857,16 @@ a.btn-careers:hover {
   .fp-section--scroll {
     padding-top: 2rem;
   }
+}
+
+.fp-breadcrumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 4;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
 }

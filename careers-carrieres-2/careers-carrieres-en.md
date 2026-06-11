@@ -5,12 +5,34 @@ date_modified: 2026-06-10
 lang: en
 lang_url: careers-carrieres-fr.html
 h1_hidden: true
+is_homepage: true
 custom_css: /assets/css/careers.css
 ---
 
 <div id="careers-fullpage">
-  <section id="police-officer" class="fp-section" style="background-image: url('/assets/img/hero-police-officer.jpg');">
+<section id="police-officer" class="fp-section" style="background-image: url('/assets/img/hero-police-officer.jpg');">
     <div class="fp-overlay"></div>
+    <nav id="wb-bc" class="fp-breadcrumb" aria-label="Breadcrumb" property="breadcrumb">
+      <div class="bc-showcase-inner">
+        <div class="bc-row">
+          <div class="bc-nav-wrap bc-wrap-outer">
+            <div class="bc-band">
+              <ol class="bc" typeof="BreadcrumbList">
+                <li property="itemListElement" typeof="ListItem">
+                  <a href="/" property="item" typeof="WebPage"><span property="name">RCMP.ca</span></a>
+                  <meta content="1" property="position" />
+                </li>
+                <li class="bc-sep" aria-hidden="true">›</li>
+                <li property="itemListElement" typeof="ListItem">
+                  <span property="name" aria-current="page">Careers</span>
+                  <meta content="2" property="position" />
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
     <div class="fp-content container">
       <p class="uppercase">Welcome to <abbr>RCMP</abbr> careers</p>
       <h2 class="oswald-500 uppercase">Police officer careers</h2>
@@ -104,7 +126,6 @@ document.addEventListener('DOMContentLoaded', function () {
   var current = 0;
   var scrolling = false;
   var DURATION = 800;
-
 function goTo(index) {
 if (index < 0 || index >= sections.length || scrolling) return;
 scrolling = true;
@@ -112,7 +133,6 @@ current = index;
 sections[index].scrollIntoView({ behavior: 'smooth', block: 'start' });
 setTimeout(function () { scrolling = false; }, DURATION);
 }
-
 /_ wheel _/
 var wheelTimer = null;
 window.addEventListener('wheel', function (e) {
@@ -130,7 +150,6 @@ wheelTimer = setTimeout(function () {
 goTo(current + (e.deltaY > 0 ? 1 : -1));
 }, 50);
 }, { passive: false });
-
 /_ touch _/
 var touchStartY = 0;
 window.addEventListener('touchstart', function (e) { touchStartY = e.touches[0].clientY; }, { passive: true });
@@ -140,13 +159,11 @@ if (Math.abs(dy) < 50) return;
 if (current >= sections.length - 1 && dy > 0) return;
 goTo(current + (dy > 0 ? 1 : -1));
 });
-
 /_ arrow keys _/
 document.addEventListener('keydown', function (e) {
 if (e.key === 'ArrowDown' && current < sections.length - 1) { e.preventDefault(); goTo(current + 1); }
 if (e.key === 'ArrowUp' && current > 0) { e.preventDefault(); goTo(current - 1); }
 });
-
 /_ arrow buttons — delegated so they work even if DOM order changes _/
 document.getElementById('careers-fullpage').addEventListener('click', function (e) {
 var btn = e.target.closest('.fp-arrow');

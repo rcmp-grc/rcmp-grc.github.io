@@ -68,11 +68,7 @@ button,
 
 @media (min-width: 1440px) {
   .careers-layout main:not(.po-full-width) {
-    background-image: url("/assets/img/careers-background.png");
-    background-size: 100% auto;
-    background-repeat: repeat-y;
-    background-position: top center;
-    background-attachment: local;
+    background-image: none; /* disable decorative bison pattern behind hero sections */
   }
 }
 
@@ -1704,8 +1700,14 @@ a.btn-careers:hover {
    FULL-PAGE SNAP SECTIONS
    ============================================= */
 
+/* Pull the fullpage wrapper edge-to-edge, outside GCWeb container constraints */
 #careers-fullpage {
-  /* snap container — takes full viewport */
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 
 .fp-section {

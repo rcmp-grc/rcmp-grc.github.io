@@ -98,54 +98,61 @@ custom_css: /assets/css/careers.css
   </section>
 </div>
 <script>
-(function () {
+document.addEventListener('DOMContentLoaded', function () {
   var sections = Array.from(document.querySelectorAll('#careers-fullpage .fp-section'));
+  if (!sections.length) return;
   var current = 0;
   var scrolling = false;
-  var DURATION = 700;
+  var DURATION = 800;
 
 function goTo(index) {
 if (index < 0 || index >= sections.length || scrolling) return;
 scrolling = true;
 current = index;
-sections[index].scrollIntoView({ behavior: 'smooth' });
+sections[index].scrollIntoView({ behavior: 'smooth', block: 'start' });
 setTimeout(function () { scrolling = false; }, DURATION);
 }
 
-/_ wheel / touch _/
-var touchStartY = 0;
-document.addEventListener('wheel', function (e) {
-var lastFp = sections[sections.length - 1];
-if (current === sections.length - 1) {
-/_ allow natural scroll inside last section _/
-var atTop = lastFp.scrollTop === 0;
-if (e.deltaY < 0 && atTop) { e.preventDefault(); goTo(current - 1); }
-return;
-}
+/_ wheel _/
+var wheelTimer = null;
+window.addEventListener('wheel', function (e) {
+if (current >= sections.length - 1 && e.deltaY > 0) return; /_ let last section scroll naturally _/
+if (current === 0 && e.deltaY < 0) return;
+/_ only intercept while inside the fp sections _/
+var inFp = sections.some(function (s) {
+var r = s.getBoundingClientRect();
+return r.top <= 1 && r.bottom >= window.innerHeight \* 0.5;
+});
+if (!inFp) return;
 e.preventDefault();
+clearTimeout(wheelTimer);
+wheelTimer = setTimeout(function () {
 goTo(current + (e.deltaY > 0 ? 1 : -1));
+}, 50);
 }, { passive: false });
 
-document.addEventListener('touchstart', function (e) { touchStartY = e.touches[0].clientY; }, { passive: true });
-document.addEventListener('touchend', function (e) {
+/_ touch _/
+var touchStartY = 0;
+window.addEventListener('touchstart', function (e) { touchStartY = e.touches[0].clientY; }, { passive: true });
+window.addEventListener('touchend', function (e) {
 var dy = touchStartY - e.changedTouches[0].clientY;
-if (Math.abs(dy) < 40) return;
-if (current === sections.length - 1) return;
+if (Math.abs(dy) < 50) return;
+if (current >= sections.length - 1 && dy > 0) return;
 goTo(current + (dy > 0 ? 1 : -1));
 });
 
 /_ arrow keys _/
 document.addEventListener('keydown', function (e) {
-if (e.key === 'ArrowDown') { e.preventDefault(); goTo(current + 1); }
-if (e.key === 'ArrowUp') { e.preventDefault(); goTo(current - 1); }
+if (e.key === 'ArrowDown' && current < sections.length - 1) { e.preventDefault(); goTo(current + 1); }
+if (e.key === 'ArrowUp' && current > 0) { e.preventDefault(); goTo(current - 1); }
 });
 
-/_ arrow buttons _/
-document.querySelectorAll('.fp-arrow--down').forEach(function (btn) {
-btn.addEventListener('click', function () { goTo(current + 1); });
+/_ arrow buttons — delegated so they work even if DOM order changes _/
+document.getElementById('careers-fullpage').addEventListener('click', function (e) {
+var btn = e.target.closest('.fp-arrow');
+if (!btn) return;
+if (btn.classList.contains('fp-arrow--down')) goTo(current + 1);
+if (btn.classList.contains('fp-arrow--up')) goTo(current - 1);
 });
-document.querySelectorAll('.fp-arrow--up').forEach(function (btn) {
-btn.addEventListener('click', function () { goTo(current - 1); });
 });
-}());
 </script>

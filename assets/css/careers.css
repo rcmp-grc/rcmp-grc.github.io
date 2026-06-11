@@ -1741,7 +1741,7 @@ a.btn-careers:hover {
   position: relative;
   width: 100%;
   height: 100vh;
-  min-height: 500px;
+  max-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -1761,11 +1761,12 @@ a.btn-careers:hover {
 
 /* Text content sits above the overlay */
 .fp-content {
-  position: relative;
+  position: absolute;
   z-index: 2;
   color: var(--c-white);
-  padding: 4rem 2rem 4rem 5rem;
-  max-width: 600px;
+  bottom: 8rem;
+  left: 5rem;
+  max-width: 560px;
 }
 
 .fp-content p.uppercase {
@@ -1801,31 +1802,38 @@ a.btn-careers:hover {
   transform: translateX(-50%);
   background: none;
   border: none;
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 4rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 3rem;
   line-height: 1;
   cursor: pointer;
-  z-index: 3;
+  z-index: 10;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0;
+  padding: 0.5rem 2rem;
   transition:
     color 0.2s ease,
     transform 0.2s ease;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
 }
 
 .fp-arrow:hover {
   color: var(--c-yellow);
-  transform: translateX(-50%) scale(1.2);
+  transform: translateX(-50%) scale(1.15);
 }
 
 .fp-arrow--down {
-  bottom: 1.5rem;
+  bottom: 0.5rem;
 }
+
 .fp-arrow--up {
-  top: 1.5rem;
+  top: 0.5rem;
   bottom: auto;
+}
+
+.fp-arrow i {
+  font-size: 3rem;
+  display: block;
 }
 
 /* Third section — normal scroll, light background */
@@ -1836,6 +1844,16 @@ a.btn-careers:hover {
   align-items: flex-start;
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+html,
+body {
+  scroll-behavior: auto;
+}
+
+.fp-section:not(.fp-section--scroll) {
+  height: 100svh;
+  max-height: 100svh;
 }
 
 .fp-section--scroll .container {

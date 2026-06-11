@@ -52,48 +52,45 @@ custom_css: /assets/css/careers.css
   </section>
   <section id="more-opportunities" class="fp-section fp-section--scroll">
   <div class="container">
-    <hgroup class="mrgn-tp-md">
-      <p class="wb-rd lead mrgn-tp-0 mrgn-bttm-0" aria-hidden="true">RCMP careers</p>
-      <h2 id="more-opp-heading" class="careers-h1">More opportunities</h2>
-    </hgroup>
+    <h2 id="more-opp-heading" class="careers-h1 mrgn-tp-md">More opportunities</h2>
     <section aria-labelledby="more-opp-heading" class="gc-features">
       <ul class="list-unstyled row">
-        <li class="col-lg-3 col-md-6">
+        <li class="col-lg-4 col-md-6 col-xs-12">
           <div class="well">
             <img alt="" class="img-responsive full-width" src="/assets/img/mo-community-constables.jpg">
             <h3 class="h5"><a href="#">Community constables</a></h3>
             <p>Build trust and help to reduce crime in your own community.</p>
           </div>
         </li>
-        <li class="col-lg-3 col-md-6">
+        <li class="col-lg-4 col-md-6 col-xs-12">
           <div class="well">
             <img alt="" class="img-responsive full-width" src="/assets/img/mo-rcmp-reserve.jpg">
             <h3 class="h5"><a href="#">RCMP Reserve program</a></h3>
             <p>Continue to serve the community after retirement or leaving the service.</p>
           </div>
         </li>
-        <li class="col-lg-3 col-md-6">
+        <li class="col-lg-4 col-md-6 col-xs-12">
           <div class="well">
             <img alt="" class="img-responsive full-width" src="/assets/img/mo-volunteer.jpg">
             <h3 class="h5"><a href="#">Volunteer programs</a></h3>
             <p>Support local detachments as a community partner and help to tell the RCMP story across Canada.</p>
           </div>
         </li>
-        <li class="col-lg-3 col-md-6">
+        <li class="col-lg-4 col-md-6 col-xs-12">
           <div class="well">
             <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-3.jpg">
             <h3 class="h5"><a href="#">Diverse and Inclusive Pre-Cadet Experience</a></h3>
             <p>Get a firsthand look into policing before you apply. Designed to support racialized and underrepresented communities.</p>
           </div>
         </li>
-        <li class="col-lg-3 col-md-6">
+        <li class="col-lg-4 col-md-6 col-xs-12">
           <div class="well">
             <img alt="" class="img-responsive full-width" src="/assets/img/mo-indigenous-recruitment.jpg">
             <h3 class="h5"><a href="#">Indigenous recruitment</a></h3>
             <p>Discover programs that support Indigenous applicants considering a career in policing.</p>
           </div>
         </li>
-        <li class="col-lg-3 col-md-6">
+        <li class="col-lg-4 col-md-6 col-xs-12">
           <div class="well">
             <img alt="" class="img-responsive full-width" src="/assets/img/mo-student-jobs.jpg">
             <h3 class="h5"><a href="#">Student jobs</a></h3>

@@ -1764,9 +1764,12 @@ a.btn-careers:hover {
   position: absolute;
   z-index: 2;
   color: var(--c-white);
-  bottom: 8rem;
-  left: 5rem;
-  max-width: 560px;
+  bottom: 6rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
 }
 
 .fp-content p.uppercase {
@@ -1800,39 +1803,46 @@ a.btn-careers:hover {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  background: none;
-  border: none;
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 3rem;
+  background: rgba(0, 0, 0, 0.45);
+  border: 2px solid var(--c-yellow);
+  color: var(--c-yellow);
+  font-size: 1.4rem;
   line-height: 1;
   cursor: pointer;
   z-index: 10;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0.5rem 2rem;
+  padding: 0.6rem 2.5rem;
+  border-radius: 2px;
   transition:
-    color 0.2s ease,
-    transform 0.2s ease;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    background 0.2s ease,
+    color 0.2s ease;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-family: var(--font-display);
+  font-weight: 500;
+  white-space: nowrap;
+  gap: 0.5rem;
 }
 
 .fp-arrow:hover {
-  color: var(--c-yellow);
-  transform: translateX(-50%) scale(1.15);
+  background: var(--c-yellow);
+  color: var(--c-black);
+  transform: translateX(-50%);
 }
 
 .fp-arrow--down {
-  bottom: 0.5rem;
+  bottom: 1.5rem;
 }
 
 .fp-arrow--up {
-  top: 0.5rem;
+  top: 1.5rem;
   bottom: auto;
 }
 
 .fp-arrow i {
-  font-size: 3rem;
+  font-size: 1rem;
   display: block;
 }
 

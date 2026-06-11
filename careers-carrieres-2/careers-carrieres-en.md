@@ -36,7 +36,7 @@ custom_css: /assets/css/careers.css
         More information<span class="wb-inv"> about police officer careers</span>
       </a>
     </div>
-    <button class="fp-arrow fp-arrow--down" aria-label="Scroll to next section"><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button>
+    <button class="fp-arrow fp-arrow--down" aria-label="Scroll to next section"><i class="fa-solid fa-chevron-down" aria-hidden="true"></i> Civilian careers</button>
   </section>
   <section id="civilian-employees" class="fp-section" style="background-image: url('/assets/img/hero-civilian.jpg');">
     <div class="fp-overlay"></div>
@@ -47,8 +47,8 @@ custom_css: /assets/css/careers.css
         More information<span class="wb-inv"> about civilian careers</span>
       </a>
     </div>
-    <button class="fp-arrow fp-arrow--up" aria-label="Scroll to previous section"><i class="fa-solid fa-chevron-up" aria-hidden="true"></i></button>
-    <button class="fp-arrow fp-arrow--down" aria-label="Scroll to next section"><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button>
+    <button class="fp-arrow fp-arrow--up" aria-label="Scroll to previous section"><i class="fa-solid fa-chevron-up" aria-hidden="true"></i> Police officer</button>
+<button class="fp-arrow fp-arrow--down" aria-label="Scroll to next section"><i class="fa-solid fa-chevron-down" aria-hidden="true"></i> More opportunities</button>
   </section>
   <section id="more-opportunities" class="fp-section fp-section--scroll">
     <div class="container">
@@ -115,7 +115,9 @@ custom_css: /assets/css/careers.css
   </section>
 </div>
 <script>
+if ('scrollRestoration' in history) { history.scrollRestoration = 'manual'; }
 document.addEventListener('DOMContentLoaded', function () {
+  window.scrollTo({ top: 0, behavior: 'instant' });
   var sections = Array.from(document.querySelectorAll('#careers-fullpage .fp-section'));
   if (!sections.length) return;
   var current = 0;

@@ -1770,6 +1770,15 @@ a.btn-careers:hover {
   margin-top: 0;
 }
 
+.fp-section:not(.fp-section--scroll) {
+  height: 100svh;
+  max-height: 100svh;
+}
+
+.fp-section--scroll .container {
+  width: 100%;
+}
+
 .fp-section {
   position: relative;
   width: 100%;
@@ -1839,16 +1848,6 @@ a.btn-careers:hover {
   align-items: flex-start;
   padding-top: 4rem;
   padding-bottom: 4rem;
-}
-
-html,
-body {
-  scroll-behavior: auto;
-}
-
-.fp-section:not(.fp-section--scroll) {
-  height: 100svh;
-  max-height: 100svh;
 }
 
 .fp-section--scroll {

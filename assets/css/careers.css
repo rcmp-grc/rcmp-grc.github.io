@@ -761,7 +761,8 @@ button,
 }
 
 .rc-btn--secondary:hover:not(:disabled) {
-  background: var(--c-grey-light);
+  background: var(--c-grey-mid);
+  color: var(--c-black);
 }
 
 .rc-btn:disabled {

@@ -517,6 +517,16 @@ button,
   overflow: hidden;
 }
 
+@media (max-width: 767px) {
+  .rc-question-card {
+    overflow: visible;
+  }
+
+  .rc-question-card__answers {
+    border-radius: 0 0 var(--border-radius-card) var(--border-radius-card);
+  }
+}
+
 .rc-question-card__body {
   padding: 2rem 2rem 1.5rem;
 }
@@ -595,7 +605,7 @@ button,
 @media (max-width: 767px) {
   .rc-legend ul {
     margin-left: 0;
-    padding-left: 1rem;
+    padding-left: 1.25rem;
   }
 }
 

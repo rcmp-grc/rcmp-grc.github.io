@@ -587,9 +587,6 @@ button,
   margin: 0;
   padding: 0 0 1rem;
   width: 100%;
-  min-width: 0;
-  display: block;
-  overflow: visible;
   box-sizing: border-box;
 }
 
@@ -613,7 +610,7 @@ button,
 @media (max-width: 767px) {
   .rc-legend ul {
     margin-left: 0;
-    padding-left: 1.25rem;
+    padding-left: 2rem;
   }
 }
 
@@ -1995,4 +1992,12 @@ section[id^="s"] {
 
 .rc-info-panel p + p {
   margin-top: 0.75rem;
+}
+
+.rc-answers-inner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
 }

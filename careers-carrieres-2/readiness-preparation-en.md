@@ -342,7 +342,7 @@ var html = [
     if (allYes) {
       html = [
         '<div class="rc-results rc-results--success">',
-          '<h2 class="rc-results__heading" id="results-heading" tabindex="-1">End of survey</h2>',
+          '<h2 class="rc-results__heading" id="results-heading" tabindex="-1">End of Readiness Check</h2>',
           '<p>Looks like you might have what it takes to be an RCMP police officer.</p>',
           '<p>Next steps:</p>',
           '<ol>',
@@ -364,7 +364,7 @@ var html = [
       }
       html = [
         '<div class="rc-results">',
-          '<h2 class="rc-results__heading" id="results-heading" tabindex="-1">End of survey</h2>',
+          '<h2 class="rc-results__heading" id="results-heading" tabindex="-1">End of Readiness Check</h2>',
           '<p>Looks like you\'re not quite ready to apply. Review the <a href="#" target="_blank" aria-label="basic requirements - Opens in a new window">basic requirements <span class="sr-only">(opens in new window)</span></a> to make sure you\'re fit and ready for a career in policing.</p>',
           '<p>Take a closer look at the requirement(s): </p>',
           '<ul>' + noItems + '</ul>',

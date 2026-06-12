@@ -244,17 +244,8 @@ custom_css: /assets/css/careers.css
         '<div class="rc-question-card__answers">',
           '<fieldset class="rc-fieldset">',
             '<legend class="rc-legend" id="q-legend-' + q.number + '">' + legendInner + '</legend>',
-            '<ul class="rc-options" role="list">',
-              '<li class="rc-option">',
-                '<input type="radio" id="yes-' + q.number + '" name="q-' + q.number + '" value="yes"' + yesChecked + '>',
-                '<label for="yes-' + q.number + '">Yes</label>',
-              '</li>',
-              '<li class="rc-option">',
-                '<input type="radio" id="no-' + q.number + '" name="q-' + q.number + '" value="no"' + noChecked + '>',
-                '<label for="no-' + q.number + '">No</label>',
-              '</li>',
-            '</ul>',
           '</fieldset>',
+          '<ul class="rc-options" role="list" aria-labelledby="q-legend-' + q.number + '">',
           '<div class="rc-info-panel ' + (ans !== null ? "show" : "") + '"',
                ' id="info-' + q.number + '"',
                ' role="note"',
@@ -313,9 +304,8 @@ custom_css: /assets/css/careers.css
     var hasAnswer = answers[currentIndex] !== null;
     var isLast    = currentIndex === questions.length - 1;
 
-    prevButton.disabled              = isFirst;
-    prevButton.setAttribute("aria-hidden", isFirst ? "true" : "false");
-    prevButton.style.visibility      = isFirst ? "hidden" : "";
+    prevButton.style.display = currentIndex === 0 ? "none" : "";
+    prevButton.disabled = currentIndex === 0;
 
     nextButton.disabled = !hasAnswer;
 

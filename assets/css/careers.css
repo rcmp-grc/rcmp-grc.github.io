@@ -1964,3 +1964,7 @@ body {
 section[id^="s"] {
   scroll-margin-top: calc(var(--nav-height) + 1rem);
 }
+
+.rc-info-panel p + p {
+  margin-top: 0.75rem;
+}

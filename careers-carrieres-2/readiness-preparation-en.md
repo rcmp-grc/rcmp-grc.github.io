@@ -295,6 +295,10 @@ var html = [
       if (wasNull) {
         announce("Additional information is now available below the answer choices.");
       }
+      setTimeout(function () {
+        var offset = infoPanel.getBoundingClientRect().top + window.pageYOffset - 100;
+        window.scrollTo({ top: offset, behavior: "smooth" });
+      }, 50);
     }
 
     updateNav();

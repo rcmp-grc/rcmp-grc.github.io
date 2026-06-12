@@ -28,14 +28,7 @@ custom_css: /assets/css/careers.css
         <span id="progress-text">Question <span id="current-question">1</span> of <span id="total-questions">7</span></span>
         <span id="progress-percent" aria-hidden="true">0%</span>
       </div>
-      <div
-        class="rc-progress-track"
-        role="progressbar"
-        aria-valuenow="0"
-        aria-valuemin="0"
-        aria-valuemax="100"
-        aria-label="Quiz completion"
-      >
+      <div class="rc-progress-track" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Quiz completion">
         <div class="rc-progress-fill" id="progress-fill"></div>
       </div>
     </div>
@@ -65,11 +58,11 @@ custom_css: /assets/css/careers.css
     {
       number: 1,
       title: "RCMP core values",
-      titleHTML: "<abbr>RCMP</abbr> core values",
+      titleHTML: "RCMP core values",
       details:
-        '<abbr>RCMP</abbr> officers and cadets are expected to consistently live and demonstrate the <abbr>RCMP</abbr>\'s core values; <strong><a href="https://rcmp.ca/en/corporate-information/royal-canadian-mounted-police-core-values" target="_blank" rel="noopener noreferrer" aria-label="Royal Canadian Mounted Police core values - Opens in a new window">take responsibility, show respect, serve with excellence, demonstrate compassion and act with integrity</a></strong> both on and off duty.',
+        'RCMP officers and cadets are expected to consistently live and demonstrate the <a href="/en/corporate-information/royal-canadian-mounted-police-core-values" target="_blank" aria-label="Royal Canadian Mounted Police core values - Opens in a new window">RCMP\'s core values</a>; take responsibility, show respect, serve with excellence, demonstrate compassion and act with integrity both on and off duty.',
       bullets: [],
-      question: "Are you willing to live by the <abbr>RCMP</abbr>'s core values in all areas of your life? This means:",
+      question: "Are you willing to live by the RCMP\'s core values in both your personal and work life?",
       questionBullets: [
         "taking responsibility for your actions, mistakes and decisions",
         "treating all people with respect, even if they are disrespectful toward you",
@@ -77,14 +70,14 @@ custom_css: /assets/css/careers.css
         "showing compassion toward people in crisis, including victims, offenders and vulnerable populations",
         "striving for excellence by accepting feedback, correction and high standards of conduct",
       ],
-      info: "The <abbr>RCMP</abbr> core values guide how officers treat the public, colleagues, partners and people in their care, especially in stressful or challenging situations. At Depot, failure to demonstrate these values will result in termination from the Cadet Training Program.",
+      info: "The RCMP core values guide how officers treat the public, colleagues, partners and people in their care, especially in stressful or challenging situations. At Depot, failure to demonstrate these values will result in termination from the Cadet Training Program.",
       link: "/careers-carrieres/police-officer",
     },
     {
       number: 2,
       title: "Operational driving",
       titleHTML: "Operational driving",
-      details: "<abbr>RCMP</abbr> officers are expected to handle driving in various scenarios with confidence.",
+      details: "RCMP officers are expected to handle driving in various scenarios with confidence.",
       bullets: [],
       question: "Would you be comfortable driving in these conditions?",
       questionBullets: [
@@ -101,8 +94,7 @@ custom_css: /assets/css/careers.css
       number: 3,
       title: "Use of force and police tools",
       titleHTML: "Use of force and police tools",
-      details:
-        "As a police officer, your main responsibility is to protect life, including your own. You're required to carry and use firearms and other police tools as needed. Some of these tools include:",
+      details: "As a police officer, your main responsibility is to protect life, including your own. You're required to carry and use firearms and other police tools as needed. Some of these tools include:",
       bullets: ["firearms (pistols)", "Oleoresin Capsicum (pepper) spray", "handcuffs", "conducted energy weapons (taser)", "batons"],
       question: "Would you be comfortable taking the following actions as needed?",
       questionBullets: [
@@ -129,7 +121,7 @@ custom_css: /assets/css/careers.css
       ],
       question: "Do you currently meet these fitness standards?",
       questionBullets: [],
-      info: 'Arrive to the <abbr>RCMP</abbr> Training Academy ready to pass the <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Police Fitness Assessment - Opens in a new window">Police Fitness Assessment <span class="sr-only">(opens in new window)</span></a> within the first few weeks of the training program.',
+      info: 'Arrive to the RCMP Training Academy ready to pass the <a href="#" target="_blank" aria-label="Police Fitness Assessment - Opens in a new window">Police Fitness Assessment <span class="sr-only">(opens in new window)</span></a> within the first few weeks of the training program.',
       link: "/careers-carrieres/police-officer",
     },
     {
@@ -140,7 +132,7 @@ custom_css: /assets/css/careers.css
       bullets: [],
       question: "Are you willing to:",
       questionBullets: [
-        "spend 6 months in Regina, Saskatchewan at the <abbr>RCMP</abbr> training academy",
+        "spend 6 months in Regina, Saskatchewan at the RCMP training academy",
         "be away from friends and family",
         "live in co-ed dorms onsite at Depot",
         "learn and study Canadian law",
@@ -156,7 +148,7 @@ custom_css: /assets/css/careers.css
       bullets: [],
       question: "Are you willing to move anywhere in Canada after graduation from the Cadet Training Program?",
       questionBullets: [],
-      info: "The <abbr>RCMP</abbr> is a national police service. While preference is considered, postings are based on operational needs, including northern and remote regions.",
+      info: "The RCMP is a national police service. While preference is considered, postings are based on operational needs, including northern and remote regions.",
       link: "/careers-carrieres/police-officer",
     },
     {
@@ -340,12 +332,12 @@ function scrollToQuiz() {
       html = [
         '<div class="rc-results rc-results--success">',
           '<h2 class="rc-results__heading" id="results-heading" tabindex="-1">Congratulations!</h2>',
-          '<p>Looks like you might have what it takes to be an <abbr>RCMP</abbr> police officer.</p>',
+          '<p>Looks like you might have what it takes to be an RCMP police officer.</p>',
           '<p><strong>Next steps:</strong></p>',
           '<ol>',
-            '<li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="Review the basic requirements - Opens in a new window">Review the basic requirements <span class="sr-only">(opens in new window)</span></a></li>',
-            '<li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="Learn about the application process - Opens in a new window">Learn about the application process <span class="sr-only">(opens in new window)</span></a></li>',
-            '<li><a href="#" target="_blank" rel="noopener noreferrer" aria-label="Apply now - Opens in a new window">Apply now <span class="sr-only">(opens in new window)</span></a></li>',
+            '<li><a href="#" target="_blank" aria-label="Review the basic requirements - Opens in a new window">Review the basic requirements <span class="sr-only">(opens in new window)</span></a></li>',
+            '<li><a href="#" target="_blank" aria-label="Learn about the application process - Opens in a new window">Learn about the application process <span class="sr-only">(opens in new window)</span></a></li>',
+            '<li><a href="#" target="_blank" aria-label="Apply now - Opens in a new window">Apply now <span class="sr-only">(opens in new window)</span></a></li>',
           '</ol>',
         '</div>',
       ].join("");
@@ -353,13 +345,13 @@ function scrollToQuiz() {
       var noItems = "";
       for (var i = 0; i < answers.length; i++) {
         if (answers[i] === "no") {
-          noItems += '<li><a href="' + questions[i].link + '" target="_blank" rel="noopener noreferrer" aria-label="' + questions[i].title + ' - Opens in a new window">' + questions[i].title + ' <span class="sr-only">(opens in new window)</span></a></li>';
+          noItems += '<li><a href="' + questions[i].link + '" target="_blank" aria-label="' + questions[i].title + ' - Opens in a new window">' + questions[i].title + ' <span class="sr-only">(opens in new window)</span></a></li>';
         }
       }
       html = [
         '<div class="rc-results">',
           '<h2 class="rc-results__heading" id="results-heading" tabindex="-1">Additional preparation needed</h2>',
-          '<p>Looks like you\'re not quite ready to apply. Review the <a href="#" target="_blank" rel="noopener noreferrer" aria-label="basic requirements - Opens in a new window">basic requirements <span class="sr-only">(opens in new window)</span></a> to make sure you\'re fit and ready for a career in policing.</p>',
+          '<p>Looks like you\'re not quite ready to apply. Review the <a href="#" target="_blank" aria-label="basic requirements - Opens in a new window">basic requirements <span class="sr-only">(opens in new window)</span></a> to make sure you\'re fit and ready for a career in policing.</p>',
           '<p><strong>You answered "Yes" to ' + yesCount + ' out of ' + questions.length + ' questions.</strong></p>',
           '<p>Take a closer look at the requirement(s) you answered "No" to:</p>',
           '<ul>' + noItems + '</ul>',

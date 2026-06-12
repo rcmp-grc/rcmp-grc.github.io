@@ -569,7 +569,7 @@ button,
 .rc-fieldset {
   border: none;
   margin: 0;
-  padding: 0;
+  padding: 0 0 1rem;
 }
 
 .rc-legend {

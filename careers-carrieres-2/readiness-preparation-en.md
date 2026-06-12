@@ -28,13 +28,13 @@ custom_css: /assets/css/careers.css
         <span id="progress-text">Question <span id="current-question">1</span> of <span id="total-questions">7</span></span>
         <span id="progress-percent" aria-hidden="true">0%</span>
       </div>
-      <div class="rc-progress-track" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Quiz completion">
+      <div class="rc-progress-track" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Quiz completion" aria-valuetext="0% complete">
         <div class="rc-progress-fill" id="progress-fill"></div>
       </div>
     </div>
     <form id="quiz-form" novalidate>
       <div id="question-container"></div>
-      <div class="rc-nav" role="navigation" aria-label="Quiz navigation">
+      <div class="rc-nav" role="group" aria-label="Quiz navigation">
         <button type="button" id="prev-button" class="rc-btn rc-btn--secondary" aria-label="Go to previous question" disabled>
           <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
           Previous
@@ -46,7 +46,7 @@ custom_css: /assets/css/careers.css
       </div>
     </form>
   </div>
-  <div class="hidden" id="results-section" role="region" aria-live="polite" aria-atomic="true"></div>
+  <div class="hidden" id="results-section" role="region" aria-label="Quiz results"></div>
 </div>
 
 <script>
@@ -242,10 +242,9 @@ custom_css: /assets/css/careers.css
           bodyHTML,
         '</div>',
         '<div class="rc-question-card__answers">',
-          '<fieldset class="rc-fieldset">',
-            '<legend class="rc-legend" id="q-legend-' + q.number + '">' + legendInner + '</legend>',
-          '</fieldset>',
-          '<ul class="rc-options" role="list" aria-labelledby="q-legend-' + q.number + '">',
+        '<fieldset class="rc-fieldset">',
+          '<legend class="rc-legend" id="q-legend-' + q.number + '">' + legendInner + '</legend>',
+          '<ul class="rc-options" role="list">',
             '<li class="rc-option">',
               '<input type="radio" id="yes-' + q.number + '" name="q-' + q.number + '" value="yes"' + yesChecked + '>',
               '<label for="yes-' + q.number + '">Yes</label>',
@@ -255,6 +254,7 @@ custom_css: /assets/css/careers.css
               '<label for="no-' + q.number + '">No</label>',
             '</li>',
           '</ul>',
+        '</fieldset>',
           '<div class="rc-info-panel ' + (ans !== null ? "show" : "") + '"',
                ' id="info-' + q.number + '"',
                ' role="note"',
@@ -304,6 +304,7 @@ custom_css: /assets/css/careers.css
 
     progressFill.style.width        = pct + "%";
     progressTrack.setAttribute("aria-valuenow", pct);
+    progressTrack.setAttribute("aria-valuetext", pct + "% complete");
     currentQSpan.textContent        = currentIndex + 1;
     progressPercent.textContent     = pct + "%";
   }
@@ -361,12 +362,16 @@ custom_css: /assets/css/careers.css
           '<p>Looks like you\'re not quite ready to apply. Review the <a href="#" target="_blank" aria-label="basic requirements - Opens in a new window">basic requirements <span class="sr-only">(opens in new window)</span></a> to make sure you\'re fit and ready for a career in policing.</p>',
           '<p>Take a closer look at the requirement(s): </p>',
           '<ul>' + noItems + '</ul>',
-          '<button type="button" class="rc-btn rc-btn--primary" onclick="rcRestartQuiz()">Start over</button>',
+          '<button type="button" class="rc-btn rc-btn--primary" id="restart-btn">Start over</button>',
         '</div>',
       ].join("");
     }
 
     resultsSection.innerHTML = html;
+    var restartBtn = document.getElementById("restart-btn");
+    if (restartBtn) {
+      restartBtn.addEventListener("click", window.rcRestartQuiz);
+    }
     quizSection.classList.add("hidden");
     resultsSection.classList.remove("hidden");
 

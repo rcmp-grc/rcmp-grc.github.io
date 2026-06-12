@@ -1834,14 +1834,12 @@ a.btn-careers:hover {
   margin-bottom: 2rem;
 }
 
-/* Third section — normal scroll, light background */
 .fp-section--scroll {
   height: auto;
   min-height: 100vh;
   background: none;
   align-items: flex-start;
   overflow: visible;
-  padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
@@ -1850,7 +1848,6 @@ a.btn-careers:hover {
   max-width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 5rem;
   box-sizing: border-box;
 }
 
@@ -1865,9 +1862,10 @@ a.btn-careers:hover {
     padding: 3rem 1.5rem;
   }
 
-  .fp-section--scroll {
-    padding-top: 2rem;
-    padding-bottom: 6rem;
+  @media (max-width: 767px) {
+    .fp-section--scroll {
+      padding-bottom: 6rem;
+    }
   }
 }
 

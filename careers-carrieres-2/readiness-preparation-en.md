@@ -235,17 +235,18 @@ custom_css: /assets/css/careers.css
     var yesChecked = ans === "yes" ? " checked" : "";
     var noChecked  = ans === "no"  ? " checked" : "";
 
-    var html = [
-      '<div class="rc-question-card">',
-        '<div class="rc-question-card__body">',
-          '<h2 class="rc-question-title" id="q-title-' + q.number + '" tabindex="-1">' + q.title + '</h2>',
-          bodyHTML,
-        '</div>',
-        '<div class="rc-question-card__answers">',
-          '<div class="rc-answers-inner">',
-            '<fieldset class="rc-fieldset">',
-              '<legend class="rc-legend" id="q-legend-' + q.number + '">' + legendInner + '</legend>',
-              '<ul class="rc-options" role="list">',
+var html = [
+  '<div class="rc-question-card">',
+    '<div class="rc-question-card__body">',
+      '<h2 class="rc-question-title" id="q-title-' + q.number + '" tabindex="-1">' + q.title + '</h2>',
+      bodyHTML,
+    '</div>',
+    '<div class="rc-question-card__answers">',
+      '<div class="rc-answers-inner">',
+        '<div class="rc-legend" id="q-legend-' + q.number + '">' + legendInner + '</div>',
+        '<fieldset class="rc-fieldset">',
+          '<legend class="sr-only">Yes or No: ' + (Array.isArray(q.question) ? q.question[0] : q.question) + '</legend>',
+          '<ul class="rc-options" role="list">',
                 '<li class="rc-option">',
                   '<input type="radio" id="yes-' + q.number + '" name="q-' + q.number + '" value="yes"' + yesChecked + '>',
                   '<label for="yes-' + q.number + '">Yes</label>',

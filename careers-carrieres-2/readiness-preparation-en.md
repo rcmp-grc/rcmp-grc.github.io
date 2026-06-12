@@ -53,122 +53,120 @@ custom_css: /assets/css/careers.css
 (function () {
   "use strict";
 
-  /* ── Questions ── */
   var questions = [
     {
       number: 1,
       title: "RCMP core values",
-      titleHTML: "RCMP core values",
-      details:
-        'RCMP officers and cadets are expected to consistently live and demonstrate the <a href="/en/corporate-information/royal-canadian-mounted-police-core-values" target="_blank" aria-label="Royal Canadian Mounted Police core values - Opens in a new window">RCMP\'s core values</a>; take responsibility, show respect, serve with excellence, demonstrate compassion and act with integrity both on and off duty.',
+      details: 'RCMP officers and cadets are expected to consistently live and demonstrate the <a href="/en/corporate-information/royal-canadian-mounted-police-core-values" target="_blank" aria-label="Royal Canadian Mounted Police core values - Opens in a new window">RCMP\'s core values</a>; take responsibility, show respect, serve with excellence, demonstrate compassion and act with integrity both on and off duty.',
       bullets: [],
-      question: "Are you willing to live by the RCMP\'s core values in both your personal and work life?",
-      questionBullets: [
-        "taking responsibility for your actions, mistakes and decisions",
-        "treating all people with respect, even if they are disrespectful toward you",
-        "acting with integrity, honesty and using ethical judgement, even when it is difficult or unpopular",
-        "showing compassion toward people in crisis, including victims, offenders and vulnerable populations",
-        "striving for excellence by accepting feedback, correction and high standards of conduct",
+      question: [
+        "Are you willing to live by the RCMP\'s core values in both your personal and work life?",
+        "This means you will:",
       ],
-      info: "The RCMP core values guide how officers treat the public, colleagues, partners and people in their care, especially in stressful or challenging situations. At Depot, failure to demonstrate these values will result in termination from the Cadet Training Program.",
-      link: "/careers-carrieres/police-officer",
+      questionBullets: [
+        "take responsibility for your actions, mistakes and decisions",
+        "treat all people with respect, even if they are disrespectful toward you",
+        "act with integrity, honesty and using ethical judgement, even when it is difficult or unpopular",
+        "show compassion toward people in crisis, including victims, offenders, vulnerable populations, and colleagues",
+        "strive for excellence by accepting feedback, correction and high standards of conduct",
+      ],
+      info: [
+        "The RCMP core values guide how officers treat the public, colleagues, partners and people in their care, especially in stressful or challenging situations.",
+        "Failing to demonstrate these values (for example, through behaviors or conduct) will result in immediate termination from the Cadet Training Program.",
+        "Remember, your training contract may be terminated for violations of core values. If you are terminated or resign from the Cadet Training Program, you may be subject to repaying your training allowance.",
+      ],
     },
     {
       number: 2,
       title: "Operational driving",
-      titleHTML: "Operational driving",
       details: "RCMP officers are expected to handle driving in various scenarios with confidence.",
       bullets: [],
       question: "Would you be comfortable driving in these conditions?",
       questionBullets: [
-        "emergency response driving, driving fast",
-        "pursuit scenarios, chasing another vehicle",
-        "rural and remote rough terrain driving",
-        "extreme weather conditions",
+        "emergency response driving (high speeds, collision avoidance, performing other tasks when driving)",
+        "Emergency Vehicle Operations (pursuits and chasing) sometimes on gravel and remote rough terrain driving",
+        "extreme weather conditions (winter storm, floods, heatwaves, etc.)",
         "transporting people who are in custody",
       ],
-      info: "You must have a valid, unrestricted Canadian driver's licence before you apply. That proves you can drive unsupervised at any time, on any road, with as many passengers as there are seatbelts.",
-      link: "/careers-carrieres/police-officer",
+      info: [
+        "You must have a valid, unrestricted Canadian driver\'s licence before you apply. An unrestricted licence means you have full driving privileges with no probationary conditions or limitations. You must have the ability to drive on your own at any time, on any road.",
+        "Note: Applicants with vision\-related driver\'s licence restrictions may still be eligible, provided they meet RCMP medical and vision requirements.",
+      ],
     },
     {
       number: 3,
-      title: "Use of force and police tools",
-      titleHTML: "Use of force and police tools",
-      details: "As a police officer, your main responsibility is to protect life, including your own. You're required to carry and use firearms and other police tools as needed. Some of these tools include:",
-      bullets: ["firearms (pistols)", "Oleoresin Capsicum (pepper) spray", "handcuffs", "conducted energy weapons (taser)", "batons"],
-      question: "Would you be comfortable taking the following actions as needed?",
-      questionBullets: [
-        "restraining a person with handcuffs",
-        "causing injury in effort to control a person physically (for example, punching or kicking)",
-        "using aerosols or a baton (not for causing serious injury)",
-        "using lethal force (likely causing life-threatening injury or death)",
+      title: "Use of force, firearms and other police tools",
+      details: "As a police officer, your main responsibility is to protect life, including your own. When you respond to an incident, you will need to make sound, timely decisions and take appropriate action. You're required to carry firearms and other approved intervention options. Some of these tools include: ",
+      bullets: [
+        "firearms (pistols, carbine, shotgun, extended range impact weapon)",
+        "Oleoresin Capsicum (pepper) spray",
+        "handcuffs",
+        "conducted energy weapons (taser)",
+        "collapsible batons",
       ],
-      info: "During cadet training at Depot, you will learn how to safely handle a firearm and various other police tools used to diffuse an incident. Every use of force is documented. Officers must be ready to justify actions in reports and potentially in court.",
-      link: "/careers-carrieres/police-officer",
+      question: "Will you be comfortable taking the following actions?",
+      questionBullets: [
+        "restraining a person using physical control techniques and handcuffs using approved use of force intervention options such as OC spray or collapsible baton to control a violent, non-compliant person (someone resisting)",
+        "applying lethal force to preserve life, including your own, when faced with such a situation",
+      ],
+      info: "During the Cadet Training Program, you will learn how to safely handle and use firearms and various other approved tools to support interventions. Use of force is documented, and regular members must articulate their actions and decisions in reports and in court.",
     },
     {
       number: 4,
       title: "Physical fitness",
-      titleHTML: "Physical fitness",
-      details: "Policing is a physically demanding job. You must be physically fit before arriving at Depot for cadet training. To be fit for Depot, you should be able to:",
+      details: [
+        "Policing is a physically demanding job. You must be physically fit before arriving at the RCMP Academy, Depot.",
+        "You should be able to:",
+      ],
       bullets: [
         "run 5 km without stopping in 30 to 35 minutes",
-        "do 10 or more push-ups in a row from your toes, lowering your chin or chest to the ground",
-        "lift and carry 45 lbs of weight 50 metres without stopping",
-        "complete an intense 30-minute workout that keeps your heart rate up",
-        "exercise 5 days per week",
-        "run 500 metres under 2 minutes 25 seconds",
+        "do 10 or more push-ups in a row from your toes, and lowering your chin or chest to the ground",
+        "lift and carry 45 lbs of weight 50 m without stopping for rest",
+        "complete an intense 30-minute workout that keeps your heart rate up the entire time",
+        "run 500 m in under 2 minutes 25 seconds",
       ],
-      question: "Do you currently meet these fitness standards?",
+      question: "Are you physically fit?",
       questionBullets: [],
-      info: 'Arrive to the RCMP Training Academy ready to pass the <a href="#" target="_blank" aria-label="Police Fitness Assessment - Opens in a new window">Police Fitness Assessment <span class="sr-only">(opens in new window)</span></a> within the first few weeks of the training program.',
-      link: "/careers-carrieres/police-officer",
+      info: 'You must arrive at the RCMP Academy, Depot ready to succeed the <a href="#" target="_blank" aria-label="Police Fitness Assessment - Opens in a new window">Police Fitness Assessment <span class="sr-only">(opens in new window)</span></a> within the first few weeks of the training program.',
     },
     {
       number: 5,
       title: "6-month training",
-      titleHTML: "6-month training",
-      details: "",
+      details: "Training is a full-time commitment with evening and weekend assignments. Training also takes place during statutory holidays.  The environment will challenge you and reflect the 24/7 nature of police work.",
       bullets: [],
       question: "Are you willing to:",
       questionBullets: [
-        "spend 6 months in Regina, Saskatchewan at the RCMP training academy",
-        "be away from friends and family",
-        "live in co-ed dorms onsite at Depot",
-        "learn and study Canadian law",
+        "spend 26 weeks (6 months) in Regina, Saskatchewan at the RCMP Academy, Depot",
+        "be away from family and friends",
+        "train for long hours during the day and sometimes on weekends",
+        "live in co-ed dorms onsite at the RCMP Academy, Depot",
+        "learn and study Canadian law, police procedures and policy, investigative techniques, firearms, police defensive tactics, police driving, police fitness, and drill and deportment",
       ],
-      info: "Training is a full-time commitment with evening and weekend assignments. The environment is meant to challenge you. If terminated from the Cadet Training Program for violations of core values, you may be required to repay your training allowance (up to $26,000).",
-      link: "/careers-carrieres/police-officer",
+      info: "The RCMP is committed to inclusion and respect for diversity. Reasonable accommodations may be available for religious practices and observances, including religious holidays, subject to operational and training requirements.",
     },
     {
       number: 6,
       title: "Relocation",
-      titleHTML: "Relocation",
       details: "",
       bullets: [],
-      question: "Are you willing to move anywhere in Canada after graduation from the Cadet Training Program?",
+      question: "Are you willing to move anywhere in Canada after graduation from the RCMP Academy, Depot?",
       questionBullets: [],
-      info: "The RCMP is a national police service. While preference is considered, postings are based on operational needs, including northern and remote regions.",
-      link: "/careers-carrieres/police-officer",
+      info: "The RCMP is a national police service. While personal preference is considered, postings are based on operational needs, including northern and remote regions.",
     },
     {
       number: 7,
       title: "Shift work",
-      titleHTML: "Shift work",
       details: "",
       bullets: [],
       question: "Are you willing to work nights, weekends, and/or holidays?",
       questionBullets: [],
-      info: "Policing is a 24/7 service. You will need to respond to a call if it happens within your shift. You will be asked to stay late. While on-call, you may get called in outside of regular hours. You will be compensated for any overtime worked.",
-      link: "/careers-carrieres/police-officer",
+      info: "Policing is a 24/7 service. You will respond to calls when on shift. Your shift may extend based on operational needs.  You may get called in outside of regular hours, including in the middle of the night.  You will be compensated for extra duty hours and operational availability (on-call) when applicable.",
     },
   ];
 
-  /* ── State ── */
   var currentIndex = 0;
-  var answers = new Array(questions.length).fill(null);
+  var answers      = new Array(questions.length).fill(null);
 
-  /* ── DOM refs ── */
   var questionContainer = document.getElementById("question-container");
   var prevButton        = document.getElementById("prev-button");
   var nextButton        = document.getElementById("next-button");
@@ -181,27 +179,30 @@ custom_css: /assets/css/careers.css
   var progressTrack     = document.querySelector(".rc-progress-track");
   var liveRegion        = document.getElementById("live-region");
   var quizIntro         = document.getElementById("quiz-intro");
-  var quizScrollTarget  = document.getElementById("quiz-section");
 
   totalQSpan.textContent = questions.length;
 
-  /* ── Helpers ── */
   function announce(msg) {
     liveRegion.textContent = "";
     setTimeout(function () { liveRegion.textContent = msg; }, 50);
   }
 
-function scrollToQuiz() {
-  var target = document.querySelector(".rc-progress-bar-wrap") || quizScrollTarget;
-  if (target) {
-    var offset = target.getBoundingClientRect().top + window.pageYOffset - 80;
-    window.scrollTo({ top: offset, behavior: "smooth" });
+  function buildInfoHTML(info) {
+    var items = Array.isArray(info) ? info : [info];
+    return items.map(function (p) { return "<p>" + p + "</p>"; }).join("");
   }
-}
 
-  /* ── Render ── */
+  function scrollToQuiz() {
+    var target = document.querySelector(".rc-progress-bar-wrap") || quizSection;
+    if (target) {
+      var offset = target.getBoundingClientRect().top + window.pageYOffset - 80;
+      window.scrollTo({ top: offset, behavior: "smooth" });
+    }
+  }
+
   function renderQuestion() {
-    var q = questions[currentIndex];
+    var q   = questions[currentIndex];
+    var ans = answers[currentIndex];
 
     if (currentIndex === 0) {
       quizIntro.classList.remove("hidden");
@@ -209,11 +210,10 @@ function scrollToQuiz() {
       quizIntro.classList.add("hidden");
     }
 
-    /* Body content (details + detail bullets) */
     var bodyHTML = "";
     if (q.details || q.bullets.length) {
       bodyHTML += '<div class="rc-question-body">';
-      if (q.details) bodyHTML += "<p>" + q.details + "</p>";
+      if (q.details) { bodyHTML += buildInfoHTML(q.details); }
       if (q.bullets.length) {
         bodyHTML += "<ul>";
         q.bullets.forEach(function (b) { bodyHTML += "<li>" + b + "</li>"; });
@@ -222,41 +222,47 @@ function scrollToQuiz() {
       bodyHTML += "</div>";
     }
 
-    /* Legend (question stem + question bullets) */
-    var legendInner = "<strong>" + q.question + "</strong>";
+    var questionLines = Array.isArray(q.question) ? q.question : [q.question];
+    var legendInner = questionLines.map(function (line, i) {
+      return i === 0 ? "<strong>" + line + "</strong>" : "<p>" + line + "</p>";
+    }).join("");
     if (q.questionBullets.length) {
       legendInner += "<ul>";
       q.questionBullets.forEach(function (b) { legendInner += "<li>" + b + "</li>"; });
       legendInner += "</ul>";
     }
 
-    /* Radio tiles */
-    var yesChecked = answers[currentIndex] === "yes" ? "checked" : "";
-    var noChecked  = answers[currentIndex] === "no"  ? "checked" : "";
+    var yesChecked = ans === "yes" ? " checked" : "";
+    var noChecked  = ans === "no"  ? " checked" : "";
 
     var html = [
       '<div class="rc-question-card">',
         '<div class="rc-question-card__body">',
-          '<h2 class="rc-question-title" id="q-title-' + q.number + '" tabindex="-1">' + q.titleHTML + '</h2>',
+          '<h2 class="rc-question-title" id="q-title-' + q.number + '" tabindex="-1">' + q.title + '</h2>',
           bodyHTML,
-          '<fieldset class="rc-fieldset">',
-            '<legend class="rc-legend" id="q-legend-' + q.number + '">' + legendInner + '</legend>',
-          '</fieldset>',
         '</div>',
         '<div class="rc-question-card__answers">',
-          '<ul class="rc-options" role="list" aria-labelledby="q-legend-' + q.number + '">',
-            '<li class="rc-option">',
-              '<input type="radio" id="yes-' + q.number + '" name="q-' + q.number + '" value="yes" ' + yesChecked + ' aria-describedby="q-legend-' + q.number + '">',
-              '<label for="yes-' + q.number + '">Yes</label>',
-            '</li>',
-            '<li class="rc-option">',
-              '<input type="radio" id="no-' + q.number + '" name="q-' + q.number + '" value="no" ' + noChecked + ' aria-describedby="q-legend-' + q.number + '">',
-              '<label for="no-' + q.number + '">No</label>',
-            '</li>',
-          '</ul>',
-          '<div class="rc-info-panel ' + (answers[currentIndex] !== null ? "show" : "") + '" id="info-' + q.number + '" role="note" aria-label="Additional information">',
+          '<fieldset class="rc-fieldset">',
+            '<legend class="rc-legend" id="q-legend-' + q.number + '">' + legendInner + '</legend>',
+            '<ul class="rc-options" role="list">',
+              '<li class="rc-option">',
+                '<input type="radio" id="yes-' + q.number + '" name="q-' + q.number + '" value="yes"' + yesChecked + '>',
+                '<label for="yes-' + q.number + '">Yes</label>',
+              '</li>',
+              '<li class="rc-option">',
+                '<input type="radio" id="no-' + q.number + '" name="q-' + q.number + '" value="no"' + noChecked + '>',
+                '<label for="no-' + q.number + '">No</label>',
+              '</li>',
+            '</ul>',
+          '</fieldset>',
+          '<div class="rc-info-panel ' + (ans !== null ? "show" : "") + '"',
+               ' id="info-' + q.number + '"',
+               ' role="note"',
+               ' aria-label="Additional information"',
+               ' aria-live="polite"',
+          '>',
             '<h3 class="rc-info-panel__heading">Additional information</h3>',
-            '<p>' + q.info + '</p>',
+            buildInfoHTML(q.info),
           '</div>',
         '</div>',
       '</div>',
@@ -264,11 +270,8 @@ function scrollToQuiz() {
 
     questionContainer.innerHTML = html;
 
-    /* Bind radio events */
-    var yesRadio = document.getElementById("yes-" + q.number);
-    var noRadio  = document.getElementById("no-"  + q.number);
-    yesRadio.addEventListener("change", function () { selectAnswer("yes"); });
-    noRadio.addEventListener("change",  function () { selectAnswer("no");  });
+    document.getElementById("yes-" + q.number).addEventListener("change", function () { selectAnswer("yes"); });
+    document.getElementById("no-"  + q.number).addEventListener("change", function () { selectAnswer("no");  });
 
     updateProgress();
     updateNav();
@@ -279,12 +282,11 @@ function scrollToQuiz() {
     announce("Question " + (currentIndex + 1) + " of " + questions.length + ": " + q.title);
   }
 
-  /* ── Select answer ── */
   function selectAnswer(value) {
     var wasNull = answers[currentIndex] === null;
     answers[currentIndex] = value;
 
-    var q = questions[currentIndex];
+    var q         = questions[currentIndex];
     var infoPanel = document.getElementById("info-" + q.number);
     if (infoPanel) {
       infoPanel.classList.add("show");
@@ -296,25 +298,28 @@ function scrollToQuiz() {
     updateNav();
   }
 
-  /* ── Progress ── */
   function updateProgress() {
     var answered = answers.filter(function (a) { return a !== null; }).length;
-    var pct = Math.round((answered / questions.length) * 100);
-    progressFill.style.width = pct + "%";
-    if (progressTrack) { progressTrack.setAttribute("aria-valuenow", pct); }
-    currentQSpan.textContent = currentIndex + 1;
-    progressPercent.textContent = pct + "%";
+    var pct      = Math.round((answered / questions.length) * 100);
+
+    progressFill.style.width        = pct + "%";
+    progressTrack.setAttribute("aria-valuenow", pct);
+    currentQSpan.textContent        = currentIndex + 1;
+    progressPercent.textContent     = pct + "%";
   }
 
-  /* ── Navigation state ── */
   function updateNav() {
-    prevButton.style.display = currentIndex === 0 ? "none" : "";
-    prevButton.disabled = currentIndex === 0;
-
+    var isFirst   = currentIndex === 0;
     var hasAnswer = answers[currentIndex] !== null;
+    var isLast    = currentIndex === questions.length - 1;
+
+    prevButton.disabled              = isFirst;
+    prevButton.setAttribute("aria-hidden", isFirst ? "true" : "false");
+    prevButton.style.visibility      = isFirst ? "hidden" : "";
+
     nextButton.disabled = !hasAnswer;
 
-    if (currentIndex === questions.length - 1) {
+    if (isLast) {
       nextButton.innerHTML = 'View results <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>';
       nextButton.setAttribute("aria-label", "View your results");
     } else {
@@ -323,17 +328,17 @@ function scrollToQuiz() {
     }
   }
 
-  /* ── Results ── */
   function showResults() {
     var yesCount = answers.filter(function (a) { return a === "yes"; }).length;
+    var allYes   = yesCount === questions.length;
     var html;
 
-    if (yesCount === questions.length) {
+    if (allYes) {
       html = [
         '<div class="rc-results rc-results--success">',
-          '<h2 class="rc-results__heading" id="results-heading" tabindex="-1">Congratulations!</h2>',
+          '<h2 class="rc-results__heading" id="results-heading" tabindex="-1">End of survey</h2>',
           '<p>Looks like you might have what it takes to be an RCMP police officer.</p>',
-          '<p><strong>Next steps:</strong></p>',
+          '<p>Next steps:</p>',
           '<ol>',
             '<li><a href="#" target="_blank" aria-label="Review the basic requirements - Opens in a new window">Review the basic requirements <span class="sr-only">(opens in new window)</span></a></li>',
             '<li><a href="#" target="_blank" aria-label="Learn about the application process - Opens in a new window">Learn about the application process <span class="sr-only">(opens in new window)</span></a></li>',
@@ -345,15 +350,17 @@ function scrollToQuiz() {
       var noItems = "";
       for (var i = 0; i < answers.length; i++) {
         if (answers[i] === "no") {
-          noItems += '<li><a href="' + questions[i].link + '" target="_blank" aria-label="' + questions[i].title + ' - Opens in a new window">' + questions[i].title + ' <span class="sr-only">(opens in new window)</span></a></li>';
+          noItems +=
+            '<li><a href="#" target="_blank" aria-label="' + questions[i].title + ' - Opens in a new window">' +
+            questions[i].title +
+            ' <span class="sr-only">(opens in new window)</span></a></li>';
         }
       }
       html = [
         '<div class="rc-results">',
-          '<h2 class="rc-results__heading" id="results-heading" tabindex="-1">Additional preparation needed</h2>',
+          '<h2 class="rc-results__heading" id="results-heading" tabindex="-1">End of survey</h2>',
           '<p>Looks like you\'re not quite ready to apply. Review the <a href="#" target="_blank" aria-label="basic requirements - Opens in a new window">basic requirements <span class="sr-only">(opens in new window)</span></a> to make sure you\'re fit and ready for a career in policing.</p>',
-          '<p><strong>You answered "Yes" to ' + yesCount + ' out of ' + questions.length + ' questions.</strong></p>',
-          '<p>Take a closer look at the requirement(s) you answered "No" to:</p>',
+          '<p>Take a closer look at the requirement(s): </p>',
           '<ul>' + noItems + '</ul>',
           '<button type="button" class="rc-btn rc-btn--primary" onclick="rcRestartQuiz()">Start over</button>',
         '</div>',
@@ -367,8 +374,8 @@ function scrollToQuiz() {
     var heading = document.getElementById("results-heading");
     if (heading) { heading.focus(); }
 
-    if (yesCount === questions.length) {
-      announce("Quiz complete. Congratulations — you appear suited to apply as an RCMP police officer.");
+    if (allYes) {
+      announce("Quiz complete. Congratulations \u2014 you appear suited to apply as an RCMP police officer.");
     } else {
       announce("Quiz complete. You answered Yes to " + yesCount + " out of " + questions.length + " questions. Additional preparation may be needed.");
     }
@@ -376,10 +383,9 @@ function scrollToQuiz() {
     scrollToQuiz();
   }
 
-  /* ── Restart ── */
   window.rcRestartQuiz = function () {
     currentIndex = 0;
-    answers = new Array(questions.length).fill(null);
+    answers      = new Array(questions.length).fill(null);
     quizSection.classList.remove("hidden");
     resultsSection.classList.add("hidden");
     renderQuestion();
@@ -387,7 +393,6 @@ function scrollToQuiz() {
     scrollToQuiz();
   };
 
-  /* ── Button events ── */
   prevButton.addEventListener("click", function () {
     if (currentIndex > 0) {
       currentIndex--;
@@ -406,14 +411,13 @@ function scrollToQuiz() {
     }
   });
 
-  /* Keyboard: arrow keys when focus is not on a radio input */
   document.addEventListener("keydown", function (e) {
-    if (e.target.type === "radio") return;
-    if (e.key === "ArrowRight" && !nextButton.disabled) nextButton.click();
-    if (e.key === "ArrowLeft"  && !prevButton.disabled) prevButton.click();
+    if (e.target.type === "radio") { return; }
+    if (e.key === "ArrowRight" && !nextButton.disabled) { nextButton.click(); }
+    if (e.key === "ArrowLeft"  && !prevButton.disabled) { prevButton.click(); }
   });
 
-  /* ── Init ── */
   renderQuestion();
-})();
+
+}());
 </script>

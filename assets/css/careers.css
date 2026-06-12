@@ -1918,6 +1918,12 @@ body {
   scroll-snap-stop: always;
 }
 
+.fp-section--scroll {
+  scroll-snap-align: none;
+  scroll-snap-stop: normal;
+  overflow-y: visible;
+}
+
 .fp-section--scroll .container {
   width: 100%;
 }
@@ -1935,6 +1941,7 @@ body {
 
   .fp-section--scroll {
     padding-top: 2rem;
+    padding-bottom: 6rem;
   }
 }
 

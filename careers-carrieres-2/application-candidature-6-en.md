@@ -89,11 +89,11 @@ custom_css: /assets/css/careers.css
   <p>If you've successfully completed the application process, you're ready for the RCMP Cadet Training Program at Depot, the RCMP's training academy.</p>
   <p><strong>Whether you're gathering information because you're curious about a career in policing, or you've completed your application, and you're headed to Depot – you're one step closer to becoming a police officer with the RCMP.</strong></p>
   <p>Curious if a job in policing is right for you?</p>
-  <p><a class="btn btn-careers mrgn-bttm-lg">Take the Readiness Check</a></p>
+  <p><a href="#" class="btn btn-careers mrgn-bttm-lg">Take the Readiness Check</a></p>
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page" style="display: block;">
   <div class="rcmp-content-page__prev" id="mp-prev-wrap" style="display: block;">
-    <a aria-label="Next page: Complete psychological and medical suitability assessments" class="rcmp-content-page__link" href="application-candidature-5-1-en.html" id="mp-prev"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i> <span class="rcmp-content-page__link-title">Previous page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-prev-label">Complete psychological and medical suitability assessments</span></a>
+    <a aria-label="Next page: Health conditions that could impact your suitability to become a police officer" class="rcmp-content-page__link" href="application-candidature-5-1-en.html" id="mp-prev"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i> <span class="rcmp-content-page__link-title">Previous page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-prev-label">Health conditions that could impact your suitability to become a police officer</span></a>
   </div>
 </nav>
 <script>

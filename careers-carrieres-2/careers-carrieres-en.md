@@ -32,17 +32,16 @@ custom_css: /assets/css/careers.css
       <p class="uppercase">Welcome to <abbr>RCMP</abbr> careers</p>
       <h2 class="oswald-500 uppercase">Police officer careers</h2>
       <p class="header-description">There's a uniform with your name on it. Serve boldly.</p><a class="btn btn-careers" href="#">More information <span class="wb-inv">about police officer careers</span></a>
-    </div><button aria-label="Scroll to civilian careers" class="fp-arrow fp-arrow--down"><i aria-hidden="true" class="fa-solid fa-chevron-down"></i></button>
+    </div>
   </section>
   <section class="fp-section" id="civilian-employees" style="background-image: url('/assets/img/hero-civilian.jpg');">
     <div class="fp-overlay"></div>
     <div class="fp-content">
       <h2 class="oswald-500 uppercase">Civilian careers</h2>
       <p class="header-description">Your skills. Our mission. Roles with impact.</p><a class="btn btn-careers" href="#">More information <span class="wb-inv">about civilian careers</span></a>
-    </div><button aria-label="Scroll to police officer" class="fp-arrow fp-arrow--up"><i aria-hidden="true" class="fa-solid fa-chevron-up"></i></button> <button aria-label="Scroll to more opportunities" class="fp-arrow fp-arrow--down"><i aria-hidden="true" class="fa-solid fa-chevron-down"></i></button>
+    </div>
   </section>
   <section class="fp-section fp-section--scroll" id="more-opportunities">
-    <button aria-label="Scroll to civilian careers" class="fp-arrow fp-arrow--up fp-arrow--more-opp-up"><i aria-hidden="true" class="fa-solid fa-chevron-up"></i></button>
     <div class="container">
       <h2 class="careers-h1 mrgn-tp-md" id="more-opp-heading">More opportunities</h2>
       <section aria-labelledby="more-opp-heading" class="gc-features">

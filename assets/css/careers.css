@@ -1824,71 +1824,6 @@ a.btn-careers:hover {
   margin-bottom: 2rem;
 }
 
-/* Arrow navigation buttons */
-.fp-arrow {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  background: rgba(0, 0, 0, 0.45);
-  border: 2px solid var(--c-yellow);
-  color: var(--c-yellow);
-  width: 4rem;
-  height: 4rem;
-  cursor: pointer;
-  z-index: 10;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  border-radius: 4px;
-  transition:
-    background 0.2s ease,
-    color 0.2s ease;
-  appearance: none;
-  -webkit-appearance: none;
-  box-sizing: border-box;
-}
-
-.fp-arrow:hover,
-.fp-arrow:focus {
-  background: var(--c-yellow);
-  color: var(--c-black);
-  transform: translateX(-50%);
-  outline: none;
-}
-
-.fp-arrow i {
-  font-size: 2.2rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  pointer-events: none;
-  line-height: 1;
-}
-
-.fp-arrow--down {
-  bottom: 1rem;
-  top: auto;
-}
-
-.fp-arrow--up {
-  top: 1rem;
-  bottom: auto;
-}
-
-#civilian-employees .fp-arrow--up {
-  top: calc(1rem + 70px);
-}
-
-.fp-arrow--more-opp-up {
-  top: calc(1rem + 70px);
-}
-
-.fp-arrow i {
-  font-size: 1rem;
-  display: block;
-}
-
 /* Third section — normal scroll, light background */
 .fp-section--scroll {
   height: auto;
@@ -1909,18 +1844,7 @@ body {
   max-height: 100svh;
 }
 
-#careers-fullpage {
-  scroll-snap-type: y mandatory;
-}
-
-.fp-section {
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
-}
-
 .fp-section--scroll {
-  scroll-snap-align: none;
-  scroll-snap-stop: normal;
   overflow-y: visible;
 }
 

@@ -536,6 +536,11 @@ button,
   border-top: 1px solid var(--c-grey-mid);
   padding: 1.5rem 2rem;
   overflow: visible;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
 }
 
 .rc-question-num {
@@ -582,7 +587,10 @@ button,
   margin: 0;
   padding: 0 0 1rem;
   width: 100%;
+  min-width: 0;
+  display: block;
   overflow: visible;
+  box-sizing: border-box;
 }
 
 .rc-legend {

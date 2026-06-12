@@ -592,6 +592,13 @@ button,
   margin-bottom: 0.3rem;
 }
 
+@media (max-width: 767px) {
+  .rc-legend ul {
+    margin-left: 0;
+    padding-left: 1rem;
+  }
+}
+
 .rc-options {
   display: grid;
   grid-template-columns: 1fr 1fr;

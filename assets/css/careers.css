@@ -657,8 +657,9 @@ button,
 }
 
 .rc-option label:hover {
-  background: var(--c-grey-light);
+  background: var(--c-grey-mid);
   border-color: var(--c-black);
+  color: var(--c-black);
 }
 
 .rc-option input[type="radio"]:checked + label {
@@ -766,6 +767,7 @@ button,
 .rc-btn:disabled {
   opacity: 0.45;
   cursor: not-allowed;
+  pointer-events: none;
 }
 
 .rc-results {
@@ -790,8 +792,7 @@ button,
 }
 
 .rc-results__heading:focus {
-  outline: 3px solid var(--c-yellow);
-  outline-offset: 3px;
+  outline: none;
 }
 
 .rc-results ol,

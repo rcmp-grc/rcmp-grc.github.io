@@ -525,6 +525,7 @@ button,
   background: var(--c-grey-light);
   border-top: 1px solid var(--c-grey-mid);
   padding: 1.5rem 2rem;
+  overflow: visible;
 }
 
 .rc-question-num {
@@ -570,6 +571,8 @@ button,
   border: none;
   margin: 0;
   padding: 0 0 1rem;
+  width: 100%;
+  overflow: visible;
 }
 
 .rc-legend {

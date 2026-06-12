@@ -99,7 +99,7 @@ custom_css: /assets/css/careers.css
     </section>
     <section id="s1-2-2">
       <h4>Completing the fitness for duty assessment</h4>
-      <p>To complete your <a href="#">fitness for duty assessment</a>a>, the RCMP Health Services Officer may request that you provide additional information from your primary health care provider or your specialist such as:</p>
+      <p>To complete your <a href="#">fitness for duty assessment</a>, the RCMP Health Services Officer may request that you provide additional information from your primary health care provider or your specialist such as:</p>
       <ul>
         <li>copies of relevant medical records</li>
         <li>specialist consultations</li>
@@ -113,7 +113,6 @@ custom_css: /assets/css/careers.css
         <li>could spread an infectious disease to coworkers or the public</li>
         <li>makes you ineligible to drive professionally under the Canadian Medical Association guidelines</li>
       </ul>
-      <p><strong>Review a list of health conditions that could impact your Medical Screening Process.</strong></p>
     </section>
     <section id="s1-2-3">
       <h4>Immunizations and tuberculosis status</h4>

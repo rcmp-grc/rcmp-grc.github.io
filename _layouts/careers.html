@@ -77,6 +77,15 @@
       {% unless page.hero_image or page.url contains 'officer-agent' %}
         {% include breadcrumb.html %}
       {% endunless %}
+    {% if page.is_homepage %}
+      <section class="pagedetails fp-pagedetails">
+        <h2 class="wb-inv">Page details</h2>
+        <dl id="wb-dtmd">
+          <dt>Date modified:</dt>
+          <dd><time property="dateModified">{{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}</time></dd>
+        </dl>
+      </section>
+    {% endif %}
       {% if page.url contains 'officer-agent' %}
         <div class="po-content-full">
           <h1 class="wb-inv" property="name">{{ page.title }}</h1>

@@ -43,7 +43,7 @@ custom_css: /assets/css/careers.css
   </section>
   <section class="fp-section fp-section--scroll" id="more-opportunities">
     <div class="container">
-      <h2 class="careers-h1 mrgn-tp-md" id="more-opp-heading">More opportunities</h2>
+      <h2 class="careers-h1 mrgn-tp-xl" id="more-opp-heading">More opportunities</h2>
       <section aria-labelledby="more-opp-heading" class="gc-features">
         <ul class="list-unstyled row">
           <li class="col-lg-4 col-md-6 col-xs-12">
@@ -72,20 +72,6 @@ custom_css: /assets/css/careers.css
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-3.jpg">
               <h3 class="h5"><a href="#">Diverse and Inclusive Pre-Cadet Experience</a></h3>
               <p>Get a firsthand look into policing before you apply. Designed to support racialized and underrepresented communities.</p>
-            </div>
-          </li>
-          <li class="col-lg-4 col-md-6 col-xs-12">
-            <div class="well">
-              <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-8.jpg">
-              <h3 class="h5"><a href="#">Indigenous recruitment</a></h3>
-              <p>Discover programs that support Indigenous applicants considering a career in policing.</p>
-            </div>
-          </li>
-          <li class="col-lg-4 col-md-6 col-xs-12">
-            <div class="well">
-              <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-9.jpg">
-              <h3 class="h5"><a href="#">Student jobs</a></h3>
-              <p>Start your career with purpose and drive national impact while you study.</p>
             </div>
           </li>
           <li class="col-lg-4 col-md-6 col-xs-12">

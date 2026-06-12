@@ -1910,3 +1910,9 @@ section[id^="s"] {
   min-width: 0;
   box-sizing: border-box;
 }
+
+.fp-pagedetails {
+  padding: 1rem 15px 2rem;
+  max-width: 1170px;
+  margin: 0 auto;
+}

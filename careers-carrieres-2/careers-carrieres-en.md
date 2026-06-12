@@ -88,6 +88,20 @@ custom_css: /assets/css/careers.css
               <p>Start your career with purpose and drive national impact while you study.</p>
             </div>
           </li>
+          <li class="col-lg-4 col-md-6 col-xs-12">
+            <div class="well">
+              <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-8.jpg">
+              <h3 class="h5"><a href="#">Indigenous recruitment</a></h3>
+              <p>Discover programs that support Indigenous applicants considering a career in policing.</p>
+            </div>
+          </li>
+          <li class="col-lg-4 col-md-6 col-xs-12">
+            <div class="well">
+              <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-9.jpg">
+              <h3 class="h5"><a href="#">Student jobs</a></h3>
+              <p>Start your career with purpose and drive national impact while you study.</p>
+            </div>
+          </li>
         </ul>
       </section>
     </div>

@@ -228,23 +228,31 @@ custom_css: /assets/css/careers.css
     pagination.style.display = show ? ''      : 'none';
     if (!show) return;
 
-    slice.forEach(function (e) {
-      var item = document.createElement('div');
-      item.setAttribute('role', 'listitem');
-      item.className = 're-card';
-      item.innerHTML =
+slice.forEach(function (e) {
+      var locationLine = e.city
+        ? e.city + ', ' + e.province + ' \u2013 ' + e.format
+        : e.format;
+      var tzLabel = e.tz ? ' (' + (TZ_LABEL[e.tz] || e.tz) + ')' : '';
+      var cancelledBadge = e.cancelled
+        ? '<span class="re-card-cancelled" aria-label="Cancelled"><i class="fa-solid fa-ban" aria-hidden="true"></i> Cancelled</span>'
+        : '';
+      var formatBadge = '<span class="re-card-format-badge re-card-format-badge--' + (e.format === 'Virtual' ? 'virtual' : 'inperson') + '">' + e.format + '</span>';
+
+      var li = document.createElement('li');
+      li.className = 're-card' + (e.cancelled ? ' re-card--cancelled' : '');
+      li.innerHTML =
+        formatBadge +
+        cancelledBadge +
         '<div class="re-card-body">' +
-          '<p class="re-card-title">' + e.title + '</p>' +
+          '<p class="re-card-title"><a href="event-evenement-en.html">' + e.title + '</a></p>' +
           '<ul class="re-card-meta list-unstyled">' +
-            '<li><strong>Date:</strong> '     + formatDate(e.date)  + '</li>' +
-            (e.province ? '<li><strong>Province/territory:</strong> ' + e.province + '</li>' : '') +
-            '<li><strong>Event type:</strong> ' + e.eventType + '</li>' +
-            '<li><strong>Job type:</strong> '   + e.jobType   + '</li>' +
-            '<li><strong>Format:</strong> '     + e.format    + '</li>' +
-            '<li><strong>Language:</strong> '   + e.language  + '</li>' +
+            '<li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> ' + locationLine + '</li>' +
+            '<li><i class="fa-solid fa-tags" aria-hidden="true"></i> ' + e.eventType + ' \u2013 ' + e.jobType + '</li>' +
+            '<li><i class="fa-regular fa-clock" aria-hidden="true"></i> ' + e.time + tzLabel + '</li>' +
+            '<li><i class="fa-regular fa-calendar" aria-hidden="true"></i> ' + formatDate(e.date) + '</li>' +
           '</ul>' +
         '</div>';
-      grid.appendChild(item);
+      grid.appendChild(li);
     });
   }
 

@@ -1991,3 +1991,90 @@ section[id^="s"] {
   color: var(--rcmp-grey-dk);
   margin-bottom: 3px;
 }
+/* Card wrapper */
+.re-card {
+  position: relative;
+  border: 1px solid var(--rcmp-grey-md);
+  background: var(--rcmp-white);
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+/* Cancelled state — mute the whole card */
+.re-card--cancelled {
+  opacity: 0.6;
+}
+
+/* Top-right format badge (yellow / black) */
+.re-card-format-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  background: var(--c-yellow);
+  color: var(--c-black);
+}
+
+/* Cancelled ribbon */
+.re-card-cancelled {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: #d3080c;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* Card body */
+.re-card-body {
+  padding: 14px 16px;
+  border-top: 3px solid var(--c-yellow);
+}
+
+/* Title link */
+.re-card-title {
+  font-weight: 700;
+  font-size: 1em;
+  margin: 0 0 10px;
+}
+
+.re-card-title a {
+  color: var(--rcmp-blue);
+  text-decoration: underline;
+}
+
+.re-card-title a:hover,
+.re-card-title a:focus {
+  text-decoration: none;
+}
+
+/* Meta list */
+.re-card-meta {
+  margin: 0;
+}
+
+.re-card-meta li {
+  font-size: 0.88em;
+  color: var(--rcmp-grey-dk);
+  margin-bottom: 5px;
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+}
+
+.re-card-meta li i {
+  margin-top: 2px;
+  flex-shrink: 0;
+  color: var(--rcmp-black);
+  width: 14px;
+  text-align: center;
+}

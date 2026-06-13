@@ -14,6 +14,6 @@ lang_url: index.html
   <a href="basic-base-fr.html" class="list-group-item">Page de base</a>
   <a href="readiness-preparation-fr.html" class="list-group-item">Vérification de l'état de préparation des agents de police</a>
   <a href="application-candidature-fr.html" class="list-group-item">Page du processus de candidature des agents de police</a>
-  <a href="recruitng-recrutement-fr.html" class="list-group-item">Événements de recrutement</a>
+  <a href="recruiting-recrutement-fr.html" class="list-group-item">Événements de recrutement</a>
   <a href="event-evenement-fr.html" class="list-group-item">Page d'essai d'un événement de recrutement</a>
 </div>

@@ -3,7 +3,7 @@ layout: careers
 title: Recruiting events
 date_modified: 2026-06-10
 lang: en
-lang_url: recruitng-recrutement-fr.html
+lang_url: recruiting-recrutement-fr.html
 breadcrumbs:
   - label: "RCMP careers"
     url: "careers-carrieres-2/careers-carrieres-en.html"

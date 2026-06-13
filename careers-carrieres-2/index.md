@@ -14,6 +14,6 @@ lang_url: index-fr.html
   <a href="basic-base-en.html" class="list-group-item">Basic page</a>
   <a href="readiness-preparation-en.html" class="list-group-item">Police officer readiness check</a>
   <a href="application-candidature-en.html" class="list-group-item">Police officer application process page</a>
-  <a href="recruitng-recrutement-en.html" class="list-group-item">Recruiting events</a>
+  <a href="recruiting-recrutement-en.html" class="list-group-item">Recruiting events</a>
   <a href="event-evenement-en.html" class="list-group-item">Recruiting event test</a>
 </div>

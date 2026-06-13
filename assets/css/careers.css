@@ -2067,3 +2067,150 @@ section[id^="s"] {
 .re-card-title a:focus {
   text-decoration: none;
 }
+
+.cnt-wdth-lmtd main #re-grid li,
+main .cnt-wdth-lmtd #re-grid li {
+  max-width: none;
+}
+
+.re-card {
+  position: relative;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin-bottom: 16px;
+  overflow: hidden;
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+  display: block;
+}
+
+.re-card-format-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  background: #fec111;
+  color: #0c0b0e;
+  z-index: 2;
+}
+
+.re-card-cancelled {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #b50315;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  padding-right: 90px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1;
+}
+
+.re-card--cancelled .re-card-body {
+  background: #f3f3f3;
+}
+
+.re-card--cancelled .re-card-title a,
+.re-card--cancelled .re-card-meta li {
+  color: #666;
+}
+
+.re-card-body {
+  padding: 16px 16px 20px;
+  border-top: 3px solid #fec111;
+}
+
+.re-card-title {
+  font-weight: 700;
+  font-size: 1em;
+  margin: 12px 0 10px;
+}
+
+.re-card-title a {
+  color: #284162;
+  text-decoration: underline;
+}
+
+.re-card-title a:hover,
+.re-card-title a:focus {
+  text-decoration: none;
+}
+
+.re-card-meta {
+  margin: 10px 0 0;
+}
+
+.re-card-meta li {
+  font-size: 0.88em;
+  color: #555;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  line-height: 1.4;
+  max-width: none;
+}
+
+.re-card-meta li i {
+  flex-shrink: 0;
+  width: 14px;
+  text-align: center;
+  color: #333;
+}
+
+#re-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+#re-count {
+  margin-bottom: 0;
+}
+
+#re-active-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+#re-filters {
+  border: 1px solid #ccc;
+  padding: 0;
+  margin-bottom: 20px;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#re-filters-heading {
+  background: #0c0b0e;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 14px;
+  margin: 0;
+}
+
+#re-no-results {
+  padding: 32px;
+  text-align: center;
+  border: 1px dashed #ccc;
+}

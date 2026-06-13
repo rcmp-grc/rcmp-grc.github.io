@@ -1916,3 +1916,78 @@ section[id^="s"] {
   max-width: 1170px;
   margin: 0 auto;
 }
+
+#re-filters {
+  border: 1px solid var(--rcmp-grey-md);
+  padding: 0;
+  margin-bottom: 20px;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#re-filters-heading {
+  background: var(--c-black);
+  color: var(--c-white);
+  font-weight: 700;
+  padding: 10px 14px;
+  margin: 0;
+}
+
+/* Toolbar — mirrors #wp-toolbar in rcmp.css */
+#re-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-bottom: 1px solid var(--rcmp-grey-md);
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+#re-count {
+  margin-bottom: 0;
+}
+
+/* Active filter tags container — mirrors #wp-active-filters in rcmp.css */
+#re-active-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+/* No-results — mirrors #wp-no-results in rcmp.css */
+#re-no-results {
+  padding: 32px;
+  text-align: center;
+  border: 1px dashed var(--rcmp-grey-md);
+}
+
+/* Event result card */
+.re-card {
+  border: 1px solid var(--rcmp-grey-md);
+  background: var(--rcmp-white);
+  margin-bottom: 12px;
+}
+
+.re-card-body {
+  padding: 14px 16px;
+  background: var(--rcmp-grey-lt);
+  border-top: 3px solid var(--c-yellow);
+}
+
+.re-card-title {
+  font-weight: 700;
+  font-size: 1em;
+  color: var(--rcmp-black);
+  margin: 0 0 8px;
+}
+
+.re-card-meta li {
+  font-size: 0.88em;
+  color: var(--rcmp-grey-dk);
+  margin-bottom: 3px;
+}

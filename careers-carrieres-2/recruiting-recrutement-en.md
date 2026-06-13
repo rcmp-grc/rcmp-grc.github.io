@@ -327,27 +327,6 @@ custom_css: /assets/css/careers.css
     if (currentPage < Math.ceil(activeData.length / PER_PAGE)) { currentPage++; draw(); grid.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
   });
 
-  var style = document.createElement('style');
-  style.textContent = [
-    '.re-card { border: 1px solid #ccc; border-radius: 4px; padding: 1rem 1.25rem; margin-bottom: 1rem; background: #fff; }',
-    '.re-card-title { font-weight: 700; font-size: 1.05rem; margin: 0 0 .5rem; }',
-    '.re-card-meta li { margin-bottom: .2rem; font-size: .9rem; }',
-    '#re-toolbar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem; }',
-    '#re-active-filters { margin-bottom: .75rem; display: flex; flex-wrap: wrap; align-items: center; gap: .35rem; }',
-    '.wp-filter-showing-label { font-weight: 700; margin-right: .25rem; }',
-    '.wp-filter-tag { background: #e8f0fe; border: 1px solid #7baaf7; border-radius: 3px; padding: .15rem .5rem; font-size: .85rem; display: inline-flex; align-items: center; gap: .3rem; }',
-    '.wp-filter-tag button { background: none; border: none; cursor: pointer; padding: 0; font-size: .85rem; line-height: 1; }',
-    '.wp-filter-tag-sep { font-size: .8rem; color: #555; }',
-    '#re-filters .wp-filter-group { border: none; border-bottom: 1px solid #ddd; padding: .5rem 0; margin: 0; }',
-    '#re-filters summary { cursor: pointer; list-style: none; display: flex; align-items: center; gap: .4rem; font-weight: 600; }',
-    '#re-filters summary::-webkit-details-marker { display: none; }',
-    '.wp-filter-badge { display: inline-block; background: #d7e8ff; border-radius: 10px; font-size: .75rem; padding: 0 .45rem; margin-left: .3rem; }'
-  ].join('\n');
-  document.head.appendChild(style);
-
-  /* ------------------------------------------------
-     INIT
-  ------------------------------------------------ */
   updateBadges();
   refresh();
 }());

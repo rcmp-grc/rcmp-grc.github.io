@@ -2190,10 +2190,34 @@ main .cnt-wdth-lmtd #re-grid li {
 
 #re-active-filters {
   display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+  padding: 10px 12px;
+  background: #f3f3f3;
+  border-left: 4px solid #fec111;
+}
+
+.re-filter-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.re-filter-row-label {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #333;
+  min-width: 140px;
+  flex-shrink: 0;
+}
+
+.re-filter-row-tags {
+  display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 6px;
-  margin-bottom: 16px;
 }
 
 #re-filters {

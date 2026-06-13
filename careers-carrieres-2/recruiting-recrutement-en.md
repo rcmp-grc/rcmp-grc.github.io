@@ -237,34 +237,52 @@ var EVENTS = [
     language:  'Language'
   };
 
+  var CAT_LABEL = {
+    province:  'Location',
+    eventType: 'Type',
+    jobType:   'Role',
+    format:    'Format',
+    language:  'Language'
+  };
+
   function renderTags(filters) {
     activeTagEl.innerHTML = '';
-    var allTags = [];
+    var hasAny = Object.keys(filters).some(function (cat) { return filters[cat].length > 0; });
+    if (!hasAny) return;
+
     Object.keys(filters).forEach(function (cat) {
-      filters[cat].forEach(function (val) { allTags.push({ cat: cat, val: val }); });
-    });
-    if (!allTags.length) return;
+      if (!filters[cat].length) return;
 
-    var showing = document.createElement('span');
-    showing.className   = 'wp-filter-showing-label';
-    showing.textContent = 'Showing:';
-    activeTagEl.appendChild(showing);
+      var row = document.createElement('div');
+      row.className = 're-filter-row';
 
-    allTags.forEach(function (item, idx) {
-      if (idx > 0) {
-        var sep = document.createElement('span');
-        sep.className   = 'wp-filter-tag-sep';
-        sep.textContent = 'or';
-        activeTagEl.appendChild(sep);
-      }
-      var tag = document.createElement('span');
-      tag.className = 'wp-filter-tag';
-      tag.innerHTML = item.val + ' <button type="button" aria-label="Remove filter: ' + item.val + '">\u2715</button>';
-      tag.querySelector('button').addEventListener('click', function () {
-        var cb = document.querySelector('input[data-filter="' + item.cat + '"][value="' + item.val + '"]');
-        if (cb) { cb.checked = false; refresh(); }
+      var label = document.createElement('span');
+      label.className   = 're-filter-row-label';
+      label.textContent = CAT_LABEL[cat] + ':';
+      row.appendChild(label);
+
+      var tagsWrap = document.createElement('span');
+      tagsWrap.className = 're-filter-row-tags';
+
+      filters[cat].forEach(function (val, idx) {
+        if (idx > 0) {
+          var sep = document.createElement('span');
+          sep.className   = 'wp-filter-tag-sep';
+          sep.textContent = 'or';
+          tagsWrap.appendChild(sep);
+        }
+        var tag = document.createElement('span');
+        tag.className = 'wp-filter-tag';
+        tag.innerHTML = val + ' <button type="button" aria-label="Remove filter: ' + val + '">\u2715</button>';
+        tag.querySelector('button').addEventListener('click', function () {
+          var cb = document.querySelector('input[data-filter="' + cat + '"][value="' + val + '"]');
+          if (cb) { cb.checked = false; refresh(); }
+        });
+        tagsWrap.appendChild(tag);
       });
-      activeTagEl.appendChild(tag);
+
+      row.appendChild(tagsWrap);
+      activeTagEl.appendChild(row);
     });
   }
 

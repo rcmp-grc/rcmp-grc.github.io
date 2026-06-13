@@ -301,7 +301,7 @@ var EVENTS = [
     pagination.style.display = show ? ''      : 'none';
     if (!show) return;
 
-slice.forEach(function (e) {
+    slice.forEach(function (e) {
       var locationLine = e.city
         ? e.city + ', ' + e.province
         : e.province;
@@ -369,12 +369,19 @@ slice.forEach(function (e) {
         btn.addEventListener('click', function () {
           currentPage = slot;
           draw();
-          grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          scrollToGrid();
         });
         li.appendChild(btn);
       }
       pageList.appendChild(li);
     });
+  }
+
+  function scrollToGrid() {
+    var top = grid.getBoundingClientRect().top + window.pageYOffset;
+    var nav = document.querySelector('.careers-nav');
+    var offset = nav ? nav.offsetHeight + 16 : 80;
+    window.scrollTo({ top: top - offset, behavior: 'smooth' });
   }
 
   function draw() {
@@ -404,10 +411,10 @@ slice.forEach(function (e) {
   });
 
   prevBtn.addEventListener('click', function () {
-    if (currentPage > 1) { currentPage--; draw(); grid.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+    if (currentPage > 1) { currentPage--; draw(); scrollToGrid(); }
   });
   nextBtn.addEventListener('click', function () {
-    if (currentPage < Math.ceil(activeData.length / PER_PAGE)) { currentPage++; draw(); grid.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+    if (currentPage < Math.ceil(activeData.length / PER_PAGE)) { currentPage++; draw(); scrollToGrid(); }
   });
 
   function applyQueryString() {

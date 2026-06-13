@@ -2217,7 +2217,6 @@ main .cnt-wdth-lmtd #re-grid li {
 
 .re-filter-row-label {
   font-weight: 700;
-  min-width: 80px;
   flex-shrink: 0;
 }
 

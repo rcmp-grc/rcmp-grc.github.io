@@ -2025,7 +2025,7 @@ section[id^="s"] {
   display: block;
   width: 100%;
   box-sizing: border-box;
-  background: #d3080c;
+  background: var(--c-red);
   color: #fff;
   font-size: 0.75rem;
   font-weight: 700;

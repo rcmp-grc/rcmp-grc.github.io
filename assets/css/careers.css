@@ -1971,17 +1971,32 @@ section[id^="s"] {
   position: relative;
   border: 1px solid var(--rcmp-grey-md);
   background: var(--rcmp-white);
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   overflow: hidden;
-  width: 100%;
+  width: calc(100% + 0px);
   box-sizing: border-box;
   display: block;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .re-card-body {
-  padding: 14px 16px;
-  background: var(--rcmp-grey-lt);
+  padding: 16px 16px 20px;
   border-top: 3px solid var(--c-yellow);
+}
+
+.re-card-meta {
+  margin: 10px 0 0;
+}
+
+.re-card-meta li {
+  font-size: 0.88em;
+  color: var(--rcmp-grey-dk);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  line-height: 1.4;
 }
 
 .re-card-title {
@@ -1991,11 +2006,6 @@ section[id^="s"] {
   margin: 0 0 8px;
 }
 
-.re-card-meta li {
-  font-size: 0.88em;
-  color: var(--rcmp-grey-dk);
-  margin-bottom: 3px;
-}
 /* Card wrapper */
 .re-card {
   position: relative;

@@ -1968,9 +1968,14 @@ section[id^="s"] {
 
 /* Event result card */
 .re-card {
+  position: relative;
   border: 1px solid var(--rcmp-grey-md);
   background: var(--rcmp-white);
   margin-bottom: 12px;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
 }
 
 .re-card-body {
@@ -2002,7 +2007,16 @@ section[id^="s"] {
 
 /* Cancelled state — mute the whole card */
 .re-card--cancelled {
-  opacity: 0.6;
+  opacity: 1;
+}
+
+.re-card--cancelled .re-card-body {
+  background: var(--rcmp-grey-lt);
+}
+
+.re-card--cancelled .re-card-title a,
+.re-card--cancelled .re-card-meta li {
+  color: var(--rcmp-grey-dk);
 }
 
 /* Top-right format badge (yellow / black) */
@@ -2074,8 +2088,9 @@ section[id^="s"] {
   color: var(--rcmp-grey-dk);
   margin-bottom: 5px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 7px;
+  line-height: 1.4;
 }
 
 .re-card-meta li i {
@@ -2083,5 +2098,7 @@ section[id^="s"] {
   color: var(--rcmp-black);
   width: 14px;
   text-align: center;
-  vertical-align: middle;
+  font-size: 0.95em;
+  position: relative;
+  top: 0;
 }

@@ -285,7 +285,7 @@ var EVENTS = [
 slice.forEach(function (e) {
       var locationLine = e.city
         ? e.city + ', ' + e.province
-        : e.province || '';
+        : e.province ? e.province : '';
       var tzLabel = e.tz ? ' (' + (TZ_LABEL[e.tz] || e.tz) + ')' : '';
       var cancelledBadge = e.cancelled
         ? '<span class="re-card-cancelled" aria-label="Cancelled"><i class="fa-solid fa-ban" aria-hidden="true"></i> Cancelled</span>'
@@ -300,7 +300,7 @@ slice.forEach(function (e) {
         cancelledBadge +
           '<p class="re-card-title"><a href="event-evenement-en.html">' + e.title + '</a></p>' +
           '<ul class="re-card-meta list-unstyled">' +
-            '<li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> ' + locationLine + '</li>' +
+            (locationLine ? '<li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> ' + locationLine + '</li>' : '') +
             '<li><i class="fa-regular fa-lightbulb" aria-hidden="true"></i> ' + e.eventType + ' \u2013 ' + e.jobType + '</li>' +
             '<li><i class="fa-regular fa-calendar" aria-hidden="true"></i> ' + formatDate(e.date) + ' ' + e.time + tzLabel + '</li>' +
           '</ul>' +

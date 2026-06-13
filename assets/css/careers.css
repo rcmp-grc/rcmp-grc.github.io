@@ -2018,13 +2018,13 @@ section[id^="s"] {
   letter-spacing: 0.03em;
   background: var(--c-yellow);
   color: var(--c-black);
+  z-index: 2;
 }
 
-/* Cancelled ribbon */
 .re-card-cancelled {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
   background: #d3080c;
   color: #fff;
   font-size: 0.75rem;
@@ -2032,6 +2032,10 @@ section[id^="s"] {
   padding: 3px 10px;
   text-transform: uppercase;
   letter-spacing: 0.04em;
+}
+
+.re-card-cancelled i {
+  margin-right: 5px;
 }
 
 /* Card body */

@@ -284,8 +284,8 @@ var EVENTS = [
 
 slice.forEach(function (e) {
       var locationLine = e.city
-        ? e.city + ', ' + e.province + ' \u2013 ' + e.format
-        : e.format;
+        ? e.city + ', ' + e.province
+        : e.province || '';
       var tzLabel = e.tz ? ' (' + (TZ_LABEL[e.tz] || e.tz) + ')' : '';
       var cancelledBadge = e.cancelled
         ? '<span class="re-card-cancelled" aria-label="Cancelled"><i class="fa-solid fa-ban" aria-hidden="true"></i> Cancelled</span>'
@@ -295,8 +295,8 @@ slice.forEach(function (e) {
       var li = document.createElement('li');
       li.className = 're-card' + (e.cancelled ? ' re-card--cancelled' : '');
       li.innerHTML =
-        formatBadge +
         cancelledBadge +
+        formatBadge +
         '<div class="re-card-body">' +
           '<p class="re-card-title"><a href="event-evenement-en.html">' + e.title + '</a></p>' +
           '<ul class="re-card-meta list-unstyled">' +

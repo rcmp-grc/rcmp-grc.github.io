@@ -2006,15 +2006,6 @@ section[id^="s"] {
   margin: 0 0 8px;
 }
 
-/* Card wrapper */
-.re-card {
-  position: relative;
-  border: 1px solid var(--rcmp-grey-md);
-  background: var(--rcmp-white);
-  margin-bottom: 12px;
-  overflow: hidden;
-}
-
 /* Cancelled state — mute the whole card */
 .re-card--cancelled {
   opacity: 1;
@@ -2051,7 +2042,7 @@ section[id^="s"] {
   gap: 6px;
   width: 100%;
   box-sizing: border-box;
-  background: var(--rcmp-red);
+  background: #b50315;
   color: #fff;
   font-size: 0.75rem;
   font-weight: 700;
@@ -2067,18 +2058,6 @@ section[id^="s"] {
   vertical-align: middle;
 }
 
-/* Card body */
-.re-card-body {
-  padding: 14px 16px;
-  border-top: 3px solid var(--c-yellow);
-}
-
-.re-card-title {
-  font-weight: 700;
-  font-size: 1em;
-  margin: 12px 0 10px;
-}
-
 .re-card-title a {
   color: var(--rcmp-blue);
   text-decoration: underline;
@@ -2087,29 +2066,4 @@ section[id^="s"] {
 .re-card-title a:hover,
 .re-card-title a:focus {
   text-decoration: none;
-}
-
-/* Meta list */
-.re-card-meta {
-  margin: 0;
-}
-
-.re-card-meta li {
-  font-size: 0.88em;
-  color: var(--rcmp-grey-dk);
-  margin-bottom: 5px;
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  line-height: 1.4;
-}
-
-.re-card-meta li i {
-  flex-shrink: 0;
-  color: var(--rcmp-black);
-  width: 14px;
-  text-align: center;
-  font-size: 0.95em;
-  position: relative;
-  top: 0;
 }

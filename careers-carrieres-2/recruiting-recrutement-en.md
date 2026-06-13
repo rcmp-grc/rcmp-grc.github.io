@@ -150,6 +150,41 @@ var EVENTS = [
     { title: 'Kamloops Fitness Assessment Workshop',        city: 'Kamloops',        province: 'British Columbia',          tz: 'PT', eventType: 'Police fitness assessment workshop',    jobType: 'Police officer',                      format: 'In person', language: 'English',            time: '8:00 a.m.',  date: '2026-10-23', cancelled: false }
   ];
 
+  var TZ_LABEL = {
+      'PT': 'Pacific time',
+      'MT': 'Mountain time',
+      'CT': 'Central time',
+      'ET': 'Eastern time',
+      'AT': 'Atlantic time',
+      'NT': 'Newfoundland time',
+      'YT': 'Yukon time'
+    };
+
+  var PROVINCE_ID = {
+    1:  'Alberta',
+    2:  'British Columbia',
+    3:  'Manitoba',
+    4:  'New Brunswick',
+    5:  'Newfoundland and Labrador',
+    6:  'Northwest Territories',
+    7:  'Nova Scotia',
+    8:  'Nunavut',
+    9:  'Ontario',
+    10: 'Prince Edward Island',
+    11: 'Quebec',
+    12: 'Saskatchewan',
+    13: 'Yukon'
+  };
+
+  var JOBTYPE_ID = {
+    1: 'Community constable',
+    2: 'Police officer',
+    3: 'Telecommunications operator'
+  };
+
+  var QUERY_PROVINCE = 'p';
+  var QUERY_JOBTYPE  = 'j';
+  
   var PER_PAGE    = 10;
   var currentPage = 1;
   var activeData  = EVENTS.slice();
@@ -167,11 +202,11 @@ var EVENTS = [
   function updateBadges() {
     var badgeEls = document.querySelectorAll('[data-badge]');
     Array.prototype.forEach.call(badgeEls, function (el) {
-      var parts  = el.dataset.badge.split('-');
-      var cat    = parts[0];
-      var val    = parts.slice(1).join('-');
-      var count  = EVENTS.filter(function (e) { return e[cat] === val || (cat === 'eventType' && e.eventType === val); }).length;
-      el.textContent = count;
+      var raw  = el.dataset.badge;
+      var dash = raw.indexOf('-');
+      var cat  = raw.slice(0, dash);
+      var val  = raw.slice(dash + 1);
+      el.textContent = EVENTS.filter(function (e) { return e[cat] === val; }).length;
     });
   }
 
@@ -353,7 +388,28 @@ slice.forEach(function (e) {
     if (currentPage < Math.ceil(activeData.length / PER_PAGE)) { currentPage++; draw(); grid.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
   });
 
+  function applyQueryString() {
+    var params = new URLSearchParams(window.location.search);
+
+    var pVals = params.getAll(QUERY_PROVINCE);
+    pVals.forEach(function (id) {
+      var name = PROVINCE_ID[parseInt(id, 10)];
+      if (!name) return;
+      var cb = document.querySelector('input[data-filter="province"][value="' + name + '"]');
+      if (cb) cb.checked = true;
+    });
+
+    var jVals = params.getAll(QUERY_JOBTYPE);
+    jVals.forEach(function (id) {
+      var name = JOBTYPE_ID[parseInt(id, 10)];
+      if (!name) return;
+      var cb = document.querySelector('input[data-filter="jobType"][value="' + name + '"]');
+      if (cb) cb.checked = true;
+    });
+  }
+
   updateBadges();
+  applyQueryString();
   refresh();
 }());
 </script>

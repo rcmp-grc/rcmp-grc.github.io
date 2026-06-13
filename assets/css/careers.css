@@ -2047,11 +2047,12 @@ section[id^="s"] {
   font-size: 0.75rem;
   font-weight: 700;
   padding: 4px 10px;
-  padding-right: 90px;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   line-height: 1;
-  margin-top: 0;
+  position: relative;
+  z-index: 1;
+  margin-top: 24px;
 }
 
 .re-card-cancelled i {
@@ -2097,7 +2098,10 @@ main .cnt-wdth-lmtd #re-grid li {
   letter-spacing: 0.03em;
   background: #fec111;
   color: #0c0b0e;
-  z-index: 2;
+  z-index: 3;
+  height: 24px;
+  display: flex;
+  align-items: center;
 }
 
 .re-card-cancelled {

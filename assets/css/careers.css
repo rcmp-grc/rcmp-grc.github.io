@@ -2200,6 +2200,7 @@ main .cnt-wdth-lmtd #re-grid li {
   flex-wrap: wrap;
   gap: 8px;
   padding: 8px 10px;
+  justify-content: flex-start;
 }
 
 .re-filter-row:nth-child(odd) {
@@ -2221,6 +2222,7 @@ main .cnt-wdth-lmtd #re-grid li {
   flex-wrap: wrap;
   align-items: center;
   gap: 6px;
+  justify-content: flex-start;
 }
 
 #re-filters {
@@ -2242,6 +2244,9 @@ main .cnt-wdth-lmtd #re-grid li {
 
 #re-no-results {
   padding: 32px;
-  text-align: center;
+  text-align: left;
   border: 1px dashed #ccc;
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
 }

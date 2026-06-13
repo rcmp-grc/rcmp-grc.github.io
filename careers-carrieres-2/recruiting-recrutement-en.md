@@ -16,7 +16,7 @@ custom_css: /assets/css/careers.css
   <div class="col-md-3 col-sm-4" id="re-sidebar">
     <aside aria-labelledby="re-filters-heading" id="re-filters">
       <h2 class="h4" id="re-filters-heading">Filter by</h2>
-      <details class="wp-filter-group" open>
+      <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
           <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">Province or territory</span>
         </summary>
@@ -412,13 +412,14 @@ slice.forEach(function (e) {
 
   function applyQueryString() {
     var params = new URLSearchParams(window.location.search);
+    var openCats = {};
 
     var pVals = params.getAll(QUERY_PROVINCE);
     pVals.forEach(function (id) {
       var name = PROVINCE_ID[parseInt(id, 10)];
       if (!name) return;
       var cb = document.querySelector('input[data-filter="province"][value="' + name + '"]');
-      if (cb) cb.checked = true;
+      if (cb) { cb.checked = true; openCats['province'] = true; }
     });
 
     var jVals = params.getAll(QUERY_JOBTYPE);
@@ -426,7 +427,16 @@ slice.forEach(function (e) {
       var name = JOBTYPE_ID[parseInt(id, 10)];
       if (!name) return;
       var cb = document.querySelector('input[data-filter="jobType"][value="' + name + '"]');
-      if (cb) cb.checked = true;
+      if (cb) { cb.checked = true; openCats['jobType'] = true; }
+    });
+
+    /* Open only the accordion groups that have active query filters */
+    Object.keys(openCats).forEach(function (cat) {
+      var cb = document.querySelector('input[data-filter="' + cat + '"]');
+      if (cb) {
+        var details = cb.closest('details.wp-filter-group');
+        if (details) details.open = true;
+      }
     });
   }
 

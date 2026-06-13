@@ -89,7 +89,7 @@ custom_css: /assets/css/careers.css
     </aside>
   </div>
   <div class="col-md-9 col-sm-8" id="re-results-col">
-    <div aria-label="Active filters" aria-live="polite" id="re-active-filters" role="status"></div>
+    <div aria-label="Active filters" aria-live="polite" id="re-active-filters" role="status" style="display:none;"></div>
     <div id="re-toolbar">
       <p aria-live="polite" id="re-count"><strong id="re-count-num">0</strong>&nbsp;events found</p>
     </div>
@@ -248,6 +248,7 @@ var EVENTS = [
   function renderTags(filters) {
     activeTagEl.innerHTML = '';
     var hasAny = Object.keys(filters).some(function (cat) { return filters[cat].length > 0; });
+    activeTagEl.style.display = hasAny ? '' : 'none';
     if (!hasAny) return;
 
     Object.keys(filters).forEach(function (cat) {
@@ -387,6 +388,9 @@ slice.forEach(function (e) {
     currentPage = 1;
     countNumEl.textContent = activeData.length;
     renderTags(filters);
+    if (!Object.keys(filters).some(function (cat) { return filters[cat].length > 0; })) {
+      activeTagEl.style.display = 'none';
+    }
     draw();
   }
 

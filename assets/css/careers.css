@@ -1966,18 +1966,18 @@ section[id^="s"] {
   border: 1px dashed var(--rcmp-grey-md);
 }
 
-/* Event result card */
 .re-card {
   position: relative;
   border: 1px solid var(--rcmp-grey-md);
   background: var(--rcmp-white);
   margin-bottom: 16px;
   overflow: hidden;
-  width: calc(100% + 0px);
+  width: 100%;
   box-sizing: border-box;
   display: block;
   margin-left: 0;
   margin-right: 0;
+  max-width: none;
 }
 
 .re-card-body {
@@ -2056,9 +2056,11 @@ section[id^="s"] {
   font-size: 0.75rem;
   font-weight: 700;
   padding: 4px 10px;
+  padding-right: 90px;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   line-height: 1;
+  margin-top: 0;
 }
 
 .re-card-cancelled i {
@@ -2071,11 +2073,10 @@ section[id^="s"] {
   border-top: 3px solid var(--c-yellow);
 }
 
-/* Title link */
 .re-card-title {
   font-weight: 700;
   font-size: 1em;
-  margin: 0 0 10px;
+  margin: 12px 0 10px;
 }
 
 .re-card-title a {

@@ -298,7 +298,6 @@ slice.forEach(function (e) {
         formatBadge +
         '<div class="re-card-body">' +
         cancelledBadge +
-        '<div class="re-card-body">' +
           '<p class="re-card-title"><a href="event-evenement-en.html">' + e.title + '</a></p>' +
           '<ul class="re-card-meta list-unstyled">' +
             '<li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> ' + locationLine + '</li>' +

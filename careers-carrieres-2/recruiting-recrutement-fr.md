@@ -280,7 +280,7 @@ custom_css: /assets/css/careers.css
       title: 'Atelier gendarme communautaire – Saskatoon',
       city: 'Saskatoon',
       province: 'Saskatchewan',
-      tz: 'CT',
+      tz: 'ST',
       eventType: 'Workshop',
       jobType: 'Gendarme communautaire',
       format: 'In person',
@@ -376,7 +376,7 @@ custom_css: /assets/css/careers.css
       title: 'Foire de l\'emploi policier – Regina',
       city: 'Regina',
       province: 'Saskatchewan',
-      tz: 'CT',
+      tz: 'ST',
       eventType: 'Career fair',
       jobType: 'Policier',
       format: 'In person',
@@ -538,16 +538,18 @@ custom_css: /assets/css/careers.css
       'ET': 'Eastern time',
       'AT': 'Atlantic time',
       'NT': 'Newfoundland time',
+      'ST': 'Saskatchewan time',
       'YT': 'Yukon time'
     },
     fr: {
-      'PT': 'Heure du Pacifique',
-      'MT': 'Heure des Rocheuses',
-      'CT': 'Heure du Centre',
-      'ET': 'Heure de l\'Est',
-      'AT': 'Heure de l\'Atlantique',
-      'NT': 'Heure de Terre-Neuve',
-      'YT': 'Heure du Yukon'
+      'PT': 'heure du Pacifique',
+      'MT': 'heure des Rocheuses',
+      'CT': 'heure du Centre',
+      'ET': 'heure de l\'Est',
+      'AT': 'heure de l\'Atlantique',
+      'NT': 'heure de Terre-Neuve',
+      'ST': 'heure de la Saskatchewan',
+      'YT': 'heure du Yukon'
     }
   };
   var PROVINCE_ID = {
@@ -742,7 +744,9 @@ custom_css: /assets/css/careers.css
     pagination.style.display = show ? '' : 'none';
     if (!show) return;
     slice.forEach(function(e) {
-      var locationLine = e.city ? e.city + ', ' + e.province : e.province;
+      var locationLine = e.city
+        ? (LANG === 'fr' ? e.city + ' (' + e.province + ')' : e.city + ', ' + e.province)
+        : e.province;
       var tzLabel = e.tz ? ' (' + (TZ_LABEL[LANG][e.tz] || e.tz) + ')' : '';
       var cancelledBadge = e.cancelled ? '<p class="re-card-cancelled"><i class="fa-solid fa-ban" aria-hidden="true"></i> <span>' + UI[LANG].cancelled + '</span></p>' : '';
       var formatBadgeLabel = e.format === 'Virtual' ? UI[LANG].virtual : UI[LANG].inPerson;

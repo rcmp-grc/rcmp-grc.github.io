@@ -2287,7 +2287,7 @@ main .cnt-wdth-lmtd #re-grid li {
   display: block;
   font-weight: 700;
   margin-bottom: 6px;
-  font-size: 0.9rem;
+  font-size: inherit;
 }
 
 .re-select {
@@ -2296,7 +2296,7 @@ main .cnt-wdth-lmtd #re-grid li {
   border: 2px solid #0c0b0e;
   border-radius: 0;
   background: #fff;
-  font-size: 1rem;
+  font-size: inherit;
   font-family: inherit;
   cursor: pointer;
   -webkit-appearance: none;
@@ -2311,4 +2311,13 @@ main .cnt-wdth-lmtd #re-grid li {
 .re-select:focus {
   outline: 3px solid #ffbf47;
   outline-offset: 0;
+}
+
+#re-filters .wp-filter-group .checkbox label {
+  align-items: flex-start !important;
+}
+
+#re-filters .wp-filter-group .checkbox input[type="checkbox"] {
+  margin-top: 6px !important;
+  flex-shrink: 0 !important;
 }

@@ -23,43 +23,43 @@ custom_css: /assets/css/careers.css
         <fieldset>
           <legend class="wb-inv">Province or territory</legend>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Alberta">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="British Columbia"><span class="cb-text">British Columbia</span><span class="wp-filter-badge" data-badge="province-British Columbia">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="British Columbia"><span class="cb-text">British Columbia</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Manitoba"><span class="cb-text">Manitoba</span><span class="wp-filter-badge" data-badge="province-Manitoba">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Manitoba"><span class="cb-text">Manitoba</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="New Brunswick"><span class="cb-text">New Brunswick</span><span class="wp-filter-badge" data-badge="province-New Brunswick">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="New Brunswick"><span class="cb-text">New Brunswick</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Newfoundland and Labrador"><span class="cb-text">Newfoundland and Labrador</span><span class="wp-filter-badge" data-badge="province-Newfoundland and Labrador">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Newfoundland and Labrador"><span class="cb-text">Newfoundland and Labrador</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Northwest Territories"><span class="cb-text">Northwest Territories</span><span class="wp-filter-badge" data-badge="province-Northwest Territories">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Northwest Territories"><span class="cb-text">Northwest Territories</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Nova Scotia"><span class="cb-text">Nova Scotia</span><span class="wp-filter-badge" data-badge="province-Nova Scotia">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Nova Scotia"><span class="cb-text">Nova Scotia</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Nunavut"><span class="cb-text">Nunavut</span><span class="wp-filter-badge" data-badge="province-Nunavut">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Nunavut"><span class="cb-text">Nunavut</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Ontario"><span class="cb-text">Ontario</span><span class="wp-filter-badge" data-badge="province-Ontario">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Ontario"><span class="cb-text">Ontario</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Prince Edward Island"><span class="cb-text">Prince Edward Island</span><span class="wp-filter-badge" data-badge="province-Prince Edward Island">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Prince Edward Island"><span class="cb-text">Prince Edward Island</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Quebec"><span class="cb-text">Quebec</span><span class="wp-filter-badge" data-badge="province-Quebec">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Quebec"><span class="cb-text">Quebec</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Saskatchewan"><span class="cb-text">Saskatchewan</span><span class="wp-filter-badge" data-badge="province-Saskatchewan">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Saskatchewan"><span class="cb-text">Saskatchewan</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Yukon"><span class="cb-text">Yukon</span><span class="wp-filter-badge" data-badge="province-Yukon">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Yukon"><span class="cb-text">Yukon</span></label>
           </div>
         </fieldset>
       </details>
@@ -70,28 +70,28 @@ custom_css: /assets/css/careers.css
         <fieldset>
           <legend class="wb-inv">Type of event</legend>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Ask-a-recruiter"><span class="cb-text">Ask-a-recruiter – Question and answer session</span><span class="wp-filter-badge" data-badge="eventType-Ask-a-recruiter">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Ask-a-recruiter"><span class="cb-text">Ask-a-recruiter – Question and answer session</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Career fair"><span class="cb-text">Career fair</span><span class="wp-filter-badge" data-badge="eventType-Career fair">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Career fair"><span class="cb-text">Career fair</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Career presentation"><span class="cb-text">Career presentation</span><span class="wp-filter-badge" data-badge="eventType-Career presentation">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Career presentation"><span class="cb-text">Career presentation</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Online entrance assessment workshop"><span class="cb-text">Online entrance assessment workshop</span><span class="wp-filter-badge" data-badge="eventType-Online entrance assessment workshop">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Online entrance assessment workshop"><span class="cb-text">Online entrance assessment workshop</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Police fitness assessment workshop"><span class="cb-text">Police fitness assessment workshop</span><span class="wp-filter-badge" data-badge="eventType-Police fitness assessment workshop">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Police fitness assessment workshop"><span class="cb-text">Police fitness assessment workshop</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Police fitness assessment test session"><span class="cb-text">Police fitness assessment test session</span><span class="wp-filter-badge" data-badge="eventType-Police fitness assessment test session">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Police fitness assessment test session"><span class="cb-text">Police fitness assessment test session</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Special event"><span class="cb-text">Special event</span><span class="wp-filter-badge" data-badge="eventType-Special event">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Special event"><span class="cb-text">Special event</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Workshop"><span class="cb-text">Workshop</span><span class="wp-filter-badge" data-badge="eventType-Workshop">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Workshop"><span class="cb-text">Workshop</span></label>
           </div>
         </fieldset>
       </details>
@@ -624,19 +624,6 @@ custom_css: /assets/css/careers.css
   var prevBtn     = document.getElementById('re-prev');
   var nextBtn     = document.getElementById('re-next');
 
-  function updateBadges() {
-    var badgeEls = document.querySelectorAll('[data-badge]');
-    Array.prototype.forEach.call(badgeEls, function(el) {
-      var raw = el.dataset.badge;
-      var dash = raw.indexOf('-');
-      var cat = raw.slice(0, dash);
-      var val = raw.slice(dash + 1);
-      el.textContent = EVENTS.filter(function(e) {
-        return e[cat] === val;
-      }).length;
-    });
-  }
-
    function getActiveFilters() {
     var active = { province: [], eventType: [], jobType: [], format: [], language: [] };
     Array.prototype.forEach.call(checkboxes, function (cb) {
@@ -868,7 +855,6 @@ custom_css: /assets/css/careers.css
       }
     });
   }
-  updateBadges();
   applyQueryString();
   refresh();
 }());

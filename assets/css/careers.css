@@ -2276,3 +2276,16 @@ main .cnt-wdth-lmtd #re-grid li {
   word-break: break-word !important;
   display: inline !important;
 }
+
+#re-filters .wp-filter-group fieldset .checkbox:nth-child(odd) {
+  background: #f3f3f3;
+}
+
+#re-filters .wp-filter-group fieldset .checkbox:nth-child(even) {
+  background: #fff;
+}
+
+#re-filters .wp-filter-group fieldset .checkbox {
+  padding: 4px 8px;
+  margin: 0;
+}

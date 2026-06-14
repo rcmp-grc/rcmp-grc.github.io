@@ -1,164 +1,164 @@
 ---
 layout: careers
-title: Recruiting events
+title: Événements de recrutement
 date_modified: 2026-06-10
-lang: en
-lang_url: recruiting-recrutement-fr.html
+lang: fr
+lang_url: recruiting-recrutement-en.html
 breadcrumbs:
-  - label: "RCMP careers"
-    url: "careers-carrieres-2/careers-carrieres-en.html"
+  - label: "Carrières à la GRC"
+    url: "careers-carrieres-2/careers-carrieres-fr.html"
 custom_css: /assets/css/careers.css
 ---
 
-<p>Are you interested in a career as a police officer, community constable, or telecommunications operator?</p>
-<p>Career presentations, workshops, career fairs, youth camps, and special events are held in various cities and towns throughout the year. Find an event near you!</p>
+<p>Êtes-vous intéressé par une carrière comme policier, gendarme communautaire ou opérateur des télécommunications?</p>
+<p>Des présentations sur les carrières, des ateliers, des salons de l’emploi, des camps pour jeunes et des événements spéciaux ont lieu dans diverses villes et localités tout au long de l'année. Trouvez un événement près de chez vous!</p>
 <div class="row" id="re-page">
   <div class="col-md-3 col-sm-4" id="re-sidebar">
     <aside aria-labelledby="re-filters-heading" id="re-filters">
-      <h2 class="h4" id="re-filters-heading">Filter by</h2>
+      <h2 class="h4" id="re-filters-heading">Filtrer par</h2>
       <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
-          <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Province or territory</span>
+          <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Province ou territoire</span>
         </summary>
         <fieldset>
-          <legend class="wb-inv">Province or territory</legend>
+          <legend class="wb-inv">Province ou territoire</legend>
           <div class="checkbox">
             <label><input data-filter="province" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Alberta">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="British Columbia"><span class="cb-text">British Columbia</span><span class="wp-filter-badge" data-badge="province-British Columbia">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Colombie-Britannique"><span class="cb-text">Colombie-Britannique</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Colombie-Britannique">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Manitoba"><span class="cb-text">Manitoba</span><span class="wp-filter-badge" data-badge="province-Manitoba">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Manitoba"><span class="cb-text">Manitoba</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Manitoba">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="New Brunswick"><span class="cb-text">New Brunswick</span><span class="wp-filter-badge" data-badge="province-New Brunswick">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Nouveau-Brunswick"><span class="cb-text">Nouveau-Brunswick</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Nouveau-Brunswick">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Newfoundland and Labrador"><span class="cb-text">Newfoundland and Labrador</span><span class="wp-filter-badge" data-badge="province-Newfoundland and Labrador">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Terre-Neuve-et-Labrador"><span class="cb-text">Terre-Neuve-et-Labrador</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Terre-Neuve-et-Labrador">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Northwest Territories"><span class="cb-text">Northwest Territories</span><span class="wp-filter-badge" data-badge="province-Northwest Territories">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Territoires du Nord-Ouest"><span class="cb-text">Territoires du Nord-Ouest</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Territoires du Nord-Ouest">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Nova Scotia"><span class="cb-text">Nova Scotia</span><span class="wp-filter-badge" data-badge="province-Nova Scotia">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Nouvelle-Écosse"><span class="cb-text">Nouvelle-Écosse</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Nouvelle-Écosse">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Nunavut"><span class="cb-text">Nunavut</span><span class="wp-filter-badge" data-badge="province-Nunavut">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Nunavut"><span class="cb-text">Nunavut</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Nunavut">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Ontario"><span class="cb-text">Ontario</span><span class="wp-filter-badge" data-badge="province-Ontario">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Ontario"><span class="cb-text">Ontario</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Ontario">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Prince Edward Island"><span class="cb-text">Prince Edward Island</span><span class="wp-filter-badge" data-badge="province-Prince Edward Island">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Île-du-Prince-Édouard"><span class="cb-text">Île-du-Prince-Édouard</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Île-du-Prince-Édouard">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Quebec"><span class="cb-text">Quebec</span><span class="wp-filter-badge" data-badge="province-Quebec">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Québec"><span class="cb-text">Québec</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Québec">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Saskatchewan"><span class="cb-text">Saskatchewan</span><span class="wp-filter-badge" data-badge="province-Saskatchewan">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Saskatchewan"><span class="cb-text">Saskatchewan</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Saskatchewan">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Yukon"><span class="cb-text">Yukon</span><span class="wp-filter-badge" data-badge="province-Yukon">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Yukon"><span class="cb-text">Yukon</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Yukon">0</span></label>
           </div>
         </fieldset>
       </details>
       <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
-          <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Type of event</span>
+          <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Type d'événement</span>
         </summary>
         <fieldset>
-          <legend class="wb-inv">Type of event</legend>
+          <legend class="wb-inv">Type d'événement</legend>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Ask-a-recruiter"><span class="cb-text">Ask-a-recruiter – Question and answer session</span><span class="wp-filter-badge" data-badge="eventType-Ask-a-recruiter">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Ask-a-recruiter"><span class="cb-text">Demandez à un recruteur – Séance de questions et réponses</span><span aria-hidden="true" class="wp-filter-badge" data-badge="eventType-Ask-a-recruiter">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Career fair"><span class="cb-text">Career fair</span><span class="wp-filter-badge" data-badge="eventType-Career fair">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Career fair"><span class="cb-text">Foire de l'emploi</span><span aria-hidden="true" class="wp-filter-badge" data-badge="eventType-Career fair">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Career presentation"><span class="cb-text">Career presentation</span><span class="wp-filter-badge" data-badge="eventType-Career presentation">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Career presentation"><span class="cb-text">Présentation de carrière</span><span aria-hidden="true" class="wp-filter-badge" data-badge="eventType-Career presentation">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Online entrance assessment workshop"><span class="cb-text">Online entrance assessment workshop</span><span class="wp-filter-badge" data-badge="eventType-Online entrance assessment workshop">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Online entrance assessment workshop"><span class="cb-text">Atelier de préparation à l'évaluation d'entrée en ligne</span><span aria-hidden="true" class="wp-filter-badge" data-badge="eventType-Online entrance assessment workshop">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Police fitness assessment workshop"><span class="cb-text">Police fitness assessment workshop</span><span class="wp-filter-badge" data-badge="eventType-Police fitness assessment workshop">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Police fitness assessment workshop"><span class="cb-text">Atelier de test de condition physique pour les policiers</span><span aria-hidden="true" class="wp-filter-badge" data-badge="eventType-Police fitness assessment workshop">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Police fitness assessment test session"><span class="cb-text">Police fitness assessment test session</span><span class="wp-filter-badge" data-badge="eventType-Police fitness assessment test session">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Police fitness assessment test session"><span class="cb-text">Séance du test de condition physique pour les policiers</span><span aria-hidden="true" class="wp-filter-badge" data-badge="eventType-Police fitness assessment test session">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Special event"><span class="cb-text">Special event</span><span class="wp-filter-badge" data-badge="eventType-Special event">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Special event"><span class="cb-text">Événement spécial</span><span aria-hidden="true" class="wp-filter-badge" data-badge="eventType-Special event">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Workshop"><span class="cb-text">Workshop</span><span class="wp-filter-badge" data-badge="eventType-Workshop">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Workshop"><span class="cb-text">Atelier</span><span aria-hidden="true" class="wp-filter-badge" data-badge="eventType-Workshop">0</span></label>
           </div>
         </fieldset>
       </details>
       <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
-          <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Type of job</span>
+          <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Type d'emploi</span>
         </summary>
         <fieldset>
-          <legend class="wb-inv">Type of job</legend>
+          <legend class="wb-inv">Type d'emploi</legend>
           <div class="checkbox">
-            <label><input data-filter="jobType" type="checkbox" value="Community constable"><span class="cb-text">Community constable</span><span class="wp-filter-badge" data-badge="jobType-Community constable">0</span></label>
+            <label><input data-filter="jobType" type="checkbox" value="Gendarme communautaire"><span class="cb-text">Gendarme communautaire</span><span aria-hidden="true" class="wp-filter-badge" data-badge="jobType-Gendarme communautaire">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="jobType" type="checkbox" value="Police officer"><span class="cb-text">Police officer</span><span class="wp-filter-badge" data-badge="jobType-Police officer">0</span></label>
+            <label><input data-filter="jobType" type="checkbox" value="Policier"><span class="cb-text">Policier</span><span aria-hidden="true" class="wp-filter-badge" data-badge="jobType-Policier">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="jobType" type="checkbox" value="Telecommunications operator"><span class="cb-text">Telecommunications operator (9-1-1 dispatcher)</span><span class="wp-filter-badge" data-badge="jobType-Telecommunications operator">0</span></label>
+            <label><input data-filter="jobType" type="checkbox" value="Opérateur en télécommunications"><span class="cb-text">Opérateur en télécommunications (répartiteur 9-1-1)</span><span aria-hidden="true" class="wp-filter-badge" data-badge="jobType-Opérateur en télécommunications">0</span></label>
           </div>
         </fieldset>
       </details>
       <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
-          <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Event format</span>
+          <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Format de l'événement</span>
         </summary>
         <fieldset>
-          <legend class="wb-inv">Event format</legend>
+          <legend class="wb-inv">Format de l'événement</legend>
           <div class="checkbox">
-            <label><input data-filter="format" type="checkbox" value="In person"><span class="cb-text">In person</span><span class="wp-filter-badge" data-badge="format-In person">0</span></label>
+            <label><input data-filter="format" type="checkbox" value="In person"><span class="cb-text">En personne</span><span aria-hidden="true" class="wp-filter-badge" data-badge="format-In person">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="format" type="checkbox" value="Virtual"><span class="cb-text">Virtual</span><span class="wp-filter-badge" data-badge="format-Virtual">0</span></label>
+            <label><input data-filter="format" type="checkbox" value="Virtual"><span class="cb-text">Virtuel</span><span aria-hidden="true" class="wp-filter-badge" data-badge="format-Virtual">0</span></label>
           </div>
         </fieldset>
       </details>
       <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
-          <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Language of the event</span>
+          <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Langue de l'événement</span>
         </summary>
         <fieldset>
-          <legend class="wb-inv">Language of the event</legend>
+          <legend class="wb-inv">Langue de l'événement</legend>
           <div class="checkbox">
-            <label><input data-filter="language" type="checkbox" value="English"><span class="cb-text">English</span><span class="wp-filter-badge" data-badge="language-English">0</span></label>
+            <label><input data-filter="language" type="checkbox" value="English"><span class="cb-text">Anglais</span><span aria-hidden="true" class="wp-filter-badge" data-badge="language-English">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="language" type="checkbox" value="French"><span class="cb-text">French</span><span class="wp-filter-badge" data-badge="language-French">0</span></label>
+            <label><input data-filter="language" type="checkbox" value="French"><span class="cb-text">Français</span><span aria-hidden="true" class="wp-filter-badge" data-badge="language-French">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="language" type="checkbox" value="English and French"><span class="cb-text">English and French</span><span class="wp-filter-badge" data-badge="language-English and French">0</span></label>
+            <label><input data-filter="language" type="checkbox" value="English and French"><span class="cb-text">Français et anglais</span><span aria-hidden="true" class="wp-filter-badge" data-badge="language-English and French">0</span></label>
           </div>
         </fieldset>
-      </details><button class="btn btn-default btn-block mrgn-tp-md" id="re-clear-filters" type="button">Clear filters</button>
+      </details><button class="btn btn-default btn-block mrgn-tp-md" id="re-clear-filters" type="button">Effacer les filtres</button>
     </aside>
   </div>
   <div class="col-md-9 col-sm-8" id="re-results-col">
-    <div aria-label="Active filters" aria-live="polite" id="re-active-filters" role="status" style="display:none;"></div>
+    <div aria-label="Filtres actifs" aria-live="polite" id="re-active-filters" role="status" style="display:none;"></div>
     <div id="re-toolbar">
-      <p aria-live="polite" id="re-count"><strong id="re-count-num">0</strong>&nbsp;events found</p>
+      <p aria-live="polite" id="re-count"><strong id="re-count-num">0</strong>&nbsp;événements trouvés</p>
     </div>
-    <ul aria-label="Recruiting events" class="list-unstyled" id="re-grid" role="list"></ul>
-    <p id="re-no-results" style="display:none;">No events match your current filters.</p>
+    <ul aria-label="Événements de recrutement" class="list-unstyled" id="re-grid" role="list"></ul>
+    <p id="re-no-results" style="display:none;">Aucun événement ne correspond à vos filtres.</p>
     <nav aria-label="Pagination" class="rcmp-item-pagination" id="re-pagination">
       <div class="rcmp-item-pagination__prev" id="re-prev-wrap">
-        <button aria-label="Previous page" class="rcmp-item-pagination__link" id="re-prev" type="button"><i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-left"></i> <span class="rcmp-item-pagination__link-title">Previous <span class="rcmp-visually-hidden">page</span></span></button>
+        <button aria-label="Page précédente" class="rcmp-item-pagination__link" id="re-prev" type="button"><i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-left"></i> <span class="rcmp-item-pagination__link-title">Précédent <span class="rcmp-visually-hidden">page</span></span></button>
       </div>
       <ul class="rcmp-item-pagination__list" id="re-page-list"></ul>
       <div class="rcmp-item-pagination__next" id="re-next-wrap">
-        <button aria-label="Next page" class="rcmp-item-pagination__link" id="re-next" type="button"><span class="rcmp-item-pagination__link-title">Next <span class="rcmp-visually-hidden">page</span></span> <i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-right"></i></button>
+        <button aria-label="Page suivante" class="rcmp-item-pagination__link" id="re-next" type="button"><span class="rcmp-item-pagination__link-title">Suivant <span class="rcmp-visually-hidden">page</span></span> <i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-right"></i></button>
       </div>
     </nav>
   </div>

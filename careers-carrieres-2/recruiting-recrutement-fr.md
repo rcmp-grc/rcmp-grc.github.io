@@ -164,8 +164,11 @@ custom_css: /assets/css/careers.css
   </div>
 </div>
 
-<script>(function() {
-    'use strict'; {
+<script>
+(function() {
+  'use strict';
+  var EVENTS = [{
+      title: 'Présentation de carrière – Vancouver',
       title: 'Présentation de carrière – Vancouver',
       city: 'Vancouver',
       province: 'Colombie-Britannique',
@@ -525,7 +528,7 @@ custom_css: /assets/css/careers.css
       time: '8 h',
       date: '2026-10-23',
       cancelled: false
-    }];
+  }];
   var LANG = document.documentElement.lang && document.documentElement.lang.slice(0, 2) === 'fr' ? 'fr' : 'en';
   var TZ_LABEL = {
     en: {
@@ -699,12 +702,12 @@ custom_css: /assets/css/careers.css
         if (idx > 0) {
           var sep = document.createElement('span');
           sep.className = 'wp-filter-tag-sep';
-          sep.textContent = 'or';
+          sep.textContent = LANG === 'fr' ? 'ou' : 'or';
           tagsWrap.appendChild(sep);
         }
         var tag = document.createElement('span');
         tag.className = 'wp-filter-tag';
-        tag.innerHTML = val + ' <button type="button" aria-label="Remove filter: ' + val + '">\u2715</button>';
+        tag.innerHTML = val + ' <button type="button" aria-label="' + (LANG === 'fr' ? 'Supprimer le filtre : ' : 'Remove filter: ') + val + '">\u2715</button>';
         tag.querySelector('button').addEventListener('click', function() {
           var cb = document.querySelector('input[data-filter="' + cat + '"][value="' + val + '"]');
           if (cb) {
@@ -746,7 +749,7 @@ custom_css: /assets/css/careers.css
       var formatBadge = '<span class="re-card-format-badge re-card-format-badge--' + (e.format === 'Virtual' ? 'virtual' : 'inperson') + '">' + formatBadgeLabel + '</span>';
       var li = document.createElement('li');
       li.className = 're-card' + (e.cancelled ? ' re-card--cancelled' : '');
-      li.innerHTML = formatBadge + '<div class="re-card-body">' + cancelledBadge + '<h3 class="re-card-title"><a href="event-evenement-en.html">' + e.title + '</a></h3>' + '<ul class="re-card-meta list-unstyled">' + (locationLine ? '<li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> ' + locationLine + '</li>' : '') + '<li><i class="fa-regular fa-lightbulb" aria-hidden="true"></i> ' + e.eventType + ' \u2013 ' + e.jobType + '</li>' + '<li><i class="fa-regular fa-calendar" aria-hidden="true"></i> ' + formatDate(e.date) + ' ' + e.time + tzLabel + '</li>' + '</ul>' + '</div>';
+      li.innerHTML = formatBadge + '<div class="re-card-body">' + cancelledBadge + '<h3 class="re-card-title"><a href="event-evenement-fr.html">' + e.title + '</a></h3>' + '<ul class="re-card-meta list-unstyled">' + (locationLine ? '<li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> ' + locationLine + '</li>' : '') + '<li><i class="fa-regular fa-lightbulb" aria-hidden="true"></i> ' + e.eventType + ' \u2013 ' + e.jobType + '</li>' + '<li><i class="fa-regular fa-calendar" aria-hidden="true"></i> ' + formatDate(e.date) + ' ' + e.time + tzLabel + '</li>' + '</ul>' + '</div>';
       grid.appendChild(li);
     });
   }

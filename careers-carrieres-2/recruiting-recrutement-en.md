@@ -85,7 +85,7 @@ custom_css: /assets/css/careers.css
           <div class="checkbox"><label><input data-filter="language" type="checkbox" value="English and French"><span class="cb-text">English and French</span><span class="wp-filter-badge" data-badge="language-English and French">0</span></label></div>
         </fieldset>
       </details>
-      <button class="btn btn-default btn-block btn-sm mrgn-tp-md" id="re-clear-filters" type="button">Clear filters</button>
+      <button class="btn btn-default btn-block mrgn-tp-md" id="re-clear-filters" type="button">Clear filters</button>
     </aside>
   </div>
   <div class="col-md-9 col-sm-8" id="re-results-col">

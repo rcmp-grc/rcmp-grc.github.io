@@ -129,7 +129,7 @@ custom_css: /assets/css/careers.css
     <div id="re-toolbar">
       <p aria-live="polite" id="re-count"><strong id="re-count-num">0</strong>&nbsp;events found</p>
     </div>
-    <ul aria-label="Recruiting events" class="list-unstyled" id="re-grid" role="list"></ul>
+    <ul aria-label="Recruiting events" class="list-unstyled" id="re-grid"></ul>
     <p id="re-no-results" style="display:none;">No events match your current filters.</p>
     <nav aria-label="Pagination" class="rcmp-item-pagination" id="re-pagination">
       <div class="rcmp-item-pagination__prev" id="re-prev-wrap">

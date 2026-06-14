@@ -101,14 +101,14 @@ custom_css: /assets/css/careers.css
         </summary>
         <fieldset>
           <legend class="wb-inv">Type of job</legend>
-          <div class="checkbox">
-            <label><input data-filter="jobType" type="checkbox" value="Community constable"><span class="cb-text">Community constable</span><span class="wp-filter-badge" data-badge="jobType-Community constable">0</span></label>
+          <div class="radio">
+            <label><input data-filter="jobType" type="radio" name="jobType" value="Community constable"><span class="cb-text">Community constable</span><span class="wp-filter-badge" data-badge="jobType-Community constable" aria-hidden="true">0</span></label>
           </div>
-          <div class="checkbox">
-            <label><input data-filter="jobType" type="checkbox" value="Police officer"><span class="cb-text">Police officer</span><span class="wp-filter-badge" data-badge="jobType-Police officer">0</span></label>
+          <div class="radio">
+            <label><input data-filter="jobType" type="radio" name="jobType" value="Police officer"><span class="cb-text">Police officer</span><span class="wp-filter-badge" data-badge="jobType-Police officer" aria-hidden="true">0</span></label>
           </div>
-          <div class="checkbox">
-            <label><input data-filter="jobType" type="checkbox" value="Telecommunications operator"><span class="cb-text">Telecommunications operator (9-1-1 dispatcher)</span><span class="wp-filter-badge" data-badge="jobType-Telecommunications operator">0</span></label>
+          <div class="radio">
+            <label><input data-filter="jobType" type="radio" name="jobType" value="Telecommunications operator"><span class="cb-text">Telecommunications operator (9-1-1 dispatcher)</span><span class="wp-filter-badge" data-badge="jobType-Telecommunications operator" aria-hidden="true">0</span></label>
           </div>
         </fieldset>
       </details>
@@ -118,12 +118,8 @@ custom_css: /assets/css/careers.css
         </summary>
         <fieldset>
           <legend class="wb-inv">Event format</legend>
-          <div class="checkbox">
-            <label><input data-filter="format" type="checkbox" value="In person"><span class="cb-text">In person</span><span class="wp-filter-badge" data-badge="format-In person">0</span></label>
-          </div>
-          <div class="checkbox">
-            <label><input data-filter="format" type="checkbox" value="Virtual"><span class="cb-text">Virtual</span><span class="wp-filter-badge" data-badge="format-Virtual">0</span></label>
-          </div>
+          <div class="radio"><label><input data-filter="format" type="radio" name="format" value="In person"><span class="cb-text">In person</span><span class="wp-filter-badge" data-badge="format-In person" aria-hidden="true">0</span></label></div>
+          <div class="radio"><label><input data-filter="format" type="radio" name="format" value="Virtual"><span class="cb-text">Virtual</span><span class="wp-filter-badge" data-badge="format-Virtual" aria-hidden="true">0</span></label></div>
         </fieldset>
       </details>
       <details class="wp-filter-group">
@@ -132,15 +128,9 @@ custom_css: /assets/css/careers.css
         </summary>
         <fieldset>
           <legend class="wb-inv">Language of the event</legend>
-          <div class="checkbox">
-            <label><input data-filter="language" type="checkbox" value="English"><span class="cb-text">English</span><span class="wp-filter-badge" data-badge="language-English">0</span></label>
-          </div>
-          <div class="checkbox">
-            <label><input data-filter="language" type="checkbox" value="French"><span class="cb-text">French</span><span class="wp-filter-badge" data-badge="language-French">0</span></label>
-          </div>
-          <div class="checkbox">
-            <label><input data-filter="language" type="checkbox" value="English and French"><span class="cb-text">English and French</span><span class="wp-filter-badge" data-badge="language-English and French">0</span></label>
-          </div>
+          <div class="radio"><label><input data-filter="language" type="radio" name="language" value="English"><span class="cb-text">English</span><span class="wp-filter-badge" data-badge="language-English" aria-hidden="true">0</span></label></div>
+          <div class="radio"><label><input data-filter="language" type="radio" name="language" value="French"><span class="cb-text">French</span><span class="wp-filter-badge" data-badge="language-French" aria-hidden="true">0</span></label></div>
+          <div class="radio"><label><input data-filter="language" type="radio" name="language" value="English and French"><span class="cb-text">English and French</span><span class="wp-filter-badge" data-badge="language-English and French" aria-hidden="true">0</span></label></div>
         </fieldset>
       </details><button class="btn btn-default btn-block mrgn-tp-md" id="re-clear-filters" type="button">Clear filters</button>
     </aside>
@@ -657,16 +647,16 @@ custom_css: /assets/css/careers.css
     });
   }
 
+  var checkboxes = document.querySelectorAll('#re-filters input[type="checkbox"]');
+  var radios     = document.querySelectorAll('#re-filters input[type="radio"]');
+
   function getActiveFilters() {
-    var active = {
-      province: [],
-      eventType: [],
-      jobType: [],
-      format: [],
-      language: []
-    };
-    Array.prototype.forEach.call(checkboxes, function(cb) {
+    var active = { province: [], eventType: [], jobType: [], format: [], language: [] };
+    Array.prototype.forEach.call(checkboxes, function (cb) {
       if (cb.checked) active[cb.dataset.filter].push(cb.value);
+    });
+    Array.prototype.forEach.call(radios, function (rb) {
+      if (rb.checked) active[rb.dataset.filter].push(rb.value);
     });
     return active;
   }
@@ -837,10 +827,9 @@ custom_css: /assets/css/careers.css
   Array.prototype.forEach.call(checkboxes, function(cb) {
     cb.addEventListener('change', refresh);
   });
-  clearBtn.addEventListener('click', function() {
-    Array.prototype.forEach.call(checkboxes, function(cb) {
-      cb.checked = false;
-    });
+  clearBtn.addEventListener('click', function () {
+    Array.prototype.forEach.call(checkboxes, function (cb) { cb.checked = false; });
+    Array.prototype.forEach.call(radios, function (rb) { rb.checked = false; });
     refresh();
   });
   prevBtn.addEventListener('click', function() {

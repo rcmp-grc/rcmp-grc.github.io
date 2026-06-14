@@ -95,44 +95,33 @@ custom_css: /assets/css/careers.css
           </div>
         </fieldset>
       </details>
-      <details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle">
-          <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Type of job</span>
-        </summary>
-        <fieldset>
-          <legend class="wb-inv">Type of job</legend>
-          <div class="radio">
-            <label><input data-filter="jobType" type="radio" name="jobType" value="Community constable"><span class="cb-text">Community constable</span><span class="wp-filter-badge" data-badge="jobType-Community constable" aria-hidden="true">0</span></label>
-          </div>
-          <div class="radio">
-            <label><input data-filter="jobType" type="radio" name="jobType" value="Police officer"><span class="cb-text">Police officer</span><span class="wp-filter-badge" data-badge="jobType-Police officer" aria-hidden="true">0</span></label>
-          </div>
-          <div class="radio">
-            <label><input data-filter="jobType" type="radio" name="jobType" value="Telecommunications operator"><span class="cb-text">Telecommunications operator (9-1-1 dispatcher)</span><span class="wp-filter-badge" data-badge="jobType-Telecommunications operator" aria-hidden="true">0</span></label>
-          </div>
-        </fieldset>
-      </details>
-      <details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle">
-          <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Event format</span>
-        </summary>
-        <fieldset>
-          <legend class="wb-inv">Event format</legend>
-          <div class="radio"><label><input data-filter="format" type="radio" name="format" value="In person"><span class="cb-text">In person</span><span class="wp-filter-badge" data-badge="format-In person" aria-hidden="true">0</span></label></div>
-          <div class="radio"><label><input data-filter="format" type="radio" name="format" value="Virtual"><span class="cb-text">Virtual</span><span class="wp-filter-badge" data-badge="format-Virtual" aria-hidden="true">0</span></label></div>
-        </fieldset>
-      </details>
-      <details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle">
-          <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Language of the event</span>
-        </summary>
-        <fieldset>
-          <legend class="wb-inv">Language of the event</legend>
-          <div class="radio"><label><input data-filter="language" type="radio" name="language" value="English"><span class="cb-text">English</span><span class="wp-filter-badge" data-badge="language-English" aria-hidden="true">0</span></label></div>
-          <div class="radio"><label><input data-filter="language" type="radio" name="language" value="French"><span class="cb-text">French</span><span class="wp-filter-badge" data-badge="language-French" aria-hidden="true">0</span></label></div>
-          <div class="radio"><label><input data-filter="language" type="radio" name="language" value="English and French"><span class="cb-text">English and French</span><span class="wp-filter-badge" data-badge="language-English and French" aria-hidden="true">0</span></label></div>
-        </fieldset>
-      </details><button class="btn btn-default btn-block mrgn-tp-md" id="re-clear-filters" type="button">Clear filters</button>
+      <div class="re-select-group">
+        <label class="re-select-label" for="re-select-jobType">Type of job</label>
+        <select class="re-select" id="re-select-jobType" data-filter="jobType">
+          <option value="">All job types</option>
+          <option value="Community constable">Community constable</option>
+          <option value="Police officer">Police officer</option>
+          <option value="Telecommunications operator">Telecommunications operator (9-1-1 dispatcher)</option>
+        </select>
+      </div>
+      <div class="re-select-group">
+        <label class="re-select-label" for="re-select-format">Event format</label>
+        <select class="re-select" id="re-select-format" data-filter="format">
+          <option value="">All formats</option>
+          <option value="In person">In person</option>
+          <option value="Virtual">Virtual</option>
+        </select>
+      </div>
+      <div class="re-select-group">
+        <label class="re-select-label" for="re-select-language">Language of the event</label>
+        <select class="re-select" id="re-select-language" data-filter="language">
+          <option value="">All languages</option>
+          <option value="English">English</option>
+          <option value="French">French</option>
+          <option value="English and French">English and French</option>
+        </select>
+      </div>
+      <button class="btn btn-default btn-block mrgn-tp-md" id="re-clear-filters" type="button">Clear filters</button>
     </aside>
   </div>
   <div class="col-md-9 col-sm-8" id="re-results-col">
@@ -624,15 +613,16 @@ custom_css: /assets/css/careers.css
   var PER_PAGE = 10;
   var currentPage = 1;
   var activeData = EVENTS.slice();
-  var checkboxes = document.querySelectorAll('#re-filters input[type="checkbox"]');
-  var clearBtn = document.getElementById('re-clear-filters');
-  var countNumEl = document.getElementById('re-count-num');
+  var checkboxes  = document.querySelectorAll('#re-filters input[type="checkbox"]');
+  var selects     = document.querySelectorAll('#re-filters select.re-select');
+  var clearBtn    = document.getElementById('re-clear-filters');
+  var countNumEl  = document.getElementById('re-count-num');
   var activeTagEl = document.getElementById('re-active-filters');
-  var grid = document.getElementById('re-grid');
-  var noResults = document.getElementById('re-no-results');
-  var pagination = document.getElementById('re-pagination');
-  var prevBtn = document.getElementById('re-prev');
-  var nextBtn = document.getElementById('re-next');
+  var grid        = document.getElementById('re-grid');
+  var noResults   = document.getElementById('re-no-results');
+  var pagination  = document.getElementById('re-pagination');
+  var prevBtn     = document.getElementById('re-prev');
+  var nextBtn     = document.getElementById('re-next');
 
   function updateBadges() {
     var badgeEls = document.querySelectorAll('[data-badge]');
@@ -647,16 +637,13 @@ custom_css: /assets/css/careers.css
     });
   }
 
-  var checkboxes = document.querySelectorAll('#re-filters input[type="checkbox"]');
-  var radios     = document.querySelectorAll('#re-filters input[type="radio"]');
-
-  function getActiveFilters() {
+   function getActiveFilters() {
     var active = { province: [], eventType: [], jobType: [], format: [], language: [] };
     Array.prototype.forEach.call(checkboxes, function (cb) {
       if (cb.checked) active[cb.dataset.filter].push(cb.value);
     });
-    Array.prototype.forEach.call(radios, function (rb) {
-      if (rb.checked) active[rb.dataset.filter].push(rb.value);
+    Array.prototype.forEach.call(selects, function (sel) {
+      if (sel.value) active[sel.dataset.filter].push(sel.value);
     });
     return active;
   }
@@ -703,8 +690,11 @@ custom_css: /assets/css/careers.css
           var cb = document.querySelector('input[data-filter="' + cat + '"][value="' + val + '"]');
           if (cb) {
             cb.checked = false;
-            refresh();
+          } else {
+            var sel = document.querySelector('select[data-filter="' + cat + '"]');
+            if (sel) sel.value = '';
           }
+          refresh();
         });
         tagsWrap.appendChild(tag);
       });
@@ -827,9 +817,12 @@ custom_css: /assets/css/careers.css
   Array.prototype.forEach.call(checkboxes, function(cb) {
     cb.addEventListener('change', refresh);
   });
+  Array.prototype.forEach.call(selects, function(sel) {
+    sel.addEventListener('change', refresh);
+  });
   clearBtn.addEventListener('click', function () {
     Array.prototype.forEach.call(checkboxes, function (cb) { cb.checked = false; });
-    Array.prototype.forEach.call(radios, function (rb) { rb.checked = false; });
+    Array.prototype.forEach.call(selects, function (sel) { sel.value = ''; });
     refresh();
   });
   prevBtn.addEventListener('click', function() {
@@ -864,13 +857,9 @@ custom_css: /assets/css/careers.css
     jVals.forEach(function(id) {
       var name = JOBTYPE_ID[LANG][parseInt(id, 10)];
       if (!name) return;
-      var cb = document.querySelector('input[data-filter="jobType"][value="' + name + '"]');
-      if (cb) {
-        cb.checked = true;
-        openCats['jobType'] = true;
-      }
+      var sel = document.querySelector('select[data-filter="jobType"]');
+      if (sel) sel.value = name;
     });
-    /* Open only the accordion groups that have active query filters */
     Object.keys(openCats).forEach(function(cat) {
       var cb = document.querySelector('input[data-filter="' + cat + '"]');
       if (cb) {

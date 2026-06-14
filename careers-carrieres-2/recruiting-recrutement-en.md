@@ -165,44 +165,370 @@ custom_css: /assets/css/careers.css
 </div>
 
 <script>
-(function () {
+(function() {
   'use strict';
-
-var EVENTS = [
-    { title: 'Vancouver Career Presentation',               city: 'Vancouver',       province: 'British Columbia',          tz: 'PT', eventType: 'Career presentation',                   jobType: 'Police officer',                      format: 'In person', language: 'English',            time: '6:00 p.m.',  date: '2026-07-10', cancelled: false },
-    { title: 'Calgary Career Fair',                         city: 'Calgary',         province: 'Alberta',                   tz: 'MT', eventType: 'Career fair',                           jobType: 'Police officer',                      format: 'In person', language: 'English',            time: '10:00 a.m.', date: '2026-07-14', cancelled: false },
-    { title: 'National Ask-a-Recruiter Session',            city: '',                province: 'Ontario',                   tz: 'ET', eventType: 'Ask-a-recruiter',                       jobType: 'Police officer',                      format: 'Virtual',   language: 'English and French', time: '1:00 p.m.',  date: '2026-07-16', cancelled: false },
-    { title: 'Toronto Police Fitness Assessment Workshop',  city: 'Toronto',         province: 'Ontario',                   tz: 'ET', eventType: 'Police fitness assessment workshop',    jobType: 'Police officer',                      format: 'In person', language: 'English',            time: '8:30 a.m.',  date: '2026-07-18', cancelled: false },
-    { title: 'Moncton Community Constable Presentation',    city: 'Moncton',         province: 'New Brunswick',             tz: 'AT', eventType: 'Career presentation',                   jobType: 'Community constable',                 format: 'In person', language: 'English and French', time: '5:30 p.m.',  date: '2026-07-22', cancelled: false },
-    { title: 'Online Entrance Assessment Workshop',         city: '',                province: 'British Columbia',          tz: 'PT', eventType: 'Online entrance assessment workshop',   jobType: 'Police officer',                      format: 'Virtual',   language: 'English',            time: '2:00 p.m.',  date: '2026-07-24', cancelled: false },
-    { title: 'Winnipeg Telecom Operator Career Fair',       city: 'Winnipeg',        province: 'Manitoba',                  tz: 'CT', eventType: 'Career fair',                           jobType: 'Telecommunications operator',         format: 'In person', language: 'English',            time: '11:00 a.m.', date: '2026-07-28', cancelled: false },
-    { title: 'Halifax Special Recruiting Event',            city: 'Halifax',         province: 'Nova Scotia',               tz: 'AT', eventType: 'Special event',                         jobType: 'Police officer',                      format: 'In person', language: 'English',            time: '9:00 a.m.',  date: '2026-08-02', cancelled: false },
-    { title: 'Edmonton Fitness Test Session',               city: 'Edmonton',        province: 'Alberta',                   tz: 'MT', eventType: 'Police fitness assessment test session', jobType: 'Police officer',                      format: 'In person', language: 'English',            time: '7:00 a.m.',  date: '2026-08-05', cancelled: true  },
-    { title: 'Saskatoon Community Constable Workshop',      city: 'Saskatoon',       province: 'Saskatchewan',              tz: 'CT', eventType: 'Workshop',                              jobType: 'Community constable',                 format: 'In person', language: 'English',            time: '10:30 a.m.', date: '2026-08-08', cancelled: false },
-    { title: 'Séance questions-réponses – Québec',          city: '',                province: 'Quebec',                    tz: 'ET', eventType: 'Ask-a-recruiter',                       jobType: 'Police officer',                      format: 'Virtual',   language: 'French',             time: '3:00 p.m.',  date: '2026-08-12', cancelled: false },
-    { title: 'Whitehorse Community Constable Presentation', city: 'Whitehorse',      province: 'Yukon',                     tz: 'YT', eventType: 'Career presentation',                   jobType: 'Community constable',                 format: 'In person', language: 'English',            time: '1:00 p.m.',  date: '2026-08-15', cancelled: false },
-    { title: "St. John's Career Fair",                      city: "St. John's",      province: 'Newfoundland and Labrador', tz: 'NT', eventType: 'Career fair',                           jobType: 'Police officer',                      format: 'In person', language: 'English',            time: '11:00 a.m.', date: '2026-08-19', cancelled: false },
-    { title: 'Charlottetown Career Presentation',           city: 'Charlottetown',   province: 'Prince Edward Island',      tz: 'AT', eventType: 'Career presentation',                   jobType: 'Police officer',                      format: 'In person', language: 'English',            time: '6:00 p.m.',  date: '2026-08-21', cancelled: false },
-    { title: 'Yellowknife Special Recruiting Event',        city: 'Yellowknife',     province: 'Northwest Territories',     tz: 'MT', eventType: 'Special event',                         jobType: 'Community constable',                 format: 'In person', language: 'English',            time: '10:00 a.m.', date: '2026-08-25', cancelled: false },
-    { title: 'Iqaluit Community Constable Workshop',        city: 'Iqaluit',         province: 'Nunavut',                   tz: 'ET', eventType: 'Workshop',                              jobType: 'Community constable',                 format: 'In person', language: 'English',            time: '1:00 p.m.',  date: '2026-08-27', cancelled: false },
-    { title: 'National Online Fitness Assessment Workshop', city: '',                province: 'Alberta',                   tz: 'MT', eventType: 'Police fitness assessment workshop',    jobType: 'Police officer',                      format: 'Virtual',   language: 'English',            time: '9:00 a.m.',  date: '2026-09-03', cancelled: false },
-    { title: 'Regina Police Officer Career Fair',           city: 'Regina',          province: 'Saskatchewan',              tz: 'CT', eventType: 'Career fair',                           jobType: 'Police officer',                      format: 'In person', language: 'English',            time: '10:00 a.m.', date: '2026-09-08', cancelled: false },
-    { title: 'Victoria Ask-a-Recruiter Session',            city: 'Victoria',        province: 'British Columbia',          tz: 'PT', eventType: 'Ask-a-recruiter',                       jobType: 'Police officer',                      format: 'In person', language: 'English',            time: '5:00 p.m.',  date: '2026-09-10', cancelled: false },
-    { title: 'Ottawa Bilingual Career Presentation',        city: 'Ottawa',          province: 'Ontario',                   tz: 'ET', eventType: 'Career presentation',                   jobType: 'Police officer',                      format: 'In person', language: 'English and French', time: '6:30 p.m.',  date: '2026-09-15', cancelled: true  },
-    { title: 'Montréal Career Fair',                        city: 'Montréal',        province: 'Quebec',                    tz: 'ET', eventType: 'Career fair',                           jobType: 'Police officer',                      format: 'In person', language: 'French',             time: '11:00 a.m.', date: '2026-09-18', cancelled: false },
-    { title: 'Fredericton Telecom Operator Presentation',   city: 'Fredericton',     province: 'New Brunswick',             tz: 'AT', eventType: 'Career presentation',                   jobType: 'Telecommunications operator',         format: 'In person', language: 'English and French', time: '2:00 p.m.',  date: '2026-09-22', cancelled: false },
-    { title: 'Kelowna Fitness Test Session',                city: 'Kelowna',         province: 'British Columbia',          tz: 'PT', eventType: 'Police fitness assessment test session', jobType: 'Police officer',                      format: 'In person', language: 'English',            time: '8:00 a.m.',  date: '2026-09-25', cancelled: false },
-    { title: 'National Virtual Ask-a-Recruiter',            city: '',                province: 'Manitoba',                  tz: 'CT', eventType: 'Ask-a-recruiter',                       jobType: 'Telecommunications operator',         format: 'Virtual',   language: 'English',            time: '12:00 p.m.', date: '2026-09-29', cancelled: false },
-    { title: 'Thunder Bay Career Presentation',             city: 'Thunder Bay',     province: 'Ontario',                   tz: 'ET', eventType: 'Career presentation',                   jobType: 'Police officer',                      format: 'In person', language: 'English',            time: '6:00 p.m.',  date: '2026-10-02', cancelled: true  },
-    { title: 'Lethbridge Police Officer Presentation',      city: 'Lethbridge',      province: 'Alberta',                   tz: 'MT', eventType: 'Career presentation',                   jobType: 'Police officer',                      format: 'In person', language: 'English',            time: '7:00 p.m.',  date: '2026-10-06', cancelled: false },
-    { title: 'Sudbury Career Fair',                         city: 'Sudbury',         province: 'Ontario',                   tz: 'ET', eventType: 'Career fair',                           jobType: 'Police officer',                      format: 'In person', language: 'English and French', time: '10:00 a.m.', date: '2026-10-09', cancelled: false },
-    { title: 'Abbotsford Community Constable Workshop',     city: 'Abbotsford',      province: 'British Columbia',          tz: 'PT', eventType: 'Workshop',                              jobType: 'Community constable',                 format: 'In person', language: 'English',            time: '9:00 a.m.',  date: '2026-10-14', cancelled: false },
-    { title: 'National Online Ask-a-Recruiter – Telecom',  city: '',                province: 'New Brunswick',             tz: 'AT', eventType: 'Ask-a-recruiter',                       jobType: 'Telecommunications operator',         format: 'Virtual',   language: 'English and French', time: '2:00 p.m.',  date: '2026-10-20', cancelled: false },
-    { title: 'Kamloops Fitness Assessment Workshop',        city: 'Kamloops',        province: 'British Columbia',          tz: 'PT', eventType: 'Police fitness assessment workshop',    jobType: 'Police officer',                      format: 'In person', language: 'English',            time: '8:00 a.m.',  date: '2026-10-23', cancelled: false }
-  ];
-
+  var EVENTS = [{
+    title: 'Vancouver Career Presentation',
+    city: 'Vancouver',
+    province: 'British Columbia',
+    tz: 'PT',
+    eventType: 'Career presentation',
+    jobType: 'Police officer',
+    format: 'In person',
+    language: 'English',
+    time: '6:00 p.m.',
+    date: '2026-07-10',
+    cancelled: false
+  }, {
+    title: 'Calgary Career Fair',
+    city: 'Calgary',
+    province: 'Alberta',
+    tz: 'MT',
+    eventType: 'Career fair',
+    jobType: 'Police officer',
+    format: 'In person',
+    language: 'English',
+    time: '10:00 a.m.',
+    date: '2026-07-14',
+    cancelled: false
+  }, {
+    title: 'National Ask-a-Recruiter Session',
+    city: '',
+    province: 'Ontario',
+    tz: 'ET',
+    eventType: 'Ask-a-recruiter',
+    jobType: 'Police officer',
+    format: 'Virtual',
+    language: 'English and French',
+    time: '1:00 p.m.',
+    date: '2026-07-16',
+    cancelled: false
+  }, {
+    title: 'Toronto Police Fitness Assessment Workshop',
+    city: 'Toronto',
+    province: 'Ontario',
+    tz: 'ET',
+    eventType: 'Police fitness assessment workshop',
+    jobType: 'Police officer',
+    format: 'In person',
+    language: 'English',
+    time: '8:30 a.m.',
+    date: '2026-07-18',
+    cancelled: false
+  }, {
+    title: 'Moncton Community Constable Presentation',
+    city: 'Moncton',
+    province: 'New Brunswick',
+    tz: 'AT',
+    eventType: 'Career presentation',
+    jobType: 'Community constable',
+    format: 'In person',
+    language: 'English and French',
+    time: '5:30 p.m.',
+    date: '2026-07-22',
+    cancelled: false
+  }, {
+    title: 'Online Entrance Assessment Workshop',
+    city: '',
+    province: 'British Columbia',
+    tz: 'PT',
+    eventType: 'Online entrance assessment workshop',
+    jobType: 'Police officer',
+    format: 'Virtual',
+    language: 'English',
+    time: '2:00 p.m.',
+    date: '2026-07-24',
+    cancelled: false
+  }, {
+    title: 'Winnipeg Telecom Operator Career Fair',
+    city: 'Winnipeg',
+    province: 'Manitoba',
+    tz: 'CT',
+    eventType: 'Career fair',
+    jobType: 'Telecommunications operator',
+    format: 'In person',
+    language: 'English',
+    time: '11:00 a.m.',
+    date: '2026-07-28',
+    cancelled: false
+  }, {
+    title: 'Halifax Special Recruiting Event',
+    city: 'Halifax',
+    province: 'Nova Scotia',
+    tz: 'AT',
+    eventType: 'Special event',
+    jobType: 'Police officer',
+    format: 'In person',
+    language: 'English',
+    time: '9:00 a.m.',
+    date: '2026-08-02',
+    cancelled: false
+  }, {
+    title: 'Edmonton Fitness Test Session',
+    city: 'Edmonton',
+    province: 'Alberta',
+    tz: 'MT',
+    eventType: 'Police fitness assessment test session',
+    jobType: 'Police officer',
+    format: 'In person',
+    language: 'English',
+    time: '7:00 a.m.',
+    date: '2026-08-05',
+    cancelled: true
+  }, {
+    title: 'Saskatoon Community Constable Workshop',
+    city: 'Saskatoon',
+    province: 'Saskatchewan',
+    tz: 'CT',
+    eventType: 'Workshop',
+    jobType: 'Community constable',
+    format: 'In person',
+    language: 'English',
+    time: '10:30 a.m.',
+    date: '2026-08-08',
+    cancelled: false
+  }, {
+    title: 'Séance questions-réponses – Québec',
+    city: '',
+    province: 'Quebec',
+    tz: 'ET',
+    eventType: 'Ask-a-recruiter',
+    jobType: 'Police officer',
+    format: 'Virtual',
+    language: 'French',
+    time: '3:00 p.m.',
+    date: '2026-08-12',
+    cancelled: false
+  }, {
+    title: 'Whitehorse Community Constable Presentation',
+    city: 'Whitehorse',
+    province: 'Yukon',
+    tz: 'YT',
+    eventType: 'Career presentation',
+    jobType: 'Community constable',
+    format: 'In person',
+    language: 'English',
+    time: '1:00 p.m.',
+    date: '2026-08-15',
+    cancelled: false
+  }, {
+    title: "St. John's Career Fair",
+    city: "St. John's",
+    province: 'Newfoundland and Labrador',
+    tz: 'NT',
+    eventType: 'Career fair',
+    jobType: 'Police officer',
+    format: 'In person',
+    language: 'English',
+    time: '11:00 a.m.',
+    date: '2026-08-19',
+    cancelled: false
+  }, {
+    title: 'Charlottetown Career Presentation',
+    city: 'Charlottetown',
+    province: 'Prince Edward Island',
+    tz: 'AT',
+    eventType: 'Career presentation',
+    jobType: 'Police officer',
+    format: 'In person',
+    language: 'English',
+    time: '6:00 p.m.',
+    date: '2026-08-21',
+    cancelled: false
+  }, {
+    title: 'Yellowknife Special Recruiting Event',
+    city: 'Yellowknife',
+    province: 'Northwest Territories',
+    tz: 'MT',
+    eventType: 'Special event',
+    jobType: 'Community constable',
+    format: 'In person',
+    language: 'English',
+    time: '10:00 a.m.',
+    date: '2026-08-25',
+    cancelled: false
+  }, {
+    title: 'Iqaluit Community Constable Workshop',
+    city: 'Iqaluit',
+    province: 'Nunavut',
+    tz: 'ET',
+    eventType: 'Workshop',
+    jobType: 'Community constable',
+    format: 'In person',
+    language: 'English',
+    time: '1:00 p.m.',
+    date: '2026-08-27',
+    cancelled: false
+  }, {
+    title: 'National Online Fitness Assessment Workshop',
+    city: '',
+    province: 'Alberta',
+    tz: 'MT',
+    eventType: 'Police fitness assessment workshop',
+    jobType: 'Police officer',
+    format: 'Virtual',
+    language: 'English',
+    time: '9:00 a.m.',
+    date: '2026-09-03',
+    cancelled: false
+  }, {
+    title: 'Regina Police Officer Career Fair',
+    city: 'Regina',
+    province: 'Saskatchewan',
+    tz: 'CT',
+    eventType: 'Career fair',
+    jobType: 'Police officer',
+    format: 'In person',
+    language: 'English',
+    time: '10:00 a.m.',
+    date: '2026-09-08',
+    cancelled: false
+  }, {
+    title: 'Victoria Ask-a-Recruiter Session',
+    city: 'Victoria',
+    province: 'British Columbia',
+    tz: 'PT',
+    eventType: 'Ask-a-recruiter',
+    jobType: 'Police officer',
+    format: 'In person',
+    language: 'English',
+    time: '5:00 p.m.',
+    date: '2026-09-10',
+    cancelled: false
+  }, {
+    title: 'Ottawa Bilingual Career Presentation',
+    city: 'Ottawa',
+    province: 'Ontario',
+    tz: 'ET',
+    eventType: 'Career presentation',
+    jobType: 'Police officer',
+    format: 'In person',
+    language: 'English and French',
+    time: '6:30 p.m.',
+    date: '2026-09-15',
+    cancelled: true
+  }, {
+    title: 'Montréal Career Fair',
+    city: 'Montréal',
+    province: 'Quebec',
+    tz: 'ET',
+    eventType: 'Career fair',
+    jobType: 'Police officer',
+    format: 'In person',
+    language: 'French',
+    time: '11:00 a.m.',
+    date: '2026-09-18',
+    cancelled: false
+  }, {
+    title: 'Fredericton Telecom Operator Presentation',
+    city: 'Fredericton',
+    province: 'New Brunswick',
+    tz: 'AT',
+    eventType: 'Career presentation',
+    jobType: 'Telecommunications operator',
+    format: 'In person',
+    language: 'English and French',
+    time: '2:00 p.m.',
+    date: '2026-09-22',
+    cancelled: false
+  }, {
+    title: 'Kelowna Fitness Test Session',
+    city: 'Kelowna',
+    province: 'British Columbia',
+    tz: 'PT',
+    eventType: 'Police fitness assessment test session',
+    jobType: 'Police officer',
+    format: 'In person',
+    language: 'English',
+    time: '8:00 a.m.',
+    date: '2026-09-25',
+    cancelled: false
+  }, {
+    title: 'National Virtual Ask-a-Recruiter',
+    city: '',
+    province: 'Manitoba',
+    tz: 'CT',
+    eventType: 'Ask-a-recruiter',
+    jobType: 'Telecommunications operator',
+    format: 'Virtual',
+    language: 'English',
+    time: '12:00 p.m.',
+    date: '2026-09-29',
+    cancelled: false
+  }, {
+    title: 'Thunder Bay Career Presentation',
+    city: 'Thunder Bay',
+    province: 'Ontario',
+    tz: 'ET',
+    eventType: 'Career presentation',
+    jobType: 'Police officer',
+    format: 'In person',
+    language: 'English',
+    time: '6:00 p.m.',
+    date: '2026-10-02',
+    cancelled: true
+  }, {
+    title: 'Lethbridge Police Officer Presentation',
+    city: 'Lethbridge',
+    province: 'Alberta',
+    tz: 'MT',
+    eventType: 'Career presentation',
+    jobType: 'Police officer',
+    format: 'In person',
+    language: 'English',
+    time: '7:00 p.m.',
+    date: '2026-10-06',
+    cancelled: false
+  }, {
+    title: 'Sudbury Career Fair',
+    city: 'Sudbury',
+    province: 'Ontario',
+    tz: 'ET',
+    eventType: 'Career fair',
+    jobType: 'Police officer',
+    format: 'In person',
+    language: 'English and French',
+    time: '10:00 a.m.',
+    date: '2026-10-09',
+    cancelled: false
+  }, {
+    title: 'Abbotsford Community Constable Workshop',
+    city: 'Abbotsford',
+    province: 'British Columbia',
+    tz: 'PT',
+    eventType: 'Workshop',
+    jobType: 'Community constable',
+    format: 'In person',
+    language: 'English',
+    time: '9:00 a.m.',
+    date: '2026-10-14',
+    cancelled: false
+  }, {
+    title: 'National Online Ask-a-Recruiter – Telecom',
+    city: '',
+    province: 'New Brunswick',
+    tz: 'AT',
+    eventType: 'Ask-a-recruiter',
+    jobType: 'Telecommunications operator',
+    format: 'Virtual',
+    language: 'English and French',
+    time: '2:00 p.m.',
+    date: '2026-10-20',
+    cancelled: false
+  }, {
+    title: 'Kamloops Fitness Assessment Workshop',
+    city: 'Kamloops',
+    province: 'British Columbia',
+    tz: 'PT',
+    eventType: 'Police fitness assessment workshop',
+    jobType: 'Police officer',
+    format: 'In person',
+    language: 'English',
+    time: '8:00 a.m.',
+    date: '2026-10-23',
+    cancelled: false
+  }];
   var LANG = document.documentElement.lang && document.documentElement.lang.slice(0, 2) === 'fr' ? 'fr' : 'en';
-
   var TZ_LABEL = {
     en: {
       'PT': 'Pacific time',
@@ -223,40 +549,38 @@ var EVENTS = [
       'YT': 'Heure du Yukon'
     }
   };
-
   var PROVINCE_ID = {
     en: {
-      1:  'Alberta',
-      2:  'British Columbia',
-      3:  'Manitoba',
-      4:  'New Brunswick',
-      5:  'Newfoundland and Labrador',
-      6:  'Northwest Territories',
-      7:  'Nova Scotia',
-      8:  'Nunavut',
-      9:  'Ontario',
+      1: 'Alberta',
+      2: 'British Columbia',
+      3: 'Manitoba',
+      4: 'New Brunswick',
+      5: 'Newfoundland and Labrador',
+      6: 'Northwest Territories',
+      7: 'Nova Scotia',
+      8: 'Nunavut',
+      9: 'Ontario',
       10: 'Prince Edward Island',
       11: 'Quebec',
       12: 'Saskatchewan',
       13: 'Yukon'
     },
     fr: {
-      1:  'Alberta',
-      2:  'Colombie-Britannique',
-      3:  'Manitoba',
-      4:  'Nouveau-Brunswick',
-      5:  'Terre-Neuve-et-Labrador',
-      6:  'Territoires du Nord-Ouest',
-      7:  'Nouvelle-Écosse',
-      8:  'Nunavut',
-      9:  'Ontario',
+      1: 'Alberta',
+      2: 'Colombie-Britannique',
+      3: 'Manitoba',
+      4: 'Nouveau-Brunswick',
+      5: 'Terre-Neuve-et-Labrador',
+      6: 'Territoires du Nord-Ouest',
+      7: 'Nouvelle-Écosse',
+      8: 'Nunavut',
+      9: 'Ontario',
       10: 'Île-du-Prince-Édouard',
       11: 'Québec',
       12: 'Saskatchewan',
       13: 'Yukon'
     }
   };
-
   var JOBTYPE_ID = {
     en: {
       1: 'Community constable',
@@ -269,123 +593,143 @@ var EVENTS = [
       3: 'Opérateur en télécommunications'
     }
   };
-
   var QUERY_PROVINCE = 'p';
-  var QUERY_JOBTYPE  = 'j';
-
+  var QUERY_JOBTYPE = 'j';
   var UI = {
     en: {
-      catLabel:   { province: 'Location', eventType: 'Type', jobType: 'Role', format: 'Format', language: 'Language' },
+      catLabel: {
+        province: 'Location',
+        eventType: 'Type',
+        jobType: 'Role',
+        format: 'Format',
+        language: 'Language'
+      },
       eventsFound: 'events found',
-      noResults:  'No events match your current filters.',
+      noResults: 'No events match your current filters.',
       clearFilters: 'Clear filters',
-      cancelled:  'Cancelled',
-      at:         'at',
-      virtual:    'Virtual',
-      inPerson:   'In person'
+      cancelled: 'Cancelled',
+      at: 'at',
+      virtual: 'Virtual',
+      inPerson: 'In person'
     },
     fr: {
-      catLabel:   { province: 'Lieu', eventType: 'Type', jobType: 'Rôle', format: 'Format', language: 'Langue' },
+      catLabel: {
+        province: 'Lieu',
+        eventType: 'Type',
+        jobType: 'Rôle',
+        format: 'Format',
+        language: 'Langue'
+      },
       eventsFound: 'événements trouvés',
-      noResults:  'Aucun événement ne correspond à vos filtres.',
+      noResults: 'Aucun événement ne correspond à vos filtres.',
       clearFilters: 'Effacer les filtres',
-      cancelled:  'Annulé',
-      at:         'à',
-      virtual:    'Virtuel',
-      inPerson:   'En personne'
+      cancelled: 'Annulé',
+      at: 'à',
+      virtual: 'Virtuel',
+      inPerson: 'En personne'
     }
   };
-  
-  var PER_PAGE    = 10;
+  var PER_PAGE = 10;
   var currentPage = 1;
-  var activeData  = EVENTS.slice();
-
-  var checkboxes  = document.querySelectorAll('#re-filters input[type="checkbox"]');
-  var clearBtn    = document.getElementById('re-clear-filters');
-  var countNumEl  = document.getElementById('re-count-num');
+  var activeData = EVENTS.slice();
+  var checkboxes = document.querySelectorAll('#re-filters input[type="checkbox"]');
+  var clearBtn = document.getElementById('re-clear-filters');
+  var countNumEl = document.getElementById('re-count-num');
   var activeTagEl = document.getElementById('re-active-filters');
-  var grid        = document.getElementById('re-grid');
-  var noResults   = document.getElementById('re-no-results');
-  var pagination  = document.getElementById('re-pagination');
-  var prevBtn     = document.getElementById('re-prev');
-  var nextBtn     = document.getElementById('re-next');
+  var grid = document.getElementById('re-grid');
+  var noResults = document.getElementById('re-no-results');
+  var pagination = document.getElementById('re-pagination');
+  var prevBtn = document.getElementById('re-prev');
+  var nextBtn = document.getElementById('re-next');
 
   function updateBadges() {
     var badgeEls = document.querySelectorAll('[data-badge]');
-    Array.prototype.forEach.call(badgeEls, function (el) {
-      var raw  = el.dataset.badge;
+    Array.prototype.forEach.call(badgeEls, function(el) {
+      var raw = el.dataset.badge;
       var dash = raw.indexOf('-');
-      var cat  = raw.slice(0, dash);
-      var val  = raw.slice(dash + 1);
-      el.textContent = EVENTS.filter(function (e) { return e[cat] === val; }).length;
+      var cat = raw.slice(0, dash);
+      var val = raw.slice(dash + 1);
+      el.textContent = EVENTS.filter(function(e) {
+        return e[cat] === val;
+      }).length;
     });
   }
 
   function getActiveFilters() {
-    var active = { province: [], eventType: [], jobType: [], format: [], language: [] };
-    Array.prototype.forEach.call(checkboxes, function (cb) {
+    var active = {
+      province: [],
+      eventType: [],
+      jobType: [],
+      format: [],
+      language: []
+    };
+    Array.prototype.forEach.call(checkboxes, function(cb) {
       if (cb.checked) active[cb.dataset.filter].push(cb.value);
     });
     return active;
   }
 
   function filterData(filters) {
-    return EVENTS.filter(function (e) {
-      var okP  = !filters.province.length  || filters.province.indexOf(e.province)   > -1;
-      var okE  = !filters.eventType.length || filters.eventType.indexOf(e.eventType) > -1;
-      var okJ  = !filters.jobType.length   || filters.jobType.indexOf(e.jobType)     > -1;
-      var okF  = !filters.format.length    || filters.format.indexOf(e.format)       > -1;
-      var okL  = !filters.language.length  || filters.language.indexOf(e.language)   > -1;
+    return EVENTS.filter(function(e) {
+      var okP = !filters.province.length || filters.province.indexOf(e.province) > -1;
+      var okE = !filters.eventType.length || filters.eventType.indexOf(e.eventType) > -1;
+      var okJ = !filters.jobType.length || filters.jobType.indexOf(e.jobType) > -1;
+      var okF = !filters.format.length || filters.format.indexOf(e.format) > -1;
+      var okL = !filters.language.length || filters.language.indexOf(e.language) > -1;
       return okP && okE && okJ && okF && okL;
     });
   }
 
   function renderTags(filters) {
     activeTagEl.innerHTML = '';
-    var hasAny = Object.keys(filters).some(function (cat) { return filters[cat].length > 0; });
+    var hasAny = Object.keys(filters).some(function(cat) {
+      return filters[cat].length > 0;
+    });
     activeTagEl.style.display = hasAny ? '' : 'none';
     if (!hasAny) return;
-
-    Object.keys(filters).forEach(function (cat) {
+    Object.keys(filters).forEach(function(cat) {
       if (!filters[cat].length) return;
-
       var row = document.createElement('div');
       row.className = 're-filter-row';
-
       var label = document.createElement('span');
-      label.className   = 're-filter-row-label';
+      label.className = 're-filter-row-label';
       label.textContent = UI[LANG].catLabel[cat] + ':';
       row.appendChild(label);
-
       var tagsWrap = document.createElement('span');
       tagsWrap.className = 're-filter-row-tags';
-
-      filters[cat].forEach(function (val, idx) {
+      filters[cat].forEach(function(val, idx) {
         if (idx > 0) {
           var sep = document.createElement('span');
-          sep.className   = 'wp-filter-tag-sep';
+          sep.className = 'wp-filter-tag-sep';
           sep.textContent = 'or';
           tagsWrap.appendChild(sep);
         }
         var tag = document.createElement('span');
         tag.className = 'wp-filter-tag';
         tag.innerHTML = val + ' <button type="button" aria-label="Remove filter: ' + val + '">\u2715</button>';
-        tag.querySelector('button').addEventListener('click', function () {
+        tag.querySelector('button').addEventListener('click', function() {
           var cb = document.querySelector('input[data-filter="' + cat + '"][value="' + val + '"]');
-          if (cb) { cb.checked = false; refresh(); }
+          if (cb) {
+            cb.checked = false;
+            refresh();
+          }
         });
         tagsWrap.appendChild(tag);
       });
-
       row.appendChild(tagsWrap);
       activeTagEl.appendChild(row);
     });
   }
 
   function formatDate(iso) {
-    var d    = new Date(iso + 'T00:00:00');
+    var d = new Date(iso + 'T00:00:00');
     var locale = LANG === 'fr' ? 'fr-CA' : 'en-CA';
-    var label  = d.toLocaleDateString(locale, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+    var label = d.toLocaleDateString(locale, {
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    });
     return label + ' ' + UI[LANG].at;
   }
 
@@ -393,34 +737,18 @@ var EVENTS = [
     var slice = data.slice((page - 1) * PER_PAGE, page * PER_PAGE);
     grid.innerHTML = '';
     var show = !!slice.length;
-    noResults.style.display  = show ? 'none'  : 'block';
-    pagination.style.display = show ? ''      : 'none';
+    noResults.style.display = show ? 'none' : 'block';
+    pagination.style.display = show ? '' : 'none';
     if (!show) return;
-
-    slice.forEach(function (e) {
-      var locationLine = e.city
-        ? e.city + ', ' + e.province
-        : e.province;
+    slice.forEach(function(e) {
+      var locationLine = e.city ? e.city + ', ' + e.province : e.province;
       var tzLabel = e.tz ? ' (' + (TZ_LABEL[LANG][e.tz] || e.tz) + ')' : '';
-      var cancelledBadge = e.cancelled
-        ? '<p class="re-card-cancelled"><i class="fa-solid fa-ban" aria-hidden="true"></i> <span>' + UI[LANG].cancelled + '</span></p>'
-        : '';
+      var cancelledBadge = e.cancelled ? '<p class="re-card-cancelled"><i class="fa-solid fa-ban" aria-hidden="true"></i> <span>' + UI[LANG].cancelled + '</span></p>' : '';
       var formatBadgeLabel = e.format === 'Virtual' ? UI[LANG].virtual : UI[LANG].inPerson;
       var formatBadge = '<span class="re-card-format-badge re-card-format-badge--' + (e.format === 'Virtual' ? 'virtual' : 'inperson') + '">' + formatBadgeLabel + '</span>';
-
       var li = document.createElement('li');
       li.className = 're-card' + (e.cancelled ? ' re-card--cancelled' : '');
-      li.innerHTML =
-        formatBadge +
-        '<div class="re-card-body">' +
-        cancelledBadge +
-          '<h3 class="re-card-title"><a href="event-evenement-en.html">' + e.title + '</a></h3>' +
-          '<ul class="re-card-meta list-unstyled">' +
-            (locationLine ? '<li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> ' + locationLine + '</li>' : '') +
-            '<li><i class="fa-regular fa-lightbulb" aria-hidden="true"></i> ' + e.eventType + ' \u2013 ' + e.jobType + '</li>' +
-            '<li><i class="fa-regular fa-calendar" aria-hidden="true"></i> ' + formatDate(e.date) + ' ' + e.time + tzLabel + '</li>' +
-          '</ul>' +
-        '</div>';
+      li.innerHTML = formatBadge + '<div class="re-card-body">' + cancelledBadge + '<h3 class="re-card-title"><a href="event-evenement-en.html">' + e.title + '</a></h3>' + '<ul class="re-card-meta list-unstyled">' + (locationLine ? '<li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> ' + locationLine + '</li>' : '') + '<li><i class="fa-regular fa-lightbulb" aria-hidden="true"></i> ' + e.eventType + ' \u2013 ' + e.jobType + '</li>' + '<li><i class="fa-regular fa-calendar" aria-hidden="true"></i> ' + formatDate(e.date) + ' ' + e.time + tzLabel + '</li>' + '</ul>' + '</div>';
       grid.appendChild(li);
     });
   }
@@ -440,18 +768,16 @@ var EVENTS = [
   }
 
   function renderPagination(total, page) {
-    var pages    = Math.ceil(total / PER_PAGE);
+    var pages = Math.ceil(total / PER_PAGE);
     var pageList = document.getElementById('re-page-list');
-
     prevBtn.disabled = page <= 1;
     nextBtn.disabled = page >= pages;
-    prevBtn.parentElement.style.visibility = page <= 1     ? 'hidden' : '';
+    prevBtn.parentElement.style.visibility = page <= 1 ? 'hidden' : '';
     nextBtn.parentElement.style.visibility = page >= pages ? 'hidden' : '';
-    prevBtn.setAttribute('aria-disabled', page <= 1     ? 'true' : 'false');
+    prevBtn.setAttribute('aria-disabled', page <= 1 ? 'true' : 'false');
     nextBtn.setAttribute('aria-disabled', page >= pages ? 'true' : 'false');
-
     pageList.innerHTML = '';
-    buildSlots(page, pages).forEach(function (slot) {
+    buildSlots(page, pages).forEach(function(slot) {
       var li = document.createElement('li');
       if (slot === '…') {
         li.className = 'rcmp-item-pagination__item rcmp-item-pagination__item--ellipsis';
@@ -460,12 +786,12 @@ var EVENTS = [
       } else {
         li.className = 'rcmp-item-pagination__item' + (slot === page ? ' rcmp-item-pagination__item--current' : '');
         var btn = document.createElement('button');
-        btn.type      = 'button';
+        btn.type = 'button';
         btn.className = 'rcmp-item-pagination__item-link';
         btn.setAttribute('aria-label', 'Page ' + slot);
         if (slot === page) btn.setAttribute('aria-current', 'page');
         btn.textContent = slot;
-        btn.addEventListener('click', function () {
+        btn.addEventListener('click', function() {
           currentPage = slot;
           draw();
           scrollToGrid();
@@ -480,7 +806,10 @@ var EVENTS = [
     var top = grid.getBoundingClientRect().top + window.pageYOffset;
     var nav = document.querySelector('.careers-nav');
     var offset = nav ? nav.offsetHeight + 16 : 80;
-    window.scrollTo({ top: top - offset, behavior: 'smooth' });
+    window.scrollTo({
+      top: top - offset,
+      behavior: 'smooth'
+    });
   }
 
   function draw() {
@@ -490,54 +819,66 @@ var EVENTS = [
 
   function refresh() {
     var filters = getActiveFilters();
-    activeData  = filterData(filters);
+    activeData = filterData(filters);
     currentPage = 1;
     countNumEl.textContent = activeData.length;
     renderTags(filters);
-    if (!Object.keys(filters).some(function (cat) { return filters[cat].length > 0; })) {
+    if (!Object.keys(filters).some(function(cat) {
+        return filters[cat].length > 0;
+      })) {
       activeTagEl.style.display = 'none';
     }
     draw();
   }
-
-  Array.prototype.forEach.call(checkboxes, function (cb) {
+  Array.prototype.forEach.call(checkboxes, function(cb) {
     cb.addEventListener('change', refresh);
   });
-
-  clearBtn.addEventListener('click', function () {
-    Array.prototype.forEach.call(checkboxes, function (cb) { cb.checked = false; });
+  clearBtn.addEventListener('click', function() {
+    Array.prototype.forEach.call(checkboxes, function(cb) {
+      cb.checked = false;
+    });
     refresh();
   });
-
-  prevBtn.addEventListener('click', function () {
-    if (currentPage > 1) { currentPage--; draw(); scrollToGrid(); }
+  prevBtn.addEventListener('click', function() {
+    if (currentPage > 1) {
+      currentPage--;
+      draw();
+      scrollToGrid();
+    }
   });
-  nextBtn.addEventListener('click', function () {
-    if (currentPage < Math.ceil(activeData.length / PER_PAGE)) { currentPage++; draw(); scrollToGrid(); }
+  nextBtn.addEventListener('click', function() {
+    if (currentPage < Math.ceil(activeData.length / PER_PAGE)) {
+      currentPage++;
+      draw();
+      scrollToGrid();
+    }
   });
 
   function applyQueryString() {
     var params = new URLSearchParams(window.location.search);
     var openCats = {};
-
     var pVals = params.getAll(QUERY_PROVINCE);
-    pVals.forEach(function (id) {
+    pVals.forEach(function(id) {
       var name = PROVINCE_ID[LANG][parseInt(id, 10)];
       if (!name) return;
       var cb = document.querySelector('input[data-filter="province"][value="' + name + '"]');
-      if (cb) { cb.checked = true; openCats['province'] = true; }
+      if (cb) {
+        cb.checked = true;
+        openCats['province'] = true;
+      }
     });
-
     var jVals = params.getAll(QUERY_JOBTYPE);
-    jVals.forEach(function (id) {
+    jVals.forEach(function(id) {
       var name = JOBTYPE_ID[LANG][parseInt(id, 10)];
       if (!name) return;
       var cb = document.querySelector('input[data-filter="jobType"][value="' + name + '"]');
-      if (cb) { cb.checked = true; openCats['jobType'] = true; }
+      if (cb) {
+        cb.checked = true;
+        openCats['jobType'] = true;
+      }
     });
-
     /* Open only the accordion groups that have active query filters */
-    Object.keys(openCats).forEach(function (cat) {
+    Object.keys(openCats).forEach(function(cat) {
       var cb = document.querySelector('input[data-filter="' + cat + '"]');
       if (cb) {
         var details = cb.closest('details.wp-filter-group');
@@ -545,7 +886,6 @@ var EVENTS = [
       }
     });
   }
-
   updateBadges();
   applyQueryString();
   refresh();

@@ -2254,3 +2254,20 @@ main .cnt-wdth-lmtd #re-grid li {
   max-width: none;
   box-sizing: border-box;
 }
+
+#re-filters .wp-filter-group-toggle {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  flex-wrap: nowrap;
+}
+
+#re-filters .wp-filter-chevron {
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+#re-filters .wp-filter-summary-label {
+  flex: 1;
+  min-width: 0;
+}

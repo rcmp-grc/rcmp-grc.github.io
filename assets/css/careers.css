@@ -2265,8 +2265,9 @@ main .cnt-wdth-lmtd #re-grid li {
 
 #re-filters details.wp-filter-group > summary.wp-filter-group-toggle .wp-filter-chevron {
   flex-shrink: 0 !important;
-  margin-top: 3px !important;
   width: 14px !important;
+  align-self: center !important;
+  margin-top: 0 !important;
 }
 
 #re-filters details.wp-filter-group > summary.wp-filter-group-toggle .wp-filter-summary-label {
@@ -2275,4 +2276,22 @@ main .cnt-wdth-lmtd #re-grid li {
   white-space: normal !important;
   word-break: break-word !important;
   display: inline !important;
+}
+
+#re-filters .radio label {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+#re-filters .radio input[type="radio"] {
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+#re-filters .radio .cb-text {
+  flex: 1;
+  min-width: 0;
 }

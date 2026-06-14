@@ -2139,6 +2139,7 @@ main .cnt-wdth-lmtd #re-grid li {
   font-weight: 700;
   font-size: 1em;
   margin: 12px 0 10px;
+  font-family: inherit;
 }
 
 .re-card-title a {

@@ -18,11 +18,11 @@ custom_css: /assets/css/careers.css
       <h2 class="h4" id="re-filters-heading">Filter by</h2>
       <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
-          <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">Province or territory</span>
+          <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label" role="heading" aria-level="3">Province or territory</span>
         </summary>
         <fieldset>
           <legend class="wb-inv">Province or territory</legend>
-          <div class="checkbox"><label><input data-filter="province" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span><span class="wp-filter-badge" data-badge="province-Alberta">0</span></label></div>
+          <div class="checkbox"><label><input data-filter="province" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span><span class="wp-filter-badge" data-badge="province-Alberta" aria-hidden="true">0</span></label></div>
           <div class="checkbox"><label><input data-filter="province" type="checkbox" value="British Columbia"><span class="cb-text">British Columbia</span><span class="wp-filter-badge" data-badge="province-British Columbia">0</span></label></div>
           <div class="checkbox"><label><input data-filter="province" type="checkbox" value="Manitoba"><span class="cb-text">Manitoba</span><span class="wp-filter-badge" data-badge="province-Manitoba">0</span></label></div>
           <div class="checkbox"><label><input data-filter="province" type="checkbox" value="New Brunswick"><span class="cb-text">New Brunswick</span><span class="wp-filter-badge" data-badge="province-New Brunswick">0</span></label></div>
@@ -93,7 +93,7 @@ custom_css: /assets/css/careers.css
     <div id="re-toolbar">
       <p aria-live="polite" id="re-count"><strong id="re-count-num">0</strong>&nbsp;events found</p>
     </div>
-    <div aria-label="Recruiting events" id="re-grid" role="list"></div>
+    <ul aria-label="Recruiting events" id="re-grid" class="list-unstyled" role="list"></ul>
     <p id="re-no-results" style="display:none;">No events match your current filters.</p>
     <nav aria-label="Pagination" class="rcmp-item-pagination" id="re-pagination">
       <div class="rcmp-item-pagination__prev" id="re-prev-wrap">
@@ -229,14 +229,6 @@ var EVENTS = [
     });
   }
 
-  var LABEL_MAP = {
-    province:  'Province or territory',
-    eventType: 'Event type',
-    jobType:   'Job type',
-    format:    'Format',
-    language:  'Language'
-  };
-
   var CAT_LABEL = {
     province:  'Location',
     eventType: 'Type',
@@ -307,7 +299,7 @@ var EVENTS = [
         : e.province;
       var tzLabel = e.tz ? ' (' + (TZ_LABEL[e.tz] || e.tz) + ')' : '';
       var cancelledBadge = e.cancelled
-        ? '<span class="re-card-cancelled" aria-label="Cancelled"><i class="fa-solid fa-ban" aria-hidden="true"></i> Cancelled</span>'
+        ? '<p class="re-card-cancelled"><i class="fa-solid fa-ban" aria-hidden="true"></i> <span>Cancelled</span></p>'
         : '';
       var formatBadge = '<span class="re-card-format-badge re-card-format-badge--' + (e.format === 'Virtual' ? 'virtual' : 'inperson') + '">' + e.format + '</span>';
 
@@ -317,7 +309,7 @@ var EVENTS = [
         formatBadge +
         '<div class="re-card-body">' +
         cancelledBadge +
-          '<p class="re-card-title"><a href="event-evenement-en.html">' + e.title + '</a></p>' +
+          '<h3 class="re-card-title"><a href="event-evenement-en.html">' + e.title + '</a></h3>' +
           '<ul class="re-card-meta list-unstyled">' +
             (locationLine ? '<li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> ' + locationLine + '</li>' : '') +
             '<li><i class="fa-regular fa-lightbulb" aria-hidden="true"></i> ' + e.eventType + ' \u2013 ' + e.jobType + '</li>' +
@@ -350,6 +342,8 @@ var EVENTS = [
     nextBtn.disabled = page >= pages;
     prevBtn.parentElement.style.visibility = page <= 1     ? 'hidden' : '';
     nextBtn.parentElement.style.visibility = page >= pages ? 'hidden' : '';
+    prevBtn.setAttribute('aria-disabled', page <= 1     ? 'true' : 'false');
+    nextBtn.setAttribute('aria-disabled', page >= pages ? 'true' : 'false');
 
     pageList.innerHTML = '';
     buildSlots(page, pages).forEach(function (slot) {

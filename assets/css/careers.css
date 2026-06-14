@@ -2289,10 +2289,39 @@ main .cnt-wdth-lmtd #re-grid li {
 #re-filters .radio input[type="radio"] {
   flex-shrink: 0;
   margin-top: 3px;
-  width: 16px;
-  height: 16px;
-  min-width: 16px;
+  width: 13px;
+  height: 13px;
+  min-width: 13px;
   cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #767676;
+  border-radius: 50%;
+  background: #fff;
+  position: relative;
+}
+
+#re-filters .radio input[type="radio"]:checked {
+  border-color: #2b4380;
+  background: #fff;
+}
+
+#re-filters .radio input[type="radio"]:checked::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #2b4380;
+}
+
+#re-filters .radio input[type="radio"]:focus {
+  outline: 3px solid #ffbf47;
+  outline-offset: 2px;
 }
 
 #re-filters .radio .cb-text {

@@ -2321,3 +2321,15 @@ main .cnt-wdth-lmtd #re-grid li {
   margin-top: 6px !important;
   flex-shrink: 0 !important;
 }
+
+.re-select-group {
+  border-top: 1px solid #ccc;
+}
+
+#re-filters .wp-filter-group .checkbox {
+  margin-bottom: 5px;
+}
+
+#re-filters details:nth-of-type(2) {
+  border-top: 1px solid #ccc;
+}

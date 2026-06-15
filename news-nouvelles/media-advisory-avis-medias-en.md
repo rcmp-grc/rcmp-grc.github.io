@@ -219,8 +219,8 @@ Iqaluit, Nunavut</p>
 <section id="topics">
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
-  <li><a href="#"><span class="news-topic-2">Media Relations</span></a></li>
-  <li><a href="#"><span class="news-topic-1">Community interest</span></a></li>
+  <li><a href="#" class="news-topic-2">Media Relations</a></li>
+  <li><a href="#" class="news-topic-1">Community interest</a></li>
 </ol>
 </section>
 </div>

@@ -39,27 +39,19 @@ issued: 2026-05-08
 	background-color: #f5f5f5;
 	padding-left: 10px;
 }
-	.news-topic-1
-	{
-    background-color: #d6f5e1;
-    font-size: 0.8em;
-    font-weight: bold;	
-	text-decoration: none;	
-    padding: 8px 10px 10px 10px;		
-	}
-	.news-topic-1 a:link, a:visited, a:active  {
-    background-color: #d6f5e1;
-    font-size: 0.8em;
-    font-weight: bold;	
-    padding: 8px 10px 10px 10px;		
-	text-decoration: none;
+	.news-topic-1 a:link, a:visited {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
-	.news-topic-1 a:hover {
-    background-color: #c2f0d3;
-    font-size: 0.8em;
-    font-weight: bold;	
-	padding: 8px 10px 10px 10px;	
-	}
+.news-topic-1 a:hover, a:active {
+	 background-color: white;
+     color: black;
+	 border: 2px solid green;
+}
 	.news-topic-2
 	{
     background-color: #d6e4f5;

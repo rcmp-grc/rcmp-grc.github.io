@@ -61,26 +61,73 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	 border-bottom: 1px solid #1f7a40;
 	 border-top: 1px solid #1f7a40;
 }
-	.news-topic-2
-	{
+	a.news-topic-2:link, a.news-topic-2:visited {
     background-color: #d6e4f5;
+    color: #0f253d;
+	padding: 8px 10px;	
 	font-size: 0.8em;
     font-weight: bold;	
-    padding: 4px 8px 8px 8px;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	border-left: 5px solid #1f7a40;
+	border-right: 1px solid #1f7a40;
+	border-bottom: 1px solid #1f7a40;
+	border-top: 1px solid #1f7a40;	
 	}
-	.news-topic-3
+	a.news-topic-2:hover, a.news-topic-2:active {
+	 background-color: white;
+     color: #0f253d;
+	 border-left: 5px solid #0f253d;
+	 border-right: 1px solid #0f253d;
+	 border-bottom: 1px solid #0f253d;
+	 border-top: 1px solid #0f253d;
+}
+	a.news-topic-3:link, a.news-topic-3:visited
 	{
     background-color: #e1d6f5;
+	color: #361966;
+	padding: 8px 10px;		
 	font-size: 0.8em;
     font-weight: bold;	
-    padding: 4px 8px 8px 8px;		
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	border-left: 5px solid #361966;
+	border-right: 1px solid #361966;
+	border-bottom: 1px solid #361966;
+	border-top: 1px solid #361966;			
 	}
-   .news-topic-4
+	a.news-topic-3:hover, a.news-topic-3:active {
+	background-color: white;
+    color: #361966;
+	border-left: 5px solid #361966;
+	border-right: 1px solid #361966;
+	border-bottom: 1px solid #361966;
+	border-top: 1px solid #361966;
+	}
+   a.news-topic-4:link, a.news-topic-4:visited
 	{
    background-color: #f9d2d7;
+   color: #590d17;
+   padding: 8px 10px;	
    font-size: 0.8em;	
    font-weight: bold;	
-   padding: 4px 8px 8px 8px;		
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   border-left: 5px solid #590d17;
+   border-right: 1px solid #590d17;
+   border-bottom: 1px solid #590d17;
+   border-top: 1px solid #590d17;	
+	}
+	a.news-topic-4:hover, a.news-topic-4:active {
+	background-color: white;
+    color: #590d17;
+	border-left: 5px solid #590d17;
+	border-right: 1px solid #590d17;
+	border-bottom: 1px solid #590d17;
+	border-top: 1px solid #590d17;
 	}
 </style>
 <p class="lead">Bob the Polar Bear is the Royal Canadian Mounted Police’s newest unofficial northern mascot.</p>

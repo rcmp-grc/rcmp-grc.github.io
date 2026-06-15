@@ -210,6 +210,19 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	<li><a href="https://www.icbc.com/road-safety/sharing/motorcycle-safety">Motorcycle safety</a></li>
 </ul>
 </section>
+</div>
+<div class="col-md-4">
+<div class="panel panel-default">
+  <div class="panel-body">
+	 <img src="primary-news.jpg" class="img-responsive full-width" alt="" /> 
+  </div>
+	<footer class="panel-footer">
+   <p>Caption for the photo</p>
+	</footer>
+  </div>
+</div>
+</div>
+<div class="clearfix"></div>
 <section id="gc-contact" class="contact-us">
 	<h2 class="h3">Contact us</h2>
 	<div class="contact-signature">	
@@ -235,19 +248,6 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	</section>
 	</div>
 	</section>
-</div>
-<div class="col-md-4">
-<div class="panel panel-default">
-  <div class="panel-body">
-	 <img src="primary-news.jpg" class="img-responsive full-width" alt="" /> 
-  </div>
-	<footer class="panel-footer">
-   <p>Caption for the photo</p>
-	</footer>
-  </div>
-</div>
-</div>
-<div class="clearfix"></div>
 <div class="explore">		
 <section id="topics">
 <h2 class="h3">Explore related topics</h2>

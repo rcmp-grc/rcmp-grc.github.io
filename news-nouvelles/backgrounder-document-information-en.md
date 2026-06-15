@@ -55,7 +55,7 @@ issued: 2026-05-08
 	text-decoration: none;
 }
 	.news-topic-1 a:hover {
-    background-color: #d6f5e0;
+    background-color: #c2f0d3;
     font-size: 0.8em;
     font-weight: bold;	
 	padding: 8px 10px 10px 10px;	

@@ -41,7 +41,7 @@ issued: 2026-05-08
 }
 	a.news-topic-1:link, a.news-topic-1:visited {
     background-color: #d6f5e1;
-    color: #000000;
+    color: #0f3d20;
     padding: 8px 10px;
 	font-size: 0.8em;
     font-weight: bold;	
@@ -55,7 +55,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	 border-left: 3px solid #1f7a40;
 	 border-right: 1px solid #1f7a40;
 	 border-bottom: 1px solid #1f7a40;
-	 border-left: 1px solid #1f7a40;
+	 border-top: 1px solid #1f7a40;
 }
 	.news-topic-2
 	{

@@ -39,33 +39,95 @@ issued: 2026-05-20
 	background-color: #f5f5f5;
 	padding-left: 10px;
 	}
-	.news-topic-1
-	{
+	a.news-topic-1:link, a.news-topic-1:visited {
     background-color: #d6f5e1;
-    font-size: 0.8em;
-    font-weight: bold;	
-    padding: 4px 8px 8px 8px;		
-	}
-	.news-topic-2
-	{
-    background-color: #d6e4f5;
+    color: #0f3d20;
+    padding: 8px 10px;
 	font-size: 0.8em;
     font-weight: bold;	
-    padding: 4px 8px 8px 8px;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	border-left: 5px solid #1f7a40;
+	border-right: 1px solid #1f7a40;
+	border-bottom: 1px solid #1f7a40;
+	border-top: 1px solid #1f7a40;	
+}
+a.news-topic-1:hover, a.news-topic-1:active {
+	 background-color: white;
+     color: #1f7a40;
+	 border-left: 5px solid #1f7a40;
+	 border-right: 1px solid #1f7a40;
+	 border-bottom: 1px solid #1f7a40;
+	 border-top: 1px solid #1f7a40;
+}
+	a.news-topic-2:link, a.news-topic-2:visited {
+    background-color: #d6e4f5;
+    color: #0f253d;
+	padding: 8px 10px;	
+	font-size: 0.8em;
+    font-weight: bold;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	border-left: 5px solid #1f7a40;
+	border-right: 1px solid #1f7a40;
+	border-bottom: 1px solid #1f7a40;
+	border-top: 1px solid #1f7a40;	
 	}
-	.news-topic-3
+	a.news-topic-2:hover, a.news-topic-2:active {
+	 background-color: white;
+     color: #0f253d;
+	 border-left: 5px solid #0f253d;
+	 border-right: 1px solid #0f253d;
+	 border-bottom: 1px solid #0f253d;
+	 border-top: 1px solid #0f253d;
+}
+	a.news-topic-3:link, a.news-topic-3:visited
 	{
     background-color: #e1d6f5;
+	color: #361966;
+	padding: 8px 10px;		
 	font-size: 0.8em;
     font-weight: bold;	
-    padding: 4px 8px 8px 8px;		
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	border-left: 5px solid #361966;
+	border-right: 1px solid #361966;
+	border-bottom: 1px solid #361966;
+	border-top: 1px solid #361966;			
 	}
-   .news-topic-4
+	a.news-topic-3:hover, a.news-topic-3:active {
+	background-color: white;
+    color: #361966;
+	border-left: 5px solid #361966;
+	border-right: 1px solid #361966;
+	border-bottom: 1px solid #361966;
+	border-top: 1px solid #361966;
+	}
+   a.news-topic-4:link, a.news-topic-4:visited
 	{
    background-color: #f9d2d7;
+   color: #590d17;
+   padding: 8px 10px;	
    font-size: 0.8em;	
    font-weight: bold;	
-   padding: 4px 8px 8px 8px;		
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   border-left: 5px solid #590d17;
+   border-right: 1px solid #590d17;
+   border-bottom: 1px solid #590d17;
+   border-top: 1px solid #590d17;	
+	}
+	a.news-topic-4:hover, a.news-topic-4:active {
+	background-color: white;
+    color: #590d17;
+	border-left: 5px solid #590d17;
+	border-right: 1px solid #590d17;
+	border-bottom: 1px solid #590d17;
+	border-top: 1px solid #590d17;
 	}
 </style>
 <p class="lead">Earlier today, employees at RCMP National Headquarters received an unexpected visitor.</p>
@@ -123,8 +185,8 @@ issued: 2026-05-20
 <section id="topics">
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
-  <li><a href="#"><span class="news-topic-2">Media Relations</span></a></li>
-  <li><a href="#"><span class="news-topic-1">Community interest</span></a></li>
+  <li><a href="#" class="news-topic-2">Media Relations</a></li>
+  <li><a href="#" class="news-topic-1">Community interest</a></li>
 </ol>
 </section>
 </div>

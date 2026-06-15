@@ -12,7 +12,7 @@ custom_css: /assets/css/careers.css
 
 <p>Are you interested in a career as a police officer, community constable, or telecommunications operator?</p>
 <p>Career presentations, workshops, career fairs, youth camps, and special events are held in various cities and towns throughout the year. Find an event near you!</p>
-<div class="row" id="re-page">
+<div class="row mrgn-tp-lg" id="re-page">
   <div class="col-md-3 col-sm-4" id="re-sidebar">
     <aside aria-labelledby="re-filters-heading" id="re-filters">
       <h2 class="h4" id="re-filters-heading">Filter by</h2>

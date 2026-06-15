@@ -12,7 +12,7 @@ custom_css: /assets/css/careers.css
 
 <p>Êtes-vous intéressé par une carrière comme policier, gendarme communautaire ou opérateur des télécommunications?</p>
 <p>Des présentations sur les carrières, des ateliers, des salons de l'emploi, des camps pour jeunes et des événements spéciaux ont lieu dans diverses villes et localités tout au long de l'année. Trouvez un événement près de chez vous!</p>
-<div class="row" id="re-page">
+<div class="row mrgn-tp-lg" id="re-page">
   <div class="col-md-3 col-sm-4" id="re-sidebar">
     <aside aria-labelledby="re-filters-heading" id="re-filters">
       <h2 class="h4" id="re-filters-heading">Filtrer par</h2>

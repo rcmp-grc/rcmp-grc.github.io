@@ -130,7 +130,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	}
 </style>
 <div class="card col-md-8">
-	<div class="card-tag"><p><i class="fa-regular fa-pen-to-square"></i> Updated</p></div>
+	<div id="updates" class="card-tag"><p><i class="fa-regular fa-pen-to-square"></i> Updated</p></div>
   <ul>
     <li><strong>2026-04-30, 13:58 pm</strong>: Last seen location</li>
     <li><strong>2026-04-21, 13:58 pm</strong>: Missing person wearing prescription glasses</li>
@@ -188,8 +188,8 @@ a.news-topic-1:hover, a.news-topic-1:active {
 <h2 class="h3">Quotes</h2>	
 <blockquote class="cn-pullquote">Most of these collisions come down to choices—a driver who doesn’t take that second look before making a left turn, or a rider going too fast for conditions. Our goal this may is to see fewer collisions, fewer injuries, and every rider and driver getting home safely.</blockquote>
 </section>	
-<section id="s6">
-<h2 class="facts">Quick facts</h2>
+<section id="facts">
+<h2 class="h3">Quick facts</h2>
 <ul>
 <li>Wear all the gear, all the time</li>
 <li>Stay out of driver’s blind spots and use signals to communicate intentions</li>
@@ -202,7 +202,9 @@ a.news-topic-1:hover, a.news-topic-1:active {
 <ul>
 <li><a href="https://rcmp.ca/en/bc/north-vancouver/community-policing/distracted-driving">Distracted driving - North Vancouver RCMP</a></li>
 </ul>
-<h2 class="links">Associated links</h2>
+</section>
+<section id="linls">
+<h2 class="h3">Associated links</h2>
 <ul>
    <li><a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/motorcycle-safety">Motorcycle safety - the rider and the gear</a></li>
 	<li><a href="https://www.icbc.com/road-safety/sharing/motorcycle-safety">Motorcycle safety</a></li>

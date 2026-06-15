@@ -63,49 +63,49 @@ issued: 2026-05-21
         <fieldset>
           <legend class="wb-inv">Category</legend>
           <div class="checkbox">
-            <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span></label>
+            <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span> <span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="category" type="checkbox" value="Break and Enter"><span class="cb-text">Break-and-Enter</span></label>
+            <label><input data-filter="category" type="checkbox" value="Break and Enter"><span class="cb-text">Break-and-Enter</span> <span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="category" type="checkbox" value="Disturbance"><span class="cb-text">Disturbance</span></label>
+            <label><input data-filter="category" type="checkbox" value="Disturbance"><span class="cb-text">Disturbance</span> <span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="category" type="checkbox" value="Homicide"><span class="cb-text">Homicide</span></label>
+            <label><input data-filter="category" type="checkbox" value="Homicide"><span class="cb-text">Homicide</span> <span class="wp-filter-badge">0</span></label>
           </div>
 			 <div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Illigal border crossing"><span class="cb-text">Illegal border crossing</span></label>
+                <label><input data-filter="category" type="checkbox" value="Illigal border crossing"><span class="cb-text">Illegal border crossing</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Illicit drugs"><span class="cb-text">Illicit drugs</span></label>
+                <label><input data-filter="category" type="checkbox" value="Illicit drugs"><span class="cb-text">Illicit drugs</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Missing"><span class="cb-text">Missing person</span></label>
+                <label><input data-filter="category" type="checkbox" value="Missing"><span class="cb-text">Missing person</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Organized crime"><span class="cb-text">Organized crime</span></label>
+                <label><input data-filter="category" type="checkbox" value="Organized crime"><span class="cb-text">Organized crime</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Property damage"><span class="cb-text">Property damage</span></label>
+                <label><input data-filter="category" type="checkbox" value="Property damage"><span class="cb-text">Property damage</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Public interest"><span class="cb-text">Public interest</span></label>
+                <label><input data-filter="category" type="checkbox" value="Public interest"><span class="cb-text">Public interest</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Theft"><span class="cb-text">Theft</span></label>
+                <label><input data-filter="category" type="checkbox" value="Theft"><span class="cb-text">Theft</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Traffic"><span class="cb-text">Traffic services</span></label>
+                <label><input data-filter="category" type="checkbox" value="Traffic"><span class="cb-text">Traffic services</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Trafficking"><span class="cb-text">Trafficking</span></label>
+                <label><input data-filter="category" type="checkbox" value="Trafficking"><span class="cb-text">Trafficking</span> <span class="news-filter-badge">0</span></label>
 				  </div>
 		<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Wanted"><span class="cb-text">Wanted</span></label>
+                <label><input data-filter="category" type="checkbox" value="Wanted"><span class="cb-text">Wanted</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 		<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span></label>
+                <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span> <span class="wp-filter-badge">0</span></label>
 				  </div>		
         </fieldset>
       </details>
@@ -116,43 +116,43 @@ issued: 2026-05-21
 			<fieldset>
           <legend class="wb-inv">Territory</legend>
           <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span></label>
+            <label><input data-filter="territory" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span> <span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="British Columbia"><span class="cb-text">British Columbia</span></label>
+            <label><input data-filter="territory" type="checkbox" value="British Columbia"><span class="cb-text">British Columbia</span> <span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="Manitoba"><span class="cb-text">Manitoba</span></label>
+            <label><input data-filter="territory" type="checkbox" value="Manitoba"><span class="cb-text">Manitoba</span> <span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="New Brunswick"><span class="cb-text">New Brunswick</span></label>
+            <label><input data-filter="territory" type="checkbox" value="New Brunswick"><span class="cb-text">New Brunswick</span> <span class="wp-filter-badge">0</span></label>
           </div>
 			 <div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="Newfoundland and Labrador"><span class="cb-text">Newfoundland and Labrador</span></label>
+                <label><input data-filter="territory" type="checkbox" value="Newfoundland and Labrador"><span class="cb-text">Newfoundland and Labrador</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="Northwest Territories"><span class="cb-text">Northwest Territories</span></label>
+                <label><input data-filter="territory" type="checkbox" value="Northwest Territories"><span class="cb-text">Northwest Territories</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="Nova Scotia"><span class="cb-text">Nova Scotia</span></label>
+                <label><input data-filter="territory" type="checkbox" value="Nova Scotia"><span class="cb-text">Nova Scotia</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="Nunavut"><span class="cb-text">Nunavut</span></label>
+                <label><input data-filter="territory" type="checkbox" value="Nunavut"><span class="cb-text">Nunavut</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="Ontario"><span class="cb-text">Ontario</span></label>
+                <label><input data-filter="territory" type="checkbox" value="Ontario"><span class="cb-text">Ontario</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="Prince Edward Island"><span class="cb-text">Prince Edward Island</span></label>
+                <label><input data-filter="territory" type="checkbox" value="Prince Edward Island"><span class="cb-text">Prince Edward Island</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="Quebec"><span class="cb-text">Quebec</span></label>
+                <label><input data-filter="territory" type="checkbox" value="Quebec"><span class="cb-text">Quebec</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="Saskatchewan"><span class="cb-text">Saskatchewan</span></label>
+                <label><input data-filter="territory" type="checkbox" value="Saskatchewan"><span class="cb-text">Saskatchewan</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="Yukon"><span class="cb-text">Yukon</span></label>
+                <label><input data-filter="territory" type="checkbox" value="Yukon"><span class="cb-text">Yukon</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
         </fieldset>
       </details>
@@ -163,61 +163,61 @@ issued: 2026-05-21
         <fieldset>
           <legend>Division</legend>
           <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="Alberta RCMP"><span class="cb-text">Alberta RCMP</span></label>
+            <label><input data-filter="region" type="checkbox" value="Alberta RCMP"><span class="cb-text">Alberta RCMP</span> <span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="British Columbia RCMP"><span class="cb-text">British Columbia RCMP</span></label>
+            <label><input data-filter="region" type="checkbox" value="British Columbia RCMP"><span class="cb-text">British Columbia RCMP</span> <span class="wp-filter-badge">0</span></label>
           </div>
 <div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Manitoba RCMP"><span class="cb-text">Manitoba RCMP</span></label>
+                <label><input data-filter="region" type="checkbox" value="Manitoba RCMP"><span class="cb-text">Manitoba RCMP</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="New Brunswick RCMP"><span class="cb-text">New Brunswick RCMP</span></label>
+                <label><input data-filter="region" type="checkbox" value="New Brunswick RCMP"><span class="cb-text">New Brunswick RCMP</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Newfoundland and Labrador RCMP"><span class="cb-text">Newfoundland and Labrador RCMP</span></label>
+                <label><input data-filter="region" type="checkbox" value="Newfoundland and Labrador RCMP"><span class="cb-text">Newfoundland and Labrador RCMP</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Northwest Territories RCMP"><span class="cb-text">Northwest Territories RCMP</span></label>
+                <label><input data-filter="region" type="checkbox" value="Northwest Territories RCMP"><span class="cb-text">Northwest Territories RCMP</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Nova Scotia RCMP"><span class="cb-text">Nova Scotia RCMP</span></label>
+                <label><input data-filter="region" type="checkbox" value="Nova Scotia RCMP"><span class="cb-text">Nova Scotia RCMP</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Nunavut RCMP"><span class="cb-text">Nunavut RCMP</span></label>
+                <label><input data-filter="region" type="checkbox" value="Nunavut RCMP"><span class="cb-text">Nunavut RCMP</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Prince Edward Island RCMP"><span class="cb-text">Prince Edward Island RCMP</span></label>
+                <label><input data-filter="region" type="checkbox" value="Prince Edward Island RCMP"><span class="cb-text">Prince Edward Island RCMP</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="RCMP Depot Division"><span class="cb-text">RCMP Depot Division</span>></label>
+                <label><input data-filter="region" type="checkbox" value="RCMP Depot Division"><span class="cb-text">RCMP Depot Division</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="RCMP National Headquarters"><span class="cb-text">RCMP National Headquarters</span></label>
+                <label><input data-filter="region" type="checkbox" value="RCMP National Headquarters"><span class="cb-text">RCMP National Headquarters</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Saskatchewan RCMP"><span class="cb-text">Saskatchewan RCMP</span></label>
+                <label><input data-filter="region" type="checkbox" value="Saskatchewan RCMP"><span class="cb-text">Saskatchewan RCMP</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Yukon RCMP"><span class="cb-text">Yukon RCMP</span></label>
+                <label><input data-filter="region" type="checkbox" value="Yukon RCMP"><span class="cb-text">Yukon RCMP</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
         </fieldset>
 	<fieldset>
           <legend>Fededral Policing regions</legend>
           <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="Federal Policing Central Region"><span class="cb-text">Central</span></label>
+            <label><input data-filter="region" type="checkbox" value="Federal Policing Central Region"><span class="cb-text">Central</span> <span class="wp-filter-badge">0</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="Federal Policing Eastern Region"><span class="cb-text">Eastern</span></label>
+            <label><input data-filter="region" type="checkbox" value="Federal Policing Eastern Region"><span class="cb-text">Eastern</span> <span class="wp-filter-badge">0</span></label>
           </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Federal Policing Northwest Region"><span class="cb-text">Northwest</span></label>
+                <label><input data-filter="region" type="checkbox" value="Federal Policing Northwest Region"><span class="cb-text">Northwest</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Federal Policing Pacific Region"><span class="cb-text">Pacific</span></label>
+                <label><input data-filter="region" type="checkbox" value="Federal Policing Pacific Region"><span class="cb-text">Pacific</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="RCMP National Headquarters"><span class="cb-text">National Headquarters</span></label>
+                <label><input data-filter="region" type="checkbox" value="RCMP National Headquarters"><span class="cb-text">National Headquarters</span> <span class="wp-filter-badge">0</span></label>
 				  </div>
         </fieldset>
       </details>	
@@ -364,6 +364,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   var currentPage = 1;
   var activeData  = PROFILES.slice();
   var grid         = $('news-grid');
+  var countNum     = $('news-count-num');
   var noResults    = $('news-no-results');
   var sortSel      = $('news-sort-select');
   var prevBtn      = $('news-prev');
@@ -371,6 +372,16 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   var activeTagsEl = $('news-active-filters');
   var pagination   = $('rcmp-content-page');
   var checkboxes   = document.querySelectorAll('#news-filters input[type="checkbox"]');
+  function updateBadges() {
+    checkboxes.forEach(function (cb) {
+      var cat = cb.dataset.filter;
+      var val = cb.value;
+      var count = PROFILES.filter(function (p) {
+        return p[cat] === val;
+      }).length;
+      var badge = cb.closest('label').querySelector('.wp-filter-badge');
+      if (badge) badge.textContent = count;
+    });
   }
   function sortData(data, mode) {
     return data.slice().sort(function (a, b) {
@@ -526,6 +537,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   nextBtn.addEventListener('click', function () {
     if (currentPage < Math.ceil(activeData.length / PER_PAGE)) paginate(1, nextBtn);
   });
+  updateBadges();
   refresh();
 }());
 </script>

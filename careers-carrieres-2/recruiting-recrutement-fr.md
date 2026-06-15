@@ -11,7 +11,7 @@ custom_css: /assets/css/careers.css
 ---
 
 <p>Êtes-vous intéressé par une carrière comme policier, gendarme communautaire ou opérateur des télécommunications?</p>
-<p>Des présentations sur les carrières, des ateliers, des salons de l’emploi, des camps pour jeunes et des événements spéciaux ont lieu dans diverses villes et localités tout au long de l'année. Trouvez un événement près de chez vous!</p>
+<p>Des présentations sur les carrières, des ateliers, des salons de l'emploi, des camps pour jeunes et des événements spéciaux ont lieu dans diverses villes et localités tout au long de l'année. Trouvez un événement près de chez vous!</p>
 <div class="row" id="re-page">
   <div class="col-md-3 col-sm-4" id="re-sidebar">
     <aside aria-labelledby="re-filters-heading" id="re-filters">
@@ -23,43 +23,43 @@ custom_css: /assets/css/careers.css
         <fieldset>
           <legend class="wb-inv">Province ou territoire</legend>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Alberta">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Colombie-Britannique"><span class="cb-text">Colombie-Britannique</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Colombie-Britannique">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Colombie-Britannique"><span class="cb-text">Colombie-Britannique</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Manitoba"><span class="cb-text">Manitoba</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Manitoba">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Manitoba"><span class="cb-text">Manitoba</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Nouveau-Brunswick"><span class="cb-text">Nouveau-Brunswick</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Nouveau-Brunswick">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Nouveau-Brunswick"><span class="cb-text">Nouveau-Brunswick</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Terre-Neuve-et-Labrador"><span class="cb-text">Terre-Neuve-et-Labrador</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Terre-Neuve-et-Labrador">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Terre-Neuve-et-Labrador"><span class="cb-text">Terre-Neuve-et-Labrador</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Territoires du Nord-Ouest"><span class="cb-text">Territoires du Nord-Ouest</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Territoires du Nord-Ouest">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Territoires du Nord-Ouest"><span class="cb-text">Territoires du Nord-Ouest</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Nouvelle-Écosse"><span class="cb-text">Nouvelle-Écosse</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Nouvelle-Écosse">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Nouvelle-Écosse"><span class="cb-text">Nouvelle-Écosse</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Nunavut"><span class="cb-text">Nunavut</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Nunavut">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Nunavut"><span class="cb-text">Nunavut</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Ontario"><span class="cb-text">Ontario</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Ontario">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Ontario"><span class="cb-text">Ontario</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Île-du-Prince-Édouard"><span class="cb-text">Île-du-Prince-Édouard</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Île-du-Prince-Édouard">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Île-du-Prince-Édouard"><span class="cb-text">Île-du-Prince-Édouard</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Québec"><span class="cb-text">Québec</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Québec">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Québec"><span class="cb-text">Québec</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Saskatchewan"><span class="cb-text">Saskatchewan</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Saskatchewan">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Saskatchewan"><span class="cb-text">Saskatchewan</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="province" type="checkbox" value="Yukon"><span class="cb-text">Yukon</span><span aria-hidden="true" class="wp-filter-badge" data-badge="province-Yukon">0</span></label>
+            <label><input data-filter="province" type="checkbox" value="Yukon"><span class="cb-text">Yukon</span></label>
           </div>
         </fieldset>
       </details>
@@ -70,79 +70,58 @@ custom_css: /assets/css/careers.css
         <fieldset>
           <legend class="wb-inv">Type d'événement</legend>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Ask-a-recruiter"><span class="cb-text">Demandez à un recruteur – Séance de questions et réponses</span><span aria-hidden="true" class="wp-filter-badge" data-badge="eventType-Ask-a-recruiter">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Ask-a-recruiter"><span class="cb-text">Demandez à un recruteur – Séance de questions et réponses</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Career fair"><span class="cb-text">Foire de l'emploi</span><span aria-hidden="true" class="wp-filter-badge" data-badge="eventType-Career fair">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Career fair"><span class="cb-text">Foire de l'emploi</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Career presentation"><span class="cb-text">Présentation de carrière</span><span aria-hidden="true" class="wp-filter-badge" data-badge="eventType-Career presentation">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Career presentation"><span class="cb-text">Présentation de carrière</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Online entrance assessment workshop"><span class="cb-text">Atelier de préparation à l'évaluation d'entrée en ligne</span><span aria-hidden="true" class="wp-filter-badge" data-badge="eventType-Online entrance assessment workshop">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Online entrance assessment workshop"><span class="cb-text">Atelier de préparation à l'évaluation d'entrée en ligne</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Police fitness assessment workshop"><span class="cb-text">Atelier de test de condition physique pour les policiers</span><span aria-hidden="true" class="wp-filter-badge" data-badge="eventType-Police fitness assessment workshop">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Police fitness assessment workshop"><span class="cb-text">Atelier de test de condition physique pour les policiers</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Police fitness assessment test session"><span class="cb-text">Séance du test de condition physique pour les policiers</span><span aria-hidden="true" class="wp-filter-badge" data-badge="eventType-Police fitness assessment test session">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Police fitness assessment test session"><span class="cb-text">Séance du test de condition physique pour les policiers</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Special event"><span class="cb-text">Événement spécial</span><span aria-hidden="true" class="wp-filter-badge" data-badge="eventType-Special event">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Special event"><span class="cb-text">Événement spécial</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="eventType" type="checkbox" value="Workshop"><span class="cb-text">Atelier</span><span aria-hidden="true" class="wp-filter-badge" data-badge="eventType-Workshop">0</span></label>
+            <label><input data-filter="eventType" type="checkbox" value="Workshop"><span class="cb-text">Atelier</span></label>
           </div>
         </fieldset>
       </details>
-      <details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle">
-          <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Type d'emploi</span>
-        </summary>
-        <fieldset>
-          <legend class="wb-inv">Type d'emploi</legend>
-          <div class="checkbox">
-            <label><input data-filter="jobType" type="checkbox" value="Gendarme communautaire"><span class="cb-text">Gendarme communautaire</span><span aria-hidden="true" class="wp-filter-badge" data-badge="jobType-Gendarme communautaire">0</span></label>
-          </div>
-          <div class="checkbox">
-            <label><input data-filter="jobType" type="checkbox" value="Policier"><span class="cb-text">Policier</span><span aria-hidden="true" class="wp-filter-badge" data-badge="jobType-Policier">0</span></label>
-          </div>
-          <div class="checkbox">
-            <label><input data-filter="jobType" type="checkbox" value="Opérateur en télécommunications"><span class="cb-text">Opérateur en télécommunications (répartiteur 9-1-1)</span><span aria-hidden="true" class="wp-filter-badge" data-badge="jobType-Opérateur en télécommunications">0</span></label>
-          </div>
-        </fieldset>
-      </details>
-      <details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle">
-          <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Format de l'événement</span>
-        </summary>
-        <fieldset>
-          <legend class="wb-inv">Format de l'événement</legend>
-          <div class="checkbox">
-            <label><input data-filter="format" type="checkbox" value="In person"><span class="cb-text">En personne</span><span aria-hidden="true" class="wp-filter-badge" data-badge="format-In person">0</span></label>
-          </div>
-          <div class="checkbox">
-            <label><input data-filter="format" type="checkbox" value="Virtual"><span class="cb-text">Virtuel</span><span aria-hidden="true" class="wp-filter-badge" data-badge="format-Virtual">0</span></label>
-          </div>
-        </fieldset>
-      </details>
-      <details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle">
-          <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Langue de l'événement</span>
-        </summary>
-        <fieldset>
-          <legend class="wb-inv">Langue de l'événement</legend>
-          <div class="checkbox">
-            <label><input data-filter="language" type="checkbox" value="English"><span class="cb-text">Anglais</span><span aria-hidden="true" class="wp-filter-badge" data-badge="language-English">0</span></label>
-          </div>
-          <div class="checkbox">
-            <label><input data-filter="language" type="checkbox" value="French"><span class="cb-text">Français</span><span aria-hidden="true" class="wp-filter-badge" data-badge="language-French">0</span></label>
-          </div>
-          <div class="checkbox">
-            <label><input data-filter="language" type="checkbox" value="English and French"><span class="cb-text">Français et anglais</span><span aria-hidden="true" class="wp-filter-badge" data-badge="language-English and French">0</span></label>
-          </div>
-        </fieldset>
-      </details><button class="btn btn-default btn-block mrgn-tp-md" id="re-clear-filters" type="button">Effacer les filtres</button>
+      <div class="re-select-group">
+        <label class="re-select-label" for="re-select-jobType">Type d'emploi</label>
+        <select class="re-select" id="re-select-jobType" data-filter="jobType">
+          <option value="">Tous les types d'emploi</option>
+          <option value="Gendarme communautaire">Gendarme communautaire</option>
+          <option value="Policier">Policier</option>
+          <option value="Opérateur en télécommunications">Opérateur en télécommunications (répartiteur 9-1-1)</option>
+        </select>
+      </div>
+      <div class="re-select-group">
+        <label class="re-select-label" for="re-select-format">Format de l'événement</label>
+        <select class="re-select" id="re-select-format" data-filter="format">
+          <option value="">Tous les formats</option>
+          <option value="In person">En personne</option>
+          <option value="Virtual">Virtuel</option>
+        </select>
+      </div>
+      <div class="re-select-group">
+        <label class="re-select-label" for="re-select-language">Langue de l'événement</label>
+        <select class="re-select" id="re-select-language" data-filter="language">
+          <option value="">Toutes les langues</option>
+          <option value="English">Anglais</option>
+          <option value="French">Français</option>
+          <option value="English and French">Français et anglais</option>
+        </select>
+      </div>
+      <button class="btn btn-default btn-block mrgn-tp-md" id="re-clear-filters" type="button">Effacer les filtres</button>
     </aside>
   </div>
   <div class="col-md-9 col-sm-8" id="re-results-col">
@@ -150,7 +129,7 @@ custom_css: /assets/css/careers.css
     <div id="re-toolbar">
       <p aria-live="polite" id="re-count"><strong id="re-count-num">0</strong>&nbsp;événements trouvés</p>
     </div>
-    <ul aria-label="Événements de recrutement" class="list-unstyled" id="re-grid" role="list"></ul>
+    <ul aria-label="Événements de recrutement" class="list-unstyled" id="re-grid"></ul>
     <p id="re-no-results" style="display:none;">Aucun événement ne correspond à vos filtres.</p>
     <nav aria-label="Pagination" class="rcmp-item-pagination" id="re-pagination">
       <div class="rcmp-item-pagination__prev" id="re-prev-wrap">
@@ -168,366 +147,365 @@ custom_css: /assets/css/careers.css
 (function() {
   'use strict';
   var EVENTS = [{
-      title: 'Présentation de carrière – Vancouver',
-      title: 'Présentation de carrière – Vancouver',
-      city: 'Vancouver',
-      province: 'Colombie-Britannique',
-      tz: 'PT',
-      eventType: 'Career presentation',
-      jobType: 'Policier',
-      format: 'In person',
-      language: 'English',
-      time: '18 h',
-      date: '2026-07-10',
-      cancelled: false
-    }, {
-      title: 'Foire de l\'emploi – Calgary',
-      city: 'Calgary',
-      province: 'Alberta',
-      tz: 'MT',
-      eventType: 'Career fair',
-      jobType: 'Policier',
-      format: 'In person',
-      language: 'English',
-      time: '10 h',
-      date: '2026-07-14',
-      cancelled: false
-    }, {
-      title: 'Séance nationale – Demandez à un recruteur',
-      city: '',
-      province: 'Ontario',
-      tz: 'ET',
-      eventType: 'Ask-a-recruiter',
-      jobType: 'Policier',
-      format: 'Virtual',
-      language: 'English and French',
-      time: '13 h',
-      date: '2026-07-16',
-      cancelled: false
-    }, {
-      title: 'Atelier d\'évaluation condition physique – Toronto',
-      city: 'Toronto',
-      province: 'Ontario',
-      tz: 'ET',
-      eventType: 'Police fitness assessment workshop',
-      jobType: 'Policier',
-      format: 'In person',
-      language: 'English',
-      time: '8 h 30',
-      date: '2026-07-18',
-      cancelled: false
-    }, {
-      title: 'Présentation gendarme communautaire – Moncton',
-      city: 'Moncton',
-      province: 'Nouveau-Brunswick',
-      tz: 'AT',
-      eventType: 'Career presentation',
-      jobType: 'Gendarme communautaire',
-      format: 'In person',
-      language: 'English and French',
-      time: '17 h 30',
-      date: '2026-07-22',
-      cancelled: false
-    }, {
-      title: 'Atelier d\'évaluation d\'entrée en ligne',
-      city: '',
-      province: 'Colombie-Britannique',
-      tz: 'PT',
-      eventType: 'Online entrance assessment workshop',
-      jobType: 'Policier',
-      format: 'Virtual',
-      language: 'English',
-      time: '14 h',
-      date: '2026-07-24',
-      cancelled: false
-    }, {
-      title: 'Foire de l\'emploi – opérateur télécom – Winnipeg',
-      city: 'Winnipeg',
-      province: 'Manitoba',
-      tz: 'CT',
-      eventType: 'Career fair',
-      jobType: 'Opérateur en télécommunications',
-      format: 'In person',
-      language: 'English',
-      time: '11 h',
-      date: '2026-07-28',
-      cancelled: false
-    }, {
-      title: 'Événement spécial de recrutement – Halifax',
-      city: 'Halifax',
-      province: 'Nouvelle-Écosse',
-      tz: 'AT',
-      eventType: 'Special event',
-      jobType: 'Policier',
-      format: 'In person',
-      language: 'English',
-      time: '9 h',
-      date: '2026-08-02',
-      cancelled: false
-    }, {
-      title: 'Séance de test condition physique – Edmonton',
-      city: 'Edmonton',
-      province: 'Alberta',
-      tz: 'MT',
-      eventType: 'Police fitness assessment test session',
-      jobType: 'Policier',
-      format: 'In person',
-      language: 'English',
-      time: '7 h',
-      date: '2026-08-05',
-      cancelled: true
-    }, {
-      title: 'Atelier gendarme communautaire – Saskatoon',
-      city: 'Saskatoon',
-      province: 'Saskatchewan',
-      tz: 'ST',
-      eventType: 'Workshop',
-      jobType: 'Gendarme communautaire',
-      format: 'In person',
-      language: 'English',
-      time: '10 h 30',
-      date: '2026-08-08',
-      cancelled: false
-    }, {
-      title: 'Séance questions-réponses – Québec',
-      city: '',
-      province: 'Québec',
-      tz: 'ET',
-      eventType: 'Ask-a-recruiter',
-      jobType: 'Policier',
-      format: 'Virtual',
-      language: 'French',
-      time: '15 h',
-      date: '2026-08-12',
-      cancelled: false
-    }, {
-      title: 'Présentation gendarme communautaire – Whitehorse',
-      city: 'Whitehorse',
-      province: 'Yukon',
-      tz: 'YT',
-      eventType: 'Career presentation',
-      jobType: 'Gendarme communautaire',
-      format: 'In person',
-      language: 'English',
-      time: '13 h',
-      date: '2026-08-15',
-      cancelled: false
-    }, {
-      title: 'Foire de l\'emploi – St. John\'s',
-      city: 'St. John\'s',
-      province: 'Terre-Neuve-et-Labrador',
-      tz: 'NT',
-      eventType: 'Career fair',
-      jobType: 'Policier',
-      format: 'In person',
-      language: 'English',
-      time: '11 h',
-      date: '2026-08-19',
-      cancelled: false
-    }, {
-      title: 'Présentation de carrière – Charlottetown',
-      city: 'Charlottetown',
-      province: 'Île-du-Prince-Édouard',
-      tz: 'AT',
-      eventType: 'Career presentation',
-      jobType: 'Policier',
-      format: 'In person',
-      language: 'English',
-      time: '18 h',
-      date: '2026-08-21',
-      cancelled: false
-    }, {
-      title: 'Événement spécial de recrutement – Yellowknife',
-      city: 'Yellowknife',
-      province: 'Territoires du Nord-Ouest',
-      tz: 'MT',
-      eventType: 'Special event',
-      jobType: 'Gendarme communautaire',
-      format: 'In person',
-      language: 'English',
-      time: '10 h',
-      date: '2026-08-25',
-      cancelled: false
-    }, {
-      title: 'Atelier gendarme communautaire – Iqaluit',
-      city: 'Iqaluit',
-      province: 'Nunavut',
-      tz: 'ET',
-      eventType: 'Workshop',
-      jobType: 'Gendarme communautaire',
-      format: 'In person',
-      language: 'English',
-      time: '13 h',
-      date: '2026-08-27',
-      cancelled: false
-    }, {
-      title: 'Atelier condition physique en ligne',
-      city: '',
-      province: 'Alberta',
-      tz: 'MT',
-      eventType: 'Police fitness assessment workshop',
-      jobType: 'Policier',
-      format: 'Virtual',
-      language: 'English',
-      time: '9 h',
-      date: '2026-09-03',
-      cancelled: false
-    }, {
-      title: 'Foire de l\'emploi policier – Regina',
-      city: 'Regina',
-      province: 'Saskatchewan',
-      tz: 'ST',
-      eventType: 'Career fair',
-      jobType: 'Policier',
-      format: 'In person',
-      language: 'English',
-      time: '10 h',
-      date: '2026-09-08',
-      cancelled: false
-    }, {
-      title: 'Séance Demandez à un recruteur – Victoria',
-      city: 'Victoria',
-      province: 'Colombie-Britannique',
-      tz: 'PT',
-      eventType: 'Ask-a-recruiter',
-      jobType: 'Policier',
-      format: 'In person',
-      language: 'English',
-      time: '17 h',
-      date: '2026-09-10',
-      cancelled: false
-    }, {
-      title: 'Présentation bilingue de carrière – Ottawa',
-      city: 'Ottawa',
-      province: 'Ontario',
-      tz: 'ET',
-      eventType: 'Career presentation',
-      jobType: 'Policier',
-      format: 'In person',
-      language: 'English and French',
-      time: '18 h 30',
-      date: '2026-09-15',
-      cancelled: true
-    }, {
-      title: 'Foire de l\'emploi – Montréal',
-      city: 'Montréal',
-      province: 'Québec',
-      tz: 'ET',
-      eventType: 'Career fair',
-      jobType: 'Policier',
-      format: 'In person',
-      language: 'French',
-      time: '11 h',
-      date: '2026-09-18',
-      cancelled: false
-    }, {
-      title: 'Présentation opérateur télécom – Fredericton',
-      city: 'Fredericton',
-      province: 'Nouveau-Brunswick',
-      tz: 'AT',
-      eventType: 'Career presentation',
-      jobType: 'Opérateur en télécommunications',
-      format: 'In person',
-      language: 'English and French',
-      time: '14 h',
-      date: '2026-09-22',
-      cancelled: false
-    }, {
-      title: 'Séance de test condition physique – Kelowna',
-      city: 'Kelowna',
-      province: 'Colombie-Britannique',
-      tz: 'PT',
-      eventType: 'Police fitness assessment test session',
-      jobType: 'Policier',
-      format: 'In person',
-      language: 'English',
-      time: '8 h',
-      date: '2026-09-25',
-      cancelled: false
-    }, {
-      title: 'Séance virtuelle – Demandez à un recruteur',
-      city: '',
-      province: 'Manitoba',
-      tz: 'CT',
-      eventType: 'Ask-a-recruiter',
-      jobType: 'Opérateur en télécommunications',
-      format: 'Virtual',
-      language: 'English',
-      time: '12 h',
-      date: '2026-09-29',
-      cancelled: false
-    }, {
-      title: 'Présentation de carrière – Thunder Bay',
-      city: 'Thunder Bay',
-      province: 'Ontario',
-      tz: 'ET',
-      eventType: 'Career presentation',
-      jobType: 'Policier',
-      format: 'In person',
-      language: 'English',
-      time: '18 h',
-      date: '2026-10-02',
-      cancelled: true
-    }, {
-      title: 'Présentation policier – Lethbridge',
-      city: 'Lethbridge',
-      province: 'Alberta',
-      tz: 'MT',
-      eventType: 'Career presentation',
-      jobType: 'Policier',
-      format: 'In person',
-      language: 'English',
-      time: '19 h',
-      date: '2026-10-06',
-      cancelled: false
-    }, {
-      title: 'Foire de l\'emploi – Sudbury',
-      city: 'Sudbury',
-      province: 'Ontario',
-      tz: 'ET',
-      eventType: 'Career fair',
-      jobType: 'Policier',
-      format: 'In person',
-      language: 'English and French',
-      time: '10 h',
-      date: '2026-10-09',
-      cancelled: false
-    }, {
-      title: 'Atelier gendarme communautaire – Abbotsford',
-      city: 'Abbotsford',
-      province: 'Colombie-Britannique',
-      tz: 'PT',
-      eventType: 'Workshop',
-      jobType: 'Gendarme communautaire',
-      format: 'In person',
-      language: 'English',
-      time: '9 h',
-      date: '2026-10-14',
-      cancelled: false
-    }, {
-      title: 'Séance virtuelle – Demandez à un recruteur – Télécom',
-      city: '',
-      province: 'Nouveau-Brunswick',
-      tz: 'AT',
-      eventType: 'Ask-a-recruiter',
-      jobType: 'Opérateur en télécommunications',
-      format: 'Virtual',
-      language: 'English and French',
-      time: '14 h',
-      date: '2026-10-20',
-      cancelled: false
-    }, {
-      title: 'Atelier condition physique – Kamloops',
-      city: 'Kamloops',
-      province: 'Colombie-Britannique',
-      tz: 'PT',
-      eventType: 'Police fitness assessment workshop',
-      jobType: 'Policier',
-      format: 'In person',
-      language: 'English',
-      time: '8 h',
-      date: '2026-10-23',
-      cancelled: false
+    title: 'Présentation de carrière – Vancouver',
+    city: 'Vancouver',
+    province: 'Colombie-Britannique',
+    tz: 'PT',
+    eventType: 'Career presentation',
+    jobType: 'Policier',
+    format: 'In person',
+    language: 'English',
+    time: '18 h',
+    date: '2026-07-10',
+    cancelled: false
+  }, {
+    title: 'Foire de l\'emploi – Calgary',
+    city: 'Calgary',
+    province: 'Alberta',
+    tz: 'MT',
+    eventType: 'Career fair',
+    jobType: 'Policier',
+    format: 'In person',
+    language: 'English',
+    time: '10 h',
+    date: '2026-07-14',
+    cancelled: false
+  }, {
+    title: 'Séance nationale – Demandez à un recruteur',
+    city: '',
+    province: 'Ontario',
+    tz: 'ET',
+    eventType: 'Ask-a-recruiter',
+    jobType: 'Policier',
+    format: 'Virtual',
+    language: 'English and French',
+    time: '13 h',
+    date: '2026-07-16',
+    cancelled: false
+  }, {
+    title: 'Atelier d\'évaluation condition physique – Toronto',
+    city: 'Toronto',
+    province: 'Ontario',
+    tz: 'ET',
+    eventType: 'Police fitness assessment workshop',
+    jobType: 'Policier',
+    format: 'In person',
+    language: 'English',
+    time: '8 h 30',
+    date: '2026-07-18',
+    cancelled: false
+  }, {
+    title: 'Présentation gendarme communautaire – Moncton',
+    city: 'Moncton',
+    province: 'Nouveau-Brunswick',
+    tz: 'AT',
+    eventType: 'Career presentation',
+    jobType: 'Gendarme communautaire',
+    format: 'In person',
+    language: 'English and French',
+    time: '17 h 30',
+    date: '2026-07-22',
+    cancelled: false
+  }, {
+    title: 'Atelier d\'évaluation d\'entrée en ligne',
+    city: '',
+    province: 'Colombie-Britannique',
+    tz: 'PT',
+    eventType: 'Online entrance assessment workshop',
+    jobType: 'Policier',
+    format: 'Virtual',
+    language: 'English',
+    time: '14 h',
+    date: '2026-07-24',
+    cancelled: false
+  }, {
+    title: 'Foire de l\'emploi – opérateur télécom – Winnipeg',
+    city: 'Winnipeg',
+    province: 'Manitoba',
+    tz: 'CT',
+    eventType: 'Career fair',
+    jobType: 'Opérateur en télécommunications',
+    format: 'In person',
+    language: 'English',
+    time: '11 h',
+    date: '2026-07-28',
+    cancelled: false
+  }, {
+    title: 'Événement spécial de recrutement – Halifax',
+    city: 'Halifax',
+    province: 'Nouvelle-Écosse',
+    tz: 'AT',
+    eventType: 'Special event',
+    jobType: 'Policier',
+    format: 'In person',
+    language: 'English',
+    time: '9 h',
+    date: '2026-08-02',
+    cancelled: false
+  }, {
+    title: 'Séance de test condition physique – Edmonton',
+    city: 'Edmonton',
+    province: 'Alberta',
+    tz: 'MT',
+    eventType: 'Police fitness assessment test session',
+    jobType: 'Policier',
+    format: 'In person',
+    language: 'English',
+    time: '7 h',
+    date: '2026-08-05',
+    cancelled: true
+  }, {
+    title: 'Atelier gendarme communautaire – Saskatoon',
+    city: 'Saskatoon',
+    province: 'Saskatchewan',
+    tz: 'ST',
+    eventType: 'Workshop',
+    jobType: 'Gendarme communautaire',
+    format: 'In person',
+    language: 'English',
+    time: '10 h 30',
+    date: '2026-08-08',
+    cancelled: false
+  }, {
+    title: 'Séance questions-réponses – Québec',
+    city: '',
+    province: 'Québec',
+    tz: 'ET',
+    eventType: 'Ask-a-recruiter',
+    jobType: 'Policier',
+    format: 'Virtual',
+    language: 'French',
+    time: '15 h',
+    date: '2026-08-12',
+    cancelled: false
+  }, {
+    title: 'Présentation gendarme communautaire – Whitehorse',
+    city: 'Whitehorse',
+    province: 'Yukon',
+    tz: 'YT',
+    eventType: 'Career presentation',
+    jobType: 'Gendarme communautaire',
+    format: 'In person',
+    language: 'English',
+    time: '13 h',
+    date: '2026-08-15',
+    cancelled: false
+  }, {
+    title: 'Foire de l\'emploi – St. John\'s',
+    city: 'St. John\'s',
+    province: 'Terre-Neuve-et-Labrador',
+    tz: 'NT',
+    eventType: 'Career fair',
+    jobType: 'Policier',
+    format: 'In person',
+    language: 'English',
+    time: '11 h',
+    date: '2026-08-19',
+    cancelled: false
+  }, {
+    title: 'Présentation de carrière – Charlottetown',
+    city: 'Charlottetown',
+    province: 'Île-du-Prince-Édouard',
+    tz: 'AT',
+    eventType: 'Career presentation',
+    jobType: 'Policier',
+    format: 'In person',
+    language: 'English',
+    time: '18 h',
+    date: '2026-08-21',
+    cancelled: false
+  }, {
+    title: 'Événement spécial de recrutement – Yellowknife',
+    city: 'Yellowknife',
+    province: 'Territoires du Nord-Ouest',
+    tz: 'MT',
+    eventType: 'Special event',
+    jobType: 'Gendarme communautaire',
+    format: 'In person',
+    language: 'English',
+    time: '10 h',
+    date: '2026-08-25',
+    cancelled: false
+  }, {
+    title: 'Atelier gendarme communautaire – Iqaluit',
+    city: 'Iqaluit',
+    province: 'Nunavut',
+    tz: 'ET',
+    eventType: 'Workshop',
+    jobType: 'Gendarme communautaire',
+    format: 'In person',
+    language: 'English',
+    time: '13 h',
+    date: '2026-08-27',
+    cancelled: false
+  }, {
+    title: 'Atelier condition physique en ligne',
+    city: '',
+    province: 'Alberta',
+    tz: 'MT',
+    eventType: 'Police fitness assessment workshop',
+    jobType: 'Policier',
+    format: 'Virtual',
+    language: 'English',
+    time: '9 h',
+    date: '2026-09-03',
+    cancelled: false
+  }, {
+    title: 'Foire de l\'emploi policier – Regina',
+    city: 'Regina',
+    province: 'Saskatchewan',
+    tz: 'ST',
+    eventType: 'Career fair',
+    jobType: 'Policier',
+    format: 'In person',
+    language: 'English',
+    time: '10 h',
+    date: '2026-09-08',
+    cancelled: false
+  }, {
+    title: 'Séance Demandez à un recruteur – Victoria',
+    city: 'Victoria',
+    province: 'Colombie-Britannique',
+    tz: 'PT',
+    eventType: 'Ask-a-recruiter',
+    jobType: 'Policier',
+    format: 'In person',
+    language: 'English',
+    time: '17 h',
+    date: '2026-09-10',
+    cancelled: false
+  }, {
+    title: 'Présentation bilingue de carrière – Ottawa',
+    city: 'Ottawa',
+    province: 'Ontario',
+    tz: 'ET',
+    eventType: 'Career presentation',
+    jobType: 'Policier',
+    format: 'In person',
+    language: 'English and French',
+    time: '18 h 30',
+    date: '2026-09-15',
+    cancelled: true
+  }, {
+    title: 'Foire de l\'emploi – Montréal',
+    city: 'Montréal',
+    province: 'Québec',
+    tz: 'ET',
+    eventType: 'Career fair',
+    jobType: 'Policier',
+    format: 'In person',
+    language: 'French',
+    time: '11 h',
+    date: '2026-09-18',
+    cancelled: false
+  }, {
+    title: 'Présentation opérateur télécom – Fredericton',
+    city: 'Fredericton',
+    province: 'Nouveau-Brunswick',
+    tz: 'AT',
+    eventType: 'Career presentation',
+    jobType: 'Opérateur en télécommunications',
+    format: 'In person',
+    language: 'English and French',
+    time: '14 h',
+    date: '2026-09-22',
+    cancelled: false
+  }, {
+    title: 'Séance de test condition physique – Kelowna',
+    city: 'Kelowna',
+    province: 'Colombie-Britannique',
+    tz: 'PT',
+    eventType: 'Police fitness assessment test session',
+    jobType: 'Policier',
+    format: 'In person',
+    language: 'English',
+    time: '8 h',
+    date: '2026-09-25',
+    cancelled: false
+  }, {
+    title: 'Séance virtuelle – Demandez à un recruteur',
+    city: '',
+    province: 'Manitoba',
+    tz: 'CT',
+    eventType: 'Ask-a-recruiter',
+    jobType: 'Opérateur en télécommunications',
+    format: 'Virtual',
+    language: 'English',
+    time: '12 h',
+    date: '2026-09-29',
+    cancelled: false
+  }, {
+    title: 'Présentation de carrière – Thunder Bay',
+    city: 'Thunder Bay',
+    province: 'Ontario',
+    tz: 'ET',
+    eventType: 'Career presentation',
+    jobType: 'Policier',
+    format: 'In person',
+    language: 'English',
+    time: '18 h',
+    date: '2026-10-02',
+    cancelled: true
+  }, {
+    title: 'Présentation policier – Lethbridge',
+    city: 'Lethbridge',
+    province: 'Alberta',
+    tz: 'MT',
+    eventType: 'Career presentation',
+    jobType: 'Policier',
+    format: 'In person',
+    language: 'English',
+    time: '19 h',
+    date: '2026-10-06',
+    cancelled: false
+  }, {
+    title: 'Foire de l\'emploi – Sudbury',
+    city: 'Sudbury',
+    province: 'Ontario',
+    tz: 'ET',
+    eventType: 'Career fair',
+    jobType: 'Policier',
+    format: 'In person',
+    language: 'English and French',
+    time: '10 h',
+    date: '2026-10-09',
+    cancelled: false
+  }, {
+    title: 'Atelier gendarme communautaire – Abbotsford',
+    city: 'Abbotsford',
+    province: 'Colombie-Britannique',
+    tz: 'PT',
+    eventType: 'Workshop',
+    jobType: 'Gendarme communautaire',
+    format: 'In person',
+    language: 'English',
+    time: '9 h',
+    date: '2026-10-14',
+    cancelled: false
+  }, {
+    title: 'Séance virtuelle – Demandez à un recruteur – Télécom',
+    city: '',
+    province: 'Nouveau-Brunswick',
+    tz: 'AT',
+    eventType: 'Ask-a-recruiter',
+    jobType: 'Opérateur en télécommunications',
+    format: 'Virtual',
+    language: 'English and French',
+    time: '14 h',
+    date: '2026-10-20',
+    cancelled: false
+  }, {
+    title: 'Atelier condition physique – Kamloops',
+    city: 'Kamloops',
+    province: 'Colombie-Britannique',
+    tz: 'PT',
+    eventType: 'Police fitness assessment workshop',
+    jobType: 'Policier',
+    format: 'In person',
+    language: 'English',
+    time: '8 h',
+    date: '2026-10-23',
+    cancelled: false
   }];
   var LANG = document.documentElement.lang && document.documentElement.lang.slice(0, 2) === 'fr' ? 'fr' : 'en';
   var TZ_LABEL = {
@@ -635,39 +613,24 @@ custom_css: /assets/css/careers.css
   var PER_PAGE = 10;
   var currentPage = 1;
   var activeData = EVENTS.slice();
-  var checkboxes = document.querySelectorAll('#re-filters input[type="checkbox"]');
-  var clearBtn = document.getElementById('re-clear-filters');
-  var countNumEl = document.getElementById('re-count-num');
+  var checkboxes  = document.querySelectorAll('#re-filters input[type="checkbox"]');
+  var selects     = document.querySelectorAll('#re-filters select.re-select');
+  var clearBtn    = document.getElementById('re-clear-filters');
+  var countNumEl  = document.getElementById('re-count-num');
   var activeTagEl = document.getElementById('re-active-filters');
-  var grid = document.getElementById('re-grid');
-  var noResults = document.getElementById('re-no-results');
-  var pagination = document.getElementById('re-pagination');
-  var prevBtn = document.getElementById('re-prev');
-  var nextBtn = document.getElementById('re-next');
+  var grid        = document.getElementById('re-grid');
+  var noResults   = document.getElementById('re-no-results');
+  var pagination  = document.getElementById('re-pagination');
+  var prevBtn     = document.getElementById('re-prev');
+  var nextBtn     = document.getElementById('re-next');
 
-  function updateBadges() {
-    var badgeEls = document.querySelectorAll('[data-badge]');
-    Array.prototype.forEach.call(badgeEls, function(el) {
-      var raw = el.dataset.badge;
-      var dash = raw.indexOf('-');
-      var cat = raw.slice(0, dash);
-      var val = raw.slice(dash + 1);
-      el.textContent = EVENTS.filter(function(e) {
-        return e[cat] === val;
-      }).length;
-    });
-  }
-
-  function getActiveFilters() {
-    var active = {
-      province: [],
-      eventType: [],
-      jobType: [],
-      format: [],
-      language: []
-    };
-    Array.prototype.forEach.call(checkboxes, function(cb) {
+   function getActiveFilters() {
+    var active = { province: [], eventType: [], jobType: [], format: [], language: [] };
+    Array.prototype.forEach.call(checkboxes, function (cb) {
       if (cb.checked) active[cb.dataset.filter].push(cb.value);
+    });
+    Array.prototype.forEach.call(selects, function (sel) {
+      if (sel.value) active[sel.dataset.filter].push(sel.value);
     });
     return active;
   }
@@ -714,8 +677,11 @@ custom_css: /assets/css/careers.css
           var cb = document.querySelector('input[data-filter="' + cat + '"][value="' + val + '"]');
           if (cb) {
             cb.checked = false;
-            refresh();
+          } else {
+            var sel = document.querySelector('select[data-filter="' + cat + '"]');
+            if (sel) sel.value = '';
           }
+          refresh();
         });
         tagsWrap.appendChild(tag);
       });
@@ -753,7 +719,7 @@ custom_css: /assets/css/careers.css
       var formatBadge = '<span class="re-card-format-badge re-card-format-badge--' + (e.format === 'Virtual' ? 'virtual' : 'inperson') + '">' + formatBadgeLabel + '</span>';
       var li = document.createElement('li');
       li.className = 're-card' + (e.cancelled ? ' re-card--cancelled' : '');
-      li.innerHTML = formatBadge + '<div class="re-card-body">' + cancelledBadge + '<h3 class="re-card-title"><a href="event-evenement-fr.html">' + e.title + '</a></h3>' + '<ul class="re-card-meta list-unstyled">' + (locationLine ? '<li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> ' + locationLine + '</li>' : '') + '<li><i class="fa-regular fa-lightbulb" aria-hidden="true"></i> ' + e.eventType + ' \u2013 ' + e.jobType + '</li>' + '<li><i class="fa-regular fa-calendar" aria-hidden="true"></i> ' + formatDate(e.date) + ' ' + e.time + tzLabel + '</li>' + '</ul>' + '</div>';
+      li.innerHTML = formatBadge + '<div class="re-card-body">' + cancelledBadge + '<h3 class="re-card-title"><a href="event-evenement-en.html">' + e.title + '</a></h3>' + '<ul class="re-card-meta list-unstyled">' + (locationLine ? '<li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> ' + locationLine + '</li>' : '') + '<li><i class="fa-regular fa-lightbulb" aria-hidden="true"></i> ' + e.eventType + ' \u2013 ' + e.jobType + '</li>' + '<li><i class="fa-regular fa-calendar" aria-hidden="true"></i> ' + formatDate(e.date) + ' ' + e.time + tzLabel + '</li>' + '</ul>' + '</div>';
       grid.appendChild(li);
     });
   }
@@ -837,18 +803,23 @@ custom_css: /assets/css/careers.css
   }
   Array.prototype.forEach.call(checkboxes, function(cb) {
     cb.addEventListener('change', refresh);
-  }); clearBtn.addEventListener('click', function() {
-    Array.prototype.forEach.call(checkboxes, function(cb) {
-      cb.checked = false;
-    });
+  });
+  Array.prototype.forEach.call(selects, function(sel) {
+    sel.addEventListener('change', refresh);
+  });
+  clearBtn.addEventListener('click', function () {
+    Array.prototype.forEach.call(checkboxes, function (cb) { cb.checked = false; });
+    Array.prototype.forEach.call(selects, function (sel) { sel.value = ''; });
     refresh();
-  }); prevBtn.addEventListener('click', function() {
+  });
+  prevBtn.addEventListener('click', function() {
     if (currentPage > 1) {
       currentPage--;
       draw();
       scrollToGrid();
     }
-  }); nextBtn.addEventListener('click', function() {
+  });
+  nextBtn.addEventListener('click', function() {
     if (currentPage < Math.ceil(activeData.length / PER_PAGE)) {
       currentPage++;
       draw();
@@ -873,13 +844,9 @@ custom_css: /assets/css/careers.css
     jVals.forEach(function(id) {
       var name = JOBTYPE_ID[LANG][parseInt(id, 10)];
       if (!name) return;
-      var cb = document.querySelector('input[data-filter="jobType"][value="' + name + '"]');
-      if (cb) {
-        cb.checked = true;
-        openCats['jobType'] = true;
-      }
+      var sel = document.querySelector('select[data-filter="jobType"]');
+      if (sel) sel.value = name;
     });
-    /* Open only the accordion groups that have active query filters */
     Object.keys(openCats).forEach(function(cat) {
       var cb = document.querySelector('input[data-filter="' + cat + '"]');
       if (cb) {
@@ -888,6 +855,7 @@ custom_css: /assets/css/careers.css
       }
     });
   }
-  updateBadges(); applyQueryString(); refresh();
+  applyQueryString();
+  refresh();
 }());
 </script>

@@ -39,7 +39,7 @@ issued: 2026-05-08
 	background-color: #f5f5f5;
 	padding-left: 10px;
 }
-	.news-topic-1 a:link, a:visited {
+	a.news-topic-1:link, a.news-topic-1:visited {
     background-color: green;
     color: white;
     padding: 10px 15px;
@@ -47,7 +47,7 @@ issued: 2026-05-08
     text-decoration: none;
     display: inline-block;
 }
-.news-topic-1 a:hover, a:active {
+a.news-topic-1:hover, a.news-topic-1:active {
 	 background-color: white;
      color: black;
 	 border: 2px solid green;

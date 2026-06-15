@@ -23,8 +23,8 @@ thead th {
 
 /* Fluid tables */
 
-@media screen and (max-width: 991px) {
-	table:not(.table-fixed):has(td[data-label]) {
+table:not(.table-fixed):has(td[data-label]) {
+	@media screen and (max-width: 991px), &.table-collapsed {
 
 		border: none;
 		border-block-start: 1px solid var(--rcmp-grey-md);
@@ -491,5 +491,43 @@ thead th {
 		</details>
 	</footer>
 </figure>
+
+
+<p>Table 10: table with TABLE-COLLAPSED</p>
+
+<table class="table table-collapsed" id="t10">
+	<caption>Table 10: This table should always collapse, even on larger screens</caption>
+	<thead>
+		<tr class="active">
+			<th scope="col">Province or territory</th>
+			<th scope="col" class="text-right">Possession and Acquisition Licence</th>
+			<th scope="col" class="text-right">Minor's Licence</th>
+			<th scope="col" class="text-right">Total</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row" data-label="Province or territory">Alberta</th>
+			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">385,449</td>
+			<td data-label="Minor's Licence" class="text-right nowrap">3,406</td>
+			<td data-label="Total" class="text-right nowrap">388,855</td>
+		</tr>
+		<tr>
+			<th scope="row" data-label="Province or territory">British Columbia</th>
+			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">377,271</td>
+			<td data-label="Minor's Licence" class="text-right nowrap">1,667</td>
+			<td data-label="Total" class="text-right nowrap">378,938</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr class="active">
+			<th scope="row" data-label="Province or territory">Total</th>
+			<td data-label="Possession and Acquisition Licence" class="text-right nowrap">2,458,677</td>
+			<td data-label="Minor's Licence" class="text-right nowrap">14,984</td>
+			<td data-label="Total" class="text-right nowrap">2,473,661</td>
+		</tr>
+	</tfoot>
+</table>
+
 
 <script></script>

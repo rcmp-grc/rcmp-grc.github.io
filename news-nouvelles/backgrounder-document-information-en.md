@@ -39,13 +39,20 @@ issued: 2026-05-08
 	background-color: #f5f5f5;
 	padding-left: 10px;
 }
+	.news-topic-1
+	{
+    background-color: #d6f5e1;
+    font-size: 0.8em;
+    font-weight: bold;	
+	text-decoration: none;	
+    padding: 8px 10px 10px 10px;		
+	}
 	.news-topic-1 a:link, a:visited, a:active  {
     background-color: #d6f5e1;
     font-size: 0.8em;
     font-weight: bold;	
     padding: 8px 10px 10px 10px;		
 	text-decoration: none;
-	display: inline-block;
 }
 	.news-topic-1 a:hover {
     background-color: #d6f5e0;

@@ -40,17 +40,22 @@ issued: 2026-05-08
 	padding-left: 10px;
 }
 	a.news-topic-1:link, a.news-topic-1:visited {
-    background-color: green;
-    color: white;
-    padding: 10px 15px;
+    background-color: #d6f5e1;
+    color: #000000;
+    padding: 8px 10px;
+	font-size: 0.8em;
+    font-weight: bold;	
     text-align: center;
     text-decoration: none;
     display: inline-block;
 }
 a.news-topic-1:hover, a.news-topic-1:active {
 	 background-color: white;
-     color: black;
-	 border: 2px solid green;
+     color: #1f7a40;
+	 border-left: 3px solid #1f7a40;
+	 border-right: 1px solid #1f7a40;
+	 border-bottom: 1px solid #1f7a40;
+	 border-left: 1px solid #1f7a40;
 }
 	.news-topic-2
 	{

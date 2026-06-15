@@ -39,14 +39,6 @@ issued: 2026-05-08
 	background-color: #f5f5f5;
 	padding-left: 10px;
 }
-	.news-topic-1
-	{
-    background-color: #d6f5e1;
-    font-size: 0.8em;
-    font-weight: bold;	
-	text-decoration: none;	
-    padding: 8px 10px 10px 10px;		
-	}
 	.news-topic-1 a:link, a:visited, a:active  {
     background-color: #d6f5e1;
     font-size: 0.8em;
@@ -198,7 +190,7 @@ issued: 2026-05-08
 <section id="topics">	
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
-  <li><a href="#"><span class="news-topic-1">Community interest</span></a></li>
+  <li><a href="#" class="news-topic-1">Community interest</a></li>
 </ol>
 </section>
 </div>

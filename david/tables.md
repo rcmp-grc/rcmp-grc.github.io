@@ -23,9 +23,8 @@ thead th {
 
 /* Fluid tables */
 
-table:not(.table-fixed):has(td[data-label]) {
+table:has(td[data-label]):not(.table-fixed) {
 
-	&.table-collapsed,
 	@media screen and (max-width: 991px) {
 
 		border: none;

@@ -526,7 +526,6 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   nextBtn.addEventListener('click', function () {
     if (currentPage < Math.ceil(activeData.length / PER_PAGE)) paginate(1, nextBtn);
   });
-  updateBadges();
   refresh();
 }());
 </script>

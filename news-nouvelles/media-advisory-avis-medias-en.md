@@ -26,12 +26,12 @@ issued: 2026-05-08
 	.card p
 	{
 	  margin-left: 10px;
-	  margin-right: 10px;	
 	}
 	.card-tag
 	{ font-weight: bold;
 	  font-color: #0b0c0c;
 	  padding-left: 0px;
+	  padding-right: 30px;	
 	  background-color: var(--rcmp-grey-lt);
 	}
 	.contact-us 

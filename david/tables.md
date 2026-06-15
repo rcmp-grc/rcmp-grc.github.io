@@ -24,7 +24,9 @@ thead th {
 /* Fluid tables */
 
 table:not(.table-fixed):has(td[data-label]) {
-	@media screen and (max-width: 991px), &.table-collapsed {
+
+	&.table-collapsed,
+	@media screen and (max-width: 991px) {
 
 		border: none;
 		border-block-start: 1px solid var(--rcmp-grey-md);

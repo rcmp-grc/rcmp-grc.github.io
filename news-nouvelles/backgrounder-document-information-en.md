@@ -48,6 +48,10 @@ issued: 2026-05-08
     text-align: center;
     text-decoration: none;
     display: inline-block;
+	border-left: 5px solid #1f7a40;
+	border-right: 1px solid #1f7a40;
+	border-bottom: 1px solid #1f7a40;
+	border-top: 1px solid #1f7a40;	
 }
 a.news-topic-1:hover, a.news-topic-1:active {
 	 background-color: white;

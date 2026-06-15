@@ -178,6 +178,18 @@ a.news-topic-1:hover, a.news-topic-1:active {
     <li><a href="#">Arctic and northern affairs</a></li>
 </ul>
 </section>
+</div>
+<div class="col-md-4 card">
+<div class="card-tag"><p><i class="fa-solid fa-thumbtack"></i> Event details</p></div>  
+<p><strong>Date</strong>: Saturday, May 23, 2026</p>
+<p><strong>Time</strong>: 1-4 pm (local time)</p>
+<p><strong>Location</strong><br>
+Northern Community Recreation Centre<br>
+100 Aurora Road<br>
+Iqaluit, Nunavut</p>
+</div>
+</div>
+<div class="clearfix"></div>	
 <section id="gc-contact" class="contact-us">
 	<h2 class="h3">Contact us</h2>
 	<div class="contact-signature">	
@@ -203,18 +215,6 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	</section>
 	</div>
 	</section>
-</div>
-<div class="col-md-4 card">
-<div class="card-tag"><p><i class="fa-solid fa-thumbtack"></i> Event details</p></div>  
-<p><strong>Date</strong>: Saturday, May 23, 2026</p>
-<p><strong>Time</strong>: 1-4 pm (local time)</p>
-<p><strong>Location</strong><br>
-Northern Community Recreation Centre<br>
-100 Aurora Road<br>
-Iqaluit, Nunavut</p>
-</div>
-</div>
-<div class="clearfix"></div>
 <div class="explore">
 <section id="topics">
 <h2 class="h3">Explore related topics</h2>

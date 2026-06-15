@@ -27,7 +27,7 @@ issued: 2026-05-08
 	{
 	  margin-left: 10px;
 	}
-	.card-tag
+	.card-tag h2
 	{ font-weight: bold;
 	  font-color: #0b0c0c;
 	  padding-left: 0px;
@@ -180,7 +180,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 </section>
 </div>
 <div class="col-md-4 card">
-<div class="card-tag"><p><i class="fa-solid fa-thumbtack"></i> Event details</p></div>  
+<div class="card-tag"><h2><i class="fa-solid fa-thumbtack"></i> Event details</h2></div>  
 <p><strong>Date</strong>: Saturday, May 23, 2026</p>
 <p><strong>Time</strong>: 1-4 pm (local time)</p>
 <p><strong>Location</strong><br>

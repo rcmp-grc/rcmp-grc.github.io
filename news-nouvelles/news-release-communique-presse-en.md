@@ -69,10 +69,10 @@ a.news-topic-1:hover, a.news-topic-1:active {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-	border-left: 5px solid #1f7a40;
-	border-right: 1px solid #1f7a40;
-	border-bottom: 1px solid #1f7a40;
-	border-top: 1px solid #1f7a40;	
+	border-left: 5px solid #0f253d;
+	border-right: 1px solid #0f253d;
+	border-bottom: 1px solid #0f253d;
+	border-top: 1px solid #0f253d;	
 	}
 	a.news-topic-2:hover, a.news-topic-2:active {
 	 background-color: white;

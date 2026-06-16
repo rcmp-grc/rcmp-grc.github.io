@@ -13,7 +13,7 @@ creator: Royal Canadian Mounted Police
 subject: Police officer careers; RCMP recruitment; law enforcement jobs Canada
 breadcrumbs:
   - label: "RCMP careers"
-    url: "careers-carrieres-2/careers-carrieres-en.html"
+    url: "careers-carrieres/careers-carrieres-en.html"
 custom_css: /assets/css/careers.css
 ---
 

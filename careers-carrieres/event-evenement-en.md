@@ -6,8 +6,8 @@ lang: en
 lang_url: event-evenement-fr.html
 breadcrumbs:
   - label: "RCMP careers"
-    url: "careers-carrieres-2/careers-carrieres-en.html"
+    url: "careers-carrieres/careers-carrieres-en.html"
   - label: "Recruiting events"
-    url: "careers-carrieres-2/recruiting-recrutement-en.html"
+    url: "careers-carrieres/recruiting-recrutement-en.html"
 custom_css: /assets/css/careers.css
 ---

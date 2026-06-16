@@ -119,7 +119,7 @@ issued: 2026-05-21
           <legend class="wb-inv">Territory or province</legend>
             <label for="territory">Territory or province</label>
             <select id="territory" name="territory">
-				<option data-filter="territory" value="All territories and provinces"><span class="cb-text">All territories and provinces</span> <span class="wp-filter-badge">0</span></option>
+				<option data-filter="territory" value="All"><span class="cb-text">All</span> <span class="wp-filter-badge">0</span></option>
 				<option data-filter="territory" value="Alberta"><span class="cb-text">Alberta</span> <span class="wp-filter-badge">0</span></option>
                 <option data-filter="territory" value="British Columbia"><span class="cb-text">British Columbia</span> <span class="wp-filter-badge">0</span></option>
                 <option data-filter="territory" value="Manitoba"><span class="cb-text">Manitoba</span> <span class="wp-filter-badge">0</span></option>
@@ -136,7 +136,7 @@ issued: 2026-05-21
 			</select>
 		    <label for="region">National, Division or Region</label>
 			<select id="region" name="region">	
-			<option data-filter="region" value="All divisions and Federal Policing regions"><span class="cb-text">All divisions and Federal Policing region</span> <span class="wp-filter-badge">0</span></option>	
+			<option data-filter="region" value="All"><span class="cb-text">All</span> <span class="wp-filter-badge">0</span></option>	
 			<option data-filter="region" value="RCMP National Headquarters"><span class="cb-text">National Headquarters</span> <span class="wp-filter-badge">0</span></option>	
             <option data-filter="region" value="Alberta RCMP"><span class="cb-text">Alberta RCMP</span> <span class="wp-filter-badge">0</span></option>
             <option data-filter="region" value="British Columbia RCMP"><span class="cb-text">British Columbia RCMP</span> <span class="wp-filter-badge">0</span></option>

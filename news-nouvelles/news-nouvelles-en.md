@@ -48,11 +48,11 @@ issued: 2026-05-21
 	<div class="col-md-3">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
 		  <h2 class="h4" id="news-filters-heading">Search</h2>
-		<form>
+		<form method="get">
 		<fieldset>
 		<legend class="wb-inv">Search RCMP news</legend>
 		<div><label class="wb-inv" for="titleFilter">Search by key word</label>
-			<input type="search" maxlength="20" id="titleFilter"><button class="btn btn-primary btn-small" type="search" title="Search"></button></div>
+			<input type="search" maxlength="20" id="titleFilter" class="form-control"><span class="input-group-btn"><button class="btn btn-default" type="button">Search</button></span></div>
 		 </fieldset>
 		</form>
       <h2 class="h4" id="news-filters-heading">Filter by</h2>

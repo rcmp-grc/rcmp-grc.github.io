@@ -117,8 +117,9 @@ issued: 2026-05-21
         </summary>
 			<fieldset>
           <legend class="wb-inv">Territory or province</legend>
+			<div class="col-xs-3">	
             <label for="territory">Territory or province</label>
-            <select id="territory" name="territory" size="4">
+            <select id="territory" name="territory" class="form-control">
 				<option data-filter="territory" value="All"><span class="cb-text">All</span> <span class="wp-filter-badge">0</span></option>
 				<option data-filter="territory" value="Alberta"><span class="cb-text">Alberta</span> <span class="wp-filter-badge">0</span></option>
                 <option data-filter="territory" value="British Columbia"><span class="cb-text">British Columbia</span> <span class="wp-filter-badge">0</span></option>
@@ -134,8 +135,9 @@ issued: 2026-05-21
                 <option data-filter="territory" value="Saskatchewan"><span class="cb-text">Saskatchewan</span> <span class="wp-filter-badge">0</span></option>
                 <option data-filter="territory" value="Yukon"><span class="cb-text">Yukon</span> <span class="wp-filter-badge">0</span></option>
 			</select>
+			</div>
 		    <label for="region">National, Division or Region</label>
-			<select id="region" name="region">	
+			<select id="region" name="region" class="form-control">	
 			<option data-filter="region" value="All"><span class="cb-text">All</span> <span class="wp-filter-badge">0</span></option>	
 			<option data-filter="region" value="RCMP National Headquarters"><span class="cb-text">National Headquarters</span> <span class="wp-filter-badge">0</span></option>	
             <option data-filter="region" value="Alberta RCMP"><span class="cb-text">Alberta RCMP</span> <span class="wp-filter-badge">0</span></option>

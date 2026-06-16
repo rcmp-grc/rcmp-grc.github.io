@@ -119,7 +119,7 @@ issued: 2026-05-21
           <legend class="wb-inv">Territory or province</legend>
             <label for="territory">Territory or province</label>
             <select id="territory" name="territory" size="4">
-				<option data-filter="territory" size="4" value="All"><span class="cb-text">All</span> <span class="wp-filter-badge">0</span></option>
+				<option data-filter="territory" value="All"><span class="cb-text">All</span> <span class="wp-filter-badge">0</span></option>
 				<option data-filter="territory" value="Alberta"><span class="cb-text">Alberta</span> <span class="wp-filter-badge">0</span></option>
                 <option data-filter="territory" value="British Columbia"><span class="cb-text">British Columbia</span> <span class="wp-filter-badge">0</span></option>
                 <option data-filter="territory" value="Manitoba"><span class="cb-text">Manitoba</span> <span class="wp-filter-badge">0</span></option>

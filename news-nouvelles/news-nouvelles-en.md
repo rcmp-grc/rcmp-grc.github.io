@@ -51,8 +51,8 @@ issued: 2026-05-21
 		<form method="get">
 		<fieldset>
 		<legend class="wb-inv">Search RCMP news</legend>
-		<div><label class="wb-inv" for="titleFilter">Search by key word</label>
-			<input type="search" maxlength="20" id="titleFilter" class="form-control"><span class="input-group-btn"><button class="btn btn-default" type="button">Search</button></span></div>
+		<div><label for="btngrp-search2" class="wb-inv">Search</label>
+			<input type="search" id="btngrp-search2" class="form-control"><span class="input-group-btn"><button class="btn btn-default" type="button">Search</button></span></div>
 		 </fieldset>
 		</form>
       <h2 class="h4" id="news-filters-heading">Filter by</h2>

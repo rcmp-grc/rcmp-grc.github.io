@@ -56,12 +56,12 @@ issued: 2026-05-21
 		 </fieldset>
 		</form>
       <h2 class="h4" id="news-filters-heading">Filter by</h2>
-		<p class="small">Apply the following filtres to narrow your search</p>
+		<form>
+		<div>Apply the following filtres to narrow your search</div>
       <details class="summary">
         <summary>
         Category
         </summary>
-		<form>
         <fieldset>
           <legend class="wb-inv">Category</legend>
           <div class="checkbox">
@@ -110,7 +110,7 @@ issued: 2026-05-21
                 <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span> <span class="wp-filter-badge">0</span></label>
 				  </div>		
         </fieldset>
-      </details>
+	  </details>
 		<details class="summary">
         <summary>
        Published by
@@ -168,9 +168,8 @@ issued: 2026-05-21
              <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label>For example, 2005, 21/11/2014, May 27, 2024 <input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text"></div>
 		  </fieldset>
 		</details>
-		  </form>
-    </aside>
-						</div>
+		</form>
+	</aside>
   <div class="col-md-9 mrgn-tp-md">
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 

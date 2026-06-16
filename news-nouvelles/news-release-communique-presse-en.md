@@ -29,7 +29,7 @@ lead: News release
 	.card-tag 
 	{ padding-left: 0px;	  
 	  background-color: var(--rcmp-grey-lt);
-	  max-width: 10rem;
+	  max-width: 15rem;
 	}
 	.card-tag p
 	{ font-weight: bold;

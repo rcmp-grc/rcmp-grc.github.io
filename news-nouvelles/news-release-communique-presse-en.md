@@ -32,7 +32,7 @@ lead: News release
 	  padding-right: 10px
 	  padding-bottom: 0px;	  
 	  background-color: var(--rcmp-grey-lt);
-	  display: inline-flex;
+	  display: d-flex;
 	}
 	.card-tag p
 	{ font-weight: bold;

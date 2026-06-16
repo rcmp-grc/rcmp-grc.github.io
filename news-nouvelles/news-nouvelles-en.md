@@ -39,8 +39,8 @@ issued: 2026-05-21
   </div>
 	<div class="col-md-4">
     <section class="gc-drmt">
-      <h3 class="h5" data-emptytext="Subscribe"><a href="#">New resources</a></h3>
-      <p>Acess web feeds, media relations office, Canada.ca news and Public Safety Canada news</p>
+      <h3 class="h5" data-emptytext="Subscribe"><a href="#">News resources</a></h3>
+      <p>Access web feeds, media relations office, Canada.ca news and Public Safety Canada news</p>
     </section>
   </div>
 </div>
@@ -110,114 +110,49 @@ issued: 2026-05-21
       </details>
 		<details class="summary">
         <summary>
-       Province or Territory
-        </summary>
-			<fieldset>
-          <legend class="wb-inv">Territory</legend>
-          <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span> <span class="wp-filter-badge">0</span></label>
-          </div>
-          <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="British Columbia"><span class="cb-text">British Columbia</span> <span class="wp-filter-badge">0</span></label>
-          </div>
-          <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="Manitoba"><span class="cb-text">Manitoba</span> <span class="wp-filter-badge">0</span></label>
-          </div>
-          <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="New Brunswick"><span class="cb-text">New Brunswick</span> <span class="wp-filter-badge">0</span></label>
-          </div>
-			 <div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="Newfoundland and Labrador"><span class="cb-text">Newfoundland and Labrador</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="Northwest Territories"><span class="cb-text">Northwest Territories</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="Nova Scotia"><span class="cb-text">Nova Scotia</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="Nunavut"><span class="cb-text">Nunavut</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="Ontario"><span class="cb-text">Ontario</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="Prince Edward Island"><span class="cb-text">Prince Edward Island</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="Quebec"><span class="cb-text">Quebec</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="Saskatchewan"><span class="cb-text">Saskatchewan</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="territory" type="checkbox" value="Yukon"><span class="cb-text">Yukon</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-        </fieldset>
-      </details>
-<details class="summary">
-        <summary>
        Published by
         </summary>
-        <fieldset>
-          <legend>Division</legend>
-          <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="Alberta RCMP"><span class="cb-text">Alberta RCMP</span> <span class="wp-filter-badge">0</span></label>
-          </div>
-          <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="British Columbia RCMP"><span class="cb-text">British Columbia RCMP</span> <span class="wp-filter-badge">0</span></label>
-          </div>
-<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Manitoba RCMP"><span class="cb-text">Manitoba RCMP</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="New Brunswick RCMP"><span class="cb-text">New Brunswick RCMP</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Newfoundland and Labrador RCMP"><span class="cb-text">Newfoundland and Labrador RCMP</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Northwest Territories RCMP"><span class="cb-text">Northwest Territories RCMP</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Nova Scotia RCMP"><span class="cb-text">Nova Scotia RCMP</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Nunavut RCMP"><span class="cb-text">Nunavut RCMP</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Prince Edward Island RCMP"><span class="cb-text">Prince Edward Island RCMP</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="RCMP Depot Division"><span class="cb-text">RCMP Depot Division</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="RCMP National Headquarters"><span class="cb-text">RCMP National Headquarters</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Saskatchewan RCMP"><span class="cb-text">Saskatchewan RCMP</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Yukon RCMP"><span class="cb-text">Yukon RCMP</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-        </fieldset>
-	<fieldset>
-          <legend>Fededral Policing regions</legend>
-          <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="Federal Policing Central Region"><span class="cb-text">Central</span> <span class="wp-filter-badge">0</span></label>
-          </div>
-          <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="Federal Policing Eastern Region"><span class="cb-text">Eastern</span> <span class="wp-filter-badge">0</span></label>
-          </div>
-			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Federal Policing Northwest Region"><span class="cb-text">Northwest</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="Federal Policing Pacific Region"><span class="cb-text">Pacific</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="region" type="checkbox" value="RCMP National Headquarters"><span class="cb-text">National Headquarters</span> <span class="wp-filter-badge">0</span></label>
-				  </div>
+			<fieldset>
+          <legend class="wb-inv">Territory or province</legend>
+            <label for="territory">Territory or province</label>
+            <select id="territory" name="territory">
+				<option data-filter="territory" value="All territories and provinces"><span class="cb-text">All territories and provinces</span> <span class="wp-filter-badge">0</span></option>
+				<option data-filter="territory" value="Alberta"><span class="cb-text">Alberta</span> <span class="wp-filter-badge">0</span></option>
+                <option data-filter="territory" value="British Columbia"><span class="cb-text">British Columbia</span> <span class="wp-filter-badge">0</span></option>
+                <option data-filter="territory" value="Manitoba"><span class="cb-text">Manitoba</span> <span class="wp-filter-badge">0</span></option>
+                <option data-filter="territory" value="New Brunswick"><span class="cb-text">New Brunswick</span> <span class="wp-filter-badge">0</span></option>
+                <option data-filter="territory" value="Newfoundland and Labrador"><span class="cb-text">Newfoundland and Labrador</span> <span class="wp-filter-badge">0</span></option>
+                <option data-filter="territory" value="Northwest Territories"><span class="cb-text">Northwest Territories</span> <span class="wp-filter-badge">0</span></option>
+                <option data-filter="territory" value="Nova Scotia"><span class="cb-text">Nova Scotia</span> <span class="wp-filter-badge">0</span></option>
+                <option data-filter="territory" value="Nunavut"><span class="cb-text">Nunavut</span> <span class="wp-filter-badge">0</span></option>
+                <option data-filter="territory" value="Ontario"><span class="cb-text">Ontario</span> <span class="wp-filter-badge">0</span></option>
+                <option data-filter="territory" value="Prince Edward Island"><span class="cb-text">Prince Edward Island</span> <span class="wp-filter-badge">0</span></option>
+                <option data-filter="territory" value="Quebec"><span class="cb-text">Quebec</span> <span class="wp-filter-badge">0</span></option>
+                <option data-filter="territory" value="Saskatchewan"><span class="cb-text">Saskatchewan</span> <span class="wp-filter-badge">0</span></option>
+                <option data-filter="territory" value="Yukon"><span class="cb-text">Yukon</span> <span class="wp-filter-badge">0</span></option>
+			</select>
+		    <label for="region">National, Division or Region</label>
+			<select id="region" name="region">	
+			<option data-filter="region" value="All divisions and Federal Policing regions"><span class="cb-text">All divisions and Federal Policing region</span> <span class="wp-filter-badge">0</span></option>	
+			<option data-filter="region" value="RCMP National Headquarters"><span class="cb-text">National Headquarters</span> <span class="wp-filter-badge">0</span></option>	
+            <option data-filter="region" value="Alberta RCMP"><span class="cb-text">Alberta RCMP</span> <span class="wp-filter-badge">0</span></option>
+            <option data-filter="region" value="British Columbia RCMP"><span class="cb-text">British Columbia RCMP</span> <span class="wp-filter-badge">0</span></option>
+            <option data-filter="region" value="Manitoba RCMP"><span class="cb-text">Manitoba RCMP</span> <span class="wp-filter-badge">0</span></option>
+            <option data-filter="region" value="New Brunswick RCMP"><span class="cb-text">New Brunswick RCMP</span> <span class="wp-filter-badge">0</span></option>
+            <option data-filter="region" value="Newfoundland and Labrador RCMP"><span class="cb-text">Newfoundland and Labrador RCMP</span> <span class="wp-filter-badge">0</span></option>
+            <option data-filter="region" value="Northwest Territories RCMP"><span class="cb-text">Northwest Territories RCMP</span> <span class="wp-filter-badge">0</span></option>
+            <option data-filter="region" value="Nova Scotia RCMP"><span class="cb-text">Nova Scotia RCMP</span> <span class="wp-filter-badge">0</span></option>
+            <option data-filter="region" value="Nunavut RCMP"><span class="cb-text">Nunavut RCMP</span> <span class="wp-filter-badge">0</span></option>
+            <option data-filter="region" value="Prince Edward Island RCMP"><span class="cb-text">Prince Edward Island RCMP</span> <span class="wp-filter-badge">0</span></option>
+            <option data-filter="region" value="RCMP Depot Division"><span class="cb-text">RCMP Depot Division</span> <span class="wp-filter-badge">0</span></option>
+            <option data-filter="region" value="RCMP National Headquarters"><span class="cb-text">RCMP National Headquarters</span> <span class="wp-filter-badge">0</span></option>
+            <option data-filter="region" value="Saskatchewan RCMP"><span class="cb-text">Saskatchewan RCMP</span> <span class="wp-filter-badge">0</span></option>
+            <option data-filter="region" value="Yukon RCMP"><span class="cb-text">Yukon RCMP</span> <span class="wp-filter-badge">0</span></option>
+            <option data-filter="region" value="Federal Policing Central Region"><span class="cb-text">Central Region</span> <span class="wp-filter-badge">0</span></option>
+            <option data-filter="region" value="Federal Policing Eastern Region"><span class="cb-text">Eastern Region</span> <span class="wp-filter-badge">0</span></option>
+            <option data-filter="region" value="Federal Policing Northwest Region"><span class="cb-text">Northwest Region</span> <span class="wp-filter-badge">0</span></option>
+            <option data-filter="region" value="Federal Policing Pacific Region"><span class="cb-text">Pacific Region</span> <span class="wp-filter-badge">0</span></option>
+			</select>
         </fieldset>
       </details>	
 		<details class="summary"> 
@@ -226,7 +161,8 @@ issued: 2026-05-21
         </summary>
 		  <fieldset>
 			 <div><legend class="wb-inv">Publish date</legend>
-             <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text"></div>
+			 For example, 2005, 21/11/2014, May 27, 2024
+             <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label>For example, 2005, 21/11/2014, May 27, 2024 <input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text"></div>
 				</fieldset>
 		</details>
     </aside>

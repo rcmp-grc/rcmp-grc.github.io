@@ -30,7 +30,7 @@ issued: 2026-05-08
 	.card-tag 
 	{ padding-left: 0px;	  
 	  background-color: var(--rcmp-grey-lt);
-	  max-width: 13rem;
+	  max-width: 12rem;
 	}
 	.card-tag p
 	{ font-weight: bold;

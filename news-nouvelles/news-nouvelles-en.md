@@ -51,10 +51,12 @@ issued: 2026-05-21
 		<form role="form" method="get" action="#">
 		<fieldset>
 		<legend class="wb-inv">Search RCMP news</legend>
-		<label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" type="text" class="form-control"><span class="input-group-btn"><button class="btn btn-danger"><span class="fa fa-search"></span><span class="wb-inv">Search</span></button>
+		<label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" type="text" class="form-control"><span class="input-group-btn"><button class="btn btn-danger"><span class="fa fa-search"></span><span class="wb-inv">Search</span></button></span>
 		 </fieldset>
+		</form>
+		<form role="form" method="get" action="#">
       <h2 class="h4" id="news-filters-heading">Filter by</h2>
-		<div><p class="small">Apply the following filtres to narrow your search</p></div>
+		<p class="small">Apply the following filtres to narrow your search</p></div>
       <details class="summary">
         <summary>
         Category

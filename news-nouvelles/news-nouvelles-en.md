@@ -55,7 +55,7 @@ issued: 2026-05-21
 		 </fieldset>
 		</form>
 		<form role="form" method="get" action="#">
-      <h2 class="h4" id="news-filters-heading">Filter by</h2>
+      <div id="filtres"><h2 class="h4" id="news-filters-heading">Filter by</h2>
 		<p class="small">Apply the following filtres to narrow your search</p></div>
       <details class="summary">
         <summary>
@@ -170,7 +170,7 @@ issued: 2026-05-21
 		</form>
 	</aside>
 	</div>
-  <div class="col-md-9 mrgn-tp-md">
+  <div class="col-md-9">
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 
     <div id="news-toolbar">

@@ -47,16 +47,13 @@ issued: 2026-05-21
 <div class="row">
 	<div class="col-md-3">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
-		  <h2 class="h4" id="news-filters-heading">Search</h2>
-		<form method="get">
+	    <h2 class="h4" id="news-filters-heading">Search</h2>
+		<form role="form" method="get" action="#">
 		<fieldset>
 		<legend class="wb-inv">Search RCMP news</legend>
-		<div class="row"><label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" type="text" class="form-control"><a href="#" class="btn btn-danger"><span class="fa fa-search"></span><span class="wb-inv">Search</span></a>
-		</div>
+		<label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" type="text" class="form-control"><span class="input-group-btn"><button class="btn btn-danger"><span class="fa fa-search"></span><span class="wb-inv">Search</span></button>
 		 </fieldset>
-		</form>
       <h2 class="h4" id="news-filters-heading">Filter by</h2>
-		<form>
 		<div><p class="small">Apply the following filtres to narrow your search</p></div>
       <details class="summary">
         <summary>

@@ -171,6 +171,7 @@ issued: 2026-05-21
 		</form>
 	</aside>
 	</div>
+</div>
   <div class="col-md-9 mrgn-tp-md">
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 

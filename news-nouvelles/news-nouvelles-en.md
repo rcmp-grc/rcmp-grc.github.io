@@ -57,7 +57,7 @@ issued: 2026-05-21
 		</form>
       <h2 class="h4" id="news-filters-heading">Filter by</h2>
 		<form>
-		<div>Apply the following filtres to narrow your search</div>
+		<div><p class="small">Apply the following filtres to narrow your search</p></div>
       <details class="summary">
         <summary>
         Category
@@ -164,8 +164,8 @@ issued: 2026-05-21
         </summary>
 		  <fieldset>
 			 <div><legend class="wb-inv">Publish date</legend>
-			 For example, 2005, 21/11/2014, May 27, 2024
-             <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label>For example, 2005, 21/11/2014, May 27, 2024 <input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text"></div>
+			 <div><p class="small">For example, 2005, 21/11/2014, May 27, 2024</p></div>
+             <label class="small" for="dt_mindate">Before</label><input class="form-control" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text"></div>
 		  </fieldset>
 		</details>
 		</form>

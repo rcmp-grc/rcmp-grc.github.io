@@ -27,12 +27,15 @@ issued: 2026-05-08
 	{
 	  margin-left: 10px;
 	}
+	.card-tag 
+	{ padding-left: 0px;
+	  padding-right: 10px;	
+	  background-color: var(--rcmp-grey-lt);
+	}
 	.card-tag p
 	{ font-weight: bold;
 	  font-color: #0b0c0c;
-	  padding-left: 0px;
-	  padding-right: 10px;	
-	  background-color: var(--rcmp-grey-lt);
+	  margin-left: 10px;
 	}
 	.contact-us 
 	{
@@ -180,7 +183,8 @@ a.news-topic-1:hover, a.news-topic-1:active {
 </section>
 </div>
 <div class="col-md-4 card">
-<div class="card-tag"><h2 class="wb-inv">Event></h2><p><i class="fa-solid fa-thumbtack"></i> Event details</p></div>  
+<div class="card-tag"><h2 class="wb-inv">Event</h2>
+<p><i class="fa-solid fa-thumbtack"></i> Event details</p></div>  
 <p><strong>Date</strong>: Saturday, May 23, 2026</p>
 <p><strong>Time</strong>: 1-4 pm (local time)</p>
 <p><strong>Location</strong><br>

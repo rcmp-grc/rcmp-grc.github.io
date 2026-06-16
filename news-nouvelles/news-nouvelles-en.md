@@ -51,7 +51,7 @@ issued: 2026-05-21
 		<form method="get">
 		<fieldset>
 		<legend class="wb-inv">Search RCMP news</legend>
-		<div><label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" type="text" class="form-control"><a href="#" class="btn btn-link"><span class="fa fa-search"></span><span class="wb-inv">Search</span></a>
+		<div class="row"><label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" type="text" class="form-control"><a href="#" class="btn btn-danger"><span class="fa fa-search"></span><span class="wb-inv">Search</span></a>
 		</div>
 		 </fieldset>
 		</form>

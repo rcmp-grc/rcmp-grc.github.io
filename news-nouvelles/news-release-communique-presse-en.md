@@ -28,11 +28,11 @@ lead: News release
 	}
 	.card-tag 
 	{ padding-left: 0px;	
-	  padding-top: 5px;
+	  padding-top: 0px;
 	  padding-right: 30px
-	  padding-bottom: 5px;	  
+	  padding-bottom: 0px;	  
 	  background-color: var(--rcmp-grey-lt);
-	  display: inline-block;
+	  display: block;
 	}
 	.card-tag p
 	{ font-weight: bold;

@@ -27,12 +27,9 @@ lead: News release
 	  margin-left: 10px;
 	}
 	.card-tag 
-	{ padding-left: 0px;	
-	  padding-top: 0px;
-	  padding-right: 10px
-	  padding-bottom: 0px;	  
+	{ padding-left: 0px;	  
 	  background-color: var(--rcmp-grey-lt);
-	  display: d-flex;
+	  max-width: 20rem
 	}
 	.card-tag p
 	{ font-weight: bold;

@@ -27,12 +27,15 @@ issued: 2026-05-08
 	{
 	  margin-left: 10px;
 	}
-	.card-tag
+	.card-tag 
+	{ padding-left: 0px;	  
+	  background-color: var(--rcmp-grey-lt);
+	  max-width: 11rem;
+	}
+	.card-tag p
 	{ font-weight: bold;
 	  font-color: #0b0c0c;
-	  padding-left: 0px;
-	  width: 160px;
-	  background-color: var(--rcmp-grey-lt);
+	  margin-left: 10px;
 	}
 	.contact-us 
 	{

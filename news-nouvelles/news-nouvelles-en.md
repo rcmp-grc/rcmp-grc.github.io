@@ -117,7 +117,6 @@ issued: 2026-05-21
         </summary>
 			<fieldset>
           <legend class="wb-inv">Territory or province</legend>
-			<div class="col-xs-3">	
             <label for="territory">Territory or province</label>
             <select id="territory" name="territory" class="form-control">
 				<option data-filter="territory" value="All"><span class="cb-text">All</span> <span class="wp-filter-badge">0</span></option>
@@ -135,7 +134,6 @@ issued: 2026-05-21
                 <option data-filter="territory" value="Saskatchewan"><span class="cb-text">Saskatchewan</span> <span class="wp-filter-badge">0</span></option>
                 <option data-filter="territory" value="Yukon"><span class="cb-text">Yukon</span> <span class="wp-filter-badge">0</span></option>
 			</select>
-			</div>
 		    <label for="region">National, Division or Region</label>
 			<select id="region" name="region" class="form-control">	
 			<option data-filter="region" value="All"><span class="cb-text">All</span> <span class="wp-filter-badge">0</span></option>	

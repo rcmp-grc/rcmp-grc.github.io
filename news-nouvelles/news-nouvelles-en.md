@@ -48,17 +48,20 @@ issued: 2026-05-21
 	<div class="col-md-3">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
 		  <h2 class="h4" id="news-filters-heading">Search</h2>
+		<form>
 		<fieldset>
 		<legend class="wb-inv">Search RCMP news</legend>
 		<div><label class="wb-inv" for="titleFilter">Search by key word</label>
-			<input type="text" maxlength="20" id="titleFilter"><button class="btn btn-primary btn-small" type="search" title="Search">/div>
+			<input type="search" maxlength="20" id="titleFilter"><button class="btn btn-primary btn-small" type="search" title="Search"></button></div>
 		 </fieldset>
+		</form>
       <h2 class="h4" id="news-filters-heading">Filter by</h2>
-		<div><p class="small">Apply the following filtres to narrow your search</p></div>
+		<p class="small">Apply the following filtres to narrow your search</p>
       <details class="summary">
         <summary>
         Category
         </summary>
+		<form>
         <fieldset>
           <legend class="wb-inv">Category</legend>
           <div class="checkbox">
@@ -163,8 +166,9 @@ issued: 2026-05-21
 			 <div><legend class="wb-inv">Publish date</legend>
 			 For example, 2005, 21/11/2014, May 27, 2024
              <label class="small" for="dt_mindate">Before</label> <input class="form-control" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label>For example, 2005, 21/11/2014, May 27, 2024 <input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text"></div>
-				</fieldset>
+		  </fieldset>
 		</details>
+		  </form>
     </aside>
 						</div>
   <div class="col-md-9 mrgn-tp-md">

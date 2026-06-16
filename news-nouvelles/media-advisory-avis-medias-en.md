@@ -28,9 +28,9 @@ issued: 2026-05-08
 	  margin-left: 10px;
 	}
 	.card-tag 
-	{ padding-left: 0px;	
+	{ padding-left: 0px;	  
 	  background-color: var(--rcmp-grey-lt);
-	  margin-right: 200px;
+	  max-width: 10rem;
 	}
 	.card-tag p
 	{ font-weight: bold;

@@ -51,8 +51,7 @@ issued: 2026-05-21
 		<fieldset>
 		<legend class="wb-inv">Search RCMP news</legend>
 		<div><label class="wb-inv" for="titleFilter">Search by key word</label>
-			<input type="text" maxlength="20" id="titleFilter"><!--<button class="btn btn-primary btn-small" type="submit" title="Search"><span class="glyphicon-search glyphicon" aria-hidden="true"></span><span class="wb-inv">Search</span></button>
-          </div><button class="srchbox button" type="submit" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>--></div>
+			<input type="text" maxlength="20" id="titleFilter"><button class="btn btn-primary btn-small" type="search" title="Search">/div>
 		 </fieldset>
       <h2 class="h4" id="news-filters-heading">Filter by</h2>
 		<div><p class="small">Apply the following filtres to narrow your search</p></div>

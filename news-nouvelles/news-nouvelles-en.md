@@ -22,12 +22,10 @@ issued: 2026-05-21
 	border-top: 1px solid var(--rcmp-grey-md);
 	background: var(--rcmp-grey-lt);
 	}
-	dt:nth-of-type(odd),
-    dt:nth-of-type(odd) ~ dd:not(:has(+ dt)) {
+	.group-odd {
         background-color: #ffffff;
     }
-	dt:nth-of-type(even),
-    dt:nth-of-type(even) ~ dd:not(:has(+ dt)) {
+	.group-even {
         background-color: #fce9eb;
 	}
 </style>

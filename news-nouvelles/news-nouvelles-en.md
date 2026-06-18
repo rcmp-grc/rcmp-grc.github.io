@@ -198,7 +198,7 @@ issued: 2026-05-21
         </select>
       </div>
 	</div>
-    <div aria-label="News" id="news-grid" role="list"></div>
+    <dl class="striped-dl" aria-label="News" id="news-grid" role="list"></dl>
     <p id="news-no-results">No news or communications match your current filters.</p>
    <nav aria-label="Pagination" class="rcmp-item-pagination" id="rcmp-content-page">
       <div class="rcmp-item-pagination__prev" id="news-prev-wrap">

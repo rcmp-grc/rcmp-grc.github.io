@@ -2160,6 +2160,10 @@ section[id^="s"] {
   background: var(--c-navy);
 }
 
+.re-card-cancelled + .re-card-cancelled {
+  margin-top: 4px;
+}
+
 .re-card--cancelled {
   opacity: 1;
 }

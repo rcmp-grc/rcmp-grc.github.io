@@ -158,7 +158,7 @@ custom_css: /assets/css/careers.css
     time: '6:00 p.m.',
     date: '2026-07-10',
     cancelled: false,
-    full: true
+    full: false
   }, {
     title: 'Calgary Career Fair',
     city: 'Calgary',

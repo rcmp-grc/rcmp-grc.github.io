@@ -406,21 +406,6 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       grid.appendChild(li);
     });
   }
-function() {
-    const dl = document.getElementById('striped-dl');
-    if (!dl) return;
-    let groupIndex = 0;
-    let currentClass = '';
-    Array.from(dl.children).forEach(el => {
-        if (el.tagName.toLowerCase() === 'dt') {
-            groupIndex++;
-            currentClass = (groupIndex % 2 === 1) ? 'group-odd' : 'group-even';
-            el.classList.add(currentClass);
-        } else if (el.tagName.toLowerCase() === 'dd') {
-            el.classList.add(currentClass);
-        }
-			 });
-})();
   function renderPagination(total, page) {
     var pages    = Math.ceil(total / PER_PAGE);
     var pageList = $('news-page-list');

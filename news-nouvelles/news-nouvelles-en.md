@@ -22,19 +22,6 @@ issued: 2026-05-21
 	border-top: 1px solid var(--rcmp-grey-md);
 	background: var(--rcmp-grey-lt);
 	}
-	dl.striped-dl
-	{
-	padding: 0px 12px 12px;
-	border-bttom: 1px solid var(--rcmp-grey-md);	
-	}
-	dt:nth-of-type(odd),
-    dt:nth-of-type(odd) + dd {
-        background-color: #fce9eb;
-    }
-	dt:nth-of-type(even),
-    dt:nth-of-type(even) + dd {
-        background-color: #ffffff;
-    }
 	</style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">
@@ -196,7 +183,7 @@ issued: 2026-05-21
         </select>
       </div>
 	</div>
-    <dl class="striped-dl" aria-label="News" id="news-grid" role="list"></dl>
+    <dl aria-label="News" id="dataList" role="list"></dl>
     <p id="news-no-results">No news or communications match your current filters.</p>
    <nav aria-label="Pagination" class="rcmp-item-pagination" id="rcmp-content-page">
       <div class="rcmp-item-pagination__prev" id="news-prev-wrap">
@@ -398,30 +385,27 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     noResults.style.display  = show ? 'none'  : 'block';
     pagination.style.display = show ? 'block' : 'none';
     if (!show) return;
-    slice.forEach(function (p) {
-      var li = document.createElement('div');
-      li.setAttribute('role', 'listitem');
-      li.innerHTML =
-		  '<dl class="striped-dl">' +
+    slice.forEach(function renderDefinitionList(data) {
+    const dl = document.getElementById("dataList");
+   dl.innerHTML = "";}
           '<dt>' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' +'</dt>' +
 		  '<dd>' + '<div class="wb-inv">' + t.updated + '</div>' + p.updated + '|'+ '<div class="wb-inv">' + t.region + '</div>' + p.region + '|' + '<div class="wb-inv">' + t.category + '</div>' + p.category + '<br>' +
 		  '<strong>' + '<div class="wb-inv">' + t.location + '</div>' + p.location + ', ' + '<div class="wb-inv">' + t.territory + '</div>' + p.territory + '</strong>' + '<br>' +
           '<div class="wb-inv">' + t.summary + '</div>' + p.summary + '</dd>' +
 		  '</dl>';
-      grid.appendChild(li);
+		}
+      data.forEach(item => {
+        if (item && typeof item.name === "string" && typeof item.email === "string") {
+            const dt = document.createElement("dt");
+            dt.textContent = item.name;
+            const dd = document.createElement("dd");
+            dd.textContent = item.updated;
+            dl.appendChild(dt);
+            dl.appendChild(dd);
+        }
     });
-  }	
-	const items = list.querySelectorAll('dt, dd');
-        items.forEach((el, index) => {
-            // index starts at 0, so add 1 for human-friendly even/odd
-            if ((index + 1) % 2 === 0) {
-                // Even elements
-                el.style.backgroundColor = '#ffffff';
-            } else {
-                // Odd elements
-                el.style.backgroundColor = '##fce9eb';
-            }
-        });
+}
+renderDefinitionList(document);
   function renderPagination(total, page) {
     var pages    = Math.ceil(total / PER_PAGE);
     var pageList = $('news-page-list');

@@ -316,11 +316,11 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       var val = cb.value;
       var count = PROFILES.filter(function (p) {
         return p[cat] === val;
-      }).length;	
-  }
+      }).length;
 	 var badge = cb.closest('label').querySelector('.wp-filter-badge');
       if (badge) badge.textContent = count;
-    });				   
+    });	
+  }
   function sortData(data, mode) {
     return data.slice().sort(function (a, b) {
       if (mode === 'newest') return b.updated.localeCompare(a.updated);

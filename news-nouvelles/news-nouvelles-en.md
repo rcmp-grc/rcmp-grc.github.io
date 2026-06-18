@@ -398,10 +398,10 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     noResults.style.display  = show ? 'none'  : 'block';
     pagination.style.display = show ? 'block' : 'none';
     if (!show) return;
-    slice.forEach(function (dt) {
+    slice.forEach(function (p) {
       var li = document.createElement('div');
-      dl.setAttribute('role', 'listitem');
-      dl.innerHTML =
+      li.setAttribute('role', 'listitem');
+      li.innerHTML =
 		  '<dl class="striped-dl">' +
           '<dt>' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' +'</dt>' +
 		  '<dd>' + '<div class="wb-inv">' + t.updated + '</div>' + p.updated + '|'+ '<div class="wb-inv">' + t.region + '</div>' + p.region + '|' + '<div class="wb-inv">' + t.category + '</div>' + p.category + '<br>' +

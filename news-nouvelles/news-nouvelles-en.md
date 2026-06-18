@@ -404,7 +404,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       grid.appendChild(li);
     });
   }
-(function() {
+function() {
     const dl = document.getElementById('striped-dl');
     if (!dl) return;
     let groupIndex = 0;
@@ -418,7 +418,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
             el.classList.add(currentClass);
         }
 			 });
-})();
+}
   function renderPagination(total, page) {
     var pages    = Math.ceil(total / PER_PAGE);
     var pageList = $('news-page-list');

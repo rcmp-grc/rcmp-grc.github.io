@@ -156,6 +156,7 @@ issued: 2026-05-21
             <option data-filter="region" value="Federal Policing Pacific Region"><span class="cb-text">Pacific Region</span></option>
 			</select>
         </fieldset>
+		</details>
       </details>	
 		<details class="summary"> 
         <summary>

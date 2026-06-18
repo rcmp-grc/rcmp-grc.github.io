@@ -2156,6 +2156,10 @@ section[id^="s"] {
   vertical-align: middle;
 }
 
+.re-card-full {
+  background: var(--c-navy);
+}
+
 .re-card--cancelled {
   opacity: 1;
 }

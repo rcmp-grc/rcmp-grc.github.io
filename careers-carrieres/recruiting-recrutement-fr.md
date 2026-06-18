@@ -157,7 +157,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '18 h',
     date: '2026-07-10',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Foire de l\'emploi – Calgary',
     city: 'Calgary',
@@ -169,7 +170,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '10 h',
     date: '2026-07-14',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Séance nationale – Demandez à un recruteur',
     city: '',
@@ -181,7 +183,8 @@ custom_css: /assets/css/careers.css
     language: 'English and French',
     time: '13 h',
     date: '2026-07-16',
-    cancelled: false
+    cancelled: false,
+    full: true
   }, {
     title: 'Atelier d\'évaluation condition physique – Toronto',
     city: 'Toronto',
@@ -193,7 +196,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '8 h 30',
     date: '2026-07-18',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Présentation gendarme communautaire – Moncton',
     city: 'Moncton',
@@ -205,7 +209,8 @@ custom_css: /assets/css/careers.css
     language: 'English and French',
     time: '17 h 30',
     date: '2026-07-22',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Atelier d\'évaluation d\'entrée en ligne',
     city: '',
@@ -217,7 +222,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '14 h',
     date: '2026-07-24',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Foire de l\'emploi – opérateur télécom – Winnipeg',
     city: 'Winnipeg',
@@ -229,7 +235,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '11 h',
     date: '2026-07-28',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Événement spécial de recrutement – Halifax',
     city: 'Halifax',
@@ -241,7 +248,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '9 h',
     date: '2026-08-02',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Séance de test condition physique – Edmonton',
     city: 'Edmonton',
@@ -253,7 +261,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '7 h',
     date: '2026-08-05',
-    cancelled: true
+    cancelled: true,
+    full: false
   }, {
     title: 'Atelier gendarme communautaire – Saskatoon',
     city: 'Saskatoon',
@@ -265,7 +274,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '10 h 30',
     date: '2026-08-08',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Séance questions-réponses – Québec',
     city: '',
@@ -277,7 +287,8 @@ custom_css: /assets/css/careers.css
     language: 'French',
     time: '15 h',
     date: '2026-08-12',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Présentation gendarme communautaire – Whitehorse',
     city: 'Whitehorse',
@@ -289,7 +300,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '13 h',
     date: '2026-08-15',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Foire de l\'emploi – St. John\'s',
     city: 'St. John\'s',
@@ -301,7 +313,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '11 h',
     date: '2026-08-19',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Présentation de carrière – Charlottetown',
     city: 'Charlottetown',
@@ -313,7 +326,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '18 h',
     date: '2026-08-21',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Événement spécial de recrutement – Yellowknife',
     city: 'Yellowknife',
@@ -325,7 +339,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '10 h',
     date: '2026-08-25',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Atelier gendarme communautaire – Iqaluit',
     city: 'Iqaluit',
@@ -337,7 +352,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '13 h',
     date: '2026-08-27',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Atelier condition physique en ligne',
     city: '',
@@ -349,7 +365,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '9 h',
     date: '2026-09-03',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Foire de l\'emploi policier – Regina',
     city: 'Regina',
@@ -361,7 +378,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '10 h',
     date: '2026-09-08',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Séance Demandez à un recruteur – Victoria',
     city: 'Victoria',
@@ -373,7 +391,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '17 h',
     date: '2026-09-10',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Présentation bilingue de carrière – Ottawa',
     city: 'Ottawa',
@@ -385,7 +404,8 @@ custom_css: /assets/css/careers.css
     language: 'English and French',
     time: '18 h 30',
     date: '2026-09-15',
-    cancelled: true
+    cancelled: true,
+    full: false
   }, {
     title: 'Foire de l\'emploi – Montréal',
     city: 'Montréal',
@@ -397,7 +417,8 @@ custom_css: /assets/css/careers.css
     language: 'French',
     time: '11 h',
     date: '2026-09-18',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Présentation opérateur télécom – Fredericton',
     city: 'Fredericton',
@@ -409,7 +430,8 @@ custom_css: /assets/css/careers.css
     language: 'English and French',
     time: '14 h',
     date: '2026-09-22',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Séance de test condition physique – Kelowna',
     city: 'Kelowna',
@@ -421,7 +443,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '8 h',
     date: '2026-09-25',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Séance virtuelle – Demandez à un recruteur',
     city: '',
@@ -433,7 +456,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '12 h',
     date: '2026-09-29',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Présentation de carrière – Thunder Bay',
     city: 'Thunder Bay',
@@ -445,7 +469,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '18 h',
     date: '2026-10-02',
-    cancelled: true
+    cancelled: true,
+    full: true
   }, {
     title: 'Présentation policier – Lethbridge',
     city: 'Lethbridge',
@@ -457,7 +482,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '19 h',
     date: '2026-10-06',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Foire de l\'emploi – Sudbury',
     city: 'Sudbury',
@@ -469,7 +495,8 @@ custom_css: /assets/css/careers.css
     language: 'English and French',
     time: '10 h',
     date: '2026-10-09',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Atelier gendarme communautaire – Abbotsford',
     city: 'Abbotsford',
@@ -481,7 +508,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '9 h',
     date: '2026-10-14',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Séance virtuelle – Demandez à un recruteur – Télécom',
     city: '',
@@ -493,7 +521,8 @@ custom_css: /assets/css/careers.css
     language: 'English and French',
     time: '14 h',
     date: '2026-10-20',
-    cancelled: false
+    cancelled: false,
+    full: false
   }, {
     title: 'Atelier condition physique – Kamloops',
     city: 'Kamloops',
@@ -505,7 +534,8 @@ custom_css: /assets/css/careers.css
     language: 'English',
     time: '8 h',
     date: '2026-10-23',
-    cancelled: false
+    cancelled: false,
+    full: false
   }];
   var LANG = document.documentElement.lang && document.documentElement.lang.slice(0, 2) === 'fr' ? 'fr' : 'en';
   var TZ_LABEL = {
@@ -589,6 +619,7 @@ custom_css: /assets/css/careers.css
       noResults: 'No events match your current filters.',
       clearFilters: 'Clear filters',
       cancelled: 'Cancelled',
+      full: 'Session full',
       at: 'at',
       virtual: 'Virtual',
       inPerson: 'In person'
@@ -605,6 +636,7 @@ custom_css: /assets/css/careers.css
       noResults: 'Aucun événement ne correspond à vos filtres.',
       clearFilters: 'Effacer les filtres',
       cancelled: 'Annulé',
+      full: 'Séance complète',
       at: 'à',
       virtual: 'Virtuel',
       inPerson: 'En personne'
@@ -715,11 +747,12 @@ custom_css: /assets/css/careers.css
         : e.province;
       var tzLabel = e.tz ? ' (' + (TZ_LABEL[LANG][e.tz] || e.tz) + ')' : '';
       var cancelledBadge = e.cancelled ? '<p class="re-card-cancelled"><i class="fa-solid fa-ban" aria-hidden="true"></i> <span>' + UI[LANG].cancelled + '</span></p>' : '';
+      var fullBadge = e.full ? '<p class="re-card-cancelled re-card-full"><i class="fa-solid fa-circle-exclamation" aria-hidden="true"></i> <span>' + UI[LANG].full + '</span></p>' : '';
       var formatBadgeLabel = e.format === 'Virtual' ? UI[LANG].virtual : UI[LANG].inPerson;
       var formatBadge = '<span class="re-card-format-badge re-card-format-badge--' + (e.format === 'Virtual' ? 'virtual' : 'inperson') + '">' + formatBadgeLabel + '</span>';
       var li = document.createElement('li');
       li.className = 're-card' + (e.cancelled ? ' re-card--cancelled' : '');
-      li.innerHTML = formatBadge + '<div class="re-card-body">' + cancelledBadge + '<h3 class="re-card-title"><a href="event-evenement-en.html">' + e.title + '</a></h3>' + '<ul class="re-card-meta list-unstyled">' + (locationLine ? '<li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> ' + locationLine + '</li>' : '') + '<li><i class="fa-regular fa-lightbulb" aria-hidden="true"></i> ' + e.eventType + ' \u2013 ' + e.jobType + '</li>' + '<li><i class="fa-regular fa-calendar" aria-hidden="true"></i> ' + formatDate(e.date) + ' ' + e.time + tzLabel + '</li>' + '</ul>' + '</div>';
+      li.innerHTML = formatBadge + '<div class="re-card-body">' + cancelledBadge + fullBadge + '<h3 class="re-card-title"><a href="event-evenement-en.html">' + e.title + '</a></h3>' + '<ul class="re-card-meta list-unstyled">' + (locationLine ? '<li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> ' + locationLine + '</li>' : '') + '<li><i class="fa-regular fa-lightbulb" aria-hidden="true"></i> ' + e.eventType + ' \u2013 ' + e.jobType + '</li>' + '<li><i class="fa-regular fa-calendar" aria-hidden="true"></i> ' + formatDate(e.date) + ' ' + e.time + tzLabel + '</li>' + '</ul>' + '</div>';
       grid.appendChild(li);
     });
   }

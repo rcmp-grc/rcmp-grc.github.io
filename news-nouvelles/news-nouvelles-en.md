@@ -22,6 +22,14 @@ issued: 2026-05-21
 	border-top: 1px solid var(--rcmp-grey-md);
 	background: var(--rcmp-grey-lt);
 	}
+	dt:nth-of-type(odd),
+    dt:nth-of-type(odd) ~ dd:not(:has(+ dt)) {
+        background-color: #ffffff;
+    }
+	dt:nth-of-type(even),
+    dt:nth-of-type(even) ~ dd:not(:has(+ dt)) {
+        background-color: #fce9eb;
+	}
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">

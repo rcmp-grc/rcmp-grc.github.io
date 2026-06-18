@@ -157,7 +157,6 @@ issued: 2026-05-21
 			</select>
         </fieldset>
 		</details>
-      </details>	
 		<details class="summary"> 
         <summary>
        Publish date

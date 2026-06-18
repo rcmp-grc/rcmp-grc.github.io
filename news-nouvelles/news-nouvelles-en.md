@@ -392,7 +392,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     pagination.style.display = show ? 'block' : 'none';
     if (!show) return;
     slice.forEach(function (p) {
-      var li = document.createElement('div');
+      var li = document.createElement('dl');
       li.setAttribute('role', 'listitem');
       li.innerHTML =
 		  '<dl id="striped-dl">' +

@@ -25,9 +25,7 @@ issued: 2026-05-21
 	dl.striped-dl
 	{
 	padding: 0px 12px 12px;
-	flex: 1;
-	border-top: 1px solid var(--rcmp-grey-md);
-	background: var(--rcmp-grey-lt);
+	border-bttom: 1px solid var(--rcmp-grey-md);	
 	}
 	dt:nth-of-type(odd),
     dt:nth-of-type(odd) + dd {
@@ -401,7 +399,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     pagination.style.display = show ? 'block' : 'none';
     if (!show) return;
     slice.forEach(function (p) {
-      var li = document.createElement('div');
+      var li = document.createElement('dl');
       li.setAttribute('role', 'listitem');
       li.innerHTML =
 		  '<dl class="striped-dl">' +

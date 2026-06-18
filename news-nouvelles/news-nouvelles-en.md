@@ -22,13 +22,23 @@ issued: 2026-05-21
 	border-top: 1px solid var(--rcmp-grey-md);
 	background: var(--rcmp-grey-lt);
 	}
-	.group-odd {
+	.striped-dl
+	{
+	padding: 0px 12px 12px;
+	flex: 1;
+	border-top: 1px solid var(--rcmp-grey-md);
+	background: var(--rcmp-grey-lt);
+	overflow: hidden;
+	}
+	dt:nth-of-type(odd),
+    dt:nth-of-type(odd) + dd {
+        background-color: #fce9eb;
+    }
+	dt:nth-of-type(even),
+    dt:nth-of-type(even) + dd {
         background-color: #ffffff;
     }
-	.group-even {
-        background-color: #fce9eb;
-	}
-</style>
+	</style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">
   <div class="col-md-4">
@@ -392,10 +402,10 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     pagination.style.display = show ? 'block' : 'none';
     if (!show) return;
     slice.forEach(function (p) {
-      var li = document.createElement('dl');
+      var li = document.createElement('div');
       li.setAttribute('role', 'listitem');
       li.innerHTML =
-		  '<dl id="striped-dl">' +
+		  '<dl class="striped-dl">' +
           '<dt>' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' +'</dt>' +
 		  '<dd>' + '<div class="wb-inv">' + t.updated + '</div>' + p.updated + '|'+ '<div class="wb-inv">' + t.region + '</div>' + p.region + '|' + '<div class="wb-inv">' + t.category + '</div>' + p.category + '</dd>' +
 		  '<dd>' + '<strong>' + '<div class="wb-inv">' + t.location + '</div>' + p.location + ', ' + '<div class="wb-inv">' + t.territory + '</div>' + p.territory + '</strong>' + '</dd>' +
@@ -404,21 +414,6 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       grid.appendChild(li);
     });
   }
-function() {
-    const dl = document.getElementById('striped-dl');
-    if (!dl) return;
-    let groupIndex = 0;
-    let currentClass = '';
-    Array.from(dl.children).forEach(el => {
-        if (el.tagName.toLowerCase() === 'dt') {
-            groupIndex++;
-            currentClass = (groupIndex % 2 === 1) ? 'group-odd' : 'group-even';
-            el.classList.add(currentClass);
-        } else if (el.tagName.toLowerCase() === 'dd') {
-            el.classList.add(currentClass);
-        });
-})();
-	}
   function renderPagination(total, page) {
     var pages    = Math.ceil(total / PER_PAGE);
     var pageList = $('news-page-list');

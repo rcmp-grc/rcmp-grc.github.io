@@ -149,7 +149,7 @@ issued: 2026-05-21
             <option data-filter="region" value="RCMP Depot Division"><span class="cb-text">RCMP Depot Division</span></option>
             <option data-filter="region" value="RCMP National Headquarters"><span class="cb-text">RCMP National Headquarters</span></option>
             <option data-filter="region" value="Saskatchewan RCMP"><span class="cb-text">Saskatchewan RCMP</span></option>
-            <option data-filter="region" value="Yukon RCMP"><span class="cb-text">Yukon RCMP</span</option>
+            <option data-filter="region" value="Yukon RCMP"><span class="cb-text">Yukon RCMP</span></option>
             <option data-filter="region" value="Federal Policing Central Region"><span class="cb-text">Central Region</span></option>
             <option data-filter="region" value="Federal Policing Eastern Region"><span class="cb-text">Eastern Region</span></option>
             <option data-filter="region" value="Federal Policing Northwest Region"><span class="cb-text">Northwest Region</span></option>

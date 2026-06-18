@@ -416,9 +416,9 @@ function() {
             el.classList.add(currentClass);
         } else if (el.tagName.toLowerCase() === 'dd') {
             el.classList.add(currentClass);
-        }
-			 });
-}
+        });
+})();
+	}
   function renderPagination(total, page) {
     var pages    = Math.ceil(total / PER_PAGE);
     var pageList = $('news-page-list');

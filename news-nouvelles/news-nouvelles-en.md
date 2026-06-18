@@ -404,7 +404,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       grid.appendChild(li);
     });
   }
-function() {
+(function() {
     const dl = document.getElementById('striped-dl');
     if (!dl) return;
     let groupIndex = 0;

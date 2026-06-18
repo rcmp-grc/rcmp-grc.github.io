@@ -22,14 +22,6 @@ issued: 2026-05-21
 	border-top: 1px solid var(--rcmp-grey-md);
 	background: var(--rcmp-grey-lt);
 	}
-	dt:nth-of-type(odd),
-    dt:nth-of-type(odd) ~ dd:not(:has(+ dt)) {
-        background-color: #ffffff;
-    }
-	dt:nth-of-type(even),
-    dt:nth-of-type(even) ~ dd:not(:has(+ dt)) {
-        background-color: #fce9eb;
-	}
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">
@@ -157,14 +149,14 @@ issued: 2026-05-21
             <option data-filter="region" value="RCMP Depot Division"><span class="cb-text">RCMP Depot Division</span></option>
             <option data-filter="region" value="RCMP National Headquarters"><span class="cb-text">RCMP National Headquarters</span></option>
             <option data-filter="region" value="Saskatchewan RCMP"><span class="cb-text">Saskatchewan RCMP</span></option>
-            <option data-filter="region" value="Yukon RCMP"><span class="cb-text">Yukon RCMP</span></option>
+            <option data-filter="region" value="Yukon RCMP"><span class="cb-text">Yukon RCMP</span</option>
             <option data-filter="region" value="Federal Policing Central Region"><span class="cb-text">Central Region</span></option>
             <option data-filter="region" value="Federal Policing Eastern Region"><span class="cb-text">Eastern Region</span></option>
             <option data-filter="region" value="Federal Policing Northwest Region"><span class="cb-text">Northwest Region</span></option>
             <option data-filter="region" value="Federal Policing Pacific Region"><span class="cb-text">Pacific Region</span></option>
 			</select>
         </fieldset>
-		</details>
+      </details>	
 		<details class="summary"> 
         <summary>
        Publish date
@@ -397,12 +389,12 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       var li = document.createElement('div');
       li.setAttribute('role', 'listitem');
       li.innerHTML =
-		 '<dl id="striped-dl">'
-          '<dt>' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' +'</dt>' +
-		  '<dd>' + '<div class="wb-inv">' + t.updated + '</div>' + p.updated + '|'+ '<div class="wb-inv">' + t.region + '</div>' + p.region + '|' + '<div class="wb-inv">' + t.category + '</div>' + p.category + '</dd>' +
-		  '<dd>' + '<strong>' + '<div class="wb-inv">' + t.location + '</div>' + p.location + ', ' + '<div class="wb-inv">' + t.territory + '</div>' + p.territory + '</strong>' + '</dd>' +
-          '<dd>' + '<div class="wb-inv">' + t.summary + '</div>' + p.summary + '</dd>' +
-		  '</dl>';
+		  '<div class="card-body">' +
+          '<h2 class="h4">' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' +'</h2>' +
+		  '<p class="margn-tp-0">' + '<div class="wb-inv">' + t.updated + '</div>' + p.updated + '|'+ '<div class="wb-inv">' + t.region + '</div>' + p.region + '|' + '<div class="wb-inv">' + t.category + '</div>' + p.category + '</p>' +
+		  '<p>' + '<strong>' + '<div class="wb-inv">' + t.location + '</div>' + p.location + ', ' + '<div class="wb-inv">' + t.territory + '</div>' + p.territory + '</strong>' + '</p>' +
+          '<p>' + '<div class="wb-inv">' + t.summary + '</div>' + p.summary + '</p>' +
+		  '</div>';
       grid.appendChild(li);
     });
   }
@@ -439,7 +431,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       }
       pageList.appendChild(li);
     });
-  }	
+  }
   function buildPageSlots(page, pages) {
     if (pages <= 7) {
       var all = [];

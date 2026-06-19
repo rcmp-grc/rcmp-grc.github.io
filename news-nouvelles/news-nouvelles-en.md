@@ -25,6 +25,7 @@ issued: 2026-05-21
 	.search
 	{
 		border-left: none;
+		margin-left: 0;
 	}
 </style>
 <p>Read the RCMP news and communications.</p>

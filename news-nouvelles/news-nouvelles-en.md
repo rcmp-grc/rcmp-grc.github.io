@@ -22,6 +22,36 @@ issued: 2026-05-21
 	border-top: 1px solid var(--rcmp-grey-md);
 	background: var(--rcmp-grey-lt);
 	}
+	* Styling for the search container */
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+/* Styling for the search input */
+.search-input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+    width: 400px;
+    margin: auto;
+    display: block;
+}
+/* Styling for the search button */
+.search-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: auto;
+    display: block;
+}
+/* Styling for the search button on hover */
+.search-button:hover {
+    background-color: #e0e0e0;
+}
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">
@@ -51,7 +81,7 @@ issued: 2026-05-21
 		<form role="form" method="get" action="#">
 		<fieldset>
 		<legend class="wb-inv">Search RCMP news</legend>
-		<label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" type="text" class="form-control"><span class="input-group-btn"><button class="btn btn-danger"><span class="fa fa-search"></span><span class="wb-inv">Search</span></button></span>
+		<div class="search-container"><label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" type="text" class="form-control search-input"><span class="input-group-btn"><button class="search-button"><span class="fa fa-search"></span><span class="wb-inv">Search</span></button></span>
 		 </fieldset>
 		</form>
 		<form role="form" method="get" action="#">

@@ -174,15 +174,15 @@ issued: 2026-05-21
   <div class="col-md-9 mrgn-tp-lg">
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 
-    <div id="news-toolbar">
-      <p id="news-count" aria-live="polite"><strong id="news-count-num">0</strong>&nbsp;news and communications items found</p>
+    <div id="news-toolbar" class="row">
+     <p id="news-count" aria-live="polite"><strong id="news-count-num">0</strong>&nbsp;news and communications items found</p>
       <div id="news-sort">
         <label for="news-sort-select">Sort by:</label>
         <select aria-label="Sort profiles" id="news-sort-select">
           <option value="newest">Updated (newest)</option>
           <option value="oldest">Updated (oldest)</option>
         </select>
-      </div>
+	  </div>
 	</div>
     <div aria-label="News" id="news-grid" role="list"></div>
     <p id="news-no-results">No news or communications match your current filters.</p>

@@ -19,8 +19,7 @@ issued: 2026-05-21
 	{
 	padding: 5px 12px 5px 12px;
 	flex: 1;
-	border-top: 1px solid #4d4d4d;
-	background: #f2f2f2;
+	border-top: 2px solid #70101d;
 	}
 </style>
 <p>Read the RCMP news and communications.</p>
@@ -45,14 +44,14 @@ issued: 2026-05-21
   </div>
 </div>
 <div class="row">
-	<div class="col-md-3 mgn-tp-0">
+	<div class="col-md-3">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
 	    <h2 class="h4" id="news-filters-heading">Search</h2>
 		<form action="#" id="search-box" method="get" role="search" aria-label="Search RCMP news">
 		<legend class="wb-inv">Search news</legend>
-		<div class="summary"> <ul class="list-inline">
-        <li><label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" maxlength="100" placeholder="Search news" type="search" autocomplete="off" value=""></li><li><button class="btn-small" type="submit"><span class="glyphicon-search glyphicon" aria-hidden="true"></span><span class="wb-inv">Search</span></button></li>
-		</ul>
+		<div class="form-group wb-srch-qry">
+       <label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" maxlength="100" placeholder="Search news" size="20" type="search" autocomplete="off" value="" class="form-control"></div>
+		<div class="form-group submit"><button class="btn btn-danger btn-small" type="submit"><span class="glyphicon-search glyphicon" aria-hidden="true"></span><span class="wb-inv">Search</span></button>
 </div>
 		</form>
 		<form role="form" method="get" action="#" id="filters">
@@ -171,7 +170,7 @@ issued: 2026-05-21
 		</form>
 	</aside>
 	</div>
-  <div class="col-md-9 mrgn-tp-md">
+  <div class="col-md-9 mrgn-tp-lg">
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 
     <div id="news-toolbar">

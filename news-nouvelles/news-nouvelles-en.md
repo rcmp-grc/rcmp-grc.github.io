@@ -17,10 +17,19 @@ issued: 2026-05-21
 	}
 	dl.dlist
 	{
-	padding: 5px 12px 5px 12px;
+	padding: 10px 5px 10px 5px;
 	flex: 1;
 	border-top: 2px solid #70101d;
 	}
+	dl.dlist:nth-of-type(odd),
+    dl:nth-of-type(odd) + dt + dd {
+        background-color: #f9f9f9;
+    }
+
+    dl.dlist:nth-of-type(even),
+    dl:nth-of-type(even) + dt + dd {
+        background-color: #ffffff;
+    }
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">

@@ -22,11 +22,6 @@ issued: 2026-05-21
 	border-top: 1px solid var(--rcmp-grey-md);
 	background: var(--rcmp-grey-lt);
 	}
-	* Styling for the search container */
-.search-container {
-    text-align: center;
-    margin-top: 20px;
-}
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">
@@ -56,7 +51,7 @@ issued: 2026-05-21
 		<form role="form" method="get" action="#">
 		<fieldset>
 		<legend class="wb-inv">Search RCMP news</legend>
-		<div class="search-container"><label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" type="text" class="form-control"><span class="btn"><button type="button" class="btn btn-link"><span class="fa fa-search"></span><span class="wb-inv">Search</span></button></span></div>
+		<div class="search-container"><label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" type="text" class="form-control"><button type="button" class="btn btn-danger"><span class="fa fa-search"></span><span class="wb-inv">Search</span></button></div>
 		 </fieldset>
 		</form>
 		<form role="form" method="get" action="#">

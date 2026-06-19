@@ -17,10 +17,10 @@ issued: 2026-05-21
 	}
 	dl.dlist
 	{
-	padding: 0px 12px 12px;
+	padding: 5px 12px 5px 12px;
 	flex: 1;
-	border-top: 1px solid var(--rcmp-grey-md);
-	background: var(--rcmp-grey-lt);
+	border-top: 1px solid #70101d;
+	background: #fce9eb;
 	}
 	.search
 	{

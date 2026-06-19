@@ -45,11 +45,10 @@ issued: 2026-05-21
   </div>
 </div>
 <div class="row">
-	<div class="col-md-3">
+	<div class="col-md-3 mgn-tp-0">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
 	    <h2 class="h4" id="news-filters-heading">Search</h2>
-		<form role="form" method="get" action="#">
-		<fieldset>
+		<form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">
 		<legend class="wb-inv">Search news</legend>
 		<div class="form-group"><label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" maxlength="20" name="q" placeholder="Search news" type="search" autocomplete="off" value=""><div class="form-group submit">
 <button class="btn btn-danger btn-small" type="submit">
@@ -58,9 +57,8 @@ issued: 2026-05-21
 </button>
 </div>
 </div>
-		 </fieldset>
 		</form>
-		<form role="form" method="get" action="#">
+		<form role="form" method="get" action="#" id="filters">
       <div id="filtres"><h2 class="h4" id="news-filters-heading">Filter by</h2>
 		<p class="small">Apply the following filtres to narrow your search</p></div>
       <details class="summary">

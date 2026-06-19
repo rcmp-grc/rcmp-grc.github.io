@@ -19,8 +19,8 @@ issued: 2026-05-21
 	{
 	padding: 5px 12px 5px 12px;
 	flex: 1;
-	border-top: 1px solid #70101d;
-	background: #fce9eb;
+	border-top: 1px solid #193d66;
+	background: #ebf2fa;
 	}
 	.search
 	{

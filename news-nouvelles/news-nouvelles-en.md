@@ -176,7 +176,7 @@ issued: 2026-05-21
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 
     <div id="news-toolbar">
       <p id="news-count" aria-live="polite"><strong id="news-count-num">0</strong>&nbsp;news and communications items found</p>
-      <div id="wp-sort">
+      <div id="news-sort">
         <label for="news-sort-select">Sort by:</label>
         <select aria-label="Sort profiles" id="news-sort-select">
           <option value="newest">Updated (newest)</option>
@@ -399,14 +399,6 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       grid.appendChild(li);
     });
   }
-// Predefined colors (will cycle if more <dl> than colors)
-const colors = ["#ffcccc", "#ccffcc", "#ccccff", "#fff0b3", "#e0ccff"];
-// Select all <dl> elements
-const lists = document.querySelectorAll("dl");
-// Assign colors
-lists.forEach((dl, index) => {
-    dl.style.backgroundColor = colors[index % colors.length];
-});
   function renderPagination(total, page) {
     var pages    = Math.ceil(total / PER_PAGE);
     var pageList = $('news-page-list');

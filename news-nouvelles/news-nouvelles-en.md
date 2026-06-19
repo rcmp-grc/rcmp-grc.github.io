@@ -17,18 +17,10 @@ issued: 2026-05-21
 	}
 	dl.dlist
 	{
-	padding: 10px 5px 10px 5px;
+	padding: 10px;
 	flex: 1;
 	border-top: 2px solid #70101d;
-	}
-	dl.dlist:nth-of-type(odd),
-    dl:nth-of-type(odd) + dt + dd {
-        background-color: #f9f9f9;
-    }
-
-    dl.dlist:nth-of-type(even),
-    dl:nth-of-type(even) + dt + dd {
-        background-color: #ffffff;
+	background-color: #f9f9f9;	
     }
 </style>
 <p>Read the RCMP news and communications.</p>
@@ -407,6 +399,14 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       grid.appendChild(li);
     });
   }
+// Predefined colors (will cycle if more <dl> than colors)
+const colors = ["#ffcccc", "#ccffcc", "#ccccff", "#fff0b3", "#e0ccff"];
+// Select all <dl> elements
+const lists = document.querySelectorAll("dl");
+// Assign colors
+lists.forEach((dl, index) => {
+    dl.style.backgroundColor = colors[index % colors.length];
+});
   function renderPagination(total, page) {
     var pages    = Math.ceil(total / PER_PAGE);
     var pageList = $('news-page-list');

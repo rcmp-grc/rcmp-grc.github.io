@@ -48,13 +48,9 @@ issued: 2026-05-21
 	<div class="col-md-3 mgn-tp-0">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
 	    <h2 class="h4" id="news-filters-heading">Search</h2>
-		<form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">
+		<form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news" class="form-inline">
 		<legend class="wb-inv">Search news</legend>
-		<div class="form-group"><label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" maxlength="20" name="q" placeholder="Search news" type="search" autocomplete="off" value=""><div class="form-group submit">
-<button class="btn btn-danger btn-small" type="submit">
-<span class="glyphicon-search glyphicon" aria-hidden="true"></span>
-<span class="wb-inv">Search</span>
-</button>
+		<div class="form-group"><label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" maxlength="100" placeholder="Search news" type="search" autocomplete="off" value=""><div class="form-group submit"><button class="btn btn danger btn-small" type="submit"><span class="glyphicon-search glyphicon" aria-hidden="true"></span><span class="wb-inv">Search</span></button>
 </div>
 </div>
 		</form>

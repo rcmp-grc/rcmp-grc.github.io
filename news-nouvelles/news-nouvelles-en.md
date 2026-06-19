@@ -50,7 +50,7 @@ issued: 2026-05-21
 	    <h2 class="h4" id="news-filters-heading">Search</h2>
 		<form role="form" method="get" action="#">
 		<fieldset>
-		<legend class="wb-inv">Search RCMP news</legend>
+		<legend class="wb-inv">Search news</legend>
 		<div class="form-group"><label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" maxlength="20" name="q" placeholder="Search RCMP news" type="search" autocomplete="off" value=""><div class="form-group submit">
 <button class="btn btn-danger btn-small" type="submit">
 <span class="glyphicon-search glyphicon" aria-hidden="true"></span>

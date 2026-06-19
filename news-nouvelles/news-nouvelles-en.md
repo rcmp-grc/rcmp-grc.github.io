@@ -51,7 +51,13 @@ issued: 2026-05-21
 		<form role="form" method="get" action="#">
 		<fieldset>
 		<legend class="wb-inv">Search RCMP news</legend>
-		<div class="search-container"><label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" type="text" class="form-control"><button type="button" class="btn btn-danger"><span class="fa fa-search"></span><span class="wb-inv">Search</span></button></div>
+		<div class="form-group wb-srch-qry"><label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" maxlength="100" name="q" placeholder="Search RCMP.ca" type="search" autocomplete="off" value=""><div class="form-group submit">
+<button class="btn btn-primary btn-small" type="submit">
+<span class="glyphicon-search glyphicon" aria-hidden="true"></span>
+<span class="wb-inv">Search</span>
+</button>
+</div>
+</div>
 		 </fieldset>
 		</form>
 		<form role="form" method="get" action="#">
@@ -170,7 +176,7 @@ issued: 2026-05-21
 		</form>
 	</aside>
 	</div>
-  <div class="col-md-9">
+  <div class="col-md-9 mrgn-tp-md">
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 
     <div id="news-toolbar">

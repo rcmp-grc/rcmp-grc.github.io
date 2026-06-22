@@ -44,7 +44,7 @@ issued: 2026-05-15
   <section id="s2-1">
     <h3>Full width (720x450)</h3>
     <p>Pariatur anim tongue, polony fugiat laborum flank beef salami. In mollit beef ribs dolore nulla, tongue nostrud deserunt ut incididunt lorem dolore. Pariatur ut t-bone irure burgdoggen ham, eu duis strip steak.</p>
-    {% include image.html link="https://dummyimage.com/720x450/000/fff" alt="A sample image that is 720x450." caption="A sample image that is 720x450." source="RCMP" %}
+    {% include image.html link="https://dummyimage.com/720x450/000/fff" alt="A sample image that is 720x450." caption="A sample image that is 720x450." source="RCMP" format="full" %}
     <p>Sirloin rump turkey eu turducken in ground round qui ham hock pig quis hamburger pariatur. Anim turducken shoulder, andouille sint veniam esse deserunt est pig turkey officia polony tail pork belly. Ut occaecat pariatur tongue. Commodo velit in excepteur nostrud veniam pork belly jowl chislic aliquip landjaeger alcatra ut meatball tongue.</p>
   </section>
   <section id="s2-2">

@@ -1,3 +1,5 @@
+{% case include.format %}
+{% when "full" %}
 <div class="well col-sm-12 col-md-8">
   <figure>
     <img alt="{{ include.alt }}" class="img-responsive full-width" src="{{ include.link }}">
@@ -7,10 +9,38 @@
       {% else %}
       <span class="small">Image by {{ include.source }}</span>
       {% endif %}
-      {% if include.format == "full" %}
-      <span>Full</span>
+    </figcaption>
+  </figure>
+</div>
+<div class="clearfix"></div>
+{% when "side %}
+<div class="pull-right col-xs-12 col-md-3 col-lg-4">
+  <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
+    <figure>
+      <img alt="{{ include.alt }}" class="img-responsive full-width" src="{{ include.link }}">
+      <figcaption>
+        <b>{{ include.caption }}</b><br>
+        {% if page.lang == 'fr' %}
+        <span class="small">Image par {{ include.source }}</span>
+        {% else %}
+        <span class="small">Image by {{ include.source }}</span>
+        {% endif %}
+      </figcaption>
+    </figure>
+  </div>
+</div>
+{% else %}
+<div class="well col-sm-12 col-md-8">
+  <figure>
+    <img alt="{{ include.alt }}" class="img-responsive full-width" src="{{ include.link }}">
+    <figcaption>{{ include.caption }} <br> 
+      {% if page.lang == 'fr' %}
+      <span class="small">Image par {{ include.source }}</span>
+      {% else %}
+      <span class="small">Image by {{ include.source }}</span>
       {% endif %}
     </figcaption>
   </figure>
 </div>
 <div class="clearfix"></div>
+{% endcase &}

@@ -5,13 +5,13 @@
   <figure>
     <img alt="{{ include.alt }}" class="img-responsive full-width" src="{{ include.link }}">
     <figcaption>{{ include.caption }} <br> 
-      {%- unless include.source == "none" -%}
-        {%- if page.lang == 'fr' -%}
+      {% unless include.source == "none" -%}
+        {% if page.lang == 'fr' -%}
         <span class="small">Image par {{ include.source }}</span>
-        {%- else -%}
+        {% else -%}
         <span class="small">Image by {{ include.source }}</span>
-        {%- endif -%}
-      {%- endunless &-}
+        {% endif -%}
+      {% endunless -%}
     </figcaption>
   </figure>
 </div>
@@ -23,13 +23,13 @@
       <img alt="{{ include.alt }}" class="img-responsive full-width" src="{{ include.link }}">
       <figcaption>
         <b>{{ include.caption }}</b><br>
-        {%- unless include.source == "none" -%}
-          {%- if page.lang == 'fr' -%}
+        {% unless include.source == "none" -%}
+          {% if page.lang == 'fr' -%}
           <span class="small">Image par {{ include.source }}</span>
-          {%- else -%}
+          {% else -%}
           <span class="small">Image by {{ include.source }}</span>
-          {%- endif -%}
-        {%- endunless -%}
+          {% endif -%}
+        {% endunless -%}
       </figcaption>
     </figure>
   </div>
@@ -39,11 +39,13 @@
   <figure>
     <img alt="{{ include.alt }}" class="img-responsive full-width" src="{{ include.link }}">
     <figcaption>{{ include.caption }} <br> 
-      {% if page.lang == 'fr' %}
-      <span class="small">Image par {{ include.source }}</span>
-      {% else %}
-      <span class="small">Image by {{ include.source }}</span>
-      {% endif %}
+      {% unless include.source == "none" -%}
+        {% if page.lang == 'fr' -%}
+        <span class="small">Image par {{ include.source }}</span>
+        {% else -%}
+        <span class="small">Image by {{ include.source }}</span>
+        {% endif -%}
+      {% endunless -%}
     </figcaption>
   </figure>
 </div>

@@ -49,18 +49,9 @@ issued: 2026-05-15
   </section>
   <section id="s2-2">
     <h3>Side</h3>
-    <div class="pull-right col-xs-12 col-md-3 col-lg-4">
-      <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
-        <figure>
-          <img alt="A sample of a image that is 480x600" class="img-responsive full-width" src="../assets/basic-image-480x600.jpg">
-          <figcaption>
-            <b>Sample image</b><br>
-            480x600<br>
-            Portrait
-          </figcaption>
-        </figure>
-      </div>
-    </div>
+    {% include image.html link="https://dummyimage.com/480x600/000/fff" alt="A sample image that is 480x600" caption="A sample image that is 480x600 (Portrait)." source="RCMP" format="side" %}
+    {% include image.html link="https://dummyimage.com/480x480/000/fff" alt="A sample image that is 480x480" caption="A sample image that is 480x600 (Square)." source="RCMP" format="side" %}
+    {% include image.html link="https://dummyimage.com/480x300/000/fff" alt="A sample image that is 480x300" caption="A sample image that is 480x300 (Landscape)." source="RCMP" format="side" %}
     <p>Pork anim pariatur veniam. Pork loin buffalo non quis id, salami ipsum capicola shoulder lorem kielbasa cupidatat ham. Ut eiusmod consectetur nisi ham hock. Meatloaf short ribs sed pork andouille shank reprehenderit aliqua tenderloin beef occaecat shankle tri-tip. Pariatur chislic mollit, andouille biltong landjaeger ball tip ham hock sint irure consequat beef ribs burgdoggen. Capicola frankfurter irure sausage pork belly tenderloin mollit bresaola qui porchetta nisi leberkas. </p>
     <p>Beef ribs minim lorem swine sirloin bacon pork chop pariatur shoulder biltong fugiat landjaeger. Fugiat magna laborum ut cupidatat capicola pig nisi doner. Chicken laboris eu doner reprehenderit. Aute bresaola shank shankle pork belly t-bone cillum chuck fatback. Et do ullamco, pork belly cupidatat frankfurter esse spare ribs brisket cow est consectetur reprehenderit.</p>
   </section>

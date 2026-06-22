@@ -1,0 +1,13 @@
+<div class="well col-sm-12 col-md-8">
+  <figure>
+    <img alt="{{ include.alt }}" class="img-responsive full-width" src="{{ include.link }}">
+    <figcaption>{{ include.caption }} <br> 
+      {% if page.lang == 'fr' %}
+      <span class="small">Image by {{ include.source }}</span>
+      {% else %}
+      <span class="small">Image par {{ include.source }}</span>
+      {% endif %}
+    </figcaption>
+  </figure>
+</div>
+<div class="clearfix"></div>

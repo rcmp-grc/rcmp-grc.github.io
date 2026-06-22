@@ -2,10 +2,10 @@
 layout: campaign
 title: Campaign page
 description: A promotional page built to support a specific campaign or initiative
-banner_sm: ../assets/campaign-small-500x250.svg
-banner_lg: ../assets/campaign-large-960x300.svg
-banner_2xl: ../assets/campaign-2xl-1920x300.svg
-date_modified: 2026-05-15
+banner_sm: https://dummyimage.com/500x250/000/fff
+banner_lg: https://dummyimage.com/960x300/000/fff
+banner_2xl: https://dummyimage.com/1920x300/000/fff
+date_modified: 2026-06-22
 lang: en
 lang_url: index-fr.html
 issued: 2026-05-15
@@ -42,15 +42,9 @@ issued: 2026-05-15
 <section id="s2">
   <h2>Images</h2>
   <section id="s2-1">
-    <h3>Full width (480x300)</h3>
+    <h3>Full width (720x450)</h3>
     <p>Pariatur anim tongue, polony fugiat laborum flank beef salami. In mollit beef ribs dolore nulla, tongue nostrud deserunt ut incididunt lorem dolore. Pariatur ut t-bone irure burgdoggen ham, eu duis strip steak.</p>
-    <div class="well col-sm-12 col-md-8">
-      <figure>
-        <img alt="A sample of a image that is 480x300" class="img-responsive full-width" src="../assets/basic-image-480x300.jpg">
-        <figcaption>A sample image that is 480x300 <br> <span class="small">Image by <abbr>RCMP</abbr></span></figcaption>
-      </figure>
-    </div>
-    <div class="clearfix"></div>
+    {% include image.html link="https://dummyimage.com/720x450/000/fff" alt="A sample image that is 720x450." caption="A sample image that is 720x450." source="RCMP" %}
     <p>Sirloin rump turkey eu turducken in ground round qui ham hock pig quis hamburger pariatur. Anim turducken shoulder, andouille sint veniam esse deserunt est pig turkey officia polony tail pork belly. Ut occaecat pariatur tongue. Commodo velit in excepteur nostrud veniam pork belly jowl chislic aliquip landjaeger alcatra ut meatball tongue.</p>
   </section>
   <section id="s2-2">

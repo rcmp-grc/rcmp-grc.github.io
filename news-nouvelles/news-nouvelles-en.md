@@ -57,7 +57,7 @@ issued: 2026-05-21
 		</div>
 			</div>
 		</form>-->
-		 <section class="col-xs-12 id="wb-srch">
+		 <section class="col-xs-12" id="wb-srch">
         <h2>Search</h2>
         <form action="https://www.canada.ca/en/royal-canadian-mounted-police/search.html#wb-land" id="cse-search-box" method="get" role="search" aria-label="Search RCMP.ca">
           <div class="form-group wb-srch-qry">

@@ -53,7 +53,7 @@ issued: 2026-05-21
 			<div class="row">
 		<div class="form-group news-srch-qry col-xs-10 lft-mrgn-0">
        <label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" maxlength="100" placeholder="Search news" size="20" type="search" autocomplete="off" value="" class="form-control"></div>
-		<div class="form-group submit col-xs-2 lft-mrgn-0"><button class="btn btn-danger btn-small" type="submit"><span class="glyphicon-search glyphicon" aria-hidden="true"></span><span class="wb-inv">Search</span></button>
+		<div class="form-group submit lft-mrgn-0"><button class="btn btn-danger btn-small" type="submit"><span class="glyphicon-search glyphicon" aria-hidden="true"></span><span class="wb-inv">Search</span></button>
 		</div>
 			</div>
 		</form>

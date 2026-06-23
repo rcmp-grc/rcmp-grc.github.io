@@ -214,7 +214,7 @@ issued: 2026-05-21
   </div>
 </div>
 <div class="container col-md-12 mrgn-bttm-lg mrgn-lft-0">
-    <section class="gc-features">
+    <section class="gc-features mrgn-lft-0">
       <h2 class="h3">Features</h2>
       <div class="row wb-eqht">
         <div class="col-md-4">

@@ -48,7 +48,7 @@ issued: 2026-05-21
 	<div class="col-md-3">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
 	    <h2 class="h4" id="news-filters-heading">Search</h2>
-		<form action="#" id="search-box" method="get" role="search" aria-label="Search RCMP news">
+		<!--<form action="#" id="search-box" method="get" role="search" aria-label="Search RCMP news">
 		<legend class="wb-inv">Search news</legend>
 			<div class="row">
 		<div class="form-group news-srch-qry col-xs-10 lft-mrgn-0 rght-mrgn-0">
@@ -56,7 +56,22 @@ issued: 2026-05-21
 		<div class="form-group submit lft-mrgn-0"><button class="btn btn-danger btn-small" type="submit"><span class="glyphicon-search glyphicon" aria-hidden="true"></span><span class="wb-inv">Search</span></button>
 		</div>
 			</div>
-		</form>
+		</form>-->
+		<section class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4" id="wb-srch">
+        <h2>Search</h2>
+        <form action="https://www.canada.ca/en/royal-canadian-mounted-police/search.html#wb-land" id="cse-search-box" method="get" role="search" aria-label="Search RCMP.ca">
+          <div class="form-group wb-srch-qry">
+            <label class="wb-inv" for="wb-srch-q">Search RCMP.ca</label>
+            <input class="wb-srch-q form-control" id="wb-srch-q" maxlength="170" name="q" placeholder="Search RCMP.ca" type="search" autocomplete="off" value="">
+          </div>
+          <div class="form-group submit">
+            <button class="btn btn-primary btn-small" type="submit">
+              <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
+              <span class="wb-inv">Search</span>
+            </button>
+          </div>
+        </form>
+      </section>
 		<form role="form" method="get" action="#" id="filters">
       <div id="filtres"><h2 class="h4" id="news-filters-heading">Filter by</h2>
 		<p class="small">Apply the following filtres to narrow your search</p></div>

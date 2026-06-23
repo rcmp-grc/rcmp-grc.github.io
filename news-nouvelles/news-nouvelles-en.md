@@ -50,10 +50,12 @@ issued: 2026-05-21
 	    <h2 class="h4" id="news-filters-heading">Search</h2>
 		<form action="#" id="search-box" method="get" role="search" aria-label="Search RCMP news">
 		<legend class="wb-inv">Search news</legend>
+			<div class="row">
 		<div class="form-group news-srch-qry col-xs-10 lft-mrgn-0">
        <label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" maxlength="100" placeholder="Search news" size="20" type="search" autocomplete="off" value="" class="form-control"></div>
 		<div class="form-group submit col-xs-2 lft-mrgn-0"><button class="btn btn-danger btn-small" type="submit"><span class="glyphicon-search glyphicon" aria-hidden="true"></span><span class="wb-inv">Search</span></button>
 		</div>
+			</div>
 		</form>
 		<form role="form" method="get" action="#" id="filters">
       <div id="filtres"><h2 class="h4" id="news-filters-heading">Filter by</h2>

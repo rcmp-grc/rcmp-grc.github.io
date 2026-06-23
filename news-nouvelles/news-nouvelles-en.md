@@ -213,10 +213,11 @@ issued: 2026-05-21
     </nav>
   </div>
 </div>
-<div class="container col-md-12 mrgn-bttm-lg mrgn-lft-0">
-    <section class="gc-features mrgn-lft-0">
-      <h2 class="h3">Features</h2>
-      <div class="row wb-eqht">
+<div class="container">
+		<div class="row">
+			<section class="gc-features col-lg-12 mrgn-bttm-lg">
+				<h2 class="h3">Features</h2>
+				<div class="row wb-eqht">
         <div class="col-md-4">
           <div class="well well-sm brdr-rds-0 eqht-trgt position-relative">
             <img alt="" src="web-banners-census-pop-web-tile-360x203-final.jpg">

@@ -57,7 +57,7 @@ issued: 2026-05-21
 		</div>
 			</div>
 		</form>-->
-		 <section class="col-xs-12 mrgn-lft-0" id="wb-srch">
+		 <div class="col-xs-12 mrgn-lft-0" id="wb-srch">
         <h2>Search</h2>
         <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">
           <div class="form-group wb-srch-qry">
@@ -71,7 +71,7 @@ issued: 2026-05-21
             </button>
           </div>
         </form>
-      </section>
+      </div>
 		<div class="clearfix"></div>
 		<form role="form" method="get" action="#" id="filters">
       <div id="filtres"><h2 class="h4" id="news-filters-heading">Filter by</h2>

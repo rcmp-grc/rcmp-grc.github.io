@@ -48,13 +48,21 @@ issued: 2026-05-21
 	<div class="col-md-3">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
 	    <h2 class="h4" id="news-filters-heading">Search</h2>
-		<form action="#" id="search-box" method="get" role="search" aria-label="Search RCMP news">
+		<!-- <form action="#" id="search-box" method="get" role="search" aria-label="Search RCMP news">
 		<legend class="wb-inv">Search news</legend>
 		<div class="form-group news-srch-qry">
        <label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" maxlength="100" placeholder="Search news" size="20" type="search" autocomplete="off" value="" class="form-control"></div>
 		<div class="form-group submit"><button class="btn btn-danger btn-small" type="submit"><span class="glyphicon-search glyphicon" aria-hidden="true"></span><span class="wb-inv">Search</span></button>
 		</div>
-		</form>
+		</form>-->
+		<form action="#" id="search-box" method="get" role="search" class="form-inline" aria-label="Search RCMP news">
+<div class="form-group">
+<label for="wb-srch-q">Search RCMP news</label>
+<input id="wb-srch-q" class="form-control" name="q" type="search" value="" size="20" maxlength="100" placeholder="Search news">
+<input type="hidden" name="q" value="#">
+</div>
+<button type="submit" id="wb-srch-sub" class="btn btn-danger btn-small"><span class="glyphicon-search glyphicon" aria-hidden="true"></span><span class="wb-inv">Search</span></button>
+</form>
 		<form role="form" method="get" action="#" id="filters">
       <div id="filtres"><h2 class="h4" id="news-filters-heading">Filter by</h2>
 		<p class="small">Apply the following filtres to narrow your search</p></div>

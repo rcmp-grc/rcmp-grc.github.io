@@ -22,7 +22,7 @@
     <figure>
       <img alt="{{ include.alt }}" class="img-responsive full-width" src="{{ include.link }}">
       <figcaption>
-        <b>{{ include.caption }}</b><br>
+        {{ include.caption }}<br>
         {% unless include.source == "none" -%}
           {% if page.lang == 'fr' -%}
           <span class="small">Image par {{ include.source }}</span>

@@ -9,10 +9,6 @@ lang_url: report-rapport-fr.html
   You place your CSS here
 </style>
 
-<!-- 
-2025 Commissioner of Firearms Report
--->
-
 
 <section>
   <h2>On this page</h2>

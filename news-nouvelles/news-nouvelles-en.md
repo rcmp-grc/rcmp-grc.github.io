@@ -24,7 +24,7 @@ issued: 2026-05-21
     }
 	.badge badge-located
 	{
-	background-color: #861322;
+	background-color: #70101d;
 	}
 	.badge badge-updated
 	{

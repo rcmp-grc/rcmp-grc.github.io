@@ -22,6 +22,9 @@ issued: 2026-05-21
 	border-top: 2px solid #70101d;
 	background-color: #f9f9f9;	
     }
+btn btn-search
+	{ background-color: #ef8f9c
+	}
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">
@@ -57,7 +60,7 @@ issued: 2026-05-21
             <input class="wb-srch-q form-control" id="news-srch-q" maxlength="100" name="q" placeholder="Search RCMP news" type="search" autocomplete="off" value="">
           </div>
           <div class="form-group submit">
-            <button class="btn btn-primary btn-small" type="submit">
+            <button class="btn btn-search btn-small" type="submit">
               <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
               <span class="wb-inv">Search</span>
             </button>

@@ -6,7 +6,101 @@ lang: en
 lang_url: report-rapport-fr.html
 ---
 <style>
-  You place your CSS here
+  /* Charts */
+div.chrt-cntnr { position: relative; margin: auto; height: 50vh; max-height: 100vh; width: 100vw; max-width: 100% }
+figure caption { font-size: 1.1em; }
+
+/* Forced limited width */
+:where(details, div, section, figure).cnt-wdth-lmtd {max-width: 65ch}
+
+/* Better tables */
+thead th {text-wrap: balance}
+caption {text-align: left}
+figure table {background-color: var(--rcmp-white, #fff)}
+
+/* Squishy tables */
+@media screen and (max-width: 991px) {
+	table:has(td[data-label]):not(.table-fixed) {
+
+		border: none;
+		border-block-start: 1px solid var(--rcmp-grey-md, #b1b4b6);
+
+		thead {
+			display: none;
+		}
+
+		tr {
+			display: block;
+			margin: 0;
+			padding: 0;
+			border: none;
+			border-block-end: 1px solid var(--rcmp-grey-md, #b1b4b6);
+		}
+
+		th,
+		td {
+			display: block;
+			border: none;
+			text-align: left !important;
+			white-space: normal;
+		}
+
+		th {
+			padding: 0.75em 0.25em;
+		}
+
+		td {
+			padding: 0.375em 0.25em;
+
+			&:first-of-type {
+				padding-block-start: 0.75em;
+			}
+
+			&:last-of-type {
+				padding-block-end: 0.75em;
+			}
+		}
+
+		td::before,
+		th::before {
+			content: attr(data-label) / attr(data-label);
+			display: block;
+			font-weight: 400;
+			font-size: 0.85em;
+			color: var(--rcmp-grey-dk, #505a5f);
+			margin-bottom: 0.1em;
+			float: none;
+		}
+
+		th[colspan] {
+			background-color: var(--rcmp-grey-lt, #f3f2f1);
+			/* border-bottom: 1px solid var(--rcmp-grey-md, #b1b4b6); */
+		}
+
+		tbody+tbody {
+			border: none;
+		}
+
+		&.table-condensed tbody,
+		&.table-sm tbody {
+			td {
+				padding: 0.25em .25em;
+			}
+
+			th[colspan] {
+				padding: 0.375em .25em;
+			}
+
+			td::before {
+				font-size: 0.75em;
+			}
+
+			:is(td, th)+ :is(td, th) {
+				padding-top: 0.25em;
+			}
+		}
+	}
+}
 </style>
 
 

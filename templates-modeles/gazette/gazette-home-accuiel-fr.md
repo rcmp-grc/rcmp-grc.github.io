@@ -2,8 +2,8 @@
 layout: default
 title: Gazette GRC
 description: La page d'accueil du magazine Gazette de la GRC, avec les articles récents, tendance et mis en vedette
-date_modified: 2026-06-05
-lang: en
+date_modified: 2026-06-24
+lang: fr
 lang_url: gazette-home-accueil-en.html
 issued: 2026-06-05
 ---

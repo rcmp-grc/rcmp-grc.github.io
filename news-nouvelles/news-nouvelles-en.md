@@ -28,7 +28,7 @@ issued: 2026-05-21
 	}
 	.badge-updated
 	{
-	background-color: #737373;
+	background-color: #404040;
 	}
 </style>
 <p>Read the RCMP news and communications.</p>

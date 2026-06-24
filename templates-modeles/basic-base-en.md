@@ -7,8 +7,8 @@ lang_url: basic-base-fr.html
 # author: RCMP Web Team
 ---
 <ul>
-{% assign template = site.pages | where "title",page.title %}
-{% for template_page in template %}
+{% assign template_array = site.pages | where "title", "Basic page" %}
+{% for template_page in template_array %}
 <li>{{ template_page.title }}, {{template_page.layout}}</li>
 {% endfor %}
 </ul>

@@ -23,7 +23,7 @@ issued: 2026-06-24
   </div>
 </div>
 
-<p class="small">January 1, 2026</p>   
+<p class="small">{{ page.date_modified | date: "%B %-d, %Y" }}</p>   
 
 <div class="row">
   <div class="col-md-8">								

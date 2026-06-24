@@ -257,6 +257,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       removeFilter:   'Remove filter: ',
       profileHref:    'news-nouvelles-en.html',
       viewProfile:    'View profile: ',
+	  badge:          'Badge: ',	
       category:       'Category\u00A0: ',
 	  territory:      'Territory\u00A0: ',	
       region:         'Region\u00A0: ',
@@ -272,7 +273,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       removeFilter:   'Retirer le filtre\u00A0: ',
       profileHref:    'news-nouvelles-fr.html',
       viewProfile:    'Voir le profil\u00A0: ',
-	  fileNumber:     'File number: ',	
+	  badge:          'Badge: ',	
 	  category:       'Category\u00A0: ',
 	  territory:      'Territory\u00A0: ',	
       region:         'Region\u00A0: ',
@@ -306,7 +307,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     return {
       id:        i + 1,
       name:      r[ni],
-	  fileNumber:r[2], 	
+	  badge:     r[2], 	
       category:  r[3],
 	  location:  r[4],	
       territory: r[5],
@@ -407,7 +408,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       li.setAttribute('role', 'listitem');
       li.innerHTML =
 		  '<dl class="dlist">' +
-          '<dt>' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' + p.fileNumber + '</dt>' +
+          '<dt>' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' + '&nbsp;' + p.badge + '</dt>' +
 		  '<dd>' + '<div class="wb-inv">' + t.updated + '</div>' + p.updated + '|'+ '<div class="wb-inv">' + t.region + '</div>' + p.region + '|' + '<div class="wb-inv">' + t.category + '</div>' + p.category + '</dd>' +
 		  '<dd>' + '<strong>' + '<div class="wb-inv">' + t.location + '</div>' + p.location + ', ' + '<div class="wb-inv">' + t.territory + '</div>' + p.territory + '</strong>' + '</dd>' +
           '<dd>' + '<div class="wb-inv">' + t.summary + '</div>' + p.summary + '</dd>' +

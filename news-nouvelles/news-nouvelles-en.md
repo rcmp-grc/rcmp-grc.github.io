@@ -57,12 +57,12 @@ issued: 2026-05-21
 		</div>
 			</div>
 		</form>-->
-		 <section class="col-xs-12 id="wb-srch">
+		 <div class="col-xs-12 mrgn-lft-0" id="wb-srch">
         <h2>Search</h2>
-        <form action="https://www.canada.ca/en/royal-canadian-mounted-police/search.html#wb-land" id="cse-search-box" method="get" role="search" aria-label="Search RCMP.ca">
+        <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">
           <div class="form-group wb-srch-qry">
-            <label class="wb-inv" for="wb-srch-q">Search RCMP.ca</label>
-            <input class="wb-srch-q form-control" id="wb-srch-q" maxlength="170" name="q" placeholder="Search RCMP.ca" type="search" autocomplete="off" value="">
+            <label class="wb-inv" for="news-srch-q">Search RCMP news</label>
+            <input class="wb-srch-q form-control" id="news-srch-q" maxlength="100" name="q" placeholder="Search news" type="search" autocomplete="off" value="">
           </div>
           <div class="form-group submit">
             <button class="btn btn-primary btn-small" type="submit">
@@ -71,7 +71,7 @@ issued: 2026-05-21
             </button>
           </div>
         </form>
-      </section>
+      </div>
 		<div class="clearfix"></div>
 		<form role="form" method="get" action="#" id="filters">
       <div id="filtres"><h2 class="h4" id="news-filters-heading">Filter by</h2>

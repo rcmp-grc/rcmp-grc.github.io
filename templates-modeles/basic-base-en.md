@@ -9,7 +9,7 @@ lang_url: basic-base-fr.html
 <ul>
 {% assign template_array = site.pages | where: "title", "Basic page" %}
 {% for template_page in template_array %}
-<li>{{ template_page.title }}, {{template_page.layout}}</li>
+<li>{{ template_page.title }}, {{template_page.layout}}, {{template_page.url}}</li>
 {% endfor %}
 </ul>
 <section>

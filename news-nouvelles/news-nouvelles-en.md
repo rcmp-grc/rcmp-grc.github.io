@@ -213,8 +213,8 @@ issued: 2026-05-21
     </nav>
   </div>
 </div>
-<div class="container">
-			<section class="gc-features col-md-12 mrgn-bttm-lg text-left">
+<div class="container mrgn-lft-0">
+			<section class="gc-features col-md-12 mrgn-bttm-lg">
 				<h2 class="h3">Features</h2>
 				<div class="row wb-eqht">
         <div class="col-md-4">

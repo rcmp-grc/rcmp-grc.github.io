@@ -272,6 +272,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       removeFilter:   'Retirer le filtre\u00A0: ',
       profileHref:    'news-nouvelles-fr.html',
       viewProfile:    'Voir le profil\u00A0: ',
+	  fileNumber:     'File number: ',	
 	  category:       'Category\u00A0: ',
 	  territory:      'Territory\u00A0: ',	
       region:         'Region\u00A0: ',
@@ -293,7 +294,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     ['RCMP seeking public’s help following counterfeit money circulation', 'RCMP seeking public’s help following counterfeit money circulation', '28374019', 'Fraud',  'Charlottetown', 'Prince Edward Island', 'Prince Edward Island RCMP', 'Seeking public’s help following counterfeit money circulation', '2026-05-05', 610 ],
     ['Comox Valley RCMP looking to locate suspect vehicle after hit-and-run', 'Comox Valley RCMP looking to locate suspect vehicle after hit-and-run', '39201847', 'Wanted and Traffic services', 'Comox Valley', 'British Columbia', 'British Columbia RCMP', 'Looking to locate suspect vehicle after hit-and-run', '2026-05-04', 533 ],
     ['Joint Forces Operations results in Multiple Drug Related Arrests', 'Joint Forces Operations Results in Multiple Drug Related Arrests', '10293847', 'Illicit drugs',  'Quebec City', 'Quebec',  'Federal Policing Central Region', 'Multiple drug-related arrests', '2026-05-03', 498 ],
-    ['Missing 49-year-old woman<span class="badge">Located</span>', 'Missing 49-year-old woman<span class="badge">Located</span>', '48201937', 'Missing', 'Steinbach', 'Manitoba', 'Federal Policing Western Region', 'Missing 49-year-old woman, last seen April 30, 2026', '2026-05-02', 412 ],
+    ['Missing 49-year-old woman', 'Missing 49-year-old woman', '<span class="badge">Located</span>', 'Missing', 'Steinbach', 'Manitoba', 'Federal Policing Western Region', 'Missing 49-year-old woman, last seen April 30, 2026', '2026-05-02', 412 ],
     ['Regina RCMP served an IRP on Monday morning', 'Regina RCMP served an IRP on Monday morning', '67391028', 'Disturbance', 'Regina', 'Saskatchewan', 'Saskatchewan RCMP', 'Regina RCMP served an IRP', '2026-04-30', 344 ],
     ['Antigonish County District RCMP charges man after he flees from officers', 'Antigonish County District RCMP charges man after he flees from officers', '74829103', 'Break and Enter', 'Antigonish', 'Nova Scotia', 'Nova Scotia RCMP', 'RCMP charges man after he flees from officers', '2026-04-28', 302 ],
     ['RCMP opening ceremonies for new detachment in the City of Pitt Meadows', 'RCMP opening ceremonies for new detachment in the City of Pitt Meadows', '81920374', 'Public interest', 'Pitt Meadows', 'British Columbia', 'British Columbia RCMP', 'New detachment in the city of Pitt Meadows', '2026-04-26', 289 ],
@@ -305,6 +306,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     return {
       id:        i + 1,
       name:      r[ni],
+	  fileNumber:r[2], 	
       category:  r[3],
 	  location:  r[4],	
       territory: r[5],
@@ -405,7 +407,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       li.setAttribute('role', 'listitem');
       li.innerHTML =
 		  '<dl class="dlist">' +
-          '<dt>' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' +'</dt>' +
+          '<dt>' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' + p.fileNumber + '</dt>' +
 		  '<dd>' + '<div class="wb-inv">' + t.updated + '</div>' + p.updated + '|'+ '<div class="wb-inv">' + t.region + '</div>' + p.region + '|' + '<div class="wb-inv">' + t.category + '</div>' + p.category + '</dd>' +
 		  '<dd>' + '<strong>' + '<div class="wb-inv">' + t.location + '</div>' + p.location + ', ' + '<div class="wb-inv">' + t.territory + '</div>' + p.territory + '</strong>' + '</dd>' +
           '<dd>' + '<div class="wb-inv">' + t.summary + '</div>' + p.summary + '</dd>' +

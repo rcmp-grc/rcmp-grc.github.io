@@ -213,9 +213,7 @@ issued: 2026-05-21
     </nav>
   </div>
 </div>
-<div class="container pull-left">
-		<div class="row">
-			<section class="gc-features col-md-12 mrgn-bttm-lg">
+			<div class="gc-features col-md-12 mrgn-bttm-lg">
 				<h2 class="h3">Features</h2>
 				<div class="row wb-eqht">
         <div class="col-md-4">
@@ -239,8 +237,6 @@ issued: 2026-05-21
             <p>This year’s tour schedule is now live! We’ll be making stops in British Columbia, Ontario and Quebec.</p>
          </div>
      </div>     
-				</div>			
-			</section>
 		</div>		
 	</div>
 <script>

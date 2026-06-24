@@ -8,4 +8,3 @@ lang_url: index-fr.html
 <div class="list-group">
   <a href="report-rapport-en.html" class="list-group-item">Canadian Firearms Program</a>
 </div>
- 

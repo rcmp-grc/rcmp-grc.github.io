@@ -1,7 +1,7 @@
 {% assign format = include.format %}
 {% case format %}
 {% when "full" %}
-<div class="well col-sm-12 col-md-8">
+<div class="well col-xs-12">
   <figure>
     <img alt="{{ include.alt }}" class="img-responsive full-width" src="{{ include.link }}">
     <figcaption>{{ include.caption }} <br> 
@@ -35,7 +35,7 @@
   </div>
 </div>
 {% else %}
-<div class="well col-sm-12 col-md-8">
+<div class="well col-xs-12">
   <figure>
     <img alt="{{ include.alt }}" class="img-responsive full-width" src="{{ include.link }}">
     <figcaption>{{ include.caption }} <br> 

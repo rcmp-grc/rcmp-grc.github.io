@@ -48,21 +48,13 @@ issued: 2026-05-21
 	<div class="col-md-3">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
 	    <h2 class="h4" id="news-filters-heading">Search</h2>
-		<!--<form action="#" id="search-box" method="get" role="search" aria-label="Search RCMP news">
-		<legend class="wb-inv">Search news</legend>
-			<div class="row">
-		<div class="form-group news-srch-qry col-xs-10 lft-mrgn-0 rght-mrgn-0">
-       <label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" maxlength="100" placeholder="Search news" size="20" type="search" autocomplete="off" value="" class="form-control"></div>
-		<div class="form-group submit col-xs-2 lft-mrgn-0"><button class="btn btn-danger btn-small" type="submit"><span class="glyphicon-search glyphicon" aria-hidden="true"></span><span class="wb-inv">Search</span></button>
-		</div>
-			</div>
-		</form>-->
-		 <div class="col-xs-12 mrgn-lft-0" id="wb-srch">
-        <h2>Search</h2>
+		 <div class="summary col-xs-12 mrgn-lft-0" id="wb-srch">
+        <h2 class="h4" id="news-filters-heading">Search</h2>
         <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">
+		<legend class="wb-inv">Search news</legend>
           <div class="form-group wb-srch-qry">
             <label class="wb-inv" for="news-srch-q">Search RCMP news</label>
-            <input class="wb-srch-q form-control" id="news-srch-q" maxlength="100" name="q" placeholder="Search news" type="search" autocomplete="off" value="">
+            <input class="wb-srch-q form-control" id="news-srch-q" maxlength="100" name="q" placeholder="Search RCMP news" type="search" autocomplete="off" value="">
           </div>
           <div class="form-group submit">
             <button class="btn btn-primary btn-small" type="submit">
@@ -74,8 +66,8 @@ issued: 2026-05-21
       </div>
 		<div class="clearfix"></div>
 		<form role="form" method="get" action="#" id="filters">
-      <div id="filtres"><h2 class="h4" id="news-filters-heading">Filter by</h2>
-		<p class="small">Apply the following filtres to narrow your search</p></div>
+      <div id="filtres"><h2 class="h4" id="news-filters-heading">Filter</h2>
+		<p class="small">Apply the following filters to narrow your search</p></div>
       <details class="summary">
         <summary>
         Category
@@ -222,9 +214,10 @@ issued: 2026-05-21
   </div>
 </div>
 <div class="container">
-    <section class="gc-features col-md-12 mrgn-bttm-lg">
-      <h2 class="h3">Features</h2>
-      <div class="row wb-eqht">
+		<div class="row">
+			<section class="gc-features col-md-12 mrgn-bttm-lg text-left">
+				<h2 class="h3">Features</h2>
+				<div class="row wb-eqht">
         <div class="col-md-4">
           <div class="well well-sm brdr-rds-0 eqht-trgt position-relative">
             <img alt="" src="web-banners-census-pop-web-tile-360x203-final.jpg">

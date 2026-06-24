@@ -66,7 +66,7 @@ issued: 2026-05-21
       </div>
 		<div class="clearfix"></div>
 		<form role="form" method="get" action="#" id="filters">
-      <div id="filtres"><h2 class="h4" id="news-filters-heading">Filter</h2>
+      <div id="filtres"><h2 class="h4" id="news-filters-heading">Filter by</h2>
 		<p class="small">Apply the following filters to narrow your search</p></div>
       <details class="summary">
         <summary>

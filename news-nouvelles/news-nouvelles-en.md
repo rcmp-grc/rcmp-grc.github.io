@@ -22,11 +22,11 @@ issued: 2026-05-21
 	border-top: 2px solid #70101d;
 	background-color: #f9f9f9;	
     }
-	.badge badge-located
+	.badge-located
 	{
 	background-color: #70101d;
 	}
-	.badge badge-updated
+	.badge-updated
 	{
 	background-color: #737373;
 	}

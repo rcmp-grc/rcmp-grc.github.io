@@ -6,7 +6,12 @@ lang_url: basic-base-fr.html
 # date_modified: 2026-05-21
 # author: RCMP Web Team
 ---
-
+<ul>
+{% assign template = site.pages | where "title",page.title %}
+{% for template_page in template %}
+<li>{{ template_page.title }}, {{template_page.layout}}</li>
+{% endfor %}
+</ul>
 <section>
   <h2>When to use</h2>
   <p></p>

@@ -22,9 +22,6 @@ issued: 2026-05-21
 	border-top: 2px solid #70101d;
 	background-color: #f9f9f9;	
     }
-btn btn-search
-	{ background-color: #ef8f9c
-	}
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">
@@ -51,26 +48,34 @@ btn btn-search
 	<div class="col-md-3">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
 	    <h2 class="h4" id="news-filters-heading">Search</h2>
-		 <div class="summary col-xs-12 mrgn-lft-0" id="wb-srch">
-        <h2 class="h4" id="news-filters-heading">Search</h2>
-        <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">
+		<!--<form action="#" id="search-box" method="get" role="search" aria-label="Search RCMP news">
 		<legend class="wb-inv">Search news</legend>
+			<div class="row">
+		<div class="form-group news-srch-qry col-xs-10 lft-mrgn-0 rght-mrgn-0">
+       <label for="btngrp-search2" class="wb-inv">Search</label><input id="btngrp-search2" maxlength="100" placeholder="Search news" size="20" type="search" autocomplete="off" value="" class="form-control"></div>
+		<div class="form-group submit col-xs-2 lft-mrgn-0"><button class="btn btn-danger btn-small" type="submit"><span class="glyphicon-search glyphicon" aria-hidden="true"></span><span class="wb-inv">Search</span></button>
+		</div>
+			</div>
+		</form>-->
+		 <section class="col-xs-12 id="wb-srch">
+        <h2>Search</h2>
+        <form action="https://www.canada.ca/en/royal-canadian-mounted-police/search.html#wb-land" id="cse-search-box" method="get" role="search" aria-label="Search RCMP.ca">
           <div class="form-group wb-srch-qry">
-            <label class="wb-inv" for="news-srch-q">Search RCMP news</label>
-            <input class="wb-srch-q form-control" id="news-srch-q" maxlength="100" name="q" placeholder="Search RCMP news" type="search" autocomplete="off" value="">
+            <label class="wb-inv" for="wb-srch-q">Search RCMP.ca</label>
+            <input class="wb-srch-q form-control" id="wb-srch-q" maxlength="170" name="q" placeholder="Search RCMP.ca" type="search" autocomplete="off" value="">
           </div>
           <div class="form-group submit">
-            <button class="btn btn-search btn-small" type="submit">
+            <button class="btn btn-primary btn-small" type="submit">
               <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
               <span class="wb-inv">Search</span>
             </button>
           </div>
         </form>
-      </div>
+      </section>
 		<div class="clearfix"></div>
 		<form role="form" method="get" action="#" id="filters">
       <div id="filtres"><h2 class="h4" id="news-filters-heading">Filter by</h2>
-		<p class="small">Apply the following filters to narrow your search</p></div>
+		<p class="small">Apply the following filtres to narrow your search</p></div>
       <details class="summary">
         <summary>
         Category
@@ -216,9 +221,10 @@ btn btn-search
     </nav>
   </div>
 </div>
-<div class="gc-features col-md-12 mrgn-bttm-lg">
-				<h2 class="h3">Features</h2>
-				<div class="row wb-eqht">
+<div class="container">
+    <section class="gc-features col-md-12 mrgn-bttm-lg">
+      <h2 class="h3">Features</h2>
+      <div class="row wb-eqht">
         <div class="col-md-4">
           <div class="well well-sm brdr-rds-0 eqht-trgt position-relative">
             <img alt="" src="web-banners-census-pop-web-tile-360x203-final.jpg">
@@ -238,10 +244,11 @@ btn btn-search
             <img alt="" src="2026-04-29-feature-musical-ride-schedule-horaire-tournee-carrousel.jpg">
             <h3 class="h5"><a class="stretched-link" href="/en/corporate-information/musical-ride/musical-ride-tour-schedule">Musical Ride tour schedule</a></h3>
             <p>This year’s tour schedule is now live! We’ll be making stops in British Columbia, Ontario and Quebec.</p>
-         </div>
-     </div>     
-		</div>		
-	</div>
+          </div>
+        </div>
+      </div>
+    </section>
+</div>
 <script>
 (function () {
   'use strict';

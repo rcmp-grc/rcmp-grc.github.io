@@ -239,7 +239,6 @@ issued: 2026-05-21
             <p>This year’s tour schedule is now live! We’ll be making stops in British Columbia, Ontario and Quebec.</p>
          </div>
      </div>     
-
 				</div>			
 			</section>
 		</div>		

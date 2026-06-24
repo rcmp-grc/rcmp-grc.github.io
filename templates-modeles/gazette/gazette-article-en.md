@@ -55,14 +55,14 @@ issued: 2026-06-24
         <h2>Image gallery</h2>
         
         <ul class="list-inline">
-          <li><a href="https://dummyimage.com/600x600/000/fff" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Image by Source."><img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." src="https://dummyimage.com/175x175/000/fff"></a></li>
-          <li><a href="https://dummyimage.com/600x600/000/fff" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Image by Source."><img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." src="https://dummyimage.com/175x175/000/fff"></a></li>
-          <li><a href="https://dummyimage.com/600x600/000/fff" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Image by Source."><img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." src="https://dummyimage.com/175x175/000/fff"></a></li>
-          <li><a href="https://dummyimage.com/600x600/000/fff" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Image by Source."><img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." src="https://dummyimage.com/175x175/000/fff"></a></li>
-          <li><a href="https://dummyimage.com/600x600/000/fff" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Image by Source."><img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." src="https://dummyimage.com/175x175/000/fff"></a></li>
-          <li><a href="https://dummyimage.com/600x600/000/fff" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Image by Source."><img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." src="https://dummyimage.com/175x175/000/fff"></a></li>
-          <li><a href="https://dummyimage.com/600x600/000/fff" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Image by Source."><img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." src="https://dummyimage.com/175x175/000/fff"></a></li>
-          <li><a href="https://dummyimage.com/600x600/000/fff" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Image by Source."><img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." src="https://dummyimage.com/175x175/000/fff"></a></li>
+          <li><a href="https://dummyimage.com/480x480/000/fff" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Image by Source."><img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." src="https://dummyimage.com/175x175/000/fff"></a></li>
+          <li><a href="https://dummyimage.com/480x480/000/fff" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Image by Source."><img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." src="https://dummyimage.com/175x175/000/fff"></a></li>
+          <li><a href="https://dummyimage.com/480x480/000/fff" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Image by Source."><img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." src="https://dummyimage.com/175x175/000/fff"></a></li>
+          <li><a href="https://dummyimage.com/480x480/000/fff" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Image by Source."><img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." src="https://dummyimage.com/175x175/000/fff"></a></li>
+          <li><a href="https://dummyimage.com/480x480/000/fff" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Image by Source."><img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." src="https://dummyimage.com/175x175/000/fff"></a></li>
+          <li><a href="https://dummyimage.com/480x480/000/fff" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Image by Source."><img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." src="https://dummyimage.com/175x175/000/fff"></a></li>
+          <li><a href="https://dummyimage.com/480x480/000/fff" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Image by Source."><img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." src="https://dummyimage.com/175x175/000/fff"></a></li>
+          <li><a href="https://dummyimage.com/480x480/000/fff" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Image by Source."><img alt="Lorem ipsum dolor sit amet consectetur adipisicing elit." src="https://dummyimage.com/175x175/000/fff"></a></li>
         </ul>
       </section>
     </section>

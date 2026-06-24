@@ -215,7 +215,7 @@ issued: 2026-05-21
 </div>
 <div class="container">
 		<div class="row">
-			<section class="gc-features col-md-12 mrgn-bttm-lg pull-left">
+			<section class="gc-features col-md-12 mrgn-bttm-lg">
 				<h2 class="h3">Features</h2>
 				<div class="row wb-eqht">
         <div class="col-md-4">
@@ -237,11 +237,13 @@ issued: 2026-05-21
             <img alt="" src="2026-04-29-feature-musical-ride-schedule-horaire-tournee-carrousel.jpg">
             <h3 class="h5"><a class="stretched-link" href="/en/corporate-information/musical-ride/musical-ride-tour-schedule">Musical Ride tour schedule</a></h3>
             <p>This year’s tour schedule is now live! We’ll be making stops in British Columbia, Ontario and Quebec.</p>
-          </div>
-        </div>
-    </section>
-</div>
-</div>
+         </div>
+     </div>     
+
+				</div>			
+			</section>
+		</div>		
+	</div>
 <script>
 (function () {
   'use strict';

@@ -233,7 +233,7 @@ lang_url: report-rapport-fr.html
   <figure id="f1" class="panel panel-default mrgn-bttm-lg">
   <figcaption class="panel-heading">Figure 1<br><b>Canadian Firearms Program strategic plan</b></figcaption>
   <div class="panel-body">
-  <img alt="" aria-describedby="f1-desc" class="full-width img-responsive" src="/sites/default/files/img/cfp-pcaf-plan-eng.png">
+  <img alt="" aria-describedby="f1-desc" class="full-width img-responsive" src="strat-plan-eng.png">
   </div>
   <footer class="panel-footer">
   <details class="mrgn-tp-sm print-open" id="f1-desc">

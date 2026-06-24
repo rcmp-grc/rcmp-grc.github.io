@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CFP 
+title: 2025 Commissioner of Firearms Report
 date_modified: 2026-06-24
 lang: en
 lang_url: report-rapport-fr.html
@@ -13,9 +13,6 @@ lang_url: report-rapport-fr.html
 2025 Commissioner of Firearms Report
 -->
 
-<!-- 
-2025 Commissioner of Firearms Report
--->
 
 <section>
   <h2>On this page</h2>

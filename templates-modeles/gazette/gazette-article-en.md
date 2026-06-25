@@ -10,6 +10,7 @@ breadcrumbs:
   - label: "Templates"
   - label: "Gazette"
     url: "/templates-modeles/gazette"
+template: true
 ---
 <p>By Author Name</p>
 

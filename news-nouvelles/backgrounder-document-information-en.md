@@ -136,7 +136,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 </style>
 <article>
 <div class="card-located col-md-8">	
-<div id="located" class="card-located-tag"><p><i class="fa-solid fa-location-dot"></i> Located</p></div>
+<div id="located" class="card-tag-located"><p><i class="fa-solid fa-location-dot"></i> Located</p></div>
 	<p><strong>May 10, 2026, 14:58</strong>: Located person safely.</p>
 </div>
 <div class="clearfix"></div>	

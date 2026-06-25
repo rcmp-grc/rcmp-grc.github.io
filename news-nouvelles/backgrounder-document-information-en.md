@@ -25,6 +25,19 @@ issued: 2026-05-08
 	  font-color: #0b0c0c;
 	  margin-left: 10px;
 	}
+	.card-tag-located
+	{ border-left: 1px solid #ef8f9c;
+	  border-right: 1px solid #ef8f9c;
+	  border-bottom: 1px solid #ef8f9c;
+	  border-top: 1px solid #ef8f9c;
+	  margin-left: 0px;
+	  padding-left: 0px;
+	  margin-bottom: 15px;
+	}
+	.card-tag-located p
+	{
+	  margin-left: 10px;
+	}
 	.contact-us 
 	{
 	background-color: #f5f5f5;

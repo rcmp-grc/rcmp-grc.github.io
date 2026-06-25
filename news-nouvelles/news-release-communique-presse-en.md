@@ -139,6 +139,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
     <li><strong>2026-04-21, 13:58 pm</strong>: Missing person wearing prescription glasses</li>
   </ul>
 </div>	
+<div class="clearfix"></div>
 <p class="lead">Richmond RCMP Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety.</p>
 <div class="explore">
 <p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May&nbsp;7, 2026 - Richmond, British Columbia<br>

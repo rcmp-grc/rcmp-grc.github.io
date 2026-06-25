@@ -19,7 +19,7 @@ issued: 2026-05-08
 	  background-color: #ef8f9c;
 	  max-width: 11rem;
 	}
-	.card-located-tag p
+	.card-tag-located p
 	{
 	  font-weight: bold;
 	  font-color: #ef8f9c;

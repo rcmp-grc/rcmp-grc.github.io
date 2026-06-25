@@ -1,39 +1,21 @@
-{% if page.lang == 'fr' %}
- {% assign base_url = 'https://grc.ca/fr' %}
- {% assign org_name = 'Gendarmerie royale du Canada' %}
- {% assign about_site = 'À propos de ce site' %}
- {% assign org_label = 'Organisation de la Gendarmerie royale du Canada' %}
- {% assign img_alt = 'Symbole du gouvernement du Canada' %}
- {% assign contacts_url = '/contactez-grc' %}
- {% assign contacts_label = 'Tous les contacts' %}
- {% assign news_url = '/nouvelles' %}
- {% assign news_label = 'Nouvelles' %}
- {% assign about_url = '/renseignements-organisationnels/propos-grc' %}
- {% assign about_label = 'À propos de la GRC'%}
- {% assign themes_label = 'Thèmes et sujets' %}
- {% assign social_url = '/renseignements-organisationnels/medias-sociaux' %}
- {% assign social_label = 'Médias sociaux' %}
- {% assign terms_url = '/avis' %} {% assign terms_label = 'Avis' %}
- {% assign theme_links = 'carrieres-grc|Carrières,casiers-judiciaires/verification-casier-judiciaire|Vérification de casier judiciaire,armes-feu|Armes à feu,personnes-disparues|Personnes disparues,police-federale|Police fédérale,gazette|Gazette,renseignements-organisationnels/emplacements-grc|Emplacements,services-police-autochtones|Services de police autochtones,jeunesse|Jeunesse' | split: ',' %}
-{% else %}
- {% assign base_url = 'https://rcmp.ca/en' %}
- {% assign org_name = 'Royal Canadian Mounted Police' %}
- {% assign about_site = 'About this site' %}
- {% assign org_label = 'Royal Canadian Mounted Police organization' %}
- {% assign img_alt = 'Symbol of the Government of Canada' %}
- {% assign contacts_url = '/contact-rcmp' %}
- {% assign contacts_label = 'All contacts' %}
- {% assign news_url = '/news' %}
- {% assign news_label = 'News' %}
- {% assign about_url = '/corporate-information/about-rcmp' %}
- {% assign about_label = 'About the RCMP' %}
- {% assign themes_label = 'Themes and topics' %}
- {% assign social_url = '/corporate-information/social-media' %}
- {% assign social_label = 'Social media' %}
- {% assign terms_url = '/terms-and-conditions' %}
- {% assign terms_label = 'Terms and conditions' %}
- {% assign theme_links = 'careers-rcmp|Careers,criminal-records/criminal-record-checks|Criminal record checks,firearms|Firearms,missing-persons|Missing persons,federal-policing|Federal Policing,gazette|Gazette,corporate-information/rcmp-locations|Locations,indigenous-policing|Indigenous policing,youth|Youth' | split: ',' %}
-{% endif %}
+{% if page.lang == 'fr' %} {% assign base_url = 'https://grc.ca/fr' %} {% assign org_name = 'Gendarmerie royale du Canada' %} {% assign about_site =
+'À propos de ce site' %} {% assign org_label = 'Organisation de la Gendarmerie royale du Canada' %} {% assign img_alt = 'Symbole du gouvernement du
+Canada' %} {% assign contacts_url = '/contactez-grc' %} {% assign contacts_label = 'Tous les contacts' %} {% assign news_url = '/nouvelles' %} {%
+assign news_label = 'Nouvelles' %} {% assign about_url = '/renseignements-organisationnels/propos-grc' %} {% assign about_label = 'À propos de la
+GRC'%} {% assign themes_label = 'Thèmes et sujets' %} {% assign social_url = '/renseignements-organisationnels/medias-sociaux' %} {% assign
+social_label = 'Médias sociaux' %} {% assign terms_url = '/avis' %} {% assign terms_label = 'Avis' %} {% assign theme_links =
+'carrieres-grc|Carrières,casiers-judiciaires/verification-casier-judiciaire|Vérification de casier judiciaire,armes-feu|Armes à
+feu,personnes-disparues|Personnes disparues,police-federale|Police
+fédérale,gazette|Gazette,renseignements-organisationnels/emplacements-grc|Emplacements,services-police-autochtones|Services de police
+autochtones,jeunesse|Jeunesse' | split: ',' %} {% else %} {% assign base_url = 'https://rcmp.ca/en' %} {% assign org_name = 'Royal Canadian Mounted
+Police' %} {% assign about_site = 'About this site' %} {% assign org_label = 'Royal Canadian Mounted Police organization' %} {% assign img_alt =
+'Symbol of the Government of Canada' %} {% assign contacts_url = '/contact-rcmp' %} {% assign contacts_label = 'All contacts' %} {% assign news_url =
+'/news' %} {% assign news_label = 'News' %} {% assign about_url = '/corporate-information/about-rcmp' %} {% assign about_label = 'About the RCMP' %}
+{% assign themes_label = 'Themes and topics' %} {% assign social_url = '/corporate-information/social-media' %} {% assign social_label = 'Social
+media' %} {% assign terms_url = '/terms-and-conditions' %} {% assign terms_label = 'Terms and conditions' %} {% assign theme_links =
+'careers-rcmp|Careers,criminal-records/criminal-record-checks|Criminal record checks,firearms|Firearms,missing-persons|Missing
+persons,federal-policing|Federal Policing,gazette|Gazette,corporate-information/rcmp-locations|Locations,indigenous-policing|Indigenous
+policing,youth|Youth' | split: ',' %} {% endif %}
 <footer id="wb-info">
   <h2 class="wb-inv">{{ about_site }}</h2>
   {% if page.layout == 'careers' %}
@@ -94,118 +76,148 @@
     </div>
   </div>
 </footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+<script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+  integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs"
+  crossorigin="anonymous"
+></script>
 <script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js" crossorigin="anonymous"></script>
 <script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js" crossorigin="anonymous"></script>
-<script src="https://use.fontawesome.com/releases/v6.5.0/js/all.js" integrity="sha384-xJg9IXkLBF6DBCGIEmpH5d2Pzct5onYpW8EegteK+7n0rxjhN4PUzfPxGbpWVjQf" crossorigin="anonymous"></script>
-<script src="https://use.fontawesome.com/releases/v6.5.0/js/v4-shims.js" integrity="sha384-/92mVmELKUSys+AjbeSvITO3rhI9KtDAENPjak7fYPIxTdmKqt1Z2WCbRbI8ybF2" crossorigin="anonymous"></script>
-{% if page.layout == 'careers' and page.url contains 'officer-agent' %}<script>
-(function () {
-  function r(i, b, m) {
-    var e = document.getElementById(i);
-    if (!e) return;
-    e.src = b + (Math.floor(Math.random() * m) + 1) + '.jpg';
-    e.onerror = function () { this.onerror = null; this.src = b + '1.jpg'; };
-  }
-  document.addEventListener('DOMContentLoaded', function () {
-    r('life-img',    '/assets/img/life-police-officer-', 3);
-    r('federal-img', '/assets/img/federal-policing-',   3);
-    r('cadet-img',   '/assets/img/cadet-hub-',          3);
-  });
-}());
-</script>{% endif %}
-{% if page.layout == 'careers' %}<script>
-(function() {
-  /* ----------------------------------------
+<script
+  src="https://use.fontawesome.com/releases/v6.5.0/js/all.js"
+  integrity="sha384-xJg9IXkLBF6DBCGIEmpH5d2Pzct5onYpW8EegteK+7n0rxjhN4PUzfPxGbpWVjQf"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://use.fontawesome.com/releases/v6.5.0/js/v4-shims.js"
+  integrity="sha384-/92mVmELKUSys+AjbeSvITO3rhI9KtDAENPjak7fYPIxTdmKqt1Z2WCbRbI8ybF2"
+  crossorigin="anonymous"
+></script>
+{% if page.layout == 'careers' and page.url contains 'officer-agent' %}
+<script>
+  (function () {
+    function r(i, b, m) {
+      var e = document.getElementById(i);
+      if (!e) return;
+      e.src = b + (Math.floor(Math.random() * m) + 1) + ".jpg";
+      e.onerror = function () {
+        this.onerror = null;
+        this.src = b + "1.jpg";
+      };
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+      r("life-img", "/assets/img/life-police-officer-", 3);
+      r("federal-img", "/assets/img/federal-policing-", 3);
+      r("cadet-img", "/assets/img/cadet-hub-", 3);
+    });
+  })();
+</script>
+{% endif %} {% if page.layout == 'careers' %}
+<script>
+  (function () {
+    /* ----------------------------------------
      CAREERS NAV
   ---------------------------------------- */
-  function initCareersNav() {
-    var t = document.querySelector('.careers-nav__toggle');
-    var l = document.getElementById('careers-nav-links');
-    if (!t || !l) return;
-    if (!t.getAttribute('aria-controls')) t.setAttribute('aria-controls', 'careers-nav-links');
-    if (!t.getAttribute('aria-expanded')) t.setAttribute('aria-expanded', 'false');
-    t.addEventListener('click', function() {
-      var isOpen = l.classList.toggle('is-open');
-      t.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-      t.setAttribute('aria-label', isOpen ? 'Close careers menu' : 'Open careers menu');
-    });
-    Array.prototype.forEach.call(l.querySelectorAll('a'), function(a) {
-      a.addEventListener('click', function() {
-        l.classList.remove('is-open');
-        t.setAttribute('aria-expanded', 'false');
+    function initCareersNav() {
+      var t = document.querySelector(".careers-nav__toggle");
+      var l = document.getElementById("careers-nav-links");
+      if (!t || !l) return;
+      if (!t.getAttribute("aria-controls")) t.setAttribute("aria-controls", "careers-nav-links");
+      if (!t.getAttribute("aria-expanded")) t.setAttribute("aria-expanded", "false");
+      t.addEventListener("click", function () {
+        var isOpen = l.classList.toggle("is-open");
+        t.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        t.setAttribute("aria-label", isOpen ? "Close careers menu" : "Open careers menu");
       });
-    });
-  }
-  /* ----------------------------------------
+      Array.prototype.forEach.call(l.querySelectorAll("a"), function (a) {
+        a.addEventListener("click", function () {
+          l.classList.remove("is-open");
+          t.setAttribute("aria-expanded", "false");
+        });
+      });
+    }
+    /* ----------------------------------------
      LOADER
   ---------------------------------------- */
-  function initLoader() {
-    var loader = document.getElementById('loader');
-    if (!loader) return;
-    var sr = loader.querySelector('.sr-only');
-    if (sr) sr.textContent = loader.dataset.loadedMsg || 'Page loaded successfully';
-    loader.setAttribute('aria-hidden', 'true');
-    loader.classList.add('hidden');
-    setTimeout(function() {
-      loader.style.display = 'none';
-    }, 300);
-  }
-  /* ----------------------------------------
+    function initLoader() {
+      var loader = document.getElementById("loader");
+      if (!loader) return;
+      var sr = loader.querySelector(".sr-only");
+      if (sr) sr.textContent = loader.dataset.loadedMsg || "Page loaded successfully";
+      loader.setAttribute("aria-hidden", "true");
+      loader.classList.add("hidden");
+      setTimeout(function () {
+        loader.style.display = "none";
+      }, 300);
+    }
+    /* ----------------------------------------
      REDUCED MOTION
   ---------------------------------------- */
-  function initReducedMotion() {
-    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    document.documentElement.classList.add('reduce-motion');
-    var spinner = document.querySelector('.spinner');
-    if (spinner) spinner.style.animation = 'none';
-  }
-  /* ----------------------------------------
+    function initReducedMotion() {
+      if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+      document.documentElement.classList.add("reduce-motion");
+      var spinner = document.querySelector(".spinner");
+      if (spinner) spinner.style.animation = "none";
+    }
+    /* ----------------------------------------
      PDF LINK FILE SIZE
   ---------------------------------------- */
-  function formatBytes(bytes, lang) {
-    var isFr = lang === 'fr';
-    var fmt = function(n, decimals) {
-      return isFr ? n.toFixed(decimals).replace('.', ',') : n.toFixed(decimals);
-    };
-    if (bytes < 1024) return bytes + '\u00a0B';
-    if (bytes < 1024 * 1024) return fmt(bytes / 1024, 2) + (isFr ? '\u00a0Ko' : '\u00a0KB');
-    return fmt(bytes / (1024 * 1024), 2) + (isFr ? '\u00a0Mo' : '\u00a0MB');
-  }
+    function formatBytes(bytes, lang) {
+      var isFr = lang === "fr";
+      var fmt = function (n, decimals) {
+        return isFr ? n.toFixed(decimals).replace(".", ",") : n.toFixed(decimals);
+      };
+      if (bytes < 1024) return bytes + "\u00a0B";
+      if (bytes < 1024 * 1024) return fmt(bytes / 1024, 2) + (isFr ? "\u00a0Ko" : "\u00a0KB");
+      return fmt(bytes / (1024 * 1024), 2) + (isFr ? "\u00a0Mo" : "\u00a0MB");
+    }
 
-  function fetchSize(url) {
-    return fetch(url, {
-      method: 'HEAD'
-    }).then(function(res) {
-      var bytes = res.headers.get('content-length');
-      return bytes ? parseInt(bytes, 10) : null;
-    }).catch(function() {
-      return null;
-    });
-  }
+    function fetchSize(url) {
+      return fetch(url, {
+        method: "HEAD",
+      })
+        .then(function (res) {
+          var bytes = res.headers.get("content-length");
+          return bytes ? parseInt(bytes, 10) : null;
+        })
+        .catch(function () {
+          return null;
+        });
+    }
 
-  function annotatePdfLinks() {
-    var links = document.querySelectorAll('a.gc-pdf-link');
-    Array.prototype.forEach.call(links, function(link) {
-      var metaEl = link.querySelector('[data-pdf-meta]');
-      if (!metaEl) return;
-      var lang = metaEl.dataset.lang || document.documentElement.lang.split('-')[0] || 'en';
-      var isFr = lang === 'fr';
-      var href = link.getAttribute('href');
-      fetchSize(href).then(function(bytes) {
-        var sizeStr = bytes ? formatBytes(bytes, lang) : null;
-        metaEl.innerHTML = sizeStr ? ('PDF,\u00a0' + sizeStr) : 'PDF';
+    function annotatePdfLinks() {
+      var links = document.querySelectorAll("a.gc-pdf-link");
+      Array.prototype.forEach.call(links, function (link) {
+        var metaEl = link.querySelector("[data-pdf-meta]");
+        if (!metaEl) return;
+        var lang = metaEl.dataset.lang || document.documentElement.lang.split("-")[0] || "en";
+        var isFr = lang === "fr";
+        var href = link.getAttribute("href");
+        fetchSize(href).then(function (bytes) {
+          var sizeStr = bytes ? formatBytes(bytes, lang) : null;
+          metaEl.innerHTML = sizeStr ? "PDF,\u00a0" + sizeStr : "PDF";
+        });
       });
-    });
-  }
-  /* ----------------------------------------
+    }
+    /* ----------------------------------------
      INIT
   ---------------------------------------- */
-  document.addEventListener('DOMContentLoaded', function() {
-    initCareersNav();
-    initReducedMotion();
-    annotatePdfLinks();
-  });
-  window.addEventListener('load', initLoader);
-}());
-</script>{% endif %}
+    document.addEventListener("DOMContentLoaded", function () {
+      initCareersNav();
+      initReducedMotion();
+      annotatePdfLinks();
+    });
+    window.addEventListener("load", initLoader);
+  })();
+</script>
+{% endif %}
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.5.0/chart.umd.min.js"
+  integrity="sha384-xscEkekms/SQq5SFOOIcbfflRgUup5sdW1duER21mIKxWcHi9Xyv37aIOSrCepJf"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"
+  integrity="sha384-YEteyAKbjYSLDrpbBY0aFgK1CrQHo0Erb5XT/MU5FYvkb3SmPSZSisW7LOYTKvTx"
+  crossorigin="anonymous"
+></script>

@@ -2,7 +2,7 @@
 layout: default
 title: Bob the Polar Bear joins the RCMP family
 description: My page description
-date_modified: 2026-05-19
+date_modified: 2026-06-25
 lang: en
 lang_url: backgrounder-document-information-fr.html
 lead: Backgrounder
@@ -14,7 +14,7 @@ issued: 2026-05-08
 	{ border-top: 2px solid var(--rcmp-gold);
 	  margin-bottom: 10px;
 	 }
-	.card-located-tag
+	.card-tag-located
 	{ padding-left: 0px;	  
 	  background-color: #ef8f9c;
 	  max-width: 11rem;
@@ -25,7 +25,7 @@ issued: 2026-05-08
 	  font-color: #0b0c0c;
 	  margin-left: 10px;
 	}
-	.card-tag-located
+	.card-located
 	{ border-left: 1px solid #ef8f9c;
 	  border-right: 1px solid #ef8f9c;
 	  border-bottom: 1px solid #ef8f9c;
@@ -33,10 +33,6 @@ issued: 2026-05-08
 	  margin-left: 0px;
 	  padding-left: 0px;
 	  margin-bottom: 15px;
-	}
-	.card-tag-located p
-	{
-	  margin-left: 10px;
 	}
 	.contact-us 
 	{
@@ -135,7 +131,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	}
 </style>
 <article>
-<div class="card-tag-located col-md-8">	
+<div class="card-located col-md-8">	
 <div id="located" class="card-located-tag"><p><i class="fa-solid fa-location-dot"></i> Located</p></div>
 	<ul>
 		<li><strong>May 10, 2026, 14:58</strong>: Located person safely.</li>

@@ -4,6 +4,7 @@ title: Rapport du commissaire aux armes à feu 2025
 date_modified: 2026-06-25
 lang: fr
 lang_url: report-rapport-en.html
+charts: true
 ---
 
 <style>

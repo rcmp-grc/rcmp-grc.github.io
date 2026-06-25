@@ -38,6 +38,7 @@ issued: 2026-05-04
 				<tr>
 					<th class="hidden">Order</th>
 					<th class="hidden">Detachment name</th>
+					<th class="hidden">Detachment Photo</th>
 					<th class="hidden">Language Designation</th>
 					<th class="hidden">Emergency contact</th>
 					<th class="hidden">General information</th>
@@ -50,21 +51,14 @@ issued: 2026-05-04
 					<td class="hidden">2</td>
 					<td class="nws-tbl-desc mrgn-lft-md">
 						<h2 class="mrgn-tp-0">Test Detachment</h2>
-					<div class="col-md-6">
+					</td>
+					<td class="nws-tbl-desc mrgn-lft-md">
 						<figure class="cn-inline-figure width=50">
-          <img alt="Detachment photo" class="img-responsive" src="https://dummyimage.com/600x400/000/fff">
-          <figcaption>
-			  Photo: RCMP Detachment / Ottawa,ON
-          </figcaption>
-        </figure>
-					</div>
-					<div class="col-md-6">
-						<dl>
-							<dt></dt>
-							<dd></dd>
-						</dl>
-					</div>
-					<div class="clearfix"></div>
+          					<img alt="Detachment photo" class="img-responsive" src="https://dummyimage.com/600x400/000/fff">
+          					<figcaption>
+			  				Photo: RCMP Detachment / Ottawa,ON
+          					</figcaption>
+        				</figure>
 					</td>
 					<td class="nws-tbl-desc mrgn-lft-lg">
 						<dl>

@@ -13,7 +13,7 @@ issued: 2026-05-21
 
 <style>
 	.summary
-	{ background-color: #fce9eb;
+	{ background-color: #f2f2f2;
 	}
 	dl.dlist
 	{

@@ -246,6 +246,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	</section>
 	</div>
 	</section>
+</div>
 <div class="explore">	
 <section id="topics">	
 <h2 class="h3">Explore related topics</h2>

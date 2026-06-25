@@ -67,12 +67,10 @@ issued: 2026-05-04
 					<div class="clearfix"></div>
 					</td>
 					<td class="nws-tbl-desc mrgn-lft-lg">
-					<div class="col-md-6">
 						<dl>
 							<dt>Service language</dt>
 							<dd>English and French</dd>
 						</dl>
-					</div>
 					</td>
 					<td class="nws-tbl-desc mrgn-lft-lg">
 						<dl class="alert alert-danger">

@@ -22,7 +22,7 @@ issued: 2026-05-08
 	.card-located-tag p
 	{
 	  font-weight: bold;
-	  font-color: #0b0c0c;
+	  font-color: #ef8f9c;
 	  margin-left: 10px;
 	}
 	.card-located
@@ -33,6 +33,10 @@ issued: 2026-05-08
 	  margin-left: 0px;
 	  padding-left: 0px;
 	  margin-bottom: 15px;
+	}
+	.card-located p
+	{
+	  margin-left: 10px;
 	}
 	.contact-us 
 	{

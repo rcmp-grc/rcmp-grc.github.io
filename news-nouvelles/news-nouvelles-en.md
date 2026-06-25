@@ -152,7 +152,7 @@ issued: 2026-05-21
                 <option data-filter="territory" value="Saskatchewan"><span class="cb-text">Saskatchewan</span></option>
                 <option data-filter="territory" value="Yukon"><span class="cb-text">Yukon</span></option>
 			</select>
-		    <label for="region">Policing National, Division or Region</label>
+		    <label for="region">National, Divisional or Regional Policing</label>
 			<select id="region" name="region" class="form-control">	
 			<option data-filter="region" value="All"><span class="cb-text">All</span></option>	
 			<option data-filter="region" value="RCMP National Headquarters"><span class="cb-text">National Headquarters</span></option>	

@@ -42,6 +42,12 @@ issued: 2026-05-08
 	  background-color: #f5bcc4;
 	  max-width: 11rem;
 	}
+	.card-tag-located p
+	{
+	  font-weight: bold;
+	  font-color: #0b0c0c;
+	  margin-left: 10px;
+	}
 	.contact-us 
 	{
 	background-color: #f5f5f5;

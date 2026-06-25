@@ -34,7 +34,7 @@ issued: 2026-05-21
 	{
 	background-color: #f2f2f2;
 	border-top: 2px solid #70101d;
-	padding: 10px;
+	padding: 10px 5px 10px 10px;
 	flex: 1;	
 	}
 </style>
@@ -136,7 +136,7 @@ issued: 2026-05-21
 				  </div>		
         </fieldset>
 	  </details>
-		<details class="summary" open="open">
+		<details class="summary">
         <summary>
        Published by
         </summary>
@@ -183,7 +183,7 @@ issued: 2026-05-21
 			</select>
         </fieldset>
       </details>	
-		<details class="summary" open="open"> 
+		<details class="summary"> 
         <summary>
        Publish date
         </summary>

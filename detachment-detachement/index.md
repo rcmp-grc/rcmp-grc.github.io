@@ -26,6 +26,14 @@ issued: 2026-05-04
 						<option value="English only">English only</option>
 						<option value="French only">French only</option>
 					</select>
+					<h3 class="h4 mrgn-tp-lg mrgn-bttm-sm">
+						<label for="dt-services">Services</label>
+					</h3>
+					<select name="dt-services" id="dt-services" data-column="2" class="form-control">
+						<option value="">All</option>
+						<option value="Fingerprinting">Fingerprinting</option>
+						<option value="Criminal records check">Criminal records check</option>
+					</select>
 				</section>
 				<button aria-controls="datatable" class="btn btn-primary btn-block btn-sm mrgn-tp-lg" type="submit">Apply filters</button>
 				<button class="btn btn-default btn-block btn-sm" type="reset">Clear filters</button>

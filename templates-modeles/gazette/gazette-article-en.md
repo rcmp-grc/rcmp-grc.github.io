@@ -6,6 +6,10 @@ date_modified: 2026-06-24
 lang: en
 lang_url: gazette-article-fr.html
 issued: 2026-06-24
+breadcrumbs:
+  - label: "Templates"
+  - label: "Gazette"
+    url: "/templates-modeles/gazette"
 ---
 <p>By Author Name</p>
 

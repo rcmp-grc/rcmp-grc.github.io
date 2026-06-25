@@ -5,6 +5,7 @@ date_modified: 2026-06-25
 lang: fr
 lang_url: report-rapport-en.html
 ---
+
 <style>
 /* Charts */
 div.chrt-cntnr { position: relative; margin: auto; height: 50vh; max-height: 100vh; width: 100vw; max-width: 100% }

@@ -34,7 +34,7 @@ issued: 2026-05-21
 	{
 	background-color: #f2f2f2;
 	border-top: 2px solid #70101d;
-	padding: 10px 5px 10px 5px;
+	padding: 5px 10px 5px 10px;
 	flex: 1;	
 	}
 </style>
@@ -62,8 +62,8 @@ issued: 2026-05-21
 <div class="row">
 	<div class="col-md-3">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
-	    <h2 class="h5" id="news-filters-heading">Search</h2>
 		 <div class="filters col-xs-12 mrgn-lft-0" id="wb-srch">
+		<h2 class="h5" id="news-filters-heading">Search</h2>	 
         <h2 class="h4" id="news-filters-heading">Search</h2>
         <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">
 		<legend class="wb-inv">Search news</legend>

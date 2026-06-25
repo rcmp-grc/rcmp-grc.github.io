@@ -50,12 +50,30 @@ issued: 2026-05-04
 					<td class="hidden">2</td>
 					<td class="nws-tbl-desc mrgn-lft-md">
 						<h2 class="mrgn-tp-0">Test Detachment</h2>
+					<div class="col-md-6">
 						<figure class="cn-inline-figure width=50">
           <img alt="Detachment photo" class="img-responsive" src="https://dummyimage.com/600x400/000/fff">
           <figcaption>
-            Photo: RCMP Detachment / Ottawa,ON
+			  Photo: RCMP Detachment / Ottawa,ON
           </figcaption>
         </figure>
+					</div>
+					<div class="col-md-6">
+						<dl>
+							<dt>Services and accessibility information</dt>
+							<dd>
+								<ul class="list-unstyled">
+									<li><i class="fa-solid fa-fingerprint"></i>Fingerprinting (by appointment only)</li>
+									<li><i class="fa-solid fa-file-lines"></i> Criminal records check</li>
+									<li><i class="fa-solid fa-wheelchair-move"></i> Wheelchair accessible</li>
+									<li><i class="fa-solid fa-shield-dog"></i> Assistance Dogs Welcome</li>
+									<li><i class="fa-solid fa-kit-medical"></i> First Aid</li>
+									<li><i class="fa-solid fa-user-clock"></i> Twenty Four Hr Access</li>
+									<li><i class="fa-solid fa-door-open"></i> Automatic Doors</li>						
+								</ul>							
+							</dd>
+						</dl>
+					</div>
 					</td>
 					<td class="nws-tbl-desc mrgn-lft-lg">
 						<dl>

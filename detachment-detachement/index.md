@@ -74,6 +74,7 @@ issued: 2026-05-04
 							</dd>
 						</dl>
 					</div>
+					<div class="clearfix"></div>
 					</td>
 					<td class="nws-tbl-desc mrgn-lft-lg">
 						<dl>

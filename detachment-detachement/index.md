@@ -64,9 +64,6 @@ issued: 2026-05-04
 						<div class="col-md-6">
 						<figure class="cn-inline-figure width=50">
           					<img alt="Detachment photo" class="img-responsive" src="https://dummyimage.com/600x400/000/fff">
-          					<figcaption>
-			  				Photo: RCMP Detachment / Ottawa, ON
-          					</figcaption>
         				</figure>
 						</div>
 						<div class="clearfix"></div>

@@ -60,27 +60,11 @@ issued: 2026-05-04
 					</div>
 					<div class="col-md-6">
 						<dl>
-							<dt>Services and accessibility information</dt>
-							<dd>
-								<ul class="list-unstyled">
-									<li><i class="fa-solid fa-fingerprint"></i>Fingerprinting (by appointment only)</li>
-									<li><i class="fa-solid fa-file-lines"></i> Criminal records check</li>
-									<li><i class="fa-solid fa-wheelchair-move"></i> Wheelchair accessible</li>
-									<li><i class="fa-solid fa-shield-dog"></i> Assistance Dogs Welcome</li>
-									<li><i class="fa-solid fa-kit-medical"></i> First Aid</li>
-									<li><i class="fa-solid fa-user-clock"></i> Twenty Four Hr Access</li>
-									<li><i class="fa-solid fa-door-open"></i> Automatic Doors</li>						
-								</ul>							
-							</dd>
-						</dl>
-					</div>
-					<div class="clearfix"></div>
-					</td>
-					<td class="nws-tbl-desc mrgn-lft-lg">
-						<dl>
 							<dt>Service language</dt>
 							<dd>English and French</dd>
 						</dl>
+					</div>
+					<div class="clearfix"></div>
 					</td>
 					<td class="nws-tbl-desc mrgn-lft-lg">
 						<dl class="alert alert-danger">

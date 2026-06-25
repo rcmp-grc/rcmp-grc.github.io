@@ -61,9 +61,9 @@ issued: 2026-05-21
 	<div class="col-md-3">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
 	    <h2 class="h5 wb-inv" id="news-filters-heading">Search</h2>
-		 <div class="summary col-xs-12 mrgn-lft-0" id="wb-srch">
+		 <div class="filters col-xs-12 mrgn-lft-0" id="wb-srch">
         <h2 class="h4" id="news-filters-heading">Search</h2>
-        <form class="filters" action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">
+        <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">
 		<legend class="wb-inv">Search news</legend>
           <div class="form-group wb-srch-qry">
             <label class="wb-inv" for="news-srch-q">Search RCMP news</label>

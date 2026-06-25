@@ -14,32 +14,9 @@ issued: 2026-05-08
 	{ border-top: 2px solid var(--rcmp-gold);
 	  margin-bottom: 10px;
 	 }
-	.card
-	{ border-left: 2px solid var(--rcmp-grey-lt);
-	  border-right: 2px solid var(--rcmp-grey-lt);
-	  border-bottom: 2px solid var(--rcmp-grey-lt);
-	  border-top: 2px solid var(--rcmp-grey-lt);
-	  margin-left: 0px;
-	  padding-left: 0px;
-	  margin-bottom: 15px;
-	}
-	.card p
-	{
-	  margin-left: 10px;
-	}
-	.card-tag 
-	{ padding-left: 0px;	  
-	  background-color: var(--rcmp-grey-lt);
-	  max-width: 11rem;
-	}
-	.card-tag p
-	{ font-weight: bold;
-	  font-color: #0b0c0c;
-	  margin-left: 10px;
-	}
 	.card-tag-located
 	{ padding-left: 0px;	  
-	  background-color: #f5bcc4;
+	  background-color: #ef8f9c;
 	  max-width: 11rem;
 	}
 	.card-tag-located p

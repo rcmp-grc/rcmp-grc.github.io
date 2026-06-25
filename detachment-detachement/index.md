@@ -38,7 +38,6 @@ issued: 2026-05-04
 				<tr>
 					<th class="hidden">Order</th>
 					<th class="hidden">Detachment name</th>
-					<th class="hidden">Language designation</th>
 					<th class="hidden">Emergency contact</th>
 					<th class="hidden">General information</th>
 					<th class="hidden">Location</th>

@@ -7,5 +7,5 @@ lang_url: index-fr.html
 ---
 
 <div class="list-group">
-  <li><a href="report-rapport-en.html" class="list-group-item">2025 Commissioner of Firearms Report</a></li>
+  <a href="report-rapport-en.html" class="list-group-item">2025 Commissioner of Firearms Report</a>
 </div>

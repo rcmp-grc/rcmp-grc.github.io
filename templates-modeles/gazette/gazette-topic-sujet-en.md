@@ -7,7 +7,7 @@ lang: en
 lang_url: gazette-topic-sujet-fr.html
 issued: 2026-06-05
 ---
-<p>Celebrating inspiring stories, acts of heroism and everything in between.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 <ol class="lst-spcd pddng-lft-0 lst-none">		
     <li class="col-sm-12 well no-c">
         <article>

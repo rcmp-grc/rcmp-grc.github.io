@@ -30,6 +30,11 @@ issued: 2026-05-21
 	{
 	background-color: #404040;
 	}
+	.filters
+	{
+	background-color: #f2f2f2;
+	border-top: 2px solid #70101d;
+	}
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">
@@ -58,7 +63,7 @@ issued: 2026-05-21
 	    <h2 class="h5 wb-inv" id="news-filters-heading">Search</h2>
 		 <div class="summary col-xs-12 mrgn-lft-0" id="wb-srch">
         <h2 class="h4" id="news-filters-heading">Search</h2>
-        <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">
+        <form class="filters" action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">
 		<legend class="wb-inv">Search news</legend>
           <div class="form-group wb-srch-qry">
             <label class="wb-inv" for="news-srch-q">Search RCMP news</label>
@@ -73,9 +78,9 @@ issued: 2026-05-21
         </form>
       </div>
 		<div class="clearfix"></div>
-		<form role="form" method="get" action="#" id="filters">
+		<form class="filtres" role="form" method="get" action="#" id="filters">
       <div id="filtres"><h2 class="h5" id="news-filters-heading">Filter</h2>
-		<p class="small">Apply the following filters to narrow your search</p></div>
+		<p class="small">Apply any of the following filters to narrow your search</p></div>
       <details class="summary">  
         <summary>
         Category

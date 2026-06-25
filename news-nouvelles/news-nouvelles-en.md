@@ -63,8 +63,8 @@ issued: 2026-05-21
 	<div class="col-md-3">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
 		 <div class="col-xs-12 mrgn-lft-0 filters" id="wb-srch"> 	 
-         <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">
-		<div id="search"><h2 class="h5" id="news-filters-heading">Search</h2>	 
+		 <h2 class="h5" id="news-filters-heading">Search</h2>	 
+         <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	 
 		<legend class="wb-inv">Search news</legend>
           <div class="form-group wb-srch-qry">
             <label class="wb-inv" for="news-srch-q">Search RCMP news</label>
@@ -75,10 +75,9 @@ issued: 2026-05-21
               <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
               <span class="wb-inv">Search</span>
             </button>
-          </div>
-			</div>	
-        </form>
-      </div>
+		  </div>
+		 </form>
+		 </div>
 		<div class="clearfix"></div>
 		<form class="filters" role="form" method="get" action="#" id="filters">
       <div id="filtres"><h2 class="h5" id="news-filters-heading">Filter</h2>

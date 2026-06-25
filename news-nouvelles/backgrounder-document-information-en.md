@@ -137,8 +137,8 @@ a.news-topic-1:hover, a.news-topic-1:active {
 <p class="lead">Bob the Polar Bear is the Royal Canadian Mounted Police’s newest unofficial northern mascot.</p>
 <div class="explore">
 <div class="row">	
-<div class="col-xs-4 mrgn-tp-sm mrgn-bttm-0"><i class="fa-solid fa-calendar-days"></i></div><div class="col-xs-4 mrgn-bttm-0 mrgn-tp-sm"><p>May&nbsp;14, 2026 - Richmond, British Columbia</p></div></div>
-<div class="row"><div class="col-xs-4 mrgn-tp-0"><i class="fa-regular fa-circle-user"></i></div><div class="col-xs-4 mrgn-tp-0"><p><a href="#">National Communications and Public Affairs</a></p></div></div>
+<div class="col-xs-1 mrgn-tp-sm mrgn-bttm-0"><i class="fa-solid fa-calendar-days"></i></div><div class="col-xs-3 mrgn-bttm-0 mrgn-tp-sm"><p>May&nbsp;14, 2026 - Richmond, British Columbia</p></div></div>
+<div class="row"><div class="col-xs-1 mrgn-tp-0"><i class="fa-regular fa-circle-user"></i></div><div class="col-xs-3 mrgn-tp-0"><p><a href="#">National Communications and Public Affairs</a></p></div></div>
 <section id="page-navigation">
 	<h2 class="h3">On this page</h2>
 	<ul>

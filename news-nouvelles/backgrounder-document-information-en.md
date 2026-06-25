@@ -14,7 +14,7 @@ issued: 2026-05-08
 	{ border-top: 2px solid var(--rcmp-gold);
 	  margin-bottom: 10px;
 	 }
-	.card-tag-located
+	.card-located-tag
 	{ padding-left: 0px;	  
 	  background-color: #ef8f9c;
 	  max-width: 11rem;
@@ -135,7 +135,12 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	}
 </style>
 <article>
-<div id="located" class="card-tag-located"><p><i class="fa-solid fa-location-dot"></i> Located</p></div>
+<div class="card-tag-located col-md-8">	
+<div id="located" class="card-located-tag"><p><i class="fa-solid fa-location-dot"></i> Located</p></div>
+	<ul>
+		<li><strong>May 10, 2026, 14:58</strong>: Located person safely.</li>
+	</ul>
+</div>
 <p class="lead">Bob the Polar Bear is the Royal Canadian Mounted Police’s newest unofficial northern mascot.</p>
 <div class="explore">
 <div class="mrgn-tp-sm mrgn-bttm-md"><p><i class="fa-solid fa-calendar-days"></i> May&nbsp;14, 2026 - Richmond, British Columbia<br>

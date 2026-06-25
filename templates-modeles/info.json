@@ -15,7 +15,7 @@
     "fr": "Campagne",
     "desc_en": "A promotional page built to support a specific campaign or initiative",
     "desc_fr": "Une page promotionnelle conçue pour appuyer une campagne ou une initiative particulière",
-    "version": "v0.0.0",
+    "version": "v1.0.0",
     "status_en": "🟡 In development",
     "status_fr": "🟡 En cours",
     "owner": "Maryam",
@@ -86,9 +86,9 @@
     "fr": "Article dans la Gazette",
     "desc_en": "An article page for stories published in the RCMP Gazette magazine",
     "desc_fr": "Une page d'article pour les histoires publiées dans le magazine Gazette de la GRC",
-    "version": "v0.0.0",
-    "status_en": "🔵 Planning",
-    "status_fr": "🔵 Planification",
+    "version": "v1.0.0",
+    "status_en": "🟡 In development",
+    "status_fr": "🟡 En cours",
     "owner": ""
   },
   {
@@ -96,9 +96,9 @@
     "fr": "Page d'accueil de la Gazette",
     "desc_en": "The home page for the RCMP Gazette magazine, featuring recent, trending, and highlighted stories",
     "desc_fr": "La page d'accueil du magazine Gazette de la GRC, avec les articles récents, tendance et mis en vedette",
-    "version": "v0.0.0",
-    "status_en": "🔵 Planning",
-    "status_fr": "🔵 Planification",
+    "version": "v1.0.0",
+    "status_en": "🟡 In development",
+    "status_fr": "🟡 En cours",
     "owner": ""
   },
   {
@@ -106,9 +106,9 @@
     "fr": "Sujet de la Gazette",
     "desc_en": "A topic page for the Gazette magazine showing a list of related articles pulled from Drupal",
     "desc_fr": "Une page thématique du magazine Gazette affichant une liste d'articles connexes générés par Drupal",
-    "version": "v0.0.0",
-    "status_en": "🔵 Planning",
-    "status_fr": "🔵 Planification",
+    "version": "v1.0.0",
+    "status_en": "🟡 In development",
+    "status_fr": "🟡 En cours",
     "owner": ""
   },
   {

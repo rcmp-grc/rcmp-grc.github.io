@@ -26,6 +26,14 @@ issued: 2026-05-04
 						<option value="English only">English only</option>
 						<option value="French only">French only</option>
 					</select>
+					<h3 class="h4 mrgn-tp-lg mrgn-bttm-sm">
+						<label for="dt-services">Services</label>
+					</h3>
+					<select name="dt-services" id="dt-services" data-column="2" class="form-control">
+						<option value="">All</option>
+						<option value="Fingerprinting">Fingerprinting</option>
+						<option value="Criminal records check">Criminal records check</option>
+					</select>
 				</section>
 				<button aria-controls="datatable" class="btn btn-primary btn-block btn-sm mrgn-tp-lg" type="submit">Apply filters</button>
 				<button class="btn btn-default btn-block btn-sm" type="reset">Clear filters</button>
@@ -38,7 +46,8 @@ issued: 2026-05-04
 				<tr>
 					<th class="hidden">Order</th>
 					<th class="hidden">Detachment name</th>
-					<th class="hidden">Language designation</th>
+					<th class="hidden">Detachment Photo</th>
+					<th class="hidden">Language Designation</th>
 					<th class="hidden">Emergency contact</th>
 					<th class="hidden">General information</th>
 					<th class="hidden">Location</th>
@@ -50,12 +59,14 @@ issued: 2026-05-04
 					<td class="hidden">2</td>
 					<td class="nws-tbl-desc mrgn-lft-md">
 						<h2 class="mrgn-tp-0">Test Detachment</h2>
+					</td>
+					<td class="nws-tbl-desc mrgn-lft-md">
+						<div class="col-md-6">
 						<figure class="cn-inline-figure width=50">
-          <img alt="Detachment photo" class="img-responsive" src="https://dummyimage.com/600x400/000/fff">
-          <figcaption>
-            Photo: RCMP Detachment / Ottawa,ON
-          </figcaption>
-        </figure>
+          					<img alt="Detachment photo" class="img-responsive" src="https://dummyimage.com/600x400/000/fff">
+        				</figure>
+						</div>
+						<div class="clearfix"></div>
 					</td>
 					<td class="nws-tbl-desc mrgn-lft-lg">
 						<dl>

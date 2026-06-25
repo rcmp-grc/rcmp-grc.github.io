@@ -38,6 +38,7 @@ issued: 2026-05-04
 				<tr>
 					<th class="hidden">Order</th>
 					<th class="hidden">Detachment name</th>
+					<th class="hidden">Language Designation</th>
 					<th class="hidden">Emergency contact</th>
 					<th class="hidden">General information</th>
 					<th class="hidden">Location</th>
@@ -59,11 +60,19 @@ issued: 2026-05-04
 					</div>
 					<div class="col-md-6">
 						<dl>
+							<dt></dt>
+							<dd></dd>
+						</dl>
+					</div>
+					<div class="clearfix"></div>
+					</td>
+					<td class="nws-tbl-desc mrgn-lft-lg">
+					<div class="col-md-6">
+						<dl>
 							<dt>Service language</dt>
 							<dd>English and French</dd>
 						</dl>
 					</div>
-					<div class="clearfix"></div>
 					</td>
 					<td class="nws-tbl-desc mrgn-lft-lg">
 						<dl class="alert alert-danger">

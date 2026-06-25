@@ -62,13 +62,13 @@ issued: 2026-05-21
 <div class="row">
 	<div class="col-md-3">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
-		 <div class="col-xs-12 mrgn-lft-0 filters" id="wb-srch"> 	 
-		 <h2 class="h5" id="news-filters-heading">Search</h2>	 
-         <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	 
-		<legend class="wb-inv">Search news</legend>
+		 <div class="col-xs-12 mrgn-lft-0" id="wb-srch"> 	 	 
+         <form action="#" class="filters" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	 
+		 <div id="search"><h2 class="h5" id="news-filters-heading">Search</h2></div>	  
+		 <legend class="wb-inv">Search news</legend>
           <div class="form-group wb-srch-qry">
             <label class="wb-inv" for="news-srch-q">Search RCMP news</label>
-            <input class="wb-srch-q form-control" id="news-srch-q" maxlength="100" name="q" placeholder="Search RCMP news" type="search" autocomplete="off" value="">
+            <input class="wb-srch-q form-control" id="news-srch-q" maxlength="100" size="20" name="q" placeholder="Search RCMP news" type="search" autocomplete="off" value="">
           </div>
           <div class="form-group submit">
             <button class="btn btn-primary btn-small" type="submit">
@@ -79,7 +79,7 @@ issued: 2026-05-21
 		 </form>
 		 </div>
 		<div class="clearfix"></div>
-		<form class="filters" role="form" method="get" action="#" id="filters">
+		<form class="filters" role="form" method="get" action="#" id="filters" aria-label="Filter RCMP news">
       <div id="filtres"><h2 class="h5" id="news-filters-heading">Filter</h2>
 		<p class="small">Apply any of the following filters to narrow your search</p></div>
       <details class="summary">  

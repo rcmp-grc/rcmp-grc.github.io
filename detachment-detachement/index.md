@@ -34,6 +34,10 @@ issued: 2026-05-04
 						<option value="Fingerprinting">Fingerprinting</option>
 						<option value="Criminal records check">Criminal records check</option>
 						<option value="24 hour access">24 hour access</option>
+						<option value="Online crime reporting">Online crime reporting</option>
+						<option value="Vulnerable sector check">Vulnerable sector check</option>
+						<option value="Police certificate">Police certificate</option>
+						<option value="First aid">First aid</option>
 					</select>
 				</section>
 				<button aria-controls="datatable" class="btn btn-primary btn-block btn-sm mrgn-tp-lg" type="submit">Apply filters</button>

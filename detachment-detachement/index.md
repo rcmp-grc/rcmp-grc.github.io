@@ -33,7 +33,7 @@ issued: 2026-05-04
 						<option value="">All</option>
 						<option value="Fingerprinting">Fingerprinting</option>
 						<option value="Criminal records check">Criminal records check</option>
-						<option value="Criminal records check">24 hour accessk</option>
+						<option value="24 hour access">24 hour access</option>
 					</select>
 				</section>
 				<button aria-controls="datatable" class="btn btn-primary btn-block btn-sm mrgn-tp-lg" type="submit">Apply filters</button>

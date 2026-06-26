@@ -2213,8 +2213,11 @@ figure table {background-color: var(--rcmp-white, #fff)}
     	}
     ]
 
-    const transposedDatasets = figureArr.map((figure) => {
-    	let backgroundColor;
+const script = document.createElement("script");
+script.src = "https://cdnjs.cloudflare.com/ajax/libs/patternomaly/1.3.2/patternomaly.min.js";
+script.onload = () => {
+const transposedDatasets = figureArr.map((figure) => {
+let backgroundColor;
 
     	// for line and pie charts, we want to return an array of patterns for each data set
     	backgroundColor = figure.data[0].slice(1).map((e, i) => {
@@ -2349,7 +2352,10 @@ figure table {background-color: var(--rcmp-white, #fff)}
     				},
     			},
     		},
-    	});
-    });
+
+});
+});
+}; // closes onload
+document.head.appendChild(script);
 
 </script>

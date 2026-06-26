@@ -33,6 +33,7 @@ issued: 2026-05-04
 						<option value="">All</option>
 						<option value="Fingerprinting">Fingerprinting</option>
 						<option value="Criminal records check">Criminal records check</option>
+						<option value="Criminal records check">24 hour accessk</option>
 					</select>
 				</section>
 				<button aria-controls="datatable" class="btn btn-primary btn-block btn-sm mrgn-tp-lg" type="submit">Apply filters</button>
@@ -59,6 +60,87 @@ issued: 2026-05-04
 					<td class="hidden">2</td>
 					<td class="nws-tbl-desc mrgn-lft-md">
 						<h2 class="mrgn-tp-0">Test Detachment</h2>
+					</td>
+					<td class="nws-tbl-desc mrgn-lft-md">
+						<div class="col-md-6">
+						<figure class="cn-inline-figure width=50">
+          					<img alt="Detachment photo" class="img-responsive" src="https://dummyimage.com/600x400/000/fff">
+        				</figure>
+						</div>
+						<div class="clearfix"></div>
+					</td>
+					<td class="nws-tbl-desc mrgn-lft-lg">
+						<dl>
+							<dt>Service language</dt>
+							<dd>English and French</dd>
+						</dl>
+					</td>
+					<td class="nws-tbl-desc mrgn-lft-lg">
+						<dl class="alert alert-danger">
+							<dt>For emergency assistance</dt>
+							<dd>Dial 9-1-1</dd>
+						</dl>
+					</td>
+					<td class="nws-tbl-desc mrgn-lft-lg">
+						<div class="col-md-6">
+							<dl>
+								<dt>Hours of operation</dt>
+								<dd>Please contact the detachment directly to find out their hours of operation.</dd>
+							</dl>
+						</div>
+						<div class="col-md-6">
+							<dl>
+								<dt>Non-emergency contact information</dt>
+								<dd>
+									<dl>
+										<dt>General inquiries</dt>
+										<dd>867-862-5555</dd>
+									</dl>
+								</dd>
+							</dl>
+						</div>
+						<div class="clearfix"></div>
+					</td>
+					<td class="nws-tbl-desc mrgn-lft-lg">
+						<div class="col-md-6">
+							<dl>
+								<dt>Location</dt>
+								<dd>
+									<a href="https://www.google.ca/maps?q=62.3831637285805,-140.8743807289492&hl=en-CA" target="_blank">121947 Alaska Highway<br>Beaver Creek, Yukon</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="col-md-6">
+							<dl>
+								<dt>Mailing address</dt>
+								<dd>
+									<abbr>PO</abbr> Box 32<br>Beaver Creek YT&#160; Y0B 1A0
+								</dd>
+							</dl>
+						</div>
+						<div class="clearfix"></div>
+					</td>
+					<td class="nws-tbl-desc mrgn-lft-lg">
+						<dl>
+							<dt>Services and accessibility information</dt>
+							<dd>
+								<ul class="list-unstyled">
+									<li><i class="fa-solid fa-fingerprint"></i>Fingerprinting (by appointment only)</li>
+									<li><i class="fa-solid fa-file-lines"></i> Criminal records check</li>
+									<li><i class="fa-solid fa-wheelchair-move"></i> Wheelchair accessible</li>
+									<li><i class="fa-solid fa-shield-dog"></i> Assistance Dogs Welcome</li>
+									<li><i class="fa-solid fa-kit-medical"></i> First Aid</li>
+									<li><i class="fa-solid fa-user-clock"></i> Twenty Four Hr Access</li>
+									<li><i class="fa-solid fa-door-open"></i> Automatic Doors</li>						
+								</ul>							
+							</dd>
+						</dl>
+					</td>
+				</tr>
+				<tr id="20191">
+					<td class="hidden">2</td>
+					<td class="nws-tbl-desc mrgn-lft-md">
+						<h2 class="mrgn-tp-0">Test 2 Detachment</h2>
 					</td>
 					<td class="nws-tbl-desc mrgn-lft-md">
 						<div class="col-md-6">

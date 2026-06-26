@@ -134,6 +134,7 @@ issued: 2026-05-04
 										<li><i class="fa-solid fa-file-lines"></i> Criminal records check</li>
 										<li><i class="fa-solid fa-kit-medical"></i> First aid</li>
 										<li><i class="fa-solid fa-user-clock"></i> Twenty four hour access</li>
+										<li><i class="fa-solid fa-triangle-exclamation"></i> Report a crime</li>
 										<li><i class="fa-solid fa-hand-pointer"></i> Online crime reporting </li>
 										<li><i class="fa-solid fa-award"></i> Police certificate</li>
 										<li><i class="fa-solid fa-check-double"></i> Vulerable sector check</li>

@@ -1634,7 +1634,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
   </thead>
   <tbody>
   <tr>
-    <td data-label="Type d'autorisation"><b>Nombre total d'autorisations de transport délivrées à des titulaires de permis en 2025 (à l'exclusion des non-résidents visés par l'article 35)</b></td>
+    <th scope="row" data-label="Type d'autorisation">Nombre total d'autorisations de transport délivrées à des titulaires de permis en 2025 (à l'exclusion des non-résidents visés par l'article 35)</td>
       <td data-label="Total">28&#160;052</td>
   </tr>
   </tbody>

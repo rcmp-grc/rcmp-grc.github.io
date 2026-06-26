@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2025 Commissioner of Firearms Report
-date_modified: 2026-06-25
+date_modified: 2026-06-26
 lang: en
 lang_url: report-rapport-fr.html
 charts: true
@@ -131,6 +131,16 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <!-- <p><a href="https://publications.gc.ca/site/eng/9.949188/publication.html">Available from GC&nbsp;Publications</a></p> -->
   <!-- <p><a href="https://">Available from the Open Government Portal</a></p> -->
   </details>
+
+  <details class="print-open cnt-wdth-lmtd">
+    <summary>List of acronyms and abbreviations</summary>
+    <dl class="dl-horizontal mrgn-bttm-0">
+      <dt><abbr>CFP</abbr></dt>
+      <dd>Canadian Firearms Program</dd>
+      <dt>RCMP</dt>
+      <dd>Royal Canadian Mounted Police</dd>
+    </dl>
+  </details>
   
   <details class="print-open cnt-wdth-lmtd">
   <summary>List of charts</summary>
@@ -194,10 +204,10 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <div class="pull-right col-xs-12 col-md-3 col-lg-4">
   <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
   <figure>
-  <img alt="Mike Duheme" class="full-width img-responsive" src="michael-duheme.jpg">
+  <img alt="Mike Duheme" class="full-width img-responsive" src="/sites/default/files/img/michael-duheme.jpg">
   <figcaption>
   <b>Mike Duheme</b><br>
-  Commissioner of the RCMP and the Commissioner of Firearms
+  Commissioner of the RCMP and Commissioner of Firearms
   </figcaption>
   </figure>
   </div>
@@ -215,7 +225,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <div class="pull-right col-xs-12 col-md-3 col-lg-4">
   <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
   <figure>
-  <img alt="Kellie Paquette" class="full-width img-responsive" src="kellie-paquette.jpg">
+  <img alt="Kellie Paquette" class="full-width img-responsive" src="/sites/default/files/img/kellie-paquette.jpg">
   <figcaption>
   <b>Kellie Paquette</b><br>
   Director General, Canadian Firearms Program
@@ -235,7 +245,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
   
   <section id="s3-1">
   <h3>Licensing and registration</h3>
-  <p>There were <b>2,473,661</b> firearms licence holders.</p>
+  <p>There were <b>2,473,661</b> firearms licence holders:</p>
   <ul>
   <li><b>1,626,754</b> non-restricted licence holders</li>
   <li><b>14,984</b> Minor's Licence holders</li>
@@ -328,7 +338,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <figure id="f1" class="panel panel-default mrgn-bttm-lg">
   <figcaption class="panel-heading">Figure 1<br><b>Canadian Firearms Program strategic plan</b></figcaption>
   <div class="panel-body">
-  <img alt="" aria-describedby="f1-desc" class="full-width img-responsive" src="strat-plan-eng.png">
+  <img alt="" aria-describedby="f1-desc" class="full-width img-responsive" src="/sites/default/files/img/cfp-pcaf-plan-eng.png">
   </div>
   <footer class="panel-footer">
   <details class="mrgn-tp-sm print-open" id="f1-desc">
@@ -341,6 +351,17 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <section>
   <h4>Mission</h4>
   <p>The Canadian Firearms Program's mission is to enhance public safety by providing advice on the regulatory framework, promoting compliance with the firearms regulatory regime and supporting law enforcement in the prevention and investigation of firearms crime and misuse.</p>
+  </section> 
+  <section>
+  <h4>Outcomes</h4>
+  <p>The graphic lists the outcomes the program expects to achieve:</p>
+  <ul>
+  <li>increased client and partner trust and satisfaction</li>
+  <li>increased availability of online services</li>
+  <li>easier, faster, timely services</li>
+  <li>improved compliance and reduced illegal activities involving firearms</li>
+  <li>increased employee capabilities</li>
+  </ul>
   </section>
   <section>
   <h4>Focus areas</h4>
@@ -353,17 +374,6 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <li>using modern tools and technology</li>
   </ul>
   </section>
-  <section>
-  <h4>Outcomes</h4>
-  <p>The graphic lists the outcomes the program expects to achieve:</p>
-  <ul>
-  <li>increased client and partner trust and satisfaction</li>
-  <li>increased availability of online services</li>
-  <li>easier, faster, timely services</li>
-  <li>improved compliance and reduced illegal activities involving firearms</li>
-  <li>increased employee capabilities</li>
-  </ul>
-  </section>
   </details>
   </footer>
   </figure>
@@ -374,7 +384,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <p>The Canadian Firearms Program works with various domestic and international partners, including:</p>
   <ul>
   <li><b>Public Safety Canada</b> by providing firearms-related policy support and technical information</li>
-  <li><b>Canada Border Services Agency and Global Affairs Canada</b> by providing technical guidance on firearms-related questions for international and cross- border issues</li>
+  <li><b>Canada Border Services Agency and Global Affairs Canada</b> by providing technical guidance on firearms-related questions for international and cross-border issues</li>
   <li><b>Department of Justice and Public Safety Canada</b> by supporting legal policy development in firearms-related law</li>
   <li><b>Crown-Indigenous Relations and Northern Affairs Canada, and Indigenous Services Canada</b> by supporting firearms legislation and related issues that are of particular interest to Indigenous Peoples</li>
   <li><b>Municipal, provincial and territorial law enforcement agencies</b> by providing support to law enforcement on investigations leading to prosecution of individuals involved in the smuggling, trafficking and criminal use of firearms</li>
@@ -500,8 +510,8 @@ figure table {background-color: var(--rcmp-white, #fff)}
   </ul>
   <p>As of December&nbsp;31, 2025, Canada had:</p>
   <ul>
-  <li>2,458,677 valid Possession and Acquisition Licences and 14,984 valid Minor's Licences (Table 1)</li>
-  <li>1,253,010 registered firearms. Only restricted and prohibited firearms must be registered (Table 10)</li>
+  <li>2,458,677 valid Possession and Acquisition Licences and 14,984 valid Minor's Licences (<a href="#t1">Table 1</a>)</li>
+  <li>1,253,010 registered firearms. Only restricted and prohibited firearms must be registered (<a href="#t10">Table 10</a>)</li>
   <li>3,766 licensed firearms businesses, not including museums and carriers. Of these, 1,359 businesses were licensed to sell only ammunition (<a href="#t15">Table 15</a>)</li>
   </ul>
   <p>The following tables include data on firearms licensing and registration.</p>
@@ -660,7 +670,6 @@ figure table {background-color: var(--rcmp-white, #fff)}
   </details>
   
   <p>Table 4 provides a breakdown of the number of new and renewed Possession and Acquisition Licences and Minor's Licences approved by province or territory in 2025.</p>
-  
   
   <table class="table table-bordered table-condensed" id="t4">
   <caption class="text-left">Table 4: Possession and Acquisition Licences and Minor’s Licences by province or territory, 2025</caption>
@@ -862,9 +871,9 @@ figure table {background-color: var(--rcmp-white, #fff)}
   
   <p>Firearms fall into one of three classes as defined in section 84(1) of the <cite>Criminal Code</cite>:</p>
   <ul>
-  <li>Non-restricted firearms&nbsp;– typically shotguns and rifles</li>
-  <li>Restricted firearms&nbsp;– predominantly handguns</li>
-  <li>Prohibited firearms&nbsp;– certain handguns; fully automatic or converted automatic firearms; any firearm prescribed to be prohibited in regulation; and any semi- automatic firearm (other than a handgun) that discharges centre-fire ammunition, was originally designed with a detachable cartridge magazine with a capacity of six or more cartridges, and that was designed and manufactured on or after December&nbsp;15, 2023</li>
+  <li>Non-restricted firearms&nbsp;— typically shotguns and rifles</li>
+  <li>Restricted firearms&nbsp;— predominantly handguns</li>
+  <li>Prohibited firearms&nbsp;— certain handguns; fully automatic or converted automatic firearms; any firearm prescribed to be prohibited in regulation; and any semi-automatic firearm (other than a handgun) that discharges centre-fire ammunition, was originally designed with a detachable cartridge magazine with a capacity of six or more cartridges, and that was designed and manufactured on or after December&nbsp;15, 2023</li>
   </ul>
   <p>In 2025, there were:</p>
   <ul>
@@ -1031,53 +1040,53 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <p>Table 7 provides a breakdown of reasons for firearms licence application refusals in 2025.</p>
   
   <table class="table table-bordered table-condensed" id="t7">
-  <caption class="text-left">Table 7: Reasons for firearms licence application revocations, 2025</caption>
+  <caption class="text-left">Table 7: Reasons for firearms licence application refusals, 2025</caption>
   <thead>
   <tr class="active">
-  <th scope="col">Reason for revocation</th>
-  <th scope="col" class="text-right">Number of revocations</th>
+  <th scope="col">Reason for refusal</th>
+  <th scope="col" class="text-right">Number of refusals</th>
   </tr>
   </thead>
   <tbody>
   <tr>
-  <th scope="row" data-label="Reason for revocation">Potential risk to others</th>
-  <td data-label="Number of revocations" class="text-right nowrap">483</td>
+  <th scope="row" data-label="Reason for refusal">Potential risk to others</th>
+  <td data-label="Number of refusals" class="text-right nowrap">483</td>
   </tr>
   <tr>
-  <th scope="row" data-label="Reason for revocation">Provided false information</th>
-  <td data-label="Number of revocations" class="text-right nowrap">334</td>
+  <th scope="row" data-label="Reason for refusal">Provided false information</th>
+  <td data-label="Number of refusals" class="text-right nowrap">334</td>
   </tr>
   <tr>
-  <th scope="row" data-label="Reason for revocation">Court ordered prohibition or probation</th>
-  <td data-label="Number of revocations" class="text-right nowrap">320</td>
+  <th scope="row" data-label="Reason for refusal">Court ordered prohibition or probation</th>
+  <td data-label="Number of refusals" class="text-right nowrap">320</td>
   </tr>
   <tr>
-  <th scope="row" data-label="Reason for revocation">Potential risk to self</th>
-  <td data-label="Number of revocations" class="text-right nowrap">257</td>
+  <th scope="row" data-label="Reason for refusal">Potential risk to self</th>
+  <td data-label="Number of refusals" class="text-right nowrap">257</td>
   </tr>
   <tr>
-  <th scope="row" data-label="Reason for revocation">Mental health</th>
-  <td data-label="Number of revocations" class="text-right nowrap">149</td>
+  <th scope="row" data-label="Reason for refusal">Mental health</th>
+  <td data-label="Number of refusals" class="text-right nowrap">149</td>
   </tr>
   <tr>
-  <th scope="row" data-label="Reason for revocation">Domestic violence</th>
-  <td data-label="Number of revocations" class="text-right nowrap">117</td>
+  <th scope="row" data-label="Reason for refusal">Domestic violence</th>
+  <td data-label="Number of refusals" class="text-right nowrap">117</td>
   </tr>
   <tr>
-  <th scope="row" data-label="Reason for revocation">Violent behaviour</th>
-  <td data-label="Number of revocations" class="text-right nowrap">107</td>
+  <th scope="row" data-label="Reason for refusal">Violent behaviour</th>
+  <td data-label="Number of refusals" class="text-right nowrap">107</td>
   </tr>
   <tr>
-  <th scope="row" data-label="Reason for revocation">Unsafe firearm use and storage</th>
-  <td data-label="Number of revocations" class="text-right nowrap">49</td>
+  <th scope="row" data-label="Reason for refusal">Unsafe firearm use and storage</th>
+  <td data-label="Number of refusals" class="text-right nowrap">49</td>
   </tr>
   <tr>
-  <th scope="row" data-label="Reason for revocation">Drug offences</th>
-  <td data-label="Number of revocations" class="text-right nowrap">31</td>
+  <th scope="row" data-label="Reason for refusal">Drug offences</th>
+  <td data-label="Number of refusals" class="text-right nowrap">31</td>
   </tr>
   <tr>
-  <th scope="row" data-label="Reason for revocation">Possession and Acquisition Licence ineligible</th>
-  <td data-label="Number of revocations" class="text-right nowrap">5</td>
+  <th scope="row" data-label="Reason for refusal">Possession and Acquisition Licence ineligible</th>
+  <td data-label="Number of refusals" class="text-right nowrap">5</td>
   </tr>
   </tbody>
   </table>
@@ -1603,13 +1612,13 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <caption class="text-left">Table 14: Authorizations to Transport, 2025</caption>
     <thead>
       <tr class="active">
-        <th scope="col">Type of authorization</th>
+        <th scope="col">Authorizations to Transport</th>
         <th scope="col" class="text-right">Total</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <th scope="row" data-label="Type of authorization">Number of Authorizations to Transport issued to licence holders in 2025 (not including section 35 non-residents)</th>
+        <th scope="row" data-label="Authorizations to Transport">Number of Authorizations to Transport issued to licence holders in 2025 (not including section 35 non-residents)</th>
         <td data-label="Total">28,052</td>
       </tr>
     </tbody>
@@ -1618,23 +1627,23 @@ figure table {background-color: var(--rcmp-white, #fff)}
         <th colspan="2" scope="rowgroup">Of the total Authorizations to Transport issued to licence holders in 2025, the total number issued for:</th>
       </tr>
       <tr>
-        <th scope="row" data-label="Type of authorization">Transport to a gunsmith</th>
+        <th scope="row" data-label="Authorizations to Transport">Transport to a gunsmith</th>
         <td data-label="Total">1,054</td>
       </tr>
       <tr>
-        <th scope="row" data-label="Type of authorization">Transport to or from a port of entry (including for purposes of export or import)</th>
+        <th scope="row" data-label="Authorizations to Transport">Transport to or from a port of entry (including for purposes of export or import)</th>
         <td data-label="Total">606</td>
       </tr>
       <tr>
-        <th scope="row" data-label="Type of authorization">Transport for the purpose of delivering the Canadian Firearms Program-approved restricted firearms safety course</th>
+        <th scope="row" data-label="Authorizations to Transport">Transport for the purpose of delivering the Canadian Firearms Program-approved restricted firearms safety course</th>
         <td data-label="Total">192</td>
       </tr>
       <tr>
-        <th scope="row" data-label="Type of authorization">Transport to a law enforcement officer, a firearms officer or a Chief Firearms Officer</th>
+        <th scope="row" data-label="Authorizations to Transport">Transport to a law enforcement officer, a firearms officer or a Chief Firearms Officer</th>
         <td data-label="Total">95</td>
       </tr>
       <tr>
-        <th scope="row" data-label="Type of authorization">Transport to a gun show</th>
+        <th scope="row" data-label="Authorizations to Transport">Transport to a gun show</th>
         <td data-label="Total">80</td>
       </tr>
     </tbody>
@@ -1648,7 +1657,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <p>The course emphasizes safe storage, display, transportation, handling and use of firearms, but safety depends on more than just safe physical actions. Safe handling must include knowledge of the firearms themselves, ammunition, and the laws and regulations related to them.</p>
   <p>Individuals that wish to acquire restricted firearms must also pass the <a href="/en/firearms/firearms-safety-training-transport-and-storage/safety-courses">Canadian Restricted Firearms Safety Course</a>.</p>
   <p>The Canadian Firearms Program is responsible for the continued development, implementation, and evaluation of national firearms safety standards, and the content of the Canadian Firearms safety courses. Feedback on courses is received regularly as part of our ongoing interest in hearing from firearms safety instructors from across Canada.</p>
-  <p>The Canadian Firearms Program remains committed to developing additional tools to promote national consistency and better support Chief Firearms Officers with decision- making on client eligibility to hold a firearms licence, specifically when it comes to mental health-related investigations and their assessment of an individual's eligibility to obtain or hold a firearms licence when mental health is a consideration.</p>
+  <p>The Canadian Firearms Program remains committed to developing additional tools to promote national consistency and better support Chief Firearms Officers with decision-making on client eligibility to hold a firearms licence, specifically when it comes to mental health-related investigations and their assessment of an individual's eligibility to obtain or hold a firearms licence when mental health is a consideration.</p>
   </section>
   
   <section id="s6-4">
@@ -1820,7 +1829,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <section id="s7-2">
   <h3>Crown Attorney Program</h3>
   <p>The Crown Attorney Program is a joint endeavour between the Ministry of the Attorney General for Ontario and the Canadian Firearms Program's Firearms Investigative and Enforcement Services Directorate.</p>
-  <p>The Crown Attorney Program seeks to enhance prosecutorial outcomes of firearms- related offences through education, coordination and networking. The program was established to bolster the relationship between prosecutors and law enforcement in the investigation, review, and prosecution of firearm-related matters.</p>
+  <p>The Crown Attorney Program seeks to enhance prosecutorial outcomes of firearms-related offences through education, coordination and networking. The program was established to bolster the relationship between prosecutors and law enforcement in the investigation, review, and prosecution of firearm-related matters.</p>
   <p>A national committee of firearms prosecutors has been established from each province, which sees discussions about trends, education, and the overall sharing of best practices on firearms-related matters.</p>
   <p>In 2025, the Crown Attorney Program co-presented the Integrated Firearms Working Group Conference for law enforcement officers and Crown attorneys from across Canada. The conference included specialized training related to challenges associated with the multi-faceted nature of firearms trafficking and importation, and effective investigative and trial strategies.</p>
   </section>
@@ -1901,7 +1910,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <h3>MyCFP online services</h3>
   <p>In 2026, the Canadian Firearms Program will migrate more paper-based applications online to provide more self-serve options for clients seeking licence applications, renewals and other transactions.</p>
   <p>We will advance work to use artificial intelligence to automate the intake of court orders that prohibit a person from possessing a firearm. This will enhance public safety by enabling more efficient licence revocations and refusals.</p>
-  <p>The Canadian Firearms Program will also continue to develop and deploy modern tools to enable faster, more accurate service delivery that is user-focussed. In 2025, we completed a proof of concept, and in 2026 we will continue to explore how best to integrate chatbot functionality into our website and online applications and to support the contact centre.</p>
+  <p>The Canadian Firearms Program will also continue to develop and deploy modern tools to enable faster, more accurate service delivery that is user-focussed. In 2025, we completed a proof of concept, and in 2026, we will continue to explore how best to integrate chatbot functionality into our website and online applications and to support the contact centre.</p>
   </section>
   
   <section id="s8-2">

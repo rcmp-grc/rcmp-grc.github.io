@@ -1609,7 +1609,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
     </thead>
     <tbody>
       <tr>
-        <td data-label="Type of authorization"><b>Number of Authorizations to Transport issued to licence holders in 2025 (not including section 35 non-residents)</b></td>
+        <th scope="row" data-label="Type of authorization">Number of Authorizations to Transport issued to licence holders in 2025 (not including section 35 non-residents)</th>
         <td data-label="Total">28,052</td>
       </tr>
     </tbody>

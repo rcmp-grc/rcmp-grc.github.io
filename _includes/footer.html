@@ -125,7 +125,7 @@
 {% endif %} {% if page.layout == 'careers' %}
 <script>
   (function () {
-    /* ----------------------------------------
+  /* ----------------------------------------
      CAREERS NAV
   ---------------------------------------- */
     function initCareersNav() {
@@ -134,10 +134,14 @@
       if (!t || !l) return;
       if (!t.getAttribute("aria-controls")) t.setAttribute("aria-controls", "careers-nav-links");
       if (!t.getAttribute("aria-expanded")) t.setAttribute("aria-expanded", "false");
+      var isFr = document.documentElement.lang.split("-")[0] === "fr";
+      var labelOpen  = isFr ? "Fermer le menu Carrières" : "Close careers menu";
+      var labelClose = isFr ? "Ouvrir le menu Carrières" : "Open careers menu";
+
       t.addEventListener("click", function () {
         var isOpen = l.classList.toggle("is-open");
         t.setAttribute("aria-expanded", isOpen ? "true" : "false");
-        t.setAttribute("aria-label", isOpen ? "Close careers menu" : "Open careers menu");
+        t.setAttribute("aria-label", isOpen ? labelOpen : labelClose);
       });
       Array.prototype.forEach.call(l.querySelectorAll("a"), function (a) {
         a.addEventListener("click", function () {
@@ -146,21 +150,23 @@
         });
       });
     }
-    /* ----------------------------------------
+  /* ----------------------------------------
      LOADER
   ---------------------------------------- */
     function initLoader() {
       var loader = document.getElementById("loader");
       if (!loader) return;
       var sr = loader.querySelector(".sr-only");
-      if (sr) sr.textContent = loader.dataset.loadedMsg || "Page loaded successfully";
+      var isFr = document.documentElement.lang.split("-")[0] === "fr";
+      var fallbackMsg = isFr ? "Page chargée avec succès" : "Page loaded successfully";
+      if (sr) sr.textContent = loader.dataset.loadedMsg || fallbackMsg;
       loader.setAttribute("aria-hidden", "true");
       loader.classList.add("hidden");
       setTimeout(function () {
         loader.style.display = "none";
       }, 300);
     }
-    /* ----------------------------------------
+  /* ----------------------------------------
      REDUCED MOTION
   ---------------------------------------- */
     function initReducedMotion() {
@@ -169,7 +175,7 @@
       var spinner = document.querySelector(".spinner");
       if (spinner) spinner.style.animation = "none";
     }
-    /* ----------------------------------------
+  /* ----------------------------------------
      PDF LINK FILE SIZE
   ---------------------------------------- */
     function formatBytes(bytes, lang) {
@@ -209,7 +215,7 @@
         });
       });
     }
-    /* ----------------------------------------
+  /* ----------------------------------------
      INIT
   ---------------------------------------- */
     document.addEventListener("DOMContentLoaded", function () {

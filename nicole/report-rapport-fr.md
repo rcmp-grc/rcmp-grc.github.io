@@ -511,7 +511,7 @@ Rapport du commissaire aux armes à feu 2025
   <p>Il incombe aux contrôleurs des armes à feu de surveiller la prestation du <a href="/fr/armes-feu/securite-formation-transport-et-entreposage-armes-feu/cours-securite">Cours canadien de sécurité dans le maniement des armes à feu</a> et du <a href="/fr/armes-feu/securite-formation-transport-et-entreposage-armes-feu/cours-securite">Cours canadien de sécurité dans le maniement des armes à feu à autorisation restreinte</a>.</p>
   <p>Le directeur de l'enregistrement des armes à feu est chargé de surveiller certains aspects de la <cite>Loi sur les armes à feu</cite> pour l'ensemble des provinces et des territoires et a les pouvoirs suivants&#160;:</p>
   <ul>
-  <li>approuver et refuser les demandes d'enregistrement et de cession pour les particuliers et les entreprises;
+  <li>approuver et refuser les demandes d'enregistrement et de cession pour les particuliers et les entreprises;</li>
   <li>approuver et refuser les demandes de permis de transporteur;</li>
   <li>émettre et refuser les demandes de vérification de permis;</li>
   <li>offrir un soutien technique pour la vérification des armes à feu;</li>

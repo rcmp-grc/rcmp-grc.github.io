@@ -105,6 +105,10 @@ figure table {background-color: var(--rcmp-white, #fff)}
 }
 </style>
 
+<!-- 
+Rapport du commissaire aux armes à feu 2025
+-->
+
 <section>
   <h2>Sur cette page</h2>
   <ul class="mrgn-bttm-lg">
@@ -205,7 +209,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <div class="pull-right col-xs-12 col-md-3 col-lg-4">
   <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
   <figure>
-  <img alt="Mike Duheme" class="full-width img-responsive" src="michael-duheme.jpg">
+  <img alt="Mike Duheme" class="full-width img-responsive" src="/sites/default/files/img/michael-duheme.jpg">
   <figcaption>
   <b>Mike Duheme</b><br>
   Commissaire de la GRC et commissaire aux armes à feu
@@ -226,7 +230,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <div class="pull-right col-xs-12 col-md-3 col-lg-4">
   <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
   <figure>
-  <img alt="Kellie Paquette" class="full-width img-responsive" src="kellie-paquette.jpg">
+  <img alt="Kellie Paquette" class="full-width img-responsive" src="/sites/default/files/img/kellie-paquette.jpg">
   <figcaption>
   <b>Kellie Paquette</b><br>
   Directrice générale, Programme canadien des armes à feu
@@ -322,7 +326,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <section id="s4">
   <h2>Programme canadien des armes à feu </h2>
   <p>Le Programme canadien des armes à feu a pour mission d'améliorer la sécurité publique en fournissant des conseils sur le cadre de réglementation, en favorisant la conformité au régime de réglementation des armes à feu et en appuyant les organismes d'application de la loi au chapitre de la prévention des crimes commis avec des armes à feu, de la mauvaise utilisation des armes à feu et des enquêtes connexes.</p>
-  <p>Dans le cadre de sa mission, le Programme canadien des armes&#160;:</p>
+  <p>Dans le cadre de sa mission, le Programme canadien des armes à feu&#160;:</p>
   <ul>
   <li>favorise la possession et l'utilisation légales d'armes à feu au Canada en réglementant la délivrance des permis et l'enregistrement des armes à feu, et fournit aux utilisateurs d'armes à feu un service de qualité et un traitement équitable tout en assurant la protection des renseignements confidentiels;</li>
   <li>reconnaît que son efficacité passe par la participation des propriétaires et utilisateurs d'armes à feu, des entreprises d'armes à feu, des organismes d'application de la loi, des provinces et des territoires, des organismes fédéraux, des collectivités autochtones, des instructeurs en matière de sécurité et des vérificateurs des armes à feu;</li>
@@ -339,7 +343,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <figure id="f1" class="panel panel-default mrgn-bttm-lg">
   <figcaption class="panel-heading">Figure 1<br><b>Plan stratégique du Programme canadien des armes à feu</b></figcaption>
   <div class="panel-body">
-  <img alt="" aria-describedby="f1-desc" class="full-width img-responsive" src="strat-plan-fra.png">
+  <img alt="" aria-describedby="f1-desc" class="full-width img-responsive" src="/sites/default/files/img/cfp-pcaf-plan-fra.png">
   </div>
   <footer class="panel-footer">
   <details class="mrgn-tp-sm print-open" id="f1-desc">
@@ -520,9 +524,9 @@ figure table {background-color: var(--rcmp-white, #fff)}
   </ul>
   <p>En date du 31 décembre 2025, le Canada comptait&#160;:</p>
   <ul>
-  <li>2&#160;458&#160;677 permis de possession et d'acquisition valides et 14&#160;984 permis d'armes à feu pour mineur valides (tableau 1).</li>
-  <li>1&#160;253&#160;010 armes à feu enregistrées. Seules les armes à feu prohibées ou à autorisation restreinte doivent être enregistrées (tableau 10).</li>
-  <li>3&#160;766 entreprises d'armes à feu titulaires d'un permis, sans compter les musées et les transporteurs. De ce nombre, 1&#160;359 entreprises étaient titulaires d'un permis de vente de munitions seulement (tableau 15).</li>
+  <li>2&#160;458&#160;677 permis de possession et d'acquisition valides et 14&#160;984 permis d'armes à feu pour mineur valides (<a href="#t1">tableau 1</a>).</li>
+  <li>1&#160;253&#160;010 armes à feu enregistrées. Seules les armes à feu prohibées ou à autorisation restreinte doivent être enregistrées (<a href="#t10">tableau 10</a>).</li>
+  <li>3&#160;766 entreprises d'armes à feu titulaires d'un permis, sans compter les musées et les transporteurs. De ce nombre, 1&#160;359 entreprises étaient titulaires d'un permis de vente de munitions seulement (<a href="#t15">tableau 15</a>).</li>
   </ul>
   <p>Les tableaux qui suivent comprennent des données sur la délivrance des permis et l'enregistrement des armes à feu.</p>
   <p>Le tableau 1 présente une répartition des permis d'armes à feu pour particulier, selon le type et la province ou le territoire en 2025.</p>
@@ -1227,7 +1231,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
   </thead>
   <tbody>
   <tr>
-  <th scope="row" data-label="Firearm class">À autorisation restreinte</th>
+  <th scope="row" data-label="Catégorie d'arme à feu">À autorisation restreinte</th>
   <td data-label="2021" class="text-right nowrap">1&#160;045&#160;608</td>
   <td data-label="2022" class="text-right nowrap">1&#160;119&#160;857</td>
   <td data-label="2023" class="text-right nowrap">1&#160;126&#160;751</td>
@@ -1235,7 +1239,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <td data-label="2025" class="text-right nowrap">1&#160;088&#160;514</td>
   </tr>
   <tr>
-  <th scope="row" data-label="Firearm class">Prohibée</th>
+  <th scope="row" data-label="Catégorie d'arme à feu">Prohibée</th>
   <td data-label="2021" class="text-right nowrap">162&#160;262</td>
   <td data-label="2022" class="text-right nowrap">165&#160;975</td>
   <td data-label="2023" class="text-right nowrap">169&#160;470</td>
@@ -1243,7 +1247,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <td data-label="2025" class="text-right nowrap">164&#160;496</td>
   </tr>
   <tr class="active">
-  <th scope="row" data-label="Firearm class">Total</th>
+  <th scope="row" data-label="Catégorie d'arme à feu">Total</th>
   <td data-label="2021" class="text-right nowrap">1&#160;207&#160;870</td>
   <td data-label="2022" class="text-right nowrap">1&#160;285&#160;832</td>
   <td data-label="2023" class="text-right nowrap">1&#160;296&#160;221</td>
@@ -1625,13 +1629,13 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <caption class="text-left">Tableau 14&#160;: Autorisations de transport, 2025</caption>
   <thead>
   <tr class="active">
-  <th scope="col">Type d'autorisation</th>
+  <th scope="col">Autorisations de transport</th>
   <th scope="col" class="text-right">Total</th>
   </tr>
   </thead>
   <tbody>
   <tr>
-    <th scope="row" data-label="Type d'autorisation">Nombre total d'autorisations de transport délivrées à des titulaires de permis en 2025 (à l'exclusion des non-résidents visés par l'article 35)</th>
+    <th scope="row" data-label="Autorisations de transport">Nombre total d'autorisations de transport délivrées à des titulaires de permis en 2025 (à l'exclusion des non-résidents visés par l'article 35)</th>
       <td data-label="Total">28&#160;052</td>
   </tr>
   </tbody>
@@ -1640,23 +1644,23 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <th colspan="2" scope="rowgroup">Voici la proportion du nombre total d'autorisations de transport délivrées à des titulaires de permis en 2025 aux fins suivantes&#160;:</th>
   </tr>
   <tr>
-  <th scope="row" data-label="Type d'autorisation">le transport vers un armurier</th>
+  <th scope="row" data-label="Autorisations de transport">le transport vers un armurier</th>
   <td data-label="Total">1&#160;054</td>
   </tr>
   <tr>
-    <th scope="row" data-label="Type d'autorisation">le transport à destination ou en provenance d'un point d'entrée (y compris aux fins d'exportation ou d'importation)</th>
+    <th scope="row" data-label="Autorisations de transport">le transport à destination ou en provenance d'un point d'entrée (y compris aux fins d'exportation ou d'importation)</th>
   <td data-label="Total">606</td>
   </tr>
   <tr>
-  <th scope="row" data-label="Type d'autorisation">le transport dans le but d'offrir un cours sur la sécurité des armes à feu à autorisation restreinte approuvé par le Programme canadien des armes à feu</th>
+  <th scope="row" data-label="Autorisations de transport">le transport dans le but d'offrir un cours sur la sécurité des armes à feu à autorisation restreinte approuvé par le Programme canadien des armes à feu</th>
   <td data-label="Total">192</td>
   </tr>
   <tr>
-  <th scope="row" data-label="Type d'autorisation">le transport vers un agent d'application de la loi, un préposé aux armes à feu ou un contrôleur des armes à feu</th>
+  <th scope="row" data-label="Autorisations de transport">le transport vers un agent d'application de la loi, un préposé aux armes à feu ou un contrôleur des armes à feu</th>
   <td data-label="Total">95</td>
   </tr>
   <tr>
-  <th scope="row" data-label="Type d'autorisation">le transport vers une exposition d'armes à feu</th>
+  <th scope="row" data-label="Autorisations de transport">le transport vers une exposition d'armes à feu</th>
   <td data-label="Total">80</td>
   </tr>
   </tbody>

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Rapport du commissaire aux armes à feu 2025
-date_modified: 2026-06-26
+date_modified: 2026-06-29
 lang: fr
 lang_url: report-rapport-en.html
 charts: true
@@ -209,7 +209,7 @@ Rapport du commissaire aux armes à feu 2025
   <div class="pull-right col-xs-12 col-md-3 col-lg-4">
   <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
   <figure>
-  <img alt="Mike Duheme" class="full-width img-responsive" src="/sites/default/files/img/michael-duheme.jpg">
+  <img alt="Mike Duheme" class="full-width img-responsive" src="michael-duheme.jpg">
   <figcaption>
   <b>Mike Duheme</b><br>
   Commissaire de la GRC et commissaire aux armes à feu
@@ -230,7 +230,7 @@ Rapport du commissaire aux armes à feu 2025
   <div class="pull-right col-xs-12 col-md-3 col-lg-4">
   <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
   <figure>
-  <img alt="Kellie Paquette" class="full-width img-responsive" src="/sites/default/files/img/kellie-paquette.jpg">
+  <img alt="Kellie Paquette" class="full-width img-responsive" src="kellie-paquette.jpg">
   <figcaption>
   <b>Kellie Paquette</b><br>
   Directrice générale, Programme canadien des armes à feu
@@ -343,7 +343,7 @@ Rapport du commissaire aux armes à feu 2025
   <figure id="f1" class="panel panel-default mrgn-bttm-lg">
   <figcaption class="panel-heading">Figure 1<br><b>Plan stratégique du Programme canadien des armes à feu</b></figcaption>
   <div class="panel-body">
-  <img alt="" aria-describedby="f1-desc" class="full-width img-responsive" src="/sites/default/files/img/strat-plan-fra.png">
+  <img alt="" aria-describedby="f1-desc" class="full-width img-responsive" src="strat-plan-fra.png">
   </div>
   <footer class="panel-footer">
   <details class="mrgn-tp-sm print-open" id="f1-desc">

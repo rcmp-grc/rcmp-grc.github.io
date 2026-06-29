@@ -66,8 +66,8 @@ issued: 2026-05-21
 		<h2 class="h6" id="news-filters-heading">Search</h2>
          <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	  
           <div class="form-group wb-srch-qry">
-            <label class="wb-inv" for="wb-srch">Search RCMP news</label>
-            <input class="wb-srch-q form-control" id="wb-srch" name="q" placeholder="Search RCMP news" type="search" autocomplete="off" value="">
+            <label class="wb-inv" for="news-srch-q">Search RCMP news</label>
+            <input class="wb-srch-q form-control" id="news-srch-q" name="q" placeholder="Search RCMP news" type="search" autocomplete="off" value="">
           </div>
           <div class="form-group submit">
             <button class="btn btn-primary" type="submit">

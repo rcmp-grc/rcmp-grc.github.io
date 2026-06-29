@@ -71,7 +71,7 @@ issued: 2026-05-21
             <input class="wb-srch-q form-control" id="news-srch-q" maxlength="170" name="q" placeholder="Search RCMP news" type="search" autocomplete="off" value="">
           </div>
           <div class="form-group submit">
-            <button class="btn btn-primary btn-small" type="submit">
+            <button class="btn btn-primary" type="submit">
               <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
               <span class="wb-inv">Search</span>
             </button>

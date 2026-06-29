@@ -65,8 +65,6 @@ issued: 2026-05-21
 		<div class="col-xs-12 mrgn-lft-0 filters" id="wb-srch"> 	 
 		<h2 class="h6" id="news-filters-heading">Search</h2>
          <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	  
-	<fieldset>
-		 <legend class="wb-inv">Search news</legend>
           <div class="form-group wb-srch-qry">
             <label class="wb-inv" for="news-srch-q">Search RCMP news</label>
             <input class="wb-srch-q form-control" id="news-srch-q" name="q" placeholder="Search RCMP news" type="search" autocomplete="off" value="">
@@ -77,7 +75,6 @@ issued: 2026-05-21
               <span class="wb-inv">Search</span>
             </button>
 		  </div>
-			 </fieldset>
 		 </form>
 		 </div>
 		<form class="filters" role="form" method="get" action="#" id="filters" aria-label="Filter RCMP news">

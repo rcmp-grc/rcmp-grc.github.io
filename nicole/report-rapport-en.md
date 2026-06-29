@@ -204,7 +204,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <div class="pull-right col-xs-12 col-md-3 col-lg-4">
   <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
   <figure>
-  <img alt="Mike Duheme" class="full-width img-responsive" src="/sites/default/files/img/michael-duheme.jpg">
+  <img alt="Mike Duheme" class="full-width img-responsive" src="michael-duheme.jpg">
   <figcaption>
   <b>Mike Duheme</b><br>
   Commissioner of the RCMP and Commissioner of Firearms
@@ -225,7 +225,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <div class="pull-right col-xs-12 col-md-3 col-lg-4">
   <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
   <figure>
-  <img alt="Kellie Paquette" class="full-width img-responsive" src="/sites/default/files/img/kellie-paquette.jpg">
+  <img alt="Kellie Paquette" class="full-width img-responsive" src="kellie-paquette.jpg">
   <figcaption>
   <b>Kellie Paquette</b><br>
   Director General, Canadian Firearms Program
@@ -338,7 +338,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
   <figure id="f1" class="panel panel-default mrgn-bttm-lg">
   <figcaption class="panel-heading">Figure 1<br><b>Canadian Firearms Program strategic plan</b></figcaption>
   <div class="panel-body">
-  <img alt="" aria-describedby="f1-desc" class="full-width img-responsive" src="/sites/default/files/img/cfp-pcaf-plan-eng.png">
+  <img alt="" aria-describedby="f1-desc" class="full-width img-responsive" src="strat-plan-eng.png">
   </div>
   <footer class="panel-footer">
   <details class="mrgn-tp-sm print-open" id="f1-desc">

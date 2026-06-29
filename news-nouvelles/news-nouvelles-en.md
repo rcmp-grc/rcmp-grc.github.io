@@ -68,7 +68,7 @@ issued: 2026-05-21
 		 <legend class="wb-inv">Search news</legend>
           <div class="form-group wb-srch-qry">
             <label class="wb-inv" for="news-srch-q">Search RCMP news</label>
-            <input class="wb-srch-q form-control" id="news-srch-q" maxlength="100" name="q" placeholder="Search RCMP news" type="search" autocomplete="off" value="">
+            <input class="wb-srch-q form-control" id="news-srch-q" maxlength="170" name="q" placeholder="Search RCMP news" type="search" autocomplete="off" value="">
           </div>
           <div class="form-group submit">
             <button class="btn btn-primary btn-small" type="submit">

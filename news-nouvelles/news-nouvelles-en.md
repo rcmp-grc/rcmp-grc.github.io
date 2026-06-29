@@ -171,8 +171,7 @@ issued: 2026-05-21
             <option data-filter="region" value="Nova Scotia RCMP"><span class="cb-text">Nova Scotia RCMP</span></option>
             <option data-filter="region" value="Nunavut RCMP"><span class="cb-text">Nunavut RCMP</span></option>
             <option data-filter="region" value="Prince Edward Island RCMP"><span class="cb-text">Prince Edward Island RCMP</span></option>
-            <option data-filter="region" value="RCMP Depot Division"><span class="cb-text">RCMP Depot Division</span></option>
-            <option data-filter="region" value="RCMP National Headquarters"><span class="cb-text">RCMP National Headquarters</span></option>
+            <option data-filter="region" value="RCMP Depot Division"><span class="cb-text">RCMP Depot</span></option>
             <option data-filter="region" value="Saskatchewan RCMP"><span class="cb-text">Saskatchewan RCMP</span></option>
             <option data-filter="region" value="Yukon RCMP"><span class="cb-text">Yukon RCMP</span></option>
             <option data-filter="region" value="Federal Policing Central Region"><span class="cb-text">Central Region</span></option>

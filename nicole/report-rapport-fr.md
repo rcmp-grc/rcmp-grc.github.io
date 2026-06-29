@@ -343,7 +343,7 @@ Rapport du commissaire aux armes à feu 2025
   <figure id="f1" class="panel panel-default mrgn-bttm-lg">
   <figcaption class="panel-heading">Figure 1<br><b>Plan stratégique du Programme canadien des armes à feu</b></figcaption>
   <div class="panel-body">
-  <img alt="" aria-describedby="f1-desc" class="full-width img-responsive" src="/sites/default/files/img/cfp-pcaf-plan-fra.png">
+  <img alt="" aria-describedby="f1-desc" class="full-width img-responsive" src="/sites/default/files/img/strat-plan-fra.png">
   </div>
   <footer class="panel-footer">
   <details class="mrgn-tp-sm print-open" id="f1-desc">

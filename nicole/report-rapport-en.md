@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2025 Commissioner of Firearms Report
-date_modified: 2026-06-26
+date_modified: 2026-06-29
 lang: en
 lang_url: report-rapport-fr.html
 charts: true

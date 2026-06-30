@@ -36,6 +36,15 @@ issued: 2026-05-21
 	border-top: 2px solid #70101d;
 	padding: 5px 15px 5px 15px;
 	}
+	.btn-primary {
+     background-color: #861322;
+     border-color: #861322;
+     color: var(--rcmp-white);
+   }
+   .btn-primary:hover {
+    background-color: #1f497a;
+    border-color: #1f497a;
+}
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">

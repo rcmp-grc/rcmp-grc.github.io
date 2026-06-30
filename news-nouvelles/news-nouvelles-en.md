@@ -19,7 +19,7 @@ issued: 2026-05-21
 	{
 	padding: 10px;
 	flex: 1;
-	border-top: 2px solid #0b4144;
+	border-top: 2px solid #70101d;
 	background-color: #f9f9f9;	
     }
 	.badge-located
@@ -33,7 +33,7 @@ issued: 2026-05-21
 	.filters
 	{
 	background-color: #f2f2f2;
-	border-top: 2px solid #0b4144;
+	border-top: 2px solid #70101d;
 	padding: 5px 15px 5px 15px;
 	}
 </style>

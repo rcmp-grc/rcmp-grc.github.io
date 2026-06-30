@@ -64,7 +64,7 @@ issued: 2026-05-21
     <aside aria-labelledby="news-filters-heading" id="news-filters">
 		<div class="col-xs-12" id="wb-srch"> 	 	
          <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	  
-          <div class="form-group wb-srch-qry">
+          <div class="form-group wb-srch-qry mrgn-lft-0">
 		  <h2 class="h6" id="news-filters-heading">Search</h2>  
           <label class="wb-inv" for="news-srch-q">Search RCMP news</label>
           <input class="wb-srch-q form-control mrgn-lft-0" id="news-srch-q" name="q" placeholder="Search RCMP news" type="search" autocomplete="off" value="">	

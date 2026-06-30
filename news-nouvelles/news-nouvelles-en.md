@@ -42,19 +42,19 @@ issued: 2026-05-21
 <div class="row mrgn-bttm-lg">
   <div class="col-md-4">
     <section class="gc-drmt">
-      <h2 class="h5" data-emptytext="Executive"><a href="/en/news/comm-en.html">Read the latest communications from our executive</a></h3>
+      <h2 class="h5" data-emptytext="Executive"><a href="/en/news/comm-en.html">Read the latest communications from our executive</a></h2>
       <p>Read news shared by the leaders of the <abbr>RCMP</abbr> across Canada.</p>
     </section>
   </div>
   <div class="col-md-4">
     <section class="gc-drmt">
-      <h2 class="h5" data-emptytext="Subscribe"><a href="/en/news/subscribe-en.html">Subscribe to news</a></h3>
+      <h2 class="h5" data-emptytext="Subscribe"><a href="/en/news/subscribe-en.html">Subscribe to news</a></h2>
       <p>Receive news and communications by email.</p>
     </section>
   </div>
 	<div class="col-md-4">
     <section class="gc-drmt">
-      <h2 class="h5" data-emptytext="Subscribe"><a href="#">News resources</a></h3>
+      <h2 class="h5" data-emptytext="Subscribe"><a href="#">News resources</a></h2>
       <p>Access web feeds, media relations office, Canada.ca news and Public Safety Canada news</p>
     </section>
   </div>

@@ -34,7 +34,7 @@ issued: 2026-05-21
 	{
 	background-color: #f2f2f2;
 	border-top: 2px solid #70101d;
-	padding: 5px 5px 5px 5px;
+	padding: 5px 10px 5px 10px;
 	}
 </style>
 <p>Read the RCMP news and communications.</p>
@@ -139,7 +139,7 @@ issued: 2026-05-21
         </summary>
 			<fieldset>
           <legend class="wb-inv">Territory or province</legend>
-            <label for="territory">Territory or province</label>
+            <label class="small mrgn-tp-lg mrgn-bttm-sm" for="territory">Territory or province</label>
             <select id="territory" name="territory" class="form-control">
 				<option data-filter="territory" value="All"><span class="cb-text">All territories and provinces</span></option>
 				<option data-filter="territory" value="Alberta"><span class="cb-text">Alberta</span></option>
@@ -156,7 +156,7 @@ issued: 2026-05-21
                 <option data-filter="territory" value="Saskatchewan"><span class="cb-text">Saskatchewan</span></option>
                 <option data-filter="territory" value="Yukon"><span class="cb-text">Yukon</span></option>
 			</select>
-		    <label for="region">National, divisional or regional policing</label>
+		    <label class="small mrgn-tp-lg mrgn-bttm-sm" for="region">National, divisional or regional policing</label>
 			<select id="region" name="region" class="form-control">	
 			<option data-filter="region" value="All"><span class="cb-text">All national, divisional and regional policing</span></option>	
 			<option data-filter="region" value="RCMP National Headquarters"><span class="cb-text">National Headquarters</span></option>	

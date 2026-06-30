@@ -70,7 +70,6 @@ issued: 2026-05-21
           <label class="wb-inv" for="news-srch-q">Search RCMP news</label>
           <input class="wb-srch-q form-control" id="news-srch-q" name="q" placeholder="Search RCMP news" type="search" autocomplete="off" value="">
 		  </div>
-          </div>
           <div class="form-group submit">
             <button class="btn btn-primary" type="submit">
               <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
@@ -79,6 +78,7 @@ issued: 2026-05-21
 		  </div>
 		 </form>
 		 </div>
+		   </div>
 		<form class="filters" role="form" method="get" action="#" id="filters" aria-label="Filter RCMP news">
       <div id="filtres"><h2 class="h6" id="news-filters">Filter</h2>
 		<p class="small">Select any of the following filters to narrow your search</p></div>

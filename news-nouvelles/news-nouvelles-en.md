@@ -34,8 +34,7 @@ issued: 2026-05-21
 	{
 	background-color: #f2f2f2;
 	border-top: 2px solid #70101d;
-	margin: 5px 10px 5px 10px;
-	flex: 1;	
+	padding: 5px 10px 5px 10px;
 	}
 </style>
 <p>Read the RCMP news and communications.</p>

@@ -42,7 +42,7 @@ issued: 2026-05-21
 <div class="row mrgn-bttm-lg">
   <div class="col-md-4">
     <section class="gc-drmt">
-      <h2 class="h5" data-emptytext="Executive"><a href="/en/news/comm-en.html">Read the latest communications from our executive</a></h2>
+      <h2 class="h5" data-emptytext="Executive"><a href="/en/news/comm-en.html">Read the news from our executive</a></h2>
       <p>Read news shared by the leaders of the <abbr>RCMP</abbr> across Canada.</p>
     </section>
   </div>
@@ -54,7 +54,7 @@ issued: 2026-05-21
   </div>
 	<div class="col-md-4">
     <section class="gc-drmt">
-      <h2 class="h5" data-emptytext="Subscribe"><a href="#">News resources</a></h2>
+      <h2 class="h5" data-emptytext="Subscribe"><a href="#">Access news resources</a></h2>
       <p>Access web feeds, media relations office, Canada.ca news and Public Safety Canada news</p>
     </section>
   </div>
@@ -78,7 +78,6 @@ issued: 2026-05-21
 		  </div>
 		 </form>
 		 </div>
-		   </div>
 		<form class="filters" role="form" method="get" action="#" id="filters" aria-label="Filter RCMP news">
       <div id="filtres"><h2 class="h6" id="news-filters">Filter</h2>
 		<p class="small">Select any of the following filters to narrow your search</p></div>
@@ -192,6 +191,7 @@ issued: 2026-05-21
 		  </fieldset>
 		</details>
 		</form>
+		</div>
 	</aside>
 	</div>
   <div class="col-md-9 mrgn-tp-lg">

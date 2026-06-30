@@ -61,7 +61,7 @@ issued: 2026-05-21
 </div>
 <div class="row">
 	<div class="col-md-3">
-    <aside aria-labelledby="news-filters-heading" id="news-filters">
+    <aside aria-labelledby="news-filters-heading" id="news-filters" class="filters">
 		<div class="col-xs-12 filters" id="wb-srch"> 	 	
          <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	  
           <div class="form-group wb-srch-qry">
@@ -77,7 +77,6 @@ issued: 2026-05-21
 		  </div>
 		 </form>
 		</div>
-		<div class="filters">	
 		<form role="form" method="get" action="#" id="filters" aria-label="Filter RCMP news">
       <div id="filtres"><h2 class="h6" id="news-filters">Filter</h2>
 		<p class="small">Select any of the following filters to narrow your search</p></div>
@@ -191,7 +190,6 @@ issued: 2026-05-21
 		  </fieldset>
 		</details>
 		</form>
-		</div>
 	</aside>
 	</div>
   <div class="col-md-9 mrgn-tp-lg">

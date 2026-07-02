@@ -8,6 +8,8 @@ lang_url: stats-fr.html
 
 <style>
 /* Better tables */
+table {margin-block: 2lh}
+table:has(+ details) {margin-block-end: 1lh}
 thead th {text-wrap: balance}
 caption {text-align: left}
 figure table {background-color: var(--rcmp-white, #fff)}
@@ -101,12 +103,18 @@ figure table {background-color: var(--rcmp-white, #fff)}
 <nav>
 	<h2>On this page</h2>
 	<ul>
-		<li><a href="#t1">Table 1: Total number of counterfeit Canadian bank notes passed and seized within Canada</a></li>
-		<li><a href="#t2">Table 2: Total number of counterfeit Canadian bank notes by denomination</a></li>
-		<li><a href="#t3">Table 3: Total value of counterfeit Canadian bank notes passed into circulation by denomination</a></li>
-		<li><a href="#t4">Table 4: Total number of counterfeit Canadian bank notes by province and territory</a></li>
-		<li><a href="#t5">Table 5: Total number of counterfeit Canadian bank notes by technology used</a></li>
-		<li><a href="#t6">Table 6: Total number of counterfeit Canadian coins passed and seized</a></li>
+		<li><a href="#t1">Table 1: Statistics on counterfeit Canadian bank notes - Total number passed and seized within Canada</a></li>
+		<li><a href="#t2">Table 2: Statistics on counterfeit Canadian bank notes - Total number by denomination</a></li>
+		<li><a href="#t3">Table 3: Statistics on counterfeit Canadian bank notes - Total value passed into circulation by denomination</a></li>
+		<li><a href="#t4">Table 4: Statistics on counterfeit Canadian bank notes - Total number by Province and Territory</a></li>
+		<li><a href="#t5">Table 5: Technology used for counterfeiting - Total number passed and seized</a></li>
+		<li><a href="#t6">Table 6: Statistics on counterfeit Canadian coins - Total number passed and seized</a></li>
+		<!-- <li><a href="#t1">Table 1: Number of counterfeit bank notes passed and seized within Canada</a></li>
+		<li><a href="#t2">Table 2: Number of counterfeit bank notes by denomination</a></li>
+		<li><a href="#t3">Table 3: Value of counterfeit bank notes passed into circulation by denomination</a></li>
+		<li><a href="#t4">Table 4: Number of counterfeit bank notes by province and territory</a></li>
+		<li><a href="#t5">Table 5: Number of counterfeit bank notes by technology used</a></li>
+		<li><a href="#t6">Table 6: Number of counterfeit coins passed and seized</a></li> -->
 	</ul>
 </nav>
 
@@ -516,7 +524,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 			<td data-label="Value of $20 notes (percent)" class="text-right">$4,788 <br>(25%)</td>
 			<td data-label="Value of $50 notes (percent)" class="text-right">$5,434 <br>(29%)</td>
 			<td data-label="Value of $100 notes (percent)" class="text-right">$5,483 <br>(29%)</td>
-			<td data-label="Value of $1,000 notes (percent)" class="text-right">$15 <br>(0%)</td>
+			<td data-label="Value of $1,000 notes (percent)" class="text-right">$15 000 <br>(0%)</td>
 		</tr>
 		<tr>
 			<th data-label="Year" scope="row">2019</th>
@@ -526,7 +534,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 			<td data-label="Value of $20 notes (percent)" class="text-right">$12,780 <br>(38%)</td>
 			<td data-label="Value of $50 notes (percent)" class="text-right">$5,902 <br>(18%)</td>
 			<td data-label="Value of $100 notes (percent)" class="text-right">$10,172 <br>(30%)</td>
-			<td data-label="Value of $1,000 notes (percent)" class="text-right">$16 <br>(0%)</td>
+			<td data-label="Value of $1,000 notes (percent)" class="text-right">$16 000 <br>(0%)</td>
 		</tr>
 		<tr>
 			<th data-label="Year" scope="row">2018</th>

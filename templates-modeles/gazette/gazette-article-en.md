@@ -39,6 +39,28 @@ template: true
 
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum accusamus optio, deleniti fugit cupiditate, temporibus iusto possimus libero aspernatur eum praesentium nihil itaque iure ipsa hic laborum explicabo enim dolorum!</p>
 
+      <figure class="wb-mltmd" data-wb-mltmd='{"shareUrl": "#"}'>
+        <audio title="Audio story">
+            <source src="#" type="audio/mp3" />
+            <source src="#" type="audio/ogg" />
+        </audio>
+    
+        <figcaption>
+            <div class="accordion">
+                <details class="acc-group">
+                    <summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>Transcript – Audio story: Sample audio</summary>
+                    
+                    <div class="tgl-panel">
+                        <p><strong>Speaker 1:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia vel id, expedita aliquid ut fugiat tempore fuga odio, earum explicabo sapiente, corrupti odit tempora animi molestias impedit molestiae est facilis!</p>
+                        <p><strong>Speaker 2:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat natus ipsum sunt asperiores quam, ducimus dolor sint expedita officia, odio enim nihil facilis maiores deleniti sapiente eum exercitationem reiciendis minima?</p>
+                        <p><strong>Speaker 1:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia vel id, expedita aliquid ut fugiat tempore fuga odio, earum explicabo sapiente, corrupti odit tempora animi molestias impedit molestiae est facilis!</p>
+                        <p><strong>Speaker 2:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat natus ipsum sunt asperiores quam, ducimus dolor sint expedita officia, odio enim nihil facilis maiores deleniti sapiente eum exercitationem reiciendis minima?</p>
+                    </div>
+                </details>
+            </div>
+        </figcaption>
+    </figure>
+
       <section id="s1-1">
         <h3 class="h2">Lorem ipsum dolor</h3>
 

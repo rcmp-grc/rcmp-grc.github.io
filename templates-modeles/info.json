@@ -89,7 +89,7 @@
     "version": "v1.0.0",
     "status_en": "🟡 In development",
     "status_fr": "🟡 En cours",
-    "owner": ""
+    "owner": "Maryam"
   },
   {
     "en": "Gazette home",
@@ -99,7 +99,7 @@
     "version": "v1.0.0",
     "status_en": "🟡 In development",
     "status_fr": "🟡 En cours",
-    "owner": ""
+    "owner": "Maryam"
   },
   {
     "en": "Gazette topic",
@@ -109,7 +109,7 @@
     "version": "v1.0.0",
     "status_en": "🟡 In development",
     "status_fr": "🟡 En cours",
-    "owner": ""
+    "owner": "Maryam"
   },
   {
     "en": "Hearing schedule",
@@ -117,9 +117,9 @@
     "desc_en": "A list of upcoming RCMP conduct hearings open to the public",
     "desc_fr": "Une liste des audiences disciplinaires de la GRC à venir et ouvertes au public",
     "version": "v0.0.0",
-    "status_en": "🔵 Planning",
-    "status_fr": "🔵 Planification",
-    "owner": ""
+    "status_en": "🟡 In development",
+    "status_fr": "🟡 En cours",
+    "owner": "Maryam"
   },
   {
     "en": "High Risk Child Sex Offender Database list",

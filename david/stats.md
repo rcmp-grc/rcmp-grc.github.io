@@ -99,7 +99,6 @@ figure table {background-color: var(--rcmp-white, #fff)}
 }
 </style>
 
-
 <nav>
 	<h2>On this page</h2>
 	<ul>
@@ -125,7 +124,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 </section>
 
 <table class="table table-bordered table-condensed" id="t1">
-	<caption>Table 1: Total number of counterfeit Canadian bank notes passed and seized within Canada</caption>
+	<caption>Table 1: Statistics on counterfeit Canadian bank notes - Total number passed and seized within Canada</caption>
 	<thead>
 		<tr class="active">
 			<th scope="col">Year</th>
@@ -202,7 +201,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 </details> -->
 
 <table class="table table-bordered table-condensed" id="t2">
-	<caption>Table 2: Total number of counterfeit Canadian bank notes by denomination</caption>
+	<caption>Table 2: Statistics on counterfeit Canadian bank notes - Total number by denomination</caption>
 	<thead>
 		<tr class="active">
 			<th scope="col" colspan="2">Year</th>
@@ -452,7 +451,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 </details>
 
 <table class="table table-bordered table-condensed" id="t3">
-	<caption>Table 3: Total value of counterfeit Canadian bank notes passed into circulation by denomination</caption>
+	<caption>Table 3: Statistics on counterfeit Canadian bank notes - Total value passed into circulation by denomination</caption>
 	<thead>
 		<tr class="active">
 			<th scope="col" class="col-md-1">Year</th>
@@ -524,7 +523,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 			<td data-label="Value of $20 notes (percent)" class="text-right">$4,788 <br>(25%)</td>
 			<td data-label="Value of $50 notes (percent)" class="text-right">$5,434 <br>(29%)</td>
 			<td data-label="Value of $100 notes (percent)" class="text-right">$5,483 <br>(29%)</td>
-			<td data-label="Value of $1,000 notes (percent)" class="text-right">$15 000 <br>(0%)</td>
+			<td data-label="Value of $1,000 notes (percent)" class="text-right">$15,000 <br>(0%)</td>
 		</tr>
 		<tr>
 			<th data-label="Year" scope="row">2019</th>
@@ -534,7 +533,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 			<td data-label="Value of $20 notes (percent)" class="text-right">$12,780 <br>(38%)</td>
 			<td data-label="Value of $50 notes (percent)" class="text-right">$5,902 <br>(18%)</td>
 			<td data-label="Value of $100 notes (percent)" class="text-right">$10,172 <br>(30%)</td>
-			<td data-label="Value of $1,000 notes (percent)" class="text-right">$16 000 <br>(0%)</td>
+			<td data-label="Value of $1,000 notes (percent)" class="text-right">$16,000 <br>(0%)</td>
 		</tr>
 		<tr>
 			<th data-label="Year" scope="row">2018</th>
@@ -594,7 +593,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 </details> -->
 
 <table class="table table-bordered table-condensed" id="t4">
-	<caption>Table 4: Total number of counterfeit Canadian bank notes by province and territory</caption>
+	<caption>Table 4: Statistics on counterfeit Canadian bank notes - Total number by Province and Territory</caption>
 	<thead>
 		<tr class="active">
 			<th rowspan="2" scope="col">Province or territory</th>
@@ -715,7 +714,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 </details> -->
 
 <table class="table table-bordered table-condensed" id="t5">
-	<caption>Table 5: Total number of counterfeit Canadian bank notes by technology used</caption>
+	<caption>Table 5: Technology used for counterfeiting - Total number passed and seized</caption>
 	<thead>
 		<tr class="active">
 			<th scope="col">Year</th>
@@ -818,7 +817,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 </details> -->
 
 <table class="table table-bordered table-condensed" id="t6">
-	<caption>Table 6: Total number of counterfeit Canadian coins passed and seized</caption>
+	<caption>Table 6: Statistics on counterfeit Canadian coins - Total number passed and seized</caption>
 	<thead>
 		<tr class="active">
 			<th rowspan="2" scope="col">Year</th>
@@ -888,7 +887,5 @@ figure table {background-color: var(--rcmp-white, #fff)}
 <summary>Table 6 notes</summary>
 <p>For the 2025 data, these are provisional statistics as of February 10, 2026. Once all exhibits are examined, final data for 2025 will be published.</p>
 </details> -->
-
-
 
 <script></script>

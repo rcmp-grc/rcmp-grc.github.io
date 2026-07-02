@@ -422,7 +422,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 			<th data-label="Année" scope="rowgroup" rowspan="2" class="col-md-1">2014</th>
 			<th data-label="Passé ou saisi" scope="row" class="col-md-1">Passés</th>
 			<td data-label="Billets de 5 $ passés" class="text-right nowrap">666</td>
-			<td data-label="Billets de 10 $ passés" class="text-right nowrap">1 441</td>
+			<td data-label="Billets de 10 $ passés" class="text-right nowrap">1 441 </td>
 			<td data-label="Billets de 20 $ passés" class="text-right nowrap">44 389</td>
 			<td data-label="Billets de 50 $ passés" class="text-right nowrap">1 207</td>
 			<td data-label="Billets de 100 $ passés" class="text-right nowrap">14 663</td>

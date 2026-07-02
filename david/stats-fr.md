@@ -8,6 +8,8 @@ lang_url: stats.html
 
 <style>
 /* Better tables */
+table {margin-block: 2lh}
+table:has(+ details) {margin-block-end: 1lh}
 thead th {text-wrap: balance}
 caption {text-align: left}
 figure table {background-color: var(--rcmp-white, #fff)}

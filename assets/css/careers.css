@@ -1252,11 +1252,11 @@ a.btn-careers:hover {
 }
 
 .po-end-overlay {
-  position: relative;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
   z-index: 1;
-  display: flex;
-  align-items: flex-end;
-  min-height: 100%;
   padding-bottom: 0.5rem;
 }
 
@@ -1267,11 +1267,18 @@ a.btn-careers:hover {
 
 .po-end-overlay #wb-dtmd {
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
   gap: 0.4em;
-  margin-top: 0;
+  margin: 0;
   background: rgba(255, 255, 255, 0.85);
   padding: 0.5rem 1rem;
   border-radius: var(--radius-xs);
+}
+
+.po-end-overlay #wb-dtmd dt,
+.po-end-overlay #wb-dtmd dd {
+  margin: 0;
 }
 
 .po-content-full:has(.po-end) + .footer-contact,
@@ -1896,10 +1903,6 @@ a.btn-careers:hover {
   .fp-content {
     max-width: 100%;
     padding: 3rem 1.5rem;
-  }
-
-  .fp-section--scroll {
-    padding-bottom: 6rem;
   }
 }
 

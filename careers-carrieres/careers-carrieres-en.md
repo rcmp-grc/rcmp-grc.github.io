@@ -93,7 +93,6 @@ custom_css: /assets/css/careers.css
     </div>
   </section>
   <div class="po-end">
-    <div class="po-end-gradient"></div>
     <div class="po-end-overlay">
       <section class="po-pagedetails pagedetails container">
         <h2 class="wb-inv">Page details</h2>

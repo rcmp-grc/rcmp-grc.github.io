@@ -165,7 +165,6 @@ custom_css: /assets/css/careers.css
   </div><a class="btn btn-careers-grey mrgn-tp-lg" href="/careers-carrieres/police-officer/recruiting-events">View all recruitment events</a>
 </section>
 <div class="po-end">
-  <div class="po-end-gradient"></div>
   <div class="po-end-overlay">
     <section class="po-pagedetails pagedetails container">
       <h2 class="wb-inv">Page details</h2>

@@ -1248,7 +1248,7 @@ a.btn-careers:hover {
   position: relative;
   overflow: visible;
   background: url("/assets/img/po-end.jpg") bottom / cover no-repeat;
-  min-height: calc(40vh + 4rem);
+  min-height: calc(40vh);
 }
 
 .po-end-overlay {
@@ -1272,6 +1272,13 @@ a.btn-careers:hover {
   background: rgba(255, 255, 255, 0.85);
   padding: 0.5rem 1rem;
   border-radius: var(--radius-xs);
+}
+
+.po-content-full:has(.po-end) + .footer-contact,
+.container:has(#careers-fullpage) + .footer-contact {
+  margin-top: -4.5rem;
+  position: relative;
+  z-index: 2;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1517,7 +1524,7 @@ a.btn-careers:hover {
   }
 
   .po-end {
-    min-height: calc(30vh + 3rem);
+    min-height: calc(30vh);
   }
 
   .po-end-overlay {

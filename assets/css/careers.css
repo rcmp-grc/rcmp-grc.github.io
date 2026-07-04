@@ -1533,11 +1533,11 @@ a.btn-careers:hover {
   }
 
   .po-end-overlay {
-    bottom: 140px;
+    bottom: 80px;
   }
 
   .po-end-overlay .po-pagedetails {
-    padding-left: 1.5rem;
+    padding-left: 1rem;
   }
 }
 
@@ -1828,9 +1828,8 @@ a.btn-careers:hover {
 }
 
 .fp-section:not(.fp-section--scroll) {
-  height: 100svh;
-  max-height: 100svh;
-  overflow: hidden;
+  height: 75svh;
+  max-height: 75svh;
 }
 
 .fp-overlay {
@@ -1897,12 +1896,14 @@ a.btn-careers:hover {
 @media (max-width: 767px) {
   .fp-content h2 {
     font-size: 2.4rem;
-  }
+}
 
   .fp-content {
-    max-width: 100%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 50%;
+    max-width: 50%;
     padding: 3rem 1.5rem;
-  }
 }
 
 .fp-breadcrumb {

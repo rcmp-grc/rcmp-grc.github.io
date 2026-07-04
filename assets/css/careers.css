@@ -1896,7 +1896,7 @@ a.btn-careers:hover {
 @media (max-width: 767px) {
   .fp-content h2 {
     font-size: 2.4rem;
-}
+  }
 
   .fp-content {
     left: 0;
@@ -1904,6 +1904,7 @@ a.btn-careers:hover {
     width: 50%;
     max-width: 50%;
     padding: 3rem 1.5rem;
+  }
 }
 
 .fp-breadcrumb {

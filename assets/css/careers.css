@@ -1910,6 +1910,11 @@ a.btn-careers:hover {
     max-width: 55%;
     padding: 3rem 1.5rem;
   }
+
+  .cnt-wdth-lmtd main .gc-features li,
+  main .cnt-wdth-lmtd .gc-features li {
+    max-width: 100ch;
+  }
 }
 
 .fp-breadcrumb {

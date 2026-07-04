@@ -466,6 +466,7 @@ button,
 .careers-layout .gc-features ul.list-unstyled > li {
   display: flex;
   flex-direction: column;
+  max-width: 100ch;
 }
 
 .careers-layout .gc-features ul.list-unstyled > li:last-child {
@@ -1909,11 +1910,6 @@ a.btn-careers:hover {
     width: 55%;
     max-width: 55%;
     padding: 3rem 1.5rem;
-  }
-
-  section.gc-features .cnt-wdth-lmtd main li,
-  section.gc-features main .cnt-wdth-lmtd li {
-    max-width: 100ch;
   }
 }
 

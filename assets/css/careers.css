@@ -1255,9 +1255,8 @@ a.btn-careers:hover {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 80px;
   z-index: 1;
-  padding-bottom: 0.5rem;
 }
 
 .po-end-overlay .po-pagedetails {
@@ -1534,7 +1533,7 @@ a.btn-careers:hover {
   }
 
   .po-end-overlay {
-    padding-bottom: 0.25rem;
+    bottom: 140px;
   }
 
   .po-end-overlay .po-pagedetails {

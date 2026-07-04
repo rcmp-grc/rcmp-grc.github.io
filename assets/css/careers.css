@@ -1257,7 +1257,7 @@ a.btn-careers:hover {
   display: flex;
   align-items: flex-end;
   min-height: 100%;
-  padding-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .po-end-overlay .po-pagedetails {
@@ -1527,7 +1527,7 @@ a.btn-careers:hover {
   }
 
   .po-end-overlay {
-    padding-bottom: 1rem;
+    padding-bottom: 0.25rem;
   }
 
   .po-end-overlay .po-pagedetails {

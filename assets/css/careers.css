@@ -1828,8 +1828,8 @@ a.btn-careers:hover {
 }
 
 .fp-section:not(.fp-section--scroll) {
-  height: 75svh;
-  max-height: 75svh;
+  height: 100svh;
+  max-height: 100svh;
 }
 
 .fp-overlay {
@@ -1894,6 +1894,11 @@ a.btn-careers:hover {
 }
 
 @media (max-width: 767px) {
+  .fp-section:not(.fp-section--scroll) {
+    height: 75svh;
+    max-height: 75svh;
+  }
+
   .fp-content h2 {
     font-size: 2.4rem;
   }
@@ -1901,8 +1906,8 @@ a.btn-careers:hover {
   .fp-content {
     left: 0;
     transform: translateY(-50%);
-    width: 50%;
-    max-width: 50%;
+    width: 55%;
+    max-width: 55%;
     padding: 3rem 1.5rem;
   }
 }

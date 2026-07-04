@@ -102,11 +102,6 @@ custom_css: /assets/css/careers.css
           <dd><time property="dateModified">{{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}</time></dd>
         </dl>
       </section>
-      <div class="footer-contact">
-        <a class="btn btn-contact" href="#recruiter-contact-form">
-          {% if page.lang == 'fr' %}Communiquez avec un recruteur{% else %}Contact a recruiter{% endif %}
-        </a>
-      </div>
     </div>
   </div>
 </div>

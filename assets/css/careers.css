@@ -1258,26 +1258,25 @@ a.btn-careers:hover {
   pointer-events: none;
 }
 
+.po-end-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 65%, rgba(255, 255, 255, 0.9) 85%, var(--c-white) 100%);
+  pointer-events: none;
+}
+
 .po-end-overlay {
   position: relative;
   z-index: 1;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
+  align-items: flex-end;
   min-height: 100%;
-  padding: 6rem 0 1rem;
+  padding-bottom: 1.5rem;
 }
 
 .po-end-overlay .po-pagedetails {
   margin: 0;
   max-width: none;
-}
-
-.po-end-overlay .footer-contact {
-  position: static;
-  z-index: auto;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1527,10 +1526,7 @@ a.btn-careers:hover {
   }
 
   .po-end-overlay {
-    flex-direction: column;
-    align-items: stretch;
-    padding-top: 3rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
   }
 
   .po-end-overlay .po-pagedetails {

@@ -82,6 +82,11 @@
           <h1 class="wb-inv" property="name">{{ page.title }}</h1>
           {{ content }}
         </div>
+        <div class="footer-contact">
+          <a class="btn btn-contact" href="#recruiter-contact-form">
+            {% if page.lang == 'fr' %}Communiquer avec le personnel du recrutement{% else %}Contact a recruiter{% endif %}
+          </a>
+        </div>
       {% else %}
         <div class="container">
           {% if page.lead %}
@@ -111,13 +116,11 @@
           </section>
           {% endunless %}
         </div>
-        {% unless page.is_homepage %}
         <div class="footer-contact">
           <a class="btn btn-contact" href="#recruiter-contact-form">
             {% if page.lang == 'fr' %}Communiquez avec un recruteur{% else %}Contact a recruiter{% endif %}
           </a>
         </div>
-        {% endunless %}
       {% endif %}
     </main>
     {% include footer.html %}

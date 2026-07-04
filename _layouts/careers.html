@@ -93,7 +93,8 @@
             <h1 id="wb-cont" property="name" {% if page.h1_hidden %}class="wb-inv"{% endif %}>{{ page.title }}</h1>
           {% endif %}
           {{ content }}
-          <section class="pagedetails {% if page.is_homepage %}fp-pagedetails{% endif %}">
+          {% unless page.is_homepage %}
+          <section class="pagedetails">
             {% if page.lang == 'fr' %}
               <h2 class="wb-inv">Détails de la page</h2>
               <dl id="wb-dtmd">
@@ -108,12 +109,15 @@
               </dl>
             {% endif %}
           </section>
+          {% endunless %}
         </div>
+        {% unless page.is_homepage %}
         <div class="footer-contact">
           <a class="btn btn-contact" href="#recruiter-contact-form">
             {% if page.lang == 'fr' %}Communiquez avec un recruteur{% else %}Contact a recruiter{% endif %}
           </a>
         </div>
+        {% endunless %}
       {% endif %}
     </main>
     {% include footer.html %}

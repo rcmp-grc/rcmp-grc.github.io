@@ -1895,8 +1895,8 @@ a.btn-careers:hover {
 
 @media (max-width: 767px) {
   .fp-section:not(.fp-section--scroll) {
-    height: 75svh;
-    max-height: 75svh;
+    height: 60svh;
+    max-height: 60svh;
   }
 
   .fp-content h2 {

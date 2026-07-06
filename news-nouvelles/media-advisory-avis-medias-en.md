@@ -14,6 +14,9 @@ issued: 2026-05-08
 	{ border-top: 2px solid var(--rcmp-gold);
 	  margin-bottom: 10px;
 	 }
+	.summary
+	{ background-color: #f3f2f1;
+	}
 	.card
 	{ border-left: 2px solid var(--rcmp-grey-lt);
 	  border-right: 2px solid var(--rcmp-grey-lt);

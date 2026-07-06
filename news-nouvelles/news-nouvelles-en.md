@@ -53,7 +53,7 @@ details.wp-filter-group > summary.wp-filter-group-toggle .wp-filter-summary-labe
   word-break: break-word !important;
   display: inline !important;
 }
-details:nth-of-type(2) {
+details {
   border-top: 1px solid var(--c-grey-border);
 }
 .wp-filter-group .checkbox {

@@ -78,7 +78,7 @@ issued: 2026-05-21
       <div id="filtres"><h2 class="h6" id="news-filters">Filter</h2>
 		<p class="small">Select any of the following filters to narrow your search</p></div>
 		<details class="wp-filter-group">
-        <summary>Category
+        <summary class="wp-filter-group-toggle">Category
         </summary>
         <fieldset>
           <legend class="wb-inv">Category</legend>
@@ -130,7 +130,7 @@ issued: 2026-05-21
         </fieldset>
 	  </details>
 		<details class="wp-filter-group">
-        <summary>
+        <summary class="wp-filter-group-toggle">
        Published by
         </summary>
 			<fieldset>
@@ -175,8 +175,8 @@ issued: 2026-05-21
 			</select>
         </fieldset>
       </details>	
-		<details class="wp-filter-group"> 
-        <summary>
+		<details class="wp-filter-group">
+        <summary class="wp-filter-group-toggle">
        Publish date
         </summary>
 		  <fieldset>

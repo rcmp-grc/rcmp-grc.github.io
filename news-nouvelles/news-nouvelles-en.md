@@ -55,8 +55,8 @@ issued: 2026-05-21
     </section>
   </div>
 </div>
-<div class="row">
-	<div class="col-md-3">
+<div class="row" id="re-page">
+	<div class="col-md-3" col-sm-4" id="re-sidebar">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
 		<div class="col-sm-12 filters" id="wb-srch"> 	 	
 		<h2 class="h6" id="news-filters-heading">Search</h2> 	

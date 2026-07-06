@@ -25,7 +25,7 @@ issued: 2026-05-21
 	}
 	.badge-updated
 	{
-	background-color: #106165;
+	background-color: #c28b0a;
 	}
 	.filters
 	{

@@ -33,7 +33,7 @@ lead: News release
 	}
 	.card-tag p
 	{ font-weight: bold;
-	  font-color: #0b0c0c;
+	  font-color: #000000;
 	  margin-left: 10px;
 	}
 	.contact-us 

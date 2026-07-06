@@ -191,7 +191,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 </ul>
 </section>
 </div>
-<div class="col-md-4 mrgn-rght-0 card">
+<div class="col-md-4 card">
 <div class="card-tag"><h2 class="wb-inv">Event</h2>
 <p><i class="fa-solid fa-thumbtack"></i> Event details</p></div> 
 <dl>	

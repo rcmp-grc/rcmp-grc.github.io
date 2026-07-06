@@ -77,6 +77,11 @@ issued: 2026-05-21
 		<form role="form" method="get" action="#" id="filters" aria-label="Filter RCMP news">
       <div id="filtres"><h2 class="h6" id="news-filters">Filter</h2>
 		<p class="small">Select any of the following filters to narrow your search</p></div>
+	<details class="wp-filter-group">
+        <summary class="wp-filter-group-toggle">
+          <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Province or territory</span>
+        </summary>
+        <fieldset>		
       <div class="re-select-group">
         <label class="re-select-label" for="category">
         Category</label>
@@ -177,6 +182,7 @@ issued: 2026-05-21
 			 <div><p class="small">For example, 2005, 21/11/2014, May 27, 2024</p></div>
              <label class="small" for="dt_mindate">Before</label><input class="form-control" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text"></div>
 		</div>
+		</fieldset>
 		</form>
 		</div>
 	</aside>

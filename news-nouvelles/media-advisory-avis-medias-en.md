@@ -24,6 +24,7 @@ issued: 2026-05-08
 	  border-top: 2px solid #d0e6e7;
 	  margin-left: 0px;
 	  padding-left: 0px;
+	  margin-right: 5px;
 	  margin-bottom: 15px;
 	}
 	.card dl

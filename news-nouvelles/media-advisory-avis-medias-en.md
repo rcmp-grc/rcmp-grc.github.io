@@ -28,7 +28,7 @@ issued: 2026-05-08
 	}
 	.card p
 	{
-	  margin-left: 10px;
+	  padding-left: 10px;
 	}
 	.card-tag 
 	{ padding-left: 0px;	  

@@ -77,8 +77,8 @@ issued: 2026-05-21
 		<form role="form" method="get" action="#" id="filters" aria-label="Filter RCMP news">
       <div id="filtres"><h2 class="h6" id="news-filters">Filter</h2>
 		<p class="small">Select any of the following filters to narrow your search</p></div>
-		<details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Category</span>
+		<details>
+        <summary>Category
         </summary>
         <fieldset>
           <legend class="wb-inv">Category</legend>
@@ -129,9 +129,9 @@ issued: 2026-05-21
 				  </div>		
         </fieldset>
 	  </details>
-		<details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">
-       Published by</span>
+		<details>
+        <summary>
+       Published by
         </summary>
 			<fieldset>
           <legend class="wb-inv">Territory or province</legend>
@@ -175,9 +175,9 @@ issued: 2026-05-21
 			</select>
         </fieldset>
       </details>	
-		<details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">
-       Publish date</span>
+		<details>
+        <summary>
+       Publish date
         </summary>
 		  <fieldset>
 			 <div><legend class="wb-inv">Publish date</legend>

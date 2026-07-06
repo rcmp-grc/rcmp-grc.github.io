@@ -18,10 +18,10 @@ issued: 2026-05-08
 	{ background-color: #f3f2f1;
 	}
 	.card
-	{ border-left: 2px solid var(--rcmp-grey-lt);
-	  border-right: 2px solid var(--rcmp-grey-lt);
-	  border-bottom: 2px solid var(--rcmp-grey-lt);
-	  border-top: 2px solid var(--rcmp-grey-lt);
+	{ border-left: 2px solid #d0e6e7;
+	  border-right: 2px solid #d0e6e7;
+	  border-bottom: 2px solid #d0e6e7;
+	  border-top: 2px solid #d0e6e7;
 	  margin-left: 0px;
 	  padding-left: 0px;
 	  margin-bottom: 15px;
@@ -32,12 +32,12 @@ issued: 2026-05-08
 	}
 	.card-tag 
 	{ padding-left: 0px;	  
-	  background-color: var(--rcmp-grey-lt);
+	  background-color: #d0e6e7;
 	  max-width: 11rem;
 	}
 	.card-tag p
 	{ font-weight: bold;
-	  font-color: #0b0c0c;
+	  font-color: #000000;
 	  margin-left: 10px;
 	}
 	.contact-us 

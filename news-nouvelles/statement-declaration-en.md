@@ -133,6 +133,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	border-top: 1px solid #590d17;
 	}
 </style>
+<article>
 <p class="lead">Earlier today, employees at RCMP National Headquarters received an unexpected visitor.</p>
 <div class="explore">
 <p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May 14, 2026 - Hay River, Northwest Territories<br>
@@ -193,4 +194,4 @@ a.news-topic-1:hover, a.news-topic-1:active {
 </ol>
 </section>
 </div>
-
+</article>

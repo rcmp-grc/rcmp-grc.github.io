@@ -52,8 +52,6 @@ details.wp-filter-group > summary.wp-filter-group-toggle .wp-filter-summary-labe
   white-space: normal !important;
   word-break: break-word !important;
   display: inline !important;
-}
-details {
   border-top: 1px solid var(--c-grey-border);
 }
 .wp-filter-group .checkbox {

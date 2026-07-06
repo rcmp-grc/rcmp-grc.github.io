@@ -77,7 +77,7 @@ issued: 2026-05-21
 		<form role="form" method="get" action="#" id="filters" aria-label="Filter RCMP news">
       <div id="filtres"><h2 class="h6" id="news-filters">Filter</h2>
 		<p class="small">Select any of the following filters to narrow your search</p></div>
-		<details class="summary">
+		<details class="wp-filter-group">
         <summary>Category
         </summary>
         <fieldset>
@@ -129,7 +129,7 @@ issued: 2026-05-21
 				  </div>		
         </fieldset>
 	  </details>
-		<details class="summary">
+		<details class="wp-filter-group">
         <summary>
        Published by
         </summary>
@@ -175,7 +175,7 @@ issued: 2026-05-21
 			</select>
         </fieldset>
       </details>	
-		<details class="summary"> 
+		<details class="wp-filter-group"> 
         <summary>
        Publish date
         </summary>

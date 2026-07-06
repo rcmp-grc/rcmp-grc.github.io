@@ -24,7 +24,6 @@ issued: 2026-05-08
 	  border-top: 2px solid #d0e6e7;
 	  margin-left: 0px;
 	  padding-left: 0px;
-	  margin-right: 5px;
 	  margin-bottom: 15px;
 	}
 	.card dl
@@ -192,7 +191,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 </ul>
 </section>
 </div>
-<div class="col-md-4 card">
+<div class="col-md-4 mrgn-rght-0 card">
 <div class="card-tag"><h2 class="wb-inv">Event</h2>
 <p><i class="fa-solid fa-thumbtack"></i> Event details</p></div> 
 <dl>	

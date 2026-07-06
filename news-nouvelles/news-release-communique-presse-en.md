@@ -14,10 +14,10 @@ lead: News release
 	  margin-bottom: 10px;
 	 }
 	.card
-	{ border-left: 1px solid #8ac0c3;
-	  border-right: 1px solid #8ac0c3;
-	  border-bottom: 1px solid #8ac0c3;
-	  border-top: 1px solid #8ac0c3;
+	{ border-left: 1px solid #c28b0a;
+	  border-right: 1px solid #c28b0a;
+	  border-bottom: 1px solid #c28b0a;
+	  border-top: 1px solid #c28b0a;
 	  margin-left: 0px;
 	  padding-left: 0px;
 	  margin-bottom: 15px;
@@ -28,7 +28,7 @@ lead: News release
 	}
 	.card-tag 
 	{ padding-left: 0px;	  
-	  background-color: #8ac0c3;
+	  background-color: #c28b0a;
 	  max-width: 11rem;
 	}
 	.card-tag p

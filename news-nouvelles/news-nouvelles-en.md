@@ -53,16 +53,9 @@ details.wp-filter-group summary.wp-filter-group-toggle .wp-filter-summary-label 
   word-break: break-word !important;
   display: inline !important;
 }
-.wp-filter-group .checkbox {
-  margin-bottom: 5px;
-}
-.wp-filter-group .checkbox label {
-  align-items: flex-start !important;
-}
-.wp-filter-group .checkbox input[type="checkbox"] {
-  margin-top: 6px !important;
-  flex-shrink: 0 !important;
-}
+#summary
+	{border-top: 1px solid var(--c-grey-border);	
+	}
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">

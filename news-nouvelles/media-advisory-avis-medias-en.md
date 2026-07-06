@@ -188,13 +188,14 @@ a.news-topic-1:hover, a.news-topic-1:active {
 <div class="col-md-4 card">
 <div class="card-tag"><h2 class="wb-inv">Event</h2>
 <p><i class="fa-solid fa-thumbtack"></i> Event details</p></div> 
-<dl class="dl-horizontal">	
+<dl>	
 <dt>Date</dt> <dd>Saturday, May 23, 2026</dd>
 <dt>Time</dt> <dd>1-4 pm (local time)</dd>
 <dt>Location</dt>
 <dd><address>Northern Community Recreation Centre<br>
 100 Aurora Road<br>
 Iqaluit, Nunavut</address></dd>
+</dl>
 </div>
 </div>
 <div class="clearfix"></div>	

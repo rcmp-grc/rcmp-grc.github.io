@@ -39,6 +39,7 @@ issued: 2026-05-21
   flex-wrap: nowrap !important;
   gap: 6px !important;
   white-space: normal !important;
+  border-top: 1px solid var(--c-grey-border);  
 }
 details.wp-filter-group > summary.wp-filter-group-toggle .wp-filter-chevron {
   flex-shrink: 0 !important;
@@ -52,7 +53,6 @@ details.wp-filter-group > summary.wp-filter-group-toggle .wp-filter-summary-labe
   white-space: normal !important;
   word-break: break-word !important;
   display: inline !important;
-  border-top: 1px solid var(--c-grey-border);
 }
 .wp-filter-group .checkbox {
   margin-bottom: 5px;

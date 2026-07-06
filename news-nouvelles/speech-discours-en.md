@@ -181,6 +181,7 @@ Check against deliver</strong></p>
 		<li>youth programming</li>
     <li>public safety partnerships</li>
 	</ul>
+</section>
 <section id="s3">
 <h2 class="h3">Closing remarks</h2>	
 	<p>Before I conclude, I would like to thank:</p>

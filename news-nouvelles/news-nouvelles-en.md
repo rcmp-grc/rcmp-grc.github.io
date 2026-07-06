@@ -77,13 +77,9 @@ issued: 2026-05-21
 		<form role="form" method="get" action="#" id="filters" aria-label="Filter RCMP news">
       <div id="filtres"><h2 class="h6" id="news-filters">Filter</h2>
 		<p class="small">Select any of the following filters to narrow your search</p></div>
-      <details class="wp-filter-group">  
-        <summary class="wp-filter-group-toggle">
-          <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">
-        Category</span>
-        </summary>
-        <fieldset>
-          <legend class="wb-inv">Category</legend>
+      <div class="re-select-group">
+        <label class="re-select-label" for="category">
+        Category</label>
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span></label>
           </div>
@@ -129,15 +125,11 @@ issued: 2026-05-21
 		<div class="checkbox">
                 <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span></label>
 				  </div>		
-        </fieldset>
-	  </details>
-		<details class="summary">
-        <summary>
-       Published by
-        </summary>
-			<fieldset>
-          <legend class="wb-inv">Territory or province</legend>
-            <label class="small" mrgn-lft-0 for="territory">Territory or province</label>
+	  </div>
+		 <div class="re-select-group">
+        <label class="re-select-label" for="territory">
+       Published by</label>
+            <div class="small" mrgn-lft-0 for="territory">Territory or province</div>
             <select id="territory" name="territory" class="form-control">
 				<option data-filter="territory" value="All"><span class="cb-text">All territories and provinces</span></option>
 				<option data-filter="territory" value="Alberta"><span class="cb-text">Alberta</span></option>
@@ -154,7 +146,9 @@ issued: 2026-05-21
                 <option data-filter="territory" value="Saskatchewan"><span class="cb-text">Saskatchewan</span></option>
                 <option data-filter="territory" value="Yukon"><span class="cb-text">Yukon</span></option>
 			</select>
-		    <label class="small mrgn-lft-0 mrgn-tp-md" for="region">National, divisional or regional policing</label>
+		 </div>
+		    <div class="re-select-group">
+        <label class="re-select-label" for="region">National, divisional or regional policing</label>
 			<select id="region" name="region" class="form-control">	
 			<option data-filter="region" value="All"><span class="cb-text">All national, divisional and regional policing</span></option>	
 			<option data-filter="region" value="RCMP National Headquarters"><span class="cb-text">National Headquarters</span></option>	
@@ -175,18 +169,14 @@ issued: 2026-05-21
             <option data-filter="region" value="Federal Policing Northwest Region"><span class="cb-text">Northwest Region</span></option>
             <option data-filter="region" value="Federal Policing Pacific Region"><span class="cb-text">Pacific Region</span></option>
 			</select>
-        </fieldset>
-      </details>	
-		<details class="summary"> 
-        <summary>
-       Publish date
-        </summary>
-		  <fieldset>
+			</div>
+		<div class="re-select-group">
+        <label class="re-select-label" for="date">
+       Publish date</label>
 			 <div><legend class="wb-inv">Publish date</legend>
 			 <div><p class="small">For example, 2005, 21/11/2014, May 27, 2024</p></div>
              <label class="small" for="dt_mindate">Before</label><input class="form-control" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text"></div>
-		  </fieldset>
-		</details>
+		</div>
 		</form>
 		</div>
 	</aside>

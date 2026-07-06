@@ -53,7 +53,7 @@ details.wp-filter-group summary.wp-filter-group-toggle .wp-filter-summary-label 
   word-break: break-word !important;
   display: inline !important;
 }
-#summary
+details.wp-filter-group
 	{border-top: 1px solid var(--c-grey-border);	
 	}
 </style>

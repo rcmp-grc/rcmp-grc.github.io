@@ -250,6 +250,20 @@ issued: 2026-05-21
     </section>
 </div>
 <script>
+	(function () {
+  'use strict';
+	Object.keys(openCats).forEach(function(cat) {
+      var cb = document.querySelector('input[data-filter="' + cat + '"]');
+      if (cb) {
+        var details = cb.closest('details.wp-filter-group');
+        if (details) details.open = true;}
+    });
+  }
+  applyQueryString();
+  refresh();
+}());
+</script>
+<script>
 (function () {
   'use strict';
   var lang = document.documentElement.lang === 'fr' ? 'fr' : 'en';

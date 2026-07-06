@@ -133,6 +133,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	border-top: 1px solid #590d17;
 	}
 </style>
+<article>
 <p class="lead">It is not every day a polar bear gets invited indoors and offered coffee before the officers.</p>
 <div class="explore">
 <p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May 14, 2026 - Ottawa, Ontario<br>
@@ -237,4 +238,4 @@ Check against deliver</strong></p>
 </ol>
 </section>
 </div>
-
+</article>

@@ -14,12 +14,6 @@ issued: 2026-05-08
 	{ border-top: 2px solid var(--rcmp-gold);
 	  margin-bottom: 10px;
 	 }
-	.no-decoration 
-	{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
 	.card-tag-located
 	{ padding-left: 0px;	  
 	  background-color: #ef8f9c;
@@ -151,8 +145,8 @@ a.news-topic-1:hover, a.news-topic-1:active {
 <div class="mrgn-tp-sm mrgn-bttm-md">
 <ul class="list-inline">		
 <li><i class="fa-solid fa-calendar-days"></i>&nbsp;May&nbsp;14, 2026&nbsp;|</li>
-<li><i class="fa-solid fa-location-dot"></i>&nbsp;Richmond, British Columbia&nbsp;|</li>
-<li><i class="fa-regular fa-circle-user"></i>&nbsp;<a href="#">National Communications and Public Affairs</a></li>
+<li>&nbsp;<i class="fa-solid fa-location-dot"></i>&nbsp;Richmond, British Columbia&nbsp;|</li>
+<li>&nbsp;<i class="fa-regular fa-circle-user"></i>&nbsp;<a href="#">National Communications and Public Affairs</a></li>
 </ul>
 </div>
 <section id="page-navigation">

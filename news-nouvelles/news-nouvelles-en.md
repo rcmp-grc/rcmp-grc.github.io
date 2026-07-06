@@ -78,7 +78,7 @@ issued: 2026-05-21
       <div id="filtres"><h2 class="h6" id="news-filters">Filter</h2>
 		<p class="small">Select any of the following filters to narrow your search</p></div>
 		<details class="summary">
-        Category
+        <summary>Category
         </summary>
         <fieldset>
           <legend class="wb-inv">Category</legend>

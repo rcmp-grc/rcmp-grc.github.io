@@ -132,6 +132,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	border-top: 1px solid #590d17;
 	}
 </style>
+<article>
 <div class="card col-md-8">
 	<div id="updates" class="card-tag"><p><i class="fa-regular fa-pen-to-square"></i> Updated</p></div>
   <ul>
@@ -260,3 +261,4 @@ a.news-topic-1:hover, a.news-topic-1:active {
 </ol>
 </section>
 </div>
+</article>

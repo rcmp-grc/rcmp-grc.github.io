@@ -12,9 +12,6 @@ issued: 2026-05-21
 ---
 
 <style>
-	.summary
-	{ background-color: #f2f2f2;
-	}
 	dl.dlist
 	{
 	padding: 10px;
@@ -29,12 +26,6 @@ issued: 2026-05-21
 	.badge-updated
 	{
 	background-color: #404040;
-	}
-	.filters
-	{
-	background-color: #f2f2f2;
-	border-top: 2px solid #70101d;
-	padding: 5px 15px 5px 15px;
 	}
 </style>
 <p>Read the RCMP news and communications.</p>

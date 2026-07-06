@@ -33,21 +33,20 @@ issued: 2026-05-21
 	border-top: 2px solid #70101d;
 	padding: 5px 15px 5px 15px;
 	}
-  details.wp-filter-group > summary.wp-filter-group-toggle {
+  details.wp-filter-group summary.wp-filter-group-toggle {
   display: flex !important;
   align-items: flex-start !important;
   flex-wrap: nowrap !important;
   gap: 6px !important;
   white-space: normal !important;
-  border-top: 1px solid var(--c-grey-border);  
 }
-details.wp-filter-group > summary.wp-filter-group-toggle .wp-filter-chevron {
+details.wp-filter-group summary.wp-filter-group-toggle .wp-filter-chevron {
   flex-shrink: 0 !important;
   width: 14px !important;
   align-self: center !important;
   margin-top: 0 !important;
 }
-details.wp-filter-group > summary.wp-filter-group-toggle .wp-filter-summary-label {
+details.wp-filter-group summary.wp-filter-group-toggle .wp-filter-summary-label {
   flex: 1 !important;
   min-width: 0 !important;
   white-space: normal !important;

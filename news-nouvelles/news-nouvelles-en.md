@@ -363,55 +363,67 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       if (mode === 'oldest') return a.updated.localeCompare(b.updated);
       return 0;
     });
-  }
-  function getActiveFilters() {
-    var active = { category: [], territory: [], region: [] };
-    checkboxes.forEach(function (cb) {
+  }  
+	function getActiveFilters() {
+    var active = { category: [], location: [], territory: [], region: [] };
+    Array.prototype.forEach.call(checkboxes, function (cb) {
       if (cb.checked) active[cb.dataset.filter].push(cb.value);
+    });
+    Array.prototype.forEach.call(selects, function (sel) {
+      if (sel.value) active[sel.dataset.filter].push(sel.value);
     });
     return active;
   }
   function filterData(filters) {
-    return PROFILES.filter(function (p) {
-    return !filters.category.length || filters.category.indexOf(p.category) > -1;
-	return !filters.location.length || filters.location.indexOf(p.location) > -1;	
-	return !filters.territory.length || filters.territory.indexOf(p.territory) > -1;
-	return !filters.region.length || filters.region.indexOf(p.region) > -1;	
+    return EVENTS.filter(function(e) {
+      var okP = !filters.category.length || filters.category.indexOf(e.category) > -1;
+      var okE = !filters.location.length || filters.location.indexOf(e.location) > -1;
+      var okJ = !filters.territory.length || filters.territory.indexOf(e.territory) > -1;
+      var okF = !filters.region.length || filters.region.indexOf(e.region) > -1;
+      return okP && okE && okJ && okF;
     });
   }
   function renderTags(filters) {
-    activeTagsEl.innerHTML = '';
-    var allTags = [];
-    Object.keys(filters).forEach(function (cat) {
-      filters[cat].forEach(function (val) {
-        allTags.push({ cat: cat, val: val });
-      });
+    activeTagEl.innerHTML = '';
+    var hasAny = Object.keys(filters).some(function(cat) {
+      return filters[cat].length > 0;
     });
-    if (!allTags.length) return;
-    var showingLabel = document.createElement('span');
-    showingLabel.className = 'wp-filter-showing-label';
-    showingLabel.textContent = t.showing;
-    activeTagsEl.appendChild(showingLabel);
-    allTags.forEach(function (item, index) {
-      var label = item.cat === 'category' ? (t.categoryLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
-	  var label = item.cat === 'location' ? (t.locationLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
-	  var label = item.cat === 'territory' ? (t.territoryLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
-	  var label = item.cat === 'region' ? (t.regionLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
-      if (index > 0) {
-        var sep = document.createElement('span');
-        sep.className = 'wp-filter-tag-sep';
-        sep.textContent = t.orSep;
-        activeTagsEl.appendChild(sep);
-      }
-      var tag = document.createElement('span');
-      tag.className = 'wp-filter-tag';
-      tag.innerHTML =
-        label + ' <button type="button" aria-label="' + t.removeFilter + label + '">\u2715</button>';
-      tag.querySelector('button').addEventListener('click', function () {
-        var cb = document.querySelector('input[data-filter="' + item.cat + '"][value="' + item.val + '"]');
-        if (cb) { cb.checked = false; refresh(); }
+    activeTagEl.style.display = hasAny ? '' : 'none';
+    if (!hasAny) return;
+    Object.keys(filters).forEach(function(cat) {
+      if (!filters[cat].length) return;
+      var row = document.createElement('div');
+      row.className = 're-filter-row';
+      var label = document.createElement('span');
+      label.className = 're-filter-row-label';
+      label.textContent = UI[LANG].catLabel[cat] + ':';
+      row.appendChild(label);
+      var tagsWrap = document.createElement('span');
+      tagsWrap.className = 're-filter-row-tags';
+      filters[cat].forEach(function(val, idx) {
+        if (idx > 0) {
+          var sep = document.createElement('span');
+          sep.className = 'wp-filter-tag-sep';
+          sep.textContent = LANG === 'fr' ? 'ou' : 'or';
+          tagsWrap.appendChild(sep);
+        }
+        var tag = document.createElement('span');
+        tag.className = 'wp-filter-tag';
+        tag.innerHTML = val + ' <button type="button" aria-label="' + (LANG === 'fr' ? 'Supprimer le filtre : ' : 'Remove filter: ') + val + '">\u2715</button>';
+        tag.querySelector('button').addEventListener('click', function() {
+          var cb = document.querySelector('input[data-filter="' + cat + '"][value="' + val + '"]');
+          if (cb) {
+            cb.checked = false;
+          } else {
+            var sel = document.querySelector('select[data-filter="' + cat + '"]');
+            if (sel) sel.value = '';
+          }
+          refresh();
+        });
+        tagsWrap.appendChild(tag);
       });
-      activeTagsEl.appendChild(tag);
+      row.appendChild(tagsWrap);
+      activeTagEl.appendChild(row);
     });
   }
   function renderGrid(data, page) {

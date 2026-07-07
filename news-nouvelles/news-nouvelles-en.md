@@ -219,9 +219,7 @@ issued: 2026-05-21
         </button>
       </div>
     </nav>
-  </div>
-</div>
-<div class="container mrgn-lft-0">
+<div class="container">
 			<section class="gc-features col-md-12 mrgn-bttm-lg">
 				<h2 class="h3">Features</h2>
 				<div class="row wb-eqht">
@@ -249,6 +247,8 @@ issued: 2026-05-21
       </div>
     </section>
 </div>
+	 </div>
+</div>  
 <script>
 	(function () {
   'use strict';

@@ -320,11 +320,11 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       updated:   r[8],
     };
   });
-  var PER_PAGE    = 10;
+  var PER_PAGE    = 9;
   var currentPage = 1;
   var activeData  = PROFILES.slice();
   var checkboxes  = document.querySelectorAll('#news-filters input[type="checkbox"]');
-  var selects     = document.querySelectorAll('#news-filters select.re-select');
+  var selects     = document.querySelectorAll('#news-filters select.form-control');
   var grid         = $('news-grid');
   var countNum     = $('news-count-num');
   var noResults    = $('news-no-results');
@@ -333,7 +333,6 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   var nextBtn      = $('news-next');
   var activeTagsEl = $('news-active-filters');
   var pagination   = $('rcmp-content-page');
-  var checkboxes   = document.querySelectorAll('#news-filters input[type="checkbox"]');
   function updateBadges() {
     checkboxes.forEach(function (cb) {
       var cat = cb.dataset.filter;

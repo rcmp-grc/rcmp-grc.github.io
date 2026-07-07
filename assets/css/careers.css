@@ -37,6 +37,10 @@
   --font-size-body-md: 1.125rem;
 }
 
+html { 
+  scroll-padding-block-start: var(--nav-height); 
+}
+
 #loader {
   position: fixed;
   inset: 0;

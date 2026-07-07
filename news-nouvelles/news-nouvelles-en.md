@@ -363,10 +363,10 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   }
   function filterData(filters) {
     return EVENTS.filter(function(e) {
-      var okP = !filters.category.length || filters.category.indexOf(e.category) > -1;
-      var okE = !filters.location.length || filters.location.indexOf(e.location) > -1;
-      var okJ = !filters.territory.length || filters.territory.indexOf(e.territory) > -1;
-      var okF = !filters.region.length || filters.region.indexOf(e.region) > -1;
+      var okP = !filters.category.length || filters.category.indexOf(p.category) > -1;
+      var okE = !filters.location.length || filters.location.indexOf(p.location) > -1;
+      var okJ = !filters.territory.length || filters.territory.indexOf(p.territory) > -1;
+      var okF = !filters.region.length || filters.region.indexOf(p.region) > -1;
       return okP && okE && okJ && okF;
     });
   }

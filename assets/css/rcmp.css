@@ -96,46 +96,19 @@ main nav[aria-label="On this page"] + section > h2:first-child,
 main nav[aria-label="Sur cette page"] + section > h2:first-child {
   margin-top: 0;
 }
-
-.gc-link-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.gc-link-list li {
-  border-bottom: 1px solid var(--color-border-tertiary);
-}
-.gc-link-list li:first-child {
-  border-top: 1px solid var(--color-border-tertiary);
-}
 .gc-pdf-link {
   display: flex;
   align-items: flex-start;
   gap: 12px;
   padding: 12px 4px;
-  color: #284162;
+  color: var(--c-link-blue);
   text-decoration: underline;
   line-height: 1.5;
   cursor: pointer;
 }
 .gc-pdf-link:focus {
-  outline: 3px solid #ffbf47;
+  outline: 3px solid var(--c-focus-alt);
   outline-offset: 2px;
-}
-.gc-pdf-link .fa-file-arrow-down {
-  flex-shrink: 0;
-  font-size: 28px;
-  margin-top: 10px;
-}
-.gc-link-title {
-  display: block;
-}
-.gc-link-meta {
-  display: block;
-  color: var(--color-text-secondary);
-  font-weight: 400;
-  text-decoration: none;
-  margin-top: 2px;
 }
 
 /* =============================================================================

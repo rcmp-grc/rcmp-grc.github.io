@@ -1249,18 +1249,8 @@ a.btn-careers:hover {
   position: relative;
   background: url("/assets/img/po-end.jpg") bottom / cover no-repeat;
   min-height: 45vh;
-  -webkit-mask-image: linear-gradient(
-    to bottom,
-    transparent 0%,
-    black 20%,
-    black 100%
-  );
-  mask-image: linear-gradient(
-    to bottom,
-    transparent 0%,
-    black 20%,
-    black 100%
-  );
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 100%);
+  mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 100%);
 }
 
 .po-end-overlay {
@@ -1274,6 +1264,7 @@ a.btn-careers:hover {
 .po-end-overlay .po-pagedetails {
   margin: 0;
   max-width: none;
+  padding-left: 15px;
 }
 
 .po-end-overlay #wb-dtmd {
@@ -1547,10 +1538,6 @@ a.btn-careers:hover {
   .po-end-overlay {
     bottom: 80px;
   }
-
-  .po-end-overlay .po-pagedetails {
-    padding-left: 1rem;
-  }
 }
 
 @media (max-width: 599px) {
@@ -1648,9 +1635,6 @@ a.btn-careers:hover {
   padding-left: 1em;
   position: relative;
 }
-.gc-subway:not(.gc-subway-index) ul li a {
-  display: inline-block;
-}
 .gc-subway:not(.gc-subway-index) ul li a.active {
   color: var(--c-grey-dark);
   cursor: default;
@@ -1681,20 +1665,10 @@ a.btn-careers:hover {
   -webkit-box-shadow: 0 0 0 10px var(--c-yellow) inset;
   box-shadow: 0 0 0 10px var(--c-yellow) inset;
 }
-.gc-subway:not(.gc-subway-index) ul li:last-child {
-  border-left-color: transparent;
-  padding-bottom: 0;
-}
 .gc-subway:not(.gc-subway-index) ul li a:not(.active):focus::before,
 .gc-subway:not(.gc-subway-index) ul li a:not(.active):hover::before {
   -webkit-box-shadow: 0 0 0 4px var(--c-white) inset;
   box-shadow: 0 0 0 4px var(--c-white) inset;
-}
-.gc-subway:not(.gc-subway-index) ul li ul {
-  margin: 1em 0 0;
-}
-.gc-subway:not(.gc-subway-index) ul li ul.noline li {
-  border-left-color: transparent;
 }
 .gc-subway:not(.gc-subway-index) ul li ul.noline li a.active::after {
   background-color: #26374a;

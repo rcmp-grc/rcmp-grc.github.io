@@ -137,7 +137,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 <article>
 <div class="card-located col-md-8">	
 <div id="located" class="card-tag-located"><p><i class="fa-solid fa-location-dot"></i> Located</p></div>
-	<p><strong>May 10, 2026, 14:58</strong>: Bob was found safe</p>
+<p><strong>May 10, 2026, 14:58</strong>: Bob was found safe</p>
 </div>
 <div class="clearfix"></div>	
 <p class="lead">Bob the Polar Bear is the Royal Canadian Mounted Police’s newest unofficial northern mascot.</p>
@@ -237,7 +237,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 <ul class="list-inline">     
 <li>
      <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
-          <span class="wb-inv">X: </span>X: Royal Canadian Mounted Police</a>
+     <span class="wb-inv">X: </span>X: Royal Canadian Mounted Police</a>
 </li>	
 <li>
      <a href="https://www.facebook.com/rcmpgrc" class="facebook" rel="external">
@@ -251,7 +251,6 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	</section>
 	</div>
 	</section>
-</div>
 <div class="explore">	
 <section id="topics">	
 <h2 class="h3">Explore related topics</h2>

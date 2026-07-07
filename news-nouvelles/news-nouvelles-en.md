@@ -77,12 +77,7 @@ issued: 2026-05-21
 		<form role="form" method="get" action="#" id="filters" aria-label="Filter RCMP news">
       <div id="filtres"><h2 class="h6" id="news-filters">Filter</h2>
 		<p class="small">Select any of the following filters to narrow your search</p></div>
-		<div class="btn-group mrgn-bttm-sm">
-  <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;on&quot;}">Expand all</button>
-  <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
-</div>
-<div id="expand-collapse">
-		<details>
+		<details open>
         <summary>Category
         </summary>
         <fieldset>
@@ -134,7 +129,7 @@ issued: 2026-05-21
 				  </div>		
         </fieldset>
 	  </details>
-		<details>
+		<details open>
         <summary>
        Published by
         </summary>
@@ -180,7 +175,7 @@ issued: 2026-05-21
 			</select>
         </fieldset>
       </details>	
-		<details>
+		<details open>
         <summary>
        Publish date
         </summary>
@@ -190,7 +185,6 @@ issued: 2026-05-21
              <label class="small" for="dt_mindate">Before</label><input class="form-control" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text"></div>
 		  </fieldset>
 		</details>
-</div>
 		</form>
 		</div>
 	</aside>

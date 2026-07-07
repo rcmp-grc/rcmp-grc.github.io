@@ -221,7 +221,7 @@ issued: 2026-05-21
     </nav>
 	  </div>
 </div>  
-<div class="clearfix"></div>
+<div class="col-md-12">
 <div class="container">
 			<section class="gc-features mrgn-bttm-lg">
 				<h2 class="h3">Features</h2>
@@ -249,6 +249,7 @@ issued: 2026-05-21
         </div>
       </div>
     </section>
+</div>
 </div>
 <script>
 	(function () {

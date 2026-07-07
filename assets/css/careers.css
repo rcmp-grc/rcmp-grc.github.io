@@ -38,7 +38,9 @@
 }
 
 html { 
-  scroll-padding-block-start: var(--nav-height); 
+  /* scroll-padding-block-start: var(--nav-height); 
+  outline: none;
+  box-shadow: none; */
 }
 
 #loader {

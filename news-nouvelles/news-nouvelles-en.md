@@ -396,7 +396,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
         }
         var tag = document.createElement('span');
         tag.className = 'wp-filter-tag';
-        tag.innerHTML = val + ' <button type="button" aria-label="' + (LANG === 'fr' ? 'Supprimer le filtre : ' : 'Remove filter: ') + val + '">\u2715</button>';
+        tag.innerHTML = val + ' <button type="button" aria-label="' + (LANG === 'fr' ? 'Supprimer le filtre : ' : 'Remove filter: ') + val + '">\u00A0</button>';
         tag.querySelector('button').addEventListener('click', function() {
           var cb = document.querySelector('input[data-filter="' + cat + '"][value="' + val + '"]');
           if (cb) {

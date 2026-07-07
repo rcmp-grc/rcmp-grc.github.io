@@ -136,8 +136,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 <article>
 <p class="lead">Earlier today, employees at RCMP National Headquarters received an unexpected visitor.</p>
 <div class="explore">
-<p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May 14, 2026 - Hay River, Northwest Territories<br>
-<i class="fa-regular fa-circle-user"></i> <a href="#">National Communications and Public Affairs</a></p></div>
+<div class="mrgn-tp-sm mrgn-bttm-md"><i class="fa-solid fa-calendar-days"></i>&nbsp;May&nbsp;14, 2026&nbsp;|&nbsp;<i class="fa-solid fa-location-dot"></i>&nbsp;Hay River, Northwest Territories&nbsp;|&nbsp;<i class="fa-regular fa-circle-user"></i>&nbsp;<a href="#">National Communications and Public Affairs</a></div></div>
 <p>Earlier today, employees at RCMP National Headquarters received an unexpected visitor when Bob the Polar Bear, the RCMP’s unofficial northern mascot, entered the main lobby carrying what witnesses described as “extremely strong confidence” and a travel mug.</p>
  <p>At no time was public safety at risk.</p>	
  <p>Bob’s visit appears to have been connected to an informal campaign advocating for longer outdoor lunch breaks during winter months. Discussions reportedly ended after officials agreed that “fresh air is important” and someone provided frozen salmon snacks.</p>

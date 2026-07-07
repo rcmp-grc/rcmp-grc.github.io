@@ -37,10 +37,13 @@
   --font-size-body-md: 1.125rem;
 }
 
-html { 
-  /* scroll-padding-block-start: var(--nav-height); 
+:target {
   outline: none;
-  box-shadow: none; */
+  box-shadow: none;
+}
+
+html { 
+  scroll-padding-block-start: var(--nav-height); 
 }
 
 #loader {

@@ -77,7 +77,7 @@ issued: 2026-05-21
 		<form role="form" method="get" action="#" id="filters" aria-label="Filter RCMP news">
       <div id="filtres"><h2 class="h6" id="news-filters">Filter</h2>
 		<p class="small">Select any of the following filters to narrow your search</p></div>
-		<div class="btn-group mrgn-bttm-sm mrgn-tp-md">
+		<div class="btn-group mrgn-bttm-sm mrgn-tp-md mrgn-lft-md">
   <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;on&quot;}">Expand all</button>
   <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
 </div>

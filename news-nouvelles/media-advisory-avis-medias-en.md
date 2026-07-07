@@ -29,7 +29,7 @@ issued: 2026-05-08
 	.card dl
 	{
 	  padding-left: 10px;
-	  padding-right: 5px;	
+	  padding-right: 0px;	
 	}
 	.card p
 	{

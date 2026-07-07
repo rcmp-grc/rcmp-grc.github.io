@@ -77,6 +77,11 @@ issued: 2026-05-21
 		<form role="form" method="get" action="#" id="filters" aria-label="Filter RCMP news">
       <div id="filtres"><h2 class="h6" id="news-filters">Filter</h2>
 		<p class="small">Select any of the following filters to narrow your search</p></div>
+		<div class="btn-group mrgn-bttm-sm">
+  <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;on&quot;}">Expand all</button>
+  <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
+</div>
+<div id="expand-collapse">
 		<details>
         <summary>Category
         </summary>
@@ -185,11 +190,12 @@ issued: 2026-05-21
              <label class="small" for="dt_mindate">Before</label><input class="form-control" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text"></div>
 		  </fieldset>
 		</details>
+</div>
 		</form>
 		</div>
 	</aside>
 	</div>
-  <div class="col-md-9 mrgn-tp-lg">
+  <div class="col-md-9">
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 
      <div id="wp-toolbar">

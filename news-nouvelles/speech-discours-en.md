@@ -136,11 +136,9 @@ a.news-topic-1:hover, a.news-topic-1:active {
 <article>
 <p class="lead">It is not every day a polar bear gets invited indoors and offered coffee before the officers.</p>
 <div class="explore">
-<p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May 14, 2026 - Ottawa, Ontario<br>
-<i class="fa-regular fa-circle-user"></i> <a href="#">National Communications and Public Affairs</a></p>
-<p><strong>Community winter safety and northern outreach event<br>
-Check against deliver</strong></p>
-</div>
+<div class="mrgn-tp-sm mrgn-bttm-md"><i class="fa-solid fa-calendar-days"></i>&nbsp;May&nbsp;14, 2026&nbsp;|&nbsp;<i class="fa-solid fa-location-dot"></i>&nbsp; Ottawa, Ontario&nbsp;|&nbsp;<i class="fa-regular fa-circle-user"></i>&nbsp;<a href="#">National Communications and Public Affairs</a></div></div>
+<p><strong>Community winter safety and northern outreach event</strong></p>
+<p><strong>Check against deliver</strong></p>
 <p>Good afternoon everyone,</p>	
  <p>Thank you for the warm welcome. It is not every day a polar bear gets invited indoors and offered coffee before the officers.</p>
 <p>I am proud to be here today on behalf of the Royal Canadian Mounted Police to talk about something important to all of us: community, safety, and looking out for one another, especially during long Canadian winters.</p>

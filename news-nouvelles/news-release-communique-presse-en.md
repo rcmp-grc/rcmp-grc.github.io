@@ -136,15 +136,14 @@ a.news-topic-1:hover, a.news-topic-1:active {
 <div class="card col-md-8">
 	<div id="updates" class="card-tag"><p><i class="fa-regular fa-pen-to-square"></i> Updated</p></div>
   <ul>
-    <li><strong>2026-04-30, 13:58 pm</strong>: Last seen location</li>
-    <li><strong>2026-04-21, 13:58 pm</strong>: Missing person wearing prescription glasses</li>
+    <li><strong>2026-04-30, 13:58 pm</strong>: drivers will see increased patrols at key Richmond intersections</li>
+    <li><strong>2026-04-21, 13:58 pm</strong>: Tip: Brush up on emergency braking and obstacle avoidance, especially after time off the bike</li>
   </ul>
 </div>	
 <div class="clearfix"></div>
 <p class="lead">Richmond RCMP Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety.</p>
 <div class="explore">
-<p class="mrgn-tp-md"><i class="fa-solid fa-calendar-days"></i>  May&nbsp;7, 2026 - Richmond, British Columbia<br>
-<i class="fa-regular fa-circle-user"></i> <a href="https://rcmp.ca/en/bc/richmond">Richmond <abbr>RCMP</abbr></a></p></div>
+<div class="mrgn-tp-sm mrgn-bttm-md"><i class="fa-solid fa-calendar-days"></i>&nbsp;May&nbsp;7, 2026&nbsp;|&nbsp;<i class="fa-solid fa-location-dot"></i>&nbsp;Richmond, British Columbia&nbsp;|&nbsp;<i class="fa-regular fa-circle-user"></i>&nbsp;<a href="https://rcmp.ca/en/bc/richmond">Richmond RCMP</a></div></div>	
 <div class="row">
 <div class="col-md-8"> 
 <p>Richmond <abbr>RCMP</abbr> Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety, as part of the province-wide <abbr>BC</abbr> Association of Chiefs of Police enforcement calendar in partnership with <abbr>ICBC</abbr>.</p>

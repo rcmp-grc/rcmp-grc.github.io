@@ -83,17 +83,12 @@ button,
 }
 
 @media (min-width: 1440px) {
-  .careers-layout main:not(.po-full-width) {
+  .careers-layout main:not(.po-full-width):not(:has(#careers-fullpage)) {
     background-image: url("/assets/img/careers-background.png");
     background-size: 100% auto;
     background-repeat: repeat-y;
     background-position: top center;
     background-attachment: local;
-  }
-
-  .careers-layout main:not(.po-full-width) #careers-fullpage {
-    background-image: none;
-    background: none;
   }
 }
 

@@ -126,21 +126,20 @@ custom_css: /assets/css/careers.css
 	</ul>
 	<p>Honesty is important in your application process. Review a <a href="">list of criminal activity misconduct</a> that could prevent you from being successful in your application.</p>
 
-<section class="gc-features">
-  <h3 class="wb-inv">Service and information</h3>
+<div class="gc-features">
   <ul class="list-unstyled row">
     <li class="col-md-6">
-      <div class="well">
-        <h4 class="h5"><a href="">RCMP Applicant Readiness Check</a></h4>
+      <section class="well">
+        <h3 class="h5"><a href="">RCMP Applicant Readiness Check</a></h3>
         <p>Before you apply, complete the RCMP Applicant Readiness Check to see if policing is right for you</p>
-      </div>
+      </section>
     </li>
     <li class="col-md-6">
-      <div class="well">
-        <h4 class="h5"><a href="#">Application process</a></h4>
+      <section class="well">
+        <h3 class="h5"><a href="#">Application process</a></h3>
         <p>If you’re ready to apply, review the application process to learn how to get started.</p>
-      </div>
+      </section>
     </li>
   </ul>
-</section>
+</div>
 </section>

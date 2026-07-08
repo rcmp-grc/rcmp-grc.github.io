@@ -1313,6 +1313,11 @@ a.btn-careers:hover {
   .po-events-cards {
     grid-template-columns: 1fr 1fr;
   }
+
+  .fp-content {
+    width: 70%;
+    max-width: 70%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1901,8 +1906,8 @@ a.btn-careers:hover {
     top: auto;
     left: auto;
     transform: none;
-    width: 100%;
-    max-width: 100%;
+    width: 70%;
+    max-width: 70%;
     padding: 3rem 1.5rem;
     margin-top: 48px;
   }

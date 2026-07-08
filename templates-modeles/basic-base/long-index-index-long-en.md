@@ -3,14 +3,14 @@ layout: default
 title: Long index page (basic)
 description: Use the long index page template to present a list of 50+ related links that do not have text descriptions.
 lang: en
-lang_url: /templates-modeles/basic-base/long-index-index-long-fr.html
+lang_url: /fr/templates-modeles/basic-base/long-index-index-long-fr.html
 # date_modified: 2026-05-04
 # author: RCMP Web Team
 # custom_css: /assets/css/special-page.css
 ---
 
 <!-- <h1><abbr>RCMP</abbr> services and information</h1> -->
-<p>The A to Z services index is an alphabetical listing of services and information administered by the Royal Canadian Mounted Police (<abbr>RCMP</abbr>) website.</p>
+<p>Toffee cupcake jelly tart caramels chocolate bar pastry. Candy croissant marzipan tart pudding caramels.</p>
 <p>Enter a word or part of a word that might match what you are looking for into the text box below. We will narrow down the list to show only items that contain the term you have entered.</p>
 <div class="wb-filter" data-wb-filter="{&quot;selector&quot;: &quot;h3, li&quot;}">
   <section id="s1">

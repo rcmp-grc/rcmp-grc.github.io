@@ -34,14 +34,14 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s1">
 	<h2>Program snapshot</h2>
-	<dl>
+	<dl class="dl-horizontal">
 		<dt>Length</dt>
 		<dd>A 6-month (26-week), full‑time basic training program</dd>
 		<dt>Location</dt>
 		<dd>Delivered onsite at the RCMP Academy in Regina, Saskatchewan</dd>
 		<dt>Training approach</dt>
 		<dd>A bilingual, learner‑centred and problem‑solving based curriculum</dd>
-		<dt>Design and Delivery</dt>
+		<dt>Design and delivery</dt>
 		<dd>This immersive program is delivered through classroom learning, simulations, case studies, group work, scenarios, community interactions, presentations and hands-on skill or technique application</dd>
 		<dt>Assessment</dt>
 		<dd>Evaluation is continuous throughout training through written, oral and practical assessments</dd>
@@ -80,7 +80,7 @@ custom_css: /assets/css/careers.css
 			<li>classroom instruction</li>
 			<li>simulations and scenario‑based exercises</li>
 			<li>presentations and case studies based on actual policing situations</li>
-			<li>group work and collaborative problem‑solving</li>
+			<li>group work and collaborative problem-solving</li>
 			<li>community-based interactions that build trust and strengthen relationships</li>
 			<li>practical skill and technique development</li>
 			<li>physical training</li>
@@ -115,7 +115,7 @@ custom_css: /assets/css/careers.css
 			<li>You will have your own individual sleeping space separated by a curtain, “a pit”, within the shared dormitory</li>
 			<li>There are washroom and shower facilities in designated areas for men and women, as well as gender-inclusive options</li>
 			<li>On-site accommodation is exclusively for cadets only during training</li>
-			<li>Facilities are not available for family members, spouses, friends or other visitors[M</li>
+			<li>Facilities are not available for family members, spouses, friends or other visitors</li>
 		</ul>
 	</section>
 	<section id="s5-2">

@@ -1313,11 +1313,6 @@ a.btn-careers:hover {
   .po-events-cards {
     grid-template-columns: 1fr 1fr;
   }
-
-  .fp-content {
-    width: 70%;
-    max-width: 70%;
-  }
 }
 
 @media (max-width: 767px) {
@@ -1754,6 +1749,11 @@ a.btn-careers:hover {
   }
   .gc-subway:not(.gc-subway-index) ul {
     padding-top: 0.25em;
+  }
+
+  .fp-content {
+    width: 70%;
+    max-width: 70%;
   }
 }
 

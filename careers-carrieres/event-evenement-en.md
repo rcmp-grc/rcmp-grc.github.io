@@ -20,9 +20,7 @@ custom_css: /assets/css/careers.css
       <h3 class="mrgn-tp-0">Police officer</h3>
     </hgroup>
       <p class="event-status-flag"><i class="fa-solid fa-ban" aria-hidden="true"></i> <span>Cancelled</span></p>
-    <!--
       <p class="event-status-flag event-status-flag--full"><i class="fa-solid fa-circle-exclamation" aria-hidden="true"></i> <span>Session full</span></p>
-    -->
   </div>
 </div>
 <div class="row event-detail-row">

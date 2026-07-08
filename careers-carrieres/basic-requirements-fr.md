@@ -15,7 +15,6 @@ custom_css: /assets/css/careers.css
 
 <section id="s1">
 	<h2>Satisfaire aux qualifications et aux exigences avant de poser votre candidature</h2>
-
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
 		<summary>Avoir la citoyenneté canadienne ou le statut de résidence permanente au Canada</summary>
 		<p>Pour poser sa candidature, une personne qui a le statut de résidence permanente doit avoir vécu au Canada pendant au moins 1 095 jours (trois ans) au cours des cinq dernières années.</p>
@@ -23,88 +22,75 @@ custom_css: /assets/css/careers.css
 		<p>Les policiers de la GRC qui sont résidents permanents pourraient ne pas être qualifiés pour certains rôles nécessitant une autorisation de sécurité Très secret ou des documents de voyage précis.</p>
 		<p>Pour en savoir plus sur comment obtenir la citoyenneté canadienne, visitez la section <a href="https://www.canada.ca/fr/services/immigration-citoyennete.html">Immigration et citoyenneté sur Canada.ca</a>.</p>
 	</details>
-
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
 		<summary>Avoir au moins 18 ans au moment de poser votre candidature</summary>
-		<p>You can apply to the RCMP and begin the selection process and basic training at age 18. However, you must be at least 19&nbsp;years old to be hired as a police officer.</p>
-		<p>There is no maximum age limit to apply to the RCMP.</p>
+		<p>Une personne peut poser sa candidature à la GRC et commencer le processus de sélection et la formation de vase à l’âge de 18&nbsp;ans. Cependant, il faut avoir au moins 19&nbsp;ans pour être embauché comme policier. </p>
+		<p>Il n’y a pas de limite d’âge pour poser sa candidature à la GRC.</p>
 	</details>
-
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
 		<summary>Maîtriser le français ou l’anglais</summary>
-		<p>You must be proficient in either English or French. Fluency means being able to speak, write, and read in either English or French. You do not need to be bilingual to apply.</p>
+		<p>Il faut maîtriser l’anglais ou le français. La maîtrise de l’une de ces langues signifie pouvoir parler, écrire et lire dans cette langue. Il n’est pas nécessaire d’être bilingue pour poser sa candidature.</p>
 	</details>
-
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
 		<summary>Détenir un permis de conduire canadien valide sans restriction</summary>
-		<p>You need to show that you are a confident and skilled driver. If your driving experience is limited, gaining more experience before applying is encouraged.</p>
-		<p>An unrestricted driver's license means that you must be able to drive unsupervised at any time of the day or night, on any road, and with as many passengers as there are seat belts.</p>
+		<p>Vous devez démontrer que vous êtes un conducteur confiant et compétent. Si votre expérience de conduite est limitée, il est recommandé d’acquérir davantage d’expérience avant de poser votre candidature. </p>
+		<p>Un permis de conduire sans restriction signifie que vous êtes capable de conduire sans surveillance à toute heure du jour ou de la nuit, sur n’importe quelle route, et avec autant de passagers qu’il y a de ceintures de sécurité.</p>
 		<section class="alert alert-info" id="s1-1">
-			<h3>Note</h3>
-			<p>If you live in a remote, rural area, you may still apply if you don’t have a non-restricted driver's license, but you must obtain one before attending the cadet training program.</p>
+			<h3>Nota</h3>
+			<p>Si vous vivez dans une région rurale éloignée, vous pouvez poser votre candidature même si vous ne possédez pas de permis de conduire sans restriction, mais vous devrez en obtenir un avant de suivre le Programme de formation des cadets.</p>
 		</section>
 	</details>
-
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
 		<summary>Avoir un diplôme d’études secondaires décerné au Canada ou l’équivalent</summary>
-		<p>If you completed your education outside Canada, you must get an equivalency assessment. Contact the <a href="https://www.cicic.ca/2/home.canada">Canadian Information Centre for International Credentials</a> for more information and to find out which organizations across Canada perform these assessments.</p>
-		<p>If you did not complete secondary school, you must obtain an equivalency assessment. For more information, contact your local board of education or adult learning centre to be assessed and take a <a href="https://www.cicic.ca/2/home.canada">Canadian Adult Education Credential</a> (CAEC) test or equivalent.</p>
-		<p>If you did not complete your secondary education in Canada and do not have an equivalency, you may still apply if you have completed a university degree from a recognized Canadian university, or a diploma from a recognized Canadian college. If you have completed a college diploma, you may be asked to provide your education equivalency later in the process.</p>
+		<p>Si vous avez obtenu votre diplôme à l’étranger, vous devez obtenir une attestation d’équivalence. Communiquez avec le <a href="https://www.cicic.ca/1/accueil.canada">Centre d’information canadien sur les</a></p>
+		<p><a href="https://www.cicic.ca/1/accueil.canada">diplômes internationaux</a> pour en savoir plus et obtenir la liste des organisations au Canada qui effectuent ces attestations.</p>
+		<p>Si vous n’avez pas terminé vos études secondaires, vous devez également obtenir une attestation d’équivalence. Pour en savoir plus, communiquez avec la commission scolaire ou un centre d’apprentissage des adultes de votre région pour être évalué et passer le <a href="https://www.cicic.ca/1/accueil.canada">Certificat canadien d’éducation des adultes</a> ou l’équivalent.</p>
+		<p>Si vous n’avez pas fait vos études secondaires au Canada et que vous n’avez pas d’équivalence, vous pouvez tout de même poser votre candidature si vous êtes titulaire d’un grade universitaire d’une université canadienne reconnue ou d’un diplôme d’un collège canadien reconnu. Si vous êtes titulaire d’un diplôme collégial, vous pourriez devoir fournir une équivalence d’études à une étape ultérieure du processus.</p>
 	</details>
-
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
 		<summary>Détenir un certificat de secourisme général valide</summary>
-		<p>You must have Level&nbsp;C CPR for infant, child and adult. The certification needs to be valid at the time of Depot enrollment and will be requested closer to the end of the recruitment process.</p>
+		<p>Vous devez avoir un RCR de niveau C pour bébé, enfant et adulte. La certification doit être valide au moment de l’inscription à la Division Dépôt et sera requise vers la fin du processus de recrutement.</p>
 	</details>
-
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
 		<summary>Satisfaire aux normes médicales et psychologiques</summary>
-		<p>You must meet the health standards as assessed by RCMP Health Services. This includes a full medical assessment, laboratory tests and psychological examinations.</p>
+		<p>Vous devez satisfaire aux normes de santé selon l’évaluation des Services de santé de la GRC. Cela comprend un examen médical complet, des analyses de laboratoire et un examen psychologique.</p>
 	</details>
-
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
 		<summary>Satisfaire aux normes relatives à la vision et à l’ouïe</summary>
-		<p>A Recruiting Analyst will reach out to request the required documents before the medical suitability assessment stage of the applications process.</p>
-		<p>You will need to meet the minimum vision standards as assessed by a registered/certified Ophthalmologist/Optometrist. Review the <a href="">vision standards</a>.</p>
-		<p>You must meet the minimum hearing standards as assessed by an audiologist. Review the <a href="">hearing standards</a>.</p>
+		<p>Un analyste du recrutement communiquera avec vous pour obtenir les documents requis avant l’étape d’évaluation de l’aptitude médicale du processus de recrutement.</p>
+		<p>Vous devrez satisfaire aux normes minimales relatives à la vision selon l’évaluation d’un ophtalmologiste ou d’un optométriste autorisé ou agréé. Consulter les <a href="">normes relatives à la vision</a>.</p>
+		<p>Vous devez satisfaire aux normes relatives à l’ouïe selon l’évaluation d’un audiologiste. Consulter les <a href="">normes relatives à l’ouïe</a>. </p>
 	</details>
-
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
 		<summary>Satisfaire aux normes d’aptitude physique</summary>
-		<p>Police work is physically demanding. You need to be in good physical shape before applying. The Cadet Training Program is not designed to build your fitness – it prepares you for the physical demands of policing.</p>
-		<p>If you arrive at training without strong physical fitness, it puts you at a disadvantage. If you are not physically prepared, you may face a higher risk of injury and find the program more challenging. Strong fitness supports both your physical and academic performance and increases you chances of graduating. Review the fitness requirements. (insert link)</p>
+		<p>Le travail de policier est exigeant sur le plan physique. Vous devez être en bonne condition physique avant de poser votre candidature. Le Programme de formation des cadets n’est pas conçu pour vous permettre d’améliorer votre condition physique; il vous prépare aux exigences physiques du travail de policier.</p>
+		<p>Si vous arrivez à la formation en mauvaise condition physique, vous partirez avec un désavantage. Si vous n’êtes pas prêt physiquement, vous risquez davantage de vous blesser et trouverez le programme plus difficile. Une bonne condition physique favorise à la fois vos performances physiques et votre apprentissage et augmente vos chances de terminer la formation. Étudiez les <a href="">exigences relatives à la condition physique</a>.</p>
 	</details>
-
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
 		<summary>Accepter et avoir la capacité de recourir à la force nécessaire et de porter une arme à feu</summary>
-		<p>Police officers are required to maintain public order and safety, which includes carrying a firearm and using force when necessary. Officers often work in fast‑moving, high‑pressure situations where they must quickly assess risk and take appropriate action to protect the public, themselves, and their colleagues. This can involve using various levels of intervention, up to and including the use of force or a firearm when required by law and policy.</p>
+		<p>Les policiers sont tenus de maintenir l’ordre et d’assurer la sécurité publique, ce qui comprend de porter une arme à feu et d’avoir recours à la force lorsque nécessaire. Ils travaillent souvent dans des situations très tendues qui évoluent rapidement où ils doivent évaluer vite les risques et prendre les mesures appropriées pour protéger le public et leurs collègues, et se protéger eux-mêmes. Différents niveaux d’intervention peuvent être nécessaires, jusqu’au recours à la force ou à une arme à feu lorsque la loi et les politiques l’exigent.</p>
 	</details>
-
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
-		<summary>Accepter de passer 26 semaines à l’École de la GRC (Division Dépôt) à Regina, en Saskatchewan</summary>
-		<p>You are required to live at Depot while in training for the entire 26-week duration. You will also be required to do evening and weekend training activities.</p>
+		<summary>Accepter de passer 26&nbsp;semaines à l’École de la GRC (Division Dépôt) à Regina, en Saskatchewan</summary>
+		<p>Vous devez vivre à la Division Dépôt pendant toute la durée de la formation de 26&nbsp;semaines. Vous devrez aussi participer à des activités de formation le soir et la fin de semaine.</p>
 	</details>
-
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
 		<summary>Accepter de travailler n’importe où au Canada</summary>
-		<p>The RCMP is a national organization. You, and your family (if applicable), must be willing to relocate anywhere within Canada. Postings are assigned based on operational needs.</p>
-		<p>Police officers can be relocated depending on the officer's role, promotional interests, human resourcing needs and available opportunities. The RCMP serves communities across the country, and our police officers are expected to be mobile to gain varied experiences and meet the organization’s operational needs.</p>
+		<p>La GRC est une organisation nationale. Vous et votre famille (s’il y a lieu) devez accepter de déménager n’importe où au Canada. Les affectations sont déterminées en fonction des besoins opérationnels.</p>
+		<p>Les policiers peuvent être mutés en fonction de leur rôle, de leurs perspectives d’avancement, des besoins en ressources humaines et des possibilités disponibles. La GRC est au service des communautés partout au pays, et nos policiers doivent être prêts à se déplacer afin d’acquérir des expériences variées et de répondre aux besoins opérationnels de l’organisation. </p>
 	</details>
-
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
 		<summary>Accepter de travailler par quarts, y compris les fins de semaine et les jours fériés</summary>
-		<p>Policing is a 24-hour service, expect to work shifts, including nights, evenings, weekends and holidays.</p>
+		<p>Le maintien de l’ordre est assuré 24 heures sur 24. Vous devez donc accepter de travailler par quarts, y compris la nuit, le soir, la fin de semaine et les jours fériés.</p>
 	</details>
-
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
 		<summary>Respecter les normes concernant les tatouages, les bijoux et autres effets personnels</summary>
-		<p>Tattoos are permitted if they don’t depict or incite hate, harassment, or discrimination against individuals based on the grounds listed in <a href="https://laws-lois.justice.gc.ca/eng/acts/H-6/page-1.html#s-3"><cite>Canadian Human Rights Act</cite>, section&nbsp;3</a>.</p>
-		<p>You may wear discreet personal effects on the body if they don’t interfere with the effectiveness of personal protective equipment. Examples include glasses, watches, medical bracelets, jewelry, wedding bands, kangas, kirpans, karas, and medicine bags.</p>
+		<p>Les tatouages sont autorisés dans la mesure où ils n’incitent pas à la haine, au harcèlement ou à la discrimination d’individus aux motifs prévus à l’<a href="">article&nbsp;3 de la <cite>Loi canadienne sur les droits de la personne</cite></a>.</p>
+		<p>Vous pouvez porter des effets personnels discrets sur vous s’ils n’entravent pas l’efficacité de l’équipement de protection individuelle. Exemples&nbsp;: Lunettes, montres-bracelets, bracelets médicaux, bijoux, anneaux de mariage, kangas, kirpans, karas et sacs de guérisseur.</p>
 	</details>
-
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
 		<summary>Comprendre les valeurs fondamentales de la GRC et être prêt ou prête à les défendre</summary>
-		<p>These principles define the expectations for RCMP employee conduct and how they serve communities. You will be expected to demonstrate and uphold these core values as an RCMP police officer.</p>
+		<p>Il s’agit des principes qui définissent les attentes quant à la façon dont les membres du personnel de la GRC doivent se comporter et servir les collectivités. Vous devrez incarner et défendre ces valeurs fondamentales en tant que policier ou policière de la GRC.</p>
 		<h3>Valeurs fondamentales de la GRC</h3>
 		<dl class="dl-horizontal">
 			<dt>Assumer nos responsabilités</dt>
@@ -122,24 +108,23 @@ custom_css: /assets/css/careers.css
 </section>
 
 <section id="s2">
-	<h2>Legal requirements before you apply</h2>
-	<p>To apply as a police officer:</p>
+	<h2>Exigences légales avant de poser votre candidature</h2>
+	<p>Pour poser sa candidature à un poste de policier, une personne ne doit pas&nbsp;:</p>
 	<ul>
-		<li>you must not have any matters pending or before a criminal court</li>
-		<li>you must not have been convicted of a criminal offence for which you haven't received a pardon/records suspension</li>
-		<li>you must not have participated in any <a href="">serious criminal behaviour or activity</a>
-			<ul>
-				<li>whether you were arrested and/or charged or not</li>
+		<li>avoir fait l’objet d’une instance en suspens ou portée devant un tribunal pénal;</li>
+		<li>avoir été déclarée coupable d’un acte criminel pour lequel elle n’a pas fait l’objet d’une réhabilitation ou d’une suspension du casier judiciaire;</li>
+		<li>avoir pris part à des <a href="">actes ou activités criminels graves</a>;<ul>
+				<li>qu’elle ait été ou non arrêtée ou mise en accusation;</li>
 			</ul>
 		</li>
-		<li>you must not have participated in any <a href="">criminal behaviour or activity</a> within at least one year of the date of application<ul>
-				<li>whether you were arrested and/or charged or not</li>
+		<li>avoir pris part à <a href="">des actes ou activités criminels</a> au cours de l’année précédant la date de votre candidature;<ul>
+				<li>qu’elle ait été ou non arrêtée ou mise en accusation;</li>
 			</ul>
 		</li>
-		<li>you must not have been dishonourably discharged or dismissed including released for misconduct, from another police, military, or law enforcement organization</li>
-		<li>you must not have any pending and/or current personal bankruptcies or consumer proposals</li>
+		<li>avoir été congédiée ou renvoyée pour cause d’indignité, y compris dans un cas de licenciement pour motif d’inconduite, d’un autre service de police, de l’armée ou d’un organisme d’application de la loi;</li>
+		<li>être en faillite personnelle ou avoir fait une demande en ce sens, ni être un débiteur à l’égard de qui une proposition de consommateur a été ou est en voie d’être produite.</li>
 	</ul>
-	<p>Honesty is important in your application process. Review a list of criminal activity misconduct that could prevent you from being successful in your application.</p>
-	<p>Before you apply, complete the RCMP Applicant Readiness Check to see if policing is right for you.</p>
-	<p>If you’re ready to apply, review the <a href="">Application Process</a> to learn how to get started.</p>
+	<p>L’honnêteté est essentielle dans le processus de candidature. Consultez la liste des activités criminelles qui pourraient vous empêcher d’être retenu.</p>
+	<p>Avant de poser votre candidature, effectuez <a href="">le test de préparation des candidats de la GRC</a> afin de déterminer si la carrière dans la police vous convient.</p>
+	<p>Si vous souhaitez poser votre candidature, consultez la section <a href="">Processus de candidature</a> pour savoir comment vous y prendre.</p>
 </section>

@@ -1911,6 +1911,8 @@ a.btn-careers:hover {
     max-width: 70%;
     padding: 3rem 1.5rem;
     margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

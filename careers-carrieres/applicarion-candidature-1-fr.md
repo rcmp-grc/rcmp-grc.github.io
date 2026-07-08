@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: Submit an online application
+title: Posez votre candidature en ligne[M
 date_modified: 2026-07-08
 lang: fr
 lang_url: application-candidature-1-en.html
@@ -38,14 +38,14 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-6-en.html">Complete a field investigation and security assessment</a></li>
   </ul>
 </nav>
-<nav aria-label="On this page">
-  <h2>On this page</h2>
+<nav aria-label="Sur cette page">
+  <h2>Sur cette page</h2>
   <ul>
     <li>
-      <a href="#s1">New applicants</a>
+      <a href="#s1">Nouveaux candidats</a>
     </li>
     <li>
-      <a href="#s2">Returning applicants</a>
+      <a href="#s2">Personnes ayant déjà présenté une candidature auparavant</a>
     </li>
   </ul>
 </nav>

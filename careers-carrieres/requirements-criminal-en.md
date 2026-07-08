@@ -1,4 +1,3 @@
-
 ---
 layout: careers
 title: Criminal activity or behaviour that could impact your RCMP application

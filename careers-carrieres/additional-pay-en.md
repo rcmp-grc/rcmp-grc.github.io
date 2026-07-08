@@ -6,9 +6,9 @@ lang: en
 lang_url: additional-pay-fr.html
 breadcrumbs:
   - label: "RCMP careers"
-    url: "careers-carrieres/careers-carrieres-en.html"
+    url: "/careers-carrieres/careers-carrieres-en.html"
   - label: "Police officer careers"
-    url: "careers-carrieres/officer-agent-en.html"
+    url: "/careers-carrieres/officer-agent-en.html"
 custom_css: /assets/css/careers.css
 ---
 
@@ -74,7 +74,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s5">
 	<h2>Income tax exemption for First Nations police officers</h2>
-	<p>First Nations police officers are exempt from income tax under <a href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/">paragraph&nbsp;81(1)(a) of the <cite>Income Tax Act</cite></a>, and <a href="https://laws-lois.justice.gc.ca/eng/acts/i-5/">section&nbsp;87 of the <cite>Indian Act</cite></a> if income is earned on a reserve. Contact the Canada Revenue Agency to confirm if you’re eligible for this tax exemption.</p>
+	<p>First Nations police officers are exempt from income tax under paragraph&nbsp;81(1)(a) of the <a href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/"><cite>Income Tax Act</cite></a>, and section&nbsp;87 of the <a href="https://laws-lois.justice.gc.ca/eng/acts/i-5/"><cite>Indian Act</cite></a> if income is earned on a reserve. Contact the Canada Revenue Agency to confirm if you’re eligible for this tax exemption.</p>
 	<section class="alert alert-info">
 		<h3>Note</h3>
 		<p>The term "Indian" is only used in reference to the Act.</p>

@@ -74,7 +74,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s5">
 	<h2>Exemption d’impôt sur le revenu pour les policiers autochtones</h2>
-	<p>Les membres autochtones sont exemptés de l’impôt sur le revenu en vertu de l’<a href="https://laws-lois.justice.gc.ca/fra/lois/i-3.3/">alinéa&nbsp;81(1)a) de la <cite>Loi de l’impôt sur le revenu</cite></a> et de l’<a href="https://laws-lois.justice.gc.ca/fra/lois/i-5/">article&nbsp;87 de la <cite>Loi sur les Indiens</cite></a>, si le revenu est perçu sur une réserve. Communiquez avec l’Agence du revenu du Canada pour confirmer si vous êtes admissible à cette exemption d’impôt.</p>
+	<p>Les membres autochtones sont exemptés de l’impôt sur le revenu en vertu de l’alinéa&nbsp;81(1)a) de la <a href="https://laws-lois.justice.gc.ca/fra/lois/i-3.3/"><cite>Loi de l’impôt sur le revenu</cite></a> et de l’article&nbsp;87 de la <a href="https://laws-lois.justice.gc.ca/fra/lois/i-5/"><cite>Loi sur les Indiens</cite></a>, si le revenu est perçu sur une réserve. Communiquez avec l’Agence du revenu du Canada pour confirmer si vous êtes admissible à cette exemption d’impôt.</p>
 	<section class="alert alert-info">
 		<h3>Remarque</h3>
 		<p>Le terme «&nbsp;Indien&nbsp;» est utilisé uniquement en ce qui a trait à la loi.</p>

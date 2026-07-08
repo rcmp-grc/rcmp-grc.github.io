@@ -14,8 +14,16 @@ custom_css: /assets/css/careers.css
 ---
 
 <div class="row mrgn-tp-md">
-  <div class="col-md-7 col-sm-12">
+  <div class="col-md-12">
     <h2 class="mrgn-tp-0">Ask-a-recruiter &ndash; Question and answer session &mdash; Police officer</h2>
+    <p class="re-card-cancelled"><i class="fa-solid fa-ban" aria-hidden="true"></i> <span>Cancelled</span></p>
+   <!--   <p class="re-card-cancelled re-card-full"><i class="fa-solid fa-circle-exclamation" aria-hidden="true"></i> <span>Session full</span></p>
+    -->
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-7 col-sm-12">
     <p>Our Police Fitness Assessment (PFA) workshops provide tips and techniques to help you start or improve your physical training for the PFA. You will have the opportunity to try the equipment and speak with PFA trainers. Get ready to work hard!</p>
 
     <dl class="dl-horizontal">
@@ -27,7 +35,11 @@ custom_css: /assets/css/careers.css
       <dd>English</dd>
       <dt>Location</dt>
       <dd>
-        Edmonton RCMP HQ, 11140 109 Street NW, Edmonton, Alberta
+        <address>
+          Edmonton RCMP HQ<br>
+          11140 109 Street NW<br>
+          Edmonton, Alberta
+        </address>
       </dd>
     </dl>
 
@@ -47,10 +59,7 @@ custom_css: /assets/css/careers.css
 
   </div>
   <div class="col-md-5 col-sm-12">
-    <span class="re-card-format-badge re-card-format-badge--inperson" style="position:static;display:inline-block;font-size:1.1em;padding:6px 16px;margin-bottom:10px;border-radius:0;">In person</span>
-          <p class="re-card-cancelled"><i class="fa-solid fa-ban" aria-hidden="true"></i> <span>Cancelled</span></p>
-      <!--<p class="re-card-cancelled re-card-full"><i class="fa-solid fa-circle-exclamation" aria-hidden="true"></i> <span>Session full</span></p>
-    -->
+    <span class="event-format-tag">In person</span>
     <img src="/assets/img/event-fitness-workshop.jpg" alt="" class="img-responsive full-width" style="border-radius:0;">
   </div>
 </div>

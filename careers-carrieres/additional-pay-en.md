@@ -14,12 +14,14 @@ custom_css: /assets/css/careers.css
 
 <nav aria-label="On this page">
 <h2>On this page</h2>
+<ul>
   <li class="wb-inv"><a href="#s0">Introduction</a></li>
   <li><a href="#s1">Extra-duty pay</a></li>
   <li><a href="#s2">Isolated post allowance</a></li>
   <li><a href="#s3">Other paid allowances and support</a></li>
   <li><a href="#s4">Family benefits and parental leaves</a></li>
   <li><a href="#s5">Income tax exemption for First Nations police officers</a></li>
+</ul>
 </nav>
 
 <section id="s0">

@@ -1848,6 +1848,9 @@ a.btn-careers:hover {
   .fp-content {
     width: 70%;
     max-width: 70%;
+    left: 24px;
+    transform: translateY(-50%);
+    padding-left: 0;
   }
 }
 

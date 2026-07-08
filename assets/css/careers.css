@@ -2180,20 +2180,57 @@ section[id^="s"] {
 }
 
 .event-format-tag {
-  display: inline-block;
-  font-size: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  padding: 8px 18px;
-  margin-bottom: 15px;
+  padding: 8px 20px;
   background: var(--c-yellow);
   color: var(--c-black);
+  z-index: 3;
 }
 
 .event-format-tag--virtual {
   background: var(--c-navy);
   color: var(--c-white);
+}
+
+.event-status-flag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--c-red-cancel);
+  color: var(--c-white);
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+.event-status-flag--full {
+  background: var(--c-navy);
+}
+
+@media (max-width: 767px) {
+  .event-detail-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .event-detail-row .event-detail-media {
+    order: -1;
+    margin-bottom: 15px;
+  }
 }
 
 .re-card-cancelled {

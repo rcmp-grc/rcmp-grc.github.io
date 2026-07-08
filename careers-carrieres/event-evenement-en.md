@@ -15,15 +15,19 @@ custom_css: /assets/css/careers.css
 
 <div class="row mrgn-tp-md">
   <div class="col-md-12">
-    <h2 class="mrgn-tp-0">Ask-a-recruiter &ndash; Question and answer session &mdash; Police officer</h2>
-    <p class="re-card-cancelled"><i class="fa-solid fa-ban" aria-hidden="true"></i> <span>Cancelled</span></p>
-   <!--   <p class="re-card-cancelled re-card-full"><i class="fa-solid fa-circle-exclamation" aria-hidden="true"></i> <span>Session full</span></p>
+    <hgroup>
+      <h2 class="mrgn-tp-0 mrgn-bttm-0">Ask-a-recruiter &ndash; Question and answer session</h2>
+      <h3 class="mrgn-tp-0">Police officer</h3>
+    </hgroup>
+      <p class="event-status-flag"><i class="fa-solid fa-ban" aria-hidden="true"></i> <span>Cancelled</span></p>
+    <!--
+      <p class="event-status-flag event-status-flag--full"><i class="fa-solid fa-circle-exclamation" aria-hidden="true"></i> <span>Session full</span></p>
     -->
   </div>
 </div>
 
-<div class="row">
-  <div class="col-md-7 col-sm-12">
+<div class="row event-detail-row">
+  <div class="col-md-7 col-sm-12 event-detail-text">
     <p>Our Police Fitness Assessment (PFA) workshops provide tips and techniques to help you start or improve your physical training for the PFA. You will have the opportunity to try the equipment and speak with PFA trainers. Get ready to work hard!</p>
 
     <dl class="dl-horizontal">
@@ -58,8 +62,10 @@ custom_css: /assets/css/careers.css
     </section>
 
   </div>
-  <div class="col-md-5 col-sm-12">
-    <span class="event-format-tag">In person</span>
-    <img src="/assets/img/event-fitness-workshop.jpg" alt="" class="img-responsive full-width" style="border-radius:0;">
+  <div class="col-md-5 col-sm-12 event-detail-media">
+    <div style="position:relative;">
+      <span class="event-format-tag">In person</span>
+      <img src="/assets/img/event-fitness-workshop.jpg" alt="" class="img-responsive full-width" style="border-radius:0;">
+    </div>
   </div>
 </div>

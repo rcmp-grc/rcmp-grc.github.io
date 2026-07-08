@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Police officer application process
-date_modified: 2026-06-10
+date_modified: 2026-07-08
 lang: en
 lang_url: application-candidature-fr.html
 breadcrumbs:
@@ -14,12 +14,12 @@ custom_css: /assets/css/careers.css
 
 <p>Understand each step in the process to become a police officer – from the application submission to cadet training.</p>
 <nav class="gc-subway gc-subway-index">
-  <h2>Steps</h2>
+  <h2>Steps in the process</h2>
   <dl>
     <dt>
       <a href="application-candidature-1-en.html">Submit an online application</a>
     </dt>
-    <dd>Start your application by creating an account on the Government of Canada's GC Jobs online portal.</dd>
+    <dd>Start your application by creating an account on the Government of Canada’s GC Jobs online portal.</dd>
     <dt>
       <a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a>
     </dt>
@@ -35,7 +35,7 @@ custom_css: /assets/css/careers.css
     <dt>
       <a href="application-candidature-5-en.html">Complete psychological and medical suitability assessments</a>
     </dt>
-    <dd>Ensure you are medically cleared for frontline policing at the RCMP.</dd>
+    <dd>Determine your mental and physical suitability through RCMP-designed physicians and psychologists.</dd>
     <dt>
       <a href="application-candidature-6-en.html">Complete a field investigation and security assessment</a>
     </dt>

@@ -25,11 +25,9 @@ custom_css: /assets/css/careers.css
     -->
   </div>
 </div>
-
 <div class="row event-detail-row">
   <div class="col-md-7 col-sm-12 event-detail-text">
     <p>Our Police Fitness Assessment (PFA) workshops provide tips and techniques to help you start or improve your physical training for the PFA. You will have the opportunity to try the equipment and speak with PFA trainers. Get ready to work hard!</p>
-
     <dl class="dl-horizontal">
       <dt>When</dt>
       <dd><time datetime="2026-06-18T18:00">June 18, 2026, at 6 p.m. (Mountain time)</time></dd>
@@ -46,13 +44,11 @@ custom_css: /assets/css/careers.css
         </address>
       </dd>
     </dl>
-
     <p>
       <a href="#" class="btn-careers btn btn-lg" role="button">
         Register<span class="wb-inv"> for the Police Fitness Assessment Workshop</span>
       </a>
     </p>
-
     <section>
       <h3>Important details</h3>
       <ul>
@@ -60,7 +56,6 @@ custom_css: /assets/css/careers.css
         <li>Bring government-issued identification.</li>
       </ul>
     </section>
-
   </div>
   <div class="col-md-5 col-sm-12 event-detail-media">
     <div style="position:relative;">

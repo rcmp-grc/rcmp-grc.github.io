@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: RCMP careers
+title: Carrières à la GRC
 date_modified: 2026-07-08
 lang: fr
 lang_url: careers-carrieres-en.html
@@ -19,7 +19,7 @@ custom_css: /assets/css/careers.css
             <div class="bc-band">
               <ol class="bc" typeof="BreadcrumbList">
                 <li property="itemListElement" typeof="ListItem">
-                  <a href="/" property="item" typeof="WebPage"><span property="name">RCMP.ca</span></a>
+                  <a href="/" property="item" typeof="WebPage"><span property="name">GRC.ca</span></a>
                   <meta content="1" property="position">
                 </li>
               </ol>
@@ -29,63 +29,63 @@ custom_css: /assets/css/careers.css
       </div>
     </nav>
     <div class="fp-content">
-      <p class="uppercase">Welcome to <abbr>RCMP</abbr> careers</p>
-      <h2 class="oswald-500 uppercase">Police officer careers</h2>
-      <p class="header-description">Join Canada’s front line. Become an RCMP officer.</p><a class="btn btn-careers" href="#">More information <span class="wb-inv">about police officer careers</span></a>
+      <p class="uppercase">Carrières à la GRC</p>
+      <h2 class="oswald-500 uppercase">Carrières policières</h2>
+      <p class="header-description">Travaillez en première ligne. Devenez policier ou policière à la GRC.</p><a class="btn btn-careers" href="#">Plus d’information <span class="wb-inv">about police officer careers</span></a>
     </div>
   </section>
   <section class="fp-section" id="civilian-employees" style="background-image: url('/assets/img/hero-civilian.jpg');">
     <div class="fp-overlay"></div>
     <div class="fp-content">
-      <h2 class="oswald-500 uppercase">Civilian careers</h2>
-      <p class="header-description">Bring your skills. Power our mission. Make an impact.</p><a class="btn btn-careers" href="#">More information <span class="wb-inv">about civilian careers</span></a>
+      <h2 class="oswald-500 uppercase">Carrières d’employés civils</h2>
+      <p class="header-description">Apportez vos compétences. Contribuez à notre mission. Changez les choses.</p><a class="btn btn-careers" href="#">Plus d’information <span class="wb-inv">about civilian careers</span></a>
     </div>
   </section>
   <section class="fp-section fp-section--scroll" id="more-opportunities">
     <div class="container">
-      <h2 class="careers-h1 mrgn-tp-xl" id="more-opp-heading">More opportunities</h2>
+      <h2 class="careers-h1 mrgn-tp-xl" id="more-opp-heading">Autres possibilités </h2>
       <section aria-labelledby="more-opp-heading" class="gc-features">
         <ul class="list-unstyled row">
           <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-5.jpg">
-              <h3 class="h5"><a href="#">Community constables</a></h3>
-              <p>Build trust and help to reduce crime in your own community.</p>
+              <h3 class="h5"><a href="#">Gendarmes communautaires</a></h3>
+              <p>Renforcez la confiance et contribuez à réduire la criminalité dans votre communauté.</p>
             </div>
           </li>
           <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-6.jpg">
-              <h3 class="h5"><a href="#">RCMP Reserve program</a></h3>
-              <p>Continue to serve the community after retirement or leaving the service.</p>
+              <h3 class="h5"><a href="#">Programme de la réserve de la GRC</a></h3>
+              <p>Continuez de servir la communauté après votre retraite ou votre départ.</p>
             </div>
           </li>
           <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-7.jpg">
-              <h3 class="h5"><a href="#">Volunteer programs</a></h3>
-              <p>Support local detachments and help to tell the RCMP story across Canada.</p>
+              <h3 class="h5"><a href="#">Programme des bénévoles </a></h3>
+              <p>Appuyez les détachements et contribuez à faire connaître la GRC partout au Canada.</p>
             </div>
           </li>
           <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-9.jpg">
-              <h3 class="h5"><a href="#">Student jobs</a></h3>
-              <p>Start your career with purpose and drive national impact while you study.</p>
+              <h3 class="h5"><a href="#">Emplois étudiants</a></h3>
+              <p>Lancez votre carrière et contribuez à changer les choses pendant vos études.</p>
             </div>
           </li>
           <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-3.jpg">
-              <h3 class="h5"><a href="#">Diverse and Inclusive Pre-Cadet Experience</a></h3>
-              <p>Get a firsthand look into policing before you apply. Designed to support racialized and unrepresented communities.</p>
+              <h3 class="h5"><a href="#">Programme d’expérience précadet diversifié et inclusif</a></h3>
+              <p>Familiarisez-vous avec le travail policier avant de postuler. Soutient les communautés racisées et sous-représentées.</p>
             </div>
           </li>
           <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-8.jpg">
-              <h3 class="h5"><a href="#">First Nations, Inuit and Métis applicant programs</a></h3>
-              <p>Discover programs that support Indigenous applicants considering a career in policing.</p>
+              <h3 class="h5"><a href="#">Programmes pour postulants des Premières Nations, Inuits et Métis</a></h3>
+              <p>Découvrez les programmes qui appuient les Autochtones envisageant une carrière policière.</p>
             </div>
           </li>
         </ul>
@@ -97,7 +97,7 @@ custom_css: /assets/css/careers.css
       <section class="po-pagedetails pagedetails container">
         <h2 class="wb-inv">Page details</h2>
         <dl id="wb-dtmd">
-          <dt>Date modified:</dt>
+          <dt>Date de modification&nbsp;:</dt>
           <dd><time property="dateModified">{{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}</time></dd>
         </dl>
       </section>

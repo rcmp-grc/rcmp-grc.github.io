@@ -5,11 +5,12 @@ date_modified: 2026-07-08
 lang: en
 lang_url: requirements-criminal-fr.html
 breadcrumbs:
-    - label: "RCMP careers"
+  - label: "RCMP careers"
     url: "careers-carrieres/careers-carrieres-en.html"
   - label: "Police officer careers"
-    url: "careers-carrieres/requirements-criminal-en.html"
+    url: "careers-carrieres/officer-agent-en.html"
 custom_css: /assets/css/careers.css
+---
 
 <section id="s1">
 <p>As a police officer, you are expected to uphold the law. Any criminal activity or behaviour during the application process could disqualify you from the process.</p>

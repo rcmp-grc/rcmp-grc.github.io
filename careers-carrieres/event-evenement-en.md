@@ -19,11 +19,16 @@ custom_css: /assets/css/careers.css
   </div>
   <div class="col-md-5 col-sm-12">
     <div style="position:relative;">
+      <span class="re-card-format-badge re-card-format-badge--inperson" style="border-radius:0;">In person</span>
       <div style="position:absolute;top:0;left:0;right:0;background:var(--c-navy);color:var(--c-white);padding:10px 15px;font-weight:600;text-align:center;border-radius:0;">
         Ask-a-recruiter &ndash; Question and answer session &mdash; Police officer
       </div>
       <img src="/assets/img/event-fitness-workshop.jpg" alt="" class="img-responsive full-width" style="border-radius:0;">
+        <p class="re-card-cancelled"><i class="fa-solid fa-ban" aria-hidden="true"></i> <span>Cancelled</span></p>
+     <!--   <p class="re-card-cancelled re-card-full"><i class="fa-solid fa-circle-exclamation" aria-hidden="true"></i> <span>Session full</span></p>
+      -->
     </div>
+
   </div>
 </div>
 

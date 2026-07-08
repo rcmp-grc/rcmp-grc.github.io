@@ -42,8 +42,8 @@
   box-shadow: none;
 }
 
-html { 
-  scroll-padding-block-start: var(--nav-height); 
+html {
+  scroll-padding-block-start: var(--nav-height);
 }
 
 #loader {
@@ -1897,11 +1897,14 @@ a.btn-careers:hover {
   }
 
   .fp-content {
-    left: 0;
-    transform: translateY(-50%);
-    width: 55%;
-    max-width: 55%;
+    position: static;
+    top: auto;
+    left: auto;
+    transform: none;
+    width: 100%;
+    max-width: 100%;
     padding: 3rem 1.5rem;
+    margin-top: 48px;
   }
 }
 

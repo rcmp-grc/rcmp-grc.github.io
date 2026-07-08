@@ -57,13 +57,13 @@ custom_css: /assets/css/careers.css
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
 		<summary>Meet the vision and hearing standards</summary>
 		<p>A Recruiting Analyst will reach out to request the required documents before the medical suitability assessment stage of the applications process.</p>
-		<p>You will need to meet the minimum vision standards as assessed by a registered/certified Ophthalmologist/Optometrist. Review the <a href="">vision standards</a>.</p>
-		<p>You must meet the minimum hearing standards as assessed by an audiologist. Review the <a href="">hearing standards</a>.</p>
+		<p>You will need to meet the minimum vision standards as assessed by a registered/certified Ophthalmologist/Optometrist. <a href="">Review the vision standards</a>.</p>
+		<p>You must meet the minimum hearing standards as assessed by an audiologist. <a href="">Review the hearing standards</a>.</p>
 	</details>
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
 		<summary>Meet the physical standards</summary>
 		<p>Police work is physically demanding. You need to be in good physical shape before applying. The Cadet Training Program is not designed to build your fitness – it prepares you for the physical demands of policing.</p>
-		<p>If you arrive at training without strong physical fitness, it puts you at a disadvantage. If you are not physically prepared, you may face a higher risk of injury and find the program more challenging. Strong fitness supports both your physical and academic performance and increases you chances of graduating. Review the <a href="">fitness requirements</a>.</p>
+		<p>If you arrive at training without strong physical fitness, it puts you at a disadvantage. If you are not physically prepared, you may face a higher risk of injury and find the program more challenging. Strong fitness supports both your physical and academic performance and increases you chances of graduating. <a href="">Review the fitness requirements</a>.</p>
 	</details>
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
 		<summary>Be prepared and able to use necessary force and carry a firearm</summary>
@@ -124,7 +124,7 @@ custom_css: /assets/css/careers.css
 		<li>you must not have been dishonourably discharged or dismissed including released for misconduct, from another police, military, or law enforcement organization</li>
 		<li>you must not have any pending and/or current personal bankruptcies or consumer proposals</li>
 	</ul>
-	<p>Honesty is important in your application process. Review a list of criminal activity misconduct that could prevent you from being successful in your application.</p>
-	<p>Before you apply, complete the <a href="">RCMP Applicant Readiness Check</a> to see if policing is right for you.</p>
-	<p>If you’re ready to apply, review the <a href="">Application Process</a> to learn how to get started.</p>
+	<p>Honesty is important in your application process. <a href="">Review a list of criminal activity misconduct</a> that could prevent you from being successful in your application.</p>
+	<p>Before you apply, <a href="">complete the RCMP Applicant Readiness Check</a> to see if policing is right for you.</p>
+	<p>If you’re ready to apply, <a href="">review the Application Process</a> to learn how to get started.</p>
 </section>

@@ -1,3 +1,4 @@
+
 ---
 layout: careers
 title: Criminal activity or behaviour that could impact your RCMP application
@@ -12,7 +13,13 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<section id="s1">
+<section>
+    <h2>On this page</h2>
+     <ul>
+        <li><a href="#s1">Examples of criminal behaviours and activities</a></li>
+        <li><a href="#s2">Evaluating your past actions</a></li>
+        <li><a href="#s3">Related links</a></li>
+    </ul>
 <p>As a police officer, you are expected to uphold the law. Any criminal activity or behaviour during the application process could disqualify you from the process.</p>
 <p>During the application process, you:</p>
 <ul>
@@ -24,7 +31,7 @@ custom_css: /assets/css/careers.css
     <li>must not cheat on any portion of the RCMP application process</li>
 </ul>
 </section>
-<section id="s2">
+<section id="s1">
 <h2>Examples of criminal behaviours and activities</h2>
 <p>Serious criminal offences include, but are not limited to:</p>
 <ul>
@@ -45,7 +52,7 @@ custom_css: /assets/css/careers.css
     <li>impaired driving</li>
 </ul>
 </section>
-<section id="s3">
+<section id="s2">
 <h2>Evaluating your past actions</h2>
 <p>For past actions, some of the things we consider to determine suitability include:</p>
 <ul>

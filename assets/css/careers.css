@@ -2179,6 +2179,23 @@ section[id^="s"] {
   align-items: center;
 }
 
+.event-format-tag {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 8px 18px;
+  margin-bottom: 15px;
+  background: var(--c-yellow);
+  color: var(--c-black);
+}
+
+.event-format-tag--virtual {
+  background: var(--c-navy);
+  color: var(--c-white);
+}
+
 .re-card-cancelled {
   display: flex;
   align-items: center;

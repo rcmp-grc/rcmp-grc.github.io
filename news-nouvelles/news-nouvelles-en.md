@@ -221,7 +221,7 @@ issued: 2026-05-21
     </nav>
 	  </div>
 </div>  
-<section class="gc-features col-md-12 mrgn-bttm-lg">
+<section class="gc-features mrgn-bttm-lg">
 <h2 class="h3">Features</h2>
 <div class="row wb-eqht">
         <div class="col-md-4">

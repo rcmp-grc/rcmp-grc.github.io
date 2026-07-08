@@ -220,10 +220,10 @@ issued: 2026-05-21
       </div>
     </nav>
 	  </div>
-</div>  <div class="col-md-12">
-			<section class="gc-features mrgn-bttm-lg">
-				<h2 class="h3">Features</h2>
-				<div class="row wb-eqht">
+</div>  
+<section class="gc-features col-md-12 mrgn-bttm-lg">
+<h2 class="h3">Features</h2>
+<div class="row wb-eqht">
         <div class="col-md-4">
           <div class="well well-sm brdr-rds-0 eqht-trgt position-relative">
             <img alt="" src="web-banners-census-pop-web-tile-360x203-final.jpg">
@@ -247,7 +247,6 @@ issued: 2026-05-21
         </div>
       </div>
     </section>
-</div>
 <script>
 	(function () {
   'use strict';

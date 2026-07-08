@@ -11,7 +11,7 @@ breadcrumbs:
     url: "careers-carrieres/officer-agent-en.html"
 custom_css: /assets/css/careers.css
 ---
-<p class="lead">Learn what it takes to apply and meet RCMP standards.</p>
+<p>Learn what it takes to apply and meet RCMP standards.</p>
 
 <section id="s1">
 	<h2>Meet the qualifications and requirements before you apply</h2>
@@ -125,6 +125,6 @@ custom_css: /assets/css/careers.css
 		<li>you must not have any pending and/or current personal bankruptcies or consumer proposals</li>
 	</ul>
 	<p>Honesty is important in your application process. Review a list of criminal activity misconduct that could prevent you from being successful in your application.</p>
-	<p>Before you apply, complete the RCMP Applicant Readiness Check to see if policing is right for you.</p>
+	<p>Before you apply, complete the <a href="">RCMP Applicant Readiness Check</a> to see if policing is right for you.</p>
 	<p>If you’re ready to apply, review the <a href="">Application Process</a> to learn how to get started.</p>
 </section>

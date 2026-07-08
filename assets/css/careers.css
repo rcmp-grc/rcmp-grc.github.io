@@ -1750,13 +1750,7 @@ a.btn-careers:hover {
   .gc-subway:not(.gc-subway-index) ul {
     padding-top: 0.25em;
   }
-
-  .fp-content {
-    width: 70%;
-    max-width: 70%;
-  }
 }
-
 .gc-link-list {
   list-style: none;
   margin: 0;
@@ -1848,6 +1842,13 @@ a.btn-careers:hover {
   width: 100%;
   max-width: 1200px;
   padding: 0 15px;
+}
+
+@media (max-width: 991px) {
+  .fp-content {
+    width: 70%;
+    max-width: 70%;
+  }
 }
 
 .fp-content p.uppercase {

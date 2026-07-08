@@ -3,7 +3,7 @@ layout: careers
 title: Processus de recrutement des policiers et policières 
 date_modified: 2026-07-08
 lang: fr
-lang_url: application-candidature-fr.html
+lang_url: application-candidature-en.html
 breadcrumbs:
   - label: "RCMP careers"
     url: "careers-carrieres/careers-carrieres-fr.html"

@@ -27,21 +27,21 @@ custom_css: /assets/css/careers.css
 
 <section id="s0">
 	<h2 class="wb-inv">Introduction</h2>
-	<p>The Cadet Training Program (CTP) prepares cadets for frontline policing in communities across Canada. Our 6-month training program welcomes successful applicants to the RCMP Academy in Regina, Saskatchewan. Training is delivered onsite, year‑round in both official languages. Expect long, full days with limited free time.</p>
+	<p>The Cadet Training Program (CTP) prepares cadets for frontline policing in communities across Canada. Our 6-month training program welcomes successful applicants to the RCMP Academy in Regina, Saskatchewan. Training is delivered onsite, year-round in both official languages. Expect long, full days with limited free time.</p>
 	<p>As a cadet, you will take part in an immersive program as part of a diverse 32-member troop. You will learn the realities of community policing through scenarios, real teamwork, classroom work and more.</p>
 	<p>After completing the program, cadets may be offered employment as RCMP police officers. They will receive peace officer status and continue learning through a six-month Field Coaching Program as new constables.</p>
 
 </section>
 <section id="s1">
 	<h2>Program snapshot</h2>
-	<dl class="dl-horizontal">
+	<dl>
 		<dt>Length</dt>
-		<dd>A 6-month (26-week), full‑time basic training program</dd>
+		<dd>A 6-month (26-week), full-time basic training program</dd>
 		<dt>Location</dt>
 		<dd>Delivered onsite at the RCMP Academy in Regina, Saskatchewan</dd>
 		<dt>Training approach</dt>
-		<dd>A bilingual, learner‑centred and problem‑solving based curriculum</dd>
-		<dt>Design and delivery</dt>
+		<dd>A bilingual, learner-centred and problem-solving based curriculum</dd>
+		<dt>Design and Delivery</dt>
 		<dd>This immersive program is delivered through classroom learning, simulations, case studies, group work, scenarios, community interactions, presentations and hands-on skill or technique application</dd>
 		<dt>Assessment</dt>
 		<dd>Evaluation is continuous throughout training through written, oral and practical assessments</dd>
@@ -71,14 +71,14 @@ custom_css: /assets/css/careers.css
 		<li>focused on problem-solving</li>
 		<li>continuously updated to reflect the evolving landscape of frontline policing</li>
 	</ul>
-	<p>The training model is designed around you, as an active learner. As a cadet, you are expected to take an active role in your own development. You will build the judgement, confidence and adaptability skills required for real‑world policing.</p>
+	<p>The training model is designed around you, as an active learner. As a cadet, you are expected to take an active role in your own development. You will build the judgement, confidence and adaptability skills required for real-world policing.</p>
 	<section id="s3-1">
 		<h3>How you will learn</h3>
 		<p>Training is hands-on, interactive and varied. Your days start early and are structured with limited free time. Strong time management is essential to keep up with coursework and training demands.</p>
 		<p>You will learn through:</p>
 		<ul>
 			<li>classroom instruction</li>
-			<li>simulations and scenario‑based exercises</li>
+			<li>simulations and scenario-based exercises</li>
 			<li>presentations and case studies based on actual policing situations</li>
 			<li>group work and collaborative problem-solving</li>
 			<li>community-based interactions that build trust and strengthen relationships</li>
@@ -115,7 +115,7 @@ custom_css: /assets/css/careers.css
 			<li>You will have your own individual sleeping space separated by a curtain, “a pit”, within the shared dormitory</li>
 			<li>There are washroom and shower facilities in designated areas for men and women, as well as gender-inclusive options</li>
 			<li>On-site accommodation is exclusively for cadets only during training</li>
-			<li>Facilities are not available for family members, spouses, friends or other visitors</li>
+			<li>Facilities are not available for family members, spouses, friends or other visitors[M</li>
 		</ul>
 	</section>
 	<section id="s5-2">
@@ -137,7 +137,7 @@ custom_css: /assets/css/careers.css
 			<li class="col-md-6">
 				<section class="well">
 					<h3 class="h5"><a href="">Incident Management Intervention Model</a></h3>
-					<p>Builds sound decision‑making and risk assessment skills to choose the safest, most appropriate intervention in any situation.</p>
+					<p>Builds sound decision-making and risk assessment skills to choose the safest, most appropriate intervention in any situation.</p>
 				</section>
 			</li>
 			<li class="col-md-6">
@@ -149,7 +149,7 @@ custom_css: /assets/css/careers.css
 			<li class="col-md-6">
 				<section class="well">
 					<h3 class="h5"><a href="">Police Defensive Tactics</a></h3>
-					<p>Build and strengthen communication‑based de‑escalation and safe physical intervention skills to protect the public and manage high‑risk encounters.</p>
+					<p>Build and strengthen communication-based de-escalation and safe physical intervention skills to protect the public and manage high-risk encounters.</p>
 				</section>
 			</li>
 			<li class="col-md-6">
@@ -161,7 +161,7 @@ custom_css: /assets/css/careers.css
 			<li class="col-md-6">
 				<section class="well">
 					<h3 class="h5"><a href="">Firearms Training Unit</a></h3>
-					<p>Builds safe handling skills on RCMP‑approved firearms, the pistol, shotgun and patrol carbine.</p>
+					<p>Builds safe handling skills on RCMP-approved firearms, the pistol, shotgun and patrol carbine.</p>
 				</section>
 			</li>
 			<li class="col-md-6">

@@ -125,6 +125,20 @@ custom_css: /assets/css/careers.css
 		<li>être en faillite personnelle ou avoir fait une demande en ce sens, ni être un débiteur à l’égard de qui une proposition de consommateur a été ou est en voie d’être produite.</li>
 	</ul>
 	<p>L’honnêteté est essentielle dans le processus de candidature. <a href="">Consultez la liste des activités criminelles</a> qui pourraient vous empêcher d’être retenu.</p>
-	<p>Avant de poser votre candidature, <a href="">effectuez le test de préparation des candidats de la GRC</a> afin de déterminer si la carrière dans la police vous convient.</p>
-	<p>Si vous souhaitez poser votre candidature, <a href="">consultez la section Processus de candidature</a> pour savoir comment vous y prendre.</p>
+	<div class="gc-features">
+	  <ul class="list-unstyled row">
+	    <li class="col-md-6">
+	      <section class="well">
+	        <h3 class="h5"><a href="">Vérifiez votre préparation</a></h3>
+	        <p>Déterminez si une carrière dans la police vous convient avant de poser votre candidature.</p>
+	      </section>
+	    </li>
+	    <li class="col-md-6">
+	      <section class="well">
+	        <h3 class="h5"><a href="#">Processus de candidature</a></h3>
+	        <p>Consultez le processus de candidature avant de poser votre candidature.</p>
+	      </section>
+	    </li>
+	  </ul>
+	</div>
 </section>

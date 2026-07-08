@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: RCMP careers
-date_modified: 2026-06-10
+date_modified: 2026-07-08
 lang: en
 lang_url: careers-carrieres-fr.html
 h1_hidden: true
@@ -31,14 +31,14 @@ custom_css: /assets/css/careers.css
     <div class="fp-content">
       <p class="uppercase">Welcome to <abbr>RCMP</abbr> careers</p>
       <h2 class="oswald-500 uppercase">Police officer careers</h2>
-      <p class="header-description">There's a uniform with your name on it. Serve boldly.</p><a class="btn btn-careers" href="#">More information <span class="wb-inv">about police officer careers</span></a>
+      <p class="header-description">Join Canada’s front line. Become an RCMP officer.</p><a class="btn btn-careers" href="#">More information <span class="wb-inv">about police officer careers</span></a>
     </div>
   </section>
   <section class="fp-section" id="civilian-employees" style="background-image: url('/assets/img/hero-civilian.jpg');">
     <div class="fp-overlay"></div>
     <div class="fp-content">
       <h2 class="oswald-500 uppercase">Civilian careers</h2>
-      <p class="header-description">Your skills. Our mission. Roles with impact.</p><a class="btn btn-careers" href="#">More information <span class="wb-inv">about civilian careers</span></a>
+      <p class="header-description">Bring your skills. Power our mission. Make an impact.</p><a class="btn btn-careers" href="#">More information <span class="wb-inv">about civilian careers</span></a>
     </div>
   </section>
   <section class="fp-section fp-section--scroll" id="more-opportunities">
@@ -64,21 +64,7 @@ custom_css: /assets/css/careers.css
             <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-7.jpg">
               <h3 class="h5"><a href="#">Volunteer programs</a></h3>
-              <p>Support local detachments as a community partner and help to tell the RCMP story across Canada.</p>
-            </div>
-          </li>
-          <li class="col-lg-4 col-md-6 col-xs-12">
-            <div class="well">
-              <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-3.jpg">
-              <h3 class="h5"><a href="#">Diverse and Inclusive Pre-Cadet Experience</a></h3>
-              <p>Get a firsthand look into policing before you apply. Designed to support racialized and underrepresented communities.</p>
-            </div>
-          </li>
-          <li class="col-lg-4 col-md-6 col-xs-12">
-            <div class="well">
-              <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-8.jpg">
-              <h3 class="h5"><a href="#">Indigenous recruitment</a></h3>
-              <p>Discover programs that support Indigenous applicants considering a career in policing.</p>
+              <p>Support local detachments and help to tell the RCMP story across Canada.</p>
             </div>
           </li>
           <li class="col-lg-4 col-md-6 col-xs-12">
@@ -86,6 +72,20 @@ custom_css: /assets/css/careers.css
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-9.jpg">
               <h3 class="h5"><a href="#">Student jobs</a></h3>
               <p>Start your career with purpose and drive national impact while you study.</p>
+            </div>
+          </li>
+          <li class="col-lg-4 col-md-6 col-xs-12">
+            <div class="well">
+              <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-3.jpg">
+              <h3 class="h5"><a href="#">Diverse and Inclusive Pre-Cadet Experience</a></h3>
+              <p>Get a firsthand look into policing before you apply. Designed to support racialized and unrepresented communities.</p>
+            </div>
+          </li>
+          <li class="col-lg-4 col-md-6 col-xs-12">
+            <div class="well">
+              <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-8.jpg">
+              <h3 class="h5"><a href="#">First Nations, Inuit and Métis applicant programs</a></h3>
+              <p>Discover programs that support Indigenous applicants considering a career in policing.</p>
             </div>
           </li>
         </ul>

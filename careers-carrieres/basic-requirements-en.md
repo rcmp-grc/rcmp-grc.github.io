@@ -125,6 +125,22 @@ custom_css: /assets/css/careers.css
 		<li>you must not have any pending and/or current personal bankruptcies or consumer proposals</li>
 	</ul>
 	<p>Honesty is important in your application process. Review a <a href="">list of criminal activity misconduct</a> that could prevent you from being successful in your application.</p>
-	<p>Before you apply, complete the <a href="">RCMP Applicant Readiness Check</a> to see if policing is right for you.</p>
-	<p>If you’re ready to apply, review the <a href="">Application Process</a> to learn how to get started.</p>
+
+<section class="gc-features">
+  <h3 class="wb-inv">Service and information</h3>
+  <ul class="list-unstyled row">
+    <li class="col-md-6">
+      <div class="well">
+        <h4 class="h5"><a href="">RCMP Applicant Readiness Check</a></h4>
+        <p>Before you apply, complete the RCMP Applicant Readiness Check to see if policing is right for you</p>
+      </div>
+    </li>
+    <li class="col-md-6">
+      <div class="well">
+        <h4 class="h5"><a href="#">Application process</a></h4>
+        <p>If you’re ready to apply, review the application process to learn how to get started.</p>
+      </div>
+    </li>
+  </ul>
+</section>
 </section>

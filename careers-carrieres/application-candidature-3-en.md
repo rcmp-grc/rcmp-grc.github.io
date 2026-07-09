@@ -91,7 +91,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s2">
   <h2>Required personal documents</h2>
-  <p>You must scan the following original documents. We do not accept scans of copies.</p>
+  <p>You must scan the following <strong>original documents</strong>. We do not accept scans of copies.</p>
   <ul>
     <li>if you were born in Canada: Canadian birth certificate (front and back)</li>
     <li>if you were born outside of Canada: Canadian Citizenship or permanent resident card, and Confirmation of Permanent Residence (IMM&nbsp;5292), if applicable</li>

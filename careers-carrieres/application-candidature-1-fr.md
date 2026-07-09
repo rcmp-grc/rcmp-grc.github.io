@@ -19,23 +19,23 @@ custom_css: /assets/css/careers.css
   <h2>Processus de recrutement des policiers et policières</h2>
   <ul>
     <li><a class="active" href="application-candidature-1-fr.html">Posez votre candidature en ligne</a></li>
-    <li><a href="application-candidature-2-fr.html">Online career presentation and entrance assessment</a></li>
-    <li><a href="application-candidature-3-fr.html">Submit the required forms and documents</a>
+    <li><a href="application-candidature-2-fr.html">Exposé sur les carrières et évaluation d’entrée en ligne</a></li>
+    <li><a href="application-candidature-3-fr.html">Transmettez les formulaires et les documents requis</a>
       <ul class="noline">
         <li>
           <a href="application-candidature-3-1-fr.html">How to complete the forms</a>
         </li>
       </ul>
     </li>
-    <li><a href="application-candidature-4-fr.html">Complete a suitability interview</a></li>
-    <li><a href="application-candidature-5-fr.html">Complete psychological and medical suitability assessments</a>
+    <li><a href="application-candidature-4-fr.html">Passez une entrevue d’admissibilité</a></li>
+    <li><a href="application-candidature-5-fr.html">Soumettez-vous à une évaluation médicale et une évaluation de l’aptitude psychologique</a>
       <ul class="noline">
         <li>
           <a href="application-candidature-5-1-fr.html">Health conditions that could impact your suitability to become a police officer</a>
         </li>
       </ul>
     </li>
-    <li><a href="application-candidature-6-fr.html">Complete a field investigation and security assessment</a></li>
+    <li><a href="application-candidature-6-fr.html">Passez une enquête sur les antécédents et une évaluation de sécurité</a></li>
   </ul>
 </nav>
 <nav aria-label="Sur cette page">
@@ -56,17 +56,17 @@ custom_css: /assets/css/careers.css
   <p>Comprendre les exigences d’admission et le processus de candidature est la première étape à franchir pour entreprendre une carrière à la GRC.</p>
   <p>Les candidatures doivent être présentées dans le portail Emplois GC. Pour présenter la vôtre, vous devrez créer un compte sur Emplois GC.</p>
   <p>Vous devrez répondre à des questions de présélection destinées à déterminer si vous répondez aux <a href="#">exigences de base</a>. Assurez-vous de les lire attentivement et d’y répondre honnêtement, car vos réponses détermineront si vous passez à l’étape suivante du processus de recrutement.</p>
-  <p>Si vous n’êtes pas retenu(e), vous devrez attendre 3 mois pour présenter de nouveau votre candidature.</p>
+  <p>Si vous n’êtes pas retenu(e), vous devrez attendre 3&nbsp;mois pour présenter de nouveau votre candidature.</p>
   <p>Si vous avez des questions sur le processus, nous vous encourageons à assister à une  <a href="#">activité de recrutement</a> ou à <a href="#">communiquer avec un recruteur</a> avant de <a href="#">présenter votre candidature en ligne</a>.</p>
 </section>
 <section id="s2">
   <h2>Personnes ayant déjà présenté une candidature auparavant</h2>
-  <p>Si vous avez déjà présenté une candidature dans le passé, vous pouvez de nouveau tenter votre chance à condition :</p>
+  <p>Si vous avez déjà présenté une candidature dans le passé, vous pouvez de nouveau tenter votre chance à condition&nbsp;:</p>
   <ul>
-    <li>que votre période d’attente est terminée. Cette période vous aura été indiquée dans la lettre de clôture de votre dossier. À défaut, vous pouvez présenter une nouvelle candidature 3 mois après la date de clôture de votre dossier</li>
+    <li>que votre période d’attente est terminée. Cette période vous aura été indiquée dans la lettre de clôture de votre dossier. À défaut, vous pouvez présenter une nouvelle candidature 3&nbsp;mois après la date de clôture de votre dossier</li>
     <li>de posséder les qualifications requises et de répondre aux exigences de la GRC</li>
   </ul>
-  <p>Si vous ne répondez pas à ces conditions, votre candidature pourrait être rejetée et vous devrez de nouveau attendre 3 mois avant de tenter votre chance.</p>
+  <p>Si vous ne répondez pas à ces conditions, votre candidature pourrait être rejetée et vous devrez de nouveau attendre 3&nbsp;mois avant de tenter votre chance.</p>
   <p>À la réception de votre candidature, nous examinerons votre dossier ainsi que celui que vous aurez présenté auparavant. Puis, nous communiquerons pour vous indiquer les prochaines étapes.</p>
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">

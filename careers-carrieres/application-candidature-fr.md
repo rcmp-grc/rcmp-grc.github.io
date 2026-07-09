@@ -5,9 +5,9 @@ date_modified: 2026-07-08
 lang: fr
 lang_url: application-candidature-en.html
 breadcrumbs:
-  - label: "RCMP careers"
+  - label: "Carrières à la GRC"
     url: "careers-carrieres/careers-carrieres-fr.html"
-  - label: "Police officer careers"
+  - label: "Carrières policières"
     url: "careers-carrieres/officer-agent-fr.html"
 custom_css: /assets/css/careers.css
 ---

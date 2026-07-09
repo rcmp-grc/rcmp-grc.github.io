@@ -38,17 +38,6 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-6-en.html">Complete a field investigation and security assessment</a></li>
   </ul>
 </nav>
-<nav aria-label="On this page">
-  <h2>On this page</h2>
-  <ul>
-    <li>
-      <a href="#s1">New applicants</a>
-    </li>
-    <li>
-      <a href="#s2">Returning applicants</a>
-    </li>
-  </ul>
-</nav>
 <section id="s1">
   <h2>New applicants</h2>
   <p>If you're applying to the RCMP for the first time, it's important to decide if you are suited and ready to become an RCMP police officer.</p>

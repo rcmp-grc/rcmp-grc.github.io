@@ -67,12 +67,12 @@ custom_css: /assets/css/careers.css
     <dd><p>Il ne s’agit pas d’un&nbsp;examen, mais plutôt d’un moyen d’évaluer votre personnalité, votre comportement et vos aptitudes cognitives. L’évaluation comporte six&nbsp;volets&nbsp;:</p></dd>
     <dd>
     <ul>
-      <li>1&nbsp;- Préférence de style de travail</li>
-      <li>2&nbsp;- Compréhension de la langue</li>
-      <li>3&nbsp;- Compétences en calcul</li>
-      <li>4&nbsp;- Habiletés spatiales</li>
-      <li>5&nbsp;- Quotient de mémoire</li>
-      <li>6&nbsp;- Raisonnement</li>
+      <li>Étape&nbsp;1&nbsp;- Préférence de style de travail</li>
+      <li>Étape&nbsp;2&nbsp;- Compréhension de la langue</li>
+      <li>Étape&nbsp;3&nbsp;- Compétences en calcul</li>
+      <li>Étape&nbsp;4&nbsp;- Habiletés spatiales</li>
+      <li>Étape&nbsp;5&nbsp;- Quotient de mémoire</li>
+      <li>Étape&nbsp;6&nbsp;- Raisonnement</li>
     </ul>
     </dd>
     <dd><p>Prévoyez 55 à 70&nbsp;minutes environ pour faire l’évaluation. Certaines parties doivent être faites dans un laps de temps limité, mais il n’y a pas de limite de temps pour l’ensemble de l’évaluation. Cependant, nous vous recommandons de faire l’évaluation d’un trait.</p></dd>
@@ -98,7 +98,7 @@ custom_css: /assets/css/careers.css
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i>
         <span class="rcmp-content-page__link-title">Étape précédent</span>
       </span>
-      <span class="rcmp-content-page__link-label" id="mp-previous-label">Étapes du processus</span>
+      <span class="rcmp-content-page__link-label" id="mp-previous-label">Posez votre candidature en ligne</span>
     </a>
   </div>
   <div class="rcmp-content-page__next" id="mp-next-wrap">
@@ -107,7 +107,7 @@ custom_css: /assets/css/careers.css
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
         <span class="rcmp-content-page__link-title">Étape suivante</span>
       </span>
-      <span class="rcmp-content-page__link-label" id="mp-next-label">Exposé sur les carrières et évaluation d’entrée en ligne</span>
+      <span class="rcmp-content-page__link-label" id="mp-next-label">Transmettez les formulaires et les documents requis</span>
     </a>
   </div>
 </nav>

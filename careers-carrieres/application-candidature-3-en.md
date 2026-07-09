@@ -38,7 +38,7 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-6-en.html">Complete a field investigation and security assessment</a></li>
   </ul>
 </nav>
-<p class="lead">Once you are contacted by a recruiting analyst, you'll have 14&nbsp;days to complete all required forms and documents, including the Security Screening Application and submit them through a <a href="#">secure online portal</a>.</p>
+<p>Once you are contacted by a recruiting analyst, you'll have 14&nbsp;days to complete all required forms and documents, including the Security Screening Application and submit them through a <a href="#">secure online portal</a>.</p>
 <section id="s1">
   <h2>Required forms</h2>
   <ul class="gc-link-list" role="list">

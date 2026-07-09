@@ -51,34 +51,38 @@ custom_css: /assets/css/careers.css
 </nav>
 <section id="s1">
   <h2>Exposé virtuel sur les carrières</h2>
-  <p>After you've been screened into the process, you'll be contacted by email inviting to you to attend an online career presentation.</p>
-  <p>During the presentation, you'll learn more about a career in policing with the RCMP.</p>
+  <p>Une&nbsp;fois admis dans le processus, vous recevrez un courriel d’invitation à un exposé virtuel sur les carrières.</p>
+  <p>Cet exposé offre un aperçu du métier policier à la GRC.</p>
 </section>
 <section id="s2">
-  <h2>RCMP Online Entrance Assessment</h2>
-  <p>After you attend the online career presentation, your next step is to complete the RCMP Online Entrance Assessment. We'll include a link to the assessment in the same career presentation invitation email.</p>
-  <p>You'll have 14 days to complete the online assessment from the date you received the link.</p>
+  <h2>Évaluation d’entrée en ligne</h2>
+  <p>Après l’exposé virtuel sur les carrières vient l’évaluation d’entrée en ligne. Le lien pour participer à celle-ci figurera dans le courriel d’invitation à l’exposé sur les carrières.</p>
+  <p>Vous disposerez de 14 jours après réception du lien pour faire l’évaluation en ligne.</p>
   <section id="s2-1">
-    <h3>What is the RCMP Online Entrance Assessment?</h3>
-    <p>The RCMP Online Entrance Assessment is a biased-free tool to assess applicants as part of the RCMP Officer recruiting process.</p>
-    <p>The Assessment is not an exam, it's an assessment of your personality, behaviour, and cognitive ability. It consists of 6 sections:</p>
+    <h3>En quoi consiste l’évaluation?</h3>
+    <p>L’évaluation d’entrée en ligne de la GRC est un moyen d’évaluer de manière impartiale les candidats dans le cadre du processus de recrutement.</p>
+    <p>Il ne s’agit pas d’un&nbsp;examen, mais plutôt d’un moyen d’évaluer votre personnalité, votre comportement et vos aptitudes cognitives. L’évaluation comporte six&nbsp;volets&nbsp;:</p>
     <ul>
-      <li>Section 1: Workstyle preference</li>
-      <li>Section 2: Language comprehension</li>
-      <li>Section 3: Numerical skills</li>
-      <li>Section 4: Spatial skills</li>
-      <li>Section 5: Memory quotient</li>
-      <li>Section 6: Business reasoning</li>
+      <li>1&nbsp;- Préférence de style de travail</li>
+      <li>2&nbsp;- Compréhension de la langue</li>
+      <li>3&nbsp;- Compétences en calcul</li>
+      <li>4&nbsp;- Habiletés spatiales</li>
+      <li>5&nbsp;- Quotient de mémoire</li>
+      <li>6&nbsp;- Raisonnement</li>
     </ul>
-    <p>Schedule approximately 55 to 70 minutes to complete the assessment. Some sections of the assessment are timed, but there's no overall time limit. We recommend that you complete the entire assessment in one session.</p>
+    <p>Prévoyez 55 à 70&nbsp;minutes environ pour faire l’évaluation. Certaines parties doivent être faites dans un laps de temps limité, mais il n’y a pas de limite de temps pour l’ensemble de l’évaluation. Cependant, nous vous recommandons de faire l’évaluation d’un trait.</p>
   </section>
   <section id="s2-2">
-    <h3>How do I prepare?</h3>
-    <p>Use the <a href="#">Online Entrance Assessment Preparatory Guide</a> to prepare for the assessment. It has sample questions and scenarios to help you understand what to expect and how to succeed.</p>
+    <h3>Comment puis-je me préparer?</h3>
+    <p>Utilisez le <a href="#">guide préparatoire à l’évaluation en ligne de la GRC</a> pour vous préparer. Il contient des exemples de questions et de scénarios qui vous aideront à vous préparer et à réussir l’évaluation.</p>
   </section>
   <section id="s2-3">
-    <h3>Do I need a minimum score to move on?</h3>
-    <p>Completing the RCMP Online Entrance Assessment doesn't guarantee advancement in the recruitment process. If you've passed the RCMP Online Entrance Assessment, your application has been retained. You'll continue with your application but you're not yet active in the recruitment process. If you're unsuccessful, you can re-apply after a 3-month waiting period.</p>
+    <h3>Y a-t-il une note de passage minimale?</h3>
+    <p>Faire l’évaluation d’entrée en ligne ne garantit pas la progression à l’étape du recrutement. Si vous réussissez l’évaluation, cela signifie simplement que votre candidature a été retenue. Vous passerez aux étapes suivantes, mais vous n’êtes pas encore à l’étape du recrutement. Si vous échouez, vous pourrez présenter votre candidature de nouveau après une&nbsp;période d’attente de 3&nbsp;mois.</p>
+  </section>
+   <section id="s2-4">
+    <h3>Prochaines étapes</h3>
+    <p>Une&nbsp;fois votre candidature retenue, nous vérifierons que vous répondez aux <a href="#">exigences de base</a>.</p>
   </section>
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page" style="display: block;">

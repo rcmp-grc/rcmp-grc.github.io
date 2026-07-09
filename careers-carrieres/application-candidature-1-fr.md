@@ -71,12 +71,12 @@ custom_css: /assets/css/careers.css
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
    <div class="rcmp-content-page__next" id="mp-previous-wrap">
-    <a aria-label="Étape précédent : Exposé sur les carrières et évaluation d’entrée en ligne" class="rcmp-content-page__link" href="application-candidature-2-fr.html" id="mp-next">
+    <a aria-label="Étape précédent : Exposé sur les carrières et évaluation d’entrée en ligne" class="rcmp-content-page__link" href="application-candidature-1-fr.html" id="mp-previous">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
         <span class="rcmp-content-page__link-title">Étape précédent</span>
       </span>
-      <span class="rcmp-content-page__link-label" id="mp-next-label">Exposé sur les carrières et évaluation d’entrée en ligne</span>
+      <span class="rcmp-content-page__link-label" id="mp-previous-label">Étapes du processus</span>
     </a>
   </div>
   <div class="rcmp-content-page__next" id="mp-next-wrap">

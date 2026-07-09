@@ -14,7 +14,7 @@ custom_css: /assets/css/careers.css
 
 <section class="alert alert-info">
     <h2 class="h3">Note</h2>
-    <p>Deux sessions du Programme de formation des précadets autochtones (PFPA) sont prévues en&nbsp;2026&nbsp;: 
+    <p>Deux sessions du Programme de formation des précadets autochtones (PFPA) sont prévues en&nbsp;2026&nbsp;:</p> 
       <ul>
           <li>Du 24&nbsp;juin au 14&nbsp;juillet</li>
           <li>Du 7&nbsp;au 27&nbsp;octobre</li>
@@ -41,7 +41,7 @@ custom_css: /assets/css/careers.css
   <div class="pull-right col-xs-12 col-md-3 col-lg-4">
     <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
       <figure>
-        <img alt="" class="img-responsive full-width" src="/sites/default/files/img/iptp-pfpa.jpg">
+        <img alt="" class="img-responsive full-width" src="iptp-pfpa.jpg">
         <figcaption>
           Participants faisant des exercices avec leurs instructeurs à l'École de la GRC à Regina, en Saskatchewan, session du printemps&nbsp;2022.
         </figcaption>
@@ -90,7 +90,7 @@ custom_css: /assets/css/careers.css
     <div class="wb-eqht wb-init">
       <div class="col-md-4 mrgn-bttm-md">
           <figure>
-              <img alt="" class="img-responsive center-block" src="/sites/default/files/img/iptp-pfpa-1.jpg">
+              <img alt="" class="img-responsive center-block" src="iptp-pfpa-1.jpg">
               <figcaption>
                   Des participants au programme PFPA assistent à des séances de formation en salle de classe.
               </figcaption>
@@ -98,7 +98,7 @@ custom_css: /assets/css/careers.css
       </div>
       <div class="col-md-4 mrgn-bttm-md">
           <figure>
-              <img alt="" class="img-responsive center-block" src="/sites/default/files/img/iptp-pfpa-2.jpg">
+              <img alt="" class="img-responsive center-block" src="iptp-pfpa-2.jpg">
               <figcaption>
                   Des participants au programme PFPA prennent part à des exercices structures.
               </figcaption>
@@ -121,7 +121,7 @@ custom_css: /assets/css/careers.css
    <div class="wb-eqht wb-init">
       <div class="col-md-4 mrgn-bttm-md">
           <figure>
-              <img alt="" class="img-responsive center-block" src="/sites/default/files/img/iptp-pfpa-3.jpg">
+              <img alt="" class="img-responsive center-block" src="iptp-pfpa-3.jpg">
               <figcaption>
                   Un participant participle à un entraînement physique dans le cadre de son experience du PFPA.
               </figcaption>

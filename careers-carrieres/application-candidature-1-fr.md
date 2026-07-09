@@ -15,7 +15,7 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<nav aria-label="Processus de recrutement des policiers et policières" class="gc-subway" data-sections-title="Étapes">
+<nav aria-label="Étapes du processus de recrutement des policiers et policières" class="gc-subway" data-sections-title="Étapes">
   <h2>Processus de recrutement des policiers et policières</h2>
   <ul>
     <li><a class="active" href="application-candidature-1-fr.html">Posez votre candidature en ligne</a></li>

@@ -1,88 +1,87 @@
 ---
 layout: careers
-title: Submit the required forms and documents
-date_modified: 2026-06-10
+title: Transmettez les formulaires et les documents requis
+date_modified: 2026-07-08
 lang: en
 lang_url: application-candidature-3-fr.html
-lead: Police officer application process
+lead: Processus de recrutement des policiers et policières
 breadcrumbs:
-  - label: "RCMP careers"
-    url: "careers-carrieres/careers-carrieres-en.html"
-  - label: "Police officer careers"
-    url: "careers-carrieres/officer-agent-en.html"
-  - label: "Police officer application process"
-    url: "careers-carrieres/application-candidature-en.html"
-custom_css: /assets/css/careers.css
+  - label: "Carrières à la GRC"
+    url: "careers-carrieres/careers-carrieres-fr.html"
+  - label: "Carrières policières"
+    url: "careers-carrieres/officer-agent-fr.html"
+  - label: "Processus de recrutement des policiers et policières"
+    url: "careers-carrieres/application-candidature-fr.html"
 ---
 
-<nav aria-label="Application process steps" class="gc-subway" data-sections-title="Steps">
-  <h2>Police officer application process</h2>
+<nav aria-label="Étapes du processus de recrutement" class="gc-subway" data-sections-title="Étapes">
+  <h2>Processus de recrutement des policiers et policières</h2>
   <ul>
-    <li><a href="application-candidature-1-en.html">Submit an online application</a></li>
-    <li><a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a></li>
-    <li><a class="active" href="application-candidature-3-en.html">Submit the required forms and documents</a>
+    <li><a href="application-candidature-1-fr.html">Posez votre candidature en ligne</a></li>
+    <li><a href="application-candidature-2-fr.html">Exposé sur les carrières et évaluation d’entrée en ligne</a></li>
+    <li><a class="active" href="application-candidature-3-fr.html">Transmettez les formulaires et les documents requis</a>
       <ul class="noline">
         <li>
-          <a href="application-candidature-3-1-en.html">How to complete the forms</a>
+          <a href="application-candidature-3-1-fr.html">Marche à suivre pour remplir les formulaires</a>
         </li>
       </ul>
     </li>
-    <li><a href="application-candidature-4-en.html">Complete a suitability interview</a></li>
-    <li><a href="application-candidature-5-en.html">Complete psychological and medical suitability assessments</a>
+    <li><a href="application-candidature-4-fr.html">Passez une entrevue d’admissibilité</a></li>
+    <li><a href="application-candidature-5-fr.html">Soumettez-vous à une évaluation médicale et une évaluation de l’aptitude psychologique</a>
       <ul class="noline">
         <li>
-          <a href="application-candidature-5-1-en.html">Health conditions that could impact your suitability to become a police officer</a>
+          <a href="application-candidature-5-1-fr.html">Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière</a>
         </li>
       </ul>
     </li>
-    <li><a href="application-candidature-6-en.html">Complete a field investigation and security assessment</a></li>
+    <li><a href="application-candidature-6-fr.html">Passez une enquête sur les antécédents et une évaluation de sécurité</a></li>
   </ul>
 </nav>
-<p class="lead">Once you are contacted by a recruiting analyst, you'll have 14&nbsp;days to complete all required forms and documents, including the Security Screening Application and submit them through a <a href="#">secure online portal</a>.</p>
+<p>Lorsqu’un analyste de recrutement aura communiqué avec vous, vous aurez jusqu’à 14&nbsp;jours pour remplir les formulaires, notamment la demande de filtrage de sécurité, et les transmettre, accompagnés des documents requis, dans le <a href="#">portail en ligne sécurisé</a>.</p>
 <section id="s1">
-  <h2>Required forms</h2>
+  <h2>Formulaires requis</h2>
   <ul class="gc-link-list" role="list">
     <li>
-        <a href="6509e.pdf" class="gc-pdf-link" download>
+        <a href="6509f.pdf" class="gc-pdf-link" download>
        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
-          <span class="gc-link-title">Regular Member Applicant Hearing Examination Report (RCMP&nbsp;6509)</span>
+          <span class="gc-link-title">Rapport de l’examen de l’audition du postulant m.r. (GRC 6509)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
       </a>
     </li>
     <li>
-        <a href="2180e.pdf" class="gc-pdf-link" download>
+        <a href="2180f.pdf" class="gc-pdf-link" download>
        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
-          <span class="gc-link-title">Vision Examination of Applicant (RCMP&nbsp;2180)</span>
+          <span class="gc-link-title">Rapport de l’examen de la vue du postulant m.r. (GRC 2180)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
       </a>
     </li>
     <li>
-        <a href="5096e.pdf" class="gc-pdf-link" download>
+        <a href="5096f.pdf" class="gc-pdf-link" download>
        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
-          <span class="gc-link-title">Regular Member Applicant Questionnaire (RCMP&nbsp;5096)</span>
+          <span class="gc-link-title">Questionnaire du postulant à un poste de membre régulier (GRC 5096)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
       </a>
     </li>
     <li>
-        <a href="1980e.pdf" class="gc-pdf-link" download>
+        <a href="1980f.pdf" class="gc-pdf-link" download>
        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
-          <span class="gc-link-title">Suitability Screening Form (RCMP&nbsp;1980)</span>
+          <span class="gc-link-title">Vérification de l’admissibilité (GRC 1980)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
       </a>
     </li>
     <li>
-        <a href="6465e.pdf" class="gc-pdf-link" download>
+        <a href="6465f.pdf" class="gc-pdf-link" download>
        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
-          <span class="gc-link-title">Acknowledgement of Professional Responsibilities in the Royal Canadian Mounted Police (RCMP&nbsp;6465)</span>
+          <span class="gc-link-title">Attestation relative aux responsabilités professionnelles du membre de la Gendarmerie royale du Canada (GRC 6465)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
       </a>
@@ -90,29 +89,41 @@ custom_css: /assets/css/careers.css
   </ul>
 </section>
 <section id="s2">
-  <h2>Required personal documents</h2>
-  <p>You must scan the following original documents. We do not accept scans of copies.</p>
+  <h2>Documents requis</h2>
+  <p>Vous devez fournir une <strong>copie numérisée</strong> des documents <strong>originaux suivants</strong>. Nous n’acceptons pas les copies numérisées de photocopies de documents.</p>
   <ul>
-    <li>if you were born in Canada: Canadian birth certificate (front and back)</li>
-    <li>if you were born outside of Canada: Canadian Citizenship or permanent resident card, and Confirmation of Permanent Residence (IMM&nbsp;5292), if applicable</li>
-    <li>social insurance number</li>
-    <li>marriage, divorce, separation, or name change certificate, if applicable</li>
-    <li>custody agreement, if applicable</li>
-    <li>recent photo of yourself from the shoulders up</li>
-    <li>proof of education: Canadian high school transcript showing graduation, or equivalency assessment</li>
-    <li>valid Canadian driver's license (front and back)</li>
-    <li>driving record from every province or territory that you have lived in for the last 3&nbsp;years</li>
-    <li>provincial health card (front and back)</li>
-    <li>valid standard first aid certificate, including Level&nbsp;C CPR for infant, child and adult (must be valid for the duration of your Cadet Training Program)</li>
-    <li>fitness logs and self-declaration</li>
+    <li>Si vous êtes né(e) au Canada&nbsp;: votre acte de naissance canadien (recto verso)</li>
+    <li>Si vous êtes né(e) à l’étranger&nbsp;: votre certificat de citoyenneté canadienne ou votre carte de résident permanent et la Confirmation de résidence permanente (document IMM 5292) (s’il y a lieu)</li>
+    <li>Votre carte d’assurance sociale</li>
+    <li>Votre certificat de mariage/divorce/séparation ou de changement de nom (s’il y a lieu)</li>
+    <li>Le document d’entente concernant la garde d’un&nbsp;enfant (s’il y a lieu)</li>
+    <li>Une&nbsp;photo de vous jusqu’aux épaules prise récemment</li>
+    <li>Une attestation d’études&nbsp;: relevé de notes canadien de l’école secondaire portant la mention «&nbsp;diplômé&nbsp;» ou attestation d’équivalence/li>
+    <li>Votre permis de conduire canadien en cours de validité (recto verso)</li>
+    <li>Votre dossier de conduite dans chaque province ou territoire où vous avez vécu au cours des trois&nbsp;dernières&nbsp;années</li>
+    <li>Votre carte de santé provinciale (recto et verso)</li>
+    <li>Votre certificat de secourisme général, incluant la RCR de niveau&nbsp;C pour bébé, enfant et adulte (qui doit être valable pendant toute la durée du Programme de formation des cadets que vous suivrez)</li>
+    <li>Votre registre d’entraînement et le formulaire d’autodéclaration</li>
   </ul>
 </section>
-<nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page" style="display: block;">
-  <div class="rcmp-content-page__prev" id="mp-prev-wrap" style="display: block;">
-    <a aria-label="Previous page: Online career presentation and entrance assessment" class="rcmp-content-page__link" href="application-candidature-2-en.html" id="mp-prev"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i> <span class="rcmp-content-page__link-title">Previous page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-prev-label">Online career presentation and entrance assessment</span></a>
+<nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
+   <div class="rcmp-content-page__previous" id="mp-previous-wrap">
+    <a aria-label="Étape précédent : Exposé sur les carrières et évaluation d’entrée en ligne" class="rcmp-content-page__link" href="application-candidature-2-fr.html" id="mp-previous">
+      <span class="rcmp-content-page__title-row">
+        <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i>
+        <span class="rcmp-content-page__link-title">Étape précédent</span>
+      </span>
+      <span class="rcmp-content-page__link-label" id="mp-previous-label">Exposé sur les carrières et évaluation d’entrée en ligne</span>
+    </a>
   </div>
-  <div class="rcmp-content-page__next" id="mp-next-wrap" style="display: block;">
-    <a aria-label="Next page: How to complete the forms" class="rcmp-content-page__link" href="application-candidature-3-1-en.html" id="mp-next"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i> <span class="rcmp-content-page__link-title">Next page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-next-label">How to complete the forms</span></a>
+  <div class="rcmp-content-page__next" id="mp-next-wrap">
+    <a aria-label="Étape suivante : Exposé sur les carrières et évaluation d’entrée en ligne" class="rcmp-content-page__link" href="application-candidature-3-1-fr.html" id="mp-next">
+      <span class="rcmp-content-page__title-row">
+        <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
+        <span class="rcmp-content-page__link-title">Étape suivante</span>
+      </span>
+      <span class="rcmp-content-page__link-label" id="mp-next-label">Marche à suivre pour remplir les formulaires</span>
+    </a>
   </div>
 </nav>
 <script>

@@ -48,7 +48,7 @@ custom_css: /assets/css/careers.css
       <a href="#s2">Évaluation d’entrée en ligne</a>
     </li>
      <li>
-      <a href="#s3">Évaluation d’entrée en ligne</a>
+      <a href="#s3">Prochaines étapes</a>
     </li>
   </ul>
 </nav>
@@ -91,12 +91,15 @@ custom_css: /assets/css/careers.css
     <p>Une&nbsp;fois votre candidature retenue, nous vérifierons que vous répondez aux <a href="#">exigences de base</a>.</p>
   </section>
 </section>
-<nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page" style="display: block;">
-  <div class="rcmp-content-page__prev" id="mp-prev-wrap" style="display: block;">
-    <a aria-label="Previous page: Submit an online application" class="rcmp-content-page__link" href="application-candidature-1-en.html" id="mp-prev"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i> <span class="rcmp-content-page__link-title">Previous page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-prev-label">Submit an online application</span></a>
-  </div>
-  <div class="rcmp-content-page__next" id="mp-next-wrap" style="display: block;">
-    <a aria-label="Next page: Submit the required forms and documents" class="rcmp-content-page__link" href="application-candidature-3-en.html" id="mp-next"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i> <span class="rcmp-content-page__link-title">Next page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-next-label">Submit the required forms and documents</span></a>
+<nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
+  <div class="rcmp-content-page__next" id="mp-next-wrap">
+    <a aria-label="Étape suivante : Exposé sur les carrières et évaluation d’entrée en ligne" class="rcmp-content-page__link" href="application-candidature-2-fr.html" id="mp-next">
+      <span class="rcmp-content-page__title-row">
+        <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
+        <span class="rcmp-content-page__link-title">Étape suivante</span>
+      </span>
+      <span class="rcmp-content-page__link-label" id="mp-next-label">Exposé sur les carrières et évaluation d’entrée en ligne</span>
+    </a>
   </div>
 </nav>
 <script>

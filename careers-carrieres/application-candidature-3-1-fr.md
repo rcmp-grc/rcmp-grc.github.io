@@ -80,8 +80,8 @@ custom_css: /assets/css/careers.css
       <p>Vous devrez satisfaire aux normes d’acuité visuelle corrigée <strong>et</strong> non corrigée. Le postulant qui ne répond à aucune des deux&nbsp;normes ne satisfait pas aux exigences minimales de vision pour les postulants m.r.</p>
       <p>Les exigences minimales en matière d’acuité visuelle sont les suivantes&nbsp;:</p>
       <ul>
-        <li>Vision corrigée (avec lunettes ou lentilles cornéennes)&nbsp;: l’acuité visuelle doit être d’au moins 6/6&nbsp;(20/20) à un œil et de 6/9&nbsp;(20/30) à l’autre</li>
-        <li>Vision non corrigée (sans lunettes ni lentilles cornéennes)&nbsp;: l’acuité visuelle doit être d’au moins 6/18&nbsp;(20/60) à chaque œil ou de 6/12&nbsp;(20/40) à un œil et d’au moins 6/30&nbsp;(20/100) à l’autre œil</li>
+        <li>Vision corrigée (avec lunettes ou lentilles cornéennes)&nbsp;: l’acuité visuelle doit être d’au moins 6/6&nbsp;(20/20) à un œil <strong>et</strong> de 6/9&nbsp;(20/30) à l’autre</li>
+        <li>Vision non corrigée (sans lunettes ni lentilles cornéennes)&nbsp;: l’acuité visuelle doit être d’au moins 6/18&nbsp;(20/60) à chaque œil <strong>ou</strong> de 6/12&nbsp;(20/40) à un œil <strong>et</strong> d’au moins 6/30&nbsp;(20/100) à l’autre œil</li>
       </ul>
       <p>Ce seuil d’acuité visuelle est exigé, car le policier doit pouvoir exécuter ses tâches en toute sécurité même s’il lui arrivait de perdre ou d’égarer ses lunettes ou ses lentilles cornéennes.</p>
     </section>

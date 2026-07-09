@@ -4,7 +4,7 @@ title: Police Fitness Assessment Workshop
 date_modified: 2026-06-10
 lang: en
 lang_url: event-evenement-fr.html
-lead: Événement de recrutement de policiers
+lead: Police officer recruiting event
 breadcrumbs:
   - label: "RCMP careers"
     url: "careers-carrieres/careers-carrieres-en.html"

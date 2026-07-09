@@ -2,13 +2,13 @@
 layout: careers
 title: Rémunération supplémentaire et indemnités spéciales pour les policiers
 date_modified: 2026-07-08
-lang: en
+lang: fr
 lang_url: additional-pay-en.html
 breadcrumbs:
   - label: "Carrières à la GRC"
-    url: "careers-carrieres/fr.html"
+    url: "careers-carrieres/careers-carrieres-fr.html"
   - label: "Carrières policières"
-    url: "careers-carrieres/fr.html"
+    url: "careers-carrieres/officer-agent-fr.html"
 custom_css: /assets/css/careers.css
 ---
 

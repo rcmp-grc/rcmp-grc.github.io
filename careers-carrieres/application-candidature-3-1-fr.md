@@ -145,7 +145,7 @@ custom_css: /assets/css/careers.css
   </ul>
   <p>Pour pouvoir remplir et sauvegarder les formulaires en format PDF, vous devez les télécharger sur votre ordinateur puis les ouvrir avec <a href="https://get.adobe.com/reader/otherversions/">Adobe Reader® 10</a> (ou une&nbsp;version plus récente). Veuillez noter que les formulaires en format PDF ne peuvent pas être ouverts et remplis sur des appareils mobiles.</p>
 </section>
-<<nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
+<nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
    <div class="rcmp-content-page__previous" id="mp-previous-wrap">
     <a aria-label="Étape précédent : Exposé sur les carrières et évaluation d’entrée en ligne" class="rcmp-content-page__link" href="application-candidature-3-fr.html" id="mp-previous">
       <span class="rcmp-content-page__title-row">

@@ -47,7 +47,9 @@ custom_css: /assets/css/careers.css
     <li>
       <a href="#s2">RCMP Online Entrance Assessment</a>
     </li>
-    <li><a href="#s3">Next steps</a></li>
+    <li>
+      <a href="#s3">Next steps</a>
+    </li>
   </ul>
 </nav>
 <section id="s1">
@@ -83,7 +85,7 @@ custom_css: /assets/css/careers.css
   </dl>
   </section>
     <section id="s3">
-    <h3>Next steps</h3>
+    <h2>Next steps</h2>
     <p>Once your application has been selected, we’ll verify that you meet the <a href="#">Basic Requirements</a>.</p>
   </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page" style="display: block;">

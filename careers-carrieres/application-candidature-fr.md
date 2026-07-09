@@ -12,7 +12,7 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<p>Comprendre chaque étape du processus pour devenir policier ou policière, de la candidature à la formation des cadets.</p>
+<p class="lead">Comprendre chaque étape du processus pour devenir policier ou policière, de la candidature à la formation des cadets.</p>
 <nav class="gc-subway gc-subway-index">
   <h2>Étapes du processus</h2>
   <dl>

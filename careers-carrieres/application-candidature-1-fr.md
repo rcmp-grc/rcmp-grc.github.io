@@ -23,7 +23,7 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-3-fr.html">Transmettez les formulaires et les documents requis</a>
       <ul class="noline">
         <li>
-          <a href="application-candidature-3-1-fr.html">How to complete the forms</a>
+          <a href="application-candidature-3-1-fr.html">Marche à suivre pour remplir les formulaires</a>
         </li>
       </ul>
     </li>
@@ -31,7 +31,7 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-5-fr.html">Soumettez-vous à une évaluation médicale et une évaluation de l’aptitude psychologique</a>
       <ul class="noline">
         <li>
-          <a href="application-candidature-5-1-fr.html">Health conditions that could impact your suitability to become a police officer</a>
+          <a href="application-candidature-5-1-fr.html">Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière</a>
         </li>
       </ul>
     </li>
@@ -71,7 +71,7 @@ custom_css: /assets/css/careers.css
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
   <div class="rcmp-content-page__next" id="mp-next-wrap">
-    <a aria-label="Étape suivante&nbsp;: Exposé sur les carrières et évaluation d’entrée en ligne" class="rcmp-content-page__link" href="application-candidature-2-fr.html" id="mp-next">
+    <a aria-label="Étape suivante : Exposé sur les carrières et évaluation d’entrée en ligne" class="rcmp-content-page__link" href="application-candidature-2-fr.html" id="mp-next">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
         <span class="rcmp-content-page__link-title">Étape suivante</span>

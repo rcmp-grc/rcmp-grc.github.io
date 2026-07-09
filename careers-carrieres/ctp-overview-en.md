@@ -195,7 +195,7 @@ custom_css: /assets/css/careers.css
 	<h2>Related pages</h2>
 	<ul>
 		<li><a href="/en/police-intervention/incident-management-intervention-model">Incident Management Intervention Model</a></li>
-		<li>Cadet Chronicles</li>
-		<li>Training Tuesdays</li>
+		<li><a href="/en/depot/cadet-chronicles/week-0">Cadet Chronicles</a></li>
+		<li><a href="/en/depot/training-tuesdays">Training Tuesdays</a></li>
 	</ul>
 </section>

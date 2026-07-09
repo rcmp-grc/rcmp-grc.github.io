@@ -4,7 +4,7 @@ title: Online career presentation and entrance assessment
 date_modified: 2026-06-10
 lang: en
 lang_url: application-candidature-2-en.html
-lead: Police officer application process
+lead: Processus de recrutement des policiers et policières
 breadcrumbs:
   - label: "Carrières à la GRC"
     url: "careers-carrieres/careers-carrieres-fr.html"

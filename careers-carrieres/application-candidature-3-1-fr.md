@@ -1,45 +1,45 @@
 ---
 layout: careers
-title: How to complete the forms
+title: Marche à suivre pour remplir les formulaires
 date_modified: 2026-06-10
-lang: en
-lang_url: application-candidature-3-1-fr.html
-lead: Police officer application process
+lang: fr
+lang_url: application-candidature-3-1-en.html
+lead: Processus de recrutement des policiers et policières
 breadcrumbs:
-  - label: "RCMP careers"
-    url: "careers-carrieres/careers-carrieres-en.html"
-  - label: "Police officer careers"
-    url: "careers-carrieres/officer-agent-en.html"
-  - label: "Police officer application process"
-    url: "careers-carrieres/application-candidature-en.html"
+  - label: "Carrières à la GRC"
+    url: "careers-carrieres/careers-carrieres-fr.html"
+  - label: "Carrières policières"
+    url: "careers-carrieres/officer-agent-fr.html"
+  - label: "Processus de recrutement des policiers et policières"
+    url: "careers-carrieres/application-candidature-fr.html"
 custom_css: /assets/css/careers.css
 ---
 
-<nav aria-label="Application process steps" class="gc-subway" data-sections-title="Steps">
-  <h2>Police officer application process</h2>
+<nav aria-label="Étapes du processus de recrutement" class="gc-subway" data-sections-title="Étapes">
+  <h2>Processus de recrutement des policiers et policières</h2>
   <ul>
-    <li><a href="application-candidature-1-en.html">Submit an online application</a></li>
-    <li><a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a></li>
-    <li><a href="application-candidature-3-en.html">Submit the required forms and documents</a>
+    <li><a href="application-candidature-1-fr.html">Posez votre candidature en ligne</a></li>
+    <li><a href="application-candidature-2-fr.html">Exposé sur les carrières et évaluation d’entrée en ligne</a></li>
+    <li><a href="application-candidature-3-fr.html">Transmettez les formulaires et les documents requis</a>
       <ul class="noline">
         <li>
-          <a class="active" href="application-candidature-3-1-en.html">How to complete the forms</a>
+          <a class="active" href="application-candidature-3-1-fr.html">Marche à suivre pour remplir les formulaires</a>
         </li>
       </ul>
     </li>
-    <li><a href="application-candidature-4-en.html">Complete a suitability interview</a></li>
-    <li><a href="application-candidature-5-en.html">Complete psychological and medical suitability assessments</a>
+    <li><a href="application-candidature-4-fr.html">Passez une entrevue d’admissibilité</a></li>
+    <li><a href="application-candidature-5-fr.html">Soumettez-vous à une évaluation médicale et une évaluation de l’aptitude psychologique</a>
       <ul class="noline">
         <li>
-          <a href="application-candidature-5-1-en.html">Health conditions that could impact your suitability to become a police officer</a>
+          <a href="application-candidature-5-1-fr.html">Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière</a>
         </li>
       </ul>
     </li>
-    <li><a href="application-candidature-6-en.html">Complete a field investigation and security assessment</a></li>
+    <li><a href="application-candidature-6-fr.html">Passez une enquête sur les antécédents et une évaluation de sécurité</a></li>
   </ul>
 </nav>
-<nav aria-label="On this page">
-  <h2>On this page</h2>
+<nav aria-label="Sur cette page">
+  <h2>Sur cette page</h2>
   <ul>
     <li>
       <a href="#s1">Vision and hearing exams</a>

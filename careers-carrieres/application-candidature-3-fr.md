@@ -2,7 +2,7 @@
 layout: careers
 title: Transmettez les formulaires et les documents requis
 date_modified: 2026-07-08
-lang: en
+lang: fr
 lang_url: application-candidature-3-en.html
 lead: Processus de recrutement des policiers et policières
 breadcrumbs:

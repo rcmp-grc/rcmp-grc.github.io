@@ -38,18 +38,7 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-6-en.html">Complete a field investigation and security assessment</a></li>
   </ul>
 </nav>
-<nav aria-label="On this page">
-  <h2>On this page</h2>
-  <ul>
-    <li>
-      <a href="#s1">Required forms</a>
-    </li>
-    <li>
-      <a href="#s2">Required personal documents</a>
-    </li>
-  </ul>
-</nav>
-<p>Once you are contacted by a recruiting analyst, you'll have 14 days to complete all required forms and documents, including the Security Screening Application and submit them through a secure online portal.</p>
+<p class="lead">Once you are contacted by a recruiting analyst, you'll have 14&nbsp;days to complete all required forms and documents, including the Security Screening Application and submit them through a <a href="#">secure online portal</a>.</p>
 <section id="s1">
   <h2>Required forms</h2>
   <ul class="gc-link-list" role="list">
@@ -57,7 +46,7 @@ custom_css: /assets/css/careers.css
         <a href="6509e.pdf" class="gc-pdf-link" download>
        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
-          <span class="gc-link-title">Regular Member Applicant Hearing Examination Report (RCMP 6509)</span>
+          <span class="gc-link-title">Regular Member Applicant Hearing Examination Report (RCMP&nbsp;6509)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
       </a>
@@ -66,7 +55,7 @@ custom_css: /assets/css/careers.css
         <a href="2180e.pdf" class="gc-pdf-link" download>
        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
-          <span class="gc-link-title">Vision Examination of Applicant (RCMP 2180)</span>
+          <span class="gc-link-title">Vision Examination of Applicant (RCMP&nbsp;2180)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
       </a>
@@ -75,7 +64,7 @@ custom_css: /assets/css/careers.css
         <a href="5096e.pdf" class="gc-pdf-link" download>
        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
-          <span class="gc-link-title">Regular Member Applicant Questionnaire (RCMP 5096)</span>
+          <span class="gc-link-title">Regular Member Applicant Questionnaire (RCMP&nbsp;5096)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
       </a>
@@ -84,7 +73,7 @@ custom_css: /assets/css/careers.css
         <a href="1980e.pdf" class="gc-pdf-link" download>
        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
-          <span class="gc-link-title">Suitability Screening Form (RCMP 1980)</span>
+          <span class="gc-link-title">Suitability Screening Form (RCMP&nbsp;1980)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
       </a>
@@ -93,7 +82,7 @@ custom_css: /assets/css/careers.css
         <a href="6465e.pdf" class="gc-pdf-link" download>
        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
-          <span class="gc-link-title">Acknowledgement of Professional Responsibilities in the Royal Canadian Mounted Police (RCMP 6465)</span>
+          <span class="gc-link-title">Acknowledgement of Professional Responsibilities in the Royal Canadian Mounted Police (RCMP&nbsp;6465)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
       </a>
@@ -105,16 +94,16 @@ custom_css: /assets/css/careers.css
   <p>You must scan the following original documents. We do not accept scans of copies.</p>
   <ul>
     <li>if you were born in Canada: Canadian birth certificate (front and back)</li>
-    <li>if you were born outside of Canada: Canadian Citizenship or permanent resident card, and Confirmation of Permanent Residence (IMM 5292), if applicable</li>
+    <li>if you were born outside of Canada: Canadian Citizenship or permanent resident card, and Confirmation of Permanent Residence (IMM&nbsp;5292), if applicable</li>
     <li>social insurance number</li>
     <li>marriage, divorce, separation, or name change certificate, if applicable</li>
     <li>custody agreement, if applicable</li>
     <li>recent photo of yourself from the shoulders up</li>
     <li>proof of education: Canadian high school transcript showing graduation, or equivalency assessment</li>
     <li>valid Canadian driver's license (front and back)</li>
-    <li>driving record from every province or territory that you have lived in for the last 3 years</li>
+    <li>driving record from every province or territory that you have lived in for the last 3&nbsp;years</li>
     <li>provincial health card (front and back)</li>
-    <li>valid standard first aid certificate, including Level C CPR for infant, child and adult (must be valid for the duration of your Cadet Training Program)</li>
+    <li>valid standard first aid certificate, including Level&nbsp;C CPR for infant, child and adult (must be valid for the duration of your Cadet Training Program)</li>
     <li>fitness logs and self-declaration</li>
   </ul>
 </section>

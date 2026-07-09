@@ -2,7 +2,7 @@
 layout: careers
 title: Exposé sur les carrières et évaluation d’entrée en ligne
 date_modified: 2026-06-10
-lang: en
+lang: fr
 lang_url: application-candidature-2-en.html
 lead: Processus de recrutement des policiers et policières
 breadcrumbs:

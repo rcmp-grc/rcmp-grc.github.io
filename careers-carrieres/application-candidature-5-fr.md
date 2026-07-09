@@ -6,7 +6,7 @@ lang: fr
 lang_url: application-candidature-5-en.html
 lead: Processus de recrutement des policiers et policières
 breadcrumbs:
-   - label: "Carrières à la GRC"
+  - label: "Carrières à la GRC"
     url: "careers-carrieres/careers-carrieres-fr.html"
   - label: "Carrières policières"
     url: "careers-carrieres/officer-agent-fr.html"

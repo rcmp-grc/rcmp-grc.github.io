@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Complete psychological and medical suitability assessments
-date_modified: 2026-06-10
+date_modified: 2026-07-08
 lang: en
 lang_url: application-candidature-5-fr.html
 lead: Police officer application process
@@ -47,7 +47,8 @@ custom_css: /assets/css/careers.css
 <p>You will be required to undergo all the steps of the PSS and be deemed psychologically qualified before you can continue to the medical screening.</p>
 <p>The RCMP will cover the cost of these basic assessments.</p>
 <section id="s1">
-  <h2>Psychological and medical suitability standards</h2>While physically and mentally demanding incidents may not always happen often in policing, when they do, they may be intense and life threatening.
+  <h2>Psychological and medical suitability standards</h2>
+  <p>While physically and mentally demanding incidents may not always happen often in policing, when they do, they may be intense and life threatening.</p>
   <p>Our standards ensure that applicants can keep up with the psychological and physical demands of:</p>
   <ul>
     <li>the training to be a police officer</li>
@@ -121,12 +122,12 @@ custom_css: /assets/css/careers.css
       <ul>
         <li>tetanus, diphtheria, and pertussis (Tdap)</li>
         <li>measles, mumps and rubella (MMR)</li>
-        <li>hepatitis B series</li>
+        <li>hepatitis&nbsp;B series</li>
       </ul>
       <p>Your RCMP Applicant Immunization and Tuberculosis Test Record form will also need to document results from the following test:</p>
       <ul>
-        <li>two-step tuberculin skin test (Mantoux), include date, results in millimetre and signature of provider reading results. This will require 4 separate appointments.</li>
-        <li>chest x-ray (only if positive Mantoux at 10 millimetres or greater)</li>
+        <li>two-step tuberculin skin test (Mantoux), include date, results in millimetre and signature of provider reading results. This will require 4&nbsp;separate appointments.</li>
+        <li>chest x-ray (only if positive Mantoux at 10&nbsp;millimetres or greater)</li>
       </ul>
     </section>
   </section>

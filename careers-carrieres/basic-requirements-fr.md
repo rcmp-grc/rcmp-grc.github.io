@@ -2,7 +2,7 @@
 layout: careers
 title: Exigences de base pour devenir agent ou agente de la GRC
 date_modified: 2026-07-08
-lang: en
+lang: fr
 lang_url: basic-requirements-fr.html
 breadcrumbs:
   - label: "Carrières à la GRC"

@@ -43,9 +43,7 @@ custom_css: /assets/css/careers.css
         </header>
         <div class="panel-body">
             <ul>
-                <li>
-                <p>Curious if a job in policing is right for you?<br><a href="#">Take the Readiness Check</a></p>
-                </li>
+                <li>Curious if a job in policing is right for you? <a href="#">Take the Readiness Check</a></li>
         </ul>	
         </div>
     </section>

@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: Cadet Training Program: course overview and breakdown
+title: "Cadet Training Program: course overview and breakdown"
 date_modified: 2026-07-08
 lang: en
 lang_url: ctp-overview-fr.html

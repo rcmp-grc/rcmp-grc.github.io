@@ -1,179 +1,179 @@
 ---
 layout: careers
-title: Cadet Training Program - Fr 
+title: Programme de formation des cadets 
 date_modified: 2026-07-08
-lang: en
+lang: fr
 lang_url: ctp-en.html
 breadcrumbs:
-  - label: "RCMP careers"
-    url: "careers-carrieres/careers-carrieres-fr.html"
-  - label: "Police officer careers"
-    url: "careers-carrieres/officer-agent-fr.html"
+  - label: "Carrières à la GRC"
+    url: "careers-carrieres/fr.html"
+  - label: "Carrières policières"
+    url: "careers-carrieres/fr.html"
 custom_css: /assets/css/careers.css
 ---
 
-<nav aria-label="On this page">
-	<h2>On this page</h2>
+<nav aria-label="Sur cette page">
+	<h2>Sur cette page</h2>
 	<ul>
 		<li class="wb-inv"><a href="#s0">Introduction</a></li>
-		<li><a href="#s1">Program snapshot</a></li>
-		<li><a href="#s2">Operational framework</a></li>
-		<li><a href="#s3">Design and delivery</a></li>
-		<li><a href="#s4">Assessment</a></li>
-		<li><a href="#s5">Accommodation, pay and benefits</a></li>
-		<li><a href="#s6">Key learning</a></li>
+		<li><a href="#s1">Aperçu du programme</a></li>
+		<li><a href="#s2">Cadre de référence opérationnel</a></li>
+		<li><a href="#s3">Conception et prestation</a></li>
+		<li><a href="#s4">Évaluation</a></li>
+		<li><a href="#s5">Hébergement et indemnités</a></li>
+		<li><a href="#s6">Apprentissage clé</a></li>
 	</ul>
 </nav>
 
 <section id="s0">
 	<h2 class="wb-inv">Introduction</h2>
-	<p>The Cadet Training Program (CTP) prepares cadets for frontline policing in communities across Canada. Our 6-month training program welcomes successful applicants to the RCMP Academy in Regina, Saskatchewan. Training is delivered onsite, year-round in both official languages. Expect long, full days with limited free time.</p>
-	<p>As a cadet, you will take part in an immersive program as part of a diverse 32-member troop. You will learn the realities of community policing through scenarios, real teamwork, classroom work and more.</p>
-	<p>After completing the program, cadets may be offered employment as RCMP police officers. They will receive peace officer status and continue learning through a six-month Field Coaching Program as new constables.</p>
+	<p>Le Programme de formation des cadets (PFC) prépare les cadets au travail policier de première ligne dans les communautés canadiennes. Notre programme de formation de six mois accueille les postulants admis à l’École de la GRC à Regina (Saskatchewan). La formation est donnée sur place, à longueur d’année, dans les deux langues officielles. Attendez-vous à de longues journées bien remplies avec un temps libre limité.</p>
+	<p>En tant que cadet, vous participerez à un programme immersif au sein d’une troupe diversifiée de 32&nbsp;membres. Vous apprendrez les réalités de la police communautaire au moyen de scénarios, d’un véritable travail d’équipe, de travaux en classe et plus encore.</p>
+	<p>Après avoir terminé le programme, les cadets peuvent se voir offrir un emploi de policier de la GRC. Ils obtiennent le statut d’agent de la paix et poursuivent leur apprentissage dans le cadre du Programme de formation pratique de six mois en tant que nouvelles recrues au grade de gendarme.</p>
 
 </section>
 <section id="s1">
-	<h2>Program snapshot</h2>
+	<h2>Aperçu du programme</h2>
 	<dl>
-		<dt>Length</dt>
-		<dd>A 6-month (26-week), full-time basic training program</dd>
-		<dt>Location</dt>
-		<dd>Delivered onsite at the RCMP Academy in Regina, Saskatchewan</dd>
-		<dt>Training approach</dt>
-		<dd>A bilingual, learner-centred and problem-solving based curriculum</dd>
-		<dt>Design and Delivery</dt>
-		<dd>This immersive program is delivered through classroom learning, simulations, case studies, group work, scenarios, community interactions, presentations and hands-on skill or technique application</dd>
-		<dt>Assessment</dt>
-		<dd>Evaluation is continuous throughout training through written, oral and practical assessments</dd>
-		<dt>Accommodation</dt>
-		<dd>Cadets live with their troops in modern onsite dormitories. Meals, accommodation and access to onsite sports and recreation facilities covered by the RCMP</dd>
-		<dt>Pay and benefits</dt>
-		<dd>Cadets receive a $1,000-per-week Cadet Recruitment Allowance while they participate in the CTP. Transportation to and from Depot for training and first detachments is covered.</dd>
+		<dt>Durée</dt>
+		<dd>Programme de formation de base de 6&nbsp;mois (26&nbsp;semaines) à temps plein.</dd>
+		<dt>Lieu</dt>
+		<dd>École de la GRC à Regina (Saskatchewan).</dd>
+		<dt>Approche de formation</dt>
+		<dd>Programme bilingue, axé sur l’apprenant et sur la résolution de problèmes.</dd>
+		<dt>Conception et prestation</dt>
+		<dd>Programme immersif qui repose sur l’apprentissage en classe fait de mises en situation, d’études de cas, de travaux en groupe, de scénarios, d’interactions communautaires, de présentations et d’application pratique des compétences et techniques apprises.</dd>
+		<dt>Évaluation</dt>
+		<dd>Évaluation continue tout au long de la formation au moyen d’épreuves écrites, orales et pratiques.</dd>
+		<dt>Hébergement</dt>
+		<dd>Hébergement des troupes sur place dans des dortoirs modernes. La GRC prend en charge les repas, l’hébergement et l’accès aux installations sportives et récréatives sur les lieux.</dd>
+		<dt>Indemnités</dt>
+		<dd>Les cadets reçoivent une indemnité de recrutement de 1&nbsp;000&nbsp;$ par semaine pendant leur participation au PFC. Le transport à destination et en provenance de l’École de la GRC pour la formation et vers le premier lieu d’affectation est pris en charge.</dd>
 	</dl>
 </section>
 <section id="s2">
-	<h2>Operational framework</h2>
-	<p>The CAPRA Model is an operational application of the RCMP's vision and mission. It combines the RCMP's commitment to communities and clients, problem solving in partnership and continuous learning.</p>
-	<p>The acronym CAPRA stands for:</p>
+	<h2>Cadre de référence opérationnel</h2>
+	<p>Le modèle CAPRA est l’application opérationnelle de la vision et de la mission de la GRC. Il englobe l’engagement de la GRC à l’égard des collectivités et des clients, la résolution de problèmes en partenariat et l’apprentissage continu.</p>
+	<p>L’acronyme CAPRA signifie&nbsp;:</p>
 	<ul class="list-unstyled">
 		<li>C = Clients</li>
-		<li>A = Acquiring and analysing information</li>
-		<li>P = Partnership</li>
-		<li>R = Response</li>
-		<li>A = Assessment for continuous improvement</li>
+		<li>A = Acquisition et analyse de renseignements</li>
+		<li>P = Partenariats</li>
+		<li>R = Réponses</li>
+		<li>A = Autoévaluation en vue d’une amélioration continue</li>
 	</ul>
 </section>
 <section id="s3">
-	<h2>Design and delivery</h2>
-	<p>CTP curriculum is designed to prepare you for the realities of modern, community-based policing. Training is:</p>
+	<h2>Conception et prestation</h2>
+	<p>Le PFC est conçu pour vous préparer aux réalités de la police communautaire moderne. La formation est&nbsp;:</p>
 	<ul>
-		<li>available in both official languages</li>
-		<li>focused on problem-solving</li>
-		<li>continuously updated to reflect the evolving landscape of frontline policing</li>
+		<li>offerte dans les deux langues officielles;</li>
+		<li>axée sur la résolution des problèmes;</li>
+		<li>continuellement mise à jour suivant l’évolution des services de police de première ligne.</li>
 	</ul>
-	<p>The training model is designed around you, as an active learner. As a cadet, you are expected to take an active role in your own development. You will build the judgement, confidence and adaptability skills required for real-world policing.</p>
+	<p>Le modèle de formation est centré sur vous, en tant qu’apprenant actif; vous devez donc participer activement à votre perfectionnement. Vous acquerrez le jugement, la confiance et l’adaptabilité nécessaires pour travailler dans le monde réel.</p>
 	<section id="s3-1">
-		<h3>How you will learn</h3>
-		<p>Training is hands-on, interactive and varied. Your days start early and are structured with limited free time. Strong time management is essential to keep up with coursework and training demands.</p>
-		<p>You will learn through:</p>
+		<h3>Comment vous apprendrez</h3>
+		<p>La formation est pratique, interactive et variée. Vos journées commenceront tôt et vous disposerez d’un temps libre limité. Une bonne gestion du temps est nécessaire pour suivre le rythme des cours et des travaux.</p>
+		<p>Vous aurez&nbsp;:</p>
 		<ul>
-			<li>classroom instruction</li>
-			<li>simulations and scenario-based exercises</li>
-			<li>presentations and case studies based on actual policing situations</li>
-			<li>group work and collaborative problem-solving</li>
-			<li>community-based interactions that build trust and strengthen relationships</li>
-			<li>practical skill and technique development</li>
-			<li>physical training</li>
+			<li>des cours en classe;</li>
+			<li>des mises en situation et des exercices axés sur des scénarios;</li>
+			<li>des présentations et des études de cas basées sur des situations réelles;</li>
+			<li>des travaux de groupe et des problèmes à résoudre de manière collaborative;</li>
+			<li>des interactions communautaires qui renforcent la confiance et les relations;</li>
+			<li>des occasions de mettre en pratique les techniques et compétences apprises;</li>
+			<li>de l’entraînement physique.</li>
 		</ul>
-		<p>You will gain the knowledge, skills and mindset needed to serve effectively and respond to the complexities of real communities from day one.</p>
+		<p>Dès le premier jour, vous acquerrez les connaissances, les compétences et l’état d’esprit nécessaires pour servir efficacement les communautés et intervenir dans un éventail de situations complexes.</p>
 	</section>
 </section>
 <section id="s4">
-	<h2>Assessment</h2>
-	<p>Evaluations are ongoing throughout the CTP to measure readiness for operational duties. They measure the full range of competencies required for operational readiness, including conduct, knowledge and performance. </p>
-	<p>You will be tested using a range of methods, including:</p>
+	<h2>Évaluation</h2>
+	<p>Le PFC est ponctué d’évaluations visant à mesurer l’état de préparation aux fonctions opérationnelles. Vous serez évalué sur l’ensemble des compétences requises pour exercer le métier de policier, notamment le comportement, les connaissances et le rendement.</p>
+	<p>Plusieurs méthodes sont utilisées pour cela, notamment&nbsp;:</p>
 	<ul>
-		<li>written exams</li>
-		<li>oral evaluations</li>
-		<li>practical skill demonstrations</li>
-		<li>scenario-based role plays</li>
-		<li>Police Fitness Assessment</li>
+		<li>des épreuves écrites;</li>
+		<li>des épreuves orales;</li>
+		<li>des démonstrations de compétences pratiques;</li>
+		<li>des jeux de rôle;</li>
+		<li>le Test de condition physique pour les policiers.</li>
 	</ul>
 	<section id="s4-1">
-		<h3>How do you pass the CTP?</h3>
-		<p>You must meet a professional level of performance in all competencies to graduate. These standards will be provided to you as a cadet at the start of the CTP. They form the basis for self, peer and facilitator evaluations.</p>
-		<p>Continuous evaluation ensures that when competencies are not yet met, there is opportunity for a cadet to be reassigned to an earlier stage of training with a different troop. This helps strengthen key skills and supports successful progression. It means training may be longer than the original 26 weeks. </p>
+		<h3>Comment réussir le PFC?</h3>
+		<p>Pour réussir le PFC, vous devez atteindre un niveau de rendement «&nbsp;professionnel&nbsp;» à l’égard de toutes les compétences. Les normes sont communiquées aux cadets au début du PFC. Elles servent de base à l’autoévaluation ainsi qu’aux évaluations par les pairs et par l’instructeur.</p>
+		<p>L’évaluation continue permet de proposer au cadet qui accuse du retard dans l’acquisition des compétences de le réaffecter à une étape antérieure de la formation avec une autre troupe. Le cadet peut ainsi renforcer ses compétences et mieux progresser. Dans ces conditions, la formation se prolonge au-delà des 26 semaines initiales.</p>
 	</section>
 </section>
 <section id="s5">
-	<h2>Accommodation, pay and benefits</h2>
+	<h2>Hébergement et indemnités</h2>
 	<section id="s5-1">
-		<h3>Accommodation</h3>
-		<p>You’ll live onsite at Depot with your troop in modern dormitory facilities.</p>
+		<h3>Hébergement</h3>
+		<p>Vous logerez avec votre troupe dans des dortoirs modernes à l’École de la GRC.</p>
 		<ul>
-			<li>You will share common, co-ed spaces that support teamwork, collaboration and downtime with your troopmates</li>
-			<li>You will have your own individual sleeping space separated by a curtain, “a pit”, within the shared dormitory</li>
-			<li>There are washroom and shower facilities in designated areas for men and women, as well as gender-inclusive options</li>
-			<li>On-site accommodation is exclusively for cadets only during training</li>
-			<li>Facilities are not available for family members, spouses, friends or other visitors[M</li>
+			<li>Vous partagerez des espaces communs et mixtes qui favorisent le travail d’équipe, la collaboration et la camaraderie pendant les temps de repos.</li>
+			<li>Vous aurez votre propre espace de couchage séparé par un rideau dans le dortoir.</li>
+			<li>Il y a des toilettes et des douches séparées pour les hommes et les femmes, ainsi que d’autres inclusives.</li>
+			<li>L’hébergement sur place est strictement réservé aux cadets en formation.</li>
+			<li>Les conjoints, les amis et les membres de la famille des cadets ne sont pas autorisés à utiliser les installations.</li>
 		</ul>
 	</section>
 	<section id="s5-2">
-		<h3>Pay and benefits</h3>
+		<h3>Indemnités</h3>
 		<ul>
-			<li>Cadets receive a $1,000 weekly allowance while participating in the Cadet Training Program</li>
-			<li>We cover the cost of meals and accommodations, and you’ll have access to onsite sports and recreation facilities throughout your training</li>
-			<li>We cover transportation costs to the RCMP Academy for training and to your first detachment<ul>
-					<li>Transportation costs to visit home during training are not covered</li>
+			<li>Les cadets qui suivent le PFC reçoivent une indemnité hebdomadaire de 1&nbsp;000&nbsp;$.</li>
+			<li>Ils sont logés et nourris et ont accès aux installations sportives et récréatives sur place.</li>
+			<li>La GRC prend également en charge les frais de transport jusqu’à l’École de la GRC pour suivre la formation ainsi que pour rejoindre son premier poste d’affectation.<ul>
+					<li>Les frais de transport pour rentrer à la maison durant la formation ne sont pas pris en charge.</li>
 				</ul>
 			</li>
 		</ul>
 	</section>
 </section>
 <section id="s6">
-	<h2>Key learning</h2>
+	<h2>Apprentissage clé</h2>
 	<div class="gc-features">
 		<ul class="list-unstyled row">
 			<li class="col-md-6">
 				<section class="well">
-					<h3 class="h5"><a href="">Incident Management Intervention Model</a></h3>
-					<p>Builds sound decision-making and risk assessment skills to choose the safest, most appropriate intervention in any situation.</p>
+					<h3 class="h5"><a href="">Modèle d’intervention pour la gestion des incidents</a></h3>
+					<p>Permet d’acquérir de solides compétences en matière de prise de décisions et d’évaluation des risques afin de choisir l’intervention la plus sûre et la plus appropriée dans n’importe quelle situation.</p>
 				</section>
 			</li>
 			<li class="col-md-6">
 				<section class="well">
-					<h3 class="h5"><a href="">Applied Police Sciences</a></h3>
-					<p>Develops the practical application of legal, technical, scientific, behavioral, analytical and problem-solving knowledge to community-focused policing.</p>
+					<h3 class="h5"><a href="">Sciences policières appliquées</a></h3>
+					<p>Permettent d’acquérir des connaissances juridiques, techniques, scientifiques, comportementales, analytiques et de résolution de problèmes applicables à la police communautaire.</p>
 				</section>
 			</li>
 			<li class="col-md-6">
 				<section class="well">
-					<h3 class="h5"><a href="">Police Defensive Tactics</a></h3>
-					<p>Build and strengthen communication-based de-escalation and safe physical intervention skills to protect the public and manage high-risk encounters.</p>
+					<h3 class="h5"><a href="">Tactiques de défense policières</a></h3>
+					<p>Permettent d’acquérir et de renforcer les compétences de désescalade par la communication et d’intervention physique sécuritaire pour protéger le public et gérer les incidents à haut risque.</p>
 				</section>
 			</li>
 			<li class="col-md-6">
 				<section class="well">
-					<h3 class="h5"><a href="">Police Fitness Training</a></h3>
-					<p>Builds endurance, strength and resilience beyond foundational fitness levels to meet the physical demands of frontline policing.</p>
+					<h3 class="h5"><a href="">Conditionnement physique policier</a></h3>
+					<p>Permet de développer une endurance, une force et une résilience supérieures au niveau de condition physique de base pour répondre aux exigences physiques du travail policier de première ligne.</p>
 				</section>
 			</li>
 			<li class="col-md-6">
 				<section class="well">
-					<h3 class="h5"><a href="">Firearms Training Unit</a></h3>
-					<p>Builds safe handling skills on RCMP-approved firearms, the pistol, shotgun and patrol carbine.</p>
+					<h3 class="h5"><a href="">Maniement des armes à feu</a></h3>
+					<p>Permet d’apprendre à manier de façon sécuritaire les armes à feu réglementaires de la GRC&nbsp;: pistolet, fusil et carabine de patrouille.</p>
 				</section>
 			</li>
 			<li class="col-md-6">
 				<section class="well">
-					<h3 class="h5"><a href="">Police Driving</a></h3>
-					<p>Develops judgement and prepares you to operate emergency vehicles safely and effectively in dynamic environments.</p>
+					<h3 class="h5"><a href="">Techniques de conduite policière</a></h3>
+					<p>Permettent de développer son jugement et de se préparer à conduire des véhicules d’urgence de façon efficace et sécuritaire dans des situations dynamiques.</p>
 				</section>
 			</li>
 			<li class="col-md-6">
 				<section class="well">
-					<h3 class="h5"><a href="#">Drill and Deportment</a></h3>
-					<p>Builds pride, teamwork, professionalism, and attention to detail under pressure.</p>
+					<h3 class="h5"><a href="">Exercices et maintien</a></h3>
+					<p>Permettent de renforcer le sentiment de fierté, le travail d’équipe, le professionnalisme et le souci du détail dans les situations stressantes.</p>
 				</section>
 			</li>
 		</ul>

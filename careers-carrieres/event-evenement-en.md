@@ -4,7 +4,7 @@ title: Police Fitness Assessment Workshop
 date_modified: 2026-06-10
 lang: en
 lang_url: event-evenement-fr.html
-lead: Recruiting event
+lead: Événement de recrutement de policiers
 breadcrumbs:
   - label: "RCMP careers"
     url: "careers-carrieres/careers-carrieres-en.html"
@@ -15,10 +15,7 @@ custom_css: /assets/css/careers.css
 
 <div class="row mrgn-tp-md">
   <div class="col-md-12">
-    <hgroup>
       <h2 class="mrgn-tp-0 mrgn-bttm-0">Ask-a-recruiter &ndash; Question and answer session</h2>
-      <h3 class="mrgn-tp-0">Police officer</h3>
-    </hgroup>
       <p class="event-status-flag"><i class="fa-solid fa-ban" aria-hidden="true"></i> <span>Cancelled</span></p>
       <p class="event-status-flag event-status-flag--full"><i class="fa-solid fa-circle-exclamation" aria-hidden="true"></i> <span>Session full</span></p>
   </div>

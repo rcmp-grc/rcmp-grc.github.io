@@ -10,7 +10,7 @@ breadcrumbs:
     url: "careers-carrieres/careers-carrieres-fr.html"
   - label: "Carrières policières"
     url: "careers-carrieres/officer-agent-fr.html"
-  - label: "Police officer application process"
+  - label: "Processus de recrutement des policiers et policières"
     url: "careers-carrieres/application-candidature-fr.html"
 custom_css: /assets/css/careers.css
 ---

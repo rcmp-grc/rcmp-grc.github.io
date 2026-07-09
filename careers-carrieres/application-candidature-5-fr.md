@@ -39,27 +39,27 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 <p>Après avoir passé l’entrevue d’admissibilité, vous devrez rencontrer des médecins et des psychologues désignés par la GRC pour une évaluation de votre santé physique et psychologique. Si ces évaluations sont concluantes, vous recevrez votre certificat d’aptitude physique et psychologique.</p>
-<p>Cette partie du processus comporte deux volets distincts :</p>
+<p>Cette partie du processus comporte deux volets distincts&nbsp;:</p>
 <ul>
   <li>l’évaluation de l’aptitude psychologique (EAP)</li>
   <li>l’évaluation médicale (EM)</li>
 </ul>
 <p>Vous devrez franchir toutes les étapes de l’EAP et être jugé(e) apte sur le plan psychologique avant de pouvoir vous soumettre à l’EM.</p>
-<p>La GRC prendra en charge les coûts de ces deux évaluations.</p>
+<p>La GRC prendra en charge les coûts de ces deux&nbsp;évaluations.</p>
 <section id="s1">
-  <h2>Psychological and medical suitability standards</h2>
-  <p>While physically and mentally demanding incidents may not always happen often in policing, when they do, they may be intense and life threatening.</p>
-  <p>Our standards ensure that applicants can keep up with the psychological and physical demands of:</p>
+  <h2>Normes en matière de santé physique et psychologique</h2>
+  <p>Les incidents exigeants sur le plan physique et psychique ne sont pas fréquents, mais quand ils surviennent, ils peuvent être intenses et dangereux.</p>
+  <p>Nos normes visent à s’assurer que les postulants sont en mesure de satisfaire aux exigences physiques et psychologiques que requièrent&nbsp;:</p>
   <ul>
-    <li>the training to be a police officer</li>
-    <li>the role of an operational police officer</li>
+    <li>la formation policière</li>
+    <li>le métier policier</li>
   </ul>
-  <p>Police officers must meet health requirements to safely carry out four key parts of the job:</p>
+  <p>Il y a quatre fonctions essentielles du policier pour lesquelles les exigences en matière de santé doivent être satisfaites&nbsp;:</p>
   <ul>
-    <li>operational driving</li>
-    <li>use of firearms and other intervention equipment</li>
-    <li>physical confrontation and use of force</li>
-    <li>operational decision-making</li>
+    <li>la conduite d’une voiture de police</li>
+    <li>l’utilisation d’armes à feu et d’autre matériel d’intervention</li>
+    <li>la confrontation physique et le recours à la force</li>
+    <li>la prise de décisions opérationnelles</li>
   </ul>
   <section id="s1-1">
     <h3>Psychological Suitability Screening</h3>

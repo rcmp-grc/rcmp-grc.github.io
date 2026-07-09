@@ -61,7 +61,7 @@ custom_css: /assets/css/careers.css
   <p>You'll have 14&nbsp;days to complete the online assessment from the date you received the link.</p>
 <dl>
     <dt>What is the assessment?</dt>
-    <dd>The RCMP Online Entrance Assessment is a biased-free tool to assess applicants as part of the RCMP Officer recruiting process.</dd>
+    <dd><p>The RCMP Online Entrance Assessment is a biased-free tool to assess applicants as part of the RCMP Officer recruiting process.</p></dd>
     <dd><p>The Assessment is not an exam, it's an assessment of your personality, behaviour, and cognitive ability. It consists of 6&nbsp;sections:</p></dd>
     <dd><ul>
       <li>Section&nbsp;1: Workstyle preference</li>

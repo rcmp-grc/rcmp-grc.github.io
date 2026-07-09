@@ -57,21 +57,21 @@ custom_css: /assets/css/careers.css
 		<li>investigation techniques</li>
 		<li>risk assessment</li>
 	</ul>
-	<p>Cadets also develop a strong foundation of the Criminal Code and other federal and provincial legislation.</p>
+	<p>Cadets also develop a strong foundation of the <cite>Criminal Code</cite> and other federal and provincial legislation.</p>
 	<p>APS training is client-centred and grounded in community-based policing principles.</p>
 	<p>Other course topics include:</p>
 	<ul>
 		<li>RCMP history</li>
 		<li>CAPRA problem solving model</li>
 		<li>communication and presentations skills</li>
-		<li>Criminal Code offences</li>
+		<li><cite>Criminal Code</cite> offences</li>
 		<li>powers of arrest</li>
 		<li>release procedures and court documents</li>
 		<li>risk assessment</li>
-		<li>Fingerprinting and the Identification of Criminals Act</li>
+		<li>fingerprinting and the <cite>Identification of Criminals Act</cite></li>
 	</ul>
 	<p>Each troop has a facilitation team of up to three RCMP police officers who are responsible for facilitating and instructing the classroom time and scenario training included in the APS portion of the Cadet Training Program.</p>
-	<section id="s2-2">
+	<section id="s2-1">
 		<h3>Format and delivery</h3>
 		<ul>
 			<li>Classroom learning</li>

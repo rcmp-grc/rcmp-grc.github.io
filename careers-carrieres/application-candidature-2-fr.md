@@ -47,6 +47,9 @@ custom_css: /assets/css/careers.css
     <li>
       <a href="#s2">Évaluation d’entrée en ligne</a>
     </li>
+     <li>
+      <a href="#s3">Évaluation d’entrée en ligne</a>
+    </li>
   </ul>
 </nav>
 <section id="s1">
@@ -58,10 +61,11 @@ custom_css: /assets/css/careers.css
   <h2>Évaluation d’entrée en ligne</h2>
   <p>Après l’exposé virtuel sur les carrières vient l’évaluation d’entrée en ligne. Le lien pour participer à celle-ci figurera dans le courriel d’invitation à l’exposé sur les carrières.</p>
   <p>Vous disposerez de 14 jours après réception du lien pour faire l’évaluation en ligne.</p>
-  <section id="s2-1">
-    <h3>En quoi consiste l’évaluation?</h3>
-    <p>L’évaluation d’entrée en ligne de la GRC est un moyen d’évaluer de manière impartiale les candidats dans le cadre du processus de recrutement.</p>
-    <p>Il ne s’agit pas d’un&nbsp;examen, mais plutôt d’un moyen d’évaluer votre personnalité, votre comportement et vos aptitudes cognitives. L’évaluation comporte six&nbsp;volets&nbsp;:</p>
+  <dl>
+    <dt>En quoi consiste l’évaluation?</dt>
+    <dd><p>L’évaluation d’entrée en ligne de la GRC est un moyen d’évaluer de manière impartiale les candidats dans le cadre du processus de recrutement.</p></dd>
+    <dd><p>Il ne s’agit pas d’un&nbsp;examen, mais plutôt d’un moyen d’évaluer votre personnalité, votre comportement et vos aptitudes cognitives. L’évaluation comporte six&nbsp;volets&nbsp;:</p></dd>
+    <dd>
     <ul>
       <li>1&nbsp;- Préférence de style de travail</li>
       <li>2&nbsp;- Compréhension de la langue</li>
@@ -70,18 +74,20 @@ custom_css: /assets/css/careers.css
       <li>5&nbsp;- Quotient de mémoire</li>
       <li>6&nbsp;- Raisonnement</li>
     </ul>
-    <p>Prévoyez 55 à 70&nbsp;minutes environ pour faire l’évaluation. Certaines parties doivent être faites dans un laps de temps limité, mais il n’y a pas de limite de temps pour l’ensemble de l’évaluation. Cependant, nous vous recommandons de faire l’évaluation d’un trait.</p>
-  </section>
-  <section id="s2-2">
-    <h3>Comment puis-je me préparer?</h3>
-    <p>Utilisez le <a href="#">guide préparatoire à l’évaluation en ligne de la GRC</a> pour vous préparer. Il contient des exemples de questions et de scénarios qui vous aideront à vous préparer et à réussir l’évaluation.</p>
-  </section>
-  <section id="s2-3">
-    <h3>Y a-t-il une note de passage minimale?</h3>
-    <p>Faire l’évaluation d’entrée en ligne ne garantit pas la progression à l’étape du recrutement. Si vous réussissez l’évaluation, cela signifie simplement que votre candidature a été retenue. Vous passerez aux étapes suivantes, mais vous n’êtes pas encore à l’étape du recrutement. Si vous échouez, vous pourrez présenter votre candidature de nouveau après une&nbsp;période d’attente de 3&nbsp;mois.</p>
-  </section>
-   <section id="s2-4">
-    <h3>Prochaines étapes</h3>
+    </dd>
+    <dd><p>Prévoyez 55 à 70&nbsp;minutes environ pour faire l’évaluation. Certaines parties doivent être faites dans un laps de temps limité, mais il n’y a pas de limite de temps pour l’ensemble de l’évaluation. Cependant, nous vous recommandons de faire l’évaluation d’un trait.</p></dd>
+  </dl>
+  <dl>
+    <dt>Comment puis-je me préparer?</dt>
+    <dd><p>Utilisez le <a href="#">guide préparatoire à l’évaluation en ligne de la GRC</a> pour vous préparer. Il contient des exemples de questions et de scénarios qui vous aideront à vous préparer et à réussir l’évaluation.</p></dd>
+  </dl>
+  <dl>
+    <dt>Y a-t-il une note de passage minimale?</dt>
+    <dd><p>Faire l’évaluation d’entrée en ligne ne garantit pas la progression à l’étape du recrutement. Si vous réussissez l’évaluation, cela signifie simplement que votre candidature a été retenue. Vous passerez aux étapes suivantes, mais vous n’êtes pas encore à l’étape du recrutement. Si vous échouez, vous pourrez présenter votre candidature de nouveau après une&nbsp;période d’attente de 3&nbsp;mois.</p>
+    </dd>
+  </dl>
+   <section id="s3">
+    <h2>Prochaines étapes</h2>
     <p>Une&nbsp;fois votre candidature retenue, nous vérifierons que vous répondez aux <a href="#">exigences de base</a>.</p>
   </section>
 </section>

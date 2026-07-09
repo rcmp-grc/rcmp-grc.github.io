@@ -84,7 +84,7 @@ custom_css: /assets/css/careers.css
     <dd><p>Completing the RCMP Online Entrance Assessment doesn't guarantee advancement in the recruitment process. If you've passed the RCMP Online Entrance Assessment, your application has been retained. You'll continue with your application but you're not yet active in the recruitment process. If you're unsuccessful, you can re-apply after a 3-month waiting period.</p></dd>
   </dl>
   </section>
-    <section id="s3">
+   <section id="s3">
     <h2>Next steps</h2>
     <p>Once your application has been selected, we’ll verify that you meet the <a href="#">Basic Requirements</a>.</p>
   </section>

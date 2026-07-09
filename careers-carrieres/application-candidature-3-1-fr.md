@@ -116,8 +116,8 @@ custom_css: /assets/css/careers.css
     <section id="s1-2-1">
       <h4>Normes minimales d’acuité auditive</h4>
       <ul>
-        <li>Perte auditive inférieure à 30&nbsp;décibels à la meilleure oreille, à une gamme de fréquences de 500 à 3000&nbsp;Hz</li>
-        <li>Perte auditive de moins de 30&nbsp;décibels à l’oreille la plus faible, à une gamme de fréquences de 3000&nbsp;Hz</li>
+        <li>Perte auditive inférieure à 30&nbsp;décibels à la meilleure oreille, à une&nbsp;gamme de fréquences de 500 à 3&nbsp;000&nbsp;Hz</li>
+        <li>Perte auditive de moins de 30&nbsp;décibels à l’oreille la plus faible, à une&nbsp;gamme de fréquences de 3&nbsp;000&nbsp;Hz</li>
       </ul>
     </section>
   </section>

@@ -1257,8 +1257,22 @@ a.btn-careers:hover {
   mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 100%);
 }
 
-.po-end {
-  min-height: calc(46.3vh + clamp(0px, 100vw - 1700px, 450px));
+@media (min-width: 1700px) {
+  .po-end {
+    min-height: calc(46.3vh + 150px);
+  }
+}
+
+@media (min-width: 1850px) {
+  .po-end {
+    min-height: calc(46.3vh + 300px);
+  }
+}
+
+@media (min-width: 2000px) {
+  .po-end {
+    min-height: calc(46.3vh + 450px);
+  }
 }
 
 .po-end-overlay {

@@ -36,7 +36,6 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s2">
 <h2>Taux de rémunération et avantages sociaux</h2>
-
     <section id="s2-1">
     <h3>Taux de rémunération des gendarmes</h3>
     <p>Après avoir terminé le <a

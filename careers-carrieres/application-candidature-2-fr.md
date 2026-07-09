@@ -3,15 +3,15 @@ layout: careers
 title: Online career presentation and entrance assessment
 date_modified: 2026-06-10
 lang: en
-lang_url: application-candidature-2-fr.html
+lang_url: application-candidature-2-en.html
 lead: Police officer application process
 breadcrumbs:
-  - label: "RCMP careers"
-    url: "careers-carrieres/careers-carrieres-en.html"
-  - label: "Police officer careers"
-    url: "careers-carrieres/officer-agent-en.html"
-  - label: "Police officer application process"
-    url: "careers-carrieres/application-candidature-en.html"
+  - label: "Carrières à la GRC"
+    url: "careers-carrieres/careers-carrieres-fr.html"
+  - label: "Carrières policières"
+    url: "careers-carrieres/officer-agent-fr.html"
+  - label: "Processus de recrutement des policiers et policières"
+    url: "careers-carrieres/application-candidature-fr.html"
 custom_css: /assets/css/careers.css
 ---
 

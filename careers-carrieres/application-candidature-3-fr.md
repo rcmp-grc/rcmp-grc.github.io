@@ -12,7 +12,7 @@ breadcrumbs:
     url: "careers-carrieres/officer-agent-fr.html"
   - label: "Processus de recrutement des policiers et policières"
     url: "careers-carrieres/application-candidature-fr.html"
-custom_css: /assets/css/careers.css    
+    custom_css: /assets/css/careers.css    
 ---
 
 <nav aria-label="Étapes du processus de recrutement" class="gc-subway" data-sections-title="Étapes">
@@ -46,7 +46,7 @@ custom_css: /assets/css/careers.css
         <a href="6509f.pdf" class="gc-pdf-link" download>
        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
-          <span class="gc-link-title">Rapport de l’examen de l’audition du postulant m.r. (GRC 6509)</span>
+          <span class="gc-link-title">Rapport de l’examen de l’audition du postulant m.r. (GRC&nbsp;6509)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
       </a>
@@ -55,7 +55,7 @@ custom_css: /assets/css/careers.css
         <a href="2180f.pdf" class="gc-pdf-link" download>
        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
-          <span class="gc-link-title">Rapport de l’examen de la vue du postulant m.r. (GRC 2180)</span>
+          <span class="gc-link-title">Rapport de l’examen de la vue du postulant m.r. (GRC&nbsp;2180)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
       </a>
@@ -64,7 +64,7 @@ custom_css: /assets/css/careers.css
         <a href="5096f.pdf" class="gc-pdf-link" download>
        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
-          <span class="gc-link-title">Questionnaire du postulant à un poste de membre régulier (GRC 5096)</span>
+          <span class="gc-link-title">Questionnaire du postulant à un poste de membre régulier (GRC&nbsp;5096)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
       </a>
@@ -73,7 +73,7 @@ custom_css: /assets/css/careers.css
         <a href="1980f.pdf" class="gc-pdf-link" download>
        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
-          <span class="gc-link-title">Vérification de l’admissibilité (GRC 1980)</span>
+          <span class="gc-link-title">Vérification de l’admissibilité (GRC&nbsp;1980)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
       </a>
@@ -82,7 +82,7 @@ custom_css: /assets/css/careers.css
         <a href="6465f.pdf" class="gc-pdf-link" download>
        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
-          <span class="gc-link-title">Attestation relative aux responsabilités professionnelles du membre de la Gendarmerie royale du Canada (GRC 6465)</span>
+          <span class="gc-link-title">Attestation relative aux responsabilités professionnelles du membre de la Gendarmerie royale du Canada (GRC&nbsp;6465)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
       </a>
@@ -94,12 +94,12 @@ custom_css: /assets/css/careers.css
   <p>Vous devez fournir une <strong>copie numérisée</strong> des documents <strong>originaux suivants</strong>. Nous n’acceptons pas les copies numérisées de photocopies de documents.</p>
   <ul>
     <li>Si vous êtes né(e) au Canada&nbsp;: votre acte de naissance canadien (recto verso)</li>
-    <li>Si vous êtes né(e) à l’étranger&nbsp;: votre certificat de citoyenneté canadienne ou votre carte de résident permanent et la Confirmation de résidence permanente (document IMM 5292) (s’il y a lieu)</li>
+    <li>Si vous êtes né(e) à l’étranger&nbsp;: votre certificat de citoyenneté canadienne ou votre carte de résident permanent et la Confirmation de résidence permanente (document IMM&nbsp;5292) (s’il y a lieu)</li>
     <li>Votre carte d’assurance sociale</li>
     <li>Votre certificat de mariage/divorce/séparation ou de changement de nom (s’il y a lieu)</li>
     <li>Le document d’entente concernant la garde d’un&nbsp;enfant (s’il y a lieu)</li>
     <li>Une&nbsp;photo de vous jusqu’aux épaules prise récemment</li>
-    <li>Une attestation d’études&nbsp;: relevé de notes canadien de l’école secondaire portant la mention «&nbsp;diplômé&nbsp;» ou attestation d’équivalence/li>
+    <li>Une attestation d’études&nbsp;: relevé de notes canadien de l’école secondaire portant la mention «&nbsp;diplômé&nbsp;» ou attestation d’équivalence</li>
     <li>Votre permis de conduire canadien en cours de validité (recto verso)</li>
     <li>Votre dossier de conduite dans chaque province ou territoire où vous avez vécu au cours des trois&nbsp;dernières&nbsp;années</li>
     <li>Votre carte de santé provinciale (recto et verso)</li>

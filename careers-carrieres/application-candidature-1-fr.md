@@ -73,7 +73,7 @@ custom_css: /assets/css/careers.css
    <div class="rcmp-content-page__previous" id="mp-previous-wrap">
     <a aria-label="Étape précédent : Exposé sur les carrières et évaluation d’entrée en ligne" class="rcmp-content-page__link" href="application-candidature-fr.html" id="mp-previous">
       <span class="rcmp-content-page__title-row">
-        <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
+        <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i>
         <span class="rcmp-content-page__link-title">Étape précédent</span>
       </span>
       <span class="rcmp-content-page__link-label" id="mp-previous-label">Étapes du processus</span>

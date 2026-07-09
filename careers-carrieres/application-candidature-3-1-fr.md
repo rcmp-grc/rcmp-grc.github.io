@@ -42,108 +42,108 @@ custom_css: /assets/css/careers.css
   <h2>Sur cette page</h2>
   <ul>
     <li>
-      <a href="#s1">Vision and hearing exams</a>
+      <a href="#s1">Examens de la vue et de l’audition</a>
     </li>
     <li>
-      <a href="#s2">Security screening application</a>
+      <a href="#s2">Demande de filtrage de sécurité</a>
     </li>
     <li>
-      <a href="#s3">Additional guidance on completing forms</a>
+      <a href="#s3">Autres conseils sur la façon de remplir les formulaires</a>
     </li>
   </ul>
 </nav>
 <section id="s1">
-  <h2>Vision and hearing exams</h2>
-  <p>You need to submit the following two forms to your Recruiting Analyst on request. The forms must be received before to your medical assessment.</p>
+  <h2>Examens de la vue et de l’audition</h2>
+  <p>Vous devez envoyer les deux formulaires de résultats des examens suivants à votre analyste du recrutement lorsqu’il vous en fera la demande. Ils doivent être reçus avant votre évaluation médicale.</p>
   <ul>
-    <li>Vision exam</li>
-    <li>Hearing exam</li>
+    <li>Examen de la vue</li>
+    <li>Examen de l’audition</li>
   </ul>
   <section class="alert alert-info">
-    <h3 class="h4">Note</h3>
-    <p>The results of these exams are valid for 2&nbsp;years. Applicants must pay for vision and hearing exams. These costs are not reimbursed.</p>
+    <h3 class="h4">Remarque</h3>
+    <p>Les résultats de ces examens sont valables 2&nbsp;ans. Les frais sont à la charge des postulants et ne sont pas remboursables.</p>
   </section>
   <section id="s1-1">
-    <h3>Vision exam</h3>
-    <p>The vision exam and form (Vision Examination of Applicant (RCMP&nbsp;2180)) must be completed by a Canadian optometrist or ophthalmologist.</p>
-    <p>If you've had laser eye surgery, you must wait before completing a vision exam:</p>
+    <h3>Examen de la vue</h3>
+    <p>L’optométriste ou l’ophtalmologiste canadien qui vous examinera doit remplir le formulaire&nbsp;2180 de la GRC (Rapport de l’examen de la vue du postulant m.r.).</p>
+    <p>Si vous avez eu une chirurgie oculaire au laser, une période d’attente est nécessaire avant de pouvoir subir un&nbsp;examen de la vue, à savoir&nbsp;:</p>
     <ul>
-      <li>LASIK (Laser-assisted in-situ keratomileusis): 30&nbsp;days</li>
-      <li>PRK (Photorefractive keratectomy): 90 days</li>
-      <li>ICL, POL (Implanted corrective lenses with anterior chamber lens): 6&nbsp;months</li>
-      <li>ICL, POL (Implanted corrective lenses with posterior chamber lens): 12&nbsp;months</li>
-      <li>SMILE (Small incision lenticule extraction): 30 to 90&nbsp;days</li>
-      <li>SBK (Sub-bowman's keratomileusis): 30&nbsp;days</li>
+      <li>30&nbsp;jours s’il s’agit d’une&nbsp;kératomileusie in situ au laser (LASIK)</li>
+      <li>90&nbsp;jours s’il s’agit d’une&nbsp;photokératectomie réfractive (PRK)</li>
+      <li>6&nbsp;mois s’il s’agit d’une&nbsp;implantation de lentilles intraoculaires (LIO, phakiques) de chambre antérieure</li>
+      <li>12&nbsp;mois s’il s’agit d’une&nbsp;implantation de lentilles intraoculaires (LIO, phakiques) de chambre postérieure</li>
+      <li>30 à 90&nbsp;jours s’il s’agit d’une&nbsp;extraction lenticulaire par petite incision (SMILE, ReLEX SMILE)</li>
+      <li>30&nbsp;jours s’il s’agit d’une&nbsp;kératomileusie sous la membrane de Bowman (SBK)</li>
     </ul>
     <section id="s1-1-1">
-      <h4>Visual acuity</h4>
-      <p>You'll need to meet <strong>both</strong> corrected and uncorrected vision standards. If you fail one or both, you don't meet the minimum vision requirements for regular member applicants.</p>
-      <p>Minimum vision requirements:</p>
+      <h4>Acuité visuelle</h4>
+      <p>Vous devrez satisfaire aux normes d’acuité visuelle corrigée <strong>et</strong> non corrigée. Le postulant qui ne répond à aucune des deux&nbsp;normes ne satisfait pas aux exigences minimales de vision pour les postulants m.r.</p>
+      <p>Les exigences minimales en matière d’acuité visuelle sont les suivantes&nbsp;:</p>
       <ul>
-        <li>corrected vision (with glasses or contacts): Visual acuity must be at least 6/6&nbsp;(20/20) in one eye and 6/9&nbsp;(20/30) in the other; and</li>
-        <li>uncorrected vision (without glasses or contacts lenses): Visual acuity must be at least 6/18&nbsp;(20/60) in each eye or 6/12&nbsp;(20/40) in one&nbsp;eye and at least 6/30&nbsp;(20/100) in the other eye</li>
+        <li>Vision corrigée (avec lunettes ou lentilles cornéennes)&nbsp;: l’acuité visuelle doit être d’au moins 6/6&nbsp;(20/20) à un œil et de 6/9&nbsp;(20/30) à l’autre</li>
+        <li>Vision non corrigée (sans lunettes ni lentilles cornéennes)&nbsp;: l’acuité visuelle doit être d’au moins 6/18&nbsp;(20/60) à chaque œil ou de 6/12&nbsp;(20/40) à un œil et d’au moins 6/30&nbsp;(20/100) à l’autre œil</li>
       </ul>
-      <p>This minimum vision acuity is required for safe performance of policing duties if glasses or contacts are lost or displaced.</p>
+      <p>Ce seuil d’acuité visuelle est exigé, car le policier doit pouvoir exécuter ses tâches en toute sécurité même s’il lui arrivait de perdre ou d’égarer ses lunettes ou ses lentilles cornéennes.</p>
     </section>
     <section id="s1-1-2">
-      <h4>Field of vision</h4>
-      <p>You must have a field of vision that is at least 150&nbsp;degrees. It must be continuous along the horizontal meridian and 20&nbsp;degrees continuous above and below fixation with both eyes open and examined together.</p>
+      <h4>Champ visuel</h4>
+      <p>Le champ visuel doit être au moins de 150&nbsp;degrés continus le long du méridien horizontal et de 20&nbsp;degrés continus au-dessus et en dessous du point de fixation, les deux&nbsp;yeux étant ouverts et examinés en même temps.</p>
     </section>
     <section id="s1-1-3">
-      <h4>Colour vision testing</h4>
-      <p>We test colour vison using the standardized Ishihara pseudo-isochromatic plates. To pass, you must correctly identify at least 17 of 21&nbsp;patterns.</p>
-      <p>If required, further evaluation will be conducted using the Farnsworth D-15&nbsp;test. If you pass, you meet the minimum colour vision standard.</p>
+      <h4>Test de perception des couleurs</h4>
+      <p>Ce test s’effectue à l’aide de planches pseudo-isochromatiques (test d’Ishihara). Si le postulant identifie au moins 17 des 21&nbsp;modèles présentés (réussite), sa perception des couleurs est jugée normale.</p>
+      <p>Au besoin, on procédera au test&nbsp;Farnsworth D-15. Les postulants qui réussissent le test&nbsp;Farnsworth D-15 satisfont aux normes minimales relatives à la perception de couleurs.</p>
     </section>
     <section id="s1-1-4">
-      <h4>Ocular disease</h4>
-      <p>You must not have any ocular (eye) diseases that impair your vision. We may ask for more information during your health assessment.</p>
+      <h4>Maladies oculaires</h4>
+      <p>Vous ne devez souffrir d’aucune maladie oculaire qui altère votre vision. Il est possible que nous vous demandions plus d’informations lors de votre évaluation de santé.</p>
     </section>
   </section>
   <section id="s1-2">
-    <h3>Hearing exam</h3>
-    <p>You cannot use a hearing aid during the exam. The minimum requirements are listed below.</p>
-    <p>An audiologist must test the following frequencies:</p>
+    <h3>Examen de l’audition</h3>
+    <p>Vous ne pouvez pas porter d’appareil auditif pendant l’examen. Les exigences minimales sont indiquées plus bas.</p>
+    <p>L’audiologiste doit vérifier les fréquences suivantes&nbsp;:</p>
     <ul>
       <li>500&nbsp;Hz</li>
-      <li>1,000&nbsp;Hz</li>
-      <li>2,000&nbsp;Hz</li>
-      <li>3,000&nbsp;Hz</li>
-      <li>4,000&nbsp;Hz</li>
-      <li>6,000&nbsp;Hz</li>
-      <li>8,000&nbsp;Hz</li>
+      <li>1&nbsp;000&nbsp;Hz</li>
+      <li>2&nbsp;000&nbsp;Hz</li>
+      <li>3&nbsp;000&nbsp;Hz</li>
+      <li>4&nbsp;000&nbsp;Hz</li>
+      <li>6&nbsp;000&nbsp;Hz</li>
+      <li>8&nbsp;000&nbsp;Hz</li>
     </ul>
-    <p>The hearing exam and form (Regular Member Applicant Hearing Examination Report (RCMP&nbsp;6509)) must be completed by a practitioner in accordance with the Canadian Standards Association Standard on Pure Tone Air Conduction Audiometers for Hearing Conservation and for Screening.</p>
+    <p>Un&nbsp;professionnel de la santé qualifié procède à l’examen de l’audition et remplit le formulaire&nbsp;6509 de la GRC (Rapport de l’examen de l’audition du postulant m.r.), conformément à la norme <cite>Audiomètres tonals à conduction aérienne pour la préservation de l’ouïe et pour le dépistage</cite>, de l’Association canadienne de normalisation.</p>
     <section id="s1-2-1">
-      <h4>Minimum hearing standards</h4>
+      <h4>Normes minimales d’acuité auditive</h4>
       <ul>
-        <li>In your better ear: between 500 and 3000&nbsp;Hz with no more than 30&nbsp;decibels of hearing loss</li>
-        <li>In your worse ear: 3000&nbsp;Hz with no more than 50&nbsp;decibels of hearing loss</li>
+        <li>Perte auditive inférieure à 30&nbsp;décibels à la meilleure oreille, à une gamme de fréquences de 500 à 3000&nbsp;Hz</li>
+        <li>Perte auditive de moins de 30&nbsp;décibels à l’oreille la plus faible, à une gamme de fréquences de 3000&nbsp;Hz</li>
       </ul>
     </section>
   </section>
 </section>
 <section id="s2">
-  <h2>Security screening application</h2>
-  <p>You must complete an online Security Screening Application, accessed through GCKey. GCKey is a service provided by the Government of Canada that allows you to securely access programs and services. If selected, we will send you instructions on how to create your GCKey and submit your personal information through the online Security Screening Application.</p>
-  <p>If you have any technical issues or questions about the security screening process, contact one of the following:</p>
+  <h2>Demande de filtrage de sécurité</h2>
+  <p>Vous devez remplir une demande de filtrage de sécurité à l’aide de CléGC. CléGC est un service offert par le gouvernement du Canada qui permet d’accéder en toute sécurité à l’ensemble de ses programmes et services. Si votre candidature est retenue, vous recevrez des instructions pour créer votre profil CléGC et remplir et soumettre votre demande de filtrage de sécurité.</p>
+  <p>Si vous éprouvez des difficultés techniques ou si vous avez des questions concernant le processus de filtrage de sécurité, veuillez utiliser les coordonnées suivantes&nbsp;:</p>
   <ul>
-    <li>For GCKey account: 1-855-438-1102</li>
-    <li>For Security Screening Application: <a href="mailto:rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca">rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca</a>
+    <li>Pour ce qui concerne CléGC&nbsp;: 1-855-438-1102</li>
+    <li>Pour le formulaire de demande de filtrage de sécurité&nbsp;: <a href="mailto:rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca">rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca</a>
     </li>
   </ul>
 </section>
 <section id="s3">
-  <h2>Additional guidance on completing forms</h2>
-  <p>Review these considerations to make sure your forms and documents are completed and submitted correctly:</p>
+  <h2>Autres conseils sur la façon de remplir les formulaires</h2>
+  <p>Voici quelques recommandations sur la manière de remplir et de transmettre les formulaires et documents requis&nbsp;:</p>
   <ul>
-    <li>complete the forms electronically, print them and sign them</li>
-    <li>some forms require initials which can only be signed once the form has been printed</li>
-    <li>submit your forms and documentation electronically, based on instructions provided. Hand delivered, mailed or emailed packages will not be accepted</li>
-    <li>retain original copies of all forms for your records. You may be asked to provide printed copies to authenticate your documentation</li>
-    <li>use the following date format: YYYY/MM/DD</li>
-    <li>incorrect or incomplete forms may cause a considerable delay in your recruiting process and may lead to your file being closed</li>
+    <li>Remplissez les formulaires en ligne, imprimez-les et signez-les</li>
+    <li>Certains formulaires doivent être paraphés, ce qui ne peut être fait qu’après les avoir imprimés</li>
+    <li>Transmettez vos formulaires et documents par voie électronique, en suivant les instructions fournies. Nous n’acceptons pas les dossiers remis en mains propres ou envoyés par courriel ou courrier postal</li>
+    <li>Veuillez conserver les originaux de tous les formulaires. On pourrait vous demander de les produire pour authentifier vos documents</li>
+    <li>Entrez la date en format aaaa-mm-jj</li>
+    <li>Les formulaires mal remplis ou incomplets pourraient considérablement retarder le processus et entraîner la clôture de votre dossier</li>
   </ul>
-  <p>To be able to fill and save our PDF forms, you must first download them to your computer and open them with <a href="https://get.adobe.com/reader/otherversions/">Adobe Reader® 10</a> (or a more recent version). Note that mobile devices cannot be used to open and fill PDF forms.</p>
+  <p>Pour pouvoir remplir et sauvegarder les formulaires en format PDF, vous devez les télécharger sur votre ordinateur puis les ouvrir avec <a href="https://get.adobe.com/reader/otherversions/">Adobe Reader® 10</a> (ou une&nbsp;version plus récente). Veuillez noter que les formulaires en format PDF ne peuvent pas être ouverts et remplis sur des appareils mobiles.</p>
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page" style="display: block;">
   <div class="rcmp-content-page__prev" id="mp-prev-wrap" style="display: block;">

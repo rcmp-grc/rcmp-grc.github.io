@@ -38,14 +38,14 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-6-fr.html">Passez une enquête sur les antécédents et une évaluation de sécurité</a></li>
   </ul>
 </nav>
-<p>After completing the suitability interview, you will need to see RCMP-designated physicians and psychologists for a medical and psychological suitability assessments. If successful at these stages, you will receive your medical clearance.</p>
-<p>This part of the process is divided into two distinct stages:</p>
+<p>Après avoir passé l’entrevue d’admissibilité, vous devrez rencontrer des médecins et des psychologues désignés par la GRC pour une évaluation de votre santé physique et psychologique. Si ces évaluations sont concluantes, vous recevrez votre certificat d’aptitude physique et psychologique.</p>
+<p>Cette partie du processus comporte deux volets distincts :</p>
 <ul>
-  <li>the Psychological Suitability Screening (PSS); and</li>
-  <li>the Medical Screening Process (MSP)</li>
+  <li>l’évaluation de l’aptitude psychologique (EAP)</li>
+  <li>l’évaluation médicale (EM)</li>
 </ul>
-<p>You will be required to undergo all the steps of the PSS and be deemed psychologically qualified before you can continue to the medical screening.</p>
-<p>The RCMP will cover the cost of these basic assessments.</p>
+<p>Vous devrez franchir toutes les étapes de l’EAP et être jugé(e) apte sur le plan psychologique avant de pouvoir vous soumettre à l’EM.</p>
+<p>La GRC prendra en charge les coûts de ces deux évaluations.</p>
 <section id="s1">
   <h2>Psychological and medical suitability standards</h2>
   <p>While physically and mentally demanding incidents may not always happen often in policing, when they do, they may be intense and life threatening.</p>

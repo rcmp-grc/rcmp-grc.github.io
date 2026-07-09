@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Complete a suitability interview
-date_modified: 2026-06-10
+date_modified: 2026-07-08
 lang: en
 lang_url: application-candidature-4-fr.html
 lead: Police officer application process

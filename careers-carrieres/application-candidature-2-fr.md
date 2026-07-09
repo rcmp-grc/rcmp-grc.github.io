@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: Online career presentation and entrance assessment
+title: Exposé sur les carrières et évaluation d’entrée en ligne
 date_modified: 2026-06-10
 lang: en
 lang_url: application-candidature-2-en.html
@@ -15,7 +15,7 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<nav aria-label="Application process steps" class="gc-subway" data-sections-title="Steps">
+<nav aria-label="Processus de recrutement des policiers et policières" class="gc-subway" data-sections-title="Steps">
   <h2>Processus de recrutement des policiers et policières</h2>
   <ul>
     <li><a class="active" href="application-candidature-1-fr.html">Posez votre candidature en ligne</a></li>

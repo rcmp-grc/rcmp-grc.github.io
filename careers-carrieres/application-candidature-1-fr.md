@@ -38,17 +38,6 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-6-fr.html">Passez une enquête sur les antécédents et une évaluation de sécurité</a></li>
   </ul>
 </nav>
-<nav aria-label="Sur cette page">
-  <h2>Sur cette page</h2>
-  <ul>
-    <li>
-      <a href="#s1">Nouveaux candidats</a>
-    </li>
-    <li>
-      <a href="#s2">Personnes ayant déjà présenté une candidature auparavant</a>
-    </li>
-  </ul>
-</nav>
 <section id="s1">
   <h2>Nouveaux candidats</h2>
   <p>Si vous présentez votre candidature pour la première fois, il est important de déterminer si vous avez ce qu’il faut pour devenir policier ou policière à la GRC.</p>

@@ -12,7 +12,7 @@ breadcrumbs:
     url: "careers-carrieres/officer-agent-fr.html"
   - label: "Processus de recrutement des policiers et policières"
     url: "careers-carrieres/application-candidature-fr.html"
-    custom_css: /assets/css/careers.css    
+custom_css: /assets/css/careers.css    
 ---
 
 <nav aria-label="Étapes du processus de recrutement" class="gc-subway" data-sections-title="Étapes">

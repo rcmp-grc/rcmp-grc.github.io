@@ -145,12 +145,24 @@ custom_css: /assets/css/careers.css
   </ul>
   <p>Pour pouvoir remplir et sauvegarder les formulaires en format PDF, vous devez les télécharger sur votre ordinateur puis les ouvrir avec <a href="https://get.adobe.com/reader/otherversions/">Adobe Reader® 10</a> (ou une&nbsp;version plus récente). Veuillez noter que les formulaires en format PDF ne peuvent pas être ouverts et remplis sur des appareils mobiles.</p>
 </section>
-<nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page" style="display: block;">
-  <div class="rcmp-content-page__prev" id="mp-prev-wrap" style="display: block;">
-    <a aria-label="Previous page: Submit the required forms and documents" class="rcmp-content-page__link" href="application-candidature-3-en.html" id="mp-prev"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i> <span class="rcmp-content-page__link-title">Previous page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-prev-label">Submit the required forms and documents</span></a>
+<<nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
+   <div class="rcmp-content-page__previous" id="mp-previous-wrap">
+    <a aria-label="Étape précédent : Exposé sur les carrières et évaluation d’entrée en ligne" class="rcmp-content-page__link" href="application-candidature-3-fr.html" id="mp-previous">
+      <span class="rcmp-content-page__title-row">
+        <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i>
+        <span class="rcmp-content-page__link-title">Étape précédent</span>
+      </span>
+      <span class="rcmp-content-page__link-label" id="mp-previous-label">Transmettez les formulaires et les documents requis</span>
+    </a>
   </div>
-  <div class="rcmp-content-page__next" id="mp-next-wrap" style="display: block;">
-    <a aria-label="Next page: Complete a suitability interview" class="rcmp-content-page__link" href="application-candidature-4-en.html" id="mp-next"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i> <span class="rcmp-content-page__link-title">Next page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-next-label">Complete a suitability interview</span></a>
+  <div class="rcmp-content-page__next" id="mp-next-wrap">
+    <a aria-label="Étape suivante : Exposé sur les carrières et évaluation d’entrée en ligne" class="rcmp-content-page__link" href="application-candidature-4-fr.html" id="mp-next">
+      <span class="rcmp-content-page__title-row">
+        <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
+        <span class="rcmp-content-page__link-title">Étape suivante</span>
+      </span>
+      <span class="rcmp-content-page__link-label" id="mp-next-label">Passez une entrevue d’admissibilité</span>
+    </a>
   </div>
 </nav>
 <script>

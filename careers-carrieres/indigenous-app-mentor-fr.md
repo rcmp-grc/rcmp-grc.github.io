@@ -41,11 +41,11 @@ custom_css: /assets/css/careers.css
 <aside class="pull-right col-xs-12 col-md-3 col-lg-4">
     <section class="panel panel-default">
         <header class="panel-heading">
-            <h2 class="h5 panel-title mrgn-tp-sm">Learn more</h2>
+            <h2 class="h5 panel-title mrgn-tp-sm">En savoir plus</h2>
         </header>
         <div class="panel-body">
             <ul>
-                <li>Vous vous demandez si une carrière dans la police vous convient?<a href="#">Faites le test de préparation.</a></li>
+                <li>Vous vous demandez si une carrière dans la police vous convient? <a href="#">Faites le test de préparation.</a></li>
         </ul>	
         </div>
     </section>

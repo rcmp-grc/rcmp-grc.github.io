@@ -15,7 +15,7 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<nav aria-label="Processus de recrutement des policiers et policières" class="gc-subway" data-sections-title="Steps">
+<nav aria-label="Étapes du processus de recrutement" class="gc-subway" data-sections-title="Étapes">
   <h2>Processus de recrutement des policiers et policières</h2>
   <ul>
     <li><a class="active" href="application-candidature-1-fr.html">Posez votre candidature en ligne</a></li>
@@ -42,15 +42,15 @@ custom_css: /assets/css/careers.css
   <h2>Sur cette page</h2>
   <ul>
     <li>
-      <a href="#s1">Nouveaux candidats</a>
+      <a href="#s1">Exposé virtuel sur les carrières</a>
     </li>
     <li>
-      <a href="#s2">Personnes ayant déjà présenté une candidature auparavant</a>
+      <a href="#s2">Évaluation d’entrée en ligne</a>
     </li>
   </ul>
 </nav>
 <section id="s1">
-  <h2>Online career presentation</h2>
+  <h2>Exposé virtuel sur les carrières</h2>
   <p>After you've been screened into the process, you'll be contacted by email inviting to you to attend an online career presentation.</p>
   <p>During the presentation, you'll learn more about a career in policing with the RCMP.</p>
 </section>

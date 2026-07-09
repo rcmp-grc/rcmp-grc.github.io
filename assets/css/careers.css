@@ -1252,7 +1252,7 @@ a.btn-careers:hover {
 .po-end {
   position: relative;
   background: url("/assets/img/po-end.jpg") bottom / cover no-repeat;
-  min-height: 45vh;
+  min-height: 46.3vh;
   -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 100%);
   mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 100%);
 }

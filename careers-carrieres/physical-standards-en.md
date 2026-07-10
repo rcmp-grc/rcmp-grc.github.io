@@ -3,7 +3,7 @@ layout: careers
 title: Physical standards to become an RCMP officer
 date_modified: 2026-07-09
 lang: en
-lang_url: physical-standards.html
+lang_url: physical-standards-fr.html
 breadcrumbs:
   - label: "RCMP careers"
     url: "careers-carrieres/careers-carrieres-en.html"

@@ -8,7 +8,7 @@ lang_url: index.html
 # author: RCMP Web Team
 # custom_css: /assets/css/special-page.css
 ---
-<section>
+<nav>
   <h2>Sur cette page</h2>
   <ul>
     <li><a href="#s1">Sous-titres</a></li>
@@ -18,14 +18,7 @@ lang_url: index.html
     <li><a href="#s5">Tableaux</a></li>
     <li><a href="#sfn">Notes de bas de page</a></li>
   </ul>
-</section>
-<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open cnt-wdth-lmtd">
-  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Pages connexes</summary>
-<dl class="dl-horizontal">
-  <dt><a href="long-index-index-long-fr.html">Page d’index long (base)</a></dt>
-  <dd>Une page polyvalente avec une liste alphabétique et un filtre pour afficher uniquement les éléments qui contiennent le terme (par exemple, Services et informations). Utilisez le modèle de page d’index long pour présenter une liste de plus de 50 liens connexes qui ne comportent pas de descriptions de texte.</dd>
-</dl>
-</details>
+</nav>
 <aside class="pull-right col-xs-12 col-md-3 col-lg-4 pt-0">
 	<section class="panel panel-default mrgn-tp-0">
 		<header class="panel-heading">
@@ -39,6 +32,13 @@ lang_url: index.html
 		</div>
 	</section>
 </aside>
+<details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open cnt-wdth-lmtd">
+  <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Pages connexes</summary>
+<dl class="dl-horizontal">
+  <dt><a href="long-index-index-long-fr.html">Page d’index long (base)</a></dt>
+  <dd>Une page polyvalente avec une liste alphabétique et un filtre pour afficher uniquement les éléments qui contiennent le terme (par exemple, Services et informations). Utilisez le modèle de page d’index long pour présenter une liste de plus de 50 liens connexes qui ne comportent pas de descriptions de texte.</dd>
+</dl>
+</details>
 <section id="s1">
   <h2>Sous-titres (h2)</h2>
   <p>Cupcake ipsum dolor sit amet cookie. Sugar plum muffin lemon drops cake brownie halvah cotton candy tootsie roll. Liquorice jelly beans tootsie roll lollipop chupa chups. Lemon drops lollipop gummies croissant jelly soufflé pastry soufflé soufflé. Tart danish sugar plum icing jelly-o. Sesame snaps sugar plum croissant oat cake pie cotton candy. Biscuit powder bear claw jelly topping fruitcake wafer marzipan. Sweet roll toffee brownie marshmallow cupcake cookie tiramisu wafer. Halvah marzipan caramels cake wafer gingerbread shortbread sesame snaps caramels. Apple pie chocolate bar sugar plum cake pastry danish macaroon muffin gummi bears. Cake muffin chocolate cake fruitcake sweet. Oat cake bear claw soufflé sweet apple pie candy canes cheesecake.</p>

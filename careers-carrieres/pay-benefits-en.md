@@ -12,15 +12,15 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<section>
+<nav aria-label="On this page">
     <h2>On this page</h2>
     <ul>
         <li><a href="#s1">Cadet recruitment allowance</a></li>
         <li><a href="#s2">Pay rates and benefits</a></li>
         <li><a href="#s3">Related links</a></li>
     </ul>
+</nav>
     <p>Being an RCMP police officer gives you access to a world of opportunity, adventure and growth. There are many benefits, both in terms of salary and lifestyle.</p>
-</section>
 <section id="s1">
     <h2>Cadet recruitment allowance</h2>
     <p>Cadets receive an allowance during the 26-week training program at the RCMP’s training academy, Depot. The

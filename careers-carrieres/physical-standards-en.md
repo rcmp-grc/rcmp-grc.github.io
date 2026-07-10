@@ -134,9 +134,9 @@ custom_css: /assets/css/careers.css
   <p>The self-assessment fitness tests are meant to prepare you for training, and ultimately successful completion of the Police Fitness Assessment. Follow steps&#160;1, 2 and 3 diligently. Regularly perform three to five cardiovascular training sessions per week, and two to three resistance training sessions per week. Some of these workouts should include running, jumping, lifting and carrying. The workouts should also raise your heart rate and keep it elevated for 20&#160;to 30&#160;minutes. Your workouts should be rigorous and leave you exerted, requiring cool down and recovery.</p>
 <p>Ask your recruiter for a Police Fitness Assessment preparation program.</p>
 </section>
-<section class="col-md-8" id="s4">
+<section id="s4">
 	<h2>RCMP Police Fitness Assessment video</h2>
-	<figure class="wb-mltmd">
+	<figure class="wb-mltmd col-md-8">
 		<video title="RCMP Police Fitness Assessment">
 			<source type="video/youtube" src="https://www.youtube.com/watch?v=khr5WnZlhlo">
 		</video>

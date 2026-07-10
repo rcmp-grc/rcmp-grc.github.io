@@ -4,7 +4,7 @@ title: Basic page
 description: A general-purpose page for most content on the site
 lang: en
 lang_url: index-fr.html
-date_modified: 2026-05-29
+# date_modified: 2026-05-04
 # author: RCMP Web Team
 # custom_css: /assets/css/special-page.css
 ---
@@ -12,7 +12,7 @@ date_modified: 2026-05-29
   <h2>On this page</h2>
   <ul>
     <li><a href="#s1">Headings</a></li>
-    <li><a href="#s2">Images</a></li>
+    <li><a href="#s2">Images and video</a></li>
     <li><a href="#s3">Lists</a></li>
     <li><a href="#s4">Alerts</a></li>
     <li><a href="#s5">Tables</a></li>
@@ -67,7 +67,7 @@ date_modified: 2026-05-29
   </section>
 </section>
 <section id="s2">
-  <h2>Images</h2>
+  <h2>Images and video</h2>
   <section id="s2-1">
     <h3>Full width (480x300)</h3>
     <p>Shortbread halvah cake powder dragée. Cake tart pastry danish cheesecake halvah oat cake cheesecake chocolate. Cookie soufflé tootsie roll sugar plum pie dessert brownie croissant cotton candy. Gummi bears apple pie candy canes dessert soufflé jelly-o cake pastry jelly beans. Danish bear claw jujubes croissant chupa chups oat cake jelly topping.</p>
@@ -95,6 +95,38 @@ date_modified: 2026-05-29
       </div>
     </div>
     <p>Jelly beans pie gummies donut pastry gingerbread gingerbread jelly lollipop. Cotton candy jujubes chupa chups pastry jelly liquorice. Jujubes sweet roll candy canes cake icing donut. Wafer tiramisu oat cake jelly-o jelly beans sweet roll. Liquorice chocolate bar tart macaroon chocolate sugar plum fruitcake. Bear claw cheesecake jujubes marshmallow tiramisu fruitcake fruitcake gingerbread candy canes. Pastry donut cake muffin pastry chocolate cake. Gummies tootsie roll pastry cotton candy cake tiramisu toffee muffin. Sugar plum chocolate chupa chups croissant marshmallow chocolate bar gummi bears macaroon sesame snaps. Caramels donut cookie soufflé sugar plum jujubes. Sesame snaps icing tootsie roll wafer bear claw. Carrot cake jelly beans halvah liquorice ice cream candy gummies.</p>
+  </section>
+  <section id="s2-3">
+    <h3>Video</h3>
+    <p>Basic transcripts are a text version of the speech and non-speech audio information needed to understand the content. Descriptive transcripts also include text description of the visual information needed to understand the content. Descriptive transcripts are required to provide video content to people who are both Deaf and blind.</p>
+    <p>Captions are generally written to be viewed along with the visual video. Transcripts should include important visual information for those not seeing the video. When you use captions to create transcripts, usually you will need to add visual information to the transcript, such as text that is in the video and speaker identification.</p>
+    <p>See more: <a href="https://www.w3.org/WAI/media/av/transcripts">https://www.w3.org/WAI/media/av/transcripts</a> </p>
+    <section id="s2-3-1">
+      <h4>Heading for video section</h4>
+      <figure class="wb-mltmd col-md-8">
+        <video title="Video title">
+          <source type="video/youtube" src="https://www.youtube.com/watch?v=xxxxx">
+        </video>
+        <figcaption>
+          <div class="accordion">
+            <details class="acc-group">
+              <summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>Transcript - Video title</summary>
+              <div class="tgl-panel">
+                <p>Upbeat music ♫</p>
+                <p>[Important visual information for those not seeing the video.]</p>
+                <p>Speaker 1: Spoken dialogue with accurate spelling and speaker identification.</p>
+                <p>[Visual information essential to understanding the content, like on-screen text, actions, or changes in setting.]</p>
+                <p>Speaker 2: Speaker identification is clearly marked.</p>
+                <p>Royal Canadian Mounted Police / <i lang="fr">Gendarmerie royale du Canada</i><br>
+                  © His Majesty the King in Right of Canada, as represented by the Royal Canadian Mounted Police, 2026.</p>
+                <p>Canada wordmark</p>
+              </div>
+            </details>
+          </div>
+        </figcaption>
+      </figure>
+    </section>
+    <div class="clearfix"></div>
   </section>
 </section>
 <section id="s3">

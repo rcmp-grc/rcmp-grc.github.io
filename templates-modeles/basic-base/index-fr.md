@@ -12,7 +12,7 @@ lang_url: index.html
   <h2>Sur cette page</h2>
   <ul>
     <li><a href="#s1">Sous-titres</a></li>
-    <li><a href="#s2">Images</a></li>
+    <li><a href="#s2">Images et vidéos</a></li>
     <li><a href="#s3">Lists</a></li>
     <li><a href="#s4">Alertes</a></li>
     <li><a href="#s5">Tableaux</a></li>
@@ -67,7 +67,7 @@ lang_url: index.html
   </section>
 </section>
 <section id="s2">
-  <h2>Images</h2>
+  <h2>Images et vidéos</h2>
   <section id="s2-1">
     <h3>Image pleine largeur (480x300)</h3>
     <p>Shortbread halvah cake powder dragée. Cake tart pastry danish cheesecake halvah oat cake cheesecake chocolate. Cookie soufflé tootsie roll sugar plum pie dessert brownie croissant cotton candy. Gummi bears apple pie candy canes dessert soufflé jelly-o cake pastry jelly beans. Danish bear claw jujubes croissant chupa chups oat cake jelly topping.</p>
@@ -95,6 +95,38 @@ lang_url: index.html
       </div>
     </div>
     <p>Jelly beans pie gummies donut pastry gingerbread gingerbread jelly lollipop. Cotton candy jujubes chupa chups pastry jelly liquorice. Jujubes sweet roll candy canes cake icing donut. Wafer tiramisu oat cake jelly-o jelly beans sweet roll. Liquorice chocolate bar tart macaroon chocolate sugar plum fruitcake. Bear claw cheesecake jujubes marshmallow tiramisu fruitcake fruitcake gingerbread candy canes. Pastry donut cake muffin pastry chocolate cake. Gummies tootsie roll pastry cotton candy cake tiramisu toffee muffin. Sugar plum chocolate chupa chups croissant marshmallow chocolate bar gummi bears macaroon sesame snaps. Caramels donut cookie soufflé sugar plum jujubes. Sesame snaps icing tootsie roll wafer bear claw. Carrot cake jelly beans halvah liquorice ice cream candy gummies.</p>
+  </section>
+    <section id="s2-3">
+    <h3>Vidéo</h3>
+    <p>Les transcriptions de base sont une version texte de l’information parlée ou non parlée nécessaire pour comprendre le contenu. Les transcriptions descriptives incluent également une description textuelle des informations visuelles nécessaires pour comprendre le contenu. Les transcriptions descriptives sont nécessaires pour fournir un contenu vidéo aux personnes sourdes-aveugles.</p>
+    <p>Les sous-titres sont généralement rédigés pour être vus avec la vidéo visuelle. Les transcriptions doivent inclure les informations visuelles importantes pour ceux qui ne voient pas la vidéo. Quand vous utilisez des sous-titres pour créer des transcriptions, vous aurez généralement besoin d’ajouter à la transcription les informations visuelles, comme le texte contenu dans la vidéo et l’identification des locuteurs.</p>
+    <p>See more: <a href="https://www.w3.org/WAI/media/av/transcripts/fr#cr%C3%A9er-des-transcriptions">https://www.w3.org/WAI/media/av/transcripts/fr#cr%C3%A9er-des-transcriptions</a> </p>
+      <section id="s2-3-1">
+      <h4>Titre de la section vidéo</h4>
+      <figure class="wb-mltmd col-md-8">
+        <video title="Titre de la vidéo">
+          <source type="video/youtube" src="https://www.youtube.com/watch?v=xxxxx">
+        </video>
+        <figcaption>
+          <div class="accordion">
+            <details class="acc-group">
+              <summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>Transcription – Titre de la vidéo</summary>
+              <div class="tgl-panel">
+                <p>Musique entraînante ♫</p>
+                <p>[Informations visuelles importantes pour ceux qui ne voient pas la vidéo.]</p>
+                <p>Locuteur&#160;1&#160;: Dialogue oral avec une transcription orthographique précise et l'identification du locuteur.</p>
+                <p>[Informations visuelles indispensables à la compréhension du contenu, telles que le texte à l'écran, les actions ou les changements de décor.]</p>
+                <p>Locuteur&#160;2&#160;: L'identification du locuteur est clairement indiquée.</p>
+                <p>Gendarmerie royale du Canada / <i lang="en">Royal Canadian Mounted Police</i><br>
+              © Sa Majesté le Roi du chef du Canada, représenté par la Gendarmerie royale du Canada, 2026.</p>
+                <p>Mot-symbole «&#160;Canada&#160;»</p>
+              </div>
+            </details>
+          </div>
+        </figcaption>
+      </figure>
+    </section>
+    <div class="clearfix"></div>
   </section>
 </section>
 <section id="s3">

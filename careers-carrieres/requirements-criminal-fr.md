@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Activité ou comportement criminels susceptibles de nuire à votre candidature à la GRC 
-date_modified: 2026-07-08
+date_modified: 2026-07-10
 lang: fr
 lang_url: requirements-criminal-en.html
 breadcrumbs:
@@ -12,13 +12,14 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<section>
+<nav aria-label="Sur cette page">
     <h2>Sur cette page</h2>
        <ul>
         <li><a href="#s1">Exemples d’activités et de comportements criminels</a></li>
         <li><a href="#s2">Évaluation de vos antécédents</a></li>
         <li><a href="#s3">Liens connexes</a></li>
     </ul>
+</nav>
 <p>En tant que policier(ière), votre responsabilité consistera à faire respecter la loi. Par conséquent, tout comportement ou activité criminels pendant le processus d’embauche de candidature pourrait vous disqualifier.</p>
 <p>Pendant le processus d’embauche, vous ne devez pas&#160;:</p>
 <ul>
@@ -29,7 +30,6 @@ custom_css: /assets/css/careers.css
     </li>
     <li>tricher à quelque étape du processus d’embauche de la GRC.</li>
 </ul>
-</section>
 <section id="s1">
 <h2>Exemples d’activités et de comportements criminels</h2>
 <p>Voici quelques-unes des infractions criminelles graves&#160;:</p>

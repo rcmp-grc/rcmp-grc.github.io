@@ -5,10 +5,10 @@ date_modified: 2026-07-09
 lang: fr
 lang_url: physical-standards-en.html
 breadcrumbs:
-- label: "Carrières à la GRC"
-url: "careers-carrieres/fr.html"
-- label: "Carrières policières"
-url: "careers-carrieres/fr.html"
+  - label: "Carrières à la GRC"
+    url: "careers-carrieres/fr.html"
+  - label: "Carrières policières"
+    url: "careers-carrieres/fr.html"
 custom_css: /assets/css/careers.css
 ---
 <nav aria-label="Sur cette page">

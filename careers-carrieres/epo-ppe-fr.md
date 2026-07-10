@@ -77,9 +77,9 @@ custom_css: /assets/css/careers.css
     <ul>
         <li>avoir au moins deux années d'expérience à temps plein dans un service de police canadien, ou l'équivalent (par «&nbsp;équivalent&nbsp;», on entend une expérience, acquise à temps plein ou à temps partiel, totalisant deux années d'expérience à temps plein);</li>
         <li>avoir suivi un programme de formation policière sanctionné par un diplôme dans un établissement de formation policière canadien reconnu (les agents de la police militaire des Forces armées canadiennes doivent avoir suivi avec succès la formation policière de base (niveau de qualification 3) après le 1er janvier 2001);</li>
-        <li>atteindre le niveau minimal aux neuf compétences des services généraux requises suivant le Dictionnaire des compétences de la GRC;</li>
+        <li>atteindre le niveau minimal aux <a href="#">neuf compétences des services généraux requises</a> suivant le Dictionnaire des compétences de la GRC;</li>
         <li>être policier ou policière ou avoir quitté le métier il y a moins de trois ans;</li>
         <li>répondre aux exigences linguistiques du poste à occuper;</li>
-        <li>satisfaire à l'ensemble des exigences imposées aux aspirants membres réguliers.</li>
+        <li>satisfaire à l'<a href="#">ensemble des exigences</a> imposées aux aspirants membres réguliers.</li>
     </ul>
 </section>

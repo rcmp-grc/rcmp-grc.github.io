@@ -42,7 +42,7 @@ custom_css: /assets/css/careers.css
         <li>Mark out a route that covers 5 kilometres </li>
         <li>Use a GPS or odometer and if possible, avoid using a treadmill</li>
       </ul>
-      <dl class="dl-horizontal">
+      <dl class="dl-horizontal brdr-0">
         <dt>Minimum standard</dt>
         <dd><span aria-label="thirty minutes">30:00</span> (mm:ss)</dd>
         <dt>Target standard</dt>
@@ -59,7 +59,7 @@ custom_css: /assets/css/careers.css
         <li>Keep your body straight and thighs off the floor</li>
         <li>Do as many push-ups as you can without breaks or resting your knees on the floor</li>
       </ul>
-      <dl class="dl-horizontal">
+      <dl class="dl-horizontal brdr-0">
         <dt>Minimum standard</dt>
         <dd>10 continuous repetitions</dd>
         <dt>Target standard</dt>

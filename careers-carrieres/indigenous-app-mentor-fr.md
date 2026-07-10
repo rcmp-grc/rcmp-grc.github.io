@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Programme de mentorat de postulants autochtones 
-date_modified: 2026-07-09
+date_modified: 2026-07-10
 lang: fr
 lang_url: indigenous-app-mentor-en.html
 breadcrumbs:
@@ -12,19 +12,19 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<section>
+<nav aria-label="Sur cette page">
     <h2>Sur cette page</h2>
     <ul>
         <li><a href="#s1">Au sujet du programme de mentorat</a></li>
         <li><a href="#s2">À quoi s’attendre?</a></li>
         <li><a href="#s3">Comment devenir un mentoré</a></li>
     </ul>
+</nav>
     <p>Le mentorat peut aider les personnes à se voir comme des leaders dans le milieu policier. Nous souhaitons accueillir
     plus de postulants autochtones en leur fournissant un soutien dans le cadre du Programme de mentorat de postulants
     autochtones (PMPA) de la GRC. Cette initiative permet de jumeler des postulants autochtones à des policiers
     autochtones d’expérience qui leur fourniront un encadrement personnalisé, de l’encouragement et de l’information
     tout au long du parcours de candidature.</p>
-</section>
 <section id="s1">
 <h2>Au sujet du programme de mentorat</h2>
 <p>Le mentorat n’est pas seulement axé sur la réussite personnelle – il vise à créer un effet d’entraînement qui permet

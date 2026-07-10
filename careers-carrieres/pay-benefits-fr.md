@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Solde et avantages sociaux des policiers et policières
-date_modified: 2026-07-09
+date_modified: 2026-07-10
 lang: fr
 lang_url: pay-benefits-en.html
 breadcrumbs:
@@ -11,16 +11,16 @@ breadcrumbs:
     url: "careers-carrieres/fr.html"
 custom_css: /assets/css/careers.css
 ---
-<section>
+<nav aria-label="Sur cette page">
   <h2>Sur cette page</h2>
      <ul>
       <li><a href="#s1">Indemnité de recrutement des cadets</a></li>
       <li><a href="#s2">Taux de rémunération et avantages sociaux</a></li>
       <li><a href="#s3">Liens connexes</a></li>
   </ul>
+</nav>
   <p>La GRC offre à ses policiers et policières une carrière riche en possibilités, en rebondissements et en croissance.
   Les avantages sur les plans de la rémunération et du mode de vie sont également considérables.</p>
-</section>
 <section id="s1">
   <h2>Indemnité de recrutement des cadets</h2>
   <p>Pendant leur formation de 26 semaines à l’École de la GRC (Division Dépôt), les cadets reçoivent une indemnité de 1

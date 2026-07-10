@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Criminal activity or behaviour that could impact your RCMP application
-date_modified: 2026-07-08
+date_modified: 2026-07-10
 lang: en
 lang_url: requirements-criminal-fr.html
 breadcrumbs:
@@ -12,13 +12,14 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<section>
+<nav aria-label="On this page">
     <h2>On this page</h2>
      <ul>
         <li><a href="#s1">Examples of criminal behaviours and activities</a></li>
         <li><a href="#s2">Evaluating your past actions</a></li>
         <li><a href="#s3">Related links</a></li>
     </ul>
+</nav>
 <p>As a police officer, you are expected to uphold the law. Any criminal activity or behaviour during the application process could disqualify you from the process.</p>
 <p>During the application process, you:</p>
 <ul>
@@ -29,7 +30,6 @@ custom_css: /assets/css/careers.css
     </li>
     <li>must not cheat on any portion of the RCMP application process</li>
 </ul>
-</section>
 <section id="s1">
 <h2>Examples of criminal behaviours and activities</h2>
 <p>Serious criminal offences include, but are not limited to:</p>

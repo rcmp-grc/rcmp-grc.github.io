@@ -8,7 +8,7 @@ lang_url: index-fr.html
 # author: RCMP Web Team
 # custom_css: /assets/css/special-page.css
 ---
-<section>
+<nav>
   <h2>On this page</h2>
   <ul>
     <li><a href="#s1">Headings</a></li>
@@ -18,7 +18,7 @@ lang_url: index-fr.html
     <li><a href="#s5">Tables</a></li>
     <li><a href="#sfn">Footnotes</a></li>
   </ul>
-</section>
+</nav>
 <details class="brdr-tp brdr-rght brdr-bttm brdr-lft print-open cnt-wdth-lmtd">
   <summary class="wb-toggle" data-toggle="{&quot;print&quot;:&quot;on&quot;}">Related pages</summary>
 <dl class="dl-horizontal">
@@ -26,6 +26,19 @@ lang_url: index-fr.html
   <dd>A general-purpose page with an alphabetical list and a filter to show only items that contain the term (for example, Services and information). Use the long index page template to present a list of 50+ related links that do not have text descriptions.</dd>
 </dl>
 </details>
+<aside class="pull-right col-xs-12 col-md-3 col-lg-4 pt-0">
+	<section class="panel panel-default mrgn-tp-0">
+		<header class="panel-heading">
+			<h2 class="h5 panel-title mrgn-tp-sm">Learn more</h2>
+		</header>
+		<div class="panel-body">
+			<ul class="mrgn-lft-0 lst-spcd">
+				<li class="small"><a href="">Related link 1</a></li>
+				<li class="small"><a href="">Related link 2</a></li>
+			</ul>
+		</div>
+	</section>
+</aside>
 <section id="s1">
   <h2>Headings (h2)</h2>
   <p>Cupcake ipsum dolor sit amet cookie. Sugar plum muffin lemon drops cake brownie halvah cotton candy tootsie roll. Liquorice jelly beans tootsie roll lollipop chupa chups. Lemon drops lollipop gummies croissant jelly soufflé pastry soufflé soufflé. Tart danish sugar plum icing jelly-o. Sesame snaps sugar plum croissant oat cake pie cotton candy. Biscuit powder bear claw jelly topping fruitcake wafer marzipan. Sweet roll toffee brownie marshmallow cupcake cookie tiramisu wafer. Halvah marzipan caramels cake wafer gingerbread shortbread sesame snaps caramels. Apple pie chocolate bar sugar plum cake pastry danish macaroon muffin gummi bears. Cake muffin chocolate cake fruitcake sweet. Oat cake bear claw soufflé sweet apple pie candy canes cheesecake.</p>

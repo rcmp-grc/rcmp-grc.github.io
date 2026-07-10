@@ -21,7 +21,7 @@ custom_css: /assets/css/careers.css
     </ul>
     <p class="mrgn-tp-lg">The RCMP Reserve program hires retired or former police officers to fill temporary vacancies
         within the RCMP. The program gives reservists a chance to continue to use their skills and knowledge to serve their community. While
-        many Reservists come from RCMP backgrounds, the program actively welcomes applicants from all Canadian police agencies to join.</p>
+        many Reservists come from RCMP backgrounds, the program actively welcomes <a href="#s4">applicants from all Canadian police agencies to join</a>.</p>
 </section>
 <section id="s1">
     <h2>Reasons you should join</h2>
@@ -66,7 +66,7 @@ custom_css: /assets/css/careers.css
             <dt>B&#160;Division - Newfoundland and Labrador</dt>
             <dd><a href="mailto:bdivreserveprogram-divbprogrammedelareserve@rcmp-grc.gc.ca">bdivreserveprogram-divbprogrammedelareserve@rcmp-grc.gc.ca</a>
             </dd>
-            <dt>C&#160;Division - Quebec</dt>
+            <dt>C&#160;Division<br>Quebec</dt>
             <dd><a href="mailto:grc_divc_programme_de_la_reserve-reserve_program_cdiv_rcmp@rcmp-grc.gc.ca">grc_divc_programme_de_la_reserve-reserve_program_cdiv_rcmp@rcmp-grc.gc.ca</a>
             </dd>
             <dt>D&#160;Division - Manitoba</dt>

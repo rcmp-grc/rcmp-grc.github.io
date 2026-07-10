@@ -3,12 +3,12 @@ layout: careers
 title: Test de préparation
 date_modified: 2026-06-10
 lang: fr
-lang_url: readiness-preparation-fr.html
+lang_url: readiness-preparation-en.html
 breadcrumbs:
   - label: "Carrières à la GRC"
     url: "careers-carrieres/careers-carrieres-fr.html"
   - label: "Carrières policières"
-    url: "careers-carrieres/officer-agent-en.html"
+    url: "careers-carrieres/officer-agent-fr.html"
 custom_css: /assets/css/careers.css
 ---
 

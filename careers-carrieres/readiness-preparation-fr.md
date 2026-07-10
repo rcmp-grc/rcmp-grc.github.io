@@ -1,14 +1,14 @@
 ---
 layout: careers
-title: Readiness check
+title: Test de préparation
 date_modified: 2026-06-10
-lang: en
+lang: fr
 lang_url: readiness-preparation-fr.html
 breadcrumbs:
-  - label: "RCMP careers"
-    url: "careers-carrieres/careers-carrieres-en.html"
-  - label: "Police officer careers"
-    url: "careers-carrieres/officer-agent-en.html"
+  - label: "Carrières à la GRC"
+    url: "careers-carrieres/careers-carrieres-fr.html"
+  - label: "Carrières policières"
+    url: "careers-carrieres/officer-agent-fr.html"
 custom_css: /assets/css/careers.css
 ---
 
@@ -16,26 +16,26 @@ custom_css: /assets/css/careers.css
 <div class="rc-quiz-wrap">
   <noscript>
     <div class="alert alert-warning">
-      <p>This quiz requires JavaScript to be enabled in your browser. Please enable JavaScript and reload the page to take the readiness check.</p>
+      <p>Ce questionnaire nécessite que JavaScript soit activé dans votre navigateur. Veuillez activer JavaScript, puis actualiser la page pour effectuer la vérification de l'état de préparation.</p>
     </div>
   </noscript>
   <div class="rc-intro" id="quiz-intro">
-    <p>Take this short quiz to know if you're ready to apply to be a police officer with the RCMP.</p>
+    <p>Répondez à ce court questionnaire pour savoir si vous êtes prêt(e) à postuler pour devenir policier ou policière à la GRC.</p>
   </div>
   <div id="quiz-section">
-    <div class="rc-progress-bar-wrap" role="region" aria-label="Quiz progress">
+    <div class="rc-progress-bar-wrap" role="region" aria-label="Progression du questionnaire">
       <div class="rc-progress-meta">
-        <span id="progress-text">Question <span id="current-question">1</span> of <span id="total-questions">7</span></span>
-        <span id="progress-percent" aria-hidden="true">0%</span>
+        <span id="progress-text">Question <span id="current-question">1</span> sur <span id="total-questions">7</span></span>
+        <span id="progress-percent" aria-hidden="true">0&#160;%</span>
       </div>
-      <div class="rc-progress-track" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Quiz completion" aria-valuetext="0% complete">
+      <div class="rc-progress-track" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Achèvement du questionnaire" aria-valuetext="0 % terminé">
         <div class="rc-progress-fill" id="progress-fill"></div>
       </div>
     </div>
     <form id="quiz-form" novalidate>
       <div id="question-container"></div>
-      <div class="rc-nav" role="group" aria-label="Quiz navigation">
-        <button type="button" id="prev-button" class="rc-btn rc-btn--secondary" aria-label="Go to previous question" disabled>
+      <div class="rc-nav" role="group" aria-label="Navigation dans le questionnaire">
+        <button type="button" id="prev-button" class="rc-btn rc-btn--secondary" aria-label="Aller à la question précédente" disabled>
           <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
           Previous
         </button>

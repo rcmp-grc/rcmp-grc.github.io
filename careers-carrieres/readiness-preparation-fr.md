@@ -260,10 +260,10 @@ var html = [
           '<div class="rc-info-panel ' + (ans !== null ? "show" : "") + '"',
                ' id="info-' + q.number + '"',
                ' role="note"',
-               ' aria-label="Additional information"',
+               ' aria-label="Renseignements supplémentaires"',
                ' aria-live="polite"',
           '>',
-            '<h3 class="rc-info-panel__heading">Additional information</h3>',
+            '<h3 class="rc-info-panel__heading">Renseignements supplémentaires</h3>',
             buildInfoHTML(q.info),
           '</div>',
         '</div>',
@@ -293,7 +293,7 @@ var html = [
     if (infoPanel) {
       infoPanel.classList.add("show");
       if (wasNull) {
-        announce("Additional information is now available below the answer choices.");
+        announce("Renseignements supplémentaires is now available below the answer choices.");
       }
       setTimeout(function () {
         var offset = infoPanel.getBoundingClientRect().top + window.pageYOffset - 100;

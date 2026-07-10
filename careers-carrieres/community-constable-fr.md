@@ -3,7 +3,7 @@ layout: careers
 title: Gendarmes communautaires 
 date_modified: 2026-07-10
 lang: fr
-lang_url: community-constables-en.html
+lang_url: community-constable-en.html
 breadcrumbs:
   - label: "Carrières à la GRC"
     url: "careers-carrieres/fr.html"

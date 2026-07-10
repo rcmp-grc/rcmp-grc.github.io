@@ -3,7 +3,7 @@ layout: careers
 title: Community Constables 
 date_modified: 2026-07-10
 lang: en
-lang_url: community-constables-fr.html
+lang_url: community-constable-fr.html
 breadcrumbs:
   - label: "RCMP careers"
     url: "careers-carrieres/careers-carrieres-en.html"

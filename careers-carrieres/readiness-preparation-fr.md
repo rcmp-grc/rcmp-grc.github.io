@@ -72,7 +72,7 @@ custom_css: /assets/css/careers.css
       ],
       info: [
         "Les valeurs fondamentales de la GRC orientent la façon dont les policiers traitent le public, les collègues, les partenaires et les personnes sous leur garde, en particulier dans des situations stressantes ou difficiles.",
-        "Le fait de ne pas incarner ces valeurs (dans son comportement ou sa conduite, p. ex.) entraînera le retrait immédiat du Programme de formation des cadets.",
+        "Le fait de ne pas incarner ces valeurs (dans son comportement ou sa conduite, par exemple) entraînera le retrait immédiat du Programme de formation des cadets.",
         "N\'oubliez pas qu\'en cas de manquement aux valeurs fondamentales, votre contrat de formation pourrait être résilié. Si vous démissionnez ou êtes renvoyé(e) du Programme de formation des cadets, vous pourriez être tenu(e) de rembourser votre allocation de formation.",
       ],
     },

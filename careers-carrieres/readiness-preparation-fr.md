@@ -37,16 +37,16 @@ custom_css: /assets/css/careers.css
       <div class="rc-nav" role="group" aria-label="Navigation dans le questionnaire">
         <button type="button" id="prev-button" class="rc-btn rc-btn--secondary" aria-label="Aller à la question précédente" disabled>
           <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
-          Previous
+          Précédent
         </button>
-        <button type="button" id="next-button" class="rc-btn rc-btn--primary" aria-label="Go to next question" disabled>
-          Next
+        <button type="button" id="next-button" class="rc-btn rc-btn--primary" aria-label="Aller à la question suivante" disabled>
+          Suivant
           <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
         </button>
       </div>
     </form>
   </div>
-  <div class="hidden" id="results-section" role="region" aria-label="Quiz results"></div>
+  <div class="hidden" id="results-section" role="region" aria-label="Résultats du questionnaire"></div>
 </div>
 
 <script>
@@ -56,24 +56,24 @@ custom_css: /assets/css/careers.css
   var questions = [
     {
       number: 1,
-      title: "RCMP core values",
-      details: 'RCMP officers and cadets are expected to consistently live and demonstrate the <a href="/en/corporate-information/royal-canadian-mounted-police-core-values" target="_blank" aria-label="Royal Canadian Mounted Police core values - Opens in a new window">RCMP\'s core values</a>; take responsibility, show respect, serve with excellence, demonstrate compassion and act with integrity both on and off duty.',
+      title: "Valeurs fondamentales de la GRC",
+      details: 'Les policiers et les cadets de la GRC doivent systématiquement mettre en pratique et incarner les <a href="/fr/renseignements-organisationnels/valeurs-fondamentales-gendarmerie-royale-du-canada" target="_blank" aria-label="Valeurs fondamentales de la Gendarmerie royale du Canada – S\'ouvre dans une nouvelle fenêtre">valeurs fondamentales de la GRC</a>, c\'est-à-dire qu\'ils doivent assumer leurs responsabilités, faire preuve de respect et de compassion, servir avec excellence et agir avec intégrité, qu\'ils soient de service ou non.https://rcmp.ca/en/corporate-information/royal-canadian-mounted-police-core-values',
       bullets: [],
       question: [
-        "Are you willing to live by the RCMP\'s core values in both your personal and work life?",
-        "This means you will:",
+        "Êtes-vous prêt(e) à vivre selon les valeurs fondamentales de la GRC dans votre vie personnelle et professionnelle?",
+        "Vous devrez :",
       ],
       questionBullets: [
-        "take responsibility for your actions, mistakes and decisions",
-        "treat all people with respect, even if they are disrespectful toward you",
-        "act with integrity, honesty and using ethical judgement, even when it is difficult or unpopular",
-        "show compassion toward people in crisis, including victims, offenders, vulnerable populations, and colleagues",
-        "strive for excellence by accepting feedback, correction and high standards of conduct",
+        "assumer la responsabilité de vos actions, de vos erreurs et de vos décisions;",
+        "traiter toutes les personnes avec respect, même si elles se montrent irrespectueuses à votre égard;",
+        "agir avec intégrité et honnêteté et faire preuve d\'un jugement éthique, même si cela est difficile ou impopulaire;",
+        "faire preuve de compassion envers les personnes en crise, notamment les victimes, les contrevenants, les populations vulnérables et les collègues;",
+        "viser l\'excellence en acceptant la rétroaction, les mesures correctives et les normes de conduite exigeantes.",
       ],
       info: [
-        "The RCMP core values guide how officers treat the public, colleagues, partners and people in their care, especially in stressful or challenging situations.",
-        "Failing to demonstrate these values (for example, through behaviors or conduct) will result in immediate termination from the Cadet Training Program.",
-        "Remember, your training contract may be terminated for violations of core values. If you are terminated or resign from the Cadet Training Program, you may be subject to repaying your training allowance.",
+        "Les valeurs fondamentales de la GRC orientent la façon dont les policiers traitent le public, les collègues, les partenaires et les personnes sous leur garde, en particulier dans des situations stressantes ou difficiles.",
+        "Le fait de ne pas incarner ces valeurs (dans son comportement ou sa conduite, p. ex.) entraînera le retrait immédiat du Programme de formation des cadets.",
+        "N\'oubliez pas qu\'en cas de manquement aux valeurs fondamentales, votre contrat de formation pourrait être résilié. Si vous démissionnez ou êtes renvoyé(e) du Programme de formation des cadets, vous pourriez être tenu(e) de rembourser votre allocation de formation.",
       ],
     },
     {
@@ -245,15 +245,15 @@ var html = [
       '<div class="rc-answers-inner">',
         '<div class="rc-legend" id="q-legend-' + q.number + '">' + legendInner + '</div>',
         '<fieldset class="rc-fieldset">',
-          '<legend class="sr-only">Yes or No: ' + (Array.isArray(q.question) ? q.question[0] : q.question) + '</legend>',
+          '<legend class="sr-only">Oui or Non: ' + (Array.isArray(q.question) ? q.question[0] : q.question) + '</legend>',
           '<ul class="rc-options" role="list">',
                 '<li class="rc-option">',
                   '<input type="radio" id="yes-' + q.number + '" name="q-' + q.number + '" value="yes"' + yesChecked + '>',
-                  '<label for="yes-' + q.number + '">Yes</label>',
+                  '<label for="yes-' + q.number + '">Oui</label>',
                 '</li>',
                 '<li class="rc-option">',
                   '<input type="radio" id="no-' + q.number + '" name="q-' + q.number + '" value="no"' + noChecked + '>',
-                  '<label for="no-' + q.number + '">No</label>',
+                  '<label for="no-' + q.number + '">Non</label>',
                 '</li>',
               '</ul>',
             '</fieldset>',
@@ -336,10 +336,10 @@ var html = [
 
   function showResults() {
     var yesCount = answers.filter(function (a) { return a === "yes"; }).length;
-    var allYes   = yesCount === questions.length;
+    var allOui   = yesCount === questions.length;
     var html;
 
-    if (allYes) {
+    if (allOui) {
       html = [
         '<div class="rc-results rc-results--success">',
           '<h2 class="rc-results__heading" id="results-heading" tabindex="-1">End of Readiness Check</h2>',
@@ -384,10 +384,10 @@ var html = [
     var heading = document.getElementById("results-heading");
     if (heading) { heading.focus(); }
 
-    if (allYes) {
+    if (allOui) {
       announce("Quiz complete. Congratulations \u2014 you appear suited to apply as an RCMP police officer.");
     } else {
-      announce("Quiz complete. You answered Yes to " + yesCount + " out of " + questions.length + " questions. Additional preparation may be needed.");
+      announce("Quiz complete. You answered Oui to " + yesCount + " out of " + questions.length + " questions. Additional preparation may be needed.");
     }
 
     scrollToQuiz();

@@ -84,14 +84,14 @@ custom_css: /assets/css/careers.css
   <h2>À propos de le Test de condition physique pour les policiers</h2>
   <p>Le nouveau Test de condition physique pour les policiers est une série de quatre évaluations qui servent à évaluer l'aptitude physique au travail à la GRC. Chaque évaluation simule l'exécution de tâches de police courantes, essentielles et exigeantes sur le plan physique.</p>
   <section id="s2-1">
-    <h3>Poursuite à pied </h5>
+    <h3>Poursuite à pied </h3>
       <ul>
         <li>Course de 500 mètres avec changement directionnel </li>
         <li>Escalader une clôture à mailles losangées de 1,4&#160;m de haut</li>
       </ul>
   </section>
   <section id="s2-2">
-    <h3>Contrôle physique </h5>
+    <h3>Contrôle physique </h3>
       <ul>
         <li>Pousser et tirer un traîneau avec une résistance de 37 kilogrammes en alternance. </li>
         <li>À mi-chemin, s'étendre sur le sol et se remettre debout.</li>
@@ -100,7 +100,7 @@ custom_css: /assets/css/careers.css
       </ul>
   </section>
   <section id="s2-3">
-    <h3>Aide d'urgence </h5>
+    <h3>Aide d'urgence </h3>
       <ul>
         <li>Charger 15 objets (23 kilogrammes chacun) de diverses formes à l'arrière d'un camion dans une épreuve chronométrée.</li>
         <li>La deuxième partie de l'évaluation simule une évacuation.</li>
@@ -109,7 +109,7 @@ custom_css: /assets/css/careers.css
       </ul>
   </section>
   <section id="s2-4">
-    <h3>Tâche prioritaire </h5>
+    <h3>Tâche prioritaire </h3>
       <ul>
         <li>Mettre un gilet pare-balles lourd.</li>
         <li>Porter un poids de 4,5 kilogrammes.</li>

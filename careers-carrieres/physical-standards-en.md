@@ -84,14 +84,14 @@ custom_css: /assets/css/careers.css
   <h2>About the Police Fitness Assessment</h2>
   <p>The Police Fitness Assessment is a set of 4 assessments to measure fitness for RCMP duty. Each assessment simulates common, essential, and physically demanding tasks that may occur in policing.</p>
   <section id="s2-1">
-    <h3>Foot pursuit </h5>
+    <h3>Foot pursuit </h3>
       <ul>
         <li>500 metre run with directional changes </li>
         <li>climb a 1.4&#160;metre chain-link fence at the halfway point of the run</li>
       </ul>
   </section>
   <section id="s2-2">
-    <h3>Physical control </h5>
+    <h3>Physical control </h3>
       <ul>
         <li>Push and pull a sled with 37 kilograms of resistance, alternating between pushing and pulling </li>
         <li>At halfway point, lie down on the ground and return to standing position</li>
@@ -100,7 +100,7 @@ custom_css: /assets/css/careers.css
       </ul>
   </section>
   <section id="s2-3">
-    <h3>Emergency assistance </h5>
+    <h3>Emergency assistance </h3>
       <ul>
         <li>Load 15 objects (23 kilograms each), varying in shape into the back of a truck in a timed test</li>
         <li>The second part of the assessment simulates an evacuation</li>
@@ -109,7 +109,7 @@ custom_css: /assets/css/careers.css
       </ul>
   </section>
   <section id="s2-4">
-    <h3>High priority task </h5>
+    <h3>High priority task </h3>
       <ul>
         <li>Put on weighted hard body armour</li>
         <li>Carry 4.5-kilogram weight</li>

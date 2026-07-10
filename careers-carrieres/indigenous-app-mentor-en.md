@@ -11,18 +11,18 @@ breadcrumbs:
     url: "careers-carrieres/officer-agent-en.html"
 custom_css: /assets/css/careers.css
 ---
-<section>
+<nav aria-label="On this page">
     <h2>On this page</h2>
     <ul>
         <li><a href="#s1">About the mentorship program</a></li>
         <li><a href="#s2">What to expect</a></li>
         <li><a href="#s3">Become a mentee</a></li>
     </ul>
+</nav>
 <p>Mentorship can help people see themselves as leaders in policing. We want to welcome more Indigenous candidates into
     policing by supporting applicants through the Indigenous Applicant Mentorship for RCMP (I-AM-RCMP). This program
     connects Indigenous applicants with experienced Indigenous RCMP police officers who provide personalized guidance,
     encouragement, and insight throughout the application process.</p>
-</section>
 <section id="s1">
 <h2>About the mentorship program</h2>
 <p>A mentorship program isn’t just about individual success – it's about creating a ripple effect that leads to better

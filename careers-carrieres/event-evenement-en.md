@@ -55,7 +55,7 @@ custom_css: /assets/css/careers.css
   <div class="col-md-5 col-sm-12 event-detail-media">
     <div style="position:relative;">
       <span class="event-format-tag">In person</span>
-      <img src="/assets/img/event-fitness-workshop.jpg" alt="" class="img-responsive full-width" style="border-radius:0;">
+      <img src="/assets/img/even-1.jpg" alt="" class="img-responsive full-width" style="border-radius:0;">
     </div>
   </div>
 </div>

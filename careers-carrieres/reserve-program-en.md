@@ -11,7 +11,7 @@ breadcrumbs:
     url: "careers-carrieres/officer-agent-en.html"
 custom_css: /assets/css/careers.css
 ---
-<section>
+<nav aria-label="On this page">
     <h2>On this page</h2>
     <ul>
         <li><a href="#s1">Reasons you should join</a></li>
@@ -19,10 +19,11 @@ custom_css: /assets/css/careers.css
         <li><a href="#s3">Duties of a reservist</a></li>
         <li><a href="#s4">Learn more and apply</a></li>
     </ul>
+</nav>
     <p class="mrgn-tp-lg">The RCMP Reserve program hires retired or former police officers to fill temporary vacancies
         within the RCMP. The program gives reservists a chance to continue to use their skills and knowledge to serve their community. While
-        many Reservists come from RCMP backgrounds, the program actively welcomes <a href="#s4">applicants from all Canadian police agencies to join</a>.</p>
-</section>
+        many Reservists come from RCMP backgrounds, the program actively welcomes <a href="#s4">applicants from all Canadian police
+        agencies to join</a>.</p>
 <section id="s1">
     <h2>Reasons you should join</h2>
     <p>Joining our Reserve Program comes with many benefits, such as:</p>
@@ -63,50 +64,50 @@ custom_css: /assets/css/careers.css
     <section id="s4-1">
         <h3>Divisional Reserve Program coordinators</h3>
         <dl class="dl-horizontal">
-            <dt>B&#160;Division -<br>Newfoundland and Labrador</dt>
-            <dd><a href="mailto:bdivreserveprogram-divbprogrammedelareserve@rcmp-grc.gc.ca">bdivreserveprogram-divbprogrammedelareserve@rcmp-grc.gc.ca</a>
-            </dd>
-            <dt>C&#160;Division -<br>Quebec</dt>
-            <dd><a href="mailto:grc_divc_programme_de_la_reserve-reserve_program_cdiv_rcmp@rcmp-grc.gc.ca">grc_divc_programme_de_la_reserve-reserve_program_cdiv_rcmp@rcmp-grc.gc.ca</a>
-            </dd>
-            <dt>D&#160;Division - Manitoba</dt>
-            <dd><a href="mailto:rcmp.dreserveprogram-programmereserved.grc@rcmp-grc.gc.ca">rcmp.dreserveprogram-programmereserved.grc@rcmp-grc.gc.ca</a>
-            </dd>
-            <dt>E&#160;Division -<br>British Columbia</dt>
-            <dd><a href="mailto:e.reserve.program-programme.reserve.e@rcmp-grc.gc.ca">e.reserve.program-programme.reserve.e@rcmp-grc.gc.ca</a>
-            </dd>
-            <dt>F&#160;Division -<br>Saskatchewan</dt>
-            <dd><a href="mailto:rcmp.freserveprogram-fprogrammedelareserve.grc@rcmp-grc.gc.ca">rcmp.freserveprogram-fprogrammedelareserve.grc@rcmp-grc.gc.ca</a>
-            </dd>
-            <dt>G&#160;Division -<br>Northwest Territories</dt>
-            <dd><a href="mailto:rcmp.greserve-greserve.grc@rcmp-grc.gc.ca">rcmp.greserve-greserve.grc@rcmp-grc.gc.ca</a>
-            </dd>
-            <dt>H&#160;Division -<br>Nova Scotia</dt>
-            <dd><a href="mailto:hdiv_reservists-hdiv_reservistes@rcmp-grc.gc.ca">hdiv_reservists-hdiv_reservistes@rcmp-grc.gc.ca</a>
-            </dd>
-            <dt>J&#160;Division -<br>New Brunswick</dt>
-            <dd><a href="mailto:rcmp.jdivreserve-jdivreserve.grc@rcmp-grc.gc.ca">rcmp.jdivreserve-jdivreserve.grc@rcmp-grc.gc.ca</a>
-            </dd>
-            <dt>K&#160;Division -<br>Alberta</dt>
+            <dt>Alberta</dt>
             <dd><a href="mailto:rcmp.kreserve-kreserve.grc@rcmp-grc.gc.ca">rcmp.kreserve-kreserve.grc@rcmp-grc.gc.ca</a>
             </dd>
-            <dt>L&#160;Division -<br>Prince Edward Island</dt>
-            <dd><a href="mailto:ldivisionreserve-reservededivisionl@rcmp-grc.gc.ca">ldivisionreserve-reservededivisionl@rcmp-grc.gc.ca</a>
+            <dt>British Columbia</dt>
+            <dd><a href="mailto:e.reserve.program-programme.reserve.e@rcmp-grc.gc.ca">e.reserve.program-programme.reserve.e@rcmp-grc.gc.ca</a>
             </dd>
-            <dt>M&#160;Division -<br>Yukon</dt>
-            <dd><a href="mailto:mdiv_reserve_program_programme_reserve_divm@rcmp-grc.gc.ca">mdiv_reserve_program_programme_reserve_divm@rcmp-grc.gc.ca</a>
+            <dt>Manitoba</dt>
+            <dd><a href="mailto:rcmp.dreserveprogram-programmereserved.grc@rcmp-grc.gc.ca">rcmp.dreserveprogram-programmereserved.grc@rcmp-grc.gc.ca</a>
             </dd>
             <dt>National Division</dt>
             <dd><a href="mailto:protpolice_reserveprogm-policeprot_progrmreserve@rcmp-grc.gc.ca">protpolice_reserveprogm-policeprot_progrmreserve@rcmp-grc.gc.ca</a>
             </dd>
-            <dt>O&#160;Division -<br>Ontario</dt>
+            <dt>New Brunswick</dt>
+            <dd><a href="mailto:rcmp.jdivreserve-jdivreserve.grc@rcmp-grc.gc.ca">rcmp.jdivreserve-jdivreserve.grc@rcmp-grc.gc.ca</a>
+            </dd>
+            <dt>Newfoundland and Labrador</dt>
+            <dd><a href="mailto:bdivreserveprogram-divbprogrammedelareserve@rcmp-grc.gc.ca">bdivreserveprogram-divbprogrammedelareserve@rcmp-grc.gc.ca</a>
+            </dd>
+            <dt>Northwest Territories</dt>
+            <dd><a href="mailto:rcmp.greserve-greserve.grc@rcmp-grc.gc.ca">rcmp.greserve-greserve.grc@rcmp-grc.gc.ca</a>
+            </dd>
+            <dt>Nova Scotia</dt>
+            <dd><a href="mailto:hdiv_reservists-hdiv_reservistes@rcmp-grc.gc.ca">hdiv_reservists-hdiv_reservistes@rcmp-grc.gc.ca</a>
+            </dd>
+            <dt>Nunavut</dt>
+            <dd><a href="mailto:vdivreservistprogram_programmedesreservistesdivv@rcmp-grc.gc.ca">vdivreservistprogram_programmedesreservistesdivv@rcmp-grc.gc.ca</a>
+            </dd>
+            <dt>Ontario</dt>
             <dd><a href="mailto:cr_reservist-reservistes_rc@rcmp-grc.gc.ca">cr_reservist-reservistes_rc@rcmp-grc.gc.ca</a>
             </dd>
-            <dt>T&#160;Division (Depot) -<br>Saskatchewan</dt>
+            <dt>Prince Edward Island</dt>
+            <dd><a href="mailto:ldivisionreserve-reservededivisionl@rcmp-grc.gc.ca">ldivisionreserve-reservededivisionl@rcmp-grc.gc.ca</a>
+            </dd>
+            <dt>Quebec</dt>
+            <dd><a href="mailto:grc_divc_programme_de_la_reserve-reserve_program_cdiv_rcmp@rcmp-grc.gc.ca">grc_divc_programme_de_la_reserve-reserve_program_cdiv_rcmp@rcmp-grc.gc.ca</a>
+            </dd>
+            <dt>Saskatchewan<br>Depot</dt>
             <dd><a href="mailto:rcmp.depotreserve-reservededepot.grc@rcmp-grc.gc.ca">rcmp.depotreserve-reservededepot.grc@rcmp-grc.gc.ca</a>
             </dd>
-            <dt>V&#160;Division -<br>Nunavut</dt>
-            <dd><a href="mailto:vdivreservistprogram_programmedesreservistesdivv@rcmp-grc.gc.ca">vdivreservistprogram_programmedesreservistesdivv@rcmp-grc.gc.ca</a>
+            <dt>Saskatchewan</dt>
+            <dd><a href="mailto:rcmp.freserveprogram-fprogrammedelareserve.grc@rcmp-grc.gc.ca">rcmp.freserveprogram-fprogrammedelareserve.grc@rcmp-grc.gc.ca</a>
+            </dd>
+            <dt>Yukon</dt>
+            <dd><a href="mailto:mdiv_reserve_program_programme_reserve_divm@rcmp-grc.gc.ca">mdiv_reserve_program_programme_reserve_divm@rcmp-grc.gc.ca</a>
             </dd>
         </dl>
     </section>

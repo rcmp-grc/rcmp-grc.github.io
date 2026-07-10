@@ -15,6 +15,11 @@ custom_css: /assets/css/careers.css
 
 <section id="s1">
 	<h2>Meet the qualifications and requirements before you apply</h2>
+	<div class="btn-group mrgn-bttm-sm mrgn-tp-md">
+	  <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;on&quot;}">Expand all</button>
+  	<button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
+	</div>
+<div id="expand-collapse">
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
 		<summary>Be a Canadian citizen or have permanent resident status in Canada</summary>
 		<p>To apply, permanent residents must have lived in Canada for at least 1,095&nbsp;days (3&nbsp;years) during the past 5&nbsp;years.</p>
@@ -104,6 +109,7 @@ custom_css: /assets/css/careers.css
 			<dd>We conduct ourselves ethically and do so with honesty, dignity, and honour</dd>
 		</dl>
 	</details>
+</div>
 </section>
 
 <section id="s2">

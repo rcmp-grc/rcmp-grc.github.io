@@ -118,7 +118,7 @@ custom_css: /assets/css/careers.css
       </ul>
   </section>
   <section id="s2-5" class="alert alert-info">
-    <h3>Note</h3>
+    <h3 class="h4">Note</h3>
     <p>Each of these tasks are performed in the police uniform and/or replica weight divided between the vest and duty belt. Early in training cadets will perform the assessment in a t-shirt and shorts. They will progress to the uniform and equivalently weighted kit for their final assessments.</p>
   </section>
   <p>The police fitness assessment comes in two versions.</p>

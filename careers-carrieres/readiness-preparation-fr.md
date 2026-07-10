@@ -57,7 +57,7 @@ custom_css: /assets/css/careers.css
     {
       number: 1,
       title: "Valeurs fondamentales de la GRC",
-      details: 'Les policiers et les cadets de la GRC doivent systématiquement mettre en pratique et incarner les <a href="/fr/renseignements-organisationnels/valeurs-fondamentales-gendarmerie-royale-du-canada" target="_blank" aria-label="Valeurs fondamentales de la Gendarmerie royale du Canada – S\'ouvre dans une nouvelle fenêtre">valeurs fondamentales de la GRC</a>, c\'est-à-dire qu\'ils doivent assumer leurs responsabilités, faire preuve de respect et de compassion, servir avec excellence et agir avec intégrité, qu\'ils soient de service ou non.https://rcmp.ca/en/corporate-information/royal-canadian-mounted-police-core-values',
+      details: 'Les policiers et les cadets de la GRC doivent systématiquement mettre en pratique et incarner les <a href="/fr/renseignements-organisationnels/valeurs-fondamentales-gendarmerie-royale-du-canada" target="_blank" aria-label="Valeurs fondamentales de la Gendarmerie royale du Canada – S\'ouvre dans une nouvelle fenêtre">valeurs fondamentales de la GRC</a>, c\'est-à-dire qu\'ils doivent assumer leurs responsabilités, faire preuve de respect et de compassion, servir avec excellence et agir avec intégrité, qu\'ils soient de service ou non.',
       bullets: [],
       question: [
         "Êtes-vous prêt(e) à vivre selon les valeurs fondamentales de la GRC dans votre vie personnelle et professionnelle?",

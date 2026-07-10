@@ -8,7 +8,7 @@ breadcrumbs:
   - label: "Carrières à la GRC"
     url: "careers-carrieres/careers-carrieres-fr.html"
   - label: "Carrières policières"
-    url: "careers-carrieres/officer-agent-fr.html"
+    url: "careers-carrieres/officer-agent-en.html"
 custom_css: /assets/css/careers.css
 ---
 
@@ -308,9 +308,9 @@ var html = [
     var answered = answers.filter(function (a) { return a !== null; }).length;
     var pct      = Math.round((answered / questions.length) * 100);
 
-    progressFill.style.width        = pct + "%";
+    progressFill.style.width        = pct + "&#160;%";
     progressTrack.setAttribute("aria-valuenow", pct);
-    progressTrack.setAttribute("aria-valuetext", pct + "% complete");
+    progressTrack.setAttribute("aria-valuetext", pct + "&#160;% complete");
     currentQSpan.textContent        = currentIndex + 1;
     progressPercent.textContent     = pct + "%";
   }

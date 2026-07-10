@@ -15,8 +15,8 @@ custom_css: /assets/css/careers.css
 <nav aria-label="On this page">
 <h2>On this page</h2>
 <ul>
-  <li><a href="#1">Item 1</a></li>
-  <li><a href="#2">Item 2</a></li>
+  <li><a href="#1">This navigation landmark uses aria-label</a></li>
+  <li><a href="#2">NVDA reads it twice</a></li>
 </ul>
 </nav>
 
@@ -25,8 +25,19 @@ custom_css: /assets/css/careers.css
 <nav aria-labelledby="pagenav">
 <h2 id="pagenav">On this page</h2>
 <ul>
-  <li><a href="#1">Item 1</a></li>
-  <li><a href="#2">Item 2</a></li>
+  <li><a href="#1">This navigation landmark uses aria-labelledby</a></li>
+  <li><a href="#2">NVDA reads it once</a></li>
+</ul>
+</nav>
+
+<hr>
+
+<nav>
+<h2>On this page</h2>
+<ul>
+  <li><a href="#1">This navigation landmark isn't named</a></li>
+  <li><a href="#2">NVDA reads it once</a></li>
+  <li><a href="#3">This isn't recommended as there are multiple navigation landmarks</a></li>
 </ul>
 </nav>
 

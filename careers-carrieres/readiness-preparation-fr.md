@@ -308,11 +308,11 @@ var html = [
     var answered = answers.filter(function (a) { return a !== null; }).length;
     var pct      = Math.round((answered / questions.length) * 100);
 
-    progressFill.style.width        = pct + "&#160;%";
+    progressFill.style.width        = pct + " %";
     progressTrack.setAttribute("aria-valuenow", pct);
-    progressTrack.setAttribute("aria-valuetext", pct + "&#160;% complete");
+    progressTrack.setAttribute("aria-valuetext", pct + " % complete");
     currentQSpan.textContent        = currentIndex + 1;
-    progressPercent.textContent     = pct + "&#160;%";
+    progressPercent.textContent     = pct + " %";
   }
 
   function updateNav() {

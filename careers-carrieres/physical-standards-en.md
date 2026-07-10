@@ -184,4 +184,5 @@ custom_css: /assets/css/careers.css
 			</div>
 		</figcaption>
 	</figure>
+  <div class="clearfix"></div>
 </section>

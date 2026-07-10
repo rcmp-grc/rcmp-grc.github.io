@@ -312,7 +312,7 @@ var html = [
     progressTrack.setAttribute("aria-valuenow", pct);
     progressTrack.setAttribute("aria-valuetext", pct + "&#160;% complete");
     currentQSpan.textContent        = currentIndex + 1;
-    progressPercent.textContent     = pct + "%";
+    progressPercent.textContent     = pct + "&#160;%";
   }
 
   function updateNav() {

@@ -52,7 +52,7 @@ custom_css: /assets/css/careers.css
     </ul>
     <p>Les taux de rémunération et les avantages sociaux des policiers et policières de la GRC (dont le grade est inférieur
   à celui d'inspecteur) sont inscrits dans la convention collective des membres réguliers et des réservistes de la GRC.
-    </p>
+   </p>
   </section>
   <section id="s2-2">
     <h3>Congés annuels</h3>

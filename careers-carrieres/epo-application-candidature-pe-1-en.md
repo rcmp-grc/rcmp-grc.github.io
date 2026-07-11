@@ -81,7 +81,7 @@ custom_css: /assets/css/careers.css
         <span class="rcmp-content-page__link-title">Next page</span>
       </span>
       <span class="rcmp-content-page__link-label" id="mp-next-label">Submit forms</span>
-    </a>
+   </a>
   </div>
 </nav>
 <script>

@@ -21,7 +21,7 @@ custom_css: /assets/css/careers.css
                 <li property="itemListElement" typeof="ListItem">
                   <a href="/" property="item" typeof="WebPage"><span property="name">RCMP.ca</span></a>
                   <meta content="1" property="position">
-                </li>
+             </li>>
               </ol>
             </div>
           </div>
@@ -51,43 +51,43 @@ custom_css: /assets/css/careers.css
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-5.jpg">
               <h3 class="h5"><a href="#">Community constables</a></h3>
               <p>Build trust and help to reduce crime in your own community.</p>
-            </div>
-          </li>
+       </li>div>
+         </li>
           <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-6.jpg">
               <h3 class="h5"><a href="#">RCMP Reserve program</a></h3>
-              <p>Continue to serve the community after retirement or leaving the service.</p>
+       </li><p>Continue to serve the community after retirement or leaving the service.</p>
             </div>
-          </li>
+         </li>
           <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-7.jpg">
-              <h3 class="h5"><a href="#">Volunteer programs</a></h3>
+       </li><h3 class="h5"><a href="#">Volunteer programs</a></h3>
               <p>Support local detachments and help to tell the RCMP story across Canada.</p>
             </div>
-          </li>
+         </li>
           <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
-              <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-9.jpg">
+       </li><img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-9.jpg">
               <h3 class="h5"><a href="#">Student jobs</a></h3>
               <p>Start your career with purpose and drive national impact while you study.</p>
             </div>
-          </li>
+         </li>
           <li class="col-lg-4 col-md-6 col-xs-12">
-            <div class="well">
+       </li>iv class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-3.jpg">
               <h3 class="h5"><a href="#">Diverse and Inclusive Pre-Cadet Experience</a></h3>
               <p>Get a firsthand look into policing before you apply. Designed to support racialized and unrepresented communities.</p>
             </div>
-          </li>
-          <li class="col-lg-4 col-md-6 col-xs-12">
+         </li>
+       </li>class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-8.jpg">
               <h3 class="h5"><a href="#">First Nations, Inuit and Métis applicant programs</a></h3>
               <p>Discover programs that support Indigenous applicants considering a career in policing.</p>
             </div>
-          </li>
+         </li>
         </ul>
       </section>
     </div>

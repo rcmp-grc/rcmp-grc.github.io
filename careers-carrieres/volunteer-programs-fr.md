@@ -18,10 +18,10 @@ custom_css: /assets/css/careers.css
     <li><a href="#s1">Les bénévoles à la GRC</a></li>
     <li><a href="#s2">Que font les bénévoles de la GRC</a></li>
     <li><a href="#s3">Programme des auxiliaires</a></li>
-    <li><a href="#s4">Devenir bénévole </a></li>
-    <li><a href="#s5">Participation des jeunes </a></li>
+    <li><a href="#s4">Devenir bénévole</a></li>
+    <li><a href="#s5">Participation des jeunes</a></li>
     <li><a href="#s6">Avantages du bénévolat</a></li>
-    <li><a href="#s7">Comment présenter une demande </a></li>
+    <li><a href="#s7">Comment présenter une demande</a></li>
   </ul>
 </nav>
 <section id="s1">
@@ -48,38 +48,38 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s3">
   <h2>Programme des auxiliaires</h2>
-  <p>Le Programme des auxiliaires offre aux Canadiennes et Canadiens soucieux du bien-être de leur collectivité l'occasion de faire du bénévolat afin d'appuyer les initiatives de police communautaire, de prévention du crime et de sécurité publique. Selon leur niveau de service, les auxiliaires peuvent participer à diverses activités, notamment l'éducation du public, les événements communautaires, le contrôle de la circulation et le soutien aux opérations. </p>
-  <p>Apprenez-en davantage sur le <a href="">Programme des auxiliaires</a> et découvrez comment devenir bénévole. </p>
+  <p>Le Programme des auxiliaires offre aux Canadiennes et Canadiens soucieux du bien-être de leur collectivité l'occasion de faire du bénévolat afin d'appuyer les initiatives de police communautaire, de prévention du crime et de sécurité publique. Selon leur niveau de service, les auxiliaires peuvent participer à diverses activités, notamment l'éducation du public, les événements communautaires, le contrôle de la circulation et le soutien aux opérations.</p>
+  <p>Apprenez-en davantage sur le <a href="#">Programme des auxiliaires</a> et découvrez comment devenir bénévole.</p>
 </section>
 <section id="s4">
   <h2>Devenir bénévole </h2>
   <p>Pour faire du bénévolat à la GRC, vous devez&#160;:</p>
   <ul>
-    <li>être âgés d'au moins 16&#160;ans </li>
-    <li>être responsables et avoir une bonne réputation </li>
-    <li>être en mesure d'obtenir le niveau d'habilitation de sécurité appropriée </li>
+    <li>être âgés d'au moins 16&#160;ans</li>
+    <li>être responsables et avoir une bonne réputation</li>
+    <li>être en mesure d'obtenir le niveau d'habilitation de sécurité appropriée</li>
   </ul>
 </section>
 <section id="s5">
   <h2>Participation des jeunes </h2>
-  <p>Le Comité consultatif national sur la jeunesse de la GRC recrute de nouveaux membres chaque année. Vous trouverez davantage d'informations sur l'expérience des membres sur le <a href="https://grc.ca/fr/jeunesse/comite-consultatif-national-sur-jeunesse">site web du comité</a>. </p>
+  <p>Le Comité consultatif national sur la jeunesse de la GRC recrute de nouveaux membres chaque année. Vous trouverez davantage d'informations sur l'expérience des membres sur le <a href="/fr/jeunesse/comite-consultatif-national-sur-jeunesse">site web du comité</a>.</p>
 </section>
 <section id="s6">
   <h2>Avantages du bénévolat</h2>
-  <p>Tout en contribuant à la sécurité de leur collectivité, nos bénévoles établissent des liens d'amitié, acquièrent de l'expérience et des compétences, se mettent au défi et développent un grand sentiment de fierté. </p>
+  <p>Tout en contribuant à la sécurité de leur collectivité, nos bénévoles établissent des liens d'amitié, acquièrent de l'expérience et des compétences, se mettent au défi et développent un grand sentiment de fierté.</p>
 </section>
 <section id="s7">
-  <p>Comment présenter une demande </p>
-  <p>Des occasions de bénévolat sont offertes dans certaines provinces. Veuillez communiquer avec la province ou le territoire de la GRC dans laquelle vous demeurez pour en savoir plus ou pour obtenir le formulaire d'inscription pour bénévole. Veuillez spécifier que vous désirez obtenir un formulaire d'inscription pour bénévole de la GRC. </p>
+  <p>Comment présenter une demande</p>
+  <p>Des occasions de bénévolat sont offertes dans certaines provinces. Veuillez communiquer avec la province ou le territoire de la GRC dans laquelle vous demeurez pour en savoir plus ou pour obtenir le formulaire d'inscription pour bénévole. Veuillez spécifier que vous désirez obtenir un formulaire d'inscription pour bénévole de la GRC.</p>
   <ul>
-    <li><a href="https://grc.ca/fr/alberta/renseignements-organisationnels/contactez-grc-en-alberta">Alberta </a></li>
-    <li><a href="https://grc.ca/fr/cb/contactez-nous">Colombie-Britannique </a></li>
-    <li><a href="https://rcmp.ca/en/nb/corporate-information/contact-rcmp-new-brunswick">Île-du-Prince-Édouard </a></li>
-    <li><a href="https://grc.ca/fr/ipe/renseignements-organisationnels/contactez-grc-lile-du-prince-edouard">Nouveau-Brunswick </a></li>
-    <li><a href="https://grc.ca/fr/nb/renseignements-organisationnels/contactez-grc-au-nouveau-brunswick">Nouvelle-Écosse </a></li>
-    <li><a href="https://grc.ca/fr/nouvelle-ecosse/renseignements-organisationnels/contactez-grc-en-nouvelle-ecosse">Saskatchewan </a></li>
-    <li><a href="https://grc.ca/fr/saskatchewan/renseignements-organisationnels/contactez-grc-saskatchewan">Terre-Neuve-et-Labrador </a></li>
-    <li><a href="https://grc.ca/fr/tnl/renseignements-organisationnels/contactez-grc-terre-neuve-et-labrador">Yukon </a></li>
+    <li><a href="/fr/alberta/renseignements-organisationnels/contactez-grc-en-alberta">Alberta</a></li>
+    <li><a href="/fr/cb/contactez-nous">Colombie-Britannique</a></li>
+    <li><a href="/en/nb/corporate-information/contact-rcmp-new-brunswick">Île-du-Prince-Édouard</a></li>
+    <li><a href="/fr/ipe/renseignements-organisationnels/contactez-grc-lile-du-prince-edouard">Nouveau-Brunswick</a></li>
+    <li><a href="/fr/nb/renseignements-organisationnels/contactez-grc-au-nouveau-brunswick">Nouvelle-Écosse</a></li>
+    <li><a href="/fr/nouvelle-ecosse/renseignements-organisationnels/contactez-grc-en-nouvelle-ecosse">Saskatchewan</a></li>
+    <li><a href="/fr/saskatchewan/renseignements-organisationnels/contactez-grc-saskatchewan">Terre-Neuve-et-Labrador</a></li>
+    <li><a href="/fr/tnl/renseignements-organisationnels/contactez-grc-terre-neuve-et-labrador">Yukon</a></li>
   </ul>
-  <p>Merci pour tout le travail que vous faites. Nous ne pourrions pas faire notre travail sans vous. </p>
+  <p>Merci pour tout le travail que vous faites. Nous ne pourrions pas faire notre travail sans vous.</p>
 </section>

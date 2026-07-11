@@ -90,7 +90,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s4">
 	<h2>Assessment</h2>
-	<p>Evaluations are ongoing throughout the CTP to measure readiness for operational duties. They measure the full range of competencies required for operational readiness, including conduct, knowledge and performance. </p>
+	<p>Evaluations are ongoing throughout the CTP to measure readiness for operational duties. They measure the full range of competencies required for operational readiness, including conduct, knowledge and performance.</p>
 	<p>You will be tested using a range of methods, including:</p>
 	<ul>
 		<li>written exams</li>
@@ -102,7 +102,7 @@ custom_css: /assets/css/careers.css
 	<section id="s4-1">
 		<h3>How do you pass the CTP?</h3>
 		<p>You must meet a professional level of performance in all competencies to graduate. These standards will be provided to you as a cadet at the start of the CTP. They form the basis for self, peer and facilitator evaluations.</p>
-		<p>Continuous evaluation ensures that when competencies are not yet met, there is opportunity for a cadet to be reassigned to an earlier stage of training with a different troop. This helps strengthen key skills and supports successful progression. It means training may be longer than the original 26 weeks. </p>
+		<p>Continuous evaluation ensures that when competencies are not yet met, there is opportunity for a cadet to be reassigned to an earlier stage of training with a different troop. This helps strengthen key skills and supports successful progression. It means training may be longer than the original 26 weeks.</p>
 	</section>
 </section>
 <section id="s5">
@@ -136,37 +136,37 @@ custom_css: /assets/css/careers.css
 		<ul class="list-unstyled row">
 			<li class="col-md-6">
 				<section class="well">
-					<h3 class="h5"><a href="">Incident Management Intervention Model</a></h3>
+					<h3 class="h5"><a href="#">Incident Management Intervention Model</a></h3>
 					<p>Builds sound decision-making and risk assessment skills to choose the safest, most appropriate intervention in any situation.</p>
 				</section>
 			</li>
 			<li class="col-md-6">
 				<section class="well">
-					<h3 class="h5"><a href="">Applied Police Sciences</a></h3>
+					<h3 class="h5"><a href="#">Applied Police Sciences</a></h3>
 					<p>Develops the practical application of legal, technical, scientific, behavioral, analytical and problem-solving knowledge to community-focused policing.</p>
 				</section>
 			</li>
 			<li class="col-md-6">
 				<section class="well">
-					<h3 class="h5"><a href="">Police Defensive Tactics</a></h3>
+					<h3 class="h5"><a href="#">Police Defensive Tactics</a></h3>
 					<p>Build and strengthen communication-based de-escalation and safe physical intervention skills to protect the public and manage high-risk encounters.</p>
 				</section>
 			</li>
 			<li class="col-md-6">
 				<section class="well">
-					<h3 class="h5"><a href="">Police Fitness Training</a></h3>
+					<h3 class="h5"><a href="#">Police Fitness Training</a></h3>
 					<p>Builds endurance, strength and resilience beyond foundational fitness levels to meet the physical demands of frontline policing.</p>
 				</section>
 			</li>
 			<li class="col-md-6">
 				<section class="well">
-					<h3 class="h5"><a href="">Firearms Training Unit</a></h3>
+					<h3 class="h5"><a href="#">Firearms Training Unit</a></h3>
 					<p>Builds safe handling skills on RCMP-approved firearms, the pistol, shotgun and patrol carbine.</p>
 				</section>
 			</li>
 			<li class="col-md-6">
 				<section class="well">
-					<h3 class="h5"><a href="">Police Driving</a></h3>
+					<h3 class="h5"><a href="#">Police Driving</a></h3>
 					<p>Develops judgement and prepares you to operate emergency vehicles safely and effectively in dynamic environments.</p>
 				</section>
 			</li>

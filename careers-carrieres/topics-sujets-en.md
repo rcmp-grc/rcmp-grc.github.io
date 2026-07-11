@@ -30,6 +30,6 @@ hero_image: /assets/img/topics-sujets.jpg
         <h3 class="h5"><a href="#">Indigenous Applicant Mentorship Program</a></h3>
         <p>This program is designed to support and guide First Nations, Inuit and Métis applicants throughout the RCMP application process.</p>
       </div>
-    </li>
+   </li>
   </ul>
 </section>

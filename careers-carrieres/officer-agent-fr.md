@@ -41,37 +41,37 @@ custom_css: /assets/css/careers.css
         <h3 class="h5"><i aria-hidden="true" class="fa-solid fa-list-check"></i> <a href="#">Basic requirements</a></h3>
         <p>Learn what it takes to apply and meet RCMP standards.</p>
       </div>
-    </li>
+ </li>>
     <li class="col-md-4 col-sm-6">
       <div class="well">
         <h3 class="h5"><i aria-hidden="true" class="fa-solid fa-dumbbell"></i> <a href="#">Physical standards</a></h3>
         <p>Discover the fitness assessment you'll undergo as a cadet and as a police officer.</p>
-      </div>
-    </li>
+ </li>div>
+   </li>
     <li class="col-md-4 col-sm-6">
       <div class="well">
         <h3 class="h5"><i aria-hidden="true" class="fa-solid fa-clipboard-check"></i> <a href="readiness-preparation-en.html">Readiness Check</a></h3>
-        <p>Determine if a career in policing is right for you before you apply.</p>
+ </li><p>Determine if a career in policing is right for you before you apply.</p>
       </div>
-    </li>
+   </li>
     <li class="col-md-4 col-sm-6">
       <div class="well">
-        <h3 class="h5"><i aria-hidden="true" class="fa-solid fa-folder-open"></i> <a href="application-candidature-en.html">Application process</a></h3>
+ </li><h3 class="h5"><i aria-hidden="true" class="fa-solid fa-folder-open"></i> <a href="application-candidature-en.html">Application process</a></h3>
         <p>Understand each step — from application to cadet training.</p>
       </div>
-    </li>
+   </li>
     <li class="col-md-4 col-sm-6">
-      <div class="well">
+ </li>iv class="well">
         <h3 class="h5"><i aria-hidden="true" class="fa-solid fa-file-invoice-dollar"></i> <a href="#">Pay and benefits</a></h3>
         <p>Uncover your RCMP career advantages and growth opportunities.</p>
       </div>
-    </li>
-    <li class="col-md-4 col-sm-6">
+   </li>
+ </li>class="col-md-4 col-sm-6">
       <div class="well">
         <h3 class="h5"><i aria-hidden="true" class="fa-solid fa-calendar-days"></i> <a href="#">Recruiting events</a></h3>
         <p>Connect with recruiters and learn about a career in policing.</p>
       </div>
-    </li>
+   </li>
   </ul>
 </section>
 <section aria-labelledby="ribbon-life-heading" class="po-ribbon po-ribbon-dark">
@@ -86,34 +86,34 @@ custom_css: /assets/css/careers.css
 <section aria-labelledby="streams-heading" class="gc-features">
   <h2 class="h2-line" id="streams-heading">Dedicated recruitment streams</h2>
   <ul class="list-unstyled row">
-    <li class="col-lg-3 col-md-6">
+ </li>class="col-lg-3 col-md-6">
       <div class="well">
         <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-1.jpg">
         <h3 class="h5"><a href="topics-sujets-en.html">First Nations, Inuit and Métis applicant programs</a></h3>
         <p>Join us in building an inclusive RCMP that reflects Indigenous strength and diversity.</p>
       </div>
-    </li>
+ </li>>
     <li class="col-lg-3 col-md-6">
       <div class="well">
         <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-2.jpg">
         <h3 class="h5"><a href="#">Experienced Police Officers</a></h3>
         <p>Learn how to transfer your policing career to the RCMP.</p>
-      </div>
-    </li>
+ </li>div>
+   </li>
     <li class="col-lg-3 col-md-6">
       <div class="well">
         <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-3.jpg">
         <h3 class="h5"><a href="#">Diverse and Inclusive Pre-Cadet Experience</a></h3>
-        <p>Get a firsthand look into policing before you apply. Designed to support racialized and underrepresented communities.</p>
+ </li><p>Get a firsthand look into policing before you apply. Designed to support racialized and underrepresented communities.</p>
       </div>
-    </li>
+   </li>
     <li class="col-lg-3 col-md-6">
       <div class="well">
         <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-4.jpg">
         <h3 class="h5"><a href="#">RCMP Reserve Program</a></h3>
         <p>Continue to serve communities after retirement or leaving the service.</p>
       </div>
-    </li>
+   </li>
   </ul>
 </section>
 <section aria-labelledby="ribbon-federal-heading" class="po-ribbon po-ribbon-dark">

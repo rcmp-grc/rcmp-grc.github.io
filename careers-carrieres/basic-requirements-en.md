@@ -63,13 +63,13 @@ custom_css: /assets/css/careers.css
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
 		<summary>Meet the vision and hearing standards</summary>
 		<p>A Recruiting Analyst will reach out to request the required documents before the medical suitability assessment stage of the applications process.</p>
-		<p>You will need to meet the minimum vision standards as assessed by a registered/certified Ophthalmologist/Optometrist. Review the <a href="">vision standards</a>.</p>
-		<p>You must meet the minimum hearing standards as assessed by an audiologist. Review the <a href="">hearing standards</a>.</p>
+		<p>You will need to meet the minimum vision standards as assessed by a registered/certified Ophthalmologist/Optometrist. Review the <a href="#">vision standards</a>.</p>
+		<p>You must meet the minimum hearing standards as assessed by an audiologist. Review the <a href="#">hearing standards</a>.</p>
 	</details>
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
 		<summary>Meet the physical standards</summary>
 		<p>Police work is physically demanding. You need to be in good physical shape before applying. The Cadet Training Program is not designed to build your fitness – it prepares you for the physical demands of policing.</p>
-		<p>If you arrive at training without strong physical fitness, it puts you at a disadvantage. If you are not physically prepared, you may face a higher risk of injury and find the program more challenging. Strong fitness supports both your physical and academic performance and increases you chances of graduating. Review the <a href="">fitness requirements</a>.</p>
+		<p>If you arrive at training without strong physical fitness, it puts you at a disadvantage. If you are not physically prepared, you may face a higher risk of injury and find the program more challenging. Strong fitness supports both your physical and academic performance and increases you chances of graduating. Review the <a href="#">fitness requirements</a>.</p>
 	</details>
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
 		<summary>Be prepared and able to use necessary force and carry a firearm</summary>
@@ -119,33 +119,33 @@ custom_css: /assets/css/careers.css
 	<ul>
 		<li>you must not have any matters pending or before a criminal court</li>
 		<li>you must not have been convicted of a criminal offence for which you haven't received a pardon/records suspension</li>
-		<li>you must not have participated in any <a href="">serious criminal behaviour or activity</a>
+		<li>you must not have participated in any <a href="#">serious criminal behaviour or activity</a>
 			<ul>
 				<li>whether you were arrested and/or charged or not</li>
 			</ul>
 		</li>
-		<li>you must not have participated in any <a href="">criminal behaviour or activity</a> within at least one year of the date of application<ul>
+		<li>you must not have participated in any <a href="#">criminal behaviour or activity</a> within at least one year of the date of application<ul>
 				<li>whether you were arrested and/or charged or not</li>
 			</ul>
 		</li>
 		<li>you must not have been dishonourably discharged or dismissed including released for misconduct, from another police, military, or law enforcement organization</li>
 		<li>you must not have any pending and/or current personal bankruptcies or consumer proposals</li>
 	</ul>
-	<p>Honesty is important in your application process. Review a <a href="">list of criminal activity misconduct</a> that could prevent you from being successful in your application.</p>
+	<p>Honesty is important in your application process. Review a <a href="#">list of criminal activity misconduct</a> that could prevent you from being successful in your application.</p>
 	<div class="gc-features">
 	  <ul class="list-unstyled row">
 	    <li class="col-md-6">
 	      <section class="well">
-	        <h3 class="h5"><a href="">Check your readiness</a></h3>
+	        <h3 class="h5"><a href="#">Check your readiness</a></h3>
 	        <p>Determine if a career in policing is right for you before you apply.</p>
 	      </section>
-	    </li>
+	 </li>>
 	    <li class="col-md-6">
 	      <section class="well">
 	        <h3 class="h5"><a href="#">Application process</a></h3>
 	        <p>Review the application process before you apply.</p>
-	      </section>
-	    </li>
+	 </li>section>
+	   </li>
 	  </ul>
 	</div>
 </section>

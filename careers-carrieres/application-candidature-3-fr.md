@@ -24,17 +24,17 @@ custom_css: /assets/css/careers.css
       <ul class="noline">
         <li>
           <a href="application-candidature-3-1-fr.html">Marche à suivre pour remplir les formulaires</a>
-        </li>
-      </ul>
-    </li>
+     </li>>
+ </li>ul>
+   </li>
     <li><a href="application-candidature-4-fr.html">Passez une entrevue d'admissibilité</a></li>
     <li><a href="application-candidature-5-fr.html">Soumettez-vous à une évaluation médicale et une évaluation de l'aptitude psychologique</a>
       <ul class="noline">
-        <li>
-          <a href="application-candidature-5-1-fr.html">Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière</a>
-        </li>
+     </li>
+ </li>  <a href="application-candidature-5-1-fr.html">Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière</a>
+       </li>
       </ul>
-    </li>
+   </li>
     <li><a href="application-candidature-6-fr.html">Passez une enquête sur les antécédents et une évaluation de sécurité</a></li>
   </ul>
 </nav>
@@ -46,47 +46,47 @@ custom_css: /assets/css/careers.css
         <a href="6509f.pdf" class="gc-pdf-link" download>
        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
-          <span class="gc-link-title">Rapport de l'examen de l'audition du postulant m.r. (GRC&#160;6509)</span>
+ </li>  <span class="gc-link-title">Rapport de l'examen de l'audition du postulant m.r. (GRC&#160;6509)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
-      </a>
-    </li>
+     </a>
+   </li>
     <li>
         <a href="2180f.pdf" class="gc-pdf-link" download>
        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
-        <span>
+ </li><span>
           <span class="gc-link-title">Rapport de l'examen de la vue du postulant m.r. (GRC&#160;2180)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
-      </a>
-    </li>
+     </a>
+   </li>
     <li>
         <a href="5096f.pdf" class="gc-pdf-link" download>
-       <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+ </li>i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
           <span class="gc-link-title">Questionnaire du postulant à un poste de membre régulier (GRC&#160;5096)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
-      </a>
-    </li>
+     </a>
+   </li>
     <li>
-        <a href="1980f.pdf" class="gc-pdf-link" download>
+ </li><a href="1980f.pdf" class="gc-pdf-link" download>
        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
           <span class="gc-link-title">Vérification de l'admissibilité (GRC&#160;1980)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
-      </a>
-    </li>
-    <li>
+     </a>
+   </li>
+ </li>
         <a href="6465f.pdf" class="gc-pdf-link" download>
        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
           <span class="gc-link-title">Attestation relative aux responsabilités professionnelles du membre de la Gendarmerie royale du Canada (GRC&#160;6465)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
-      </a>
-    </li>
+     </a>
+   </li>
   </ul>
 </section>
 <section id="s2">
@@ -115,7 +115,7 @@ custom_css: /assets/css/careers.css
         <span class="rcmp-content-page__link-title">Étape précédent</span>
       </span>
       <span class="rcmp-content-page__link-label" id="mp-previous-label">Exposé sur les carrières et évaluation d'entrée en ligne</span>
-    </a>
+   </a>
   </div>
   <div class="rcmp-content-page__next" id="mp-next-wrap">
     <a aria-label="Étape suivante : Exposé sur les carrières et évaluation d'entrée en ligne" class="rcmp-content-page__link" href="application-candidature-3-1-fr.html" id="mp-next">
@@ -124,7 +124,7 @@ custom_css: /assets/css/careers.css
         <span class="rcmp-content-page__link-title">Étape suivante</span>
       </span>
       <span class="rcmp-content-page__link-label" id="mp-next-label">Marche à suivre pour remplir les formulaires</span>
-    </a>
+   </a>
   </div>
 </nav>
 <script>

@@ -24,32 +24,32 @@ custom_css: /assets/css/careers.css
       <ul class="noline">
         <li>
           <a class="active" href="application-candidature-3-1-en.html">How to complete the forms</a>
-        </li>
-      </ul>
-    </li>
+     </li>>
+ </li>ul>
+   </li>
     <li><a href="application-candidature-4-en.html">Complete a suitability interview</a></li>
     <li><a href="application-candidature-5-en.html">Complete psychological and medical suitability assessments</a>
       <ul class="noline">
-        <li>
-          <a href="application-candidature-5-1-en.html">Health conditions that could impact your suitability to become a police officer</a>
-        </li>
+     </li>
+ </li>  <a href="application-candidature-5-1-en.html">Health conditions that could impact your suitability to become a police officer</a>
+       </li>
       </ul>
-    </li>
+   </li>
     <li><a href="application-candidature-6-en.html">Complete a field investigation and security assessment</a></li>
   </ul>
 </nav>
 <nav aria-label="On this page">
-  <h2>On this page</h2>
+ </li> this page</h2>
   <ul>
-    <li>
+ </li>
       <a href="#s1">Vision and hearing exams</a>
-    </li>
+ </li>>
     <li>
       <a href="#s2">Security screening application</a>
-    </li>
+   </li>
     <li>
       <a href="#s3">Additional guidance on completing forms</a>
-    </li>
+   </li>
   </ul>
 </nav>
 <section id="s1">
@@ -122,14 +122,14 @@ custom_css: /assets/css/careers.css
     </section>
   </section>
 </section>
-<section id="s2">
+<s</li> id="s2">
   <h2>Security screening application</h2>
   <p>You must complete an online Security Screening Application, accessed through GCKey. GCKey is a service provided by the Government of Canada that allows you to securely access programs and services. If selected, we will send you instructions on how to create your GCKey and submit your personal information through the online Security Screening Application.</p>
   <p>If you have any technical issues or questions about the security screening process, contact one of the following:</p>
   <ul>
     <li>For GCKey account: 1-855-438-1102</li>
     <li>For Security Screening Application: <a href="mailto:rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca">rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca</a>
-    </li>
+   </li>
   </ul>
 </section>
 <section id="s3">

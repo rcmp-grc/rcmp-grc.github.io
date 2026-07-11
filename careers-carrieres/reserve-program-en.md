@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: RCMP Reserve Program 
+title: RCMP Reserve Program
 date_modified: 2026-07-10
 lang: en
 lang_url: reserve-program-fr.html
@@ -11,6 +11,7 @@ breadcrumbs:
     url: "careers-carrieres/officer-agent-en.html"
 custom_css: /assets/css/careers.css
 ---
+
 <nav aria-label="On this page">
     <h2>On this page</h2>
     <ul>
@@ -47,8 +48,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s3">
     <h2>Duties of a reservist</h2>
-    <p>While on duty, reservists have the powers and responsibilities of a police officer. They help RCMP members and
-        services across the country by:</p>
+    <p>While on duty, reservists have the powers and responsibilities of a police officer. They help RCMP members and services across the country by:</p>
     <ul>
         <li>temporarily filling in for operational members on leave</li>
         <li>deploying during special events, seasonally, or at times of emergency</li>
@@ -56,8 +56,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s4">
     <h2>Learn more and apply</h2>
-    <p>If you are a retired or former RCMP regular member, please contact your divisional Reserve Program Coordinator.
-    </p>
+    <p>If you are a retired or former RCMP regular member, please contact your divisional Reserve Program Coordinator.</p>
     <section id="s4-1">
         <h3>Divisional Reserve Program coordinators</h3>
         <dl class="dl-horizontal">

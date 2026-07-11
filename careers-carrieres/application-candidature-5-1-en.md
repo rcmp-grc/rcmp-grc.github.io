@@ -24,77 +24,77 @@ custom_css: /assets/css/careers.css
       <ul class="noline">
         <li>
           <a href="application-candidature-3-1-en.html">How to complete the forms</a>
-        </li>
-      </ul>
-    </li>
+     </li>>
+ </li>ul>
+   </li>
     <li><a href="application-candidature-4-en.html">Complete a suitability interview</a></li>
     <li><a href="application-candidature-5-en.html">Complete psychological and medical suitability assessments</a>
       <ul class="noline">
-        <li>
-          <a class="active" href="application-candidature-5-1-en.html">Health conditions that could impact your suitability to become a police officer</a>
-        </li>
+     </li>
+ </li>  <a class="active" href="application-candidature-5-1-en.html">Health conditions that could impact your suitability to become a police officer</a>
+       </li>
       </ul>
-    </li>
+   </li>
     <li><a href="application-candidature-6-en.html">Complete a field investigation and security assessment</a></li>
   </ul>
 </nav>
 <nav aria-label="On this page">
-  <h2>On this page</h2>
+ </li> this page</h2>
   <ul>
-    <li>
+ </li>
       <a href="#s1">Respiratory disease</a>
-    </li>
+ </li>>
     <li>
-      <a href="#s2">Cardiovascular conditions</a>
-    </li>
-    <li>
+ </li> href="#s2">Cardiovascular conditions</a>
+   </li>
+ </li>
       <a href="#s3">Neurological conditions</a>
-    </li>
+ </li>>
     <li>
-      <a href="#s4">Endocrine conditions</a>
-    </li>
-    <li>
+ </li> href="#s4">Endocrine conditions</a>
+   </li>
+ </li>
       <a href="#s5">Musculoskeletal conditions</a>
-    </li>
+ </li>>
     <li>
-      <a href="#s6">Abdominal conditions</a>
-    </li>
-    <li>
+ </li> href="#s6">Abdominal conditions</a>
+   </li>
+ </li>
       <a href="#s7">Eye or ear conditions</a>
-    </li>
+   </li>
     <li>
       <a href="#s8">Hematologic conditions</a>
-    </li>
+   </li>
     <li>
       <a href="#s9">Immunologic/allergic/oncologic and infectious conditions</a>
-    </li>
+   </li>
     <li>
-      <a href="#s10">Psychological/psychiatric or mental health conditions</a>
-    </li>
+</li><a href="#s10">Psychological/psychiatric or mental health conditions</a>
+   </li>
     <li>
       <a href="#s11">Other health conditions</a>
-    </li>
+</li>li>
   </ul>
 </nav>
 <p>There are some health conditions that could impact your medical suitability assessment. It is important to declare these conditions openly and honestly.</p>
-<p>You are expected to declare the following:</p>
+</li> are expected to declare the following:</p>
 <ul>
   <li>all your current health conditions (even if they seem minor to you)
     <ul>
       <li>this includes any and all medical and psychological conditions</li>
       <li>the dates you started experiencing these conditions, limitations or restrictions, treatment plans and the prognosis</li>
     </ul>
-  </li>
+ </li>
   <li>past medical and psychological history (include health conditions that required treatment or medication or that caused you any limitations or restrictions)
     <ul>
       <li>the dates you started experiencing these conditions, limitations and restrictions, treatment plans and the prognosis</li>
     </ul>
-  </li>
+ </li>
   <li>use of medications, supplements and substances (prescription and otherwise)
     <ul>
       <li>the dates you start using these and why</li>
     </ul>
-  </li>
+ </li>
   <li>any requirements for medical aids (for example, orthotics, braces, support animals) at the time of the medical assessment</li>
 </ul>
 <p>If you don't declare your full medical and psychological history, it could be seen as dishonest and may impact your success in the application process. It's also crucial to declare any health changes during the recruiting process before you start the Cadet Training Program at Depot, as well as any issues that may emerge during training.</p>

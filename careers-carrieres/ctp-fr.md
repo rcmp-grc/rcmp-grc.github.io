@@ -136,43 +136,43 @@ custom_css: /assets/css/careers.css
 		<ul class="list-unstyled row">
 			<li class="col-md-6">
 				<section class="well">
-					<h3 class="h5"><a href="">Modèle d'intervention pour la gestion des incidents</a></h3>
+					<h3 class="h5"><a href="#">Modèle d'intervention pour la gestion des incidents</a></h3>
 					<p>Permet d'acquérir de solides compétences en matière de prise de décisions et d'évaluation des risques afin de choisir l'intervention la plus sûre et la plus appropriée dans n'importe quelle situation.</p>
 				</section>
 			</li>
 			<li class="col-md-6">
 				<section class="well">
-					<h3 class="h5"><a href="">Sciences policières appliquées</a></h3>
+					<h3 class="h5"><a href="#">Sciences policières appliquées</a></h3>
 					<p>Permettent d'acquérir des connaissances juridiques, techniques, scientifiques, comportementales, analytiques et de résolution de problèmes applicables à la police communautaire.</p>
 				</section>
 			</li>
 			<li class="col-md-6">
 				<section class="well">
-					<h3 class="h5"><a href="">Tactiques de défense policières</a></h3>
+					<h3 class="h5"><a href="#">Tactiques de défense policières</a></h3>
 					<p>Permettent d'acquérir et de renforcer les compétences de désescalade par la communication et d'intervention physique sécuritaire pour protéger le public et gérer les incidents à haut risque.</p>
 				</section>
 			</li>
 			<li class="col-md-6">
 				<section class="well">
-					<h3 class="h5"><a href="">Conditionnement physique policier</a></h3>
+					<h3 class="h5"><a href="#">Conditionnement physique policier</a></h3>
 					<p>Permet de développer une endurance, une force et une résilience supérieures au niveau de condition physique de base pour répondre aux exigences physiques du travail policier de première ligne.</p>
 				</section>
 			</li>
 			<li class="col-md-6">
 				<section class="well">
-					<h3 class="h5"><a href="">Maniement des armes à feu</a></h3>
+					<h3 class="h5"><a href="#">Maniement des armes à feu</a></h3>
 					<p>Permet d'apprendre à manier de façon sécuritaire les armes à feu réglementaires de la GRC&#160;: pistolet, fusil et carabine de patrouille.</p>
 				</section>
 			</li>
 			<li class="col-md-6">
 				<section class="well">
-					<h3 class="h5"><a href="">Techniques de conduite policière</a></h3>
+					<h3 class="h5"><a href="#">Techniques de conduite policière</a></h3>
 					<p>Permettent de développer son jugement et de se préparer à conduire des véhicules d'urgence de façon efficace et sécuritaire dans des situations dynamiques.</p>
 				</section>
 			</li>
 			<li class="col-md-6">
 				<section class="well">
-					<h3 class="h5"><a href="">Exercices et maintien</a></h3>
+					<h3 class="h5"><a href="#">Exercices et maintien</a></h3>
 					<p>Permettent de renforcer le sentiment de fierté, le travail d'équipe, le professionnalisme et le souci du détail dans les situations stressantes.</p>
 				</section>
 			</li>

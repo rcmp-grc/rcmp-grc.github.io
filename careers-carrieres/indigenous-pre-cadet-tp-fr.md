@@ -26,16 +26,16 @@ custom_css: /assets/css/careers.css
     <ul>
       <li>
         <a href="#s1">Exigences fondamentales</a>
-      </li>
+   </li>>
       <li>
-        <a href="#s2">Coûts</a>
-      </li>
-      <li>
+   </li> href="#s2">Coûts</a>
+     </li>
+   </li>
         <a href="#s3">Expériences de participants</a>
-      </li>
+   </li>>
       <li>
         <a href="#s4">Comment poser votre candidature</a>
-      </li>
+     </li>
     </ul>
   </section>
   <div class="pull-right col-xs-12 col-md-3 col-lg-4">
@@ -56,7 +56,7 @@ custom_css: /assets/css/careers.css
     <li>des éléments de conditionnement physique et d'exercice;</li>
     <li>des compétences qui vous aideront à vous préparer à poser votre candidature pour devenir policier ou policière.</li>
   </ul>
-  <p>À la Division&#160;Dépôt, les policiers autochtones de la GRC servent de mentors aux participants au programme. À la fin du programme, les personnes qui ont choisi de postuler à la GRC continueront de recevoir du soutien et des conseils tout au long du processus de demande. </p>
+  <p>À la Division&#160;Dépôt, les policiers autochtones de la GRC servent de mentors aux participants au programme. À la fin du programme, les personnes qui ont choisi de postuler à la GRC continueront de recevoir du soutien et des conseils tout au long du processus de demande.</p>
   <section id="s1">
     <h2>Exigences fondamentales</h2>
     <p>Pour pouvoir poser votre candidature, vous devez&#160;:</p>
@@ -113,7 +113,7 @@ custom_css: /assets/css/careers.css
       </footer>
     </blockquote>
     <blockquote>
-      <p>«&#160;Cela vous donne un très bon aperçu de ce qu'est la GRC et de la façon dont elle a changé au fil des ans. Cela peut aider à se dépasser, car parfois, on ne réalise pas de quoi on est capable tant qu'on ne sort pas de sa zone de confort.&#160;» </p>
+      <p>«&#160;Cela vous donne un très bon aperçu de ce qu'est la GRC et de la façon dont elle a changé au fil des ans. Cela peut aider à se dépasser, car parfois, on ne réalise pas de quoi on est capable tant qu'on ne sort pas de sa zone de confort.&#160;»</p>
       <footer>
           Kayla-Marie O, Colombie-Britannique
       </footer> 

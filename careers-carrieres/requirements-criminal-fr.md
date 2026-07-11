@@ -27,7 +27,7 @@ custom_css: /assets/css/careers.css
         <ul>
             <li>et ce, que vous soyez arrêté ou mis en accusation ou pas;</li>
         </ul>
-    </li>
+ </li>>
     <li>tricher à quelque étape du processus d'embauche de la GRC.</li>
 </ul>
 <section id="s1">

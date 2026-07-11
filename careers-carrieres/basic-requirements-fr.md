@@ -30,7 +30,7 @@ custom_css: /assets/css/careers.css
 	</details>
 	<details class="print-open mrgn-tp-md pddng-bttm-0" id="s1-2">
 		<summary>Avoir au moins 18 ans au moment de poser votre candidature</summary>
-		<p>Une personne peut poser sa candidature à la GRC et commencer le processus de sélection et la formation de vase à l'âge de 18&#160;ans. Cependant, il faut avoir au moins 19&#160;ans pour être embauché comme policier. </p>
+		<p>Une personne peut poser sa candidature à la GRC et commencer le processus de sélection et la formation de vase à l'âge de 18&#160;ans. Cependant, il faut avoir au moins 19&#160;ans pour être embauché comme policier.</p>
 		<p>Il n'y a pas de limite d'âge pour poser sa candidature à la GRC.</p>
 	</details>
 	<details class="print-open mrgn-tp-md pddng-bttm-0" id="s1-3">
@@ -39,7 +39,7 @@ custom_css: /assets/css/careers.css
 	</details>
 	<details class="print-open mrgn-tp-md pddng-bttm-0" id="s1-4">
 		<summary>Détenir un permis de conduire canadien valide sans restriction</summary>
-		<p>Vous devez démontrer que vous êtes un conducteur confiant et compétent. Si votre expérience de conduite est limitée, il est recommandé d'acquérir davantage d'expérience avant de poser votre candidature. </p>
+		<p>Vous devez démontrer que vous êtes un conducteur confiant et compétent. Si votre expérience de conduite est limitée, il est recommandé d'acquérir davantage d'expérience avant de poser votre candidature.</p>
 		<p>Un permis de conduire sans restriction signifie que vous êtes capable de conduire sans surveillance à toute heure du jour ou de la nuit, sur n'importe quelle route, et avec autant de passagers qu'il y a de ceintures de sécurité.</p>
 		<section class="alert alert-info" id="s1-4-1">
 			<h3>Nota</h3>
@@ -64,13 +64,13 @@ custom_css: /assets/css/careers.css
 	<details class="print-open mrgn-tp-md pddng-bttm-0" id="s1-8">
 		<summary>Satisfaire aux normes relatives à la vision et à l'ouïe</summary>
 		<p>Un analyste du recrutement communiquera avec vous pour obtenir les documents requis avant l'étape d'évaluation de l'aptitude médicale du processus de recrutement.</p>
-		<p>Vous devrez satisfaire aux normes minimales relatives à la vision selon l'évaluation d'un ophtalmologiste ou d'un optométriste autorisé ou agréé. <a href="">Consulter les normes relatives à la vision</a>.</p>
-		<p>Vous devez satisfaire aux normes relatives à l'ouïe selon l'évaluation d'un audiologiste. <a href="">Consulter les normes relatives à l'ouïe</a>. </p>
+		<p>Vous devrez satisfaire aux normes minimales relatives à la vision selon l'évaluation d'un ophtalmologiste ou d'un optométriste autorisé ou agréé. <a href="#">Consulter les normes relatives à la vision</a>.</p>
+		<p>Vous devez satisfaire aux normes relatives à l'ouïe selon l'évaluation d'un audiologiste. <a href="#">Consulter les normes relatives à l'ouïe</a>.</p>
 	</details>
 	<details class="print-open mrgn-tp-md pddng-bttm-0" id="s1-9">
 		<summary>Satisfaire aux normes d'aptitude physique</summary>
 		<p>Le travail de policier est exigeant sur le plan physique. Vous devez être en bonne condition physique avant de poser votre candidature. Le Programme de formation des cadets n'est pas conçu pour vous permettre d'améliorer votre condition physique; il vous prépare aux exigences physiques du travail de policier.</p>
-		<p>Si vous arrivez à la formation en mauvaise condition physique, vous partirez avec un désavantage. Si vous n'êtes pas prêt physiquement, vous risquez davantage de vous blesser et trouverez le programme plus difficile. Une bonne condition physique favorise à la fois vos performances physiques et votre apprentissage et augmente vos chances de terminer la formation. Étudiez les <a href="">exigences relatives à la condition physique</a>.</p>
+		<p>Si vous arrivez à la formation en mauvaise condition physique, vous partirez avec un désavantage. Si vous n'êtes pas prêt physiquement, vous risquez davantage de vous blesser et trouverez le programme plus difficile. Une bonne condition physique favorise à la fois vos performances physiques et votre apprentissage et augmente vos chances de terminer la formation. Étudiez les <a href="#">exigences relatives à la condition physique</a>.</p>
 	</details>
 	<details class="print-open mrgn-tp-md pddng-bttm-0" id="s1-10">
 		<summary>Accepter et avoir la capacité de recourir à la force nécessaire et de porter une arme à feu</summary>
@@ -83,7 +83,7 @@ custom_css: /assets/css/careers.css
 	<details class="print-open mrgn-tp-md pddng-bttm-0" id="s1-12">
 		<summary>Accepter de travailler n'importe où au Canada</summary>
 		<p>La GRC est une organisation nationale. Vous et votre famille (s'il y a lieu) devez accepter de déménager n'importe où au Canada. Les affectations sont déterminées en fonction des besoins opérationnels.</p>
-		<p>Les policiers peuvent être mutés en fonction de leur rôle, de leurs perspectives d'avancement, des besoins en ressources humaines et des possibilités disponibles. La GRC est au service des communautés partout au pays, et nos policiers doivent être prêts à se déplacer afin d'acquérir des expériences variées et de répondre aux besoins opérationnels de l'organisation. </p>
+		<p>Les policiers peuvent être mutés en fonction de leur rôle, de leurs perspectives d'avancement, des besoins en ressources humaines et des possibilités disponibles. La GRC est au service des communautés partout au pays, et nos policiers doivent être prêts à se déplacer afin d'acquérir des expériences variées et de répondre aux besoins opérationnels de l'organisation.</p>
 	</details>
 	<details class="print-open mrgn-tp-md pddng-bttm-0" id="s1-13">
 		<summary>Accepter de travailler par quarts, y compris les fins de semaine et les jours fériés</summary>
@@ -91,7 +91,7 @@ custom_css: /assets/css/careers.css
 	</details>
 	<details class="print-open mrgn-tp-md pddng-bttm-0" id="s1-14">
 		<summary>Respecter les normes concernant les tatouages, les bijoux et autres effets personnels</summary>
-		<p>Les tatouages sont autorisés dans la mesure où ils n'incitent pas à la haine, au harcèlement ou à la discrimination d'individus aux motifs <a href="">prévus à l'article&#160;3 de la <cite>Loi canadienne sur les droits de la personne</cite></a>.</p>
+		<p>Les tatouages sont autorisés dans la mesure où ils n'incitent pas à la haine, au harcèlement ou à la discrimination d'individus aux motifs <a href="#">prévus à l'article&#160;3 de la <cite>Loi canadienne sur les droits de la personne</cite></a>.</p>
 		<p>Vous pouvez porter des effets personnels discrets sur vous s'ils n'entravent pas l'efficacité de l'équipement de protection individuelle. Exemples&#160;: Lunettes, montres-bracelets, bracelets médicaux, bijoux, anneaux de mariage, kangas, kirpans, karas et sacs de guérisseur.</p>
 	</details>
 	<details class="print-open mrgn-tp-md pddng-bttm-0" id="s1-15">
@@ -120,32 +120,32 @@ custom_css: /assets/css/careers.css
 	<ul>
 		<li>avoir fait l'objet d'une instance en suspens ou portée devant un tribunal pénal;</li>
 		<li>avoir été déclarée coupable d'un acte criminel pour lequel elle n'a pas fait l'objet d'une réhabilitation ou d'une suspension du casier judiciaire;</li>
-		<li>avoir pris part à des <a href="">actes ou activités criminels graves</a>;<ul>
+		<li>avoir pris part à des <a href="#">actes ou activités criminels graves</a>;<ul>
 				<li>qu'elle ait été ou non arrêtée ou mise en accusation;</li>
 			</ul>
 		</li>
-		<li>avoir pris part à <a href="">des actes ou activités criminels</a> au cours de l'année précédant la date de votre candidature;<ul>
+		<li>avoir pris part à <a href="#">des actes ou activités criminels</a> au cours de l'année précédant la date de votre candidature;<ul>
 				<li>qu'elle ait été ou non arrêtée ou mise en accusation;</li>
 			</ul>
 		</li>
 		<li>avoir été congédiée ou renvoyée pour cause d'indignité, y compris dans un cas de licenciement pour motif d'inconduite, d'un autre service de police, de l'armée ou d'un organisme d'application de la loi;</li>
 		<li>être en faillite personnelle ou avoir fait une demande en ce sens, ni être un débiteur à l'égard de qui une proposition de consommateur a été ou est en voie d'être produite.</li>
 	</ul>
-	<p>L'honnêteté est essentielle dans le processus de candidature. <a href="">Consultez la liste des activités criminelles</a> qui pourraient vous empêcher d'être retenu.</p>
+	<p>L'honnêteté est essentielle dans le processus de candidature. <a href="#">Consultez la liste des activités criminelles</a> qui pourraient vous empêcher d'être retenu.</p>
 	<div class="gc-features">
 	  <ul class="list-unstyled row">
 	    <li class="col-md-6">
-	      <section class="well">
-	        <h3 class="h5"><a href="">Vérifiez votre préparation</a></h3>
+	 </li>ection class="well">
+	        <h3 class="h5"><a href="#">Vérifiez votre préparation</a></h3>
 	        <p>Déterminez si une carrière dans la police vous convient avant de poser votre candidature.</p>
 	      </section>
-	    </li>
-	    <li class="col-md-6">
+	   </li>
+	 </li>class="col-md-6">
 	      <section class="well">
 	        <h3 class="h5"><a href="#">Processus de candidature</a></h3>
 	        <p>Consultez le processus de candidature avant de poser votre candidature.</p>
 	      </section>
-	    </li>
+	   </li>
 	  </ul>
 	</div>
 </section>

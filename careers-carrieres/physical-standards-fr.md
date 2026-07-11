@@ -11,6 +11,7 @@ breadcrumbs:
     url: "careers-carrieres/fr.html"
 custom_css: /assets/css/careers.css
 ---
+
 <nav aria-label="Sur cette page">
   <h2>Sur cette page</h2>
   <ul>
@@ -39,7 +40,7 @@ custom_css: /assets/css/careers.css
     <section id="s1-2-1">
       <h4>Course de 5&#160;kilomètres</h4>
       <ul>
-        <li>Choisissez un trajet de 5&#160;kilomètres. </li>
+        <li>Choisissez un trajet de 5&#160;kilomètres.</li>
         <li>Utilisez un GPS ou un odomètre et, si possible, évitez d'utiliser un tapis roulant.</li>
       </ul>
       <dl class="dl-horizontal brdr-0">
@@ -86,14 +87,14 @@ custom_css: /assets/css/careers.css
   <section id="s2-1">
     <h3>Poursuite à pied </h3>
       <ul>
-        <li>Course de 500&#160;mètres avec changement directionnel </li>
+        <li>Course de 500&#160;mètres avec changement directionnel</li>
         <li>Escalader une clôture à mailles losangées de 1,4&#160;m de haut</li>
       </ul>
   </section>
   <section id="s2-2">
     <h3>Contrôle physique </h3>
       <ul>
-        <li>Pousser et tirer un traîneau avec une résistance de 37&#160;kilogrammes en alternance. </li>
+        <li>Pousser et tirer un traîneau avec une résistance de 37&#160;kilogrammes en alternance.</li>
         <li>À mi-chemin, s'étendre sur le sol et se remettre debout.</li>
         <li>Après l'exercice du traîneau, tirer un mannequin nécessitant une force de 54&#160;kilogrammes.</li>
         <li>L'évaluation complète est effectuée sans pause.</li>
@@ -114,7 +115,7 @@ custom_css: /assets/css/careers.css
         <li>Mettre un gilet pare-balles lourd.</li>
         <li>Porter un poids de 4,5&#160;kilogrammes.</li>
         <li>Sprint de 150&#160;mètres, escalader deux escaliers, autre sprint pour terminer.</li>
-        <li>Réaliser cette tâche en 90&#160;secondes. </li>
+        <li>Réaliser cette tâche en 90&#160;secondes.</li>
       </ul>
   </section>
   <section id="s2-5" class="alert alert-info">

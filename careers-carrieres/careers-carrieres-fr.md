@@ -21,7 +21,7 @@ custom_css: /assets/css/careers.css
                 <li property="itemListElement" typeof="ListItem">
                   <a href="/" property="item" typeof="WebPage"><span property="name">GRC.ca</span></a>
                   <meta content="1" property="position">
-                </li>
+             </li>>
               </ol>
             </div>
           </div>
@@ -51,43 +51,43 @@ custom_css: /assets/css/careers.css
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-5.jpg">
               <h3 class="h5"><a href="#">Gendarmes communautaires</a></h3>
               <p>Renforcez la confiance et contribuez à réduire la criminalité dans votre communauté.</p>
-            </div>
-          </li>
+       </li>div>
+         </li>
           <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-6.jpg">
               <h3 class="h5"><a href="#">Programme de la réserve de la GRC</a></h3>
-              <p>Continuez de servir la communauté après votre retraite ou votre départ.</p>
+       </li><p>Continuez de servir la communauté après votre retraite ou votre départ.</p>
             </div>
-          </li>
+         </li>
           <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-7.jpg">
-              <h3 class="h5"><a href="#">Programme des bénévoles </a></h3>
+       </li><h3 class="h5"><a href="#">Programme des bénévoles</a></h3>
               <p>Appuyez les détachements et contribuez à faire connaître la GRC partout au Canada.</p>
             </div>
-          </li>
+         </li>
           <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
-              <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-9.jpg">
+       </li><img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-9.jpg">
               <h3 class="h5"><a href="#">Emplois étudiants</a></h3>
               <p>Lancez votre carrière et contribuez à changer les choses pendant vos études.</p>
             </div>
-          </li>
+         </li>
           <li class="col-lg-4 col-md-6 col-xs-12">
-            <div class="well">
+       </li>iv class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-3.jpg">
               <h3 class="h5"><a href="#">Programme d'expérience précadet diversifié et inclusif</a></h3>
               <p>Familiarisez-vous avec le travail policier avant de postuler. Soutient les communautés racisées et sous-représentées.</p>
             </div>
-          </li>
-          <li class="col-lg-4 col-md-6 col-xs-12">
+         </li>
+       </li>class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-8.jpg">
               <h3 class="h5"><a href="#">Programmes pour postulants des Premières Nations, Inuits et Métis</a></h3>
               <p>Découvrez les programmes qui appuient les Autochtones envisageant une carrière policière.</p>
             </div>
-          </li>
+         </li>
         </ul>
       </section>
     </div>

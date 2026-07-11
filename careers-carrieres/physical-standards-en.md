@@ -21,8 +21,8 @@ custom_css: /assets/css/careers.css
     <li><a href="#s4">RCMP Police Fitness Assessment video</a></li>
   </ul>
 </nav>
-<p>Preparing for a policing career starts long before you arrive at the RCMP Training Academy (Depot). Physical fitness is a necessary part of your safety, well-being and longevity in law enforcement. To thrive at Depot, you should develop consistent fitness habits now. Be sure you understand the physical fitness expectations before you apply. </p>
-<p>As a successful applicant, you'll be invited to attend the Cadet Training Program where your physical fitness will be tested. </p>
+<p>Preparing for a policing career starts long before you arrive at the RCMP Training Academy (Depot). Physical fitness is a necessary part of your safety, well-being and longevity in law enforcement. To thrive at Depot, you should develop consistent fitness habits now. Be sure you understand the physical fitness expectations before you apply.</p>
+<p>As a successful applicant, you'll be invited to attend the Cadet Training Program where your physical fitness will be tested.</p>
 <section id="s1">
   <h2>Four steps to get ready for Depot</h2>
   <p>The Police Fitness Training program at Depot is not a boot camp or a novice fitness program. Before you start cadet training, you'll need to be comfortable running, lifting, carrying, and performing daily moderate to intense physical exercise.</p>
@@ -33,14 +33,14 @@ custom_css: /assets/css/careers.css
   </section>
   <section id="s1-2">
     <h3>Step&#160;2: Perform fitness self-assessments</h3>
-    <p>Your recruiter will ask you to conduct some basic fitness self-tests to help gauge your readiness for cadet training. We recommend you perform these tests and record the results every 6&#160;to 12&#160;weeks. Perform them more frequently if you're struggling with your fitness level. </p>
+    <p>Your recruiter will ask you to conduct some basic fitness self-tests to help gauge your readiness for cadet training. We recommend you perform these tests and record the results every 6&#160;to 12&#160;weeks. Perform them more frequently if you're struggling with your fitness level.</p>
     <p>The minimum standard is the lowest level of fitness that will give you a reasonable chance of meeting the physical requirements of cadet training. If you fall below these standards, your risk of failure in the program increases.</p>
     <p>The target standard is a fitness level where you are performing at an average fitness level compared to the cadet population. The range covers average performance levels across genders. If you're falling within this performance zone, you'll likely perform well in the fitness program and will have a decreased chance of failure.</p>
     <p>The superior standard identifies the top 10% of cadet fitness performance. If your performance falls within this zone you are likely to excel in the cadet fitness program.</p>
     <section id="s1-2-1">
       <h4>5&#160;kilometre run test</h4>
       <ul>
-        <li>Mark out a route that covers 5&#160;kilometres </li>
+        <li>Mark out a route that covers 5&#160;kilometres</li>
         <li>Use a GPS or odometer and if possible, avoid using a treadmill</li>
       </ul>
       <dl class="dl-horizontal brdr-0">
@@ -77,7 +77,7 @@ custom_css: /assets/css/careers.css
   </section>
   <section id="s1-4">
     <h3>Step&#160;4: The Police Fitness Assessment</h3>
-    <p>You don't have to do the Police Fitness Assessment before training, but if you get the chance, it's a good idea to try it. </p>
+    <p>You don't have to do the Police Fitness Assessment before training, but if you get the chance, it's a good idea to try it.</p>
     <p>At Depot you'll be required to pass the assessment periodically throughout training. If you're meeting the minimum standards set out in the fitness self-assessment tests, you'll be better positioned for success on the police fitness assessment.</p>
   </section>
 </section>
@@ -87,14 +87,14 @@ custom_css: /assets/css/careers.css
   <section id="s2-1">
     <h3>Foot pursuit </h3>
       <ul>
-        <li>500&#160;metre run with directional changes </li>
+        <li>500&#160;metre run with directional changes</li>
         <li>climb a 1.4&#160;metre chain-link fence at the halfway point of the run</li>
       </ul>
   </section>
   <section id="s2-2">
     <h3>Physical control </h3>
       <ul>
-        <li>Push and pull a sled with 37&#160;kilograms of resistance, alternating between pushing and pulling </li>
+        <li>Push and pull a sled with 37&#160;kilograms of resistance, alternating between pushing and pulling</li>
         <li>At halfway point, lie down on the ground and return to standing position</li>
         <li>After sled drill, cadet must pull down a weighted mannequin, that requires 54&#160;kilograms of force</li>
         <li>The entire assessment is completed without stops</li>
@@ -115,7 +115,7 @@ custom_css: /assets/css/careers.css
         <li>Put on weighted hard body armour</li>
         <li>Carry 4.5-kilogram weight</li>
         <li>150&#160;metre sprints, climb two flights of stairs, sprint finisher</li>
-        <li>Complete task in 90&#160;seconds </li>
+        <li>Complete task in 90&#160;seconds</li>
       </ul>
   </section>
   <section id="s2-5" class="alert alert-info">

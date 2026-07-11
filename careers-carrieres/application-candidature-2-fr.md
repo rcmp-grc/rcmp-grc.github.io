@@ -24,32 +24,32 @@ custom_css: /assets/css/careers.css
       <ul class="noline">
         <li>
           <a href="application-candidature-3-1-fr.html">Marche à suivre pour remplir les formulaires</a>
-        </li>
-      </ul>
-    </li>
+     </li>>
+ </li>ul>
+   </li>
     <li><a href="application-candidature-4-fr.html">Passez une entrevue d'admissibilité</a></li>
     <li><a href="application-candidature-5-fr.html">Soumettez-vous à une évaluation médicale et une évaluation de l'aptitude psychologique</a>
       <ul class="noline">
-        <li>
-          <a href="application-candidature-5-1-fr.html">Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière</a>
-        </li>
+     </li>
+ </li>  <a href="application-candidature-5-1-fr.html">Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière</a>
+       </li>
       </ul>
-    </li>
+   </li>
     <li><a href="application-candidature-6-fr.html">Passez une enquête sur les antécédents et une évaluation de sécurité</a></li>
   </ul>
 </nav>
 <nav aria-label="Sur cette page">
-  <h2>Sur cette page</h2>
+ </li>r cette page</h2>
   <ul>
-    <li>
+ </li>
       <a href="#s1">Exposé virtuel sur les carrières</a>
-    </li>
+ </li>>
     <li>
       <a href="#s2">Évaluation d'entrée en ligne</a>
-    </li>
+   </li>
      <li>
       <a href="#s3">Prochaines étapes</a>
-    </li>
+   </li>
   </ul>
 </nav>
 <section id="s1">
@@ -99,7 +99,7 @@ custom_css: /assets/css/careers.css
         <span class="rcmp-content-page__link-title">Étape précédent</span>
       </span>
       <span class="rcmp-content-page__link-label" id="mp-previous-label">Posez votre candidature en ligne</span>
-    </a>
+   </a>
   </div>
   <div class="rcmp-content-page__next" id="mp-next-wrap">
     <a aria-label="Étape suivante : Exposé sur les carrières et évaluation d'entrée en ligne" class="rcmp-content-page__link" href="application-candidature-3-fr.html" id="mp-next">
@@ -108,7 +108,7 @@ custom_css: /assets/css/careers.css
         <span class="rcmp-content-page__link-title">Étape suivante</span>
       </span>
       <span class="rcmp-content-page__link-label" id="mp-next-label">Transmettez les formulaires et les documents requis</span>
-    </a>
+   </a>
   </div>
 </nav>
 <script>

@@ -36,7 +36,7 @@ custom_css: /assets/css/careers.css
 <section id="s1">
 	<h2>Get to know Depot</h2>
 	<ul>
-		<li><a href="">Depot Division</a>, which is home to the RCMP Academy, is in Regina, Saskatchewan</li>
+		<li><a href="#">Depot Division</a>, which is home to the RCMP Academy, is in Regina, Saskatchewan</li>
 		<li>It is the oldest division of the RCMP. Since 1885, Depot has been preparing generations of Mounties to serve communities across Canada</li>
 		<li>Depot offers a nationally recognized training campus featuring on-site classroom, fitness, and tactical training spaces</li>
 		<li>It is an active training site and a secure facility with controlled access</li>

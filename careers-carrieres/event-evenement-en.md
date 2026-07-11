@@ -42,8 +42,8 @@ custom_css: /assets/css/careers.css
     <p>
       <a href="#" class="btn-careers btn btn-lg" role="button">
         Register<span class="wb-inv"> for the Police Fitness Assessment Workshop</span>
-      </a>
-    </p>
+     </a>
+   </p>
     <section>
       <h3>Important details</h3>
       <ul>

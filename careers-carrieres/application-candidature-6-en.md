@@ -24,32 +24,32 @@ custom_css: /assets/css/careers.css
       <ul class="noline">
         <li>
           <a href="application-candidature-3-1-en.html">How to complete the forms</a>
-        </li>
-      </ul>
-    </li>
+     </li>>
+ </li>ul>
+   </li>
     <li><a href="application-candidature-4-en.html">Complete a suitability interview</a></li>
     <li><a href="application-candidature-5-en.html">Complete psychological and medical suitability assessments</a>
       <ul class="noline">
-        <li>
-          <a href="application-candidature-5-1-en.html">Health conditions that could impact your suitability to become a police officer</a>
-        </li>
+     </li>
+ </li>  <a href="application-candidature-5-1-en.html">Health conditions that could impact your suitability to become a police officer</a>
+       </li>
       </ul>
-    </li>
+   </li>
     <li><a class="active" href="application-candidature-6-en.html">Complete a field investigation and security assessment</a></li>
   </ul>
 </nav>
 <nav aria-label="On this page">
-  <h2>On this page</h2>
+ </li> this page</h2>
   <ul>
-    <li>
+ </li>
       <a href="#s1">What to expect from the security clearance process</a>
-    </li>
+ </li>>
     <li>
       <a href="#s2">What to do if you've been away from Canada</a>
-    </li>
+   </li>
     <li>
       <a href="#s3">Application process complete</a>
-    </li>
+   </li>
   </ul>
 </nav>
 <p>The final step in the application process is a field investigation along with a security assessment. The RCMP will conduct a thorough investigation into your background, including your activities during the past 10 years, to further assess your reliability and suitability. If successful, you will receive your security clearance.</p>

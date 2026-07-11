@@ -26,16 +26,16 @@ custom_css: /assets/css/careers.css
     <ul>
       <li>
         <a href="#s1">Basic requirements</a>
-      </li>
+   </li>>
       <li>
-        <a href="#s2">Cost</a>
-      </li>
-      <li>
+   </li> href="#s2">Cost</a>
+     </li>
+   </li>
         <a href="#s3">Candidate experiences</a>
-      </li>
+   </li>>
       <li>
         <a href="#s4">Learn how to apply</a>
-      </li>
+     </li>
     </ul>
   </section>
   <div class="pull-right col-xs-12 col-md-3 col-lg-4">
@@ -48,7 +48,7 @@ custom_css: /assets/css/careers.css
       </figure>
     </div>
   </div>
-  <p class="mrgn-tp-lg">The Indigenous Pre-Cadet Training Program (IPTP) is a three-week training session that offers Canadian Indigenous Peoples a first-hand opportunity to explore a career in policing. The training takes place at the RCMP Academy (Depot) in Regina, Saskatchewan. </p>
+  <p class="mrgn-tp-lg">The Indigenous Pre-Cadet Training Program (IPTP) is a three-week training session that offers Canadian Indigenous Peoples a first-hand opportunity to explore a career in policing. The training takes place at the RCMP Academy (Depot) in Regina, Saskatchewan.</p>
   <p>Candidates will learn:</p>
   <ul>
     <li>How to work as part of a policing team</li>

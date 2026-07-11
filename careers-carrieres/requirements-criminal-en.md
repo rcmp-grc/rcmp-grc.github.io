@@ -27,7 +27,7 @@ custom_css: /assets/css/careers.css
     <ul>
         <li>whether you are arrested and/or charged or not</li>
     </ul>
-    </li>
+ </li>>
     <li>must not cheat on any portion of the RCMP application process</li>
 </ul>
 <section id="s1">

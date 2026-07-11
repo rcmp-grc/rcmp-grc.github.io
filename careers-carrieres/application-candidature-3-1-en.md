@@ -61,38 +61,38 @@ custom_css: /assets/css/careers.css
   </ul>
   <section class="alert alert-info">
     <h3 class="h4">Note</h3>
-    <p>The results of these exams are valid for 2&nbsp;years. Applicants must pay for vision and hearing exams. These costs are not reimbursed.</p>
+    <p>The results of these exams are valid for 2&#160;years. Applicants must pay for vision and hearing exams. These costs are not reimbursed.</p>
   </section>
   <section id="s1-1">
     <h3>Vision exam</h3>
-    <p>The vision exam and form (Vision Examination of Applicant (RCMP&nbsp;2180)) must be completed by a Canadian optometrist or ophthalmologist.</p>
+    <p>The vision exam and form (Vision Examination of Applicant (RCMP&#160;2180)) must be completed by a Canadian optometrist or ophthalmologist.</p>
     <p>If you've had laser eye surgery, you must wait before completing a vision exam:</p>
     <ul>
-      <li>LASIK (Laser-assisted in-situ keratomileusis): 30&nbsp;days</li>
+      <li>LASIK (Laser-assisted in-situ keratomileusis): 30&#160;days</li>
       <li>PRK (Photorefractive keratectomy): 90 days</li>
-      <li>ICL, POL (Implanted corrective lenses with anterior chamber lens): 6&nbsp;months</li>
-      <li>ICL, POL (Implanted corrective lenses with posterior chamber lens): 12&nbsp;months</li>
-      <li>SMILE (Small incision lenticule extraction): 30 to 90&nbsp;days</li>
-      <li>SBK (Sub-bowman's keratomileusis): 30&nbsp;days</li>
+      <li>ICL, POL (Implanted corrective lenses with anterior chamber lens): 6&#160;months</li>
+      <li>ICL, POL (Implanted corrective lenses with posterior chamber lens): 12&#160;months</li>
+      <li>SMILE (Small incision lenticule extraction): 30 to 90&#160;days</li>
+      <li>SBK (Sub-bowman's keratomileusis): 30&#160;days</li>
     </ul>
     <section id="s1-1-1">
       <h4>Visual acuity</h4>
       <p>You'll need to meet <strong>both</strong> corrected and uncorrected vision standards. If you fail one or both, you don't meet the minimum vision requirements for regular member applicants.</p>
       <p>Minimum vision requirements:</p>
       <ul>
-        <li>corrected vision (with glasses or contacts): Visual acuity must be at least 6/6&nbsp;(20/20) in one eye and 6/9&nbsp;(20/30) in the other; and</li>
-        <li>uncorrected vision (without glasses or contacts lenses): Visual acuity must be at least 6/18&nbsp;(20/60) in each eye or 6/12&nbsp;(20/40) in one&nbsp;eye and at least 6/30&nbsp;(20/100) in the other eye</li>
+        <li>corrected vision (with glasses or contacts): Visual acuity must be at least 6/6&#160;(20/20) in one eye and 6/9&#160;(20/30) in the other; and</li>
+        <li>uncorrected vision (without glasses or contacts lenses): Visual acuity must be at least 6/18&#160;(20/60) in each eye or 6/12&#160;(20/40) in one&#160;eye and at least 6/30&#160;(20/100) in the other eye</li>
       </ul>
       <p>This minimum vision acuity is required for safe performance of policing duties if glasses or contacts are lost or displaced.</p>
     </section>
     <section id="s1-1-2">
       <h4>Field of vision</h4>
-      <p>You must have a field of vision that is at least 150&nbsp;degrees. It must be continuous along the horizontal meridian and 20&nbsp;degrees continuous above and below fixation with both eyes open and examined together.</p>
+      <p>You must have a field of vision that is at least 150&#160;degrees. It must be continuous along the horizontal meridian and 20&#160;degrees continuous above and below fixation with both eyes open and examined together.</p>
     </section>
     <section id="s1-1-3">
       <h4>Colour vision testing</h4>
-      <p>We test colour vison using the standardized Ishihara pseudo-isochromatic plates. To pass, you must correctly identify at least 17 of 21&nbsp;patterns.</p>
-      <p>If required, further evaluation will be conducted using the Farnsworth D-15&nbsp;test. If you pass, you meet the minimum colour vision standard.</p>
+      <p>We test colour vison using the standardized Ishihara pseudo-isochromatic plates. To pass, you must correctly identify at least 17 of 21&#160;patterns.</p>
+      <p>If required, further evaluation will be conducted using the Farnsworth D-15&#160;test. If you pass, you meet the minimum colour vision standard.</p>
     </section>
     <section id="s1-1-4">
       <h4>Ocular disease</h4>
@@ -104,20 +104,20 @@ custom_css: /assets/css/careers.css
     <p>You cannot use a hearing aid during the exam. The minimum requirements are listed below.</p>
     <p>An audiologist must test the following frequencies:</p>
     <ul>
-      <li>500&nbsp;Hz</li>
-      <li>1,000&nbsp;Hz</li>
-      <li>2,000&nbsp;Hz</li>
-      <li>3,000&nbsp;Hz</li>
-      <li>4,000&nbsp;Hz</li>
-      <li>6,000&nbsp;Hz</li>
-      <li>8,000&nbsp;Hz</li>
+      <li>500&#160;Hz</li>
+      <li>1,000&#160;Hz</li>
+      <li>2,000&#160;Hz</li>
+      <li>3,000&#160;Hz</li>
+      <li>4,000&#160;Hz</li>
+      <li>6,000&#160;Hz</li>
+      <li>8,000&#160;Hz</li>
     </ul>
-    <p>The hearing exam and form (Regular Member Applicant Hearing Examination Report (RCMP&nbsp;6509)) must be completed by a practitioner in accordance with the Canadian Standards Association Standard on Pure Tone Air Conduction Audiometers for Hearing Conservation and for Screening.</p>
+    <p>The hearing exam and form (Regular Member Applicant Hearing Examination Report (RCMP&#160;6509)) must be completed by a practitioner in accordance with the Canadian Standards Association Standard on Pure Tone Air Conduction Audiometers for Hearing Conservation and for Screening.</p>
     <section id="s1-2-1">
       <h4>Minimum hearing standards</h4>
       <ul>
-        <li>In your better ear: between 500 and 3000&nbsp;Hz with no more than 30&nbsp;decibels of hearing loss</li>
-        <li>In your worse ear: 3000&nbsp;Hz with no more than 50&nbsp;decibels of hearing loss</li>
+        <li>In your better ear: between 500 and 3000&#160;Hz with no more than 30&#160;decibels of hearing loss</li>
+        <li>In your worse ear: 3000&#160;Hz with no more than 50&#160;decibels of hearing loss</li>
       </ul>
     </section>
   </section>

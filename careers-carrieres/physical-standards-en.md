@@ -11,6 +11,7 @@ breadcrumbs:
     url: "careers-carrieres/officer-agent-en.html"
 custom_css: /assets/css/careers.css
 ---
+
 <nav aria-label="On this page">
   <h2>On this page</h2>
   <ul>
@@ -21,10 +22,10 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 <p>Preparing for a policing career starts long before you arrive at the RCMP Training Academy (Depot). Physical fitness is a necessary part of your safety, well-being and longevity in law enforcement. To thrive at Depot, you should develop consistent fitness habits now. Be sure you understand the physical fitness expectations before you apply. </p>
-<p>As a successful applicant, you’ll be invited to attend the Cadet Training Program where your physical fitness will be tested. </p>
+<p>As a successful applicant, you'll be invited to attend the Cadet Training Program where your physical fitness will be tested. </p>
 <section id="s1">
   <h2>Four steps to get ready for Depot</h2>
-  <p>The Police Fitness Training program at Depot is not a boot camp or a novice fitness program. Before you start cadet training, you’ll need to be comfortable running, lifting, carrying, and performing daily moderate to intense physical exercise.</p>
+  <p>The Police Fitness Training program at Depot is not a boot camp or a novice fitness program. Before you start cadet training, you'll need to be comfortable running, lifting, carrying, and performing daily moderate to intense physical exercise.</p>
   <p>There are 4&#160;steps in the process of applicant fitness.</p>
   <section id="s1-1">
     <h3>Step&#160;1: Perform and record exercise</h3>
@@ -34,7 +35,7 @@ custom_css: /assets/css/careers.css
     <h3>Step&#160;2: Perform fitness self-assessments</h3>
     <p>Your recruiter will ask you to conduct some basic fitness self-tests to help gauge your readiness for cadet training. We recommend you perform these tests and record the results every 6&#160;to 12&#160;weeks. Perform them more frequently if you're struggling with your fitness level. </p>
     <p>The minimum standard is the lowest level of fitness that will give you a reasonable chance of meeting the physical requirements of cadet training. If you fall below these standards, your risk of failure in the program increases.</p>
-    <p>The target standard is a fitness level where you are performing at an average fitness level compared to the cadet population. The range covers average performance levels across genders. If you’re falling within this performance zone, you’ll likely perform well in the fitness program and will have a decreased chance of failure.</p>
+    <p>The target standard is a fitness level where you are performing at an average fitness level compared to the cadet population. The range covers average performance levels across genders. If you're falling within this performance zone, you'll likely perform well in the fitness program and will have a decreased chance of failure.</p>
     <p>The superior standard identifies the top 10% of cadet fitness performance. If your performance falls within this zone you are likely to excel in the cadet fitness program.</p>
     <section id="s1-2-1">
       <h4>5&#160;kilometre run test</h4>
@@ -71,13 +72,13 @@ custom_css: /assets/css/careers.css
   </section>
   <section id="s1-3">
     <h3>Step&#160;3: Self-declaration of your fitness status</h3>
-    <p>You’ll be asked to submit a document confirming your fitness abilities and habits before arriving at the RCMP Training Academy.</p>
-    <p>Your recruiter will send documents later in the process. Take your time and answer the questions accurately. Be honest! You cannot hide your lack of fitness at Depot. If you’re not physically ready, discuss your concerns with your recruiter.</p>
+    <p>You'll be asked to submit a document confirming your fitness abilities and habits before arriving at the RCMP Training Academy.</p>
+    <p>Your recruiter will send documents later in the process. Take your time and answer the questions accurately. Be honest! You cannot hide your lack of fitness at Depot. If you're not physically ready, discuss your concerns with your recruiter.</p>
   </section>
   <section id="s1-4">
     <h3>Step&#160;4: The Police Fitness Assessment</h3>
-    <p>You don’t have to do the Police Fitness Assessment before training, but if you get the chance, it’s a good idea to try it. </p>
-    <p>At Depot you'll be required to pass the assessment periodically throughout training. If you’re meeting the minimum standards set out in the fitness self-assessment tests, you’ll be better positioned for success on the police fitness assessment.</p>
+    <p>You don't have to do the Police Fitness Assessment before training, but if you get the chance, it's a good idea to try it. </p>
+    <p>At Depot you'll be required to pass the assessment periodically throughout training. If you're meeting the minimum standards set out in the fitness self-assessment tests, you'll be better positioned for success on the police fitness assessment.</p>
   </section>
 </section>
 <section id="s2">

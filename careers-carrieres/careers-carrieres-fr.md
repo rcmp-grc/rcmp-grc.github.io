@@ -31,14 +31,14 @@ custom_css: /assets/css/careers.css
     <div class="fp-content">
       <p class="uppercase">Carrières à la GRC</p>
       <h2 class="oswald-500 uppercase">Carrières policières</h2>
-      <p class="header-description">Travaillez en première ligne. Devenez policier ou policière à la GRC.</p><a class="btn btn-careers" href="#">Plus d’information <span class="wb-inv">about police officer careers</span></a>
+      <p class="header-description">Travaillez en première ligne. Devenez policier ou policière à la GRC.</p><a class="btn btn-careers" href="#">Plus d'information <span class="wb-inv">about police officer careers</span></a>
     </div>
   </section>
   <section class="fp-section" id="civilian-employees" style="background-image: url('/assets/img/hero-civilian.jpg');">
     <div class="fp-overlay"></div>
     <div class="fp-content">
-      <h2 class="oswald-500 uppercase">Carrières d’employés civils</h2>
-      <p class="header-description">Apportez vos compétences. Contribuez à notre mission. Changez les choses.</p><a class="btn btn-careers" href="#">Plus d’information <span class="wb-inv">about civilian careers</span></a>
+      <h2 class="oswald-500 uppercase">Carrières d'employés civils</h2>
+      <p class="header-description">Apportez vos compétences. Contribuez à notre mission. Changez les choses.</p><a class="btn btn-careers" href="#">Plus d'information <span class="wb-inv">about civilian careers</span></a>
     </div>
   </section>
   <section class="fp-section fp-section--scroll" id="more-opportunities">
@@ -77,7 +77,7 @@ custom_css: /assets/css/careers.css
           <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-3.jpg">
-              <h3 class="h5"><a href="#">Programme d’expérience précadet diversifié et inclusif</a></h3>
+              <h3 class="h5"><a href="#">Programme d'expérience précadet diversifié et inclusif</a></h3>
               <p>Familiarisez-vous avec le travail policier avant de postuler. Soutient les communautés racisées et sous-représentées.</p>
             </div>
           </li>
@@ -97,7 +97,7 @@ custom_css: /assets/css/careers.css
       <section class="po-pagedetails pagedetails container">
         <h2 class="wb-inv">Page details</h2>
         <dl id="wb-dtmd">
-          <dt>Date de modification&nbsp;:</dt>
+          <dt>Date de modification&#160;:</dt>
           <dd><time property="dateModified">{{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}</time></dd>
         </dl>
       </section>

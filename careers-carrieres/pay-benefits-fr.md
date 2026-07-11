@@ -11,6 +11,7 @@ breadcrumbs:
     url: "careers-carrieres/fr.html"
 custom_css: /assets/css/careers.css
 ---
+
 <nav aria-label="Sur cette page">
   <h2>Sur cette page</h2>
      <ul>
@@ -23,10 +24,10 @@ custom_css: /assets/css/careers.css
   Les avantages sur les plans de la rémunération et du mode de vie sont également considérables.</p>
 <section id="s1">
   <h2>Indemnité de recrutement des cadets</h2>
-  <p>Pendant leur formation de 26 semaines à l’École de la GRC (Division Dépôt), les cadets reçoivent une indemnité de 1
+  <p>Pendant leur formation de 26 semaines à l'École de la GRC (Division Dépôt), les cadets reçoivent une indemnité de 1
   000&#160;$ par semaine. La somme maximale allouable au titre de l'indemnité de recrutement est de 26&#160;000&#160;$ pour la
   formation de 26 semaines, c'est-à-dire 2&#160;000&#160;$ par période de deux semaines.</p>
-  <p>La GRC prend également en charge les coûts liés à l’hébergement, aux uniformes, aux cours, à l’assurance et aux
+  <p>La GRC prend également en charge les coûts liés à l'hébergement, aux uniformes, aux cours, à l'assurance et aux
   déplacements des cadets pour se rendre à la Division Dépôt à Regina (Sask.) et en revenir.</p>
   <p>Les cadets sont tenus de respecter les valeurs fondamentales de la GRC – agir avec intégrité, faire preuve de
   respect, faire preuve de compassion, assumer ses responsabilités et servir avec excellence – en tout temps pendant
@@ -38,10 +39,10 @@ custom_css: /assets/css/careers.css
   <h2>Taux de rémunération et avantages sociaux</h2>
   <section id="s2-1">
     <h3>Taux de rémunération des gendarmes</h3>
-    <p>Après avoir terminé le Programme de formation des cadets et reçu une offre d’emploi, vous serez engagé comme gendarme
+    <p>Après avoir terminé le Programme de formation des cadets et reçu une offre d'emploi, vous serez engagé comme gendarme
   au 1er échelon de la rémunération annuelle. Normalement, vous atteindrez le 5e échelon de la rémunération annuelle
   après 36 mois de service.</p>
-    <p>En date du 1er avril 2024, l’échelle de la rémunération annuelle des gendarmes est la suivante&#160;:</p>
+    <p>En date du 1er avril 2024, l'échelle de la rémunération annuelle des gendarmes est la suivante&#160;:</p>
     <ul>
       <li>1er échelon&#160;: 71&#160;191&#160;$</li>
       <li>2e échelon&#160;: 92&#160;497&#160;$</li>
@@ -50,7 +51,7 @@ custom_css: /assets/css/careers.css
       <li>5e échelon&#160;: 115 350&#160;$</li>
     </ul>
     <p>Les taux de rémunération et les avantages sociaux des policiers et policières de la GRC (dont le grade est inférieur
-  à celui d’inspecteur) sont inscrits dans la convention collective des membres réguliers et des réservistes de la GRC.
+  à celui d'inspecteur) sont inscrits dans la convention collective des membres réguliers et des réservistes de la GRC.
     </p>
   </section>
   <section id="s2-2">
@@ -61,7 +62,7 @@ custom_css: /assets/css/careers.css
       <li>De 10 à 22 années de service&#160;: 25 jours par an</li>
       <li>Plus de 23 années de service&#160;: 30 jours par an</li>
     </ul>
-    <p>Les congés auxquels sont admissibles les policiers et policières de la GRC (sous le grade d’inspecteur) sont inscrits
+    <p>Les congés auxquels sont admissibles les policiers et policières de la GRC (sous le grade d'inspecteur) sont inscrits
   dans la convention collective des membres réguliers et des réservistes de la GRC.</p>
   </section>
   <section id="s2-3">
@@ -71,7 +72,7 @@ custom_css: /assets/css/careers.css
       <li>25 années de service&#160;: pleine pension</li>
       <li>35 années de service&#160;: pension maximale</li>
     </ul>
-    <p>Si vous avez déjà cotisé à un régime de retraite agréé canadien, il est possible d’en transférer la valeur au régime
+    <p>Si vous avez déjà cotisé à un régime de retraite agréé canadien, il est possible d'en transférer la valeur au régime
   de retraite de la GRC.</p>
     <p>Pour en savoir plus, cliquez sur le lien suivant&#160;: Pension et avantages sociaux de la Gendarmerie royale du Canada.</p>
   </section>

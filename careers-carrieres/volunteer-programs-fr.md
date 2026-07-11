@@ -11,7 +11,8 @@ breadcrumbs:
     url: "careers-carrieres/fr.html"
 custom_css: /assets/css/careers.css
 ---
-<nav>
+
+<nav aria-label="Sur cette page">
   <h2>Sur cette page </h2>
   <ul>
     <li><a href="#s1">Les bénévoles à la GRC</a></li>
@@ -47,7 +48,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s3">
   <h2>Programme des auxiliaires</h2>
-  <p>Le Programme des auxiliaires offre aux Canadiennes et Canadiens soucieux du bien-être de leur collectivité l’occasion de faire du bénévolat afin d’appuyer les initiatives de police communautaire, de prévention du crime et de sécurité publique. Selon leur niveau de service, les auxiliaires peuvent participer à diverses activités, notamment l’éducation du public, les événements communautaires, le contrôle de la circulation et le soutien aux opérations. </p>
+  <p>Le Programme des auxiliaires offre aux Canadiennes et Canadiens soucieux du bien-être de leur collectivité l'occasion de faire du bénévolat afin d'appuyer les initiatives de police communautaire, de prévention du crime et de sécurité publique. Selon leur niveau de service, les auxiliaires peuvent participer à diverses activités, notamment l'éducation du public, les événements communautaires, le contrôle de la circulation et le soutien aux opérations. </p>
   <p>Apprenez-en davantage sur le <a href="">Programme des auxiliaires</a> et découvrez comment devenir bénévole. </p>
 </section>
 <section id="s4">
@@ -56,7 +57,7 @@ custom_css: /assets/css/careers.css
   <ul>
     <li>être âgés d'au moins 16&#160;ans </li>
     <li>être responsables et avoir une bonne réputation </li>
-    <li>être en mesure d’obtenir le niveau d'habilitation de sécurité appropriée </li>
+    <li>être en mesure d'obtenir le niveau d'habilitation de sécurité appropriée </li>
   </ul>
 </section>
 <section id="s5">

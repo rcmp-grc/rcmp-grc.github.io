@@ -45,7 +45,7 @@ custom_css: /assets/css/careers.css
   <p>Understanding the entry requirements and the application process is the first step towards starting your career with the RCMP.</p>
   <p>All applications are submitted through the GC Jobs portal. You will need to create a GC Jobs account to complete your online application.</p>
   <p>As part of your application, you'll answer screening questions based on the <a href="#">Basic Requirements</a>. Be sure to review them carefully, and answer honestly, as your responses will determine whether you move forward in the recruitment process.</p>
-  <p>If your application is screened out at this step, you must wait 3&nbsp;months before re-applying.</p>
+  <p>If your application is screened out at this step, you must wait 3&#160;months before re-applying.</p>
   <p>If you have questions about the application process, attend a <a href="#">recruiting event</a> or <a href="#">contact a recruiter</a> before submitting your online <a href="#">application</a>.</p>
 </section>
 <section id="s2">
@@ -55,7 +55,7 @@ custom_css: /assets/css/careers.css
     <li>Your deferral period has passed. The deferral period is indicated in your conclude letter. If no date was provided, you can re-apply 3&nsbp;months from the date your file was concluded</li>
     <li>You still meet the RCMP's qualifications and requirements</li>
   </ul>
-  <p>If you don't meet one of these conditions, your application may be rejected. You won't be able to re-apply for 3&nbsp;months.</p>
+  <p>If you don't meet one of these conditions, your application may be rejected. You won't be able to re-apply for 3&#160;months.</p>
   <p>After we receive your application, we'll review it along with your previous application file. We'll contact you to advise on next steps in the application process.</p>
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">

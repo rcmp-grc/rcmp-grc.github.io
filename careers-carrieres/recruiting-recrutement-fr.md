@@ -127,7 +127,7 @@ custom_css: /assets/css/careers.css
   <div class="col-md-9 col-sm-8" id="re-results-col">
     <div aria-label="Filtres actifs" aria-live="polite" id="re-active-filters" role="status" style="display:none;"></div>
     <div id="re-toolbar">
-      <p aria-live="polite" id="re-count"><strong id="re-count-num">0</strong>&nbsp;événements trouvés</p>
+      <p aria-live="polite" id="re-count"><strong id="re-count-num">0</strong>&#160;événements trouvés</p>
     </div>
     <ul aria-label="Événements de recrutement" class="list-unstyled" id="re-grid"></ul>
     <p id="re-no-results" style="display:none;">Aucun événement ne correspond à vos filtres.</p>

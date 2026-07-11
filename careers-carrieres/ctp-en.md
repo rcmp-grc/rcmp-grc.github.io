@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: Cadet Training Program 
+title: Cadet Training Program
 date_modified: 2026-07-08
 lang: en
 lang_url: ctp-fr.html
@@ -109,7 +109,7 @@ custom_css: /assets/css/careers.css
 	<h2>Accommodation, pay and benefits</h2>
 	<section id="s5-1">
 		<h3>Accommodation</h3>
-		<p>You’ll live onsite at Depot with your troop in modern dormitory facilities.</p>
+		<p>You'll live onsite at Depot with your troop in modern dormitory facilities.</p>
 		<ul>
 			<li>You will share common, co-ed spaces that support teamwork, collaboration and downtime with your troopmates</li>
 			<li>You will have your own individual sleeping space separated by a curtain, “a pit”, within the shared dormitory</li>
@@ -122,7 +122,7 @@ custom_css: /assets/css/careers.css
 		<h3>Pay and benefits</h3>
 		<ul>
 			<li>Cadets receive a $1,000 weekly allowance while participating in the Cadet Training Program</li>
-			<li>We cover the cost of meals and accommodations, and you’ll have access to onsite sports and recreation facilities throughout your training</li>
+			<li>We cover the cost of meals and accommodations, and you'll have access to onsite sports and recreation facilities throughout your training</li>
 			<li>We cover transportation costs to the RCMP Academy for training and to your first detachment<ul>
 					<li>Transportation costs to visit home during training are not covered</li>
 				</ul>

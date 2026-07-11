@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: Indigenous Pre-Cadet Training Program 
+title: Indigenous Pre-Cadet Training Program
 date_modified: 2026-07-09
 lang: en
 lang_url: indigenous-pre-cadet-tp-fr.html
@@ -11,12 +11,13 @@ breadcrumbs:
     url: "careers-carrieres/officer-agent-en.html"
 custom_css: /assets/css/careers.css
 ---
+
 <section class="alert alert-info">
     <h2 class="h3">Note</h2>
     <p>There are two Indigenous Pre-Cadet Training Program (IPTP) sessions scheduled for 2026:</p> 
       <ul>
-          <li>June&nbsp;24 to July&nbsp;14</li>
-          <li>October&nbsp;7 to October&nbsp;27</li>
+          <li>June&#160;24 to July&#160;14</li>
+          <li>October&#160;7 to October&#160;27</li>
       </ul>
     <p>Apply today!</p>
   </section>
@@ -61,7 +62,7 @@ custom_css: /assets/css/careers.css
     <p>To apply you must:</p>
     <ul>
       <li>Be of First Nations, Inuit or Métis descent</li>
-      <li>Be 19&nbsp;years of age or older</li>
+      <li>Be 19&#160;years of age or older</li>
       <li>Be a Canadian citizen</li>
       <li>Be able to pass an enhanced reliability security check</li>
       <li>Be in good physical condition</li>

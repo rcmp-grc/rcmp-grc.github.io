@@ -19,7 +19,7 @@ custom_css: /assets/css/careers.css
     <dt>
       <a href="application-candidature-1-en.html">Submit an online application</a>
     </dt>
-    <dd>Start your application by creating an account on the Government of Canada’s GC Jobs online portal.</dd>
+    <dd>Start your application by creating an account on the Government of Canada's GC Jobs online portal.</dd>
     <dt>
       <a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a>
     </dt>

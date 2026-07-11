@@ -30,18 +30,18 @@ custom_css: /assets/css/careers.css
 <section id="s0">
 	<h2 class="wb-inv">Introduction</h2>
 	<p>The Cadet Training Program (CTP) is built to prepare cadets for the realities of frontline policing in communities across Canada. Built around 6 learning pillars that support community policing, the program combines academic, physical and practical training to equip cadets with the skills and foundation to be ready for their first post.</p>
-	<p>Preparation for the 6-month CTP begins before arrival at Depot and helps cadets settle in quickly and start training with confidence. Here you’ll find an overview of the 6 learning pillars you’ll cover during the CTP.</p>
+	<p>Preparation for the 6-month CTP begins before arrival at Depot and helps cadets settle in quickly and start training with confidence. Here you'll find an overview of the 6 learning pillars you'll cover during the CTP.</p>
 </section>
 
 <section id="s1">
 	<h2>Incident Management Intervention Model (IMIM)</h2>
 	<p>Cadets learn how to assess and manage risk in all encounters using the <a href="/en/police-intervention/incident-management-intervention-model">Incident Management Intervention Model</a> (IMIM). This model helps police officers determine the appropriate type of intervention such as verbal de-escalation, restraint and tactical tool intervention to ensure public and police safety.</p>
-	<p>The IMIM is a visual diagram that is centred around a police officer’s continuous assessment. The nature of police work is dynamic and can change rapidly.</p>
+	<p>The IMIM is a visual diagram that is centred around a police officer's continuous assessment. The nature of police work is dynamic and can change rapidly.</p>
 	<p>This model helps cadets and police officer assess:</p>
 	<ul>
 		<li>situational factors</li>
 		<li>subject behaviours</li>
-		<li>officer’s perceptions</li>
+		<li>officer's perceptions</li>
 		<li>tactical considerations</li>
 	</ul>
 	<p>Police officers make ongoing assessments as an event unfolds, aiming to use only as much intervention as needed to keep everyone safe.</p>
@@ -145,7 +145,7 @@ custom_css: /assets/css/careers.css
 
 <section id="s6">
 	<h2>Police Driving</h2>
-	<p>This unit focuses on driving skills required for emergency vehicle operation. The curriculum focuses on the skills and knowledge to ensure public and police safety while on patrol and when responding to incidents. You’ll learn about the laws and policies related to the use of police vehicles and driver-related offenses.</p>
+	<p>This unit focuses on driving skills required for emergency vehicle operation. The curriculum focuses on the skills and knowledge to ensure public and police safety while on patrol and when responding to incidents. You'll learn about the laws and policies related to the use of police vehicles and driver-related offenses.</p>
 	<p>There are various tracks at Depot for cadets to practice their skills. This includes a four-by-four track with terrain similar to those across the country. Driving scenarios and simulations provide a realistic learning environment for cadets to practice safe and effective handling of a police vehicle in high-stress situations.</p>
 	<p>Cadets receive training in:</p>
 	<ul>

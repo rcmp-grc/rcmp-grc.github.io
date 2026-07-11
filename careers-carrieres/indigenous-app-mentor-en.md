@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: Indigenous Applicant Mentorship Program 
+title: Indigenous Applicant Mentorship Program
 date_modified: 2026-07-09
 lang: en
 lang_url: indigenous-app-mentor-fr.html
@@ -11,6 +11,7 @@ breadcrumbs:
     url: "careers-carrieres/officer-agent-en.html"
 custom_css: /assets/css/careers.css
 ---
+
 <nav aria-label="On this page">
     <h2>On this page</h2>
     <ul>
@@ -25,7 +26,7 @@ custom_css: /assets/css/careers.css
     encouragement, and insight throughout the application process.</p>
 <section id="s1">
 <h2>About the mentorship program</h2>
-<p>A mentorship program isn’t just about individual success – it's about creating a ripple effect that leads to better
+<p>A mentorship program isn't just about individual success – it's about creating a ripple effect that leads to better
     communication and understanding about policing at the RCMP.</p>
 <p>Mentors and mentees can connect to:</p>
 <ul>
@@ -52,11 +53,11 @@ custom_css: /assets/css/careers.css
 <ul>
     <li>be matched with an RCMP member who self-identifies as First Nations, Inuit, or Métis and understands the unique
         challenges and strengths Indigenous applicants bring to the RCMP</li>
-    <li>receive personalized support throughout the RCMP’s application process, from submitting your application on GC
+    <li>receive personalized support throughout the RCMP's application process, from submitting your application on GC
         Jobs to preparing for the RCMP Entrance Exam, fitness assessments and interviews</li>
     <li>gain insight into the RCMP Academy, Depot Division, in Regina, Saskatchewan, and what to expect during the
         26-week Cadet Training Program</li>
-    <li>learn about the RCMP’s core values, organizational culture, and the wide range of career paths available within
+    <li>learn about the RCMP's core values, organizational culture, and the wide range of career paths available within
         the organization</li>
     <li>be treated with fairness, respect, and transparency, and build a meaningful connection with your mentor that may
         continue beyond the application process</li>
@@ -67,7 +68,7 @@ custom_css: /assets/css/careers.css
 <p>Are you an Indigenous applicant interested in being paired with a mentor through the I-AM-RCMP mentorship program?
 </p>
 <p>Once you apply to become a police officer, confirm that you meet the basic requirements, and you self-identify as
-    First Nations, Inuit, or Métis you’ll have the option to be paired with a mentor to guide you through the
+    First Nations, Inuit, or Métis you'll have the option to be paired with a mentor to guide you through the
     application process. While the program is formally offered after an application is submitted, but you can contact a
     recruiter and request to be matched with a mentor sooner so you can feel supported, inspired, and excited to apply.</p>
 </section>

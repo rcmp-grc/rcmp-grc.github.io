@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: Soumettez-vous à une évaluation médicale et une évaluation de l’aptitude psychologique
+title: Soumettez-vous à une évaluation médicale et une évaluation de l'aptitude psychologique
 date_modified: 2026-07-08
 lang: fr
 lang_url: application-candidature-5-en.html
@@ -12,14 +12,14 @@ breadcrumbs:
     url: "careers-carrieres/officer-agent-fr.html"
   - label: "Processus de recrutement des policiers et policières"
     url: "careers-carrieres/application-candidature-fr.html"
-custom_css: /assets/css/careers.css    
+custom_css: /assets/css/careers.css
 ---
 
 <nav aria-label="Étapes du processus de recrutement" class="gc-subway" data-sections-title="Étapes">
   <h2>Processus de recrutement des policiers et policières</h2>
   <ul>
     <li><a href="application-candidature-1-fr.html">Posez votre candidature en ligne</a></li>
-    <li><a href="application-candidature-2-fr.html">Exposé sur les carrières et évaluation d’entrée en ligne</a></li>
+    <li><a href="application-candidature-2-fr.html">Exposé sur les carrières et évaluation d'entrée en ligne</a></li>
     <li><a href="application-candidature-3-fr.html">Transmettez les formulaires et les documents requis</a>
       <ul class="noline">
         <li>
@@ -27,8 +27,8 @@ custom_css: /assets/css/careers.css
         </li>
       </ul>
     </li>
-    <li><a href="application-candidature-4-fr.html">Passez une entrevue d’admissibilité</a></li>
-    <li><a class="active" href="application-candidature-5-fr.html">Soumettez-vous à une évaluation médicale et une évaluation de l’aptitude psychologique</a>
+    <li><a href="application-candidature-4-fr.html">Passez une entrevue d'admissibilité</a></li>
+    <li><a class="active" href="application-candidature-5-fr.html">Soumettez-vous à une évaluation médicale et une évaluation de l'aptitude psychologique</a>
       <ul class="noline">
         <li>
           <a href="application-candidature-5-1-fr.html">Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière</a>
@@ -38,26 +38,26 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-6-fr.html">Passez une enquête sur les antécédents et une évaluation de sécurité</a></li>
   </ul>
 </nav>
-<p>Après avoir passé l’entrevue d’admissibilité, vous devrez rencontrer des médecins et des psychologues désignés par la GRC pour une évaluation de votre santé physique et psychologique. Si ces évaluations sont concluantes, vous recevrez votre certificat d’aptitude physique et psychologique.</p>
-<p>Cette partie du processus comporte deux volets distincts&nbsp;:</p>
+<p>Après avoir passé l'entrevue d'admissibilité, vous devrez rencontrer des médecins et des psychologues désignés par la GRC pour une évaluation de votre santé physique et psychologique. Si ces évaluations sont concluantes, vous recevrez votre certificat d'aptitude physique et psychologique.</p>
+<p>Cette partie du processus comporte deux volets distincts&#160;:</p>
 <ul>
-  <li>l’évaluation de l’aptitude psychologique (EAP)</li>
-  <li>l’évaluation médicale (EM)</li>
+  <li>l'évaluation de l'aptitude psychologique (EAP)</li>
+  <li>l'évaluation médicale (EM)</li>
 </ul>
-<p>Vous devrez franchir toutes les étapes de l’EAP et être jugé(e) apte sur le plan psychologique avant de pouvoir vous soumettre à l’EM.</p>
-<p>La GRC prendra en charge les coûts de ces deux&nbsp;évaluations.</p>
+<p>Vous devrez franchir toutes les étapes de l'EAP et être jugé(e) apte sur le plan psychologique avant de pouvoir vous soumettre à l'EM.</p>
+<p>La GRC prendra en charge les coûts de ces deux&#160;évaluations.</p>
 <section id="s1">
   <h2>Normes en matière de santé physique et psychologique</h2>
   <p>Les incidents exigeants sur le plan physique et psychique ne sont pas fréquents, mais quand ils surviennent, ils peuvent être intenses et dangereux.</p>
-  <p>Nos normes visent à s’assurer que les postulants sont en mesure de satisfaire aux exigences physiques et psychologiques que requièrent&nbsp;:</p>
+  <p>Nos normes visent à s'assurer que les postulants sont en mesure de satisfaire aux exigences physiques et psychologiques que requièrent&#160;:</p>
   <ul>
     <li>la formation policière</li>
     <li>le métier policier</li>
   </ul>
-  <p>Il y a quatre fonctions essentielles du policier pour lesquelles les exigences en matière de santé doivent être satisfaites&nbsp;:</p>
+  <p>Il y a quatre fonctions essentielles du policier pour lesquelles les exigences en matière de santé doivent être satisfaites&#160;:</p>
   <ul>
-    <li>la conduite d’une voiture de police</li>
-    <li>l’utilisation d’armes à feu et d’autre matériel d’intervention</li>
+    <li>la conduite d'une voiture de police</li>
+    <li>l'utilisation d'armes à feu et d'autre matériel d'intervention</li>
     <li>la confrontation physique et le recours à la force</li>
     <li>la prise de décisions opérationnelles</li>
   </ul>
@@ -122,28 +122,28 @@ custom_css: /assets/css/careers.css
       <ul>
         <li>tetanus, diphtheria, and pertussis (Tdap)</li>
         <li>measles, mumps and rubella (MMR)</li>
-        <li>hepatitis&nbsp;B series</li>
+        <li>hepatitis&#160;B series</li>
       </ul>
       <p>Your RCMP Applicant Immunization and Tuberculosis Test Record form will also need to document results from the following test:</p>
       <ul>
-        <li>two-step tuberculin skin test (Mantoux), include date, results in millimetre and signature of provider reading results. This will require 4&nbsp;separate appointments.</li>
-        <li>chest x-ray (only if positive Mantoux at 10&nbsp;millimetres or greater)</li>
+        <li>two-step tuberculin skin test (Mantoux), include date, results in millimetre and signature of provider reading results. This will require 4&#160;separate appointments.</li>
+        <li>chest x-ray (only if positive Mantoux at 10&#160;millimetres or greater)</li>
       </ul>
     </section>
   </section>
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
    <div class="rcmp-content-page__previous" id="mp-previous-wrap">
-    <a aria-label="Étape précédent : Exposé sur les carrières et évaluation d’entrée en ligne" class="rcmp-content-page__link" href="application-candidature-4-fr.html" id="mp-previous">
+    <a aria-label="Étape précédent : Exposé sur les carrières et évaluation d'entrée en ligne" class="rcmp-content-page__link" href="application-candidature-4-fr.html" id="mp-previous">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i>
         <span class="rcmp-content-page__link-title">Étape précédent</span>
       </span>
-      <span class="rcmp-content-page__link-label" id="mp-previous-label">Passez une entrevue d’admissibilité</span>
+      <span class="rcmp-content-page__link-label" id="mp-previous-label">Passez une entrevue d'admissibilité</span>
     </a>
   </div>
   <div class="rcmp-content-page__next" id="mp-next-wrap">
-    <a aria-label="Étape suivante : Exposé sur les carrières et évaluation d’entrée en ligne" class="rcmp-content-page__link" href="application-candidature-5-1-fr.html" id="mp-next">
+    <a aria-label="Étape suivante : Exposé sur les carrières et évaluation d'entrée en ligne" class="rcmp-content-page__link" href="application-candidature-5-1-fr.html" id="mp-next">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
         <span class="rcmp-content-page__link-title">Étape suivante</span>

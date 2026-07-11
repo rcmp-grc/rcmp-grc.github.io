@@ -31,7 +31,7 @@ custom_css: /assets/css/careers.css
     <div class="fp-content">
       <p class="uppercase">Careers at the RCMP</p>
       <h2 class="oswald-500 uppercase">Police officer careers</h2>
-      <p class="header-description">Join Canada’s front line. Become an RCMP officer.</p><a class="btn btn-careers" href="#">More information <span class="wb-inv">about police officer careers</span></a>
+      <p class="header-description">Join Canada's front line. Become an RCMP officer.</p><a class="btn btn-careers" href="#">More information <span class="wb-inv">about police officer careers</span></a>
     </div>
   </section>
   <section class="fp-section" id="civilian-employees" style="background-image: url('/assets/img/hero-civilian.jpg');">

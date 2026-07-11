@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: Volunteer programs 
+title: Volunteer programs
 date_modified: 2026-07-10
 lang: en
 lang_url: volunteer-programs-fr.html
@@ -11,7 +11,8 @@ breadcrumbs:
     url: "careers-carrieres/officer-agent-en.html"
 custom_css: /assets/css/careers.css
 ---
-<nav>
+
+<nav aria-label="On this page">
   <h2>On this page</h2>
   <ul>
     <li><a href="#s1">Volunteers at the RCMP</a></li>

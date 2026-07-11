@@ -40,7 +40,7 @@ custom_css: /assets/css/careers.css
 		<li>It is the oldest division of the RCMP. Since 1885, Depot has been preparing generations of Mounties to serve communities across Canada</li>
 		<li>Depot offers a nationally recognized training campus featuring on-site classroom, fitness, and tactical training spaces</li>
 		<li>It is an active training site and a secure facility with controlled access</li>
-		<li>It is home to the RCMP Chapel, the oldest building in Regina, reflecting Depot’s deep roots in the community</li>
+		<li>It is home to the RCMP Chapel, the oldest building in Regina, reflecting Depot's deep roots in the community</li>
 	</ul>
 </section>
 
@@ -51,7 +51,7 @@ custom_css: /assets/css/careers.css
 		<li><strong>Troops function as one</strong>: eating meals together, moving around base as a unit and dressing in uniform, and sharing accommodation</li>
 		<li><strong>Free time is limited in training.</strong> Life as a cadet involves long, active days with little time off<ul>
 				<li>training is typically Monday to Friday. Days start early in the morning with evening and weekend activities and practice</li>
-				<li>statutory holidays are part of the training schedule&nbsp;– aligning with the 24/7 nature of policing</li>
+				<li>statutory holidays are part of the training schedule&#160;– aligning with the 24/7 nature of policing</li>
 			</ul>
 		</li>
 		<li><strong>Depot is physically demanding</strong>: training builds strength and endurance over time. A good level of fitness helps ease the transition</li>
@@ -117,7 +117,7 @@ custom_css: /assets/css/careers.css
 <section id="s6">
 	<h2>Conduct and expectations for cadets</h2>
 	<ul>
-		<li>RCMP officers and cadets are expected to consistently live and demonstrate the <a href="/en/corporate-information/royal-canadian-mounted-police-core-values">RCMP’s core values</a>; take responsibility, show respect, serve with excellence, demonstrate compassion and act with integrity both on and off duty</li>
+		<li>RCMP officers and cadets are expected to consistently live and demonstrate the <a href="/en/corporate-information/royal-canadian-mounted-police-core-values">RCMP's core values</a>; take responsibility, show respect, serve with excellence, demonstrate compassion and act with integrity both on and off duty</li>
 		<li>Alcohol is not permitted in dorms or on balconies; licensed use is restricted to the Stand Easy Lounge on the base</li>
 		<li>Cadets can use personal devices with limited use during evenings and weekends. Devices are not allowed during exams</li>
 		<li>Time is limited, so connecting with family and friends may be difficult</li>
@@ -127,8 +127,8 @@ custom_css: /assets/css/careers.css
 <section id="s7">
 	<h2>Community life in Regina</h2>
 	<ul>
-		<li>Regina is Saskatchewan’s capital city. It is the home of a Canadian Football League team, one of the largest urban parks in North America and has over 500,000 planted trees</li>
-		<li>There are many local amenities to explore including parks, walking and cycling paths, restaurants, movie theatres, malls, museums, places of worship, farmers’ markets, arts and entertainment</li>
+		<li>Regina is Saskatchewan's capital city. It is the home of a Canadian Football League team, one of the largest urban parks in North America and has over 500,000 planted trees</li>
+		<li>There are many local amenities to explore including parks, walking and cycling paths, restaurants, movie theatres, malls, museums, places of worship, farmers' markets, arts and entertainment</li>
 		<li>Transportation options include ride shares, cab companies, city bus routes and the YQR International Airport</li>
 		<li>There are many grocery and retail stores for daily essentials</li>
 		<li>Cadets have opportunity to connect with the community by participating in local events hosted by Depot including the Depot Sunset Ceremonies, the RCMP National Memorial, local literacy nights, and other community parades and events</li>

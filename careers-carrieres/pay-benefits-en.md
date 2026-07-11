@@ -23,7 +23,7 @@ custom_css: /assets/css/careers.css
     <p>Being an RCMP police officer gives you access to a world of opportunity, adventure and growth. There are many benefits, both in terms of salary and lifestyle.</p>
 <section id="s1">
     <h2>Cadet recruitment allowance</h2>
-    <p>Cadets receive an allowance during the 26-week training program at the RCMP’s training academy, Depot. The
+    <p>Cadets receive an allowance during the 26-week training program at the RCMP's training academy, Depot. The
         current cadet recruitment allowance is $1,000/week. The maximum cadet recruitment allowance payable is $26,000 for the
         26-week training period, to be paid on a bi-weekly basis, i.e. $2,000 every two weeks.</p>
     <p>The RCMP also covers the cost of accommodations, uniform, training courses, insurance and travel to and from

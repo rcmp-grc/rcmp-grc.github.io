@@ -13,27 +13,29 @@ custom_css: /assets/css/careers.css
 ---
 
 <nav aria-label="On this page">
-    <h2>On this page</h2>
-     <ul>
-        <li><a href="#s1">Examples of criminal behaviours and activities</a></li>
-        <li><a href="#s2">Evaluating your past actions</a></li>
-        <li><a href="#s3">Related links</a></li>
-    </ul>
+  <h2>On this page</h2>
+  <ul>
+    <li><a href="#s1">Examples of criminal behaviours and activities</a></li>
+    <li><a href="#s2">Evaluating your past actions</a></li>
+    <li><a href="#s3">Related links</a></li>
+  </ul>
 </nav>
+
 <p>As a police officer, you are expected to uphold the law. Any criminal activity or behaviour during the application process could disqualify you from the process.</p>
 <p>During the application process, you:</p>
 <ul>
-    <li>must not participate in any criminal behaviour or activity in Canada or abroad
+  <li>must not participate in any criminal behaviour or activity in Canada or abroad
     <ul>
-        <li>whether you are arrested and/or charged or not</li>
+      <li>whether you are arrested and/or charged or not</li>
     </ul>
- </li>>
-    <li>must not cheat on any portion of the RCMP application process</li>
+  </li>
+  <li>must not cheat on any portion of the RCMP application process</li>
 </ul>
+
 <section id="s1">
-<h2>Examples of criminal behaviours and activities</h2>
-<p>Serious criminal offences include, but are not limited to:</p>
-<ul>
+  <h2>Examples of criminal behaviours and activities</h2>
+  <p>Serious criminal offences include, but are not limited to:</p>
+  <ul>
     <li>murder and manslaughter</li>
     <li>sexual or physical assault</li>
     <li>production or distribution of child pornography</li>
@@ -49,27 +51,29 @@ custom_css: /assets/css/careers.css
     <li>purchasing sexual services</li>
     <li>solicitation for the purpose of prostitution of another person</li>
     <li>impaired driving</li>
-</ul>
+  </ul>
 </section>
+
 <section id="s2">
-<h2>Evaluating your past actions</h2>
-<p>For past actions, some of the things we consider to determine suitability include:</p>
-<ul>
+  <h2>Evaluating your past actions</h2>
+  <p>For past actions, some of the things we consider to determine suitability include:</p>
+  <ul>
     <li>the severity of the offence or behaviour</li>
     <li>the prevalence or frequency of the activity or behaviour</li>
     <li>the circumstances or context around the activity or behaviour</li>
     <li>the intent behind the activity or behaviour</li>
     <li>whether the activity or behaviour led to any regret</li>
     <li>how long ago the offence or behaviour occurred</li>
-    <li>How old were you at the time?</li>
-    <li>How have you behaved since that time, or since the time of the last incident?</li>
-</ul>
-<p>No matter how well qualified, if you can't be trusted to carry out your tasks honestly and reliably, you will not be successful in the selection process.</p>
+    <li>your age at the time of the offence or behaviour</li>
+    <li>your conduct since the last incident</li>
+  </ul>
+  <p>No matter how well qualified, if you can't be trusted to carry out your tasks honestly and reliably, you will not be successful in the selection process.</p>
 </section>
+
 <section id="s3">
-<h2>Related links</h2>
-<ul>
-    <li><a href="#">Basic requirements</a></li>
-    <li><a href="#">6.0 – application process: Complete field investigation</a></li>
-</ul>
+  <h2>Related links</h2>
+  <ul>
+    <li><a href="/en/careers-carrieres/basic-requirements-en">Basic requirements</a></li>
+    <li><a href="/en/careers-carrieres/application-process-6-0-en">6.0 – application process: Complete field investigation</a></li>
+  </ul>
 </section>

@@ -2288,3 +2288,27 @@ section[id^="s"] {
 main .cnt-wdth-lmtd #re-grid li {
   max-width: none;
 }
+
+.fp-section--mirror {
+  justify-content: flex-end;
+}
+
+.fp-overlay--mirror {
+  background: linear-gradient(to left, rgba(1, 27, 60, 0.75) 40%, rgba(1, 27, 60, 0.2) 100%);
+}
+
+.fp-content--mirror {
+  left: auto;
+  right: 50%;
+  transform: translate(50%, -50%);
+  text-align: right;
+}
+
+@media (max-width: 991px) {
+  .fp-content--mirror {
+    right: 24px;
+    left: auto;
+    transform: translateY(-50%);
+    padding-right: 0;
+  }
+}

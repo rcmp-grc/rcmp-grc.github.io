@@ -17,16 +17,16 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<div class="po-hero-cta">
-  <img src="/assets/img/po-header.jpg" alt="" class="po-hero-bg">
+<section class="fp-section fp-section--mirror" id="officer-hero" style="background-image: url('/assets/img/po-header.jpg');">
+  <div class="fp-overlay fp-overlay--mirror"></div>
   {% include breadcrumb.html %}
-  <div class="po-hero-cta__content">
-    <p class="po-hero-title">Police officer careers</p>
-    <p>The RCMP is hiring motivated team players who are physically fit and can lead with integrity and compassion.</p>
-    <p><strong>Are you ready to be a police officer?</strong></p>
-    <a class="ready-btn mrgn-tp-sm" href="/careers-carrieres/police-officer/readiness-check"><i aria-hidden="true" class="fa-solid fa-square-check"></i> <span>Check your readiness</span></a>
+  <div class="fp-content fp-content--mirror">
+    <p class="uppercase">Police officer careers</p>
+    <h2 class="oswald-500 uppercase">Are you ready to be a police officer?</h2>
+    <p class="header-description">The RCMP is hiring motivated team players who are physically fit and can lead with integrity and compassion.</p>
+    <a class="ready-btn mrgn-tp-sm" href="#"><i aria-hidden="true" class="fa-solid fa-square-check"></i> <span>Check your readiness</span></a>
   </div>
-</div>
+</section>
 <div class="po-banner">
   <div class="po-banner-text">
     <p class="po-banner-heading">Join Canada's national police service</p>

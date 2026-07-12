@@ -21,7 +21,7 @@ custom_css: /assets/css/careers.css
                 <li property="itemListElement" typeof="ListItem">
                   <a href="/" property="item" typeof="WebPage"><span property="name">RCMP.ca</span></a>
                   <meta content="1" property="position">
-             </li>>
+                </li>
               </ol>
             </div>
           </div>

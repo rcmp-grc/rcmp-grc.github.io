@@ -22,73 +22,72 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a></li>
     <li><a class="active" href="application-candidature-3-en.html">Submit the required forms and documents</a>
       <ul class="noline">
-        <li>
-          <a href="application-candidature-3-1-en.html">How to complete the forms</a>
-     </li>>
- </li>ul>
-   </li>
+        <li><a href="application-candidature-3-1-en.html">How to complete the forms</a></li>
+      </ul>
+    </li>
     <li><a href="application-candidature-4-en.html">Complete a suitability interview</a></li>
     <li><a href="application-candidature-5-en.html">Complete psychological and medical suitability assessments</a>
       <ul class="noline">
-     </li>
- </li>  <a href="application-candidature-5-1-en.html">Health conditions that could impact your suitability to become a police officer</a>
-       </li>
+        <li><a href="application-candidature-5-1-en.html">Health conditions that could impact your suitability to become a police officer</a></li>
       </ul>
-   </li>
+    </li>
     <li><a href="application-candidature-6-en.html">Complete a field investigation and security assessment</a></li>
   </ul>
 </nav>
-<p>Once you are contacted by a recruiting analyst, you'll have 14&#160;days to complete all required forms and documents, including the Security Screening Application and submit them through a <a href="#">secure online portal</a>.</p>
+
+<p>Once you are contacted by a recruiting analyst, you'll have 14&#160;days to complete all required forms and documents, including the Security Screening Application and submit them through a <a href="https://ssp-pfs.rcmp-grc.gc.ca/">secure online portal</a>.</p>
+
 <section id="s1">
   <h2>Required forms</h2>
   <ul class="gc-link-list" role="list">
     <li>
-        <a href="6509e.pdf" class="gc-pdf-link" download>
-       <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+      <a href="6509e.pdf" class="gc-pdf-link" download>
+        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
- </li>  <span class="gc-link-title">Regular Member Applicant Hearing Examination Report (RCMP&#160;6509)</span>
+          <span class="gc-link-title">Regular Member Applicant Hearing Examination Report (RCMP&#160;6509)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
-     </a>
-   </li>
+      </a>
+    </li>
     <li>
-        <a href="2180e.pdf" class="gc-pdf-link" download>
-       <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
- </li><span>
+      <a href="2180e.pdf" class="gc-pdf-link" download>
+        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+        <span>
           <span class="gc-link-title">Vision Examination of Applicant (RCMP&#160;2180)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
-     </a>
-   </li>
+      </a>
+    </li>
     <li>
-        <a href="5096e.pdf" class="gc-pdf-link" download>
- </li>i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+      <a href="5096e.pdf" class="gc-pdf-link" download>
+        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
           <span class="gc-link-title">Regular Member Applicant Questionnaire (RCMP&#160;5096)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
-     </a>
-   </li>
+      </a>
+    </li>
     <li>
- </li><a href="1980e.pdf" class="gc-pdf-link" download>
-       <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+      <a href="1980e.pdf" class="gc-pdf-link" download>
+        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
           <span class="gc-link-title">Suitability Screening Form (RCMP&#160;1980)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
-     </a>
-   </li>
- </li>
-        <a href="6465e.pdf" class="gc-pdf-link" download>
-       <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li>
+      <a href="6465e.pdf" class="gc-pdf-link" download>
+        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
           <span class="gc-link-title">Acknowledgement of Professional Responsibilities in the Royal Canadian Mounted Police (RCMP&#160;6465)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
-     </a>
-   </li>
+      </a>
+    </li>
   </ul>
 </section>
+
 <section id="s2">
   <h2>Required personal documents</h2>
   <p>You must scan the following <strong>original documents</strong>. We do not accept scans of copies.</p>
@@ -107,6 +106,7 @@ custom_css: /assets/css/careers.css
     <li>fitness logs and self-declaration</li>
   </ul>
 </section>
+
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page" style="display: block;">
   <div class="rcmp-content-page__prev" id="mp-prev-wrap" style="display: block;">
     <a aria-label="Previous page: Online career presentation and entrance assessment" class="rcmp-content-page__link" href="application-candidature-2-en.html" id="mp-prev"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i> <span class="rcmp-content-page__link-title">Previous page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-prev-label">Online career presentation and entrance assessment</span></a>

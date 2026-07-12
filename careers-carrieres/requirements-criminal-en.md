@@ -73,7 +73,7 @@ custom_css: /assets/css/careers.css
 <section id="s3">
   <h2>Related links</h2>
   <ul>
-    <li><a href="/en/careers-carrieres/basic-requirements-en">Basic requirements</a></li>
-    <li><a href="/en/careers-carrieres/application-process-6-0-en">6.0 – application process: Complete field investigation</a></li>
+    <li><a href="#">Basic requirements</a></li>
+    <li><a href="#">6.0 – application process: Complete field investigation</a></li>
   </ul>
 </section>

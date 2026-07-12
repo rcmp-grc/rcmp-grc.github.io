@@ -22,36 +22,28 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-2-fr.html">Exposé sur les carrières et évaluation d'entrée en ligne</a></li>
     <li><a href="application-candidature-3-fr.html">Transmettez les formulaires et les documents requis</a>
       <ul class="noline">
-        <li>
-          <a class="active" href="application-candidature-3-1-fr.html">Marche à suivre pour remplir les formulaires</a>
-     </li>>
- </li>ul>
-   </li>
+        <li><a class="active" href="application-candidature-3-1-fr.html">Marche à suivre pour remplir les formulaires</a></li>
+      </ul>
+    </li>
     <li><a href="application-candidature-4-fr.html">Passez une entrevue d'admissibilité</a></li>
     <li><a href="application-candidature-5-fr.html">Soumettez-vous à une évaluation médicale et une évaluation de l'aptitude psychologique</a>
       <ul class="noline">
-     </li>
- </li>  <a href="application-candidature-5-1-fr.html">Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière</a>
-       </li>
+        <li><a href="application-candidature-5-1-fr.html">Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière</a></li>
       </ul>
-   </li>
+    </li>
     <li><a href="application-candidature-6-fr.html">Passez une enquête sur les antécédents et une évaluation de sécurité</a></li>
   </ul>
 </nav>
+
 <nav aria-label="Sur cette page">
- </li>r cette page</h2>
+  <h2>Sur cette page</h2>
   <ul>
- </li>
-      <a href="#s1">Examens de la vue et de l'audition</a>
- </li>>
-    <li>
-      <a href="#s2">Demande de filtrage de sécurité</a>
-   </li>
-    <li>
-      <a href="#s3">Autres conseils sur la façon de remplir les formulaires</a>
-   </li>
+    <li><a href="#s1">Examens de la vue et de l'audition</a></li>
+    <li><a href="#s2">Demande de filtrage de sécurité</a></li>
+    <li><a href="#s3">Autres conseils sur la façon de remplir les formulaires</a></li>
   </ul>
 </nav>
+
 <section id="s1">
   <h2>Examens de la vue et de l'audition</h2>
   <p>Vous devez envoyer les deux formulaires de résultats des examens suivants à votre analyste du recrutement lorsqu'il vous en fera la demande. Ils doivent être reçus avant votre évaluation médicale.</p>
@@ -122,16 +114,17 @@ custom_css: /assets/css/careers.css
     </section>
   </section>
 </section>
-<s</li> id="s2">
+
+<section id="s2">
   <h2>Demande de filtrage de sécurité</h2>
   <p>Vous devez remplir une demande de filtrage de sécurité à l'aide de CléGC. CléGC est un service offert par le gouvernement du Canada qui permet d'accéder en toute sécurité à l'ensemble de ses programmes et services. Si votre candidature est retenue, vous recevrez des instructions pour créer votre profil CléGC et remplir et soumettre votre demande de filtrage de sécurité.</p>
   <p>Si vous éprouvez des difficultés techniques ou si vous avez des questions concernant le processus de filtrage de sécurité, veuillez utiliser les coordonnées suivantes&#160;:</p>
   <ul>
     <li>Pour ce qui concerne CléGC&#160;: 1-855-438-1102</li>
-    <li>Pour le formulaire de demande de filtrage de sécurité&#160;: <a href="mailto:rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca">rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca</a>
-   </li>
+    <li>Pour le formulaire de demande de filtrage de sécurité&#160;: <a href="mailto:rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca">rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca</a></li>
   </ul>
 </section>
+
 <section id="s3">
   <h2>Autres conseils sur la façon de remplir les formulaires</h2>
   <p>Voici quelques recommandations sur la manière de remplir et de transmettre les formulaires et documents requis&#160;:</p>
@@ -145,24 +138,25 @@ custom_css: /assets/css/careers.css
   </ul>
   <p>Pour pouvoir remplir et sauvegarder les formulaires en format PDF, vous devez les télécharger sur votre ordinateur puis les ouvrir avec <a href="https://get.adobe.com/reader/otherversions/">Adobe Reader® 10</a> (ou une&#160;version plus récente). Veuillez noter que les formulaires en format PDF ne peuvent pas être ouverts et remplis sur des appareils mobiles.</p>
 </section>
+
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
-   <div class="rcmp-content-page__previous" id="mp-previous-wrap">
-    <a aria-label="Étape précédent : Exposé sur les carrières et évaluation d'entrée en ligne" class="rcmp-content-page__link" href="application-candidature-3-fr.html" id="mp-previous">
+  <div class="rcmp-content-page__previous" id="mp-previous-wrap">
+    <a aria-label="Étape précédente&#160;: Transmettez les formulaires et les documents requis" class="rcmp-content-page__link" href="application-candidature-3-fr.html" id="mp-previous">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i>
-        <span class="rcmp-content-page__link-title">Étape précédent</span>
+        <span class="rcmp-content-page__link-title">Étape précédente</span>
       </span>
       <span class="rcmp-content-page__link-label" id="mp-previous-label">Transmettez les formulaires et les documents requis</span>
-   </a>
+    </a>
   </div>
   <div class="rcmp-content-page__next" id="mp-next-wrap">
-    <a aria-label="Étape suivante : Exposé sur les carrières et évaluation d'entrée en ligne" class="rcmp-content-page__link" href="application-candidature-4-fr.html" id="mp-next">
+    <a aria-label="Étape suivante&#160;: Passez une entrevue d'admissibilité" class="rcmp-content-page__link" href="application-candidature-4-fr.html" id="mp-next">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
         <span class="rcmp-content-page__link-title">Étape suivante</span>
       </span>
       <span class="rcmp-content-page__link-label" id="mp-next-label">Passez une entrevue d'admissibilité</span>
-   </a>
+    </a>
   </div>
 </nav>
 <script>

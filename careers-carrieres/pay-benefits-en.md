@@ -80,6 +80,6 @@ custom_css: /assets/css/careers.css
 <section id="s3">
   <h2>Related links</h2>
   <ul>
-    <li><a href="/en/careers-carrieres/pay-additional-allowances-en">Additional pay and special allowances for police officers</a></li>
+    <li><a href="#">Additional pay and special allowances for police officers</a></li>
   </ul>
 </section>

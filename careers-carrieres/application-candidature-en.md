@@ -13,6 +13,7 @@ custom_css: /assets/css/careers.css
 ---
 
 <p>Understand each step in the process to become a police officer – from the application submission to cadet training.</p>
+
 <nav class="gc-subway gc-subway-index">
   <h2>Steps in the process</h2>
   <dl>

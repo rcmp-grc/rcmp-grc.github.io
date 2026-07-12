@@ -52,7 +52,7 @@ custom_css: /assets/css/careers.css
 <section id="s3">
   <h2>Programme des auxiliaires</h2>
   <p>Le Programme des auxiliaires offre aux Canadiennes et Canadiens soucieux du bien-être de leur collectivité l'occasion de faire du bénévolat afin d'appuyer les initiatives de police communautaire, de prévention du crime et de sécurité publique. Selon leur niveau de service, les auxiliaires peuvent participer à diverses activités, notamment l'éducation du public, les événements communautaires, le contrôle de la circulation et le soutien aux opérations.</p>
-  <p>Apprenez-en davantage sur le <a href="/fr/careers-carrieres/programme-auxiliaires-fr">Programme des auxiliaires</a> et découvrez comment devenir bénévole.</p>
+  <p>Apprenez-en davantage sur le <a href="#">Programme des auxiliaires</a> et découvrez comment devenir bénévole.</p>
 </section>
 
 <section id="s4">

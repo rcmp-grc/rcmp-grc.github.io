@@ -73,7 +73,7 @@ custom_css: /assets/css/careers.css
 <section id="s3">
   <h2>Liens connexes</h2>
   <ul>
-    <li><a href="/fr/careers-carrieres/exigences-fondamentales-fr">Exigences fondamentales</a></li>
-    <li><a href="/fr/careers-carrieres/processus-candidature-6-0-fr">6.0 – Processus de candidature&#160;: Enquête sur les antécédents terminée</a></li>
+    <li><a href="#">Exigences fondamentales</a></li>
+    <li><a href="#">6.0 – Processus de candidature&#160;: Enquête sur les antécédents terminée</a></li>
   </ul>
 </section>

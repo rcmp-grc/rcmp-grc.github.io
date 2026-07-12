@@ -80,6 +80,6 @@ custom_css: /assets/css/careers.css
 <section id="s3">
   <h2>Liens connexes</h2>
   <ul>
-    <li><a href="/fr/careers-carrieres/solde-indemnites-speciales-fr">Rémunération supplémentaire et indemnités spéciales pour les policiers et policières</a></li>
+    <li><a href="#">Rémunération supplémentaire et indemnités spéciales pour les policiers et policières</a></li>
   </ul>
 </section>

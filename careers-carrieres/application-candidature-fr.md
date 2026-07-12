@@ -13,6 +13,7 @@ custom_css: /assets/css/careers.css
 ---
 
 <p>Comprendre chaque étape du processus pour devenir policier ou policière, de la candidature à la formation des cadets.</p>
+
 <nav class="gc-subway gc-subway-index">
   <h2>Étapes du processus</h2>
   <dl>
@@ -37,7 +38,7 @@ custom_css: /assets/css/careers.css
     </dt>
     <dd>Faites évaluer votre aptitude physique et mentale par un médecin et un psychologue désignés par la GRC.</dd>
     <dt>
-      <a href="application-candidature-6-en.html">Passez une enquête sur les antécédents et une évaluation de sécurité</a>
+      <a href="application-candidature-6-fr.html">Passez une enquête sur les antécédents et une évaluation de sécurité</a>
     </dt>
     <dd>Pour compléter votre dossier de candidature, passez une vérification de vos antécédents afin d'obtenir une autorisation de sécurité.</dd>
   </dl>

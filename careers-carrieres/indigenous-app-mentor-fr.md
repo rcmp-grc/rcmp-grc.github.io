@@ -43,7 +43,7 @@ custom_css: /assets/css/careers.css
       </header>
       <div class="panel-body">
         <ul>
-          <li>Vous vous demandez si une carrière dans la police vous convient? <a href="/fr/careers-carrieres/readiness-preparation-fr">Faites le test de préparation.</a></li>
+          <li>Vous vous demandez si une carrière dans la police vous convient? <a href="#">Faites le test de préparation.</a></li>
         </ul>
       </div>
     </section>

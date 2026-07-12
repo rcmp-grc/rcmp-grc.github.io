@@ -2289,26 +2289,27 @@ main .cnt-wdth-lmtd #re-grid li {
   max-width: none;
 }
 
-.fp-section--mirror {
-  justify-content: flex-end;
-}
-
 .fp-overlay--mirror {
   background: linear-gradient(to left, rgba(1, 27, 60, 0.75) 40%, rgba(1, 27, 60, 0.2) 100%);
 }
 
 .fp-content--mirror {
-  left: auto;
-  right: 50%;
-  transform: translate(50%, -50%);
   text-align: right;
+}
+
+.fp-section #wb-bc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 4;
 }
 
 @media (max-width: 991px) {
   .fp-content--mirror {
-    right: 24px;
     left: auto;
-    transform: translateY(-50%);
+    right: 24px;
+    padding-left: 0;
     padding-right: 0;
   }
 }

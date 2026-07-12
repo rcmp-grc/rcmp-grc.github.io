@@ -22,37 +22,30 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a></li>
     <li><a href="application-candidature-3-en.html">Submit the required forms and documents</a>
       <ul class="noline">
-        <li>
-          <a href="application-candidature-3-1-en.html">How to complete the forms</a>
-     </li>>
- </li>ul>
-   </li>
+        <li><a href="application-candidature-3-1-en.html">How to complete the forms</a></li>
+      </ul>
+    </li>
     <li><a href="application-candidature-4-en.html">Complete a suitability interview</a></li>
     <li><a href="application-candidature-5-en.html">Complete psychological and medical suitability assessments</a>
       <ul class="noline">
-     </li>
- </li>  <a href="application-candidature-5-1-en.html">Health conditions that could impact your suitability to become a police officer</a>
-       </li>
+        <li><a href="application-candidature-5-1-en.html">Health conditions that could impact your suitability to become a police officer</a></li>
       </ul>
-   </li>
+    </li>
     <li><a class="active" href="application-candidature-6-en.html">Complete a field investigation and security assessment</a></li>
   </ul>
 </nav>
+
 <nav aria-label="On this page">
- </li> this page</h2>
+  <h2>On this page</h2>
   <ul>
- </li>
-      <a href="#s1">What to expect from the security clearance process</a>
- </li>>
-    <li>
-      <a href="#s2">What to do if you've been away from Canada</a>
-   </li>
-    <li>
-      <a href="#s3">Application process complete</a>
-   </li>
+    <li><a href="#s1">What to expect from the security clearance process</a></li>
+    <li><a href="#s2">What to do if you've been away from Canada</a></li>
+    <li><a href="#s3">Application process complete</a></li>
   </ul>
 </nav>
-<p>The final step in the application process is a field investigation along with a security assessment. The RCMP will conduct a thorough investigation into your background, including your activities during the past 10 years, to further assess your reliability and suitability. If successful, you will receive your security clearance.</p>
+
+<p>The final step in the application process is a field investigation along with a security assessment. The RCMP will conduct a thorough investigation into your background, including your activities during the past 10&#160;years, to further assess your reliability and suitability. If successful, you will receive your security clearance.</p>
+
 <section id="s1">
   <h2>What to expect from the security clearance process</h2>
   <p>The investigation focuses on:</p>
@@ -70,10 +63,11 @@ custom_css: /assets/css/careers.css
     <li>loyalty to Canada</li>
   </ul>
 </section>
+
 <section id="s2">
   <h2>What to do if you've been away from Canada</h2>
-  <p>If you're a Canadian citizen and you've been outside of Canada for more than 6 months in a row during the past 10 years, you'll need to provide details of your activities during that time.</p>
-  <p>In some cases, we may ask you to provide details of your activities even if you've been outside of Canada for less than 6 months. Examples of documents to help you provide details of your activities include:</p>
+  <p>If you're a Canadian citizen and you've been outside of Canada for more than 6&#160;months in a row during the past 10&#160;years, you'll need to provide details of your activities during that time.</p>
+  <p>In some cases, we may ask you to provide details of your activities even if you've been outside of Canada for less than 6&#160;months. Examples of documents to help you provide details of your activities include:</p>
   <ul>
     <li>letters of reference or referral from foreign embassies and missions in Canada</li>
     <li>letters of reference or referral from Canadian embassies or missions in the country in which you lived while abroad</li>
@@ -84,6 +78,7 @@ custom_css: /assets/css/careers.css
   </ul>
   <p>If you were away from Canada working for the Government of Canada or with the Canadian Armed Forces, you may not need to account for your activities.</p>
 </section>
+
 <section id="s3">
   <h2>Application process complete</h2>
   <p>If you've successfully completed the application process, you're ready for the RCMP Cadet Training Program at Depot, the RCMP's training academy.</p>
@@ -91,6 +86,7 @@ custom_css: /assets/css/careers.css
   <p>Curious if a job in policing is right for you?</p>
   <p><a href="#" class="btn btn-careers mrgn-bttm-lg">Take the Readiness Check</a></p>
 </section>
+
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page" style="display: block;">
   <div class="rcmp-content-page__prev" id="mp-prev-wrap" style="display: block;">
     <a aria-label="Previous page: Health conditions that could impact your suitability to become a police officer" class="rcmp-content-page__link" href="application-candidature-5-1-en.html" id="mp-prev"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i> <span class="rcmp-content-page__link-title">Previous page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-prev-label">Health conditions that could impact your suitability to become a police officer</span></a>

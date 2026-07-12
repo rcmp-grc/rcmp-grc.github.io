@@ -22,84 +22,61 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a></li>
     <li><a href="application-candidature-3-en.html">Submit the required forms and documents</a>
       <ul class="noline">
-        <li>
-          <a href="application-candidature-3-1-en.html">How to complete the forms</a>
-     </li>>
- </li>ul>
-   </li>
+        <li><a href="application-candidature-3-1-en.html">How to complete the forms</a></li>
+      </ul>
+    </li>
     <li><a href="application-candidature-4-en.html">Complete a suitability interview</a></li>
     <li><a href="application-candidature-5-en.html">Complete psychological and medical suitability assessments</a>
       <ul class="noline">
-     </li>
- </li>  <a class="active" href="application-candidature-5-1-en.html">Health conditions that could impact your suitability to become a police officer</a>
-       </li>
+        <li><a class="active" href="application-candidature-5-1-en.html">Health conditions that could impact your suitability to become a police officer</a></li>
       </ul>
-   </li>
+    </li>
     <li><a href="application-candidature-6-en.html">Complete a field investigation and security assessment</a></li>
   </ul>
 </nav>
+
 <nav aria-label="On this page">
- </li> this page</h2>
+  <h2>On this page</h2>
   <ul>
- </li>
-      <a href="#s1">Respiratory disease</a>
- </li>>
-    <li>
- </li> href="#s2">Cardiovascular conditions</a>
-   </li>
- </li>
-      <a href="#s3">Neurological conditions</a>
- </li>>
-    <li>
- </li> href="#s4">Endocrine conditions</a>
-   </li>
- </li>
-      <a href="#s5">Musculoskeletal conditions</a>
- </li>>
-    <li>
- </li> href="#s6">Abdominal conditions</a>
-   </li>
- </li>
-      <a href="#s7">Eye or ear conditions</a>
-   </li>
-    <li>
-      <a href="#s8">Hematologic conditions</a>
-   </li>
-    <li>
-      <a href="#s9">Immunologic/allergic/oncologic and infectious conditions</a>
-   </li>
-    <li>
-</li><a href="#s10">Psychological/psychiatric or mental health conditions</a>
-   </li>
-    <li>
-      <a href="#s11">Other health conditions</a>
-</li>li>
+    <li><a href="#s1">Respiratory disease</a></li>
+    <li><a href="#s2">Cardiovascular conditions</a></li>
+    <li><a href="#s3">Neurological conditions</a></li>
+    <li><a href="#s4">Endocrine conditions</a></li>
+    <li><a href="#s5">Musculoskeletal conditions</a></li>
+    <li><a href="#s6">Abdominal conditions</a></li>
+    <li><a href="#s7">Eye or ear conditions</a></li>
+    <li><a href="#s8">Hematologic conditions</a></li>
+    <li><a href="#s9">Immunologic/allergic/oncologic and infectious conditions</a></li>
+    <li><a href="#s10">Psychological/psychiatric or mental health conditions</a></li>
+    <li><a href="#s11">Other health conditions</a></li>
   </ul>
 </nav>
+
 <p>There are some health conditions that could impact your medical suitability assessment. It is important to declare these conditions openly and honestly.</p>
-</li> are expected to declare the following:</p>
+<p>You are expected to declare the following:</p>
 <ul>
   <li>all your current health conditions (even if they seem minor to you)
     <ul>
       <li>this includes any and all medical and psychological conditions</li>
       <li>the dates you started experiencing these conditions, limitations or restrictions, treatment plans and the prognosis</li>
     </ul>
- </li>
+  </li>
   <li>past medical and psychological history (include health conditions that required treatment or medication or that caused you any limitations or restrictions)
     <ul>
       <li>the dates you started experiencing these conditions, limitations and restrictions, treatment plans and the prognosis</li>
     </ul>
- </li>
+  </li>
   <li>use of medications, supplements and substances (prescription and otherwise)
     <ul>
       <li>the dates you start using these and why</li>
     </ul>
- </li>
+  </li>
   <li>any requirements for medical aids (for example, orthotics, braces, support animals) at the time of the medical assessment</li>
 </ul>
 <p>If you don't declare your full medical and psychological history, it could be seen as dishonest and may impact your success in the application process. It's also crucial to declare any health changes during the recruiting process before you start the Cadet Training Program at Depot, as well as any issues that may emerge during training.</p>
 <p>We recommend that you take the opportunity to self-assess based on known medical and psychological conditions that may affect your fitness for duty.</p>
 <p>Review a list of health conditions that could cause restrictions, limitations, or both, to your ability to perform essential police officer duties.</p>
+
 <section id="s1">
   <h2>Respiratory disease</h2>
   <ul>
@@ -108,6 +85,7 @@ custom_css: /assets/css/careers.css
     <li>Emphysema</li>
   </ul>
 </section>
+
 <section id="s2">
   <h2>Cardiovascular conditions</h2>
   <ul>
@@ -123,10 +101,11 @@ custom_css: /assets/css/careers.css
     <li>Peripheral vascular disease</li>
   </ul>
 </section>
+
 <section id="s3">
   <h2>Neurological conditions</h2>
   <ul>
-    <li>Seizure disorders and epilepsy (must be seizure free for at least 5 years)</li>
+    <li>Seizure disorders and epilepsy (must be seizure free for at least 5&#160;years)</li>
     <li>Narcolepsy</li>
     <li>Sleep apnea and other disturbances of consciousness</li>
     <li>Vestibular disorders</li>
@@ -137,6 +116,7 @@ custom_css: /assets/css/careers.css
     <li>Intracranial tumour</li>
   </ul>
 </section>
+
 <section id="s4">
   <h2>Endocrine conditions</h2>
   <ul>
@@ -147,6 +127,7 @@ custom_css: /assets/css/careers.css
     <li>Pheochromocytoma</li>
   </ul>
 </section>
+
 <section id="s5">
   <h2>Musculoskeletal conditions</h2>
   <ul>
@@ -156,6 +137,7 @@ custom_css: /assets/css/careers.css
     <li>Limb amputation</li>
   </ul>
 </section>
+
 <section id="s6">
   <h2>Abdominal conditions</h2>
   <ul>
@@ -165,6 +147,7 @@ custom_css: /assets/css/careers.css
     <li>Disease of the liver such as cirrhosis</li>
   </ul>
 </section>
+
 <section id="s7">
   <h2>Eye or ear conditions</h2>
   <ul>
@@ -172,6 +155,7 @@ custom_css: /assets/css/careers.css
     <li>Hearing impairment such as hearing acuity, Meniere's disease and benign positional vertigo</li>
   </ul>
 </section>
+
 <section id="s8">
   <h2>Hematologic conditions</h2>
   <ul>
@@ -180,6 +164,7 @@ custom_css: /assets/css/careers.css
     <li>The use of anti-coagulation medications may pose a risk to occupational policing and therefore may be disqualifying</li>
   </ul>
 </section>
+
 <section id="s9">
   <h2>Immunologic/allergic/oncologic and infectious conditions</h2>
   <ul>
@@ -189,6 +174,7 @@ custom_css: /assets/css/careers.css
     <li>Chronic and/or life-threatening infectious disease</li>
   </ul>
 </section>
+
 <section id="s10">
   <h2>Psychological/psychiatric or mental health conditions</h2>
   <ul>
@@ -203,10 +189,12 @@ custom_css: /assets/css/careers.css
     <li>Other mental health disorders associated with significant distress or impairment in social, occupational or other areas of functioning, including somatoform disorder, and OCD (obsessive compulsive disorder)</li>
   </ul>
 </section>
+
 <section id="s11">
   <h2>Other health conditions</h2>
   <p>There are also other chronic or medical conditions that could cause functional impairment and may interfere with your ability to perform policing duties. Unique conditions will be assessed to determine your suitability.</p>
 </section>
+
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page" style="display: block;">
   <div class="rcmp-content-page__prev" id="mp-prev-wrap" style="display: block;">
     <a aria-label="Previous page: Complete psychological and medical suitability assessments" class="rcmp-content-page__link" href="application-candidature-5-en.html" id="mp-prev"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i> <span class="rcmp-content-page__link-title">Previous page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-prev-label">Complete psychological and medical suitability assessments</span></a>

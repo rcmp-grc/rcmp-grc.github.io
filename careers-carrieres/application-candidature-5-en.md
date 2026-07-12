@@ -22,22 +22,19 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a></li>
     <li><a href="application-candidature-3-en.html">Submit the required forms and documents</a>
       <ul class="noline">
-        <li>
-          <a href="application-candidature-3-1-en.html">How to complete the forms</a>
-     </li>>
- </li>ul>
-   </li>
+        <li><a href="application-candidature-3-1-en.html">How to complete the forms</a></li>
+      </ul>
+    </li>
     <li><a href="application-candidature-4-en.html">Complete a suitability interview</a></li>
     <li><a class="active" href="application-candidature-5-en.html">Complete psychological and medical suitability assessments</a>
       <ul class="noline">
-     </li>
- </li>  <a href="application-candidature-5-1-en.html">Health conditions that could impact your suitability to become a police officer</a>
-       </li>
+        <li><a href="application-candidature-5-1-en.html">Health conditions that could impact your suitability to become a police officer</a></li>
       </ul>
-   </li>
+    </li>
     <li><a href="application-candidature-6-en.html">Complete a field investigation and security assessment</a></li>
   </ul>
 </nav>
+
 <p>After completing the suitability interview, you will need to see RCMP-designated physicians and psychologists for a medical and psychological suitability assessments. If successful at these stages, you will receive your medical clearance.</p>
 <p>This part of the process is divided into two distinct stages:</p>
 <ul>
@@ -46,6 +43,7 @@ custom_css: /assets/css/careers.css
 </ul>
 <p>You will be required to undergo all the steps of the PSS and be deemed psychologically qualified before you can continue to the medical screening.</p>
 <p>The RCMP will cover the cost of these basic assessments.</p>
+
 <section id="s1">
   <h2>Psychological and medical suitability standards</h2>
   <p>While physically and mentally demanding incidents may not always happen often in policing, when they do, they may be intense and life threatening.</p>
@@ -132,6 +130,7 @@ custom_css: /assets/css/careers.css
     </section>
   </section>
 </section>
+
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page" style="display: block;">
   <div class="rcmp-content-page__prev" id="mp-prev-wrap" style="display: block;">
     <a aria-label="Previous page: Complete a suitability interview" class="rcmp-content-page__link" href="application-candidature-4-en.html" id="mp-prev"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i> <span class="rcmp-content-page__link-title">Previous page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-prev-label">Complete a suitability interview</span></a>

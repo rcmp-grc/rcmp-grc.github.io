@@ -22,22 +22,19 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-2-fr.html">Exposé sur les carrières et évaluation d'entrée en ligne</a></li>
     <li><a href="application-candidature-3-fr.html">Transmettez les formulaires et les documents requis</a>
       <ul class="noline">
-        <li>
-          <a href="application-candidature-3-1-fr.html">Marche à suivre pour remplir les formulaires</a>
-     </li>>
- </li>ul>
-   </li>
+        <li><a href="application-candidature-3-1-fr.html">Marche à suivre pour remplir les formulaires</a></li>
+      </ul>
+    </li>
     <li><a href="application-candidature-4-fr.html">Passez une entrevue d'admissibilité</a></li>
     <li><a class="active" href="application-candidature-5-fr.html">Soumettez-vous à une évaluation médicale et une évaluation de l'aptitude psychologique</a>
       <ul class="noline">
-     </li>
- </li>  <a href="application-candidature-5-1-fr.html">Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière</a>
-       </li>
+        <li><a href="application-candidature-5-1-fr.html">Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière</a></li>
       </ul>
-   </li>
+    </li>
     <li><a href="application-candidature-6-fr.html">Passez une enquête sur les antécédents et une évaluation de sécurité</a></li>
   </ul>
 </nav>
+
 <p>Après avoir passé l'entrevue d'admissibilité, vous devrez rencontrer des médecins et des psychologues désignés par la GRC pour une évaluation de votre santé physique et psychologique. Si ces évaluations sont concluantes, vous recevrez votre certificat d'aptitude physique et psychologique.</p>
 <p>Cette partie du processus comporte deux volets distincts&#160;:</p>
 <ul>
@@ -46,6 +43,7 @@ custom_css: /assets/css/careers.css
 </ul>
 <p>Vous devrez franchir toutes les étapes de l'EAP et être jugé(e) apte sur le plan psychologique avant de pouvoir vous soumettre à l'EM.</p>
 <p>La GRC prendra en charge les coûts de ces deux&#160;évaluations.</p>
+
 <section id="s1">
   <h2>Normes en matière de santé physique et psychologique</h2>
   <p>Les incidents exigeants sur le plan physique et psychique ne sont pas fréquents, mais quand ils surviennent, ils peuvent être intenses et dangereux.</p>
@@ -62,94 +60,95 @@ custom_css: /assets/css/careers.css
     <li>la prise de décisions opérationnelles</li>
   </ul>
   <section id="s1-1">
-    <h3>Psychological Suitability Screening</h3>
-    <p>This evaluation helps to determine whether you have the necessary psychological qualities to be a police officer.</p>
-    <p>You will complete a pre-interview questionnaire. In it you must list any past or current psychological conditions or concerns and provide additional health information. All answers should be complete and accurate. If there are significant gaps, missing details, or incorrect information your application may be rejected. This will be added to your medical file.</p>
-    <p>Before you begin the testing, you must sign a consent form. By signing, you'll agree that you won't have access to any reports, test results or feedback from your Psychological Suitability Screening.</p>
-    <p>The evaluation will include:</p>
+    <h3>Évaluation de l'aptitude psychologique</h3>
+    <p>Cette évaluation permet de déterminer si vous possédez les qualités psychologiques nécessaires pour devenir policier ou policière.</p>
+    <p>Vous devrez remplir un questionnaire préalable à l'entrevue. Vous devrez y énumérer tout problème ou toute préoccupation d'ordre psychologique, passé ou présent, et fournir des renseignements supplémentaires sur votre état de santé. Toutes vos réponses doivent être complètes et exactes. Des lacunes importantes, des renseignements manquants ou inexacts pourraient entraîner le rejet de votre candidature. Ces renseignements seront versés à votre dossier médical.</p>
+    <p>Avant de commencer les tests, vous devrez signer un formulaire de consentement. En le signant, vous acceptez de ne pas avoir accès aux rapports, aux résultats des tests ni à la rétroaction découlant de votre évaluation de l'aptitude psychologique.</p>
+    <p>L'évaluation comprend&#160;:</p>
     <ul>
-      <li>standardized psychological testing</li>
-      <li>an interview</li>
-      <li>a review of collateral or third-party information</li>
+      <li>des tests psychologiques normalisés</li>
+      <li>une entrevue</li>
+      <li>un examen des renseignements complémentaires ou obtenus de tiers</li>
     </ul>
-    <p>The collateral information may include insights gathered in other steps of the RCMP selection process, such as the suitability interview, polygraph, reference checks, medical and security. It may also include a review of prior psychological or neuropsychological assessments that you provided to the RCMP or that were performed at the time of previous job applications. The suitability team will review your results and make an overall recommendation.</p>
-    <p>Even if you don't have a mental illness, the Psychological Suitability Screening may conclude that you're not psychologically suitable for a policing role with the RCMP. A history of psychological difficulties does not automatically mean your application will be rejected.</p>
-    <p>If you do have a history of psychological difficulties, you may need to provide documentation that shows:</p>
+    <p>Les renseignements complémentaires peuvent comprendre des observations recueillies à d'autres étapes du processus de sélection de la GRC, comme l'entrevue d'admissibilité, le test polygraphique, la vérification des références, ainsi que les évaluations médicale et de sécurité. Ils peuvent également comprendre un examen des évaluations psychologiques ou neuropsychologiques antérieures que vous avez fournies à la GRC ou qui ont été effectuées lors de demandes d'emploi précédentes. L'équipe chargée de l'évaluation de l'aptitude examinera vos résultats et formulera une recommandation globale.</p>
+    <p>Même si vous n'avez aucun problème de santé mentale, l'évaluation de l'aptitude psychologique pourrait conclure que vous n'êtes pas apte, sur le plan psychologique, à occuper un poste de policier ou policière à la GRC. Le fait d'avoir déjà éprouvé des difficultés d'ordre psychologique n'entraîne pas automatiquement le rejet de votre candidature.</p>
+    <p>Si vous avez des antécédents de difficultés psychologiques, vous devrez peut-être fournir des documents démontrant&#160;:</p>
     <ul>
-      <li>how your difficulties were resolved; and/or</li>
-      <li>how you've functioned successfully over time</li>
+      <li>comment ces difficultés ont été résolues, ou</li>
+      <li>comment vous avez su bien fonctionner au fil du temps</li>
     </ul>
-    <p>This information will help us assess your suitability for the role.</p>
+    <p>Ces renseignements nous aideront à évaluer votre aptitude à occuper ce poste.</p>
   </section>
   <section id="s1-2">
-    <h3>Medical Screening Process</h3>
-    <p>The Medical Screening Process is a fitness for duty assessment. You will complete this phase after passing the Psychological Suitability Screening. All relevant reports and information gathered during the psychological screening will be used as part of the full review of your file.</p>
-    <p>The assessment of your fitness for duty includes:</p>
+    <h3>Évaluation médicale</h3>
+    <p>L'évaluation médicale permet de déterminer votre aptitude au travail. Vous passerez à cette étape après avoir réussi l'évaluation de l'aptitude psychologique. Tous les rapports et renseignements pertinents recueillis pendant l'évaluation psychologique seront pris en compte dans l'examen complet de votre dossier.</p>
+    <p>L'évaluation de votre aptitude au travail comprend&#160;:</p>
     <ul>
-      <li>a review of current and past medical and psychological conditions</li>
-      <li>their impact on your ability to perform essential operational police duties</li>
+      <li>un examen de vos problèmes de santé physique et psychologique, passés et présents</li>
+      <li>leur incidence sur votre capacité à exercer les fonctions opérationnelles essentielles du métier de policier</li>
     </ul>
     <section id="s1-2-1">
-      <h4>Medical health information</h4>
-      <p>The medical health information gathered during your Medical Screening Process includes:</p>
+      <h4>Renseignements médicaux</h4>
+      <p>Les renseignements médicaux recueillis pendant votre évaluation médicale comprennent&#160;:</p>
       <ul>
-        <li>a clinical health history</li>
-        <li>a physical examination</li>
-        <li>lab tests</li>
+        <li>vos antécédents médicaux cliniques</li>
+        <li>un examen physique</li>
+        <li>des analyses de laboratoire</li>
       </ul>
     </section>
     <section id="s1-2-2">
-      <h4>Completing the fitness for duty assessment</h4>
-      <p>To complete your fitness for duty assessment, the RCMP Health Services Officer may request that you provide additional information from your primary health care provider or your specialist such as:</p>
+      <h4>Réalisation de l'évaluation de l'aptitude au travail</h4>
+      <p>Pour compléter votre évaluation de l'aptitude au travail, l'agent des services de santé de la GRC pourrait vous demander de fournir des renseignements supplémentaires de la part de votre fournisseur de soins de santé primaires ou d'un spécialiste, notamment&#160;:</p>
       <ul>
-        <li>copies of relevant medical records</li>
-        <li>specialist consultations</li>
-        <li>further testing or investigations to better understand any condition that may affect your physical or psychological functioning in a policing role</li>
+        <li>des copies de dossiers médicaux pertinents</li>
+        <li>des consultations avec des spécialistes</li>
+        <li>des tests ou examens supplémentaires afin de mieux comprendre tout problème de santé pouvant nuire à votre fonctionnement physique ou psychologique dans le cadre du travail policier</li>
       </ul>
-      <p>You may not meet the minimum fitness for duty requirements if you have a medical or psychological condition, treatment, limitation, or restriction that:</p>
+      <p>Vous pourriez ne pas satisfaire aux exigences minimales en matière d'aptitude au travail si vous avez un problème de santé physique ou psychologique, un traitement, une limitation ou une restriction qui&#160;:</p>
       <ul>
-        <li>impairs performance to the degree that you cannot complete essential duties safely and effectively</li>
-        <li>increases risk, to an unacceptable level, to your personal health</li>
-        <li>increases risk of sudden incapacitation or impaired judgment</li>
-        <li>could spread an infectious disease to coworkers or the public</li>
-        <li>makes you ineligible to drive professionally under the Canadian Medical Association guidelines</li>
+        <li>nuit à votre rendement au point de vous empêcher d'exercer vos fonctions essentielles de façon sécuritaire et efficace</li>
+        <li>augmente les risques pour votre santé personnelle à un niveau inacceptable</li>
+        <li>augmente le risque d'incapacité soudaine ou d'un jugement affaibli</li>
+        <li>pourrait transmettre une maladie infectieuse à vos collègues ou au public</li>
+        <li>vous rend inadmissible à la conduite professionnelle selon les lignes directrices de l'Association médicale canadienne</li>
       </ul>
     </section>
     <section id="s1-2-3">
-      <h4>Immunizations and tuberculosis status</h4>
-      <p>We recommend that you get the following immunizations and a tuberculosis screening prior to applying. You will be required to submit a complete RCMP Applicant Immunization and Tuberculosis Test Record form before you begin cadet training at Depot.</p>
-      <p>The following adult immunizations should be up to date:</p>
+      <h4>Vaccination et statut relatif à la tuberculose</h4>
+      <p>Nous vous recommandons de recevoir les vaccins suivants et de subir un test de dépistage de la tuberculose avant de poser votre candidature. Vous devrez remettre le formulaire complet Dossier de vaccination et de test de dépistage de la tuberculose du postulant de la GRC avant de commencer la formation des cadets à la Division Dépôt.</p>
+      <p>Les vaccins suivants doivent être à jour chez l'adulte&#160;:</p>
       <ul>
-        <li>tetanus, diphtheria, and pertussis (Tdap)</li>
-        <li>measles, mumps and rubella (MMR)</li>
-        <li>hepatitis&#160;B series</li>
+        <li>tétanos, diphtérie et coqueluche (dcaT)</li>
+        <li>rougeole, oreillons et rubéole (RRO)</li>
+        <li>série de vaccins contre l'hépatite&#160;B</li>
       </ul>
-      <p>Your RCMP Applicant Immunization and Tuberculosis Test Record form will also need to document results from the following test:</p>
+      <p>Votre formulaire Dossier de vaccination et de test de dépistage de la tuberculose du postulant de la GRC devra également indiquer les résultats du test suivant&#160;:</p>
       <ul>
-        <li>two-step tuberculin skin test (Mantoux), include date, results in millimetre and signature of provider reading results. This will require 4&#160;separate appointments.</li>
-        <li>chest x-ray (only if positive Mantoux at 10&#160;millimetres or greater)</li>
+        <li>test cutané tuberculinique en deux étapes (test de Mantoux), incluant la date, les résultats en millimètres et la signature du professionnel ayant interprété les résultats. Ce test nécessite 4&#160;rendez-vous distincts.</li>
+        <li>radiographie pulmonaire (seulement si le test de Mantoux est positif, soit 10&#160;millimètres ou plus)</li>
       </ul>
     </section>
   </section>
 </section>
+
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
-   <div class="rcmp-content-page__previous" id="mp-previous-wrap">
-    <a aria-label="Étape précédent : Exposé sur les carrières et évaluation d'entrée en ligne" class="rcmp-content-page__link" href="application-candidature-4-fr.html" id="mp-previous">
+  <div class="rcmp-content-page__previous" id="mp-previous-wrap">
+    <a aria-label="Étape précédente&#160;: Passez une entrevue d'admissibilité" class="rcmp-content-page__link" href="application-candidature-4-fr.html" id="mp-previous">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i>
-        <span class="rcmp-content-page__link-title">Étape précédent</span>
+        <span class="rcmp-content-page__link-title">Étape précédente</span>
       </span>
       <span class="rcmp-content-page__link-label" id="mp-previous-label">Passez une entrevue d'admissibilité</span>
-   </a>
+    </a>
   </div>
   <div class="rcmp-content-page__next" id="mp-next-wrap">
-    <a aria-label="Étape suivante : Exposé sur les carrières et évaluation d'entrée en ligne" class="rcmp-content-page__link" href="application-candidature-5-1-fr.html" id="mp-next">
+    <a aria-label="Étape suivante&#160;: Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière" class="rcmp-content-page__link" href="application-candidature-5-1-fr.html" id="mp-next">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
         <span class="rcmp-content-page__link-title">Étape suivante</span>
       </span>
       <span class="rcmp-content-page__link-label" id="mp-next-label">Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière</span>
-   </a>
+    </a>
   </div>
 </nav>
 <script>

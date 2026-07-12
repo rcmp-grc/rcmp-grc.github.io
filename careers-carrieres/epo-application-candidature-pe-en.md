@@ -12,7 +12,8 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<p>In the Experienced Police Officer application process, you must follow the steps below, that may differ based on province or territory.</p>
+<p>In the Experienced Police Officer application process, you must follow the steps below, which may differ based on province or territory.</p>
+
 <nav class="gc-subway gc-subway-index">
   <h2>Steps in the process</h2>
   <dl>

@@ -22,24 +22,22 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-2-fr.html">Exposé sur les carrières et évaluation d'entrée en ligne</a></li>
     <li><a href="application-candidature-3-fr.html">Transmettez les formulaires et les documents requis</a>
       <ul class="noline">
-        <li>
-          <a href="application-candidature-3-1-fr.html">Marche à suivre pour remplir les formulaires</a>
-     </li>>
- </li>ul>
-   </li>
+        <li><a href="application-candidature-3-1-fr.html">Marche à suivre pour remplir les formulaires</a></li>
+      </ul>
+    </li>
     <li><a class="active" href="application-candidature-4-fr.html">Passez une entrevue d'admissibilité</a></li>
     <li><a href="application-candidature-5-fr.html">Soumettez-vous à une évaluation médicale et une évaluation de l'aptitude psychologique</a>
       <ul class="noline">
-     </li>
- </li>  <a href="application-candidature-5-1-fr.html">Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière</a>
-       </li>
+        <li><a href="application-candidature-5-1-fr.html">Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière</a></li>
       </ul>
-   </li>
+    </li>
     <li><a href="application-candidature-6-fr.html">Passez une enquête sur les antécédents et une évaluation de sécurité</a></li>
   </ul>
 </nav>
+
 <p>L'entrevue d'admissibilité comprend une série de questions destinées à mieux vous connaître. On vous posera des questions comportementales afin d'évaluer vos connaissances, vos compétences et vos aptitudes et déterminer si vous possédez les qualités nécessaires pour devenir un(e) bon(ne) policier(ière) à la GRC. Nous passerons également en revue le Questionnaire du postulant à un&#160;poste de membre régulier (QPPMR) afin de déterminer si des gestes que vous avez posés ou des comportements que vous avez eus dans le passé pourraient vous empêcher de devenir un(e)&#160;policier(ière) de la GRC.</p>
 <p>Ce questionnaire sert surtout à évaluer votre honnêteté. Nous vérifierons soigneusement vos réponses pour nous assurer qu'elles sont sincères.</p>
+
 <section id="s1">
   <h2>Entrevue liée au Questionnaire du postulant à un&#160;poste de membre régulier</h2>
   <p>Nous vous poserons des questions sur différents aspects de votre vie et procéderons par la suite à une&#160;vérification de vos antécédents. Veuillez répondre à toutes les questions de façon précise et honnête. Si vous hésitez ou craignez que votre réponse soit imparfaite, ne vous inquiétez pas, l'honnêteté est ce qui compte le plus. Fournir de faux renseignements peut entraîner le rejet de votre candidature.</p>
@@ -52,24 +50,25 @@ custom_css: /assets/css/careers.css
     </section>
   </section>
 </section>
+
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
-   <div class="rcmp-content-page__previous" id="mp-previous-wrap">
-    <a aria-label="Étape précédent : Exposé sur les carrières et évaluation d'entrée en ligne" class="rcmp-content-page__link" href="application-candidature-3-1-fr.html" id="mp-previous">
+  <div class="rcmp-content-page__previous" id="mp-previous-wrap">
+    <a aria-label="Étape précédente&#160;: Marche à suivre pour remplir les formulaires" class="rcmp-content-page__link" href="application-candidature-3-1-fr.html" id="mp-previous">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i>
-        <span class="rcmp-content-page__link-title">Étape précédent</span>
+        <span class="rcmp-content-page__link-title">Étape précédente</span>
       </span>
       <span class="rcmp-content-page__link-label" id="mp-previous-label">Marche à suivre pour remplir les formulaires</span>
-   </a>
+    </a>
   </div>
   <div class="rcmp-content-page__next" id="mp-next-wrap">
-    <a aria-label="Étape suivante : Exposé sur les carrières et évaluation d'entrée en ligne" class="rcmp-content-page__link" href="application-candidature-5-fr.html" id="mp-next">
+    <a aria-label="Étape suivante&#160;: Soumettez-vous à une évaluation médicale et une évaluation de l'aptitude psychologique" class="rcmp-content-page__link" href="application-candidature-5-fr.html" id="mp-next">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
         <span class="rcmp-content-page__link-title">Étape suivante</span>
       </span>
       <span class="rcmp-content-page__link-label" id="mp-next-label">Soumettez-vous à une évaluation médicale et une évaluation de l'aptitude psychologique</span>
-   </a>
+    </a>
   </div>
 </nav>
 <script>

@@ -13,6 +13,7 @@ custom_css: /assets/css/careers.css
 ---
 
 <p>Dans le processus de recrutement de policiers et policières d'expérience, vous devez suivre les étapes ci-dessous, qui peuvent varier en fonction de la province ou du territoire.</p>
+
 <nav class="gc-subway gc-subway-index">
   <h2>Étapes du processus</h2>
   <dl>

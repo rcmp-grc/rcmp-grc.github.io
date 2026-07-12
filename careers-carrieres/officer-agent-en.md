@@ -61,7 +61,7 @@ custom_css: /assets/css/careers.css
       </div>
     </li>
     <li class="col-md-4 col-sm-6">
-      <div>iv class="well">
+      <div class="well">
         <h3 class="h5"><i aria-hidden="true" class="fa-solid fa-file-invoice-dollar"></i> <a href="#">Pay and benefits</a></h3>
         <p>Uncover your RCMP career advantages and growth opportunities.</p>
       </div>
@@ -86,7 +86,7 @@ custom_css: /assets/css/careers.css
 <section aria-labelledby="streams-heading" class="gc-features">
   <h2 class="h2-line" id="streams-heading">Dedicated recruitment streams</h2>
   <ul class="list-unstyled row">
-    <li>class="col-lg-3 col-md-6">
+    <li class="col-lg-3 col-md-6">
      <div class="well">
         <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-1.jpg">
         <h3 class="h5"><a href="topics-sujets-en.html">First Nations, Inuit and Métis applicant programs</a></h3>

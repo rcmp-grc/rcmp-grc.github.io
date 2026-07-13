@@ -18,21 +18,14 @@ custom_css: /assets/css/careers.css
   <h2 class="h3">Note</h2>
   <p>The Indigenous Pre-Cadet Training Program (IPTP) is open to individuals who are First Nation, Inuit or Métis. Apply today!</p>
 </section>
+
 <nav aria-label="On this page">
   <h2>On this page</h2>
   <ul>
-    <li>
-      <a href="#s1">Eligibility</a>
- </li>>
-    <li>
- </li> href="#s2">What past graduates are saying</a>
-   </li>
- </li>
-      <a href="#s3">How to apply</a>
- </li>>
-    <li>
-      <a href="#s4">Related pages</a>
-   </li>
+    <li><a href="#s1">Eligibility</a></li>>
+    <li><a href="#s2">What past graduates are saying</a></li>
+    <li><a href="#s3">How to apply</a></li>>
+    <li><a href="#s4">Related pages</a></li>
   </ul>
 </nav>
 <p>The Indigenous Pre-Cadet Training Program includes a three-week training session at the RCMP Academy (Depot) in Regina, Saskatchewan.</p>
@@ -44,6 +37,7 @@ custom_css: /assets/css/careers.css
   <li>Skills to help you apply to become a police officer</li>
 </ul>
 <p>At Depot, RCMP police officers provide candidates with a range of support and insight. The program is considerate of candidate needs, accommodating dietary restrictions and other needs as identified.</p>
+
 <section id="s1">
   <h2>Eligibility</h2>
   <p>To apply you must be:</p>
@@ -55,6 +49,7 @@ custom_css: /assets/css/careers.css
     <li>in good physical condition</li>
   </ul>
 </section>
+
 <section id="s2">
   <h2>What past graduates are saying</h2>
   <blockquote>
@@ -70,18 +65,16 @@ custom_css: /assets/css/careers.css
     <footer><cite>Phoebe Niviaqsiaq, Nunavut</cite></footer>
   </blockquote>
 </section>
+
 <section id="s3">
   <h2>How to apply</h2>
   <p>For more information or to learn how to apply, please email us at <a href="mailto:iptp-pfpa@rcmp-grc.gc.ca" aria-label="Email us at iptp-pfpa@rcmp-grc.gc.ca">iptp-pfpa@rcmp-grc.gc.ca</a>.</p>
 </section>
+
 <section id="s4">
- </li>lated pages</h2>
+ <h2>lated pages</h2>
   <ul>
- </li>
-      <a href="/en/pei/your-community/meet-darcie-augustine-pei-rcmps-first-candidate-indigenous-pre-cadet-training-program">Prince Edward Island RCMP welcome Darcie Augustine - Indigenous Pre-Cadet Training Program graduate</a>
-   </li>
-    <li>
-      <a href="/en/gazette/police-program-jump-starts-rcmp-careers-nearly-75-indigenous-youth">RCMP Gazette story: Police program jump-starts RCMP careers for nearly 75 Indigenous youth</a>
-   </li>
+    <li><a href="/en/pei/your-community/meet-darcie-augustine-pei-rcmps-first-candidate-indigenous-pre-cadet-training-program">Prince Edward Island RCMP welcome Darcie Augustine - Indigenous Pre-Cadet Training Program graduate</a></li>
+    <li><a href="/en/gazette/police-program-jump-starts-rcmp-careers-nearly-75-indigenous-youth">RCMP Gazette story: Police program jump-starts RCMP careers for nearly 75 Indigenous youth</a></li>
   </ul>
 </section>

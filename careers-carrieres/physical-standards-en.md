@@ -12,8 +12,8 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<nav aria-label="On this page">
-  <h2>On this page</h2>
+<nav aria-labelledby="on-this-page-heading">
+  <h2 id="on-this-page-heading">On this page</h2>
   <ul>
     <li><a href="#s1">Four steps to get ready for Depot</a></li>
     <li><a href="#s2">About the Police Fitness Assessment</a></li>

@@ -35,8 +35,8 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 
-<nav aria-label="On this page">
-  <h2>On this page</h2>
+<nav aria-labelledby="on-this-page-heading">
+  <h2 id="on-this-page-heading">On this page</h2>
   <ul>
     <li><a href="#s1">What to expect from the security clearance process</a></li>
     <li><a href="#s2">What to do if you've been away from Canada</a></li>

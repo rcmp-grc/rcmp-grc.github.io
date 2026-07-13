@@ -32,6 +32,12 @@
   --c-focus-alt: #ffbf47;
   --radius-xs: 4px;
   --font-size-body-lg: 1.6rem;
+  --overlay-navy-75: rgba(1, 27, 60, 0.75);
+  --overlay-navy-20: rgba(1, 27, 60, 0.2);
+  --overlay-navy-85: rgba(1, 27, 60, 0.85);
+  --overlay-navy-10: rgba(1, 27, 60, 0.1);
+  --underline-gradient: linear-gradient(to right, var(--c-yellow) 25%, transparent 25%);
+  --z-sticky-nav: 500;
 }
 
 :target {
@@ -94,7 +100,7 @@ button,
   width: 100%;
   position: sticky;
   top: 0;
-  z-index: 500;
+  z-index: var(--z-sticky-nav);
 }
 
 .careers-nav__inner {
@@ -379,7 +385,7 @@ button,
 .careers-layout h1#wb-cont,
 .careers-h1 {
   border-bottom: 0.5rem solid var(--c-yellow);
-  border-image: linear-gradient(to right, var(--c-yellow) 25%, transparent 25%);
+  border-image: var(--underline-gradient);
   border-image-slice: 1;
   font-size: 3.2rem;
   text-transform: uppercase;
@@ -563,7 +569,7 @@ button,
   color: var(--c-navy);
   margin: 0 0 1.25rem;
   border-bottom: 0.5rem solid var(--c-yellow);
-  border-image: linear-gradient(to right, var(--c-yellow) 25%, transparent 25%);
+  border-image: var(--underline-gradient);
   border-image-slice: 1;
   padding-bottom: 0.75rem;
   line-height: 1.2;
@@ -716,7 +722,7 @@ button,
   margin: 0 0 0.6rem;
   padding-bottom: 0.4rem;
   border-bottom: 0.5rem solid var(--c-yellow);
-  border-image: linear-gradient(to right, var(--c-yellow) 25%, transparent 25%);
+  border-image: var(--underline-gradient);
   border-image-slice: 1;
 }
 
@@ -1478,24 +1484,22 @@ a.btn-careers:hover {
   padding-bottom: 1.25em;
   padding-top: 0.25em;
 }
-.gc-subway.gc-subway-index dl dt a::before {
-  background-color: var(--c-subway-navy);
+.gc-subway.gc-subway-index dl dt a::before,
+.gc-subway:not(.gc-subway-index) ul li a::before {
   border: 3px solid var(--c-subway-navy);
   border-radius: 50%;
-  -webkit-box-shadow: 0 0 0 10px var(--c-white) inset;
   box-shadow: 0 0 0 10px var(--c-white) inset;
   content: "";
   height: 1.2em;
   left: -0.7em;
   position: absolute;
   top: 0;
-  -webkit-transition: -webkit-box-shadow 0.25s ease;
-  transition: -webkit-box-shadow 0.25s ease;
   transition: box-shadow 0.25s ease;
-  transition:
-    box-shadow 0.25s ease,
-    -webkit-box-shadow 0.25s ease;
   width: 1.2em;
+}
+
+.gc-subway.gc-subway-index dl dt a::before {
+  background-color: var(--c-subway-navy);
 }
 
 .gc-subway:not(.gc-subway-index) {
@@ -1528,30 +1532,12 @@ a.btn-careers:hover {
 }
 .gc-subway:not(.gc-subway-index) ul li a::before {
   background-color: var(--c-yellow);
-  border: 3px solid var(--c-subway-navy);
-  border-radius: 50%;
-  -webkit-box-shadow: 0 0 0 10px var(--c-white) inset;
-  box-shadow: 0 0 0 10px var(--c-white) inset;
-  content: "";
-  height: 1.2em;
-  left: -0.7em;
-  position: absolute;
-  top: 0;
-  -webkit-transition: -webkit-box-shadow 0.25s ease;
-  transition: -webkit-box-shadow 0.25s ease;
-  transition: box-shadow 0.25s ease;
-  transition:
-    box-shadow 0.25s ease,
-    -webkit-box-shadow 0.25s ease;
-  width: 1.2em;
 }
 .gc-subway:not(.gc-subway-index) ul li a.active::before {
-  -webkit-box-shadow: 0 0 0 10px var(--c-yellow) inset;
   box-shadow: 0 0 0 10px var(--c-yellow) inset;
 }
 .gc-subway:not(.gc-subway-index) ul li a:not(.active):focus::before,
 .gc-subway:not(.gc-subway-index) ul li a:not(.active):hover::before {
-  -webkit-box-shadow: 0 0 0 4px var(--c-white) inset;
   box-shadow: 0 0 0 4px var(--c-white) inset;
 }
 .gc-subway:not(.gc-subway-index) ul li ul.noline li a.active::after {
@@ -1704,7 +1690,7 @@ a.btn-careers:hover {
 .fp-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to right, rgba(1, 27, 60, 0.75) 40%, rgba(1, 27, 60, 0.2) 100%);
+  background: linear-gradient(to right, var(--overlay-navy-75) 40%, var(--overlay-navy-20) 100%);
   z-index: 1;
 }
 
@@ -2168,7 +2154,7 @@ main .cnt-wdth-lmtd #re-grid li {
 }
 
 .fp-overlay--mirror {
-  background: linear-gradient(to left, rgba(1, 27, 60, 0.75) 40%, rgba(1, 27, 60, 0.2) 100%);
+  background: linear-gradient(to left, var(--overlay-navy-75) 40%, var(--overlay-navy-20) 100%);
 }
 
 .fp-content--mirror {
@@ -2215,7 +2201,7 @@ main .cnt-wdth-lmtd #re-grid li {
 
   .fp-overlay,
   .fp-overlay--mirror {
-    background: linear-gradient(to top, rgba(1, 27, 60, 0.85) 50%, rgba(1, 27, 60, 0.1) 60%);
+    background: linear-gradient(to top, var(--overlay-navy-85) 50%, var(--overlay-navy-10) 60%);
   }
 }
 

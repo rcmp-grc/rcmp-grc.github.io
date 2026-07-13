@@ -12,8 +12,8 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<nav aria-label="On this page">
-  <h2>On this page</h2>
+<nav aria-labelledby="on-this-page-heading">
+  <h2 id="on-this-page-heading">On this page</h2>
   <ul>
     <li><a href="#s1">Volunteers at the RCMP</a></li>
     <li><a href="#s2">What RCMP volunteers do</a></li>

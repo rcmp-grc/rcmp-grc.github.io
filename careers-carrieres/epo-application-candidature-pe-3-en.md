@@ -26,7 +26,7 @@ custom_css: /assets/css/careers.css
     <li><a href="epo-application-candidature-pe-6-en.html">Undergo a field investigation and security screening</a></li>
     <li><a href="epo-application-candidature-pe-7-en.html">Complete the 3-week training</a></li>
   </ul>
-</nav>\
+</nav>
 
 <section id="s1">
     <p>You will need to get medically cleared by your physician. Your physician will need to fill out the following form:</p>
@@ -49,7 +49,7 @@ custom_css: /assets/css/careers.css
         <li>soft body armour vest and duty belt. If you don't have this apparel, we will provide them to you</li>
         <li>running shoes or duty boots, based on your preference</li>
     </ul>
-    <p>Watch the<a href="#">RCMP Police Fitness Assessment video</a>.</p>
+    <p>Watch the <a href="#">RCMP Police Fitness Assessment video</a>.</p>
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
     <div class="rcmp-content-page__prev" id="mp-prev-wrap" style="display: block;">

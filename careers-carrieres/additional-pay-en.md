@@ -13,21 +13,17 @@ custom_css: /assets/css/careers.css
 ---
 
 <nav aria-labelledby="on-this-page-heading">
-  <h2 id="on-this-page-heading">On this page</h2>
-  <ul>
-    <li class="wb-inv"><a href="#s0">Introduction</a></li>
-    <li><a href="#s1">Extra-duty pay</a></li>
-    <li><a href="#s2">Isolated post allowance</a></li>
-    <li><a href="#s3">Other paid allowances and support</a></li>
-    <li><a href="#s4">Family benefits and parental leaves</a></li>
-    <li><a href="#s5">Income tax exemption for First Nations police officers</a></li>
-  </ul>
+	<h2 id="on-this-page-heading">On this page</h2>
+	<ul>
+	<li><a href="#s1">Extra-duty pay</a></li>
+		<li><a href="#s2">Isolated post allowance</a></li>
+		<li><a href="#s3">Other paid allowances and support</a></li>
+		<li><a href="#s4">Family benefits and parental leaves</a></li>
+		<li><a href="#s5">Income tax exemption for First Nations police officers</a></li>
+	</ul>
 </nav>
 
-<section id="s0">
-  <h2 class="wb-inv">Introduction</h2>
-  <p>Police officers may receive extra pay and allowances in certain situations. These benefits help cover the costs related to unique operational assignments, travel, and professional development. On this page you'll find some of the additional compensation and benefits, but a complete list is outlined in the <a href="https://www.canada.ca/en/treasury-board-secretariat/topics/pay/collective-agreements/rm.html"><cite>RCMP Regular Members and Reservists Collective Agreement</cite></a>.</p>
-</section>
+<p>Police officers may receive extra pay and allowances in certain situations. These benefits help cover the costs related to unique operational assignments, travel, and professional development. On this page you'll find some of the additional compensation and benefits, but a complete list is outlined in the <a href="https://www.canada.ca/en/treasury-board-secretariat/topics/pay/collective-agreements/rm.html"><cite>RCMP Regular Members and Reservists Collective Agreement</cite></a>.</p>
 
 <section id="s1">
   <h2>Extra-duty pay</h2>

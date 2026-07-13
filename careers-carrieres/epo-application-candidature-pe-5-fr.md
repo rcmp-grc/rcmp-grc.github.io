@@ -4,6 +4,7 @@ title: Évaluations médicale et psychologique
 date_modified: 2026-07-13
 lang: fr
 lang_url: epo-application-candidature-pe-5-en.html
+lead: Processus de recrutement pour des policiers et policières d'expérience
 breadcrumbs:
   - label: "Carrières à la GRC"
     url: "careers-carrieres/careers-carrieres-fr.html"

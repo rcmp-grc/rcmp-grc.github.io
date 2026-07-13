@@ -32,7 +32,7 @@ custom_css: /assets/css/careers.css
 <section id="s1">
   <h2>Extra-duty pay</h2>
   <p>You may be asked to work extra-duty. If that happens, there are different types of pay you could receive:</p>
-  <dl>
+  <dl class="dl-horizontal">
     <dt>overtime</dt><dd>Hours beyond your regular service</dd>
     <dt>shift premiums</dt><dd>Evening and overnight hours outside of assigned shifts</dd>
     <dt>callback</dt><dd>Off-duty member called back to work</dd>

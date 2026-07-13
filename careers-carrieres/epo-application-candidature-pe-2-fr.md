@@ -19,7 +19,11 @@ custom_css: /assets/css/careers.css
   <h2>Processus de recrutement pour des policiers et policières d'expérience</h2>
   <ul>
     <li><a href="epo-application-candidature-pe-1-fr.html">Manifestation de votre intérêt</a></li>
-    <li><a class="active" href="epo-application-candidature-pe-2-fr.html">Présentation des formulaires</a></li>
+    <li><a class="active" href="epo-application-candidature-pe-2-fr.html">Présentation des formulaires</a>
+        <ul class="noline">
+            <li><a href="epo-application-candidature-pe-2-1-fr.html">Présenter une candidature à titre de policier ou policière d'expérience</a></li>
+        </ul>
+    </li>
     <li><a href="epo-application-candidature-pe-3-fr.html">Test de condition physique pour les policiers</a></li>
     <li><a href="epo-application-candidature-pe-4-fr.html">Entrevue d'admissibilité</a></li>
     <li><a href="epo-application-candidature-pe-5-fr.html">Évaluations médicale et psychologique</a></li>
@@ -102,7 +106,7 @@ custom_css: /assets/css/careers.css
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
   <div class="rcmp-content-page__previous" id="mp-previous-wrap">
-    <a aria-label="Étape précédente&#160;: Manifestation de votre intérêt" class="rcmp-content-page__link" href="epo-application-candidature-pe-2-fr.html" id="mp-previous">
+    <a aria-label="Étape précédente&#160;: Manifestation de votre intérêt" class="rcmp-content-page__link" href="epo-application-candidature-pe-1-fr.html" id="mp-previous">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i>
         <span class="rcmp-content-page__link-title">Étape précédente</span>
@@ -111,12 +115,12 @@ custom_css: /assets/css/careers.css
     </a>
   </div>
   <div class="rcmp-content-page__next" id="mp-next-wrap">
-    <a aria-label="Étape suivante&#160;: Test de condition physique pour les policiers" class="rcmp-content-page__link" href="epo-application-candidature-pe-3-fr.html" id="mp-next">
+    <a aria-label="Étape suivante&#160;: Présenter une candidature à titre de policier ou policière d'expérience" class="rcmp-content-page__link" href="epo-application-candidature-pe-2-1-fr.html" id="mp-next">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
         <span class="rcmp-content-page__link-title">Étape suivante</span>
       </span>
-      <span class="rcmp-content-page__link-label" id="mp-next-label">Test de condition physique pour les policiers</span>
+      <span class="rcmp-content-page__link-label" id="mp-next-label">Présenter une candidature à titre de policier ou policière d'expérience</span>
     </a>
   </div>
 </nav>

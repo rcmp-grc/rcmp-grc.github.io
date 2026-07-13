@@ -19,7 +19,11 @@ custom_css: /assets/css/careers.css
   <h2>Processus de recrutement pour des policiers et policières d'expérience</h2>
   <ul>
     <li><a href="epo-application-candidature-pe-1-fr.html">Manifestation de votre intérêt</a></li>
-    <li><a href="epo-application-candidature-pe-2-fr.html">Présentation des formulaires</a></li>
+    <li><a href="epo-application-candidature-pe-2-fr.html">Présentation des formulaires</a>
+        <ul class="noline">
+            <li><a href="epo-application-candidature-pe-2-1-fr.html">Présenter une candidature à titre de policier ou policière d'expérience</a></li>
+        </ul>
+    </li>
     <li><a href="epo-application-candidature-pe-3-fr.html">Test de condition physique pour les policiers</a></li>
     <li><a href="epo-application-candidature-pe-4-fr.html">Entrevue d'admissibilité</a></li>
     <li><a class="active" href="epo-application-candidature-pe-5-fr.html">Évaluations médicale et psychologique</a></li>

@@ -9,8 +9,8 @@ author: Royal Canadian Mounted Police
 creator: Royal Canadian Mounted Police
 subject: Police officer careers; RCMP recruitment; law enforcement jobs Canada
 breadcrumbs:
-  - label: "Carrières à la GRC"
-    url: "careers-carrieres/careers-carrieres-fr.html"
+  - label: "RCMP careers"
+    url: "careers-carrieres/careers-carrieres-en.html"
 custom_css: /assets/css/careers.css
 ---
 

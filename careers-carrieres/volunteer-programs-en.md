@@ -52,7 +52,7 @@ custom_css: /assets/css/careers.css
 <section id="s3">
   <h2>Auxiliary Program</h2>
   <p>The Auxiliary Program offers community-minded Canadians an opportunity to volunteer in support of local policing, crime prevention and public safety efforts. Depending on their tier of service, auxiliaries may participate in activities ranging from public education and community events to traffic control, and operational support.</p>
-  <p>Learn more about the <a href="#">Auxiliary Program</a> and how you can volunteer.</p>
+  <p>Learn more about the <a href="/en/careers-rcmp/auxiliary-program">Auxiliary Program</a> and how you can volunteer.</p>
 </section>
 
 <section id="s4">

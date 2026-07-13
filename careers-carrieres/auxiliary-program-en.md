@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Auxiliary Program
-date_modified: 2026-07-10
+date_modified: 2026-07-13
 lang: en
 lang_url: auxiliary-program-fr.html
 breadcrumbs:
@@ -33,8 +33,8 @@ custom_css: /assets/css/careers.css
     <li>be willing to contribute a minimum number of hours per year to the program </li>
     <li>be willing to commit to the program for a minimum of two years </li>
     <li>have current certification in Standard First Aid, including cardiopulmonary resuscitation </li>
-    <li>for Tier 3 positions, have successfully completed the Canadian Firearms Safety Course and the Canadian Restricted Firearms Safety Course </li>
-    <li>be at least 19 years of age </li>
+    <li>for Tier&#160;3 positions, have successfully completed the Canadian Firearms Safety Course and the Canadian Restricted Firearms Safety Course </li>
+    <li>be at least 19&#160;years of age </li>
     <li>be a Canadian citizen or have permanent resident status </li>
   </ul>
   <p>Note: Individuals with permanent resident status must have resided in Canada for the last five consecutive years, and: </p>
@@ -44,7 +44,7 @@ custom_css: /assets/css/careers.css
     <li>be able to obtain RCMP reliability status </li>
     <li>have no conflict of interest </li>
     <li>be proficient in English and/or French </li>
-    <li>for Tier 2 and Tier 3 positions:
+    <li>for Tier&#160;2 and Tier&#160;3 positions:
       <ul>
         <li>meet the medical requirements, including vision and hearing standards </li>
         <li>have a valid driver's licence </li>
@@ -67,53 +67,53 @@ custom_css: /assets/css/careers.css
 <p>Review the expectations and requirements for each service tier.</p> 
 <h3>Operational duties</h3>
 <dl>
-  <dt>Tier 1</dt>
+  <dt>Tier&#160;1</dt>
   <dd>Neighbourhood Watch programs, public education initiatives, non-enforcement support to operations, community fundraising events and participation in parades and public ceremonies.</dd>
-  <dd>Tier 1 Auxiliaries will perform these activities under the general supervision of an RCMP employee and will not be given peace officer status.</dd>
-  <dd>Tier 1 Auxiliaries are expected to contribute a minimum of 60 hours per year to the program including training.</dd>
-  <dt>Tier 2</dt>
-  <dd>Tier 2 includes all of the activities listed in Tier 1 with the addition of community presence via foot and bicycle, access and traffic control, and disaster assistance. Tier 2 does not include operational patrols.</dd>
-  <dd>Tier 2 Auxiliaries will be under the close supervision of an RCMP regular member.</dd>
-  <dd>Tier 2 Auxiliaries are expected to contribute a minimum of 120 hours per year to the program.</dd>
-  <dt>Tier 3</dt>
-  <dd>Tier 3 includes activities from Tier 1 and Tier 2 with the addition of general duty patrol, attending calls, check stops, scene security and searches of persons as directed by a Regular Member.</dd>
-  <dd>Auxiliaries under Tier 3 will be under the direct supervision of an RCMP regular member.</dd>
-  <dd>Tier 3 Auxiliaries are expected to contribute a minimum of 180 hours per year to the program</dd>
+  <dd>Tier&#160;1 Auxiliaries will perform these activities under the general supervision of an RCMP employee and will not be given peace officer status.</dd>
+  <dd>Tier&#160;1 Auxiliaries are expected to contribute a minimum of 60&#160;hours per year to the program including training.</dd>
+  <dt>Tier&#160;2</dt>
+  <dd>Tier&#160;2 includes all of the activities listed in Tier&#160;1 with the addition of community presence via foot and bicycle, access and traffic control, and disaster assistance. Tier&#160;2 does not include operational patrols.</dd>
+  <dd>Tier&#160;2 Auxiliaries will be under the close supervision of an RCMP regular member.</dd>
+  <dd>Tier&#160;2 Auxiliaries are expected to contribute a minimum of 120&#160;hours per year to the program.</dd>
+  <dt>Tier&#160;3</dt>
+  <dd>Tier&#160;3 includes activities from Tier&#160;1 and Tier&#160;2 with the addition of general duty patrol, attending calls, check stops, scene security and searches of persons as directed by a Regular Member.</dd>
+  <dd>Auxiliaries under Tier&#160;3 will be under the direct supervision of an RCMP regular member.</dd>
+  <dd>Tier&#160;3 Auxiliaries are expected to contribute a minimum of 180&#160;hours per year to the program</dd>
 </dl>
 <h3>Training</h3>
 <dl>
-  <dt>Tier 1</dt>
+  <dt>Tier&#160;1</dt>
   <dd>
     <ul>
       <li>Online RCMP training courses including topics such as crime prevention, conduct, ethics and Auxiliary orientation</li>
       <li>External courses: Standard First Aid/CPR/automated external defibrillator (AED) course</li>
     </ul>
   </dd>
-  <dt>Tier 2</dt>
+  <dt>Tier&#160;2</dt>
   <dd>
     <ul>
-      <li>All Tier 1 Auxiliary training requirements with additional courses added</li>
+      <li>All Tier&#160;1 Auxiliary training requirements with additional courses added</li>
     </ul>
   </dd>
-  <dt>Tier 3</dt>
+  <dt>Tier&#160;3</dt>
   <dd>
     <ul>
-      <li>All Tier 1 and Tier 2 Auxiliary training requirements with additional courses added</li>
+      <li>All Tier&#160;1 and Tier&#160;2 Auxiliary training requirements with additional courses added</li>
     </ul>
   </dd>
 </dl>
 <h3>Uniform</h3>
 <dl>
-  <dt>Tier 1</dt>
+  <dt>Tier&#160;1</dt>
   <dd>
     <ul>
       <li>Grey polo shirt</li>
       <li>Blue trouser with no stripe to be worn with a black belt and black ankle boots</li>
       <li>Navy baseball cap/Navy toque (optional)</li>
-      <li>Fluorescent 3-in-1 patrol jacket (optional)</li>
+      <li>Fluorescent 3-in-1&#160;patrol jacket (optional)</li>
     </ul>
   </dd>
-  <dt>Tier 2</dt>
+  <dt>Tier&#160;2</dt>
   <dd>
     <ul>
       <li>Grey duty shirt</li>
@@ -130,10 +130,10 @@ custom_css: /assets/css/careers.css
       <li>Bicycle Shirts and Shorts (duty dependent)</li>
     </ul>
   </dd>
-  <dt>Tier 3</dt>
+  <dt>Tier&#160;3</dt>
   <dd>
     <ul>
-      <li>Tier 3 uniform is the same as the Tier 2 uniform </li>
+      <li>Tier&#160;3 uniform is the same as the Tier&#160;2 uniform </li>
     </ul>
   </dd>
 </dl>

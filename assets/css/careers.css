@@ -2312,9 +2312,24 @@ main .cnt-wdth-lmtd #re-grid li {
 }
 
 @media (max-width: 991px) {
+  .fp-content,
   .fp-content--mirror {
+    position: absolute;
+    top: auto;
+    bottom: 0;
     left: 24px;
     right: 24px;
+    transform: none;
+    width: auto;
+    max-width: none;
+    padding: 0 0 3rem;
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .fp-overlay,
+  .fp-overlay--mirror {
+    background: linear-gradient(to top, rgba(1, 27, 60, 0.85) 35%, rgba(1, 27, 60, 0.1) 65%);
   }
 }
 

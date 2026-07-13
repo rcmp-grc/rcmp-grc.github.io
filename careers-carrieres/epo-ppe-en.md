@@ -18,14 +18,13 @@ custom_css: /assets/css/careers.css
     <li class="wb-inv"><a href="#s0">Introduction</a></li>
     <li><a href="#s1">Why join the RCMP</a></li>
     <li><a href="#s2">Basic requirements for Experienced Police Officers</a></li>
+    <li><a href="#s3">How to apply</a></li>
   </ul>
 </nav>
-
 <section id="s0">
   <h2 class="wb-inv">Introduction</h2>
   <p>Are you meant to be a Mountie? We frequently welcome experienced police officers from other Canadian police agencies to join the RCMP.</p>
 </section>
-
 <section id="s1">
   <h2>Why join the RCMP</h2>
   <section id="s1-1">
@@ -71,7 +70,6 @@ custom_css: /assets/css/careers.css
     <p>Your years of prior police service will be recognized for vacation entitlements upon proof of employment.</p>
   </section>
 </section>
-
 <section id="s2">
   <h2>Basic requirements for Experienced Police Officers</h2>
   <p>To apply as an experienced police officer at the RCMP, you must meet the following basic and essential requirements:</p>
@@ -83,4 +81,8 @@ custom_css: /assets/css/careers.css
     <li>meet the language profile of the position you will occupy</li>
     <li>meet all <a href="#">qualifications and requirements</a> of a Regular Member applicant.</li>
   </ul>
+</section>
+<section id="s3">
+  <h2>How to apply</h2>
+  <p>Review the 7-step <a href="#">application process for experienced police officers</a> and learn how you can start your journey with the RCMP.</p>
 </section>

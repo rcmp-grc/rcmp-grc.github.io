@@ -444,6 +444,7 @@ button,
 
 .careers-layout .gc-features {
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .po-content-full .gc-features {
@@ -1399,7 +1400,7 @@ a.btn-careers:hover {
   }
 
   .po-content-full .gc-features {
-    padding: 30px;
+    padding: 15px;
   }
 
   .rc-question-card {

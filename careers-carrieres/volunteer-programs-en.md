@@ -56,7 +56,7 @@ custom_css: /assets/css/careers.css
 </section>
 
 <section id="s4">
-  <h2>Become a volunteer</h2>
+  <h2>Eligibility criteria</h2>
   <p>To volunteer with the RCMP, you must:</p>
   <ul>
     <li>be at least 16&#160;years of age</li>
@@ -88,5 +88,4 @@ custom_css: /assets/css/careers.css
     <li><a href="/en/saskatchewan/corporate-information/contact-saskatchewan-rcmp">Saskatchewan</a></li>
     <li><a href="/en/yukon/corporate-information/contact-yukon-rcmp">Yukon</a></li>
   </ul>
-  <p>We appreciate the work you do. We couldn't do what we do every day without you.</p>
 </section>

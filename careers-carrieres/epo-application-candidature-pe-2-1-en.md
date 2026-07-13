@@ -41,28 +41,34 @@ custom_css: /assets/css/careers.css
         <li>Ensure that your structured resume <strong>includes all criteria</strong> in the following example</li>
         <li>Use the following format and keep your resume to a total of <strong>2 pages or less</strong></li>
     </ul>
-    <div class="well">
-        <h3>Name and contact information</h3>
-        <p>Provide your full name and any contact information, including telephone numbers or email addresses.</p>
-        <h3>Education</h3>
-        <ul>
-            <li>High school or secondary school diploma (or equivalent)</li>
-            <li>Courses or programs completed at college, university or</li>
-            <li>Courses taken via correspondence or distance education</li>
-        </ul>
-        <h3>Employment history</h3>
-        <ul>
-            <li>List all employment held in the last 10 years to current date</li>
-            <li>Brief job description for each employment including details on any supervisory positions if applicable</li>
-            <li>Two recent performance evaluations or appraisals</li>
-        </ul>
-        <h3>Police training</h3>
-        <ul>
-            <li>List any basic police training courses you’ve completed</li>
-            <li>List all additional training courses, licences, certificates or degrees relevant to policing</li>
-            <li>List any training or experience in a specialized unit (for example, drugs, child exploitation, surveillance)</li>
-        </ul>
-    </div>
+    <dl class="well">
+        <dt>Name and contact information</dt>
+        <dd>Provide your full name and any contact information, including telephone numbers or email addresses.</dd>
+        <dt>Education</dt>
+        <dd>
+            <ul>
+                <li>High school or secondary school diploma (or equivalent)</li>
+                <li>Courses or programs completed at college, university or</li>
+                <li>Courses taken via correspondence or distance education</li>
+            </ul>
+        </dd>
+        <dt>Employment history</dt>
+        <dd>
+            <ul>
+                <li>List all employment held in the last 10 years to current date</li>
+                <li>Brief job description for each employment including details on any supervisory positions if applicable</li>
+                <li>Two recent performance evaluations or appraisals</li>
+            </ul>
+        </dd>
+        <dt>Police training</dt>
+        <dd>
+            <ul>
+                <li>List any basic police training courses you’ve completed</li>
+                <li>List all additional training courses, licences, certificates or degrees relevant to policing</li>
+                <li>List any training or experience in a specialized unit (for example, drugs, child exploitation, surveillance)</li>
+            </ul>
+        </dd>
+    </dl>
 </section>
 <section id="s2">
     <h2>Functional police experience and competencies</h2>
@@ -86,10 +92,9 @@ custom_css: /assets/css/careers.css
     </section>
 </section>
 <section id="s3">
-    <h2>The STAR format</h2>
+    <h2>The STAR format</h2>
     <p>STAR stands for Situation, Task, Action and Result. The STAR format is used by the RCMP to capture behavioural examples of relevant performance to assess competencies. Use this format to provide complete descriptions of the scenarios, the actions taken, and the results of your actions to describe your functional police experience.</p>
-
-    <dl>
+    <dl class="well">
         <dt>Situation</dt>
         <dd>
             <p>Clearly describe the situation surrounding your example.</p>

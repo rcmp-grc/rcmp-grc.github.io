@@ -56,19 +56,19 @@ custom_css: /assets/css/careers.css
   <h2>Introduction</h2>
   <p>The RCMP Online Entrance Assessment was designed as a biased-free tool to assess applicants for the RCMP police officer recruiting process. The RCMP Online Entrance Assessment consists of six&nbsp;sections:</p>
 <ul>
-<li>Section 1: Workstyle preference</li>
-<li>Section 2: Language comprehension</li>
-<li>Section 3: Numerical skills</li>
-<li>Section 4: Spatial skills</li>
-<li>Section 5: Memory quotient</li>
-<li>Section 6: Business reasoning</li>
+<li>Section&nbsp;1: Workstyle preference</li>
+<li>Section&nbsp;2: Language comprehension</li>
+<li>Section&nbsp;3: Numerical skills</li>
+<li>Section&nbsp;4: Spatial skills</li>
+<li>Section&nbsp;5: Memory quotient</li>
+<li>Section&nbsp;6: Business reasoning</li>
 </ul>
 <p>The assessment should take approximately 55 to 70&nbsp;minutes to complete. There are several timed portions. It is recommended that you complete the entire assessment in one&nbsp;session.</p>
 <p>Please ensure that you complete the assessment in a quiet environment where you can focus and avoid interruptions or distractions. We recommend that you complete the assessment on a laptop or desktop computer. You will want to ensure you have a stable Wi-Fi connection and power source to ensure you do not lose your progress during the assessment.</p>
 </section>
 
 <section id="s2">
-  <h2>Section 1: Workstyle preference</h2>
+  <h2>Section&nbsp;1: Workstyle preference</h2>
       <ul>
         <li>This section consists of a series of statements to which you must respond on a scale from strongly disagree to strongly agree</li>
         <li>Respond from a workplace perspective</li>
@@ -79,7 +79,7 @@ custom_css: /assets/css/careers.css
       </ul>
 </section>
 <section id="s3">
-  <h2>Section 2: Language comprehension</h2>
+  <h2>Section&nbsp;2: Language comprehension</h2>
  <ul>
  <li>This section consists of two components: word meanings and word relationships</li>
  <li>You will have 5 minutes to complete each component</li>
@@ -87,6 +87,234 @@ custom_css: /assets/css/careers.css
  <li>You may skip questions. If you do not know the answer, please select "I don't know."</li>
  <li>There is a timer at the bottom of the page</li>
 </ul>
+  <section id="s3-1">
+   <h3>Part&nbsp;A – Word meanings</h3>
+  <p><strong>Example: </strong></p>
+    <ol class="lst-lwr-alph">
+      <li>Recite</li>
+      <li>Happy</li>
+      <li>Hopeless</li>
+      <li>Inappropriate</li>
+      <li>I don't know</li>
+    </ol>
+    <p>The correct answer is <strong>b. Happy</strong>.</p>
+</section>
+  <section id="s3-2">
+   <h3>Part&nbsp;B – Word relationships</h3>
+    <p>Note the relationship between the first pair of words. Select the option that forms a similar relationship to fill the blank. </p>
+  <p><strong>Example: </strong></p>
+    <p>Tie: Rope</p>
+    <p>Cut:</p>
+    <ol class="lst-lwr-alph">
+      <li>Needle</li>
+      <li>Repair</li>
+      <li>Saw</li>
+      <li>Broken</li>
+    </ol>
+    <p>The correct answer is <strong>c. Saw</strong>. You tie with a rope; you cut with a saw.</p>
+</section>
+</section>
+<section id="s4">
+  <h2>Section&nbsp;3: Numerical skills</h2>
+  <ul>
+    <li>This section requires making numerical calculations and consists of two components: Level&nbsp;1 calculations and Level&nbsp;2 calculations</li>
+    <li>Please complete as many questions as you can</li>
+    <li>Answer each question to the best of your abilities</li>
+    <li>You will receive 1&nbsp;point for each correct answer</li>
+    <li>You may skip questions. If you do not know the answer, please select "I don't know."</li>
+    <li>Use only your knowledge, pen and paper when completing these questions. The use of calculators, computer software or input from others is not permitted</li>
+    <li>There is a timer at the bottom of the page</li>
+  </ul>
+   <section id="s4-1">
+   <h3>Part&nbsp;A – Level&nbsp;1 calculations</h3>
+     <p>This part of the assessment draws on your addition and multiplication skills. You have 3&nbsp;minutes to complete the set of questions.</p>
+     <p><strong>Example&nbsp;1</strong>:</p>
+     <p>8 + 7 =</p>
+     <ol class="lst-lwr-alph">
+      <li>12</li>
+      <li>13</li>
+      <li>15</li>
+      <li>16</li>
+      <li>I don't know</li>
+    </ol>
+     <p>The correct answer is <strong>c. 15</strong>.</p>
+     <p><strong>Example&nbsp;2</strong>:</p>
+     <p>5 x 5 =</p>
+      <ol class="lst-lwr-alph">
+      <li>10</li>
+      <li>25</li>
+      <li>36</li>
+      <li>50</li>
+      <li>I don't know</li>
+    </ol>
+     <p>The correct answer is <strong>b. 25</strong>.</p>
+   </section>
+  <section id="s4-2">
+   <h3>Part&nbsp;B – Level&nbsp;2 calculations</h3>
+     <p>This part of the assessment draws on multiple skills, including addition, subtraction, multiplication and division. You will have 3&nbsp;minutes to complete the set of questions.</p>
+     <p><strong>Example&nbsp;1</strong>:</p>
+     <p>2 + 2 x 1 =</p>
+     <ol class="lst-lwr-alph">
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>0</li>
+      <li>I don't know</li>
+    </ol>
+     <p>The correct answer is <strong>c. 4</strong>.</p>
+   </section>
+</section>
+<section id="s5">
+  <h2>Section&nbsp;4: Spatial skills</h2>
+  <ul>
+    <li>This section consists of four components: rotating 2D&nbsp;shapes; 3D&nbsp;shapes; mechanical problems and cubes and folding shapes</li>
+    <li>Please complete as many questions as you can</li>
+    <li>You will receive 1&nbsp;point for each correct answer</li>
+    <li>You can skip questions –please choose "I don't know" if you do not know the answer</li>
+    <li>There is a timer at the bottom of the page</li>
+  </ul>
+   <section id="s5-1">
+   <h3>Part&nbsp;A – Rotating 2D&nbsp;shapes</h3>
+     <p>You will be asked a series of questions related to 2D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3&nbsp;minutes to complete the set of questions.</p>
+     <p><strong>Example</strong>:</p>
+      <div class="well col-xs-12">
+    <figure>
+      <img alt="" class="img-responsive full-width" src="rpab-pink-480x300.jpg">
+    </figure>
+  </div>
+  <div class="clearfix"></div>
+     <ol class="lst-lwr-alph">
+      <li>A</li>
+      <li>B</li>
+      <li>C</li>
+      <li>D</li>
+      <li>E</li>
+      <li>F</li>
+    </ol>
+     <p>The correct answer is <strong>c. shape C</strong>.</p>
+   </section>
+  <section id="s5-2">
+   <h3>Part&nbsp;B – 3D&nbsp;shapes</h3>
+    <p>You will be asked a series of questions related to 3D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3&nbsp;minutes to complete the set of questions.</p>
+     <p><strong>Example</strong>:</p>
+      <div class="well col-xs-12">
+    <figure>
+      <img alt="" class="img-responsive full-width" src="rpab-green-480x300.jpg">
+    </figure>
+  </div>
+  <div class="clearfix"></div>
+     <ol class="lst-lwr-alph">
+      <li>A</li>
+      <li>B</li>
+      <li>C</li>
+      <li>D</li>
+      <li>I don't know</li>
+    </ol>
+     <p>The correct answer is <strong>d. shape D</strong>.</p>
+  </section>
+  <section id="s5-3">
+   <h3>Part&nbsp;C – Mechanical problems</h3>
+    <p>You will be asked a series of questions related to mechanical problems. You have 4&nbsp;minutes to complete the set of questions.</p>
+       <p><strong>Example</strong>:</p>
+      <div class="well col-xs-12">
+    <figure>
+      <img alt="" class="img-responsive full-width" src="rpab-grey-480x600.jpg">
+    </figure>
+      </div>
+  <div class="clearfix"></div>
+    <p>When handle&nbsp;H is pulled to the right, as shown by the arrow, end E will:</p>
+     <ol class="lst-lwr-alph">
+      <li>Move to the left</li>
+      <li>Move to the right</li>
+      <li>Move back and forth</li>
+      <li>Stay in the same position</li>
+      <li>I don't know</li>
+    </ol>
+     <p>The correct answer is <strong>a. Move to the left</strong>.</p>
+</section>
+  <section id="s5-4">
+   <h3>Part&nbsp;D – Cubes and folding shapes</h3>
+    <p>You will be asked a series of questions related to cubes and folding shapes. You will have 5&nbsp;minutes to complete the set of questions.</p>
+       <p><strong>Example</strong>:</p>
+      <div class="well col-xs-12">
+    <figure>
+      <img alt="" class="img-responsive full-width" src="rpab-yellow-480x480.jpg">
+    </figure>
+      </div>
+  <div class="clearfix"></div>
+    <p>Which of the folded shapes represents the unfolded image?</p>
+     <ol class="lst-lwr-alph">
+      <li>A</li>
+      <li>B</li>
+      <li>C</li>
+      <li>D</li>
+      <li>I don't know</li>
+    </ol>
+     <p>The correct answer is <strong>c. shape C</strong>.</p>
+</section>
+</section>
+<section id="s6">
+  <h2>Section&nbsp;5: Memory quotient</h2>
+  <ul>
+    <li>You will have a limited amount of time to view an image, list of numbers, or written text. You will then be asked to answer questions using your memory</li>
+    <li>This section should take you approximately 25&nbsp;minutes</li>
+    <li>This section must be completed in one&nbsp;session</li>
+    <li>Please ensure that you complete the assessment in a quiet environment where you can focus and avoid interruptions or distractions</li>
+    <li>Answer each question to the best of your abilities. Use of external resources or input from others is not permitted</li>
+    <li>You will have 1&nbsp;minute to review an image on the page. After reviewing the image, you will then proceed to a series of questions regarding the image you just saw</li>
+    <li>You will have 45&nbsp;seconds to answer the associated questions</li>
+    <li>You will receive 1&nbsp;point for each correct answer</li>
+    <li>You can skip questions. If you do not know the answer, please select "I don't know."</li>
+    <li>Once the time limit has run out, you will advance to the next question automatically</li>
+    <li>You may choose to proceed to the next section before the time limit is up</li>
+  </ul>
+   <p><strong>Example&nbsp;1</strong>:</p>
+      <div class="well col-xs-12">
+    <figure>
+      <img alt="" class="img-responsive full-width" src="rpab-shapes-480x300.jpg">
+    </figure>
+      </div>
+  <div class="clearfix"></div>
+    <p>Study this group of objects; you have a 30-second time limit.</p>
+     <ol class="lst-lwr-alph">
+      <li>Red</li>
+      <li>Green</li>
+      <li>Black</li>
+      <li>Orange</li>
+      <li>Blue</li>
+    </ol>
+     <p>The correct answer is <strong>c. Black</strong>.</p>
+  <p><strong>Example&nbsp;2</strong>:</p>
+  <p>Read the weather report carefully; you have a 1-minute time limit</p>
+  <p>The forecast calls for cloudy skies today with a high of 35&nbsp;degrees and light winds from the southwest. Clearing overnight with a low of 23&nbsp;degrees.</p>
+  <p>After the time limit has elapsed, the screen will advance to a set of questions about the text. You will have 45&nbsp;seconds to answer the questions.</p>
+  <p>Which direction is the wind coming from?</p>
+     <ol class="lst-lwr-alph">
+      <li>Northeast</li>
+      <li>Northwest</li>
+      <li>Southeast</li>
+      <li>Southwest</li>
+      <li>The wind direction was not provided</li>
+    </ol>
+     <p>The correct answer is <strong>d. Southwest</strong>.</p>
+     <p>What overnight temperature is predicted?</p>
+     <ol class="lst-lwr-alph">
+      <li>22&nbsp;degrees</li>
+      <li>23&nbsp;degrees</li>
+      <li>25&nbsp;degrees</li>
+      <li>26&nbsp;degrees</li>
+      <li>32&nbsp;degrees</li>
+    </ol>
+     <p>The correct answer is <strong>b. 23&nbsp;degrees</strong>.</p>
+</section>
+<section id="s7">
+  <h2>Section&nbsp;6: Business reasoning</h2>
+  <ul>
+    <li>Answer each question to the best of your abilities</li>
+    <li>This section should take 20-25&nbsp;minutes to complete</li>
+    <li>If you do not know the answer, please select "I don't know"</li>
+    <li>Use only your knowledge, paper and pen when completing these questions. The use of calculators, computer software or input from others is not permitted</li>
+  </ul>
 </section>
 
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page" style="display: block;">

@@ -80,8 +80,8 @@ custom_css: /assets/css/careers.css
               <h3 class="h5"><a href="#">Diverse and Inclusive Pre-Cadet Experience</a></h3>
               <p>Get a firsthand look into policing before you apply. Designed to support racialized and unrepresented communities.</p>
             </div>
-         </li>
-         <li>class="col-lg-4 col-md-6 col-xs-12">
+          </li>
+          <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-8.jpg">
               <h3 class="h5"><a href="#">First Nations, Inuit and Métis applicant programs</a></h3>

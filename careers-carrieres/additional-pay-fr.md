@@ -29,7 +29,7 @@ custom_css: /assets/css/careers.css
 <section id="s1">
   <h2>Rémunération pour fonctions supplémentaires</h2>
   <p>Il se peut qu'on vous demande d'effectuer des heures supplémentaires. Dans ce cas, vous pouvez recevoir différents types de rémunération&#160;:</p>
-  <dl>
+  <dl class="dl-horizontal">
     <dt>Heures supplémentaires</dt><dd>Les heures effectuées en dehors de service habituel.</dd>
     <dt>Primes de quart</dt><dd>Les heures travaillées le soir et la nuit en dehors de vos quarts de travail habituels.</dd>
     <dt>Rappel</dt><dd>Un membre qui n'est pas en service est rappelé pour travailler.</dd>

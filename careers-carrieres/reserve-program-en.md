@@ -62,10 +62,10 @@ custom_css: /assets/css/careers.css
         <h3>Divisional Reserve Program coordinators</h3>
         <dl class="dl-horizontal">
             <dt>Alberta</dt>
-            <dd><i aria-hidden="true" class="fa-solid fa-email"></i><a href="mailto:rcmp.kreserve-kreserve.grc@rcmp-grc.gc.ca">rcmp.kreserve-kreserve.grc@rcmp-grc.gc.ca</a>
+            <dd><i aria-hidden="true" class="fa-solid fa-mail"></i><a href="mailto:rcmp.kreserve-kreserve.grc@rcmp-grc.gc.ca">rcmp.kreserve-kreserve.grc@rcmp-grc.gc.ca</a>
             </dd>
             <dt>British Columbia</dt>
-            <dd><i aria-hidden="true" class="fa-solid fa-email"></i><a href="mailto:e.reserve.program-programme.reserve.e@rcmp-grc.gc.ca">e.reserve.program-programme.reserve.e@rcmp-grc.gc.ca</a>
+            <dd><i aria-hidden="true" class="fa-solid fa-mail"></i><a href="mailto:e.reserve.program-programme.reserve.e@rcmp-grc.gc.ca">e.reserve.program-programme.reserve.e@rcmp-grc.gc.ca</a>
             </dd>
             <dt>Manitoba</dt>
             <dd><i aria-hidden="true" class="fa-solid fa-email"></i><a href="mailto:rcmp.dreserveprogram-programmereserved.grc@rcmp-grc.gc.ca">rcmp.dreserveprogram-programmereserved.grc@rcmp-grc.gc.ca</a>

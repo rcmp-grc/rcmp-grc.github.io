@@ -83,35 +83,59 @@ custom_css: /assets/css/careers.css
 <h3>Training</h3>
 <dl>
   <dt>Tier 1</dt>
-  <dd>Online RCMP training courses including topics such as crime prevention, conduct, ethics and Auxiliary orientation</dd>
-  <dd>External courses: Standard First Aid/CPR/automated external defibrillator (AED) course</dd>
+  <dd>
+    <ul>
+      <li>Online RCMP training courses including topics such as crime prevention, conduct, ethics and Auxiliary orientation</li>
+      <li>External courses: Standard First Aid/CPR/automated external defibrillator (AED) course</li>
+    </ul>
+  </dd>
   <dt>Tier 2</dt>
-  <dd>All Tier 1 Auxiliary training requirements with additional courses added</dd>
+  <dd>
+    <ul>
+      <li>All Tier 1 Auxiliary training requirements with additional courses added</li>
+    </ul>
+  </dd>
   <dt>Tier 3</dt>
-  <dd>All Tier 1 and Tier 2 Auxiliary training requirements with additional courses added</dd>
+  <dd>
+    <ul>
+      <li>All Tier 1 and Tier 2 Auxiliary training requirements with additional courses added</li>
+    </ul>
+  </dd>
 </dl>
 <h3>Uniform</h3>
 <dl>
   <dt>Tier 1</dt>
-  <dd>Grey polo shirt</dd>
-  <dd>Blue trouser with no stripe to be worn with a black belt and black ankle boots</dd>
-  <dd>Navy baseball cap/Navy toque (optional)</dd>
-  <dd>Fluorescent 3-in-1 patrol jacket (optional)</dd>
+  <dd>
+    <ul>
+      <li>Grey polo shirt</li>
+      <li>Blue trouser with no stripe to be worn with a black belt and black ankle boots</li>
+      <li>Navy baseball cap/Navy toque (optional)</li>
+      <li>Fluorescent 3-in-1 patrol jacket (optional)</li>
+    </ul>
+  </dd>
   <dt>Tier 2</dt>
-  <dd>Grey duty shirt</dd>
-  <dd>A high-visibility vest to be worn over the duty shirt at all times</dd>
-  <dd>Blue trouser with no stripe to be worn with a black leather belt and black ankle boots</dd>
-  <dd>Navy baseball cap/Navy toque</dd>
-  <dd>Fluorescent Yellow patrol jacket 3-in-1</dd>
-  <dd>Soft Body Armour</dd>
-  <dd>Duty Gloves</dd>
-  <dd>Slash Resistant Gloves</dd>
-  <dd>Duty Belt and Operational Accessories </dd>
-  <dd>Intervention Options (duty belt, baton, handcuffs, etc.) </dd>
-  <dd>Inclement Weather Trousers </dd>
-  <dd>Bicycle Shirts and Shorts (duty dependent)</dd>
+  <dd>
+    <ul>
+      <li>Grey duty shirt</li>
+      <li>A high-visibility vest to be worn over the duty shirt at all times</li>
+      <li>Blue trouser with no stripe to be worn with a black leather belt and black ankle boots</li>
+      <li>Navy baseball cap/Navy toque</li>
+      <li>Fluorescent Yellow patrol jacket 3-in-1</li>
+      <li>Soft Body Armour</li>
+      <li>Duty Gloves</li>
+      <li>Slash Resistant Gloves</li>
+      <li>Duty Belt and Operational Accessories </li>
+      <li>Intervention Options (duty belt, baton, handcuffs, etc.) </li>
+      <li>Inclement Weather Trousers </li>
+      <li>Bicycle Shirts and Shorts (duty dependent)</li>
+    </ul>
+  </dd>
   <dt>Tier 3</dt>
-  <dd>Tier 3 uniform is the same as the Tier 2 uniform </dd>
+  <dd>
+    <ul>
+      <li>Tier 3 uniform is the same as the Tier 2 uniform </li>
+    </ul>
+  </dd>
 </dl>
 </section>
 <section id="s5">

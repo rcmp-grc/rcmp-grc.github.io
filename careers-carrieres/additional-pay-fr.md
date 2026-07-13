@@ -33,11 +33,11 @@ custom_css: /assets/css/careers.css
   <h2>Rémunération pour fonctions supplémentaires</h2>
   <p>Il se peut qu'on vous demande d'effectuer des heures supplémentaires. Dans ce cas, vous pouvez recevoir différents types de rémunération&#160;:</p>
   <ul>
-    <li><b>Heures supplémentaires&#160;:</b> pour les heures effectuées en dehors de votre service habituel</li>
-    <li><b>Primes de quart&#160;:</b> pour les heures travaillées le soir et la nuit en dehors de vos quarts de travail habituels</li>
-    <li><b>Rappel&#160;:</b> lorsqu'un membre qui n'est pas en service est rappelé pour travailler</li>
-    <li><b>Devoir de comparution&#160;:</b> lorsqu'un membre doit se présenter au tribunal pour le travail</li>
-    <li><b>Temps de déplacement et transport&#160;:</b> pour les déplacements liés au travail</li>
+    <li><b>Heures supplémentaires</b>&#160;: pour les heures effectuées en dehors de votre service habituel</li>
+    <li><b>Primes de quart</b>&#160;: pour les heures travaillées le soir et la nuit en dehors de vos quarts de travail habituels</li>
+    <li><b>Rappel</b>&#160;: lorsqu'un membre qui n'est pas en service est rappelé pour travailler</li>
+    <li><b>Devoir de comparution</b>&#160;: lorsqu'un membre doit se présenter au tribunal pour le travail</li>
+    <li><b>Temps de déplacement et transport</b>&#160; pour les déplacements liés au travail</li>
   </ul>
 </section>
 

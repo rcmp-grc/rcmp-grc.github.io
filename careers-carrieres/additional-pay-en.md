@@ -33,11 +33,11 @@ custom_css: /assets/css/careers.css
   <h2>Extra-duty pay</h2>
   <p>You may be asked to work extra-duty. If that happens, there are different types of pay you could receive:</p>
   <ul>
-    <li><b>Overtime:</b> for hours beyond your regular service</li>
-    <li><b>Shift premiums:</b> for evening and overnight hours outside of assigned shifts</li>
-    <li><b>Callback:</b> when an off-duty member is called back to work</li>
-    <li><b>Court duty:</b> when reporting to court for work</li>
-    <li><b>Travel time and transportation:</b> for work-related travel</li>
+    <li><b>Overtime</b>: for hours beyond your regular service</li>
+    <li><b>Shift premiums</b>: for evening and overnight hours outside of assigned shifts</li>
+    <li><b>Callback</b>: when an off-duty member is called back to work</li>
+    <li><b>Court duty</b>: when reporting to court for work</li>
+    <li><b>Travel time and transportation</b>: for work-related travel</li>
   </ul>
 </section>
 

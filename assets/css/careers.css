@@ -1089,14 +1089,7 @@ a.btn-careers:hover {
 
 .po-ribbon {
   display: grid;
-  padding: 2rem 0;
-}
-
-@media (min-width: 992px) {
-  .po-ribbon {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+  padding: 3.5rem 0;
 }
 
 .po-ribbon-dark {
@@ -1406,7 +1399,7 @@ a.btn-careers:hover {
   }
 
   .po-content-full .gc-features {
-    padding: 15px;
+    padding: 30px;
   }
 
   .rc-question-card {

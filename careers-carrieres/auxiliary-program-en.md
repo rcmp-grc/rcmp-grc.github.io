@@ -38,17 +38,19 @@ custom_css: /assets/css/careers.css
     <li>be a Canadian citizen or have permanent resident status </li>
   </ul>
   <p>Note: Individuals with permanent resident status must have resided in Canada for the last five consecutive years, and: </p>
-  <li>have a mature, responsible attitude and be of good character </li>
-  <li>have successfully completed high school or its equivalent, or have equivalent work experience </li>
-  <li>be able to obtain RCMP reliability status </li>
-  <li>have no conflict of interest </li>
-  <li>be proficient in English and/or French </li>
-  <li>for Tier 2 and Tier 3 positions:
-    <ul>
-      <li>meet the medical requirements, including vision and hearing standards </li>
-      <li>have a valid driver's licence </li>
-    </ul>
-  </li>
+  <ul>
+    <li>have a mature, responsible attitude and be of good character </li>
+    <li>have successfully completed high school or its equivalent, or have equivalent work experience </li>
+    <li>be able to obtain RCMP reliability status </li>
+    <li>have no conflict of interest </li>
+    <li>be proficient in English and/or French </li>
+    <li>for Tier 2 and Tier 3 positions:
+      <ul>
+        <li>meet the medical requirements, including vision and hearing standards </li>
+        <li>have a valid driver's licence </li>
+      </ul>
+    </li>
+  </ul>
 </section>
 <section id="s3">
   <h2>Operational duties </h2>
@@ -117,21 +119,21 @@ custom_css: /assets/css/careers.css
   <p>For more details on qualification, tiers, and information on how to apply, please contact the Auxiliary Program in your province or territory of residence. </p>
   <dl class="dl-horizontal">
     <dt>Alberta </dt>
-    <a href="kauxiliaryprogram-kprogrammeauxiliaire@rcmp-grc.gc.ca">kauxiliaryprogram-kprogrammeauxiliaire@rcmp-grc.gc.ca </a>
+    <dd><a href="kauxiliaryprogram-kprogrammeauxiliaire@rcmp-grc.gc.ca">kauxiliaryprogram-kprogrammeauxiliaire@rcmp-grc.gc.ca </a></dd>
     <dt>British Columbia </dt>
-    <a href="e.auxiliary.program-programme.auxiliaires.e@rcmp-grc.gc.ca">e.auxiliary.program-programme.auxiliaires.e@rcmp-grc.gc.ca </a>
+    <dd><a href="e.auxiliary.program-programme.auxiliaires.e@rcmp-grc.gc.ca">e.auxiliary.program-programme.auxiliaires.e@rcmp-grc.gc.ca </a></dd>
     <dt>Manitoba </dt>
-    <a href="rcmp.dauxiliaryprogram-dprogrammeauxiliaires.grc@rcmp-grc.gc.ca">rcmp.dauxiliaryprogram-dprogrammeauxiliaires.grc@rcmp-grc.gc.ca </a>
+    <dd><a href="rcmp.dauxiliaryprogram-dprogrammeauxiliaires.grc@rcmp-grc.gc.ca">rcmp.dauxiliaryprogram-dprogrammeauxiliaires.grc@rcmp-grc.gc.ca </a></dd>
     <dt>New Brunswick </dt>
-    <a href="rcmp.jdivap-padivj.grc@rcmp-grc.gc.ca">rcmp.jdivap-padivj.grc@rcmp-grc.gc.ca </a>
+    <dd><a href="rcmp.jdivap-padivj.grc@rcmp-grc.gc.ca">rcmp.jdivap-padivj.grc@rcmp-grc.gc.ca </a></dd>
     <dt>Newfoundland and Labrador </dt>
-    <a href="rcmp.bdiv.auxprog-programme_des_auxiliaires.grc@rcmp-grc.gc.ca">rcmp.bdiv.auxprog-programme_des_auxiliaires.grc@rcmp-grc.gc.ca </a>
+    <dd><a href="rcmp.bdiv.auxprog-programme_des_auxiliaires.grc@rcmp-grc.gc.ca">rcmp.bdiv.auxprog-programme_des_auxiliaires.grc@rcmp-grc.gc.ca </a></dd>
     <dt>Northwest Territories </dt>
-    <a href="rcmp.gauxiliaryprogram-gprogrammeauxiliaire.grc@rcmp-grc.gc.ca">rcmp.gauxiliaryprogram-gprogrammeauxiliaire.grc@rcmp-grc.gc.ca </a>
+    <dd><a href="rcmp.gauxiliaryprogram-gprogrammeauxiliaire.grc@rcmp-grc.gc.ca">rcmp.gauxiliaryprogram-gprogrammeauxiliaire.grc@rcmp-grc.gc.ca </a></dd>
     <dt>Nova Scotia </dt>
-    <a href="hdiv_auxiliary-auxiliaires@rcmp-grc.gc.ca">hdiv_auxiliary-auxiliaires@rcmp-grc.gc.ca </a>
+    <dd><a href="hdiv_auxiliary-auxiliaires@rcmp-grc.gc.ca">hdiv_auxiliary-auxiliaires@rcmp-grc.gc.ca </a></dd>
     <dt>Saskatchewan </dt>
-    <a href="rcmp.fauxiliaryprogram-fprogrammeauxiliaire.grc@rcmp-grc.gc.ca">rcmp.fauxiliaryprogram-fprogrammeauxiliaire.grc@rcmp-grc.gc.ca </a>
+    <dd><a href="rcmp.fauxiliaryprogram-fprogrammeauxiliaire.grc@rcmp-grc.gc.ca">rcmp.fauxiliaryprogram-fprogrammeauxiliaire.grc@rcmp-grc.gc.ca </a></dd>
   </dl>
 </section>
 <section id="s6">

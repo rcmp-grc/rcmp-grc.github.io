@@ -47,28 +47,28 @@ custom_css: /assets/css/careers.css
     <dl>
         <dt>Alberta</dt>
         <dd>Courriel&nbsp;: <a href="mailto:rcmp.kepocoordinator-kpecoordonnateur.grc@rcmp-grc.gc.ca">rcmp.kepocoordinator-kpecoordonnateur.grc@rcmp-grc.gc.ca</a></dd>
-        <dt>British Columbia / Yukon</dt>
+        <dt>Colombie-Britannique / Yukon</dt>
         <dd>Courriel&nbsp;: <a href="mailto:ediv_epoprogram@rcmp-grc.gc.ca">ediv_epoprogram@rcmp-grc.gc.ca</a></dd>
+        <dt>Île-du-Prince-Édouard</dt>
+        <dd>Courriel&nbsp;: <a href="mailto:peirecruiting-recrutementipe@rcmp-grc.gc.ca">peirecruiting-recrutementipe@rcmp-grc.gc.ca</a></dd>
         <dt>Manitoba</dt>
         <dd>Courriel&nbsp;: <a href="mailto:d.epoprogram-d.programmepe@rcmp-grc.gc.ca">d.epoprogram-d.programmepe@rcmp-grc.gc.ca</a></dd>
-        <dt>Newfoundland and Labrador</dt>
-        <dd>Courriel&nbsp;: <a href="mailto:nlrecruiting-recrutementtnl@rcmp-grc.gc.ca">nlrecruiting-recrutementtnl@rcmp-grc.gc.ca</a></dd>
-        <dt>Northwest Territories</dt>
-        <dd>Courriel&nbsp;: <a href="mailto:grecruiting-grecrutement@rcmp-grc.gc.ca">grecruiting-grecrutement@rcmp-grc.gc.ca</a></dd>
-        <dt>Nova Scotia</dt>
+        <dt>Nouvelle-Écosse</dt>
         <dd>Courriel&nbsp;: <a href="mailto:ns.epoprogram-programmepe.ne@rcmp-grc.gc.ca">ns.epoprogram-programmepe.ne@rcmp-grc.gc.ca</a></dd>
-        <dt>New Brunswick</dt>
+        <dt>Nouveau-Brunswick</dt>
         <dd>Courriel&nbsp;: <a href="mailto:jdivepop.prpe@rcmp-grc.gc.ca">jdivepop.prpe@rcmp-grc.gc.ca</a></dd>
         <dt>Nunavut</dt>
         <dd>Courriel&nbsp;: <a href="mailto:vrecruiting-recrutementv@rcmp-grc.gc.ca">vrecruiting-recrutementv@rcmp-grc.gc.ca</a></dd>
         <dt>Ontario</dt>
         <dd>Courriel&nbsp;: <a href="mailto:cr_epop-prpe_rc@rcmp-grc.gc.ca">cr_epop-prpe_rc@rcmp-grc.gc.ca</a></dd>
-        <dt>Prince Edward Island</dt>
-        <dd>Courriel&nbsp;: <a href="mailto:peirecruiting-recrutementipe@rcmp-grc.gc.ca">peirecruiting-recrutementipe@rcmp-grc.gc.ca</a></dd>
         <dt>Québec</dt>
         <dd>Courriel&nbsp;: <a href="mailto:cdiv-recrutement-recruiting@rcmp-grc.gc.ca">cdiv-recrutement-recruiting@rcmp-grc.gc.ca</a></dd>
         <dt>Saskatchewan</dt>
         <dd>Courriel&nbsp;: <a href="mailto:rcmp.fepocoordinator-fcoordonnateurpe.grc@rcmp-grc.gc.ca">rcmp.fepocoordinator-fcoordonnateurpe.grc@rcmp-grc.gc.ca</a></dd>
+        <dt>Terre-Neuve-et-Labrador</dt>
+        <dd>Courriel&nbsp;: <a href="mailto:nlrecruiting-recrutementtnl@rcmp-grc.gc.ca">nlrecruiting-recrutementtnl@rcmp-grc.gc.ca</a></dd>
+        <dt>Territoires du Nord-Ouest</dt>
+        <dd>Courriel&nbsp;: <a href="mailto:grecruiting-grecrutement@rcmp-grc.gc.ca">grecruiting-grecrutement@rcmp-grc.gc.ca</a></dd>
     </dl>
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">

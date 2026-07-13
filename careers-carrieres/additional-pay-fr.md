@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Rémunération supplémentaire et indemnités spéciales pour les policiers
-date_modified: 2026-07-08
+date_modified: 2026-07-13
 lang: fr
 lang_url: additional-pay-en.html
 breadcrumbs:
@@ -15,7 +15,6 @@ custom_css: /assets/css/careers.css
 <nav aria-labelledby="on-this-page-heading">
   <h2 id="on-this-page-heading">Sur cette page</h2>
   <ul>
-    <li class="wb-inv"><a href="#s0">Introduction</a></li>
     <li><a href="#s1">Rémunération pour fonctions supplémentaires</a></li>
     <li><a href="#s2">Indemnité d'isolement</a></li>
     <li><a href="#s3">Autres indemnités et aides financières</a></li>
@@ -24,21 +23,19 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 
-<section id="s0">
-  <h2 class="wb-inv">Introduction</h2>
-  <p>Les policiers peuvent percevoir une rémunération supplémentaire et des indemnités dans certaines situations. Ces avantages permettent de couvrir les frais liés aux affectations opérationnelles uniques, aux déplacements et au perfectionnement professionnel. Vous trouverez sur cette page quelques exemples de rémunérations et d'avantages supplémentaires, mais la liste complète figure dans la <a href="https://www.canada.ca/fr/secretariat-conseil-tresor/sujets/remuneration/conventions-collectives/rm.html"><cite>convention collective des membres réguliers et des réservistes de la GRC</cite></a>.</p>
-</section>
+
+<p>Les policiers peuvent percevoir une rémunération supplémentaire et des indemnités dans certaines situations. Ces avantages permettent de couvrir les frais liés aux affectations opérationnelles uniques, aux déplacements et au perfectionnement professionnel. Vous trouverez sur cette page quelques exemples de rémunérations et d'avantages supplémentaires, mais la liste complète figure dans la <a href="https://www.canada.ca/fr/secretariat-conseil-tresor/sujets/remuneration/conventions-collectives/rm.html"><cite>convention collective des membres réguliers et des réservistes de la GRC</cite></a>.</p>
 
 <section id="s1">
   <h2>Rémunération pour fonctions supplémentaires</h2>
   <p>Il se peut qu'on vous demande d'effectuer des heures supplémentaires. Dans ce cas, vous pouvez recevoir différents types de rémunération&#160;:</p>
-  <ul>
-    <li><b>Heures supplémentaires</b>&#160;: pour les heures effectuées en dehors de votre service habituel</li>
-    <li><b>Primes de quart</b>&#160;: pour les heures travaillées le soir et la nuit en dehors de vos quarts de travail habituels</li>
-    <li><b>Rappel</b>&#160;: lorsqu'un membre qui n'est pas en service est rappelé pour travailler</li>
-    <li><b>Devoir de comparution</b>&#160;: lorsqu'un membre doit se présenter au tribunal pour le travail</li>
-    <li><b>Temps de déplacement et transport</b>&#160; pour les déplacements liés au travail</li>
-  </ul>
+  <dl>
+    <dt>Heures supplémentaires</dt><dd>Les heures effectuées en dehors de service habituel.</dd>
+    <dt>Primes de quart</dt><dd>Les heures travaillées le soir et la nuit en dehors de vos quarts de travail habituels.</dd>
+    <dt>Rappel</dt><dd>Un membre qui n'est pas en service est rappelé pour travailler.</dd>
+    <dt>Devoir de comparution</dt><dd>Un membre doit se présenter au tribunal pour le travail.</dd>
+    <dt>Temps de déplacement et transport</dt><dd>Les déplacements liés au travail.</dd>
+  </dl>
 </section>
 
 <section id="s2">

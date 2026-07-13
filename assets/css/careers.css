@@ -2091,7 +2091,7 @@ section[id^="s"] {
   background: var(--c-navy);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .event-detail-row {
     display: flex;
     flex-direction: column;

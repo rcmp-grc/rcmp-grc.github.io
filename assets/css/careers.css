@@ -2294,11 +2294,13 @@ main .cnt-wdth-lmtd #re-grid li {
 }
 
 .fp-content--mirror {
-  left: auto;
-  right: 0;
+  left: 55%;
+  right: 15px;
   transform: translateY(-50%);
-  max-width: 650px;
-  text-align: right;
+  width: auto;
+  max-width: none;
+  padding: 0;
+  text-align: left;
 }
 
 .fp-section #wb-bc {
@@ -2311,9 +2313,21 @@ main .cnt-wdth-lmtd #re-grid li {
 
 @media (max-width: 991px) {
   .fp-content--mirror {
-    left: auto;
+    left: 24px;
     right: 24px;
-    padding-left: 0;
-    padding-right: 0;
   }
+}
+
+.fp-content--mirror .ready-btn {
+  padding: 10px 14px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  box-shadow: none;
+  gap: 0.5rem;
+}
+
+.fp-content--mirror .ready-btn i {
+  font-size: 16px;
 }

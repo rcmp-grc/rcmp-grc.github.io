@@ -2294,6 +2294,10 @@ main .cnt-wdth-lmtd #re-grid li {
 }
 
 .fp-content--mirror {
+  left: auto;
+  right: 0;
+  transform: translateY(-50%);
+  max-width: 650px;
   text-align: right;
 }
 

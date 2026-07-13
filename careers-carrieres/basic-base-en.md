@@ -68,7 +68,7 @@ custom_css: /assets/css/careers.css
 
 <section id="s3">
   <h2>How to apply</h2>
-  <p>For more information or to learn how to apply, please email us at <a href="mailto:iptp-pfpa@rcmp-grc.gc.ca" aria-label="Email us at iptp-pfpa@rcmp-grc.gc.ca">iptp-pfpa@rcmp-grc.gc.ca</a>.</p>
+  <p>For more information or to learn how to apply, please email us at <a href="mailto:iptp-pfpa@rcmp-grc.gc.ca">iptp-pfpa@rcmp-grc.gc.ca</a>.</p>
 </section>
 
 <section id="s4">

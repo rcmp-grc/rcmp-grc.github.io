@@ -19,7 +19,11 @@ custom_css: /assets/css/careers.css
   <h2>Application process for Experienced Police Officers</h2>
   <ul>
     <li><a href="epo-application-candidature-pe-1-en.html">Express interest</a></li>
-    <li><a href="epo-application-candidature-pe-2-en.html">Submit forms</a></li>
+    <li><a href="epo-application-candidature-pe-2-en.html">Submit forms</a>
+        <ul class="noline">
+            <li><a href="epo-application-candidature-pe-2-1-en.html">Applying as an Experienced Police Officer</a></li>
+        </ul>
+    </li>
     <li><a href="epo-application-candidature-pe-3-en.html">Pass the Police Fitness Assessment</a></li>
     <li><a href="epo-application-candidature-pe-4-en.html">Complete a suitability interview</a></li>
     <li><a href="epo-application-candidature-pe-5-en.html">Undergo medical and psychological assessments</a></li>

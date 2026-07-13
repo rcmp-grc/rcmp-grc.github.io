@@ -19,7 +19,11 @@ custom_css: /assets/css/careers.css
   <h2>Application process for Experienced Police Officers</h2>
   <ul>
     <li><a href="epo-application-candidature-pe-1-en.html">Express interest</a></li>
-    <li><a href="epo-application-candidature-pe-2-en.html">Submit forms</a></li>
+    <li><a href="epo-application-candidature-pe-2-en.html">Submit forms</a>
+        <ul class="noline">
+            <li><a href="epo-application-candidature-pe-2-1-en.html">Applying as an Experienced Police Officer</a></li>
+        </ul>
+    </li>
     <li><a class="active" href="epo-application-candidature-pe-3-en.html">Pass the Police Fitness Assessment</a></li>
     <li><a href="epo-application-candidature-pe-4-en.html">Complete a suitability interview</a></li>
     <li><a href="epo-application-candidature-pe-5-en.html">Undergo medical and psychological assessments</a></li>
@@ -53,13 +57,13 @@ custom_css: /assets/css/careers.css
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
     <div class="rcmp-content-page__prev" id="mp-prev-wrap" style="display: block;">
-        <a aria-label="Previous page: Submit forms" class="rcmp-content-page__link" href="epo-application-candidature-pe-2-en.html" id="mp-prev">
+        <a aria-label="Previous page: Applying as an Experienced Police Officer" class="rcmp-content-page__link" href="epo-application-candidature-pe-2-1-en.html" id="mp-prev">
             <span class="rcmp-content-page__title-row">
                 <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i> 
                 <span class="rcmp-content-page__link-title">Previous page</span>
             </span> 
             <span class="rcmp-visually-hidden">:</span> 
-            <span class="rcmp-content-page__link-label" id="mp-prev-label">Submit forms</span></a>
+            <span class="rcmp-content-page__link-label" id="mp-prev-label">Applying as an Experienced Police Officer</span></a>
     </div>
   <div class="rcmp-content-page__next" id="mp-next-wrap">
     <a aria-label="Next page: Complete a suitability interview" class="rcmp-content-page__link" href="epo-application-candidature-pe-4-en.html" id="mp-next">

@@ -15,10 +15,10 @@ custom_css: /assets/css/careers.css
 <nav aria-labelledby="on-this-page-heading">
     <h2 id="on-this-page-heading">Sur cette page</h2>
     <ul>
-        <li><a href="#s1">Raisons pour vous y joindre </a></li>
-        <li><a href="#s2">Exigences minimales pour vous y joindre </a></li>
+        <li><a href="#s1">Raisons pour vous y joindre</a></li>
+        <li><a href="#s2">Exigences minimales pour vous y joindre</a></li>
         <li><a href="#s3">Fonctions d’un réserviste</a></li>
-        <li><a href="#s3">Pour en savoir plus et postuler</a></li>
+        <li><a href="#s4">Pour en savoir plus et postuler</a></li>
     </ul>
 </nav>
 <p>Le Programme de la réserve de la GRC embauche des policiers à la retraite ou d’anciens policiers pour pourvoir des postes temporaires à la GRC. Il vous donne l’occasion de continuer à mettre à profit vos connaissances et vos compétences policières au service de votre communauté. Même si de nombreux réservistes ont travaillé à la GRC, le programme invite activement des postulants d’autres services de police canadiens à y participer.</p>

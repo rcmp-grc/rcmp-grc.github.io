@@ -58,5 +58,5 @@ custom_css: /assets/css/careers.css
         <li>cybercrime</li>
         <li>intelligence</li>
     </ul>
-    <p>Learn more about the <a href="/en/federal-policing">Federal Policing</a>at the RCMP.</p>
+    <p>Learn more about the <a href="/en/federal-policing">Federal Policing</a> at the RCMP.</p>
 </section>

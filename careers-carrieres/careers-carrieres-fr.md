@@ -21,7 +21,7 @@ custom_css: /assets/css/careers.css
                 <li property="itemListElement" typeof="ListItem">
                   <a href="/" property="item" typeof="WebPage"><span property="name">GRC.ca</span></a>
                   <meta content="1" property="position">
-             </li>>
+                </li>
               </ol>
             </div>
           </div>
@@ -31,14 +31,14 @@ custom_css: /assets/css/careers.css
     <div class="fp-content">
       <p class="uppercase">Carrières à la GRC</p>
       <h2 class="oswald-500 uppercase">Carrières policières</h2>
-      <p class="header-description">Travaillez en première ligne. Devenez policier ou policière à la GRC.</p><a class="btn btn-careers" href="#">Plus d'information <span class="wb-inv">about police officer careers</span></a>
+      <p class="header-description">Travaillez en première ligne. Devenez policier ou policière à la GRC.</p><a class="btn btn-careers" href="#">Plus d'information <span class="wb-inv">sur les carrières policières</span></a>
     </div>
   </section>
   <section class="fp-section" id="civilian-employees" style="background-image: url('/assets/img/hero-civilian.jpg');">
     <div class="fp-overlay"></div>
     <div class="fp-content">
       <h2 class="oswald-500 uppercase">Carrières d'employés civils</h2>
-      <p class="header-description">Apportez vos compétences. Contribuez à notre mission. Changez les choses.</p><a class="btn btn-careers" href="#">Plus d'information <span class="wb-inv">about civilian careers</span></a>
+      <p class="header-description">Apportez vos compétences. Contribuez à notre mission. Changez les choses.</p><a class="btn btn-careers" href="#">Plus d'information <span class="wb-inv">sur les carrières d'employés civils</span></a>
     </div>
   </section>
   <section class="fp-section fp-section--scroll" id="more-opportunities">
@@ -51,37 +51,37 @@ custom_css: /assets/css/careers.css
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-5.jpg">
               <h3 class="h5"><a href="#">Gendarmes communautaires</a></h3>
               <p>Renforcez la confiance et contribuez à réduire la criminalité dans votre communauté.</p>
-       </li>div>
-         </li>
+            </div>
+          </li>
           <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-6.jpg">
               <h3 class="h5"><a href="#">Programme de la réserve de la GRC</a></h3>
-       </li><p>Continuez de servir la communauté après votre retraite ou votre départ.</p>
+              <p>Continuez de servir la communauté après votre retraite ou votre départ.</p>
             </div>
-         </li>
+          </li>
           <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-7.jpg">
-       </li><h3 class="h5"><a href="#">Programme des bénévoles</a></h3>
+              <h3 class="h5"><a href="#">Programme des bénévoles</a></h3>
               <p>Appuyez les détachements et contribuez à faire connaître la GRC partout au Canada.</p>
             </div>
-         </li>
+          </li>
           <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
-       </li><img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-9.jpg">
+              <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-9.jpg">
               <h3 class="h5"><a href="#">Emplois étudiants</a></h3>
               <p>Lancez votre carrière et contribuez à changer les choses pendant vos études.</p>
             </div>
-         </li>
+          </li>
           <li class="col-lg-4 col-md-6 col-xs-12">
-       </li>iv class="well">
+            <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-3.jpg">
               <h3 class="h5"><a href="#">Programme d'expérience précadet diversifié et inclusif</a></h3>
               <p>Familiarisez-vous avec le travail policier avant de postuler. Soutient les communautés racisées et sous-représentées.</p>
             </div>
-         </li>
-       </li>class="col-lg-4 col-md-6 col-xs-12">
+          </li>
+          <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-8.jpg">
               <h3 class="h5"><a href="#">Programmes pour postulants des Premières Nations, Inuits et Métis</a></h3>
@@ -95,7 +95,7 @@ custom_css: /assets/css/careers.css
   <div class="po-end">
     <div class="po-end-overlay">
       <section class="po-pagedetails pagedetails container">
-        <h2 class="wb-inv">Page details</h2>
+        <h2 class="wb-inv">Détails de la page</h2>
         <dl id="wb-dtmd">
           <dt>Date de modification&#160;:</dt>
           <dd><time property="dateModified">{{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}</time></dd>

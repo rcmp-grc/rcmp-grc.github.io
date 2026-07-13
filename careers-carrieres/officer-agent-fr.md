@@ -3,11 +3,8 @@ layout: careers
 title: Police officer careers
 date_modified: 2026-06-10
 lang: en
-lang_url: agent-police-fr.html
-description: >
-  The RCMP is hiring motivated team players who are physically fit and can lead
-  with integrity and compassion. Explore police officer careers, requirements,
-  and how to apply.
+lang_url: agent-police-en.html
+description: The RCMP is hiring motivated team players who are physically fit and can lead with integrity and compassion. Explore police officer careers, requirements, and how to apply.
 author: Royal Canadian Mounted Police
 creator: Royal Canadian Mounted Police
 subject: Police officer careers; RCMP recruitment; law enforcement jobs Canada
@@ -17,16 +14,16 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<div class="po-hero-cta">
-  <img src="/assets/img/po-header.jpg" alt="" class="po-hero-bg">
+<section class="fp-section fp-section--mirror" id="officer-hero" style="background-image: url('/assets/img/po-header.jpg');">
+  <div class="fp-overlay fp-overlay--mirror"></div>
   {% include breadcrumb.html %}
-  <div class="po-hero-cta__content">
-    <p class="po-hero-title">Police officer careers</p>
-    <p>The RCMP is hiring motivated team players who are physically fit and can lead with integrity and compassion.</p>
-    <p><strong>Are you ready to be a police officer?</strong></p>
-    <a class="ready-btn mrgn-tp-sm" href="/careers-carrieres/police-officer/readiness-check"><i aria-hidden="true" class="fa-solid fa-square-check"></i> <span>Check your readiness</span></a>
+  <div class="fp-content fp-content--mirror">
+    <p class="uppercase">Police officer careers</p>
+    <h2 class="oswald-500 uppercase">Are you ready to be a police officer?</h2>
+    <p class="header-description">The RCMP is hiring motivated team players who are physically fit and can lead with integrity and compassion.</p>
+    <a class="ready-btn mrgn-tp-sm" href="#"><i aria-hidden="true" class="fa-solid fa-square-check"></i> <span>Check your readiness</span></a>
   </div>
-</div>
+</section>
 <div class="po-banner">
   <div class="po-banner-text">
     <p class="po-banner-heading">Join Canada's national police service</p>
@@ -41,32 +38,32 @@ custom_css: /assets/css/careers.css
         <h3 class="h5"><i aria-hidden="true" class="fa-solid fa-list-check"></i> <a href="#">Basic requirements</a></h3>
         <p>Learn what it takes to apply and meet RCMP standards.</p>
       </div>
- </li>>
+    </li>
     <li class="col-md-4 col-sm-6">
       <div class="well">
         <h3 class="h5"><i aria-hidden="true" class="fa-solid fa-dumbbell"></i> <a href="#">Physical standards</a></h3>
         <p>Discover the fitness assessment you'll undergo as a cadet and as a police officer.</p>
- </li>div>
-   </li>
+      </div>
+    </li>
     <li class="col-md-4 col-sm-6">
       <div class="well">
         <h3 class="h5"><i aria-hidden="true" class="fa-solid fa-clipboard-check"></i> <a href="readiness-preparation-en.html">Readiness Check</a></h3>
- </li><p>Determine if a career in policing is right for you before you apply.</p>
+        <p>Determine if a career in policing is right for you before you apply.</p>
       </div>
-   </li>
+    </li>
     <li class="col-md-4 col-sm-6">
       <div class="well">
- </li><h3 class="h5"><i aria-hidden="true" class="fa-solid fa-folder-open"></i> <a href="application-candidature-en.html">Application process</a></h3>
+        <h3 class="h5"><i aria-hidden="true" class="fa-solid fa-folder-open"></i> <a href="application-candidature-en.html">Application process</a></h3>
         <p>Understand each step — from application to cadet training.</p>
       </div>
-   </li>
+    </li>
     <li class="col-md-4 col-sm-6">
- </li>iv class="well">
+      <div class="well">
         <h3 class="h5"><i aria-hidden="true" class="fa-solid fa-file-invoice-dollar"></i> <a href="#">Pay and benefits</a></h3>
         <p>Uncover your RCMP career advantages and growth opportunities.</p>
       </div>
-   </li>
- </li>class="col-md-4 col-sm-6">
+     </li>
+     <li class="col-md-4 col-sm-6">
       <div class="well">
         <h3 class="h5"><i aria-hidden="true" class="fa-solid fa-calendar-days"></i> <a href="#">Recruiting events</a></h3>
         <p>Connect with recruiters and learn about a career in policing.</p>
@@ -86,27 +83,27 @@ custom_css: /assets/css/careers.css
 <section aria-labelledby="streams-heading" class="gc-features">
   <h2 class="h2-line" id="streams-heading">Dedicated recruitment streams</h2>
   <ul class="list-unstyled row">
- </li>class="col-lg-3 col-md-6">
-      <div class="well">
+    <li class="col-lg-3 col-md-6">
+     <div class="well">
         <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-1.jpg">
         <h3 class="h5"><a href="topics-sujets-en.html">First Nations, Inuit and Métis applicant programs</a></h3>
         <p>Join us in building an inclusive RCMP that reflects Indigenous strength and diversity.</p>
       </div>
- </li>>
+    </li>
     <li class="col-lg-3 col-md-6">
       <div class="well">
         <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-2.jpg">
         <h3 class="h5"><a href="#">Experienced Police Officers</a></h3>
         <p>Learn how to transfer your policing career to the RCMP.</p>
- </li>div>
-   </li>
+      </div>
+    </li>
     <li class="col-lg-3 col-md-6">
       <div class="well">
         <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-3.jpg">
         <h3 class="h5"><a href="#">Diverse and Inclusive Pre-Cadet Experience</a></h3>
- </li><p>Get a firsthand look into policing before you apply. Designed to support racialized and underrepresented communities.</p>
+        <p>Get a firsthand look into policing before you apply. Designed to support racialized and underrepresented communities.</p>
       </div>
-   </li>
+    </li>
     <li class="col-lg-3 col-md-6">
       <div class="well">
         <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-4.jpg">

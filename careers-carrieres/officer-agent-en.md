@@ -4,16 +4,13 @@ title: Police officer careers
 date_modified: 2026-06-10
 lang: en
 lang_url: agent-police-fr.html
-description: >
-  The RCMP is hiring motivated team players who are physically fit and can lead
-  with integrity and compassion. Explore police officer careers, requirements,
-  and how to apply.
+description: The RCMP is hiring motivated team players who are physically fit and can lead with integrity and compassion. Explore police officer careers, requirements, and how to apply.
 author: Royal Canadian Mounted Police
 creator: Royal Canadian Mounted Police
 subject: Police officer careers; RCMP recruitment; law enforcement jobs Canada
 breadcrumbs:
-  - label: "RCMP careers"
-    url: "careers-carrieres/careers-carrieres-en.html"
+  - label: "Carrières à la GRC"
+    url: "careers-carrieres/careers-carrieres-fr.html"
 custom_css: /assets/css/careers.css
 ---
 

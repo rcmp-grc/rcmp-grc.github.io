@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Policiers et policières d'expérience
-date_modified: 2026-07-10
+date_modified: 2026-07-13
 lang: fr
 lang_url: epo-ppe-en.html
 breadcrumbs:
@@ -18,14 +18,13 @@ custom_css: /assets/css/careers.css
     <li class="wb-inv"><a href="#s0">Introduction</a></li>
     <li><a href="#s1">Pourquoi devenir membre de la GRC?</a></li>
     <li><a href="#s2">Exigences de base pour les policiers et policières d'expérience</a></li>
+    <li><a href="#s3">Comment poser sa candidature</a></li>
   </ul>
 </nav>
-
 <section id="s0">
   <h2 class="wb-inv">Introduction</h2>
   <p>Avez-vous ce qu'il faut pour être un de nos membres? Des policiers et policières d'expérience d'autres services de police canadiens rejoignent fréquemment les rangs de la GRC.</p>
 </section>
-
 <section id="s1">
   <h2>Pourquoi devenir membre de la GRC?</h2>
   <section id="s1-1">
@@ -71,7 +70,6 @@ custom_css: /assets/css/careers.css
     <p>Nous tenons compte de vos années de service policier antérieur dans le calcul des congés sur présentation d'une preuve d'emploi.</p>
   </section>
 </section>
-
 <section id="s2">
   <h2>Exigences de base pour les policiers et policières d'expérience</h2>
   <p>Pour présenter votre candidature à titre de policier ou policière d'expérience, vous devez d'abord satisfaire aux exigences fondamentales suivantes&#160;:</p>
@@ -83,4 +81,8 @@ custom_css: /assets/css/careers.css
     <li>répondre aux exigences linguistiques du poste à occuper;</li>
     <li>satisfaire à l'<a href="#">ensemble des exigences</a> imposées aux aspirants membres réguliers.</li>
   </ul>
+</section>
+<section id="s3">
+  <h2>Comment poser sa candidature</h2>
+  <p>Passez en revue le <a href="#">processus de candidature en sept étapes pour les policiers d'expérience</a> et apprenez comment vous pouvez commencer votre parcours avec la GRC.</p>
 </section>

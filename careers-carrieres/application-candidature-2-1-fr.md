@@ -55,40 +55,41 @@ custom_css: /assets/css/careers.css
 
 <section id="s1">
   <h2>Introduction</h2>
-  <p>The RCMP Online Entrance Assessment was designed as a biased-free tool to assess applicants for the RCMP police officer recruiting process. The RCMP Online Entrance Assessment consists of six&nbsp;sections:</p>
+  <p>L'examen d'entrée en ligne de la GRC a été conçu de façon à permettre l'évaluation impartiale des candidats dans le cadre du processus de recrutement des policiers de la GRC. L'examen comprend six&nbsp;sections&nbsp;:</p>
 <ul>
-<li>Section&nbsp;1: Workstyle preference</li>
-<li>Section&nbsp;2: Language comprehension</li>
-<li>Section&nbsp;3: Numerical skills</li>
-<li>Section&nbsp;4: Spatial skills</li>
-<li>Section&nbsp;5: Memory quotient</li>
-<li>Section&nbsp;6: Business reasoning</li>
+<li>Section&nbsp;1&nbsp;: Préférence de style de travail</li>
+<li>Section&nbsp;2&nbsp;: Compréhension de la langue</li>
+<li>Section&nbsp;3&nbsp;: Compétences en calcul</li>
+<li>Section&nbsp;4&nbsp;: Habiletés spatiales</li>
+<li>Section&nbsp;5&nbsp;: Quotient de mémoire</li>
+<li>Section&nbsp;6&nbsp;: Raisonnement</li>
 </ul>
-<p>The assessment should take approximately 55 to 70&nbsp;minutes to complete. There are several timed portions. It is recommended that you complete the entire assessment in one&nbsp;session.</p>
-<p>Please ensure that you complete the assessment in a quiet environment where you can focus and avoid interruptions or distractions. We recommend that you complete the assessment on a laptop or desktop computer. You will want to ensure you have a stable Wi-Fi&nbsp;connection and power source to ensure you do not lose your progress during the assessment.</p>
+<p>L'examen devrait durer de 55 à 70&nbsp;minutes environ. Plusieurs parties de l'examen doivent être faites dans un laps de temps limité. Nous vous recommandons de faire l'examen au complet en une&nbsp;seule fois.</p>
+<p>Pour faire l'examen, installez-vous dans un endroit silencieux où vous pourrez vous concentrer, sans interruption et sans source de distraction. Nous vous recommandons de faire l'examen à l'aide d'un ordinateur portatif ou d'un ordinateur de bureau. Assurez-vous d'avoir une connexion Wi-Fi et une alimentation électrique stables pour éviter de perdre vos données en cours de route.</p>
 </section>
 <section id="s2">
-  <h2>Section&nbsp;1: Workstyle preference</h2>
+  <h2>Section&nbsp;1&nbsp;: Préférence de style de travail</h2>
       <ul>
-        <li>This section consists of a series of statements to which you must respond on a scale from strongly disagree to strongly agree</li>
-        <li>Respond from a workplace perspective</li>
-        <li>Answer quickly, do not overthink</li>
-        <li>There are no “right” or “wrong” answers</li>
-        <li>Answer truthfully. Non-truthful answers can impact the validity and accuracy of your results</li>
-        <li>Results are automatically generated</li>
+        <li>Cette section renferme une série d'énoncés avec lesquels vous devrez vous dire entièrement en désaccord, en désaccord, neutre, d'accord ou entièrement d'accord</li>
+        <li>Répondez du point de vue des conditions de travail</li>
+        <li>Répondez rapidement, sans trop réfléchir</li>
+        <li>Il n'y a pas de bonnes ni de mauvaises réponses</li>
+        <li>Répondez avec franchise. Sinon, vos réponses pourraient remettre en cause la validité et l'exactitude de vos résultats</li>
+        <li>Les résultats seront générés automatiquement</li>
       </ul>
 </section>
 <section id="s3">
-  <h2>Section&nbsp;2: Language comprehension</h2>
+  <h2>Section&nbsp;2&nbsp;: Compréhension de la langue</h2>
  <ul>
- <li>This section consists of two components: word meanings and word relationships</li>
- <li>You will have 5&nbsp;minutes to complete each component</li>
- <li>You will receive 1&nbsp;point for each correct answer</li>
- <li>You may skip questions. If you do not know the answer, please select "I don't know."</li>
- <li>There is a timer at the bottom of the page</li>
+ <li>Cette section se divise en deux volets, l'un sur le sens des mots, l'autre sur les liens entre les mots</li>
+ <li>Vous aurez 5&nbsp;minutes pour faire chaque volet</li>
+ <li>Vous obtiendrez 1&nbsp;point par bonne réponse</li>
+ <li>Vous pouvez passer des questions. Si vous ne connaissez pas la réponse à une question, veuillez sélectionner la réponse «&nbsp;Je ne sais pas&nbsp;»</li>
+ <li>Il y aura un compte à rebours au bas de la page</li>
 </ul>
   <section id="s3-1">
-   <h3>Part&nbsp;A – Word meanings</h3>
+   <h3>Partie&nbsp;A – Sens des mots</h3>
+    <p>Lisez le premier mot, puis choisissez l’option dont le sens est le plus proche.</p>
   <p><strong>Example: </strong></p>
     <ol class="lst-lwr-alph">
       <li>Recite</li>

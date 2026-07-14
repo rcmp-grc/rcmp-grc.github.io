@@ -272,7 +272,7 @@ custom_css: /assets/css/careers.css
       <img alt="" class="img-responsive full-width" src="rpab-shapes-480x300.jpg">
     </figure>
      </div>
-    <p>Observez ce groupe d'objets. Vous avez 30 secondes.</p>
+    <p>Observez ce groupe d'objets. Vous avez 30&nbsp;secondes.</p>
      <p>Quelle est la couleur du cercle?</p> 
      <ol class="lst-lwr-alph">
       <li>Rouge</li>
@@ -284,70 +284,70 @@ custom_css: /assets/css/careers.css
      <p>La bonne réponse est <strong>c. Noir</strong>.</p>
   <p><strong>Exemple&nbsp;2</strong>&nbsp;:</p>
   <p>Lisez le bulletin météo attentivement. Vous avez 1&nbsp;minute.</p>
-  <p>The forecast calls for cloudy skies today with a high of 35&nbsp;degrees and light winds from the southwest. Clearing overnight with a low of 23&nbsp;degrees.</p>
-  <p>After the time limit has elapsed, the screen will advance to a set of questions about the text. You will have 45&nbsp;seconds to answer the questions.</p>
-  <p>Which direction is the wind coming from?</p>
+  <p>Aujourd'hui, on prévoit un ciel nuageux avec un maximum de 35&nbsp;degrés et de légers vents du sud-ouest. Pour cette nuit, on prévoit un ciel dégagé et un minimum de 23&nbsp;degrés.</p>
+  <p>Au bout d'une&nbsp;minute, une série de questions sur le bulletin météo apparaîtra. Vous aurez 45&nbsp;secondes pour répondre aux questions.</p>
+  <p>De quelle direction vient le vent?</p>
      <ol class="lst-lwr-alph">
-      <li>Northeast</li>
-      <li>Northwest</li>
-      <li>Southeast</li>
-      <li>Southwest</li>
-      <li>The wind direction was not provided</li>
+      <li>Nord-est</li>
+      <li>Nord-ouest</li>
+      <li>Sud-est</li>
+      <li>Sud-ouest</li>
+      <li>La direction du vent n'était pas indiquée</li>
     </ol>
-     <p>The correct answer is <strong>d. Southwest</strong>.</p>
-     <p>What overnight temperature is predicted?</p>
+     <p>La bonne réponse est <strong>d. Sud-ouest</strong>.</p>
+     <p>Quelle température prévoit-on pendant la nuit?</p>
      <ol class="lst-lwr-alph">
-      <li>22&nbsp;degrees</li>
-      <li>23&nbsp;degrees</li>
-      <li>25&nbsp;degrees</li>
-      <li>26&nbsp;degrees</li>
-      <li>32&nbsp;degrees</li>
+      <li>22&nbsp;degrés</li>
+      <li>23&nbsp;degrés</li>
+      <li>25&nbsp;degrés</li>
+      <li>26&nbsp;degrés</li>
+      <li>32&nbsp;degrés</li>
     </ol>
-     <p>The correct answer is <strong>b. 23&nbsp;degrees</strong>.</p>
+     <p>La bonne réponse est <strong>b. 23&nbsp;degrés</strong>.</p>
 </section>
 <section id="s7">
-  <h2>Section&nbsp;6: Business reasoning</h2>
+  <h2>Section&nbsp;6&nbsp;: Raisonnement</h2>
   <ul>
-    <li>Answer each question to the best of your abilities</li>
-    <li>This section should take 20-25&nbsp;minutes to complete</li>
-    <li>If you do not know the answer, please select "I don't know"</li>
-    <li>Use only your knowledge, paper and pen when completing these questions. The use of calculators, computer software or input from others is not permitted</li>
+    <li>Répondez à toutes les questions du mieux que vous le pouvez</li>
+    <li>Cette section devrait prendre environ 25&nbsp;minutes</li>
+    <li>Si vous ne connaissez pas la réponse à une question, veuillez sélectionner la réponse «&nbsp;Je ne sais pas&nbsp;»</li>
+    <li>Pour répondre aux questions, vous ne pouvez utiliser qu'un stylo et du papier. Il est interdit d'utiliser une calculatrice, d'utiliser un logiciel ou de demander l'aide de quelqu'un</li>
   </ul>
-  <p>There is a timer at the bottom of the page.</p>
+  <p>Il y aura un compte à rebours au bas de la page.</p>
    <section id="s7-1">
-   <h3>Part&nbsp;A – Verbal reasoning</h3>
-     <p>Choose the word that best fits the blank. Look at the first pair of words to see how they relate to each other and then choose the word that makes the second pair of words related in the same way.</p>
-     <p><strong>Example&nbsp;1</strong>:</p>
-     <p>Up: Down</p>
-      <p>Left:</p>
+   <h3>Partie&nbsp;A – Raisonnement verbal</h3>
+     <p>D'abord, établissez le lien qui unit les deux premiers mots indiqués. Ensuite, sélectionnez le mot qui forme avec le troisième mot un lien semblable à celui qui unit les deux premiers mots.</p>
+     <p><strong>Exemple&nbsp;1</strong>&nbsp;:</p>
+     <p>Haut&nbsp;: Down</p>
+      <p>Gauche&nbsp;:</p>
      <ol class="lst-lwr-alph">
-      <li>High</li>
-      <li>Right</li>
-      <li>Low</li>
-      <li>Above</li>
+      <li>Haut</li>
+      <li>Droite</li>
+      <li>Bas</li>
+      <li>Au-dessus</li>
     </ol>
-     <p>The correct answer is <strong>b. Right</strong>. In the example, “Up” and “Down” are opposites, so the correct answer is the opposite of “Left”, which is “Right”.</p>
-     <p><strong>Example&nbsp;2</strong></p>
-     <p>A company policy states that all people at the factory must wear safety goggles. Visitors to the factory on Wednesday were not wearing safety goggles. Was the company policy broken on Wednesday?</p>
+     <p>La bonne réponse est <strong>b. Droite</strong>. Dans l'exemple, «&nbsp;Haut&nbsp;» et «&nbsp;Bas&nbsp;» sont des contraires, alors la bonne réponse est le contraire de «&nbsp;Gauche&nbsp;», c'est-à-dire «&nbsp;Droite&nbsp;».</p>
+     <p><strong>Exemple&nbsp;2</strong>&nbsp;:</p>
+     <p>Une entreprise a pour politique que tout le monde dans l'usine doit porter des lunettes de protection. Mercredi dernier, des visiteurs ne portaient pas de lunettes de protection dans l'usine. Est-ce que les règles de la politique ont été enfreintes mercredi dernier?</p>
      <ol class="lst-lwr-alph">
-      <li>Yes</li>
-      <li>It cannot be determined</li>
-      <li>No</li>
+      <li>Oui</li>
+      <li>On ne peut pas le déterminer</li>
+      <li>Non</li>
     </ol>
-     <p>The correct answer is <strong>a. Yes</strong>.</p>
+     <p>La bonne réponse est <strong>a. Oui</strong>.</p>
    </section>
   <section id="s7-2">
-   <h3>Part&nbsp;B – Numerical reasoning</h3>
-     <p>This section consists of math word problems. Complete the questions by selecting the answer you think is correct</p>
-      <p><strong>Example</strong>:</p>
-     <p>John made one sale of $100 and Betty made one sale of $200. What was the difference in sale between John and Betty?</p>
+   <h3>Partie&nbsp;B – Raisonnement numérique</h3>
+     <p>Cette partie contient des problèmes mathématiques. Répondez aux questions en sélectionnant ce qui est, selon vous, la bonne réponse.</p>
+      <p><strong>Exemple</strong>&nbsp;:</p>
+     <p>John a fait une vente de 100&nbsp;$ et Betty a fait une vente de 200&nbsp;$. Quelle est la différence entre les ventes de John et de Betty?</p>
      <ol class="lst-lwr-alph">
-      <li>$300</li>
-      <li>$100</li>
-      <li>$200</li>
-      <li>None of the above</li>
+      <li>300&nbsp;$</li>
+      <li>100&nbsp;$</li>
+      <li>200&nbsp;$</li>
+      <li>Aucune de ces réponses</li>
     </ol>
-     <p>The correct answer is <strong>b. $100</strong>.</p>
+     <p>La bonne réponse est <strong>b. 100&nbsp;$</strong>.</p>
   </section>
 </section>
 

@@ -192,12 +192,12 @@ custom_css: /assets/css/careers.css
       <li>E</li>
       <li>Je ne sais pas</li>
     </ol>
-     <p>The correct answer is <strong>c. shape C</strong>.</p>
+     <p>La bonne réponse est <strong>c. la forme&nbsp;C</strong>.</p>
    </section>
   <section id="s5-2">
-   <h3>Part&nbsp;B – 3D&nbsp;shapes</h3>
-    <p>You will be asked a series of questions related to 3D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3&nbsp;minutes to complete the set of questions.</p>
-     <p><strong>Example</strong>:</p>
+   <h3>Partie&nbsp;B – Formes en trois&nbsp;dimensions</h3>
+    <p>Cette partie contient une série de questions sur les formes en trois&nbsp;dimensions. À chaque question, sélectionnez la lettre qui correspond à la forme encadrée. Vous aurez 3&nbsp;minutes pour répondre à la série de questions.</p>
+     <p><strong>Exemple</strong>&nbsp;:</p>
       <div class="well pull-right col-lg-6">
         <figure>
       <img alt="" class="img-responsive full-width" src="rpab-green-480x300.jpg">
@@ -208,20 +208,20 @@ custom_css: /assets/css/careers.css
       <li>B</li>
       <li>C</li>
       <li>D</li>
-      <li>I don't know</li>
+      <li>Je ne sais pas</li>
     </ol>
-     <p>The correct answer is <strong>d. shape D</strong>.</p>
+     <p>La bonne réponse est <strong>d. la forme&nbsp;D</strong>.</p>
   </section>
   <section id="s5-3">
-   <h3>Part&nbsp;C – Mechanical problems</h3>
-    <p>You will be asked a series of questions related to mechanical problems. You have 4&nbsp;minutes to complete the set of questions.</p>
-       <p><strong>Example</strong>:</p>
+   <h3>Partie&nbsp;C – Mécanique</h3>
+    <p>Cette partie contient une série de questions sur la mécanique. Vous aurez 4&nbsp;minutes pour répondre à la série de questions.</p>
+       <p><strong>Exemple</strong>&nbsp;:</p>
      <div class="well pull-right col-lg-6">
         <figure>
       <img alt="" class="img-responsive full-width" src="rpab-grey-480x600.jpg">
     </figure>
       </div>
-    <p>When handle&nbsp;H is pulled to the right, as shown by the arrow, end E will:</p>
+    <p>Lorsqu'on tire la poignée&nbsp;H vers la droite (comme le montre la flèche dans l'illustration ci-dessous), qu'arrive-t-il à l'extrémité&nbsp;E:</p>
      <ol class="lst-lwr-alph">
       <li>Move to the left</li>
       <li>Move to the right</li>

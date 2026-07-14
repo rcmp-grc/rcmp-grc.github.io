@@ -93,7 +93,7 @@ custom_css: /assets/css/careers.css
 			</figure>
 		</div>
 	</div>
-	<!-- <div class="clearfix"></div> -->
+	<div class="clearfix"></div>
 	<blockquote>
 		<p>Participating in the DICE program was genuinely impactful for me - it provided a supportive, structured environment that strengthened my confidence, broadened my understanding of the RCMP, and helped me grow both personally and professionally.</p>
 		<p>The mentorship, teamwork, and hands on learning all played a major role in preparing me for the next steps in my journey to becoming an RCMP police officer.</p>
@@ -121,7 +121,7 @@ custom_css: /assets/css/careers.css
 			</figure>
 		</div>
 	</div>
-	<!-- <div class="clearfix"></div> -->
+	<div class="clearfix"></div>
 	<blockquote>
 		<p>It was a life-changing experience. I never realized my own potential until I went through the training, which boosted my confidence. Everyone was supportive and a wonderful team, making it instantly feel like a family. The mentors, in particular, were beyond amazing and highly professional.</p>
 		<footer>Candidate Shafiq</footer>
@@ -136,7 +136,7 @@ custom_css: /assets/css/careers.css
 			</figure>
 		</div>
 	</div>
-	<!-- <div class="clearfix"></div> -->
+	<div class="clearfix"></div>
 	<blockquote>
 		<p>The DICE experience helped me deepen my desire to become a regular member. An experience unlike any other.</p>
 		<footer>Candidate Bernier</footer>
@@ -171,7 +171,7 @@ custom_css: /assets/css/careers.css
 			</figure>
 		</div>
 	</div>
-	<!-- <div class="clearfix"></div> -->
+	<div class="clearfix"></div>
 	<div class="wb-eqht wb-init">
 		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
 			<figure>
@@ -190,7 +190,7 @@ custom_css: /assets/css/careers.css
 			</figure>
 		</div>
 	</div>
-	<!-- <div class="clearfix"></div> -->
+	<div class="clearfix"></div>
 </section>
 <section id="s6">
 	<h2>Breaking barriers: Senator Baltej Dhillon visits the DICE troop </h2>
@@ -206,7 +206,6 @@ custom_css: /assets/css/careers.css
 	<p>In 1991, Senator Dhillon became the first RCMP officer authorized to wear a turban while on duty, standing up for the right to practise his faith while serving Canada. He later completed a successful 30‑year career with the RCMP, helping advance greater inclusion within the organization.</p>
 	<p>This past May, Senator Dhillon visited the RCMP Academy to meet and speak with the DICE troop as they began their three‑week training program. He connected with participants and mentors and observed several training activities, including Drill and Deportment and Police Fitness Training, which focus on discipline, confidence, and physical readiness.</p>
 	<p>Baltej Dhillon's story is one of courage and perseverance. More than breaking barriers, he has brought people together and shown that faith, identity, and public service can go hand in hand. Meeting someone who helped shape a more inclusive future was a meaningful and motivating experience for DICE participants, and a reminder that leadership and conviction can inspire lasting change.</p>
-
 	<div class="wb-eqht wb-init">
 		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
 			<figure>
@@ -225,5 +224,5 @@ custom_css: /assets/css/careers.css
 			</figure>
 		</div>
 	</div>
-	<!-- <div class="clearfix"></div> -->
+	<div class="clearfix"></div>
 </section>

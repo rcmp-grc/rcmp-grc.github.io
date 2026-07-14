@@ -151,7 +151,7 @@ custom_css: /assets/css/careers.css
   <section id="s4-2">
    <h3>Part&nbsp;B – Level&nbsp;2 calculations</h3>
      <p>This part of the assessment draws on multiple skills, including addition, subtraction, multiplication and division. You will have 3&nbsp;minutes to complete the set of questions.</p>
-     <p><strong>Example&nbsp;1</strong>:</p>
+     <p><strong>Example</strong>:</p>
      <p>2 + 2 x 1 =</p>
      <ol class="lst-lwr-alph">
       <li>2</li>

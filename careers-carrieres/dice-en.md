@@ -77,7 +77,7 @@ custom_css: /assets/css/careers.css
 	<p>Behind every DICE troop are people who arrive from different backgrounds, with powerful personal journeys, stories of growth, support, mentorship and newfound confidence. These reflections from past participants offer a glimpse into what the program meant to them and how it shaped their next steps.</p>
 	<div class="wb-eqht wb-init">
 		<div class="col-md-4 mrgn-bttm-md">
-			<div class="well">
+			<div class="well h-100">
 				<figure>
 					<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-1.jpg">
 					<figcaption>
@@ -87,7 +87,7 @@ custom_css: /assets/css/careers.css
 			</div>
 		</div>
 		<div class="col-md-4 mrgn-bttm-md">
-			<div class="well">
+			<div class="well h-100">
 				<figure>
 					<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-2.jpg">
 					<figcaption>
@@ -109,7 +109,7 @@ custom_css: /assets/css/careers.css
 	</blockquote>
 	<div class="wb-eqht wb-init">
 		<div class="col-md-4 mrgn-bttm-md">
-			<div class="well">
+			<div class="well h-100">
 				<figure>
 					<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-3.jpg">
 					<figcaption>
@@ -119,7 +119,7 @@ custom_css: /assets/css/careers.css
 			</div>
 		</div>
 		<div class="col-md-4 mrgn-bttm-md">
-			<div class="well">
+			<div class="well h-100">
 				<figure>
 					<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-4.jpg">
 					<figcaption>
@@ -136,7 +136,7 @@ custom_css: /assets/css/careers.css
 	</blockquote>
 	<div class="wb-eqht wb-init">
 		<div class="col-md-4 mrgn-bttm-md">
-			<div class="well">
+			<div class="well h-100">
 				<figure>
 					<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-5.jpg">
 					<figcaption>
@@ -165,7 +165,7 @@ custom_css: /assets/css/careers.css
 	<p>The first-ever Junior DICE Day was a resounding success, fostering inclusion, sparking curiosity, and inspiring young participants to explore future opportunities within the RCMP.</p>
 	<div class="wb-eqht wb-init">
 		<div class="col-md-4 mrgn-bttm-md">
-			<div class="well">
+			<div class="well h-100">
 				<figure>
 					<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-6.jpg">
 					<figcaption>
@@ -175,7 +175,7 @@ custom_css: /assets/css/careers.css
 			</div>
 		</div>
 		<div class="col-md-4 mrgn-bttm-md">
-			<div class="well">
+			<div class="well h-100">
 				<figure>
 					<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-7.jpg">
 					<figcaption>
@@ -188,7 +188,7 @@ custom_css: /assets/css/careers.css
 	<div class="clearfix"></div>
 	<div class="wb-eqht wb-init">
 		<div class="col-md-4 mrgn-bttm-md">
-			<div class="well">
+			<div class="well h-100">
 				<figure>
 					<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-8.jpg">
 					<figcaption>
@@ -198,7 +198,7 @@ custom_css: /assets/css/careers.css
 			</div>
 		</div>
 		<div class="col-md-4 mrgn-bttm-md">
-			<div class="well">
+			<div class="well h-100">
 				<figure>
 					<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-9.jpg">
 					<figcaption>
@@ -225,7 +225,7 @@ custom_css: /assets/css/careers.css
 	<p>This past May, Senator Dhillon visited the RCMP Academy to meet and speak with the DICE troop as they began their three‑week training program. He connected with participants and mentors and observed several training activities, including Drill and Deportment and Police Fitness Training, which focus on discipline, confidence, and physical readiness.</p>
 	<p>Baltej Dhillon's story is one of courage and perseverance. More than breaking barriers, he has brought people together and shown that faith, identity, and public service can go hand in hand. Meeting someone who helped shape a more inclusive future was a meaningful and motivating experience for DICE participants, and a reminder that leadership and conviction can inspire lasting change.</p>
 	<div class="col-md-4 mrgn-bttm-md">
-		<div class="well">
+		<div class="well h-100">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-11.jpg">
 				<figcaption>
@@ -235,7 +235,7 @@ custom_css: /assets/css/careers.css
 		</div>
 	</div>
 	<div class="col-md-4 mrgn-bttm-md">
-		<div class="well">
+		<div class="well h-100">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-12.jpg">
 				<figcaption>

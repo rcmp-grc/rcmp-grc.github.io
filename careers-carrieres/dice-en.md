@@ -79,7 +79,7 @@ custom_css: /assets/css/careers.css
 		<div class="col-md-4 mrgn-bttm-md">
 			<div class="well">
 				<figure>
-					<img alt="" class="img-responsive center-block" src="img/dice-ecdi-1.jpg">
+					<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-1.jpg">
 					<figcaption>
 						Past participants of the DICE program hold their certificates on the final day of training.
 					</figcaption>
@@ -111,7 +111,7 @@ custom_css: /assets/css/careers.css
 		<div class="col-md-4 mrgn-bttm-md">
 			<div class="well">
 				<figure>
-					<img alt="" class="img-responsive center-block" src="img/dice-ecdi-3.jpg">
+					<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-3.jpg">
 					<figcaption>
 						A DICE participant is being fitted for a DICE training uniform.
 					</figcaption>
@@ -121,7 +121,7 @@ custom_css: /assets/css/careers.css
 		<div class="col-md-4 mrgn-bttm-md">
 			<div class="well">
 				<figure>
-					<img alt="" class="img-responsive center-block" src="img/dice-ecdi-4.jpg">
+					<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-4.jpg">
 					<figcaption>
 						Participants in the DICE program attend classroom-based learning sessions as part of their training.
 					</figcaption>
@@ -138,7 +138,7 @@ custom_css: /assets/css/careers.css
 		<div class="col-md-4 mrgn-bttm-md">
 			<div class="well">
 				<figure>
-					<img alt="" class="img-responsive center-block" src="img/dice-ecdi-5.jpg">
+					<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-5.jpg">
 					<figcaption>
 						Participants in the DICE program take part in physical training as part of their pre-cadet experience.
 					</figcaption>
@@ -167,7 +167,7 @@ custom_css: /assets/css/careers.css
 		<div class="col-md-4 mrgn-bttm-md">
 			<div class="well">
 				<figure>
-					<img alt="" class="img-responsive center-block" src="img/dice-ecdi-6.jpg">
+					<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-6.jpg">
 					<figcaption>
 						Student with a "Junior DICE ECDI" shirt sitting with his arm around another student during an RCMP presentation at the Canadian Police College.
 					</figcaption>
@@ -177,7 +177,7 @@ custom_css: /assets/css/careers.css
 		<div class="col-md-4 mrgn-bttm-md">
 			<div class="well">
 				<figure>
-					<img alt="" class="img-responsive center-block" src="img/dice-ecdi-7.jpg">
+					<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-7.jpg">
 					<figcaption>
 						An RCMP officer speaks to a group of seated students in a training room at the Canadian Police College.
 					</figcaption>
@@ -190,7 +190,7 @@ custom_css: /assets/css/careers.css
 		<div class="col-md-4 mrgn-bttm-md">
 			<div class="well">
 				<figure>
-					<img alt="" class="img-responsive center-block" src="img/dice-ecdi-8.jpg">
+					<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-8.jpg">
 					<figcaption>
 						A CBRNE team demonstrates a bomb disposal robot outdoors beside an operations truck.
 					</figcaption>
@@ -200,7 +200,7 @@ custom_css: /assets/css/careers.css
 		<div class="col-md-4 mrgn-bttm-md">
 			<div class="well">
 				<figure>
-					<img alt="" class="img-responsive center-block" src="img/dice-ecdi-9.jpg">
+					<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-9.jpg">
 					<figcaption>
 						A student participant carries two 45‑lb emergency assistance bags during a police training exercise in a gymnasium, while others observe.
 					</figcaption>
@@ -215,7 +215,7 @@ custom_css: /assets/css/careers.css
 	<div class="pull-right col-xs-12 col-md-3 col-lg-4">
 		<div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
 			<figure>
-				<img alt="" class="img-responsive full-width" src="img/dice-ecdi-10.jpg">
+				<img alt="" class="img-responsive full-width" src="/assets/img/dice-ecdi-10.jpg">
 				<figcaption>Senator Dhillon wearing a suit and turban stands at the front of a classroom speaking to RCMP DICE participants.</figcaption>
 			</figure>
 		</div>
@@ -227,7 +227,7 @@ custom_css: /assets/css/careers.css
 	<div class="col-md-4 mrgn-bttm-md">
 		<div class="well">
 			<figure>
-				<img alt="" class="img-responsive center-block" src="img/dice-ecdi-11.jpg">
+				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-11.jpg">
 				<figcaption>
 					Seated DICE participants listen attentively during a classroom training session at the RCMP Academy.
 				</figcaption>
@@ -237,7 +237,7 @@ custom_css: /assets/css/careers.css
 	<div class="col-md-4 mrgn-bttm-md">
 		<div class="well">
 			<figure>
-				<img alt="" class="img-responsive center-block" src="img/dice-ecdi-12.jpg">
+				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-12.jpg">
 				<figcaption>
 					A group of participants and staff pose for a group photo in the Drill Hall of the RCMP Academy.
 				</figcaption>

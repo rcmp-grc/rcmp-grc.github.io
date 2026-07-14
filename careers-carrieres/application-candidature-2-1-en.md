@@ -272,6 +272,7 @@ custom_css: /assets/css/careers.css
     </figure>
      </div>
     <p>Study this group of objects; you have a 30-second time limit.</p>
+    <p>What colour is the circle?</p>
      <ol class="lst-lwr-alph">
       <li>Red</li>
       <li>Green</li>

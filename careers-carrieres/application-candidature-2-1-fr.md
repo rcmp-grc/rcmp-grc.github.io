@@ -252,27 +252,28 @@ custom_css: /assets/css/careers.css
 </section>
 </section>
 <section id="s6">
-  <h2>Section&nbsp;5&nbsp;: Memory quotient</h2>
+  <h2>Section&nbsp;5&nbsp;: Quotient de mémoire</h2>
   <ul>
-    <li>You will have a limited amount of time to view an image, list of numbers, or written text. You will then be asked to answer questions using your memory</li>
-    <li>This section should take you approximately 25&nbsp;minutes</li>
-    <li>This section must be completed in one&nbsp;session</li>
-    <li>Please ensure that you complete the assessment in a quiet environment where you can focus and avoid interruptions or distractions</li>
-    <li>Answer each question to the best of your abilities. Use of external resources or input from others is not permitted</li>
-    <li>You will have 1&nbsp;minute to review an image on the page. After reviewing the image, you will then proceed to a series of questions regarding the image you just saw</li>
-    <li>You will have 45&nbsp;seconds to answer the associated questions</li>
-    <li>You will receive 1&nbsp;point for each correct answer</li>
-    <li>You can skip questions. If you do not know the answer, please select "I don't know."</li>
-    <li>Once the time limit has run out, you will advance to the next question automatically</li>
-    <li>You may choose to proceed to the next section before the time limit is up</li>
+    <li>Vous disposerez d'un laps de temps limité pour mémoriser une image, une&nbsp;liste de nombres ou un texte écrit. Ensuite, vous devrez répondre à des questions de mémoire</li>
+    <li>Cette section devrait prendre environ 25&nbsp;minutes</li>
+    <li>Cette section doit être faite en une&nbsp;seule fois</li>
+    <li>Assurez-vous de vous installer dans un endroit silencieux où vous pourrez vous concentrer sans interruption et sans source de distraction</li>
+    <li>Répondez à toutes les questions du mieux que vous le pouvez. Il est interdit d'utiliser quelque outil que ce soit ou de demander l'aide de quelqu'un</li>
+    <li>Vous aurez 1&nbsp;minute pour observer une image sur la page. Ensuite, vous devrez répondre à une série de questions sur l'image que vous venez de regarder</li>
+    <li>Vous aurez 45&nbsp;secondes pour répondre aux questions</li>
+    <li>Vous obtiendrez 1&nbsp;point par bonne réponse</li>
+    <li>Vous pouvez passer des questions. Si vous ne connaissez pas la réponse à une question, veuillez sélectionner la réponse «&nbsp;Je ne sais pas&nbsp;»</li>
+    <li>Une&nbsp;fois le temps écoulé, vous passerez automatiquement à la question suivante</li>
+    <li>Vous pouvez choisir de passer à la section suivante avant que le temps soit écoulé</li>
   </ul>
-   <p><strong>Example&nbsp;1</strong>:</p>
+   <p><strong>Exemple&nbsp;1</strong>&nbsp;:</p>
      <div class="well pull-right col-lg-6">
         <figure>
       <img alt="" class="img-responsive full-width" src="rpab-shapes-480x300.jpg">
     </figure>
      </div>
-    <p>Study this group of objects; you have a 30-second time limit.</p>
+    <p>Observez ce groupe d'objets. Vous avez 30 secondes.</p>
+     <p>Quelle est la couleur du cercle?</p> 
      <ol class="lst-lwr-alph">
       <li>Red</li>
       <li>Green</li>

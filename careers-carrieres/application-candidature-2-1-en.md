@@ -191,7 +191,7 @@ custom_css: /assets/css/careers.css
       <li>E</li>
       <li>I don't know</li>
     </ol>
-     <p>The correct answer is <strong>c. shape C</strong>.</p>
+     <p>The correct answer is <strong>c. shape&nbsp;C</strong>.</p>
    </section>
   <section id="s5-2">
    <h3>Part&nbsp;B – 3D&nbsp;shapes</h3>
@@ -209,7 +209,7 @@ custom_css: /assets/css/careers.css
       <li>D</li>
       <li>I don't know</li>
     </ol>
-     <p>The correct answer is <strong>d. shape D</strong>.</p>
+     <p>The correct answer is <strong>d. shape&nbsp;D</strong>.</p>
   </section>
   <section id="s5-3">
    <h3>Part&nbsp;C – Mechanical problems</h3>
@@ -247,7 +247,7 @@ custom_css: /assets/css/careers.css
       <li>D</li>
       <li>I don't know</li>
     </ol>
-     <p>The correct answer is <strong>c. shape C</strong>.</p>
+     <p>The correct answer is <strong>c. shape&nbsp;C</strong>.</p>
 </section>
 </section>
 <section id="s6">

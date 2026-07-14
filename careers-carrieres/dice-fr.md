@@ -55,7 +55,7 @@ Regina (Saskatchewan)</p> -->
 </ul>
 <p>Les participants qui auront réussi la formation recevront de l'équipe du Programme d'expérience précadet diversifié et inclusif une orientation et un soutien continus dans le cadre du processus de candidature des aspirants policiers de la GRC. Le fait d'avoir réussi la formation du Programme d'expérience précadet diversifié et inclusif signifie que les participants auront franchi certaines étapes du processus de candidature des aspirants policiers, ce qui se reflétera dans leur dossier de candidature.</p>
 <section id="s1">
-	<h2>Exigences pour postuler&#160;:</h2>
+	<h2>Exigences pour postuler</h2>
 	<ul>
 		<li>avoir 19 ans ou plus;</li>
 		<li>avoir la citoyenneté canadienne ou le statut de résident(e) permanent(e) au Canada;</li>

@@ -38,6 +38,7 @@ custom_css: /assets/css/careers.css
       </li>
     </ul>
   </nav>
+
   <div class="pull-right col-xs-12 col-md-3 col-lg-4 mrgn-tp-md">
     <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
       <figure>
@@ -48,6 +49,7 @@ custom_css: /assets/css/careers.css
       </figure>
     </div>
   </div>
+
   <p>Le Programme de formation des précadets autochtones est une formation de trois&nbsp;semaines offrant aux Autochtones canadiens la possibilité de découvrir la carrière de policier. La formation a lieu à l'École de la GRC (Division&nbsp;Dépôt) à Regina&nbsp;(Saskatchewan).</p>
   <p>Vous apprendrez&nbsp;:</p>
   <ul>
@@ -73,39 +75,45 @@ custom_css: /assets/css/careers.css
     <h2>Coûts</h2>
     <p>Les coûts du Programme sont couverts en totalité par la GRC, y compris les déplacements, l'uniforme, les repas et l'hébergement.</p>
   </section>
+
   <section id="s3">
       <h2>Expériences de participants</h2>
-      <div class="wb-eqht wb-init">
-    <blockquote>
+      <div class="row">
+	      <div class="col-md-6 mb-3">
+      <blockquote>
       <p>«&nbsp;Il y a d'autres personnes comme nous ici, issues de communautés autochtones - oui, nous pouvons être membres de la GRC.&nbsp;»</p>
       <footer>
           Anna V, Manitoba 
       </footer>
-    </blockquote>
-    <div class="col-md-4 mrgn-bttm-md">
+      </blockquote>
+      <div class="col-md-4 mrgn-bttm-md">
       <figure>
           <img alt="" class="img-responsive center-block" src="iptp-pfpa-1.jpg">
           <figcaption>
               Des participants au programme PFPA assistent à des séances de formation en salle de classe.
           </figcaption>
       </figure>
-  </div>
+      </div>
+      </div>
       </div>
       <div class="clearfix"></div>
+
     <blockquote>
       <p>«&nbsp;Si jamais vous en avez l'occasion, faites-le sans hésiter. Cela vous ouvrira des portes pour l'avenir.&nbsp;»</p>
       <footer>
           John B, Colombie-Britannique
       </footer>
-    </blockquote>   
-    <div class="wb-eqht wb-init">
-    <blockquote>
+    </blockquote>
+
+    <div class="row">
+      <div class="col-md-6 mb-3">
+      <blockquote>
       <p>«&nbsp;J'espère contribuer à une meilleure perception des agents de la GRC, non seulement dans ma communauté, mais aussi partout au Canada.&nbsp;»</p>
       <footer>
           Keenan A, Alberta
       </footer>
-    </blockquote>
-    <div class="col-md-4 mrgn-bttm-md">
+      </blockquote>
+      <div class="col-md-4 mrgn-bttm-md">
       <figure>
           <img alt="" class="img-responsive center-block" src="iptp-pfpa-2.jpg">
           <figcaption>
@@ -114,15 +122,19 @@ custom_css: /assets/css/careers.css
       </figure>
   </div>
 </div>
+    </div>
 <div class="clearfix"></div>
+
     <blockquote>
       <p>«&nbsp;Cela vous donne un très bon aperçu de ce qu'est la GRC et de la façon dont elle a changé au fil des ans. Cela peut aider à se dépasser, car parfois, on ne réalise pas de quoi on est capable tant qu'on ne sort pas de sa zone de confort.&nbsp;» </p>
       <footer>
           Kayla-Marie O, Colombie-Britannique
       </footer> 
     </blockquote>
-  <div class="wb-eqht wb-init">
-    <blockquote>
+
+      <div class="row">
+	      <div class="col-md-6 mb-3">
+      <blockquote>
       <p>«&nbsp;Quand les gens disent que c'est une famille, on prend ça avec un&nbsp;grain de sel. Mais on ne réalise pas à quel point tout le monde devient lié avec sa propre troupe et juste les uns avec les autres. C'est une&nbsp;petite communauté à part entière et je pense que c'est génial!&nbsp;»</p>
       <footer>
           Jillian G, Alberta  
@@ -137,7 +149,9 @@ custom_css: /assets/css/careers.css
       </figure>
   </div>
 </div>
+      </div>
 <div class="clearfix"></div>
+
   </section>
   <section id="s4">
     <h2>Comment poser votre candidature</h2>

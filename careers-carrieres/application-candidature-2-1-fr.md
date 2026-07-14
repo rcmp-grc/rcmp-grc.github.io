@@ -90,15 +90,16 @@ custom_css: /assets/css/careers.css
   <section id="s3-1">
    <h3>Partie&nbsp;A – Sens des mots</h3>
     <p>Lisez le premier mot, puis choisissez l’option dont le sens est le plus proche.</p>
-  <p><strong>Example: </strong></p>
+  <p><strong>Exemple&nbsp;: </strong></p>
+    <p>RaviRéciter</p>
     <ol class="lst-lwr-alph">
-      <li>Recite</li>
-      <li>Happy</li>
-      <li>Hopeless</li>
+      <li>Heureux</li>
+      <li>Désespéré</li>
+      <li>Inapproprié</li>
       <li>Inappropriate</li>
-      <li>I don't know</li>
+      <li>Je ne sais pas</li>
     </ol>
-    <p>The correct answer is <strong>b. Happy</strong>.</p>
+    <p>La bonne réponse est <strong>b. Heureux</strong>.</p>
 </section>
   <section id="s3-2">
    <h3>Part&nbsp;B – Word relationships</h3>

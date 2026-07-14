@@ -195,13 +195,11 @@ custom_css: /assets/css/careers.css
    <h3>Part&nbsp;B – 3D&nbsp;shapes</h3>
     <p>You will be asked a series of questions related to 3D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3&nbsp;minutes to complete the set of questions.</p>
      <p><strong>Example</strong>:</p>
-      <div class="pull-right col-xs-12 col-md-3 col-lg-4">
-      <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
+      <div class="well pull-right col-lg-6">
         <figure>
       <img alt="" class="img-responsive full-width" src="rpab-green-480x300.jpg">
     </figure>
       </div>
-    </div>
      <ol class="lst-lwr-alph">
       <li>A</li>
       <li>B</li>
@@ -215,13 +213,11 @@ custom_css: /assets/css/careers.css
    <h3>Part&nbsp;C – Mechanical problems</h3>
     <p>You will be asked a series of questions related to mechanical problems. You have 4&nbsp;minutes to complete the set of questions.</p>
        <p><strong>Example</strong>:</p>
-     <div class="pull-right col-xs-12 col-md-3 col-lg-4">
-      <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
+     <div class="well pull-right col-lg-6">
         <figure>
       <img alt="" class="img-responsive full-width" src="rpab-grey-480x600.jpg">
     </figure>
       </div>
-     </div>
     <p>When handle&nbsp;H is pulled to the right, as shown by the arrow, end E will:</p>
      <ol class="lst-lwr-alph">
       <li>Move to the left</li>
@@ -236,12 +232,10 @@ custom_css: /assets/css/careers.css
    <h3>Part&nbsp;D – Cubes and folding shapes</h3>
     <p>You will be asked a series of questions related to cubes and folding shapes. You will have 5&nbsp;minutes to complete the set of questions.</p>
        <p><strong>Example</strong>:</p>
-      <div class="pull-right col-xs-12 col-md-3 col-lg-4">
-      <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
+      <div class="well pull-right col-lg-6">
         <figure>
       <img alt="" class="img-responsive full-width" src="rpab-yellow-480x480.jpg">
     </figure>
-      </div>
       </div>
     <p>Which of the folded shapes represents the unfolded image?</p>
      <ol class="lst-lwr-alph">
@@ -270,12 +264,10 @@ custom_css: /assets/css/careers.css
     <li>You may choose to proceed to the next section before the time limit is up</li>
   </ul>
    <p><strong>Example&nbsp;1</strong>:</p>
-     <div class="pull-right col-xs-12 col-md-3 col-lg-4">
-      <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
+     <div class="well pull-right col-lg-6">
         <figure>
       <img alt="" class="img-responsive full-width" src="rpab-shapes-480x300.jpg">
     </figure>
-      </div>
      </div>
     <p>Study this group of objects; you have a 30-second time limit.</p>
      <ol class="lst-lwr-alph">

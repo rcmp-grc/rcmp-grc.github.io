@@ -102,83 +102,83 @@ custom_css: /assets/css/careers.css
     <p>La bonne réponse est <strong>b. Heureux</strong>.</p>
 </section>
   <section id="s3-2">
-   <h3>Part&nbsp;B – Word relationships</h3>
-    <p>Note the relationship between the first pair of words. Select the option that forms a similar relationship to fill the blank. </p>
-    <p><strong>Example: </strong></p>
-    <p>Tie: Rope</p>
-    <p>Cut:</p>
+   <h3>Partie&nbsp;B – Liens entre les mots</h3>
+    <p>Notez la relation entre la première paire de mots. Sélectionnez l’option qui établit une relation similaire pour compléter l’espace vide. </p>
+    <p><strong>Exemple&nbsp;: </strong></p>
+    <p>Attacher&nbsp;: Corde</p>
+    <p>Couper&nbsp;:</p>
     <ol class="lst-lwr-alph">
-      <li>Needle</li>
-      <li>Repair</li>
-      <li>Saw</li>
-      <li>Broken</li>
+      <li>Aiguille</li>
+      <li>Réparer</li>
+      <li>Scie</li>
+      <li>Brisé</li>
     </ol>
-    <p>The correct answer is <strong>c. Saw</strong>. You tie with a rope; you cut with a saw.</p>
+    <p>La bonne réponse est <strong>c. Scie</strong>. On attache avec une corde, on coupe avec une scie.</p>
 </section>
 </section>
 <section id="s4">
-  <h2>Section&nbsp;3: Numerical skills</h2>
+  <h2>Section&nbsp;3&nbsp;: Compétences en calcul</h2>
   <ul>
-    <li>This section requires making numerical calculations and consists of two components: Level&nbsp;1 calculations and Level&nbsp;2 calculations</li>
-    <li>Please complete as many questions as you can</li>
-    <li>Answer each question to the best of your abilities</li>
-    <li>You will receive 1&nbsp;point for each correct answer</li>
-    <li>You may skip questions. If you do not know the answer, please select "I don't know."</li>
-    <li>Use only your knowledge, pen and paper when completing these questions. The use of calculators, computer software or input from others is not permitted</li>
-    <li>There is a timer at the bottom of the page</li>
+    <li>Dans cette section, vous devrez faire des calculs. Les questions se divisent en deux volets, soit calcul de niveau&nbsp;1 et calcul de niveau&nbsp;2</li>
+    <li>Répondez au plus grand nombre de questions possible</li>
+    <li>Répondez à toutes les questions du mieux que vous le pouvez</li>
+    <li>Vous obtiendrez 1&nbsp;point par bonne réponse</li>
+    <li>Vous pouvez passer des questions. Si vous ne connaissez pas la réponse à une question, veuillez sélectionner la réponse «&nbsp;Je ne sais pas&nbsp;»</li>
+    <li>Pour faire vos calculs, vous ne pouvez utiliser qu'un stylo et du papier. Il est interdit d'utiliser une calculatrice, d'utiliser un logiciel ou de demander l'aide de quelqu'un</li>
+    <li>Il y aura un compte à rebours au bas de la page</li>
   </ul>
    <section id="s4-1">
-   <h3>Part&nbsp;A – Level&nbsp;1 calculations</h3>
-     <p>This part of the assessment draws on your addition and multiplication skills. You have 3&nbsp;minutes to complete the set of questions.</p>
-     <p><strong>Example&nbsp;1</strong>:</p>
+   <h3>Partie&nbsp;A – Calcul de niveau&nbsp;1</h3>
+     <p>Cette partie de l’évaluation fait appel à vos compétences en addition et en multiplication. Vous aurez 3&nbsp;minutes pour répondre à la série de questions.</p>
+     <p><strong>Exemple&nbsp;1</strong>&nbsp;:</p>
      <p>8 + 7 =</p>
      <ol class="lst-lwr-alph">
       <li>12</li>
       <li>13</li>
       <li>15</li>
       <li>16</li>
-      <li>I don't know</li>
+      <li>Je ne sais pas</li>
     </ol>
-     <p>The correct answer is <strong>c. 15</strong>.</p>
-     <p><strong>Example&nbsp;2</strong>:</p>
+     <p>La bonne réponse est <strong>c. 15</strong>.</p>
+     <p><strong>Exemple&nbsp;2</strong>&nbsp;:</p>
      <p>5 x 5 =</p>
       <ol class="lst-lwr-alph">
       <li>10</li>
       <li>25</li>
       <li>36</li>
       <li>50</li>
-      <li>I don't know</li>
+      <li>Je ne sais pas.</li>
     </ol>
-     <p>The correct answer is <strong>b. 25</strong>.</p>
+     <p>La bonne réponse est <strong>b. 25</strong>.</p>
    </section>
   <section id="s4-2">
-   <h3>Part&nbsp;B – Level&nbsp;2 calculations</h3>
-     <p>This part of the assessment draws on multiple skills, including addition, subtraction, multiplication and division. You will have 3&nbsp;minutes to complete the set of questions.</p>
-     <p><strong>Example</strong>:</p>
+   <h3>Partie&nbsp;B – Calcul de niveau&nbsp;2</h3>
+     <p>Cette partie de l’évaluation fait appel à plusieurs compétences, notamment les additions, soustractions, multiplications et divisions. Vous aurez 3&nbsp;minutes pour répondre à la série de questions.</p>
+     <p><strong>Example</strong>&nbsp;:</p>
      <p>2 + 2 x 1 =</p>
      <ol class="lst-lwr-alph">
       <li>2</li>
       <li>3</li>
       <li>4</li>
       <li>0</li>
-      <li>I don't know</li>
+      <li>Je ne sais pas</li>
     </ol>
-     <p>The correct answer is <strong>c. 4</strong>.</p>
+     <p>La bonne réponse est <strong>c. 4</strong>.</p>
    </section>
 </section>
 <section id="s5">
-  <h2>Section&nbsp;4: Spatial skills</h2>
+  <h2>Section&nbsp;4&nbsp;: Habiletés spatiales</h2>
   <ul>
-    <li>This section consists of four components: rotating 2D&nbsp;shapes; 3D&nbsp;shapes; mechanical problems and cubes and folding shapes</li>
-    <li>Please complete as many questions as you can</li>
-    <li>You will receive 1&nbsp;point for each correct answer</li>
-    <li>You can skip questions –please choose "I don't know" if you do not know the answer</li>
-    <li>There is a timer at the bottom of the page</li>
+    <li>Cette section se divise en quatre volets&nbsp;: rotation de formes en deux&nbsp;dimensions, formes en trois&nbsp;dimensions, mécanique et prismes déconstruits.</li>
+    <li>Répondez au plus grand nombre de questions possible</li>
+    <li>Vous obtiendrez 1&nbsp;point par bonne réponse</li>
+    <li>Vous pouvez passer des questions. Si vous ne connaissez pas la réponse à une question, veuillez sélectionner la réponse «&nbsp;Je ne sais pas&nbsp;»</li>
+    <li>Il y aura un compte à rebours bas de la page</li>
   </ul>
    <section id="s5-1">
-   <h3>Part&nbsp;A – Rotating 2D&nbsp;shapes</h3>
-     <p>You will be asked a series of questions related to 2D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3&nbsp;minutes to complete the set of questions.</p>
-     <p><strong>Example</strong>:</p>
+   <h3>Partie&nbsp;A – Rotation de formes en deux dimensions</h3>
+     <p>Cette partie contient une série de questions sur les formes en deux dimensions. À chaque question, sélectionnez la lettre qui correspond à la forme encadrée. Vous aurez 3&nbsp;minutes pour répondre à la série de questions.</p>
+     <p><strong>Exemple</strong>&nbsp;:</p>
       <div class="well pull-right col-lg-6">
         <figure>
       <img alt="" class="img-responsive full-width" src="rpab-pink-480x300.jpg">
@@ -190,7 +190,7 @@ custom_css: /assets/css/careers.css
       <li>C</li>
       <li>D</li>
       <li>E</li>
-      <li>F</li>
+      <li>Je ne sais pas</li>
     </ol>
      <p>The correct answer is <strong>c. shape C</strong>.</p>
    </section>

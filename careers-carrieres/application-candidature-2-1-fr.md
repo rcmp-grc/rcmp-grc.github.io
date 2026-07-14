@@ -223,36 +223,36 @@ custom_css: /assets/css/careers.css
       </div>
     <p>Lorsqu'on tire la poignée&nbsp;H vers la droite (comme le montre la flèche dans l'illustration ci-dessous), qu'arrive-t-il à l'extrémité&nbsp;E:</p>
      <ol class="lst-lwr-alph">
-      <li>Move to the left</li>
-      <li>Move to the right</li>
-      <li>Move back and forth</li>
-      <li>Stay in the same position</li>
-      <li>I don't know</li>
+      <li>Elle se déplace vers la gauche</li>
+      <li>Elle se déplace vers la droite</li>
+      <li>Elle se déplace d'avant en arrière</li>
+      <li>Elle reste dans la même position</li>
+      <li>Je ne sais pas</li>
     </ol>
-     <p>The correct answer is <strong>a. Move to the left</strong>.</p>
+     <p>La bonne réponse est <strong>a. Elle se déplace vers la gauche</strong>.</p>
 </section>
   <section id="s5-4">
-   <h3>Part&nbsp;D – Cubes and folding shapes</h3>
-    <p>You will be asked a series of questions related to cubes and folding shapes. You will have 5&nbsp;minutes to complete the set of questions.</p>
-       <p><strong>Example</strong>:</p>
+   <h3>Partie&nbsp;D – Prismes déconstruits</h3>
+    <p>Cette partie contient une série de questions sur les prismes déconstruits. Vous aurez 5&nbsp;minutes pour répondre à la série de questions.</p>
+       <p><strong>Exemple</strong>&nbsp;:</p>
       <div class="well pull-right col-lg-6">
         <figure>
       <img alt="" class="img-responsive full-width" src="rpab-yellow-480x480.jpg">
     </figure>
       </div>
-    <p>Which of the folded shapes represents the unfolded image?</p>
+    <p>Si on repliait le carton ci-dessous, lequel des prismes plus bas obtiendrait-on?</p>
      <ol class="lst-lwr-alph">
       <li>A</li>
       <li>B</li>
       <li>C</li>
       <li>D</li>
-      <li>I don't know</li>
+      <li>Je ne sais pas</li>
     </ol>
-     <p>The correct answer is <strong>c. shape C</strong>.</p>
+     <p>La bonne réponse est <strong>c. la forme&nbsp;C</strong>.</p>
 </section>
 </section>
 <section id="s6">
-  <h2>Section&nbsp;5: Memory quotient</h2>
+  <h2>Section&nbsp;5&nbsp;: Memory quotient</h2>
   <ul>
     <li>You will have a limited amount of time to view an image, list of numbers, or written text. You will then be asked to answer questions using your memory</li>
     <li>This section should take you approximately 25&nbsp;minutes</li>

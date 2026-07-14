@@ -13,7 +13,7 @@ custom_css: /assets/css/careers.css
 ---
 
 <section class="alert alert-info">
-	<h2 class="h3">Dates des troupes</h2>
+	<h2 class="h3">Dates des prochaines troupes</h2>
 	<!--<p>Les dates de formation des troupes seront affichées sur cette page dès qu'elles seront connues.</p>-->
 	<!-- <p>Les prochaines dates des troupes sont les suivantes&nbsp;:</p> -->
 	<ul>

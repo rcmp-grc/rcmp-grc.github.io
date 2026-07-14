@@ -90,6 +90,7 @@ custom_css: /assets/css/careers.css
    <h3>Part&nbsp;A – Word meanings</h3>
     <p>Read the first word, then choose the option with the closest meaning.</p>
   <p><strong>Example: </strong></p>
+    <p>Glad</p>
     <ol class="lst-lwr-alph">
       <li>Recite</li>
       <li>Happy</li>

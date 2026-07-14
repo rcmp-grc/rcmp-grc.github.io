@@ -13,15 +13,13 @@ custom_css: /assets/css/careers.css
 ---
 
 <section class="alert alert-info">
-	<h2 class="h3">Dates des prochaines troupes</h2>
+	<h2 class="h3">Prochaines dates des troupes</h2>
 	<!--<p>Les dates de formation des troupes seront affichées sur cette page dès qu'elles seront connues.</p>-->
 	<!-- <p>Les prochaines dates des troupes sont les suivantes&nbsp;:</p> -->
 	<ul>
 		<!--<li>Du 6&nbsp;mai au 26&nbsp;mai&nbsp;2026 (complet)</li>-->
 		<li>Du 6 au 26 janvier 2027</li>
 	</ul>
-	<!-- <p>École de la GRC, Division Dépôt<br>
-Regina (Saskatchewan)</p> -->
 </section>
 <nav aria-labelledby="on-this-page-heading">
 	<h2 id="on-this-page-heading">Sur cette page</h2>
@@ -55,7 +53,7 @@ Regina (Saskatchewan)</p> -->
 </ul>
 <p>Les participants qui auront réussi la formation recevront de l'équipe du Programme d'expérience précadet diversifié et inclusif une orientation et un soutien continus dans le cadre du processus de candidature des aspirants policiers de la GRC. Le fait d'avoir réussi la formation du Programme d'expérience précadet diversifié et inclusif signifie que les participants auront franchi certaines étapes du processus de candidature des aspirants policiers, ce qui se reflétera dans leur dossier de candidature.</p>
 <section id="s1">
-	<h2>Exigences pour postuler</h2>
+	<h2>Exigences pour postuler&#160;:</h2>
 	<ul>
 		<li>avoir 19 ans ou plus;</li>
 		<li>avoir la citoyenneté canadienne ou le statut de résident(e) permanent(e) au Canada;</li>
@@ -76,7 +74,7 @@ Regina (Saskatchewan)</p> -->
 	<h2>Expériences de participants</h2>
 	<p>Chaque troupe du Programme d'expérience précadet diversifié et inclusif (ECDI) comprend des personnes issues de milieux variés qui ont vécu des parcours personnels impressionnants ou des expériences de croissance, de soutien, de mentorat et de confiance retrouvée. Ces témoignages d'anciens participants offrent un aperçu de ce que le programme a représenté pour eux et de la manière dont il a teinté la suite de leur parcours.</p>
 	<div class="wb-eqht wb-init">
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-1.jpg">
 				<figcaption>
@@ -84,7 +82,7 @@ Regina (Saskatchewan)</p> -->
 				</figcaption>
 			</figure>
 		</div>
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-2.jpg">
 				<figcaption>
@@ -105,7 +103,7 @@ Regina (Saskatchewan)</p> -->
 		<footer>Participant Eastwood</footer>
 	</blockquote>
 	<div class="wb-eqht wb-init">
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-3.jpg">
 				<figcaption>
@@ -113,7 +111,7 @@ Regina (Saskatchewan)</p> -->
 				</figcaption>
 			</figure>
 		</div>
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-4.jpg">
 				<figcaption>
@@ -128,7 +126,7 @@ Regina (Saskatchewan)</p> -->
 		<footer>Participante Shafiq</footer>
 	</blockquote>
 	<div class="wb-eqht wb-init">
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-5.jpg">
 				<figcaption>
@@ -155,7 +153,7 @@ Regina (Saskatchewan)</p> -->
 	<p>Enfin, les jeunes ont pu découvrir les coulisses d'un entraînement du Carrousel de la GRC, après quoi la journée s'est conclue par une séance de mise en forme interactive dirigée par deux membres de l'équipe de la condition physique du QGN, où les participants ont eu un pu avoir un aperçu concret des exigences physiques d'une carrière policière.</p>
 	<p>Ayant connu un franc succès, la première édition de la Journée d'initiation pour les jeunes du Programme ECDI a permis de promouvoir l'inclusion en plus de susciter la curiosité chez les jeunes participants et de les amener à explorer des possibilités de carrière à la GRC.</p>
 	<div class="wb-eqht wb-init">
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-6.jpg">
 				<figcaption>
@@ -163,7 +161,7 @@ Regina (Saskatchewan)</p> -->
 				</figcaption>
 			</figure>
 		</div>
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-7.jpg">
 				<figcaption>
@@ -174,7 +172,7 @@ Regina (Saskatchewan)</p> -->
 	</div>
 	<div class="clearfix"></div>
 	<div class="wb-eqht wb-init">
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-8.jpg">
 				<figcaption>
@@ -182,7 +180,7 @@ Regina (Saskatchewan)</p> -->
 				</figcaption>
 			</figure>
 		</div>
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-9.jpg">
 				<figcaption>
@@ -208,7 +206,7 @@ Regina (Saskatchewan)</p> -->
 	<p>En mai dernier, le sénateur Dhillon a visité l'École de la GRC pour y rencontrer la troupe du Programme d'expérience précadet diversifié et inclusif (ECDI) qui entamait sa formation de trois semaines. Il a noué des liens avec les participants et les mentors et a observé plusieurs activités de formation, notamment celles consacrées aux exercices et au maintien ainsi qu'à la condition physique des policiers, qui mettent l'accent sur la discipline, la confiance en soi et la préparation physique.</p>
 	<p>L'histoire de Baltej Dhillon relève du courage et de la persévérance. Non seulement a-t-il brisé des barrières, mais il a su rassembler les gens et démontrer que la foi, l'identité et le service à la collectivité peuvent aller de pair. Rencontrer une personne qui a contribué à façonner un avenir plus inclusif a été une expérience enrichissante et motivante pour les participants au Programme ECDI, et cela leur a rappelé que le leadership et la conviction peuvent être à l'origine de changements durables.</p>
 	<div class="wb-eqht wb-init">
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-11.jpg">
 				<figcaption>
@@ -216,7 +214,7 @@ Regina (Saskatchewan)</p> -->
 				</figcaption>
 			</figure>
 		</div>
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-12.jpg">
 				<figcaption>

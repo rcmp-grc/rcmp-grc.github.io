@@ -351,12 +351,24 @@ custom_css: /assets/css/careers.css
   </section>
 </section>
 
-<nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page" style="display: block;">
-  <div class="rcmp-content-page__prev" id="mp-prev-wrap" style="display: block;">
-    <a aria-label="Previous page: Submit an online application" class="rcmp-content-page__link" href="application-candidature-2-en.html" id="mp-prev"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i> <span class="rcmp-content-page__link-title">Previous page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-prev-label">Online career presentation and entrance assessment</span></a>
+<nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
+  <div class="rcmp-content-page__previous" id="mp-previous-wrap">
+    <a aria-label="Étape précédente&#160;: Posez votre candidature en ligne" class="rcmp-content-page__link" href="application-candidature-2-fr.html" id="mp-previous">
+      <span class="rcmp-content-page__title-row">
+        <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i>
+        <span class="rcmp-content-page__link-title">Étape précédente</span>
+      </span>
+      <span class="rcmp-content-page__link-label" id="mp-previous-label">Exposé sur les carrières et évaluation d'entrée en ligne</span>
+    </a>
   </div>
-  <div class="rcmp-content-page__next" id="mp-next-wrap" style="display: block;">
-    <a aria-label="Next page: Submit the required forms and documents" class="rcmp-content-page__link" href="application-candidature-3-en.html" id="mp-next"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i> <span class="rcmp-content-page__link-title">Next page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-next-label">Submit the required forms and documents</span></a>
+  <div class="rcmp-content-page__next" id="mp-next-wrap">
+    <a aria-label="Étape suivante&#160;: Transmettez les formulaires et les documents requis" class="rcmp-content-page__link" href="application-candidature-3-fr.html" id="mp-next">
+      <span class="rcmp-content-page__title-row">
+        <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
+        <span class="rcmp-content-page__link-title">Étape suivante</span>
+      </span>
+      <span class="rcmp-content-page__link-label" id="mp-next-label">Transmettez les formulaires et les documents requis</span>
+    </a>
   </div>
 </nav>
 <script>

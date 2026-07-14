@@ -283,7 +283,7 @@ custom_css: /assets/css/careers.css
     </ol>
      <p>La bonne réponse est <strong>c. Noir</strong>.</p>
   <p><strong>Exemple&nbsp;2</strong>&nbsp;:</p>
-  <p>Read the weather report carefully; you have a 1-minute time limit</p>
+  <p>Lisez le bulletin météo attentivement. Vous avez 1&nbsp;minute.</p>
   <p>The forecast calls for cloudy skies today with a high of 35&nbsp;degrees and light winds from the southwest. Clearing overnight with a low of 23&nbsp;degrees.</p>
   <p>After the time limit has elapsed, the screen will advance to a set of questions about the text. You will have 45&nbsp;seconds to answer the questions.</p>
   <p>Which direction is the wind coming from?</p>

@@ -313,7 +313,7 @@ custom_css: /assets/css/careers.css
    <section id="s7-1">
    <h3>Part&nbsp;A – Verbal reasoning</h3>
      <p>Choose the word that best fits the blank. Look at the first pair of words to see how they relate to each other and then choose the word that makes the second pair of words related in the same way.</p>
-     <p><strong>Example&nbsp;1</strong></p>
+     <p><strong>Example&nbsp;1</strong>:</p>
      <p>Up: Down</p>
       <p>Left:</p>
      <ol class="lst-lwr-alph">
@@ -335,7 +335,7 @@ custom_css: /assets/css/careers.css
   <section id="s7-2">
    <h3>Part&nbsp;B – Numerical reasoning</h3>
      <p>This section consists of math word problems. Complete the questions by selecting the answer you think is correct</p>
-      <p><strong>Example</strong></p>
+      <p><strong>Example</strong>:</p>
      <p>John made one sale of $100 and Betty made one sale of $200. What was the difference in sale between John and Betty?</p>
      <ol class="lst-lwr-alph">
       <li>$300</li>

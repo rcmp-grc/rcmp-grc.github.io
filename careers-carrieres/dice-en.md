@@ -13,7 +13,7 @@ custom_css: /assets/css/careers.css
 ---
 
 <section class="alert alert-info">
-	<h2 class="h3">Upcoming troop dates</h2>
+	<h2 class="h3">Troop dates</h2>
 	<!--<p>Troop dates will be posted here once they are available.</p>-->
 	<!-- <p>The next troop dates are as follows:</p> -->
 	<ul>
@@ -76,7 +76,7 @@ custom_css: /assets/css/careers.css
 	<h2>Candidate experiences</h2>
 	<p>Behind every DICE troop are people who arrive from different backgrounds, with powerful personal journeys, stories of growth, support, mentorship and newfound confidence. These reflections from past participants offer a glimpse into what the program meant to them and how it shaped their next steps.</p>
 	<div class="wb-eqht wb-init">
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-1.jpg">
 				<figcaption>
@@ -84,7 +84,7 @@ custom_css: /assets/css/careers.css
 				</figcaption>
 			</figure>
 		</div>
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-2.jpg">
 				<figcaption>
@@ -104,7 +104,7 @@ custom_css: /assets/css/careers.css
 		<footer>Candidate Eastwood</footer>
 	</blockquote>
 	<div class="wb-eqht wb-init">
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-3.jpg">
 				<figcaption>
@@ -112,7 +112,7 @@ custom_css: /assets/css/careers.css
 				</figcaption>
 			</figure>
 		</div>
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-4.jpg">
 				<figcaption>
@@ -127,7 +127,7 @@ custom_css: /assets/css/careers.css
 		<footer>Candidate Shafiq</footer>
 	</blockquote>
 	<div class="wb-eqht wb-init">
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-5.jpg">
 				<figcaption>
@@ -154,7 +154,7 @@ custom_css: /assets/css/careers.css
 	<p>The students were given a behind-the-scenes look at an RCMP Musical Ride practice, after which the day concluded with an interactive fitness session led by two members of the NHQ Fitness Team, offering participants a firsthand glimpse into the physical demands of a policing career.</p>
 	<p>The first-ever Junior DICE Day was a resounding success, fostering inclusion, sparking curiosity, and inspiring young participants to explore future opportunities within the RCMP.</p>
 	<div class="wb-eqht wb-init">
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-6.jpg">
 				<figcaption>
@@ -162,7 +162,7 @@ custom_css: /assets/css/careers.css
 				</figcaption>
 			</figure>
 		</div>
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-7.jpg">
 				<figcaption>
@@ -173,7 +173,7 @@ custom_css: /assets/css/careers.css
 	</div>
 	<div class="clearfix"></div>
 	<div class="wb-eqht wb-init">
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-8.jpg">
 				<figcaption>
@@ -181,7 +181,7 @@ custom_css: /assets/css/careers.css
 				</figcaption>
 			</figure>
 		</div>
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-9.jpg">
 				<figcaption>
@@ -206,8 +206,9 @@ custom_css: /assets/css/careers.css
 	<p>In 1991, Senator Dhillon became the first RCMP officer authorized to wear a turban while on duty, standing up for the right to practise his faith while serving Canada. He later completed a successful 30‑year career with the RCMP, helping advance greater inclusion within the organization.</p>
 	<p>This past May, Senator Dhillon visited the RCMP Academy to meet and speak with the DICE troop as they began their three‑week training program. He connected with participants and mentors and observed several training activities, including Drill and Deportment and Police Fitness Training, which focus on discipline, confidence, and physical readiness.</p>
 	<p>Baltej Dhillon's story is one of courage and perseverance. More than breaking barriers, he has brought people together and shown that faith, identity, and public service can go hand in hand. Meeting someone who helped shape a more inclusive future was a meaningful and motivating experience for DICE participants, and a reminder that leadership and conviction can inspire lasting change.</p>
+
 	<div class="wb-eqht wb-init">
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-11.jpg">
 				<figcaption>
@@ -215,7 +216,7 @@ custom_css: /assets/css/careers.css
 				</figcaption>
 			</figure>
 		</div>
-		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-12.jpg">
 				<figcaption>

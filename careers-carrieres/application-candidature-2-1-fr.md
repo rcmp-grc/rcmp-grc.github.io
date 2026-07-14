@@ -154,7 +154,7 @@ custom_css: /assets/css/careers.css
   <section id="s4-2">
    <h3>Partie&nbsp;B – Calcul de niveau&nbsp;2</h3>
      <p>Cette partie de l’évaluation fait appel à plusieurs compétences, notamment les additions, soustractions, multiplications et divisions. Vous aurez 3&nbsp;minutes pour répondre à la série de questions.</p>
-     <p><strong>Example</strong>&nbsp;:</p>
+     <p><strong>Exemple</strong>&nbsp;:</p>
      <p>2 + 2 x 1 =</p>
      <ol class="lst-lwr-alph">
       <li>2</li>

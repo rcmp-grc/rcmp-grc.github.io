@@ -176,7 +176,7 @@ custom_css: /assets/css/careers.css
    <h3>Part&nbsp;A – Rotating 2D&nbsp;shapes</h3>
      <p>You will be asked a series of questions related to 2D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3&nbsp;minutes to complete the set of questions.</p>
      <p><strong>Example</strong>:</p>
-      <div class="well pull-right col-lg-4">
+      <div class="well pull-right col-lg-6">
         <figure>
       <img alt="" class="img-responsive full-width" src="rpab-pink-480x300.jpg">
     </figure>

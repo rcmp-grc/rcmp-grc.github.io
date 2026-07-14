@@ -76,7 +76,7 @@ custom_css: /assets/css/careers.css
 	<h2>Candidate experiences</h2>
 	<p>Behind every DICE troop are people who arrive from different backgrounds, with powerful personal journeys, stories of growth, support, mentorship and newfound confidence. These reflections from past participants offer a glimpse into what the program meant to them and how it shaped their next steps.</p>
 	<div class="wb-eqht wb-init">
-		<div class="col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md well">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="img/dice-ecdi-1.jpg">
 				<figcaption>
@@ -84,7 +84,7 @@ custom_css: /assets/css/careers.css
 				</figcaption>
 			</figure>
 		</div>
-		<div class="col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md well">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="img/dice-ecdi-2.jpg">
 				<figcaption>
@@ -97,18 +97,14 @@ custom_css: /assets/css/careers.css
 	<blockquote>
 		<p>Participating in the DICE program was genuinely impactful for me - it provided a supportive, structured environment that strengthened my confidence, broadened my understanding of the RCMP, and helped me grow both personally and professionally.</p>
 		<p>The mentorship, teamwork, and hands on learning all played a major role in preparing me for the next steps in my journey to becoming an RCMP police officer.</p>
-		<footer>
-			<cite>Candidate Zourntos</cite>
-		</footer>
+		<footer>Candidate Zourntos</footer>
 	</blockquote>
 	<blockquote class="mrgn-tp-lg">
 		<p>The DICE experience was incredibly impactful for me. It gave me clear insight into the expectations, standards, and mindset required for the RCMP while building confidence and discipline. I strongly believe this program should be open to everyone because it provides a strong foundation for success.</p>
-		<footer>
-			<cite>Candidate Eastwood</cite>
-		</footer>
+		<footer>Candidate Eastwood</footer>
 	</blockquote>
 	<div class="wb-eqht wb-init">
-		<div class="col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md well">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="img/dice-ecdi-3.jpg">
 				<figcaption>
@@ -116,7 +112,7 @@ custom_css: /assets/css/careers.css
 				</figcaption>
 			</figure>
 		</div>
-		<div class="col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md well">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="img/dice-ecdi-4.jpg">
 				<figcaption>
@@ -128,12 +124,10 @@ custom_css: /assets/css/careers.css
 	<div class="clearfix"></div>
 	<blockquote>
 		<p>It was a life-changing experience. I never realized my own potential until I went through the training, which boosted my confidence. Everyone was supportive and a wonderful team, making it instantly feel like a family. The mentors, in particular, were beyond amazing and highly professional.</p>
-		<footer>
-			<cite>Candidate Shafiq</cite>
-		</footer>
+		<footer>Candidate Shafiq</footer>
 	</blockquote>
 	<div class="wb-eqht wb-init">
-		<div class="col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md well">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="img/dice-ecdi-5.jpg">
 				<figcaption>
@@ -145,15 +139,11 @@ custom_css: /assets/css/careers.css
 	<div class="clearfix"></div>
 	<blockquote>
 		<p>The DICE experience helped me deepen my desire to become a regular member. An experience unlike any other.</p>
-		<footer>
-			<cite>Candidate Bernier</cite>
-		</footer>
+		<footer>Candidate Bernier</footer>
 	</blockquote>
 	<blockquote class="mrgn-tp-lg">
 		<p>DICE is the perfect introduction to policing with the RCMP. It gave me a panoramic experience that elevates my interest in joining the RCMP.</p>
-		<footer>
-			<cite>Candidate Howe</cite>
-		</footer>
+		<footer>Candidate Howe</footer>
 	</blockquote>
 </section>
 <section id="s5">
@@ -164,7 +154,7 @@ custom_css: /assets/css/careers.css
 	<p>The students were given a behind-the-scenes look at an RCMP Musical Ride practice, after which the day concluded with an interactive fitness session led by two members of the NHQ Fitness Team, offering participants a firsthand glimpse into the physical demands of a policing career.</p>
 	<p>The first-ever Junior DICE Day was a resounding success, fostering inclusion, sparking curiosity, and inspiring young participants to explore future opportunities within the RCMP.</p>
 	<div class="wb-eqht wb-init">
-		<div class="col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md well">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="img/dice-ecdi-6.jpg">
 				<figcaption>
@@ -172,7 +162,7 @@ custom_css: /assets/css/careers.css
 				</figcaption>
 			</figure>
 		</div>
-		<div class="col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md well">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="img/dice-ecdi-7.jpg">
 				<figcaption>
@@ -183,7 +173,7 @@ custom_css: /assets/css/careers.css
 	</div>
 	<div class="clearfix"></div>
 	<div class="wb-eqht wb-init">
-		<div class="col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md well">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="img/dice-ecdi-8.jpg">
 				<figcaption>
@@ -191,7 +181,7 @@ custom_css: /assets/css/careers.css
 				</figcaption>
 			</figure>
 		</div>
-		<div class="col-md-4 mrgn-bttm-md">
+		<div class="col-md-4 mrgn-bttm-md well">
 			<figure>
 				<img alt="" class="img-responsive center-block" src="img/dice-ecdi-9.jpg">
 				<figcaption>
@@ -216,7 +206,7 @@ custom_css: /assets/css/careers.css
 	<p>In 1991, Senator Dhillon became the first RCMP officer authorized to wear a turban while on duty, standing up for the right to practise his faith while serving Canada. He later completed a successful 30‑year career with the RCMP, helping advance greater inclusion within the organization.</p>
 	<p>This past May, Senator Dhillon visited the RCMP Academy to meet and speak with the DICE troop as they began their three‑week training program. He connected with participants and mentors and observed several training activities, including Drill and Deportment and Police Fitness Training, which focus on discipline, confidence, and physical readiness.</p>
 	<p>Baltej Dhillon's story is one of courage and perseverance. More than breaking barriers, he has brought people together and shown that faith, identity, and public service can go hand in hand. Meeting someone who helped shape a more inclusive future was a meaningful and motivating experience for DICE participants, and a reminder that leadership and conviction can inspire lasting change.</p>
-	<div class="col-md-4 mrgn-bttm-md">
+	<div class="col-md-4 mrgn-bttm-md well">
 		<figure>
 			<img alt="" class="img-responsive center-block" src="img/dice-ecdi-11.jpg">
 			<figcaption>
@@ -224,7 +214,7 @@ custom_css: /assets/css/careers.css
 			</figcaption>
 		</figure>
 	</div>
-	<div class="col-md-4 mrgn-bttm-md">
+	<div class="col-md-4 mrgn-bttm-md well">
 		<figure>
 			<img alt="" class="img-responsive center-block" src="img/dice-ecdi-12.jpg">
 			<figcaption>

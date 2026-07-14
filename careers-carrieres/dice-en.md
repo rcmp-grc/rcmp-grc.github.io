@@ -15,13 +15,13 @@ custom_css: /assets/css/careers.css
 <section class="alert alert-info">
 	<h2 class="h3">Troop dates</h2>
 	<!--<p>Troop dates will be posted here once they are available.</p>-->
-<!--	<p>The next troop dates are as follows:</p>-->
+	<!-- <p>The next troop dates are as follows:</p> -->
 	<ul>
 		<!-- <li>May&#160;6 to May&#160;26, 2026 (currently full)</li>-->
-		<li>January&#160;6 to January&#160;26, 2027</li>
+		<li>January&nbsp;6 to 26, 2027</li>
 	</ul>
-<!--	<p>RCMP Academy, Depot Division<br>
-		Regina, Saskatchewan</p>-->
+	<!-- <p>RCMP Academy, Depot Division<br>
+		Regina, Saskatchewan</p> -->
 </section>
 <nav aria-labelledby="on-this-page-heading">
 	<h2 id="on-this-page-heading">On this page</h2>
@@ -34,7 +34,7 @@ custom_css: /assets/css/careers.css
 		<li><a href="#s6">Breaking barriers: Senator Baltej Dhillon visits the DICE troop </a></li>
 	</ul>
 </nav>
-<p>The Diverse and Inclusive Pre-Cadet Experience (DICE) is a new RCMP recruitment and retention initiative focused on removing barriers that impact racialized and underrepresented groups who aspire to join the RCMP:</p>
+<p>The Diverse and Inclusive Pre-Cadet Experience (DICE) is a new RCMP recruitment and retention initiative focused on removing barriers that impact racialized and underrepresented groups who aspire to join the RCMP.</p>
 <ul>
 	<li>Newcomers to Canada (that is new Canadian citizens or permanent residents)</li>
 	<li>Persons from diverse ethnic and cultural groups</li>
@@ -89,7 +89,7 @@ custom_css: /assets/css/careers.css
 		<div class="col-md-4 mrgn-bttm-md">
 			<div class="well">
 				<figure>
-					<img alt="" class="img-responsive center-block" src="assets/img/dice-ecdi-2.jpg">
+					<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-2.jpg">
 					<figcaption>
 						DICE participants take part in structured exercises during their pre-cadet experience.
 					</figcaption>

@@ -84,7 +84,7 @@ custom_css: /assets/css/careers.css
   <div class="wb-eqht wb-init">
     <div class="col-md-4 mrgn-bttm-md">
       <figure>
-        <img alt="" class="img-responsive center-block" src="/iptp-pfpa-1.jpg">
+        <img alt="" class="img-responsive center-block" src="iptp-pfpa-1.jpg">
         <figcaption>
           Participants in the IPTP program attend classroom-based learning sessions as part of their training.
         </figcaption>
@@ -92,7 +92,7 @@ custom_css: /assets/css/careers.css
     </div>
     <div class="col-md-4 mrgn-bttm-md">
       <figure>
-        <img alt="" class="img-responsive center-block" src="/iptp-pfpa-2.jpg">
+        <img alt="" class="img-responsive center-block" src=/iptp-pfpa-2.jpg">
         <figcaption>
           IPTP participants take part in structured exercises.
         </figcaption>

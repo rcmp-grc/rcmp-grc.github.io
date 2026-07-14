@@ -171,7 +171,7 @@ custom_css: /assets/css/careers.css
     <li>This section consists of four components: rotating 2D&nbsp;shapes; 3D&nbsp;shapes; mechanical problems and cubes and folding shapes</li>
     <li>Please complete as many questions as you can</li>
     <li>You will receive 1&nbsp;point for each correct answer</li>
-    <li>You can skip questions –please choose "I don't know" if you do not know the answer</li>
+    <li>You can skip questions – please choose "I don't know" if you do not know the answer</li>
     <li>There is a timer at the bottom of the page</li>
   </ul>
    <section id="s5-1">
@@ -220,7 +220,7 @@ custom_css: /assets/css/careers.css
       <img alt="" class="img-responsive full-width" src="rpab-grey-480x600.jpg">
     </figure>
       </div>
-    <p>When handle&nbsp;H is pulled to the right, as shown by the arrow, end E will:</p>
+    <p>When handle&nbsp;H is pulled to the right, as shown by the arrow, end&nbsp;E will:</p>
      <ol class="lst-lwr-alph">
       <li>Move to the left</li>
       <li>Move to the right</li>

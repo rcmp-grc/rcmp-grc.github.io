@@ -323,7 +323,7 @@ custom_css: /assets/css/careers.css
       <li>Above</li>
     </ol>
      <p>The correct answer is <strong>b. Right</strong>. In the example, “Up” and “Down” are opposites, so the correct answer is the opposite of “Left”, which is “Right”.</p>
-     <p><strong>Example&nbps;2</strong></p>
+     <p><strong>Example&nbsp;2</strong></p>
      <p>A company policy states that all people at the factory must wear safety goggles. Visitors to the factory on Wednesday were not wearing safety goggles. Was the company policy broken on Wednesday?</p>
      <ol class="lst-lwr-alph">
       <li>Yes</li>

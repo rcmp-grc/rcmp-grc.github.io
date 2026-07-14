@@ -307,7 +307,7 @@ custom_css: /assets/css/careers.css
     <li>Answer each question to the best of your abilities</li>
     <li>This section should take 20-25&nbsp;minutes to complete</li>
     <li>If you do not know the answer, please select "I don't know"</li>
-    <li>Use only your knowledge, paper and pen when completing these questions. <li>The use of calculators, computer software or input from others is not permitted</li>
+    <li>Use only your knowledge, paper and pen when completing these questions. The use of calculators, computer software or input from others is not permitted</li>
   </ul>
   <p>There is a timer at the bottom of the page.</p>
    <section id="s7-1">

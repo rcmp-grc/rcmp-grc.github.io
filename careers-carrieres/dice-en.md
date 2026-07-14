@@ -13,7 +13,7 @@ custom_css: /assets/css/careers.css
 ---
 
 <section class="alert alert-info">
-	<h2 class="h3">Troop dates</h2>
+	<h2 class="h3">Upcoming troop dates</h2>
 	<!--<p>Troop dates will be posted here once they are available.</p>-->
 	<!-- <p>The next troop dates are as follows:</p> -->
 	<ul>

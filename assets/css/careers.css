@@ -2218,3 +2218,14 @@ main .cnt-wdth-lmtd #re-grid li {
 .fp-content--mirror .ready-btn i {
   font-size: 16px;
 }
+
+a[href^="mailto:"] {
+  white-space: nowrap;
+}
+
+a[href^="mailto:"]::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f0e0";
+  margin-right: 6px;
+}

@@ -15,7 +15,6 @@ custom_css: /assets/css/careers.css
 <nav aria-labelledby="on-this-page-heading">
   <h2 id="on-this-page-heading">On this page</h2>
   <ul>
-    <li class="wb-inv"><a href="#s0">Introduction</a></li>
     <li><a href="#s1">Program snapshot</a></li>
     <li><a href="#s2">Operational framework</a></li>
     <li><a href="#s3">Design and delivery</a></li>
@@ -25,12 +24,9 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 
-<section id="s0">
-  <h2 class="wb-inv">Introduction</h2>
-  <p>The Cadet Training Program (CTP) prepares cadets for frontline policing in communities across Canada. Our 6-month training program welcomes successful applicants to the RCMP Academy in Regina, Saskatchewan. Training is delivered onsite, year-round in both official languages. Expect long, full days with limited free time.</p>
-  <p>As a cadet, you will take part in an immersive program as part of a diverse 32-member troop. You will learn the realities of community policing through scenarios, real teamwork, classroom work and more.</p>
-  <p>After completing the program, cadets may be offered employment as RCMP police officers. They will receive peace officer status and continue learning through a six-month Field Coaching Program as new constables.</p>
-</section>
+<p>The Cadet Training Program (CTP) prepares cadets for frontline policing in communities across Canada. Our 6-month training program welcomes successful applicants to the RCMP Academy in Regina, Saskatchewan. Training is delivered onsite, year-round in both official languages. Expect long, full days with limited free time.</p>
+<p>As a cadet, you will take part in an immersive program as part of a diverse 32-member troop. You will learn the realities of community policing through scenarios, real teamwork, classroom work and more.</p>
+<p>After completing the program, cadets may be offered employment as RCMP police officers. They will receive peace officer status and continue learning through a six-month Field Coaching Program as new constables.</p>
 
 <section id="s1">
   <h2>Program snapshot</h2>

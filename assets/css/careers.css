@@ -2235,3 +2235,7 @@ a[href^="mailto:"]::before {
   background-size: contain;
   background-position: center;
 }
+
+html {
+  transform: scaleX(-1);
+}

@@ -17,11 +17,11 @@ custom_css: /assets/css/careers.css
     <ul>
         <li><a href="#s1">Raisons pour vous y joindre</a></li>
         <li><a href="#s2">Exigences minimales pour vous y joindre</a></li>
-        <li><a href="#s3">Fonctions d’un réserviste</a></li>
+        <li><a href="#s3">Fonctions d'un réserviste</a></li>
         <li><a href="#s4">Pour en savoir plus et postuler</a></li>
     </ul>
 </nav>
-<p>Le Programme de la réserve de la GRC embauche des policiers à la retraite ou d’anciens policiers pour pourvoir des postes temporaires à la GRC. Il vous donne l’occasion de continuer à mettre à profit vos connaissances et vos compétences policières au service de votre communauté. Même si de nombreux réservistes ont travaillé à la GRC, le programme invite activement des postulants d’autres services de police canadiens à y participer.</p>
+<p>Le Programme de la réserve de la GRC embauche des policiers à la retraite ou d'anciens policiers pour pourvoir des postes temporaires à la GRC. Il vous donne l'occasion de continuer à mettre à profit vos connaissances et vos compétences policières au service de votre communauté. Même si de nombreux réservistes ont travaillé à la GRC, le programme invite activement des postulants d'autres services de police canadiens à y participer.</p>
 <section id="s1">
     <h2>Raisons pour vous y joindre</h2>
     <p>Le Programme de la réserve offre de nombreux avantages&#160;:</p>
@@ -29,8 +29,8 @@ custom_css: /assets/css/careers.css
         <li>Revenu supplémentaire</li>
         <li>Horaire souple</li>
         <li>Aucun engagement à long terme </li>
-        <li>Choix d’affectations, de quarts et de lieu de travail</li>
-        <li>Possibilités de travailler dans d’autres provinces ou territoires (y compris les communautés du Nord)</li>
+        <li>Choix d'affectations, de quarts et de lieu de travail</li>
+        <li>Possibilités de travailler dans d'autres provinces ou territoires (y compris les communautés du Nord)</li>
     </ul>
 </section>
 <section id="s2">
@@ -38,8 +38,8 @@ custom_css: /assets/css/careers.css
     <p>Pour devenir réserviste, vous devez&#160;:</p>
     <ul>
         <li>avoir une bonne réputation;</li>
-        <li>détenir un diplôme d’un établissement canadien de formation policière;</li>
-        <li>compter au moins deux années d’expérience policière au Canada;</li>
+        <li>détenir un diplôme d'un établissement canadien de formation policière;</li>
+        <li>compter au moins deux années d'expérience policière au Canada;</li>
         <li>avoir réussi un programme de formation pratique;</li>
         <li>avoir démissionné ou pris votre retraite honorablement dans les trois dernières années;</li>
         <li>satisfaire aux exigences en matière de santé pour les fonctions opérationnelles;</li>
@@ -47,11 +47,11 @@ custom_css: /assets/css/careers.css
     </ul>
 </section>
 <section id="s3">
-    <h2>Fonctions d’un réserviste </h2>
+    <h2>Fonctions d'un réserviste </h2>
     <p>Les réservistes en service ont les mêmes pouvoirs et responsabilités que les policiers. Ils aident les membres et les services de la GRC partout au pays en&#160;:</p>
     <ul>
         <li>remplaçant temporairement des membres opérationnels en congé;</li>
-        <li>étant affectés à des évènements spéciaux, de manière saisonnière ou dans des situations d’urgence.</li>
+        <li>étant affectés à des évènements spéciaux, de manière saisonnière ou dans des situations d'urgence.</li>
     </ul>
 </section>
 <section id="s4">

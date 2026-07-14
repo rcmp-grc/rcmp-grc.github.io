@@ -24,7 +24,7 @@ custom_css: /assets/css/careers.css
 </nav>
 <section id="s1">
   <h2>Aperçu du programme </h2>
-  <p>Créé en 1963, le Programme des auxiliaires vise à appuyer les initiatives de police communautaire et de prévention du crime. Les auxiliaires offrent bénévolement de leur temps pour contribuer à assurer la sécurité des communautés tout en acquérant une expérience enrichissante aux côtés des employés de la GRC. La GRC accorde une grande valeur à l’apport de ces bénévoles et les considère comme une composante essentielle de l’organisation. Le programme est structuré en trois niveaux de service dans l’ensemble des provinces et des territoires.</p>
+  <p>Créé en 1963, le Programme des auxiliaires vise à appuyer les initiatives de police communautaire et de prévention du crime. Les auxiliaires offrent bénévolement de leur temps pour contribuer à assurer la sécurité des communautés tout en acquérant une expérience enrichissante aux côtés des employés de la GRC. La GRC accorde une grande valeur à l'apport de ces bénévoles et les considère comme une composante essentielle de l'organisation. Le programme est structuré en trois niveaux de service dans l'ensemble des provinces et des territoires.</p>
 </section>
 <section id="s2">
   <h2>Qui peut devenir auxiliaire </h2>

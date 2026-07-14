@@ -25,9 +25,9 @@ custom_css: /assets/css/careers.css
     <p>Our Police Fitness Assessment (PFA) workshops provide tips and techniques to help you start or improve your physical training for the PFA. You will have the opportunity to try the equipment and speak with PFA trainers. Get ready to work hard!</p>
     <dl class="dl-horizontal">
       <dt>When</dt>
-      <dd><time datetime="2026-06-18T18:00">June 18, 2026, at 6 p.m. (Mountain time)</time></dd>
+      <dd><time datetime="2026-06-18T18:00">June 18, 2026, at 6&#160;p.m. (Mountain time)</time></dd>
       <dt>Duration</dt>
-      <dd>2 hours</dd>
+      <dd>2&#160;hours</dd>
       <dt>Language of the event</dt>
       <dd>English</dd>
       <dt>Location</dt>
@@ -47,7 +47,7 @@ custom_css: /assets/css/careers.css
     <section>
       <h3>Important details</h3>
       <ul>
-        <li>Arrive 15 minutes before the event.</li>
+        <li>Arrive 15&#160;minutes before the event.</li>
         <li>Bring government-issued identification.</li>
       </ul>
     </section>

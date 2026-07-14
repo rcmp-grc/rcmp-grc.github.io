@@ -23,13 +23,13 @@ custom_css: /assets/css/careers.css
 <div id="expand-collapse">
 	<details class="print-open mrgn-tp-md pddng-bttm-0" id="s1-1">
 		<summary>Avoir la citoyenneté canadienne ou le statut de résidence permanente au Canada</summary>
-		<p>Pour poser sa candidature, une personne qui a le statut de résidence permanente doit avoir vécu au Canada pendant au moins 1 095 jours (trois ans) au cours des cinq dernières années.</p>
+		<p>Pour poser sa candidature, une personne qui a le statut de résidence permanente doit avoir vécu au Canada pendant au moins 1&#160;095&#160;jours (trois ans) au cours des cinq dernières années.</p>
 		<p>Le processus de recrutement se fait au Canada. Si vous êtes un Canadien ou une Canadienne vivant à l'étranger, vous devrez venir au Canada à vos propres frais pour certaines parties du processus. Si vous résidez hors du Canada depuis longtemps, il pourrait être difficile d'évaluer avec précision votre aptitude à poursuivre le processus.</p>
 		<p>Les policiers de la GRC qui sont résidents permanents pourraient ne pas être qualifiés pour certains rôles nécessitant une autorisation de sécurité Très secret ou des documents de voyage précis.</p>
 		<p>Pour en savoir plus sur comment obtenir la citoyenneté canadienne, visitez la section <a href="https://www.canada.ca/fr/services/immigration-citoyennete.html">Immigration et citoyenneté sur Canada.ca</a>.</p>
 	</details>
 	<details class="print-open mrgn-tp-md pddng-bttm-0" id="s1-2">
-		<summary>Avoir au moins 18 ans au moment de poser votre candidature</summary>
+		<summary>Avoir au moins 18&#160;ans au moment de poser votre candidature</summary>
 		<p>Une personne peut poser sa candidature à la GRC et commencer le processus de sélection et la formation de vase à l'âge de 18&#160;ans. Cependant, il faut avoir au moins 19&#160;ans pour être embauché comme policier.</p>
 		<p>Il n'y a pas de limite d'âge pour poser sa candidature à la GRC.</p>
 	</details>
@@ -87,7 +87,7 @@ custom_css: /assets/css/careers.css
 	</details>
 	<details class="print-open mrgn-tp-md pddng-bttm-0" id="s1-13">
 		<summary>Accepter de travailler par quarts, y compris les fins de semaine et les jours fériés</summary>
-		<p>Le maintien de l'ordre est assuré 24 heures sur 24. Vous devez donc accepter de travailler par quarts, y compris la nuit, le soir, la fin de semaine et les jours fériés.</p>
+		<p>Le maintien de l'ordre est assuré 24&#160;heures sur 24. Vous devez donc accepter de travailler par quarts, y compris la nuit, le soir, la fin de semaine et les jours fériés.</p>
 	</details>
 	<details class="print-open mrgn-tp-md pddng-bttm-0" id="s1-14">
 		<summary>Respecter les normes concernant les tatouages, les bijoux et autres effets personnels</summary>
@@ -135,12 +135,12 @@ custom_css: /assets/css/careers.css
 	<div class="gc-features">
 	  <ul class="list-unstyled row">
 	    <li class="col-md-6">
-	 </li>ection class="well">
+	 <section class="well">
 	        <h3 class="h5"><a href="#">Vérifiez votre préparation</a></h3>
 	        <p>Déterminez si une carrière dans la police vous convient avant de poser votre candidature.</p>
 	      </section>
 	   </li>
-	 </li>class="col-md-6">
+	 <li class="col-md-6">
 	      <section class="well">
 	        <h3 class="h5"><a href="#">Processus de candidature</a></h3>
 	        <p>Consultez le processus de candidature avant de poser votre candidature.</p>

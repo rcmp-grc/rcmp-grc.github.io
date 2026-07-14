@@ -54,21 +54,21 @@ custom_css: /assets/css/careers.css
 
 <section id="s1">
   <h2>Introduction</h2>
-  <p>The RCMP Online Entrance Assessment was designed as a biased-free tool to assess applicants for the RCMP police officer recruiting process. The RCMP Online Entrance Assessment consists of six&nbsp;sections:</p>
+  <p>The RCMP Online Entrance Assessment was designed as a biased-free tool to assess applicants for the RCMP police officer recruiting process. The RCMP Online Entrance Assessment consists of six&#160;:sections:</p>
 <ul>
-<li>Section&nbsp;1: Workstyle preference</li>
-<li>Section&nbsp;2: Language comprehension</li>
-<li>Section&nbsp;3: Numerical skills</li>
-<li>Section&nbsp;4: Spatial skills</li>
-<li>Section&nbsp;5: Memory quotient</li>
-<li>Section&nbsp;6: Business reasoning</li>
+<li>Section&#160;:1: Workstyle preference</li>
+<li>Section&#160;:2: Language comprehension</li>
+<li>Section&#160;:3: Numerical skills</li>
+<li>Section&#160;:4: Spatial skills</li>
+<li>Section&#160;:5: Memory quotient</li>
+<li>Section&#160;:6: Business reasoning</li>
 </ul>
-<p>The assessment should take approximately 55 to 70&nbsp;minutes to complete. There are several timed portions. It is recommended that you complete the entire assessment in one&nbsp;session.</p>
+<p>The assessment should take approximately 55 to 70&#160;:minutes to complete. There are several timed portions. It is recommended that you complete the entire assessment in one&#160;:session.</p>
 <p>Please ensure that you complete the assessment in a quiet environment where you can focus and avoid interruptions or distractions. We recommend that you complete the assessment on a laptop or desktop computer. You will want to ensure you have a stable Wi-Fi connection and power source to ensure you do not lose your progress during the assessment.</p>
 </section>
 
 <section id="s2">
-  <h2>Section&nbsp;1: Workstyle preference</h2>
+  <h2>Section&#160;:1: Workstyle preference</h2>
       <ul>
         <li>This section consists of a series of statements to which you must respond on a scale from strongly disagree to strongly agree</li>
         <li>Respond from a workplace perspective</li>
@@ -79,16 +79,16 @@ custom_css: /assets/css/careers.css
       </ul>
 </section>
 <section id="s3">
-  <h2>Section&nbsp;2: Language comprehension</h2>
+  <h2>Section&#160;:2: Language comprehension</h2>
  <ul>
  <li>This section consists of two components: word meanings and word relationships</li>
- <li>You will have 5 minutes to complete each component</li>
- <li>You will receive 1 point for each correct answer</li>
+ <li>You will have 5&#160;minutes to complete each component</li>
+ <li>You will receive 1&#160;point for each correct answer</li>
  <li>You may skip questions. If you do not know the answer, please select "I don't know."</li>
  <li>There is a timer at the bottom of the page</li>
 </ul>
   <section id="s3-1">
-   <h3>Part&nbsp;A – Word meanings</h3>
+   <h3>Part&#160;:A – Word meanings</h3>
   <p><strong>Example: </strong></p>
     <ol class="lst-lwr-alph">
       <li>Recite</li>
@@ -100,7 +100,7 @@ custom_css: /assets/css/careers.css
     <p>The correct answer is <strong>b. Happy</strong>.</p>
 </section>
   <section id="s3-2">
-   <h3>Part&nbsp;B – Word relationships</h3>
+   <h3>Part&#160;:B – Word relationships</h3>
     <p>Note the relationship between the first pair of words. Select the option that forms a similar relationship to fill the blank. </p>
   <p><strong>Example: </strong></p>
     <p>Tie: Rope</p>
@@ -115,20 +115,20 @@ custom_css: /assets/css/careers.css
 </section>
 </section>
 <section id="s4">
-  <h2>Section&nbsp;3: Numerical skills</h2>
+  <h2>Section&#160;:3: Numerical skills</h2>
   <ul>
-    <li>This section requires making numerical calculations and consists of two components: Level&nbsp;1 calculations and Level&nbsp;2 calculations</li>
+    <li>This section requires making numerical calculations and consists of two components: Level&#160;:1&#160;calculations and Level&#160;:2&#160;calculations</li>
     <li>Please complete as many questions as you can</li>
     <li>Answer each question to the best of your abilities</li>
-    <li>You will receive 1&nbsp;point for each correct answer</li>
+    <li>You will receive 1&#160;:point for each correct answer</li>
     <li>You may skip questions. If you do not know the answer, please select "I don't know."</li>
     <li>Use only your knowledge, pen and paper when completing these questions. The use of calculators, computer software or input from others is not permitted</li>
     <li>There is a timer at the bottom of the page</li>
   </ul>
    <section id="s4-1">
-   <h3>Part&nbsp;A – Level&nbsp;1 calculations</h3>
-     <p>This part of the assessment draws on your addition and multiplication skills. You have 3&nbsp;minutes to complete the set of questions.</p>
-     <p><strong>Example&nbsp;1</strong>:</p>
+   <h3>Part&#160;:A – Level&#160;:1&#160;calculations</h3>
+     <p>This part of the assessment draws on your addition and multiplication skills. You have 3&#160;:minutes to complete the set of questions.</p>
+     <p><strong>Example&#160;:1</strong>:</p>
      <p>8 + 7 =</p>
      <ol class="lst-lwr-alph">
       <li>12</li>
@@ -138,8 +138,8 @@ custom_css: /assets/css/careers.css
       <li>I don't know</li>
     </ol>
      <p>The correct answer is <strong>c. 15</strong>.</p>
-     <p><strong>Example&nbsp;2</strong>:</p>
-     <p>5 x 5 =</p>
+     <p><strong>Example&#160;:2</strong>:</p>
+     <p>5&#160;x 5 =</p>
       <ol class="lst-lwr-alph">
       <li>10</li>
       <li>25</li>
@@ -150,10 +150,10 @@ custom_css: /assets/css/careers.css
      <p>The correct answer is <strong>b. 25</strong>.</p>
    </section>
   <section id="s4-2">
-   <h3>Part&nbsp;B – Level&nbsp;2 calculations</h3>
-     <p>This part of the assessment draws on multiple skills, including addition, subtraction, multiplication and division. You will have 3&nbsp;minutes to complete the set of questions.</p>
-     <p><strong>Example&nbsp;1</strong>:</p>
-     <p>2 + 2 x 1 =</p>
+   <h3>Part&#160;:B – Level&#160;:2&#160;calculations</h3>
+     <p>This part of the assessment draws on multiple skills, including addition, subtraction, multiplication and division. You will have 3&#160;:minutes to complete the set of questions.</p>
+     <p><strong>Example&#160;:1</strong>:</p>
+     <p>2 + 2&#160;x 1 =</p>
      <ol class="lst-lwr-alph">
       <li>2</li>
       <li>3</li>
@@ -165,17 +165,17 @@ custom_css: /assets/css/careers.css
    </section>
 </section>
 <section id="s5">
-  <h2>Section&nbsp;4: Spatial skills</h2>
+  <h2>Section&#160;:4: Spatial skills</h2>
   <ul>
-    <li>This section consists of four components: rotating 2D&nbsp;shapes; 3D&nbsp;shapes; mechanical problems and cubes and folding shapes</li>
+    <li>This section consists of four components: rotating 2D&#160;:shapes; 3D&#160;:shapes; mechanical problems and cubes and folding shapes</li>
     <li>Please complete as many questions as you can</li>
-    <li>You will receive 1&nbsp;point for each correct answer</li>
+    <li>You will receive 1&#160;:point for each correct answer</li>
     <li>You can skip questions –please choose "I don't know" if you do not know the answer</li>
     <li>There is a timer at the bottom of the page</li>
   </ul>
    <section id="s5-1">
-   <h3>Part&nbsp;A – Rotating 2D&nbsp;shapes</h3>
-     <p>You will be asked a series of questions related to 2D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3&nbsp;minutes to complete the set of questions.</p>
+   <h3>Part&#160;:A – Rotating 2D&#160;:shapes</h3>
+     <p>You will be asked a series of questions related to 2D&#160;:shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3&#160;:minutes to complete the set of questions.</p>
      <p><strong>Example</strong>:</p>
       <div class="well col-xs-12">
     <figure>
@@ -194,8 +194,8 @@ custom_css: /assets/css/careers.css
      <p>The correct answer is <strong>c. shape C</strong>.</p>
    </section>
   <section id="s5-2">
-   <h3>Part&nbsp;B – 3D&nbsp;shapes</h3>
-    <p>You will be asked a series of questions related to 3D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3&nbsp;minutes to complete the set of questions.</p>
+   <h3>Part&#160;:B – 3D&#160;:shapes</h3>
+    <p>You will be asked a series of questions related to 3D&#160;:shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3&#160;:minutes to complete the set of questions.</p>
      <p><strong>Example</strong>:</p>
       <div class="well col-xs-12">
     <figure>
@@ -213,8 +213,8 @@ custom_css: /assets/css/careers.css
      <p>The correct answer is <strong>d. shape D</strong>.</p>
   </section>
   <section id="s5-3">
-   <h3>Part&nbsp;C – Mechanical problems</h3>
-    <p>You will be asked a series of questions related to mechanical problems. You have 4&nbsp;minutes to complete the set of questions.</p>
+   <h3>Part&#160;:C – Mechanical problems</h3>
+    <p>You will be asked a series of questions related to mechanical problems. You have 4&#160;:minutes to complete the set of questions.</p>
        <p><strong>Example</strong>:</p>
       <div class="well col-xs-12">
     <figure>
@@ -222,7 +222,7 @@ custom_css: /assets/css/careers.css
     </figure>
       </div>
   <div class="clearfix"></div>
-    <p>When handle&nbsp;H is pulled to the right, as shown by the arrow, end E will:</p>
+    <p>When handle&#160;:H is pulled to the right, as shown by the arrow, end E will:</p>
      <ol class="lst-lwr-alph">
       <li>Move to the left</li>
       <li>Move to the right</li>
@@ -233,8 +233,8 @@ custom_css: /assets/css/careers.css
      <p>The correct answer is <strong>a. Move to the left</strong>.</p>
 </section>
   <section id="s5-4">
-   <h3>Part&nbsp;D – Cubes and folding shapes</h3>
-    <p>You will be asked a series of questions related to cubes and folding shapes. You will have 5&nbsp;minutes to complete the set of questions.</p>
+   <h3>Part&#160;:D – Cubes and folding shapes</h3>
+    <p>You will be asked a series of questions related to cubes and folding shapes. You will have 5&#160;:minutes to complete the set of questions.</p>
        <p><strong>Example</strong>:</p>
       <div class="well col-xs-12">
     <figure>
@@ -254,21 +254,21 @@ custom_css: /assets/css/careers.css
 </section>
 </section>
 <section id="s6">
-  <h2>Section&nbsp;5: Memory quotient</h2>
+  <h2>Section&#160;:5: Memory quotient</h2>
   <ul>
     <li>You will have a limited amount of time to view an image, list of numbers, or written text. You will then be asked to answer questions using your memory</li>
-    <li>This section should take you approximately 25&nbsp;minutes</li>
-    <li>This section must be completed in one&nbsp;session</li>
+    <li>This section should take you approximately 25&#160;:minutes</li>
+    <li>This section must be completed in one&#160;:session</li>
     <li>Please ensure that you complete the assessment in a quiet environment where you can focus and avoid interruptions or distractions</li>
     <li>Answer each question to the best of your abilities. Use of external resources or input from others is not permitted</li>
-    <li>You will have 1&nbsp;minute to review an image on the page. After reviewing the image, you will then proceed to a series of questions regarding the image you just saw</li>
-    <li>You will have 45&nbsp;seconds to answer the associated questions</li>
-    <li>You will receive 1&nbsp;point for each correct answer</li>
+    <li>You will have 1&#160;:minute to review an image on the page. After reviewing the image, you will then proceed to a series of questions regarding the image you just saw</li>
+    <li>You will have 45&#160;:seconds to answer the associated questions</li>
+    <li>You will receive 1&#160;:point for each correct answer</li>
     <li>You can skip questions. If you do not know the answer, please select "I don't know."</li>
     <li>Once the time limit has run out, you will advance to the next question automatically</li>
     <li>You may choose to proceed to the next section before the time limit is up</li>
   </ul>
-   <p><strong>Example&nbsp;1</strong>:</p>
+   <p><strong>Example&#160;:1</strong>:</p>
       <div class="well col-xs-12">
     <figure>
       <img alt="" class="img-responsive full-width" src="rpab-shapes-480x300.jpg">
@@ -284,10 +284,10 @@ custom_css: /assets/css/careers.css
       <li>Blue</li>
     </ol>
      <p>The correct answer is <strong>c. Black</strong>.</p>
-  <p><strong>Example&nbsp;2</strong>:</p>
+  <p><strong>Example&#160;:2</strong>:</p>
   <p>Read the weather report carefully; you have a 1-minute time limit</p>
-  <p>The forecast calls for cloudy skies today with a high of 35&nbsp;degrees and light winds from the southwest. Clearing overnight with a low of 23&nbsp;degrees.</p>
-  <p>After the time limit has elapsed, the screen will advance to a set of questions about the text. You will have 45&nbsp;seconds to answer the questions.</p>
+  <p>The forecast calls for cloudy skies today with a high of 35&#160;:degrees and light winds from the southwest. Clearing overnight with a low of 23&#160;:degrees.</p>
+  <p>After the time limit has elapsed, the screen will advance to a set of questions about the text. You will have 45&#160;:seconds to answer the questions.</p>
   <p>Which direction is the wind coming from?</p>
      <ol class="lst-lwr-alph">
       <li>Northeast</li>
@@ -299,19 +299,19 @@ custom_css: /assets/css/careers.css
      <p>The correct answer is <strong>d. Southwest</strong>.</p>
      <p>What overnight temperature is predicted?</p>
      <ol class="lst-lwr-alph">
-      <li>22&nbsp;degrees</li>
-      <li>23&nbsp;degrees</li>
-      <li>25&nbsp;degrees</li>
-      <li>26&nbsp;degrees</li>
-      <li>32&nbsp;degrees</li>
+      <li>22&#160;:degrees</li>
+      <li>23&#160;:degrees</li>
+      <li>25&#160;:degrees</li>
+      <li>26&#160;:degrees</li>
+      <li>32&#160;:degrees</li>
     </ol>
-     <p>The correct answer is <strong>b. 23&nbsp;degrees</strong>.</p>
+     <p>The correct answer is <strong>b. 23&#160;:degrees</strong>.</p>
 </section>
 <section id="s7">
-  <h2>Section&nbsp;6: Business reasoning</h2>
+  <h2>Section&#160;:6: Business reasoning</h2>
   <ul>
     <li>Answer each question to the best of your abilities</li>
-    <li>This section should take 20-25&nbsp;minutes to complete</li>
+    <li>This section should take 20-25&#160;:minutes to complete</li>
     <li>If you do not know the answer, please select "I don't know"</li>
     <li>Use only your knowledge, paper and pen when completing these questions. The use of calculators, computer software or input from others is not permitted</li>
   </ul>

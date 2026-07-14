@@ -12,8 +12,8 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<nav aria-label="On this page">
-	<h2>On this page</h2>
+<nav aria-labelledby="on-this-page-heading">
+  <h2 id="on-this-page-heading">On this page</h2>
 	<ul>
 		<li><a href="#s1">Get to know Depot</a></li>
 		<li><a href="#s2">Cadet life overview</a></li>
@@ -31,7 +31,7 @@ custom_css: /assets/css/careers.css
 
 <section id="s1">
 	<h2>Get to know Depot</h2>
-	<p>The RCMP Academy, commonly known to many as Depot, is located in Regina, Saskatchewan. As the oldest division of the RCMP, since 1885, Depot has been preparing generations of Mounties to serve communities across Canada. The Academy offers a nationally recognized training campus featuring on-site classroom, fitness, and tactical training spaces. It is an active training site and a secure facility with controlled access. The Academy is also home to the RCMP Chapel, the oldest building in Regina, reflecting Depot’s deep roots in the community.</p>
+	<p>The RCMP Academy, commonly known to many as Depot, is located in Regina, Saskatchewan. As the oldest division of the RCMP, since 1885, Depot has been preparing generations of Mounties to serve communities across Canada. The Academy offers a nationally recognized training campus featuring on-site classroom, fitness, and tactical training spaces. It is an active training site and a secure facility with controlled access. The Academy is also home to the RCMP Chapel, the oldest building in Regina, reflecting Depot's deep roots in the community.</p>
 </section>
 
 <section id="s2">
@@ -41,7 +41,7 @@ custom_css: /assets/css/careers.css
 		<li><strong>Troops function as one</strong>: eating meals together, moving around base as a unit and dressing in uniform, and sharing accommodation</li>
 		<li><strong>Free time is limited in training.</strong> Life as a cadet involves long, active days with little time off<ul>
 				<li>training is typically Monday to Friday. Days start early in the morning with evening and weekend activities and practice</li>
-				<li>statutory holidays are part of the training schedule&#160;– aligning with the 24/7 nature of policing</li>
+				<li>statutory holidays are part of the training schedule&#160;– aligning with the 24/7&#160;nature of policing</li>
 			</ul>
 		</li>
 		<li><strong>Depot is physically demanding</strong>: training builds strength and endurance over time. A good level of fitness helps ease the transition</li>
@@ -98,7 +98,7 @@ custom_css: /assets/css/careers.css
 
 <section id="s5">
 	<h2>Support at Depot</h2>
-<p>Training at the RCMP  Academy can be a daunting, but exciting experience. Cadets live away from family and friends for 6&nbsp;months, with new people, new challenges, a busy schedule, limited free time, and high expectations.</p>
+<p>Training at the RCMP  Academy can be a daunting, but exciting experience. Cadets live away from family and friends for 6&#160;:months, with new people, new challenges, a busy schedule, limited free time, and high expectations.</p>
 <p>Depot has a network of teams and services working together to create a healthy, respectful and safe training environment for cadets.</p>
 	<ul>
 		<li><strong>personal support</strong> includes a Cadet Resource Liaison, a Social Worker, Independent Centre for Harassment Resolution, chaplains and spiritual support, onsite doctor, nurses and a psychologist</li>
@@ -112,7 +112,7 @@ custom_css: /assets/css/careers.css
 	<h2>Conduct and expectations for cadets</h2>
 	<dl>
 		<dt>RCMP Core Values</dt>
-		<dd>RCMP officers and cadets are expected to consistently live and demonstrate the <a href="/en/corporate-information/royal-canadian-mounted-police-core-values">RCMP’s core values</a>; take responsibility, show respect, serve with excellence, demonstrate compassion and act with integrity both on and off duty.</dd>
+		<dd>RCMP officers and cadets are expected to consistently live and demonstrate the <a href="/en/corporate-information/royal-canadian-mounted-police-core-values">RCMP's core values</a>; take responsibility, show respect, serve with excellence, demonstrate compassion and act with integrity both on and off duty.</dd>
 		<dt>Alcohol consumption</dt>
 		<dd>Alcohol is not permitted in dorms or on balconies; licensed use is restricted to the Stand Easy Lounge on the base.</dd>
 		<dt>Personal technology use</dt>
@@ -120,13 +120,13 @@ custom_css: /assets/css/careers.css
 		<dt>Schedule demands</dt>
 		<dd>Time is limited, so connecting with family and friends may be difficult.</dd>
 	</dl>
-/section>
+</section>
 
 <section id="s7">
 	<h2>Community life in Regina</h2>
-	<p>Regina is Saskatchewan’s capital city. Home to Canadian Football League team, the Saskatchewan Roughriders, it also boasts one of the largest urban parks in North America and has over 500,000 planted trees. Bordered by dense woodlands, Depot is home to a wide range of wildlife. You will see a variety of birds, Canada geese, jackrabbits, ducks and more.</p>
-	<p>There are many local amenities to explore including parks, walking and cycling paths, restaurants, movie theatres, malls, museums, places of worship, farmers’ markets, arts and entertainment. Essentials are easy to access, with many local grocery and retail stores.</p>
-	<p>Transportation options include ride shares, cab companies, and public transit bus routes to explore the city. The Regina International Airport (YQR) is conveniently located just outside the city’s downtown hub, facilitating smooth transit in an out of the city.</p>
+	<p>Regina is Saskatchewan's capital city. Home to Canadian Football League team, the Saskatchewan Roughriders, it also boasts one of the largest urban parks in North America and has over 500,000&#160;planted trees. Bordered by dense woodlands, Depot is home to a wide range of wildlife. You will see a variety of birds, Canada geese, jackrabbits, ducks and more.</p>
+	<p>There are many local amenities to explore including parks, walking and cycling paths, restaurants, movie theatres, malls, museums, places of worship, farmers' markets, arts and entertainment. Essentials are easy to access, with many local grocery and retail stores.</p>
+	<p>Transportation options include ride shares, cab companies, and public transit bus routes to explore the city. The Regina International Airport (YQR) is conveniently located just outside the city's downtown hub, facilitating smooth transit in an out of the city.</p>
 	<p>Cadets have opportunity to connect with the community by participating in local events hosted by Depot including the Depot Sunset Ceremonies, the RCMP National Memorial, local literacy nights, and other community parades and events.</p>
 </section>
 

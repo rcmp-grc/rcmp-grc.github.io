@@ -56,7 +56,7 @@ custom_css: /assets/css/careers.css
 </section>
 
 <section id="s4">
-  <h2>Critères d’admissibilité</h2>
+  <h2>Critères d'admissibilité</h2>
   <p>Pour faire du bénévolat à la GRC, vous devez&#160;:</p>
   <ul>
     <li>être âgé d'au moins 16&#160;ans</li>

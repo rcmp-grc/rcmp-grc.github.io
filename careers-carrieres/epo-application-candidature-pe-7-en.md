@@ -33,8 +33,8 @@ custom_css: /assets/css/careers.css
 </nav>
 
 <section id="s1">
-    <p>Once hired, you will attend the RCMP Experienced Police Officer 3-week training program at the RCMP’s Training Academy, Depot (Regina, Saskatchewan) or at the Pacific Region Training Centre (Chilliwack, British Columbia) to learn RCMP-specific procedures and tactics.</p>
-    <p>After you’ve completed the training, you will begin your first posting under the supervision of a field coach.</p>
+    <p>Once hired, you will attend the RCMP Experienced Police Officer 3-week training program at the RCMP's Training Academy, Depot (Regina, Saskatchewan) or at the Pacific Region Training Centre (Chilliwack, British Columbia) to learn RCMP-specific procedures and tactics.</p>
+    <p>After you've completed the training, you will begin your first posting under the supervision of a field coach.</p>
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
     <div class="rcmp-content-page__prev" id="mp-prev-wrap" style="display: block;">

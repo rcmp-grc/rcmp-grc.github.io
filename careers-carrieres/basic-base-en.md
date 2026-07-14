@@ -75,6 +75,6 @@ custom_css: /assets/css/careers.css
  <h2>Related pages</h2>
   <ul>
     <li><a href="/en/pei/your-community/meet-darcie-augustine-pei-rcmps-first-candidate-indigenous-pre-cadet-training-program">Prince Edward Island RCMP welcome Darcie Augustine - Indigenous Pre-Cadet Training Program graduate</a></li>
-    <li><a href="/en/gazette/police-program-jump-starts-rcmp-careers-nearly-75-indigenous-youth">RCMP Gazette story: Police program jump-starts RCMP careers for nearly 75 Indigenous youth</a></li>
+    <li><a href="/en/gazette/police-program-jump-starts-rcmp-careers-nearly-75-indigenous-youth">RCMP Gazette story: Police program jump-starts RCMP careers for nearly 75&#160;Indigenous youth</a></li>
   </ul>
 </section>

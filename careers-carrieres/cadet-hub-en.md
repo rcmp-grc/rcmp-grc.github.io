@@ -12,8 +12,8 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<p>Welcome to the RCMP Cadet Hub. Here you’ll find everything you’ll want to know before, during and after graduating from Depot.</p>
-<p>While at Depot, cadets share a common experience few can understand, Depot Life. During the 6-month Cadet Training Program, you’ll gain the skills needed to build relationships with the diverse communities we serve across Canada. The program continuously evolves to reflect the current needs of frontline policing.</p>
+<p>Welcome to the RCMP Cadet Hub. Here you'll find everything you'll want to know before, during and after graduating from Depot.</p>
+<p>While at Depot, cadets share a common experience few can understand, Depot Life. During the 6-month Cadet Training Program, you'll gain the skills needed to build relationships with the diverse communities we serve across Canada. The program continuously evolves to reflect the current needs of frontline policing.</p>
 
 <section class="gc-features">
 	<h2 class="wb-inv">Topics</h2>

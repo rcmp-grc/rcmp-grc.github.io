@@ -32,7 +32,7 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 <section id="s0">
-    <p>To help tailor your application, we’ve put together guidelines to help structure your resume and application submission.</p>
+    <p>To help tailor your application, we've put together guidelines to help structure your resume and application submission.</p>
 </section>
 <section id="s1">
     <h2>Structured resume</h2>
@@ -63,7 +63,7 @@ custom_css: /assets/css/careers.css
         <dt>Police training</dt>
         <dd>
             <ul>
-                <li>List any basic police training courses you’ve completed</li>
+                <li>List any basic police training courses you've completed</li>
                 <li>List all additional training courses, licences, certificates or degrees relevant to policing</li>
                 <li>List any training or experience in a specialized unit (for example, drugs, child exploitation, surveillance)</li>
             </ul>
@@ -73,7 +73,7 @@ custom_css: /assets/css/careers.css
 <section id="s2">
     <h2>Functional police experience and competencies</h2>
     <ul>
-        <li>Provide 2 examples of your functional police experience for each of the following police competencies using the STAR format and keep your text to a total of 9 pages or less.</li>
+        <li>Provide 2&#160;examples of your functional police experience for each of the following police competencies using the STAR format and keep your text to a total of 9 pages or less.</li>
         <li>Request a copy of the RCMP Police Competency definitions and form from your provincial recruiting office. Incorporate these definitions in your examples.</li>
     </ul>
     <section id="s2-1">
@@ -137,7 +137,7 @@ custom_css: /assets/css/careers.css
             <dt>Task</dt>
             <dd>It was my job to co-ordinate and investigate the break and enters in an effort to locate the suspects and follow up accordingly.</dd>
             <dt>Action</dt>
-            <dd>I gathered information on all break and enters occurring in the city with similar MO's. I then contacted some human sources to find out if they had any information pertaining to the rash of break and enters. I liaised with the Media Relations Officer, who prepared a media release soliciting public assistance for any information pertaining to these break and enters. I also met with the Property Crime Unit and gathered intelligence on possible suspects. I was able to identify two main suspects, both working independently with other accomplices. I then implemented an action plan to deal with these suspects. I requested the assistance of our undercover investigators to confirm the location of one suspect. I conducted a meeting on September 10 consisting of police officers from all the different investigative units. I chaired this meeting and presented an operational plan which I had developed for discussion.</dd>
+            <dd>I gathered information on all break and enters occurring in the city with similar MO's. I then contacted some human sources to find out if they had any information pertaining to the rash of break and enters. I liaised with the Media Relations Officer, who prepared a media release soliciting public assistance for any information pertaining to these break and enters. I also met with the Property Crime Unit and gathered intelligence on possible suspects. I was able to identify two main suspects, both working independently with other accomplices. I then implemented an action plan to deal with these suspects. I requested the assistance of our undercover investigators to confirm the location of one suspect. I conducted a meeting on September 10&#160;consisting of police officers from all the different investigative units. I chaired this meeting and presented an operational plan which I had developed for discussion.</dd>
             <dt>Results</dt>
             <dd>Within a couple of days, the first suspect was arrested and taken before the courts for numerous break and enter offences. On September 15, the operational plan on the second suspect was implemented. On September 28, I arrested the second suspect, and he eventually pled guilty to numerous break and enter charges.</dd>
         </dl>

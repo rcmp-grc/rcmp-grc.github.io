@@ -32,7 +32,7 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 <section id="s1">
-  <p>Vous devrez obtenir l'autorisation de votre médecin pour effectuer le test. Il devra remplir le formulaire de la norme physique relative à l'emploi&nbsp;:</p>
+  <p>Vous devrez obtenir l'autorisation de votre médecin pour effectuer le test. Il devra remplir le formulaire de la norme physique relative à l'emploi&#160;::</p>
   <ul class="gc-link-list" role="list">
       <li>
         <a href="6627f.pdf" class="gc-pdf-link" download>
@@ -45,8 +45,8 @@ custom_css: /assets/css/careers.css
       </li>
   </ul>
   <p>Vous pourrez ensuite planifier le Test de condition physique pour les policiers avec votre coordonnateur du PPE.</p>
-  <p>Vous devrez réussir la version «&nbsp;Terrain&nbsp;» du Test de condition physique pour les policiers de la GRC; ce test est effectué en portant l'uniforme de police des services généraux ou l'équivalent. La version effectuée sur le terrain comprend une course de 500 m, une tâche d'évacuation (où vous devez soulever et transporter des objets et courir) et le lancer de distance d'un ballon d'exercice.</p>
-  <p>Votre coordonnateur du PPE fixera la date du test en personne. Vous devrez porter&nbsp;:</p>
+  <p>Vous devrez réussir la version «&#160;:Terrain&#160;:» du Test de condition physique pour les policiers de la GRC; ce test est effectué en portant l'uniforme de police des services généraux ou l'équivalent. La version effectuée sur le terrain comprend une course de 500&#160;m, une tâche d'évacuation (où vous devez soulever et transporter des objets et courir) et le lancer de distance d'un ballon d'exercice.</p>
+  <p>Votre coordonnateur du PPE fixera la date du test en personne. Vous devrez porter&#160;::</p>
   <ul>
       <li>un uniforme de police des services généraux. Si vous n'en avez pas un, portez un t-shirt et un pantalon avec lequel vous pouvez porter confortablement un ceinturon de service ou un ceinturon lesté;</li>
       <li>un gilet pare-balles souple et un ceinturon de service. Si vous n'avez pas ces pièces d'équipement, nous vous les fournirons;</li>

@@ -29,7 +29,7 @@ custom_css: /assets/css/careers.css
 		<p>To learn more about becoming a Canadian Citizen, visit the <a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and Citizenship section on Canada.ca</a>.</p>
 	</details>
 	<details class="print-open mrgn-tp-md pddng-bttm-0">
-		<summary>Be at least 18 years of age to apply</summary>
+		<summary>Be at least 18&#160;years of age to apply</summary>
 		<p>You can apply to the RCMP and begin the selection process and basic training at age 18. However, you must be at least 19&#160;years old to be hired as a police officer.</p>
 		<p>There is no maximum age limit to apply to the RCMP.</p>
 	</details>
@@ -139,12 +139,12 @@ custom_css: /assets/css/careers.css
 	        <h3 class="h5"><a href="#">Check your readiness</a></h3>
 	        <p>Determine if a career in policing is right for you before you apply.</p>
 	      </section>
-	 </li>>
+	 </li>
 	    <li class="col-md-6">
 	      <section class="well">
 	        <h3 class="h5"><a href="#">Application process</a></h3>
 	        <p>Review the application process before you apply.</p>
-	 </li>section>
+	 <section>
 	   </li>
 	  </ul>
 	</div>

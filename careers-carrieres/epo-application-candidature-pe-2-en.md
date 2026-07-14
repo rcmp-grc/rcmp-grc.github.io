@@ -32,7 +32,7 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 <section id="s1">
-    <p>After you’ve initiated your application, you will need to submit the required forms and documents.</p>
+    <p>After you've initiated your application, you will need to submit the required forms and documents.</p>
     <ul class="gc-link-list" role="list">
         <li>
           <a href="6509e.pdf" class="gc-pdf-link" download>
@@ -75,7 +75,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s3">
     <h2>Complete the vision and hearing exam</h2>
-    <p>Complete the following hearing and vision exams. You can submit your reports when they are requested. The results of these examinations will be valid for 2 years. The costs for the vision and hearing exams are the responsibility of the applicant and will not be reimbursed.</p>
+    <p>Complete the following hearing and vision exams. You can submit your reports when they are requested. The results of these examinations will be valid for 2&#160;years. The costs for the vision and hearing exams are the responsibility of the applicant and will not be reimbursed.</p>
     <ul>
         <li><a href="#">Vision exam</a></li>
         <li><a href="#">Hearing exam</a></li>
@@ -89,9 +89,9 @@ custom_css: /assets/css/careers.css
         <li>social insurance number</li>
         <li>marriage, divorce, separation certificate </li>
         <li>name change certificate (if applicable)</li>
-        <li>2 passport photos</li>
+        <li>2&#160;passport photos</li>
         <li>proof of education: Canadian high school transcript showing graduation, or equivalency assessment valid Canadian driver's license (front and back)</li>
-        <li>driving record from every province or territory that you have lived in for the last 3 years provincial health card</li>
+        <li>driving record from every province or territory that you have lived in for the last 3&#160;years provincial health card</li>
     </ul>
 </section>
 <section id="s5">

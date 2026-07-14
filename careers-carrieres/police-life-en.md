@@ -33,13 +33,13 @@ custom_css: /assets/css/careers.css
     </section>
     <section id="s1-2">
         <h3>RCMP police officers carry a firearm and sometimes use force in the interest of public safety</h3>
-        <p>As a police officer, you’ll be expected to carry a firearm and use it or any other force necessary to restore
+        <p>As a police officer, you'll be expected to carry a firearm and use it or any other force necessary to restore
             order and safety.</p>
     </section>
     <section id="s1-3">
         <h3>RCMP police officers are often exposed to trauma, violence and disturbing events</h3>
         <p>You will act as helper and protector in difficult situations and need to maintain your mental and physical
-            health. Don’t worry, you’ll have access to programs that will teach you critical wellness skills and
+            health. Don't worry, you'll have access to programs that will teach you critical wellness skills and
             additional support when needed.</p>
     </section>
     <section id="s1-4">
@@ -52,7 +52,7 @@ custom_css: /assets/css/careers.css
 <section id="s2">
     <h2>What we expect</h2>
     <p>As a police officer, you will have a significant role in building and maintaining the public trust as you serve
-        the community. We’re looking for candidates that will uphold the highest ethical standards, both on- and
+        the community. We're looking for candidates that will uphold the highest ethical standards, both on- and
         off-duty.</p>
     <p>Find out if you are ready to serve.</p>
     <p><a href="#">Take the Readiness Check!</a></p>

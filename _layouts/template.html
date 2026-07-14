@@ -33,6 +33,16 @@
         {% endif %}
         <h1 id="wb-cont" property="name">{{ page.title }}</h1>
       </hgroup>
+	  {% assign template_array = site.pages | where: "title", page.title -%}
+		<section>
+		  <h2 class="wb-inv">Current version</h2>
+		{% for template_page in template_array -%}
+		  {% unless template_page.url == page.url %}
+			<a href="{{ template_page.url }}" class="btn btn-primary">View latest demo</a>
+			<p class="small">last modified: {{ template_page.date_modified }}</p>
+		  {% endunless %}
+		{% endfor -%}
+		</section>
       {{ content }}
       <section class="pagedetails">
         {% if page.lang == 'fr' %}

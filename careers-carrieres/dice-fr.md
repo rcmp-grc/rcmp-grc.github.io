@@ -97,16 +97,12 @@ Regina (Saskatchewan)</p> -->
 	<blockquote>
 		<p>Ma participation au programme ECDI a eu une incidence considérable sur moi. Il m'a offert un environnement structuré et bienveillant qui m'a permis de renforcer ma confiance, d'approfondir ma compréhension de la GRC et de m'épanouir tant sur le plan personnel que professionnel.</p>
 		<p>Le mentorat, le travail d'équipe et l'apprentissage pratique ont tous joué un rôle important dans ma préparation aux prochaines étapes de mon parcours pour devenir policier de la GRC.</p>
-		<footer>
-			<cite>Participant Zourntos</cite>
-		</footer>
+		<footer>Participant Zourntos</footer>
 	</blockquote>
 	<blockquote class="mrgn-tp-lg">
 		<p>Mon expérience dans le programme a été profondément marquante. Elle m'a permis de mieux comprendre les attentes, les normes et l'état d'esprit nécessaires pour intégrer la GRC, tout en renforçant ma confiance et ma discipline.</p>
 		<p>Je suis convaincu que ce programme devrait être accessible à tous, car il offre des bases solides pour réussir.</p>
-		<footer>
-			<cite>Participant Eastwood</cite>
-		</footer>
+		<footer>Participant Eastwood</footer>
 	</blockquote>
 	<div class="wb-eqht wb-init">
 		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
@@ -129,9 +125,7 @@ Regina (Saskatchewan)</p> -->
 	<div class="clearfix"></div>
 	<blockquote>
 		<p>Cette expérience a vraiment changé ma vie. Je n'avais jamais réalisé tout mon potentiel avant de suivre cette formation, qui m'a donné confiance en moi. Tout le monde était solidaire et formait une équipe géniale, ce qui a tout de suite créé une ambiance de famille. Les mentors, en particulier, ont été exceptionnels et très professionnels.</p>
-		<footer>
-			<cite>Participante Shafiq</cite>
-		</footer>
+		<footer>Participante Shafiq</footer>
 	</blockquote>
 	<div class="wb-eqht wb-init">
 		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
@@ -146,15 +140,11 @@ Regina (Saskatchewan)</p> -->
 	<div class="clearfix"></div>
 	<blockquote>
 		<p>Cette expérience à renforcé mon désir de devenir membre régulière. Une expérience unique en son genre.</p>
-		<footer>
-			<cite>Participante Bernier</cite>
-		</footer>
+		<footer>Participante Bernier</footer>
 	</blockquote>
 	<blockquote class="mrgn-tp-lg">
 		<p>Le programme ECDI est l'introduction idéale au travail policier au sein de la GRC. Il m'a offert une expérience d'ensemble qui a renforcé mon intérêt à joindre la GRC.</p>Le sénateur Dhillon revêtu
-		<footer>
-			<cite>Participant Howe</cite>
-		</footer>
+		<footer>Participant Howe</footer>
 	</blockquote>
 </section>
 <section id="s5">

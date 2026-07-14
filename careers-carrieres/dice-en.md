@@ -1,9 +1,9 @@
 ---
 layout: careers
 title: Diverse and Inclusive Pre-Cadet Experience
-date_modified: 2026-07-08
+date_modified: 2026-07-13
 lang: en
-lang_url: basic-requirements-fr.html
+lang_url: dice-fr.html
 breadcrumbs:
   - label: "RCMP careers"
     url: "careers-carrieres/careers-carrieres-en.html"

@@ -169,7 +169,7 @@ custom_css: /assets/css/careers.css
 <section id="s5">
   <h2>Section&nbsp;4&nbsp;: Habiletés spatiales</h2>
   <ul>
-    <li>Cette section se divise en quatre volets&nbsp;: rotation de formes en deux&nbsp;dimensions, formes en trois&nbsp;dimensions, mécanique et prismes déconstruits.</li>
+    <li>Cette section se divise en quatre volets&nbsp;: rotation de formes en deux&nbsp;dimensions, formes en trois&nbsp;dimensions, mécanique et prismes déconstruits</li>
     <li>Répondez au plus grand nombre de questions possible</li>
     <li>Vous obtiendrez 1&nbsp;point par bonne réponse</li>
     <li>Vous pouvez passer des questions. Si vous ne connaissez pas la réponse à une question, veuillez sélectionner la réponse «&nbsp;Je ne sais pas&nbsp;»</li>

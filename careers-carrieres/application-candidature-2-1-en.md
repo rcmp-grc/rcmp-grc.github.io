@@ -20,8 +20,8 @@ custom_css: /assets/css/careers.css
   <ul>
     <li><a href="application-candidature-1-en.html">Submit an online application</a></li>
     <li><a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a>
-<ul class="noline">
- <li><a class="active" href="application-candidature-2-1-en.html">RCMP Online Assessment Preparatory Guide</a></li>
+<ul class="noline"> 
+  <li><a class="active" href="application-candidature-2-1-en.html">RCMP Online Assessment Preparatory Guide</a></li>
 </ul>
 </li>
     <li><a href="application-candidature-3-en.html">Submit the required forms and documents</a>
@@ -64,7 +64,7 @@ custom_css: /assets/css/careers.css
 <li>Section&nbsp;6: Business reasoning</li>
 </ul>
 <p>The assessment should take approximately 55 to 70&nbsp;minutes to complete. There are several timed portions. It is recommended that you complete the entire assessment in one&nbsp;session.</p>
-<p>Please ensure that you complete the assessment in a quiet environment where you can focus and avoid interruptions or distractions. We recommend that you complete the assessment on a laptop or desktop computer. You will want to ensure you have a stable Wi-Fi connection and power source to ensure you do not lose your progress during the assessment.</p>
+<p>Please ensure that you complete the assessment in a quiet environment where you can focus and avoid interruptions or distractions. We recommend that you complete the assessment on a laptop or desktop computer. You will want to ensure you have a stable Wi-Fi&nbsp;connection and power source to ensure you do not lose your progress during the assessment.</p>
 </section>
 <section id="s2">
   <h2>Section&nbsp;1: Workstyle preference</h2>
@@ -81,8 +81,8 @@ custom_css: /assets/css/careers.css
   <h2>Section&nbsp;2: Language comprehension</h2>
  <ul>
  <li>This section consists of two components: word meanings and word relationships</li>
- <li>You will have 5 minutes to complete each component</li>
- <li>You will receive 1 point for each correct answer</li>
+ <li>You will have 5&nbsp;minutes to complete each component</li>
+ <li>You will receive 1&nbsp;point for each correct answer</li>
  <li>You may skip questions. If you do not know the answer, please select "I don't know."</li>
  <li>There is a timer at the bottom of the page</li>
 </ul>
@@ -101,7 +101,7 @@ custom_css: /assets/css/careers.css
   <section id="s3-2">
    <h3>Part&nbsp;B – Word relationships</h3>
     <p>Note the relationship between the first pair of words. Select the option that forms a similar relationship to fill the blank. </p>
-  <p><strong>Example: </strong></p>
+    <p><strong>Example: </strong></p>
     <p>Tie: Rope</p>
     <p>Cut:</p>
     <ol class="lst-lwr-alph">

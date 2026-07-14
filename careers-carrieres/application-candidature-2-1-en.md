@@ -66,7 +66,6 @@ custom_css: /assets/css/careers.css
 <p>The assessment should take approximately 55 to 70&nbsp;minutes to complete. There are several timed portions. It is recommended that you complete the entire assessment in one&nbsp;session.</p>
 <p>Please ensure that you complete the assessment in a quiet environment where you can focus and avoid interruptions or distractions. We recommend that you complete the assessment on a laptop or desktop computer. You will want to ensure you have a stable Wi-Fi connection and power source to ensure you do not lose your progress during the assessment.</p>
 </section>
-
 <section id="s2">
   <h2>Section&nbsp;1: Workstyle preference</h2>
       <ul>
@@ -177,12 +176,13 @@ custom_css: /assets/css/careers.css
    <h3>Part&nbsp;A – Rotating 2D&nbsp;shapes</h3>
      <p>You will be asked a series of questions related to 2D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3&nbsp;minutes to complete the set of questions.</p>
      <p><strong>Example</strong>:</p>
-      <div class="well col-xs-12">
-    <figure>
+      <div class="pull-right col-xs-12 col-md-3 col-lg-4">
+      <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
+        <figure>
       <img alt="" class="img-responsive full-width" src="rpab-pink-480x300.jpg">
     </figure>
   </div>
-  <div class="clearfix"></div>
+  </div>
      <ol class="lst-lwr-alph">
       <li>A</li>
       <li>B</li>

@@ -313,7 +313,7 @@ custom_css: /assets/css/careers.css
    <section id="s7-1">
    <h3>Part&nbsp;A – Verbal reasoning</h3>
      <p>Choose the word that best fits the blank. Look at the first pair of words to see how they relate to each other and then choose the word that makes the second pair of words related in the same way.</p>
-     <p><strong>Example&nbps;1</strong></p>
+     <p><strong>Example&nbsp;1</strong></p>
      <p>Up: Down</p>
       <p>Left:</p>
      <ol class="lst-lwr-alph">

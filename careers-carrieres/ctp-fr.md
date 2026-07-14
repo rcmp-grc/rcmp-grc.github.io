@@ -15,7 +15,6 @@ custom_css: /assets/css/careers.css
 <nav aria-labelledby="on-this-page-heading">
   <h2 id="on-this-page-heading">Sur cette page</h2>
   <ul>
-    <li class="wb-inv"><a href="#s0">Introduction</a></li>
     <li><a href="#s1">Aperçu du programme</a></li>
     <li><a href="#s2">Cadre de référence opérationnel</a></li>
     <li><a href="#s3">Conception et prestation</a></li>
@@ -25,12 +24,9 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 
-<section id="s0">
-  <h2 class="wb-inv">Introduction</h2>
-  <p>Le Programme de formation des cadets (PFC) prépare les cadets au travail policier de première ligne dans les communautés canadiennes. Notre programme de formation de six mois accueille les postulants admis à l'École de la GRC à Regina (Saskatchewan). La formation est donnée sur place, à longueur d'année, dans les deux langues officielles. Attendez-vous à de longues journées bien remplies avec un temps libre limité.</p>
-  <p>En tant que cadet, vous participerez à un programme immersif au sein d'une troupe diversifiée de 32&#160;membres. Vous apprendrez les réalités de la police communautaire au moyen de scénarios, d'un véritable travail d'équipe, de travaux en classe et plus encore.</p>
-  <p>Après avoir terminé le programme, les cadets peuvent se voir offrir un emploi de policier de la GRC. Ils obtiennent le statut d'agent de la paix et poursuivent leur apprentissage dans le cadre du Programme de formation pratique de six mois en tant que nouvelles recrues au grade de gendarme.</p>
-</section>
+<p>Le Programme de formation des cadets (PFC) prépare les cadets au travail policier de première ligne dans les communautés canadiennes. Notre programme de formation de six mois accueille les postulants admis à l'École de la GRC à Regina (Saskatchewan). La formation est donnée sur place, à longueur d'année, dans les deux langues officielles. Attendez-vous à de longues journées bien remplies avec un temps libre limité.</p>
+<p>En tant que cadet, vous participerez à un programme immersif au sein d'une troupe diversifiée de 32&#160;membres. Vous apprendrez les réalités de la police communautaire au moyen de scénarios, d'un véritable travail d'équipe, de travaux en classe et plus encore.</p>
+<p>Après avoir terminé le programme, les cadets peuvent se voir offrir un emploi de policier de la GRC. Ils obtiennent le statut d'agent de la paix et poursuivent leur apprentissage dans le cadre du Programme de formation pratique de six mois en tant que nouvelles recrues au grade de gendarme.</p>
 
 <section id="s1">
   <h2>Aperçu du programme</h2>

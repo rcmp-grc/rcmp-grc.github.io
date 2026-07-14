@@ -33,7 +33,7 @@ Regina (Saskatchewan)</p> -->
 		<li><a href="#s5">Journée d'initiative pour les jeunes au Programme ECDI&#160;: une première édition réussie </a></li>
 		<li><a href="#s6">Briser les barrières&#160;: Le sénateur Baltej Dhillon rencontre la troupe du Programme ECDI </a></li>
 	</ul>
-</section>
+</nav>
 <p>Le Programme d'expérience précadet diversifié et inclusif (ECDI) est une nouvelle initiative de recrutement et de maintien de l'effectif visant à éliminer les obstacles auxquels se heurtent les personnes de groupes racisés et sous-représentés qui souhaitent devenir membres de la GRC.</p>
 <ul>
 	<li>Nouveaux arrivants au Canada (par exemple personnes qui viennent d'obtenir la citoyenneté canadienne ou la résidence permanente)</li>
@@ -78,7 +78,7 @@ Regina (Saskatchewan)</p> -->
 	<div class="wb-eqht wb-init">
 		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
 			<figure>
-				<img alt="" class="img-responsive center-block" src="assets/img/dice-ecdi-1.jpg">
+				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-1.jpg">
 				<figcaption>
 					D'anciens participants au programme ECDI tiennent leur certificat lors de la dernière journée de formation.
 				</figcaption>
@@ -86,7 +86,7 @@ Regina (Saskatchewan)</p> -->
 		</div>
 		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
 			<figure>
-				<img alt="" class="img-responsive center-block" src="assets/img/dice-ecdi-2.jpg">
+				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-2.jpg">
 				<figcaption>
 					Des participants au programme ECDI prennent part à des exercices structurés dans le cadre de leur expérience précadet.
 				</figcaption>
@@ -111,7 +111,7 @@ Regina (Saskatchewan)</p> -->
 	<div class="wb-eqht wb-init">
 		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
 			<figure>
-				<img alt="" class="img-responsive center-block" src="assets/img/dice-ecdi-3.jpg">
+				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-3.jpg">
 				<figcaption>
 					Un participant au programme ECDI est en train de faire ajuster son uniforme d'entraînement.
 				</figcaption>
@@ -119,7 +119,7 @@ Regina (Saskatchewan)</p> -->
 		</div>
 		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
 			<figure>
-				<img alt="" class="img-responsive center-block" src="assets/img/dice-ecdi-4.jpg">
+				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-4.jpg">
 				<figcaption>
 					Des participants au programme ECDI assistent à des séances de formation en salle de classe.
 				</figcaption>
@@ -136,7 +136,7 @@ Regina (Saskatchewan)</p> -->
 	<div class="wb-eqht wb-init">
 		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
 			<figure>
-				<img alt="" class="img-responsive center-block" src="assets/img/dice-ecdi-5.jpg">
+				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-5.jpg">
 				<figcaption>
 					Des participants au programme ECDI prennent part à des activités d'entraînement physique dans le cadre de leur parcours de précadet.
 				</figcaption>
@@ -167,7 +167,7 @@ Regina (Saskatchewan)</p> -->
 	<div class="wb-eqht wb-init">
 		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
 			<figure>
-				<img alt="" class="img-responsive center-block" src="assets/img/dice-ecdi-6.jpg">
+				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-6.jpg">
 				<figcaption>
 					Un élève portant un t‑shirt «&nbsp;Junior DICE ECDI&nbsp;» est assis, le bras autour d'un autre élève, pendant une présentation de la GRC au Collège canadien de police.
 				</figcaption>
@@ -175,7 +175,7 @@ Regina (Saskatchewan)</p> -->
 		</div>
 		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
 			<figure>
-				<img alt="" class="img-responsive center-block" src="assets/img/dice-ecdi-7.jpg">
+				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-7.jpg">
 				<figcaption>
 					Un policier de la GRC s'adresse à un groupe d'élèves assis dans une salle de formation du Collège canadien de police.
 				</figcaption>
@@ -186,7 +186,7 @@ Regina (Saskatchewan)</p> -->
 	<div class="wb-eqht wb-init">
 		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
 			<figure>
-				<img alt="" class="img-responsive center-block" src="assets/img/dice-ecdi-8.jpg">
+				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-8.jpg">
 				<figcaption>
 					À côté d'un camion spécialisé stationné à l'extérieur, une équipe CBRNE présente un robot de neutralisation de bombes.
 				</figcaption>
@@ -194,7 +194,7 @@ Regina (Saskatchewan)</p> -->
 		</div>
 		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
 			<figure>
-				<img alt="" class="img-responsive center-block" src="assets/img/dice-ecdi-9.jpg">
+				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-9.jpg">
 				<figcaption>
 					Pendant un exercice d'entraînement policier dans un gymnase, une élève transporte deux sacs d'assistance d'urgence de 45 lb tandis que d'autres observent.
 				</figcaption>
@@ -208,7 +208,7 @@ Regina (Saskatchewan)</p> -->
 	<div class="pull-right col-xs-12 col-md-3 col-lg-4">
 		<div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
 			<figure>
-				<img alt="" class="img-responsive full-width" src="assets/img/dice-ecdi-10.jpg">
+				<img alt="" class="img-responsive full-width" src="/assets/img/dice-ecdi-10.jpg">
 				<figcaption>Le sénateur Dhillon revêtu d'un complet et d'un turban se tient debout à l'avant d'une salle de classe et parle à des aspirants policiers de la GRC.</figcaption>
 			</figure>
 		</div>
@@ -217,22 +217,23 @@ Regina (Saskatchewan)</p> -->
 	<p>En 1991, le sénateur Dhillon a été le premier agent de la GRC autorisé à porter un turban dans l'exercice de ses fonctions, défendant son droit de pratiquer sa religion tout en servant le Canada. Il a ensuite mené une brillante carrière de 30&#160;ans à la GRC, contribuant à promouvoir une plus grande inclusion au sein de l'organisation.</p>
 	<p>En mai dernier, le sénateur Dhillon a visité l'École de la GRC pour y rencontrer la troupe du Programme d'expérience précadet diversifié et inclusif (ECDI) qui entamait sa formation de trois semaines. Il a noué des liens avec les participants et les mentors et a observé plusieurs activités de formation, notamment celles consacrées aux exercices et au maintien ainsi qu'à la condition physique des policiers, qui mettent l'accent sur la discipline, la confiance en soi et la préparation physique.</p>
 	<p>L'histoire de Baltej Dhillon relève du courage et de la persévérance. Non seulement a-t-il brisé des barrières, mais il a su rassembler les gens et démontrer que la foi, l'identité et le service à la collectivité peuvent aller de pair. Rencontrer une personne qui a contribué à façonner un avenir plus inclusif a été une expérience enrichissante et motivante pour les participants au Programme ECDI, et cela leur a rappelé que le leadership et la conviction peuvent être à l'origine de changements durables.</p>
-	<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
-		<figure>
-			<img alt="" class="img-responsive center-block" src="assets/img/dice-ecdi-11.jpg">
-			<figcaption>
-				Des participants sont assis et écoutent attentivement durant une séance de formation en classe à l'École de la GRC.
-			</figcaption>
-		</figure>
+	<div class="wb-eqht wb-init">
+		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+			<figure>
+				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-11.jpg">
+				<figcaption>
+					Des participants sont assis et écoutent attentivement durant une séance de formation en classe à l'École de la GRC.
+				</figcaption>
+			</figure>
+		</div>
+		<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
+			<figure>
+				<img alt="" class="img-responsive center-block" src="/assets/img/dice-ecdi-12.jpg">
+				<figcaption>
+					Un groupe de participants et de formateurs posent pour une photo de groupe dans la Salle d'exercice de l'École de la GRC, à la Division Dépôt.
+				</figcaption>
+			</figure>
+		</div>
 	</div>
-	<div class="well mrgn-lft-sm mrgn-rght-sm col-md-4 mrgn-bttm-md">
-		<figure>
-			<img alt="" class="img-responsive center-block" src="assets/img/dice-ecdi-12.jpg">
-			<figcaption>
-				Un groupe de participants et de formateurs posent pour une photo de groupe dans la Salle d'exercice de l'École de la GRC, à la Division Dépôt.
-			</figcaption>
-		</figure>
-	</div>
-</div>
-<div class="clearfix"></div>
+	<div class="clearfix"></div>
 </section>

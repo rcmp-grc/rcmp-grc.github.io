@@ -57,7 +57,8 @@ hero_image: /assets/img/topics-sujets.jpg
 		</li>
 	</ul>
 </section>
-
+<!--
 <section>
 	<h2>Features</h2>
 </section>
+-->

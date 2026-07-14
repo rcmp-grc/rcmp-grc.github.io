@@ -10,6 +10,7 @@ breadcrumbs:
   - label: "Carrières policières"
     url: "careers-carrieres/fr.html"
 custom_css: /assets/css/careers.css
+hero_image: /assets/img/topics-sujets.jpg
 ---
 
 <p>Bienvenue au Centre des cadets de la GRC. Vous trouverez ici tout ce que vous voulez savoir avant, pendant et après la formation à la Division Dépôt.</p>

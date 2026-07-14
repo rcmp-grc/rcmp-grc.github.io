@@ -197,12 +197,13 @@ custom_css: /assets/css/careers.css
    <h3>Part&nbsp;B – 3D&nbsp;shapes</h3>
     <p>You will be asked a series of questions related to 3D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3&nbsp;minutes to complete the set of questions.</p>
      <p><strong>Example</strong>:</p>
-      <div class="well col-xs-12">
-    <figure>
+      <div class="pull-right col-xs-12 col-md-3 col-lg-4">
+      <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
+        <figure>
       <img alt="" class="img-responsive full-width" src="rpab-green-480x300.jpg">
     </figure>
-  </div>
-  <div class="clearfix"></div>
+      </div>
+    </div>
      <ol class="lst-lwr-alph">
       <li>A</li>
       <li>B</li>
@@ -216,12 +217,13 @@ custom_css: /assets/css/careers.css
    <h3>Part&nbsp;C – Mechanical problems</h3>
     <p>You will be asked a series of questions related to mechanical problems. You have 4&nbsp;minutes to complete the set of questions.</p>
        <p><strong>Example</strong>:</p>
-      <div class="well col-xs-12">
-    <figure>
+     <div class="pull-right col-xs-12 col-md-3 col-lg-4">
+      <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
+        <figure>
       <img alt="" class="img-responsive full-width" src="rpab-grey-480x600.jpg">
     </figure>
       </div>
-  <div class="clearfix"></div>
+     </div>
     <p>When handle&nbsp;H is pulled to the right, as shown by the arrow, end E will:</p>
      <ol class="lst-lwr-alph">
       <li>Move to the left</li>
@@ -236,12 +238,13 @@ custom_css: /assets/css/careers.css
    <h3>Part&nbsp;D – Cubes and folding shapes</h3>
     <p>You will be asked a series of questions related to cubes and folding shapes. You will have 5&nbsp;minutes to complete the set of questions.</p>
        <p><strong>Example</strong>:</p>
-      <div class="well col-xs-12">
-    <figure>
+      <div class="pull-right col-xs-12 col-md-3 col-lg-4">
+      <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
+        <figure>
       <img alt="" class="img-responsive full-width" src="rpab-yellow-480x480.jpg">
     </figure>
       </div>
-  <div class="clearfix"></div>
+      </div>
     <p>Which of the folded shapes represents the unfolded image?</p>
      <ol class="lst-lwr-alph">
       <li>A</li>
@@ -269,12 +272,13 @@ custom_css: /assets/css/careers.css
     <li>You may choose to proceed to the next section before the time limit is up</li>
   </ul>
    <p><strong>Example&nbsp;1</strong>:</p>
-      <div class="well col-xs-12">
-    <figure>
+     <div class="pull-right col-xs-12 col-md-3 col-lg-4">
+      <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
+        <figure>
       <img alt="" class="img-responsive full-width" src="rpab-shapes-480x300.jpg">
     </figure>
       </div>
-  <div class="clearfix"></div>
+     </div>
     <p>Study this group of objects; you have a 30-second time limit.</p>
      <ol class="lst-lwr-alph">
       <li>Red</li>
@@ -313,13 +317,49 @@ custom_css: /assets/css/careers.css
     <li>Answer each question to the best of your abilities</li>
     <li>This section should take 20-25&nbsp;minutes to complete</li>
     <li>If you do not know the answer, please select "I don't know"</li>
-    <li>Use only your knowledge, paper and pen when completing these questions. The use of calculators, computer software or input from others is not permitted</li>
+    <li>Use only your knowledge, paper and pen when completing these questions. <li>The use of calculators, computer software or input from others is not permitted</li>
   </ul>
+  <p>There is a timer at the bottom of the page.</p>
+   <section id="s7-1">
+   <h3>Part&nbsp;A – Verbal reasoning</h3>
+     <p>Choose the word that best fits the blank. Look at the first pair of words to see how they relate to each other and then choose the word that makes the second pair of words related in the same way.</p>
+     <p><strong>Example&nbps;1</strong></p>
+     <p>Up: Down</p>
+      <p>Left:</p>
+     <ol class="lst-lwr-alph">
+      <li>High</li>
+      <li>Right</li>
+      <li>Low</li>
+      <li>Above</li>
+    </ol>
+     <p>The correct answer is <strong>b. Right</strong>. In the example, “Up” and “Down” are opposites, so the correct answer is the opposite of “Left”, which is “Right”.</p>
+     <p><strong>Example&nbps;2</strong></p>
+     <p>A company policy states that all people at the factory must wear safety goggles. Visitors to the factory on Wednesday were not wearing safety goggles. Was the company policy broken on Wednesday?</p>
+     <ol class="lst-lwr-alph">
+      <li>Yes</li>
+      <li>It cannot be determined</li>
+      <li>No</li>
+    </ol>
+     <p>The correct answer is <strong>a. Yes</strong>.</p>
+   </section>
+  <section id="s7-2">
+   <h3>Part&nbsp;B – Numerical reasoning</h3>
+     <p>This section consists of math word problems. Complete the questions by selecting the answer you think is correct</p>
+      <p><strong>Example</strong></p>
+     <p>John made one sale of $100 and Betty made one sale of $200. What was the difference in sale between John and Betty?</p>
+     <ol class="lst-lwr-alph">
+      <li>$300</li>
+      <li>$100</li>
+      <li>$200</li>
+      <li>None of the above</li>
+    </ol>
+     <p>The correct answer is <strong>b. $100</strong>.</p>
+  </section>
 </section>
 
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page" style="display: block;">
   <div class="rcmp-content-page__prev" id="mp-prev-wrap" style="display: block;">
-    <a aria-label="Previous page: Submit an online application" class="rcmp-content-page__link" href="application-candidature-1-en.html" id="mp-prev"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i> <span class="rcmp-content-page__link-title">Previous page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-prev-label">Submit an online application</span></a>
+    <a aria-label="Previous page: Submit an online application" class="rcmp-content-page__link" href="application-candidature-2-en.html" id="mp-prev"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i> <span class="rcmp-content-page__link-title">Previous page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-prev-label">Online career presentation and entrance assessment</span></a>
   </div>
   <div class="rcmp-content-page__next" id="mp-next-wrap" style="display: block;">
     <a aria-label="Next page: Submit the required forms and documents" class="rcmp-content-page__link" href="application-candidature-3-en.html" id="mp-next"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i> <span class="rcmp-content-page__link-title">Next page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-next-label">Submit the required forms and documents</span></a>

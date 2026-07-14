@@ -318,7 +318,7 @@ custom_css: /assets/css/careers.css
    <h3>Partie&nbsp;A – Raisonnement verbal</h3>
      <p>D'abord, établissez le lien qui unit les deux premiers mots indiqués. Ensuite, sélectionnez le mot qui forme avec le troisième mot un lien semblable à celui qui unit les deux premiers mots.</p>
      <p><strong>Exemple&nbsp;1</strong>&nbsp;:</p>
-     <p>Haut&nbsp;: Down</p>
+     <p>Haut&nbsp;: Bas</p>
       <p>Gauche&nbsp;:</p>
      <ol class="lst-lwr-alph">
       <li>Haut</li>

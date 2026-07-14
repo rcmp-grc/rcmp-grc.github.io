@@ -189,7 +189,7 @@ custom_css: /assets/css/careers.css
       <li>C</li>
       <li>D</li>
       <li>E</li>
-      <li>F</li>
+      <li>I don't know</li>
     </ol>
      <p>The correct answer is <strong>c. shape C</strong>.</p>
    </section>

@@ -43,12 +43,12 @@ custom_css: /assets/css/careers.css
   <h2 id="on-this-page-heading">On this page</h2>
   <ul>
     <li><a href="#s1">Introduction</a></li>
-    <li><a href="#s2">Section 1: Workstyle preference</a></li>
-    <li><a href="#s3">Section 2: Language comprehension</a></li>
-    <li><a href="#s4">Section 3: Numerical skills</a></li>
-    <li><a href="#s5">Section 4: Spatial skills</a></li>
-    <li><a href="#s6">Section 5: Memory quotient </a></li>
-    <li><a href="#s7">Section 6: Business reasoning</a></li>
+    <li><a href="#s2">Section&nbsp;1: Workstyle preference</a></li>
+    <li><a href="#s3">Section&nbsp;2: Language comprehension</a></li>
+    <li><a href="#s4">Section&nbsp;3: Numerical skills</a></li>
+    <li><a href="#s5">Section&nbsp;4: Spatial skills</a></li>
+    <li><a href="#s6">Section&nbsp;5: Memory quotient </a></li>
+    <li><a href="#s7">Section&nbsp;6: Business reasoning</a></li>
   </ul>
 </nav>
 

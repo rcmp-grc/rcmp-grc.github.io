@@ -1,9 +1,9 @@
 ---
 layout: careers
-title: Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière
+title: Passez une enquête sur les antécédents et une évaluation de sécurité[
 date_modified: 2026-07-08
 lang: fr
-lang_url: application-candidature-5-1-en.html
+lang_url: application-candidature-6-en.html
 lead: Processus de recrutement des policiers et policières
 breadcrumbs:
   - label: "Carrières à la GRC"
@@ -32,50 +32,21 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-4-fr.html">Passez une entrevue d'admissibilité</a></li>
     <li><a class="active" href="application-candidature-5-fr.html">Soumettez-vous à une évaluation médicale et une évaluation de l'aptitude psychologique</a>
       <ul class="noline">
-        <li><a class="active" href="application-candidature-5-1-fr.html">Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière</a></li>
+        <li><a href="application-candidature-5-1-fr.html">Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière</a></li>
       </ul>
     </li>
-    <li><a href="application-candidature-6-fr.html">Passez une enquête sur les antécédents et une évaluation de sécurité</a></li>
+    <li><a class="active" href="application-candidature-6-fr.html">Passez une enquête sur les antécédents et une évaluation de sécurité</a></li>
   </ul>
 </nav>
 
 <nav aria-labelledby="on-this-page-heading">
   <h2 id="on-this-page-heading">Sur cette page</h2>
   <ul>
-    <li><a href="#s1">Troubles respiratoires</a></li>
-    <li><a href="#s2">Troubles cardiovasculaires</a></li>
-    <li><a href="#s3">Troubles neurologiques</a></li>
-    <li><a href="#s4">Troubles endocriniens</a></li>
-    <li><a href="#s5">Troubles musculosquelettiques</a></li>
-    <li><a href="#s6">Troubles abdominaux</a></li>
-    <li><a href="#s7">Troubles de l’œil ou de l’oreille</a></li>
-    <li><a href="#s8">Troubles hématologiques</a></li>
-    <li><a href="#s9">Troubles immunologiques, allergiques, oncologiques et infectieux</a></li>
-    <li><a href="#s10">Troubles psychologiques, psychiatriques ou de santé mentale</a></li>
-    <li><a href="#s11">Autres problèmes de santé</a></li>
+    <li><a href="#s1">Processus d’autorisation de sécurité</a></li>
+    <li><a href="#s2">Que faire si vous avez passé du temps à l’étranger</a></li>
+    <li><a href="#s3">Processus de candidature terminé</a></li>
   </ul>
 </nav>
-
-<p>Certains problèmes de santé pourraient influer sur l’évaluation de votre aptitude sur le plan médical. Il est important de déclarer ces problèmes honnêtement.</p>
-<p>Vous devez déclarer&nbsp;:</p>
-<ul>
-  <li>tous vos problèmes de santé actuels (même si vous considérez qu'ils sont mineurs), y compris&nbsp;:
-  <ul>
-  <li>tout problème de santé physique et psychologique</li>
-  <li>la date à laquelle les problèmes ont commencé, les limitations et restrictions qui y sont liées, le plan de traitement et le pronostic</li></ul></li>
-  <li>vos antécédents de santé physique et psychologique (précisez tout problème de santé pour lequel un traitement ou des médicaments étaient prescrits ou qui ont donné lieu à des limitations et à des restrictions), y compris&nbsp;:
-    <ul>
-      <li>la date à laquelle le problème a commencé, les limitations et restrictions qui y sont liées, le plan de traitement et le pronostic;</li>
-    </ul>
-  </li>
-  <li>tous les médicaments, suppléments et autres substances que vous prenez (sur ordonnance ou non)
-  <ul><li>Quand avez-vous commencé à les prendre? Pourquoi?</li></ul>
-  </li>
-  <li>tout accessoire d’aide médicale (par exemple, orthèse, animal de soutien) nécessaire au moment de l’évaluation médicale</li>
-</ul>
-<p>L’omission de déclarer tous vos antécédents médicaux et psychologiques pourrait nuire à votre candidature. Vous devez aussi déclarer tout changement dans votre état de santé au cours du processus de recrutement, avant de commencer le Programme de formation des cadets à la Division Dépôt, ainsi que tout changement qui pourrait survenir durant la formation.</p>
-<p>Nous vous invitons par la même occasion à autoévaluer votre aptitude au travail policier en fonction de vos problèmes de santé physique et psychologique connus.</p>
-<p>Voici une liste de problèmes de santé qui peuvent limiter ou restreindre votre capacité d’exercer des fonctions policières essentielles.</p>
 
 <section id="s1">
   <h2>Troubles respiratoires</h2>

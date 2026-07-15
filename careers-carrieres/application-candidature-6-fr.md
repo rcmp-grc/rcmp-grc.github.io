@@ -30,7 +30,7 @@ custom_css: /assets/css/careers.css
       </ul>
     </li>
     <li><a href="application-candidature-4-fr.html">Passez une entrevue d'admissibilité</a></li>
-    <li><a class="active" href="application-candidature-5-fr.html">Soumettez-vous à une évaluation médicale et une évaluation de l'aptitude psychologique</a>
+    <li><a href="application-candidature-5-fr.html">Soumettez-vous à une évaluation médicale et une évaluation de l'aptitude psychologique</a>
       <ul class="noline">
         <li><a href="application-candidature-5-1-fr.html">Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière</a></li>
       </ul>

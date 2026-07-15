@@ -1,12 +1,12 @@
 ---
-layout: carrieres
+layout: careers
 title: Programmes pour postulants des Premières Nations, des Inuits et des Métis
 date_modified: 2026-06-15
 lang: fr
 lang_url: topics-sujets-en.html
 breadcrumbs:
   - label: "Carrières à la GRC"
-    url: "careers-carrieres/careers-carrieresfr.html"
+    url: "careers-carrieres/careers-carrieres/fr.html"
   - label: "Carrières policières"
     url: "careers-carrieres/officer-agent-fr.html"
 custom_css: /assets/css/careers.css

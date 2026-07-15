@@ -22,13 +22,13 @@ hero_image: /assets/img/topics-sujets.jpg
     <li class="col-md-6">
       <div class="well">
         <h3 class="h5"><a href="#">Programme de formation des précadets autochtones</a></h3>
-        <p>Ce programme vise à donner aux Autochtones du Canada une expérience pratique du travail policier.</p>
+        <p>Ce programme vise à donner aux Autochtones du Canada une expérience pratique du travail policier à la GRC.</p>
       </div>
     </li>
     <li class="col-md-6">
       <div class="well">
         <h3 class="h5"><a href="#">Programme de mentorat de postulants autochtones</a></h3>
-        <p>Ce programme est conçu pour appuyer et guider les postulants des Premières Nations, inuits et métis.</p>
+        <p>Ce programme est conçu pour appuyer et guider les postulants des Premières Nations, inuits et métis tout au long du processus d’embauche de la GRC.</p>
       </div>
     </li>
   </ul>

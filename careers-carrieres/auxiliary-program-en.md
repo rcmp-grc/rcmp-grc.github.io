@@ -24,7 +24,7 @@ custom_css: /assets/css/careers.css
 </nav>
 <section id="s1">
   <h2>Program overview</h2>
-  <p>The Auxiliary Program was introduced in 1963 to enhance community policing and crime prevention initiatives. Auxiliaries volunteer their time to help keep our communities safe, while gaining meaningful experience working alongside RCMP employees. and the RCMP values these volunteers greatly and considers them a vital part of the organization. The program is divided into three tiers of service across provinces and territories. </p>
+  <p>The Auxiliary Program was introduced in 1963 to enhance community policing and crime prevention initiatives. Auxiliaries volunteer their time to help keep our communities safe, while gaining meaningful experience working alongside RCMP employees. The RCMP values these volunteers greatly and considers them a vital part of the organization. The program is divided into three tiers of service across provinces and territories. </p>
 </section>
 <section id="s2">
   <h2>Who can join</h2>
@@ -68,17 +68,29 @@ custom_css: /assets/css/careers.css
 <h3>Operational duties</h3>
 <dl>
   <dt>Tier&#160;1</dt>
-  <dd>Neighbourhood Watch programs, public education initiatives, non-enforcement support to operations, community fundraising events and participation in parades and public ceremonies.</dd>
-  <dd>Tier&#160;1 Auxiliaries will perform these activities under the general supervision of an RCMP employee and will not be given peace officer status.</dd>
-  <dd>Tier&#160;1 Auxiliaries are expected to contribute a minimum of 60&#160;hours per year to the program including training.</dd>
+  <dd>
+  <ul>
+    <li>Neighbourhood Watch programs, public education initiatives, non-enforcement support to operations, community fundraising events and participation in parades and public ceremonies.</li>
+    <li>Tier&#160;1 Auxiliaries will perform these activities under the general supervision of an RCMP employee and will not be given peace officer status.</li>
+    <li>Tier&#160;1 Auxiliaries are expected to contribute a minimum of 60&#160;hours per year to the program including training.</li>
+  </ul>
+  </dd>
   <dt>Tier&#160;2</dt>
-  <dd>Tier&#160;2 includes all of the activities listed in Tier&#160;1 with the addition of community presence via foot and bicycle, access and traffic control, and disaster assistance. Tier&#160;2 does not include operational patrols.</dd>
-  <dd>Tier&#160;2 Auxiliaries will be under the close supervision of an RCMP regular member.</dd>
-  <dd>Tier&#160;2 Auxiliaries are expected to contribute a minimum of 120&#160;hours per year to the program.</dd>
+  <dd>
+  <ul>
+    <li>Tier&#160;2 includes all of the activities listed in Tier&#160;1 with the addition of community presence via foot and bicycle, access and traffic control, and disaster assistance. Tier&#160;2 does not include operational patrols.</li>
+    <li>Tier&#160;2 Auxiliaries will be under the close supervision of an RCMP regular member.</li>
+    <li>Tier&#160;2 Auxiliaries are expected to contribute a minimum of 120&#160;hours per year to the program.</li>
+  </ul>
+  </dd>
   <dt>Tier&#160;3</dt>
-  <dd>Tier&#160;3 includes activities from Tier&#160;1 and Tier&#160;2 with the addition of general duty patrol, attending calls, check stops, scene security and searches of persons as directed by a Regular Member.</dd>
-  <dd>Auxiliaries under Tier&#160;3 will be under the direct supervision of an RCMP regular member.</dd>
-  <dd>Tier&#160;3 Auxiliaries are expected to contribute a minimum of 180&#160;hours per year to the program</dd>
+  <dd>
+  <ul>
+    <li>Tier&#160;3 includes activities from Tier&#160;1 and Tier&#160;2 with the addition of general duty patrol, attending calls, check stops, scene security and searches of persons as directed by a Regular Member.</li>
+    <li>Auxiliaries under Tier&#160;3 will be under the direct supervision of an RCMP regular member.</li>
+    <li>Tier&#160;3 Auxiliaries are expected to contribute a minimum of 180&#160;hours per year to the program.</li>
+  </ul>
+  </dd>
 </dl>
 <h3>Training</h3>
 <dl>

@@ -3,7 +3,7 @@ layout: careers
 title: Programme des auxiliaires 
 date_modified: 2026-07-13
 lang: fr
-lang_url: auxiliary-program-fr.html
+lang_url: auxiliary-program-en.html
 breadcrumbs:
   - label: "Carrières à la GRC"
     url: "careers-carrieres/fr.html"
@@ -24,7 +24,7 @@ custom_css: /assets/css/careers.css
 </nav>
 <section id="s1">
   <h2>Aperçu du programme </h2>
-  <p>Créé en 1963, le Programme des auxiliaires vise à appuyer les initiatives de police communautaire et de prévention du crime. Les auxiliaires offrent bénévolement de leur temps pour contribuer à assurer la sécurité des communautés tout en acquérant une expérience enrichissante aux côtés des employés de la GRC. La GRC accorde une grande valeur à l'apport de ces bénévoles et les considère comme une composante essentielle de l'organisation. Le programme est structuré en trois niveaux de service dans l'ensemble des provinces et des territoires.</p>
+  <p>Créé en 1963, le Programme des auxiliaires vise à appuyer les initiatives de police communautaire et de prévention du crime. Les auxiliaires offrent bénévolement de leur temps pour contribuer à assurer la sécurité des communautés tout en acquérant une expérience enrichissante aux côtés des employés de la GRC. La GRC accorde une grande valeur à l’apport de ces bénévoles et les considère comme une composante essentielle de l’organisation. Le programme est structuré en trois niveaux de service dans l’ensemble des provinces et des territoires.</p>
 </section>
 <section id="s2">
   <h2>Qui peut devenir auxiliaire </h2>
@@ -68,17 +68,29 @@ custom_css: /assets/css/careers.css
   <h3>Fonctions opérationnelles</h3>
   <dl>
     <dt>Niveau&#160;1</dt>
-    <dd>Programmes de surveillance, initiatives de sensibilisation à la sécurité publique, activités non répressives en soutien aux opérations, activités communautaires de financement et participation aux défilés et aux cérémonies publiques. </dd>
-    <dd>Les auxiliaires de niveau&#160;1 exerceront ces activités sous la supervision générale d'un employé de la GRC et n'auront pas le statut d'agent de la paix. </dd>
-    <dd>On s'attend à ce que les auxiliaires de niveau&#160;1 consacrent un minimum de 60&#160;heures par année au programme, ce qui comprend la formation. </dd>
+    <dd>
+    <ul>
+      <li>Programmes de surveillance, initiatives de sensibilisation à la sécurité publique, activités non répressives en soutien aux opérations, activités communautaires de financement et participation aux défilés et aux cérémonies publiques.</li>
+      <li>Les auxiliaires de niveau&#160;1 exerceront ces activités sous la supervision générale d'un employé de la GRC et n'auront pas le statut d'agent de la paix.</li>
+      <li>On s'attend à ce que les auxiliaires de niveau&#160;1 consacrent un minimum de 60&#160;heures par année au programme, ce qui comprend la formation. </li>
+    </ul>
+    </dd>
     <dt>Niveau&#160;2 </dt>
-    <dd>Les auxiliaires de niveau&#160;2 exercent toutes les activités prévues au niveau&#160;1 auxquelles s'ajoutent la présence dans la communauté (patrouilles à pied et à vélo), le contrôle d'accès et de la circulation et l'aide en cas de catastrophe. Ils ne font pas de patrouilles opérationnelles. </dd>
-    <dd>Les auxiliaires de niveau&#160;2 seront sous l'étroite supervision d'un membre régulier de la GRC. </dd>
-    <dd>On s'attend à ce que les auxiliaires de niveau&#160;2 consacrent un minimum de 120&#160;heures par année au programme.</dd>
+    <dd>
+    <ul>
+      <li>Les auxiliaires de niveau&#160;2 exercent toutes les activités prévues au niveau&#160;1 auxquelles s'ajoutent la présence dans la communauté (patrouilles à pied et à vélo), le contrôle d'accès et de la circulation et l'aide en cas de catastrophe. Ils ne font pas de patrouilles opérationnelles.</li>
+      <li>Les auxiliaires de niveau&#160;2 seront sous l'étroite supervision d'un membre régulier de la GRC.</li>
+      <li>On s'attend à ce que les auxiliaires de niveau&#160;2 consacrent un minimum de 120&#160;heures par année au programme.</li>
+    </ul>
+    </dd>
     <dt>Niveau&#160;3 </dt>
-    <dd>Les auxiliaires du niveau&#160;3 exercent les activités prévues aux niveaux&#160;1 et&#160;2 en plus d'intervenir à la suite d'appels et de participer aux patrouilles générales, aux contrôles routiers, à la sécurité des lieux de crime et aux fouilles sur des personnes, à la demande d'un membre régulier. </dd>
-    <dd>Les auxiliaires de niveau&#160;3 seront sous la supervision directe d'un membre régulier de la GRC. </dd>
-    <dd>On s'attend à ce que les auxiliaires de niveau&#160;3 consacrent un minimum de 180&#160;heures par année au programme.</dd>
+    <dd>
+    <ul>
+      <li>Les auxiliaires du niveau&#160;3 exercent les activités prévues aux niveaux&#160;1 et&#160;2 en plus d'intervenir à la suite d'appels et de participer aux patrouilles générales, aux contrôles routiers, à la sécurité des lieux de crime et aux fouilles sur des personnes, à la demande d'un membre régulier.</li>
+      <li>Les auxiliaires de niveau&#160;3 seront sous la supervision directe d'un membre régulier de la GRC.</li>
+      <li>On s'attend à ce que les auxiliaires de niveau&#160;3 consacrent un minimum de 180&#160;heures par année au programme.</li>
+    </ul>
+    </dd>
   </dl>
   <h3>Formation</h3>
   <dl>

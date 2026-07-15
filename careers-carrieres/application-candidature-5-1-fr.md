@@ -122,7 +122,7 @@ custom_css: /assets/css/careers.css
   <ul>
     <li>Diabète sucré</li>
     <li>Maladie thyroïdienne</li>
-    <li>Maladie de Cushing[</li>
+    <li>Maladie de Cushing</li>
     <li>Maladie d’Addison</li>
     <li>Phéochromocytome</li>
   </ul>

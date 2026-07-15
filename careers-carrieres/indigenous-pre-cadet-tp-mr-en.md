@@ -78,16 +78,16 @@ custom_css: /assets/css/careers.css
   <h2>Cost</h2>
   <p>The RCMP covers all program-related costs, including travel, uniforms, meals, and accommodations.</p>
 </section>
+
+
 <section id="s3">
   <h2>Candidate experiences</h2>
 
-  <div class="row wb-eqht wb-init">
+  <div class="row wb-eqht wb-init mrgn-bttm-md">
     <div class="col-md-6 mrgn-bttm-md">
-      <blockquote class="well">
+      <blockquote>
         <p>"There are other people just like us out here, from Indigenous communities - yes, we can be RCMP members."</p>
-        <footer>
-          <cite title="Anna V, Manitoba">Anna V, Manitoba
-        </footer>
+        <footer>Anna V, Manitoba</footer>
       </blockquote>
     </div>
     <div class="col-md-6 mrgn-bttm-md">
@@ -100,20 +100,16 @@ custom_css: /assets/css/careers.css
     </div>
   </div>
 
-  <blockquote class="well mrgn-tp-md mrgn-bttm-md">
+  <blockquote class="mrgn-bttm-md">
     <p>"If you ever have the opportunity, just do it - no questions asked. It will set you up for the future."</p>
-    <footer>
-      <cite title="John B, British Columbia">John B, British Columbia</cite>
-    </footer>
+    <footer>John B, British Columbia</footer>
   </blockquote>
 
-  <div class="row wb-eqht wb-init">
+  <div class="row wb-eqht wb-init mrgn-bttm-md">
     <div class="col-md-6 mrgn-bttm-md">
-      <blockquote class="well">
+      <blockquote>
         <p>"I hope to accomplish a better outlook on RCMP officers within not just my community but all across Canada."</p>
-        <footer>
-          <cite title="Keenan A, Alberta">Keenan A, Alberta</cite>
-        </footer>
+        <footer>Keenan A, Alberta</footer>
       </blockquote>
     </div>
     <div class="col-md-6 mrgn-bttm-md">
@@ -126,20 +122,16 @@ custom_css: /assets/css/careers.css
     </div>
   </div>
 
-  <blockquote class="well mrgn-tp-md mrgn-bttm-md">
+  <blockquote class="mrgn-bttm-md">
     <p>"It gives you really good insight into what the RCMP is and how they've changed over the years. It can help you push yourself because sometimes you don't realize what you are capable of until you put yourself in a situation that's uncomfortable."</p>
-    <footer>
-      <cite title="Kayla-Marie O, British Columbia">Kayla-Marie O, British Columbia</cite>
-    </footer>
+    <footer>Kayla-Marie O, British Columbia</footer>
   </blockquote>
 
   <div class="row wb-eqht wb-init">
     <div class="col-md-6 mrgn-bttm-md">
-      <blockquote class="well">
+      <blockquote>
         <p>"When people say it's a family - you take it with a grain of salt. But you don't realize how bonded everyone becomes with their own troop and just within each other. It is its own little community and I think it's awesome!"</p>
-        <footer>
-          <cite title="Jillian G, Alberta">Jillian G, Alberta</cite>
-        </footer>
+        <footer>Jillian G, Alberta</footer>
       </blockquote>
     </div>
     <div class="col-md-6 mrgn-bttm-md">
@@ -153,6 +145,8 @@ custom_css: /assets/css/careers.css
   </div>
 
 </section>
+
+
 <section id="s4">
   <h2>Learn how to apply</h2>
   <p>For more information or to learn how to apply, please email us at <a

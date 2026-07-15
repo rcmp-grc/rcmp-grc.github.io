@@ -21,7 +21,7 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-1-en.html">Submit an online application</a></li>
     <li><a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a>
       <ul class="noline"> 
-  <li><a class="active" href="application-candidature-2-1-en.html">RCMP Online Assessment Preparatory Guide</a></li>
+  <li><ahref="application-candidature-2-1-en.html">RCMP Online Assessment Preparatory Guide</a></li>
 </ul>
 </li>
     <li><a class="active" href="application-candidature-3-en.html">Submit the required forms and documents</a>

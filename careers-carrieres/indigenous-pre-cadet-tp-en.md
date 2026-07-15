@@ -101,7 +101,7 @@ custom_css: /assets/css/careers.css
   <div class="clearfix"></div>
 </div>
 <div class="wb-eqht wb-init">
-  <div class="col-md-4 mrgn-bttm-md">
+  <div class="col-md-8 mrgn-bttm-md">
   <blockquote>
     <p>"If you ever have the opportunity, just do it - no questions asked. It will set you up for the future."</p>
     <footer>
@@ -131,7 +131,7 @@ custom_css: /assets/css/careers.css
     <div class="clearfix"></div>
   </div>
   <div class="wb-eqht wb-init">
-    <div class="col-md-4 mrgn-bttm-md">
+    <div class="col-md-8 mrgn-bttm-md">
     <blockquote>
       <p>"It gives you really good insight into what the RCMP is and how they've changed over the years. It can help you
         push yourself because sometimes you don't realize what you are capable of until you put yourself in a situation

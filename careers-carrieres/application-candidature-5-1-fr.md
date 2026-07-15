@@ -39,100 +39,171 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 
+<nav aria-labelledby="on-this-page-heading">
+  <h2 id="on-this-page-heading">Sur cette page</h2>
+  <ul>
+    <li><a href="#s1">Troubles respiratoires</a></li>
+    <li><a href="#s2">Troubles cardiovasculaires</a></li>
+    <li><a href="#s3">Troubles neurologiques</a></li>
+    <li><a href="#s4">Troubles endocriniens</a></li>
+    <li><a href="#s5">Troubles musculosquelettiques</a></li>
+    <li><a href="#s6">Troubles abdominaux</a></li>
+    <li><a href="#s7">Troubles de l’œil ou de l’oreille</a></li>
+    <li><a href="#s8">Troubles hématologiques</a></li>
+    <li><a href="#s9">Troubles immunologiques, allergiques, oncologiques et infectieux</a></li>
+    <li><a href="#s10">Troubles psychologiques, psychiatriques ou de santé mentale</a></li>
+    <li><a href="#s11">Autres problèmes de santé</a></li>
+  </ul>
+</nav>
+
 <p>Certains problèmes de santé pourraient influer sur l’évaluation de votre aptitude sur le plan médical. Il est important de déclarer ces problèmes honnêtement.</p>
 <p>Vous devez déclarer&nbsp;:</p>
 <ul>
   <li>l'évaluation de l'aptitude psychologique (EAP)</li>
   <li>l'évaluation médicale (EM)</li>
 </ul>
-<p>Vous devrez franchir toutes les étapes de l'EAP et être jugé(e) apte sur le plan psychologique avant de pouvoir vous soumettre à l'EM.</p>
-<p>La GRC prendra en charge les coûts de ces deux&#160;évaluations.</p>
+
+<p>There are some health conditions that could impact your medical suitability assessment. It is important to declare these conditions openly and honestly.</p>
+<p>You are expected to declare the following:</p>
+<ul>
+  <li>all your current health conditions (even if they seem minor to you)
+    <ul>
+      <li>this includes any and all medical and psychological conditions</li>
+      <li>the dates you started experiencing these conditions, limitations or restrictions, treatment plans and the prognosis</li>
+    </ul>
+  </li>
+  <li>past medical and psychological history (include health conditions that required treatment or medication or that caused you any limitations or restrictions)
+    <ul>
+      <li>the dates you started experiencing these conditions, limitations and restrictions, treatment plans and the prognosis</li>
+    </ul>
+  </li>
+  <li>use of medications, supplements and substances (prescription and otherwise)
+    <ul>
+      <li>the dates you start using these and why</li>
+    </ul>
+  </li>
+  <li>any requirements for medical aids (for example, orthotics, braces, support animals) at the time of the medical assessment</li>
+</ul>
+<p>If you don't declare your full medical and psychological history, it could be seen as dishonest and may impact your success in the application process. It's also crucial to declare any health changes during the recruiting process before you start the Cadet Training Program at Depot, as well as any issues that may emerge during training.</p>
+<p>We recommend that you take the opportunity to self-assess based on known medical and psychological conditions that may affect your fitness for duty.</p>
+<p>Review a list of health conditions that could cause restrictions, limitations, or both, to your ability to perform essential police officer duties.</p>
 
 <section id="s1">
-  <h2>Normes en matière de santé physique et psychologique</h2>
-  <p>Les incidents exigeants sur le plan physique et psychique ne sont pas fréquents, mais quand ils surviennent, ils peuvent être intenses et dangereux.</p>
-  <p>Nos normes visent à s'assurer que les postulants sont en mesure de satisfaire aux exigences physiques et psychologiques que requièrent&#160;:</p>
+  <h2>Respiratory disease</h2>
   <ul>
-    <li>la formation policière</li>
-    <li>le métier policier</li>
+    <li>Asthma</li>
+    <li>Chronic obstructive pulmonary disease (COPD)</li>
+    <li>Emphysema</li>
   </ul>
-  <p>Il y a quatre fonctions essentielles du policier pour lesquelles les exigences en matière de santé doivent être satisfaites&#160;:</p>
+</section>
+
+<section id="s2">
+  <h2>Cardiovascular conditions</h2>
   <ul>
-    <li>la conduite d'une voiture de police</li>
-    <li>l'utilisation d'armes à feu et d'autre matériel d'intervention</li>
-    <li>la confrontation physique et le recours à la force</li>
-    <li>la prise de décisions opérationnelles</li>
+    <li>High blood pressure</li>
+    <li>Ischemic heart disease</li>
+    <li>Myocardial infarction</li>
+    <li>Cerebrovascular disease</li>
+    <li>Aortic aneurysm</li>
+    <li>Congestive heart failure</li>
+    <li>Cardiac arrhythmia, including use of pacemaker</li>
+    <li>Valvular heart disease</li>
+    <li>Cardiomyopathy</li>
+    <li>Peripheral vascular disease</li>
   </ul>
-  <section id="s1-1">
-    <h3>Évaluation de l'aptitude psychologique</h3>
-    <p>Cette évaluation permet de déterminer si vous possédez les qualités psychologiques nécessaires pour devenir policier ou policière.</p>
-    <p>Vous devrez remplir un questionnaire préalable à l'entrevue. Vous devrez y énumérer tout problème ou toute préoccupation d'ordre psychologique, passé ou présent, et fournir des renseignements supplémentaires sur votre état de santé. Toutes vos réponses doivent être complètes et exactes. Des lacunes importantes, des renseignements manquants ou inexacts pourraient entraîner le rejet de votre candidature. Ces renseignements seront versés à votre dossier médical.</p>
-    <p>Avant de commencer les tests, vous devrez signer un formulaire de consentement. En le signant, vous acceptez de ne pas avoir accès aux rapports, aux résultats des tests ni à la rétroaction découlant de votre évaluation de l'aptitude psychologique.</p>
-    <p>L'évaluation comprend&#160;:</p>
-    <ul>
-      <li>des tests psychologiques normalisés</li>
-      <li>une entrevue</li>
-      <li>un examen des renseignements complémentaires ou obtenus de tiers</li>
-    </ul>
-    <p>Les renseignements complémentaires peuvent comprendre des observations recueillies à d'autres étapes du processus de sélection de la GRC, comme l'entrevue d'admissibilité, le test polygraphique, la vérification des références, ainsi que les évaluations médicale et de sécurité. Ils peuvent également comprendre un examen des évaluations psychologiques ou neuropsychologiques antérieures que vous avez fournies à la GRC ou qui ont été effectuées lors de demandes d'emploi précédentes. L'équipe chargée de l'évaluation de l'aptitude examinera vos résultats et formulera une recommandation globale.</p>
-    <p>Même si vous n'avez aucun problème de santé mentale, l'évaluation de l'aptitude psychologique pourrait conclure que vous n'êtes pas apte, sur le plan psychologique, à occuper un poste de policier ou policière à la GRC. Le fait d'avoir déjà éprouvé des difficultés d'ordre psychologique n'entraîne pas automatiquement le rejet de votre candidature.</p>
-    <p>Si vous avez des antécédents de difficultés psychologiques, vous devrez peut-être fournir des documents démontrant&#160;:</p>
-    <ul>
-      <li>comment ces difficultés ont été résolues, ou</li>
-      <li>comment vous avez su bien fonctionner au fil du temps</li>
-    </ul>
-    <p>Ces renseignements nous aideront à évaluer votre aptitude à occuper ce poste.</p>
-  </section>
-  <section id="s1-2">
-    <h3>Évaluation médicale</h3>
-    <p>L'évaluation médicale permet de déterminer votre aptitude au travail. Vous passerez à cette étape après avoir réussi l'évaluation de l'aptitude psychologique. Tous les rapports et renseignements pertinents recueillis pendant l'évaluation psychologique seront pris en compte dans l'examen complet de votre dossier.</p>
-    <p>L'évaluation de votre aptitude au travail comprend&#160;:</p>
-    <ul>
-      <li>un examen de vos problèmes de santé physique et psychologique, passés et présents</li>
-      <li>leur incidence sur votre capacité à exercer les fonctions opérationnelles essentielles du métier de policier</li>
-    </ul>
-    <section id="s1-2-1">
-      <h4>Renseignements médicaux</h4>
-      <p>Les renseignements médicaux recueillis pendant votre évaluation médicale comprennent&#160;:</p>
-      <ul>
-        <li>vos antécédents médicaux cliniques</li>
-        <li>un examen physique</li>
-        <li>des analyses de laboratoire</li>
-      </ul>
-    </section>
-    <section id="s1-2-2">
-      <h4>Réalisation de l'évaluation de l'aptitude au travail</h4>
-      <p>Pour compléter votre évaluation de l'aptitude au travail, l'agent des services de santé de la GRC pourrait vous demander de fournir des renseignements supplémentaires de la part de votre fournisseur de soins de santé primaires ou d'un spécialiste, notamment&#160;:</p>
-      <ul>
-        <li>des copies de dossiers médicaux pertinents</li>
-        <li>des consultations avec des spécialistes</li>
-        <li>des tests ou examens supplémentaires afin de mieux comprendre tout problème de santé pouvant nuire à votre fonctionnement physique ou psychologique dans le cadre du travail policier</li>
-      </ul>
-      <p>Vous pourriez ne pas satisfaire aux exigences minimales en matière d'aptitude au travail si vous avez un problème de santé physique ou psychologique, un traitement, une limitation ou une restriction qui&#160;:</p>
-      <ul>
-        <li>nuit à votre rendement au point de vous empêcher d'exercer vos fonctions essentielles de façon sécuritaire et efficace</li>
-        <li>augmente les risques pour votre santé personnelle à un niveau inacceptable</li>
-        <li>augmente le risque d'incapacité soudaine ou d'un jugement affaibli</li>
-        <li>pourrait transmettre une maladie infectieuse à vos collègues ou au public</li>
-        <li>vous rend inadmissible à la conduite professionnelle selon les lignes directrices de l'Association médicale canadienne</li>
-      </ul>
-    </section>
-    <section id="s1-2-3">
-      <h4>Vaccination et statut relatif à la tuberculose</h4>
-      <p>Nous vous recommandons de recevoir les vaccins suivants et de subir un test de dépistage de la tuberculose avant de poser votre candidature. Vous devrez remettre le formulaire complet Dossier de vaccination et de test de dépistage de la tuberculose du postulant de la GRC avant de commencer la formation des cadets à la Division Dépôt.</p>
-      <p>Les vaccins suivants doivent être à jour chez l'adulte&#160;:</p>
-      <ul>
-        <li>tétanos, diphtérie et coqueluche (dcaT)</li>
-        <li>rougeole, oreillons et rubéole (RRO)</li>
-        <li>série de vaccins contre l'hépatite&#160;B</li>
-      </ul>
-      <p>Votre formulaire Dossier de vaccination et de test de dépistage de la tuberculose du postulant de la GRC devra également indiquer les résultats du test suivant&#160;:</p>
-      <ul>
-        <li>test cutané tuberculinique en deux étapes (test de Mantoux), incluant la date, les résultats en millimètres et la signature du professionnel ayant interprété les résultats. Ce test nécessite 4&#160;rendez-vous distincts.</li>
-        <li>radiographie pulmonaire (seulement si le test de Mantoux est positif, soit 10&#160;millimètres ou plus)</li>
-      </ul>
-    </section>
-  </section>
+</section>
+
+<section id="s3">
+  <h2>Neurological conditions</h2>
+  <ul>
+    <li>Seizure disorders and epilepsy (must be seizure free for at least 5&#160;years)</li>
+    <li>Narcolepsy</li>
+    <li>Sleep apnea and other disturbances of consciousness</li>
+    <li>Vestibular disorders</li>
+    <li>Multiple sclerosis</li>
+    <li>Disorders of coordination and muscle control</li>
+    <li>Head injury</li>
+    <li>Post traumatic conditions</li>
+    <li>Intracranial tumour</li>
+  </ul>
+</section>
+
+<section id="s4">
+  <h2>Endocrine conditions</h2>
+  <ul>
+    <li>Diabetes mellitus</li>
+    <li>Thyroid disease</li>
+    <li>Cushing's disease</li>
+    <li>Addison's disease</li>
+    <li>Pheochromocytoma</li>
+  </ul>
+</section>
+
+<section id="s5">
+  <h2>Musculoskeletal conditions</h2>
+  <ul>
+    <li>Rheumatoid arthritis and systemic lupus erythematosus</li>
+    <li>Disease of the spine</li>
+    <li>Significant joint dysfunction with unstable ligament or tear such as shoulder dislocation or ligamentous tears</li>
+    <li>Limb amputation</li>
+  </ul>
+</section>
+
+<section id="s6">
+  <h2>Abdominal conditions</h2>
+  <ul>
+    <li>Inflammatory bowel disease including Crohn's disease and ulcerative colitis</li>
+    <li>Irritable bowel syndrome</li>
+    <li>Kidney diseases such as kidney stone or kidney failure requiring dialysis</li>
+    <li>Disease of the liver such as cirrhosis</li>
+  </ul>
+</section>
+
+<section id="s7">
+  <h2>Eye or ear conditions</h2>
+  <ul>
+    <li>Ocular disorders associated with impaired visual function, including distant visual acuity, field of vision and colour vision</li>
+    <li>Hearing impairment such as hearing acuity, Meniere's disease and benign positional vertigo</li>
+  </ul>
+</section>
+
+<section id="s8">
+  <h2>Hematologic conditions</h2>
+  <ul>
+    <li>Bleeding disorders</li>
+    <li>Clotting disorders including deep vein thrombosis and pulmonary embolisms</li>
+    <li>The use of anti-coagulation medications may pose a risk to occupational policing and therefore may be disqualifying</li>
+  </ul>
+</section>
+
+<section id="s9">
+  <h2>Immunologic/allergic/oncologic and infectious conditions</h2>
+  <ul>
+    <li>Immune disorder with immunocompromised state</li>
+    <li>Cancer</li>
+    <li>Life threatening allergies</li>
+    <li>Chronic and/or life-threatening infectious disease</li>
+  </ul>
+</section>
+
+<section id="s10">
+  <h2>Psychological/psychiatric or mental health conditions</h2>
+  <ul>
+    <li>Mood (affective) disorders including depression, mania, bipolar disorder</li>
+    <li>Anxiety disorders including panic disorder, phobia</li>
+    <li>Stress related disorders including post-traumatic stress disorder</li>
+    <li>Psychotic disorders including schizophrenia and delusional disorder</li>
+    <li>Cognitive disorders including acquired brain injury and dementia</li>
+    <li>Personality disorders</li>
+    <li>Substance use and addictive disorders</li>
+    <li>ADHD (neurodevelopmental disorders including Attention Deficit Hyperactivity Disorder) and Autism Spectrum Disorder (ASD)</li>
+    <li>Other mental health disorders associated with significant distress or impairment in social, occupational or other areas of functioning, including somatoform disorder, and <abbr>OCD</abbr>abbr> (obsessive compulsive disorder)</li>
+  </ul>
+</section>
+
+<section id="s11">
+  <h2>Other health conditions</h2>
+  <p>There are also other chronic or medical conditions that could cause functional impairment and may interfere with your ability to perform policing duties. Unique conditions will be assessed to determine your suitability.</p>
 </section>
 
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">

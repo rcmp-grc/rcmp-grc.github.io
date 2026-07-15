@@ -6,7 +6,7 @@ lang: fr
 lang_url: topics-sujets-en.html
 breadcrumbs:
   - label: "Carrières à la GRC"
-    url: "careers-carrieres/careers-carrieres/fr.html"
+    url: "careers-carrieres/careers-carrieres-fr.html"
   - label: "Carrières policières"
     url: "careers-carrieres/officer-agent-fr.html"
 custom_css: /assets/css/careers.css

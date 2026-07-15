@@ -48,141 +48,58 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 
+<p>L’enquête sur les antécédents et l’évaluation de sécurité constituent l’étape finale du processus de candidature. La GRC enquêtera de façon approfondie sur vos antécédents, notamment sur vos activités au cours des 10&nbsp;dernières années, afin d’évaluer votre fiabilité et de déterminer votre admissibilité. Si l’enquête est concluante, une autorisation de sécurité vous sera accordée.</p>
+
 <section id="s1">
-  <h2>Troubles respiratoires</h2>
+  <h2>Processus d’autorisation de sécurité</h2>
+  <p>L’enquête porte sur les éléments suivants&nbsp;:</p>
   <ul>
-    <li>Asthme</li>
-    <li>Bronchopneumopathie chronique obstructive (BPCO)</li>
-    <li>Emphysème</li>
+    <li>les emplois antérieurs</li>
+    <li>les études</li>
+    <li>les références personnelles</li>
+    <li>la situation financière personnelle</li>
+    <li>la consommation de drogue et d’alcool</li>
+    <li>les activités en ligne</li>
+    <li>les activités criminelles</li>
+    <li>les fréquentations</li>
+    <li>l’intégrité</li>
+    <li>la conduite personnelle</li>
+    <li>la loyauté envers le Canada</li>
   </ul>
 </section>
 
 <section id="s2">
-  <h2>Troubles cardiovasculaires</h2>
+  <h2>Que faire si vous avez passé du temps à l’étranger[</h2>
+  <p>Si vous détenez la citoyenneté canadienne et que vous avez passé plus de six mois consécutifs à l’étranger au cours des dix dernières années, vous devrez fournir des renseignements sur vos activités pendant cette période</p>
+  <p>Dans certains cas, on pourrait vous demander de le faire même si vous avez passé moins de six mois consécutifs à l’étranger.</p>
+  <p>Voici des documents qui pourraient vous aider à attester de vos activités à l’étranger&nbsp;:</p>
   <ul>
-    <li>Hypertension artérielle</li>
-    <li>Cardiopathie ischémique</li>
-    <li>Infarctus du myocarde</li>
-    <li>Maladie cérébrovasculaire</li>
-    <li>Anévrisme de l’aorte</li>
-    <li>Insuffisance cardiaque congestive</li>
-    <li>Arythmie cardiaque (y compris l’utilisation d’un stimulateur cardiaque)</li>
-    <li>Cardiopathie valvulaire</li>
-    <li>Myocardiopathie</li>
-    <li>Maladie vasculaire périphérique</li>
+    <li>letters of reference or referral from foreign embassies and missions in Canada</li>
+    <li>lettres de recommandation ou de référence d’ambassades ou de missions étrangères au Canada</li>
+    <li>information liée à des filtrages de sécurité de pays avec lesquels le Canada a conclu des ententes d’échange de renseignements de sécurité</li>
+     <li>lettres ou certificats de police émis par des organismes d’application de la loi dans le ou les pays où vous avez résidé</li>
+    <li>sommaire de crédit d’institutions financières étrangères reconnues</li>
+    <li>lettres de recommandation d’universités ou d’établissements d’enseignement étrangers</li>
   </ul>
+  <p>Si vous avez séjourné à l’étranger dans le cadre de votre emploi au gouvernement du Canada ou dans les Forces armées canadiennes, vous n’aurez peut-être pas à fournir de renseignements sur vos activités</p>
 </section>
 
 <section id="s3">
-  <h2>Troubles neurologiques</h2>
-  <ul>
-    <li>Troubles convulsifs et épilepsie (vous ne devez pas avoir eu de crise depuis au moins cinq&nbsp;ans)</li>
-    <li>Narcolepsie</li>
-    <li>Apnée du sommeil et autres troubles de la conscience</li>
-    <li>Troubles vestibulaires</li>
-    <li>Sclérose en plaques</li>
-    <li>Troubles de la coordination et du contrôle musculaire</li>
-    <li>Traumatismes crâniens</li>
-    <li>Troubles post-traumatiques</li>
-    <li>Tumeurs intracrâniennes</li>
-  </ul>
-</section>
-
-<section id="s4">
-  <h2>Troubles endocriniens</h2>
-  <ul>
-    <li>Diabète sucré</li>
-    <li>Maladie thyroïdienne</li>
-    <li>Maladie de Cushing</li>
-    <li>Maladie d’Addison</li>
-    <li>Phéochromocytome</li>
-  </ul>
-</section>
-
-<section id="s5">
-  <h2>Troubles musculosquelettiques</h2>
-  <ul>
-    <li>Polyarthrite rhumatoïde et lupus érythémateux disséminé</li>
-    <li>Maladies de la colonne vertébrale</li>
-    <li>Dysfonctions articulaires importantes se caractérisant par une instabilité ou une déchirure ligamentaire (par exemple, dislocation de l’épaule)</li>
-    <li>Amputation d’un membre</li>
-  </ul>
-</section>
-
-<section id="s6">
-  <h2>Troubles abdominaux</h2>
-  <ul>
-    <li>Maladies intestinales inflammatoires, y compris la maladie de Crohn et la colite ulcéreuse</li>
-    <li>Syndrome du côlon irritable</li>
-    <li>Maladies du rein telles que les calculs rénaux ou l’insuffisance rénale nécessitant une dialyse</li>
-    <li>Maladies du foie comme la cirrhose</li>
-  </ul>
-</section>
-
-<section id="s7">
-  <h2>Troubles de l’œil ou de l’oreille</h2>
-  <ul>
-    <li>Troubles oculaires associés à une déficience visuelle, notamment de l’acuité visuelle de loin, du champ de vision et de la vision des couleurs</li>
-    <li>Troubles de l’oreille tels que la perte d’acuité auditive, la maladie de Ménière et le vertige positionnel paroxystique bénin</li>
-  </ul>
-</section>
-
-<section id="s8">
-  <h2>Troubles hématologiques</h2>
-  <ul>
-    <li>Troubles de saignement</li>
-    <li>Troubles de la coagulation tels que la thrombose veineuse profonde et l’embolie pulmonaire</li>
-    <li>L’utilisation d’anticoagulants peut présenter un risque pour l’exécution de fonctions policières opérationnelles et peut donc justifier le rejet de la candidature</li>
-  </ul>
-</section>
-
-<section id="s9">
-  <h2>Troubles immunologiques, allergiques, oncologiques et infectieux</h2>
-  <ul>
-    <li>Troubles immunitaires avec immunodépression</li>
-    <li>Cancer</li>
-    <li>Allergies mortelles</li>
-    <li>Maladies infectieuses chroniques ou mortelles</li>
-  </ul>
-</section>
-
-<section id="s10">
-  <h2>Troubles psychologiques, psychiatriques ou de santé mentale</h2>
-  <ul>
-    <li>Troubles de l’humeur (affectifs), y compris la dépression, la manie et le trouble bipolaire</li>
-    <li>Troubles anxieux, y compris le trouble panique et les phobies</li>
-    <li>Troubles liés au stress, y compris le trouble de stress post-traumatique</li>
-    <li>Troubles psychotiques, y compris la schizophrénie et le trouble délirant</li>
-    <li>Troubles cognitifs, y compris les lésions cérébrales acquises et la démence</li>
-    <li>Troubles de la personnalité</li>
-    <li>Troubles liés à la consommation d’une substance et troubles de dépendance</li>
-    <li>Troubles neurodéveloppementaux, y compris le trouble déficitaire de l’attention avec hyperactivité (TDAH) et le trouble du spectre de l’autisme (TSA)</li>
-    <li>Autres troubles de santé mentale associés à une détresse importante ou à une altération du fonctionnement social, professionnel ou autre, tels que les troubles somatoformes et le trouble obsessionnel-compulsif (TOC)</li>
-  </ul>
-</section>
-
-<section id="s11">
-  <h2>Autres problèmes de santé</h2>
-  <p>Tout autre problème de santé chronique susceptible d’entraîner une altération fonctionnelle et de nuire à votre capacité d’exercer des fonctions policières. Les problèmes de santé particuliers seront évalués pour déterminer votre admissibilité.</p>
+  <h2>Processus de candidature terminé</h2>
+  <p>Si vous avez terminé avec succès le processus de candidature, vous êtes prêt(e) à suivre le Programme de formation des cadets de la GRC à l’École de la GRC (Division&nbsp;Dépôt).</p>
+  <p>Que votre démarche vise à vous renseigner ou que vous ayez terminé le processus de candidature et que vous vous apprêtez à rejoindre la Division&nbsp;Dépôt, vous venez de faire un pas vers une carrière policière à la GRC</p>
+  <p>Vous vous demandez si vous êtes fait(e) pour une carrière dans la police?</p>
+  <p><a href="#" class="btn btn-careers mrgn-bttm-lg">Faites le test de préparation</a></p>
 </section>
 
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
   <div class="rcmp-content-page__previous" id="mp-previous-wrap">
-    <a aria-label="Étape précédente&#160;: Soumettez-vous à une évaluation médicale et une évaluation de l'aptitude psychologique" class="rcmp-content-page__link" href="application-candidature-5-fr.html" id="mp-previous">
+    <a aria-label="Étape précédente&#160;: Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière" class="rcmp-content-page__link" href="application-candidature-5-1-fr.html" id="mp-previous">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i>
         <span class="rcmp-content-page__link-title">Étape précédente</span>
       </span>
-      <span class="rcmp-content-page__link-label" id="mp-previous-label">Soumettez-vous à une évaluation médicale et une évaluation de l'aptitude psychologique</span>
-    </a>
-  </div>
-  <div class="rcmp-content-page__next" id="mp-next-wrap">
-    <a aria-label="Étape suivante&#160;: Passez une enquête sur les antécédents et une évaluation de sécurité" class="rcmp-content-page__link" href="application-candidature-6-fr.html" id="mp-next">
-      <span class="rcmp-content-page__title-row">
-        <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
-        <span class="rcmp-content-page__link-title">Étape suivante</span>
-      </span>
-      <span class="rcmp-content-page__link-label" id="mp-next-label">Passez une enquête sur les antécédents et une évaluation de sécurité</span>
+      <span class="rcmp-content-page__link-label" id="mp-previous-label">Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière</span>
     </a>
   </div>
 </nav>

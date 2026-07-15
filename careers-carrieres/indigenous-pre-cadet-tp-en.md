@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Indigenous Pre-Cadet Training Program
-date_modified: 2026-07-09
+date_modified: 2026-07-15
 lang: en
 lang_url: indigenous-pre-cadet-tp-fr.html
 breadcrumbs:
@@ -100,12 +100,16 @@ custom_css: /assets/css/careers.css
     </div>
   <div class="clearfix"></div>
 </div>
+<div class="wb-eqht wb-init">
+  <div class="col-md-4 mrgn-bttm-md">
   <blockquote>
     <p>"If you ever have the opportunity, just do it - no questions asked. It will set you up for the future."</p>
     <footer>
       John B, British Columbia
     </footer>
   </blockquote>
+  </div>
+</div>
   <div class="wb-eqht wb-init">
     <div class="col-md-4 mrgn-bttm-md">
       <blockquote>
@@ -126,6 +130,8 @@ custom_css: /assets/css/careers.css
       </div>
     <div class="clearfix"></div>
   </div>
+  <div class="wb-eqht wb-init">
+    <div class="col-md-4 mrgn-bttm-md">
     <blockquote>
       <p>"It gives you really good insight into what the RCMP is and how they've changed over the years. It can help you
         push yourself because sometimes you don't realize what you are capable of until you put yourself in a situation
@@ -134,6 +140,8 @@ custom_css: /assets/css/careers.css
         Kayla-Marie O, British Columbia
       </footer>
     </blockquote>
+    </div>
+  </div>
     <div class="wb-eqht wb-init">
       <div class="col-md-4 mrgn-bttm-md">
         <blockquote>

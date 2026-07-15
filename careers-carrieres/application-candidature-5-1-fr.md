@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: Soumettez-vous à une évaluation médicale et une évaluation de l'aptitude psychologique
+title: Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière
 date_modified: 2026-07-08
 lang: fr
 lang_url: application-candidature-5-1-en.html
@@ -19,7 +19,11 @@ custom_css: /assets/css/careers.css
   <h2>Processus de recrutement des policiers et policières</h2>
   <ul>
     <li><a href="application-candidature-1-fr.html">Posez votre candidature en ligne</a></li>
-    <li><a href="application-candidature-2-fr.html">Exposé sur les carrières et évaluation d'entrée en ligne</a></li>
+     <li><a href="application-candidature-2-fr.html">Exposé sur les carrières et évaluation d'entrée en ligne</a>
+      <ul class="noline">
+        <li><a href="application-candidature-2-1-fr.html">Évaluation en ligne de la GRC Guide Préparatoire</a></li>
+      </ul> 
+    </li>
     <li><a href="application-candidature-3-fr.html">Transmettez les formulaires et les documents requis</a>
       <ul class="noline">
         <li><a href="application-candidature-3-1-fr.html">Marche à suivre pour remplir les formulaires</a></li>
@@ -28,15 +32,15 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-4-fr.html">Passez une entrevue d'admissibilité</a></li>
     <li><a class="active" href="application-candidature-5-fr.html">Soumettez-vous à une évaluation médicale et une évaluation de l'aptitude psychologique</a>
       <ul class="noline">
-        <li><a href="application-candidature-5-1-fr.html">Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière</a></li>
+        <li><a class="active" href="application-candidature-5-1-fr.html">Problèmes de santé qui pourraient avoir une incidence sur votre aptitude à devenir policier ou policière</a></li>
       </ul>
     </li>
     <li><a href="application-candidature-6-fr.html">Passez une enquête sur les antécédents et une évaluation de sécurité</a></li>
   </ul>
 </nav>
 
-<p>Après avoir passé l'entrevue d'admissibilité, vous devrez rencontrer des médecins et des psychologues désignés par la GRC pour une évaluation de votre santé physique et psychologique. Si ces évaluations sont concluantes, vous recevrez votre certificat d'aptitude physique et psychologique.</p>
-<p>Cette partie du processus comporte deux volets distincts&#160;:</p>
+<p>Certains problèmes de santé pourraient influer sur l’évaluation de votre aptitude sur le plan médical. Il est important de déclarer ces problèmes honnêtement.</p>
+<p>Vous devez déclarer&nbsp;:</p>
 <ul>
   <li>l'évaluation de l'aptitude psychologique (EAP)</li>
   <li>l'évaluation médicale (EM)</li>

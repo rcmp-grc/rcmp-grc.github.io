@@ -71,7 +71,7 @@ custom_css: /assets/css/careers.css
 <section id="s2">
   <h2>Que faire si vous avez passé du temps à l’étranger</h2>
   <p>Si vous détenez la citoyenneté canadienne et que vous avez passé plus de six mois consécutifs à l’étranger au cours des dix dernières années, vous devrez fournir des renseignements sur vos activités pendant cette période</p>
-  <p>Dans certains cas, on pourrait vous demander de le faire même si vous avez passé moins de six mois consécutifs à l’étranger.</p>
+  <p>Dans certains cas, on pourrait vous demander de le faire même si vous avez passé moins de six&nbsp;mois consécutifs à l’étranger.</p>
   <p>Voici des documents qui pourraient vous aider à attester de vos activités à l’étranger&nbsp;:</p>
   <ul>
     <li>letters of reference or referral from foreign embassies and missions in Canada</li>

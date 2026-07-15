@@ -38,30 +38,29 @@ custom_css: /assets/css/careers.css
     </li>
   </ul>
 </nav>
-<div class="pull-right col-xs-12 col-md-3 col-lg-4 mrgn-tp-md">
-  <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
-    <figure>
-      <img alt="" class="img-responsive full-width" src="iptp-pfpa.jpg">
-      <figcaption>
-        Candidates working on drill with their instructors at the RCMP Academy in Regina, Saskatchewan, spring&#160;2022
-        session.
-      </figcaption>
-    </figure>
+<div class="row mrgn-tp-md">
+  <div class="col-md-8">
+    <p>The Indigenous Pre-Cadet Training Program (IPTP) is a three-week training session that offers Canadian Indigenous Peoples a first-hand opportunity to explore a career in policing. The training takes place at the RCMP Academy (Depot) in Regina, Saskatchewan.</p>
+    <p>Candidates will learn:</p>
+    <ul>
+      <li>How to work as part of a policing team</li>
+      <li>An introduction to the Criminal Code and RCMP policy</li>
+      <li>Physical fitness and drill</li>
+      <li>Skills to help prepare you to apply to be a police officer</li>
+    </ul>
+    <p>While at Depot, Indigenous RCMP police officers serve as mentors to the program participants. Upon completion of the program, those who chose to apply to join the RCMP will continue to receive support and guidance throughout the application process.</p>
+  </div>
+  <div class="col-md-4">
+    <div class="well">
+      <figure>
+        <img alt="" class="img-responsive full-width" src="iptp-pfpa.jpg">
+        <figcaption>
+          Candidates working on drill with their instructors at the RCMP Academy in Regina, Saskatchewan, spring&#160;2022 session.
+        </figcaption>
+      </figure>
+    </div>
   </div>
 </div>
-<p>The Indigenous Pre-Cadet Training Program (IPTP) is a three-week training session that offers Canadian Indigenous
-  Peoples a first-hand opportunity to explore a career in policing. The training takes place at the RCMP Academy (Depot)
-  in Regina, Saskatchewan. </p>
-<p>Candidates will learn:</p>
-<ul>
-  <li>How to work as part of a policing team</li>
-  <li>An introduction to the <cite>Criminal Code</cite> and RCMP policy</li>
-  <li>Physical fitness and drill</li>
-  <li>Skills to help prepare you to apply to be a police officer</li>
-</ul>
-<p>While at Depot, Indigenous RCMP police officers serve as mentors to the program participants. Upon completion of the
-  program, those who chose to apply to join the RCMP will continue to receive support and guidance throughout the
-  application process.</p>
 <section id="s1">
   <h2>Basic requirements</h2>
   <p>To apply you must:</p>
@@ -81,63 +80,56 @@ custom_css: /assets/css/careers.css
 
 <section id="s3">
   <h2>Candidate experiences</h2>
-
-  <div class="pull-right col-xs-12 col-md-3 col-lg-4 mrgn-tp-md mrgn-bttm-md">
-    <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
-      <figure>
-        <img alt="" class="img-responsive full-width" src="iptp-pfpa-1.jpg">
-        <figcaption>
-          Participants in the IPTP program attend classroom-based learning sessions as part of their training.
-        </figcaption>
-      </figure>
+  <div class="row">
+    <div class="col-md-8">
+      <blockquote class="mrgn-bttm-md">
+        <p>"There are other people just like us out here, from Indigenous communities - yes, we can be RCMP members."</p>
+        <footer>Anna V, Manitoba</footer>
+      </blockquote>
+      <blockquote class="mrgn-bttm-md">
+        <p>"If you ever have the opportunity, just do it - no questions asked. It will set you up for the future."</p>
+        <footer>John B, British Columbia</footer>
+      </blockquote>
+      <blockquote class="mrgn-bttm-md">
+        <p>"I hope to accomplish a better outlook on RCMP officers within not just my community but all across Canada."</p>
+        <footer>Keenan A, Alberta</footer>
+      </blockquote>
+      <blockquote class="mrgn-bttm-md">
+        <p>"It gives you really good insight into what the RCMP is and how they've changed over the years. It can help you push yourself because sometimes you don't realize what you are capable of until you put yourself in a situation that's uncomfortable."</p>
+        <footer>Kayla-Marie O, British Columbia</footer>
+      </blockquote>
+      <blockquote class="mrgn-bttm-md">
+        <p>"When people say it's a family - you take it with a grain of salt. But you don't realize how bonded everyone becomes with their own troop and just within each other. It is its own little community and I think it's awesome!"</p>
+        <footer>Jillian G, Alberta</footer>
+      </blockquote>
+    </div>
+    <div class="col-md-4">
+      <div class="well mrgn-bttm-md">
+        <figure>
+          <img alt="" class="img-responsive full-width" src="iptp-pfpa-1.jpg">
+          <figcaption>
+            Participants in the IPTP program attend classroom-based learning sessions as part of their training.
+          </figcaption>
+        </figure>
+      </div>
+      <div class="well mrgn-bttm-md">
+        <figure>
+          <img alt="" class="img-responsive full-width" src="iptp-pfpa-2.jpg">
+          <figcaption>
+            IPTP participants take part in structured exercises.
+          </figcaption>
+        </figure>
+      </div>
+      <div class="well mrgn-bttm-md">
+        <figure>
+          <img alt="" class="img-responsive full-width" src="iptp-pfpa-3.jpg">
+          <figcaption>
+            A participant takes part in physical training as part of their IPTP experience.
+          </figcaption>
+        </figure>
+      </div>
     </div>
   </div>
-  <blockquote class="mrgn-bttm-md">
-    <p>"There are other people just like us out here, from Indigenous communities - yes, we can be RCMP members."</p>
-    <footer>Anna V, Manitoba</footer>
-  </blockquote>
-
-  <blockquote class="mrgn-bttm-md">
-    <p>"If you ever have the opportunity, just do it - no questions asked. It will set you up for the future."</p>
-    <footer>John B, British Columbia</footer>
-  </blockquote>
-
-  <div class="pull-right col-xs-12 col-md-3 col-lg-4 mrgn-tp-md mrgn-bttm-md">
-    <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
-      <figure>
-        <img alt="" class="img-responsive full-width" src="iptp-pfpa-2.jpg">
-        <figcaption>
-          IPTP participants take part in structured exercises.
-        </figcaption>
-      </figure>
-    </div>
-  </div>
-  <blockquote class="mrgn-bttm-md">
-    <p>"I hope to accomplish a better outlook on RCMP officers within not just my community but all across Canada."</p>
-    <footer>Keenan A, Alberta</footer>
-  </blockquote>
-
-  <blockquote class="mrgn-bttm-md">
-    <p>"It gives you really good insight into what the RCMP is and how they've changed over the years. It can help you push yourself because sometimes you don't realize what you are capable of until you put yourself in a situation that's uncomfortable."</p>
-    <footer>Kayla-Marie O, British Columbia</footer>
-  </blockquote>
-
-  <div class="pull-right col-xs-12 col-md-3 col-lg-4 mrgn-tp-md mrgn-bttm-md">
-    <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
-      <figure>
-        <img alt="" class="img-responsive full-width" src="iptp-pfpa-3.jpg">
-        <figcaption>
-          A participant takes part in physical training as part of their IPTP experience.
-        </figcaption>
-      </figure>
-    </div>
-  </div>
-  <blockquote>
-    <p>"When people say it's a family - you take it with a grain of salt. But you don't realize how bonded everyone becomes with their own troop and just within each other. It is its own little community and I think it's awesome!"</p>
-    <footer>Jillian G, Alberta</footer>
-  </blockquote>
-
-  <div class="clearfix"></div>
 </section>
 
 <section id="s4">

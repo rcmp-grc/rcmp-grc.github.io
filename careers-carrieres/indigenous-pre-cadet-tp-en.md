@@ -14,7 +14,7 @@ custom_css: /assets/css/careers.css
 
 <section class="alert alert-info">
   <h2 class="h3">Note</h2>
-  <p>There are two Indigenous Pre-Cadet Training Program (IPTP) sessions scheduled for 2026:</p>
+  <p class="mrgn-tp-md">There are two Indigenous Pre-Cadet Training Program (IPTP) sessions scheduled for 2026:</p>
   <ul>
     <li>June&nbsp;24 to July&nbsp;14</li>
     <li>October&nbsp;7 to October&nbsp;27</li>

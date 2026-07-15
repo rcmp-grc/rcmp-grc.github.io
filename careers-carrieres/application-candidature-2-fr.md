@@ -100,12 +100,12 @@ custom_css: /assets/css/careers.css
     </a>
   </div>
   <div class="rcmp-content-page__next" id="mp-next-wrap">
-    <a aria-label="Étape suivante&#160;: Transmettez les formulaires et les documents requis" class="rcmp-content-page__link" href="application-candidature-3-fr.html" id="mp-next">
+    <a aria-label="Étape suivante&#160;: Évaluation en ligne de la GRC Guide Préparatoire" class="rcmp-content-page__link" href="application-candidature-3-fr.html" id="mp-next">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
         <span class="rcmp-content-page__link-title">Étape suivante</span>
       </span>
-      <span class="rcmp-content-page__link-label" id="mp-next-label">Transmettez les formulaires et les documents requis</span>
+      <span class="rcmp-content-page__link-label" id="mp-next-label">Évaluation en ligne de la GRC Guide Préparatoire</span>
     </a>
   </div>
 </nav>

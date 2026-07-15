@@ -19,7 +19,11 @@ custom_css: /assets/css/careers.css
   <h2>Processus de recrutement des policiers et policières</h2>
   <ul>
     <li><a href="application-candidature-1-fr.html">Posez votre candidature en ligne</a></li>
-    <li><a href="application-candidature-2-fr.html">Exposé sur les carrières et évaluation d'entrée en ligne</a></li>
+    <li><a href="application-candidature-2-fr.html">Exposé sur les carrières et évaluation d'entrée en ligne</a>
+      <ul class="noline">
+        <li><a href="application-candidature-2-1-fr.html">Évaluation en ligne de la GRC Guide Préparatoire</a></li>
+      </ul> 
+    </li>
     <li><a class="active" href="application-candidature-3-fr.html">Transmettez les formulaires et les documents requis</a>
       <ul class="noline">
         <li><a href="application-candidature-3-1-fr.html">Marche à suivre pour remplir les formulaires</a></li>

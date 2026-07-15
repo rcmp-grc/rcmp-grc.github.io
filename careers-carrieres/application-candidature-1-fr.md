@@ -42,7 +42,7 @@ custom_css: /assets/css/careers.css
 <section id="s1">
   <h2>Nouveaux candidats</h2>
   <p>Si vous présentez votre candidature pour la première fois, il est important de déterminer si vous avez ce qu'il faut pour devenir policier ou policière à la GRC.</p>
-  <p><a href="#">Faites le test de préparation</a>.</p>
+  <p><a href="#" class="btn btn-careers mrgn-bttm-lg">Faites le test de préparation</a></p>
   <p>Comprendre les exigences d'admission et le processus de candidature est la première étape à franchir pour entreprendre une carrière à la GRC.</p>
   <p>Les candidatures doivent être présentées dans le portail Emplois GC. Pour présenter la vôtre, vous devrez créer un compte sur Emplois GC.</p>
   <p>Vous devrez répondre à des questions de présélection destinées à déterminer si vous répondez aux <a href="#">exigences de base</a>. Assurez-vous de les lire attentivement et d'y répondre honnêtement, car vos réponses détermineront si vous passez à l'étape suivante du processus de recrutement.</p>

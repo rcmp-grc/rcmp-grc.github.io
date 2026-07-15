@@ -19,7 +19,11 @@ custom_css: /assets/css/careers.css
   <h2>Police officer application process</h2>
   <ul>
     <li><a href="application-candidature-1-en.html">Submit an online application</a></li>
-    <li><a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a></li>
+    <li><a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a>
+      <ul class="noline"> 
+  <li><a href="application-candidature-2-1-en.html">RCMP Online Assessment Preparatory Guide</a></li>
+</ul>
+</li>
     <li><a class="active" href="application-candidature-3-en.html">Submit the required forms and documents</a>
       <ul class="noline">
         <li><a href="application-candidature-3-1-en.html">How to complete the forms</a></li>
@@ -109,7 +113,7 @@ custom_css: /assets/css/careers.css
 
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page" style="display: block;">
   <div class="rcmp-content-page__prev" id="mp-prev-wrap" style="display: block;">
-    <a aria-label="Previous page: Online career presentation and entrance assessment" class="rcmp-content-page__link" href="application-candidature-2-en.html" id="mp-prev"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i> <span class="rcmp-content-page__link-title">Previous page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-prev-label">Online career presentation and entrance assessment</span></a>
+    <a aria-label="Previous page: RCMP Online Assessment Preparatory Guide" class="rcmp-content-page__link" href="application-candidature-2-1-en.html" id="mp-prev"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i> <span class="rcmp-content-page__link-title">Previous page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-prev-label">RCMP Online Assessment Preparatory Guide</span></a>
   </div>
   <div class="rcmp-content-page__next" id="mp-next-wrap" style="display: block;">
     <a aria-label="Next page: How to complete the forms" class="rcmp-content-page__link" href="application-candidature-3-1-en.html" id="mp-next"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i> <span class="rcmp-content-page__link-title">Next page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-next-label">How to complete the forms</span></a>

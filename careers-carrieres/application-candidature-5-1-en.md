@@ -19,7 +19,11 @@ custom_css: /assets/css/careers.css
   <h2>Police officer application process</h2>
   <ul>
     <li><a href="application-candidature-1-en.html">Submit an online application</a></li>
-    <li><a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a></li>
+    <li><a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a>
+<ul class="noline"> 
+  <li><a href="application-candidature-2-1-en.html">RCMP Online Assessment Preparatory Guide</a></li>
+</ul>
+</li>
     <li><a href="application-candidature-3-en.html">Submit the required forms and documents</a>
       <ul class="noline">
         <li><a href="application-candidature-3-1-en.html">How to complete the forms</a></li>
@@ -34,6 +38,7 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-6-en.html">Complete a field investigation and security assessment</a></li>
   </ul>
 </nav>
+
 
 <nav aria-labelledby="on-this-page-heading">
   <h2 id="on-this-page-heading">On this page</h2>
@@ -186,7 +191,7 @@ custom_css: /assets/css/careers.css
     <li>Personality disorders</li>
     <li>Substance use and addictive disorders</li>
     <li>ADHD (neurodevelopmental disorders including Attention Deficit Hyperactivity Disorder) and Autism Spectrum Disorder (ASD)</li>
-    <li>Other mental health disorders associated with significant distress or impairment in social, occupational or other areas of functioning, including somatoform disorder, and OCD (obsessive compulsive disorder)</li>
+    <li>Other mental health disorders associated with significant distress or impairment in social, occupational or other areas of functioning, including somatoform disorder, and <abbr>OCD</abbr>abbr> (obsessive compulsive disorder)</li>
   </ul>
 </section>
 

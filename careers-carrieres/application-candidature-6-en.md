@@ -19,7 +19,11 @@ custom_css: /assets/css/careers.css
   <h2>Police officer application process</h2>
   <ul>
     <li><a href="application-candidature-1-en.html">Submit an online application</a></li>
-    <li><a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a></li>
+    <li><a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a>
+    <ul class="noline"> 
+  <li><a href="application-candidature-2-1-en.html">RCMP Online Assessment Preparatory Guide</a></li>
+</ul>
+</li>
     <li><a href="application-candidature-3-en.html">Submit the required forms and documents</a>
       <ul class="noline">
         <li><a href="application-candidature-3-1-en.html">How to complete the forms</a></li>
@@ -67,7 +71,8 @@ custom_css: /assets/css/careers.css
 <section id="s2">
   <h2>What to do if you've been away from Canada</h2>
   <p>If you're a Canadian citizen and you've been outside of Canada for more than 6&#160;months in a row during the past 10&#160;years, you'll need to provide details of your activities during that time.</p>
-  <p>In some cases, we may ask you to provide details of your activities even if you've been outside of Canada for less than 6&#160;months. Examples of documents to help you provide details of your activities include:</p>
+  <p>In some cases, we may ask you to provide details of your activities even if you've been outside of Canada for less than 6&#160;months.</p>
+  <p>Examples of documents to help you provide details of your activities include:</p>
   <ul>
     <li>letters of reference or referral from foreign embassies and missions in Canada</li>
     <li>letters of reference or referral from Canadian embassies or missions in the country in which you lived while abroad</li>

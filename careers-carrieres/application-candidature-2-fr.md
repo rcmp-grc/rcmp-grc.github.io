@@ -19,7 +19,11 @@ custom_css: /assets/css/careers.css
   <h2>Processus de recrutement des policiers et policières</h2>
   <ul>
     <li><a href="application-candidature-1-fr.html">Posez votre candidature en ligne</a></li>
-    <li><a class="active" href="application-candidature-2-fr.html">Exposé sur les carrières et évaluation d'entrée en ligne</a></li>
+    <li><a class="active" href="application-candidature-2-fr.html">Exposé sur les carrières et évaluation d'entrée en ligne</a>
+   <ul class="noline">
+        <li><a href="application-candidature-2-1-fr.html">Évaluation en ligne de la GRC Guide Préparatoire</a></li>
+      </ul> 
+    </li>
     <li><a href="application-candidature-3-fr.html">Transmettez les formulaires et les documents requis</a>
       <ul class="noline">
         <li><a href="application-candidature-3-1-fr.html">Marche à suivre pour remplir les formulaires</a></li>
@@ -96,12 +100,12 @@ custom_css: /assets/css/careers.css
     </a>
   </div>
   <div class="rcmp-content-page__next" id="mp-next-wrap">
-    <a aria-label="Étape suivante&#160;: Transmettez les formulaires et les documents requis" class="rcmp-content-page__link" href="application-candidature-3-fr.html" id="mp-next">
+    <a aria-label="Étape suivante&#160;: Évaluation en ligne de la GRC Guide Préparatoire" class="rcmp-content-page__link" href="application-candidature-2-1-fr.html" id="mp-next">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
         <span class="rcmp-content-page__link-title">Étape suivante</span>
       </span>
-      <span class="rcmp-content-page__link-label" id="mp-next-label">Transmettez les formulaires et les documents requis</span>
+      <span class="rcmp-content-page__link-label" id="mp-next-label">Évaluation en ligne de la GRC Guide Préparatoire</span>
     </a>
   </div>
 </nav>

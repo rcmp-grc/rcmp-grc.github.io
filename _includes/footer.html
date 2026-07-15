@@ -105,33 +105,45 @@
 <script src="https://use.fontawesome.com/releases/v6.5.0/js/all.js" integrity="sha384-xJg9IXkLBF6DBCGIEmpH5d2Pzct5onYpW8EegteK+7n0rxjhN4PUzfPxGbpWVjQf" crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/releases/v6.5.0/js/v4-shims.js" integrity="sha384-/92mVmELKUSys+AjbeSvITO3rhI9KtDAENPjak7fYPIxTdmKqt1Z2WCbRbI8ybF2" crossorigin="anonymous"></script>
 <script>
-  (function () {
-    function addMailtoSubjects() {
-      var h1 = document.querySelector("h1");
-      if (!h1) return;
-      var subject = h1.textContent.trim().replace(/\s+/g, " ");
-      if (!subject) return;
+(function () {
+  function addMailtoSubjects() {
+    var h1 = document.querySelector("h1");
+    if (!h1) return;
 
-      var links = document.querySelectorAll('a[href^="mailto:"]');
-      Array.prototype.forEach.call(links, function (link) {
-        var href = link.getAttribute("href");
-        var parts = href.slice("mailto:".length).split("?");
-        var address = parts[0];
-        var params = parts[1] ? parts[1].split("&") : [];
+    var subject;
+    var hgroup = h1.closest ? h1.closest("hgroup") : null;
 
-        var hasSubject = params.some(function (p) {
-          return /^subject=/i.test(p);
-        });
-        if (hasSubject) return;
-
-        params.push("subject=" + encodeURIComponent(subject));
-        link.setAttribute("mailto:" + address + "?" + params.join("&") === href ? "data-noop" : "href",
-          "mailto:" + address + "?" + params.join("&"));
+    if (hgroup) {
+      var parts = [];
+      Array.prototype.forEach.call(hgroup.children, function (child) {
+        var text = child.textContent.trim().replace(/\s+/g, " ");
+        if (text) parts.push(text);
       });
+      subject = parts.join(" - ");
+    } else {
+      subject = h1.textContent.trim().replace(/\s+/g, " ");
     }
 
-    document.addEventListener("DOMContentLoaded", addMailtoSubjects);
-  })();
+    if (!subject) return;
+
+    var links = document.querySelectorAll('a[href^="mailto:"]');
+    Array.prototype.forEach.call(links, function (link) {
+      var href = link.getAttribute("href");
+      var parts = href.slice("mailto:".length).split("?");
+      var address = parts[0];
+      var params = parts[1] ? parts[1].split("&") : [];
+      var hasSubject = params.some(function (p) {
+        return /^subject=/i.test(p);
+      });
+      if (hasSubject) return;
+
+      params.push("subject=" + encodeURIComponent(subject));
+      link.setAttribute("href", "mailto:" + address + "?" + params.join("&"));
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", addMailtoSubjects);
+})();
 </script>
 {% if page.charts == true %}
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js" integrity="sha384-kdgUFNEbslNOEAQ/zFH9wjDORAbvN0KUYOpfJIJYPdjtzLXkZsMJAXU9HPpi5B5c" crossorigin="anonymous"></script>

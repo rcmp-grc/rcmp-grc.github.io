@@ -43,7 +43,7 @@ custom_css: /assets/css/careers.css
 
 <section id="s1">
   <h2>Required forms</h2>
-  <ul class="gc-link-list" role="list">
+  <ul class="gc-link-list">
     <li>
       <a href="6509e.pdf" class="gc-pdf-link" download>
         <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>

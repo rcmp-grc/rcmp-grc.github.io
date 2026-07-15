@@ -63,11 +63,6 @@ custom_css: /assets/css/careers.css
   <ul>
   <li>tout problème de santé physique et psychologique</li>
   <li>la date à laquelle les problèmes ont commencé, les limitations et restrictions qui y sont liées, le plan de traitement et le pronostic</li></ul></li>
- <li>past medical and psychological history (include health conditions that required treatment or medication or that caused you any limitations or restrictions)
-    <ul>
-      <li>the dates you started experiencing these conditions, limitations and restrictions, treatment plans and the prognosis</li>
-    </ul>
-  </li>
   <li>vos antécédents de santé physique et psychologique (précisez tout problème de santé pour lequel un traitement ou des médicaments étaient prescrits ou qui ont donné lieu à des limitations et à des restrictions), y compris&nbsp;:
     <ul>
       <li>la date à laquelle le problème a commencé, les limitations et restrictions qui y sont liées, le plan de traitement et le pronostic;</li>

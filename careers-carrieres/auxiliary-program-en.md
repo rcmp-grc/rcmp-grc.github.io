@@ -78,7 +78,8 @@ custom_css: /assets/css/careers.css
   <dt>Tier&#160;2</dt>
   <dd>
   <ul>
-    <li>Tier&#160;2 includes all of the activities listed in Tier&#160;1 with the addition of community presence via foot and bicycle, access and traffic control, and disaster assistance. Tier&#160;2 does not include operational patrols.</li>
+    <li>Tier&#160;2 includes all of the activities listed in Tier&#160;1 with the addition of community presence via foot and bicycle, access and traffic control, and disaster assistance.</li>
+    <li>Tier&#160;2 does not include operational patrols.</li>
     <li>Tier&#160;2 Auxiliaries will be under the close supervision of an RCMP regular member.</li>
     <li>Tier&#160;2 Auxiliaries are expected to contribute a minimum of 120&#160;hours per year to the program.</li>
   </ul>

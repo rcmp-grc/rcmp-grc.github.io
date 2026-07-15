@@ -78,7 +78,8 @@ custom_css: /assets/css/careers.css
     <dt>Niveau&#160;2 </dt>
     <dd>
     <ul>
-      <li>Les auxiliaires de niveau&#160;2 exercent toutes les activités prévues au niveau&#160;1 auxquelles s'ajoutent la présence dans la communauté (patrouilles à pied et à vélo), le contrôle d'accès et de la circulation et l'aide en cas de catastrophe. Ils ne font pas de patrouilles opérationnelles.</li>
+      <li>Les auxiliaires de niveau&#160;2 exercent toutes les activités prévues au niveau&#160;1 auxquelles s'ajoutent la présence dans la communauté (patrouilles à pied et à vélo), le contrôle d'accès et de la circulation et l'aide en cas de catastrophe.</li>
+      <li>Les auxiliaires de niveau&#160;2 ne font pas de patrouilles opérationnelles.</li>
       <li>Les auxiliaires de niveau&#160;2 seront sous l'étroite supervision d'un membre régulier de la GRC.</li>
       <li>On s'attend à ce que les auxiliaires de niveau&#160;2 consacrent un minimum de 120&#160;heures par année au programme.</li>
     </ul>

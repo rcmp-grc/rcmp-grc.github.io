@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: Passez une enquête sur les antécédents et une évaluation de sécurité[
+title: Passez une enquête sur les antécédents et une évaluation de sécurité
 date_modified: 2026-07-08
 lang: fr
 lang_url: application-candidature-6-en.html

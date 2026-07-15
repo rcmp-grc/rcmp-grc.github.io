@@ -19,7 +19,11 @@ custom_css: /assets/css/careers.css
   <h2>Police officer application process</h2>
   <ul>
     <li><a class="active" href="application-candidature-1-en.html">Submit an online application</a></li>
-    <li><a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a></li>
+    <li><a href="application-candidature-2-en.html">Online career presentation and entrance assessment</a>
+      <ul class="noline"> 
+  <li><a class="active" href="application-candidature-2-1-en.html">RCMP Online Assessment Preparatory Guide</a></li>
+</ul>
+</li>
     <li><a href="application-candidature-3-en.html">Submit the required forms and documents</a>
       <ul class="noline">
         <li><a href="application-candidature-3-1-en.html">How to complete the forms</a></li>

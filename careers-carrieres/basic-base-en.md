@@ -26,7 +26,7 @@ custom_css: /assets/css/careers.css
     <li><a href="#s2">What people are saying</a></li>
     <li><a href="#s3">Watch the video</a></li>
     <li><a href="#s4">Image gallery</a></li>
-    <li><a href="#s5">Frequently asked questions</a></li>
+    <li><a href="#s5">Questions and answers</a></li>
     <li><a href="#s6">Program details</a></li>
     <li><a href="#s7">Related links</a></li>
   </ul>
@@ -131,55 +131,55 @@ custom_css: /assets/css/careers.css
   <h2>Image gallery</h2>
   <ul class="list-inline">
     <li>
-      <a href="https://picsum.photos/seed/picsum/480/300?random=1" title="Lorem ipsum">
-        <img alt="Lorem ipsum" src="https://picsum.photos/seed/picsum/175?random=1">
+      <a href="https://picsum.photos/480/300?random=1" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=1">
       </a>
     </li>
     <li>
-      <a href="https://picsum.photos/seed/picsum/480/300?random=2" title="Lorem ipsum">
-        <img alt="Lorem ipsum" src="https://picsum.photos/seed/picsum/175?random=2">
+      <a href="https://picsum.photos/480/300?random=2" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=2">
       </a>
     </li>
     <li>
-      <a href="https://picsum.photos/seed/picsum/480/300?random=3" title="Lorem ipsum">
-        <img alt="Lorem ipsum" src="https://picsum.photos/seed/picsum/175?random=3">
+      <a href="https://picsum.photos/480/300?random=3" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=3">
       </a>
     </li>
     <li>
-      <a href="https://picsum.photos/seed/picsum/480/300?random=4" title="Lorem ipsum">
-        <img alt="Lorem ipsum" src="https://picsum.photos/seed/picsum/175?random=4">
+      <a href="https://picsum.photos/480/300?random=4" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=4">
       </a>
     </li>
     <li>
-      <a href="https://picsum.photos/seed/picsum/480/300?random=5" title="Lorem ipsum">
-        <img alt="Lorem ipsum" src="https://picsum.photos/seed/picsum/175?random=5">
+      <a href="https://picsum.photos/480/300?random=5" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=5">
       </a>
     </li>
     <li>
-      <a href="https://picsum.photos/seed/picsum/480/300?random=6" title="Lorem ipsum">
-        <img alt="Lorem ipsum" src="https://picsum.photos/seed/picsum/175?random=6">
+      <a href="https://picsum.photos/480/300?random=6" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=6">
       </a>
     </li>
     <li>
-      <a href="https://picsum.photos/seed/picsum/480/300?random=7" title="Lorem ipsum">
-        <img alt="Lorem ipsum" src="https://picsum.photos/seed/picsum/175?random=7">
+      <a href="https://picsum.photos/480/300?random=7" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=7">
       </a>
     </li>
     <li>
-      <a href="https://picsum.photos/seed/picsum/480/300?random=8" title="Lorem ipsum">
-        <img alt="Lorem ipsum" src="https://picsum.photos/seed/picsum/175?random=8">
+      <a href="https://picsum.photos/480/300?random=8" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=8">
       </a>
     </li>
     <li>
-      <a href="https://picsum.photos/seed/picsum/480/300?random=9" title="Lorem ipsum">
-        <img alt="Lorem ipsum" src="https://picsum.photos/seed/picsum/175?random=9">
+      <a href="https://picsum.photos/480/300?random=9" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=9">
       </a>
     </li>
   </ul>
 </section>
 
 <section id="s5">
-  <h2>Frequently asked questions</h2>
+  <h2>Questions and answers</h2>
   <details class="wb-accordion">
     <summary>Lorem ipsum dolor sit amet?</summary>
     <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

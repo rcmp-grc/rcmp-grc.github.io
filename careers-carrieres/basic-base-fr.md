@@ -12,113 +12,230 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<section class="alert alert-info">
-  <h2 class="h3">Note</h2>
-  <p>Deux sessions du Programme de formation des précadets autochtones (PFPA) sont prévues en&#160;2026&#160;:</p>
-  <ul>
-    <li>Du 24&#160;juin au 14&#160;juillet</li>
-    <li>Du 7&#160;au 27&#160;octobre</li>
-  </ul>
-  <p>Posez votre candidature aujourd'hui!</p>
+<section class="alert alert-info" role="note">
+  <h2 class="h3">Remarque</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua!</p>
 </section>
+ 
 <nav aria-labelledby="on-this-page">
   <h2 id="on-this-page">Sur cette page</h2>
   <ul>
-    <li><a href="#s1">Exigences fondamentales</a></li>
-    <li><a href="#s2">Coûts</a></li>
-    <li><a href="#s3">Expériences de participants</a></li>
-    <li><a href="#s4">Comment poser votre candidature</a></li>
+    <li><a href="#s1">Admissibilité Lorem</a></li>
+    <li><a href="#s2">Ce que les gens en disent</a></li>
+    <li><a href="#s3">Regarder la vidéo</a></li>
+    <li><a href="#s4">Galerie d'images</a></li>
+    <li><a href="#s5">Questions et réponses</a></li>
+    <li><a href="#s6">Détails du programme</a></li>
+    <li><a href="#s7">Liens connexes</a></li>
   </ul>
 </nav>
-<div class="pull-right col-xs-12 col-md-3 col-lg-4">
-  <div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
-    <figure>
-      <img alt="" class="img-responsive full-width" src="iptp-pfpa.jpg">
-      <figcaption>
-        Participants faisant des exercices avec leurs instructeurs à l'École de la GRC à Regina, en Saskatchewan, session du printemps&#160;2022.
-      </figcaption>
-    </figure>
-  </div>
-</div>
-<p class="mrgn-tp-lg">Le Programme de formation des précadets autochtones est une formation de trois&#160;semaines offrant aux Autochtones canadiens la possibilité de découvrir la carrière de policier. La formation a lieu à l'École de la GRC (Division&#160;Dépôt) à Regina&#160;(Saskatchewan).</p>
-<p>Vous apprendrez&#160;:</p>
+ 
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+ <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Les candidats et candidates apprendront&#160;:</p>
 <ul>
-  <li>comment travailler dans une équipe policière;</li>
-  <li>des notions élémentaires sur le <cite>Code criminel</cite> et les politiques de la GRC;</li>
-  <li>des éléments de conditionnement physique et d'exercice;</li>
-  <li>des compétences qui vous aideront à vous préparer à poser votre candidature pour devenir policier ou policière.</li>
+  <li>Excepteur sint occaecat cupidatat non proident</li>
+  <li>Sunt in culpa qui officia deserunt mollit anim</li>
+  <li>Id est laborum et dolorum fuga sed ut perspiciatis</li>
+  <li>Unde omnis iste natus error sit voluptatem</li>
 </ul>
-<p>À la Division&#160;Dépôt, les policiers autochtones de la GRC servent de mentors aux participants au programme. À la fin du programme, les personnes qui ont choisi de postuler à la GRC continueront de recevoir du soutien et des conseils tout au long du processus de demande.</p>
+ <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+ 
 <section id="s1">
-  <h2>Exigences fondamentales</h2>
-  <p>Pour pouvoir poser votre candidature, vous devez&#160;:</p>
+  <h2>Admissibilité Lorem</h2>
+  <p>Pour présenter une demande, vous devez répondre aux critères lorem ipsum suivants&#160;:</p>
   <ul>
-    <li>être de descendance des Premières&#160;Nations, métisse ou inuite;</li>
-    <li>avoir au moins 19&#160;ans;</li>
-    <li>avoir la citoyenneté&#160;canadienne;</li>
-    <li>être en mesure de satisfaire aux exigences d'une enquête de sécurité au niveau de fiabilité approfondie;</li>
-    <li>être en bonne forme physique;</li>
-    <li>avoir un diplôme d'études secondaires décerné au Canada (ou l'équivalent) au moment de participer au programme.</li>
+    <li>Nemo enim ipsam voluptatem quia voluptas sit</li>
+    <li>Neque porro quisquam est, qui dolorem ipsum</li>
+    <li>Ut labore et dolore magnam aliquam quaerat</li>
+    <li>Quis autem vel eum iure reprehenderit</li>
+    <li>Être en bonne condition lorem-ipsum</li>
   </ul>
 </section>
+ 
 <section id="s2">
-  <h2>Coûts</h2>
-  <p>Les coûts du Programme sont couverts en totalité par la GRC, y compris les déplacements, l'uniforme, les repas et l'hébergement.</p>
+  <h2>Ce que les gens en disent</h2>
+  <blockquote>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit — c'est le meilleur choix que j'aie fait.</p>
+    <footer><cite>Jordan Lorem, Ipsumville</cite></footer>
+  </blockquote>
+  <blockquote>
+    <p>Je n'étais pas certain au départ, mais sed do eiusmod tempor incididunt a complètement changé ma perspective.</p>
+    <footer><cite>Casey Dolor, Sitamet</cite></footer>
+  </blockquote>
+  <blockquote>
+    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris — j'ai hâte de voir ce qui s'en vient.</p>
+    <footer><cite>Riley Consectetur, Adipiscing</cite></footer>
+  </blockquote>
 </section>
+
 <section id="s3">
-  <h2>Expériences de participants</h2>
-  <blockquote>
-    <p>«&#160;Il y a d'autres personnes comme nous ici, issues de communautés autochtones – oui, nous pouvons être membres de la GRC.&#160;»</p>
-    <footer>Anna V, Manitoba</footer>
-  </blockquote>
-  <blockquote>
-    <p>«&#160;Si jamais vous en avez l'occasion, faites-le sans hésiter. Cela vous ouvrira des portes pour l'avenir.&#160;»</p>
-    <footer>John B, Colombie-Britannique</footer>
-  </blockquote>
-  <div class="wb-eqht wb-init">
-    <div class="col-md-4 mrgn-bttm-md">
-      <figure>
-        <img alt="" class="img-responsive center-block" src="iptp-pfpa-1.jpg">
-        <figcaption>
-          Des participants au programme PFPA assistent à des séances de formation en salle de classe.
-        </figcaption>
-      </figure>
-    </div>
-    <div class="col-md-4 mrgn-bttm-md">
-      <figure>
-        <img alt="" class="img-responsive center-block" src="iptp-pfpa-2.jpg">
-        <figcaption>
-          Des participants au programme PFPA prennent part à des exercices structurés.
-        </figcaption>
-      </figure>
-    </div>
-  </div>
-  <div class="clearfix"></div>
-  <blockquote>
-    <p>«&#160;J'espère contribuer à une meilleure perception des agents de la GRC, non seulement dans ma communauté, mais aussi partout au Canada.&#160;»</p>
-    <footer>Keenan A, Alberta</footer>
-  </blockquote>
-  <blockquote>
-    <p>«&#160;Cela vous donne un très bon aperçu de ce qu'est la GRC et de la façon dont elle a changé au fil des ans. Cela peut aider à se dépasser, car parfois, on ne réalise pas de quoi on est capable tant qu'on ne sort pas de sa zone de confort.&#160;»</p>
-    <footer>Kayla-Marie O, Colombie-Britannique</footer>
-  </blockquote>
-  <div class="wb-eqht wb-init">
-    <div class="col-md-4 mrgn-bttm-md">
-      <figure>
-        <img alt="" class="img-responsive center-block" src="iptp-pfpa-3.jpg">
-        <figcaption>
-          Un participant participe à un entraînement physique dans le cadre de son expérience du PFPA.
-        </figcaption>
-      </figure>
-    </div>
-  </div>
-  <div class="clearfix"></div>
-  <blockquote>
-    <p>«&#160;Quand les gens disent que c'est une famille, on prend ça avec un&#160;grain de sel. Mais on ne réalise pas à quel point tout le monde devient lié avec sa propre troupe et juste les uns avec les autres. C'est une&#160;petite communauté à part entière et je pense que c'est génial!&#160;»</p>
-    <footer>Jillian G, Alberta</footer>
-  </blockquote>
+  <h2>Regarder la vidéo</h2>
+  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+  <figure class="wb-mltmd">
+    <video title="Test de condition physique pour les policiers de la GRC">
+      <source type="video/youtube" src="https://www.youtube.com/watch?v=ckcZ1Bm05O8">
+    </video>
+    <figcaption>
+      <div class="accordion">
+        <details class="acc-group">
+          <summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>
+            Transcription - Test de condition physique pour les policiers de la <abbr title="Gendarmerie royale du Canada">GRC</abbr>
+          </summary>
+          <div class="tgl-panel">
+            <p>Musique entraînante &#9835;</p>
+            <p>[Des policiers effectuent le Test de conditionnement physique pour les policiers.]</p>
+            <p>Test de condition physique pour les policiers</p>
+            <p>[Une policière court après un client.]</p>
+            <p>Poursuite à pied</p>
+            <p>[Un policier court dans un gymnase.]</p>
+            <p>Course de 500 mètres</p>
+            <p>[Une policière court après un homme qui escalade une clôture à mailles losangées.]</p>
+            <p>Escalade de clôture (1 fois)</p>
+            <p>[Des policiers franchissent une clôture à l'extérieur et dans un gymnase.]</p>
+            <p>Aide d'urgence</p>
+            <p>[Un policier vérifie l'état d'une personne étendue dans l'herbe.]</p>
+            <p>Norme d'excellence, charger 15 objets dans un camion</p>
+            <p>[Une policière charge de grosses cruches d'eau sur une table.]</p>
+            <p>Norme «&#160;Terrain&#160;», toucher un mur à l'aide de 15 objets</p>
+            <p>[Des policiers soulèvent des sacs de sable et touchent le mur d'un gymnase avec.]</p>
+            <p>Transport d'une charge sur 50 mètres (3 fois)</p>
+            <p>[Un homme soulève de terre une charge et transporte des sacs de sable à travers le gymnase.]</p>
+            <p>Appel prioritaire</p>
+            <p>[Un policier monte des escaliers en courant.]</p>
+            <p>Course de 150 mètres</p>
+            <p>[Une policière court dans un gymnase.]</p>
+            <p>2 volées d'escaliers</p>
+            <p>[Des policiers montent des escaliers en courant.]</p>
+            <p>Norme d'excellence, poussée et traction du traîneau</p>
+            <p>[Des policiers tirent des traîneaux d'entraînement sur une ligne en zigzag dans un gymnase. Un policier attrape un homme et le tire.]</p>
+            <p>Norme d'excellence, amené au sol d'un mannequin lesté</p>
+            <p>[Un policier amène un mannequin au sol sur un tapis dans le gymnase.]</p>
+            <p>Norme «&#160;Terrain&#160;», lancer du ballon d'exercice</p>
+            <p>[Une femme assise dans un gymnase lance un ballon d'exercice. Un policier amène un mannequin au sol dans le gymnase. Un policier tire un traîneau d'entraînement sur une ligne en zigzag. Un policier franchit une clôture. Une femme lance un ballon d'exercice contre un mur. Un policier monte des escaliers en courant avec une arme à feu.]</p>
+            <p>Test de condition physique pour les policiers</p>
+            <p>
+              Gendarmerie royale du Canada / <i lang="en">Royal Canadian Mounted Police</i><br>
+              &copy; Sa Majesté le Roi du chef du Canada, représenté par la Gendarmerie royale du Canada, 2024.
+            </p>
+            <p>Mot-symbole «&#160;Canada&#160;»</p>
+          </div>
+        </details>
+      </div>
+    </figcaption>
+  </figure>
 </section>
-<section id="s4">
-  <h2>Comment poser votre candidature</h2>
-  <p>Pour obtenir plus d'information ou savoir comment poser votre candidature, envoyez un courriel à l'adresse <a href="mailto:iptp-pfpa@rcmp-grc.gc.ca">iptp-pfpa@rcmp-grc.gc.ca</a>.</p>
+
+<section class="wb-lbx lbx-gal" id="s4">
+  <h2>Galerie d'images</h2>
+  <ul class="list-inline">
+    <li>
+      <a href="https://picsum.photos/480/300?random=1" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=1">
+      </a>
+    </li>
+    <li>
+      <a href="https://picsum.photos/480/300?random=2" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=2">
+      </a>
+    </li>
+    <li>
+      <a href="https://picsum.photos/480/300?random=3" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=3">
+      </a>
+    </li>
+    <li>
+      <a href="https://picsum.photos/480/300?random=4" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=4">
+      </a>
+    </li>
+    <li>
+      <a href="https://picsum.photos/480/300?random=5" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=5">
+      </a>
+    </li>
+    <li>
+      <a href="https://picsum.photos/480/300?random=6" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=6">
+      </a>
+    </li>
+    <li>
+      <a href="https://picsum.photos/480/300?random=7" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=7">
+      </a>
+    </li>
+    <li>
+      <a href="https://picsum.photos/480/300?random=8" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=8">
+      </a>
+    </li>
+    <li>
+      <a href="https://picsum.photos/480/300?random=9" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=9">
+      </a>
+    </li>
+  </ul>
+</section>
+
+<section id="s5">
+  <h2>Questions et réponses</h2>
+  <details class="wb-accordion">
+    <summary>Lorem ipsum dolor sit amet&#160;?</summary>
+    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </details>
+  <details class="wb-accordion">
+    <summary>Ut enim ad minim veniam&#160;?</summary>
+    <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </details>
+  <details class="wb-accordion">
+    <summary>Duis aute irure dolor&#160;?</summary>
+    <p>In reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+  </details>
+</section>
+ 
+<section id="s6">
+  <h2>Détails du programme</h2>
+  <table class="wb-tables table table-striped">
+    <caption>Calendrier des séances lorem ipsum</caption>
+    <thead>
+      <tr>
+        <th scope="col">Séance</th>
+        <th scope="col">Lieu</th>
+        <th scope="col">Durée</th>
+        <th scope="col">Statut</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Séance Lorem A</td>
+        <td>Ipsumville</td>
+        <td>3 semaines</td>
+        <td>Ouverte</td>
+      </tr>
+      <tr>
+        <td>Séance Dolor B</td>
+        <td>Sitametown</td>
+        <td>3 semaines</td>
+        <td>Liste d'attente</td>
+      </tr>
+      <tr>
+        <td>Séance Consectetur C</td>
+        <td>Adipiscing City</td>
+        <td>4 semaines</td>
+        <td>Fermée</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+ 
+<section>
+  <h2>Coordonnées</h2>
+  <p>Pour obtenir plus de renseignements lorem ipsum, veuillez nous écrire à <a href="mailto:lorem-ipsum@example.ca">lorem-ipsum@example.ca</a>.</p>
+</section>
+ 
+<section id="s7">
+  <h2>Liens connexes</h2>
+  <ul>
+    <li><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit</a></li>
+    <li><a href="#">Sed do eiusmod tempor incididunt ut labore et dolore</a></li>
+  </ul>
 </section>

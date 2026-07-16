@@ -99,20 +99,9 @@ custom_css: /assets/css/careers.css
 </ul>
   <section id="s3-1">
    <h3>Part&nbsp;A – Word meanings</h3>
-    <--<p>Read the first word, then choose the option with the closest meaning.</p>
-   <p><strong>Example: </strong></p>
-    <p>Glad</p>
-    <ol class="lst-lwr-alph">
-      <li>Recite</li>
-      <li>Happy</li>
-      <li>Hopeless</li>
-      <li>Inappropriate</li>
-      <li>I don't know</li>
-    </ol>
-    <p>The correct answer is <strong>b. Happy</strong>.</p>-->
   <div class="panel panel-careers">
   <header class="panel-heading">
-   <h5 class="panel-title">Example</h5>
+   <h6 class="panel-title">Example</h6>
   </header>
   <div class="panel-body">
   <p>Read the first word, then choose the option with the closest meaning.</p>

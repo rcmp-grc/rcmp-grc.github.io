@@ -24,7 +24,7 @@ custom_css: /assets/css/careers.css
   .panel-careers .panel-body
   {
    border: 1px solid #f5d000;
-   padding: 0px 10px 0px 10px; 
+   padding: 10px 10px 0px 10px; 
   }
   .panel-careers .panel-title
    {

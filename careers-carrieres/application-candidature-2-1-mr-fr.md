@@ -191,19 +191,15 @@ custom_css: /assets/css/careers.css
         </ol>
       </div>
       <div class="col-md-6 col-lg-6">
-        <div class="well">
-          <figure>
-            <img alt="" class="img-responsive full-width" src="ex-1.png">
-          </figure>
-        </div>
+        <figure>
+          <img alt="" class="img-responsive full-width" src="ex-1.png">
+        </figure>
       </div>
     </div>
     <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">Voir la réponse</summary>
-      <div class="rc-info-panel show">
-        <p>La bonne réponse est <strong>c. la forme&nbsp;C</strong>.</p>
+      <p>La bonne réponse est <strong>c. la forme&nbsp;C</strong>.</p>
       </div>
-    </details>
    </section>
   <section id="s5-2">
    <h3>Partie&nbsp;B – Formes en trois&nbsp;dimensions</h3>

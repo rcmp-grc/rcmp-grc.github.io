@@ -24,10 +24,11 @@ custom_css: /assets/css/careers.css
   .panel-careers .panel-body
   {
    border: 1px solid #f5d000;
+   padding: 0px 20px 0px 10px; 
   }
   .panel-careers .panel-title
    {
-    font-size: .95em;
+    font-size: 1.05em;
    }
 </style>
 
@@ -106,7 +107,7 @@ custom_css: /assets/css/careers.css
    <h3>Part&nbsp;A – Word meanings</h3>
   <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Example</h4>
+   <h4 class="panel-title">Sample question</h4>
   </header>
   <div class="panel-body">
   <p>Read the first word, then choose the option with the closest meaning.</p>

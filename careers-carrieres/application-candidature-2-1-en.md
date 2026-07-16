@@ -238,7 +238,7 @@ custom_css: /assets/css/careers.css
   </div>
   <div class="col-md-6">  
     <figure>
-      <img alt="" class="img-responsive full-width" src="rpab-pink-480x300.jpg">
+      <img alt="" class="img-responsive full-width" src="example-01.png">
     </figure>
   </div>   
 </div>
@@ -256,7 +256,7 @@ custom_css: /assets/css/careers.css
      <p><strong>Example</strong>:</p>
       <div class="well pull-right col-lg-6">
         <figure>
-      <img alt="" class="img-responsive full-width" src="rpab-green-480x300.jpg">
+      <img alt="" class="img-responsive full-width" src="example-02.png">
     </figure>
       </div>
      <ol class="lst-lwr-alph">
@@ -274,7 +274,7 @@ custom_css: /assets/css/careers.css
        <p><strong>Example</strong>:</p>
      <div class="well pull-right col-lg-6">
         <figure>
-      <img alt="" class="img-responsive full-width" src="rpab-grey-480x600.jpg">
+      <img alt="" class="img-responsive full-width" src="example-03.png">
     </figure>
       </div>
     <p>When handle&nbsp;H is pulled to the right, as shown by the arrow, end&nbsp;E will:</p>
@@ -293,7 +293,7 @@ custom_css: /assets/css/careers.css
        <p><strong>Example</strong>:</p>
       <div class="well pull-right col-lg-6">
         <figure>
-      <img alt="" class="img-responsive full-width" src="rpab-yellow-480x480.jpg">
+      <img alt="" class="img-responsive full-width" src="example-04.png">
     </figure>
       </div>
     <p>Which of the folded shapes represents the unfolded image?</p>
@@ -325,7 +325,7 @@ custom_css: /assets/css/careers.css
    <p><strong>Example&nbsp;1</strong>:</p>
      <div class="well pull-right col-lg-6">
         <figure>
-      <img alt="" class="img-responsive full-width" src="rpab-shapes-480x300.jpg">
+      <img alt="" class="img-responsive full-width" src="example-05.png ">
     </figure>
      </div>
     <p>Study this group of objects; you have a 30-second time limit.</p>

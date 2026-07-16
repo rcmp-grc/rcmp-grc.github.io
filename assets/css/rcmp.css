@@ -87,11 +87,11 @@ body {
   color: var(--rcmp-white);
 }
 
-main nav.on-this-page {
+main nav[aria-labelledby="on-this-page"] {
   padding-bottom: 2rem;
 }
 
-main nav.on-this-page + section > h2:first-child {
+main nav[aria-labelledby="on-this-page"] + section > h2:first-child {
   margin-top: 0;
 }
 

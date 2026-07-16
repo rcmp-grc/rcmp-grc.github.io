@@ -33,8 +33,8 @@ custom_css: /assets/css/careers.css
   .panel-careers .left
   {
     border-right: 3px solid #f5d000;
-    border-height: 50%;
-    top: 25%;
+    border-height: 25%;
+    top: 50%;
   }
 </style>
 

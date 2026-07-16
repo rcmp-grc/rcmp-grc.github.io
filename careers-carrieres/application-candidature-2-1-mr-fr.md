@@ -199,6 +199,7 @@ custom_css: /assets/css/careers.css
     <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">Voir la réponse</summary>
       <p>La bonne réponse est <strong>c. la forme&nbsp;C</strong>.</p>
+    <details>
    </section>
   <section id="s5-2">
    <h3>Partie&nbsp;B – Formes en trois&nbsp;dimensions</h3>
@@ -206,8 +207,8 @@ custom_css: /assets/css/careers.css
      <p><strong>Exemple</strong>&nbsp;:</p>
       <div class="well pull-right col-lg-6">
         <figure>
-      <img alt="" class="img-responsive full-width" src="rpab-green-480x300.jpg">
-    </figure>
+          <img alt="" class="img-responsive full-width" src="rpab-green-480x300.jpg">
+       </figure>
       </div>
      <ol class="lst-lwr-alph">
       <li>A</li>

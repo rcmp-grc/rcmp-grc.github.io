@@ -224,10 +224,10 @@ custom_css: /assets/css/careers.css
    <h4 class="panel-title">Example</h4>
   </header>
   <div class="panel-body">
- <p><strong>Question</strong>: Using the following image, which one of the 2D shapes A to E matches the outlined shape?</p> 
+ <p>Using the following image, which one of the 2D shapes A to E matches the outlined shape?</p> 
   <div class="row wb-eqht">
   <div class="col-md-6">
-<p><strong>Answer</strong>: A, B, C, D, E or I don't know</p>
+<p>A, B, C, D, E or I don't know</p>
   </div>
   <div class="col-md-6">  
     <figure>

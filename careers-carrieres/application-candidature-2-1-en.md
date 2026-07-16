@@ -24,7 +24,7 @@ custom_css: /assets/css/careers.css
   }
   .panel-careers .panel-body
   {
-   border: 1px solid #f5d000;
+   border: 0px;
    padding: 10px 10px 0px 10px; 
   }
   .panel-careers .panel-title
@@ -227,14 +227,8 @@ custom_css: /assets/css/careers.css
  <p>Choose the letter that matches the shape displayed in the box.</p> 
   <div class="row wb-eqht">
   <div class="col-md-6">
-     <ol class="lst-lwr-alph">
-      <li>A</li>
-      <li>B</li>
-      <li>C</li>
-      <li>D</li>
-      <li>E</li>
-      <li>I don't know</li>
-     </ol> 
+<p>Options:</p>
+<p>A, B, C, D, E or I don't know</p>
   </div>
   <div class="col-md-6">  
     <figure>
@@ -242,10 +236,10 @@ custom_css: /assets/css/careers.css
     </figure>
   </div>   
 </div>
-   <details>
-      <summary>Answer</summary>
-      <p>The correct answer is <strong>c. shape&nbsp;C</strong>.</p>
-    </details> 
+    <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
+      <p>The correct answer is <strong>C. shape&nbsp;C</strong>.</p>
+    </details>
   </div>
   </div>
        <div class="clearfix"></div>  

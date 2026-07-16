@@ -25,7 +25,7 @@ custom_css: /assets/css/careers.css
     <li><a href="#s1">Lorem eligibility</a></li>
     <li><a href="#s2">What people are saying</a></li>
     <li><a href="#s3">Watch the video</a></li>
-    <li><a href="#s4">Photo gallery</a></li>
+    <li><a href="#s4">Image gallery</a></li>
     <li><a href="#s5">Frequently asked questions</a></li>
     <li><a href="#s6">Program details</a></li>
     <li><a href="#s7">Related links</a></li>
@@ -73,35 +73,96 @@ custom_css: /assets/css/careers.css
 <section id="s3">
   <h2>Watch the video</h2>
   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-  <video class="wb-mltmd" controls poster="https://via.placeholder.com/640x360?text=Lorem+Ipsum+Poster" width="640" height="360">
-    <source src="https://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
-    <track label="English" kind="captions" srclang="en" src="captions-en.vtt" default>
-    <p>Lorem ipsum: your browser does not support the video element.</p>
-  </video>
+  <figure class="wb-mltmd">
+    <video title="RCMP Police Fitness Assessment">
+      <source type="video/youtube" src="https://www.youtube.com/watch?v=khr5WnZlhlo">
+    </video>
+    <figcaption>
+      <div class="accordion">
+        <details class="acc-group">
+          <summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>
+            Transcript - <abbr title="Royal Canadian Mounted Police">RCMP</abbr> Police Fitness Assessment
+          </summary>
+          <div class="tgl-panel">
+            <p>Upbeat music &#9835;</p>
+            <p>[Police officers performing the police fitness assessment.]</p>
+            <p>Police Fitness Assessment</p>
+            <p>[Police officer running after a client.]</p>
+            <p>Foot Pursuit</p>
+            <p>[Police officer running in gym.]</p>
+            <p>500 meters run</p>
+            <p>[Police officer running after a man who jumps a chain link fence.]</p>
+            <p>1 time fence climb</p>
+            <p>[Police officers jump a fence outdoors and inside a gym.]</p>
+            <p>Emergency Assistance</p>
+            <p>[Police officer checks on a person laying in the grass.]</p>
+            <p>Gold standard, load 15 items on a truck</p>
+            <p>[Police officer loads big jugs of water onto a table.]</p>
+            <p>Field standard, touch 15 items on wall</p>
+            <p>[Woman lifts and touches sandbag on wall in a gym.]</p>
+            <p>3 times carry weight 50 meters</p>
+            <p>[Man deadlifts weight and carries sandbags across the gym.]</p>
+            <p>High priority call</p>
+            <p>[Police officer runs up stairs.]</p>
+            <p>150 meters run</p>
+            <p>[Police officer runs inside a gym.]</p>
+            <p>2 flights of stairs</p>
+            <p>[Police officers run up stairs.]</p>
+            <p>Gold standard, sled push and pull</p>
+            <p>[Police officers pull weighted sleds inside a gym in a zig zag. Police officer grabs and pulls a man.]</p>
+            <p>Gold standard, weighted mannequin takedown</p>
+            <p>[Police officer pulls a mannikin down onto a mat in the gym.]</p>
+            <p>Field standard, medicine ball toss</p>
+            <p>[Woman sitting down inside a gym throws medicine ball. Police officer pulls down mannikin to the ground in the gym. Police officer pulls a weighted sled in a zig zag. Police officer jumps a fence. Woman throws medicine ball against a wall. Police officer runs up stairs with a gun.]</p>
+            <p>Police Fitness Assessment</p>
+            <p>
+              Royal Canadian Mounted Police / <i lang="fr">Gendarmerie royale du Canada</i><br>
+              &copy; His Majesty the King in Right of Canada, as represented by the Royal Canadian Mounted Police, 2024.
+            </p>
+            <p>Canada wordmark</p>
+          </div>
+        </details>
+      </div>
+    </figcaption>
+  </figure>
 </section>
 
-<section id="s4">
-  <h2>Photo gallery</h2>
-  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
-  <ul class="wb-lbx thumbnails colcount-sm-3 colcount-md-4">
+<section class="wb-lbx lbx-gal" id="s4">
+  <h2>Image gallery</h2>
+  <ul class="list-inline">
     <li>
-      <a href="https://via.placeholder.com/900x600?text=Lorem+1" title="Lorem ipsum dolor sit amet">
-        <img src="https://picsum.photos/200" alt="Lorem ipsum thumbnail one">
+      <a href="https://picsum.photos/seed/picsum/480/300" title="Lorem ipsum">
+        <img alt="Lore ipsum" src="https://picsum.photos/seed/picsum/175">
       </a>
     </li>
     <li>
-      <a href="https://via.placeholder.com/900x600?text=Lorem+2" title="Consectetur adipiscing elit">
-        <img src="https://picsum.photos/200" alt="Lorem ipsum thumbnail two">
+      <a href="https://picsum.photos/seed/picsum/480/300" title="Lorem ipsum">
+        <img alt="Lore ipsum" src="https://picsum.photos/seed/picsum/175">
       </a>
     </li>
     <li>
-      <a href="https://via.placeholder.com/900x600?text=Lorem+3" title="Sed do eiusmod tempor">
-        <img src="https://picsum.photos/200" alt="Lorem ipsum thumbnail three">
+      <a href="https://picsum.photos/seed/picsum/480/300" title="Lorem ipsum">
+        <img alt="Lore ipsum" src="https://picsum.photos/seed/picsum/175">
       </a>
     </li>
     <li>
-      <a href="https://via.placeholder.com/900x600?text=Lorem+4" title="Incididunt ut labore">
-        <img src="https://picsum.photos/200" alt="Lorem ipsum thumbnail four">
+      <a href="https://picsum.photos/seed/picsum/480/300" title="Lorem ipsum">
+        <img alt="Lore ipsum" src="https://picsum.photos/seed/picsum/175">
+      </a>
+    </li>
+    <li>
+      <a href="https://picsum.photos/seed/picsum/480/300" title="Lorem ipsum">
+        <img alt="Lore ipsum" src="https://picsum.photos/seed/picsum/175">
+      </a>
+    </li>
+    <li>
+      <a href="https://picsum.photos/seed/picsum/480/300" title="Lorem ipsum">
+        <img alt="Lore ipsum" src="https://picsum.photos/seed/picsum/175">
+      </a>
+    </li>
+    <li>
+      <a href="https://picsum.photos/seed/picsum/480/300" title="Lorem ipsum">
+        <img alt="Lore ipsum" src="https://picsum.photos/seed/picsum/175">
       </a>
     </li>
   </ul>

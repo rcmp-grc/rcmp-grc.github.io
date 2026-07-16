@@ -27,7 +27,7 @@ custom_css: /assets/css/careers.css
   }
   .panel-careers .panel-title
    {
-    font-size: .25em;
+    font-size: 1.25em;
    }
 </style>
 

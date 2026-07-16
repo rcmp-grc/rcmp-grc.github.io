@@ -218,16 +218,16 @@ custom_css: /assets/css/careers.css
   </ul>
    <section id="s5-1">
    <h3>Part&nbsp;A – Rotating 2D&nbsp;shapes</h3>
-     <p>You will be asked a series of questions related to 2D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3&nbsp;minutes to complete the set of questions.</p>
+     <p>You will be asked a series of questions related to 2D&nbsp;shapes. For each question, find the option that matches the shape displayed in the box of the following images. You have 3&nbsp;minutes to complete the set of questions.</p>
   <div class="panel panel-careers">
   <header class="panel-heading">
    <h4 class="panel-title">Sample question</h4>
   </header>
   <div class="panel-body">
- <p>Choose the letter that matches the shape displayed in the box.</p> 
+ <p>Match the shape displayed in the box with the correct lettered shape.</p> 
   <div class="row wb-eqht">
   <div class="col-md-6">
-<p>Options:</p>
+<p><strong>Options</strong>:</p>
 <p>A, B, C, D, E or I don't know</p>
   </div>
   <div class="col-md-6">  

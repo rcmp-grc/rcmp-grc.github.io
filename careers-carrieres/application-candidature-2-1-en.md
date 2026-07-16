@@ -245,59 +245,80 @@ custom_css: /assets/css/careers.css
    </section>
   <section id="s5-2">
    <h3>Part&nbsp;B – 3D&nbsp;shapes</h3>
-    <p>You will be asked a series of questions related to 3D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3&nbsp;minutes to complete the set of questions.</p>
-     <p><strong>Example</strong>:</p>
-      <div class="well pull-right col-lg-6">
-        <figure>
+    <p>You will be asked a series of questions related to 3D&nbsp;shapes. For each question, match the 3D shape with the outlined shape. You have 3&nbsp;minutes to complete the set of questions.</p>
+    <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h4 class="panel-title">Sample question</h4>
+  </header>
+  <div class="panel-body">
+  <div class="row wb-eqht">
+  <div class="col-md-6">
+ <p>Using the following image, which one of the 3D shapes A to E matches the outlined shape?</p>     
+<p>Answer options are: <br>A, B, C, D or I don't know</p>
+  </div>
+  <div class="col-md-6">  
+    <figure>
       <img alt="" class="img-responsive full-width" src="ex-2.png">
     </figure>
-      </div>
-     <ol class="lst-lwr-alph">
-      <li>A</li>
-      <li>B</li>
-      <li>C</li>
-      <li>D</li>
-      <li>I don't know</li>
-    </ol>
-     <p>The correct answer is <strong>d. shape&nbsp;D</strong>.</p>
+  </div>   
+</div>
+    <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
+      <p>The correct answer is <strong>D. shape&nbsp;D</strong>.</p>
+    </details>
+  </div>
+  </div>
+       <div class="clearfix"></div>  
   </section>
   <section id="s5-3">
    <h3>Part&nbsp;C – Mechanical problems</h3>
     <p>You will be asked a series of questions related to mechanical problems. You have 4&nbsp;minutes to complete the set of questions.</p>
-       <p><strong>Example</strong>:</p>
-     <div class="well pull-right col-lg-6">
-        <figure>
+    <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h4 class="panel-title">Sample question</h4>
+  </header>
+  <div class="panel-body">
+  <div class="row wb-eqht">
+  <div class="col-md-6">
+ <p>Using the following image, when handle&nbsp;H is pulled to the right, end&nbsp;E will:</p>   
+<p>Answer options are: <br>A - Move to the left, B - Move to the right, C - Move back and forth, D - Stay in the same position or I don't know</p>
+  </div>
+  <div class="col-md-6">  
+    <figure>
       <img alt="" class="img-responsive full-width" src="ex-3.png">
     </figure>
-      </div>
-    <p>When handle&nbsp;H is pulled to the right, as shown by the arrow, end&nbsp;E will:</p>
-     <ol class="lst-lwr-alph">
-      <li>Move to the left</li>
-      <li>Move to the right</li>
-      <li>Move back and forth</li>
-      <li>Stay in the same position</li>
-      <li>I don't know</li>
-    </ol>
-     <p>The correct answer is <strong>a. Move to the left</strong>.</p>
+  </div>   
+</div>
+    <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
+      <p>The correct answer is <strong>A. Move to the left</strong>.</p>
+    </details>
+  </div>
+  </div>
+       <div class="clearfix"></div>  
 </section>
   <section id="s5-4">
    <h3>Part&nbsp;D – Cubes and folding shapes</h3>
     <p>You will be asked a series of questions related to cubes and folding shapes. You will have 5&nbsp;minutes to complete the set of questions.</p>
-       <p><strong>Example</strong>:</p>
-      <div class="well pull-right col-lg-6">
-        <figure>
+    <div class="panel-body">
+  <div class="row wb-eqht">
+  <div class="col-md-6">
+ <p>Using the following image, which one of the folded shapes represents the unfolded shape?</p>   
+<p>Answer options are: <br>A, B, C, D or I don't know</p>
+  </div>
+  <div class="col-md-6">  
+    <figure>
       <img alt="" class="img-responsive full-width" src="ex-4.png">
     </figure>
-      </div>
-    <p>Which of the folded shapes represents the unfolded image?</p>
-     <ol class="lst-lwr-alph">
-      <li>A</li>
-      <li>B</li>
-      <li>C</li>
-      <li>D</li>
-      <li>I don't know</li>
-    </ol>
-     <p>The correct answer is <strong>c. shape&nbsp;C</strong>.</p>
+  </div>   
+</div>
+    <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
+      <p>The correct answer is <strong>C. shape&nbsp;C</strong>.</p>
+    </details>
+  </div>
+  </div>
+       <div class="clearfix"></div>  
 </section>
 </section>
 <section id="s6">

@@ -105,7 +105,7 @@ custom_css: /assets/css/careers.css
   </header>
   <div class="panel-body">
   <p>Read the first word, then choose the option with the closest meaning.</p>
-  <p>Glad</p>
+  <p><strong>Glad</strong></p>
     <ol class="lst-lwr-alph">
       <li>Recite</li>
       <li>Happy</li>

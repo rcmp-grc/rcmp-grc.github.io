@@ -311,7 +311,6 @@ custom_css: /assets/css/careers.css
       <img alt="" class="img-responsive full-width" src="ex-4.png">
     </figure>
   </div>   
-</div>
     <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
       <p>The correct answer is <strong>C. shape&nbsp;C</strong>.</p>

@@ -14,6 +14,7 @@ breadcrumbs:
     url: "careers-carrieres/application-candidature-en.html"
 custom_css: /assets/css/careers.css
 ---
+
 <style>
   .panel-careers header
   {
@@ -31,7 +32,6 @@ custom_css: /assets/css/careers.css
     font-size: 1.05em;
    }
 </style>
-
 <nav aria-label="Application process steps" class="gc-subway" data-sections-title="Steps">
   <h2>Police officer application process</h2>
   <ul>
@@ -55,7 +55,6 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-6-en.html">Complete a field investigation and security assessment</a></li>
   </ul>
 </nav>
-
 <nav aria-labelledby="on-this-page">
   <h2 id="on-this-page">On this page</h2>
   <ul>
@@ -68,7 +67,6 @@ custom_css: /assets/css/careers.css
     <li><a href="#s7">Section&nbsp;6: Business reasoning</a></li>
   </ul>
 </nav>
-
 <section id="s1">
   <h2>Introduction</h2>
   <p>The RCMP Online Entrance Assessment was designed as a biased-free tool to assess applicants for the RCMP police officer recruiting process. The RCMP Online Entrance Assessment consists of six&nbsp;sections:</p>
@@ -390,7 +388,6 @@ custom_css: /assets/css/careers.css
      <p>The correct answer is <strong>b. $100</strong>.</p>
   </section>
 </section>
-
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page" style="display: block;">
   <div class="rcmp-content-page__prev" id="mp-prev-wrap" style="display: block;">
     <a aria-label="Previous page: Submit an online application" class="rcmp-content-page__link" href="application-candidature-2-en.html" id="mp-prev"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i> <span class="rcmp-content-page__link-title">Previous page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-prev-label">Online career presentation and entrance assessment</span></a>

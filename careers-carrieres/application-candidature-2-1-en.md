@@ -19,12 +19,12 @@ custom_css: /assets/css/careers.css
   {
    background-color: #f5d000;
    color: #000000;
-   padding: 0px 20px 0px 10px; 
+   padding: 0px 20px 0px 20px; 
   }
   .panel-careers .panel-body
   {
    border: 1px solid #f5d000;
-   padding: 0px 20px 0px 10px; 
+   padding: 0px 20px 0px 20px; 
   }
   .panel-careers .panel-title
    {

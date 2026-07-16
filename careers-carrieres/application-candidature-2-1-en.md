@@ -19,7 +19,7 @@ custom_css: /assets/css/careers.css
   {
    background-color: #f5d000;
    color: #000000;
-   padding: 50px 5px 0px 5px; 
+   padding: 0px 10px 0px 10px; 
   }
   .panel-careers .panel-body
   {

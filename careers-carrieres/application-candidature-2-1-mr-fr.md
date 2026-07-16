@@ -199,7 +199,7 @@ custom_css: /assets/css/careers.css
     <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">Voir la réponse</summary>
       <p>La bonne réponse est <strong>c. la forme&nbsp;C</strong>.</p>
-    <details>
+    </details>
    </section>
   <section id="s5-2">
    <h3>Partie&nbsp;B – Formes en trois&nbsp;dimensions</h3>

@@ -149,11 +149,15 @@ custom_css: /assets/css/careers.css
     <li>You may skip questions. If you do not know the answer, please select "I don't know."</li>
     <li>Use only your knowledge, pen and paper when completing these questions. The use of calculators, computer software or input from others is not permitted</li>
     <li>There is a timer at the bottom of the page</li>
-  </ul>
+  </ul> 
    <section id="s4-1">
    <h3>Part&nbsp;A – Level&nbsp;1 calculations</h3>
      <p>This part of the assessment draws on your addition and multiplication skills. You have 3&nbsp;minutes to complete the set of questions.</p>
-     <p><strong>Example&nbsp;1</strong>:</p>
+  <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h4 class="panel-title">Sample question 1</h4>
+  </header>
+  <div class="panel-body">
      <p>8 + 7 =</p>
      <ol class="lst-lwr-alph">
       <li>12</li>
@@ -162,9 +166,18 @@ custom_css: /assets/css/careers.css
       <li>16</li>
       <li>I don't know</li>
     </ol>
+     <details>
+      <summary>Answer</summary>
      <p>The correct answer is <strong>c. 15</strong>.</p>
-     <p><strong>Example&nbsp;2</strong>:</p>
-     <p>5 x 5 =</p>
+     </details>
+  </div>
+  </div>
+   <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h4 class="panel-title">Sample question 1</h4>
+  </header>
+  <div class="panel-body">    
+    <p>5 x 5 =</p>
       <ol class="lst-lwr-alph">
       <li>10</li>
       <li>25</li>
@@ -172,7 +185,12 @@ custom_css: /assets/css/careers.css
       <li>50</li>
       <li>I don't know</li>
     </ol>
+     <details>
+      <summary>Answer</summary>
      <p>The correct answer is <strong>b. 25</strong>.</p>
+     </details>
+  </div>   
+  </div>
    </section>
   <section id="s4-2">
    <h3>Part&nbsp;B – Level&nbsp;2 calculations</h3>

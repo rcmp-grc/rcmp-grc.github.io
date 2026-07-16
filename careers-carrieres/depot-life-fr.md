@@ -12,8 +12,8 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<nav aria-labelledby="pagenav">
-  <h2 id="pagenav">Sur cette page</h2>
+<nav aria-labelledby="on-this-page">
+  <h2 id="on-this-page">Sur cette page</h2>
   <ul>
     <li><a href="#s1">Découvrez la Division Dépôt</a></li>
     <li><a href="#s2">Aperçu de la vie des cadets</a></li>
@@ -22,7 +22,7 @@ custom_css: /assets/css/careers.css
     <li><a href="#s5">Soutien à la Division Dépôt</a></li>
     <li><a href="#s6">Conduite et attentes envers les cadets</a></li>
     <li><a href="#s7">La vie communautaire à Regina</a></li>
-    <li><a href="#s8">Pages connexes</a></li>
+    <li><a href="#s8">Liens connexes</a></li>
   </ul>
 </nav>
 
@@ -139,7 +139,7 @@ custom_css: /assets/css/careers.css
 </section>
 
 <section id="s8">
-  <h2>Pages connexes</h2>
+  <h2>Liens connexes</h2>
   <ul>
     <li><a href="/fr/depot">Division Dépôt de la GRC</a></li>
     <li><a href="/fr/depot/visite-virtuelle">Visite virtuelle de la Division Dépôt</a></li>

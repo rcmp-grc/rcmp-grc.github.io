@@ -23,7 +23,7 @@ custom_css: /assets/css/careers.css
     <li><a href="#s5">Firearms Training</a></li>
     <li><a href="#s6">Police Driving</a></li>
     <li><a href="#s7">Drill and Deportment</a></li>
-    <li><a href="#s8">Related pages</a></li>
+    <li><a href="#s8">Related links</a></li>
   </ul>
 </nav>
 
@@ -192,7 +192,7 @@ custom_css: /assets/css/careers.css
 </section>
 
 <section id="s8">
-  <h2>Related pages</h2>
+  <h2>Related links</h2>
   <ul>
     <li><a href="/en/police-intervention/incident-management-intervention-model">Incident Management Intervention Model</a></li>
     <li><a href="/en/depot/cadet-chronicles/week-0">Cadet Chronicles</a></li>

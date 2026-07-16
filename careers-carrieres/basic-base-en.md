@@ -25,7 +25,7 @@ custom_css: /assets/css/careers.css
     <li><a href="#s1">Eligibility</a></li>
     <li><a href="#s2">What past graduates are saying</a></li>
     <li><a href="#s3">How to apply</a></li>
-    <li><a href="#s4">Related pages</a></li>
+    <li><a href="#s4">Related links</a></li>
   </ul>
 </nav>
 <p>The Indigenous Pre-Cadet Training Program includes a three-week training session at the RCMP Academy (Depot) in Regina, Saskatchewan.</p>
@@ -72,7 +72,7 @@ custom_css: /assets/css/careers.css
 </section>
 
 <section id="s4">
- <h2>Related pages</h2>
+ <h2>Related links</h2>
   <ul>
     <li><a href="/en/pei/your-community/meet-darcie-augustine-pei-rcmps-first-candidate-indigenous-pre-cadet-training-program">Prince Edward Island RCMP welcome Darcie Augustine - Indigenous Pre-Cadet Training Program graduate</a></li>
     <li><a href="/en/gazette/police-program-jump-starts-rcmp-careers-nearly-75-indigenous-youth">RCMP Gazette story: Police program jump-starts RCMP careers for nearly 75&#160;Indigenous youth</a></li>

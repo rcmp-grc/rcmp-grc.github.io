@@ -23,7 +23,7 @@ custom_css: /assets/css/careers.css
     <li><a href="#s5">Formation au tir</a></li>
     <li><a href="#s6">Conduite de véhicules de police</a></li>
     <li><a href="#s7">Exercices et maintien</a></li>
-    <li><a href="#s8">Pages connexes</a></li>
+    <li><a href="#s8">Liens connexes</a></li>
   </ul>
 </nav>
 
@@ -192,7 +192,7 @@ custom_css: /assets/css/careers.css
 </section>
 
 <section id="s8">
-  <h2>Pages connexes</h2>
+  <h2>Liens connexes</h2>
   <ul>
     <li><a href="/fr/intervention-policiere/modele-dintervention-pour-gestion-dincidents">Modèle d'intervention pour la gestion d'incidents</a></li>
     <li><a href="/fr/depot/journal-cadet/semaine-0">Journal d'un cadet</a></li>

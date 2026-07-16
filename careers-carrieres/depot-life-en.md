@@ -12,8 +12,8 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<nav aria-label="On this page">
-  <h2>On this page</h2>
+<nav aria-labelledby="on-this-page">
+  <h2 id="on-this-page">On this page</h2>
   <ul>
     <li><a href="#s1">Get to know Depot</a></li>
     <li><a href="#s2">Cadet life overview</a></li>
@@ -22,7 +22,7 @@ custom_css: /assets/css/careers.css
     <li><a href="#s5">Support at Depot</a></li>
     <li><a href="#s6">Conduct and expectations for cadets</a></li>
     <li><a href="#s7">Community life in Regina</a></li>
-    <li><a href="#s8">Related pages</a></li>
+    <li><a href="#s8">Related links</a></li>
   </ul>
 </nav>
 
@@ -131,7 +131,7 @@ custom_css: /assets/css/careers.css
 </section>
 
 <section id="s8">
-  <h2>Related pages</h2>
+  <h2>Related links</h2>
   <ul>
     <li><a href="/en/depot">RCMP Depot Division</a></li>
     <li><a href="/en/depot/virtual-tour">Virtual tour of Depot</a></li>

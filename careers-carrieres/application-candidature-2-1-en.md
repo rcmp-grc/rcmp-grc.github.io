@@ -32,8 +32,10 @@ custom_css: /assets/css/careers.css
    }
   .panel-careers .left
   {
-    border-right: 2px solid #f5d000;
+    position: absolute;
+    border-right: 3px solid #f5d000;
     border-height: 50%;
+    top: 25%;
   }
 </style>
 
@@ -230,14 +232,14 @@ custom_css: /assets/css/careers.css
       <img alt="" class="img-responsive full-width" src="rpab-pink-480x300.jpg">
     </figure>
   </div>
+  <details>
+      <summary>Answer</summary>
+      <p>The correct answer is <strong>c. shape&nbsp;C</strong>.</p>
+    </details>   
 </div>
   </div>
   </div>
-       <div class="clearfix"></div>
-    <details>
-      <summary>Answer</summary>
-      <p>The correct answer is <strong>c. shape&nbsp;C</strong>.</p>
-    </details>  
+       <div class="clearfix"></div>  
    </section>
   <section id="s5-2">
    <h3>Part&nbsp;B – 3D&nbsp;shapes</h3>

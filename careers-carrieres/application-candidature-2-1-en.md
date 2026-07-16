@@ -300,6 +300,10 @@ custom_css: /assets/css/careers.css
   <section id="s5-4">
    <h3>Part&nbsp;D – Cubes and folding shapes</h3>
     <p>You will be asked a series of questions related to cubes and folding shapes. You will have 5&nbsp;minutes to complete the set of questions.</p>
+    <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h4 class="panel-title">Sample question</h4>
+  </header>
     <div class="panel-body">
   <div class="row wb-eqht">
   <div class="col-md-6">
@@ -311,12 +315,13 @@ custom_css: /assets/css/careers.css
       <img alt="" class="img-responsive full-width" src="ex-4.png">
     </figure>
   </div>   
+ </div>
     <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
       <p>The correct answer is <strong>C. shape&nbsp;C</strong>.</p>
-    </details>
-  </div>
-  </div>
+    </details>   
+    </div>
+    </div>
        <div class="clearfix"></div>  
 </section>
 </section>

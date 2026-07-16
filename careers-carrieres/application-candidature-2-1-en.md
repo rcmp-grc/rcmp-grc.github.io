@@ -32,7 +32,6 @@ custom_css: /assets/css/careers.css
    }
   .panel-careers .left
   {
-    position: absolute;
     border-right: 3px solid #f5d000;
     border-height: 50%;
     top: 25%;
@@ -233,11 +232,11 @@ custom_css: /assets/css/careers.css
     </figure>
   </div>   
 </div>
-  </div>
-    <details>
+   <details>
       <summary>Answer</summary>
       <p>The correct answer is <strong>c. shape&nbsp;C</strong>.</p>
-    </details>
+    </details> 
+  </div>
   </div>
        <div class="clearfix"></div>  
    </section>

@@ -156,21 +156,21 @@ custom_css: /assets/css/careers.css
   <p>For more details on qualification, tiers, and information on how to apply, please contact the Auxiliary Program in your province or territory of residence. </p>
   <dl class="dl-horizontal">
     <dt>Alberta </dt>
-    <dd><a href="kauxiliaryprogram-kprogrammeauxiliaire@rcmp-grc.gc.ca">kauxiliaryprogram-kprogrammeauxiliaire@rcmp-grc.gc.ca </a></dd>
+    <dd><a href="mailto:kauxiliaryprogram-kprogrammeauxiliaire@rcmp-grc.gc.ca">kauxiliaryprogram-kprogrammeauxiliaire@rcmp-grc.gc.ca </a></dd>
     <dt>British Columbia </dt>
-    <dd><a href="e.auxiliary.program-programme.auxiliaires.e@rcmp-grc.gc.ca">e.auxiliary.program-programme.auxiliaires.e@rcmp-grc.gc.ca </a></dd>
+    <dd><a href="mailto:e.auxiliary.program-programme.auxiliaires.e@rcmp-grc.gc.ca">e.auxiliary.program-programme.auxiliaires.e@rcmp-grc.gc.ca </a></dd>
     <dt>Manitoba </dt>
-    <dd><a href="rcmp.dauxiliaryprogram-dprogrammeauxiliaires.grc@rcmp-grc.gc.ca">rcmp.dauxiliaryprogram-dprogrammeauxiliaires.grc@rcmp-grc.gc.ca </a></dd>
+    <dd><a href="mailto:rcmp.dauxiliaryprogram-dprogrammeauxiliaires.grc@rcmp-grc.gc.ca">rcmp.dauxiliaryprogram-dprogrammeauxiliaires.grc@rcmp-grc.gc.ca </a></dd>
     <dt>New Brunswick </dt>
-    <dd><a href="rcmp.jdivap-padivj.grc@rcmp-grc.gc.ca">rcmp.jdivap-padivj.grc@rcmp-grc.gc.ca </a></dd>
+    <dd><a href="mailto:rcmp.jdivap-padivj.grc@rcmp-grc.gc.ca">rcmp.jdivap-padivj.grc@rcmp-grc.gc.ca </a></dd>
     <dt>Newfoundland and Labrador </dt>
-    <dd><a href="rcmp.bdiv.auxprog-programme_des_auxiliaires.grc@rcmp-grc.gc.ca">rcmp.bdiv.auxprog-programme_des_auxiliaires.grc@rcmp-grc.gc.ca </a></dd>
+    <dd><a href="mailto:rcmp.bdiv.auxprog-programme_des_auxiliaires.grc@rcmp-grc.gc.ca">rcmp.bdiv.auxprog-programme_des_auxiliaires.grc@rcmp-grc.gc.ca </a></dd>
     <dt>Northwest Territories </dt>
-    <dd><a href="rcmp.gauxiliaryprogram-gprogrammeauxiliaire.grc@rcmp-grc.gc.ca">rcmp.gauxiliaryprogram-gprogrammeauxiliaire.grc@rcmp-grc.gc.ca </a></dd>
+    <dd><a href="mailto:rcmp.gauxiliaryprogram-gprogrammeauxiliaire.grc@rcmp-grc.gc.ca">rcmp.gauxiliaryprogram-gprogrammeauxiliaire.grc@rcmp-grc.gc.ca </a></dd>
     <dt>Nova Scotia </dt>
-    <dd><a href="hdiv_auxiliary-auxiliaires@rcmp-grc.gc.ca">hdiv_auxiliary-auxiliaires@rcmp-grc.gc.ca </a></dd>
+    <dd><a href="mailto:hdiv_auxiliary-auxiliaires@rcmp-grc.gc.ca">hdiv_auxiliary-auxiliaires@rcmp-grc.gc.ca </a></dd>
     <dt>Saskatchewan </dt>
-    <dd><a href="rcmp.fauxiliaryprogram-fprogrammeauxiliaire.grc@rcmp-grc.gc.ca">rcmp.fauxiliaryprogram-fprogrammeauxiliaire.grc@rcmp-grc.gc.ca </a></dd>
+    <dd><a href="mailto:rcmp.fauxiliaryprogram-fprogrammeauxiliaire.grc@rcmp-grc.gc.ca">rcmp.fauxiliaryprogram-fprogrammeauxiliaire.grc@rcmp-grc.gc.ca </a></dd>
   </dl>
 </section>
 <section id="s6">

@@ -125,7 +125,7 @@ custom_css: /assets/css/careers.css
   <p>If you have any technical issues or questions about the security screening process, contact one of the following:</p>
   <ul>
     <li>For GCKey account: 1-855-438-1102</li>
-    <li>For Security Screening Application: <a href="mailto:rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca">rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca</a></li>
+    <li>For Security Screening Application: <a href="mailto:mailto:rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca">rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca</a></li>
   </ul>
 </section>
 

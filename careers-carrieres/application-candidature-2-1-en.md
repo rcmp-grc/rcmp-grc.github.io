@@ -18,7 +18,7 @@ custom_css: /assets/css/careers.css
 <style>
   .panel-careers header
   {
-   background-color: #f5d000;
+   background-color: #f3f2f1;
    color: #000000;
    padding: 0px 10px 0px 10px; 
   }

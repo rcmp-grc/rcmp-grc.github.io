@@ -193,7 +193,7 @@ custom_css: /assets/css/careers.css
       <div class="col-md-6 col-lg-6">
         <figure>
           <img alt="Spatial reasoning question: match a rotated rectangle to one of 5 options." aria-describedby="desc-1" class="img-responsive full-width mrgn-bttm-md" src="ex-1.png">
-          <div id="desc-1" class="visually-hidden">
+          <div id="desc-1" class="wb-inv">
             Boxed target: an upright pink rectangle divided by 1 vertical line placed left of centre, and 1 horizontal line placed above centre.
             Option A: a similar rectangle tilted about 20 degrees clockwise, with the same 2 dividing lines.
             Option B: a similar rectangle tilted about 20 degrees clockwise, but the horizontal line is placed lower, near the bottom.

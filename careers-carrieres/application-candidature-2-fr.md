@@ -39,8 +39,8 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 
-<nav aria-labelledby="on-this-page-heading">
-  <h2 id="on-this-page-heading">Sur cette page</h2>
+<nav aria-labelledby="on-this-page">
+  <h2 id="on-this-page">Sur cette page</h2>
   <ul>
     <li><a href="#s1">Exposé virtuel sur les carrières</a></li>
     <li><a href="#s2">Évaluation d'entrée en ligne</a></li>

@@ -12,8 +12,8 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<nav aria-labelledby="on-this-page-heading">
-  <h2 id="on-this-page-heading">Sur cette page</h2>
+<nav aria-labelledby="on-this-page">
+  <h2 id="on-this-page">Sur cette page</h2>
   <ul>
     <li><a href="#s1">Qui sommes-nous</a></li>
     <li><a href="#s2">Que faisons-nous</a></li>

@@ -40,8 +40,8 @@ custom_css: /assets/css/careers.css
 </nav>
 
 
-<nav aria-labelledby="on-this-page-heading">
-  <h2 id="on-this-page-heading">On this page</h2>
+<nav aria-labelledby="on-this-page">
+  <h2 id="on-this-page">On this page</h2>
   <ul>
     <li><a href="#s1">Respiratory disease</a></li>
     <li><a href="#s2">Cardiovascular conditions</a></li>

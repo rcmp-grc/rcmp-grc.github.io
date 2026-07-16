@@ -39,8 +39,8 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 
-<nav aria-labelledby="on-this-page-heading">
-  <h2 id="on-this-page-heading">Sur cette page</h2>
+<nav aria-labelledby="on-this-page">
+  <h2 id="on-this-page">Sur cette page</h2>
   <ul>
     <li><a href="#s1">Processus d’autorisation de sécurité</a></li>
     <li><a href="#s2">Que faire si vous avez passé du temps à l’étranger</a></li>

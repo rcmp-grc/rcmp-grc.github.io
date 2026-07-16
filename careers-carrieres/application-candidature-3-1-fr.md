@@ -39,8 +39,8 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 
-<nav aria-labelledby="on-this-page-heading">
-  <h2 id="on-this-page-heading">Sur cette page</h2>
+<nav aria-labelledby="on-this-page">
+  <h2 id="on-this-page">Sur cette page</h2>
   <ul>
     <li><a href="#s1">Examens de la vue et de l'audition</a></li>
     <li><a href="#s2">Demande de filtrage de sécurité</a></li>

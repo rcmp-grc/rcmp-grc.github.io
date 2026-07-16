@@ -21,8 +21,8 @@ custom_css: /assets/css/careers.css
 		<li>Du 6 au 26 janvier 2027</li>
 	</ul>
 </section>
-<nav aria-labelledby="on-this-page-heading">
-	<h2 id="on-this-page-heading">Sur cette page</h2>
+<nav aria-labelledby="on-this-page">
+	<h2 id="on-this-page">Sur cette page</h2>
 	<ul>
 		<li><a href="#s1">Exigences pour postuler</a></li>
 		<li><a href="#s2">Coûts</a></li>

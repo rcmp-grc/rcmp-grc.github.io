@@ -30,12 +30,6 @@ custom_css: /assets/css/careers.css
    {
     font-size: 1.05em;
    }
-  .panel-careers .left
-  {
-    border-right: 3px solid #f5d000;
-    border-height: 25%;
-    top: 50%;
-  }
 </style>
 
 <nav aria-label="Application process steps" class="gc-subway" data-sections-title="Steps">
@@ -216,7 +210,12 @@ custom_css: /assets/css/careers.css
   <div class="panel-body">
  <p>Choose the letter that matches the shape displayed in the box.</p> 
   <div class="row wb-eqht">
-  <div class="col-md-6 left">
+  <div class="col-md-6">
+     <figure>
+      <img alt="" class="img-responsive full-width" src="rpab-pink-480x300.jpg">
+    </figure>
+  </div>
+  <div class="col-md-6">
      <ol class="lst-lwr-alph">
       <li>A</li>
       <li>B</li>
@@ -224,12 +223,7 @@ custom_css: /assets/css/careers.css
       <li>D</li>
       <li>E</li>
       <li>I don't know</li>
-    </ol>
-  </div>
-  <div class="col-md-6">
-    <figure>
-      <img alt="" class="img-responsive full-width" src="rpab-pink-480x300.jpg">
-    </figure>
+     </ol>   
   </div>   
 </div>
    <details>

@@ -86,22 +86,22 @@ custom_css: /assets/css/careers.css
   <ul class="wb-lbx thumbnails colcount-sm-3 colcount-md-4">
     <li>
       <a href="https://via.placeholder.com/900x600?text=Lorem+1" title="Lorem ipsum dolor sit amet">
-        <img src="https://via.placeholder.com/220x150?text=Lorem+1" alt="Lorem ipsum thumbnail one">
+        <img src="https://picsum.photos/200" alt="Lorem ipsum thumbnail one">
       </a>
     </li>
     <li>
       <a href="https://via.placeholder.com/900x600?text=Lorem+2" title="Consectetur adipiscing elit">
-        <img src="https://via.placeholder.com/220x150?text=Lorem+2" alt="Lorem ipsum thumbnail two">
+        <img src="https://picsum.photos/200" alt="Lorem ipsum thumbnail two">
       </a>
     </li>
     <li>
       <a href="https://via.placeholder.com/900x600?text=Lorem+3" title="Sed do eiusmod tempor">
-        <img src="https://via.placeholder.com/220x150?text=Lorem+3" alt="Lorem ipsum thumbnail three">
+        <img src="https://picsum.photos/200" alt="Lorem ipsum thumbnail three">
       </a>
     </li>
     <li>
       <a href="https://via.placeholder.com/900x600?text=Lorem+4" title="Incididunt ut labore">
-        <img src="https://via.placeholder.com/220x150?text=Lorem+4" alt="Lorem ipsum thumbnail four">
+        <img src="https://picsum.photos/200" alt="Lorem ipsum thumbnail four">
       </a>
     </li>
   </ul>

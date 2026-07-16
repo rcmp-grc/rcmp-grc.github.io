@@ -15,9 +15,10 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 <style>
-  .panel-careers
+  .panel-careers .panel-heading
   {
-   color: #f5d000;
+   background-color: #f5d000;
+   color: #000000;
   }
 </style>
 
@@ -95,7 +96,7 @@ custom_css: /assets/css/careers.css
   <section id="s3-1">
    <h3>Part&nbsp;A – Word meanings</h3>
     <p>Read the first word, then choose the option with the closest meaning.</p>
-    <section class="panel panel-careers">
+    <div class="panel panel-careers">
   <header class="panel-heading">
    <h4 class="h5 panel-title">Example</h5>
   </header>
@@ -110,11 +111,11 @@ custom_css: /assets/css/careers.css
       <li>I don't know</li>
     </ol>
     <details>
-      <summaary>Answer</summaary>
+      <summary>Answer</summary>
       <p>The correct answer is <strong>b. Happy</strong>.</p>
     </details>
   </div>
-</section>
+</div>
   <p><strong>Example: </strong></p>
     <p>Glad</p>
     <ol class="lst-lwr-alph">

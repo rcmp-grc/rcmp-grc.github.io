@@ -27,7 +27,7 @@ custom_css: /assets/css/careers.css
   }
   .panel-careers .panel-title
    {
-    font-size: .75em;
+    font-size: .95em;
    }
 </style>
 
@@ -109,7 +109,6 @@ custom_css: /assets/css/careers.css
    <h4 class="panel-title">Example</h4>
   </header>
   <div class="panel-body">
-  <h5>Question</h5>
   <p>Read the first word, then choose the option with the closest meaning.</p>
   <p><strong>Glad</strong></p>
     <ol class="lst-lwr-alph">

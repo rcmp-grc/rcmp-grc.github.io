@@ -178,27 +178,32 @@ custom_css: /assets/css/careers.css
    <section id="s5-1">
    <h3>Partie&nbsp;A – Rotation de formes en deux dimensions</h3>
      <p>Cette partie contient une série de questions sur les formes en deux dimensions. À chaque question, sélectionnez la lettre qui correspond à la forme encadrée. Vous aurez 3&nbsp;minutes pour répondre à la série de questions.</p>
-     <p><strong>Exemple</strong>&nbsp;:</p>
-<div class="well pull-right col-lg-6">
-  <figure>
-    <img alt="" class="img-responsive full-width" src="ex-1.png">
-  </figure>
-</div>
-<ol class="lst-lwr-alph">
-  <li>A</li>
-  <li>B</li>
-  <li>C</li>
-  <li>D</li>
-  <li>E</li>
-  <li>Je ne sais pas</li>
-</ol>
-<details class="rc-answer-toggle">
-  <summary class="rc-btn rc-btn--secondary">Voir la réponse</summary>
-  <div class="rc-info-panel show">
-    <p class="rc-info-panel__heading">Réponse</p>
-    <p>La bonne réponse est <strong>c. la forme&nbsp;C</strong>.</p>
-  </div>
-</details>
+    <p class="h2-line"><strong>Exemple</strong>&nbsp;:</p>
+    <div class="row">
+      <div class="col-md-6 col-lg-6">
+        <ol class="lst-lwr-alph">
+          <li>A</li>
+          <li>B</li>
+          <li>C</li>
+          <li>D</li>
+          <li>E</li>
+          <li>Je ne sais pas</li>
+        </ol>
+      </div>
+      <div class="col-md-6 col-lg-6">
+        <div class="well">
+          <figure>
+            <img alt="" class="img-responsive full-width" src="ex-1.png">
+          </figure>
+        </div>
+      </div>
+    </div>
+    <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">Voir la réponse</summary>
+      <div class="rc-info-panel show">
+        <p>La bonne réponse est <strong>c. la forme&nbsp;C</strong>.</p>
+      </div>
+    </details>
    </section>
   <section id="s5-2">
    <h3>Partie&nbsp;B – Formes en trois&nbsp;dimensions</h3>

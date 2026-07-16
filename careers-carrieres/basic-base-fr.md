@@ -129,48 +129,48 @@ custom_css: /assets/css/careers.css
   <h2>Galerie d'images</h2>
   <ul class="list-inline">
     <li>
-      <a href="https://picsum.photos/480/300?random=1" title="Lorem ipsum">
-        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=1">
+      <a href="https://loremflickr.com/600/400?random=1" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://loremflickr.com/175/175?random=1">
       </a>
     </li>
     <li>
-      <a href="https://picsum.photos/480/300?random=2" title="Lorem ipsum">
-        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=2">
+      <a href="https://loremflickr.com/600/400?random=2" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://loremflickr.com/175/175?random=2">
       </a>
     </li>
     <li>
-      <a href="https://picsum.photos/480/300?random=3" title="Lorem ipsum">
-        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=3">
+      <a href="https://loremflickr.com/600/400?random=3" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://loremflickr.com/175/175?random=3">
       </a>
     </li>
     <li>
-      <a href="https://picsum.photos/480/300?random=4" title="Lorem ipsum">
-        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=4">
+      <a href="https://loremflickr.com/600/400?random=4" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://loremflickr.com/175/175?random=4">
       </a>
     </li>
     <li>
-      <a href="https://picsum.photos/480/300?random=5" title="Lorem ipsum">
-        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=5">
+      <a href="https://loremflickr.com/600/400?random=5" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://loremflickr.com/175/175?random=5">
       </a>
     </li>
     <li>
-      <a href="https://picsum.photos/480/300?random=6" title="Lorem ipsum">
-        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=6">
+      <a href="https://loremflickr.com/600/400?random=6" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://loremflickr.com/175/175?random=6">
       </a>
     </li>
     <li>
-      <a href="https://picsum.photos/480/300?random=7" title="Lorem ipsum">
-        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=7">
+      <a href="https://loremflickr.com/600/400?random=7" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://loremflickr.com/175/175?random=7">
       </a>
     </li>
     <li>
-      <a href="https://picsum.photos/480/300?random=8" title="Lorem ipsum">
-        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=8">
+      <a href="https://loremflickr.com/600/400?random=8" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://loremflickr.com/175/175?random=8">
       </a>
     </li>
     <li>
-      <a href="https://picsum.photos/480/300?random=9" title="Lorem ipsum">
-        <img alt="Lorem ipsum" src="https://picsum.photos/175?random=9">
+      <a href="https://loremflickr.com/600/400?random=9" title="Lorem ipsum">
+        <img alt="Lorem ipsum" src="https://loremflickr.com/175/175?random=9">
       </a>
     </li>
   </ul>

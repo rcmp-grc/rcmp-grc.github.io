@@ -204,40 +204,54 @@ custom_css: /assets/css/careers.css
   <section id="s5-2">
    <h3>Partie&nbsp;B – Formes en trois&nbsp;dimensions</h3>
     <p>Cette partie contient une série de questions sur les formes en trois&nbsp;dimensions. À chaque question, sélectionnez la lettre qui correspond à la forme encadrée. Vous aurez 3&nbsp;minutes pour répondre à la série de questions.</p>
-     <p><strong>Exemple</strong>&nbsp;:</p>
-      <div class="well pull-right col-lg-6">
-        <figure>
-          <img alt="" class="img-responsive full-width" src="rpab-green-480x300.jpg">
-       </figure>
+    <p class="h2-line"><strong>Exemple</strong>&nbsp;:</p>
+    <div class="row">
+      <div class="col-md-6 col-lg-6">
+        <ol class="lst-lwr-alph">
+          <li>A</li>
+          <li>B</li>
+          <li>C</li>
+          <li>D</li>
+          <li>Je ne sais pas</li>
+        </ol>
       </div>
-     <ol class="lst-lwr-alph">
-      <li>A</li>
-      <li>B</li>
-      <li>C</li>
-      <li>D</li>
-      <li>Je ne sais pas</li>
-    </ol>
-     <p>La bonne réponse est <strong>d. la forme&nbsp;D</strong>.</p>
+      <div class="col-md-6 col-lg-6">
+        <figure>
+          <img alt="" class="img-responsive full-width" src="ex-2.png">
+        </figure>
+      </div>
+    </div>
+    <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">Voir la réponse</summary>
+      <p>La bonne réponse est <strong>d. la forme&nbsp;D</strong>.</p>
+    </details>
   </section>
   <section id="s5-3">
    <h3>Partie&nbsp;C – Mécanique</h3>
     <p>Cette partie contient une série de questions sur la mécanique. Vous aurez 4&nbsp;minutes pour répondre à la série de questions.</p>
-       <p><strong>Exemple</strong>&nbsp;:</p>
-     <div class="well pull-right col-lg-6">
-        <figure>
-      <img alt="" class="img-responsive full-width" src="rpab-grey-480x600.jpg">
-    </figure>
+    <p class="h2-line"><strong>Exemple</strong>&nbsp;:</p>
+    <div class="row">
+      <div class="col-md-6 col-lg-6">
+        <p>Lorsqu'on tire la poignée&nbsp;H vers la droite (comme le montre la flèche dans l'illustration ci-dessous), qu'arrive-t-il à l'extrémité&nbsp;E:</p>
+        <ol class="lst-lwr-alph">
+          <li>Elle se déplace vers la gauche</li>
+          <li>Elle se déplace vers la droite</li>
+          <li>Elle se déplace d'avant en arrière</li>
+          <li>Elle reste dans la même position</li>
+          <li>Je ne sais pas</li>
+        </ol>
       </div>
-    <p>Lorsqu'on tire la poignée&nbsp;H vers la droite (comme le montre la flèche dans l'illustration ci-dessous), qu'arrive-t-il à l'extrémité&nbsp;E:</p>
-     <ol class="lst-lwr-alph">
-      <li>Elle se déplace vers la gauche</li>
-      <li>Elle se déplace vers la droite</li>
-      <li>Elle se déplace d'avant en arrière</li>
-      <li>Elle reste dans la même position</li>
-      <li>Je ne sais pas</li>
-    </ol>
-     <p>La bonne réponse est <strong>a. Elle se déplace vers la gauche</strong>.</p>
-</section>
+      <div class="col-md-6 col-lg-6">
+        <figure>
+          <img alt="" class="img-responsive full-width" src="ex-3.png">
+        </figure>
+      </div>
+    </div>
+    <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">Voir la réponse</summary>
+      <p>La bonne réponse est <strong>a. Elle se déplace vers la gauche</strong>.</p>
+    </details>
+  </section>
   <section id="s5-4">
    <h3>Partie&nbsp;D – Prismes déconstruits</h3>
     <p>Cette partie contient une série de questions sur les prismes déconstruits. Vous aurez 5&nbsp;minutes pour répondre à la série de questions.</p>

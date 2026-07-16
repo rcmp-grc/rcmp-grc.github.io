@@ -17,7 +17,7 @@ custom_css: /assets/css/careers.css
 <style>
   .panel-careers
   {
-    
+   color: #f5d000;
   }
 </style>
 
@@ -97,10 +97,22 @@ custom_css: /assets/css/careers.css
     <p>Read the first word, then choose the option with the closest meaning.</p>
     <section class="panel panel-careers">
   <header class="panel-heading">
-   <h5 class="panel-title">...</h5>
+   <h4 class="h5 panel-title">Example</h5>
   </header>
   <div class="panel-body">
-   <p>...</p>
+  <p>Read the first word, then choose the option with the closest meaning.</p>
+  <p>Glad</p>
+    <ol class="lst-lwr-alph">
+      <li>Recite</li>
+      <li>Happy</li>
+      <li>Hopeless</li>
+      <li>Inappropriate</li>
+      <li>I don't know</li>
+    </ol>
+    <details>
+      <summaary>Answer</summaary>
+      <p>The correct answer is <strong>b. Happy</strong>.</p>
+    </details>
   </div>
 </section>
   <p><strong>Example: </strong></p>

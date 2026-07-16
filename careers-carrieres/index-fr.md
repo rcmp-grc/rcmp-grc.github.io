@@ -19,7 +19,7 @@ lang_url: index.html
   <a href="application-candidature-6-fr.html" class="list-group-item">Processus de recrutement des policiers et policières - Passez une enquête sur les antécédents et une évaluation de sécurité</a>
   <a href="application-candidature-fr.html" class="list-group-item">Processus de recrutement des policiers et policières</a>
   <a href="auxiliary-program-fr.html" class="list-group-item">Programme des auxiliaires</a>
-  <a href="basic-base-fr.html" class="list-group-item">Programme de formation des précadets autochtones</a>
+  <a href="basic-base-fr.html" class="list-group-item">Lorem Ipsum</a>
   <a href="basic-requirements-fr.html" class="list-group-item">Exigences de base pour devenir agent ou agente de la GRC</a>
   <a href="cadet-hub-fr.html" class="list-group-item">Centre des cadets de la GRC</a>
   <a href="career-paths-fr.html" class="list-group-item">Parcours professionnels pour les policiers</a>

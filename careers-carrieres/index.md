@@ -19,7 +19,7 @@ lang_url: index-fr.html
   <a href="application-candidature-6-en.html" class="list-group-item">Police officer application process - Complete a field investigation and security assessment</a>
   <a href="application-candidature-en.html" class="list-group-item">Police officer application process</a>
   <a href="auxiliary-program-en.html" class="list-group-item">Auxiliary Program</a>
-  <a href="basic-base-en.html" class="list-group-item">Indigenous Pre-Cadet Training Program</a>
+  <a href="basic-base-en.html" class="list-group-item">Lorem Ipsum</a>
   <a href="basic-requirements-en.html" class="list-group-item">Basic requirements to be an RCMP police officer</a>
   <a href="cadet-hub-en.html" class="list-group-item">RCMP Cadet Hub</a>
   <a href="career-paths-en.html" class="list-group-item">Career paths for police officers</a>

@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: Programme de formation des précadets autochtones
+title: Lorem Ipsum
 date_modified: 2026-07-09
 lang: fr
 lang_url: indigenous-pre-cadet-tp-en.html

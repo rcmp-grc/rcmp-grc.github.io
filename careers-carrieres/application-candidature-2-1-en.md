@@ -99,7 +99,7 @@ custom_css: /assets/css/careers.css
    
   <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="h5 panel-title">Example</h5>
+   <h4 class="h5 panel-title">Example</h4>
   </header>
   <div class="panel-body">
   <p>Read the first word, then choose the option with the closest meaning.</p>

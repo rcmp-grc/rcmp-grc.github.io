@@ -20,6 +20,10 @@ custom_css: /assets/css/careers.css
    background-color: #f5d000;
    color: #000000;
   }
+  .panel-careers .panel-body
+  {
+   border: 1px solid #f5d000;
+  }
 </style>
 
 <nav aria-label="Application process steps" class="gc-subway" data-sections-title="Steps">
@@ -95,11 +99,20 @@ custom_css: /assets/css/careers.css
 </ul>
   <section id="s3-1">
    <h3>Part&nbsp;A – Word meanings</h3>
-    <p>Read the first word, then choose the option with the closest meaning.</p>
-   
+    <--<p>Read the first word, then choose the option with the closest meaning.</p>
+   <p><strong>Example: </strong></p>
+    <p>Glad</p>
+    <ol class="lst-lwr-alph">
+      <li>Recite</li>
+      <li>Happy</li>
+      <li>Hopeless</li>
+      <li>Inappropriate</li>
+      <li>I don't know</li>
+    </ol>
+    <p>The correct answer is <strong>b. Happy</strong>.</p>-->
   <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="h5 panel-title">Example</h4>
+   <h5 class="panel-title">Example</h5>
   </header>
   <div class="panel-body">
   <p>Read the first word, then choose the option with the closest meaning.</p>
@@ -117,17 +130,6 @@ custom_css: /assets/css/careers.css
     </details>
   </div>
 </div>
-
-  <p><strong>Example: </strong></p>
-    <p>Glad</p>
-    <ol class="lst-lwr-alph">
-      <li>Recite</li>
-      <li>Happy</li>
-      <li>Hopeless</li>
-      <li>Inappropriate</li>
-      <li>I don't know</li>
-    </ol>
-    <p>The correct answer is <strong>b. Happy</strong>.</p>
 </section>
   <section id="s3-2">
    <h3>Part&nbsp;B – Word relationships</h3>

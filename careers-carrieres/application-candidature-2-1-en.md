@@ -221,7 +221,7 @@ custom_css: /assets/css/careers.css
      <p>You will be asked a series of questions related to 2D&nbsp;shapes. For each question, match the 2D shape with the outlined shape. You have 3&nbsp;minutes to complete the set of questions.</p>
   <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Sample question</h4>
+   <h4 class="panel-title">Example</h4>
   </header>
   <div class="panel-body">
  <p><strong>Question</strong>: Using the following image, which one of the 2D shapes A to E matches the outlined shape?</p> 

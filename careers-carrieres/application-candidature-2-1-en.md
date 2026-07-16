@@ -14,6 +14,12 @@ breadcrumbs:
     url: "careers-carrieres/application-candidature-en.html"
 custom_css: /assets/css/careers.css
 ---
+<style>
+  .panel-careers
+  {
+    
+  }
+</style>
 
 <nav aria-label="Application process steps" class="gc-subway" data-sections-title="Steps">
   <h2>Police officer application process</h2>
@@ -89,6 +95,14 @@ custom_css: /assets/css/careers.css
   <section id="s3-1">
    <h3>Part&nbsp;A – Word meanings</h3>
     <p>Read the first word, then choose the option with the closest meaning.</p>
+    <section class="panel panel-careers">
+  <header class="panel-heading">
+   <h5 class="panel-title">...</h5>
+  </header>
+  <div class="panel-body">
+   <p>...</p>
+  </div>
+</section>
   <p><strong>Example: </strong></p>
     <p>Glad</p>
     <ol class="lst-lwr-alph">

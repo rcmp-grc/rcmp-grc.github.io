@@ -192,7 +192,7 @@ custom_css: /assets/css/careers.css
       </div>
       <div class="col-md-6 col-lg-6">
         <figure>
-          <img alt="" class="img-responsive full-width" src="ex-1.png">
+          <img alt="" class="img-responsive full-width mrgn-bttm-md" src="ex-1.png">
         </figure>
       </div>
     </div>
@@ -217,7 +217,7 @@ custom_css: /assets/css/careers.css
       </div>
       <div class="col-md-6 col-lg-6">
         <figure>
-          <img alt="" class="img-responsive full-width" src="ex-2.png">
+          <img alt="" class="img-responsive full-width mrgn-bttm-md" src="ex-2.png">
         </figure>
       </div>
     </div>
@@ -243,7 +243,7 @@ custom_css: /assets/css/careers.css
       </div>
       <div class="col-md-6 col-lg-6">
         <figure>
-          <img alt="" class="img-responsive full-width" src="ex-3.png">
+          <img alt="" class="img-responsive full-width mrgn-bttm-md" src="ex-3.png">
         </figure>
       </div>
     </div>

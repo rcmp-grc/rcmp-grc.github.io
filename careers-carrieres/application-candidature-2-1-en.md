@@ -203,12 +203,14 @@ custom_css: /assets/css/careers.css
    <section id="s5-1">
    <h3>Part&nbsp;A – Rotating 2D&nbsp;shapes</h3>
      <p>You will be asked a series of questions related to 2D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3&nbsp;minutes to complete the set of questions.</p>
-     <p><strong>Example</strong>:</p>
-      <div class="well pull-right col-lg-6">
-        <figure>
-      <img alt="" class="img-responsive full-width" src="rpab-pink-480x300.jpg">
-    </figure>
-  </div>
+     <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h4 class="panel-title">Sample question</h4>
+  </header>
+  <div class="panel-body">
+  <div class="row wb-eqht">
+  <div class="col-md-6">
+    <p>Choose the letter that matches the shape displayed in the box.</p>
      <ol class="lst-lwr-alph">
       <li>A</li>
       <li>B</li>
@@ -217,7 +219,19 @@ custom_css: /assets/css/careers.css
       <li>E</li>
       <li>I don't know</li>
     </ol>
-     <p>The correct answer is <strong>c. shape&nbsp;C</strong>.</p>
+    <details>
+      <summary>Answer</summary>
+      <p>The correct answer is <strong>c. shape&nbsp;C</strong>.</p>
+    </details>
+  </div>
+  <div class="col-md-6">
+    <figure>
+      <img alt="" class="img-responsive full-width" src="rpab-pink-480x300.jpg">
+    </figure>
+  </div>
+</div>
+  </div>
+       <div class="clearfix"></div>
    </section>
   <section id="s5-2">
    <h3>Part&nbsp;B – 3D&nbsp;shapes</h3>

@@ -281,7 +281,7 @@ custom_css: /assets/css/careers.css
   <div class="row wb-eqht">
   <div class="col-md-6">
  <p>Using the following image, when handle&nbsp;H is pulled to the right, end&nbsp;E will:</p>   
-<p>Answer options are: <br>A - Move to the left, B - Move to the right, C - Move back and forth, D - Stay in the same position or I don't know</p>
+<p>Answer options are: <br>A, B, C, D or I don't know</p>
   </div>
   <div class="col-md-6">  
     <figure>

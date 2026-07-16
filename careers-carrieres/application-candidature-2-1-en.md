@@ -231,13 +231,13 @@ custom_css: /assets/css/careers.css
     <figure>
       <img alt="" class="img-responsive full-width" src="rpab-pink-480x300.jpg">
     </figure>
-  </div>
-  <details>
-      <summary>Answer</summary>
-      <p>The correct answer is <strong>c. shape&nbsp;C</strong>.</p>
-    </details>   
+  </div>   
 </div>
   </div>
+    <details>
+      <summary>Answer</summary>
+      <p>The correct answer is <strong>c. shape&nbsp;C</strong>.</p>
+    </details>
   </div>
        <div class="clearfix"></div>  
    </section>

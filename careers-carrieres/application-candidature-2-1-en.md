@@ -108,7 +108,7 @@ custom_css: /assets/css/careers.css
    <h4 class="panel-title">Sample question</h4>
   </header>
   <div class="panel-body">
-  <p>Read the first word, then fing the option with the closest meaning.</p>
+  <p>Read the first word, then identify the option with the closest meaning.</p>
   <p><strong>Glad</strong></p>
   <p>The answer options are:</p> 
   <p>A. Recite. B. Happy, C. Hopeless, D. Inappropriate or I don't know </p>
@@ -121,14 +121,14 @@ custom_css: /assets/css/careers.css
 </section>
   <section id="s3-2">
    <h3>Part&nbsp;B – Word relationships</h3>
-    <p>Note the relationship between the first pair of words. Select the option that forms a similar relationship to fill the blank. </p>
+    <p>Note the relationship between the first pair of words. Identify the option that forms a similar relationship. </p>
      <div class="panel panel-careers">
   <header class="panel-heading">
    <h4 class="panel-title">Sample question</h4>
   </header>
   <div class="panel-body">
     <p>Example: Tie - Rope</p>
-    <p>Cut-</p>
+    <p><strong>Cut</strong></p>
     <p>The answer options are:</p> 
     <p>A. Needle, B. Repair, C. Saw or D. Broken</p>
      <details class="rc-answer-toggle">
@@ -276,7 +276,7 @@ A, B, C, D, E or I don't know</p>
   <div class="row wb-eqht">
   <div class="col-md-6">
  <p>Using the following image, when handle&nbsp;H is pulled to the right, end&nbsp;E will:</p>   
-<p>Thw answer options are: <br>A. Move to the left, B. Move to the right, C. Move back and forth, D. Stay in the same position or I don't know</p>
+<p>The answer options are: <br>A. Move to the left, B. Move to the right, C. Move back and forth, D. Stay in the same position or I don't know</p>
   </div>
   <div class="col-md-6">  
     <figure>
@@ -302,7 +302,7 @@ A, B, C, D, E or I don't know</p>
     <div class="panel-body">
   <div class="row wb-eqht">
   <div class="col-md-6">
- <p>Using the following image, which one of the folded shapes represents the unfolded shape?</p>   
+ <p>Using the following image, which one of the folded shapes A to D represents the unfolded shape?</p>   
 <p>The answer options are: <br>A, B, C, D or I don't know</p>
   </div>
   <div class="col-md-6">  

@@ -16,7 +16,7 @@ issued: 2026-05-21
 	{
 	padding: 10px;
 	flex: 1;
-	border-top: 2px solid #70101d;
+	border-top: 2px solid var(--rcmp-gold);
 	background-color: #f9f9f9;	
     }
 	.badge-located
@@ -30,7 +30,7 @@ issued: 2026-05-21
 	.filters
 	{
 	background-color: #f2f2f2;
-	border-top: 2px solid #70101d;
+	border-top: 2px solid var(--rcmp-gold);
 	padding: 5px 15px 5px 15px;
 	}
 </style>
@@ -63,7 +63,7 @@ issued: 2026-05-21
          <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	  
           <div class="form-group wb-srch-qry"> 
           <label class="wb-inv" for="news-srch-q">Search RCMP news</label>
-          <input class="wb-srch-q form-control" maxlength="100" id="news-srch-q" name="q" placeholder="Search RCMP news" type="search" autocomplete="off" value="">	
+          <input class="wb-srch-q form-control" maxlength="75" id="news-srch-q" name="q" placeholder="Search RCMP news" type="search" autocomplete="off" value="">	
 		  </div>
           <div class="form-group submit">
             <button class="btn btn-primary" type="submit">

@@ -163,7 +163,7 @@ custom_css: /assets/css/careers.css
   <div class="panel-body">
      <p>8 + 7 = </p>
     <p>Answer options are:</p>
-     <p>A. 12, B. 13, C. 15, D. 16 or I don't know</p></li>
+     <p>A. 12, B. 13, C. 15, D. 16 or I don't know</p>
       <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
      <p>The correct answer is <strong>C. 15</strong>.</p>
@@ -198,6 +198,8 @@ custom_css: /assets/css/careers.css
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
      <p>The correct answer is <strong>C. 4</strong>.</p>
      </details>
+  </div>
+     </div>
    </section>
 </section>
 <section id="s5">
@@ -444,7 +446,7 @@ custom_css: /assets/css/careers.css
     <p>A. $300, B. $100, C. $200 or D. None of the above</p>
     <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
-     <p><p>The correct answer is <strong>b. $100</strong>.</p></p>
+     <p><p>The correct answer is <strong>B. $100</strong>.</p></p>
     </details>
   </div>
    </div>

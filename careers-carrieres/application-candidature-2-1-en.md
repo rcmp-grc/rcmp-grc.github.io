@@ -103,12 +103,13 @@ custom_css: /assets/css/careers.css
 </ul>
   <section id="s3-1">
    <h3>Part&nbsp;A – Word meanings</h3>
+    <p>>Read the first word, then identify the word with the closest meaning.</p>
   <div class="panel panel-careers">
   <header class="panel-heading">
    <h4 class="panel-title">Sample question</h4>
   </header>
   <div class="panel-body">
-  <p>Read the first word, then identify the word with the closest meaning to:<br><strong>Glad</strong></p>
+  <p>Identify the word with the closest meaning to:<br><strong>Glad</strong></p>
   <p>The answer options are:</p> 
   <p>A. Recite. B. Happy, C. Hopeless, D. Inappropriate or I don't know </p>
      <details class="rc-answer-toggle">

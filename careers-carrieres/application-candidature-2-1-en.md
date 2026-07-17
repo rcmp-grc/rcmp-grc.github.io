@@ -98,7 +98,7 @@ custom_css: /assets/css/careers.css
  <li>This section consists of two components: word meanings and word relationships</li>
  <li>You will have 5&nbsp;minutes to complete each component</li>
  <li>You will receive 1&nbsp;point for each correct answer</li>
- <li>You may skip questions. If you do not know the answer, please select "I don't know."</li>
+ <li>You may skip questions. If you do not know the answer, please answer "I don't know"</li>
  <li>There is a timer at the bottom of the page</li>
 </ul>
   <section id="s3-1">
@@ -146,7 +146,7 @@ custom_css: /assets/css/careers.css
     <li>Please complete as many questions as you can</li>
     <li>Answer each question to the best of your abilities</li>
     <li>You will receive 1&nbsp;point for each correct answer</li>
-    <li>You may skip questions. If you do not know the answer, please select "I don't know."</li>
+    <li>You may skip questions. If you do not know the answer, please answer "I don't know"</li>
     <li>Use only your knowledge, pen and paper when completing these questions. The use of calculators, computer software or input from others is not permitted</li>
     <li>There is a timer at the bottom of the page</li>
   </ul> 
@@ -207,7 +207,7 @@ A. 2, B. 3, C. 4, D. 0 or I don't know</p>
     <li>This section consists of four components: rotating 2D&nbsp;shapes; 3D&nbsp;shapes; mechanical problems and cubes and folding shapes</li>
     <li>Please complete as many questions as you can</li>
     <li>You will receive 1&nbsp;point for each correct answer</li>
-    <li>You can skip questions – please choose "I don't know" if you do not know the answer</li>
+    <li>You can skip questions – please answer "I don't know" if you do not know the answer</li>
     <li>There is a timer at the bottom of the page</li>
   </ul>
    <section id="s5-1">
@@ -331,7 +331,7 @@ A, B, C, D, E or I don't know</p>
     <li>You will have 1&nbsp;minute to review an image on the page. After reviewing the image, you will then proceed to a series of questions regarding the image you just saw</li>
     <li>You will have 45&nbsp;seconds to answer the associated questions</li>
     <li>You will receive 1&nbsp;point for each correct answer</li>
-    <li>You can skip questions. If you do not know the answer, please select "I don't know."</li>
+    <li>You can skip questions. If you do not know the answer, please answer "I don't know"</li>
     <li>Once the time limit has run out, you will advance to the next question automatically</li>
     <li>You may choose to proceed to the next section before the time limit is up</li>
   </ul>
@@ -344,7 +344,7 @@ A, B, C, D, E or I don't know</p>
   <div class="col-md-6">
     <p>Study this image of a group of objects; you have a 30-second time limit.</p>
     <p>What is the colour of the circle?</p>
-    <p>The answer options are:<br>A. Red, B. Green, C. Black, D. Orange or E. Blue</p>
+    <p>The answer options are:<br>A. Red, B. Green, C. Black, D. Orange, E. Blue or I don't know</p>
      </div>
   <div class="col-md-6">  
         <figure>
@@ -369,7 +369,7 @@ A, B, C, D, E or I don't know</p>
   <div class="panel-body">
      <p>Which direction is the wind coming from?</p>
     <p>The answer options are: <br>
-     A. Northeast, B. Northwest, C. Southeast, D. Southwest or E. The wind direction was not provided</p>
+     A. Northeast, B. Northwest, C. Southeast, D. Southwest, E. The wind direction was not provided or I don't know</p>
      <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
      <p>The correct answer is <strong>D. Southwest</strong>.</p>
@@ -383,7 +383,7 @@ A, B, C, D, E or I don't know</p>
   <div class="panel-body">  
          <p>What overnight temperature is predicted?</p>
     <p>The answer options are: <br> 
-     A. 22&nbsp;degrees, B. 23&nbsp;degrees, C. 25&nbsp;degrees, D. 26&nbsp;degrees or E. 2&nbsp;degrees</p>
+     A. 22&nbsp;degrees, B. 23&nbsp;degrees, C. 25&nbsp;degrees, D. 26&nbsp;degrees or E. 2&nbsp;degrees, or I don't know</p>
     <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
      <p>The correct answer is <strong>B. 23&nbsp;degrees</strong>.</p>
@@ -396,7 +396,7 @@ A, B, C, D, E or I don't know</p>
   <ul>
     <li>Answer each question to the best of your abilities</li>
     <li>This section should take 20-25&nbsp;minutes to complete</li>
-    <li>If you do not know the answer, please select "I don't know"</li>
+    <li>If you do not know the answer, please answer "I don't know"</li>
     <li>Use only your knowledge, paper and pen when completing these questions. The use of calculators, computer software or input from others is not permitted</li>
   </ul>
   <p>There is a timer at the bottom of the page.</p>
@@ -411,7 +411,7 @@ A, B, C, D, E or I don't know</p>
     <p>Identify the word that relates to: <br>
   <strong>Left</strong></p>
     <p>The answer options are: <br>
-     A. High, B. Right, C. Low or D. Above</p>
+     A. High, B. Right, C. Low,  D. Above or I don't know</p>
     <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
      <p>The correct answer is <strong>B. Right</strong>. In the example, “Up” and “Down” are opposites, so the correct answer is the opposite of “Left”, which is “Right”.</p>
@@ -425,7 +425,7 @@ A, B, C, D, E or I don't know</p>
     <div class="panel-body">  
     <p>A company policy states that all people at the factory must wear safety goggles. Visitors to the factory on Wednesday were not wearing safety goggles. Was the company policy broken on Wednesday?</p>
     <p>The answer options are: <br> 
-    A. Yes, B. It cannot be determined or C. No</p>
+    A. Yes, B. It cannot be determined, C. No or I don't know</p>
     <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
      <p>The correct answer is <strong>A. Yes</strong>.</p>
@@ -443,7 +443,7 @@ A, B, C, D, E or I don't know</p>
     <div class="panel-body">  
     <p>John made one sale of $100 and Betty made one sale of $200. What was the difference in sale between John and Betty?</p>
     <p>The answer options are: <br>
-    A. $300, B. $100, C. $200 or D. None of the above</p>
+    A. $300, B. $100, C. $200, D. None of the above or I don't know</p>
     <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
      <p><p>The correct answer is <strong>B. $100</strong>.</p></p>

@@ -408,7 +408,7 @@ A, B, C, D, E or I don't know</p>
    <h4 class="panel-title">Sample question&nbsp;1</h4>
   </header>
   <div class="panel-body">  
-    <p>Identify the word that makes That relates to: <br>
+    <p>Identify the word that relates to: <br>
   <strong>Left</strong></p>
     <p>The snswer options are: <br>
      A. High, B. Right, C. Low or D. Above</p>

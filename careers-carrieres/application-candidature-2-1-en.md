@@ -130,7 +130,7 @@ custom_css: /assets/css/careers.css
     <p>Identify the word that forms a relationship with:<br>
     <strong>Cut</strong></p>
     <p>The answer options are:<br> 
-    A. Needle, B. Repair, C. Saw or D. Broken</p>
+    A. Needle, B. Repair, C. Saw, D. Broken or I don't know</p>
      <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
     <p>The correct answer is <strong>C. Saw</strong>. You tie with a rope; you cut with a saw.</p>

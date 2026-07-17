@@ -410,7 +410,7 @@ A, B, C, D, E or I don't know</p>
   <div class="panel-body">  
     <p>Identify the word that relates to: <br>
   <strong>Left</strong></p>
-    <p>The snswer options are: <br>
+    <p>The answer options are: <br>
      A. High, B. Right, C. Low or D. Above</p>
     <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>

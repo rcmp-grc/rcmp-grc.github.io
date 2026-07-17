@@ -435,7 +435,7 @@ A, B, C, D, E or I don't know</p>
    </section>
   <section id="s7-2">
    <h3>Part&nbsp;B – Numerical reasoning</h3>
-     <p>This section consists of math word problems. Complete the questions by selecting the answer you think is correct</p>
+     <p>This section consists of math word problems. Complete the questions by selecting the answer you think is correct.</p>
       <div class="panel panel-careers">
   <header class="panel-heading">
    <h4 class="panel-title">Sample question</h4>

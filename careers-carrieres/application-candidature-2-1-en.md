@@ -121,7 +121,7 @@ custom_css: /assets/css/careers.css
 </section>
   <section id="s3-2">
    <h3>Part&nbsp;B – Word relationships</h3>
-    <p>Note the relationship between the first pair of words. Example: Tie - Rope. Identify the option that forms a similar relationship. </p>
+    <p>Note the relationship between this pair of words: Example: Tie - Rope. Identify the option that forms a similar relationship. </p>
      <div class="panel panel-careers">
   <header class="panel-heading">
    <h4 class="panel-title">Sample question</h4>

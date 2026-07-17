@@ -158,7 +158,7 @@ custom_css: /assets/css/careers.css
    <h4 class="panel-title">Sample question 1</h4>
   </header>
   <div class="panel-body">
-     <p>Find the answer to this math problem:<br>8 + 7 = </p>
+     <p>Find the answer to this math equation:<br>8 + 7 = </p>
     <p>The answer options are: <br>
     A. 12, B. 13, C. 15, D. 16 or I don't know</p>
       <details class="rc-answer-toggle">
@@ -172,7 +172,7 @@ custom_css: /assets/css/careers.css
    <h4 class="panel-title">Sample question 2</h4>
   </header>
   <div class="panel-body">    
-    <p>Find the answer to this math problem:<br>5 x 5 =</p>
+    <p>Find the answer to this math equation:<br>5 x 5 =</p>
     <p>The answer options are: <br>
    A. 10, B. 25, C. 36, D. 50 or I don't know</p>
       <details class="rc-answer-toggle">
@@ -190,7 +190,7 @@ custom_css: /assets/css/careers.css
    <h4 class="panel-title">Sample question</h4>
   </header>
   <div class="panel-body">  
-      <p>Find the answer to this math problem:<br>2 + 2 x 1 =</p>
+      <p>Find the answer to this math equation:<br>2 + 2 x 1 =</p>
     <p>The answer options are: <br>
 A. 2, B. 3, C. 4, D. 0 or I don't know</p>
      <details class="rc-answer-toggle">

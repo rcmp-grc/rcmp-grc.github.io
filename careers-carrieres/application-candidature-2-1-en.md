@@ -108,8 +108,7 @@ custom_css: /assets/css/careers.css
    <h4 class="panel-title">Sample question</h4>
   </header>
   <div class="panel-body">
-  <p>Read the first word, then identify the option with the closest meaning.</p>
-  <p><strong>Glad</strong></p>
+  <p>Read the first word, then identify the word with the closest meaning to:<br><strong>Glad</strong></p>
   <p>The answer options are:</p> 
   <p>A. Recite. B. Happy, C. Hopeless, D. Inappropriate or I don't know </p>
      <details class="rc-answer-toggle">
@@ -121,14 +120,14 @@ custom_css: /assets/css/careers.css
 </section>
   <section id="s3-2">
    <h3>Part&nbsp;B – Word relationships</h3>
-    <p>Note the relationship between the first pair of words. Identify the option that forms a similar relationship. </p>
+    <p>Note the relationship between the first pair of words. Example: Tie - Rope. Identify the option that forms a similar relationship. </p>
      <div class="panel panel-careers">
   <header class="panel-heading">
    <h4 class="panel-title">Sample question</h4>
   </header>
   <div class="panel-body">
-    <p>Example: Tie - Rope</p>
-    <p><strong>Cut</strong></p>
+    <p>Identify the word that forms a relationship with:<br>
+    <strong>Cut</strong></p>
     <p>The answer options are:</p> 
     <p>A. Needle, B. Repair, C. Saw or D. Broken</p>
      <details class="rc-answer-toggle">

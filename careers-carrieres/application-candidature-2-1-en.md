@@ -344,7 +344,7 @@ A, B, C, D, E or I don't know</p>
   <div class="col-md-6">
     <p>Study this image of a group of objects; you have a 30-second time limit.</p>
     <p>What is the colour of the circle?</p>
-    <p>The anser options are:<br>A. Red, B. Green, C. Black, D. Orange or E. Blue</p>
+    <p>The answer options are:<br>A. Red, B. Green, C. Black, D. Orange or E. Blue</p>
      </div>
   <div class="col-md-6">  
         <figure>

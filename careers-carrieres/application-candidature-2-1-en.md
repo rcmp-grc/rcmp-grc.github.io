@@ -446,7 +446,7 @@ A, B, C, D, E or I don't know</p>
     A. $300, B. $100, C. $200, D. None of the above or I don't know</p>
     <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
-     <p><p>The correct answer is <strong>B. $100</strong>.</p>
+     <p>The correct answer is <strong>B. $100</strong>.</p>
     </details>
   </div>
    </div>

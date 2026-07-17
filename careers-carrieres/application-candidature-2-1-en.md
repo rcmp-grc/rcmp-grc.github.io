@@ -337,7 +337,7 @@ A, B, C, D, E or I don't know</p>
   </ul>
   <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Sample question&nbsp;1</h4>
+   <h3 class="panel-title">Sample question&nbsp;1</h3>
   </header>
       <div class="panel-body">
   <div class="row wb-eqht">
@@ -364,7 +364,7 @@ A, B, C, D, E or I don't know</p>
   <p>After the time limit has elapsed, the screen will advance to a set of questions about the text. You will have 45&nbsp;seconds to answer the questions.</p>
   <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Sample question&nbsp;2a</h4>
+   <h3 class="panel-title">Sample question&nbsp;2a</h3>
   </header>
   <div class="panel-body">
      <p>Which direction is the wind coming from?</p>
@@ -378,7 +378,7 @@ A, B, C, D, E or I don't know</p>
   </div> 
    <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Sample question&nbsp;2b</h4>
+   <h3 class="panel-title">Sample question&nbsp;2b</h3>
   </header>
   <div class="panel-body">  
          <p>What overnight temperature is predicted?</p>

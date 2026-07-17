@@ -117,8 +117,8 @@ custom_css: /assets/css/careers.css
       <li>Inappropriate</li>
       <li>I don't know</li>
     </ol>
-    <details>
-      <summary>Answer</summary>
+     <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
       <p>The correct answer is <strong>b. Happy</strong>.</p>
     </details>
   </div>
@@ -136,7 +136,10 @@ custom_css: /assets/css/careers.css
       <li>Saw</li>
       <li>Broken</li>
     </ol>
+     <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
     <p>The correct answer is <strong>c. Saw</strong>. You tie with a rope; you cut with a saw.</p>
+     </details>
 </section>
 </section>
 <section id="s4">
@@ -158,17 +161,12 @@ custom_css: /assets/css/careers.css
    <h4 class="panel-title">Sample question 1</h4>
   </header>
   <div class="panel-body">
-     <p>8 + 7 =</p>
-     <ol class="lst-lwr-alph">
-      <li>12</li>
-      <li>13</li>
-      <li>15</li>
-      <li>16</li>
-      <li>I don't know</li>
-    </ol>
-     <details>
-      <summary>Answer</summary>
-     <p>The correct answer is <strong>c. 15</strong>.</p>
+     <p>8 + 7 = </p>
+    <p>Answer options are:</p>
+     <p>A. 12, B. 13, C. 15, D. 16 or I don't know</p></li>
+      <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
+     <p>The correct answer is <strong>C. 15</strong>.</p>
      </details>
   </div>
   </div>
@@ -178,16 +176,10 @@ custom_css: /assets/css/careers.css
   </header>
   <div class="panel-body">    
     <p>5 x 5 =</p>
-      <ol class="lst-lwr-alph">
-      <li>10</li>
-      <li>25</li>
-      <li>36</li>
-      <li>50</li>
-      <li>I don't know</li>
-    </ol>
-     <details>
-      <summary>Answer</summary>
-     <p>The correct answer is <strong>b. 25</strong>.</p>
+    <p>Answer options are: A. 10, B. 25, C. 36, D. 50 or I don't know</p>
+      <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
+     <p>The correct answer is <strong>B. 25</strong>.</p>
      </details>
   </div>   
   </div>
@@ -195,16 +187,17 @@ custom_css: /assets/css/careers.css
   <section id="s4-2">
    <h3>Part&nbsp;B – Level&nbsp;2 calculations</h3>
      <p>This part of the assessment draws on multiple skills, including addition, subtraction, multiplication and division. You will have 3&nbsp;minutes to complete the set of questions.</p>
-     <p><strong>Example</strong>:</p>
+     <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h4 class="panel-title">Sample question</h4>
+  </header>
+  <div class="panel-body">  
      <p>2 + 2 x 1 =</p>
-     <ol class="lst-lwr-alph">
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
-      <li>0</li>
-      <li>I don't know</li>
-    </ol>
-     <p>The correct answer is <strong>c. 4</strong>.</p>
+    <p>Answer options are: A. 2, B. 3, C. 4, D. 0 or I don't know</p>
+     <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
+     <p>The correct answer is <strong>C. 4</strong>.</p>
+     </details>
    </section>
 </section>
 <section id="s5">
@@ -281,7 +274,7 @@ custom_css: /assets/css/careers.css
   <div class="row wb-eqht">
   <div class="col-md-6">
  <p>Using the following image, when handle&nbsp;H is pulled to the right, end&nbsp;E will:</p>   
-<p>Answer options are: <br>A, B, C, D or I don't know</p>
+<p>Answer options are: <br>A. Move to the left, B. Move to the right, C. Move back and forth, D. Stay in the same position or I don't know</p>
   </div>
   <div class="col-md-6">  
     <figure>
@@ -340,44 +333,61 @@ custom_css: /assets/css/careers.css
     <li>Once the time limit has run out, you will advance to the next question automatically</li>
     <li>You may choose to proceed to the next section before the time limit is up</li>
   </ul>
-   <p><strong>Example&nbsp;1</strong>:</p>
-     <div class="well pull-right col-lg-6">
+  <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h4 class="panel-title">Sample question&nbsp;1</h4>
+  </header>
+      <div class="panel-body">
+  <div class="row wb-eqht">
+  <div class="col-md-6">
+    <p>Study this group of objects; you have a 30-second time limit.</p>
+    <p>Usig the following image, what is the colour of the circle?</p>
+    <p>A. Red, B. Green, C. Black, D. Orange or E. Blue</p>
+     </div>
+  <div class="col-md-6">  
         <figure>
       <img alt="" class="img-responsive full-width" src="ex-5.png ">
     </figure>
      </div>
-    <p>Study this group of objects; you have a 30-second time limit.</p>
-    <p>What colour is the circle?</p>
-     <ol class="lst-lwr-alph">
-      <li>Red</li>
-      <li>Green</li>
-      <li>Black</li>
-      <li>Orange</li>
-      <li>Blue</li>
-    </ol>
-     <p>The correct answer is <strong>c. Black</strong>.</p>
-  <p><strong>Example&nbsp;2</strong>:</p>
+ </div>
+    <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
+      <p>The correct answer is <strong>C. Black</strong>.</p>
+    </details>   
+    </div>
+    </div>
+       <div class="clearfix"></div> 
   <p>Read the weather report carefully; you have a 1-minute time limit.</p>
   <p>The forecast calls for cloudy skies today with a high of 35&nbsp;degrees and light winds from the southwest. Clearing overnight with a low of 23&nbsp;degrees.</p>
   <p>After the time limit has elapsed, the screen will advance to a set of questions about the text. You will have 45&nbsp;seconds to answer the questions.</p>
-  <p>Which direction is the wind coming from?</p>
-     <ol class="lst-lwr-alph">
-      <li>Northeast</li>
-      <li>Northwest</li>
-      <li>Southeast</li>
-      <li>Southwest</li>
-      <li>The wind direction was not provided</li>
-    </ol>
-     <p>The correct answer is <strong>d. Southwest</strong>.</p>
-     <p>What overnight temperature is predicted?</p>
-     <ol class="lst-lwr-alph">
-      <li>22&nbsp;degrees</li>
-      <li>23&nbsp;degrees</li>
-      <li>25&nbsp;degrees</li>
-      <li>26&nbsp;degrees</li>
-      <li>32&nbsp;degrees</li>
-    </ol>
-     <p>The correct answer is <strong>b. 23&nbsp;degrees</strong>.</p>
+  <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h4 class="panel-title">Sample question&nbsp;2a</h4>
+  </header>
+  <div class="panel-body">
+     <p>Which direction is the wind coming from?</p>
+    <p>Answer options are:</p>
+     <p>A. Northeast, B. Northwest, C. Southeast, D. Southwest or E. The wind direction was not provided</p>
+     <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
+     <p>The correct answer is <strong>D. Southwest</strong>.</p>
+     </details>
+  </div>
+  </div> 
+   <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h4 class="panel-title">Sample question&nbsp;2b</h4>
+  </header>
+  <div class="panel-body">  
+         <p>What overnight temperature is predicted?</p>
+    <p>Answer options are:</p> 
+    <p>A. 22&nbsp;degrees, B. 23&nbsp;degrees, C. 25&nbsp;degrees, D. 26&nbsp;degrees or E. 2&nbsp;degrees</p>
+    <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
+     <p>The correct answer is <strong>B. 23&nbsp;degrees</strong>.</p>
+    </details>
+  </div>
+   </div>
 </section>
 <section id="s7">
   <h2>Section&nbsp;6: Business reasoning</h2>
@@ -390,38 +400,54 @@ custom_css: /assets/css/careers.css
   <p>There is a timer at the bottom of the page.</p>
    <section id="s7-1">
    <h3>Part&nbsp;A – Verbal reasoning</h3>
-     <p>Choose the word that best fits the blank. Look at the first pair of words to see how they relate to each other and then choose the word that makes the second pair of words related in the same way.</p>
-     <p><strong>Example&nbsp;1</strong>:</p>
-     <p>Up: Down</p>
-      <p>Left:</p>
-     <ol class="lst-lwr-alph">
-      <li>High</li>
-      <li>Right</li>
-      <li>Low</li>
-      <li>Above</li>
-    </ol>
-     <p>The correct answer is <strong>b. Right</strong>. In the example, “Up” and “Down” are opposites, so the correct answer is the opposite of “Left”, which is “Right”.</p>
-     <p><strong>Example&nbsp;2</strong></p>
-     <p>A company policy states that all people at the factory must wear safety goggles. Visitors to the factory on Wednesday were not wearing safety goggles. Was the company policy broken on Wednesday?</p>
-     <ol class="lst-lwr-alph">
-      <li>Yes</li>
-      <li>It cannot be determined</li>
-      <li>No</li>
-    </ol>
-     <p>The correct answer is <strong>a. Yes</strong>.</p>
+     <p>Identify the word that best relates to the word provided. Look at the first pair of words to see how they relate to each other and then identify the word that makes the second pair of words related in the same way.</p>
+ <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h4 class="panel-title">Sample question&nbsp;1</h4>
+  </header>
+  <div class="panel-body">  
+    <p>Example: Up - Down</p>
+    <p>Left - </p>
+    <p>Answer options are:</p> 
+    <p>A. High, B. Right, C. Low or D. Above</p>
+    <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
+     <p>The correct answer is <strong>B. Right</strong>. In the example, “Up” and “Down” are opposites, so the correct answer is the opposite of “Left”, which is “Right”.</p>
+    </details>
+  </div>
+   </div>
+  <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h4 class="panel-title">Sample question&nbsp;2</h4>
+  </header>
+    <div class="panel-body">  
+    <p>A company policy states that all people at the factory must wear safety goggles. Visitors to the factory on Wednesday were not wearing safety goggles. Was the company policy broken on Wednesday?</p>
+    <p>Answer options are:</p> 
+    <p>A. Yes, B. It cannot be determined or C. No</p>
+    <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
+     <p>The correct answer is <strong>A. Yes</strong>.</p>
+    </details>
+  </div>
+   </div>
    </section>
   <section id="s7-2">
    <h3>Part&nbsp;B – Numerical reasoning</h3>
      <p>This section consists of math word problems. Complete the questions by selecting the answer you think is correct</p>
-      <p><strong>Example</strong>:</p>
-     <p>John made one sale of $100 and Betty made one sale of $200. What was the difference in sale between John and Betty?</p>
-     <ol class="lst-lwr-alph">
-      <li>$300</li>
-      <li>$100</li>
-      <li>$200</li>
-      <li>None of the above</li>
-    </ol>
-     <p>The correct answer is <strong>b. $100</strong>.</p>
+      <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h4 class="panel-title">Sample question</h4>
+  </header>
+    <div class="panel-body">  
+    <p>John made one sale of $100 and Betty made one sale of $200. What was the difference in sale between John and Betty?</p>
+    <p>Answer options are:</p> 
+    <p>A. $300, B. $100, C. $200 or D. None of the above</p>
+    <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
+     <p><p>The correct answer is <strong>b. $100</strong>.</p></p>
+    </details>
+  </div>
+   </div>
   </section>
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page" style="display: block;">

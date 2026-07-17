@@ -135,6 +135,8 @@ custom_css: /assets/css/careers.css
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
     <p>The correct answer is <strong>C. Saw</strong>. You tie with a rope; you cut with a saw.</p>
      </details>
+  </div>
+     </div>
 </section>
 </section>
 <section id="s4">

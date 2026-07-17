@@ -405,7 +405,7 @@ A, B, C, D, E or I don't know</p>
      <p>Identify the word that best relates to the word provided. View this pair of words to understand how they relate to each other: Up - Down. Identify the word that makes the following words relate in the same way.</p>
  <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Sample question&nbsp;1</h4>
+   <h3 class="panel-title">Sample question&nbsp;1</h4>
   </header>
   <div class="panel-body">  
     <p>Identify the word that relates to: <br>
@@ -446,7 +446,7 @@ A, B, C, D, E or I don't know</p>
     A. $300, B. $100, C. $200, D. None of the above or I don't know</p>
     <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
-     <p><p>The correct answer is <strong>B. $100</strong>.</p></p>
+     <p><p>The correct answer is <strong>B. $100</strong>.</p>
     </details>
   </div>
    </div>

@@ -402,7 +402,7 @@ A, B, C, D, E or I don't know</p>
   <p>There is a timer at the bottom of the page.</p>
    <section id="s7-1">
    <h3>Part&nbsp;A – Verbal reasoning</h3>
-     <p>Identify the word that best relates to the word provided. View this pair of words to understand how they relate to each other: Up - Down. Identify the word that makes the following words relate in the same way.</p>
+   <p>Identify the word that best relates to the word provided. View this pair of words to understand how they relate to each other: Up - Down. Identify the word that makes the following words relate in the same way.</p>
  <div class="panel panel-careers">
   <header class="panel-heading">
    <h4 class="panel-title">Sample question&nbsp;1</h4>

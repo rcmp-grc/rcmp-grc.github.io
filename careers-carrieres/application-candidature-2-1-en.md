@@ -342,8 +342,8 @@ A, B, C, D, E or I don't know</p>
       <div class="panel-body">
   <div class="row wb-eqht">
   <div class="col-md-6">
-    <p>Study this group of objects; you have a 30-second time limit.</p>
-    <p>Usig the following image, what is the colour of the circle?</p>
+    <p>Study this image of a group of objects; you have a 30-second time limit.</p>
+    <p>What is the colour of the circle?</p>
     <p>The anser options are:<br>A. Red, B. Green, C. Black, D. Orange or E. Blue</p>
      </div>
   <div class="col-md-6">  

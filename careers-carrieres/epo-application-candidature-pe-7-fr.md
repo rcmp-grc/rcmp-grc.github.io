@@ -37,7 +37,7 @@ custom_css: /assets/css/careers.css
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
   <div class="rcmp-content-page__previous" id="mp-previous-wrap">
-    <a aria-label="Étape précédente&#160;: Enquête sur le terrain et filtrage de sécurité" class="rcmp-content-page__link" href="epo-application-candidature-pe-5-fr.html" id="mp-previous">
+    <a aria-label="Étape précédente&nbsp;: Enquête sur le terrain et filtrage de sécurité" class="rcmp-content-page__link" href="epo-application-candidature-pe-5-fr.html" id="mp-previous">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i>
         <span class="rcmp-content-page__link-title">Étape précédente</span>

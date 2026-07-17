@@ -101,7 +101,7 @@ custom_css: /assets/css/careers.css
   <section id="s4-1">
     <h3>How do you pass the CTP?</h3>
     <p>You must meet a professional level of performance in all competencies to graduate. These standards will be provided to you as a cadet at the start of the CTP. They form the basis for self, peer and facilitator evaluations.</p>
-    <p>Continuous evaluation ensures that when competencies are not yet met, there is opportunity for a cadet to be reassigned to an earlier stage of training with a different troop. This helps strengthen key skills and supports successful progression. It means training may be longer than the original 26&#160;weeks.</p>
+    <p>Continuous evaluation ensures that when competencies are not yet met, there is opportunity for a cadet to be reassigned to an earlier stage of training with a different troop. This helps strengthen key skills and supports successful progression. It means training may be longer than the original 26&nbsp;weeks.</p>
   </section>
 </section>
 
@@ -121,7 +121,7 @@ custom_css: /assets/css/careers.css
   <section id="s5-2">
     <h3>Pay and benefits</h3>
     <ul>
-      <li>Cadets receive a $1,000&#160;weekly allowance while participating in the Cadet Training Program</li>
+      <li>Cadets receive a $1,000&nbsp;weekly allowance while participating in the Cadet Training Program</li>
       <li>We cover the cost of meals and accommodations, and you'll have access to onsite sports and recreation facilities throughout your training</li>
       <li>We cover transportation costs to the RCMP Academy for training and to your first detachment
         <ul>

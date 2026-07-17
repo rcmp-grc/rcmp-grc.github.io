@@ -36,31 +36,31 @@ custom_css: /assets/css/careers.css
     <li>Il s’agit de la plus ancienne division de la GRC. Depuis 1885, elle a formé des générations de gendarmes à servir les communautés partout au Canada.</li>
     <li>Le campus de la Division Dépôt est connu à l’échelle nationale; il comprend des salles de classe, des installations de conditionnement physique et des espaces de formation tactique.</li>
     <li>C’est une installation de formation dynamique et sécurisée dont l’accès est contrôlé.</li>
-    <li>Symbole de son enracinement dans la communauté, la Division Dépôt abrite le plus ancien bâtiment de Regina&#160;: la chapelle de la GRC.</li>
+    <li>Symbole de son enracinement dans la communauté, la Division Dépôt abrite le plus ancien bâtiment de Regina&nbsp;: la chapelle de la GRC.</li>
   </ul>
 </section>
 
 <section id="s2">
   <h2>Aperçu de la vie des cadets</h2>
   <ul>
-    <li><strong>Les cadets sont affectés à une troupe de 32&#160;membres</strong> aux origines diverses</li>
-    <li><strong>Chaque troupe fonctionne comme un collectif</strong>&#160;: les membres prennent leurs repas ensemble, se déplacent sur la base en groupe et en uniforme, et cohabitent</li>
+    <li><strong>Les cadets sont affectés à une troupe de 32&nbsp;membres</strong> aux origines diverses</li>
+    <li><strong>Chaque troupe fonctionne comme un collectif</strong>&nbsp;: les membres prennent leurs repas ensemble, se déplacent sur la base en groupe et en uniforme, et cohabitent</li>
     <li><strong>Le temps libre est limité durant la formation.</strong> La vie de cadet est faite de longues journées actives avec peu de temps libre
       <ul>
         <li>La formation se déroule généralement du lundi au vendredi. Les journées commencent tôt le matin et il y a des activités et des pratiques le soir et le week-end.</li>
         <li>Les jours fériés ne font pas exception, comme c’est le cas dans la vraie vie où les services de police fonctionnent 24 heures sur 24, 7 jours sur 7.</li>
       </ul>
     </li>
-    <li><strong>La formation est exigeante sur le plan physique</strong>&#160;: l’entraînement permet de développer sa force et son endurance au fil du temps. Une bonne condition physique facilite la transition.</li>
+    <li><strong>La formation est exigeante sur le plan physique</strong>&nbsp;: l’entraînement permet de développer sa force et son endurance au fil du temps. Une bonne condition physique facilite la transition.</li>
     <li><strong>Les cadets ont des rôles au sein de la troupe</strong>, tels que guide de droite, guide administratif, musicien dans l’orchestre de la Division Dépôt, agent de liaison, membres de comités et autres</li>
-    <li><strong>La formation est donnée toute l’année</strong>&#160;: les conditions météorologiques varient en Saskatchewan. Préparez-vous à affronter la chaleur, le froid, le vent, la pluie, la neige et plus encore.</li>
+    <li><strong>La formation est donnée toute l’année</strong>&nbsp;: les conditions météorologiques varient en Saskatchewan. Préparez-vous à affronter la chaleur, le froid, le vent, la pluie, la neige et plus encore.</li>
   </ul>
 </section>
 
 <section id="s3">
   <h2>La vie en troupe</h2>
-  <p>Pendant les six mois (26&#160;semaines) de leur formation, les cadets cohabitent avec leur troupe dans des dortoirs partagés. Apprendre à s’adapter à la vie en communauté et à rester organisé est un aspect important de la formation qui exige discipline et efficacité au quotidien.</p>
-  <p>Les dortoirs sont équipés de ce qui suit&#160;:</p>
+  <p>Pendant les six mois (26&nbsp;semaines) de leur formation, les cadets cohabitent avec leur troupe dans des dortoirs partagés. Apprendre à s’adapter à la vie en communauté et à rester organisé est un aspect important de la formation qui exige discipline et efficacité au quotidien.</p>
+  <p>Les dortoirs sont équipés de ce qui suit&nbsp;:</p>
   <ul>
     <li>un espace cuisine avec réfrigérateur, micro-ondes, évier et rangement pour les denrées;</li>
     <li>un espace de détente pour la collaboration et les pauses
@@ -73,7 +73,7 @@ custom_css: /assets/css/careers.css
     <li>un stand de tir à blanc, une salle de nettoyage des armes, une salle de repassage et une salle de cirage.</li>
   </ul>
   <h3>À quoi ressemble un espace de couchage</h3>
-  <p>Chaque cadet dispose d’un petit espace de vie individuel, qui comprend&#160;:</p>
+  <p>Chaque cadet dispose d’un petit espace de vie individuel, qui comprend&nbsp;:</p>
   <ul>
     <li>un lit à une place;</li>
     <li>un bureau et une chaise;</li>
@@ -92,7 +92,7 @@ custom_css: /assets/css/careers.css
         <li>Un menu varié et équilibré est proposé chaque semaine.</li>
         <li>La plupart des repas sont préparés à partir d’ingrédients frais.</li>
         <li>Le choix comprend des plats cuits à la vapeur, un comptoir à sandwichs, un buffet à salades et des produits de boulangerie.</li>
-        <li>Les plats proposés conviennent à diverses diètes et préférences alimentaires&#160;: casher, halal, sans gluten, végétarien, végétalien et autres.</li>
+        <li>Les plats proposés conviennent à diverses diètes et préférences alimentaires&nbsp;: casher, halal, sans gluten, végétarien, végétalien et autres.</li>
       </ul>
     </dd>
     <dt>Installations récréatives</dt>
@@ -106,7 +106,7 @@ custom_css: /assets/css/careers.css
 
 <section id="s5">
   <h2>Soutien à la Division Dépôt</h2>
-  <p>La formation à l’École de la GRC peut être une expérience intimidante, mais stimulante. Les cadets vivent loin de leur famille et de leurs amis pendant 6&#160;mois, avec de nouvelles personnes, de nouveaux défis, un horaire chargé, peu de temps libre et des attentes élevées.</p>
+  <p>La formation à l’École de la GRC peut être une expérience intimidante, mais stimulante. Les cadets vivent loin de leur famille et de leurs amis pendant 6&nbsp;mois, avec de nouvelles personnes, de nouveaux défis, un horaire chargé, peu de temps libre et des attentes élevées.</p>
   <p>La Division Dépôt dispose d’un réseau d’équipes et de services qui travaillent ensemble pour créer un environnement de formation sain, respectueux et sécuritaire pour les cadets.</p>
   <ul>
     <li><strong>le soutien personnel</strong> comprend un agent de liaison auprès des cadets, un travailleur social, le Centre indépendant de résolution du harcèlement, des aumôniers et un soutien spirituel, un médecin, des infirmières et un psychologue sur place</li>
@@ -120,7 +120,7 @@ custom_css: /assets/css/careers.css
   <h2>Conduite et attentes envers les cadets</h2>
   <dl>
     <dt>Valeurs fondamentales de la GRC</dt>
-    <dd>Les policiers et les cadets de la GRC doivent constamment incarner et démontrer les <a href="/fr/renseignements-organisationnels/valeurs-fondamentales-gendarmerie-royale-canada">valeurs fondamentales de la GRC</a>&#160;: assumer ses responsabilités, faire preuve de respect, servir avec excellence, faire preuve de compassion et agir avec intégrité, en service comme hors service.</dd>
+    <dd>Les policiers et les cadets de la GRC doivent constamment incarner et démontrer les <a href="/fr/renseignements-organisationnels/valeurs-fondamentales-gendarmerie-royale-canada">valeurs fondamentales de la GRC</a>&nbsp;: assumer ses responsabilités, faire preuve de respect, servir avec excellence, faire preuve de compassion et agir avec intégrité, en service comme hors service.</dd>
     <dt>Consommation d’alcool</dt>
     <dd>L’alcool n’est pas permis dans les dortoirs ni sur les balcons; sa consommation autorisée est limitée au Stand Easy Lounge, sur la base.</dd>
     <dt>Utilisation d’appareils personnels</dt>
@@ -132,7 +132,7 @@ custom_css: /assets/css/careers.css
 
 <section id="s7">
   <h2>La vie communautaire à Regina</h2>
-  <p>Regina est la capitale de la Saskatchewan. Elle est le domicile des Roughriders de la Saskatchewan, une équipe de la Ligue canadienne de football, et abrite l’un des plus grands parcs urbains d’Amérique du Nord, avec plus de 500&#160;000&#160;arbres plantés. Bordée de forêts denses, la Division Dépôt abrite une grande diversité d’espèces sauvages. Vous y verrez toutes sortes d’oiseaux, des bernaches du Canada, des lièvres d’Amérique, des canards et plus encore.</p>
+  <p>Regina est la capitale de la Saskatchewan. Elle est le domicile des Roughriders de la Saskatchewan, une équipe de la Ligue canadienne de football, et abrite l’un des plus grands parcs urbains d’Amérique du Nord, avec plus de 500&nbsp;000&nbsp;arbres plantés. Bordée de forêts denses, la Division Dépôt abrite une grande diversité d’espèces sauvages. Vous y verrez toutes sortes d’oiseaux, des bernaches du Canada, des lièvres d’Amérique, des canards et plus encore.</p>
   <p>Il y a de nombreuses commodités locales à découvrir, notamment des parcs, des sentiers pédestres et cyclables, des restaurants, des cinémas, des centres commerciaux, des musées, des lieux de culte, des marchés fermiers, ainsi que des activités artistiques et de divertissement. Les biens essentiels sont facilement accessibles grâce à de nombreuses épiceries et boutiques locales.</p>
   <p>Les options de transport comprennent le covoiturage commercial, les compagnies de taxi et les lignes d’autobus du transport en commun pour explorer la ville. L’aéroport international de Regina (YQR) est situé tout près du centre-ville, ce qui facilite les déplacements vers et hors de la ville.</p>
   <p>Les cadets ont l’occasion de tisser des liens avec la communauté en participant à des événements locaux organisés par la Division Dépôt, notamment les cérémonies du coucher du soleil, le Monument commémoratif national de la GRC, des soirées locales de littératie, ainsi que d’autres défilés et événements communautaires.</p>
@@ -144,7 +144,7 @@ custom_css: /assets/css/careers.css
     <li><a href="/fr/depot">Division Dépôt de la GRC</a></li>
     <li><a href="/fr/depot/visite-virtuelle">Visite virtuelle de la Division Dépôt</a></li>
     <li><a href="/fr/depot/mardis-formation">Mardis formation</a></li>
-    <li><a href="/fr/depot/journal-cadet/semaine-0">Introduction&#160;: Bienvenue à la Division Dépôt</a></li>
+    <li><a href="/fr/depot/journal-cadet/semaine-0">Introduction&nbsp;: Bienvenue à la Division Dépôt</a></li>
     <li><a href="/fr/depot/services-et-renseignements/evenements-division-depot">Événements à la Division Dépôt</a></li>
     <li><a href="/fr/carrieres-grc/carriere-policiere/exigences-physiques-pour-devenir-agent-ou-agente-grc">Exigences physiques pour devenir agent ou agente de la GRC</a></li>
   </ul>

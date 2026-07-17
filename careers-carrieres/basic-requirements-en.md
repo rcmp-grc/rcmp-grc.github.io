@@ -23,14 +23,14 @@ custom_css: /assets/css/careers.css
 <div id="expand-collapse">
   <details class="print-open mrgn-tp-md pddng-bttm-0">
     <summary>Be a Canadian citizen or have permanent resident status in Canada</summary>
-    <p>To apply, permanent residents must have lived in Canada for at least 1,095&#160;days (3&#160;years) during the past 5&#160;years.</p>
+    <p>To apply, permanent residents must have lived in Canada for at least 1,095&nbsp;days (3&nbsp;years) during the past 5&nbsp;years.</p>
     <p>The application process takes place in Canada. If you are a Canadian citizen living abroad, you will have to travel to Canada at your own expense for some parts of the process. If you have been living outside of Canada for an extended period time, it may be difficult to assess your suitability to move forward in the application process.</p>
     <p>RCMP police officers who are permanent residents may not qualify for certain roles that require a top secret security clearance or specific travel documents.</p>
     <p>To learn more about becoming a Canadian Citizen, visit the <a href="https://www.canada.ca/en/services/immigration-citizenship.html">Immigration and Citizenship section on Canada.ca</a>.</p>
   </details>
   <details class="print-open mrgn-tp-md pddng-bttm-0">
     <summary>Be at least 18 years of age to apply</summary>
-    <p>You can apply to the RCMP and begin the selection process and basic training at age 18. However, you must be at least 19&#160;years old to be hired as a police officer.</p>
+    <p>You can apply to the RCMP and begin the selection process and basic training at age 18. However, you must be at least 19&nbsp;years old to be hired as a police officer.</p>
     <p>There is no maximum age limit to apply to the RCMP.</p>
   </details>
   <details class="print-open mrgn-tp-md pddng-bttm-0">
@@ -54,7 +54,7 @@ custom_css: /assets/css/careers.css
   </details>
   <details class="print-open mrgn-tp-md pddng-bttm-0">
     <summary>Possess a valid standard first aid certificate</summary>
-    <p>You must have Level&#160;C CPR for infant, child and adult. The certification needs to be valid at the time of Depot enrollment and will be requested closer to the end of the recruitment process.</p>
+    <p>You must have Level&nbsp;C CPR for infant, child and adult. The certification needs to be valid at the time of Depot enrollment and will be requested closer to the end of the recruitment process.</p>
   </details>
   <details class="print-open mrgn-tp-md pddng-bttm-0">
     <summary>Meet the health and psychological standards</summary>
@@ -76,7 +76,7 @@ custom_css: /assets/css/careers.css
     <p>Police officers are required to maintain public order and safety, which includes carrying a firearm and using force when necessary. Officers often work in fast‑moving, high‑pressure situations where they must quickly assess risk and take appropriate action to protect the public, themselves, and their colleagues. This can involve using various levels of intervention, up to and including the use of force or a firearm when required by law and policy.</p>
   </details>
   <details class="print-open mrgn-tp-md pddng-bttm-0">
-    <summary>Be willing to spend 26&#160;weeks at the RCMP's training academy, Depot, in Regina, Saskatchewan</summary>
+    <summary>Be willing to spend 26&nbsp;weeks at the RCMP's training academy, Depot, in Regina, Saskatchewan</summary>
     <p>You are required to live at Depot while in training for the entire 26-week duration. You will also be required to do evening and weekend training activities.</p>
   </details>
   <details class="print-open mrgn-tp-md pddng-bttm-0">
@@ -90,7 +90,7 @@ custom_css: /assets/css/careers.css
   </details>
   <details class="print-open mrgn-tp-md pddng-bttm-0">
     <summary>Adhere to the standards for tattoos, jewelry and other personal effects</summary>
-    <p>Tattoos are permitted if they don't depict or incite hate, harassment, or discrimination against individuals based on the grounds listed in <a href="https://laws-lois.justice.gc.ca/eng/acts/H-6/page-1.html#s-3"><cite>Canadian Human Rights Act</cite>, section&#160;3</a>.</p>
+    <p>Tattoos are permitted if they don't depict or incite hate, harassment, or discrimination against individuals based on the grounds listed in <a href="https://laws-lois.justice.gc.ca/eng/acts/H-6/page-1.html#s-3"><cite>Canadian Human Rights Act</cite>, section&nbsp;3</a>.</p>
     <p>You may wear discreet personal effects on the body if they don't interfere with the effectiveness of personal protective equipment. Examples include glasses, watches, medical bracelets, jewelry, wedding bands, kangas, kirpans, karas, and medicine bags.</p>
   </details>
   <details class="print-open mrgn-tp-md pddng-bttm-0">

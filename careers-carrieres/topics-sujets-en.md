@@ -10,12 +10,12 @@ breadcrumbs:
   - label: "Police officer careers"
     url: "careers-carrieres/officer-agent-en.html"
 custom_css: /assets/css/careers.css
-hero_image: /assets/img/topics-sujets.jpg
+hero_image: /assets/img/landing-first-nations.jpg
 ---
 
 <p>The RCMP is committed to building a more inclusive and representative police service that reflects the strengths and diversity of First Nations, Inuit, and Métis communities across Canada.</p>
 <p>We are actively seeking Indigenous candidates who want to help keep communities safe. Honouring Indigenous cultures and ways of being are at the heart of the RCMP's mandate.</p>
-<p>We've created two programs to support Indigenous recruitment and retention. These efforts reinforce our mandate toward building a renewed relationship and trust with the approximately 600&#160;Indigenous communities we serve.</p>
+<p>We've created two programs to support Indigenous recruitment and retention. These efforts reinforce our mandate toward building a renewed relationship and trust with the approximately 600&nbsp;Indigenous communities we serve.</p>
 
 <section class="gc-features">
   <h2 class="wb-inv">Service and information</h2>

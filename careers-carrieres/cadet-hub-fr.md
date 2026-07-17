@@ -10,11 +10,11 @@ breadcrumbs:
   - label: "Carrières policières"
     url: "careers-carrieres/fr.html"
 custom_css: /assets/css/careers.css
-hero_image: /assets/img/topics-sujets.jpg
+hero_image: /assets/img/landing-cadet-hub.jpg
 ---
 
 <p>Bienvenue au Centre des cadets de la GRC. Vous trouverez ici tout ce que vous voulez savoir avant, pendant et après la formation à la Division Dépôt.</p>
-<p>Pendant leur séjour à la Division Dépôt, les cadets vivent une expérience collective que peu de gens peuvent comprendre&#160;: la vie à la Division Dépôt. Durant les six mois du Programme de formation des cadets, vous acquerrez les compétences nécessaires pour établir des relations avec les diverses communautés que nous servons au Canada. Le programme évolue continuellement pour cadrer avec les besoins des services de police de première ligne.</p>
+<p>Pendant leur séjour à la Division Dépôt, les cadets vivent une expérience collective que peu de gens peuvent comprendre&nbsp;: la vie à la Division Dépôt. Durant les six mois du Programme de formation des cadets, vous acquerrez les compétences nécessaires pour établir des relations avec les diverses communautés que nous servons au Canada. Le programme évolue continuellement pour cadrer avec les besoins des services de police de première ligne.</p>
 
 <section class="gc-features">
 	<h2 class="wb-inv">Topics</h2>
@@ -28,7 +28,7 @@ hero_image: /assets/img/topics-sujets.jpg
 		<li class="col-md-6">
 			<div class="well">
 				<h3 class="h5"><a href="#">Programme de formation des cadets</a></h3>
-				<p>Sachez à quoi vous attendre et préparez-vous à suivre le Programme de formation de 26&#160;:semaines.</p>
+				<p>Sachez à quoi vous attendre et préparez-vous à suivre le Programme de formation de 26&nbsp;:semaines.</p>
 			</div>
 		</li>
 		<li class="col-md-6">
@@ -46,7 +46,7 @@ hero_image: /assets/img/topics-sujets.jpg
 		<li class="col-md-6">
 			<div class="well">
 				<h3 class="h5"><a href="#">Journal d'un cadet</a></h3>
-				<p>Suivez un cadet dans son parcours de 26&#160;:semaines pour devenir gendarme.</p>
+				<p>Suivez un cadet dans son parcours de 26&nbsp;:semaines pour devenir gendarme.</p>
 			</div>
 		</li>
 		<li class="col-md-6">

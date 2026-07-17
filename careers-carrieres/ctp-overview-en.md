@@ -29,8 +29,8 @@ custom_css: /assets/css/careers.css
 
 <section id="s0">
   <h2 class="wb-inv">Introduction</h2>
-  <p>The Cadet Training Program (CTP) is built to prepare cadets for the realities of frontline policing in communities across Canada. Built around 6&#160;learning pillars that support community policing, the program combines academic, physical and practical training to equip cadets with the skills and foundation to be ready for their first post.</p>
-  <p>Preparation for the 6-month CTP begins before arrival at Depot and helps cadets settle in quickly and start training with confidence. Here you'll find an overview of the 6&#160;learning pillars you'll cover during the CTP.</p>
+  <p>The Cadet Training Program (CTP) is built to prepare cadets for the realities of frontline policing in communities across Canada. Built around 6&nbsp;learning pillars that support community policing, the program combines academic, physical and practical training to equip cadets with the skills and foundation to be ready for their first post.</p>
+  <p>Preparation for the 6-month CTP begins before arrival at Depot and helps cadets settle in quickly and start training with confidence. Here you'll find an overview of the 6&nbsp;learning pillars you'll cover during the CTP.</p>
 </section>
 
 <section id="s1">

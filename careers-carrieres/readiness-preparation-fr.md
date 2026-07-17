@@ -26,7 +26,7 @@ custom_css: /assets/css/careers.css
     <div class="rc-progress-bar-wrap" role="region" aria-label="Progression du questionnaire">
       <div class="rc-progress-meta">
         <span id="progress-text">Question <span id="current-question">1</span> sur <span id="total-questions">7</span></span>
-        <span id="progress-percent" aria-hidden="true">0&#160;%</span>
+        <span id="progress-percent" aria-hidden="true">0&nbsp;%</span>
       </div>
       <div class="rc-progress-track" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Achèvement du questionnaire" aria-valuetext="0 % terminé">
         <div class="rc-progress-fill" id="progress-fill"></div>

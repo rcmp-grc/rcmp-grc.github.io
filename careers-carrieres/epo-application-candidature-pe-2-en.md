@@ -38,7 +38,7 @@ custom_css: /assets/css/careers.css
           <a href="6509e.pdf" class="gc-pdf-link" download>
             <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
             <span>
-              <span class="gc-link-title">Regular Member Applicant Questionnaire (RCMP&#160;6509)</span>
+              <span class="gc-link-title">Regular Member Applicant Questionnaire (RCMP&nbsp;6509)</span>
               <span class="gc-link-meta" data-pdf-meta>PDF</span>
             </span>
           </a>
@@ -47,7 +47,7 @@ custom_css: /assets/css/careers.css
             <a href="1980e.pdf" class="gc-pdf-link" download>
               <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
               <span>
-                <span class="gc-link-title">Suitability Screening Form (RCMP&#160;1980)</span>
+                <span class="gc-link-title">Suitability Screening Form (RCMP&nbsp;1980)</span>
                 <span class="gc-link-meta" data-pdf-meta>PDF</span>
               </span>
             </a>
@@ -56,7 +56,7 @@ custom_css: /assets/css/careers.css
             <a href="6465e.pdf" class="gc-pdf-link" download>
               <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
               <span>
-                <span class="gc-link-title">Acknowledgement of Professional Responsibilities in the Royal Canadian Mounted Police (RCMP&#160;6465)</span>
+                <span class="gc-link-title">Acknowledgement of Professional Responsibilities in the Royal Canadian Mounted Police (RCMP&nbsp;6465)</span>
                 <span class="gc-link-meta" data-pdf-meta>PDF</span>
               </span>
             </a>
@@ -75,7 +75,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s3">
     <h2>Complete the vision and hearing exam</h2>
-    <p>Complete the following hearing and vision exams. You can submit your reports when they are requested. The results of these examinations will be valid for 2&#160;years. The costs for the vision and hearing exams are the responsibility of the applicant and will not be reimbursed.</p>
+    <p>Complete the following hearing and vision exams. You can submit your reports when they are requested. The results of these examinations will be valid for 2&nbsp;years. The costs for the vision and hearing exams are the responsibility of the applicant and will not be reimbursed.</p>
     <ul>
         <li><a href="#">Vision exam</a></li>
         <li><a href="#">Hearing exam</a></li>
@@ -89,9 +89,9 @@ custom_css: /assets/css/careers.css
         <li>social insurance number</li>
         <li>marriage, divorce, separation certificate </li>
         <li>name change certificate (if applicable)</li>
-        <li>2&#160;passport photos</li>
+        <li>2&nbsp;passport photos</li>
         <li>proof of education: Canadian high school transcript showing graduation, or equivalency assessment valid Canadian driver's license (front and back)</li>
-        <li>driving record from every province or territory that you have lived in for the last 3&#160;years provincial health card</li>
+        <li>driving record from every province or territory that you have lived in for the last 3&nbsp;years provincial health card</li>
     </ul>
 </section>
 <section id="s5">

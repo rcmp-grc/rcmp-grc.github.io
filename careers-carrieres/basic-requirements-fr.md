@@ -30,7 +30,7 @@ custom_css: /assets/css/careers.css
   </details>
   <details class="print-open mrgn-tp-md pddng-bttm-0" id="s1-2">
     <summary>Avoir au moins 18 ans au moment de poser votre candidature</summary>
-    <p>Une personne peut poser sa candidature à la GRC et commencer le processus de sélection et la formation de vase à l'âge de 18&#160;ans. Cependant, il faut avoir au moins 19&#160;ans pour être embauché comme policier.</p>
+    <p>Une personne peut poser sa candidature à la GRC et commencer le processus de sélection et la formation de vase à l'âge de 18&nbsp;ans. Cependant, il faut avoir au moins 19&nbsp;ans pour être embauché comme policier.</p>
     <p>Il n'y a pas de limite d'âge pour poser sa candidature à la GRC.</p>
   </details>
   <details class="print-open mrgn-tp-md pddng-bttm-0" id="s1-3">
@@ -77,8 +77,8 @@ custom_css: /assets/css/careers.css
     <p>Les policiers sont tenus de maintenir l'ordre et d'assurer la sécurité publique, ce qui comprend de porter une arme à feu et d'avoir recours à la force lorsque nécessaire. Ils travaillent souvent dans des situations très tendues qui évoluent rapidement où ils doivent évaluer vite les risques et prendre les mesures appropriées pour protéger le public et leurs collègues, et se protéger eux-mêmes. Différents niveaux d'intervention peuvent être nécessaires, jusqu'au recours à la force ou à une arme à feu lorsque la loi et les politiques l'exigent.</p>
   </details>
   <details class="print-open mrgn-tp-md pddng-bttm-0" id="s1-11">
-    <summary>Accepter de passer 26&#160;semaines à l'École de la GRC (Division Dépôt) à Regina, en Saskatchewan</summary>
-    <p>Vous devez vivre à la Division Dépôt pendant toute la durée de la formation de 26&#160;semaines. Vous devrez aussi participer à des activités de formation le soir et la fin de semaine.</p>
+    <summary>Accepter de passer 26&nbsp;semaines à l'École de la GRC (Division Dépôt) à Regina, en Saskatchewan</summary>
+    <p>Vous devez vivre à la Division Dépôt pendant toute la durée de la formation de 26&nbsp;semaines. Vous devrez aussi participer à des activités de formation le soir et la fin de semaine.</p>
   </details>
   <details class="print-open mrgn-tp-md pddng-bttm-0" id="s1-12">
     <summary>Accepter de travailler n'importe où au Canada</summary>
@@ -91,8 +91,8 @@ custom_css: /assets/css/careers.css
   </details>
   <details class="print-open mrgn-tp-md pddng-bttm-0" id="s1-14">
     <summary>Respecter les normes concernant les tatouages, les bijoux et autres effets personnels</summary>
-    <p>Les tatouages sont autorisés dans la mesure où ils n'incitent pas à la haine, au harcèlement ou à la discrimination d'individus aux motifs <a href="#">prévus à l'article&#160;3 de la <cite>Loi canadienne sur les droits de la personne</cite></a>.</p>
-    <p>Vous pouvez porter des effets personnels discrets sur vous s'ils n'entravent pas l'efficacité de l'équipement de protection individuelle. Exemples&#160;: Lunettes, montres-bracelets, bracelets médicaux, bijoux, anneaux de mariage, kangas, kirpans, karas et sacs de guérisseur.</p>
+    <p>Les tatouages sont autorisés dans la mesure où ils n'incitent pas à la haine, au harcèlement ou à la discrimination d'individus aux motifs <a href="#">prévus à l'article&nbsp;3 de la <cite>Loi canadienne sur les droits de la personne</cite></a>.</p>
+    <p>Vous pouvez porter des effets personnels discrets sur vous s'ils n'entravent pas l'efficacité de l'équipement de protection individuelle. Exemples&nbsp;: Lunettes, montres-bracelets, bracelets médicaux, bijoux, anneaux de mariage, kangas, kirpans, karas et sacs de guérisseur.</p>
   </details>
   <details class="print-open mrgn-tp-md pddng-bttm-0" id="s1-15">
     <summary>Comprendre les valeurs fondamentales de la GRC et être prêt ou prête à les défendre</summary>
@@ -116,7 +116,7 @@ custom_css: /assets/css/careers.css
 
 <section id="s2">
   <h2>Exigences légales avant de poser votre candidature</h2>
-  <p>Pour poser sa candidature à un poste de policier, une personne ne doit pas&#160;:</p>
+  <p>Pour poser sa candidature à un poste de policier, une personne ne doit pas&nbsp;:</p>
   <ul>
     <li>avoir fait l'objet d'une instance en suspens ou portée devant un tribunal pénal;</li>
     <li>avoir été déclarée coupable d'un acte criminel pour lequel elle n'a pas fait l'objet d'une réhabilitation ou d'une suspension du casier judiciaire;</li>

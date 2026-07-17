@@ -40,7 +40,7 @@ custom_css: /assets/css/careers.css
 
 <section id="s3">
   <h2>Requirements and training</h2>
-  <p>As a community constable, you must meet standards similar to those for regular members. We spend 23&#160;weeks training at the RCMP Academy (Depot) in Regina, Saskatchewan.</p>
+  <p>As a community constable, you must meet standards similar to those for regular members. We spend 23&nbsp;weeks training at the RCMP Academy (Depot) in Regina, Saskatchewan.</p>
 </section>
 
 <section id="s4">

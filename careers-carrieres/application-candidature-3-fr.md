@@ -39,7 +39,7 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 
-<p>Lorsqu'un analyste de recrutement aura communiqué avec vous, vous aurez jusqu'à 14&#160;jours pour remplir les formulaires, notamment la demande de filtrage de sécurité, et les transmettre, accompagnés des documents requis, dans le <a href="https://ssp-pfs.rcmp-grc.gc.ca/">portail en ligne sécurisé</a>.</p>
+<p>Lorsqu'un analyste de recrutement aura communiqué avec vous, vous aurez jusqu'à 14&nbsp;jours pour remplir les formulaires, notamment la demande de filtrage de sécurité, et les transmettre, accompagnés des documents requis, dans le <a href="https://ssp-pfs.rcmp-grc.gc.ca/">portail en ligne sécurisé</a>.</p>
 
 <section id="s1">
   <h2>Formulaires requis</h2>
@@ -48,7 +48,7 @@ custom_css: /assets/css/careers.css
       <a href="6509f.pdf" class="gc-pdf-link" download>
         <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
-          <span class="gc-link-title">Rapport de l'examen de l'audition du postulant m.r. (GRC&#160;6509)</span>
+          <span class="gc-link-title">Rapport de l'examen de l'audition du postulant m.r. (GRC&nbsp;6509)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
       </a>
@@ -57,7 +57,7 @@ custom_css: /assets/css/careers.css
       <a href="2180f.pdf" class="gc-pdf-link" download>
         <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
-          <span class="gc-link-title">Rapport de l'examen de la vue du postulant m.r. (GRC&#160;2180)</span>
+          <span class="gc-link-title">Rapport de l'examen de la vue du postulant m.r. (GRC&nbsp;2180)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
       </a>
@@ -66,7 +66,7 @@ custom_css: /assets/css/careers.css
       <a href="5096f.pdf" class="gc-pdf-link" download>
         <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
-          <span class="gc-link-title">Questionnaire du postulant à un poste de membre régulier (GRC&#160;5096)</span>
+          <span class="gc-link-title">Questionnaire du postulant à un poste de membre régulier (GRC&nbsp;5096)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
       </a>
@@ -75,7 +75,7 @@ custom_css: /assets/css/careers.css
       <a href="1980f.pdf" class="gc-pdf-link" download>
         <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
-          <span class="gc-link-title">Vérification de l'admissibilité (GRC&#160;1980)</span>
+          <span class="gc-link-title">Vérification de l'admissibilité (GRC&nbsp;1980)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
       </a>
@@ -84,7 +84,7 @@ custom_css: /assets/css/careers.css
       <a href="6465f.pdf" class="gc-pdf-link" download>
         <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
         <span>
-          <span class="gc-link-title">Attestation relative aux responsabilités professionnelles du membre de la Gendarmerie royale du Canada (GRC&#160;6465)</span>
+          <span class="gc-link-title">Attestation relative aux responsabilités professionnelles du membre de la Gendarmerie royale du Canada (GRC&nbsp;6465)</span>
           <span class="gc-link-meta" data-pdf-meta>PDF</span>
         </span>
       </a>
@@ -96,24 +96,24 @@ custom_css: /assets/css/careers.css
   <h2>Documents requis</h2>
   <p>Vous devez fournir une <strong>copie numérisée</strong> des documents <strong>originaux suivants</strong>. Nous n'acceptons pas les copies numérisées de photocopies de documents.</p>
   <ul>
-    <li>Si vous êtes né(e) au Canada&#160;: votre acte de naissance canadien (recto verso)</li>
-    <li>Si vous êtes né(e) à l'étranger&#160;: votre certificat de citoyenneté canadienne ou votre carte de résident permanent et la Confirmation de résidence permanente (document IMM&#160;5292) (s'il y a lieu)</li>
+    <li>Si vous êtes né(e) au Canada&nbsp;: votre acte de naissance canadien (recto verso)</li>
+    <li>Si vous êtes né(e) à l'étranger&nbsp;: votre certificat de citoyenneté canadienne ou votre carte de résident permanent et la Confirmation de résidence permanente (document IMM&nbsp;5292) (s'il y a lieu)</li>
     <li>Votre carte d'assurance sociale</li>
     <li>Votre certificat de mariage/divorce/séparation ou de changement de nom (s'il y a lieu)</li>
-    <li>Le document d'entente concernant la garde d'un&#160;enfant (s'il y a lieu)</li>
-    <li>Une&#160;photo de vous jusqu'aux épaules prise récemment</li>
-    <li>Une attestation d'études&#160;: relevé de notes canadien de l'école secondaire portant la mention «&#160;diplômé&#160;» ou attestation d'équivalence</li>
+    <li>Le document d'entente concernant la garde d'un&nbsp;enfant (s'il y a lieu)</li>
+    <li>Une&nbsp;photo de vous jusqu'aux épaules prise récemment</li>
+    <li>Une attestation d'études&nbsp;: relevé de notes canadien de l'école secondaire portant la mention «&nbsp;diplômé&nbsp;» ou attestation d'équivalence</li>
     <li>Votre permis de conduire canadien en cours de validité (recto verso)</li>
-    <li>Votre dossier de conduite dans chaque province ou territoire où vous avez vécu au cours des trois&#160;dernières&#160;années</li>
+    <li>Votre dossier de conduite dans chaque province ou territoire où vous avez vécu au cours des trois&nbsp;dernières&nbsp;années</li>
     <li>Votre carte de santé provinciale (recto et verso)</li>
-    <li>Votre certificat de secourisme général, incluant la RCR de niveau&#160;C pour bébé, enfant et adulte (qui doit être valable pendant toute la durée du Programme de formation des cadets que vous suivrez)</li>
+    <li>Votre certificat de secourisme général, incluant la RCR de niveau&nbsp;C pour bébé, enfant et adulte (qui doit être valable pendant toute la durée du Programme de formation des cadets que vous suivrez)</li>
     <li>Votre registre d'entraînement et le formulaire d'autodéclaration</li>
   </ul>
 </section>
 
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
   <div class="rcmp-content-page__previous" id="mp-previous-wrap">
-    <a aria-label="Étape précédente&#160;: Évaluation en ligne de la GRC Guide Préparatoire" class="rcmp-content-page__link" href="application-candidature-2-1-fr.html" id="mp-previous">
+    <a aria-label="Étape précédente&nbsp;: Évaluation en ligne de la GRC Guide Préparatoire" class="rcmp-content-page__link" href="application-candidature-2-1-fr.html" id="mp-previous">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i>
         <span class="rcmp-content-page__link-title">Étape précédente</span>
@@ -122,7 +122,7 @@ custom_css: /assets/css/careers.css
     </a>
   </div>
   <div class="rcmp-content-page__next" id="mp-next-wrap">
-    <a aria-label="Étape suivante&#160;: Marche à suivre pour remplir les formulaires" class="rcmp-content-page__link" href="application-candidature-3-1-fr.html" id="mp-next">
+    <a aria-label="Étape suivante&nbsp;: Marche à suivre pour remplir les formulaires" class="rcmp-content-page__link" href="application-candidature-3-1-fr.html" id="mp-next">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
         <span class="rcmp-content-page__link-title">Étape suivante</span>

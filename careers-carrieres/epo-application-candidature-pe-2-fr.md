@@ -38,7 +38,7 @@ custom_css: /assets/css/careers.css
         <a href="5096f.pdf" class="gc-pdf-link" download>
           <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
           <span>
-            <span class="gc-link-title">Questionnaire du postulant à un poste de membre régulier (GRC&#160;5096)</span>
+            <span class="gc-link-title">Questionnaire du postulant à un poste de membre régulier (GRC&nbsp;5096)</span>
             <span class="gc-link-meta" data-pdf-meta>PDF</span>
           </span>
         </a>
@@ -47,7 +47,7 @@ custom_css: /assets/css/careers.css
           <a href="1980f.pdf" class="gc-pdf-link" download>
             <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
             <span>
-              <span class="gc-link-title">Vérification de l'admissibilité (GRC&#160;1980)</span>
+              <span class="gc-link-title">Vérification de l'admissibilité (GRC&nbsp;1980)</span>
               <span class="gc-link-meta" data-pdf-meta>PDF</span>
             </span>
           </a>
@@ -56,7 +56,7 @@ custom_css: /assets/css/careers.css
           <a href="6465f.pdf" class="gc-pdf-link" download>
             <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
             <span>
-              <span class="gc-link-title">Attestation relative aux responsabilités professionnelles du membre de la Gendarmerie royale du Canada (GRC&#160;6465)</span>
+              <span class="gc-link-title">Attestation relative aux responsabilités professionnelles du membre de la Gendarmerie royale du Canada (GRC&nbsp;6465)</span>
               <span class="gc-link-meta" data-pdf-meta>PDF</span>
             </span>
           </a>
@@ -66,7 +66,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s2">
   <h2>Envoi du curriculum vitæ et de la lettre de présentation</h2>
-  <p>Consultez les consignes concernant la rédaction du curriculum vitæ structuré et des exemples de votre expérience policière à l'aide du modèle STAR&#160;::</p>
+  <p>Consultez les consignes concernant la rédaction du curriculum vitæ structuré et des exemples de votre expérience policière à l'aide du modèle STAR&nbsp;::</p>
   <ul>
       <li><a href="#">modèle STAR pour les curriculum vitae;</a></li>
       <li><a href="#">compétences des services généraux requises</a> selon le Dictionnaire des compétences de la GRC</li>
@@ -83,20 +83,20 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s4">
   <h2>Numérisation et envoi des pièces d'identité et documents essentiels</h2>
-  <p>Numérisez les documents originaux suivants et faites-les parvenir par courriel au coordonnateur du PPE&#160;::</p>
+  <p>Numérisez les documents originaux suivants et faites-les parvenir par courriel au coordonnateur du PPE&nbsp;::</p>
   <ul>
       <li>Acte de naissance canadien (recto verso), carte de citoyenneté canadienne ou de résident permanent, et Confirmation de résidence permanente (IMM 5292);</li>
       <li>Numéro d'assurance sociale;</li>
       <li>Certificat de mariage, de divorce ou de séparation (s'il y a lieu);</li>
       <li>Certificat de changement de nom (s'il y a lieu);</li>
       <li>Deux photos de passeport;</li>
-      <li>Attestation d'études&#160;:: relevé de notes canadien de l'école secondaire portant la mention «&#160;:diplômé&#160;:» ou attestation d'équivalence; permis de conduire canadien en cours de validité (recto verso);</li>
+      <li>Attestation d'études&nbsp;:: relevé de notes canadien de l'école secondaire portant la mention «&nbsp;:diplômé&nbsp;:» ou attestation d'équivalence; permis de conduire canadien en cours de validité (recto verso);</li>
       <li>Dossier de conduite dans chaque province ou territoire où vous avez vécu au cours des trois dernières années; carte de santé provinciale (recto et verso).</li>
   </ul>
 </section>
 <section id="s5">
   <h2>Transmission des documents et certificats requis</h2>
-  <p>Envoyez une copie des documents suivants par courriel au coordonnateur du PPE&#160;::</p>
+  <p>Envoyez une copie des documents suivants par courriel au coordonnateur du PPE&nbsp;::</p>
   <ul>    
   <li>Dossier disciplinaire;</li>
   <li>Certificat de formation policière de base;</li>
@@ -106,7 +106,7 @@ custom_css: /assets/css/careers.css
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
   <div class="rcmp-content-page__previous" id="mp-previous-wrap">
-    <a aria-label="Étape précédente&#160;: Manifestation de votre intérêt" class="rcmp-content-page__link" href="epo-application-candidature-pe-1-fr.html" id="mp-previous">
+    <a aria-label="Étape précédente&nbsp;: Manifestation de votre intérêt" class="rcmp-content-page__link" href="epo-application-candidature-pe-1-fr.html" id="mp-previous">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i>
         <span class="rcmp-content-page__link-title">Étape précédente</span>
@@ -115,7 +115,7 @@ custom_css: /assets/css/careers.css
     </a>
   </div>
   <div class="rcmp-content-page__next" id="mp-next-wrap">
-    <a aria-label="Étape suivante&#160;: Présenter une candidature à titre de policier ou policière d'expérience" class="rcmp-content-page__link" href="epo-application-candidature-pe-2-1-fr.html" id="mp-next">
+    <a aria-label="Étape suivante&nbsp;: Présenter une candidature à titre de policier ou policière d'expérience" class="rcmp-content-page__link" href="epo-application-candidature-pe-2-1-fr.html" id="mp-next">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
         <span class="rcmp-content-page__link-title">Étape suivante</span>

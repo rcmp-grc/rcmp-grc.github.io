@@ -28,8 +28,8 @@ custom_css: /assets/css/careers.css
 		<li><a href="#s2">Coûts</a></li>
 		<li><a href="#s3">Comment poser votre candidature</a></li>
 		<li><a href="#s4">Expériences de participants</a></li>
-		<li><a href="#s5">Journée d'initiative pour les jeunes au Programme ECDI&#160;: une première édition réussie </a></li>
-		<li><a href="#s6">Briser les barrières&#160;: Le sénateur Baltej Dhillon rencontre la troupe du Programme ECDI </a></li>
+		<li><a href="#s5">Journée d'initiative pour les jeunes au Programme ECDI&nbsp;: une première édition réussie </a></li>
+		<li><a href="#s6">Briser les barrières&nbsp;: Le sénateur Baltej Dhillon rencontre la troupe du Programme ECDI </a></li>
 	</ul>
 </nav>
 <p>Le Programme d'expérience précadet diversifié et inclusif (ECDI) est une nouvelle initiative de recrutement et de maintien de l'effectif visant à éliminer les obstacles auxquels se heurtent les personnes de groupes racisés et sous-représentés qui souhaitent devenir membres de la GRC.</p>
@@ -39,12 +39,12 @@ custom_css: /assets/css/careers.css
 	<li>Individus issus de diverses ethnicités/groupe ethnique et communautés</li>
 	<li>Personnes faisant partie de l'un des groupes visés par l'équité en matière d'emploi</li>
 </ul>
-<p>Le Programme d'expérience précadet diversifié et inclusif comporte deux volets&#160;:</p>
+<p>Le Programme d'expérience précadet diversifié et inclusif comporte deux volets&nbsp;:</p>
 <ol>
 	<li>Le postulant est jumelé à un mentor de la GRC, qui lui offrira un soutien et des conseils en vue d'une possible carrière à la GRC. Les mentors aideront les postulants dans le cadre du processus de candidature du Programme d'expérience précadet diversifié et inclusif, les encadreront pendant la formation et les orienteront au moment de préparer leur candidature s'ils décident de postuler pour devenir policiers.</li>
 	<li>Le Programme consiste également en une formation de trois semaines donnée à l'École de la GRC (Division Dépôt), située à Regina, en Saskatchewan. Cette formation sera offerte aux postulants désignés comme étant susceptibles de bénéficier le plus de l'expérience.</li>
 </ol>
-<p>Vous apprendrez&#160;:</p>
+<p>Vous apprendrez&nbsp;:</p>
 <ul>
 	<li>comment travailler dans une équipe policière;</li>
 	<li>des notions élémentaires sur le <cite>Code criminel</cite> et les politiques de la GRC;</li>
@@ -146,9 +146,9 @@ custom_css: /assets/css/careers.css
 	</blockquote>
 </section>
 <section id="s5">
-	<h2>Journée d'initiation pour les jeunes au Programme ECDI&#160;: une première édition réussie </h2>
-	<p>Le 2&#160;avril, le Secrétariat de la lutte contre le racisme, de l'équité, de la diversité et de l'inclusion (SLREDI) de la GRC, en partenariat avec le Conseil scolaire du district d'Ottawa-Carleton et le Centre Sankofa, a tenu la toute première journée pour les jeunes du Programme d'expérience précadet diversifié et inclusif (ECDI) au Collège canadien de police.</p>
-	<p>Cette première édition de l'événement, qui a attiré 35&#160;élèves du secondaire âgés de 15 à 18&#160;ans de divers horizons, avait pour objectif d'offrir une initiation pratique au travail policier et au service public.</p>
+	<h2>Journée d'initiation pour les jeunes au Programme ECDI&nbsp;: une première édition réussie </h2>
+	<p>Le 2&nbsp;avril, le Secrétariat de la lutte contre le racisme, de l'équité, de la diversité et de l'inclusion (SLREDI) de la GRC, en partenariat avec le Conseil scolaire du district d'Ottawa-Carleton et le Centre Sankofa, a tenu la toute première journée pour les jeunes du Programme d'expérience précadet diversifié et inclusif (ECDI) au Collège canadien de police.</p>
+	<p>Cette première édition de l'événement, qui a attiré 35&nbsp;élèves du secondaire âgés de 15 à 18&nbsp;ans de divers horizons, avait pour objectif d'offrir une initiation pratique au travail policier et au service public.</p>
 	<p>Les participants ont commencé leur journée au Centre des visiteurs de la GRC, puis ont fait une visite des écuries, où ils ont été captivés par les célèbres chevaux du Carrousel. Ils ont ensuite assisté à trois exposés dynamiques de membres du SLREDI, de la Police fédérale et de la Police de protection. Les élèves ont également eu l'occasion de rencontrer des membres de l'équipe d'intervention en cas d'incident chimique, biologique, radiologique, nucléaire et explosif (CBRNE), qui leur ont présenté des outils et de l'équipement spécialisés, y compris un robot de neutralisation de bombes.</p>
 	<p>Enfin, les jeunes ont pu découvrir les coulisses d'un entraînement du Carrousel de la GRC, après quoi la journée s'est conclue par une séance de mise en forme interactive dirigée par deux membres de l'équipe de la condition physique du QGN, où les participants ont eu un pu avoir un aperçu concret des exigences physiques d'une carrière policière.</p>
 	<p>Ayant connu un franc succès, la première édition de la Journée d'initiation pour les jeunes du Programme ECDI a permis de promouvoir l'inclusion en plus de susciter la curiosité chez les jeunes participants et de les amener à explorer des possibilités de carrière à la GRC.</p>
@@ -192,7 +192,7 @@ custom_css: /assets/css/careers.css
 	<div class="clearfix"></div>
 </section>
 <section id="s6">
-	<h2>Briser les barrières&#160;: Le sénateur Baltej Dhillon rencontre la troupe du Programme ECDI </h2>
+	<h2>Briser les barrières&nbsp;: Le sénateur Baltej Dhillon rencontre la troupe du Programme ECDI </h2>
 	<div class="pull-right col-xs-12 col-md-3 col-lg-4">
 		<div class="well col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-12">
 			<figure>
@@ -202,7 +202,7 @@ custom_css: /assets/css/careers.css
 		</div>
 	</div>
 	<p>Le sénateur Baltej Dhillon est un ancien policier, un dirigeant communautaire et un défenseur de longue date de la diversité et de l'inclusion. Son parcours, depuis le moment où il est devenu le premier agent de la GRC à porter le turban jusqu'à son engagement au service des Canadiens au Sénat, est vraiment inspirant.</p>
-	<p>En 1991, le sénateur Dhillon a été le premier agent de la GRC autorisé à porter un turban dans l'exercice de ses fonctions, défendant son droit de pratiquer sa religion tout en servant le Canada. Il a ensuite mené une brillante carrière de 30&#160;ans à la GRC, contribuant à promouvoir une plus grande inclusion au sein de l'organisation.</p>
+	<p>En 1991, le sénateur Dhillon a été le premier agent de la GRC autorisé à porter un turban dans l'exercice de ses fonctions, défendant son droit de pratiquer sa religion tout en servant le Canada. Il a ensuite mené une brillante carrière de 30&nbsp;ans à la GRC, contribuant à promouvoir une plus grande inclusion au sein de l'organisation.</p>
 	<p>En mai dernier, le sénateur Dhillon a visité l'École de la GRC pour y rencontrer la troupe du Programme d'expérience précadet diversifié et inclusif (ECDI) qui entamait sa formation de trois semaines. Il a noué des liens avec les participants et les mentors et a observé plusieurs activités de formation, notamment celles consacrées aux exercices et au maintien ainsi qu'à la condition physique des policiers, qui mettent l'accent sur la discipline, la confiance en soi et la préparation physique.</p>
 	<p>L'histoire de Baltej Dhillon relève du courage et de la persévérance. Non seulement a-t-il brisé des barrières, mais il a su rassembler les gens et démontrer que la foi, l'identité et le service à la collectivité peuvent aller de pair. Rencontrer une personne qui a contribué à façonner un avenir plus inclusif a été une expérience enrichissante et motivante pour les participants au Programme ECDI, et cela leur a rappelé que le leadership et la conviction peuvent être à l'origine de changements durables.</p>
 	<div class="wb-eqht wb-init">

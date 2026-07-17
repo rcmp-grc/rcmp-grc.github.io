@@ -24,7 +24,7 @@ custom_css: /assets/css/careers.css
 <p>Being an RCMP police officer gives you access to a world of opportunity, adventure and growth. There are many benefits, both in terms of salary and lifestyle.</p>
 <section id="s1">
   <h2>Cadet recruitment allowance</h2>
-  <p>Cadets receive an allowance during the 26-week training program at the RCMP's training academy, Depot. The current cadet recruitment allowance is $1,000/week. The maximum cadet recruitment allowance payable is $26,000 for the 26-week training period, to be paid on a bi-weekly basis, that is $2,000 every two&#160;weeks.</p>
+  <p>Cadets receive an allowance during the 26-week training program at the RCMP's training academy, Depot. The current cadet recruitment allowance is $1,000/week. The maximum cadet recruitment allowance payable is $26,000 for the 26-week training period, to be paid on a bi-weekly basis, that is $2,000 every two&nbsp;weeks.</p>
   <p>The RCMP also covers the cost of accommodations, uniform, training courses, insurance and travel to and from Depot in Regina, Saskatchewan.</p>
   <p>Cadets are required to follow the RCMP Core Values: Acting with Integrity, Showing Respect, Demonstrating Compassion, Taking Responsibility, and Serving with Excellence at all times while in training. Cadets whose training contracts are terminated because of core values violations or Probationary Members who leave the RCMP during the two-year probationary period for Code of Conduct violations or to join another police service will be required to repay the full cadet recruitment allowance received from the day they started the training.</p>
 </section>
@@ -33,31 +33,31 @@ custom_css: /assets/css/careers.css
   <p>All pay rates, benefits and leave allowances for RCMP officers (below the rank of inspector) are listed in the <a href="https://www.canada.ca/en/treasury-board-secretariat/topics/pay/collective-agreements/rm.html">RCMP Regular Members and Reservists Collective Agreement</a>.</p> 
   <section id="s2-1">
     <h3>Rates of pay for constables</h3>
-    <p>When you successfully complete the <a href="/en/depot/services-and-information/cadet-training-program">Cadet Training Program</a> and have been offered employment, you will be hired as a constable starting at step&#160;1 of the annual pay rate. Usually, within 36&#160;months of service, you will reach step&#160;5 of the annual pay rate.</p>
-    <p>As of April 1, 2024, the 5&#160;steps in the annual rates of pay for constables are:</p>
+    <p>When you successfully complete the <a href="/en/depot/services-and-information/cadet-training-program">Cadet Training Program</a> and have been offered employment, you will be hired as a constable starting at step&nbsp;1 of the annual pay rate. Usually, within 36&nbsp;months of service, you will reach step&nbsp;5 of the annual pay rate.</p>
+    <p>As of April 1, 2024, the 5&nbsp;steps in the annual rates of pay for constables are:</p>
     <ul>
-      <li>Step&#160;1: $71,191</li>
-      <li>Step&#160;2: $92,497</li>
-      <li>Step&#160;3: $100,356</li>
-      <li>Step&#160;4: $108,220</li>
-      <li>Step&#160;5: $115,350</li>
+      <li>Step&nbsp;1: $71,191</li>
+      <li>Step&nbsp;2: $92,497</li>
+      <li>Step&nbsp;3: $100,356</li>
+      <li>Step&nbsp;4: $108,220</li>
+      <li>Step&nbsp;5: $115,350</li>
     </ul>
   </section>
   <section id="s2-2">
     <h3>Vacation leave</h3>
     <ul>
-      <li>0 to 5&#160;years of service = 15&#160;days per year</li>
-      <li>5 to 10&#160;years of service = 20&#160;days per year</li>
-      <li>10 to 22&#160;years of service = 25&#160;days per year</li>
-      <li>23+&#160;years of service = 30&#160;days per year</li>
+      <li>0 to 5&nbsp;years of service = 15&nbsp;days per year</li>
+      <li>5 to 10&nbsp;years of service = 20&nbsp;days per year</li>
+      <li>10 to 22&nbsp;years of service = 25&nbsp;days per year</li>
+      <li>23+&nbsp;years of service = 30&nbsp;days per year</li>
     </ul>
   </section>
   <section id="s2-3">
     <h3>Pension plan</h3>
     <ul>
-      <li>20&#160;years service: retirement with penalty</li>
-      <li>25&#160;years service: full pension</li>
-      <li>35&#160;years service: maximum pension</li>
+      <li>20&nbsp;years service: retirement with penalty</li>
+      <li>25&nbsp;years service: full pension</li>
+      <li>35&nbsp;years service: maximum pension</li>
     </ul>
     <p>If you already have a Canadian registered pension plan, you may be able to transfer it to the RCMP Pension Plan.</p>
     <p>Learn more about the <a href="https://rcmp-grc.pension.gc.ca/accueil-home-eng.html">Pension and benefits plan for the Royal Canadian Mounted Police</a>.</p>

@@ -32,21 +32,21 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 <section id="s1">
-  <p>Vous devrez obtenir l'autorisation de votre médecin pour effectuer le test. Il devra remplir le formulaire de la norme physique relative à l'emploi&#160;::</p>
+  <p>Vous devrez obtenir l'autorisation de votre médecin pour effectuer le test. Il devra remplir le formulaire de la norme physique relative à l'emploi&nbsp;::</p>
   <ul class="gc-link-list" role="list">
       <li>
         <a href="6627f.pdf" class="gc-pdf-link" download>
           <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
           <span>
-            <span class="gc-link-title">La norme physique relative à l'emploi (NPRL) (GRC&#160;6627)</span>
+            <span class="gc-link-title">La norme physique relative à l'emploi (NPRL) (GRC&nbsp;6627)</span>
             <span class="gc-link-meta" data-pdf-meta>PDF</span>
           </span>
         </a>
       </li>
   </ul>
   <p>Vous pourrez ensuite planifier le Test de condition physique pour les policiers avec votre coordonnateur du PPE.</p>
-  <p>Vous devrez réussir la version «&#160;:Terrain&#160;:» du Test de condition physique pour les policiers de la GRC; ce test est effectué en portant l'uniforme de police des services généraux ou l'équivalent. La version effectuée sur le terrain comprend une course de 500&#160;m, une tâche d'évacuation (où vous devez soulever et transporter des objets et courir) et le lancer de distance d'un ballon d'exercice.</p>
-  <p>Votre coordonnateur du PPE fixera la date du test en personne. Vous devrez porter&#160;::</p>
+  <p>Vous devrez réussir la version «&nbsp;:Terrain&nbsp;:» du Test de condition physique pour les policiers de la GRC; ce test est effectué en portant l'uniforme de police des services généraux ou l'équivalent. La version effectuée sur le terrain comprend une course de 500&nbsp;m, une tâche d'évacuation (où vous devez soulever et transporter des objets et courir) et le lancer de distance d'un ballon d'exercice.</p>
+  <p>Votre coordonnateur du PPE fixera la date du test en personne. Vous devrez porter&nbsp;::</p>
   <ul>
       <li>un uniforme de police des services généraux. Si vous n'en avez pas un, portez un t-shirt et un pantalon avec lequel vous pouvez porter confortablement un ceinturon de service ou un ceinturon lesté;</li>
       <li>un gilet pare-balles souple et un ceinturon de service. Si vous n'avez pas ces pièces d'équipement, nous vous les fournirons;</li>
@@ -56,7 +56,7 @@ custom_css: /assets/css/careers.css
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
   <div class="rcmp-content-page__previous" id="mp-previous-wrap">
-    <a aria-label="Étape précédente&#160;: Présenter une candidature à titre de policier ou policière d'expérience" class="rcmp-content-page__link" href="epo-application-candidature-pe-2-1-fr.html" id="mp-previous">
+    <a aria-label="Étape précédente&nbsp;: Présenter une candidature à titre de policier ou policière d'expérience" class="rcmp-content-page__link" href="epo-application-candidature-pe-2-1-fr.html" id="mp-previous">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i>
         <span class="rcmp-content-page__link-title">Étape précédente</span>
@@ -65,7 +65,7 @@ custom_css: /assets/css/careers.css
     </a>
   </div>
   <div class="rcmp-content-page__next" id="mp-next-wrap">
-    <a aria-label="Étape suivante&#160;: Entrevue d'admissibilité" class="rcmp-content-page__link" href="epo-application-candidature-pe-4-fr.html" id="mp-next">
+    <a aria-label="Étape suivante&nbsp;: Entrevue d'admissibilité" class="rcmp-content-page__link" href="epo-application-candidature-pe-4-fr.html" id="mp-next">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
         <span class="rcmp-content-page__link-title">Étape suivante</span>

@@ -97,7 +97,7 @@ custom_css: /assets/css/careers.css
       <section class="po-pagedetails pagedetails container">
         <h2 class="wb-inv">Détails de la page</h2>
         <dl id="wb-dtmd">
-          <dt>Date de modification&#160;:</dt>
+          <dt>Date de modification&nbsp;:</dt>
           <dd><time property="dateModified">{{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}</time></dd>
         </dl>
       </section>

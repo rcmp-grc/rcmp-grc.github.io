@@ -26,7 +26,7 @@ custom_css: /assets/css/careers.css
 <section id="s1">
   <h2>Au sujet du programme de mentorat</h2>
   <p>Le mentorat n'est pas seulement axé sur la réussite personnelle – il vise à créer un effet d'entraînement qui permet d'améliorer la compréhension du travail policier à la GRC et la communication à ce sujet.</p>
-  <p>Les mentors et les mentorés peuvent s'entretenir pour&#160;:</p>
+  <p>Les mentors et les mentorés peuvent s'entretenir pour&nbsp;:</p>
   <ul>
     <li>réfléchir à leur identité, partager les expériences qu'ils ont vécues et échanger leurs points de vue;</li>
     <li>discuter de questions concernant le processus de candidature;</li>
@@ -48,11 +48,11 @@ custom_css: /assets/css/careers.css
       </div>
     </section>
   </aside>
-  <p>À titre de mentoré du PMPA de la GRC, vous&#160;:</p>
+  <p>À titre de mentoré du PMPA de la GRC, vous&nbsp;:</p>
   <ul>
     <li>serez jumelé à un policier de la GRC qui s'identifie comme Inuit, Métis ou membre des Premières Nations, et qui comprend les défis particuliers que doivent affronter les postulants autochtones ainsi que les forces qu'ils apportent à l'organisation;</li>
     <li>recevrez un soutien personnalisé tout au long du processus de recrutement, que ce soit pour la présentation de votre candidature sur Emplois GC ou pour vous préparer à l'examen d'entrée de la GRC, aux tests de condition physique et aux entrevues;</li>
-    <li>obtiendrez un aperçu de l'École de la GRC – la Division Dépôt – à Regina (Saskatchewan), et de ce à quoi vous pouvez vous attendre pendant le programme de formation des cadets de 26&#160;semaines;</li>
+    <li>obtiendrez un aperçu de l'École de la GRC – la Division Dépôt – à Regina (Saskatchewan), et de ce à quoi vous pouvez vous attendre pendant le programme de formation des cadets de 26&nbsp;semaines;</li>
     <li>prendrez connaissance des valeurs fondamentales de la GRC, de la culture de l'organisation et du vaste éventail de possibilités de carrière qu'elle offre;</li>
     <li>serez traité avec équité, respect et transparence, et établirez avec votre mentor une vraie relation qui pourrait se poursuivre après l'embauche.</li>
   </ul>

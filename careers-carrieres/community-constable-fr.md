@@ -40,7 +40,7 @@ custom_css: /assets/css/careers.css
 
 <section id="s3">
   <h2>Exigences et formation</h2>
-  <p>En tant que gendarmes communautaires, vous devez satisfaire à des normes semblables à celles des membres réguliers. Nous suivons une formation de 23&#160;semaines à l'École de la GRC (Division Dépôt) à Regina, en Saskatchewan.</p>
+  <p>En tant que gendarmes communautaires, vous devez satisfaire à des normes semblables à celles des membres réguliers. Nous suivons une formation de 23&nbsp;semaines à l'École de la GRC (Division Dépôt) à Regina, en Saskatchewan.</p>
 </section>
 
 <section id="s4">

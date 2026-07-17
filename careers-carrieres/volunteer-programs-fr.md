@@ -33,7 +33,7 @@ custom_css: /assets/css/careers.css
 
 <section id="s2">
   <h2>Que font les bénévoles de la GRC</h2>
-  <p>Les bénévoles contribuent à presque toutes les activités de la police communautaire. Voici quelques exemples&#160;:</p>
+  <p>Les bénévoles contribuent à presque toutes les activités de la police communautaire. Voici quelques exemples&nbsp;:</p>
   <ul>
     <li>Surveillance de quartier</li>
     <li>Rodéo et patrouille à vélo</li>
@@ -57,9 +57,9 @@ custom_css: /assets/css/careers.css
 
 <section id="s4">
   <h2>Critères d'admissibilité</h2>
-  <p>Pour faire du bénévolat à la GRC, vous devez&#160;:</p>
+  <p>Pour faire du bénévolat à la GRC, vous devez&nbsp;:</p>
   <ul>
-    <li>être âgé d'au moins 16&#160;ans</li>
+    <li>être âgé d'au moins 16&nbsp;ans</li>
     <li>être responsable et avoir une bonne réputation</li>
     <li>être en mesure d'obtenir le niveau d'habilitation de sécurité approprié</li>
   </ul>

@@ -17,7 +17,7 @@ custom_css: /assets/css/careers.css
 	<!--<p>Troop dates will be posted here once they are available.</p>-->
 	<!-- <p>The next troop dates are as follows:</p> -->
 	<ul>
-		<!-- <li>May&#160;6 to May&#160;26, 2026 (currently full)</li>-->
+		<!-- <li>May&nbsp;6 to May&nbsp;26, 2026 (currently full)</li>-->
 		<li>January&nbsp;6 to 26, 2027</li>
 	</ul>
 	<!-- <p>RCMP Academy, Depot Division<br>
@@ -148,8 +148,8 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s5">
 	<h2>Junior Diverse and Inclusive Pre-Cadet Experience (DICE) Day: A first success </h2>
-	<p>On April&#160;2, the RCMP's Anti-Racism, Equity, Diversity and Inclusion Secretariat (AREDIS), in partnership with the Ottawa-Carleton District School Board and the Sankofa Centre, hosted the very first Junior DICE Day at the Canadian Police College.</p>
-	<p>The inaugural event welcomed 35&#160;high school students aged 15 to 18 from diverse backgrounds for a hands-on introduction to policing and public service.</p>
+	<p>On April&nbsp;2, the RCMP's Anti-Racism, Equity, Diversity and Inclusion Secretariat (AREDIS), in partnership with the Ottawa-Carleton District School Board and the Sankofa Centre, hosted the very first Junior DICE Day at the Canadian Police College.</p>
+	<p>The inaugural event welcomed 35&nbsp;high school students aged 15 to 18 from diverse backgrounds for a hands-on introduction to policing and public service.</p>
 	<p>The day began at the RCMP Visitor Centre, followed by a tour of the RCMP stables, where students were captivated by the iconic Musical Ride horses. Participants then attended three engaging presentations delivered by members of the AREDIS team, Federal Policing, and Protective Policing. Students also had the opportunity to meet members of the Chemical, Biological, Radiological, Nuclear and Explosive (CBRNE) team, who showcased specialized tools and equipment, including a bomb disposal robot.</p>
 	<p>The students were given a behind-the-scenes look at an RCMP Musical Ride practice, after which the day concluded with an interactive fitness session led by two members of the NHQ Fitness Team, offering participants a firsthand glimpse into the physical demands of a policing career.</p>
 	<p>The first-ever Junior DICE Day was a resounding success, fostering inclusion, sparking curiosity, and inspiring young participants to explore future opportunities within the RCMP.</p>

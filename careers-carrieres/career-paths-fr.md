@@ -23,7 +23,7 @@ custom_css: /assets/css/careers.css
 <p>Une fois le Programme de formation des cadets terminé avec succès, la majorité des cadets seront affectés à un poste aux Services généraux dans une province ou un territoire où la GRC assure les services de police dans les communautés. Après avoir suivi une formation pratique de six mois dans un détachement et après plusieurs années au sein des services de police généraux, les nouveaux policiers peuvent poser leur candidature pour des postes dans des groupes ou des secteurs plus spécialisés de la GRC. Les compétences et aptitudes du membre, sa mobilité et ses centres d'intérêt contribueront en grande partie à définir l'échéancier et le potentiel du membre quant aux possibilités spécialisées.</p>
 <section id="s1">
     <h2>Services généraux</h2>
-    <p>Fonctions&#160;:</p>
+    <p>Fonctions&nbsp;:</p>
     <ul>
         <li>Répondre à des appels d'urgence et aux plaintes, exécuter des mandats de perquisition et arrêter des criminels présumés;</li>
         <li>Patrouiller dans les zones attribuées à pied, à cheval, en vélo ou en véhicules motorisés pour assurer la sécurité et l'ordre publics et appliquer les lois et les règlements;</li>
@@ -38,7 +38,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s2">
     <h2>Services nationaux spécialisés</h2>
-    <p>Domaines de spécialisation&#160;:</p>
+    <p>Domaines de spécialisation&nbsp;:</p>
     <ul>
         <li>Services des sciences judiciaires et de l'identité</li>
         <li>Services de renseignements criminels</li>
@@ -49,7 +49,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s3">
     <h2>Police fédérale</h2>
-    <p>Domaines de spécialisation&#160;:</p>
+    <p>Domaines de spécialisation&nbsp;:</p>
     <ul>
         <li>Crimes graves et Crime organisé</li>
         <li>Sécurité nationale</li>

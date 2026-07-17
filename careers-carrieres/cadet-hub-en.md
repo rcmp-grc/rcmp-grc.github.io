@@ -10,7 +10,7 @@ breadcrumbs:
   - label: "Police officer careers"
     url: "careers-carrieres/officer-agent-en.html"
 custom_css: /assets/css/careers.css
-hero_image: /assets/img/topics-sujets.jpg
+hero_image: /assets/img/landing-cadet-hub.jpg
 ---
 
 <p>Welcome to the RCMP Cadet Hub. Here you'll find everything you'll want to know before, during and after graduating from Depot.</p>

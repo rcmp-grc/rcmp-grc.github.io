@@ -25,14 +25,14 @@ custom_css: /assets/css/careers.css
 </nav>
 
 <p>Le Programme de formation des cadets (PFC) prépare les cadets au travail policier de première ligne dans les communautés canadiennes. Notre programme de formation de six mois accueille les postulants admis à l'École de la GRC à Regina (Saskatchewan). La formation est donnée sur place, à longueur d'année, dans les deux langues officielles. Attendez-vous à de longues journées bien remplies avec un temps libre limité.</p>
-<p>En tant que cadet, vous participerez à un programme immersif au sein d'une troupe diversifiée de 32&#160;membres. Vous apprendrez les réalités de la police communautaire au moyen de scénarios, d'un véritable travail d'équipe, de travaux en classe et plus encore.</p>
+<p>En tant que cadet, vous participerez à un programme immersif au sein d'une troupe diversifiée de 32&nbsp;membres. Vous apprendrez les réalités de la police communautaire au moyen de scénarios, d'un véritable travail d'équipe, de travaux en classe et plus encore.</p>
 <p>Après avoir terminé le programme, les cadets peuvent se voir offrir un emploi de policier de la GRC. Ils obtiennent le statut d'agent de la paix et poursuivent leur apprentissage dans le cadre du Programme de formation pratique de six mois en tant que nouvelles recrues au grade de gendarme.</p>
 
 <section id="s1">
   <h2>Aperçu du programme</h2>
   <dl>
     <dt>Durée</dt>
-    <dd>Programme de formation de base de 6&#160;mois (26&#160;semaines) à temps plein.</dd>
+    <dd>Programme de formation de base de 6&nbsp;mois (26&nbsp;semaines) à temps plein.</dd>
     <dt>Lieu</dt>
     <dd>École de la GRC à Regina (Saskatchewan).</dd>
     <dt>Approche de formation</dt>
@@ -44,14 +44,14 @@ custom_css: /assets/css/careers.css
     <dt>Hébergement</dt>
     <dd>Hébergement des troupes sur place dans des dortoirs modernes. La GRC prend en charge les repas, l'hébergement et l'accès aux installations sportives et récréatives sur les lieux.</dd>
     <dt>Indemnités</dt>
-    <dd>Les cadets reçoivent une indemnité de recrutement de 1&#160;000&#160;$ par semaine pendant leur participation au PFC. Le transport à destination et en provenance de l'École de la GRC pour la formation et vers le premier lieu d'affectation est pris en charge.</dd>
+    <dd>Les cadets reçoivent une indemnité de recrutement de 1&nbsp;000&nbsp;$ par semaine pendant leur participation au PFC. Le transport à destination et en provenance de l'École de la GRC pour la formation et vers le premier lieu d'affectation est pris en charge.</dd>
   </dl>
 </section>
 
 <section id="s2">
   <h2>Cadre de référence opérationnel</h2>
   <p>Le modèle CAPRA est l'application opérationnelle de la vision et de la mission de la GRC. Il englobe l'engagement de la GRC à l'égard des collectivités et des clients, la résolution de problèmes en partenariat et l'apprentissage continu.</p>
-  <p>L'acronyme CAPRA signifie&#160;:</p>
+  <p>L'acronyme CAPRA signifie&nbsp;:</p>
   <ul class="list-unstyled">
     <li>C = Clients</li>
     <li>A = Acquisition et analyse de renseignements</li>
@@ -63,7 +63,7 @@ custom_css: /assets/css/careers.css
 
 <section id="s3">
   <h2>Conception et prestation</h2>
-  <p>Le PFC est conçu pour vous préparer aux réalités de la police communautaire moderne. La formation est&#160;:</p>
+  <p>Le PFC est conçu pour vous préparer aux réalités de la police communautaire moderne. La formation est&nbsp;:</p>
   <ul>
     <li>offerte dans les deux langues officielles;</li>
     <li>axée sur la résolution des problèmes;</li>
@@ -73,7 +73,7 @@ custom_css: /assets/css/careers.css
   <section id="s3-1">
     <h3>Comment vous apprendrez</h3>
     <p>La formation est pratique, interactive et variée. Vos journées commenceront tôt et vous disposerez d'un temps libre limité. Une bonne gestion du temps est nécessaire pour suivre le rythme des cours et des travaux.</p>
-    <p>Vous aurez&#160;:</p>
+    <p>Vous aurez&nbsp;:</p>
     <ul>
       <li>des cours en classe;</li>
       <li>des mises en situation et des exercices axés sur des scénarios;</li>
@@ -90,7 +90,7 @@ custom_css: /assets/css/careers.css
 <section id="s4">
   <h2>Évaluation</h2>
   <p>Le PFC est ponctué d'évaluations visant à mesurer l'état de préparation aux fonctions opérationnelles. Vous serez évalué sur l'ensemble des compétences requises pour exercer le métier de policier, notamment le comportement, les connaissances et le rendement.</p>
-  <p>Plusieurs méthodes sont utilisées pour cela, notamment&#160;:</p>
+  <p>Plusieurs méthodes sont utilisées pour cela, notamment&nbsp;:</p>
   <ul>
     <li>des épreuves écrites;</li>
     <li>des épreuves orales;</li>
@@ -100,8 +100,8 @@ custom_css: /assets/css/careers.css
   </ul>
   <section id="s4-1">
     <h3>Comment réussir le PFC?</h3>
-    <p>Pour réussir le PFC, vous devez atteindre un niveau de rendement «&#160;professionnel&#160;» à l'égard de toutes les compétences. Les normes sont communiquées aux cadets au début du PFC. Elles servent de base à l'autoévaluation ainsi qu'aux évaluations par les pairs et par l'instructeur.</p>
-    <p>L'évaluation continue permet de proposer au cadet qui accuse du retard dans l'acquisition des compétences de le réaffecter à une étape antérieure de la formation avec une autre troupe. Le cadet peut ainsi renforcer ses compétences et mieux progresser. Dans ces conditions, la formation se prolonge au-delà des 26&#160;semaines initiales.</p>
+    <p>Pour réussir le PFC, vous devez atteindre un niveau de rendement «&nbsp;professionnel&nbsp;» à l'égard de toutes les compétences. Les normes sont communiquées aux cadets au début du PFC. Elles servent de base à l'autoévaluation ainsi qu'aux évaluations par les pairs et par l'instructeur.</p>
+    <p>L'évaluation continue permet de proposer au cadet qui accuse du retard dans l'acquisition des compétences de le réaffecter à une étape antérieure de la formation avec une autre troupe. Le cadet peut ainsi renforcer ses compétences et mieux progresser. Dans ces conditions, la formation se prolonge au-delà des 26&nbsp;semaines initiales.</p>
   </section>
 </section>
 
@@ -121,7 +121,7 @@ custom_css: /assets/css/careers.css
   <section id="s5-2">
     <h3>Indemnités</h3>
     <ul>
-      <li>Les cadets qui suivent le PFC reçoivent une indemnité hebdomadaire de 1&#160;000&#160;$.</li>
+      <li>Les cadets qui suivent le PFC reçoivent une indemnité hebdomadaire de 1&nbsp;000&nbsp;$.</li>
       <li>Ils sont logés et nourris et ont accès aux installations sportives et récréatives sur place.</li>
       <li>La GRC prend également en charge les frais de transport jusqu'à l'École de la GRC pour suivre la formation ainsi que pour rejoindre son premier poste d'affectation.
         <ul>
@@ -163,7 +163,7 @@ custom_css: /assets/css/careers.css
       <li class="col-md-6">
         <section class="well">
           <h3 class="h5"><a href="/fr/depot/services-et-information/apercu-programme-formation-cadets#s5">Maniement des armes à feu</a></h3>
-          <p>Permet d'apprendre à manier de façon sécuritaire les armes à feu réglementaires de la GRC&#160;: pistolet, fusil et carabine de patrouille.</p>
+          <p>Permet d'apprendre à manier de façon sécuritaire les armes à feu réglementaires de la GRC&nbsp;: pistolet, fusil et carabine de patrouille.</p>
         </section>
       </li>
       <li class="col-md-6">

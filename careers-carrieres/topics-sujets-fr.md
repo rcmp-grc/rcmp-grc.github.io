@@ -10,7 +10,7 @@ breadcrumbs:
   - label: "Carrières policières"
     url: "careers-carrieres/officer-agent-fr.html"
 custom_css: /assets/css/careers.css
-hero_image: /assets/img/topics-sujets.jpg
+hero_image: /assets/img/landing-first-nations.jpg
 ---
 
 <p>La GRC est déterminée à bâtir un service de police plus représentatif et inclusif qui témoigne des forces et de la diversité des Premières Nations, des Inuits et des Métis de partout au Canada.</p>

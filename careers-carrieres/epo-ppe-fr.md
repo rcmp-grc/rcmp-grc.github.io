@@ -35,7 +35,7 @@ custom_css: /assets/css/careers.css
   <section id="s1-2">
     <h3>Possibilités de carrière</h3>
     <p>La GRC assure ses services en fonction de ses trois mandats policiers; Services de police autochtones, provinciaux, territoriaux et municipaux, les Services nationaux spécialisés et la Police fédérale. Les policiers ou policières d'expérience peuvent manifester de l'intérêt pour n'importe quel secteur de service.</p>
-    <p>Les Services de police autochtones, provinciaux, territoriaux et municipaux sont présents dans tous les territoires et provinces, à l'exception du Québec et de l'Ontario, et assurent un soutien dans les domaines suivants&#160;:</p>
+    <p>Les Services de police autochtones, provinciaux, territoriaux et municipaux sont présents dans tous les territoires et provinces, à l'exception du Québec et de l'Ontario, et assurent un soutien dans les domaines suivants&nbsp;:</p>
     <ul>
       <li>enquêtes des services généraux;</li>
       <li>services cynophiles;</li>
@@ -44,7 +44,7 @@ custom_css: /assets/css/careers.css
       <li>services des groupes tactiques d'intervention;</li>
       <li>récupération sous-marine.</li>
     </ul>
-    <p>Les Services nationaux spécialisés (SNS) assurent un soutien dans les domaines suivants&#160;:</p>
+    <p>Les Services nationaux spécialisés (SNS) assurent un soutien dans les domaines suivants&nbsp;:</p>
     <ul>
       <li>analyses judiciaires;</li>
       <li>gestion du Programme canadien des armes à feu;</li>
@@ -54,7 +54,7 @@ custom_css: /assets/css/careers.css
       <li>localisation de personnes disparues;</li>
       <li>prestation des Services nationaux de police (SNP).</li>
     </ul>
-    <p>La Police fédérale assure des services dans les domaines suivants&#160;:</p>
+    <p>La Police fédérale assure des services dans les domaines suivants&nbsp;:</p>
     <ul>
       <li>intégrité des frontières;</li>
       <li>cybercriminalité;</li>
@@ -72,10 +72,10 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s2">
   <h2>Exigences de base pour les policiers et policières d'expérience</h2>
-  <p>Pour présenter votre candidature à titre de policier ou policière d'expérience, vous devez d'abord satisfaire aux exigences fondamentales suivantes&#160;:</p>
+  <p>Pour présenter votre candidature à titre de policier ou policière d'expérience, vous devez d'abord satisfaire aux exigences fondamentales suivantes&nbsp;:</p>
   <ul>
-    <li>avoir au moins deux années d'expérience à temps plein dans un service de police canadien, ou l'équivalent (par «&#160;équivalent&#160;», on entend une expérience, acquise à temps plein ou à temps partiel, totalisant deux années d'expérience à temps plein);</li>
-    <li>avoir suivi un programme de formation policière sanctionné par un diplôme dans un établissement de formation policière canadien reconnu (les agents de la police militaire des Forces armées canadiennes doivent avoir suivi avec succès la formation policière de base (niveau de qualification&#160;3) après le 1er janvier 2001);</li>
+    <li>avoir au moins deux années d'expérience à temps plein dans un service de police canadien, ou l'équivalent (par «&nbsp;équivalent&nbsp;», on entend une expérience, acquise à temps plein ou à temps partiel, totalisant deux années d'expérience à temps plein);</li>
+    <li>avoir suivi un programme de formation policière sanctionné par un diplôme dans un établissement de formation policière canadien reconnu (les agents de la police militaire des Forces armées canadiennes doivent avoir suivi avec succès la formation policière de base (niveau de qualification&nbsp;3) après le 1er janvier 2001);</li>
     <li>atteindre le niveau minimal aux <a href="#">neuf compétences des services généraux requises</a> suivant le Dictionnaire des compétences de la GRC;</li>
     <li>être policier ou policière ou avoir quitté le métier il y a moins de trois ans;</li>
     <li>répondre aux exigences linguistiques du poste à occuper;</li>

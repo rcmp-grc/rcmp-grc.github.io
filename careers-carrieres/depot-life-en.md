@@ -41,7 +41,7 @@ custom_css: /assets/css/careers.css
     <li><strong>Troops function as one</strong>: eating meals together, moving around base as a unit and dressing in uniform, and sharing accommodation</li>
     <li><strong>Free time is limited in training.</strong> Life as a cadet involves long, active days with little time off<ul>
         <li>training is typically Monday to Friday. Days start early in the morning with evening and weekend activities and practice</li>
-        <li>statutory holidays are part of the training schedule&#160;– aligning with the 24/7 nature of policing</li>
+        <li>statutory holidays are part of the training schedule&nbsp;– aligning with the 24/7 nature of policing</li>
       </ul>
     </li>
     <li><strong>Depot is physically demanding</strong>: training builds strength and endurance over time. A good level of fitness helps ease the transition</li>

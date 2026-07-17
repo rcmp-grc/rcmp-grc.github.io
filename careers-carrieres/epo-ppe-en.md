@@ -74,9 +74,9 @@ custom_css: /assets/css/careers.css
   <h2>Basic requirements for Experienced Police Officers</h2>
   <p>To apply as an experienced police officer at the RCMP, you must meet the following basic and essential requirements:</p>
   <ul>
-    <li>have a minimum of two years full-time Canadian police service employment or equivalent (equivalent is defined as any police service employment, full-time or part-time, that amounts to a total of 2&#160;years' full-time police service employment)</li>
-    <li>have graduated from a police training program at a recognized Canadian police training institution (Canadian Armed Forces Military Police must have successfully completed the basic police training — Qualification Level&#160;3 — after January 1, 2001)</li>
-    <li>meet the minimum level for the <a href="#">9&#160;required general duty competencies</a> according to the RCMP Competency Dictionary</li>
+    <li>have a minimum of two years full-time Canadian police service employment or equivalent (equivalent is defined as any police service employment, full-time or part-time, that amounts to a total of 2&nbsp;years' full-time police service employment)</li>
+    <li>have graduated from a police training program at a recognized Canadian police training institution (Canadian Armed Forces Military Police must have successfully completed the basic police training — Qualification Level&nbsp;3 — after January 1, 2001)</li>
+    <li>meet the minimum level for the <a href="#">9&nbsp;required general duty competencies</a> according to the RCMP Competency Dictionary</li>
     <li>must be actively serving or have served within the last three years</li>
     <li>meet the language profile of the position you will occupy</li>
     <li>meet all <a href="#">qualifications and requirements</a> of a Regular Member applicant.</li>

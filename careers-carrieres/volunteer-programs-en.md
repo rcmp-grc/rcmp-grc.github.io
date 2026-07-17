@@ -59,7 +59,7 @@ custom_css: /assets/css/careers.css
   <h2>Eligibility criteria</h2>
   <p>To volunteer with the RCMP, you must:</p>
   <ul>
-    <li>be at least 16&#160;years of age</li>
+    <li>be at least 16&nbsp;years of age</li>
     <li>be responsible and have good character</li>
     <li>be able to receive the appropriate level of security clearance</li>
   </ul>

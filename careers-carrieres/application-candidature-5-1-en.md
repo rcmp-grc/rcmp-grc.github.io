@@ -110,7 +110,7 @@ custom_css: /assets/css/careers.css
 <section id="s3">
   <h2>Neurological conditions</h2>
   <ul>
-    <li>Seizure disorders and epilepsy (must be seizure free for at least 5&#160;years)</li>
+    <li>Seizure disorders and epilepsy (must be seizure free for at least 5&nbsp;years)</li>
     <li>Narcolepsy</li>
     <li>Sleep apnea and other disturbances of consciousness</li>
     <li>Vestibular disorders</li>

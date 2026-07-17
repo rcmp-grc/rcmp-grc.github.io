@@ -57,9 +57,9 @@ custom_css: /assets/css/careers.css
   <h2>Other paid allowances and support</h2>
   <dl class="dl-horizontal">
     <dt>Bilingual allowance</dt>
-    <dd>If you speak French and English, you may be entitled to an $800&#160;bonus per year.</dd>
+    <dd>If you speak French and English, you may be entitled to an $800&nbsp;bonus per year.</dd>
     <dt>Educational or tuition reimbursement</dt>
-    <dd>The RCMP may cover up to $1,500&#160;per year for training from accredited educational institutions. This applies to training that is relevant to your role or part of your professional development for succession planning.</dd>
+    <dd>The RCMP may cover up to $1,500&nbsp;per year for training from accredited educational institutions. This applies to training that is relevant to your role or part of your professional development for succession planning.</dd>
     <dt>Government housing</dt>
     <dd>The Government of Canada offers employee housing in most parts of the country where no suitable living accommodations are available nearby.</dd>
   </dl>
@@ -68,14 +68,14 @@ custom_css: /assets/css/careers.css
 <section id="s4">
   <h2>Family benefits and parental leaves</h2>
   <p>Family is important to the RCMP. We want to make sure you and your family have access to benefits, including dental and family health plans, and group life insurance.</p>
-  <p>Police officers at all ranks get 40&#160;hours of leave per year for family related reasons.</p>
-  <p>Women police officers receive 93% of their weekly rate of pay for a maximum of 17&#160;weeks with their maternity allowance. Parental allowance grants all police officers 93% of their weekly rate of pay for a maximum of 37&#160;weeks. There are conditions with both allowances, and additional leave without pay options for police officers.</p>
-  <p>Policing is a demanding career that requires focus, resilience and adaptability. To support your wellbeing, police officers receive 8&#160;hours of wellness leave per fiscal year in addition to other leave provisions.</p>
+  <p>Police officers at all ranks get 40&nbsp;hours of leave per year for family related reasons.</p>
+  <p>Women police officers receive 93% of their weekly rate of pay for a maximum of 17&nbsp;weeks with their maternity allowance. Parental allowance grants all police officers 93% of their weekly rate of pay for a maximum of 37&nbsp;weeks. There are conditions with both allowances, and additional leave without pay options for police officers.</p>
+  <p>Policing is a demanding career that requires focus, resilience and adaptability. To support your wellbeing, police officers receive 8&nbsp;hours of wellness leave per fiscal year in addition to other leave provisions.</p>
 </section>
 
 <section id="s5">
   <h2>Income tax exemption for First Nations police officers</h2>
-  <p>First Nations police officers are exempt from income tax under paragraph&#160;81(1)(a) of the <a href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/"><cite>Income Tax Act</cite></a>, and section&#160;87 of the <a href="https://laws-lois.justice.gc.ca/eng/acts/i-5/"><cite>Indian Act</cite></a> if income is earned on a reserve. Contact the Canada Revenue Agency to confirm if you're eligible for this tax exemption.</p>
+  <p>First Nations police officers are exempt from income tax under paragraph&nbsp;81(1)(a) of the <a href="https://laws-lois.justice.gc.ca/eng/acts/I-3.3/"><cite>Income Tax Act</cite></a>, and section&nbsp;87 of the <a href="https://laws-lois.justice.gc.ca/eng/acts/i-5/"><cite>Indian Act</cite></a> if income is earned on a reserve. Contact the Canada Revenue Agency to confirm if you're eligible for this tax exemption.</p>
   <section class="alert alert-info">
     <h3>Note</h3>
     <p>The term "Indian" is only used in reference to the Act.</p>

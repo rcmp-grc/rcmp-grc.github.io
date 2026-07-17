@@ -48,7 +48,7 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 
-<p>The final step in the application process is a field investigation along with a security assessment. The RCMP will conduct a thorough investigation into your background, including your activities during the past 10&#160;years, to further assess your reliability and suitability. If successful, you will receive your security clearance.</p>
+<p>The final step in the application process is a field investigation along with a security assessment. The RCMP will conduct a thorough investigation into your background, including your activities during the past 10&nbsp;years, to further assess your reliability and suitability. If successful, you will receive your security clearance.</p>
 
 <section id="s1">
   <h2>What to expect from the security clearance process</h2>
@@ -70,8 +70,8 @@ custom_css: /assets/css/careers.css
 
 <section id="s2">
   <h2>What to do if you've been away from Canada</h2>
-  <p>If you're a Canadian citizen and you've been outside of Canada for more than 6&#160;months in a row during the past 10&#160;years, you'll need to provide details of your activities during that time.</p>
-  <p>In some cases, we may ask you to provide details of your activities even if you've been outside of Canada for less than 6&#160;months.</p>
+  <p>If you're a Canadian citizen and you've been outside of Canada for more than 6&nbsp;months in a row during the past 10&nbsp;years, you'll need to provide details of your activities during that time.</p>
+  <p>In some cases, we may ask you to provide details of your activities even if you've been outside of Canada for less than 6&nbsp;months.</p>
   <p>Examples of documents to help you provide details of your activities include:</p>
   <ul>
     <li>letters of reference or referral from foreign embassies and missions in Canada</li>

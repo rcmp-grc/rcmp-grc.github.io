@@ -31,7 +31,7 @@ custom_css: /assets/css/careers.css
 </nav>
  
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
- <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Les candidats et candidates apprendront&#160;:</p>
+ <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Les candidats et candidates apprendront&nbsp;:</p>
 <ul>
   <li>Excepteur sint occaecat cupidatat non proident</li>
   <li>Sunt in culpa qui officia deserunt mollit anim</li>
@@ -42,7 +42,7 @@ custom_css: /assets/css/careers.css
  
 <section id="s1">
   <h2>Admissibilité Lorem</h2>
-  <p>Pour présenter une demande, vous devez répondre aux critères lorem ipsum suivants&#160;:</p>
+  <p>Pour présenter une demande, vous devez répondre aux critères lorem ipsum suivants&nbsp;:</p>
   <ul>
     <li>Nemo enim ipsam voluptatem quia voluptas sit</li>
     <li>Neque porro quisquam est, qui dolorem ipsum</li>
@@ -96,7 +96,7 @@ custom_css: /assets/css/careers.css
             <p>[Un policier vérifie l'état d'une personne étendue dans l'herbe.]</p>
             <p>Norme d'excellence, charger 15 objets dans un camion</p>
             <p>[Une policière charge de grosses cruches d'eau sur une table.]</p>
-            <p>Norme «&#160;Terrain&#160;», toucher un mur à l'aide de 15 objets</p>
+            <p>Norme «&nbsp;Terrain&nbsp;», toucher un mur à l'aide de 15 objets</p>
             <p>[Des policiers soulèvent des sacs de sable et touchent le mur d'un gymnase avec.]</p>
             <p>Transport d'une charge sur 50 mètres (3 fois)</p>
             <p>[Un homme soulève de terre une charge et transporte des sacs de sable à travers le gymnase.]</p>
@@ -110,14 +110,14 @@ custom_css: /assets/css/careers.css
             <p>[Des policiers tirent des traîneaux d'entraînement sur une ligne en zigzag dans un gymnase. Un policier attrape un homme et le tire.]</p>
             <p>Norme d'excellence, amené au sol d'un mannequin lesté</p>
             <p>[Un policier amène un mannequin au sol sur un tapis dans le gymnase.]</p>
-            <p>Norme «&#160;Terrain&#160;», lancer du ballon d'exercice</p>
+            <p>Norme «&nbsp;Terrain&nbsp;», lancer du ballon d'exercice</p>
             <p>[Une femme assise dans un gymnase lance un ballon d'exercice. Un policier amène un mannequin au sol dans le gymnase. Un policier tire un traîneau d'entraînement sur une ligne en zigzag. Un policier franchit une clôture. Une femme lance un ballon d'exercice contre un mur. Un policier monte des escaliers en courant avec une arme à feu.]</p>
             <p>Test de condition physique pour les policiers</p>
             <p>
               Gendarmerie royale du Canada / <i lang="en">Royal Canadian Mounted Police</i><br>
               &copy; Sa Majesté le Roi du chef du Canada, représenté par la Gendarmerie royale du Canada, 2024.
             </p>
-            <p>Mot-symbole «&#160;Canada&#160;»</p>
+            <p>Mot-symbole «&nbsp;Canada&nbsp;»</p>
           </div>
         </details>
       </div>
@@ -179,15 +179,15 @@ custom_css: /assets/css/careers.css
 <section id="s5">
   <h2>Questions et réponses</h2>
   <details class="wb-accordion">
-    <summary>Lorem ipsum dolor sit amet&#160;?</summary>
+    <summary>Lorem ipsum dolor sit amet&nbsp;?</summary>
     <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   </details>
   <details class="wb-accordion">
-    <summary>Ut enim ad minim veniam&#160;?</summary>
+    <summary>Ut enim ad minim veniam&nbsp;?</summary>
     <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   </details>
   <details class="wb-accordion">
-    <summary>Duis aute irure dolor&#160;?</summary>
+    <summary>Duis aute irure dolor&nbsp;?</summary>
     <p>In reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
   </details>
 </section>

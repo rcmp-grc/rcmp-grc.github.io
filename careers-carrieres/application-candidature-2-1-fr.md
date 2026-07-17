@@ -353,7 +353,7 @@ custom_css: /assets/css/careers.css
 
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
   <div class="rcmp-content-page__previous" id="mp-previous-wrap">
-    <a aria-label="Étape précédente&#160;: Posez votre candidature en ligne" class="rcmp-content-page__link" href="application-candidature-2-fr.html" id="mp-previous">
+    <a aria-label="Étape précédente&nbsp;: Posez votre candidature en ligne" class="rcmp-content-page__link" href="application-candidature-2-fr.html" id="mp-previous">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i>
         <span class="rcmp-content-page__link-title">Étape précédente</span>
@@ -362,7 +362,7 @@ custom_css: /assets/css/careers.css
     </a>
   </div>
   <div class="rcmp-content-page__next" id="mp-next-wrap">
-    <a aria-label="Étape suivante&#160;: Transmettez les formulaires et les documents requis" class="rcmp-content-page__link" href="application-candidature-3-fr.html" id="mp-next">
+    <a aria-label="Étape suivante&nbsp;: Transmettez les formulaires et les documents requis" class="rcmp-content-page__link" href="application-candidature-3-fr.html" id="mp-next">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
         <span class="rcmp-content-page__link-title">Étape suivante</span>

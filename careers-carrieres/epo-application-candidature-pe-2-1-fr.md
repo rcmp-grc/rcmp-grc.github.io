@@ -55,7 +55,7 @@ custom_css: /assets/css/careers.css
         <dt>Antécédents professionnels</dt>
         <dd>
             <ul>
-                <li>Énumérez tous les emplois que vous avez occupés depuis les 10&#160;dernières années;</li>
+                <li>Énumérez tous les emplois que vous avez occupés depuis les 10&nbsp;dernières années;</li>
                 <li>Décrivez brièvement les fonctions exercées dans chaque emploi, y compris les détails concernant tout poste de supervision, s'il y a lieu;</li>
                 <li>Deux évaluations de rendement récentes.</li>
             </ul>
@@ -93,7 +93,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s3">
     <h2>Le modèle STAR</h2>
-    <p>L'acronyme STAR signifie «&#160;:Situation, Tâche, Action, Résultat&#160;:». Ce modèle utilisé par la GRC fait état d'exemples de comportement illustrant un rendement utile à l'évaluation des compétences. Utilisez ce modèle pour fournir une description complète des scénarios, des mesures prises et des résultats de vos actions afin de décrire votre expérience policière.</p>
+    <p>L'acronyme STAR signifie «&nbsp;:Situation, Tâche, Action, Résultat&nbsp;:». Ce modèle utilisé par la GRC fait état d'exemples de comportement illustrant un rendement utile à l'évaluation des compétences. Utilisez ce modèle pour fournir une description complète des scénarios, des mesures prises et des résultats de vos actions afin de décrire votre expérience policière.</p>
     <dl class="well">
         <dt>Situation</dt>
         <dd>
@@ -137,15 +137,15 @@ custom_css: /assets/css/careers.css
             <dt>Tâche</dt>
             <dd>J'étais chargé de coordonner les activités et d'enquêter sur les vols par effraction afin de repérer les suspects et de prendre les mesures voulues.</dd>
             <dt>Action</dt>
-            <dd>J'ai recueilli de l'information sur tous les vols par effraction perpétrés dans la ville pour lesquels le mode opératoire était semblable. Par la suite, je suis entré en contact avec des sources humaines pour savoir s'ils avaient de l'information au sujet de cette série de vols. J'ai communiqué avec l'agent des relations avec les médias, qui a rédigé un communiqué de presse demandant l'aide du public pour obtenir de l'information sur ces vols. J'ai aussi rencontré l'équipe du Groupe des crimes contre les biens et recueilli des renseignements sur des suspects possibles. J'ai été capable d'identifier deux suspects principaux, les deux travaillant indépendamment avec d'autres complices. J'ai ensuite mis en œuvre un plan d'action afin de prendre des mesures à l'égard de ces suspects. J'ai demandé l'aide d'agents d'infiltration afin de confirmer l'endroit où se trouvait l'un des suspects. J'ai organisé et présidé une réunion le 10&#160;septembre à laquelle ont participé des policiers des divers groupes d'enquête. J'y ai présenté un plan opérationnel que j'avais élaboré à des fins de discussion.</dd>
+            <dd>J'ai recueilli de l'information sur tous les vols par effraction perpétrés dans la ville pour lesquels le mode opératoire était semblable. Par la suite, je suis entré en contact avec des sources humaines pour savoir s'ils avaient de l'information au sujet de cette série de vols. J'ai communiqué avec l'agent des relations avec les médias, qui a rédigé un communiqué de presse demandant l'aide du public pour obtenir de l'information sur ces vols. J'ai aussi rencontré l'équipe du Groupe des crimes contre les biens et recueilli des renseignements sur des suspects possibles. J'ai été capable d'identifier deux suspects principaux, les deux travaillant indépendamment avec d'autres complices. J'ai ensuite mis en œuvre un plan d'action afin de prendre des mesures à l'égard de ces suspects. J'ai demandé l'aide d'agents d'infiltration afin de confirmer l'endroit où se trouvait l'un des suspects. J'ai organisé et présidé une réunion le 10&nbsp;septembre à laquelle ont participé des policiers des divers groupes d'enquête. J'y ai présenté un plan opérationnel que j'avais élaboré à des fins de discussion.</dd>
             <dt>Résultats</dt>
-            <dd>Quelques jours plus tard, le premier suspect a été arrêté et traduit en justice pour de nombreux cas d'introduction par effraction. Le 15&#160;septembre, on a procédé à la mise en œuvre du plan opérationnel ciblant le deuxième suspect. Le 28&#160;septembre, je l'ai appréhendé et au bout du compte, il a plaidé coupable à diverses accusations d'introduction par effraction.</dd>
+            <dd>Quelques jours plus tard, le premier suspect a été arrêté et traduit en justice pour de nombreux cas d'introduction par effraction. Le 15&nbsp;septembre, on a procédé à la mise en œuvre du plan opérationnel ciblant le deuxième suspect. Le 28&nbsp;septembre, je l'ai appréhendé et au bout du compte, il a plaidé coupable à diverses accusations d'introduction par effraction.</dd>
         </dl>
     </section>
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
   <div class="rcmp-content-page__previous" id="mp-previous-wrap">
-    <a aria-label="Étape précédente&#160;: Présentation des formulaires" class="rcmp-content-page__link" href="epo-application-candidature-pe-2-fr.html" id="mp-previous">
+    <a aria-label="Étape précédente&nbsp;: Présentation des formulaires" class="rcmp-content-page__link" href="epo-application-candidature-pe-2-fr.html" id="mp-previous">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i>
         <span class="rcmp-content-page__link-title">Étape précédente</span>
@@ -154,7 +154,7 @@ custom_css: /assets/css/careers.css
     </a>
   </div>
   <div class="rcmp-content-page__next" id="mp-next-wrap">
-    <a aria-label="Étape suivante&#160;: Test de condition physique pour les policiers" class="rcmp-content-page__link" href="epo-application-candidature-pe-3-fr.html" id="mp-next">
+    <a aria-label="Étape suivante&nbsp;: Test de condition physique pour les policiers" class="rcmp-content-page__link" href="epo-application-candidature-pe-3-fr.html" id="mp-next">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
         <span class="rcmp-content-page__link-title">Étape suivante</span>

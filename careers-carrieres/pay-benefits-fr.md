@@ -24,9 +24,9 @@ custom_css: /assets/css/careers.css
   Les avantages sur les plans de la rémunération et du mode de vie sont également considérables.</p>
 <section id="s1">
   <h2>Indemnité de recrutement des cadets</h2>
-  <p>Pendant leur formation de 26&#160;semaines à l'École de la GRC (Division Dépôt), les cadets reçoivent une indemnité de 1
-  000&#160;$ par semaine. La somme maximale allouable au titre de l'indemnité de recrutement est de 26&#160;000&#160;$ pour la
-  formation de 26&#160;semaines, c'est-à-dire 2&#160;000&#160;$ par période de deux semaines.</p>
+  <p>Pendant leur formation de 26&nbsp;semaines à l'École de la GRC (Division Dépôt), les cadets reçoivent une indemnité de 1
+  000&nbsp;$ par semaine. La somme maximale allouable au titre de l'indemnité de recrutement est de 26&nbsp;000&nbsp;$ pour la
+  formation de 26&nbsp;semaines, c'est-à-dire 2&nbsp;000&nbsp;$ par période de deux semaines.</p>
   <p>La GRC prend également en charge les coûts liés à l'hébergement, aux uniformes, aux cours, à l'assurance et aux
   déplacements des cadets pour se rendre à la Division Dépôt à Regina (Sask.) et en revenir.</p>
   <p>Les cadets sont tenus de respecter les valeurs fondamentales de la GRC – agir avec intégrité, faire preuve de
@@ -42,35 +42,35 @@ custom_css: /assets/css/careers.css
     <h3>Taux de rémunération des gendarmes</h3>
     <p>Après avoir terminé le <a href="/fr/depot/services-et-renseignements/programme-formation-cadets">Programme de formation des cadets</a> et reçu une offre d'emploi, vous serez engagé comme gendarme
   au 1er échelon de la rémunération annuelle. Normalement, vous atteindrez le 5e échelon de la rémunération annuelle
-  après 36&#160;mois de service.</p>
-    <p>En date du 1er avril 2024, l'échelle de la rémunération annuelle des gendarmes est la suivante&#160;:</p>
+  après 36&nbsp;mois de service.</p>
+    <p>En date du 1er avril 2024, l'échelle de la rémunération annuelle des gendarmes est la suivante&nbsp;:</p>
     <ul>
-      <li>1er échelon&#160;: 71&#160;191&#160;$</li>
-      <li>2e échelon&#160;: 92&#160;497&#160;$</li>
-      <li>3e échelon&#160;: 100&#160;356&#160;$</li>
-      <li>4e échelon&#160;: 108&#160;220&#160;$</li>
-      <li>5e échelon&#160;: 115&#160;350&#160;$</li>
+      <li>1er échelon&nbsp;: 71&nbsp;191&nbsp;$</li>
+      <li>2e échelon&nbsp;: 92&nbsp;497&nbsp;$</li>
+      <li>3e échelon&nbsp;: 100&nbsp;356&nbsp;$</li>
+      <li>4e échelon&nbsp;: 108&nbsp;220&nbsp;$</li>
+      <li>5e échelon&nbsp;: 115&nbsp;350&nbsp;$</li>
     </ul>
   </section>
   <section id="s2-2">
     <h3>Congés annuels</h3>
     <ul>
-      <li>De 0 à 5&#160;années de service&#160;: 15&#160;jours par an</li>
-      <li>De 5 à 10&#160;années de service&#160;: 20&#160;jours par an</li>
-      <li>De 10 à 22&#160;années de service&#160;: 25&#160;jours par an</li>
-      <li>Plus de 23&#160;années de service&#160;: 30&#160;jours par an</li>
+      <li>De 0 à 5&nbsp;années de service&nbsp;: 15&nbsp;jours par an</li>
+      <li>De 5 à 10&nbsp;années de service&nbsp;: 20&nbsp;jours par an</li>
+      <li>De 10 à 22&nbsp;années de service&nbsp;: 25&nbsp;jours par an</li>
+      <li>Plus de 23&nbsp;années de service&nbsp;: 30&nbsp;jours par an</li>
     </ul>
   </section>
   <section id="s2-3">
     <h3>Régime de retraite</h3>
     <ul>
-      <li>20&#160;années de service&#160;: retraite avec pénalité</li>
-      <li>25&#160;années de service&#160;: pleine pension</li>
-      <li>35&#160;années de service&#160;: pension maximale</li>
+      <li>20&nbsp;années de service&nbsp;: retraite avec pénalité</li>
+      <li>25&nbsp;années de service&nbsp;: pleine pension</li>
+      <li>35&nbsp;années de service&nbsp;: pension maximale</li>
     </ul>
     <p>Si vous avez déjà cotisé à un régime de retraite agréé canadien, il est possible d'en transférer la valeur au régime
   de retraite de la GRC.</p>
-    <p>Pour en savoir plus, cliquez sur le lien suivant&#160;: <a href="https://rcmp-grc.pension.gc.ca/accueil-home-fra.html">Pension et avantages sociaux de la Gendarmerie royale du Canada</a>.</p>
+    <p>Pour en savoir plus, cliquez sur le lien suivant&nbsp;: <a href="https://rcmp-grc.pension.gc.ca/accueil-home-fra.html">Pension et avantages sociaux de la Gendarmerie royale du Canada</a>.</p>
   </section>
   <section id="s2-4">
     <h3>Soins médicaux et dentaires</h3>

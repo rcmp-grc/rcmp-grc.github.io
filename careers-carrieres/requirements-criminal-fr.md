@@ -22,7 +22,7 @@ custom_css: /assets/css/careers.css
 </nav>
 
 <p>En tant que policier(ière), votre responsabilité consistera à faire respecter la loi. Par conséquent, tout comportement ou activité criminels pendant le processus d'embauche de candidature pourrait vous disqualifier.</p>
-<p>Pendant le processus d'embauche, vous ne devez pas&#160;:</p>
+<p>Pendant le processus d'embauche, vous ne devez pas&nbsp;:</p>
 <ul>
   <li>avoir de comportement criminel ni participer à une activité criminelle au Canada ou à l'étranger
     <ul>
@@ -34,7 +34,7 @@ custom_css: /assets/css/careers.css
 
 <section id="s1">
   <h2>Exemples d'activités et de comportements criminels</h2>
-  <p>Voici quelques-unes des infractions criminelles graves&#160;:</p>
+  <p>Voici quelques-unes des infractions criminelles graves&nbsp;:</p>
   <ul>
     <li>Meurtre et homicide involontaire coupable</li>
     <li>Agression sexuelle ou physique</li>
@@ -56,7 +56,7 @@ custom_css: /assets/css/careers.css
 
 <section id="s2">
   <h2>Évaluation de vos antécédents</h2>
-  <p>Concernant les antécédents, voici quelques-uns des facteurs que nous prenons en considération pour déterminer l'admissibilité d'un postulant&#160;:</p>
+  <p>Concernant les antécédents, voici quelques-uns des facteurs que nous prenons en considération pour déterminer l'admissibilité d'un postulant&nbsp;:</p>
   <ul>
     <li>Gravité de l'infraction ou du comportement</li>
     <li>Fréquence de l'activité ou du comportement</li>
@@ -74,6 +74,6 @@ custom_css: /assets/css/careers.css
   <h2>Liens connexes</h2>
   <ul>
     <li><a href="#">Exigences fondamentales</a></li>
-    <li><a href="#">6.0 – Processus de candidature&#160;: Enquête sur les antécédents terminée</a></li>
+    <li><a href="#">6.0 – Processus de candidature&nbsp;: Enquête sur les antécédents terminée</a></li>
   </ul>
 </section>

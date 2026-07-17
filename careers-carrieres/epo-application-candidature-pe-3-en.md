@@ -39,7 +39,7 @@ custom_css: /assets/css/careers.css
           <a href="6627e.pdf" class="gc-pdf-link" download>
             <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
             <span>
-              <span class="gc-link-title">Physical Employment Standard (PES) (RCMP&#160;6627)</span>
+              <span class="gc-link-title">Physical Employment Standard (PES) (RCMP&nbsp;6627)</span>
               <span class="gc-link-meta" data-pdf-meta>PDF</span>
             </span>
           </a>

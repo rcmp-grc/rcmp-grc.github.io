@@ -32,13 +32,13 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 <section id="s1">
-  <p>Cette entrevue permet d'évaluer si vous possédez les compétences de base, les valeurs fondamentales et les caractéristiques requises d'un agent ou d'une agente de la GRC. L'entrevue pourrait comprendre des questions axées sur le comportement; nous vous recommandons d'y répondre en utilisant le modèle STAR&#160;: Situation, Tâche, Action, Résultat.</p>
-  <p>Après avoir fixé la date de l'entrevue, le coordonnateur du PPE passera en revue les deux formulaires suivants pour préparer l'entrevue&#160;:: le QPPMR et le formulaire de vérification de l'admissibilité.</p>
+  <p>Cette entrevue permet d'évaluer si vous possédez les compétences de base, les valeurs fondamentales et les caractéristiques requises d'un agent ou d'une agente de la GRC. L'entrevue pourrait comprendre des questions axées sur le comportement; nous vous recommandons d'y répondre en utilisant le modèle STAR&nbsp;: Situation, Tâche, Action, Résultat.</p>
+  <p>Après avoir fixé la date de l'entrevue, le coordonnateur du PPE passera en revue les deux formulaires suivants pour préparer l'entrevue&nbsp;:: le QPPMR et le formulaire de vérification de l'admissibilité.</p>
   <p>Vous aurez déjà présenté ces deux formulaires avec les autres transmis plus tôt dans le processus. Le Questionnaire du postulant à un poste de membre régulier (QPPMR) est un questionnaire qui permet d'examiner en détail vos actions et comportements antérieurs. Remplissez le QPPMR honnêtement et de manière aussi détaillée que possible. Le formulaire de vérification de l'admissibilité sert à recueillir vos renseignements personnels et des renseignements généraux.</p>
 </section>
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
   <div class="rcmp-content-page__previous" id="mp-previous-wrap">
-    <a aria-label="Étape précédente&#160;: Test de condition physique pour les policiers" class="rcmp-content-page__link" href="epo-application-candidature-pe-3-fr.html" id="mp-previous">
+    <a aria-label="Étape précédente&nbsp;: Test de condition physique pour les policiers" class="rcmp-content-page__link" href="epo-application-candidature-pe-3-fr.html" id="mp-previous">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-left"></i>
         <span class="rcmp-content-page__link-title">Étape précédente</span>
@@ -47,7 +47,7 @@ custom_css: /assets/css/careers.css
     </a>
   </div>
   <div class="rcmp-content-page__next" id="mp-next-wrap">
-    <a aria-label="Étape suivante&#160;: Évaluations médicale et psychologique" class="rcmp-content-page__link" href="epo-application-candidature-pe-5-fr.html" id="mp-next">
+    <a aria-label="Étape suivante&nbsp;: Évaluations médicale et psychologique" class="rcmp-content-page__link" href="epo-application-candidature-pe-5-fr.html" id="mp-next">
       <span class="rcmp-content-page__title-row">
         <i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i>
         <span class="rcmp-content-page__link-title">Étape suivante</span>

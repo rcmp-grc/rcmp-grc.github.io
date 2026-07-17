@@ -90,16 +90,20 @@ custom_css: /assets/css/careers.css
   <section id="s3-1">
    <h3>Partie&nbsp;A – Sens des mots</h3>
     <p>Lisez le premier mot, puis choisissez l’option dont le sens est le plus proche.</p>
-  <p><strong>Exemple&nbsp;: </strong></p>
-    <p>RaviRéciter</p>
-    <ol class="lst-lwr-alph">
-      <li>Heureux</li>
-      <li>Désespéré</li>
-      <li>Inapproprié</li>
-      <li>Inappropriate</li>
-      <li>Je ne sais pas</li>
-    </ol>
-    <p>La bonne réponse est <strong>b. Heureux</strong>.</p>
+    <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h4 class="panel-title">Sample question</h4>
+  </header>
+  <div class="panel-body">
+  <p>Identify the word with the closest meaning to:<br><strong>Ravi</strong></p>
+  <p>The answer options are:<br>
+  A. Réciter, B. Heureux, C. Désespéré, D. Inapproprié ou «&nbsp;Je ne sais pas&nbsp;»</p>
+     <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
+      <p>La bonne réponse est <strong>B. Heureux</strong>.</p>
+    </details>
+  </div>
+</div>
 </section>
   <section id="s3-2">
    <h3>Partie&nbsp;B – Liens entre les mots</h3>

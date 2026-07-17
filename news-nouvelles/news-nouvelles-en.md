@@ -42,11 +42,6 @@ issued: 2026-05-21
       <p>Read news shared by the leaders of the <abbr>RCMP</abbr> across Canada.</p>
     </section>
   </div>
-  <div class="col-md-4">
-    <section class="gc-drmt">
-      <h2 class="h5" data-emptytext="Subscribe"><a href="/en/news/subscribe-en.html">Subscribe to news</a></h2>
-      <p>Receive news and communications by email.</p>
-    </section>
   </div>
 	<div class="col-md-4">
     <section class="gc-drmt">

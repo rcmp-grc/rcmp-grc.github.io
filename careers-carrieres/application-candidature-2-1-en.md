@@ -402,14 +402,14 @@ A, B, C, D, E or I don't know</p>
   <p>There is a timer at the bottom of the page.</p>
    <section id="s7-1">
    <h3>Part&nbsp;A – Verbal reasoning</h3>
-     <p>Identify the word that best relates to the word provided. Look at the first pair of words to see how they relate to each other and then identify the word that makes the second pair of words related in the same way.</p>
+     <p>Identify the word that best relates to the word provided. View this pair of words to see how they relate to each other: Up - Down. Identify the word that makes the following words related in the same way.</p>
  <div class="panel panel-careers">
   <header class="panel-heading">
    <h4 class="panel-title">Sample question&nbsp;1</h4>
   </header>
   <div class="panel-body">  
-    <p>Example: Up - Down</p>
-    <p>Left - </p>
+    <p>Identify the word that makes That relates to: <br>
+  <strong>Left</strong></p>
     <p>The snswer options are: <br>
      A. High, B. Right, C. Low or D. Above</p>
     <details class="rc-answer-toggle">

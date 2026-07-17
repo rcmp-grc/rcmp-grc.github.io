@@ -108,18 +108,13 @@ custom_css: /assets/css/careers.css
    <h4 class="panel-title">Sample question</h4>
   </header>
   <div class="panel-body">
-  <p>Read the first word, then choose the option with the closest meaning.</p>
+  <p>Read the first word, then fing the option with the closest meaning.</p>
   <p><strong>Glad</strong></p>
-    <ol class="lst-lwr-alph">
-      <li>Recite</li>
-      <li>Happy</li>
-      <li>Hopeless</li>
-      <li>Inappropriate</li>
-      <li>I don't know</li>
-    </ol>
+  <p>The answer options are:</p> 
+  <p>A. Recite. B. Happy, C. Hopeless, D. Inappropriate or I don't know </p>
      <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
-      <p>The correct answer is <strong>b. Happy</strong>.</p>
+      <p>The correct answer is <strong>B. Happy</strong>.</p>
     </details>
   </div>
 </div>
@@ -127,18 +122,18 @@ custom_css: /assets/css/careers.css
   <section id="s3-2">
    <h3>Part&nbsp;B – Word relationships</h3>
     <p>Note the relationship between the first pair of words. Select the option that forms a similar relationship to fill the blank. </p>
-    <p><strong>Example: </strong></p>
-    <p>Tie: Rope</p>
-    <p>Cut:</p>
-    <ol class="lst-lwr-alph">
-      <li>Needle</li>
-      <li>Repair</li>
-      <li>Saw</li>
-      <li>Broken</li>
-    </ol>
+     <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h4 class="panel-title">Sample question</h4>
+  </header>
+  <div class="panel-body">
+    <p>Example: Tie - Rope</p>
+    <p>Cut-</p>
+    <p>The answer options are:</p> 
+    <p>A. Needle, B. Repair, C. Saw or D. Broken</p>
      <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
-    <p>The correct answer is <strong>c. Saw</strong>. You tie with a rope; you cut with a saw.</p>
+    <p>The correct answer is <strong>C. Saw</strong>. You tie with a rope; you cut with a saw.</p>
      </details>
 </section>
 </section>
@@ -162,8 +157,8 @@ custom_css: /assets/css/careers.css
   </header>
   <div class="panel-body">
      <p>8 + 7 = </p>
-    <p>Answer options are:</p>
-     <p>A. 12, B. 13, C. 15, D. 16 or I don't know</p>
+    <p>The answer options are: <br>
+    A. 12, B. 13, C. 15, D. 16 or I don't know</p>
       <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
      <p>The correct answer is <strong>C. 15</strong>.</p>
@@ -176,7 +171,8 @@ custom_css: /assets/css/careers.css
   </header>
   <div class="panel-body">    
     <p>5 x 5 =</p>
-    <p>Answer options are: A. 10, B. 25, C. 36, D. 50 or I don't know</p>
+    <p>The answer options are: <br>
+   A. 10, B. 25, C. 36, D. 50 or I don't know</p>
       <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
      <p>The correct answer is <strong>B. 25</strong>.</p>
@@ -193,7 +189,8 @@ custom_css: /assets/css/careers.css
   </header>
   <div class="panel-body">  
      <p>2 + 2 x 1 =</p>
-    <p>Answer options are: A. 2, B. 3, C. 4, D. 0 or I don't know</p>
+    <p>The answer options are: <br>
+A. 2, B. 3, C. 4, D. 0 or I don't know</p>
      <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
      <p>The correct answer is <strong>C. 4</strong>.</p>
@@ -222,7 +219,8 @@ custom_css: /assets/css/careers.css
   <div class="row wb-eqht">
   <div class="col-md-6">
  <p>Using the following image, which one of the 2D shapes A to E matches the outlined shape?</p>     
-<p>Answer options are: <br>A, B, C, D, E or I don't know</p>
+<p>The answer options are: <br>
+A, B, C, D, E or I don't know</p>
   </div>
   <div class="col-md-6">  
     <figure>
@@ -249,7 +247,7 @@ custom_css: /assets/css/careers.css
   <div class="row wb-eqht">
   <div class="col-md-6">
  <p>Using the following image, which one of the 3D shapes A to E matches the outlined shape?</p>     
-<p>Answer options are: <br>A, B, C, D or I don't know</p>
+<p>The answer options are: <br>A, B, C, D or I don't know</p>
   </div>
   <div class="col-md-6">  
     <figure>
@@ -276,7 +274,7 @@ custom_css: /assets/css/careers.css
   <div class="row wb-eqht">
   <div class="col-md-6">
  <p>Using the following image, when handle&nbsp;H is pulled to the right, end&nbsp;E will:</p>   
-<p>Answer options are: <br>A. Move to the left, B. Move to the right, C. Move back and forth, D. Stay in the same position or I don't know</p>
+<p>Thw answer options are: <br>A. Move to the left, B. Move to the right, C. Move back and forth, D. Stay in the same position or I don't know</p>
   </div>
   <div class="col-md-6">  
     <figure>
@@ -303,7 +301,7 @@ custom_css: /assets/css/careers.css
   <div class="row wb-eqht">
   <div class="col-md-6">
  <p>Using the following image, which one of the folded shapes represents the unfolded shape?</p>   
-<p>Answer options are: <br>A, B, C, D or I don't know</p>
+<p>The answer options are: <br>A, B, C, D or I don't know</p>
   </div>
   <div class="col-md-6">  
     <figure>
@@ -344,7 +342,7 @@ custom_css: /assets/css/careers.css
   <div class="col-md-6">
     <p>Study this group of objects; you have a 30-second time limit.</p>
     <p>Usig the following image, what is the colour of the circle?</p>
-    <p>A. Red, B. Green, C. Black, D. Orange or E. Blue</p>
+    <p>The anser options are:<br>A. Red, B. Green, C. Black, D. Orange or E. Blue</p>
      </div>
   <div class="col-md-6">  
         <figure>
@@ -368,8 +366,8 @@ custom_css: /assets/css/careers.css
   </header>
   <div class="panel-body">
      <p>Which direction is the wind coming from?</p>
-    <p>Answer options are:</p>
-     <p>A. Northeast, B. Northwest, C. Southeast, D. Southwest or E. The wind direction was not provided</p>
+    <p>The answer options are: <br>
+     A. Northeast, B. Northwest, C. Southeast, D. Southwest or E. The wind direction was not provided</p>
      <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
      <p>The correct answer is <strong>D. Southwest</strong>.</p>
@@ -382,8 +380,8 @@ custom_css: /assets/css/careers.css
   </header>
   <div class="panel-body">  
          <p>What overnight temperature is predicted?</p>
-    <p>Answer options are:</p> 
-    <p>A. 22&nbsp;degrees, B. 23&nbsp;degrees, C. 25&nbsp;degrees, D. 26&nbsp;degrees or E. 2&nbsp;degrees</p>
+    <p>The answer options are: <br> 
+     A. 22&nbsp;degrees, B. 23&nbsp;degrees, C. 25&nbsp;degrees, D. 26&nbsp;degrees or E. 2&nbsp;degrees</p>
     <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
      <p>The correct answer is <strong>B. 23&nbsp;degrees</strong>.</p>
@@ -410,8 +408,8 @@ custom_css: /assets/css/careers.css
   <div class="panel-body">  
     <p>Example: Up - Down</p>
     <p>Left - </p>
-    <p>Answer options are:</p> 
-    <p>A. High, B. Right, C. Low or D. Above</p>
+    <p>The snswer options are: <br>
+     A. High, B. Right, C. Low or D. Above</p>
     <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
      <p>The correct answer is <strong>B. Right</strong>. In the example, “Up” and “Down” are opposites, so the correct answer is the opposite of “Left”, which is “Right”.</p>
@@ -424,8 +422,8 @@ custom_css: /assets/css/careers.css
   </header>
     <div class="panel-body">  
     <p>A company policy states that all people at the factory must wear safety goggles. Visitors to the factory on Wednesday were not wearing safety goggles. Was the company policy broken on Wednesday?</p>
-    <p>Answer options are:</p> 
-    <p>A. Yes, B. It cannot be determined or C. No</p>
+    <p>The answer options are: <br> 
+    A. Yes, B. It cannot be determined or C. No</p>
     <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
      <p>The correct answer is <strong>A. Yes</strong>.</p>
@@ -442,8 +440,8 @@ custom_css: /assets/css/careers.css
   </header>
     <div class="panel-body">  
     <p>John made one sale of $100 and Betty made one sale of $200. What was the difference in sale between John and Betty?</p>
-    <p>Answer options are:</p> 
-    <p>A. $300, B. $100, C. $200 or D. None of the above</p>
+    <p>The answer options are: <br>
+    A. $300, B. $100, C. $200 or D. None of the above</p>
     <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
      <p><p>The correct answer is <strong>B. $100</strong>.</p></p>

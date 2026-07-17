@@ -111,7 +111,7 @@ custom_css: /assets/css/careers.css
   <div class="panel-body">
   <p>Identify the word with the closest meaning to:<br><strong>Glad</strong></p>
   <p>The answer options are:<br>
-  A. Recite. B. Happy, C. Hopeless, D. Inappropriate or I don't know </p>
+  A. Recite, B. Happy, C. Hopeless, D. Inappropriate or I don't know </p>
      <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
       <p>The correct answer is <strong>B. Happy</strong>.</p>

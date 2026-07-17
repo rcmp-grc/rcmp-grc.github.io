@@ -110,8 +110,8 @@ custom_css: /assets/css/careers.css
   </header>
   <div class="panel-body">
   <p>Identify the word with the closest meaning to:<br><strong>Glad</strong></p>
-  <p>The answer options are:</p> 
-  <p>A. Recite. B. Happy, C. Hopeless, D. Inappropriate or I don't know </p>
+  <p>The answer options are:<br>
+  A. Recite. B. Happy, C. Hopeless, D. Inappropriate or I don't know </p>
      <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
       <p>The correct answer is <strong>B. Happy</strong>.</p>
@@ -129,8 +129,8 @@ custom_css: /assets/css/careers.css
   <div class="panel-body">
     <p>Identify the word that forms a relationship with:<br>
     <strong>Cut</strong></p>
-    <p>The answer options are:</p> 
-    <p>A. Needle, B. Repair, C. Saw or D. Broken</p>
+    <p>The answer options are:<br> 
+    A. Needle, B. Repair, C. Saw or D. Broken</p>
      <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
     <p>The correct answer is <strong>C. Saw</strong>. You tie with a rope; you cut with a saw.</p>

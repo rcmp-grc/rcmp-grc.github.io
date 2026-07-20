@@ -31,15 +31,10 @@ issued: 2026-05-21
 	{
 	background-color: #f3f2f1;
 	border-top: 2px solid var(--rcmp-gold);
-	padding: 5px 15px 15px 15px;
 	}
 	details
 	{
 	background-color: #ffffff;
-	}
-	summary 
-	{
-	padding-left: 5px;
 	}
 </style>
 <p>Read the RCMP news and communications.</p>

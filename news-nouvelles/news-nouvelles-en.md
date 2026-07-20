@@ -33,14 +33,6 @@ issued: 2026-05-21
 	border-top: 2px solid var(--rcmp-gold);
 	padding: 5px 15px 15px 15px;
 	}
-	details
-	{
-	background-color: #f3f2f1;
-	}
-	form
-	{
-	background-color: #ffffff;
-	}
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">
@@ -76,10 +68,9 @@ issued: 2026-05-21
 		 </form>
 		</div>
 		<div class="filters">
-		<form role="form" method="get" action="#" id="filters" aria-label="Filter RCMP news">
         <div id="filtres"><h2 class="h6" id="news-filters">Filter</h2>
 		<p class="small">Select any of the following filters to narrow your search</p></div>
-	    <details class="re-select-group">
+		<div class="re-select-group">	
         <summary class="wp-filter-group-toggle">
           <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">
         Category</span></summary>	
@@ -131,7 +122,7 @@ issued: 2026-05-21
                 <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span></label>
 				  </div>	
 		  </fieldset>
-	  </details>
+		</div>
 		<details open>
         <summary>
        Published by

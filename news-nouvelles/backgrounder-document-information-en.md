@@ -144,8 +144,8 @@ a.news-topic-1:hover, a.news-topic-1:active {
 <div class="explore">
 <div class="mrgn-tp-sm mrgn-bttm-md">
 <ol class="list-inline">
-  <li><i class="fa-solid fa-calendar-days"></i>&nbsp;May&nbsp;14, 2026&nbsp;|</li>
-  <li><i class="fa-solid fa-location-dot"></i>&nbsp;Richmond, British Columbia&nbsp;|</li>
+  <li><i class="fa-solid fa-calendar-days"></i>&nbsp;May&nbsp;14, 2026&nbsp;&nbsp;|</li>
+  <li><i class="fa-solid fa-location-dot"></i>&nbsp;Richmond, British Columbia&nbsp;&nbsp;|</li>
   <li><i class="fa-regular fa-circle-user"></i>&nbsp;<a href="#">National Communications and Public Affairs</a></li>
 </ol></div>
 </div>

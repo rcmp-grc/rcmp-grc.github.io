@@ -82,7 +82,7 @@ issued: 2026-05-21
 	    <details class="wp-filter-group open">
         <summary class="wp-filter-group-toggle">
           <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">
-        Category</summary>
+        Category</span></summary>
           <legend class="wb-inv">Category</legend>
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span></label>

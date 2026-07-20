@@ -143,7 +143,12 @@ a.news-topic-1:hover, a.news-topic-1:active {
 <div class="clearfix"></div>
 <p class="lead">Richmond RCMP Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety.</p>
 <div class="explore">
-<div class="mrgn-tp-sm mrgn-bttm-md"><i class="fa-solid fa-calendar-days"></i>&nbsp;May&nbsp;7, 2026&nbsp;|&nbsp;<i class="fa-solid fa-location-dot"></i>&nbsp;Richmond, British Columbia&nbsp;|&nbsp;<i class="fa-regular fa-circle-user"></i>&nbsp;<a href="https://rcmp.ca/en/bc/richmond">Richmond RCMP</a></div></div>	
+<div class="mrgn-tp-sm mrgn-bttm-md">
+<ol class="list-inline">
+  <li><i class="fa-solid fa-calendar-days"></i>&nbsp;May&nbsp;7, 2026&nbsp;&nbsp;|</li>
+  <li><i class="fa-solid fa-location-dot"></i>&nbsp;Richmond, British Columbia&nbsp;&nbsp;|</li>
+  <li><i class="fa-regular fa-circle-user"></i>&nbsp;<a href="#">National Communications and Public Affairs</a></li>
+</ol></div></div>
 <div class="row">
 <div class="col-md-8"> 
 <p>Richmond <abbr>RCMP</abbr> Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety, as part of the province-wide <abbr>BC</abbr> Association of Chiefs of Police enforcement calendar in partnership with <abbr>ICBC</abbr>.</p>

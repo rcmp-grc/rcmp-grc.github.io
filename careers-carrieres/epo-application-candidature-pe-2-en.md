@@ -66,12 +66,8 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s2">
     <h2>Submit a resume and cover letter</h2>
-    <p>Review the guidance on the structured resume and police experience using the STAR format:</p>
-    <ul>
-        <li><a href="#">the STAR format for resumes</a></li>
-        <li><a href="#">general duty competencies</a> according to the RCMP Competency Dictionary</li>
-    </ul>
     <p>Email your cover letter and structured resume that outline your policing experience, competencies and training to the EPO Coordinator.</p>
+    <p>Learn how to tailor your resume and coverer letter using the STAR format in the next step.</p>
 </section>
 <section id="s3">
     <h2>Complete the vision and hearing exam</h2>
@@ -98,9 +94,9 @@ custom_css: /assets/css/careers.css
     <h2>Submit your policing records and certificates</h2>
     <p>Email a copy of the following records to the EPO Coordinator:</p>
     <ul>    
-    <li>your disciplinary record</li>
-    <li>your basic police training program certificate</li>
-    <li>your other police training certificates</li>
+    <li>disciplinary record</li>
+    <li>basic police training program certificate</li>
+    <li>other police training certificates</li>
     <li>standard first aid certificate with C (CPR) for infants, children, and adults and that is valid at the time of training</li>
     </ul>
 </section>

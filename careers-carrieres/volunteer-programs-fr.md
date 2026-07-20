@@ -12,13 +12,13 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<nav aria-labelledby="on-this-page">
-  <h2 id="on-this-page">Sur cette page</h2>
+<nav aria-labelledby="on-this-page-heading">
+  <h2 id="on-this-page-heading">Sur cette page</h2>
   <ul>
     <li><a href="#s1">Les bénévoles à la GRC</a></li>
     <li><a href="#s2">Que font les bénévoles de la GRC</a></li>
     <li><a href="#s3">Programme des auxiliaires</a></li>
-    <li><a href="#s4">Devenir bénévole</a></li>
+    <li><a href="#s4">Critères d’admissibilité</a></li>
     <li><a href="#s5">Participation des jeunes</a></li>
     <li><a href="#s6">Avantages du bénévolat</a></li>
     <li><a href="#s7">Comment présenter une demande</a></li>
@@ -28,12 +28,12 @@ custom_css: /assets/css/careers.css
 <section id="s1">
   <h2>Les bénévoles à la GRC</h2>
   <p>Les bénévoles jouent un rôle indispensable à la bonne prestation des services de police communautaires. Leur contribution est particulièrement importante au niveau des détachements, où ils travaillent directement avec les membres, le personnel et les clients de la collectivité.</p>
-  <p>Les programmes de bénévoles visent à apporter un soutien et compléter les activités de notre effectif. Les bénévoles n'exécutent pas de tâches liées à l'application de la loi ou aux opérations; ces fonctions sont exercées par les membres réguliers.</p>
+  <p>Les programmes de bénévoles visent à apporter un soutien et compléter les activités de notre effectif. Les bénévoles n'exécutent pas de tâches liées à l'application de la loi ou aux opérations; ces fonctions sont exercées par les policiers.</p>
 </section>
 
 <section id="s2">
   <h2>Que font les bénévoles de la GRC</h2>
-  <p>Les bénévoles contribuent à presque toutes les activités de la police communautaire. Voici quelques exemples&nbsp;:</p>
+  <p>Les bénévoles contribuent à presque toutes les activités de la police communautaire. Voici quelques exemples&#160;:</p>
   <ul>
     <li>Surveillance de quartier</li>
     <li>Rodéo et patrouille à vélo</li>
@@ -52,14 +52,14 @@ custom_css: /assets/css/careers.css
 <section id="s3">
   <h2>Programme des auxiliaires</h2>
   <p>Le Programme des auxiliaires offre aux Canadiennes et Canadiens soucieux du bien-être de leur collectivité l'occasion de faire du bénévolat afin d'appuyer les initiatives de police communautaire, de prévention du crime et de sécurité publique. Selon leur niveau de service, les auxiliaires peuvent participer à diverses activités, notamment l'éducation du public, les événements communautaires, le contrôle de la circulation et le soutien aux opérations.</p>
-  <p>Apprenez-en davantage sur le <a href="https://grc.ca/fr/carrieres-grc/programme-auxiliaires">Programme des auxiliaires</a> et découvrez comment devenir bénévole.</p>
+  <p>Apprenez-en davantage sur le <a href="#">Programme des auxiliaires</a> et découvrez comment devenir bénévole.</p>
 </section>
 
 <section id="s4">
-  <h2>Critères d'admissibilité</h2>
-  <p>Pour faire du bénévolat à la GRC, vous devez&nbsp;:</p>
+  <h2>Critères d’admissibilité</h2>
+  <p>Pour faire du bénévolat à la GRC, vous devez&#160;:</p>
   <ul>
-    <li>être âgé d'au moins 16&nbsp;ans</li>
+    <li>être âgé d'au moins 16&#160;ans</li>
     <li>être responsable et avoir une bonne réputation</li>
     <li>être en mesure d'obtenir le niveau d'habilitation de sécurité approprié</li>
   </ul>
@@ -88,5 +88,4 @@ custom_css: /assets/css/careers.css
     <li><a href="/fr/tnl/renseignements-organisationnels/contactez-grc-terre-neuve-et-labrador">Terre-Neuve-et-Labrador</a></li>
     <li><a href="/fr/yukon/renseignements-organisationnels/contactez-grc-yukon">Yukon</a></li>
   </ul>
-  <p>Merci pour tout le travail que vous faites. Nous ne pourrions pas faire notre travail sans vous.</p>
 </section>

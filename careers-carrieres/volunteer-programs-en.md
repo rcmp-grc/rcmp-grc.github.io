@@ -12,13 +12,13 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<nav aria-labelledby="on-this-page">
-  <h2 id="on-this-page">On this page</h2>
+<nav aria-labelledby="on-this-page-heading">
+  <h2 id="on-this-page-heading">On this page</h2>
   <ul>
     <li><a href="#s1">Volunteers at the RCMP</a></li>
     <li><a href="#s2">What RCMP volunteers do</a></li>
     <li><a href="#s3">Auxiliary Program</a></li>
-    <li><a href="#s4">Become a volunteer</a></li>
+    <li><a href="#s4">Eligibility criteria</a></li>
     <li><a href="#s5">Youth involvement</a></li>
     <li><a href="#s6">Volunteer benefits</a></li>
     <li><a href="#s7">How to apply</a></li>
@@ -28,7 +28,7 @@ custom_css: /assets/css/careers.css
 <section id="s1">
   <h2>Volunteers at the RCMP</h2>
   <p>Volunteers play an important role in the successful delivery of community policing services. Their work is especially important at the detachment level, where they work closely with police officers, staff, and community clients.</p>
-  <p>Our volunteer programs serve as a support and complement to our workforce. Volunteers do not perform law enforcement or operational duties performed by Regular Members.</p>
+  <p>Our volunteer programs serve as a support and complement to our workforce. Volunteers do not perform law enforcement or operational duties performed by police officers.</p>
 </section>
 
 <section id="s2">
@@ -52,14 +52,14 @@ custom_css: /assets/css/careers.css
 <section id="s3">
   <h2>Auxiliary Program</h2>
   <p>The Auxiliary Program offers community-minded Canadians an opportunity to volunteer in support of local policing, crime prevention and public safety efforts. Depending on their tier of service, auxiliaries may participate in activities ranging from public education and community events to traffic control, and operational support.</p>
-  <p>Learn more about the <a href="/en/careers-rcmp/auxiliary-program">Auxiliary Program</a> and how you can volunteer.</p>
+  <p>Learn more about the <a href="#">Auxiliary Program</a> and how you can volunteer.</p>
 </section>
 
 <section id="s4">
   <h2>Eligibility criteria</h2>
   <p>To volunteer with the RCMP, you must:</p>
   <ul>
-    <li>be at least 16&nbsp;years of age</li>
+    <li>be at least 16&#160;years of age</li>
     <li>be responsible and have good character</li>
     <li>be able to receive the appropriate level of security clearance</li>
   </ul>

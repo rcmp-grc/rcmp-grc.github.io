@@ -33,7 +33,7 @@ issued: 2026-05-21
 	border-top: 2px solid var(--rcmp-gold);
 	padding: 5px 15px 5px 15px;
 	}
-	#details
+	details
 	{
 		background-color: #ffffff;
 	}

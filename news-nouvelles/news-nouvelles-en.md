@@ -17,7 +17,7 @@ issued: 2026-05-21
 	padding: 10px;
 	flex: 1;
 	border-top: 2px solid var(--rcmp-gold);
-	background-color: #f9f9f9;	
+	background-color: #f3f2f1;	
     }
 	.badge-located
 	{
@@ -35,7 +35,7 @@ issued: 2026-05-21
 	}
 	details
 	{
-		background-color: #ffffff;
+	background-color: #ffffff;
 	}
 </style>
 <p>Read the RCMP news and communications.</p>

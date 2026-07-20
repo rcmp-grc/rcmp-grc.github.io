@@ -132,7 +132,7 @@ issued: 2026-05-21
           <legend class="wb-inv">Territory or province</legend>
             <label class="small" mrgn-lft-0 for="territory">Territory or province</label>
             <select id="territory" name="territory" class="form-control">
-				<option data-filter="territory" value="All"><span class="cb-text">All territories and provinces</span></option>
+				<option data-filter="territory" value="All territories and provinces"><span class="cb-text">All</span></option>
 				<option data-filter="territory" value="Alberta"><span class="cb-text">Alberta</span></option>
                 <option data-filter="territory" value="British Columbia"><span class="cb-text">British Columbia</span></option>
                 <option data-filter="territory" value="Manitoba"><span class="cb-text">Manitoba</span></option>
@@ -149,7 +149,7 @@ issued: 2026-05-21
 			</select>
 		    <label class="small mrgn-lft-0 mrgn-tp-md" for="region">National, divisional or regional policing</label>
 			<select id="region" name="region" class="form-control">	
-			<option data-filter="region" value="All"><span class="cb-text">All national, divisional and regional policing</span></option>	
+			<option data-filter="region" value="All national, divisional and regional policing"><span class="cb-text">All</span></option>	
 			<option data-filter="region" value="RCMP National Headquarters"><span class="cb-text">National Headquarters</span></option>	
             <option data-filter="region" value="Alberta RCMP"><span class="cb-text">Alberta RCMP</span></option>
             <option data-filter="region" value="British Columbia RCMP"><span class="cb-text">British Columbia RCMP</span></option>

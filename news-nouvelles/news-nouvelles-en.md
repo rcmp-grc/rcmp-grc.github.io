@@ -37,6 +37,10 @@ issued: 2026-05-21
 	{
 	background-color: #f3f2f1;
 	}
+	form
+	{
+	background-color: #ffffff;
+	}
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">
@@ -71,13 +75,12 @@ issued: 2026-05-21
 		  </div>
 		 </form>
 		</div>
-		<div class="wp-filter-group">
+		<div class="filters">
 		<form role="form" method="get" action="#" id="filters" aria-label="Filter RCMP news">
-      <div id="filtres"><h2 class="h6" id="news-filters">Filter</h2>
+        <div id="filtres"><h2 class="h6" id="news-filters">Filter</h2>
 		<p class="small">Select any of the following filters to narrow your search</p></div>
 		<details open>
-        <summary>Category
-        </summary>
+        <summary>Category</summary>
           <legend class="wb-inv">Category</legend>
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span></label>

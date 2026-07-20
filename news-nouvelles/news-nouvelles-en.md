@@ -75,7 +75,7 @@ issued: 2026-05-21
 		<form role="form" method="get" action="#" id="filters" aria-label="Filter RCMP news">
       <div id="filtres"><h2 class="h6" id="news-filters">Filter</h2>
 		<p class="small">Select any of the following filters to narrow your search</p></div>
-		<details class="wp-filter-group" open>
+		<details open>
         <summary>Category
         </summary>
           <legend class="wb-inv">Category</legend>
@@ -125,7 +125,7 @@ issued: 2026-05-21
                 <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span></label>
 				  </div>		
 	  </details>
-		<details class="wp-filter-group" open>
+		<details open>
         <summary>
        Published by
         </summary>
@@ -169,7 +169,7 @@ issued: 2026-05-21
             <option data-filter="region" value="Federal Policing Pacific Region"><span class="cb-text">Pacific Region</span></option>
 			</select>
       </details>	
-		<details class="wp-filter-group" open>
+		<details open>
         <summary>
        Publish date
         </summary>

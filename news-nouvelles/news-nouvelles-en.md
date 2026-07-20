@@ -33,6 +33,10 @@ issued: 2026-05-21
 	border-top: 2px solid var(--rcmp-gold);
 	padding: 5px 15px 5px 15px;
 	}
+	#details
+	{
+		background-color: #ffffff;
+	}
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">

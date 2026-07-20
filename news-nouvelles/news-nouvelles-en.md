@@ -29,7 +29,7 @@ issued: 2026-05-21
 	}
 	.filters
 	{
-	background-color: #f2f2f2;
+	background-color: #f3f2f1;
 	border-top: 2px solid var(--rcmp-gold);
 	padding: 5px 15px 5px 15px;
 	}

@@ -125,7 +125,7 @@ issued: 2026-05-21
                 <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span></label>
 				  </div>		
 	  </details>
-		<detail class="wp-filter-group" open>
+		<details class="wp-filter-group" open>
         <summary>
        Published by
         </summary>

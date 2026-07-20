@@ -12,7 +12,7 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 hero_image: /assets/img/landing-student-jobs.jpg
 ---
-<p>Apply to one of the following public service programs for an opportunity to play a vital and critical role supporting RCMP operations across the country.  </p>
+<p>Postulez à l'un des programmes de la fonction publique suivants pour l'occasion de jouer un rôle important dans le soutien des opérations de la GRC à travers le pays. </p>
 <section class="gc-features">
   <h2 class="wb-inv">Renseignements organisationnels</h2>
   <ul class="list-unstyled row">

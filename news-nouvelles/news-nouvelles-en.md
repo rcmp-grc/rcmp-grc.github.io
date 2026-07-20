@@ -78,7 +78,6 @@ issued: 2026-05-21
 		<details open>
         <summary>Category
         </summary>
-        <fieldset>
           <legend class="wb-inv">Category</legend>
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span></label>
@@ -125,13 +124,11 @@ issued: 2026-05-21
 		<div class="checkbox">
                 <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span></label>
 				  </div>		
-        </fieldset>
 	  </details>
 		<details open>
         <summary>
        Published by
         </summary>
-			<fieldset>
           <legend class="wb-inv">Territory or province</legend>
             <label class="small" mrgn-lft-0 for="territory">Territory or province</label>
             <select id="territory" name="territory" class="form-control">
@@ -171,17 +168,14 @@ issued: 2026-05-21
             <option data-filter="region" value="Federal Policing Northwest Region"><span class="cb-text">Northwest Region</span></option>
             <option data-filter="region" value="Federal Policing Pacific Region"><span class="cb-text">Pacific Region</span></option>
 			</select>
-        </fieldset>
       </details>	
 		<details open>
         <summary>
        Publish date
         </summary>
-		  <fieldset>
 			 <div><legend class="wb-inv">Publish date</legend>
 			 <div><p class="small">For example, 2005, 21/11/2014, May 27, 2024</p></div>
              <label class="small" for="dt_mindate">Before</label><input class="form-control" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text"></div>
-		  </fieldset>
 		</details>
 		</form>
 		</div>

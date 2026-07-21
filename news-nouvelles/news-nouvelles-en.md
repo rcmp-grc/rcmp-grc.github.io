@@ -32,10 +32,6 @@ issued: 2026-05-21
 	background-color: #f3f2f1;
 	border-top: 2px solid var(--rcmp-gold);
 	}
-	details
-	{
-	background-color: #f3f2f1;
-	}
 	form
 	{
 	background-color: #ffffff;

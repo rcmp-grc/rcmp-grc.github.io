@@ -188,12 +188,7 @@ issued: 2026-05-21
 			 <div><legend class="wb-inv">Publish date</legend>
 			 <div><p class="small">For example, 2005, 21/11/2014, May 27, 2024</p></div>
              <label class="re-select-label" for="dt_mindate">Before</label><input class="re-select" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="re-select-label" for="dt_maxdate">After</label><input class="re-select" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text"></div>
-			</div>
-		</details>
-		</form>
-		</div>
-	</aside>
-	</div>
+			</div></details></fieldset></details></form></div></aside>
   <div class="col-md-9">
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 

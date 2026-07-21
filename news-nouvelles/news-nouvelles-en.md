@@ -137,7 +137,7 @@ issued: 2026-05-21
         </summary>
           <legend class="wb-inv">Territory or province</legend>
             <label class="re-select" mrgn-lft-0 for="territory">Territory or province</label>
-            <select class="re-select" id="territory" name="territory" class="form-control">
+            <select class="re-select" id="territory" name="territory">
 				<option data-filter="territory" value="All territories and provinces"><span class="cb-text">All</span></option>
 				<option data-filter="territory" value="Alberta"><span class="cb-text">Alberta</span></option>
                 <option data-filter="territory" value="British Columbia"><span class="cb-text">British Columbia</span></option>

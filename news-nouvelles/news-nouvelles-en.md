@@ -135,7 +135,7 @@ issued: 2026-05-21
        Published by</span>
         </summary>
           <legend class="wb-inv">Territory or province</legend>
-            <label class="re-select" mrgn-lft-0 for="territory">Territory or province</label>
+            <label class="re-select-label" mrgn-lft-0 for="territory">Territory or province</label>
             <select class="re-select" id="territory" name="territory">
 				<option data-filter="territory" value="All territories and provinces"><span class="cb-text">All</span></option>
 				<option data-filter="territory" value="Alberta"><span class="cb-text">Alberta</span></option>
@@ -152,8 +152,8 @@ issued: 2026-05-21
                 <option data-filter="territory" value="Saskatchewan"><span class="cb-text">Saskatchewan</span></option>
                 <option data-filter="territory" value="Yukon"><span class="cb-text">Yukon</span></option>
 			</select>
-		    <label  class="re-select" for="region">National, divisional or regional policing</label>
-			<select id="region" name="region"  class="re-select">	
+		    <label  class="re-select-label" for="region">National, divisional or regional policing</label>
+			<select id="region" name="region" class="re-select">	
 			<option data-filter="region" value="All national, divisional and regional policing"><span class="cb-text">All</span></option>	
 			<option data-filter="region" value="RCMP National Headquarters"><span class="cb-text">National Headquarters</span></option>	
             <option data-filter="region" value="Alberta RCMP"><span class="cb-text">Alberta RCMP</span></option>
@@ -180,7 +180,7 @@ issued: 2026-05-21
         </summary>
 			 <div><legend class="wb-inv">Publish date</legend>
 			 <div><p class="small">For example, 2005, 21/11/2014, May 27, 2024</p></div>
-             <label class="re-select" for="dt_mindate">Before</label><input class="re-select" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="re-select" for="dt_maxdate">After</label><input class="re-select" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text"></div>
+             <label class="re-select-label" for="dt_mindate">Before</label><input class="re-select" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="re-select-label" for="dt_maxdate">After</label><input class="re-select" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text"></div>
 		</details>
 		</form>
 		</div>

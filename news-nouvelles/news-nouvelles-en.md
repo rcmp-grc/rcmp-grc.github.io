@@ -69,8 +69,6 @@ issued: 2026-05-21
             </button>
 		  </div>
 		 </form>
-		</div>
-		<div class="filters">
 		<form role="form" method="get" action="#" id="filters" aria-label="Filter RCMP news">
         <div id="filtres"><h2 class="h6" id="news-filters">Filter</h2>
 		<p class="small">Select any of the following filters to narrow your search</p></div>

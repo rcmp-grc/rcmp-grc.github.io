@@ -55,7 +55,6 @@ issued: 2026-05-21
       <p>Access web feeds, media relations office, Canada.ca news and Public Safety Canada news</p>
     </section>
   </div>
-</div>
 <div class="row">
 	<div class="col-md-3" id="re-sidebar">
     <aside aria-labelledby="news-filters-heading" id="re-filters">

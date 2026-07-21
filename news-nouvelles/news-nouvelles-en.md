@@ -82,6 +82,7 @@ issued: 2026-05-21
         <summary class="wp-filter-group-toggle">
           <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">
         Category</span></summary>
+        <fieldset>
           <legend class="wb-inv">Category</legend>
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span></label>
@@ -127,13 +128,15 @@ issued: 2026-05-21
 				  </div>
 		<div class="checkbox">
                 <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span></label>
-				  </div>		
+				  </div>
+		</fieldset>
 	  </details>
 		<details class="wp-filter-group" open>
         <summary class="wp-filter-group-toggle">
           <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">
        Published by</span>
         </summary>
+		<fieldset>
           <legend class="wb-inv">Territory or province</legend>
 			<div class="re-select-group">
             <label class="re-select-label" mrgn-lft-0 for="territory">Territory or province</label>
@@ -176,7 +179,7 @@ issued: 2026-05-21
             <option data-filter="region" value="Federal Policing Northwest Region"><span class="cb-text">Northwest Region</span></option>
             <option data-filter="region" value="Federal Policing Pacific Region"><span class="cb-text">Pacific Region</span></option>
 			</select>
-			</div>
+			</div>		
       </details>	
 		<details class="wp-filter-group" open>
         <summary class="wp-filter-group-toggle">

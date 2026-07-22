@@ -172,13 +172,13 @@ custom_css: /assets/css/careers.css
             <option data-filter="region" value="Federal Policing Pacific Region"><span class="cb-text">Pacific Region</span></option>
 			</select>
       </details>	
-		<details class="wp-filter-group">
+		<details class="re-input-text-group">
         <summary class="wp-filter-group-toggle"><i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">Publish date</span>
         </summary>
 			<fieldset>
 			 <legend class="wb-inv">Publish date</legend>
 			 <div><p class="small">For example, 2005, 21/11/2014, May 27, 2024</p></div>
-             <label for="dt_mindate">Before</label><input class="small" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label for="dt_maxdate">After</label><input class="small" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
+             <label class="re-input-text-label" for="dt_mindate">Before</label><input class="re-input-text" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="re-input-text-label" for="dt_maxdate">After</label><input class="re-input-text" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
 			</fieldset>
 		</details>
 		</form>

@@ -175,9 +175,11 @@ custom_css: /assets/css/careers.css
 		<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">Publish date</span>
         </summary>
-			 <div><legend class="wb-inv">Publish date</legend>
+			<fieldset>
+			 <legend class="wb-inv">Publish date</legend>
 			 <div><p class="small">For example, 2005, 21/11/2014, May 27, 2024</p></div>
-             <label class="small" for="dt_mindate">Before</label><input class="form-control" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="small" for="dt_maxdate">After</label><input class="form-control" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text"></div>
+             <label class="re-select-label" for="dt_mindate">Before</label><input class="re-select" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="re-select-label" for="dt_maxdate">After</label><input class="re-select" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
+			</fieldset>
 		</details>
 		</form>
 		</div>

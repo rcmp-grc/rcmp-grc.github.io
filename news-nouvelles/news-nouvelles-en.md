@@ -84,9 +84,6 @@ issued: 2026-05-21
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Break and Enter"><span class="cb-text">Break-and-Enter</span></label>
           </div>
-		 <div class="checkbox">
-            <label><input data-filter="category" type="checkbox" value="Public interest"><span class="cb-text">Community interest</span></label>
-		 </div>
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Disturbance"><span class="cb-text">Disturbance</span></label>
           </div>
@@ -111,6 +108,9 @@ issued: 2026-05-21
 			<div class="checkbox">
                 <label><input data-filter="category" type="checkbox" value="Property damage"><span class="cb-text">Property damage</span></label>
 				  </div>
+			<div class="checkbox">
+            <label><input data-filter="category" type="checkbox" value="Public interest"><span class="cb-text">Public interest</span></label>
+		 </div>
 			<div class="checkbox">
                 <label><input data-filter="category" type="checkbox" value="Theft"><span class="cb-text">Theft</span></label>
 				  </div>

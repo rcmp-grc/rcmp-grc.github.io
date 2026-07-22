@@ -73,7 +73,7 @@ issued: 2026-05-21
 		<form role="form" method="get" action="#" id="filters" aria-label="Filter RCMP news">
         <div id="filtres"><h2 class="h6" id="news-filters">Filters</h2>
 		<p class="small">Select any of the following filters to narrow your search</p></div>
-	    <details class="wp-filter-group" open>
+	    <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
           <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">
         Category</span></summary>
@@ -100,7 +100,7 @@ issued: 2026-05-21
                 <label><input data-filter="category" type="checkbox" value="Illicit drugs"><span class="cb-text">Illicit drugs</span></label>
 				  </div>
 			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Missing"><span class="cb-text">Missing person</span></label>
+                <label><input data-filter="category" type="checkbox" value="Missing"><span class="cb-text">Missing</span></label>
 				  </div>
 			<div class="checkbox">
                 <label><input data-filter="category" type="checkbox" value="Organized crime"><span class="cb-text">Organized crime</span></label>
@@ -127,7 +127,7 @@ issued: 2026-05-21
                 <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span></label>
 				  </div>		
 	  </details>
-		<details class="wp-filter-group" open>
+		<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
           <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">
        Published by</span>
@@ -172,7 +172,7 @@ issued: 2026-05-21
             <option data-filter="region" value="Federal Policing Pacific Region"><span class="cb-text">Pacific Region</span></option>
 			</select>
       </details>	
-		<details class="wp-filter-group" open>
+		<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
        <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">Publish date</span>
         </summary>

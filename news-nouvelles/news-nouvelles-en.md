@@ -75,8 +75,8 @@ issued: 2026-05-21
 		<p class="small">Select any of the following filters to narrow your search</p></div>
 	    <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
-          <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">
-        Category</span></summary>
+          <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i>
+			<span class="wp-filter-summary-label">Category</span></summary>
           <legend class="wb-inv">Category</legend>
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span></label>
@@ -129,11 +129,10 @@ issued: 2026-05-21
 	  </details>
 		<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
-          <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">
-       Published by</span>
+          <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">Published by</span>
         </summary>
           <legend class="wb-inv">Territory or province</legend>
-            <label class="re-select" mrgn-lft-0 for="territory">Territory or province</label>
+            <label class="re-select-label" for="territory">Territory or province</label>
             <select class="re-select" id="territory" name="territory">
 				<option data-filter="territory" value="All territories and provinces"><span class="cb-text">All</span></option>
 				<option data-filter="territory" value="Alberta"><span class="cb-text">Alberta</span></option>
@@ -150,8 +149,8 @@ issued: 2026-05-21
                 <option data-filter="territory" value="Saskatchewan"><span class="cb-text">Saskatchewan</span></option>
                 <option data-filter="territory" value="Yukon"><span class="cb-text">Yukon</span></option>
 			</select>
-		    <label class="small mrgn-lft-0 mrgn-tp-md" for="region">National, divisional or regional policing</label>
-			<select id="region" name="region" class="form-control">	
+		    <label class="re-select-label" for="region">National, divisional or regional policing</label>
+			<select class="re-select" id="region" name="region" class="form-control">	
 			<option data-filter="region" value="All national, divisional and regional policing"><span class="cb-text">All</span></option>	
 			<option data-filter="region" value="RCMP National Headquarters"><span class="cb-text">National Headquarters</span></option>	
             <option data-filter="region" value="Alberta RCMP"><span class="cb-text">Alberta RCMP</span></option>

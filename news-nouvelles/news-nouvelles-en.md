@@ -71,7 +71,7 @@ issued: 2026-05-21
 		 </form></div>
 		<div class="filters"> 
 		<form role="form" method="get" action="#" id="filters" aria-label="Filter RCMP news">
-        <div id="filtres"><h2 class="h6" id="news-filters">Filters</h2>
+        <div id="wp-filters"><h2 class="h6" id="news-filters">Filters</h2>
 		<p class="small">Select any of the following filters to narrow your search</p></div>
 	    <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">Category</span></summary>

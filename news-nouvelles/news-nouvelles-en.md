@@ -71,9 +71,9 @@ custom_css: /assets/css/careers.css
 		  </div>
 		 </form></div>
 		<div class="news-filters"> 
+		<h2 class="h6" id="news-filters">Filters</h2>
+		<p class="small">Select any of the following filters to narrow your search</p>	
 		<form role="form" method="get" action="#" id="filters" aria-label="Filter RCMP news">
-        <div><h2 class="h6" id="news-filters">Filters</h2>
-		<p class="small">Select any of the following filters to narrow your search</p></div>
 	    <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">Category</span></summary>
 		<fieldset>	

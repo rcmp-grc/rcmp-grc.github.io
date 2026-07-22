@@ -1909,6 +1909,42 @@ section[id^="s"] {
   outline-offset: 0;
 }
 
+.re-input-text-group {
+  padding: 10px 12px;
+  border-top: 1px solid var(--c-grey-border);
+  border-bottom: 1px solid var(--c-grey-border);
+}
+
+.re-input-text-label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 6px;
+  font-size: inherit;
+}
+
+.re-input-text {
+  width: 100%;
+  padding: 6px 8px;
+  border: 2px solid var(--c-black);
+  border-radius: 0;
+  background: var(--c-white);
+  font-size: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+.re-input-text:focus {
+  outline: 3px solid var(--c-focus-alt);
+  outline-offset: 0;
+}
+
+
 #re-toolbar {
   display: flex;
   flex-wrap: wrap;

@@ -30,26 +30,26 @@ custom_css: /assets/css/careers.css
   <h2>Qui peut devenir auxiliaire </h2>
   <p>Les auxiliaires sont des bénévoles non armés qui ont reçu une formation spécialisée. Les postulants au Programme des auxiliaires doivent&#160;:</p>
   <ul>
-    <li>être disposés à consacrer un nombre minimal d'heures par année au programme; </li>
-    <li>être disposés à faire partie du programme pendant au moins deux ans; </li>
-    <li>détenir un certificat de secourisme général valide et en réanimation cardiorespiratoire; </li>
-    <li>pour les postes de niveau&#160;3, avoir réussi le Cours canadien de sécurité dans le maniement des armes à feu et le Cours canadien de sécurité dans le maniement des armes à feu à autorisation restreinte; </li>
     <li>avoir au moins 19&#160;ans; </li>
-    <li>être citoyens canadiens ou être résidents permanents; </li>
-  </ul>
-  <p>Remarque&#160;: Les candidats ayant le statut de résident permanent doivent avoir résidé au Canada au cours des cinq dernières années consécutives. </p>
-  <ul>
-    <li>avoir de la maturité, être responsables et avoir une bonne réputation; </li>
+    <li>maîtriser le français ou l'anglais; </li>
     <li>avoir terminé avec succès leurs études secondaires ou l'équivalent, ou avoir une expérience de travail équivalente; </li>
+    <li>être citoyens canadiens ou être résidents permanents;
+      <ul>
+        <li>Remarque&#160;: Les candidats ayant le statut de résident permanent doivent avoir résidé au Canada au cours des cinq dernières années consécutives.</li>
+      </ul>
+    </li>
+    <li>détenir un certificat de secourisme général valide et en réanimation cardiorespiratoire; </li>
+    <li>être disposés à faire partie du programme pendant au moins deux ans et être disposés à consacrer un nombre minimal d'heures par année au programme; </li>
+    <li>avoir de la maturité, être responsables et avoir une bonne réputation; </li>
     <li>être en mesure d'obtenir une cote de fiabilité de la GRC; </li>
     <li>n'avoir aucun conflit d'intérêts; </li>
-    <li>maîtriser le français ou l'anglais; </li>
     <li>pour les postes de niveaux&#160;2 et&#160;3&#160;:
       <ul>
         <li>satisfaire aux normes médicales, dont celles de la vision et de l'ouïe; </li>
         <li>détenir un permis de conduire valide. </li>
       </ul>
     </li>
+    <li>pour les postes de niveau&#160;3, avoir réussi le Cours canadien de sécurité dans le maniement des armes à feu et le Cours canadien de sécurité dans le maniement des armes à feu à autorisation restreinte.</li>
   </ul>
 </section>
 <section id="s3">
@@ -140,7 +140,7 @@ custom_css: /assets/css/careers.css
         <li>Ceinturon de service et accessoires opérationnels </li>
         <li>Options d'intervention (ceinturon de service, bâton, menottes, etc.) </li>
         <li>Pantalon résistant aux intempéries </li>
-        <li>Chemises et shorts de vélo (selon le service)</li>
+        <li>Chemises et shorts de vélo (selon les fonctions exercées)</li>
       </ul>
     </dd>
     <dt>Niveau&#160;3 </dt>

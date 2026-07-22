@@ -11,8 +11,8 @@ breadcrumbs:
     url: "careers-carrieres/officer-agent-en.html"
 custom_css: /assets/css/careers.css
 ---
-<nav aria-labelledby="on-this-page">
-  <h2 id="on-this-page">On this page</h2>
+<nav aria-labelledby="on-this-page-heading">
+  <h2 id="on-this-page-heading">On this page</h2>
   <ul>
     <li><a href="#s1">Program overview</a></li>
     <li><a href="#s2">Who can join</a></li>
@@ -30,26 +30,26 @@ custom_css: /assets/css/careers.css
   <h2>Who can join</h2>
   <p>Auxiliaries are unarmed, specially trained volunteers. Auxiliary Program applicants must: </p>
   <ul>
-    <li>be willing to contribute a minimum number of hours per year to the program </li>
-    <li>be willing to commit to the program for a minimum of two years </li>
-    <li>have current certification in Standard First Aid, including cardiopulmonary resuscitation </li>
-    <li>for Tier&nbsp;3 positions, have successfully completed the Canadian Firearms Safety Course and the Canadian Restricted Firearms Safety Course </li>
-    <li>be at least 19&nbsp;years of age </li>
-    <li>be a Canadian citizen or have permanent resident status </li>
-  </ul>
-  <p>Note: Individuals with permanent resident status must have resided in Canada for the last five consecutive years, and: </p>
-  <ul>
-    <li>have a mature, responsible attitude and be of good character </li>
+    <li>be at least 19&#160;years of age </li>
+    <li>be proficient in English and/or French </li>
     <li>have successfully completed high school or its equivalent, or have equivalent work experience </li>
+    <li>be a Canadian citizen or have permanent resident status
+      <ul>
+        <li>Note: Individuals with permanent resident status must have resided in Canada for the last five consecutive years</li>
+      </ul>
+    </li>
+    <li>have current certification in Standard First Aid, including cardiopulmonary resuscitation </li>
+    <li>be willing to commit to the program for a minimum of two years and be willing to contribute a minimum number of hours per year to the program </li>
+    <li>have a mature, responsible attitude and be of good character </li>
     <li>be able to obtain RCMP reliability status </li>
     <li>have no conflict of interest </li>
-    <li>be proficient in English and/or French </li>
-    <li>for Tier&nbsp;2 and Tier&nbsp;3 positions:
+    <li>for Tier&#160;2 and Tier&#160;3 positions:
       <ul>
         <li>meet the medical requirements, including vision and hearing standards </li>
         <li>have a valid driver's licence </li>
       </ul>
     </li>
+    <li>for Tier&#160;3 positions, have successfully completed the Canadian Firearms Safety Course and the Canadian Restricted Firearms Safety Course </li>
   </ul>
 </section>
 <section id="s3">
@@ -67,86 +67,86 @@ custom_css: /assets/css/careers.css
 <p>Review the expectations and requirements for each service tier.</p> 
 <h3>Operational duties</h3>
 <dl>
-  <dt>Tier&nbsp;1</dt>
+  <dt>Tier&#160;1</dt>
   <dd>
   <ul>
     <li>Neighbourhood Watch programs, public education initiatives, non-enforcement support to operations, community fundraising events and participation in parades and public ceremonies.</li>
-    <li>Tier&nbsp;1 Auxiliaries will perform these activities under the general supervision of an RCMP employee and will not be given peace officer status.</li>
-    <li>Tier&nbsp;1 Auxiliaries are expected to contribute a minimum of 60&nbsp;hours per year to the program including training.</li>
+    <li>Tier&#160;1 Auxiliaries will perform these activities under the general supervision of an RCMP employee and will not be given peace officer status.</li>
+    <li>Tier&#160;1 Auxiliaries are expected to contribute a minimum of 60&#160;hours per year to the program including training.</li>
   </ul>
   </dd>
-  <dt>Tier&nbsp;2</dt>
+  <dt>Tier&#160;2</dt>
   <dd>
   <ul>
-    <li>Tier&nbsp;2 includes all of the activities listed in Tier&nbsp;1 with the addition of community presence via foot and bicycle, access and traffic control, and disaster assistance.</li>
-    <li>Tier&nbsp;2 does not include operational patrols.</li>
-    <li>Tier&nbsp;2 Auxiliaries will be under the close supervision of an RCMP regular member.</li>
-    <li>Tier&nbsp;2 Auxiliaries are expected to contribute a minimum of 120&nbsp;hours per year to the program.</li>
+    <li>Tier&#160;2 includes all of the activities listed in Tier&#160;1 with the addition of community presence via foot and bicycle, access and traffic control, and disaster assistance.</li>
+    <li>Tier&#160;2 does not include operational patrols.</li>
+    <li>Tier&#160;2 Auxiliaries will be under the close supervision of an RCMP regular member.</li>
+    <li>Tier&#160;2 Auxiliaries are expected to contribute a minimum of 120&#160;hours per year to the program.</li>
   </ul>
   </dd>
-  <dt>Tier&nbsp;3</dt>
+  <dt>Tier&#160;3</dt>
   <dd>
   <ul>
-    <li>Tier&nbsp;3 includes activities from Tier&nbsp;1 and Tier&nbsp;2 with the addition of general duty patrol, attending calls, check stops, scene security and searches of persons as directed by a Regular Member.</li>
-    <li>Auxiliaries under Tier&nbsp;3 will be under the direct supervision of an RCMP regular member.</li>
-    <li>Tier&nbsp;3 Auxiliaries are expected to contribute a minimum of 180&nbsp;hours per year to the program.</li>
+    <li>Tier&#160;3 includes activities from Tier&#160;1 and Tier&#160;2 with the addition of general duty patrol, attending calls, check stops, scene security and searches of persons as directed by a Regular Member.</li>
+    <li>Auxiliaries under Tier&#160;3 will be under the direct supervision of an RCMP regular member.</li>
+    <li>Tier&#160;3 Auxiliaries are expected to contribute a minimum of 180&#160;hours per year to the program.</li>
   </ul>
   </dd>
 </dl>
 <h3>Training</h3>
 <dl>
-  <dt>Tier&nbsp;1</dt>
+  <dt>Tier&#160;1</dt>
   <dd>
     <ul>
       <li>Online RCMP training courses including topics such as crime prevention, conduct, ethics and Auxiliary orientation</li>
       <li>External courses: Standard First Aid/CPR/automated external defibrillator (AED) course</li>
     </ul>
   </dd>
-  <dt>Tier&nbsp;2</dt>
+  <dt>Tier&#160;2</dt>
   <dd>
     <ul>
-      <li>All Tier&nbsp;1 Auxiliary training requirements with additional courses added</li>
+      <li>All Tier&#160;1 Auxiliary training requirements with additional courses added</li>
     </ul>
   </dd>
-  <dt>Tier&nbsp;3</dt>
+  <dt>Tier&#160;3</dt>
   <dd>
     <ul>
-      <li>All Tier&nbsp;1 and Tier&nbsp;2 Auxiliary training requirements with additional courses added</li>
+      <li>All Tier&#160;1 and Tier&#160;2 Auxiliary training requirements with additional courses added</li>
     </ul>
   </dd>
 </dl>
 <h3>Uniform</h3>
 <dl>
-  <dt>Tier&nbsp;1</dt>
+  <dt>Tier&#160;1</dt>
   <dd>
     <ul>
       <li>Grey polo shirt</li>
       <li>Blue trouser with no stripe to be worn with a black belt and black ankle boots</li>
       <li>Navy baseball cap/Navy toque (optional)</li>
-      <li>Fluorescent 3-in-1&nbsp;patrol jacket (optional)</li>
+      <li>Fluorescent 3-in-1&#160;patrol jacket (optional)</li>
     </ul>
   </dd>
-  <dt>Tier&nbsp;2</dt>
+  <dt>Tier&#160;2</dt>
   <dd>
     <ul>
       <li>Grey duty shirt</li>
       <li>A high-visibility vest to be worn over the duty shirt at all times</li>
       <li>Blue trouser with no stripe to be worn with a black leather belt and black ankle boots</li>
-      <li>Navy baseball cap/Navy toque</li>
-      <li>Fluorescent Yellow patrol jacket 3-in-1</li>
-      <li>Soft Body Armour</li>
-      <li>Duty Gloves</li>
-      <li>Slash Resistant Gloves</li>
-      <li>Duty Belt and Operational Accessories </li>
-      <li>Intervention Options (duty belt, baton, handcuffs, etc.) </li>
-      <li>Inclement Weather Trousers </li>
-      <li>Bicycle Shirts and Shorts (duty dependent)</li>
+      <li>Navy baseball cap or navy toque</li>
+      <li>Fluorescent yellow patrol jacket 3-in-1</li>
+      <li>Soft body armour</li>
+      <li>Duty gloves</li>
+      <li>Slash resistant gloves</li>
+      <li>Duty belt and operational accessories </li>
+      <li>Intervention options (duty belt, baton, handcuffs, etc.) </li>
+      <li>Inclement weather trousers </li>
+      <li>Bicycle shirts and shorts (duty dependent)</li>
     </ul>
   </dd>
-  <dt>Tier&nbsp;3</dt>
+  <dt>Tier&#160;3</dt>
   <dd>
     <ul>
-      <li>Tier&nbsp;3 uniform is the same as the Tier&nbsp;2 uniform </li>
+      <li>Tier&#160;3 uniform is the same as the Tier&#160;2 uniform </li>
     </ul>
   </dd>
 </dl>
@@ -156,21 +156,21 @@ custom_css: /assets/css/careers.css
   <p>For more details on qualification, tiers, and information on how to apply, please contact the Auxiliary Program in your province or territory of residence. </p>
   <dl class="dl-horizontal">
     <dt>Alberta </dt>
-    <dd><a href="mailto:kauxiliaryprogram-kprogrammeauxiliaire@rcmp-grc.gc.ca">kauxiliaryprogram-kprogrammeauxiliaire@rcmp-grc.gc.ca </a></dd>
+    <dd><a href="kauxiliaryprogram-kprogrammeauxiliaire@rcmp-grc.gc.ca">kauxiliaryprogram-kprogrammeauxiliaire@rcmp-grc.gc.ca </a></dd>
     <dt>British Columbia </dt>
-    <dd><a href="mailto:e.auxiliary.program-programme.auxiliaires.e@rcmp-grc.gc.ca">e.auxiliary.program-programme.auxiliaires.e@rcmp-grc.gc.ca </a></dd>
+    <dd><a href="e.auxiliary.program-programme.auxiliaires.e@rcmp-grc.gc.ca">e.auxiliary.program-programme.auxiliaires.e@rcmp-grc.gc.ca </a></dd>
     <dt>Manitoba </dt>
-    <dd><a href="mailto:rcmp.dauxiliaryprogram-dprogrammeauxiliaires.grc@rcmp-grc.gc.ca">rcmp.dauxiliaryprogram-dprogrammeauxiliaires.grc@rcmp-grc.gc.ca </a></dd>
+    <dd><a href="rcmp.dauxiliaryprogram-dprogrammeauxiliaires.grc@rcmp-grc.gc.ca">rcmp.dauxiliaryprogram-dprogrammeauxiliaires.grc@rcmp-grc.gc.ca </a></dd>
     <dt>New Brunswick </dt>
-    <dd><a href="mailto:rcmp.jdivap-padivj.grc@rcmp-grc.gc.ca">rcmp.jdivap-padivj.grc@rcmp-grc.gc.ca </a></dd>
+    <dd><a href="rcmp.jdivap-padivj.grc@rcmp-grc.gc.ca">rcmp.jdivap-padivj.grc@rcmp-grc.gc.ca </a></dd>
     <dt>Newfoundland and Labrador </dt>
-    <dd><a href="mailto:rcmp.bdiv.auxprog-programme_des_auxiliaires.grc@rcmp-grc.gc.ca">rcmp.bdiv.auxprog-programme_des_auxiliaires.grc@rcmp-grc.gc.ca </a></dd>
+    <dd><a href="rcmp.bdiv.auxprog-programme_des_auxiliaires.grc@rcmp-grc.gc.ca">rcmp.bdiv.auxprog-programme_des_auxiliaires.grc@rcmp-grc.gc.ca </a></dd>
     <dt>Northwest Territories </dt>
-    <dd><a href="mailto:rcmp.gauxiliaryprogram-gprogrammeauxiliaire.grc@rcmp-grc.gc.ca">rcmp.gauxiliaryprogram-gprogrammeauxiliaire.grc@rcmp-grc.gc.ca </a></dd>
+    <dd><a href="rcmp.gauxiliaryprogram-gprogrammeauxiliaire.grc@rcmp-grc.gc.ca">rcmp.gauxiliaryprogram-gprogrammeauxiliaire.grc@rcmp-grc.gc.ca </a></dd>
     <dt>Nova Scotia </dt>
-    <dd><a href="mailto:hdiv_auxiliary-auxiliaires@rcmp-grc.gc.ca">hdiv_auxiliary-auxiliaires@rcmp-grc.gc.ca </a></dd>
+    <dd><a href="hdiv_auxiliary-auxiliaires@rcmp-grc.gc.ca">hdiv_auxiliary-auxiliaires@rcmp-grc.gc.ca </a></dd>
     <dt>Saskatchewan </dt>
-    <dd><a href="mailto:rcmp.fauxiliaryprogram-fprogrammeauxiliaire.grc@rcmp-grc.gc.ca">rcmp.fauxiliaryprogram-fprogrammeauxiliaire.grc@rcmp-grc.gc.ca </a></dd>
+    <dd><a href="rcmp.fauxiliaryprogram-fprogrammeauxiliaire.grc@rcmp-grc.gc.ca">rcmp.fauxiliaryprogram-fprogrammeauxiliaire.grc@rcmp-grc.gc.ca </a></dd>
   </dl>
 </section>
 <section id="s6">

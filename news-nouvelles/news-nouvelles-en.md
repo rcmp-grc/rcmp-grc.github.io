@@ -74,9 +74,7 @@ issued: 2026-05-21
         <div id="filtres"><h2 class="h6" id="news-filters">Filters</h2>
 		<p class="small">Select any of the following filters to narrow your search</p></div>
 	    <details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle">
-          <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i>
-			<span class="wp-filter-summary-label">Category</span></summary>
+        <summary class="wp-filter-group-toggle"><i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">Category</span></summary>
           <legend class="wb-inv">Category</legend>
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span></label>
@@ -150,7 +148,7 @@ issued: 2026-05-21
                 <option data-filter="territory" value="Yukon"><span class="cb-text">Yukon</span></option>
 			</select>
 		    <label class="re-select-label" for="region">National, divisional or regional policing</label>
-			<select class="re-select" id="region" name="region" class="form-control">	
+			<select class="re-select" id="region" name="region">	
 			<option data-filter="region" value="All national, divisional and regional policing"><span class="cb-text">All</span></option>	
 			<option data-filter="region" value="RCMP National Headquarters"><span class="cb-text">National Headquarters</span></option>	
             <option data-filter="region" value="Alberta RCMP"><span class="cb-text">Alberta RCMP</span></option>
@@ -172,8 +170,7 @@ issued: 2026-05-21
 			</select>
       </details>	
 		<details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle">
-       <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">Publish date</span>
+        <summary class="wp-filter-group-toggle"><i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">Publish date</span>
         </summary>
 			 <div><legend class="wb-inv">Publish date</legend>
 			 <div><p class="small">For example, 2005, 21/11/2014, May 27, 2024</p></div>

@@ -17,7 +17,7 @@ issued: 2026-05-21
 	padding: 10px;
 	flex: 1;
 	border-top: 2px solid var(--rcmp-gold);
-	background-color: var(--rcmp-grey-lt);	
+	background-color: #f2f2f2;	
     }
 	.badge-located
 	{
@@ -29,14 +29,14 @@ issued: 2026-05-21
 	}
 	.filters
 	{
-	background-color: var(--rcmp-grey-lt);
+	background-color: #f2f2f2;
 	border-top: 2px solid var(--rcmp-gold);
 	}
 	form
 	{
 	background-color: #ffffff;
 	}
-#news-filters {
+.news-filters {
   border: 1px solid var(--c-grey-border);
   padding: 0;
   margin-bottom: 20px;
@@ -44,7 +44,7 @@ issued: 2026-05-21
   width: 100%;
   box-sizing: border-box;
 }
-#news-filters-heading {
+.news-filters-heading {
   background: var(--c-black);
   color: var(--c-white);
   font-weight: 700;

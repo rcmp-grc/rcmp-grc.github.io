@@ -38,13 +38,12 @@ custom_css: /assets/css/careers.css
 	background: var(--c-black);
 	color: var(--c-white);
 	font-weight: 700;
-	padding: 10px 14px;
+	padding: 10px 15px;
 	margin: 0;
 }
 	#re-filters {
 	border: 0px;	
 	padding: 0;
-	margin-bottom: 20px;
 	overflow: hidden;
 	width: 100%;
 }
@@ -63,7 +62,7 @@ custom_css: /assets/css/careers.css
 	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;
 }
- #news-srch-q {
+ .form-control {
   width: 100%;
   padding: 6px;
   border: 2px solid var(--c-black);
@@ -94,7 +93,7 @@ custom_css: /assets/css/careers.css
          <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	  
           <div class="form-group wb-srch-qry"> 
           <label class="wb-inv" for="news-srch-q">Search RCMP news</label>
-          <input class="wb-srch-q" maxlength="75" id="news-srch-q" name="q" placeholder="Search RCMP news" type="search" autocomplete="off" value="">	
+          <input class="wb-srch-q form-control" maxlength="75" id="news-srch-q" name="q" placeholder="Search RCMP news" type="search" autocomplete="off" value="">	
 		  </div>
           <div class="form-group submit">
             <button class="btn btn-primary" type="submit">

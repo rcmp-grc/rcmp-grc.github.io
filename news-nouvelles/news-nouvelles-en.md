@@ -41,7 +41,6 @@ custom_css: /assets/css/careers.css
 	width: 100%;
 }
 	#news-filters-heading {	
-	border-top: 2px solid var(--rcmp-red);
 	background: var(--c-black);
 	color: var(--c-white);
 	font-weight: 700;
@@ -49,6 +48,7 @@ custom_css: /assets/css/careers.css
 	margin: 0;
 }
 	#re-filters {
+	border: 0px;	
 	padding: 0;
 	margin-bottom: 20px;
 	overflow: hidden;

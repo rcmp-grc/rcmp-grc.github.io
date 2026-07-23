@@ -31,7 +31,6 @@ custom_css: /assets/css/careers.css
 	#news-filters {
 	border: 1px solid var(--c-grey-border);	
 	padding: 0;
-	margin-bottom: 10px;
 	overflow: hidden;
 	width: 100%;
 }

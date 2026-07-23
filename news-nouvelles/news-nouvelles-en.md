@@ -33,6 +33,13 @@ custom_css: /assets/css/careers.css
 	background-color: #f2f2f2;
 	border-top: 2px solid var(--rcmp-gold);	
 	}
+	#news-filters-heading {
+	background: var(--c-black);
+	color: var(--c-white);
+	font-weight: 700;
+	padding: 10px 14px;
+	margin: 0;
+}
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">

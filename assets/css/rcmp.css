@@ -474,6 +474,64 @@ details.wp-filter-group[open] {
   outline: 3px solid var(--c-focus-alt);
   outline-offset: 0;
 }
+
+
+#re-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-bottom: 1px solid var(--c-grey-border);
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+#re-count {
+  margin-bottom: 0;
+}
+
+#re-active-filters {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.re-filter-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 8px 10px;
+  justify-content: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.re-filter-row:nth-child(odd) {
+  background: var(--c-grey-light);
+}
+
+.re-filter-row:nth-child(even) {
+  background: var(--c-white);
+}
+
+.re-filter-row-label {
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.re-filter-row-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  justify-content: flex-start;
+}
 .wp-card {
   display: flex;
   flex-direction: column;

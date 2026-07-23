@@ -55,8 +55,8 @@ custom_css: /assets/css/careers.css
 </div>
 <div class="row mrgn-tp-lg" id="re-page">
 	<div class="col-md-3" id="re-sidebar">
-    <aside aria-labelledby="re-filters-heading" id="re-filters">
-		<div class="col-sm-12"> 	 	
+    <aside aria-labelledby="re-filters-heading" id="news-filters">
+		<div class="col-sm-12" id="wb-srch"> 	 	
 		<h2 class="h6" id="re-filters-heading">Search</h2> 	
          <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	  
           <div class="form-group wb-srch-qry"> 

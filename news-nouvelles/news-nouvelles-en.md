@@ -69,8 +69,6 @@ custom_css: /assets/css/careers.css
   border: 2px solid var(--c-black);
   border-radius: 0;
   background: var(--c-white);
-  font-size: inherit;
-  font-family: inherit;
   cursor: pointer;
   -webkit-appearance: none;
   appearance: none;
@@ -103,7 +101,7 @@ custom_css: /assets/css/careers.css
          <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	  
           <div class="form-group wb-srch-qry"> 
           <label class="wb-inv" for="news-srch-q">Search RCMP news</label>
-          <input class="wb-srch-q form-control" maxlength="75" id="news-srch-q" name="q" placeholder="Search RCMP news" type="search" autocomplete="off" value="">	
+          <input class="wb-srch-q" maxlength="75" id="news-srch-q" name="q" placeholder="Search RCMP news" type="search" autocomplete="off" value="">	
 		  </div>
           <div class="form-group submit">
             <button class="btn btn-primary" type="submit">

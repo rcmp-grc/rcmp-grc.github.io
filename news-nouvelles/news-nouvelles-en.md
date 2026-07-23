@@ -33,6 +33,14 @@ custom_css: /assets/css/careers.css
 	background-color: #f2f2f2;
 	border-top: 2px solid var(--rcmp-gold);	
 	}
+	#news-filters {
+	border: 1px solid var(--c-grey-border);
+	padding: 0;
+	margin-bottom: 20px;
+	overflow: hidden;
+	width: 100%;
+	box-sizing: border-box;
+}
 	#news-filters-heading {
 	background: var(--c-black);
 	color: var(--c-white);

@@ -53,7 +53,7 @@ custom_css: /assets/css/careers.css
     </section>
   </div>
 </div>
-<div class="row">
+<div class="row mrgn-tp-lg" id="re-page">
 	<div class="col-md-3" id="re-sidebar">
     <aside aria-labelledby="news-filters-heading" id="re-filters">
 		<div class="col-sm-12 filters" id="wb-srch"> 	 	
@@ -130,7 +130,7 @@ custom_css: /assets/css/careers.css
 	  </details>
 		<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
-          <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Published by</span>
+           <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Published by</span>
         </summary>
           <legend class="wb-inv">Territory or province</legend>
             <label class="re-select-label" for="territory">Territory or province</label>
@@ -173,7 +173,7 @@ custom_css: /assets/css/careers.css
 			</select>
       </details>	
 		<details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle"><i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Publish date</span>
+        <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Publish date</span>
         </summary>
 			<fieldset>
 			 <legend class="wb-inv">Publish date</legend>

@@ -28,15 +28,10 @@ custom_css: /assets/css/careers.css
 	{
 	background-color: #916808;
 	}
-	.filters
-	{
-	background-color: #f2f2f2;
-	border-top: 2px solid var(--rcmp-gold);	
-	}
 	#news-filters {
 	border: 1px solid var(--c-grey-border);	
 	padding: 0;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	overflow: hidden;
 	width: 100%;
 }
@@ -57,6 +52,14 @@ custom_css: /assets/css/careers.css
     #re-filters details {
     border-top: 1px solid var(--c-grey-border);
 }	
+	.re-select:focus {
+	outline: 3px solid var(--rcmp-red);
+	outline-offset: 0;	
+}
+	.re-input-text {
+	outline: 3px solid var(--rcmp-red);
+	outline-offset: 0;	
+}
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">
@@ -92,7 +95,7 @@ custom_css: /assets/css/careers.css
 		 </form></div>
 		<div id="re-filters">
 		<h2 class="h6" id="news-filters-heading">Filter</h2>
-		<p class="small">Select any of the following filters to narrow your search</p>	
+		<p class="small mrgn-lft-sm">Select any of the following filters to narrow your search</p>	
 	    <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Category</span></summary>
 		<fieldset>	

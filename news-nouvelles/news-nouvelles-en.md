@@ -56,7 +56,7 @@ custom_css: /assets/css/careers.css
 	outline: 3px solid var(--rcmp-red);
 	outline-offset: 0;	
 }
-	.re-input-text {
+	.re-input-text:focus {
 	outline: 3px solid var(--rcmp-red);
 	outline-offset: 0;	
 }

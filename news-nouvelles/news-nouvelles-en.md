@@ -65,13 +65,14 @@ custom_css: /assets/css/careers.css
               <span class="wb-inv">Search</span>
             </button>
 		  </div>
-		 </form></div> 
+		 </form></div>
+		<div class="re-filters"> 
 		<h2 class="h6 mrgn-lft-sm" id="news">Filters</h2>
 		<p class="small mrgn-lft-sm">Select any of the following filters to narrow your search</p>	
-		<div class="re-filters"> 
-		<form role="form" method="get" action="#" id="re-filters" aria-label="Filter RCMP news"> 	
+		<form role="form" method="get" action="#" id="re-filters" aria-label="Filter RCMP news">
 	    <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Category</span></summary>
+		<fieldset>	
           <legend class="wb-inv">Category</legend>
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span></label>
@@ -118,11 +119,13 @@ custom_css: /assets/css/careers.css
 		<div class="checkbox">
                 <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span></label>
 				  </div>	
+		</fieldset>
 	  </details>
 		<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
            <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Published by</span>
         </summary>
+			<fieldset>
           <legend class="wb-inv">Territory or province</legend>
             <label class="re-select-label" for="territory">Territory or province</label>
             <select class="re-select" id="territory" name="territory">
@@ -162,18 +165,20 @@ custom_css: /assets/css/careers.css
             <option data-filter="region" value="Federal Policing Northwest Region"><span class="cb-text">Northwest Region</span></option>
             <option data-filter="region" value="Federal Policing Pacific Region"><span class="cb-text">Pacific Region</span></option>
 			</select>
+		 </fieldset>
       </details>	
 		<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Publish date</span>
         </summary>
+			<fieldset>
 			 <legend class="wb-inv">Publish date</legend>
 			 <div><p class="small">For example, 2005, 21/11/2014, May 27, 2024</p></div>
              <label class="re-input-text-label" for="dt_mindate">Before</label><input class="re-input-text" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="re-input-text-label" for="dt_maxdate">After</label><input class="re-input-text" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
+			</fieldset>
 		</details>
 		</form>
 		</div>
 	</aside>
-	</div>
 	</div>
   <div class="col-md-9">
 	  <h2 class="wb-inv">List of news</h2>

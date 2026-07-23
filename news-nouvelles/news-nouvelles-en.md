@@ -17,7 +17,7 @@ issued: 2026-05-21
 	padding: 10px;
 	flex: 1;
 	border-top: 2px solid var(--rcmp-gold);
-	background-color: var(--rcmp-grey-lt);	
+	background-color: #f2f2f2;	
     }
 	.badge-located
 	{
@@ -29,7 +29,7 @@ issued: 2026-05-21
 	}
 	.filters
 	{
-	background-color: var(--rcmp-grey-lt);
+	background-color: #f2f2f2;
 	border-top: 2px solid var(--rcmp-gold);
 	}
 	form

@@ -75,7 +75,7 @@ custom_css: /assets/css/careers.css
 		<p class="small mrgn-lft-sm">Select any of the following filters to narrow your search</p>	
 		<form role="form" method="get" action="#" id="filters" aria-label="Filter RCMP news">
 	    <details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle"><i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">Category</span></summary>
+        <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Category</span></summary>
 		<fieldset>	
           <legend class="wb-inv">Category</legend>
           <div class="checkbox">

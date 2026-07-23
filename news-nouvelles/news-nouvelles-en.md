@@ -54,8 +54,8 @@ custom_css: /assets/css/careers.css
   </div>
 </div>
 <div class="row">
-	<div class="col-md-3">
-    <aside aria-labelledby="news-filters-heading" id="wp-filters">
+	<div class="col-md-3" id="re-sidebar">
+    <aside aria-labelledby="news-filters-heading" id="re-filters">
 		<div class="col-sm-12 filters" id="wb-srch"> 	 	
 		<h2 class="h6" id="news-filters-heading">Search</h2> 	
          <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	  
@@ -130,7 +130,7 @@ custom_css: /assets/css/careers.css
 	  </details>
 		<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
-          <i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">Published by</span>
+          <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Published by</span>
         </summary>
           <legend class="wb-inv">Territory or province</legend>
             <label class="re-select-label" for="territory">Territory or province</label>

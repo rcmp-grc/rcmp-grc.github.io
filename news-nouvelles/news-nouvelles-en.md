@@ -17,7 +17,7 @@ custom_css: /assets/css/careers.css
 	{
 	padding: 10px;
 	flex: 1;
-	border-top: 2px solid var(--rcmp-gold);
+	border-top: 2px solid var(--rcmp-red);
 	background-color: #f2f2f2;	
     }
 	.badge-located
@@ -34,20 +34,25 @@ custom_css: /assets/css/careers.css
 	border-top: 2px solid var(--rcmp-gold);	
 	}
 	#news-filters {
-	border-left: 1px solid var(--c-grey-border);
-	border-right: 1px solid var(--c-grey-border);	
+	border: 1px solid var(--c-grey-border);	
 	padding: 0;
 	margin-bottom: 20px;
 	overflow: hidden;
 	width: 100%;
 }
 	#news-filters-heading {	
-	border-top: var(--rcmp-red);
+	border-top: 2px solid var(--rcmp-red);
 	background: var(--c-black);
 	color: var(--c-white);
 	font-weight: 700;
 	padding: 10px 14px;
 	margin: 0;
+}
+	#re-filters {
+	padding: 0;
+	margin-bottom: 20px;
+	overflow: hidden;
+	width: 100%;
 }
 </style>
 <p>Read the RCMP news and communications.</p>

@@ -32,10 +32,6 @@ issued: 2026-05-21
 	background-color: #f2f2f2;
 	border-top: 2px solid var(--rcmp-gold);
 	}
-	form
-	{
-	background-color: #ffffff;
-	}
 #news-filters {
   border: 1px solid var(--c-grey-border);
   padding: 0;

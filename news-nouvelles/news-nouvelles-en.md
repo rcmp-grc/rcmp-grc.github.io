@@ -32,117 +32,6 @@ issued: 2026-05-21
 	background-color: #f2f2f2;
 	border-top: 2px solid var(--rcmp-gold);
 	}
-#news-filters {
-  border: 1px solid var(--c-grey-border);
-  padding: 0;
-  margin-bottom: 20px;
-  overflow: hidden;
-  width: 100%;
-  box-sizing: border-box;
-}
-#news-filters-heading {
-  background: var(--c-black);
-  color: var(--c-white);
-  font-weight: 700;
-  padding: 10px 14px;
-  margin: 0;
-}
-details.wp-filter-group > summary.wp-filter-group-toggle {
-  display: flex !important;
-  align-items: flex-start !important;
-  flex-wrap: nowrap !important;
-  gap: 6px !important;
-  white-space: normal !important;
-}
-details.wp-filter-group > summary.wp-filter-group-toggle .wp-filter-chevron {
-  flex-shrink: 0 !important;
-  width: 14px !important;
-  align-self: center !important;
-  margin-top: 0 !important;
-}
-details.wp-filter-group > summary.wp-filter-group-toggle .wp-filter-summary-label {
-  flex: 1 !important;
-  min-width: 0 !important;
-  white-space: normal !important;
-  word-break: break-word !important;
-  display: inline !important;
-}
-details:nth-of-type(2) {
-  border-top: 1px solid var(--c-grey-border);
-}
-.wp-filter-group .checkbox {
-  margin-bottom: 5px;
-}
-.wp-filter-group .checkbox label {
-  align-items: flex-start !important;
-}
-.wp-filter-group .checkbox input[type="checkbox"] {
-  margin-top: 6px !important;
-  flex-shrink: 0 !important;
-}
-.news-select-group {
-  padding: 10px 12px;
-  border-top: 1px solid var(--c-grey-border);
-  border-bottom: 1px solid var(--c-grey-border);
-}
-.news-select-label {
-  display: block;
-  font-weight: 700;
-  margin-bottom: 6px;
-  font-size: inherit;
-}
-.news-select {
-  width: 100%;
-  padding: 6px 8px;
-  border: 2px solid var(--c-black);
-  border-radius: 0;
-  background: var(--c-white);
-  font-size: inherit;
-  font-family: inherit;
-  cursor: pointer;
-  -webkit-appearance: none;
-  appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%230b0c0c' d='M0 0l6 8 6-8z'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right 10px center;
-  padding-right: 30px;
-  box-sizing: border-box;
-}
-.news-select:focus {
-  outline: 3px solid var(--c-focus-alt);
-  outline-offset: 0;
-}
-.news-input-text-group {
-  padding: 10px 12px;
-  border-top: 1px solid var(--c-grey-border);
-  border-bottom: 1px solid var(--c-grey-border);
-}
-.news-input-text-label {
-  display: block;
-  font-weight: 700;
-  margin-bottom: 6px;
-  font-size: inherit;
-}
-.news-input-text {
-  width: 100%;
-  padding: 6px 8px;
-  border: 2px solid var(--c-black);
-  border-radius: 0;
-  background: var(--c-white);
-  font-size: inherit;
-  font-family: inherit;
-  cursor: pointer;
-  -webkit-appearance: none;
-  appearance: none;
-  background-repeat: no-repeat;
-  background-position: right 10px center;
-  padding-right: 30px;
-  box-sizing: border-box;
-}
-.news-input-text:focus {
-  outline: 3px solid var(--c-focus-alt);
-  outline-offset: 0;
-}
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">
@@ -159,8 +48,8 @@ details:nth-of-type(2) {
     </section>
   </div>
 </div>
-<div class="row mrgn-tp-lg" id="news-page">
-	<div class="col-md-3" id="news-sidebar">
+<div class="row mrgn-tp-lg" id="re-page">
+	<div class="col-md-3" id="re-sidebar">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
 		<div class="col-sm-12 filters" id="wb-srch"> 	 	
 		<h2 class="h6" id="news-filters-heading">Search</h2> 	
@@ -176,10 +65,10 @@ details:nth-of-type(2) {
             </button>
 		  </div>
 		 </form></div>
-		<div class="news-filters"> 
-		<h2 class="h6 mrgn-lft-sm" id="news-filters">Filters</h2>
+		<div class="re-filters"> 
+		<h2 class="h6 mrgn-lft-sm" id="re-filters">Filters</h2>
 		<p class="small mrgn-lft-sm">Select any of the following filters to narrow your search</p>	
-		<form role="form" method="get" action="#" id="filters" aria-label="Filter RCMP news">
+		<form role="form" method="get" action="#" id="re-filters" aria-label="Filter RCMP news">
 	    <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Category</span></summary>
 		<fieldset>	
@@ -236,8 +125,8 @@ details:nth-of-type(2) {
            <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Published by</span>
         </summary>
           <legend class="wb-inv">Territory or province</legend>
-            <label class="news-select-label" for="territory">Territory or province</label>
-            <select class="news-select" id="territory" name="territory">
+            <label class="re-select-label" for="territory">Territory or province</label>
+            <select class="re-select" id="territory" name="territory">
 				<option data-filter="territory" value="All territories and provinces"><span class="cb-text">All</span></option>
 				<option data-filter="territory" value="Alberta"><span class="cb-text">Alberta</span></option>
                 <option data-filter="territory" value="British Columbia"><span class="cb-text">British Columbia</span></option>
@@ -253,8 +142,8 @@ details:nth-of-type(2) {
                 <option data-filter="territory" value="Saskatchewan"><span class="cb-text">Saskatchewan</span></option>
                 <option data-filter="territory" value="Yukon"><span class="cb-text">Yukon</span></option>
 			</select>
-		    <label class="news-select-label" for="region">National, divisional or regional policing</label>
-			<select class="news-select" id="region" name="region">	
+		    <label class="re-select-label" for="region">National, divisional or regional policing</label>
+			<select class="re-select" id="region" name="region">	
 			<option data-filter="region" value="All national, divisional and regional policing"><span class="cb-text">All</span></option>	
 			<option data-filter="region" value="RCMP National Headquarters"><span class="cb-text">National Headquarters</span></option>	
             <option data-filter="region" value="Alberta RCMP"><span class="cb-text">Alberta RCMP</span></option>
@@ -281,7 +170,7 @@ details:nth-of-type(2) {
 			<fieldset>
 			 <legend class="wb-inv">Publish date</legend>
 			 <div><p class="small">For example, 2005, 21/11/2014, May 27, 2024</p></div>
-             <label class="news-input-text-label" for="dt_mindate">Before</label><input class="news-input-text" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="news-input-text-label" for="dt_maxdate">After</label><input class="news-input-text" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
+             <label class="re-input-text-label" for="dt_mindate">Before</label><input class="re-input-text" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="re-input-text-label" for="dt_maxdate">After</label><input class="re-input-text" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
 			</fieldset>
 		</details>
 		</form>

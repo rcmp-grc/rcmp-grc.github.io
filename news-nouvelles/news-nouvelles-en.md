@@ -39,9 +39,8 @@ custom_css: /assets/css/careers.css
 	margin-bottom: 20px;
 	overflow: hidden;
 	width: 100%;
-	box-sizing: border-box;
 }
-	#news-filters-heading {
+	#news-filters-heading {	
 	background: var(--c-black);
 	color: var(--c-white);
 	font-weight: 700;
@@ -82,7 +81,7 @@ custom_css: /assets/css/careers.css
 		  </div>
 		 </form></div>
 		<div id="re-filters">
-		<h2 class="h6 mrgn-lft-sm" id="re-filters-heading">Filters</h2>
+		<h2 class="h6 mrgn-lft-sm" id="re-filters-heading">Filter</h2>
 		<p class="small mrgn-lft-sm">Select any of the following filters to narrow your search</p>	
 	    <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Category</span></summary>

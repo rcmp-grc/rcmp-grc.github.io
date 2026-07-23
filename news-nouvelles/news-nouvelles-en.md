@@ -52,12 +52,16 @@ custom_css: /assets/css/careers.css
     border-top: 1px solid var(--c-grey-border);
 }	
 	.re-select:focus {
-	outline: 3px solid var(--rcmp-red);
+	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;	
 }
 	.re-input-text:focus {
-	outline: 3px solid var(--rcmp-red);
+	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;	
+}
+	.checkbox:focus {
+	outline: 2px solid var(--rcmp-red);
+	outline-offset: 0;
 }
 </style>
 <p>Read the RCMP news and communications.</p>

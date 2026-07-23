@@ -207,7 +207,7 @@ custom_css: /assets/css/careers.css
 		</div>
 	</aside>
 	</div>
-  <div class="col-md-9">
+  <div class="col-md-9" id="wp-results-col">
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 
      <div id="wp-toolbar">

@@ -172,7 +172,7 @@ custom_css: /assets/css/careers.css
             <option data-filter="region" value="Federal Policing Pacific Region"><span class="cb-text">Pacific Region</span></option>
 			</select>
       </details>	
-		<details class="re-input-text-group">
+		<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i class="fa-solid fa-chevron-down wp-filter-chevron" aria-hidden="true"></i><span class="wp-filter-summary-label">Publish date</span>
         </summary>
 			<fieldset>

@@ -76,7 +76,7 @@ custom_css: /assets/css/careers.css
 		  </div>
 		 </form></div>
 		<div id="re-filters">
-		<h2 class="h6 mrgn-lft-sm" id="id="re-filters-heading"">Filters</h2>
+		<h2 class="h6 mrgn-lft-sm" id="re-filters-heading"">Filters</h2>
 		<p class="small mrgn-lft-sm">Select any of the following filters to narrow your search</p>	
 		<form role="form" method="get" action="#" id="re-filters" aria-label="Filter RCMP news"> 
 	    <details class="wp-filter-group">

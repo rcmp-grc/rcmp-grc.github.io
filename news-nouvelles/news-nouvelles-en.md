@@ -86,9 +86,6 @@ issued: 2026-05-21
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Disturbance"><span class="cb-text">Disturbance</span></label>
           </div>
-			<div class="checkbox">
-            <label><input data-filter="category" type="checkbox" value="Fraud"><span class="cb-text">Fraud</span></label>
-          </div>
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Homicide"><span class="cb-text">Homicide</span></label>
           </div>

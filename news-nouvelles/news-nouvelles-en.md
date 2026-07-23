@@ -62,13 +62,6 @@ custom_css: /assets/css/careers.css
 	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;
 }
- .form-control {
-  width: 100%;
-  padding: 6px;
-  border: 2px solid var(--c-black);
-  background: var(--c-white);
-  box-sizing: border-box;
-}	
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">

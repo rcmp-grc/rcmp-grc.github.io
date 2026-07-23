@@ -62,6 +62,12 @@ custom_css: /assets/css/careers.css
 	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;
 }
+  #news-count {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">

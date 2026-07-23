@@ -9,6 +9,7 @@ author:
 creator:
 subject:
 issued: 2026-05-21
+custom_css: /assets/css/careers.css
 ---
 
 <style>

@@ -31,7 +31,16 @@ custom_css: /assets/css/careers.css
 	.filters
 	{
 	background-color: #f2f2f2;
-	border-top: 2px solid var(--rcmp-gold);
+	border-top: 2px solid var(--rcmp-gold);	
+	}
+	.wp-filter-summary-label
+	{
+	border: 1px solid var(--c-grey-border);
+	padding: 0;
+	margin-bottom: 20px;
+	overflow: hidden;
+	width: 100%;
+	box-sizing: border-box;
 	}
 </style>
 <p>Read the RCMP news and communications.</p>
@@ -52,7 +61,7 @@ custom_css: /assets/css/careers.css
 <div class="row mrgn-tp-lg" id="re-page">
 	<div class="col-md-3" id="re-sidebar">
     <aside aria-labelledby="news-filters-heading" id="news-filters">
-		<div class="col-sm-12 filters" id="wb-srch"> 	 	
+		<div class="col-sm-12" id="wb-srch"> 	 	
 		<h2 class="h6" id="news-filters-heading">Search</h2> 	
          <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	  
           <div class="form-group wb-srch-qry"> 
@@ -66,10 +75,10 @@ custom_css: /assets/css/careers.css
             </button>
 		  </div>
 		 </form></div>
-		<div class="re-filters"> 
-		<h2 class="h6 mrgn-lft-sm" id="news">Filters</h2>
+		<div id="re-filters">
+		<h2 class="h6 mrgn-lft-sm" id="id="re-filters-heading"">Filters</h2>
 		<p class="small mrgn-lft-sm">Select any of the following filters to narrow your search</p>	
-		<form role="form" method="get" action="#" id="re-filters" aria-label="Filter RCMP news">
+		<form role="form" method="get" action="#" id="re-filters" aria-label="Filter RCMP news"> 
 	    <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Category</span></summary>
 		<fieldset>	
@@ -123,7 +132,7 @@ custom_css: /assets/css/careers.css
 	  </details>
 		<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
-           <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Published by</span>
+           <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Published by</span>
         </summary>
 			<fieldset>
           <legend class="wb-inv">Territory or province</legend>
@@ -168,7 +177,7 @@ custom_css: /assets/css/careers.css
 		 </fieldset>
       </details>	
 		<details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Publish date</span>
+        <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Publish date</span>
         </summary>
 			<fieldset>
 			 <legend class="wb-inv">Publish date</legend>

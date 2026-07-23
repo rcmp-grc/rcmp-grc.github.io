@@ -34,13 +34,15 @@ custom_css: /assets/css/careers.css
 	border-top: 2px solid var(--rcmp-gold);	
 	}
 	#news-filters {
-	border: 1px solid var(--c-grey-border);
+	border-left: 1px solid var(--c-grey-border);
+	border-right: 1px solid var(--c-grey-border);	
 	padding: 0;
 	margin-bottom: 20px;
 	overflow: hidden;
 	width: 100%;
 }
 	#news-filters-heading {	
+	border-top: var(--rcmp-red);
 	background: var(--c-black);
 	color: var(--c-white);
 	font-weight: 700;

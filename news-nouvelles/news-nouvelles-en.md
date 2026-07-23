@@ -17,7 +17,7 @@ issued: 2026-05-21
 	padding: 10px;
 	flex: 1;
 	border-top: 2px solid var(--rcmp-gold);
-	background-color: #f3f2f1;	
+	background-color: var(--rcmp-grey-lt);	
     }
 	.badge-located
 	{
@@ -29,7 +29,7 @@ issued: 2026-05-21
 	}
 	.filters
 	{
-	background-color: #f3f2f1;
+	background-color: var(--rcmp-grey-lt);
 	border-top: 2px solid var(--rcmp-gold);
 	}
 	form
@@ -51,36 +51,36 @@ issued: 2026-05-21
   padding: 10px 14px;
   margin: 0;
 }
-#news-filters details.wp-filter-group > summary.wp-filter-group-toggle {
+details.wp-filter-group > summary.wp-filter-group-toggle {
   display: flex !important;
   align-items: flex-start !important;
   flex-wrap: nowrap !important;
   gap: 6px !important;
   white-space: normal !important;
 }
-#news-filters details.wp-filter-group > summary.wp-filter-group-toggle .wp-filter-chevron {
+details.wp-filter-group > summary.wp-filter-group-toggle .wp-filter-chevron {
   flex-shrink: 0 !important;
   width: 14px !important;
   align-self: center !important;
   margin-top: 0 !important;
 }
-#news-filters details.wp-filter-group > summary.wp-filter-group-toggle .wp-filter-summary-label {
+details.wp-filter-group > summary.wp-filter-group-toggle .wp-filter-summary-label {
   flex: 1 !important;
   min-width: 0 !important;
   white-space: normal !important;
   word-break: break-word !important;
   display: inline !important;
 }
-#news-filters details:nth-of-type(2) {
+details:nth-of-type(2) {
   border-top: 1px solid var(--c-grey-border);
 }
-#news-filters .wp-filter-group .checkbox {
+.wp-filter-group .checkbox {
   margin-bottom: 5px;
 }
-#news-filters .wp-filter-group .checkbox label {
+.wp-filter-group .checkbox label {
   align-items: flex-start !important;
 }
-#news-filters .wp-filter-group .checkbox input[type="checkbox"] {
+.wp-filter-group .checkbox input[type="checkbox"] {
   margin-top: 6px !important;
   flex-shrink: 0 !important;
 }

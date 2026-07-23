@@ -68,6 +68,7 @@ custom_css: /assets/css/careers.css
 		 </form></div> 
 		<h2 class="h6 mrgn-lft-sm" id="news">Filters</h2>
 		<p class="small mrgn-lft-sm">Select any of the following filters to narrow your search</p>	
+		<div class="re-filters"> 
 		<form role="form" method="get" action="#" id="re-filters" aria-label="Filter RCMP news"> 	
 	    <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Category</span></summary>
@@ -170,6 +171,7 @@ custom_css: /assets/css/careers.css
              <label class="re-input-text-label" for="dt_mindate">Before</label><input class="re-input-text" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="re-input-text-label" for="dt_maxdate">After</label><input class="re-input-text" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
 		</details>
 		</form>
+		</div>
 	</aside>
 	</div>
 	</div>

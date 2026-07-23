@@ -18,7 +18,7 @@ custom_css: /assets/css/careers.css
 	padding: 10px;
 	flex: 1;
 	border-top: 2px solid var(--rcmp-red);
-	background-color: #f2f2f2;	
+	background-color: var(--c-grey-light);	
     }
 	.badge-located
 	{
@@ -54,6 +54,9 @@ custom_css: /assets/css/careers.css
 	overflow: hidden;
 	width: 100%;
 }
+    #re-filters details {
+    border-top: 1px solid var(--c-grey-border);
+}	
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">

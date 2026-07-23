@@ -125,6 +125,7 @@ custom_css: /assets/css/careers.css
         <summary class="wp-filter-group-toggle">
            <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Published by</span>
         </summary>
+			<fieldset>
           <legend class="wb-inv">Territory or province</legend>
             <label class="re-select-label" for="territory">Territory or province</label>
             <select class="re-select" id="territory" name="territory">
@@ -164,6 +165,7 @@ custom_css: /assets/css/careers.css
             <option data-filter="region" value="Federal Policing Northwest Region"><span class="cb-text">Northwest Region</span></option>
             <option data-filter="region" value="Federal Policing Pacific Region"><span class="cb-text">Pacific Region</span></option>
 			</select>
+		 </fieldset>
       </details>	
 		<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Publish date</span>

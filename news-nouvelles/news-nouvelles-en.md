@@ -70,7 +70,6 @@ custom_css: /assets/css/careers.css
             </button>
 		  </div>
 		 </form></div>
-		<div id="re-filters">
 		<h2 class="h6" id="re-filters-heading">Filters</h2>
 		<p class="small mrgn-lft-sm">Select any of the following filters to narrow your search</p>	
 	    <details class="wp-filter-group">
@@ -179,7 +178,6 @@ custom_css: /assets/css/careers.css
              <label class="re-input-text-label" for="dt_mindate">Before</label><input class="re-input-text" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="re-input-text-label" for="dt_maxdate">After</label><input class="re-input-text" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
 			</fieldset>
 		</details>
-		</div>
 	</aside>
 	</div>
   <div class="col-md-9">

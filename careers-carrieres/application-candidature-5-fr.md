@@ -95,9 +95,9 @@ custom_css: /assets/css/careers.css
       <h4>Renseignements médicaux</h4>
       <p>Les renseignements médicaux recueillis pendant votre évaluation médicale comprennent&nbsp;:</p>
       <ul>
-        <li>les antécédents cliniques</li>
-        <li>les résultats d’un examen physique</li>
-        <li>les résultats d’analyses en laboratoire</li>
+        <li>les antécédents cliniques;</li>
+        <li>les résultats d’un examen physique;</li>
+        <li>les résultats d’analyses en laboratoire.</li>
       </ul>
     </section>
     <section id="s1-2-2">

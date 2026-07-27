@@ -39,7 +39,7 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 
-<p>Once you are contacted by a recruiting analyst, you'll have 14&nbsp;days to complete all required forms and documents, including the Security Screening Application and submit them through a <a href="https://ssp-pfs.rcmp-grc.gc.ca/">secure online portal</a>.</p>
+<p>Once you are contacted by a recruiting analyst, you'll have 14&nbsp;days to complete all required forms and documents, including the Security Screening Application and submit them through the <a href="https://ssp-pfs.rcmp-grc.gc.ca/">secure screening portal</a>.</p>
 
 <section id="s1">
   <h2>Required forms</h2>

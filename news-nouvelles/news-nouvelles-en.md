@@ -66,7 +66,7 @@ custom_css: /assets/css/careers.css
    outline: 2px solid var(--rcmp-red);
    outline-offset: 0;	
 }	
-   .form-control:focus {
+   .input-group:focus {
    outline: 2px solid var(--rcmp-red);
    outline-offset: 0;	
 }	
@@ -118,14 +118,14 @@ custom_css: /assets/css/careers.css
     <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	  
     <label for="btngrp-search2" class="wb-inv">Search</label>
    <div class="input-group">
-    <input type="text" class="form-control" id="btngrp-search2" placeholder="Search RCMP news" />
+    <input type="text" class="form-control" id="btngrp-search2" placeholder="Search news" />
 	 <span class="input-group-btn">
     <button class="btn btn-danger" type="button">
 	 <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
      <span class="wb-inv">Search</span>
-</button> 
-			 </span></div>
-         		 </form></div>
+    </button> 
+   </span></div>
+</form></div>
 		<div id="re-filters">
 		<h2 class="h6" id="news-filters-heading">Filter</h2>
 		<p class="small mrgn-lft-md mrgn-tp-md">Select any of the following filters to narrow your search</p>	

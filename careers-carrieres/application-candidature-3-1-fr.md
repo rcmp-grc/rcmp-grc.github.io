@@ -64,20 +64,20 @@ custom_css: /assets/css/careers.css
     <p>L'optométriste ou l'ophtalmologiste canadien qui vous examinera doit remplir le formulaire&nbsp;2180 de la GRC (Rapport de l'examen de la vue du postulant m.r.).</p>
     <p>Si vous avez eu une chirurgie oculaire au laser, une période d'attente est nécessaire avant de pouvoir subir un&nbsp;examen de la vue, à savoir&nbsp;:</p>
     <ul>
-      <li>30&nbsp;jours s'il s'agit d'une&nbsp;kératomileusie in situ au laser (LASIK)</li>
-      <li>90&nbsp;jours s'il s'agit d'une&nbsp;photokératectomie réfractive (PRK)</li>
-      <li>6&nbsp;mois s'il s'agit d'une&nbsp;implantation de lentilles intraoculaires (LIO, phakiques) de chambre antérieure</li>
-      <li>12&nbsp;mois s'il s'agit d'une&nbsp;implantation de lentilles intraoculaires (LIO, phakiques) de chambre postérieure</li>
-      <li>30 à 90&nbsp;jours s'il s'agit d'une&nbsp;extraction lenticulaire par petite incision (SMILE, ReLEX SMILE)</li>
-      <li>30&nbsp;jours s'il s'agit d'une&nbsp;kératomileusie sous la membrane de Bowman (SBK)</li>
+      <li>30&nbsp;jours s'il s'agit d'une&nbsp;kératomileusie in situ au laser (LASIK);</li>
+      <li>90&nbsp;jours s'il s'agit d'une&nbsp;photokératectomie réfractive (PRK);</li>
+      <li>6&nbsp;mois s'il s'agit d'une&nbsp;implantation de lentilles intraoculaires (LIO, phakiques) de chambre antérieure;</li>
+      <li>12&nbsp;mois s'il s'agit d'une&nbsp;implantation de lentilles intraoculaires (LIO, phakiques) de chambre postérieure;</li>
+      <li>30 à 90&nbsp;jours s'il s'agit d'une&nbsp;extraction lenticulaire par petite incision (SMILE, ReLEX SMILE);</li>
+      <li>30&nbsp;jours s'il s'agit d'une&nbsp;kératomileusie sous la membrane de Bowman (SBK).</li>
     </ul>
     <section id="s1-1-1">
       <h4>Acuité visuelle</h4>
       <p>Vous devrez satisfaire aux normes d'acuité visuelle corrigée <strong>et</strong> non corrigée. Le postulant qui ne répond à aucune des deux&nbsp;normes ne satisfait pas aux exigences minimales de vision pour les postulants m.r.</p>
       <p>Les exigences minimales en matière d'acuité visuelle sont les suivantes&nbsp;:</p>
       <ul>
-        <li>Vision corrigée (avec lunettes ou lentilles cornéennes)&nbsp;: l'acuité visuelle doit être d'au moins 6/6&nbsp;(20/20) à un œil <strong>et</strong> de 6/9&nbsp;(20/30) à l'autre</li>
-        <li>Vision non corrigée (sans lunettes ni lentilles cornéennes)&nbsp;: l'acuité visuelle doit être d'au moins 6/18&nbsp;(20/60) à chaque œil <strong>ou</strong> de 6/12&nbsp;(20/40) à un œil <strong>et</strong> d'au moins 6/30&nbsp;(20/100) à l'autre œil</li>
+        <li>Vision corrigée (avec lunettes ou lentilles cornéennes)&nbsp;: l'acuité visuelle doit être d'au moins 6/6&nbsp;(20/20) à un œil <strong>et</strong> de 6/9&nbsp;(20/30) à l'autre.</li>
+        <li>Vision non corrigée (sans lunettes ni lentilles cornéennes)&nbsp;: l'acuité visuelle doit être d'au moins 6/18&nbsp;(20/60) à chaque œil <strong>ou</strong> de 6/12&nbsp;(20/40) à un œil <strong>et</strong> d'au moins 6/30&nbsp;(20/100) à l'autre œil.</li>
       </ul>
       <p>Ce seuil d'acuité visuelle est exigé, car le policier doit pouvoir exécuter ses tâches en toute sécurité même s'il lui arrivait de perdre ou d'égarer ses lunettes ou ses lentilles cornéennes.</p>
     </section>
@@ -112,8 +112,8 @@ custom_css: /assets/css/careers.css
     <section id="s1-2-1">
       <h4>Normes minimales d'acuité auditive</h4>
       <ul>
-        <li>Perte auditive inférieure à 30&nbsp;décibels à la meilleure oreille, à une&nbsp;gamme de fréquences de 500 à 3&nbsp;000&nbsp;Hz</li>
-        <li>Perte auditive de moins de 30&nbsp;décibels à l'oreille la plus faible, à une&nbsp;gamme de fréquences de 3&nbsp;000&nbsp;Hz</li>
+        <li>Perte auditive inférieure à 30&nbsp;décibels à la meilleure oreille, à une&nbsp;gamme de fréquences de 500 à 3&nbsp;000&nbsp;Hz.</li>
+        <li>Perte auditive de moins de 30&nbsp;décibels à l'oreille la plus faible, à une&nbsp;gamme de fréquences de 3&nbsp;000&nbsp;Hz.</li>
       </ul>
     </section>
   </section>
@@ -124,8 +124,8 @@ custom_css: /assets/css/careers.css
   <p>Vous devez remplir une demande de filtrage de sécurité à l'aide de CléGC. CléGC est un service offert par le gouvernement du Canada qui permet d'accéder en toute sécurité à l'ensemble de ses programmes et services. Si votre candidature est retenue, vous recevrez des instructions pour créer votre profil CléGC et remplir et soumettre votre demande de filtrage de sécurité.</p>
   <p>Si vous éprouvez des difficultés techniques ou si vous avez des questions concernant le processus de filtrage de sécurité, veuillez utiliser les coordonnées suivantes&nbsp;:</p>
   <ul>
-    <li>Pour ce qui concerne CléGC&nbsp;: 1-855-438-1102</li>
-    <li>Pour le formulaire de demande de filtrage de sécurité&nbsp;: <a href="mailto:rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca">rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca</a></li>
+    <li>CléGC&nbsp;: 1-855-438-1102</li>
+    <li>formulaire de demande de filtrage de sécurité&nbsp;: <a href="mailto:rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca">rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca</a></li>
   </ul>
 </section>
 
@@ -133,12 +133,12 @@ custom_css: /assets/css/careers.css
   <h2>Autres conseils sur la façon de remplir les formulaires</h2>
   <p>Voici quelques recommandations sur la manière de remplir et de transmettre les formulaires et documents requis&nbsp;:</p>
   <ul>
-    <li>Remplissez les formulaires en ligne, imprimez-les et signez-les</li>
-    <li>Certains formulaires doivent être paraphés, ce qui ne peut être fait qu'après les avoir imprimés</li>
-    <li>Transmettez vos formulaires et documents par voie électronique, en suivant les instructions fournies. Nous n'acceptons pas les dossiers remis en mains propres ou envoyés par courriel ou courrier postal</li>
-    <li>Veuillez conserver les originaux de tous les formulaires. On pourrait vous demander de les produire pour authentifier vos documents</li>
-    <li>Entrez la date en format aaaa-mm-jj</li>
-    <li>Les formulaires mal remplis ou incomplets pourraient considérablement retarder le processus et entraîner la clôture de votre dossier</li>
+    <li>Remplissez les formulaires en ligne, imprimez-les et signez-les.</li>
+    <li>Certains formulaires doivent être paraphés, ce qui ne peut être fait qu'après les avoir imprimés.</li>
+    <li>Transmettez vos formulaires et documents par voie électronique, en suivant les instructions fournies. Nous n'acceptons pas les dossiers remis en mains propres ou envoyés par courriel ou courrier postal.</li>
+    <li>Veuillez conserver les originaux de tous les formulaires. On pourrait vous demander de les produire pour authentifier vos documents.</li>
+    <li>Entrez la date en format aaaa-mm-jj.</li>
+    <li>Les formulaires mal remplis ou incomplets pourraient considérablement retarder le processus et entraîner la clôture de votre dossier.</li>
   </ul>
   <p>Pour pouvoir remplir et sauvegarder les formulaires en format PDF, vous devez les télécharger sur votre ordinateur puis les ouvrir avec <a href="https://get.adobe.com/reader/otherversions/">Adobe Reader® 10</a> (ou une&nbsp;version plus récente). Veuillez noter que les formulaires en format PDF ne peuvent pas être ouverts et remplis sur des appareils mobiles.</p>
 </section>

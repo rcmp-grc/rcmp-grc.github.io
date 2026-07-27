@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: La vie d'un policier ou d'une policière
-date_modified: 2026-07-13
+date_modified: 2026-07-27
 lang: fr
 lang_url: police-life-en.html
 breadcrumbs:
@@ -35,7 +35,7 @@ custom_css: /assets/css/careers.css
         <p>Vous agirez en tant que soutien et protecteur dans des situations difficiles et devrez préserver votre santé mentale et physique. Ne vous inquiétez pas, vous aurez accès aux programmes qui vous permettront d'acquérir des compétences essentielles en matière de mieux-être personnel et un soutien additionnel, au besoin.</p>
     </section>
     <section id="s1-4">
-        <h3>Une carrière évolutive offrant des possibilités dans des domaines de police spécialisés.</h3>
+        <h3>Une carrière évolutive offrant des possibilités dans des domaines de police spécialisés</h3>
         <p>Vous pouvez choisir de poursuivre votre carrière dans les services généraux, ou vous perfectionner dans un domaine plus spécialisé.</p>
         <p><a href="#">Découvrez quelques-uns des parcours professionnels possibles.</a></p>
     </section>
@@ -44,5 +44,5 @@ custom_css: /assets/css/careers.css
     <h2>Ce à quoi nous nous attendons</h2>
     <p>En tant que policier ou policière, vous aurez un rôle important à jouer dans l'établissement et l'entretien de liens de confiance avec la population tout en servant la communauté. Nous recherchons des candidats qui respecteront les normes éthiques les plus élevées, qu'ils soient de service ou non.</p>
     <p>Découvrez si vous êtes prêt ou prête à servir.</p>
-    <p><a href="#">Faites le test de préparation!</a></p>
+    <p><a href="#" class="btn btn-careers mrgn-bttm-lg">Faites le test de préparation</a></p>
 </section>

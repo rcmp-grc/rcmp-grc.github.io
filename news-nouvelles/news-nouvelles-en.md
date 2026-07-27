@@ -97,17 +97,15 @@ custom_css: /assets/css/careers.css
 		<h2 class="h6" id="news-filters-heading">Search</h2> 
 		<div class="col-sm-12" id="wb-srch"> 
          <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	  
-          <div class="form-group wb-srch-qry"> 
-          <label class="wb-inv" for="news-srch-q">Search RCMP news</label>
-          <input class="wb-srch-q" maxlength="75" id="news-srch-q" name="q" placeholder="Search RCMP news" type="search" autocomplete="off" value="">	
-		  </div>
-          <div class="form-group submit">
-            <button class="btn btn-primary" type="submit">
-              <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
-              <span class="wb-inv">Search</span>
-            </button>
-		  </div>
-		 </form></div>
+			<label for="btngrp-search2" class="wb-inv">Search</label>
+  <div class="input-group">
+    <input type="text" class="form-control" id="btngrp-search2" placeholder="Search RCMP news" />
+			 <span class="input-group-btn">
+     <button class="btn btn-default" type="button">
+		 <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
+         <span class="wb-inv">Search</span>
+</button> 
+         		 </form></div>
 		<div id="re-filters">
 		<h2 class="h6" id="news-filters-heading">Filter</h2>
 		<p class="small mrgn-lft-md mrgn-tp-md">Select any of the following filters to narrow your search</p>	

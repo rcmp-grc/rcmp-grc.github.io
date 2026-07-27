@@ -61,17 +61,17 @@ custom_css: /assets/css/careers.css
 <ul>
   <li>tous vos problèmes de santé actuels (même si vous considérez qu'ils sont mineurs), y compris&nbsp;:
   <ul>
-  <li>tout problème de santé physique et psychologique</li>
-  <li>la date à laquelle les problèmes ont commencé, les limitations et restrictions qui y sont liées, le plan de traitement et le pronostic</li></ul></li>
+  <li>tout problème de santé physique et psychologique,</li>
+  <li>la date à laquelle les problèmes ont commencé, les limitations et restrictions qui y sont liées, le plan de traitement et le pronostic;</li></ul></li>
   <li>vos antécédents de santé physique et psychologique (précisez tout problème de santé pour lequel un traitement ou des médicaments étaient prescrits ou qui ont donné lieu à des limitations et à des restrictions), y compris&nbsp;:
     <ul>
       <li>la date à laquelle le problème a commencé, les limitations et restrictions qui y sont liées, le plan de traitement et le pronostic;</li>
     </ul>
   </li>
-  <li>tous les médicaments, suppléments et autres substances que vous prenez (sur ordonnance ou non)
+  <li>tous les médicaments, suppléments et autres substances que vous prenez (sur ordonnance ou non);
   <ul><li>Quand avez-vous commencé à les prendre? Pourquoi?</li></ul>
   </li>
-  <li>tout accessoire d’aide médicale (par exemple, orthèse, animal de soutien) nécessaire au moment de l’évaluation médicale</li>
+  <li>tout accessoire d’aide médicale (par exemple, orthèse, animal de soutien) nécessaire au moment de l’évaluation médicale.</li>
 </ul>
 <p>L’omission de déclarer tous vos antécédents médicaux et psychologiques pourrait nuire à votre candidature. Vous devez aussi déclarer tout changement dans votre état de santé au cours du processus de recrutement, avant de commencer le Programme de formation des cadets à la Division Dépôt, ainsi que tout changement qui pourrait survenir durant la formation.</p>
 <p>Nous vous invitons par la même occasion à autoévaluer votre aptitude au travail policier en fonction de vos problèmes de santé physique et psychologique connus.</p>

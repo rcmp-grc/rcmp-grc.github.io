@@ -38,6 +38,7 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-6-fr.html">Passez une enquête sur les antécédents et une évaluation de sécurité</a></li>
   </ul>
 </nav>
+<p>Cette étape vise à déterminer si vous possédez les qualités, les valeurs et les traits de caractère pour devenir un(e) policier(ière) de la GRC.[</p>
 
 <p>L'entrevue d'admissibilité comprend une série de questions destinées à mieux vous connaître. On vous posera des questions comportementales afin d'évaluer vos connaissances, vos compétences et vos aptitudes et déterminer si vous possédez les qualités nécessaires pour devenir un(e) bon(ne) policier(ière) à la GRC. Nous passerons également en revue le Questionnaire du postulant à un&nbsp;poste de membre régulier (QPPMR) afin de déterminer si des gestes que vous avez posés ou des comportements que vous avez eus dans le passé pourraient vous empêcher de devenir un(e)&nbsp;policier(ière) de la GRC.</p>
 <p>Ce questionnaire sert surtout à évaluer votre honnêteté. Nous vérifierons soigneusement vos réponses pour nous assurer qu'elles sont sincères.</p>

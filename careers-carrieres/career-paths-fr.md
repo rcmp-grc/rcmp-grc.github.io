@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Parcours professionnels pour les policiers
-date_modified: 2026-07-13
+date_modified: 2026-07-27
 lang: fr
 lang_url: career-paths-en.html
 breadcrumbs:
@@ -57,7 +57,7 @@ custom_css: /assets/css/careers.css
         <li>Enquêtes internationales et de nature délicate</li>
         <li>Crimes économiques et financiers</li>
         <li>Intégrité des frontières</li>
-        <li>Cybercrime</li>
+        <li>Cybercriminalité</li>
         <li>Renseignements</li>
     </ul>
     <p>Apprenez-en plus sur la <a href="/fr/police-federale">Police fédérale</a> à la GRC.</p>

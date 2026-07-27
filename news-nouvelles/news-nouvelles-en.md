@@ -95,7 +95,7 @@ custom_css: /assets/css/careers.css
 	<div class="col-md-3" id="re-sidebar">
     <aside aria-labelledby="news-filters-heading" id="news-filters"> 	
 		<h2 class="h6" id="news-filters-heading">Search</h2> 
-		<div class="col-sm-12" id="wb-srch"> 
+		<div class="col-sm-12"> 
          <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	  
 			<label for="btngrp-search2" class="wb-inv">Search</label>
   <div class="input-group">
@@ -105,6 +105,7 @@ custom_css: /assets/css/careers.css
 		 <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
          <span class="wb-inv">Search</span>
 </button> 
+			 </span></div>
          		 </form></div>
 		<div id="re-filters">
 		<h2 class="h6" id="news-filters-heading">Filter</h2>

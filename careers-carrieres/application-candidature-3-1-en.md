@@ -87,7 +87,7 @@ custom_css: /assets/css/careers.css
     </section>
     <section id="s1-1-3">
       <h4>Colour vision testing</h4>
-      <p>We test colour vison using the standardized Ishihara pseudo-isochromatic plates. To pass, you must correctly identify at least 17 of 21&nbsp;patterns.</p>
+      <p>We test colour vision using the standardized Ishihara pseudo-isochromatic plates. To pass, you must correctly identify at least 17 of 21&nbsp;patterns.</p>
       <p>If required, further evaluation will be conducted using the Farnsworth D-15&nbsp;test. If you pass, you meet the minimum colour vision standard.</p>
     </section>
     <section id="s1-1-4">
@@ -121,11 +121,12 @@ custom_css: /assets/css/careers.css
 
 <section id="s2">
   <h2>Security screening application</h2>
-  <p>You must complete an online Security Screening Application, accessed through GCKey. GCKey is a service provided by the Government of Canada that allows you to securely access programs and services. If selected, we will send you instructions on how to create your GCKey and submit your personal information through the online Security Screening Application.</p>
+  <p>You must complete an online Security Screening Application, accessed through the <a href="/en/careers-rcmp/security-screening-portal">security screening portal</a> using a GCKey or a Sign-In Partner account.</p>
+    <p>GCKey is a service provided by the Government of Canada that allows you to securely access programs and services. If selected, we will send you instructions on how to create your GCKey and submit your personal information through the online security screening portal.</p>
   <p>If you have any technical issues or questions about the security screening process, contact one of the following:</p>
   <ul>
-    <li>For GCKey account: 1-855-438-1102</li>
-    <li>For Security Screening Application: <a href="mailto:mailto:rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca">rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca</a></li>
+    <li>GCKey account: 1-855-438-1102</li>
+    <li>Security Screening Application: <a href="mailto:rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca">rcmp.rmapplicant-postulantmr.grc@rcmp-grc.gc.ca</a></li>
   </ul>
 </section>
 
@@ -140,7 +141,7 @@ custom_css: /assets/css/careers.css
     <li>use the following date format: YYYY/MM/DD</li>
     <li>incorrect or incomplete forms may cause a considerable delay in your recruiting process and may lead to your file being closed</li>
   </ul>
-  <p>To be able to fill and save our PDF forms, you must first download them to your computer and open them with <a href="https://get.adobe.com/reader/otherversions/">Adobe Reader® 10</a> (or a more recent version). Note that mobile devices cannot be used to open and fill PDF forms.</p>
+  <p>To be able to complete and save our PDF forms, you must first download them to your computer and open them with <a href="https://get.adobe.com/reader/otherversions/">Adobe Reader® 10</a> (or a more recent version). Note that mobile devices cannot be used to open and complete PDF forms.</p>
 </section>
 
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page" style="display: block;">

@@ -66,25 +66,25 @@ custom_css: /assets/css/careers.css
    outline: 2px solid var(--rcmp-red);
    outline-offset: 0;	
 }	
-   .form-control {
+   .form-control:focus {
    outline: 2px solid var(--rcmp-red);
    outline-offset: 0;	
 }	
- .form-control {
-  width: 100%;
-  padding: 6px 8px;
-  border: 2px solid var(--c-black);
-  border-radius: 0;
-  background: var(--c-white);
-  font-size: inherit;
-  font-family: inherit;
-  cursor: pointer;
-  -webkit-appearance: none;
-  appearance: none;
-  background-repeat: no-repeat;
-  background-position: right 10px center;
-  padding-right: 30px;
-  box-sizing: border-box;
+  .form-control {
+   width: 100%;
+   padding: 6px 8px;
+   border: 2px solid var(--c-black);
+   border-radius: 0;
+   background: var(--c-white);
+   font-size: inherit;
+   font-family: inherit;
+   cursor: pointer;
+   -webkit-appearance: none;
+   appearance: none;
+   background-repeat: no-repeat;
+   background-position: right 10px center;
+   padding-right: 30px;
+   box-sizing: border-box;
 }
    #news-count {
    display: flex;

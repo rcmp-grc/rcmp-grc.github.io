@@ -39,7 +39,7 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 
-<p>Lorsqu'un analyste de recrutement aura communiqué avec vous, vous aurez jusqu'à 14&nbsp;jours pour remplir les formulaires, notamment la demande de filtrage de sécurité, et les transmettre, accompagnés des documents requis, dans le <a href="https://ssp-pfs.rcmp-grc.gc.ca/">portail en ligne sécurisé</a>.</p>
+<p>Lorsqu'un analyste de recrutement aura communiqué avec vous, vous aurez jusqu'à 14&nbsp;jours pour remplir les formulaires, notamment la demande de filtrage de sécurité, et les transmettre, accompagnés des documents requis, dans le <a href="https://ssp-pfs.rcmp-grc.gc.ca/">portail de filtrage de sécurité</a>.</p>
 
 <section id="s1">
   <h2>Formulaires requis</h2>

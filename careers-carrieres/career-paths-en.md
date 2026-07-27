@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Career paths for police officers
-date_modified: 2026-07-13
+date_modified: 2026-07-27
 lang: en
 lang_url: career-paths-fr.html
 breadcrumbs:
@@ -58,5 +58,5 @@ custom_css: /assets/css/careers.css
         <li>cybercrime</li>
         <li>intelligence</li>
     </ul>
-    <p>Learn more about the <a href="/en/federal-policing">Federal Policing</a> at the RCMP.</p>
+    <p>Learn more about <a href="/en/federal-policing">Federal Policing</a> at the RCMP.</p>
 </section>

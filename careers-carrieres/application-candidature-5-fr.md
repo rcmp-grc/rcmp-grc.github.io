@@ -129,7 +129,7 @@ custom_css: /assets/css/careers.css
       <p>Les résultats des tests ci-dessous doivent également figurer sur le formulaire Fiche d’immunisation et test de tuberculose – Postulant(e) de la GRC&nbsp;:</p>
       <ul>
         <li>Test cutané tuberculinique en deux&nbsp;étapes (Mantoux), y compris la date, les résultats en millimètres ainsi que la signature du praticien ayant lu les résultats (quatre rendez-vous sont nécessaires).</li>
-        <li>Radiographie thoracique (uniquement en cas de résultats positifs de 10&nbsp;millimètres ou plus au test Mantoux).</li>
+        <li>Radiographie thoracique (<strong>uniquement en cas</strong> de résultats positifs de 10&nbsp;millimètres ou plus au test Mantoux).</li>
       </ul>
     </section>
   </section>

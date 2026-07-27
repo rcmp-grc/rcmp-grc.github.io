@@ -191,7 +191,7 @@ custom_css: /assets/css/careers.css
     <li>Personality disorders</li>
     <li>Substance use and addictive disorders</li>
     <li>ADHD (neurodevelopmental disorders including Attention Deficit Hyperactivity Disorder) and Autism Spectrum Disorder (ASD)</li>
-    <li>Other mental health disorders associated with significant distress or impairment in social, occupational or other areas of functioning, including somatoform disorder, and <abbr>OCD</abbr>abbr> (obsessive compulsive disorder)</li>
+    <li>Other mental health disorders associated with significant distress or impairment in social, occupational or other areas of functioning, including somatoform disorder, and <abbr>OCD</abbr> (obsessive compulsive disorder)</li>
   </ul>
 </section>
 

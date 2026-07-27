@@ -119,7 +119,7 @@ custom_css: /assets/css/careers.css
     </section>
     <section id="s1-2-3">
       <h4>Vaccins et tests de dépistage de la tuberculose</h4>
-      <p>Il est recommandé de faire les tests de dépistage de la tuberculose et d’obtenir les vaccins suivants avant de postuler. Vous devrez présenter le formulaire Fiche d’immunisation et test de tuberculose – Postulant(e) de la GRC dûment rempli avant d’amorcer votre formation à la Division Dépôt</p>
+      <p>Il est recommandé de faire les tests de dépistage de la tuberculose et d’obtenir les vaccins suivants avant de postuler. Vous devrez présenter le formulaire Fiche d’immunisation et test de tuberculose – Postulant(e) de la GRC dûment rempli avant d’amorcer votre formation à la Division Dépôt.</p>
       <p>Les vaccins pour adultes suivants doivent être à jour&nbsp;:</p>
       <ul>
         <li>Tétanos, diphtérie et coqueluche (<abbr>Tdap</abbr>)</li>

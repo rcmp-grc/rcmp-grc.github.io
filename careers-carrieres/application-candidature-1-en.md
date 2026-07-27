@@ -47,7 +47,7 @@ custom_css: /assets/css/careers.css
   <p>All applications are submitted through the GC Jobs portal. You will need to create a GC Jobs account to complete your online application.</p>
   <p>As part of your application, you'll answer screening questions based on the <a href="#">Basic Requirements</a>. Be sure to review them carefully, and answer honestly, as your responses will determine whether you move forward in the recruitment process.</p>
   <p>If your application is screened out at this step, you must wait 3&nbsp;months before re-applying.</p>
-  <p>If you have questions about the application process, attend a <a href="#">recruiting event</a> or <a href="#">contact a recruiter</a> before submitting your online <a href="#">application</a>.</p>
+  <p>If you have questions about the application process, attend a <a href="/en/careers-rcmp/recruiting-events">recruiting event</a> or <a href="/en/careers-rcmp/police-officer-careers/contact-recruiter">contact a recruiter</a> before submitting your online <a href="#">application</a>.</p>
 </section>
 
 <section id="s2">

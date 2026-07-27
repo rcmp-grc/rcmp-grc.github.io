@@ -42,8 +42,8 @@ custom_css: /assets/css/careers.css
 <p>Après avoir passé l'entrevue d'admissibilité, vous devrez rencontrer des médecins et des psychologues désignés par la GRC pour une évaluation de votre santé physique et psychologique. Si ces évaluations sont concluantes, vous recevrez votre certificat d'aptitude physique et psychologique.</p>
 <p>Cette partie du processus comporte deux volets distincts&nbsp;:</p>
 <ul>
-  <li>l'évaluation de l'aptitude psychologique (EAP)</li>
-  <li>l'évaluation médicale (EM)</li>
+  <li>l'évaluation de l'aptitude psychologique (<abbr>EAP</abbr>); et</li>
+  <li>l'évaluation médicale (<abbr>EM</abbr>).</li>
 </ul>
 <p>Vous devrez franchir toutes les étapes de l'EAP et être jugé(e) apte sur le plan psychologique avant de pouvoir vous soumettre à l'EM.</p>
 <p>La GRC prendra en charge les coûts de ces deux&nbsp;évaluations.</p>
@@ -64,72 +64,73 @@ custom_css: /assets/css/careers.css
     <li>la prise de décisions opérationnelles</li>
   </ul>
   <section id="s1-1">
-    <h3>Évaluation de l'aptitude psychologique</h3>
-    <p>Cette évaluation permet de déterminer si vous possédez les qualités psychologiques nécessaires pour devenir policier ou policière.</p>
-    <p>Vous devrez remplir un questionnaire préalable à l'entrevue. Vous devrez y énumérer tout problème ou toute préoccupation d'ordre psychologique, passé ou présent, et fournir des renseignements supplémentaires sur votre état de santé. Toutes vos réponses doivent être complètes et exactes. Des lacunes importantes, des renseignements manquants ou inexacts pourraient entraîner le rejet de votre candidature. Ces renseignements seront versés à votre dossier médical.</p>
-    <p>Avant de commencer les tests, vous devrez signer un formulaire de consentement. En le signant, vous acceptez de ne pas avoir accès aux rapports, aux résultats des tests ni à la rétroaction découlant de votre évaluation de l'aptitude psychologique.</p>
-    <p>L'évaluation comprend&nbsp;:</p>
+    <h3>Évaluation de l'aptitude psychologique (EAP)</h3>
+    <p>Cette évaluation permet de déterminer si vous possédez les qualités psychologiques nécessaires pour devenir policier ou policier(ière).</p>
+    <p>On vous demandera de remplir un questionnaire préalable; vous devrez y mentionner tout trouble psychologique actuel et passé, ou toute préoccupation à cet égard, ainsi que certains renseignements sur votre santé. Il est important de fournir des renseignements exacts et complets. Si d’importantes disparités, omissions, incohérences ou inexactitudes sont relevées, votre candidature pourrait être rejetée. Le document sera versé à votre dossier médical.</p>
+    <p>Vous devrez signer un formulaire de consentement avant de vous soumettre à l’évaluation. Vous attesterez ainsi que vous comprenez que les rapports, les résultats de tests et les commentaires découlant de l’EAP ne vous seront pas communiqués.</p>
+    <p>L’évaluation comprend&nbsp;:</p>
     <ul>
-      <li>des tests psychologiques normalisés</li>
+      <li>un examen psychologique normalisé</li>
       <li>une entrevue</li>
-      <li>un examen des renseignements complémentaires ou obtenus de tiers</li>
+      <li>un examen de renseignements complémentaires ou provenant de tiers</li>
     </ul>
-    <p>Les renseignements complémentaires peuvent comprendre des observations recueillies à d'autres étapes du processus de sélection de la GRC, comme l'entrevue d'admissibilité, le test polygraphique, la vérification des références, ainsi que les évaluations médicale et de sécurité. Ils peuvent également comprendre un examen des évaluations psychologiques ou neuropsychologiques antérieures que vous avez fournies à la GRC ou qui ont été effectuées lors de demandes d'emploi précédentes. L'équipe chargée de l'évaluation de l'aptitude examinera vos résultats et formulera une recommandation globale.</p>
-    <p>Même si vous n'avez aucun problème de santé mentale, l'évaluation de l'aptitude psychologique pourrait conclure que vous n'êtes pas apte, sur le plan psychologique, à occuper un poste de policier ou policière à la GRC. Le fait d'avoir déjà éprouvé des difficultés d'ordre psychologique n'entraîne pas automatiquement le rejet de votre candidature.</p>
-    <p>Si vous avez des antécédents de difficultés psychologiques, vous devrez peut-être fournir des documents démontrant&nbsp;:</p>
+    <p>Ces renseignements complémentaires peuvent comprendre des éléments recueillis à d’autres étapes du processus de sélection de la GRC, notamment l’entrevue d’admissibilité, le test polygraphique, la vérification des références, l’examen médical et l’enquête de sécurité. Cette évaluation peut également comprendre l’examen d’évaluations psychologiques ou neuropsychologiques antérieures que vous avez fournies à la GRC ou qui ont été réalisées pour des demandes d’emploi précédentes. Les résultats de l’EAP seront communiqués à l’équipe chargée de l’admissibilité et aideront celle-ci à formuler une recommandation générale.</p>
+    <p>Même si vous ne souffrez d’aucune maladie mentale, on pourrait conclure au terme de l’évaluation de l’aptitude psychologique que vous n’êtes pas apte psychologiquement au travail policier à la GRC. Inversement, des antécédents de troubles psychologiques n’entraîneront pas nécessairement le rejet de votre candidature.</p>
+    <p>Si vous avez des antécédents de troubles psychologiques, vous pourriez devoir fournir des documents qui attestent&nbsp;:</p>
     <ul>
-      <li>comment ces difficultés ont été résolues, ou</li>
-      <li>comment vous avez su bien fonctionner au fil du temps</li>
+      <li>de la façon dont vos troubles ont été réglés;</li>
+      <li>du fait que vous les gérez bien depuis un certain temps.</li>
     </ul>
-    <p>Ces renseignements nous aideront à évaluer votre aptitude à occuper ce poste.</p>
+    <p>Ces renseignements nous aideront à évaluer votre aptitude au travail policier.</p>
   </section>
   <section id="s1-2">
-    <h3>Évaluation médicale</h3>
-    <p>L'évaluation médicale permet de déterminer votre aptitude au travail. Vous passerez à cette étape après avoir réussi l'évaluation de l'aptitude psychologique. Tous les rapports et renseignements pertinents recueillis pendant l'évaluation psychologique seront pris en compte dans l'examen complet de votre dossier.</p>
-    <p>L'évaluation de votre aptitude au travail comprend&nbsp;:</p>
+    <h3>Évaluation médicale (EM)</h3>
+    <p>L’évaluation médicale vise à déterminer l’aptitude au travail du postulant et est réalisée après l’EAP. Tous les rapports et les renseignements pertinents recueillis lors de l’EAP seront utilisés au moment de l’examen complet de votre dossier.</p>
+    <p>L'évaluation de l’aptitude au travail comprend&nbsp;:</p>
     <ul>
-      <li>un examen de vos problèmes de santé physique et psychologique, passés et présents</li>
-      <li>leur incidence sur votre capacité à exercer les fonctions opérationnelles essentielles du métier de policier</li>
+      <li>un examen des problèmes de santé physique et psychologique actuels et passés;</li>
+      <li>l’incidence de ces problèmes sur l’exercice des fonctions policières essentielles.</li>
     </ul>
     <section id="s1-2-1">
       <h4>Renseignements médicaux</h4>
       <p>Les renseignements médicaux recueillis pendant votre évaluation médicale comprennent&nbsp;:</p>
       <ul>
-        <li>vos antécédents médicaux cliniques</li>
-        <li>un examen physique</li>
-        <li>des analyses de laboratoire</li>
+        <li>les antécédents cliniques</li>
+        <li>les résultats d’un examen physique</li>
+        <li>les résultats d’analyses en laboratoire</li>
       </ul>
     </section>
     <section id="s1-2-2">
-      <h4>Réalisation de l'évaluation de l'aptitude au travail</h4>
-      <p>Pour compléter votre évaluation de l'aptitude au travail, l'agent des services de santé de la GRC pourrait vous demander de fournir des renseignements supplémentaires de la part de votre fournisseur de soins de santé primaires ou d'un spécialiste, notamment&nbsp;:</p>
+      <h4>Évaluation de l'aptitude au travail</h4>
+      <p>Pour évaluer votre aptitude au travail, le médecin-chef de la GRC pourrait aussi vous demander d’obtenir des renseignements ou des examens supplémentaires auprès de votre principal fournisseur de soins de santé ou d’un spécialiste, notamment&nbsp;:</p>
       <ul>
-        <li>des copies de dossiers médicaux pertinents</li>
-        <li>des consultations avec des spécialistes</li>
-        <li>des tests ou examens supplémentaires afin de mieux comprendre tout problème de santé pouvant nuire à votre fonctionnement physique ou psychologique dans le cadre du travail policier</li>
+        <li>la copie de certains dossiers médicaux pertinents</li>
+        <li>la consultation de spécialistes</li>
+        <li>des examens complémentaires pour bien cerner tout problème qui pourrait influer sur votre capacité physique ou psychologique à exercer des fonctions policières</li>
       </ul>
-      <p>Vous pourriez ne pas satisfaire aux exigences minimales en matière d'aptitude au travail si vous avez un problème de santé physique ou psychologique, un traitement, une limitation ou une restriction qui&nbsp;:</p>
+      <p>Il est possible que vous ne répondiez pas aux exigences minimales de l’évaluation de l’aptitude au travail policier si vous avez un trouble, un traitement, une limitation ou une restriction, physique ou psychologique, qui peut&nbsp;:</p>
       <ul>
-        <li>nuit à votre rendement au point de vous empêcher d'exercer vos fonctions essentielles de façon sécuritaire et efficace</li>
-        <li>augmente les risques pour votre santé personnelle à un niveau inacceptable</li>
-        <li>augmente le risque d'incapacité soudaine ou d'un jugement affaibli</li>
+        <li>nuire à votre rendement au point de vous rendre incapable de remplir des fonctions essentielles de manière sûre et efficace;</li>
+        <li>accroître de façon inacceptable les risques pour votre santé personnelle;</li>
+        <li>accroître le risque d’incapacité soudaine ou de perturbation du jugement;</li>
         <li>pourrait transmettre une maladie infectieuse à vos collègues ou au public</li>
-        <li>vous rend inadmissible à la conduite professionnelle selon les lignes directrices de l'Association médicale canadienne</li>
+        <li>entraîner la transmission d’une maladie infectieuse à un collègue ou à un membre du public;</li>
+        <li>vous rendre inapte à conduire un véhicule dans le cadre professionnel, selon les lignes directrices de l’Association médicale canadienne.</li>
       </ul>
     </section>
     <section id="s1-2-3">
-      <h4>Vaccination et statut relatif à la tuberculose</h4>
-      <p>Nous vous recommandons de recevoir les vaccins suivants et de subir un test de dépistage de la tuberculose avant de poser votre candidature. Vous devrez remettre le formulaire complet Dossier de vaccination et de test de dépistage de la tuberculose du postulant de la GRC avant de commencer la formation des cadets à la Division Dépôt.</p>
-      <p>Les vaccins suivants doivent être à jour chez l'adulte&nbsp;:</p>
+      <h4>Vaccins et tests de dépistage de la tuberculose</h4>
+      <p>Il est recommandé de faire les tests de dépistage de la tuberculose et d’obtenir les vaccins suivants avant de postuler. Vous devrez présenter le formulaire Fiche d’immunisation et test de tuberculose – Postulant(e) de la GRC dûment rempli avant d’amorcer votre formation à la Division Dépôt</p>
+      <p>Les vaccins pour adultes suivants doivent être à jour&nbsp;:</p>
       <ul>
-        <li>tétanos, diphtérie et coqueluche (dcaT)</li>
-        <li>rougeole, oreillons et rubéole (RRO)</li>
-        <li>série de vaccins contre l'hépatite&nbsp;B</li>
+        <li>Tétanos, diphtérie et coqueluche (<abbr>Tdap</abbr>)</li>
+        <li>Rougeole, oreillons et rubéole (<abbr>ROR</abbr>)</li>
+        <li>Hépatite&nbsp;B</li>
       </ul>
-      <p>Votre formulaire Dossier de vaccination et de test de dépistage de la tuberculose du postulant de la GRC devra également indiquer les résultats du test suivant&nbsp;:</p>
+      <p>Les résultats des tests ci-dessous doivent également figurer sur le formulaire Fiche d’immunisation et test de tuberculose – Postulant(e) de la GRC&nbsp;:</p>
       <ul>
-        <li>test cutané tuberculinique en deux étapes (test de Mantoux), incluant la date, les résultats en millimètres et la signature du professionnel ayant interprété les résultats. Ce test nécessite 4&nbsp;rendez-vous distincts.</li>
-        <li>radiographie pulmonaire (seulement si le test de Mantoux est positif, soit 10&nbsp;millimètres ou plus)</li>
+        <li>Test cutané tuberculinique en deux&nbsp;étapes (Mantoux), y compris la date, les résultats en millimètres ainsi que la signature du praticien ayant lu les résultats (quatre rendez-vous sont nécessaires).</li>
+        <li>Radiographie thoracique (uniquement en cas de résultats positifs de 10&nbsp;millimètres ou plus au test Mantoux).</li>
       </ul>
     </section>
   </section>

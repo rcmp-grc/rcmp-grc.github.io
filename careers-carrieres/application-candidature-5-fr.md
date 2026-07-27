@@ -113,7 +113,6 @@ custom_css: /assets/css/careers.css
         <li>nuire à votre rendement au point de vous rendre incapable de remplir des fonctions essentielles de manière sûre et efficace;</li>
         <li>accroître de façon inacceptable les risques pour votre santé personnelle;</li>
         <li>accroître le risque d’incapacité soudaine ou de perturbation du jugement;</li>
-        <li>pourrait transmettre une maladie infectieuse à vos collègues ou au public</li>
         <li>entraîner la transmission d’une maladie infectieuse à un collègue ou à un membre du public;</li>
         <li>vous rendre inapte à conduire un véhicule dans le cadre professionnel, selon les lignes directrices de l’Association médicale canadienne.</li>
       </ul>

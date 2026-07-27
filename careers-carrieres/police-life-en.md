@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Life as a police officer
-date_modified: 2026-07-13
+date_modified: 2026-07-27
 lang: en
 lang_url: police-life-fr.html
 breadcrumbs:
@@ -14,7 +14,7 @@ custom_css: /assets/css/careers.css
 
 <section id="s1">
     <h2>What you can expect after training</h2>
-    <p>Police officers may be asked to relocate anywhere in Canada. based on operational needs. We are a national police
+    <p>Police officers may be asked to relocate anywhere in Canada based on operational needs. We are a national police
         service. Your interests and experience will also help to determine the exact location of your first posting.</p>
     <p>The number of times a police officer will be relocated varies depending on the police officer's role, promotional
         interests, human resourcing needs and available opportunities. The RCMP is a national organization with diverse
@@ -55,5 +55,5 @@ custom_css: /assets/css/careers.css
         the community. We're looking for candidates that will uphold the highest ethical standards, both on- and
         off-duty.</p>
     <p>Find out if you are ready to serve.</p>
-    <p><a href="#">Take the Readiness Check!</a></p>
+    <p><a href="#" class="btn btn-careers mrgn-bttm-lg">Take the Readiness Check</a></p>
 </section>

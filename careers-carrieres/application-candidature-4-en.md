@@ -50,7 +50,7 @@ custom_css: /assets/css/careers.css
     <p>Your past and current employers and references will be contacted during the background check. This helps us confirm your answers are consistent and accurate.</p>
     <section class="alert alert-info">
       <h4>Note</h4>
-      <p>You could be asked about the honesty of your answers through the utilization of a pre-employment polygraph.</p>
+      <p>You could be asked about the honesty of your answers through a pre-employment polygraph test.</p>
     </section>
   </section>
 </section>

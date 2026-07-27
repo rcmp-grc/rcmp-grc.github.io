@@ -47,15 +47,15 @@ custom_css: /assets/css/careers.css
   <p>Les candidatures doivent être présentées dans le portail Emplois GC. Pour présenter la vôtre, vous devrez créer un compte sur Emplois GC.</p>
   <p>Vous devrez répondre à des questions de présélection destinées à déterminer si vous répondez aux <a href="#">exigences de base</a>. Assurez-vous de les lire attentivement et d'y répondre honnêtement, car vos réponses détermineront si vous passez à l'étape suivante du processus de recrutement.</p>
   <p>Si vous n'êtes pas retenu(e), vous devrez attendre 3&nbsp;mois pour présenter de nouveau votre candidature.</p>
-  <p>Si vous avez des questions sur le processus, nous vous encourageons à assister à une <a href="#">activité de recrutement</a> ou à <a href="#">communiquer avec un recruteur</a> avant de <a href="#">présenter votre candidature en ligne</a>.</p>
+  <p>Si vous avez des questions sur le processus, nous vous encourageons à assister à une <a href="/fr/carrieres-grc/evenements-recrutement">activité de recrutement</a> ou à <a href="/fr/carrieres-grc/carriere-policiere/contactez-recruteur">communiquer avec un recruteur</a> avant de <a href="#">présenter votre candidature en ligne</a>.</p>
 </section>
 
 <section id="s2">
   <h2>Personnes ayant déjà présenté une candidature auparavant</h2>
   <p>Si vous avez déjà présenté une candidature dans le passé, vous pouvez de nouveau tenter votre chance à condition&nbsp;:</p>
   <ul>
-    <li>que votre période d'attente est terminée. Cette période vous aura été indiquée dans la lettre de clôture de votre dossier. À défaut, vous pouvez présenter une nouvelle candidature 3&nbsp;mois après la date de clôture de votre dossier</li>
-    <li>de posséder les qualifications requises et de répondre aux exigences de la GRC</li>
+    <li>que votre période d'attente est terminée. Cette période vous aura été indiquée dans la lettre de clôture de votre dossier. À défaut, vous pouvez présenter une nouvelle candidature 3&nbsp;mois après la date de clôture de votre dossier;</li>
+    <li>de posséder les qualifications requises et de répondre aux exigences de la GRC.</li>
   </ul>
   <p>Si vous ne répondez pas à ces conditions, votre candidature pourrait être rejetée et vous devrez de nouveau attendre 3&nbsp;mois avant de tenter votre chance.</p>
   <p>À la réception de votre candidature, nous examinerons votre dossier ainsi que celui que vous aurez présenté auparavant. Puis, nous communiquerons pour vous indiquer les prochaines étapes.</p>

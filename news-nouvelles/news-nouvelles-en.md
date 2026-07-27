@@ -62,6 +62,10 @@ custom_css: /assets/css/careers.css
 	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;
 }
+  #news-sort-select:focus {
+  outline: 2px solid var(--rcmp-red);
+  outline-offset: 0;	
+}	
   #news-count {
   display: flex;
   align-items: center;

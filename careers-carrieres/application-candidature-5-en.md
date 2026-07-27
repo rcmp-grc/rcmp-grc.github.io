@@ -128,7 +128,7 @@ custom_css: /assets/css/careers.css
       <p>Your RCMP Applicant Immunization and Tuberculosis Test Record form will also need to document results from the following test:</p>
       <ul>
         <li>two-step tuberculin skin test (Mantoux), include date, results in millimetre and signature of provider reading results. This will require 4&nbsp;separate appointments</li>
-        <li>chest x-ray (only if positive Mantoux at 10&nbsp;millimetres or greater)</li>
+        <li>chest x-ray (<strong>only</strong> if positive Mantoux at 10&nbsp;millimetres or greater)</li>
       </ul>
     </section>
   </section>

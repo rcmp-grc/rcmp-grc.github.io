@@ -66,7 +66,7 @@ custom_css: /assets/css/careers.css
     outline: 2px solid var(--rcmp-red);
     outline-offset: 0;	
 }	
-    .form-control:focus {
+    .form-controls:focus {
     outline: 2px solid var(--rcmp-red);
     outline-offset: 0;	
 }	
@@ -145,39 +145,39 @@ custom_css: /assets/css/careers.css
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Homicide"><span class="cb-text">Homicide</span></label>
           </div>
-			 <div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Border security"><span class="cb-text">Border security</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Illicit drugs"><span class="cb-text">Illicit drugs</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Missing"><span class="cb-text">Missing</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Organized crime"><span class="cb-text">Organized crime</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Property damage"><span class="cb-text">Property damage</span></label>
-				  </div>
-			<div class="checkbox">
-            <label><input data-filter="category" type="checkbox" value="Public interest"><span class="cb-text">Public interest</span></label>
+		  <div class="checkbox">
+          <label><input data-filter="category" type="checkbox" value="Border security"><span class="cb-text">Border security</span></label>
+		  </div>
+		  <div class="checkbox">
+          <label><input data-filter="category" type="checkbox" value="Illicit drugs"><span class="cb-text">Illicit drugs</span></label>
+		  </div>
+		  <div class="checkbox">
+          <label><input data-filter="category" type="checkbox" value="Missing"><span class="cb-text">Missing</span></label>
+		  </div>
+		  <div class="checkbox">
+          <label><input data-filter="category" type="checkbox" value="Organized crime"><span class="cb-text">Organized crime</span></label>
+		  </div>
+		  <div class="checkbox">
+          <label><input data-filter="category" type="checkbox" value="Property damage"><span class="cb-text">Property damage</span></label>
+		  </div>
+		  <div class="checkbox">
+          <label><input data-filter="category" type="checkbox" value="Public interest"><span class="cb-text">Public interest</span></label>
+		  </div>
+		  <div class="checkbox">
+          <label><input data-filter="category" type="checkbox" value="Theft"><span class="cb-text">Theft</span></label>
+		  </div>
+		  <div class="checkbox">
+          <label><input data-filter="category" type="checkbox" value="Traffic"><span class="cb-text">Traffic services</span></label>
+		  </div>
+		  <div class="checkbox">
+          <label><input data-filter="category" type="checkbox" value="Trafficking"><span class="cb-text">Trafficking</span></label>
+		  </div>
+		   <div class="checkbox">
+           <label><input data-filter="category" type="checkbox" value="Wanted"><span class="cb-text">Wanted</span></label>
 		 </div>
-			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Theft"><span class="cb-text">Theft</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Traffic"><span class="cb-text">Traffic services</span></label>
-				  </div>
-			<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Trafficking"><span class="cb-text">Trafficking</span></label>
-				  </div>
 		<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Wanted"><span class="cb-text">Wanted</span></label>
-				  </div>
-		<div class="checkbox">
-                <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span></label>
-				  </div>	
+        <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span></label>
+		</div>	
 		</fieldset>
 	  </details>
 		<details class="wp-filter-group">

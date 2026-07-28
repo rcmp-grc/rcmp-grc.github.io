@@ -82,8 +82,7 @@ custom_css: /assets/css/careers.css
    -webkit-appearance: none;
    appearance: none;
    background-repeat: no-repeat;
-   background-position: right 10px center;
-   padding-right: 30px;   
+   background-position: right 10px center; 
    box-sizing: border-box;
 }
    .input-group	{

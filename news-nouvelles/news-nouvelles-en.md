@@ -66,10 +66,6 @@ custom_css: /assets/css/careers.css
     outline: 2px solid var(--rcmp-red);
     outline-offset: 0;	
 }	
-    #btngrp-search2:focus {
-    outline: 2px solid var(--rcmp-red);
-    outline-offset: 0;	
-}	
    .form-controls {
    width: 100%;
    padding: 6px 8px;

@@ -206,7 +206,7 @@ custom_css: /assets/css/careers.css
                 <option data-filter="territory" value="Saskatchewan"><span class="cb-text">Saskatchewan</span></option>
                 <option data-filter="territory" value="Yukon"><span class="cb-text">Yukon</span></option>
 			</select>
-		    <label class="re-select-label" for="region">National, divisional or regional policing</label>
+		    <label class="re-select-label mrgn-tp-md" for="region">National, divisional or regional policing</label>
 			<select class="re-select" id="region" name="region">	
 			<option data-filter="region" value="All national, divisional and regional policing"><span class="cb-text">All</span></option>	
 			<option data-filter="region" value="RCMP National Headquarters"><span class="cb-text">National Headquarters</span></option>	
@@ -235,7 +235,7 @@ custom_css: /assets/css/careers.css
 			<fieldset>
 			 <legend class="wb-inv">Publish date</legend>
 			 <div><p class="small">For example, 2005, 21/11/2014, May 27, 2024</p></div>
-             <label class="re-input-text-label" for="dt_mindate">Before</label><input class="re-input-text" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="re-input-text-label" for="dt_maxdate">After</label><input class="re-input-text" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
+             <label class="re-input-text-label" for="dt_mindate">Before</label><input class="re-input-text" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="re-input-text-label mrgn-tp-md" for="dt_maxdate">After</label><input class="re-input-text" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
 			</fieldset>
 		</details>
 		</div>

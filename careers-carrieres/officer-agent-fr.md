@@ -139,7 +139,7 @@ custom_css: /assets/css/careers.css
       <span class="event-card-location">Virtual</span>
       <h3 class="mrgn-bttm-0"><a href="/careers-carrieres/police-officer/recruiting-events">Virtual Information Session</a></h3>
       <p>Career presentation</p>
-      <p><i aria-hidden="true" class="fa-regular fa-clock"></i> <span class="wb-inv">Time:</span> 10 a.m. (Atlantic time)</p>
+      <p><i aria-hidden="true" class="fa-regular fa-clock"></i> <span class="wb-inv">Time:</span> 10 am (Atlantic time)</p>
       <p><i aria-hidden="true" class="fa-regular fa-calendar"></i> <span class="wb-inv">Date:</span> <time datetime="2026-01-26">Monday, January 26, 2026</time></p>
       <p><i aria-hidden="true" class="fa-solid fa-location-dot"></i> <span class="wb-inv">Location:</span> Charlottetown, Prince Edward Island</p>
     </div>
@@ -147,7 +147,7 @@ custom_css: /assets/css/careers.css
       <span class="event-card-location">In-person</span>
       <h3 class="mrgn-bttm-0"><a href="/careers-carrieres/police-officer/recruiting-events">Coffee with a Cop in Leduc</a></h3>
       <p>Ask-a-recruiter – Question and answer session</p>
-      <p><i aria-hidden="true" class="fa-regular fa-clock"></i> <span class="wb-inv">Time:</span> 10 a.m. (Mountain time)</p>
+      <p><i aria-hidden="true" class="fa-regular fa-clock"></i> <span class="wb-inv">Time:</span> 10 am (Mountain time)</p>
       <p><i aria-hidden="true" class="fa-regular fa-calendar"></i> <span class="wb-inv">Date:</span> <time datetime="2026-01-26">Monday, January 26, 2026</time></p>
       <p><i aria-hidden="true" class="fa-solid fa-location-dot"></i> <span class="wb-inv">Location:</span> Leduc, Alberta</p>
     </div>
@@ -155,7 +155,7 @@ custom_css: /assets/css/careers.css
       <span class="event-card-location">In-person</span>
       <h3 class="mrgn-bttm-0"><a href="/careers-carrieres/police-officer/recruiting-events">Hamiota Career Fair</a></h3>
       <p>Career fair</p>
-      <p><i aria-hidden="true" class="fa-regular fa-clock"></i> <span class="wb-inv">Time:</span> 10 a.m. (Central time)</p>
+      <p><i aria-hidden="true" class="fa-regular fa-clock"></i> <span class="wb-inv">Time:</span> 10 am (Central time)</p>
       <p><i aria-hidden="true" class="fa-regular fa-calendar"></i> <span class="wb-inv">Date:</span> <time datetime="2026-01-26">Monday, January 26, 2026</time></p>
       <p><i aria-hidden="true" class="fa-solid fa-location-dot"></i> <span class="wb-inv">Location:</span> Hamiota, Manitoba</p>
     </div>

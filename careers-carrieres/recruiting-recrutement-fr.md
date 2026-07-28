@@ -725,7 +725,11 @@ custom_css: /assets/css/careers.css
   }
 
   function formatDate(iso) {
-    var d = new Date(iso + 'T00:00:00');
+    var parts = String(iso).split('-');
+    var d = new Date(parseInt(parts[0], 10), parseInt(parts[1], 10) - 1, parseInt(parts[2], 10));
+    if (isNaN(d.getTime())) {
+      return '';
+    }
     var locale = LANG === 'fr' ? 'fr-CA' : 'en-CA';
     var label = d.toLocaleDateString(locale, {
       weekday: 'long',

@@ -155,7 +155,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Police officer',
     format: 'In person',
     language: 'English',
-    time: '6:00 p.m.',
+    time: '6 pm',
     date: '2026-07-10',
     cancelled: false,
     full: false
@@ -168,7 +168,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Police officer',
     format: 'In person',
     language: 'English',
-    time: '10:00 a.m.',
+    time: '10 am',
     date: '2026-07-14',
     cancelled: false,
     full: false
@@ -181,7 +181,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Police officer',
     format: 'Virtual',
     language: 'English and French',
-    time: '1:00 p.m.',
+    time: '1 pm',
     date: '2026-07-16',
     cancelled: false,
     full: true
@@ -194,7 +194,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Police officer',
     format: 'In person',
     language: 'English',
-    time: '8:30 a.m.',
+    time: '8:30 am',
     date: '2026-07-18',
     cancelled: false,
     full: false
@@ -207,7 +207,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Community constable',
     format: 'In person',
     language: 'English and French',
-    time: '5:30 p.m.',
+    time: '5:30 pm',
     date: '2026-07-22',
     cancelled: false,
     full: false
@@ -220,7 +220,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Police officer',
     format: 'Virtual',
     language: 'English',
-    time: '2:00 p.m.',
+    time: '2 pm',
     date: '2026-07-24',
     cancelled: false,
     full: false
@@ -233,7 +233,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Telecommunications operator',
     format: 'In person',
     language: 'English',
-    time: '11:00 a.m.',
+    time: '11 am',
     date: '2026-07-28',
     cancelled: false,
     full: false
@@ -246,7 +246,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Police officer',
     format: 'In person',
     language: 'English',
-    time: '9:00 a.m.',
+    time: '9 am',
     date: '2026-08-02',
     cancelled: false,
     full: false
@@ -259,7 +259,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Police officer',
     format: 'In person',
     language: 'English',
-    time: '7:00 a.m.',
+    time: '7 am',
     date: '2026-08-05',
     cancelled: true,
     full: false
@@ -272,7 +272,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Community constable',
     format: 'In person',
     language: 'English',
-    time: '10:30 a.m.',
+    time: '10:30 am',
     date: '2026-08-08',
     cancelled: false,
     full: false
@@ -285,7 +285,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Police officer',
     format: 'Virtual',
     language: 'French',
-    time: '3:00 p.m.',
+    time: '3 pm',
     date: '2026-08-12',
     cancelled: false,
     full: false
@@ -298,7 +298,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Community constable',
     format: 'In person',
     language: 'English',
-    time: '1:00 p.m.',
+    time: '1 pm',
     date: '2026-08-15',
     cancelled: false,
     full: false
@@ -311,7 +311,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Police officer',
     format: 'In person',
     language: 'English',
-    time: '11:00 a.m.',
+    time: '11 am',
     date: '2026-08-19',
     cancelled: false,
     full: false
@@ -324,7 +324,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Police officer',
     format: 'In person',
     language: 'English',
-    time: '6:00 p.m.',
+    time: '6 pm',
     date: '2026-08-21',
     cancelled: false,
     full: false
@@ -337,7 +337,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Community constable',
     format: 'In person',
     language: 'English',
-    time: '10:00 a.m.',
+    time: '10 am',
     date: '2026-08-25',
     cancelled: false,
     full: false
@@ -350,7 +350,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Community constable',
     format: 'In person',
     language: 'English',
-    time: '1:00 p.m.',
+    time: '1 pm',
     date: '2026-08-27',
     cancelled: false,
     full: false
@@ -363,7 +363,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Police officer',
     format: 'Virtual',
     language: 'English',
-    time: '9:00 a.m.',
+    time: '9 am',
     date: '2026-09-03',
     cancelled: false,
     full: false
@@ -376,7 +376,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Police officer',
     format: 'In person',
     language: 'English',
-    time: '10:00 a.m.',
+    time: '10 am',
     date: '2026-09-08',
     cancelled: false,
     full: false
@@ -389,7 +389,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Police officer',
     format: 'In person',
     language: 'English',
-    time: '5:00 p.m.',
+    time: '5 pm',
     date: '2026-09-10',
     cancelled: false,
     full: false
@@ -402,7 +402,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Police officer',
     format: 'In person',
     language: 'English and French',
-    time: '6:30 p.m.',
+    time: '6:30 pm',
     date: '2026-09-15',
     cancelled: true,
     full: false
@@ -415,7 +415,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Police officer',
     format: 'In person',
     language: 'French',
-    time: '11:00 a.m.',
+    time: '11 am',
     date: '2026-09-18',
     cancelled: false,
     full: false
@@ -428,7 +428,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Telecommunications operator',
     format: 'In person',
     language: 'English and French',
-    time: '2:00 p.m.',
+    time: '2 pm',
     date: '2026-09-22',
     cancelled: false,
     full: false
@@ -441,7 +441,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Police officer',
     format: 'In person',
     language: 'English',
-    time: '8:00 a.m.',
+    time: '8 am',
     date: '2026-09-25',
     cancelled: false,
     full: false
@@ -454,7 +454,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Telecommunications operator',
     format: 'Virtual',
     language: 'English',
-    time: '12:00 p.m.',
+    time: '12 pm',
     date: '2026-09-29',
     cancelled: false,
     full: false
@@ -467,7 +467,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Police officer',
     format: 'In person',
     language: 'English',
-    time: '6:00 p.m.',
+    time: '6 pm',
     date: '2026-10-02',
     cancelled: true,
     full: true
@@ -480,7 +480,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Police officer',
     format: 'In person',
     language: 'English',
-    time: '7:00 p.m.',
+    time: '7 pm',
     date: '2026-10-06',
     cancelled: false,
     full: false
@@ -493,7 +493,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Police officer',
     format: 'In person',
     language: 'English and French',
-    time: '10:00 a.m.',
+    time: '10 am',
     date: '2026-10-09',
     cancelled: false,
     full: false
@@ -506,7 +506,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Community constable',
     format: 'In person',
     language: 'English',
-    time: '9:00 a.m.',
+    time: '9 am',
     date: '2026-10-14',
     cancelled: false,
     full: false
@@ -519,7 +519,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Telecommunications operator',
     format: 'Virtual',
     language: 'English and French',
-    time: '2:00 p.m.',
+    time: '2 pm',
     date: '2026-10-20',
     cancelled: false,
     full: false
@@ -532,7 +532,7 @@ custom_css: /assets/css/careers.css
     jobType: 'Police officer',
     format: 'In person',
     language: 'English',
-    time: '8:00 a.m.',
+    time: '8 am',
     date: '2026-10-23',
     cancelled: false,
     full: false
@@ -725,7 +725,7 @@ custom_css: /assets/css/careers.css
   }
 
   function formatDate(iso) {
-    var d = new Date(iso + 'T00:00:00');
+    var d = new Date(iso + 'T00');
     var locale = LANG === 'fr' ? 'fr-CA' : 'en-CA';
     var label = d.toLocaleDateString(locale, {
       weekday: 'long',

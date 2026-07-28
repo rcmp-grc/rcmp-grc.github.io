@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Aperçu du Programme de formation des cadets
-date_modified: 2026-07-08
+date_modified: 2026-07-28
 lang: fr
 lang_url: ctp-overview-en.html
 breadcrumbs:
@@ -131,7 +131,7 @@ custom_css: /assets/css/careers.css
   <h2>Formation au tir</h2>
   <p>La formation au tir est un volet important du PFC pendant lequel les cadets reçoivent le pistolet réglementaire qu'ils porteront durant toute leur carrière.</p>
   <p>La formation porte sur les lois et les politiques relatives au maniement sécuritaire des armes à feu, y compris le fusil et la carabine de patrouille.</p>
-  <p>La Division Dépôt abrite certaines des installations de tir les plus modernes en Amérique du Nord, conçues pour offrir une formation au plus haut niveau.</p>
+  <p>L’École de la GRC abrite certaines des installations de tir les plus modernes en Amérique du Nord, conçues pour offrir une formation au plus haut niveau.</p>
   <section id="s5-1">
     <h3>Format et prestation</h3>
     <ul>
@@ -146,10 +146,10 @@ custom_css: /assets/css/careers.css
 <section id="s6">
   <h2>Conduite de véhicules de police</h2>
   <p>Ce module met l'accent sur les compétences nécessaires à la conduite d'un véhicule prioritaire. Les cadets apprennent à patrouiller et à intervenir sans compromettre la sécurité du public et des policiers. Vous étudierez la politique sur la conduite d'un véhicule prioritaire et la réglementation connexe ainsi que les infractions relatives à la conduite d'un véhicule.</p>
-  <p>La Division Dépôt possède plusieurs pistes de conduite automobile, dont une pour les véhicules tout terrain dont la topographie est semblable à celle des routes du pays. Des scénarios et des simulations réalistes permettent aux cadets de s'exercer à conduire efficacement et de façon sûre un véhicule de police dans des situations très stressantes.</p>
+  <p>L’École de la GRC possède plusieurs pistes de conduite automobile, dont une pour les véhicules tout terrain dont la topographie est semblable à celle des routes du pays. Des scénarios et des simulations réalistes permettent aux cadets de s'exercer à conduire efficacement et de façon sûre un véhicule de police dans des situations très stressantes.</p>
   <p>Les cadets sont formés à ce qui suit&nbsp;:</p>
   <ul>
-    <li>la conduite sécuritaire et efficace des véhicules de police (éviter les collisions, conduire à grande vitesse et situations très stressantes, p.&nbsp;ex.);</li>
+    <li>la conduite sécuritaire et efficace des véhicules de police (éviter les collisions, conduire à grande vitesse et situations très stressantes, par exemple);</li>
     <li>le sens de l'observation et l'accomplissement de tâches multiples, notamment l'utilisation de la radio au volant;</li>
     <li>l'utilisation adéquate de l'équipement des véhicules de police;</li>
     <li>les techniques avancées de conduite de véhicules prioritaires;</li>
@@ -162,7 +162,7 @@ custom_css: /assets/css/careers.css
       <li>Salle de classe</li>
       <li>Scénarios</li>
       <li>Simulations de conduite</li>
-      <li>Conduite sur diverses pistes à la Division Dépôt</li>
+      <li>Conduite sur diverses pistes à L’École de la GRC</li>
       <li>Patrouilles hors site</li>
     </ul>
   </section>

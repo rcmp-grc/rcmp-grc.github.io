@@ -87,12 +87,16 @@ custom_css: /assets/css/careers.css
 }
    .input-group	{
    margin-bottom: 15px;   
-   margin-top: 15px;  
+   margin-top: 15px;     
 }
    #news-count {
    display: flex;
    align-items: center;
    margin-bottom: 0;
+}
+   .btn-danger {
+   padding: 6px 8px;   
+   box-sizing: border-box;      
 }
 </style>
 <p>Read the RCMP news and communications.</p>

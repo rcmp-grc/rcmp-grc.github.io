@@ -95,8 +95,7 @@ custom_css: /assets/css/careers.css
    margin-bottom: 0;
 }
    .btn-danger {
-   padding: 6px 8px;   
-   box-sizing: border-box;      
+   padding: 15px 15px;      
 }
 </style>
 <p>Read the RCMP news and communications.</p>

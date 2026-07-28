@@ -123,7 +123,7 @@ custom_css: /assets/css/careers.css
    <div class="input-group">
     <input type="text" class="form-controls" id="btngrp-search2" placeholder="Search news" />
 	 <span class="input-group-btn">
-    <button class="btn btn-danger" type="button">
+    <button class="btn btn-danger" id="btngrp-search2" type="button">
 	 <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
      <span class="wb-inv">Search</span>
     </button> 

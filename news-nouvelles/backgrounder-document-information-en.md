@@ -15,9 +15,9 @@ issued: 2026-05-08
 	  margin-bottom: 10px;
 	 }
 	.card-tag-located
-	{ padding-left: 0px;	  
+	{ padding-left: 0px;
 	  background-color: #ef8f9c;
-	  max-width: 7rem;
+	  max-width: 8rem;
 	}
 	.card-tag-located p
 	{

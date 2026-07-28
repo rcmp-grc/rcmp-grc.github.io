@@ -70,7 +70,7 @@ custom_css: /assets/css/careers.css
     outline: 2px solid var(--rcmp-red);
     outline-offset: 0;	
 }	
-   .form-control {
+   .form-controls {
    width: 100%;
    padding: 6px 8px;
    border: 2px solid var(--c-black);
@@ -118,7 +118,7 @@ custom_css: /assets/css/careers.css
     <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	  
     <label for="btngrp-search2" class="wb-inv">Search</label>
    <div class="input-group">
-    <input type="text" class="form-control" id="btngrp-search2" placeholder="Search news" />
+    <input type="text" class="form-controls" id="btngrp-search2" placeholder="Search news" />
 	 <span class="input-group-btn">
     <button class="btn btn-danger" type="button">
 	 <span class="glyphicon-search glyphicon" aria-hidden="true"></span>

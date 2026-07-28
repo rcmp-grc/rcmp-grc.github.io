@@ -38,7 +38,7 @@ lead: News release
 	}
 	.contact-us 
 	{
-	background-color: #f5f5f5;
+	background-color: #f3f2f1;
 	padding-left: 10px;
 	}
 	a.news-topic-1:link, a.news-topic-1:visited {

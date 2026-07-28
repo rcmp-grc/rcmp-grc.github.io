@@ -114,7 +114,7 @@ custom_css: /assets/css/careers.css
       <li>You will share common, co-ed spaces that support teamwork, collaboration and downtime with your troopmates</li>
       <li>You will have your own individual sleeping space separated by a curtain, "a pit", within the shared dormitory</li>
       <li>There are washroom and shower facilities in designated areas for men and women, as well as gender-inclusive options</li>
-      <li>On-site accommodation is exclusively for cadets only during training</li>
+      <li>On-site accommodation is for cadets only during training</li>
       <li>Facilities are not available for family members, spouses, friends or other visitors</li>
     </ul>
   </section>
@@ -181,3 +181,5 @@ custom_css: /assets/css/careers.css
     </ul>
   </div>
 </section>
+
+<p><a href="" class="btn btn-primary">Have you applied?</a></p>

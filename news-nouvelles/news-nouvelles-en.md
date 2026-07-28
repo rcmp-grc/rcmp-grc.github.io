@@ -62,13 +62,13 @@ custom_css: /assets/css/careers.css
     outline: 2px solid var(--rcmp-red);
     outline-offset: 0;
 }
-   #news-sort-select:focus {
-   outline: 2px solid var(--rcmp-red);
-   outline-offset: 0;	
+    #news-sort-select:focus {
+    outline: 2px solid var(--rcmp-red);
+    outline-offset: 0;	
 }	
-   .form-control:focus {
-   outline: 2px solid var(--rcmp-red);
-   outline-offset: 0;	
+    .form-control:focus {
+    outline: 2px solid var(--rcmp-red);
+    outline-offset: 0;	
 }	
    .form-control {
    width: 100%;

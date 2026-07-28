@@ -11,7 +11,7 @@ issued: 2026-05-08
 
 <style>
 	.explore
-	{ border-top: 2px solid var(--rcmp-gold);
+	{ border-top: 2px solid var(--rcmp-red);
 	  margin-bottom: 10px;
 	 }
 	.summary

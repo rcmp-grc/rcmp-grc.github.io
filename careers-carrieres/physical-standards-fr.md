@@ -44,11 +44,11 @@ custom_css: /assets/css/careers.css
       </ul>
       <dl class="dl-horizontal brdr-0">
         <dt>Norme minimale </dt>
-        <dd><span aria-label="trente minutes">30:00</span> (mm:ss)</dd>
+        <dd>30&#160;minutes</dd>
         <dt>Norme ciblée </dt>
-        <dd><span aria-label="vingt-trois minutes, trente secondes">23:30</span> à <span aria-label="vingt-six minutes">26:00</span></dd>
+        <dd>23&#160;minutes 30&#160;seconds à 26&#160;minutes</dd>
         <dt>Norme supérieure </dt>
-        <dd><span aria-label="vingt minutes, vingt secondes">20:20</span> à <span aria-label="vingt-trois minutes">23:00</span></dd>
+        <dd>20&#160;minutes 20&#160;seconds à 23&#160;minutes </dd>
       </dl>
     </section>
     <section id="s1-2-2">

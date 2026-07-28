@@ -44,11 +44,11 @@ custom_css: /assets/css/careers.css
       </ul>
       <dl class="dl-horizontal brdr-0">
         <dt>Minimum standard</dt>
-        <dd><span aria-label="thirty minutes">30:00</span> (mm:ss)</dd>
+        <dd>30&#160;minutes</dd>
         <dt>Target standard</dt>
-        <dd><span aria-label="twenty-three minutes, thirty seconds">23:30</span> to <span aria-label="twenty-six minutes">26:00</span></dd>
+        <dd>23&#160;minutes 30&#160;seconds to 26&#160;minutes</dd>
         <dt>Superior standard</dt>
-        <dd><span aria-label="twenty minutes, twenty seconds">20:20</span> to <span aria-label="twenty-three minutes">23:00</span></dd>
+        <dd>20&#160;minutes 20&#160;seconds to 23&#160;minutes</dd>
       </dl>
     </section>
     <section id="s1-2-2">

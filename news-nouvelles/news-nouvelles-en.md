@@ -120,7 +120,7 @@ custom_css: /assets/css/careers.css
 	<div class="col-sm-12"> 
     <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	  
     <label for="btngrp-search2" class="wb-inv">Search</label>
-   <div class="input-group">
+   <div class="group">
     <input type="text" class="form-controls" id="btngrp-search2" placeholder="Search news" />
 	 <span class="input-group-btn">
     <button class="btn btn-danger" type="button">

@@ -127,7 +127,7 @@ custom_css: /assets/css/careers.css
   <div class="col-md-9 col-sm-8" id="re-results-col">
     <div aria-label="Filtres actifs" aria-live="polite" id="re-active-filters" role="status" style="display:none;"></div>
     <div id="re-toolbar">
-      <p aria-live="polite" id="re-count"><strong id="re-count-num">0</strong>&nbsp;événements trouvés</p>
+      <p aria-live="polite" id="re-count"><strong id="re-count-num">0</strong>&nbsp;<span id="re-count-text">événements trouvés</span></p>
     </div>
     <ul aria-label="Événements de recrutement" class="list-unstyled" id="re-grid"></ul>
     <p id="re-no-results" style="display:none;">Aucun événement ne correspond à vos filtres.</p>
@@ -615,6 +615,7 @@ custom_css: /assets/css/careers.css
         format: 'Format',
         language: 'Language'
       },
+      eventFound: 'event found',
       eventsFound: 'events found',
       noResults: 'No events match your current filters.',
       clearFilters: 'Clear filters',
@@ -632,6 +633,7 @@ custom_css: /assets/css/careers.css
         format: 'Format',
         language: 'Langue'
       },
+      eventFound: 'événement trouvé',
       eventsFound: 'événements trouvés',
       noResults: 'Aucun événement ne correspond à vos filtres.',
       clearFilters: 'Effacer les filtres',
@@ -826,6 +828,9 @@ custom_css: /assets/css/careers.css
     activeData = filterData(filters);
     currentPage = 1;
     countNumEl.textContent = activeData.length;
+    document.getElementById('re-count-text').textContent = activeData.length === 1
+      ? UI[LANG].eventFound
+      : UI[LANG].eventsFound;
     renderTags(filters);
     if (!Object.keys(filters).some(function(cat) {
         return filters[cat].length > 0;

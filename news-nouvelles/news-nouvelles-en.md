@@ -83,6 +83,7 @@ custom_css: /assets/css/careers.css
    appearance: none;
    background-repeat: no-repeat;
    background-position: right 10px center;
+   padding-right: 30px;   
    box-sizing: border-box;
 }
    .input-group	{

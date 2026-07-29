@@ -86,8 +86,7 @@ custom_css: /assets/css/careers.css
    box-sizing: border-box;
 }
    .input-group	{
-   margin-bottom: 15px;   
-   margin-top: 15px;     
+   margin: 10px 15px;	   
 }
    #news-count {
    display: flex;

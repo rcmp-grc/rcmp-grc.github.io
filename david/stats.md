@@ -8,7 +8,7 @@ lang_url: stats-fr.html
 
 <style>
 /* Better tables */
-table {margin-block: 2lh; overflow-x: scroll}
+table {margin-block: 2lh}
 table:has(+ details) {margin-block-end: 1lh}
 thead th {text-wrap: balance}
 caption {text-align: left}
@@ -16,6 +16,8 @@ figure table {background-color: var(--rcmp-white, #fff)}
 .table-toggle { display: none}
 /* Squishy tables */
 @media screen and (max-width: 991px) {
+	table {width: calc(100dvw - 30px); overflow-x: auto}
+
 	.table-toggle {display: block; background-color: PaleGreen}
 	table:has(td[data-label]):not(.table-fixed):not(:has(.table-toggle input:checked)) {
 

@@ -125,7 +125,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 </section>
 
 <table class="table table-bordered table-condensed" id="t1">
-	<caption>Table 1: Statistics on counterfeit Canadian bank notes - Total number passed and seized within Canada <label class="table-toggle">Show as table&nbsp;<input type="checkbox" class="show-table"></label></caption>
+	<caption>Table 1: Statistics on counterfeit Canadian bank notes - Total number passed and seized within Canada <label class="table-toggle">Show as table&nbsp;<input type="checkbox"></label></caption>
 	<thead>
 		<tr class="active">
 			<th scope="col">Year</th>
@@ -202,7 +202,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 </details> -->
 
 <table class="table table-bordered table-condensed" id="t2">
-	<caption>Table 2: Statistics on counterfeit Canadian bank notes - Total number by denomination</caption>
+	<caption>Table 2: Statistics on counterfeit Canadian bank notes - Total number by denomination <label class="table-toggle">Show as table&nbsp;<input type="checkbox"></label></caption>
 	<thead>
 		<tr class="active">
 			<th scope="col" colspan="2">Year</th>

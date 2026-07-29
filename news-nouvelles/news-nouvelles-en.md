@@ -117,7 +117,6 @@ custom_css: /assets/css/careers.css
 	<div class="col-md-3" id="re-sidebar">
 	<h2 class="h6" id="news-filters-heading">Search</h2>	
     <aside aria-labelledby="news-filters-heading" id="news-filters"> 	 
-	<div class="col-sm-12"> 	
     <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	  
     <label for="btngrp-search2" class="wb-inv">Search</label>
    <div class="input-group" id="btngrp-search2">
@@ -128,7 +127,7 @@ custom_css: /assets/css/careers.css
      <span class="wb-inv">Search</span>
     </button> 
    </span></div>
-</form></div>
+</form>
 		<div id="re-filters">
 		<h2 class="h6" id="news-filters-heading">Filter</h2>
 		<p class="small mrgn-lft-md mrgn-tp-md">Select any of the following filters to narrow your search</p>	

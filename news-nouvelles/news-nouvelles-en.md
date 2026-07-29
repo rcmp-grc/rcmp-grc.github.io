@@ -72,7 +72,7 @@ custom_css: /assets/css/careers.css
 }
    .form-controls {
    width: 100%;
-   padding: 6px 6px;
+   padding: 6px 8px;
    border: 2px solid var(--c-black);
    border-radius: 0;
    background: var(--c-white);
@@ -89,6 +89,9 @@ custom_css: /assets/css/careers.css
    margin-bottom: 15px;   
    margin-top: 15px;     
 }
+   form {
+   margin: 0;
+   }
    #news-count {
    display: flex;
    align-items: center;

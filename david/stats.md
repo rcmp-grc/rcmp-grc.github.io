@@ -16,10 +16,10 @@ figure table {background-color: var(--rcmp-white, #fff)}
 .table-toggle { display: none}
 /* Squishy tables */
 @media screen and (max-width: 991px) {
-	table {width: calc(100dvw - 30px); overflow-x: auto}
-
 	.table-toggle {display: block; background-color: PaleGreen}
 	table:has(td[data-label]):not(.table-fixed):not(:has(.table-toggle input:checked)) {
+
+		tbody, thead, tfoot {overflow-x: auto}
 
 		border: none;
 		border-block-start: 1px solid var(--rcmp-grey-md, #b1b4b6);

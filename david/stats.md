@@ -8,7 +8,7 @@ lang_url: stats-fr.html
 
 <style>
 /* Better tables */
-table {margin-block: 2lh}
+table {margin-block: 2lh; overflow-x: auto}
 table:has(+ details) {margin-block-end: 1lh}
 thead th {text-wrap: balance}
 caption {text-align: left}

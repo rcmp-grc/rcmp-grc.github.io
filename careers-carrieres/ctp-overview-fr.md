@@ -149,7 +149,7 @@ custom_css: /assets/css/careers.css
   <p>L’École de la GRC possède plusieurs pistes de conduite automobile, dont une pour les véhicules tout terrain dont la topographie est semblable à celle des routes du pays. Des scénarios et des simulations réalistes permettent aux cadets de s'exercer à conduire efficacement et de façon sûre un véhicule de police dans des situations très stressantes.</p>
   <p>Les cadets sont formés à ce qui suit&nbsp;:</p>
   <ul>
-    <li>la conduite sécuritaire et efficace des véhicules de police (éviter les collisions, conduire à grande vitesse et situations très stressantes, par exemple);</li>
+    <li>la conduite sécuritaire et efficace des véhicules de police (par exemple&nbsp;: éviter les collisions, conduire à grande vitesse et situations très stressantes);</li>
     <li>le sens de l'observation et l'accomplissement de tâches multiples, notamment l'utilisation de la radio au volant;</li>
     <li>l'utilisation adéquate de l'équipement des véhicules de police;</li>
     <li>les techniques avancées de conduite de véhicules prioritaires;</li>

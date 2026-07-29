@@ -10,6 +10,8 @@ lang_url: stats-fr.html
 /* Better tables */
 table {margin-block: 2lh; background-color: var(--rcmp-white, #fff)}
 table:has(+ details) {margin-block-end: 1lh}
+thead {position:sticky; z-index: 10; top: 0}
+tbody th {position:sticky; z-index: 10; left: 0}
 caption, thead th {text-wrap: balance}
 caption {text-align: left}
 .table-toggle { display: none}

@@ -125,7 +125,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 </section>
 
 <table class="table table-bordered table-condensed" id="t1">
-	<caption>Table 1: Statistics on counterfeit Canadian bank notes - Total number passed and seized within Canada <label class="table-toggle">Show as table&nbsp;<input type="checkbox"></label></caption>
+	<caption>Table 1: Statistics on counterfeit Canadian bank notes - Total number passed and seized within Canada <label class="table-toggle">Show as a table&nbsp;<input type="checkbox"></label></caption>
 	<thead>
 		<tr class="active">
 			<th scope="col">Year</th>
@@ -202,7 +202,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 </details> -->
 
 <table class="table table-bordered table-condensed" id="t2">
-	<caption>Table 2: Statistics on counterfeit Canadian bank notes - Total number by denomination <label class="table-toggle">Show as table&nbsp;<input type="checkbox"></label></caption>
+	<caption>Table 2: Statistics on counterfeit Canadian bank notes - Total number by denomination <label class="table-toggle">Show as a table&nbsp;<input type="checkbox"></label></caption>
 	<thead>
 		<tr class="active">
 			<th scope="col" colspan="2">Year</th>
@@ -452,7 +452,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 </details>
 
 <table class="table table-bordered table-condensed" id="t3">
-	<caption>Table 3: Statistics on counterfeit Canadian bank notes - Total value passed into circulation by denomination</caption>
+	<caption>Table 3: Statistics on counterfeit Canadian bank notes - Total value passed into circulation by denomination <label class="table-toggle">Show as a table&nbsp;<input type="checkbox"></label></caption>
 	<thead>
 		<tr class="active">
 			<th scope="col" class="col-md-1">Year</th>
@@ -594,7 +594,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 </details> -->
 
 <table class="table table-bordered table-condensed" id="t4">
-	<caption>Table 4: Statistics on counterfeit Canadian bank notes - Total number by Province and Territory</caption>
+	<caption>Table 4: Statistics on counterfeit Canadian bank notes - Total number by Province and Territory <label class="table-toggle">Show as a table&nbsp;<input type="checkbox"></label></caption>
 	<thead>
 		<tr class="active">
 			<th rowspan="2" scope="col">Province or territory</th>
@@ -715,7 +715,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 </details> -->
 
 <table class="table table-bordered table-condensed" id="t5">
-	<caption>Table 5: Technology used for counterfeiting - Total number passed and seized</caption>
+	<caption>Table 5: Technology used for counterfeiting - Total number passed and seized <label class="table-toggle">Show as a table&nbsp;<input type="checkbox"></label></caption>
 	<thead>
 		<tr class="active">
 			<th scope="col">Year</th>
@@ -818,7 +818,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 </details> -->
 
 <table class="table table-bordered table-condensed" id="t6">
-	<caption>Table 6: Statistics on counterfeit Canadian coins - Total number passed and seized</caption>
+	<caption>Table 6: Statistics on counterfeit Canadian coins - Total number passed and seized <label class="table-toggle">Show as a table&nbsp;<input type="checkbox"></label></caption>
 	<thead>
 		<tr class="active">
 			<th rowspan="2" scope="col">Year</th>

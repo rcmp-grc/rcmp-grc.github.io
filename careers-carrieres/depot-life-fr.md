@@ -36,7 +36,7 @@ custom_css: /assets/css/careers.css
   <p>Le campus de la Division Dépôt est connu à l’échelle nationale; il comprend des salles de classe, des installations de conditionnement physique et des espaces de formation tactique.</p>
   <p>C’est une installation de formation dynamique et sécurisée dont l’accès est contrôlé.</p>
   <p>Symbole de son enracinement dans la communauté, la Division Dépôt abrite le plus ancien bâtiment de Regina&nbsp;: la chapelle de la GRC.</p>
-  <p><a href="/fr/depot/visite-virtuelle">Visite virtuelle de l'École de la GRC</p>
+  <p><a href="/fr/depot/visite-virtuelle">Visite virtuelle de l'École de la GRC</a></p>
 </section>
 
 <section id="s2">

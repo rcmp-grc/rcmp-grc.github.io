@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Centre des cadets de la GRC
-date_modified: 2026-07-13
+date_modified: 2026-07-29
 lang: fr
 lang_url: cadet-hub-en.html
 breadcrumbs:
@@ -28,7 +28,7 @@ hero_image: /assets/img/landing-cadet-hub.jpg
 		<li class="col-md-6">
 			<div class="well">
 				<h3 class="h5"><a href="#">Programme de formation des cadets</a></h3>
-				<p>Sachez à quoi vous attendre et préparez-vous à suivre le Programme de formation de 26&nbsp;:semaines.</p>
+				<p>Sachez à quoi vous attendre et préparez-vous à suivre le Programme de formation de 26&nbsp;semaines.</p>
 			</div>
 		</li>
 		<li class="col-md-6">
@@ -46,7 +46,7 @@ hero_image: /assets/img/landing-cadet-hub.jpg
 		<li class="col-md-6">
 			<div class="well">
 				<h3 class="h5"><a href="#">Journal d'un cadet</a></h3>
-				<p>Suivez un cadet dans son parcours de 26&nbsp;:semaines pour devenir gendarme.</p>
+				<p>Suivez un cadet dans son parcours de 26&nbsp;semaines pour devenir gendarme.</p>
 			</div>
 		</li>
 		<li class="col-md-6">

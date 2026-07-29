@@ -18,8 +18,6 @@ caption {text-align: left}
 	.table-toggle {display: block; background-color: PaleGreen}
 	table:has(td[data-label]):not(.table-fixed):not(:has(.table-toggle input:checked)) {
 
-		tbody, thead, tfoot {overflow-x: auto}
-
 		border: none;
 		border-block-start: 1px solid var(--rcmp-grey-md, #b1b4b6);
 
@@ -104,18 +102,12 @@ caption {text-align: left}
 <nav>
 	<h2>On this page</h2>
 	<ul>
-		<li><a href="#t1">Table 1: Statistics on counterfeit Canadian bank notes - Total number passed and seized within Canada</a></li>
-		<li><a href="#t2">Table 2: Statistics on counterfeit Canadian bank notes - Total number by denomination</a></li>
-		<li><a href="#t3">Table 3: Statistics on counterfeit Canadian bank notes - Total value passed into circulation by denomination</a></li>
-		<li><a href="#t4">Table 4: Statistics on counterfeit Canadian bank notes - Total number by Province and Territory</a></li>
-		<li><a href="#t5">Table 5: Technology used for counterfeiting - Total number passed and seized</a></li>
-		<li><a href="#t6">Table 6: Statistics on counterfeit Canadian coins - Total number passed and seized</a></li>
-		<!-- <li><a href="#t1">Table 1: Number of counterfeit bank notes passed and seized within Canada</a></li>
+		<li><a href="#t1">Table 1: Number of counterfeit bank notes passed and seized within Canada</a></li>
 		<li><a href="#t2">Table 2: Number of counterfeit bank notes by denomination</a></li>
 		<li><a href="#t3">Table 3: Value of counterfeit bank notes passed into circulation by denomination</a></li>
 		<li><a href="#t4">Table 4: Number of counterfeit bank notes by province and territory</a></li>
-		<li><a href="#t5">Table 5: Number of counterfeit bank notes by technology used</a></li>
-		<li><a href="#t6">Table 6: Number of counterfeit coins passed and seized</a></li> -->
+		<li><a href="#t5">Table 5: Number of counterfeit bank notes by printing technology used</a></li>
+		<li><a href="#t6">Table 6: Number of counterfeit coins passed and seized</a></li>
 	</ul>
 </nav>
 
@@ -125,6 +117,7 @@ caption {text-align: left}
 	<p>Counterfeits are categorized as "passed", which have successfully entered the financial system, or "seized", those confiscated by law enforcement before entering the financial system.</p>
 </section>
 
+<div class="table-responsive">
 <table class="table table-bordered table-condensed" id="t1">
 	<caption>Table 1: Statistics on counterfeit Canadian bank notes - Total number passed and seized within Canada <label class="table-toggle">Show as a table&nbsp;<input type="checkbox"></label></caption>
 	<thead>
@@ -197,11 +190,13 @@ caption {text-align: left}
 		</tr>
 	</tbody>
 </table>
+</div>
 <!-- <details class="print-open">
 <summary>Table 1 notes</summary>
 <p>For the 2025 data, these are provisional statistics as of February 10, 2026. Once all exhibits are examined, final data for 2025 will be published.</p>
 </details> -->
 
+<div class="table-responsive">
 <table class="table table-bordered table-condensed" id="t2">
 	<caption>Table 2: Statistics on counterfeit Canadian bank notes - Total number by denomination <label class="table-toggle">Show as a table&nbsp;<input type="checkbox"></label></caption>
 	<thead>
@@ -446,12 +441,14 @@ caption {text-align: left}
 		</tr>
 	</tbody>
 </table>
+</div>
 <details class="print-open mrgn-bttm-lg">
 	<summary>Table 2 notes</summary>
 	<p>Excludes $1 and $2 notes.</p>
 	<!-- <p>For the 2025 data, these are provisional statistics as of February 10, 2026. Once all exhibits are examined, final data for 2025 will be published.</p> -->
 </details>
 
+<div class="table-responsive">
 <table class="table table-bordered table-condensed" id="t3">
 	<caption>Table 3: Statistics on counterfeit Canadian bank notes - Total value passed into circulation by denomination <label class="table-toggle">Show as a table&nbsp;<input type="checkbox"></label></caption>
 	<thead>
@@ -589,11 +586,13 @@ caption {text-align: left}
 		</tr>
 	</tbody>
 </table>
+</div>
 <!-- <details class="print-open">
 <summary>Table 3 notes</summary>
 <p>For the 2025 data, these are provisional statistics as of February 10, 2026. Once all exhibits are examined, final data for 2025 will be published.</p>
 </details> -->
 
+<div class="table-responsive">
 <table class="table table-bordered table-condensed" id="t4">
 	<caption>Table 4: Statistics on counterfeit Canadian bank notes - Total number by Province and Territory <label class="table-toggle">Show as a table&nbsp;<input type="checkbox"></label></caption>
 	<thead>
@@ -710,11 +709,13 @@ caption {text-align: left}
 		</tr>
 	</tbody>
 </table>
+</div>
 <!-- <details class="print-open">
 <summary>Table 4 notes</summary>
 <p>For the 2025 data, these are provisional statistics as of February 10, 2026. Once all exhibits are examined, final data for 2025 will be published.</p>
 </details> -->
 
+<div class="table-responsive">
 <table class="table table-bordered table-condensed" id="t5">
 	<caption>Table 5: Technology used for counterfeiting - Total number passed and seized <label class="table-toggle">Show as a table&nbsp;<input type="checkbox"></label></caption>
 	<thead>
@@ -813,11 +814,13 @@ caption {text-align: left}
 		</tr>
 	</tbody>
 </table>
+</div>
 <!-- <details class="print-open">
 <summary>Table 5 notes</summary>
 <p>For the 2025 data, these are provisional statistics as of February 10, 2026. Once all exhibits are examined, final data for 2025 will be published.</p>
 </details> -->
 
+<div class="table-responsive">
 <table class="table table-bordered table-condensed" id="t6">
 	<caption>Table 6: Statistics on counterfeit Canadian coins - Total number passed and seized <label class="table-toggle">Show as a table&nbsp;<input type="checkbox"></label></caption>
 	<thead>
@@ -885,6 +888,7 @@ caption {text-align: left}
 		</tr>
 	</tbody>
 </table>
+</div>
 <!-- <details class="print-open">
 <summary>Table 6 notes</summary>
 <p>For the 2025 data, these are provisional statistics as of February 10, 2026. Once all exhibits are examined, final data for 2025 will be published.</p>

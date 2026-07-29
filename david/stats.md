@@ -8,11 +8,10 @@ lang_url: stats-fr.html
 
 <style>
 /* Better tables */
-table {margin-block: 2lh}
+table {margin-block: 2lh; background-color: var(--rcmp-white, #fff)}
 table:has(+ details) {margin-block-end: 1lh}
-thead th {text-wrap: balance}
+caption, thead th {text-wrap: balance}
 caption {text-align: left}
-figure table {background-color: var(--rcmp-white, #fff)}
 .table-toggle { display: none}
 /* Squishy tables */
 @media screen and (max-width: 991px) {

@@ -16,7 +16,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 
 /* Squishy tables */
 @media screen and (max-width: 991px) {
-	table:has(td[data-label]):not(.table-fixed) {
+	table:has(td[data-label]):not(.table-fixed):not(.table-toggle:checked) {
 
 		border: none;
 		border-block-start: 1px solid var(--rcmp-grey-md, #b1b4b6);
@@ -124,7 +124,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 </section>
 
 <table class="table table-bordered table-condensed" id="t1">
-	<caption>Table 1: Statistics on counterfeit Canadian bank notes - Total number passed and seized within Canada</caption>
+	<caption>Table 1: Statistics on counterfeit Canadian bank notes - Total number passed and seized within Canada <label>Show as table&nbsp;<checkbox class="table-toggle"></checkbox></label></caption>
 	<thead>
 		<tr class="active">
 			<th scope="col">Year</th>

@@ -43,6 +43,43 @@ issued: 2026-05-08
 	background-color: #f3f2f1;
 	padding-left: 10px;
 }
+	.news-article {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+	.byline {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+    color: #555;
+}
+.byline-text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.author-name {
+    font-weight: bold;
+    color: #333;
+}
+.publish-date {
+    color: #777;
+}
+.category {
+    background: #0073e6;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+.article-content {
+    line-height: 1.6;
+    color: #444;
+}
 	a.news-topic-1:link, a.news-topic-1:visited {
     background-color: #d6f5e1;
     color: #0f3d20;
@@ -134,7 +171,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	border-top: 1px solid #590d17;
 	}
 </style>
-<article>
+<article class="news-article">
 <div class="card-located col-md-8">	
 <div id="located" class="card-tag-located"><p><i class="fa-solid fa-location-dot"></i> Located</p></div>
 <ul>
@@ -144,14 +181,13 @@ a.news-topic-1:hover, a.news-topic-1:active {
 <div class="clearfix"></div>	
 <p class="lead">Bob the Polar Bear is the Royal Canadian Mounted Police’s newest unofficial northern mascot.</p>
 <div class="explore">
-<div class="mrgn-tp-sm mrgn-bttm-md">
-<ol class="list-inline">
-  <li><i class="fa-solid fa-calendar-days"></i>&nbsp;May&nbsp;14, 2026&nbsp;&nbsp;|</li>
-  <li><i class="fa-solid fa-location-dot"></i>&nbsp;Richmond, British Columbia&nbsp;&nbsp;|</li>
-  <li><i class="fa-regular fa-circle-user"></i>&nbsp;<a href="#">National Communications and Public Affairs</a></li>
-</ol></div>
+<div class="byline">	
+  <span class="publish-date"><i class="fa-solid fa-calendar-days"></i>&nbsp;May&nbsp;14, 2026&nbsp;&nbsp;|</span>
+  <span class="author-name"><i class="fa-regular fa-circle-user"></i>&nbsp;<a href="#">National Communications and Public Affairs</a>&nbsp;&nbsp;|</span>
+ <span class="category"><i class="fa-solid fa-location-dot"></i>&nbsp;Richmond, British Columbia</span>	
 </div>
-<section id="page-navigation">
+</div>
+<section id="page-navigation" class="article-content">
 	<h2 class="h3">On this page</h2>
 	<ul>
 		<li><a href="#s1">Overview</a></li>

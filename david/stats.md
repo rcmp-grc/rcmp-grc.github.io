@@ -13,10 +13,11 @@ table:has(+ details) {margin-block-end: 1lh}
 thead th {text-wrap: balance}
 caption {text-align: left}
 figure table {background-color: var(--rcmp-white, #fff)}
-
+.table-toggle { display: none}
 /* Squishy tables */
 @media screen and (max-width: 991px) {
-	table:has(td[data-label]):not(.table-fixed):not(:has(.table-toggle:checked)) {
+	.table-toggle {display: block; background-color: PaleGreen}
+	table:has(td[data-label]):not(.table-fixed):not(:has(.table-toggle input:checked)) {
 
 		border: none;
 		border-block-start: 1px solid var(--rcmp-grey-md, #b1b4b6);
@@ -124,7 +125,7 @@ figure table {background-color: var(--rcmp-white, #fff)}
 </section>
 
 <table class="table table-bordered table-condensed" id="t1">
-	<caption>Table 1: Statistics on counterfeit Canadian bank notes - Total number passed and seized within Canada <label>Show as table&nbsp;<input type="checkbox" class="table-toggle"></input></label></caption>
+	<caption>Table 1: Statistics on counterfeit Canadian bank notes - Total number passed and seized within Canada <label class="table-toggle">Show as table&nbsp;<input type="checkbox" class="show-table"></label></caption>
 	<thead>
 		<tr class="active">
 			<th scope="col">Year</th>

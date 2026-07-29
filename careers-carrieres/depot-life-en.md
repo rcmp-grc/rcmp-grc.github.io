@@ -36,7 +36,7 @@ custom_css: /assets/css/careers.css
   <p>The Academy offers a nationally recognized training campus featuring on-site classroom, fitness, and tactical training spaces.</p>
   <p>It is an active training site and a secure facility with controlled access.</p>
   <p>The Academy is also home to the RCMP Chapel, the oldest building in Regina, reflecting Depot’s deep roots in the community.</p>
-  <p><a href="/en/depot/virtual-tour">Virtual tour of Depot</p>
+  <p><a href="/en/depot/virtual-tour">Virtual tour of Depot</a></p>
 </section>
 
 <section id="s2">

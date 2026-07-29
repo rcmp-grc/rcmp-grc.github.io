@@ -86,7 +86,7 @@ custom_css: /assets/css/careers.css
    box-sizing: border-box;
 }
    .input-group	{
-   margin: 15px 10px;	   
+   margin: 15px 12px;	   
 }
    #news-count {
    display: flex;
@@ -102,7 +102,7 @@ custom_css: /assets/css/careers.css
   <div class="col-md-4">
     <section class="gc-drmt">
       <h2 class="h5" data-emptytext="Executive"><a href="/en/news/comm-en.html">Read the news from our executive</a></h2>
-      <p>Read news shared by the leaders of the <abbr>RCMP</abbr> across Canada.</p>
+      <p>Read news shared by the leaders of the <abbr>RCMP</abbr> across Canada</p>
     </section>
   </div>
 	<div class="col-md-4">
@@ -355,19 +355,19 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   var ni = lang === 'fr' ? 1 : 0;
   // [nameEN, nameFR, file, category, location, territory, region, summary, updated, views]
   var RAW = [
-    ['RCMP and CBSA dismantle crime group after nearly 250&nbsp;kg of cocaine is detected in shipping container in Halifax', 'RCMP and CBSA dismantle crime group after nearly 250&nbsp;kg of cocaine is detected in shipping container in Halifax', ' ', 'Organized crime and Illicit drugs', 'Halifax', 'Nova Scotia', 'Nova Scotia RCMP', 'RCMP and CBSA dismantle crime group', '2026-05-08', 1420],
-    ['Bay St. George RCMP issue warning about counterfeit currency circulating in the area', 'Bay St. George RCMP issue warning about counterfeit currency circulating in the area', ' ', 'Organized crime', 'Bay St. George', 'Nunavut', 'Nunavut RCMP', 'Counterfeit currency circulating in the Bay St. George area.', '2026-05-07', 980 ],
-    ['Suspects arrested after replica handgun seen inside Morris hospital', 'Suspects arrested after replica handgun seen inside Morris hospital', ' ', 'Weapons', 'Morris', 'Manitoba', 'Manitoba RCMP', 'Suspects arrested in Morris.', '2026-05-06', 741 ],
+    ['RCMP and CBSA dismantle crime group after nearly 250&nbsp;kg of cocaine is detected in shipping container in Halifax', 'RCMP and CBSA dismantle crime group after nearly 250&nbsp;kg of cocaine is detected in shipping container in Halifax', ' ', 'Organized crime', 'Halifax', 'Nova Scotia', 'Nova Scotia RCMP', 'RCMP and CBSA dismantle crime group', '2026-05-08', 1420],
+    ['Bay St. George RCMP issue warning about counterfeit currency circulating in the area', 'Bay St. George RCMP issue warning about counterfeit currency circulating in the area', ' ', 'Organized crime', 'Bay St. George', 'Nunavut', 'Nunavut RCMP', 'Counterfeit currency circulating in the Bay St. George area', '2026-05-07', 980 ],
+    ['Suspects arrested after replica handgun seen inside Morris hospital', 'Suspects arrested after replica handgun seen inside Morris hospital', ' ', 'Weapons', 'Morris', 'Manitoba', 'Manitoba RCMP', 'Suspects arrested in Morris', '2026-05-06', 741 ],
     ['RCMP seeking public’s help following counterfeit money circulation', 'RCMP seeking public’s help following counterfeit money circulation', ' ', 'Organized crime',  'Charlottetown', 'Prince Edward Island', 'Prince Edward Island RCMP', 'Seeking public’s help following counterfeit money circulation', '2026-05-05', 610 ],
-    ['Comox Valley RCMP looking to locate suspect vehicle after hit-and-run', 'Comox Valley RCMP looking to locate suspect vehicle after hit-and-run', '<span class="badge badge-updated">Updated</span>', 'Wanted and Traffic services', 'Comox Valley', 'British Columbia', 'British Columbia RCMP', 'Looking to locate suspect vehicle after hit-and-run', '2026-05-04', 533 ],
+    ['Comox Valley RCMP looking to locate suspect vehicle after hit-and-run', 'Comox Valley RCMP looking to locate suspect vehicle after hit-and-run', '<span class="badge badge-updated">Updated</span>', 'Wanted persons', 'Comox Valley', 'British Columbia', 'British Columbia RCMP', 'Looking to locate suspect vehicle after hit-and-run', '2026-05-04', 533 ],
     ['Joint Forces Operations results in Multiple Drug Related Arrests', 'Joint Forces Operations Results in Multiple Drug Related Arrests', ' ', 'Illicit drugs',  'Quebec City', 'Quebec',  'Federal Policing Central Region', 'Multiple drug-related arrests', '2026-05-03', 498 ],
-    ['Missing 49-year-old woman', 'Missing 49-year-old woman', '<span class="badge badge-located">Located</span>', 'Missing', 'Steinbach', 'Manitoba', 'Federal Policing Western Region', 'Missing 49-year-old woman, last seen April 30, 2026', '2026-05-02', 412 ],
+    ['Missing 49-year-old woman', 'Missing 49-year-old woman', '<span class="badge badge-located">Located</span>', 'Missing persons', 'Steinbach', 'Manitoba', 'Federal Policing Western Region', 'Missing 49-year-old woman, last seen April 30, 2026', '2026-05-02', 412 ],
     ['Regina RCMP served an IRP on Monday morning', 'Regina RCMP served an IRP on Monday morning', ' ', 'Disturbance', 'Regina', 'Saskatchewan', 'Saskatchewan RCMP', 'Regina RCMP served an IRP', '2026-04-30', 344 ],
-    ['Antigonish County District RCMP charges man after he flees from officers', 'Antigonish County District RCMP charges man after he flees from officers', ' ', 'Break and Enter', 'Antigonish', 'Nova Scotia', 'Nova Scotia RCMP', 'RCMP charges man after he flees from officers', '2026-04-28', 302 ],
+    ['Antigonish County District RCMP charges man after he flees from officers', 'Antigonish County District RCMP charges man after he flees from officers', ' ', 'Break and enter', 'Antigonish', 'Nova Scotia', 'Nova Scotia RCMP', 'RCMP charges man after he flees from officers', '2026-04-28', 302 ],
     ['RCMP opening ceremonies for new detachment in the City of Pitt Meadows', 'RCMP opening ceremonies for new detachment in the City of Pitt Meadows', ' ', 'Public interest', 'Pitt Meadows', 'British Columbia', 'British Columbia RCMP', 'New detachment in the city of Pitt Meadows', '2026-04-26', 289 ],
-	['Police Dog Service, conducted a targeted vehicle stop in Summerside', 'Police Dog Service, conducted a targeted vehicle stop in Summerside', ' ', 'Traffic services', 'Summerside', 'British Columbia', 'British Columbia RCMP', 'Targeted vehicle stop in Summerside', '2026-04-26', 289 ],  
-    ['Alberta RCMP enforces safe driving during Canada Road Safety Week and Victoria Day long weekend', 'Alberta RCMP enforces safe driving during Canada Road Safety Week and Victoria Day long weekend', ' ', 'Traffic services', 'Edmonton', 'Alberta', 'Alberta RCMP', 'Safe driving during Canada Road Safety Week and Victoria Day long weekend', '2026-04-24', 265 ],
-    ['RCMP seek public assistance to identify suspect in bus driver assault', 'RCMP seek public assistance to identify suspect in bus driver assault', ' ', 'Wanted', 'Ottawa', 'Ontario','RCMP National Headquarters', 'Seeking public assistance to identify suspect in bus driver assault', '2026-04-22', 241 ]
+	['Police Dog Service, conducted a targeted vehicle stop in Summerside', 'Police Dog Service, conducted a targeted vehicle stop in Summerside', ' ', 'Traffic enforcement', 'Summerside', 'British Columbia', 'British Columbia RCMP', 'Targeted vehicle stop in Summerside', '2026-04-26', 289 ],  
+    ['Alberta RCMP enforces safe driving during Canada Road Safety Week and Victoria Day long weekend', 'Alberta RCMP enforces safe driving during Canada Road Safety Week and Victoria Day long weekend', ' ', 'Traffic enforcement', 'Edmonton', 'Alberta', 'Alberta RCMP', 'Safe driving during Canada Road Safety Week and Victoria Day long weekend', '2026-04-24', 265 ],
+    ['RCMP seek public assistance to identify suspect in bus driver assault', 'RCMP seek public assistance to identify suspect in bus driver assault', ' ', 'Wanted persons', 'Ottawa', 'Ontario','RCMP National Headquarters', 'Seeking public assistance to identify suspect in bus driver assault', '2026-04-22', 241 ]
   ];
   var PROFILES = RAW.map(function (r, i) {
     return {

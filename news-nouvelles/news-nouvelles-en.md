@@ -137,8 +137,11 @@ custom_css: /assets/css/careers.css
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span></label>
           </div>
+		  <div class="checkbox">
+          <label><input data-filter="category" type="checkbox" value="Border security"><span class="cb-text">Border security</span></label>
+		  </div>
           <div class="checkbox">
-            <label><input data-filter="category" type="checkbox" value="Break and Enter"><span class="cb-text">Break-and-Enter</span></label>
+            <label><input data-filter="category" type="checkbox" value="Break and Enter"><span class="cb-text">Break and enter</span></label>
           </div>
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Disturbance"><span class="cb-text">Disturbance</span></label>
@@ -147,13 +150,13 @@ custom_css: /assets/css/careers.css
             <label><input data-filter="category" type="checkbox" value="Homicide"><span class="cb-text">Homicide</span></label>
           </div>
 		  <div class="checkbox">
-          <label><input data-filter="category" type="checkbox" value="Border security"><span class="cb-text">Border security</span></label>
+          <label><input data-filter="category" type="checkbox" value="Human Trafficking"><span class="cb-text">Human Trafficking</span></label>
 		  </div>
 		  <div class="checkbox">
           <label><input data-filter="category" type="checkbox" value="Illicit drugs"><span class="cb-text">Illicit drugs</span></label>
 		  </div>
 		  <div class="checkbox">
-          <label><input data-filter="category" type="checkbox" value="Missing"><span class="cb-text">Missing</span></label>
+          <label><input data-filter="category" type="checkbox" value="Missing persons"><span class="cb-text">Missing persons</span></label>
 		  </div>
 		  <div class="checkbox">
           <label><input data-filter="category" type="checkbox" value="Organized crime"><span class="cb-text">Organized crime</span></label>
@@ -168,13 +171,10 @@ custom_css: /assets/css/careers.css
           <label><input data-filter="category" type="checkbox" value="Theft"><span class="cb-text">Theft</span></label>
 		  </div>
 		  <div class="checkbox">
-          <label><input data-filter="category" type="checkbox" value="Traffic"><span class="cb-text">Traffic services</span></label>
-		  </div>
-		  <div class="checkbox">
-          <label><input data-filter="category" type="checkbox" value="Trafficking"><span class="cb-text">Trafficking</span></label>
+          <label><input data-filter="category" type="checkbox" value="Traffic enforcement"><span class="cb-text">Traffic enforcement</span></label>
 		  </div>
 		   <div class="checkbox">
-           <label><input data-filter="category" type="checkbox" value="Wanted"><span class="cb-text">Wanted</span></label>
+           <label><input data-filter="category" type="checkbox" value="Wanted persons"><span class="cb-text">Wanted persons</span></label>
 		 </div>
 		<div class="checkbox">
         <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span></label>

@@ -18,12 +18,12 @@ issued: 2026-05-08
 	  position: absolute;
 	  background-color: #861322;
 	  color: #ffffff;
-	  font-weight: 600;
-	  font-size: 1.3rem;
+	  font-weight: bold;
+	  font-size: 1em;
 	  font-color: #ef8f9c;
 	  padding: 0.4rem 1rem;
 	  top: 0;
-      right: 0;
+      left: 0;
 	  border-top-left-radius: var(--radius-sm);
       border-bottom-left-radius: var(--radius-sm);
 	}

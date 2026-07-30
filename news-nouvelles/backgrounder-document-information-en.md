@@ -54,6 +54,7 @@ issued: 2026-05-08
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+	margin-top: 10px;
     font-size: 0.95rem;
     color: #555;
 }
@@ -64,13 +65,13 @@ issued: 2026-05-08
 }
 .author-name {
     font-weight: bold;
-    color: #333;
+    color: #404040;
 }
 .publish-date {
-    color: #777;
+    color: #404040;
 }
 .location {
-    color: #777;
+    color: #404040;
 }	
 .primary-topic {
     background: #d6f5e1;
@@ -186,9 +187,9 @@ a.news-topic-1:hover, a.news-topic-1:active {
 <div class="explore">
 <div class="byline">	
   <span class="publish-date"><i class="fa-solid fa-calendar-days"></i>&nbsp;&nbsp;May&nbsp;14, 2026&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-  <span class="author-name"><i class="fa-regular fa-circle-user"></i>&nbsp;&nbsp;<a href="#">National Communications and Public Affairs</a>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-  <span class="location"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;Richmond, British Columbia&nbsp;&nbsp;</span>	
-  <span class="primary-topic">Community interest</span>
+  <span class="location"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;Richmond, British Columbia&nbsp;&nbsp;|&nbsp;&nbsp;</span>	
+  <span class="author-name"><i class="fa-regular fa-circle-user"></i>&nbsp;&nbsp;<a href="#">National Communications and Public Affairs</a></span>
+  
 </div>
 </div>
 <section id="page-navigation" class="article-content">

@@ -83,6 +83,7 @@ a.primary-topic:link, a.primary-topic:visited {
     text-decoration: none;
     display: inline-block;
 	border: 1px solid #1f7a40;	
+}
 a.primary-topic:hover, a.primary-topic:active {
 	background-color: #d6f5e1;
     color: #0f3d20;

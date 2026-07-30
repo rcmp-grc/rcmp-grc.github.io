@@ -10,33 +10,54 @@ issued: 2026-05-08
 ---
 
 <style>
-	.explore
-	{ border-top: 2px solid var(--rcmp-red);
-	  margin-bottom: 10px;
-	 }
-	.card-tag-located { 
-	  position: absolute;
-	  background-color: #861322;
-	  color: #ffffff;
-	  top: 0;
-      left: 0;
-	  border-top-left-radius: var(--radius-sm);
-      border-bottom-left-radius: var(--radius-sm);
-	}
-	.card-located { 
-	  padding: 0rem 1rem;
-	  border-left: 1px solid var(--c-grey-border);
-	  border-right: 1px solid var(--c-grey-border);
-	  border-bottom: 1px solid var(--c-grey-border);
-	  border-top: 2px solid #861322;
-      position: relative;
-	  margin-bottom: 15px;
-	}
-	.card-tag-located p {
-	 font-weight: bold;
-	 font-size: .85em;
-	 font-color: #000000;
-	}
+	.explore { 
+	 border-top: 2px solid var(--rcmp-red);
+	 margin-bottom: 10px;
+}
+	.located-card {
+     position: relative;
+     border: 1px solid var(--c-grey-border);
+     background: var(--c-white);
+     margin: 0 0 16px;
+     overflow: hidden;
+     width: 100%;
+     max-width: none;
+     box-sizing: border-box;
+     display: block;
+}
+	.located-card-tag {
+     position: absolute;
+     top: 0;
+     left: 0;
+     font-size: 0.75rem;
+     font-weight: 700;
+     padding: 3px 10px;
+     line-height: 1.4;
+     letter-spacing: 0.03em;
+     background: #861322;
+     color: #ffffff;
+     z-index: 3;
+     height: 24px;
+     display: flex;
+     align-items: center;
+}
+	.located-card-body {
+     padding: 16px 16px 20px;
+     border-top: 3px solid #861322;
+}
+	.located-meta {
+     margin: 10px 0 0;
+}
+   .located-meta li {
+    font-size: 0.88em;
+    color: var(--c-grey-text);
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    line-height: 1.4;
+    max-width: none;
+}
 	.contact-us 
 	{
 	background-color: #f3f2f1;
@@ -186,11 +207,13 @@ a.news-topic-1:hover, a.news-topic-1:active {
 </style>
 <article class="news-article">
 <div class="col-md-8">
-<div class="card-located">	
-<div id="located" class="card-tag-located"><p><i class="fa-solid fa-location-dot"></i>&nbsp;Located</p></div>
-<ul>
+<div class="located-card">	
+<div id="located" class="located-card-tag"><p><i class="fa-solid fa-location-dot"></i>&nbsp;Located</p></div>
+<div class="located-card-body">	
+<ul class="located-meta">
 <li><strong>May 10, 2026, 14:58</strong>: Bob was found safe</li>
 </ul>
+</div>
 </div>
 </div>
 <div class="clearfix"></div>	

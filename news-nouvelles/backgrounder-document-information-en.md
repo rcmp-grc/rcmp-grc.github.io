@@ -72,13 +72,21 @@ issued: 2026-05-08
 .location {
     color: #404040;
 }	
-.primary-topic {
-    background: #d6f5e1;
+.primary-topic:hover, a.news-topic-1:active {
+    background-color: white;
     color: #0f3d20;
     padding: 2px 8px;
-    border-radius: 4px;
+    border-radius: 8px;
     font-size: 0.85rem;
+	text-decoration: none;
+    display: inline-block;
+	border: 1px solid #1f7a40;
 }
+a.news-topic-1:hover, a.news-topic-1:active {
+	background-color: white;
+    color: #1f7a40;
+	border: 1px solid #1f7a40;
+}	
 .article-content {
     line-height: 1.6;
     color: #444;
@@ -127,8 +135,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	 border-bottom: 1px solid #0f253d;
 	 border-top: 1px solid #0f253d;
 }
-	a.news-topic-3:link, a.news-topic-3:visited
-	{
+	a.news-topic-3:link, a.news-topic-3:visited {
     background-color: #e1d6f5;
 	color: #361966;
 	padding: 8px 10px;		

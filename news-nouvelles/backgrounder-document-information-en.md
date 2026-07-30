@@ -73,7 +73,7 @@ issued: 2026-05-08
     color: #404040;
 }	
 a.primary-topic:link, a.primary-topic:visited {
-    background-color: white;
+    background-color: #ffffff;
     color: #0f3d20;
     padding: 2px 8px;
 	border-radius: 8px;
@@ -90,11 +90,6 @@ a.primary-topic:hover, a.primary-topic:active {
     border-radius: 8px;
 	border: 1px solid #0f3d20;
 }
-a.primary-topic:hover, a.news-topic-1:active {
-	background-color: white;
-    color: #1f7a40;
-	border: 1px solid #1f7a40;
-}	
 .article-content {
     line-height: 1.6;
     color: #444;

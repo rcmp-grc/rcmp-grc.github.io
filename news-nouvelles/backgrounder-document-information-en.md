@@ -17,19 +17,21 @@ issued: 2026-05-08
 	.card-tag-located
 	{ padding-left: 0px;
 	  background-color: #ef8f9c;
-	  max-width: 8rem;
-	}
-	.card-tag-located p
-	{
-	  font-weight: bold;
+	  color: #ffffff;
+	  font-weight: 600;
+	  font-size: 1.3rem;
 	  font-color: #ef8f9c;
-	  margin-left: 10px;
+	  padding: 0.4rem 1rem;
+	  top: 0;
+      right: 0;
+	  border-top-right-radius: var(--radius-sm);
+      border-bottom-left-radius: var(--radius-sm);
 	}
 	.card-located
-	{ border-left: 1px solid #ef8f9c;
-	  border-right: 1px solid #ef8f9c;
-	  border-bottom: 1px solid #ef8f9c;
-	  border-top: 1px solid #ef8f9c;
+	{ border-left: 1px solid var(--c-grey-border);
+	  border-right: 1px solid var(--c-grey-border);
+	  border-bottom: 1px solid var(--c-grey-border);
+	  border-top: 2px solid #861322;
 	  margin-left: 0px;
 	  padding-left: 0px;
 	  margin-bottom: 15px;

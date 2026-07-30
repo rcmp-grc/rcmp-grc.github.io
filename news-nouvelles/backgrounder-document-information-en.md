@@ -56,12 +56,11 @@ issued: 2026-05-08
     margin-bottom: 20px;
 	margin-top: 10px;
     font-size: 0.95rem;
-    color: #555;
+    color: #404040;
 }
 .byline-text {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
 }
 .author-name {
     font-weight: bold;
@@ -78,7 +77,7 @@ issued: 2026-05-08
     color: #0f3d20;
     padding: 2px 8px;
     border-radius: 4px;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
 }
 .article-content {
     line-height: 1.6;
@@ -305,7 +304,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 <section id="topics">	
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
-  <li><a href="#" class="news-topic-1">Community interest</a></li>
+  <li><a href="#" class="primary-topic">Community interest</a></li>
 </ol>
 </section>
 </div>

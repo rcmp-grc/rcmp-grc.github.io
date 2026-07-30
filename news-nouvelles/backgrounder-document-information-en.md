@@ -17,9 +17,9 @@ custom_css: /assets/css/careers.css
 }
 	.located-card {
      position: relative;
-     border: 1px solid var(--c-grey-border);
+     border: none;
      background: var(--c-white);
-     margin: 0 0 16px;
+     margin: 0 0 16px 0;
      overflow: hidden;
      width: 100%;
      max-width: none;
@@ -33,7 +33,7 @@ custom_css: /assets/css/careers.css
      font-size: 0.85rem;
      font-weight: 700;
      padding: 3px 10px;
-     line-height: 1.4;
+     line-height: 2;
      letter-spacing: 0.03em;
      background: #861322;
      color: #ffffff;

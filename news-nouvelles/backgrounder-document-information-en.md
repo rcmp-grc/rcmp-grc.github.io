@@ -18,27 +18,24 @@ issued: 2026-05-08
 	  position: absolute;
 	  background-color: #861322;
 	  color: #ffffff;
-	  font-weight: bold;
-	  font-size: 1em;
-	  font-color: #ef8f9c;
-	  padding: 0rem 1rem;
 	  top: 0;
       left: 0;
 	  border-top-left-radius: var(--radius-sm);
       border-bottom-left-radius: var(--radius-sm);
 	}
 	.card-located { 
+	  padding: 0rem 1rem;
 	  border-left: 1px solid var(--c-grey-border);
 	  border-right: 1px solid var(--c-grey-border);
 	  border-bottom: 1px solid var(--c-grey-border);
 	  border-top: 2px solid #861322;
-	  margin-left: 0px;
       position: relative;
 	  margin-bottom: 15px;
 	}
-	.card-located p
-	{
-	  margin-left: 10px;
+	.card-tag-located p {
+	 font-weight: bold;
+	 font-size: .85em;
+	 font-color: #000000;
 	}
 	.contact-us 
 	{
@@ -190,7 +187,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 <article class="news-article">
 <div class="col-md-8">
 <div class="card-located">	
-<div id="located" class="card-tag-located"><p><i class="fa-solid fa-location-dot"></i> Located</p></div>
+<div id="located" class="card-tag-located"><p><i class="fa-solid fa-location-dot"></i>&nbsp;Located</p></div>
 <ul>
 <li><strong>May 10, 2026, 14:58</strong>: Bob was found safe</li>
 </ul>

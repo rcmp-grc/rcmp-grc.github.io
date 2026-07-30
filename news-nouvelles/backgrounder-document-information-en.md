@@ -7,6 +7,7 @@ lang: en
 lang_url: backgrounder-document-information-fr.html
 lead: Backgrounder
 issued: 2026-05-08
+custom_css: /assets/css/careers.css
 ---
 
 <style>
@@ -29,7 +30,7 @@ issued: 2026-05-08
      position: absolute;
      top: 0;
      left: 0;
-     font-size: 0.75rem;
+     font-size: 0.85rem;
      font-weight: 700;
      padding: 3px 10px;
      line-height: 1.4;
@@ -52,8 +53,6 @@ issued: 2026-05-08
     font-size: 0.88em;
     color: var(--c-grey-text);
     margin-bottom: 8px;
-    display: flex;
-    align-items: center;
     gap: 7px;
     line-height: 1.4;
     max-width: none;
@@ -208,8 +207,8 @@ a.news-topic-1:hover, a.news-topic-1:active {
 <article class="news-article">
 <div class="col-md-8">
 <div class="located-card">	
-<div id="located" class="located-card-tag"><p><i class="fa-solid fa-location-dot"></i>&nbsp;Located</p></div>
 <div class="located-card-body">	
+<div id="located" class="located-card-tag"><p><i class="fa-solid fa-location-dot"></i>&nbsp;Located</p></div>
 <ul class="located-meta">
 <li><strong>May 10, 2026, 14:58</strong>: Bob was found safe</li>
 </ul>

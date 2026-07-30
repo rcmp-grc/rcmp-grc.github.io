@@ -14,12 +14,12 @@ issued: 2026-05-08
 	{ border-top: 2px solid var(--rcmp-red);
 	  margin-bottom: 10px;
 	 }
-	.card-tag-located
-	{ padding-left: 0px;
-	  background-color: #ef8f9c;
+	.card-tag-located { 
+	  position: absolute;
+	  background-color: #861322;
 	  color: #ffffff;
-	  font-weight: 600;
-	  font-size: 1.3rem;
+	  font-weight: bold;
+	  font-size: .85rem;
 	  font-color: #ef8f9c;
 	  padding: 0.4rem 1rem;
 	  top: 0;
@@ -27,8 +27,8 @@ issued: 2026-05-08
 	  border-top-right-radius: var(--radius-sm);
       border-bottom-left-radius: var(--radius-sm);
 	}
-	.card-located
-	{ border-left: 1px solid var(--c-grey-border);
+	.card-located { 
+	  border-left: 1px solid var(--c-grey-border);
 	  border-right: 1px solid var(--c-grey-border);
 	  border-bottom: 1px solid var(--c-grey-border);
 	  border-top: 2px solid #861322;

@@ -188,7 +188,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	}
 </style>
 <article class="news-article">
-<div class="col-md-8"">
+<div class="col-md-8">
 <div class="card-located">	
 <div id="located" class="card-tag-located"><p><i class="fa-solid fa-location-dot"></i> Located</p></div>
 <ul>

@@ -21,7 +21,7 @@ issued: 2026-05-08
 	  font-weight: bold;
 	  font-size: 1em;
 	  font-color: #ef8f9c;
-	  padding: 0.4rem 1rem;
+	  padding: 0rem 1rem;
 	  top: 0;
       left: 0;
 	  border-top-left-radius: var(--radius-sm);
@@ -33,7 +33,6 @@ issued: 2026-05-08
 	  border-bottom: 1px solid var(--c-grey-border);
 	  border-top: 2px solid #861322;
 	  margin-left: 0px;
-	  padding: 2rem;
       position: relative;
 	  margin-bottom: 15px;
 	}
@@ -189,11 +188,13 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	}
 </style>
 <article class="news-article">
-<div class="card-located col-md-8">	
+<div class="col-md-8"">
+<div class="card-located">	
 <div id="located" class="card-tag-located"><p><i class="fa-solid fa-location-dot"></i> Located</p></div>
 <ul>
 <li><strong>May 10, 2026, 14:58</strong>: Bob was found safe</li>
 </ul>
+</div>
 </div>
 <div class="clearfix"></div>	
 <p class="lead">Bob the Polar Bear is the Royal Canadian Mounted Police’s newest unofficial northern mascot.</p>

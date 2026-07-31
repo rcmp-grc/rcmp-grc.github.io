@@ -30,7 +30,7 @@ custom_css: /assets/css/careers.css
 }
 .news-article p {
 	font-size: 0.95rem;	
-	margin: 8px, 0, 0, 8px;
+	margin: 0, 8px, 8px, 0;
 	color: #363636;
 }
 .news-article h2 {

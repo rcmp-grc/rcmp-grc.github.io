@@ -172,6 +172,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 <article>	
 <div class="row">
   <div class="news-article col-md-4 pull-right">
+	  <p><span class="label label-danger">Located</span></p>
       <ul>
 		  <li><strong>May 10, 2026, 14:58</strong>: Bob was found safe</li>
      </ul>

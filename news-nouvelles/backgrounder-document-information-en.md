@@ -14,6 +14,7 @@ custom_css: /assets/css/careers.css
 .explore { 
 	 border-top: 2px solid var(--rcmp-red);
 	 margin-bottom: 10px;
+	 margin-top: 15px;
 }
 .contact-us 
 	{

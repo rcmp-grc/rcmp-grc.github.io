@@ -25,6 +25,8 @@ custom_css: /assets/css/careers.css
 	margin: auto;
 	margin-right: 15px; 
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+	padding-right: 5px;
+	padding-left: 5px;
 }
 .news-article p {
 	font-size: 0.95rem;	

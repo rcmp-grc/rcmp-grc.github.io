@@ -23,16 +23,16 @@ custom_css: /assets/css/careers.css
 .news-article {
     background: #fff;
     margin: auto;
-	margin-right: 10px; 
+	margin-right: 15px; 
 	padding: 10px, 10px, 0, 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 .news-article p {
 	font-size: 0.95rem;	
-	padding-top: 5px;
+	margin: 5px, 5px, 0, 5px;
 }
 .news-article h2 {
-	font-size: 1.3rem;	
+	font-size: 1.5rem;	
 	font-weight: bold;
 	padding: 0;
 	margin: 0;

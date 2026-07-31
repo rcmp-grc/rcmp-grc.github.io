@@ -121,7 +121,8 @@ custom_css: /assets/css/careers.css
 
 <section id="s2">
   <h2>Demande de filtrage de sécurité</h2>
-  <p>Vous devez remplir une demande de filtrage de sécurité à l'aide de CléGC. CléGC est un service offert par le gouvernement du Canada qui permet d'accéder en toute sécurité à l'ensemble de ses programmes et services. Si votre candidature est retenue, vous recevrez des instructions pour créer votre profil CléGC et remplir et soumettre votre demande de filtrage de sécurité.</p>
+  <p>Vous devez remplir une&nbsp;demande de filtrage de sécurité en ligne, accessible par le portail de filtrage de sécurité à l’aide d’une&nbsp;cléGC ou d’un&nbsp;compte de partenaire de connexion.</p>
+<p>CléGC est un&nbsp;service offert par le gouvernement du Canada qui permet d’accéder en toute sécurité à l’ensemble de ses programmes et services. Si votre candidature est retenue, vous recevrez des instructions pour créer votre profil CléGC et remplir et soumettre vos renseignements personnels par le biais du portail de filtrage de sécurité en ligne.</p>
   <p>Si vous éprouvez des difficultés techniques ou si vous avez des questions concernant le processus de filtrage de sécurité, veuillez utiliser les coordonnées suivantes&nbsp;:</p>
   <ul>
     <li>CléGC&nbsp;: 1-855-438-1102</li>

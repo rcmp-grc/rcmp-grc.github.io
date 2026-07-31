@@ -28,12 +28,12 @@ custom_css: /assets/css/careers.css
 }
 .news-article p {
 	font-size: 0.95rem;	
-	margin: 10px;
+	margin: 5px;
 }
 .news-article h2 {
 	font-size: 1.4rem;	
 	font-weight: bold;
-	margin: 10px;
+	margin: 5px;
 }	
 .byline {
     display: flex;

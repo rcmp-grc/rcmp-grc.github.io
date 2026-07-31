@@ -15,48 +15,7 @@ custom_css: /assets/css/careers.css
 	 border-top: 2px solid var(--rcmp-red);
 	 margin-bottom: 10px;
 }
-	.located-card {
-     position: relative;
-     border: none;
-     background: var(--c-white);
-     margin: 0 0 16px 0;
-     overflow: hidden;
-     width: 100%;
-     max-width: none;
-     box-sizing: border-box;
-     display: block;
-}
-	.located-card-tag {
-     position: absolute;
-     top: 0;
-     left: 0;
-     font-size: 0.85rem;
-     font-weight: 700;
-     padding: 3px 10px;
-     line-height: 2;
-     letter-spacing: 0.03em;
-     background: #861322;
-     color: #ffffff;
-     z-index: 3;
-     height: 24px;
-     display: flex;
-     align-items: center;
-}
-	.located-card-body {
-     padding: 16px 16px 20px;
-     border-top: 3px solid #861322;
-}
-	.located-meta {
-     margin: 10px 0 0;
-}
-   .located-meta li {
-    font-size: 0.88em;
-    color: var(--c-grey-text);
-    margin-bottom: 8px;
-    gap: 7px;
-    line-height: 1.4;
-    max-width: none;
-}
+
 	.contact-us 
 	{
 	background-color: #f3f2f1;
@@ -204,18 +163,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	border-top: 1px solid #590d17;
 	}
 </style>
-<article class="news-article">
-<div class="col-md-8">
-<div class="located-card">	
-<div class="located-card-body">	
-<div id="located" class="located-card-tag"><p><i class="fa-solid fa-location-dot"></i>&nbsp;Located</p></div>
-<ul class="located-meta">
-<li><strong>May 10, 2026, 14:58</strong>: Bob was found safe</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="clearfix"></div>	
+<article class="news-article">	
 <p class="lead">Bob the Polar Bear is the Royal Canadian Mounted Police’s newest unofficial northern mascot.</p>
 <div class="explore">
 <div class="byline">	

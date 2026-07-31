@@ -172,7 +172,6 @@ a.news-topic-1:hover, a.news-topic-1:active {
 <article>	
 <div class="row">
 <div class="mrgn-lft-md mrgn-rght-md">
-   <p class="lead">Bob the Polar Bear is the Royal Canadian Mounted Police’s newest unofficial northern mascot.</p>
   <div class="col-md-4 pull-right">
      <div class="news-article mrgn-bttm-md">
       <ul>
@@ -180,6 +179,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
      </ul>
      </div>
   </div>
+   <p class="lead">Bob the Polar Bear is the Royal Canadian Mounted Police’s newest unofficial northern mascot.</p>
 </div>
 <div class="explore">
 <div class="byline">	

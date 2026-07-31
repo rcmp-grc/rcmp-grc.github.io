@@ -114,7 +114,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	border-right: 1px solid #1f7a40;
 	border-bottom: 1px solid #1f7a40;
 	border-top: 1px solid #1f7a40;	
-	}
+}
 	a.news-topic-2:hover, a.news-topic-2:active {
 	 background-color: white;
      color: #0f253d;
@@ -136,7 +136,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	border-right: 1px solid #361966;
 	border-bottom: 1px solid #361966;
 	border-top: 1px solid #361966;			
-	}
+}
 	a.news-topic-3:hover, a.news-topic-3:active {
 	background-color: white;
     color: #361966;
@@ -144,7 +144,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	border-right: 1px solid #361966;
 	border-bottom: 1px solid #361966;
 	border-top: 1px solid #361966;
-	}
+}
    a.news-topic-4:link, a.news-topic-4:visited
 	{
    background-color: #f9d2d7;
@@ -158,8 +158,8 @@ a.news-topic-1:hover, a.news-topic-1:active {
    border-left: 5px solid #590d17;
    border-right: 1px solid #590d17;
    border-bottom: 1px solid #590d17;
-   border-top: 1px solid #590d17;	
-	}
+   border-top: 1px solid #590d17;		
+}
 	a.news-topic-4:hover, a.news-topic-4:active {
 	background-color: white;
     color: #590d17;
@@ -167,7 +167,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	border-right: 1px solid #590d17;
 	border-bottom: 1px solid #590d17;
 	border-top: 1px solid #590d17;
-	}
+}
 </style>
 <article>	
 <div class="row">

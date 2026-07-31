@@ -24,13 +24,13 @@ custom_css: /assets/css/careers.css
     background: #fff;
     padding: 5px;
     margin: auto;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 .news-article p {
 	font-size: 0.95rem;	
 }
 .news-article h2 {
-	font-size: 0.95rem;	
+	font-size: 1.5rem;	
 	font-weight: bold;
 }	
 .byline {
@@ -170,12 +170,14 @@ a.news-topic-1:hover, a.news-topic-1:active {
 </style>
 <article>	
 <div class="row">
-  <div class="news-article col-md-4 pull-right">
+<div class="col-md-4 pull-right">
+  <div class="news-article">
 	  <h2><span class="label label-danger">Located</span></h2>
 	  <p><strong>May 10, 2026, 14:58</strong> &mdash; Bob was found safe.</p>
   </div>
 	<div class="mrgn-lft-md mrgn-rght-md">
    <p class="lead">Bob the Polar Bear is the Royal Canadian Mounted Police’s newest unofficial northern mascot.</p>
+</div>
 </div>
 </div>
 <div class="explore">

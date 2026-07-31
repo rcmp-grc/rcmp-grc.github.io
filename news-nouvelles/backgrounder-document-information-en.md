@@ -35,7 +35,7 @@ custom_css: /assets/css/careers.css
 .news-article h2 {
 	font-size: 1.4rem;	
 	font-weight: bold;
-	margin: 5px;
+	margin: 0, 5px, 5px, 0;
 }	
 .byline {
     display: flex;

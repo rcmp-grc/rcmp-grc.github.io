@@ -22,7 +22,7 @@ custom_css: /assets/css/careers.css
 }
 .news-article {
     background: #fff;
-    margin: auto;
+	margin: auto;
 	margin-right: 15px; 
 	padding: 10px, 10px, 0, 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -35,7 +35,7 @@ custom_css: /assets/css/careers.css
 	font-size: 1.5rem;	
 	font-weight: bold;
 	padding: 0;
-	margin: 0;
+	margin: 5px;
 }	
 .byline {
     display: flex;

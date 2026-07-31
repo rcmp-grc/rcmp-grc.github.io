@@ -174,7 +174,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 </style>
 <article>	
 <div class="row">
-  <div class="news-article pull-right">
+  <div class="news-article pull-right col-sm-4">
 	  <h2><span class="label label-danger">Located</span></h2>
 	  <p><strong>May 10, 2026, 14:58</strong> &mdash; Bob was found safe.</p>
   </div>

@@ -36,7 +36,6 @@ custom_css: /assets/css/careers.css
 }
 .news-article h2 {
 	font-size: 1.5rem;	
-	font-weight: bold;
 	margin-left: 0;
 	margin-top: 0;
 }	

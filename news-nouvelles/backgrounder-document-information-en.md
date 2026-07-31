@@ -27,12 +27,8 @@ custom_css: /assets/css/careers.css
     margin: auto;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
-.news-article ul {
-	font-size: 0.95rem;
-	list-style-type: square;	
-}
-.news-article li:marker {
-	color: #363636;	
+.news-article p {
+	font-size: 0.95rem;	
 }
 .byline {
     display: flex;

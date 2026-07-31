@@ -29,7 +29,7 @@ custom_css: /assets/css/careers.css
 }
 .news-article p {
 	font-size: 0.95rem;	
-	margin: 10px, 10px, 0, 10px;
+	padding: 10px, 10px, 0, 10px;
 }
 .news-article h2 {
 	font-size: 1.5rem;	

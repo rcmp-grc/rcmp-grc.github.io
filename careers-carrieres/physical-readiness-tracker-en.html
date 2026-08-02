@@ -63,8 +63,9 @@ custom_css: /assets/css/careers.css
               <input class="form-control" id="input-weeks" name="weeks" type="number" min="1" max="26" step="1" inputmode="numeric" aria-describedby="weeks-hint" required>
               <p class="help-block" id="weeks-hint">Enter a number between 1 and 26.</p>
             </div>
+            <div class="rc-legend" id="days-legend">How many days per week can you train?</div>
             <fieldset class="rc-fieldset">
-              <legend class="rc-legend">How many days per week can you train?</legend>
+              <legend class="sr-only">How many days per week can you train?</legend>
               <ul class="rc-options" role="list">
                 <li class="rc-option">
                   <input type="radio" id="days-2" name="days" value="2">
@@ -299,14 +300,14 @@ custom_css: /assets/css/careers.css
     try {
       var raw = window.localStorage.getItem(STORAGE_KEY);
       if (raw) { return JSON.parse(raw); }
-    } catch (e) { /* localStorage unavailable */ }
+    } catch (e) {}
     return { assessment: null, plan: null, completedWeeks: [], log: [] };
   }
 
   function saveState() {
     try {
       window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-    } catch (e) { /* storage full or unavailable; continue silently */ }
+    } catch (e) {}
   }
 
   var FOCUS = {
@@ -520,7 +521,7 @@ custom_css: /assets/css/careers.css
       gain.gain.setValueAtTime(0.2, ctx.currentTime);
       osc.start();
       osc.stop(ctx.currentTime + 0.6);
-    } catch (e) { /* audio unavailable */ }
+    } catch (e) {}
   }
 
   timerMinutesInput.addEventListener("change", function () {

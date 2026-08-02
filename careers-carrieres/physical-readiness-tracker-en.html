@@ -31,9 +31,6 @@ custom_css: /assets/css/careers.css
     <p>This tool is intended to support general fitness preparation and does not replace professional medical or fitness advice. Consult a health-care professional before starting a new exercise program, especially if you have an injury or an existing medical condition.</p>
   </div>
 
-  <!-- ============================================================
-       STEP 1 — SELF-ASSESSMENT / PLAN GENERATOR
-       ============================================================ -->
   <section aria-labelledby="step1-heading">
     <h2 id="step1-heading" class="h2-line">Step 1: Tell us where you're starting from</h2>
     <div class="rc-question-card">
@@ -99,9 +96,6 @@ custom_css: /assets/css/careers.css
     </div>
   </section>
 
-  <!-- ============================================================
-       STEP 2 — GENERATED TRAINING PLAN
-       ============================================================ -->
   <section aria-labelledby="plan-heading" class="hidden" id="plan-section">
     <h2 id="plan-heading" class="h2-line" tabindex="-1">Step 2: Your training plan</h2>
     <p id="plan-summary"></p>
@@ -128,9 +122,6 @@ custom_css: /assets/css/careers.css
     </div>
   </section>
 
-  <!-- ============================================================
-       STEP 3 — TRAINING TIMER
-       ============================================================ -->
   <section aria-labelledby="timer-heading">
     <h2 id="timer-heading" class="h2-line">Training timer</h2>
     <div class="rc-question-card">
@@ -152,9 +143,6 @@ custom_css: /assets/css/careers.css
     </div>
   </section>
 
-  <!-- ============================================================
-       STEP 4 — PROGRESS TRACKING
-       ============================================================ -->
   <section aria-labelledby="progress-heading">
     <h2 id="progress-heading" class="h2-line">Step 3: Track your progress</h2>
     <p>Log a practice session any time to see how you're trending toward the assessment standards.</p>
@@ -252,9 +240,6 @@ custom_css: /assets/css/careers.css
     </div>
   </section>
 
-  <!-- ============================================================
-       PRIVACY NOTE
-       ============================================================ -->
   <section aria-labelledby="privacy-heading" class="mrgn-tp-lg">
     <h2 id="privacy-heading" class="h2-line">How your information is handled</h2>
     <ul>
@@ -324,9 +309,6 @@ custom_css: /assets/css/careers.css
     } catch (e) { /* storage full or unavailable; continue silently */ }
   }
 
-  /* ----------------------------------------
-     PLAN GENERATION
-  ---------------------------------------- */
   var FOCUS = {
     foundation: [
       "Aerobic base run (easy, conversational pace)",
@@ -508,9 +490,6 @@ custom_css: /assets/css/careers.css
     if (dayRadio) { dayRadio.checked = true; }
   }
 
-  /* ----------------------------------------
-     TIMER
-  ---------------------------------------- */
   var timerMinutesInput = document.getElementById("timer-minutes");
   var timerDisplay = document.getElementById("timer-display");
   var timerStart = document.getElementById("timer-start");
@@ -597,9 +576,6 @@ custom_css: /assets/css/careers.css
 
   renderTimer();
 
-  /* ----------------------------------------
-     PROGRESS LOG
-  ---------------------------------------- */
   function renderLog() {
     logTableBody.innerHTML = "";
     if (!state.log.length) {
@@ -708,9 +684,6 @@ custom_css: /assets/css/careers.css
     announce("Session added to your history.");
   });
 
-  /* ----------------------------------------
-     EXPORT / IMPORT / CLEAR
-  ---------------------------------------- */
   exportBtn.addEventListener("click", function () {
     var blob = new Blob([JSON.stringify(state, null, 2)], { type: "application/json" });
     var url = URL.createObjectURL(blob);
@@ -768,9 +741,6 @@ custom_css: /assets/css/careers.css
     announce("All your data has been cleared.");
   });
 
-  /* ----------------------------------------
-     INIT
-  ---------------------------------------- */
   restoreAssessmentForm();
   if (state.plan) {
     renderPlan();

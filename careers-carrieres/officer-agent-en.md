@@ -17,7 +17,7 @@ custom_css: /assets/css/careers.css
 <section class="fp-section fp-section--mirror" id="officer-hero" style="background-image: url('/assets/img/po-header.jpg');">
   {% include breadcrumb.html %}
   <div class="fp-content fp-content--mirror">
-    <p class="uppercase">Police officer careers</p>
+    <p class="uppercase" aria-hidden="true">Police officer careers</p>
     <h2 class="oswald-500 uppercase">Do you have what it takes to be a Mountie?</h2>
     <p class="header-description">The RCMP is hiring motivated team players who are physically fit and can lead with integrity and compassion.</p>
     <a class="ready-btn mrgn-tp-sm" href="#"><i aria-hidden="true" class="fa-solid fa-square-check"></i> <span>Check your readiness</span></a>

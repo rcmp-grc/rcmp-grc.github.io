@@ -28,7 +28,7 @@ custom_css: /assets/css/careers.css
       </div>
     </nav>
     <div class="fp-content">
-      <p class="uppercase">Careers at the RCMP</p>
+      <p class="uppercase" aria-hidden="true">Careers at the RCMP</p>
       <h2 class="oswald-500 uppercase">Police officer careers</h2>
       <p class="header-description">Join Canada's front line. Become an RCMP officer.</p><a class="btn btn-careers" href="#">More information <span class="wb-inv">about police officer careers</span></a>
     </div>

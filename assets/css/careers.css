@@ -912,6 +912,7 @@ a.btn-careers:hover {
 .ready-btn:focus {
   color: var(--c-white);
   background-color: var(--c-black);
+  outline: 1px solid var(--c-yellow);
   text-decoration: none;
 }
 

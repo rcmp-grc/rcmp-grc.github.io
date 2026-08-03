@@ -1704,7 +1704,7 @@ a.btn-careers:hover {
   width: 100%;
   max-width: 1200px;
   padding: 2rem 1.5rem;
-  background: rgba(12, 11, 14, 0.72);
+  background: var(--c-black);
   border-radius: var(--radius-sm);
 }
 
@@ -2202,7 +2202,7 @@ main .cnt-wdth-lmtd #re-grid li {
   width: auto;
   max-width: none;
   padding: 2rem 4rem 2rem 2rem;
-  background: rgba(12, 11, 14, 0.72);
+  background: var(--c-black);
   border-radius: var(--radius-sm);
   text-align: left;
 }

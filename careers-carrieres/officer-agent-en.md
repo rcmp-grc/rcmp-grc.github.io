@@ -15,7 +15,6 @@ custom_css: /assets/css/careers.css
 ---
 
 <section class="fp-section fp-section--mirror" id="officer-hero" style="background-image: url('/assets/img/po-header.jpg');">
-  <div class="fp-overlay fp-overlay--mirror"></div>
   {% include breadcrumb.html %}
   <div class="fp-content fp-content--mirror">
     <p class="uppercase">Police officer careers</p>

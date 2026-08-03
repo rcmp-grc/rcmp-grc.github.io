@@ -11,7 +11,6 @@ custom_css: /assets/css/careers.css
 
 <div id="careers-fullpage">
   <section class="fp-section" id="police-officer" style="background-image: url('/assets/img/hero-police-officer.jpg');">
-    <div class="fp-overlay"></div>
     <nav aria-label="Breadcrumb" class="fp-breadcrumb" id="wb-bc" property="breadcrumb">
       <div class="bc-showcase-inner">
         <div class="bc-row">
@@ -34,9 +33,8 @@ custom_css: /assets/css/careers.css
       <p class="header-description">Join Canada's front line. Become an RCMP officer.</p><a class="btn btn-careers" href="#">More information <span class="wb-inv">about police officer careers</span></a>
     </div>
   </section>
-  <section class="fp-section" id="civilian-employees" style="background-image: url('/assets/img/hero-civilian.jpg');">
-    <div class="fp-overlay"></div>
-    <div class="fp-content">
+  <section class="fp-section" id="civilian-employees" style="background-image: url('/assets/img/hero-civilian.jpg'); transform: scaleX(-1);">
+    <div class="fp-content" style="transform: translate(-50%, -50%) scaleX(-1);">
       <h2 class="oswald-500 uppercase">Civilian careers</h2>
       <p class="header-description">Bring your skills. Power our mission. Make an impact.</p><a class="btn btn-careers" href="#">More information <span class="wb-inv">about civilian careers</span></a>
     </div>

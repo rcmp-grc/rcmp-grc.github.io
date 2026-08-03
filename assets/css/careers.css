@@ -2191,7 +2191,8 @@ main .cnt-wdth-lmtd #re-grid li {
   transform: translateY(-50%);
   width: auto;
   max-width: none;
-  padding: 2rem 4rem 2rem 2rem;
+  margin-right: 100px;
+  padding: 2rem;
   background: rgba(12, 11, 14, 0.72);
   border-radius: var(--radius-sm);
   text-align: left;

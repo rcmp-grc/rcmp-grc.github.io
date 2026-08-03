@@ -900,9 +900,7 @@ a.btn-careers:hover {
   font-weight: 600;
   background: var(--c-yellow);
   padding: 2rem 3rem;
-  border: 0.1rem solid var(--c-navy);
   border-radius: 1rem;
-  box-shadow: 0 0 0.5rem 0.1rem var(--c-navy);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -913,21 +911,13 @@ a.btn-careers:hover {
 .ready-btn:active,
 .ready-btn:focus {
   color: var(--c-white);
-  background-color: var(--c-navy);
-  border-color: var(--c-yellow);
-  box-shadow: 0 0 0.5rem 0.1rem var(--c-yellow);
+  background-color: var(--c-black);
   text-decoration: none;
 }
 
 .ready-btn i {
   font-size: 2.4rem;
   line-height: 1;
-}
-
-.ready-btn:hover i,
-.ready-btn:active i,
-.ready-btn:focus i {
-  color: var(--c-yellow);
 }
 
 .po-hero-cta {

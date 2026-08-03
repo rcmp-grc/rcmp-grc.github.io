@@ -2223,15 +2223,38 @@ main .cnt-wdth-lmtd #re-grid li {
     left: 0;
     right: 0;
     max-height: 50%;
-    overflow-y: auto;
+    overflow: hidden;
+    border-radius: 0;
     transform: none;
     width: 100%;
     max-width: none;
     margin-right: 0;
-    padding: 1.5rem 24px 3rem;
+    padding: 1rem 24px 1.5rem;
     box-sizing: border-box;
     margin-top: 0;
     text-align: left;
+  }
+
+  .fp-content p.uppercase {
+    font-size: 1.4rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .fp-content h2 {
+    font-size: 1.6rem;
+    margin: 0 0 0.5rem;
+  }
+
+  .fp-content .header-description {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+  }
+
+  .fp-content .ready-btn,
+  .fp-content .btn-careers {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
   }
 
   .fp-overlay,

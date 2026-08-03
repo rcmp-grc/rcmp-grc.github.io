@@ -18,7 +18,7 @@ custom_css: /assets/css/careers.css
 
   <noscript>
     <div class="alert alert-warning">
-      <p>The physical readiness and training tracker requires JavaScript to be enabled in your browser. Please enable JavaScript and reload the page to use the tracker.</p>
+      <p>The Physical readiness and training tracker requires JavaScript to be enabled in your browser. Please enable JavaScript and reload the page to use the tracker.</p>
     </div>
   </noscript>
 
@@ -111,9 +111,7 @@ custom_css: /assets/css/careers.css
       </div>
     </div>
 
-    <div class="gc-features">
-      <ul class="list-unstyled colcount-sm-2 colcount-md-3" id="plan-weeks-list"></ul>
-    </div>
+    <div class="po-events-cards" id="plan-weeks-list"></div>
 
     <div class="rc-nav">
       <button type="button" class="rc-btn rc-btn--secondary" id="edit-plan-btn">
@@ -320,7 +318,7 @@ custom_css: /assets/css/careers.css
     ],
     build: [
       "Interval repeats (500 m efforts with recovery)",
-      "Strength & loaded carry drills (build toward 45 lb / 50 m)",
+      "Strength and loaded carry drills (build toward 45 lb / 50 m)",
       "Aerobic run at target 5 km pace",
       "30-minute high-intensity circuit",
       "Active recovery / mobility"
@@ -387,16 +385,27 @@ custom_css: /assets/css/careers.css
 
     planWeeksList.innerHTML = "";
     plan.weeks.forEach(function (week) {
-      var li = document.createElement("li");
       var completed = state.completedWeeks.indexOf(week.number) !== -1;
 
-      var well = document.createElement("div");
-      well.className = "well";
+      var card = document.createElement("div");
+      card.className = "event-card";
 
-      var h4 = document.createElement("h3");
-      h4.className = "h5";
-      h4.textContent = "Week " + week.number + " \u2014 " + week.phase + (week.isFinalWeek ? " (assessment week)" : "");
-      well.appendChild(h4);
+      var badge = document.createElement("div");
+      badge.className = "event-card-location";
+      badge.textContent = week.phase.toUpperCase();
+      card.appendChild(badge);
+
+      var h3 = document.createElement("h3");
+      h3.className = "h5";
+      h3.textContent = "Week " + week.number;
+      card.appendChild(h3);
+
+      if (week.isFinalWeek) {
+        var note = document.createElement("p");
+        note.className = "wb-rd";
+        note.textContent = "Assessment week";
+        card.appendChild(note);
+      }
 
       var ul = document.createElement("ul");
       week.days.forEach(function (dayFocus, i) {
@@ -404,8 +413,10 @@ custom_css: /assets/css/careers.css
         dli.textContent = "Day " + (i + 1) + ": " + dayFocus;
         ul.appendChild(dli);
       });
-      well.appendChild(ul);
+      card.appendChild(ul);
 
+      var filterGroup = document.createElement("div");
+      filterGroup.className = "wp-filter-group";
       var checkboxWrap = document.createElement("div");
       checkboxWrap.className = "checkbox";
       var label = document.createElement("label");
@@ -418,14 +429,15 @@ custom_css: /assets/css/careers.css
         toggleWeekComplete(week.number, checkbox.checked);
       });
       var span = document.createElement("span");
+      span.className = "cb-text";
       span.textContent = "Mark week " + week.number + " as complete";
       label.appendChild(checkbox);
       label.appendChild(span);
       checkboxWrap.appendChild(label);
-      well.appendChild(checkboxWrap);
+      filterGroup.appendChild(checkboxWrap);
+      card.appendChild(filterGroup);
 
-      li.appendChild(well);
-      planWeeksList.appendChild(li);
+      planWeeksList.appendChild(card);
     });
 
     updatePlanProgress();

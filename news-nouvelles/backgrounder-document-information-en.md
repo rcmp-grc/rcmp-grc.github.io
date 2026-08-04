@@ -23,7 +23,6 @@ custom_css: /assets/css/careers.css
 .col-md-4::after {
     content: "";
     position: absolute;
-    top: 25%;
     right: 0;
     height: 50%;
     border-right: 2px solid white;

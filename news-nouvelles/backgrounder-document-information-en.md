@@ -22,7 +22,8 @@ custom_css: /assets/css/careers.css
 }
 .brdr-rght {
 	border-right: 1px solid;
-	boder-image: linear-gradient(to right, #000 50%, transparent 50%) 100% 1;
+	border-height: 50%
+	text-align: center;
 }
 	
 .news-article {

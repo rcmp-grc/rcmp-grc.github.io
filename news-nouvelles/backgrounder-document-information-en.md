@@ -187,6 +187,7 @@ a.primary-topic:hover, a.primary-topic:active {
 </section>
 <section id="gc-contact" class="contact-us">
 	<h2 class="h3">Contact us</h2>
+	<div class="row class="wb-eqht"">
 	<div class="contact-signature">	
 	<div class="col-md-4 brdr-rght">	
     <p><strong>National Communications and Public Affairs</strong><br>
@@ -203,6 +204,8 @@ a.primary-topic:hover, a.primary-topic:active {
    <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
    613-555-0100</p>	
 	</div>		
+	</div>
+	<div class="clearfix"></div>	
 	<section class="gc-followus">
 <h2 class="h4 mrgn-tp-lg wb-inv">Follow us</h2>
 <ul class="list-inline">     

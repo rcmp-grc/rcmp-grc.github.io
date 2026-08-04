@@ -187,7 +187,7 @@ a.primary-topic:hover, a.primary-topic:active {
 </section>
 <section id="gc-contact" class="contact-us">
 	<h2 class="h3">Contact us</h2>
-	<div class="row class="wb-eqht"">
+	<div class="row class="wb-eqht">
 	<div class="contact-signature">	
 	<div class="col-md-4 brdr-rght">	
     <p><strong>National Communications and Public Affairs</strong><br>

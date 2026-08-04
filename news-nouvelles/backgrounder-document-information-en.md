@@ -21,7 +21,9 @@ custom_css: /assets/css/careers.css
 	padding-left: 10px;
 }
 .brdr-rght	{
-border: 200px;
+border-right: 2px solid #ffffff;
+
+
 }
 .news-article {
     background: #fff;

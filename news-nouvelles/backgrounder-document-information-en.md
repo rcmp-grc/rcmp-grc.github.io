@@ -22,7 +22,7 @@ custom_css: /assets/css/careers.css
 }
 .col-md-4::after {
     content: "";
-    position: relative;
+    position: absolute;
 	top: 25%;
     right: 0;
     height: 50%;
@@ -194,8 +194,8 @@ a.primary-topic:hover, a.primary-topic:active {
 </section>
 <section id="gc-contact" class="contact-us">
 	<h2 class="h3">Contact us</h2>
-	<div class="row wb-eqht">
 	<div class="contact-signature">	
+	<div class="row wb-eqht">	
 	<div class="col-md-4">	
     <p><strong>National Communications and Public Affairs</strong><br>
    <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
@@ -263,9 +263,9 @@ a.primary-topic:hover, a.primary-topic:active {
 	</section>
 	</div>		
 	</div>
-	<div class="clearfix"></div>	
 	</div>
-	</section>
+   </section>
+	<div class="clearfix"></div>	
 <div class="explore">	
 <section id="topics">	
 <h2 class="h4">Explore related topics</h2>

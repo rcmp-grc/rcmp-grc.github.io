@@ -20,11 +20,6 @@ custom_css: /assets/css/careers.css
 	background-color: #f3f2f1;
 	padding-left: 10px;
 }
-.brdr-rght {
-	border-right: 1px;
-	height: 200px;
-	align-items: center;
-}
 .news-article {
     background: #fff;
 	margin: auto;

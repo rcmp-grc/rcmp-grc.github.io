@@ -20,14 +20,6 @@ custom_css: /assets/css/careers.css
 	background-color: #f3f2f1;
 	padding-left: 10px;
 }
-.col-md-4::after {
-    content: "";
-    position: absolute;
-	top: 15%;
-    right: 0;
-    height: 70%;
-    border-right: 2px solid white;
-}
 .news-article {
     background: #fff;
 	margin: auto;

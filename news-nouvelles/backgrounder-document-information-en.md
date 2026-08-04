@@ -65,7 +65,7 @@ custom_css: /assets/css/careers.css
 a.primary-topic:link, a.primary-topic:visited {
     background-color: #ffffff;
     color: #0f3d20;
-    padding: 2px 8px;
+    padding: 4px 10px;
 	border-radius: 8px;
 	font-size: 0.85rem;
     font-weight: bold;	
@@ -77,7 +77,7 @@ a.primary-topic:link, a.primary-topic:visited {
 a.primary-topic:hover, a.primary-topic:active {
 	background-color: #d6f5e1;
     color: #0f3d20;
-    padding: 2px 8px;
+    padding: 4px 10px;
     border-radius: 8px;
 	border: 1px solid #0f3d20;
 }
@@ -212,7 +212,7 @@ a.primary-topic:hover, a.primary-topic:active {
 	</section>
 <div class="explore">	
 <section id="topics">	
-<h2 class="h3">Explore related topics</h2>
+<h2 class="h4">Explore related topics</h2>
 <ol class="list-inline">
   <li><a href="#" class="primary-topic">Community interest</a></li>
 </ol>

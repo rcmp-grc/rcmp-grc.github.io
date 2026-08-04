@@ -198,6 +198,11 @@ a.primary-topic:hover, a.primary-topic:active {
    <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
    613-555-0100</p>	
 	</div>		
+	<div class="col-md-4">	
+    <p><strong>National Communications and Public Affairs</strong><br>
+   <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
+   613-555-0100</p>	
+	</div>		
 	<section class="gc-followus">
 <h2 class="h4 mrgn-tp-lg wb-inv">Follow us</h2>
 <ul class="list-inline">     

@@ -16,11 +16,15 @@ custom_css: /assets/css/careers.css
 	 margin-bottom: 10px;
 	 margin-top: 15px;
 }
-.contact-us 
-	{
+.contact-us {
 	background-color: #f3f2f1;
 	padding-left: 10px;
 }
+.brdr-rght {
+	border-right: 1px solid;
+	boder-image: linear-gradient(to right, #000 50%, transparent 50%) 100% 1;
+}
+	
 .news-article {
     background: #fff;
 	margin: auto;

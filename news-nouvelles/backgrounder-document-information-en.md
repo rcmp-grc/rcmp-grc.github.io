@@ -23,7 +23,6 @@ custom_css: /assets/css/careers.css
 .brdr-rght {
 	border-right: 1px solid #333;
 	height: 100px;
-	margin-top: 5%;
 }
 	
 .news-article {

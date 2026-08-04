@@ -21,11 +21,13 @@ custom_css: /assets/css/careers.css
 	padding-left: 10px;
 }
 .brdr-rght {
-	border-right: 1px solid #333;
+	display: flex;
+	judtify-content: flex-end;
+	vertical-align: center;
+	border-right: 1px;
 	height: 200px;
 	align-items: center;
 }
-	
 .news-article {
     background: #fff;
 	margin: auto;

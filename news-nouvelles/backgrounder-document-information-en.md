@@ -196,7 +196,7 @@ a.primary-topic:hover, a.primary-topic:active {
 	<h2 class="h3">Contact us</h2>
 	<div class="row wb-eqht">
 	<div class="contact-signature">	
-	<div class="col-md-4 brdr-rght">	
+	<div class="col-md-4">	
     <p><strong>National Communications and Public Affairs</strong><br>
    <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
    613-555-0100</p>	
@@ -218,7 +218,7 @@ a.primary-topic:hover, a.primary-topic:active {
 							</ul>
 	</section>	
 	</div>	
-	<div class="col-md-4 brdr-rght">	
+	<div class="col-md-4">	
     <p><strong>British Columbia RCMP</strong><br>
    <a href="mailto:media@rcmp-grc.gc.ca">bcrcmp-grcencb@rcmp-grc.gc.ca</a><br>
    778-290-2929</p>	

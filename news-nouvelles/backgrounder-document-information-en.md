@@ -195,14 +195,14 @@ a.primary-topic:hover, a.primary-topic:active {
    613-555-0100</p>	
 	</div>	
 	<div class="col-md-4 brdr-rght">	
-    <p><strong>National Communications and Public Affairs</strong><br>
-   <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
-   613-555-0100</p>	
+    <p><strong>British Columbia RCMP</strong><br>
+   <a href="mailto:media@rcmp-grc.gc.ca">bcrcmp-grcencb@rcmp-grc.gc.ca</a><br>
+   778-290-2929</p>	
 	</div>		
 	<div class="col-md-4">	
-    <p><strong>National Communications and Public Affairs</strong><br>
-   <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
-   613-555-0100</p>	
+    <p><strong>Richmond RCMP</strong><br>
+   <a href="mailto:name@rcmp-grc.gc.ca">name@rcmp-grc.gc.ca</a><br>
+   604-555-5555</p>	
 	</div>		
 	</div>
 	<div class="clearfix"></div>	

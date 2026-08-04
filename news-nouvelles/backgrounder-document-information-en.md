@@ -20,10 +20,13 @@ custom_css: /assets/css/careers.css
 	background-color: #f3f2f1;
 	padding-left: 10px;
 }
-.brdr-rght	{
-border-right: 2px solid #ffffff;
-
-
+.col-md-4::after {
+    content: "";
+    position: absolute;
+    top: 25%;
+    right: 0;
+    height: 50%;
+    border-right: 2px solid white;
 }
 .news-article {
     background: #fff;

@@ -187,25 +187,12 @@ a.primary-topic:hover, a.primary-topic:active {
 </section>
 <section id="gc-contact" class="contact-us">
 	<h2 class="h3">Contact us</h2>
-	<div class="row class="wb-eqht">
+	<div class="row wb-eqht">
 	<div class="contact-signature">	
 	<div class="col-md-4 brdr-rght">	
     <p><strong>National Communications and Public Affairs</strong><br>
    <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
    613-555-0100</p>	
-	</div>	
-	<div class="col-md-4 brdr-rght">	
-    <p><strong>British Columbia RCMP</strong><br>
-   <a href="mailto:media@rcmp-grc.gc.ca">bcrcmp-grcencb@rcmp-grc.gc.ca</a><br>
-   778-290-2929</p>	
-	</div>		
-	<div class="col-md-4">	
-    <p><strong>Richmond RCMP</strong><br>
-   <a href="mailto:name@rcmp-grc.gc.ca">name@rcmp-grc.gc.ca</a><br>
-   604-555-5555</p>	
-	</div>		
-	</div>
-	<div class="clearfix"></div>	
 	<section class="gc-followus">
 <h2 class="h4 mrgn-tp-lg wb-inv">Follow us</h2>
 <ul class="list-inline">     
@@ -222,7 +209,54 @@ a.primary-topic:hover, a.primary-topic:active {
           <span class="wb-inv">Instagram: </span>Instagram: Royal Canadian Mounted Police</a>
 </li>
 							</ul>
+	</section>	
+	</div>	
+	<div class="col-md-4 brdr-rght">	
+    <p><strong>British Columbia RCMP</strong><br>
+   <a href="mailto:media@rcmp-grc.gc.ca">bcrcmp-grcencb@rcmp-grc.gc.ca</a><br>
+   778-290-2929</p>	
+	<section class="gc-followus">
+<h2 class="h4 mrgn-tp-lg wb-inv">Follow us</h2>
+<ul class="list-inline">     
+<li>
+     <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
+     <span class="wb-inv">X: </span>X: Royal Canadian Mounted Police</a>
+</li>	
+<li>
+     <a href="https://www.facebook.com/rcmpgrc" class="facebook" rel="external">
+          <span class="wb-inv">Facebook: </span>Facebook: Royal Canadian Mounted Police</a>
+</li>           
+<li>
+     <a href="https://www.instagram.com/rcmpgrcpolice/" class="instagram" rel="external">
+          <span class="wb-inv">Instagram: </span>Instagram: Royal Canadian Mounted Police</a>
+</li>
+							</ul>
+	</section>	
+	</div>		
+	<div class="col-md-4">	
+    <p><strong>Richmond RCMP</strong><br>
+   <a href="mailto:name@rcmp-grc.gc.ca">name@rcmp-grc.gc.ca</a><br>
+   604-555-5555</p>	
+		<section class="gc-followus">
+<h2 class="h4 mrgn-tp-lg wb-inv">Follow us</h2>
+<ul class="list-inline">     
+<li>
+     <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
+     <span class="wb-inv">X: </span>X: Royal Canadian Mounted Police</a>
+</li>	
+<li>
+     <a href="https://www.facebook.com/rcmpgrc" class="facebook" rel="external">
+          <span class="wb-inv">Facebook: </span>Facebook: Royal Canadian Mounted Police</a>
+</li>           
+<li>
+     <a href="https://www.instagram.com/rcmpgrcpolice/" class="instagram" rel="external">
+          <span class="wb-inv">Instagram: </span>Instagram: Royal Canadian Mounted Police</a>
+</li>
+							</ul>
 	</section>
+	</div>		
+	</div>
+	<div class="clearfix"></div>	
 	</div>
 	</section>
 <div class="explore">	

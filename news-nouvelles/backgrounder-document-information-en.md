@@ -23,9 +23,9 @@ custom_css: /assets/css/careers.css
 .col-md-4::after {
     content: "";
     position: absolute;
-	top: 20%;
+	top: 15%;
     right: 0;
-    height: 60%;
+    height: 70%;
     border-right: 2px solid white;
 }
 .news-article {

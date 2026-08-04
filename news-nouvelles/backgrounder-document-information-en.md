@@ -20,8 +20,8 @@ custom_css: /assets/css/careers.css
 	background-color: #f3f2f1;
 	padding-left: 10px;
 }
-.contact-us .brdr-rght	{
-border-right: 200px;
+.brdr-rght	{
+border: 200px;
 }
 .news-article {
     background: #fff;

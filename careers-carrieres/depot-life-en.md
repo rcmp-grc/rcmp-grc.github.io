@@ -31,12 +31,10 @@ custom_css: /assets/css/careers.css
 
 <section id="s1">
   <h2>Get to know Depot</h2>
-  <p>The RCMP Academy, commonly known to many as Depot, is located in Regina, Saskatchewan.</p>
-  <p>As the oldest division of the RCMP, since 1885, Depot has been preparing generations of Mounties to serve communities across Canada.</p>
-  <p>The Academy offers a nationally recognized training campus featuring on-site classroom, fitness, and tactical training spaces.</p>
-  <p>It is an active training site and a secure facility with controlled access.</p>
-  <p>The Academy is also home to the RCMP Chapel, the oldest building in Regina, reflecting Depot’s deep roots in the community.</p>
-  <p><a href="/en/depot/virtual-tour">Virtual tour of Depot</a></p>
+<p>The RCMP Academy, commonly known to many as Depot, is located in Regina, Saskatchewan. As the oldest division of the RCMP, since 1885, Depot has been preparing generations of Mounties to serve communities across Canada.</p>
+<p>The Academy offers a nationally recognized training campus featuring on-site classroom, fitness, and tactical training spaces. It is an active training site and a secure facility with controlled access. The Academy is also home to the RCMP Chapel, the oldest building in Regina, reflecting Depot’s deep roots in the community.</p>
+
+	  <p><a href="/en/depot/virtual-tour">Virtual tour of Depot</a></p>
 </section>
 
 <section id="s2">

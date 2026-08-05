@@ -39,6 +39,17 @@ custom_css: /assets/css/careers.css
 	margin-left: 0;
 	margin-top: 0;
 }	
+.news-h3 {
+  border-bottom: 0.5rem solid var(--c-yellow);
+  border-image: var(--underline-gradient);
+  border-image-slice: 1;
+  font-size: .85rem;
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-style: normal;
+  padding-bottom: 15px;
+  margin: 15px 0 30px;
+}	
 .byline {
     display: flex;
     align-items: center;
@@ -185,15 +196,15 @@ a.primary-topic:hover, a.primary-topic:active {
 </ul>
 </section>
 <section id="gc-contact" class="contact-us">
-	<h2 class="h3">Contact us</h2>
+	<h2>Contact us</h2>
 	<div class="contact-signature">	
 	<div class="row wb-eqht">	
 	<div class="col-md-4">	
-    <p><strong>National Communications and Public Affairs</strong><br>
-   <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
-   613-555-0100</p>	
+    <h3 class="new-h3">National Communications and Public Affairs</h3>
+   <p><a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
+   613-555-0100</p>
 	<section class="gc-followus">
-<h2 class="h4 mrgn-tp-lg wb-inv">Follow us</h2>
+<h4 class="mrgn-tp-lg wb-inv">Follow us</h4>
 <ul class="list-inline">     
 <li>
      <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">

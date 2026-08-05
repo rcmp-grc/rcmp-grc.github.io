@@ -31,7 +31,7 @@ custom_css: /assets/css/careers.css
 	color: #363636;
 }
 .news-alert h2 {
-	font-size: 1.25rem;	
+	font-size: 1.4rem;	
 	margin-left: 0;
 	margin-top: 0;
 }	

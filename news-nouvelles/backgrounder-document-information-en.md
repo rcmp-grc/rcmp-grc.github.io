@@ -24,14 +24,14 @@ custom_css: /assets/css/careers.css
 	padding-right: 5px;
 	padding-left: 5px;
 }
-.news-article p {
+.news-alert p {
 	font-size: 0.95rem;	
 	margin-left: 15px;
 	margin-top: 5px;
 	color: #363636;
 }
-.news-article h2 {
-	font-size: .85rem;	
+.news-alert h2 {
+	font-size: .95rem;	
 	margin-left: 0;
 	margin-top: 0;
 }	

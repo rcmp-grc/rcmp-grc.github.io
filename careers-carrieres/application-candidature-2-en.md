@@ -39,15 +39,6 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 
-<nav aria-labelledby="on-this-page">
-  <h2 id="on-this-page">On this page</h2>
-  <ul>
-    <li><a href="#s1">Online career presentation</a></li>
-    <li><a href="#s2">RCMP Online Entrance Assessment</a></li>
-    <li><a href="#s3">Next steps</a></li>
-  </ul>
-</nav>
-
 <section id="s1">
   <h2>Online career presentation</h2>
   <p>After you've been screened into the process, you'll be contacted by email inviting to you to attend an online career presentation.</p>
@@ -59,8 +50,8 @@ custom_css: /assets/css/careers.css
   <p>After you attend the online career presentation, your next step is to complete the RCMP Online Entrance Assessment. We'll include a link to the assessment in the same career presentation invitation email.</p>
   <p>You'll have 14&nbsp;days to complete the online assessment from the date you received the link.</p>
   <dl>
-    <dt>What is the assessment?</dt>
-    <dd><p>The RCMP Online Entrance Assessment is a biased-free tool to assess applicants as part of the RCMP Officer recruiting process.</p></dd>
+    <dt>Assessment overview</dt>
+    <dd><p>The Assessment is a biased-free tool to assess applicants as part of the RCMP Officer recruiting process.</p></dd>
     <dd><p>The Assessment is not an exam, it's an assessment of your personality, behaviour, and cognitive ability. It consists of 6&nbsp;sections:</p></dd>
     <dd>
       <ul>
@@ -72,20 +63,16 @@ custom_css: /assets/css/careers.css
         <li>Section&nbsp;6: Business reasoning</li>
       </ul>
     </dd>
-    <dd><p>Schedule approximately 55 to 70&nbsp;minutes to complete the assessment. Some sections of the assessment are timed, but there's no overall time limit. We recommend that you complete the entire assessment in one session.</p></dd>
   </dl>
   <dl>
-    <dt>How do I prepare?</dt>
+    <dt>Preparing for the assessment</dt>
     <dd><p>Use the <a href="#">Online Entrance Assessment Preparatory Guide</a> to prepare for the assessment. It has sample questions and scenarios to help you understand what to expect and how to succeed.</p></dd>
+    <dd><p>Schedule approximately 55 to 70&nbsp;minutes to complete the assessment. Some sections of the assessment are timed, but there’s no overall time limit. We recommend that you complete the entire assessment in one&nbsp;session.</p></dd>
   </dl>
   <dl>
-    <dt>Do I need a minimum score to move on?</dt>
+    <dt>Advancing to next steps</dt>
     <dd><p>Completing the RCMP Online Entrance Assessment doesn't guarantee advancement in the recruitment process. If you've passed the RCMP Online Entrance Assessment, your application has been retained. You'll continue with your application but you're not yet active in the recruitment process. If you're unsuccessful, you can re-apply after a 3-month waiting period.</p></dd>
   </dl>
-</section>
-
-<section id="s3">
-  <h2>Next steps</h2>
   <p>Once your application has been selected, we'll verify that you meet the <a href="#">Basic Requirements</a>.</p>
 </section>
 

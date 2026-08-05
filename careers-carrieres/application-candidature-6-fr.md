@@ -74,7 +74,7 @@ custom_css: /assets/css/careers.css
   <p>Dans certains cas, on pourrait vous demander de le faire même si vous avez passé moins de six&nbsp;mois consécutifs à l’étranger.</p>
   <p>Voici des documents qui pourraient vous aider à attester de vos activités à l’étranger&nbsp;:</p>
   <ul>
-    <li>letters of reference or referral from foreign embassies and missions in Canada;</li>
+    <li>lettres de recommandation ou de référence d’ambassades ou de missions étrangères au Canada;</li>
     <li>lettres de recommandation ou de référence d’ambassades ou de missions canadiennes dans le pays où vous avez vécu;</li>
     <li>information liée à des filtrages de sécurité de pays avec lesquels le Canada a conclu des ententes d’échange de renseignements de sécurité;</li>
      <li>lettres ou certificats de police émis par des organismes d’application de la loi dans le ou les pays où vous avez résidé;</li>

@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Aperçu de la vie à la Division Dépôt
-date_modified: 2026-07-29
+date_modified: 2026-08-05
 lang: fr
 lang_url: depot-life-en.html
 breadcrumbs:

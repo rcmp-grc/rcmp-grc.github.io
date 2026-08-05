@@ -47,7 +47,7 @@ custom_css: /assets/css/careers.css
     <li><a href="#s3">Processus de candidature terminé</a></li>
   </ul>
 </nav>
-
+<p>Cette étape vise à déterminer si vous possédez les qualités, les valeurs et les traits de caractère pour devenir un(e) policier(ière) de la GRC.</p>
 <p>L’enquête sur les antécédents et l’évaluation de sécurité constituent l’étape finale du processus de candidature. La GRC enquêtera de façon approfondie sur vos antécédents, notamment sur vos activités au cours des 10&nbsp;dernières années, afin d’évaluer votre fiabilité et de déterminer votre admissibilité. Si l’enquête est concluante, une autorisation de sécurité vous sera accordée.</p>
 
 <section id="s1">

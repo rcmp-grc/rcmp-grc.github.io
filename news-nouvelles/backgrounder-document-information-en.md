@@ -40,15 +40,15 @@ custom_css: /assets/css/careers.css
 	margin-top: 0;
 }	
 .news-h3 {
-  border-bottom: 0.5rem solid var(--c-yellow);
+  border-bottom: 0.3rem solid var(--c-yellow);
   border-image: var(--underline-gradient);
   border-image-slice: 1;
-  font-size: .85rem;
+  font-size: 1rem;
   font-family: var(--font-display);
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
-  padding-bottom: 10px;
-  margin: 10px 0 0;
+  padding-bottom: 8px;
+  margin: 8px 0 0;
 }	
 .byline {
     display: flex;

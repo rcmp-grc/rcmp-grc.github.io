@@ -44,9 +44,8 @@ custom_css: /assets/css/careers.css
   border-image: var(--underline-gradient);
   border-image-slice: 1;
   font-size: 1rem;
-  font-family: var(--font-display);
-  font-weight: 300;
-  font-style: normal;
+  font-weight: 400;
+  font-style: bold;
   padding-bottom: 8px;
   margin: 8px 0 0;
 }	

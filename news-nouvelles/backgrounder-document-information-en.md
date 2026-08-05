@@ -16,7 +16,7 @@ custom_css: /assets/css/careers.css
 	 margin-bottom: 10px;
 	 margin-top: 15px;
 }
-.news-contact {
+.news-alert {
     background: #fff;
 	margin: auto;
 	margin-right: 15px; 
@@ -44,7 +44,7 @@ custom_css: /assets/css/careers.css
   margin: 8px 0 0;
 }	
 .news-contact-p {
-font-size: 1.25rem;
+font-size: 1.20rem;
 }	
 .contact-us {
 	background-color: #f3f2f1;
@@ -94,7 +94,7 @@ a.primary-topic:hover, a.primary-topic:active {
 </style>
 <article>	
 <div class="row">
-  <div class="news-article pull-right col-sm-4">
+  <div class="news-alert pull-right col-sm-4">
 	  <h2><span class="label label-danger">Located</span></h2>
 	  <p><strong>May 10, 2026, 14:58</strong> &mdash; Bob was found safe.</p>
   </div>
@@ -108,7 +108,7 @@ a.primary-topic:hover, a.primary-topic:active {
 <ol class="list-inline">
   <li><span class="publish-date"><i class="fa-solid fa-calendar-days"></i>&nbsp;&nbsp;May&nbsp;14, 2026&nbsp;&nbsp;|</span></li>
   <li><span class="location"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;Richmond, British Columbia&nbsp;&nbsp;|</span></li>
-  <li><span class="author-name"><i class="fa-regular fa-circle-user"></i>&nbsp;&nbsp;<a href="#">National Communications and Public Affairs</a></span></li>
+  <li><span class="author-name"><i class="fa-regular fa-circle-user"></i>&nbsp;&nbsp;<a href="#">National Headquarters</a></span></li>
 	</ol>
 </div>
 </div>
@@ -200,7 +200,7 @@ a.primary-topic:hover, a.primary-topic:active {
 	<div class="contact-signature">	
 	<div class="row wb-eqht">	
 	<div class="col-md-4">	
-    <h3 class="news-contact-h3">National Communications and Public Affairs</h3>
+    <h3 class="news-contact-h3">National Headquarters</h3>
    <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
    613-555-0100</p>
 	<section class="gc-followus">

@@ -16,10 +16,6 @@ custom_css: /assets/css/careers.css
 	 margin-bottom: 10px;
 	 margin-top: 15px;
 }
-.contact-us {
-	background-color: #f3f2f1;
-	padding-left: 10px;
-}
 .news-contact {
     background: #fff;
 	margin: auto;
@@ -39,7 +35,7 @@ custom_css: /assets/css/careers.css
 	margin-left: 0;
 	margin-top: 0;
 }	
-.news-h3 {
+.news-contact-h3 {
   border-bottom: 0.3rem solid var(--c-yellow);
   border-image: var(--underline-gradient);
   border-image-slice: 1;
@@ -47,8 +43,12 @@ custom_css: /assets/css/careers.css
   padding-bottom: 8px;
   margin: 8px 0 0;
 }	
-.news-contact {
+.news-contact-p {
 font-size: 1.25rem;
+}	
+.contact-us {
+	background-color: #f3f2f1;
+	padding-left: 10px;
 }	
 .byline {
     display: flex;
@@ -200,11 +200,11 @@ a.primary-topic:hover, a.primary-topic:active {
 	<div class="contact-signature">	
 	<div class="row wb-eqht">	
 	<div class="col-md-4">	
-    <h3 class="news-contact">National Communications and Public Affairs</h3>
-   <p class="news-contact"><a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
+    <h3 class="news-contact-h3">National Communications and Public Affairs</h3>
+   <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
    613-555-0100</p>
 	<section class="gc-followus">
-<h3 class="mrgn-tp-lg wb-inv">Follow us</h4>
+<h3 class="mrgn-tp-lg wb-inv">Follow us</h3>
 <ul class="list-inline">     
 <li>
      <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
@@ -222,11 +222,11 @@ a.primary-topic:hover, a.primary-topic:active {
 	</section>	
 	</div>	
 	<div class="col-md-4">	
-<h3 class="news-contact">British Columbia RCMP</h3>
-  <p class="news-contact"><a href="mailto:media@rcmp-grc.gc.ca">bcrcmp-grcencb@rcmp-grc.gc.ca</a><br>
+<h3 class="news-contact-h3">British Columbia RCMP</h3>
+  <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">bcrcmp-grcencb@rcmp-grc.gc.ca</a><br>
    778-290-2929</p>	
 	<section class="gc-followus">
-<h3 class="mrgn-tp-lg wb-inv">Follow us</h2>
+<h3 class="mrgn-tp-lg wb-inv">Follow us</h3>
 <ul class="list-inline">     
 <li>
      <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
@@ -244,11 +244,11 @@ a.primary-topic:hover, a.primary-topic:active {
 	</section>	
 	</div>		
 	<div class="col-md-4">	
-   <h3 class="news-contact">Richmond RCMP</h3>
-   <p class="news-contact"><a href="mailto:name@rcmp-grc.gc.ca">name@rcmp-grc.gc.ca</a><br>
+   <h3 class="news-contact-h3">Richmond RCMP</h3>
+   <p class="news-contact-p"><a href="mailto:name@rcmp-grc.gc.ca">name@rcmp-grc.gc.ca</a><br>
    604-555-5555</p>	
 		<section class="gc-followus">
-<h3 class="mrgn-tp-lg wb-inv">Follow us</h2>
+<h3 class="mrgn-tp-lg wb-inv">Follow us</h3>
 <ul class="list-inline">     
 <li>
      <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">

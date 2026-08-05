@@ -31,7 +31,7 @@ custom_css: /assets/css/careers.css
 	color: #363636;
 }
 .news-article h2 {
-	font-size: 1.5rem;	
+	font-size: .85rem;	
 	margin-left: 0;
 	margin-top: 0;
 }	
@@ -40,11 +40,11 @@ custom_css: /assets/css/careers.css
   border-image: var(--underline-gradient);
   border-image-slice: 1;
   font-size: 1.25rem;
-  padding-bottom: 8px;
-  margin: 8px 0 0;
+  padding-bottom: 10px;
+  margin: 5px 0;
 }	
 .news-contact-p {
-font-size: 1.20rem;
+font-size: 1.1rem;
 }	
 .contact-us {
 	background-color: #f3f2f1;

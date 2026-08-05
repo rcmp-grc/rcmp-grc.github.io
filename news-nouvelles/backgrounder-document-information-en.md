@@ -45,10 +45,10 @@ custom_css: /assets/css/careers.css
   border-image-slice: 1;
   font-size: .85rem;
   font-family: var(--font-display);
-  font-weight: 500;
+  font-weight: 200;
   font-style: normal;
-  padding-bottom: 15px;
-  margin: 15px 0 30px;
+  padding-bottom: 10px;
+  margin: 10px 0 0;
 }	
 .byline {
     display: flex;
@@ -200,7 +200,7 @@ a.primary-topic:hover, a.primary-topic:active {
 	<div class="contact-signature">	
 	<div class="row wb-eqht">	
 	<div class="col-md-4">	
-    <h3 class="new-h3">National Communications and Public Affairs</h3>
+    <h3 class="news-h3">National Communications and Public Affairs</h3>
    <p><a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
    613-555-0100</p>
 	<section class="gc-followus">

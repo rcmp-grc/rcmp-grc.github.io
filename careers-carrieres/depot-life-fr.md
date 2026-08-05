@@ -19,8 +19,8 @@ custom_css: /assets/css/careers.css
     <li><a href="#s2">Aperçu de la vie des cadets</a></li>
     <li><a href="#s3">La vie en troupe</a></li>
     <li><a href="#s4">Mess divisionnaire et autres commodités</a></li>
-    <li><a href="#s5">Soutien à la Division Dépôt</a></li>
-    <li><a href="#s6">Conduite et attentes envers les cadets</a></li>
+    <li><a href="#s5">Soutien</a></li>
+    <li><a href="#s6">Attentes en matière de conduite des cadets[</a></li>
     <li><a href="#s7">La vie communautaire à Regina</a></li>
     <li><a href="#s8">Liens connexes</a></li>
   </ul>
@@ -31,12 +31,10 @@ custom_css: /assets/css/careers.css
 
 <section id="s1">
   <h2>Découvrez la Division Dépôt</h2>
-  <p>L’École de la GRC<!--, communément appelée par plusieurs Dépôt,--> est située à Regina (Saskatchewan).</p>
-  <p>En tant que division  la plus ancienne division de la GRC, depuis 1885, elle a formé des générations de gendarmes à servir les communautés partout au Canada.</p>
-  <p>Le campus de la Division Dépôt est connu à l’échelle nationale; il comprend des salles de classe, des installations de conditionnement physique et des espaces de formation tactique.</p>
-  <p>C’est une installation de formation dynamique et sécurisée dont l’accès est contrôlé.</p>
-  <p>Symbole de son enracinement dans la communauté, la Division Dépôt abrite le plus ancien bâtiment de Regina&nbsp;: la chapelle de la GRC.</p>
-  <p><a href="/fr/depot/visite-virtuelle">Visite virtuelle de l'École de la GRC</a></p>
+<p>L’École de la GRC<!--, communément appelée par plusieurs. Dépôt,--> est située à Regina (Saskatchewan). En tant que division la plus ancienne division de la GRC, depuis 1885, elle a formé des générations de gendarmes à servir les communautés partout au Canada.</p>
+<p>Le campus de L’École de la GRC est connu à l’échelle nationale; il comprend des salles de classe, des installations de conditionnement physique et des espaces de formation tactique. C’est une installation de formation dynamique et sécurisée dont l’accès est contrôlé. Symbole de son enracinement dans la communauté, la Division Dépôt abrite le plus ancien bâtiment de Regina&nbsp;: la chapelle de la GRC.</p>
+
+	  <p><a href="/fr/depot/visite-virtuelle">Visite virtuelle de l'École de la GRC</a></p>
 </section>
 
 <section id="s2">
@@ -95,7 +93,7 @@ custom_css: /assets/css/careers.css
       </ul>
     </dd>
     <dt>Les installations récréatives</dt>
-    <dd>Ceux-ci comprennent des équipements de conditionnement physique extérieurs, plusieurs gymnases, une piscine, un parcours de disc golf etr une patinoire extérieure.</dd>
+    <dd>Ceux-ci comprennent des équipements de conditionnement physique extérieurs, plusieurs gymnases, une piscine, un parcours de disc golf et une patinoire extérieure.</dd>
     <dt>Le stationnement</dt>
     <dd>Les stationnements sont accessibles aux véhicules privés et il est gratuit. Il n’y a pas de prise pour chauffe-moteurs et véhicules électriques dans l’espace de stationnement réservé aux cadets.</dd>
     <dt>Une buanderie sur place</dt>
@@ -116,17 +114,17 @@ custom_css: /assets/css/careers.css
 </section>
 
 <section id="s6">
-  <h2>Attentes en matière de conduite des cadets</h2>
-  <dl>
-    <dt>Valeurs fondamentales de la GRC</dt>
-    <dd>Les policiers et les cadets de la GRC doivent constamment incarner <a href="/fr/renseignements-organisationnels/valeurs-fondamentales-gendarmerie-royale-du-canada">les valeurs fondamentales de la GRC</a>, c’est-à-dire qu’ils doivent assumer leurs.</dd>
-    <dt>Consommation d’alcool</dt>
+	<h2>Attentes en matière de conduite des cadets</h2>
+	<dl>
+		<dt>Valeurs fondamentales de la GRC</dt>
+		<dd>Les policiers et les cadets de la GRC doivent constamment incarner <a href="/fr/renseignements-organisationnels/valeurs-fondamentales-gendarmerie-royale-du-canada">les valeurs fondamentales de la GRC</a>, c’est-à-dire qu’ils doivent assumer leurs responsabilités, faire preuve de respect et de compassion, servir avec excellence et agir avec intégrité, qu’ils soient de service ou non.</dd>
+		<dt>Consommation d’alcool</dt>
 		<dd>La consommation d’alcool est interdite dans les dortoirs et sur les balcons; elle n’est permise que dans le salon des recrues et doit être achetée sur place.</dd>
 		<dt>Utilisation des appareils personnels</dt>
 		<dd>Les cadets peuvent utiliser de façon limitée leurs appareils personnels le soir et la fin de semaine. Les appareils sont interdits pendant les examens.</dd>
 		<dt>Demandes liées à l’horaire</dt>
 		<dd>L’horaire est chargé, de sorte qu’il peut être difficile de communiquer avec la famille et les amis.</dd>
-  </dl>
+	</dl>
 </section>
 
 <section id="s7">

@@ -19,37 +19,37 @@ hero_image: /assets/img/landing-cadet-hub.jpg
 <section class="gc-features">
 	<h2 class="wb-inv">Topics</h2>
 	<ul class="list-unstyled row">
-		<li class="col-md-6">
+		<li class="col-md-6 col-12">
 			<div class="well">
 				<h3 class="h5"><a href="#">Expectations for physical standards</a></h3>
 				<p>Understand the physical demands and how to prepare for the Police Fitness Assessment.</p>
 			</div>
 		</li>
-		<li class="col-md-6">
+		<li class="col-md-6 col-12">
 			<div class="well">
 				<h3 class="h5"><a href="#">Cadet Training Program</a></h3>
 				<p>Know what to expect and prepare for the 26-week training program.</p>
 			</div>
 		</li>
-		<li class="col-md-6">
+		<li class="col-md-6 col-12">
 			<div class="well">
 				<h3 class="h5"><a href="#">A glimpse into Depot life</a></h3>
 				<p>Get a closer look at life, training, and community at the RCMP training academy.</p>
 			</div>
 		</li>
-		<li class="col-md-6">
+		<li class="col-md-6 col-12">
 			<div class="well">
 				<h3 class="h5"><a href="#">Inside Depot training</a></h3>
 				<p>Explore Training Tuesdays articles for regular insight into featured aspects of the Depot experience.</p>
 			</div>
 		</li>
-		<li class="col-md-6">
+		<li class="col-md-6 col-12">
 			<div class="well">
 				<h3 class="h5"><a href="#">Cadet Chronicles </a></h3>
 				<p>Follow the 26-week journey to become a Mountie through the lens of a cadet.</p>
 			</div>
 		</li>
-		<li class="col-md-6">
+		<li class="col-md-6 col-12">
 			<div class="well">
 				<h3 class="h5"><a href="#">Virtual Tour of Depot</a></h3>
 				<p>Take a virtual tour of the facilities and daily spaces.</p>

@@ -16,11 +16,7 @@ custom_css: /assets/css/careers.css
 	 margin-bottom: 10px;
 	 margin-top: 15px;
 }
-.contact-us {
-	background-color: #f3f2f1;
-	padding-left: 10px;
-}
-.news-article {
+.news-alert {
     background: #fff;
 	margin: auto;
 	margin-right: 15px; 
@@ -28,16 +24,34 @@ custom_css: /assets/css/careers.css
 	padding-right: 5px;
 	padding-left: 5px;
 }
-.news-article p {
+.news-alert ul {
+    list-style-type: square;
+	list-style-position: outside;
 	font-size: 0.95rem;	
 	margin-left: 15px;
 	margin-top: 5px;
 	color: #363636;
 }
-.news-article h2 {
-	font-size: 1.5rem;	
+.news-alert h2 {
+	font-size: 1.4rem;	
 	margin-left: 0;
 	margin-top: 0;
+	font-waight: bold;
+}	
+.news-contact-h4 {
+  border-bottom: 0.3rem solid var(--c-yellow);
+  border-image: var(--underline-gradient);
+  border-image-slice: 1;
+  font-size: 1.25rem;
+  padding-bottom: 10px;
+  margin: 5px 0;
+}	
+.news-contact-p {
+font-size: 1.1rem;
+}	
+.contact-us {
+	background-color: #f3f2f1;
+	padding-left: 10px;
 }	
 .byline {
     display: flex;
@@ -83,9 +97,11 @@ a.primary-topic:hover, a.primary-topic:active {
 </style>
 <article>	
 <div class="row">
-  <div class="news-article pull-right col-sm-4">
+  <div class="news-alert pull-right col-sm-4">
 	  <h2><span class="label label-danger">Located</span></h2>
-	  <p><strong>May 10, 2026, 14:58</strong> &mdash; Bob was found safe.</p>
+	  <ul>
+	  <li><strong>May 10, 2026, 14:58</strong> &mdash; Bob was found safe.</li>
+	  </ul>
   </div>
   <div class="mrgn-lft-md">
    <p class="lead">Bob the Polar Bear is the Royal Canadian Mounted Police’s newest unofficial northern mascot.</p>
@@ -97,7 +113,7 @@ a.primary-topic:hover, a.primary-topic:active {
 <ol class="list-inline">
   <li><span class="publish-date"><i class="fa-solid fa-calendar-days"></i>&nbsp;&nbsp;May&nbsp;14, 2026&nbsp;&nbsp;|</span></li>
   <li><span class="location"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;Richmond, British Columbia&nbsp;&nbsp;|</span></li>
-  <li><span class="author-name"><i class="fa-regular fa-circle-user"></i>&nbsp;&nbsp;<a href="#">National Communications and Public Affairs</a></span></li>
+  <li><span class="author-name"><i class="fa-regular fa-circle-user"></i>&nbsp;&nbsp;<a href="#">National Headquarters</a></span></li>
 	</ol>
 </div>
 </div>
@@ -185,15 +201,15 @@ a.primary-topic:hover, a.primary-topic:active {
 </ul>
 </section>
 <section id="gc-contact" class="contact-us">
-	<h2 class="h3">Contact us</h2>
-	<div class="row wb-eqht">
+	<h3>Contact us</h3>
 	<div class="contact-signature">	
-	<div class="col-md-4 brdr-rght">	
-    <p><strong>National Communications and Public Affairs</strong><br>
-   <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
-   613-555-0100</p>	
+	<div class="row wb-eqht">	
+	<div class="col-md-4">	
+    <h4 class="news-contact-h4">National Headquarters</h4>
+   <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
+   613-555-0100</p>
 	<section class="gc-followus">
-<h2 class="h4 mrgn-tp-lg wb-inv">Follow us</h2>
+<h4 class="mrgn-tp-lg wb-inv">Follow us</h4>
 <ul class="list-inline">     
 <li>
      <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
@@ -210,12 +226,12 @@ a.primary-topic:hover, a.primary-topic:active {
 							</ul>
 	</section>	
 	</div>	
-	<div class="col-md-4 brdr-rght">	
-    <p><strong>British Columbia RCMP</strong><br>
-   <a href="mailto:media@rcmp-grc.gc.ca">bcrcmp-grcencb@rcmp-grc.gc.ca</a><br>
+	<div class="col-md-4">	
+<h4 class="news-contact-h4">British Columbia RCMP</h4>
+  <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">bcrcmp-grcencb@rcmp-grc.gc.ca</a><br>
    778-290-2929</p>	
 	<section class="gc-followus">
-<h2 class="h4 mrgn-tp-lg wb-inv">Follow us</h2>
+<h4 class="mrgn-tp-lg wb-inv">Follow us</h4>
 <ul class="list-inline">     
 <li>
      <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
@@ -233,11 +249,11 @@ a.primary-topic:hover, a.primary-topic:active {
 	</section>	
 	</div>		
 	<div class="col-md-4">	
-    <p><strong>Richmond RCMP</strong><br>
-   <a href="mailto:name@rcmp-grc.gc.ca">name@rcmp-grc.gc.ca</a><br>
+   <h4 class="news-contact-h4">Richmond RCMP</h4>
+   <p class="news-contact-p"><a href="mailto:name@rcmp-grc.gc.ca">name@rcmp-grc.gc.ca</a><br>
    604-555-5555</p>	
 		<section class="gc-followus">
-<h2 class="h4 mrgn-tp-lg wb-inv">Follow us</h2>
+<h4 class="mrgn-tp-lg wb-inv">Follow us</h4>
 <ul class="list-inline">     
 <li>
      <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
@@ -255,9 +271,9 @@ a.primary-topic:hover, a.primary-topic:active {
 	</section>
 	</div>		
 	</div>
-	<div class="clearfix"></div>	
 	</div>
-	</section>
+   </section>
+	<div class="clearfix"></div>	
 <div class="explore">	
 <section id="topics">	
 <h2 class="h4">Explore related topics</h2>

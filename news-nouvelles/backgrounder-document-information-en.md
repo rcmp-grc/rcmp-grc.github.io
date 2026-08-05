@@ -43,8 +43,7 @@ custom_css: /assets/css/careers.css
   border-bottom: 0.3rem solid var(--c-yellow);
   border-image: var(--underline-gradient);
   border-image-slice: 1;
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 1.25rem;
   padding-bottom: 8px;
   margin: 8px 0 0;
 }	

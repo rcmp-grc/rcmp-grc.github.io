@@ -18,6 +18,7 @@ hero_image: /assets/img/landing-cadet-hub.jpg
 
 <section class="gc-features">
 	<h2 class="wb-inv">Topics</h2>
+	<div class="gc-features">
 	<ul class="list-unstyled row">
 		<li class="col-md-6 col-12">
 			<div class="well">
@@ -56,6 +57,7 @@ hero_image: /assets/img/landing-cadet-hub.jpg
 			</div>
 		</li>
 	</ul>
+	</div>
 </section>
 <!--
 <section>

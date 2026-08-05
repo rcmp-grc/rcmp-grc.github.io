@@ -26,7 +26,7 @@ custom_css: /assets/css/careers.css
 }
 .news-alert ul {
     list-style-type: square;
-	list-style-position: inside;
+	list-style-position: outside;
 	font-size: 0.95rem;	
 	margin-left: 15px;
 	margin-top: 5px;

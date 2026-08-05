@@ -20,40 +20,40 @@ hero_image: /assets/img/landing-cadet-hub.jpg
 	<h2 class="wb-inv">Topics</h2>
 	<ul class="list-unstyled row">
 		<li class="col-md-6">
-			<div class="well">
+			<section class="well">
 				<h3 class="h5"><a href="#">Exigences physiques</a></h3>
 				<p>Prenez connaissance des exigences physiques et de la façon de se préparer au Test de condition physique pour les policiers de la GRC.</p>
-			</div>
+			</section>
 		</li>
 		<li class="col-md-6">
-			<div class="well">
+			<section class="well">
 				<h3 class="h5"><a href="#">Programme de formation des cadets</a></h3>
 				<p>Sachez à quoi vous attendre et préparez-vous à suivre le Programme de formation de 26&nbsp;semaines.</p>
-			</div>
+			</section>
 		</li>
 		<li class="col-md-6">
-			<div class="well">
+			<section class="well">
 				<h3 class="h5"><a href="#">Aperçu de la vie à la Division Dépôt</a></h3>
 				<p>Découvrez la vie, la formation et la communauté à l'École de la GRC.</p>
-			</div>
+			</section>
 		</li>
 		<li class="col-md-6">
-			<div class="well">
+			<section class="well">
 				<h3 class="h5"><a href="#">La Division Dépôt de l'intérieur</a></h3>
 				<p>Consultez les Mardis formation pour trouver des articles offrant régulièrement des informations sur les aspects clés de l'expérience à la Division Dépôt.</p>
-			</div>
+			</section>
 		</li>
 		<li class="col-md-6">
-			<div class="well">
+			<section class="well">
 				<h3 class="h5"><a href="#">Journal d'un cadet</a></h3>
 				<p>Suivez un cadet dans son parcours de 26&nbsp;semaines pour devenir gendarme.</p>
-			</div>
+			</section>
 		</li>
 		<li class="col-md-6">
-			<div class="well">
+			<section class="well">
 				<h3 class="h5"><a href="#">Visite virtuelle de la Division Dépôt</a></h3>
 				<p>Faites une visite virtuelle des installations et des espaces quotidiens.</p>
-			</div>
+			</section>
 		</li>
 	</ul>
 </section>

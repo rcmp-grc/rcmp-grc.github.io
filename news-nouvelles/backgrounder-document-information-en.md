@@ -28,7 +28,7 @@ custom_css: /assets/css/careers.css
     list-style-type: square;
 	list-style-position: outside;
 	font-size: 0.95rem;	
-	margin-left: 15px;
+	margin-left: 5px;
 	margin-top: 5px;
 	color: #363636;
 }
@@ -78,9 +78,9 @@ font-size: 1.1rem;
 a.primary-topic:link, a.primary-topic:visited {
     background-color: #ffffff;
     color: #0f3d20;
-    padding: 4px 10px;
+    padding: 6px 13px;
 	border-radius: 8px;
-	font-size: 0.85rem;
+	font-size: 0.95rem;
     font-weight: bold;	
     text-align: center;
     text-decoration: none;
@@ -207,7 +207,7 @@ a.primary-topic:hover, a.primary-topic:active {
 	<div class="col-md-4">	
     <h4 class="news-contact-h4">National Headquarters</h4>
    <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
-   613-555-0100</p>
+   <i class="fa-utility-fill fa-semibold fa-mobile"></i>&nbsp;613-555-0100</p>
 	<section class="gc-followus">
 <h4 class="mrgn-tp-lg wb-inv">Follow us</h4>
 <ul class="list-inline">     

@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: La vie d'un policier ou d'une policière
-date_modified: 2026-07-27
+date_modified: 2026-08-06
 lang: fr
 lang_url: police-life-en.html
 breadcrumbs:
@@ -18,7 +18,7 @@ custom_css: /assets/css/careers.css
     <p>Le nombre de fois qu'un policier doit déménager varie en fonction de son rôle, des promotions qu'il vise, des besoins en ressources humaines et des possibilités d'affectation. La GRC est une organisation nationale offrant des possibilités de carrière variées comme aucun autre service de police au Canada. Nous servons des communautés partout au pays, et grâce à leur mobilité, nos policiers acquièrent une expérience variée tout en faisant progresser leur carrière et en répondant aux besoins opérationnels de l'organisation.</p>
     <section id="s1-1">
         <h3>Les policiers de la GRC travaillent par quarts</h3>
-        <p>Le maintien de l'ordre est un service public assuré 24&nbsp;heures sur 24. Il faut s'attendre à travailler parquarts, notamment&nbsp;:</p>
+        <p>Le maintien de l'ordre est un service public assuré 24&nbsp;heures sur 24. Il faut s'attendre à travailler par quarts, notamment&nbsp;:</p>
         <ul>
             <li>nuits</li>
             <li>soirées</li>

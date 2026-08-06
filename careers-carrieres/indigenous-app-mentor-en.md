@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Indigenous Applicant Mentorship Program
-date_modified: 2026-07-09
+date_modified: 2026-08-06
 lang: en
 lang_url: indigenous-app-mentor-fr.html
 breadcrumbs:
@@ -36,18 +36,6 @@ custom_css: /assets/css/careers.css
 
 <section id="s2">
   <h2>What to expect</h2>
-  <aside class="pull-right col-xs-12 col-md-3 col-lg-4">
-    <section class="panel panel-default">
-      <header class="panel-heading">
-        <h3 class="h5 panel-title mrgn-tp-sm">Learn more</h3>
-      </header>
-      <div class="panel-body">
-        <ul>
-          <li>Curious if a job in policing is right for you? <a href="#">Take the Readiness Check</a></li>
-        </ul>
-      </div>
-    </section>
-  </aside>
   <p>As a mentee in the I-AM-RCMP program, you will:</p>
   <ul>
     <li>be matched with an RCMP member who self-identifies as First Nations, Inuit, or Métis and understands the unique challenges and strengths Indigenous applicants bring to the RCMP</li>
@@ -62,4 +50,6 @@ custom_css: /assets/css/careers.css
   <h2>Become a mentee</h2>
   <p>Are you an Indigenous applicant interested in being paired with a mentor through the I-AM-RCMP mentorship program?</p>
   <p>Once you apply to become a police officer, confirm that you meet the basic requirements, and you self-identify as First Nations, Inuit, or Métis, you'll have the option to be paired with a mentor to guide you through the application process. While the program is formally offered after an application is submitted, you can contact a recruiter and request to be matched with a mentor sooner so you can feel supported, inspired, and excited to apply.</p>
+  <p>Curious if a job in policing is right for you?</p>
+  <p><a href="#" class="btn btn-careers mrgn-bttm-lg">Take the Readiness Check</a></p>
 </section>

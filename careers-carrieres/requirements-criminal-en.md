@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Criminal activity or behaviour that could impact your RCMP application
-date_modified: 2026-07-10
+date_modified: 2026-08-06
 lang: en
 lang_url: requirements-criminal-fr.html
 breadcrumbs:
@@ -24,11 +24,7 @@ custom_css: /assets/css/careers.css
 <p>As a police officer, you are expected to uphold the law. Any criminal activity or behaviour during the application process could disqualify you from the process.</p>
 <p>During the application process, you:</p>
 <ul>
-  <li>must not participate in any criminal behaviour or activity in Canada or abroad
-    <ul>
-      <li>whether you are arrested and/or charged or not</li>
-    </ul>
-  </li>
+  <li>must not participate in any criminal behaviour or activity in Canada or abroad, regardless of whether you are arrested or charged</li>
   <li>must not cheat on any portion of the RCMP application process</li>
 </ul>
 
@@ -73,7 +69,7 @@ custom_css: /assets/css/careers.css
 <section id="s3">
   <h2>Related links</h2>
   <ul>
-    <li><a href="#">Basic requirements</a></li>
-    <li><a href="#">6.0 – application process: Complete field investigation</a></li>
+    <li><a href="#">Basic requirements to be an RCMP police officer</a></li>
+    <li><a href="#">Complete a field investigation and security assessment</a></li>
   </ul>
 </section>

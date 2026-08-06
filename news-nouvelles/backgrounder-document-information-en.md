@@ -29,7 +29,7 @@ custom_css: /assets/css/careers.css
 	list-style-color: var(--rcmp-red);
 	font-size: 0.95rem;	
 	margin-top: 5px;
-	margin-left: 10px;
+	margin-left: 5px;
 	color: #363636;
 }
 .news-alert h2 {
@@ -78,7 +78,7 @@ font-size: 1.1rem;
 a.primary-topic:link, a.primary-topic:visited {
     background-color: #ffffff;
     color: #0f3d20;
-    padding: 6px 13px;
+    padding: 4px 10px;
 	border-radius: 8px;
 	font-size: 1rem;
     font-weight: bold;	

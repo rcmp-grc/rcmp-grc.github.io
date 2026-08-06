@@ -57,7 +57,7 @@ font-size: 1.1rem;
     align-items: center;
     margin-bottom: 20px;
 	margin-top: 10px;
-    font-size: 0.95rem;
+    font-size: 1rem;
     color: #404040;
 }
 .byline-text {
@@ -79,7 +79,7 @@ a.primary-topic:link, a.primary-topic:visited {
     color: #0f3d20;
     padding: 6px 13px;
 	border-radius: 8px;
-	font-size: 0.95rem;
+	font-size: 1rem;
     font-weight: bold;	
     text-align: center;
     text-decoration: none;

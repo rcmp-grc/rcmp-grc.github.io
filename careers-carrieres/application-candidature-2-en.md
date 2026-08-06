@@ -41,7 +41,7 @@ custom_css: /assets/css/careers.css
 
 <section id="s1">
   <h2>Online career presentation</h2>
-  <p>After you've been screened into the process, you'll be contacted by email inviting to you to attend an online career presentation.</p>
+  <p>After you've been screened into the process, you'll be contacted by email inviting you to attend an online career presentation.</p>
   <p>During the presentation, you'll learn more about a career in policing with the RCMP.</p>
 </section>
 

@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Programme de mentorat de postulants autochtones
-date_modified: 2026-07-10
+date_modified: 2026-08-06
 lang: fr
 lang_url: indigenous-app-mentor-en.html
 breadcrumbs:
@@ -36,18 +36,6 @@ custom_css: /assets/css/careers.css
 
 <section id="s2">
   <h2>À quoi s'attendre?</h2>
-  <aside class="pull-right col-xs-12 col-md-3 col-lg-4">
-    <section class="panel panel-default">
-      <header class="panel-heading">
-        <h3 class="h5 panel-title mrgn-tp-sm">En savoir plus</h3>
-      </header>
-      <div class="panel-body">
-        <ul>
-          <li>Vous vous demandez si une carrière dans la police vous convient? <a href="#">Faites le test de préparation.</a></li>
-        </ul>
-      </div>
-    </section>
-  </aside>
   <p>À titre de mentoré du PMPA de la GRC, vous&nbsp;:</p>
   <ul>
     <li>serez jumelé à un policier de la GRC qui s'identifie comme Inuit, Métis ou membre des Premières Nations, et qui comprend les défis particuliers que doivent affronter les postulants autochtones ainsi que les forces qu'ils apportent à l'organisation;</li>
@@ -62,4 +50,6 @@ custom_css: /assets/css/careers.css
   <h2>Comment devenir un mentoré</h2>
   <p>Êtes-vous une personne autochtone qui souhaite être jumelée à un mentor dans le cadre du PMPA de la GRC?</p>
   <p>Après avoir présenté une demande pour devenir policier, avoir confirmé que vous répondez aux exigences de base et vous être identifié comme Inuit, Métis ou membre des Premières Nations, vous aurez la possibilité d'être jumelé à un mentor qui vous guidera dans le processus de recrutement. Le PMPA est proposé officiellement aux postulants après le dépôt de leur candidature, mais vous pouvez communiquer avec un recruteur et demander à être jumelé à un mentor plus tôt afin de vous sentir accompagné, inspiré et emballé à la perspective de postuler.</p>
+  <p>Vous vous demandez si une carrière dans la police vous convient?</p>
+  <p><a href="#" class="btn btn-careers mrgn-bttm-lg">Faites le test de préparation</a></p>
 </section>

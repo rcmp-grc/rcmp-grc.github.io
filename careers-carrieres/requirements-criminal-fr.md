@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Activité ou comportement criminels susceptibles de nuire à votre candidature à la GRC
-date_modified: 2026-07-10
+date_modified: 2026-08-06
 lang: fr
 lang_url: requirements-criminal-en.html
 breadcrumbs:
@@ -24,11 +24,7 @@ custom_css: /assets/css/careers.css
 <p>En tant que policier(ière), votre responsabilité consistera à faire respecter la loi. Par conséquent, tout comportement ou activité criminels pendant le processus d'embauche de candidature pourrait vous disqualifier.</p>
 <p>Pendant le processus d'embauche, vous ne devez pas&nbsp;:</p>
 <ul>
-  <li>avoir de comportement criminel ni participer à une activité criminelle au Canada ou à l'étranger
-    <ul>
-      <li>et ce, que vous soyez arrêté ou mis en accusation ou pas;</li>
-    </ul>
-  </li>
+  <li>avoir de comportement criminel ni participer à une activité criminelle au Canada ou à l’étranger, que vous soyez arrêté ou mis en accusation</li>
   <li>tricher à quelque étape du processus d'embauche de la GRC.</li>
 </ul>
 
@@ -73,7 +69,7 @@ custom_css: /assets/css/careers.css
 <section id="s3">
   <h2>Liens connexes</h2>
   <ul>
-    <li><a href="#">Exigences fondamentales</a></li>
-    <li><a href="#">6.0 – Processus de candidature&nbsp;: Enquête sur les antécédents terminée</a></li>
+    <li><a href="#">Passez une enquête sur les antécédents et une évaluation de sécurité</a></li>
+    <li><a href="#">Exigences de base pour devenir agent ou agente de la GRC</a></li>
   </ul>
 </section>

@@ -31,7 +31,7 @@ custom_css: /assets/css/careers.css
 
 <section id="s1">
   <h2>Découvrez la Division Dépôt</h2>
-<p>L’École de la GRC<!--, communément appelée par plusieurs. Dépôt,--> est située à Regina (Saskatchewan). En tant que division la plus ancienne division de la GRC, depuis 1885, elle a formé des générations de gendarmes à servir les communautés partout au Canada.</p>
+<p>L’École de la GRC est située à Regina (Saskatchewan). En tant que division la plus ancienne division de la GRC, depuis 1885, elle a formé des générations de gendarmes à servir les communautés partout au Canada.</p>
 <p>Le campus de L’École de la GRC est connu à l’échelle nationale; il comprend des salles de classe, des installations de conditionnement physique et des espaces de formation tactique. C’est une installation de formation dynamique et sécurisée dont l’accès est contrôlé. Symbole de son enracinement dans la communauté, la Division Dépôt abrite le plus ancien bâtiment de Regina&nbsp;: la chapelle de la GRC.</p>
 
 	  <p><a href="/fr/depot/visite-virtuelle">Visite virtuelle de l'École de la GRC</a></p>

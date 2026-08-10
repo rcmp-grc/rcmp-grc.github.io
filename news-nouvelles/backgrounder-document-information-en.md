@@ -251,7 +251,7 @@ a.primary-topic:hover, a.primary-topic:active {
 	<div class="col-md-4">	
    <h4 class="news-contact-h4">Richmond RCMP</h4>
    <p class="news-contact-p"><a href="mailto:name@rcmp-grc.gc.ca">name@rcmp-grc.gc.ca</a><br>
-   <i class="fa-solid fa-phone fa-2xl"></i>&nbsp;604-555-5555</p>	
+   <i class="fa-sharp fa-solid fa-phone fa-lg"></i>&nbsp;604-555-5555</p>	
 		<section class="gc-followus">
 <h4 class="mrgn-tp-lg wb-inv">Follow us</h4>
 <ul class="list-inline">     

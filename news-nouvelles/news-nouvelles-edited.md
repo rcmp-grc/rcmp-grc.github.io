@@ -408,10 +408,11 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   }
   function filterData(filters) {
     return PROFILES.filter(function (p) {
-    return !filters.category.length || filters.category.indexOf(p.category) > -1;
-	return !filters.location.length || filters.location.indexOf(p.location) > -1;	
-	return !filters.territory.length || filters.territory.indexOf(p.territory) > -1;
-	return !filters.region.length || filters.region.indexOf(p.region) > -1;	
+    var okc = !filters.category.length || filters.category.indexOf(p.category) > -1;
+	var okl = !filters.location.length || filters.location.indexOf(p.location) > -1;	
+	var okt !filters.territory.length || filters.territory.indexOf(p.territory) > -1;
+	var okr !filters.region.length || filters.region.indexOf(p.region) > -1;
+    return okc && okl && okt && okr;
     });
   }
   function renderTags(filters) {
@@ -464,7 +465,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     noResults.style.display  = show ? 'none'  : 'block';
     pagination.style.display = show ? 'block' : 'none';
     if (!show) return;
-    slice.forEach(function (p) {
+    slice.forEach(function(p) {
       var li = document.createElement('div');
       li.setAttribute('role', 'listitem');
       li.innerHTML =
@@ -479,41 +480,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       grid.appendChild(li);
     });
   }
-  function renderPagination(total, page) {
-    var pages    = Math.ceil(total / PER_PAGE);
-    var pageList = $('news-page-list');
-    prevBtn.disabled                    = page <= 1;
-    nextBtn.disabled                    = page >= pages;
-    prevBtn.parentElement.style.visibility = page <= 1     ? 'hidden' : '';
-    nextBtn.parentElement.style.visibility = page >= pages ? 'hidden' : '';
-    if (!pageList) return;
-    pageList.innerHTML = '';
-    var slots = buildPageSlots(page, pages);
-    slots.forEach(function (slot) {
-      var li = document.createElement('li');
-      if (slot === '…') {
-        li.className = 'rcmp-item-pagination__item rcmp-item-pagination__item--ellipsis';
-        li.setAttribute('aria-hidden', 'true');
-        li.textContent = '⋯';
-      } else {
-        li.className = 'rcmp-item-pagination__item' + (slot === page ? ' rcmp-item-pagination__item--current' : '');
-        var btn = document.createElement('button');
-        btn.type = 'button';
-        btn.className = 'rcmp-item-pagination__item-link';
-        btn.setAttribute('aria-label', t.pageLabel + slot);
-        if (slot === page) btn.setAttribute('aria-current', 'page');
-        btn.textContent = slot;
-        btn.addEventListener('click', function () {
-          currentPage = slot;
-          draw();
-          grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        });
-        li.appendChild(btn);
-      }
-      pageList.appendChild(li);
-    });
-  }
-  function buildPageSlots(page, pages) {
+    function buildSlots(page, pages) {
     if (pages <= 7) {
       var all = [];
       for (var i = 1; i <= pages; i++) all.push(i);
@@ -526,6 +493,49 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     slots.push(pages);
     return slots;
   }
+ function renderPagination(total, page) {
+    var pages = Math.ceil(total / PER_PAGE);
+    var pageList = document.getElementById('re-page-list');
+    prevBtn.disabled = page <= 1;
+    nextBtn.disabled = page >= pages;
+    prevBtn.parentElement.style.visibility = page <= 1 ? 'hidden' : '';
+    nextBtn.parentElement.style.visibility = page >= pages ? 'hidden' : '';
+    prevBtn.setAttribute('aria-disabled', page <= 1 ? 'true' : 'false');
+    nextBtn.setAttribute('aria-disabled', page >= pages ? 'true' : 'false');
+    pageList.innerHTML = '';
+    buildSlots(page, pages).forEach(function(slot) {
+      var li = document.createElement('li');
+      if (slot === '…') {
+        li.className = 'rcmp-item-pagination__item rcmp-item-pagination__item--ellipsis';
+        li.setAttribute('aria-hidden', 'true');
+        li.textContent = '⋯';
+      } else {
+        li.className = 'rcmp-item-pagination__item' + (slot === page ? ' rcmp-item-pagination__item--current' : '');
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'rcmp-item-pagination__item-link';
+        btn.setAttribute('aria-label', 'Page ' + slot);
+        if (slot === page) btn.setAttribute('aria-current', 'page');
+        btn.textContent = slot;
+        btn.addEventListener('click', function() {
+          currentPage = slot;
+          draw();
+          scrollToGrid();
+        });
+        li.appendChild(btn);
+      }
+      pageList.appendChild(li);
+    });
+  }
+  function scrollToGrid() {
+    var top = grid.getBoundingClientRect().top + window.pageYOffset;
+    var nav = document.querySelector('.careers-nav');
+    var offset = nav ? nav.offsetHeight + 16 : 80;
+    window.scrollTo({
+      top: top - offset,
+      behavior: 'smooth'
+    });
+  }
   function draw() {
     renderGrid(activeData, currentPage);
     renderPagination(activeData.length, currentPage);
@@ -536,27 +546,122 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     currentPage = 1;
     countNum.textContent = activeData.length;
     renderTags(filters);
+    if (!Object.keys(filters).some(function(cat) {
+        return filters[cat].length > 0;
+      })) {
+      activeTagEl.style.display = 'none';
+    }
     draw();
   }
-  checkboxes.forEach(function (cb) { cb.addEventListener('change', refresh); });
-  sortSel.addEventListener('change', function () {
-    activeData  = sortData(activeData, sortSel.value);
+ Array.prototype.forEach.call(checkboxes, function(cb) {
+    cb.addEventListener('change', refresh);
+  });
+  Array.prototype.forEach.call(selects, function(sel) {
+    sel.addEventListener('change', refresh);
+  });
+  clearBtn.addEventListener('click', function () {
+    Array.prototype.forEach.call(checkboxes, function (cb) { cb.checked = false; });
+    Array.prototype.forEach.call(selects, function (sel) { sel.value = ''; });
+    refresh();
+  });
+  prevBtn.addEventListener('click', function() {
+    if (currentPage > 1) {
+      currentPage--;
+      draw();
+      scrollToGrid();
+    }
+  });
+  nextBtn.addEventListener('click', function() {
+    if (currentPage < Math.ceil(activeData.length / PER_PAGE)) {
+      currentPage++;
+      draw();
+      scrollToGrid();
+    }
+  });
+ function refresh() {
+    var filters = getActiveFilters();
+    activeData = filterData(filters);
     currentPage = 1;
+    countNumEl.textContent = activeData.length;
+    document.getElementById('re-count-text').textContent = activeData.length === 1
+      ? UI[LANG].eventFound
+      : UI[LANG].eventsFound;
+    renderTags(filters);
+    if (!Object.keys(filters).some(function(cat) {
+        return filters[cat].length > 0;
+      })) {
+      activeTagEl.style.display = 'none';
+    }
     draw();
-  });
-  function paginate(dir, btn) {
-    currentPage += dir;
-    draw();
-    grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    btn.blur();
   }
-  prevBtn.addEventListener('click', function () {
-    if (currentPage > 1) paginate(-1, prevBtn);
+  Array.prototype.forEach.call(checkboxes, function(cb) {
+    cb.addEventListener('change', refresh);
   });
-  nextBtn.addEventListener('click', function () {
-    if (currentPage < Math.ceil(activeData.length / PER_PAGE)) paginate(1, nextBtn);
+  Array.prototype.forEach.call(selects, function(sel) {
+    sel.addEventListener('change', refresh);
   });
-  updateBadges();
+  clearBtn.addEventListener('click', function () {
+    Array.prototype.forEach.call(checkboxes, function (cb) { cb.checked = false; });
+    Array.prototype.forEach.call(selects, function (sel) { sel.value = ''; });
+    refresh();
+  });
+  prevBtn.addEventListener('click', function() {
+    if (currentPage > 1) {
+      currentPage--;
+      draw();
+      scrollToGrid();
+    }
+  });
+  nextBtn.addEventListener('click', function() {
+    if (currentPage < Math.ceil(activeData.length / PER_PAGE)) {
+      currentPage++;
+      draw();
+      scrollToGrid();
+    }
+  });
+  function applyQueryString() {
+    var params = new URLSearchParams(window.location.search);
+    var openCats = {};
+    var pVals = params.getAll(QUERY_category);
+    pVals.forEach(function(id) {
+      var name = category[LANG][parseInt(id, 3)];
+      if (!name) return;
+      var cb = document.querySelector('input[data-filter="category"][value="' + name + '"]');
+      if (cb) {
+        cb.checked = true;
+        openCats['category'] = true;
+      }
+    });
+	var jVals = params.getAll(QUERY_location);
+    jVals.forEach(function(id) {
+      var name = location[LANG][parseInt(id, 4)];
+      if (!name) return;
+      var sel = document.querySelector('select[data-filter="location"]');
+      if (sel) sel.value = name;
+    });   
+    var jVals = params.getAll(QUERY_territory);
+    jVals.forEach(function(id) {
+      var name = territory[LANG][parseInt(id, 5)];
+      if (!name) return;
+      var sel = document.querySelector('select[data-filter="territory"]');
+      if (sel) sel.value = name;
+    });
+	var jVals = params.getAll(QUERY_updated);
+    jVals.forEach(function(id) {
+      var name = updated[LANG][parseInt(id, 8)];
+      if (!name) return;
+      var sel = document.querySelector('select[data-filter="updated"]');
+      if (sel) sel.value = name;
+    });  
+    Object.keys(openCats).forEach(function(cat) {
+      var cb = document.querySelector('input[data-filter="' + cat + '"]');
+      if (cb) {
+        var details = cb.closest('details.wp-filter-group');
+        if (details) details.open = true;
+      }
+    });
+  }
+  applyQueryString();
   refresh();
 }());
 </script>

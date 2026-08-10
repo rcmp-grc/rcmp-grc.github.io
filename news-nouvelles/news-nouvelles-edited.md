@@ -374,8 +374,8 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   var PROFILES = RAW.map(function (r, i) {
     return {
       id:        i + 1,
-      name:      r[ni],
-	  badge:     r[2], 	
+      name:      r[ni],	
+	  badge:     r[2],	
       category:  r[3],
 	  location:  r[4],	
       territory: r[5],
@@ -384,25 +384,18 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       updated:   r[8],
     };
   });
-  var PER_PAGE    = 9;
+  var PER_PAGE    = 10;
   var currentPage = 1;
   var activeData  = PROFILES.slice();
-  var grid         = $('news-grid');
-  var countNum     = $('news-count-num');
-  var noResults    = $('news-no-results');
-  var sortSel      = $('news-sort-select');
-  var prevBtn      = $('news-prev');
-  var nextBtn      = $('news-next');
-  var activeTagsEl = $('news-active-filters');
-  var pagination   = $('rcmp-content-page');
-  var checkboxes   = document.querySelectorAll('#news-filters input[type="checkbox"]');
-  function sortData(data, mode) {
-    return data.slice().sort(function (a, b) {
-      if (mode === 'newest') return b.updated.localeCompare(a.updated);
-      if (mode === 'oldest') return a.updated.localeCompare(b.updated);
-      return 0;
-    });
-  }
+  var checkboxes  = document.querySelectorAll('#re-filters input[type="checkbox"]');
+  var selects     = document.querySelectorAll('#re-filters select.re-select');
+  var countNumEl  = document.getElementById('news-count');
+  var activeTagEl = document.getElementById('news-active-filters');
+  var grid        = document.getElementById('news-grid');
+  var noResults   = document.getElementById('news-no-results');
+  var pagination  = document.getElementById('rcmp-content-page');
+  var prevBtn     = document.getElementById('news-prev');
+  var nextBtn     = document.getElementById('news-next');	
   function getActiveFilters() {
     var active = { category: [], territory: [], region: [] };
    Array.prototype.forEach.call(checkboxes, function (cb) {
@@ -431,13 +424,13 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     Object.keys(filters).forEach(function(cat) {
       if (!filters[cat].length) return;
       var row = document.createElement('div');
-      row.className = 're-filter-row';
+      row.className = 'news-filter-row';
       var label = document.createElement('span');
-      label.className = 're-filter-row-label';
+      label.className = 'news-filter-row-label';
       label.textContent = UI[LANG].catLabel[cat] + ':';
       row.appendChild(label);
       var tagsWrap = document.createElement('span');
-      tagsWrap.className = 're-filter-row-tags';
+      tagsWrap.className = 'news-filter-row-tags';
       filters[cat].forEach(function(val, idx) {
         if (idx > 0) {
           var sep = document.createElement('span');

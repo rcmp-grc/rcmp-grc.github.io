@@ -396,17 +396,6 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   var activeTagsEl = $('news-active-filters');
   var pagination   = $('rcmp-content-page');
   var checkboxes   = document.querySelectorAll('#news-filters input[type="checkbox"]');
-  function updateBadges() {
-    checkboxes.forEach(function (cb) {
-      var cat = cb.dataset.filter;
-      var val = cb.value;
-      var count = PROFILES.filter(function (p) {
-        return p[cat] === val;
-      }).length;
-	 var badge = cb.closest('label').querySelector('.wp-filter-badge');
-      if (badge) badge.textContent = count;
-    });	
-  }
   function sortData(data, mode) {
     return data.slice().sort(function (a, b) {
       if (mode === 'newest') return b.updated.localeCompare(a.updated);
@@ -416,8 +405,11 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   }
   function getActiveFilters() {
     var active = { category: [], territory: [], region: [] };
-    checkboxes.forEach(function (cb) {
+   Array.prototype.forEach.call(checkboxes, function (cb) {
       if (cb.checked) active[cb.dataset.filter].push(cb.value);
+    });
+    Array.prototype.forEach.call(selects, function (sel) {
+      if (sel.value) active[sel.dataset.filter].push(sel.value);
     });
     return active;
   }
@@ -431,39 +423,47 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   }
   function renderTags(filters) {
     activeTagsEl.innerHTML = '';
-    var allTags = [];
-    Object.keys(filters).forEach(function (cat) {
-      filters[cat].forEach(function (val) {
-        allTags.push({ cat: cat, val: val });
-      });
+    var hasAny = Object.keys(filters).some(function(cat) {
+      return filters[cat].length > 0;
     });
-    if (!allTags.length) return;
-    var showingLabel = document.createElement('span');
-    showingLabel.className = 'wp-filter-showing-label';
-    showingLabel.textContent = t.showing;
-    activeTagsEl.appendChild(showingLabel);
-    allTags.forEach(function (item, index) {
-      var label = item.cat === 'category' ? (t.categoryLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
-	  var label = item.cat === 'location' ? (t.locationLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
-	  var label = item.cat === 'territory' ? (t.territoryLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
-	  var label = item.cat === 'region' ? (t.regionLabels[item.val] || item.val) : item.val.replace(/-/g, ' ');
-      if (index > 0) {
-        var sep = document.createElement('span');
-        sep.className = 'wp-filter-tag-sep';
-        sep.textContent = t.orSep;
-        activeTagsEl.appendChild(sep);
-      }
-      var tag = document.createElement('span');
-      tag.className = 'wp-filter-tag';
-      tag.innerHTML =
-        label + ' <button type="button" aria-label="' + t.removeFilter + label + '">\u2715</button>';
-      tag.querySelector('button').addEventListener('click', function () {
-        var cb = document.querySelector('input[data-filter="' + item.cat + '"][value="' + item.val + '"]');
-        if (cb) { cb.checked = false; refresh(); }
+	  activeTagEl.style.display = hasAny ? '' : 'none';
+    if (!hasAny) return;
+    Object.keys(filters).forEach(function(cat) {
+      if (!filters[cat].length) return;
+      var row = document.createElement('div');
+      row.className = 're-filter-row';
+      var label = document.createElement('span');
+      label.className = 're-filter-row-label';
+      label.textContent = UI[LANG].catLabel[cat] + ':';
+      row.appendChild(label);
+      var tagsWrap = document.createElement('span');
+      tagsWrap.className = 're-filter-row-tags';
+      filters[cat].forEach(function(val, idx) {
+        if (idx > 0) {
+          var sep = document.createElement('span');
+          sep.className = 'wp-filter-tag-sep';
+          sep.textContent = LANG === 'fr' ? 'ou' : 'or';
+          tagsWrap.appendChild(sep);
+        }
+        var tag = document.createElement('span');
+        tag.className = 'wp-filter-tag';
+        tag.innerHTML = val + ' <button type="button" aria-label="' + (LANG === 'fr' ? 'Supprimer le filtre : ' : 'Remove filter: ') + val + '">\u2715</button>';
+        tag.querySelector('button').addEventListener('click', function() {
+          var cb = document.querySelector('input[data-filter="' + cat + '"][value="' + val + '"]');
+          if (cb) {
+            cb.checked = false;
+          } else {
+            var sel = document.querySelector('select[data-filter="' + cat + '"]');
+            if (sel) sel.value = '';
+          }
+          refresh();
+        });
+        tagsWrap.appendChild(tag);
       });
-      activeTagsEl.appendChild(tag);
+      row.appendChild(tagsWrap);
+      activeTagEl.appendChild(row);
     });
-  }
+  } 
   function renderGrid(data, page) {
     var slice = data.slice((page - 1) * PER_PAGE, page * PER_PAGE);
     grid.innerHTML = '';

@@ -49,7 +49,7 @@ custom_css: /assets/css/careers.css
   <details class="print-open mrgn-tp-md pddng-bttm-0">
     <summary>Possess a Canadian secondary school (high school) diploma or equivalent</summary>
     <p>If you completed your education outside Canada, you must get an equivalency assessment. Contact the <a href="https://www.cicic.ca/2/home.canada">Canadian Information Centre for International Credentials</a> for more information and to find out which organizations across Canada perform these assessments.</p>
-    <p>If you did not complete secondary school, you must obtain an equivalency assessment. For more information, contact your local board of education or adult learning centre to be assessed and take a <a href="https://www.cicic.ca/2/home.canada">Canadian Adult Education Credential</a> (CAEC) test or equivalent.</p>
+    <p>If you did not complete secondary school, you must obtain an equivalency assessment. For more information, contact your local board of education or adult learning centre to be assessed and take a <a href="https://www.ilc.org/pages/caec?lang=en">Canadian Adult Education Credential</a> (CAEC) test or equivalent.</p>
     <p>If you did not complete your secondary education in Canada and do not have an equivalency, you may still apply if you have completed a university degree from a recognized Canadian university, or a diploma from a recognized Canadian college. If you have completed a college diploma, you may be asked to provide your education equivalency later in the process.</p>
   </details>
   <details class="print-open mrgn-tp-md pddng-bttm-0">
@@ -62,14 +62,14 @@ custom_css: /assets/css/careers.css
   </details>
   <details class="print-open mrgn-tp-md pddng-bttm-0">
     <summary>Meet the vision and hearing standards</summary>
-    <p>A Recruiting Analyst will reach out to request the required documents before the medical suitability assessment stage of the applications process.</p>
+    <p>A Recruiting Analyst will reach out to request the required documents before the medical suitability assessment stage of the application process.</p>
     <p>You will need to meet the minimum vision standards as assessed by a registered/certified Ophthalmologist/Optometrist. Review the <a href="#">vision standards</a>.</p>
     <p>You must meet the minimum hearing standards as assessed by an audiologist. Review the <a href="#">hearing standards</a>.</p>
   </details>
   <details class="print-open mrgn-tp-md pddng-bttm-0">
     <summary>Meet the physical standards</summary>
     <p>Police work is physically demanding. You need to be in good physical shape before applying. The Cadet Training Program is not designed to build your fitness – it prepares you for the physical demands of policing.</p>
-    <p>If you arrive at training without strong physical fitness, it puts you at a disadvantage. If you are not physically prepared, you may face a higher risk of injury and find the program more challenging. Strong fitness supports both your physical and academic performance and increases you chances of graduating. Review the <a href="#">fitness requirements</a>.</p>
+    <p>If you arrive at training without strong physical fitness, it puts you at a disadvantage. If you are not physically prepared, you may face a higher risk of injury and find the program more challenging. Strong fitness supports both your physical and academic performance and increases your chances of graduating. Review the <a href="#">fitness requirements</a>.</p>
   </details>
   <details class="print-open mrgn-tp-md pddng-bttm-0">
     <summary>Be prepared and able to use necessary force and carry a firearm</summary>
@@ -94,20 +94,20 @@ custom_css: /assets/css/careers.css
     <p>You may wear discreet personal effects on the body if they don't interfere with the effectiveness of personal protective equipment. Examples include glasses, watches, medical bracelets, jewelry, wedding bands, kangas, kirpans, karas, and medicine bags.</p>
   </details>
   <details class="print-open mrgn-tp-md pddng-bttm-0">
-    <summary>Understand and be prepared to uphold the RCMP core values.</summary>
+    <summary>Understand and be prepared to uphold the RCMP core values</summary>
     <p>These principles define the expectations for RCMP employee conduct and how they serve communities. You will be expected to demonstrate and uphold these core values as an RCMP police officer.</p>
     <h3>RCMP core values</h3>
     <dl class="dl-horizontal">
       <dt>Take responsibility</dt>
-      <dd>We are transparent about our decisions and actions, and hold ourselves accountable for the results and impacts</dd>
+      <dd>We are transparent about our decisions and actions, and hold ourselves accountable for the results and impacts.</dd>
       <dt>Show respect</dt>
-      <dd>We treat all people with fairness. We value and promote reconciliation, diversity and inclusion by being considerate of the democratic rights, history and lived experiences of others</dd>
+      <dd>We treat all people with fairness. We value and promote reconciliation, diversity and inclusion by being considerate of the democratic rights, history and lived experiences of others.</dd>
       <dt>Serve with excellence</dt>
-      <dd>We commit to continuous learning, and work collaboratively with colleagues, communities, and partners to provide and support innovative and professional policing services</dd>
+      <dd>We commit to continuous learning, and work collaboratively with colleagues, communities, and partners to provide and support innovative and professional policing services.</dd>
       <dt>Demonstrate compassion</dt>
-      <dd>We care for each other and the communities we serve by approaching each situation with empathy and a genuine desire to help</dd>
+      <dd>We care for each other and the communities we serve by approaching each situation with empathy and a genuine desire to help.</dd>
       <dt>Act with integrity</dt>
-      <dd>We conduct ourselves ethically and do so with honesty, dignity, and honour</dd>
+      <dd>We conduct ourselves ethically and do so with honesty, dignity, and honour.</dd>
     </dl>
   </details>
 </div>

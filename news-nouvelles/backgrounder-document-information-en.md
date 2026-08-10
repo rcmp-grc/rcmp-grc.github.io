@@ -207,7 +207,7 @@ a.primary-topic:hover, a.primary-topic:active {
 	<div class="col-md-4">	
     <h4 class="news-contact-h4">National Headquarters</h4>
    <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
-   <i class="fa-solid fa-phone fa-lg" style="color: hsl(214, 42%, 27%);"></i>&nbsp;613-555-0100</p>
+   <i class="fa-solid fa-phone fa-lg" style="color: hsl(214, 42%, 27%);"></i>&nbsp;&nbsp;613-555-0100</p>
 	<section class="gc-followus">
 <h4 class="mrgn-tp-lg wb-inv">Follow us</h4>
 <ul class="list-inline">     
@@ -229,7 +229,7 @@ a.primary-topic:hover, a.primary-topic:active {
 	<div class="col-md-4">	
 <h4 class="news-contact-h4">British Columbia RCMP</h4>
   <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">bcrcmp-grcencb@rcmp-grc.gc.ca</a><br>
-  <i class="fa-solid fa-phone fa-lg" style="color: hsl(214, 42%, 27%);"></i>&nbsp;778-290-2929</p>	
+  <i class="fa-solid fa-phone fa-lg" style="color: hsl(214, 42%, 27%);"></i>&nbsp;&nbsp;778-290-2929</p>	
 	<section class="gc-followus">
 <h4 class="mrgn-tp-lg wb-inv">Follow us</h4>
 <ul class="list-inline">     
@@ -251,7 +251,7 @@ a.primary-topic:hover, a.primary-topic:active {
 	<div class="col-md-4">	
    <h4 class="news-contact-h4">Richmond RCMP</h4>
    <p class="news-contact-p"><a href="mailto:name@rcmp-grc.gc.ca">name@rcmp-grc.gc.ca</a><br>
-   <i class="fa-solid fa-phone fa-lg" style="color: hsl(214, 42%, 27%);"></i>&nbsp;604-555-5555</p>	
+   <i class="fa-solid fa-phone fa-lg" style="color: hsl(214, 42%, 27%);"></i>&nbsp;&nbsp;604-555-5555</p>	
 		<section class="gc-followus">
 <h4 class="mrgn-tp-lg wb-inv">Follow us</h4>
 <ul class="list-inline">     

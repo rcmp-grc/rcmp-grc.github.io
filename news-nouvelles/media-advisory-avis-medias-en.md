@@ -26,7 +26,6 @@ custom_css: /assets/css/careers.css
 }
 .news-alert ul {
     list-style-type: square;
-	list-style-color: var(--rcmp-red);
 	font-size: 0.95rem;	
 	margin-top: 5px;
 	margin-left: 5px;
@@ -36,7 +35,7 @@ custom_css: /assets/css/careers.css
 	font-size: 1.4rem;	
 	margin-left: 0;
 	margin-top: 0;
-	font-waight: bold;
+	font-weight: bold;
 }	
 .news-contact-h4 {
   border-bottom: 0.3rem solid var(--c-yellow);

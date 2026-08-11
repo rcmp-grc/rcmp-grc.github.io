@@ -36,7 +36,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s1">
     <h2>Curriculum vitae structuré</h2>
-    <p>Décrivez l'ensemble de vos qualifications et de votre <strong>expérience pertinentes</strong> afin qu'une évaluation complète de vos compétences et aptitudes puisse être effectuée.</p>
+    <p>Décrivez l'ensemble de vos <strong>qualifications</strong> et de votre <strong>expérience pertinentes</strong> afin qu'une évaluation complète de vos compétences et aptitudes puisse être effectuée.</p>
     <ul>
         <li>Assurez-vous que votre curriculum vitæ structuré répond <strong>à tous les critères</strong> dans l'exemple suivant.</li>
         <li>Utilisez le modèle et assurez-vous que votre curriculum vitæ compte <strong>deux pages tout au plus</strong>.</li>
@@ -93,7 +93,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s3">
     <h2>Le modèle STAR</h2>
-    <p>L'acronyme STAR signifie «&nbsp;:Situation, Tâche, Action, Résultat&nbsp;:». Ce modèle utilisé par la GRC fait état d'exemples de comportement illustrant un rendement utile à l'évaluation des compétences. Utilisez ce modèle pour fournir une description complète des scénarios, des mesures prises et des résultats de vos actions afin de décrire votre expérience policière.</p>
+    <p>L'acronyme STAR signifie «&nbsp;Situation, Tâche, Action, Résultat&nbsp;». Ce modèle utilisé par la GRC fait état d'exemples de comportement illustrant un rendement utile à l'évaluation des compétences. Utilisez ce modèle pour fournir une description complète des scénarios, des mesures prises et des résultats de vos actions afin de décrire votre expérience policière.</p>
     <dl class="well">
         <dt>Situation</dt>
         <dd>

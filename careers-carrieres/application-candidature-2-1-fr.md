@@ -39,7 +39,6 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 
-
 <nav aria-labelledby="on-this-page">
   <h2 id="on-this-page">Sur cette page</h2>
   <ul>
@@ -185,7 +184,30 @@ custom_css: /assets/css/careers.css
      <p><strong>Exemple</strong>&nbsp;:</p>
       <div class="well pull-right col-lg-6">
         <figure>
-      <img alt="" class="img-responsive full-width" src="rpab-pink-480x300.jpg">
+      <img alt="" aria-describedby="deux-dimensions-description" class="img-responsive full-width" src="ex-1.png">
+      <figcaption class="mrgn-tp-md">
+<details class="mrgn-bttm-sm" id="deux-dimensions-description">
+ <summary>
+        Description : Rotation de formes en deux dimensions
+ </summary>
+ <div class="mrgn-tp-md">
+   <dl class="mrgn-bttm-0">
+          <dt>Forme de référence</dt>
+          <dd>Un rectangle rose vertical. Une ligne horizontale traverse le rectangle près du haut. Une ligne verticale est perpendiculaire à la ligne horizontale du côté gauche. L’intersection des deux lignes crée une forme carrée dans le coin supérieur gauche.</dd>
+          <dt>Option A</dt>
+          <dd>Un rectangle renversé et légèrement incliné dans le sens des aiguilles d’une montre. Une ligne horizontale traverse le rectangle près du haut. Une ligne verticale est perpendiculaire à la ligne horizontale du côté droit. L’intersection des deux lignes crée une forme carrée dans le coin supérieur droit. </dd>
+          <dt>Option B</dt>
+          <dd>Un rectangle inversé et légèrement incliné dans le sens inverse des aiguilles d’une montre. Une ligne horizontale traverse le rectangle près du bas. Une ligne verticale est perpendiculaire à la ligne horizontale du côté gauche. L’intersection des deux lignes crée une forme carrée dans le coin inférieur gauche.</dd>
+          <dt>Option C</dt>
+          <dd>Un rectangle tourné en diagonale, avec le coin supérieur pointant vers le haut. Une ligne horizontale traverse le rectangle près du haut. Une ligne verticale est perpendiculaire à la ligne horizontale du côté gauche. L’intersection des deux lignes crée une forme carrée dans le coin supérieur gauche.</dd>
+      <dt>Option D</dt>
+          <dd>Un rectangle inversé et tourné en diagonale, avec le coin supérieur pointant vers le haut. Une ligne horizontale traverse le rectangle près du haut. Une ligne verticale est perpendiculaire à la ligne horizontale du côté droit. L’intersection des deux lignes crée une forme carrée dans le coin supérieur droit.</dd>
+     <dt>Option E</dt>
+          <dd>Un rectangle inversé et tourné. Une ligne horizontale traverse le rectangle près du bas. Une ligne verticale est perpendiculaire à la ligne horizontale du côté gauche. L’intersection des deux lignes crée une forme carrée dans le coin inférieur gauche.</dd>
+   </dl>
+ </div>
+</details>
+      </figcaption>
     </figure>
   </div>
      <ol class="lst-lwr-alph">
@@ -204,7 +226,28 @@ custom_css: /assets/css/careers.css
      <p><strong>Exemple</strong>&nbsp;:</p>
       <div class="well pull-right col-lg-6">
         <figure>
-      <img alt="" class="img-responsive full-width" src="rpab-green-480x300.jpg">
+      <img alt="" aria-describedby="trois-dimensions-description" class="img-responsive full-width" src="ex-2.png">
+      <figcaption class="mrgn-tp-md">
+<details class="mrgn-bttm-sm" id="trois-dimensions-description">
+ <summary>
+        Description : Formes en trois&nbsp;dimensions
+ </summary>
+ <div class="mrgn-tp-md">
+   <dl class="mrgn-bttm-0">
+          <dt>Forme de référence</dt>
+          <dd>Une forme tridimensionnelle composée de sept cubes reliés entre eux. Trois branches se rejoignent à un cube central.</dd>
+          <dt>Option A</dt>
+          <dd>Une forme tridimensionnelle composée de sept cubes reliés entre eux. Deux branches s’élèvent à partir des extrémités d’une base de trois cubes.</dd>
+          <dt>Option B</dt>
+          <dd>Une forme tridimensionnelle composée de sept cubes reliés entre eux. Deux bases de trois cubes sont reliées par un cube central.</dd>
+          <dt>Option C</dt>
+          <dd>Une forme tridimensionnelle composée de six cubes visibles reliés entre eux.</dd>
+      <dt>Option D</dt>
+          <dd>Une forme tridimensionnelle composée de sept cubes reliés entre eux. Trois branches se rejoignent à un cube central.</dd>
+   </dl>
+ </div>
+</details>
+      </figcaption>
     </figure>
       </div>
      <ol class="lst-lwr-alph">
@@ -222,7 +265,20 @@ custom_css: /assets/css/careers.css
        <p><strong>Exemple</strong>&nbsp;:</p>
      <div class="well pull-right col-lg-6">
         <figure>
-      <img alt="" class="img-responsive full-width" src="rpab-grey-480x600.jpg">
+      <img alt="" aria-describedby="mécanique-description" class="img-responsive full-width" src="ex-3.png">
+      <figcaption class="mrgn-tp-md">
+<details class="mrgn-bttm-sm" id="mécanique-description">
+ <summary>
+        Description : Diagramme montre une seule tige
+ </summary>
+ <div class="mrgn-tp-md">
+   <dl class="mrgn-bttm-0">
+          <dt>Forme de référence</dt>
+          <dd>Le diagramme montre une seule tige droite reliée à une base pivotante centrale. L’extrémité supérieure de la tige est étiquetée E. L’extrémité inférieure de la tige est étiquetée H. Une flèche courbe à côté de H pointe vers la droite, indiquant que la poignée H est tirée ou déplacée vers la droite.</dd>
+   </dl>
+ </div>
+</details>
+      </figcaption>
     </figure>
       </div>
     <p>Lorsqu'on tire la poignée&nbsp;H vers la droite (comme le montre la flèche dans l'illustration ci-dessous), qu'arrive-t-il à l'extrémité&nbsp;E:</p>
@@ -240,8 +296,29 @@ custom_css: /assets/css/careers.css
     <p>Cette partie contient une série de questions sur les prismes déconstruits. Vous aurez 5&nbsp;minutes pour répondre à la série de questions.</p>
        <p><strong>Exemple</strong>&nbsp;:</p>
       <div class="well pull-right col-lg-6">
-        <figure>
-      <img alt="" class="img-responsive full-width" src="rpab-yellow-480x480.jpg">
+         <figure>
+      <img alt="" aria-describedby="prismes-déconstruits-description" class="img-responsive full-width" src="ex-4.png">
+      <figcaption class="mrgn-tp-md">
+<details class="mrgn-bttm-sm" id="prismes-déconstruits-description">
+ <summary>
+        Description : Prismes déconstruits
+ </summary>
+ <div class="mrgn-tp-md">
+   <dl class="mrgn-bttm-0">
+          <dt>Forme dépliée</dt>
+          <dd>Une découpe bidimensionnelle composée de six sections identiques en forme de pétale qui se rétrécissent vers leur extrémité, disposées autour d’un point central. Chaque section est attachée au centre et s’étend vers l’extérieur. Les six sections sont réparties uniformément autour du centre.</dd>
+     <dt>Option A</dt>
+          <dd>Une forme tridimensionnelle pliée comportant des faces supérieures et inférieures plates en forme de polygone.</dd>
+     <dt>Option B</dt>
+          <dd>Une forme tridimensionnelle pliée en forme d’œuf, avec un anneau plus large autour du centre. La forme comporte des faces plates et de nombreux panneaux inclinés.</dd>
+      <dt>Option C</dt>
+          <dd>Une forme tridimensionnelle pliée, symétrique et en forme d’œuf. Le haut et le bas se rétrécissent pour former de petites extrémités polygonales.</dd>
+      <dt>Option D</dt>
+          <dd>Une forme tridimensionnelle pliée irrégulière composée de plusieurs sections angulaires reliées entre elles.</dd>
+   </dl>
+ </div>
+</details>
+      </figcaption>
     </figure>
       </div>
     <p>Si on repliait le carton ci-dessous, lequel des prismes plus bas obtiendrait-on?</p>
@@ -273,7 +350,24 @@ custom_css: /assets/css/careers.css
    <p><strong>Exemple&nbsp;1</strong>&nbsp;:</p>
      <div class="well pull-right col-lg-6">
         <figure>
-      <img alt="" class="img-responsive full-width" src="rpab-shapes-480x300.jpg">
+      <img alt="" aria-describedby="formes-description" class="img-responsive full-width" src="ex-5.png">
+      <figcaption class="mrgn-tp-md">
+<details class="mrgn-bttm-sm" id="formes-description">
+ <summary>
+        Description : Formes
+ </summary>
+ <div class="mrgn-tp-md">
+   <dl class="mrgn-bttm-0">
+          <dt>Forme 1</dt>
+          <dd>Un triangle bleu.</dd>
+     <dt>Forme 2</dt>
+          <dd>Un losange rouge.</dd>
+     <dt>Forme 3</dt>
+          <dd>Un cercle noir.</dd>
+   </dl>
+ </div>
+</details>
+      </figcaption>
     </figure>
      </div>
     <p>Observez ce groupe d'objets. Vous avez 30&nbsp;secondes.</p>

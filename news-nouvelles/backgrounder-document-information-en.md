@@ -75,7 +75,7 @@ font-size: 1.1rem;
 .location {
     color: #404040;
 }	
-a.primary-topic:link, a.primary-topic:visited {
+a.news-topic-2:link, a.primary-topic:visited {
     background-color: #ffffff;
     color: #000000;
     padding: 4px 10px;
@@ -87,7 +87,7 @@ a.primary-topic:link, a.primary-topic:visited {
     display: inline-block;
 	border: 1px solid #000000;	
 }
-a.primary-topic:hover, a.primary-topic:active {
+a.news-topic-2:hover, a.primary-topic:active {
 	background-color: #d6f5e1;
     color: #0f3d20;
     padding: 4px 10px;
@@ -276,9 +276,9 @@ a.primary-topic:hover, a.primary-topic:active {
 	<div class="clearfix"></div>	
 <div class="explore">	
 <section id="topics">	
-<h2 class="h4">Explore related topics</h2>
+<h2 class="h4 mrgn-tp-sm mrgn-bttm-md">Explore related topics</h2>
 <ol class="list-inline">
-  <li><a href="#" class="primary-topic">Community interest</a></li>
+  <li><a href="#" class="news-topic-2">Community interest</a></li>
 </ol>
 </section>
 </div>

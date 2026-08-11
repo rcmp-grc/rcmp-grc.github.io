@@ -435,10 +435,6 @@ custom_css: /assets/css/careers.css
     summary: 'Seeking public assistance to identify suspect in bus driver assault',
     updated: '2026-04-22'
 }];  
-
- territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manitoba', nb: 'New Brunswick', nl: 'Newfoundland and Labrador', nwt: 'Northwest Territories', ns: 'Nova Scotia', nunavut: 'Nunavut', ontario: 'Ontario', pei: 'Prince Edward Island', saskatchewan: 'Saskatchewan RCMP', yukon: 'Yukon RCMP' },
-regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 'Federal Policing Central Region', eastern: 'Federal Policing Eastern Region', nw: 'Federal Policing Northwest Region', pacific: 'Federal Policing Pacific Region', manitoba: 'Manitoba RCMP', nb: 'New Brunswick RCMP', nl: 'Newfoundland and Labrador RCMP', nwt: 'Northwest Territories RCMP', ns: 'Nova Scotia RCMP', nunavut: 'Nunavut  RCMP', pei: 'Prince Edward Island RCMP', depot: 'RCMP Depot Division', hq: 'RCMP National Headquarters', quebec: 'Quebec', saskatchewan: 'Saskatchewan', yukon: 'Yukon' },
-  };
 	var LANG = document.documentElement.lang && document.documentElement.lang.slice(0, 2) === 'fr' ? 'fr' : 'en';
 	var category_ID = {
     en: {
@@ -473,20 +469,38 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       12: 'Saskatchewan',
       13: 'Yukon'
     },
- 
-  var PROFILES = RAW.map(function (r, i) {
-    return {
-      id:        i + 1,
-      name:      r[ni],	
-	  badge:     r[2],	
-      category:  r[3],
-	  location:  r[4],	
-      territory: r[5],
-      region:    r[6],
-      summary:   r[7],
-      updated:   r[8],
-    };
-  });
+ var region_ID = {
+    en: {
+      1: 'Alberta RCMP',
+      2: 'British Columbia RCMP',
+      3: 'Federal Policing Central Region',
+      4: 'Federal Policing Northwest Region',
+      5: 'Federal Policing Pacific Region',
+      6: 'Manitoba RCMP',
+      7: 'New Brunswick RCMP',
+      8: 'Newfoundland and Labrador RCMP',
+      9: 'Northwest Territories RCMP',
+      10: 'Nova Scotia RCMP',
+      11: 'Prince Edward Island RCMP',
+      12: 'RCMP Depot Division',
+      13: 'RCMP National Headquarters'
+	  14: 'Saskatchewan RCMP'
+	  15: 'Yukon RCMP'
+       }
+  };
+  var QUERY_CATEGORY = 'c';
+  var QUERY_TERRITORY = 't';
+  var QUERY_REGION = 'r';
+  var UI = {
+    en: {
+      catLabel: {
+        category: 'Topic',
+        territory: 'Territory or province',
+        region: 'National, divisional or regional policing',
+      },
+      newsFound: 'News found',
+      noResults: 'No news match your current filters.',
+    }  });
   var PER_PAGE    = 10;
   var currentPage = 1;
   var activeData  = PROFILES.slice();
@@ -687,8 +701,8 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     currentPage = 1;
     countNumEl.textContent = activeData.length;
     document.getElementById('re-count-text').textContent = activeData.length === 1
-      ? UI[LANG].eventFound
-      : UI[LANG].eventsFound;
+      ? UI[LANG].newsFound
+      : UI[LANG].newsFound;
     renderTags(filters);
     if (!Object.keys(filters).some(function(cat) {
         return filters[cat].length > 0;
@@ -725,7 +739,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
   function applyQueryString() {
     var params = new URLSearchParams(window.location.search);
     var openCats = {};
-    var pVals = params.getAll(QUERY_category);
+    var pVals = params.getAll(QUERY_CATEGORY);
     pVals.forEach(function(id) {
       var name = category[LANG][parseInt(id, 3)];
       if (!name) return;
@@ -735,27 +749,20 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
         openCats['category'] = true;
       }
     });
-	var jVals = params.getAll(QUERY_location);
+	var jVals = params.getAll(QUERY_TERRITORY);
     jVals.forEach(function(id) {
-      var name = location[LANG][parseInt(id, 4)];
-      if (!name) return;
-      var sel = document.querySelector('select[data-filter="location"]');
-      if (sel) sel.value = name;
-    });   
-    var jVals = params.getAll(QUERY_territory);
-    jVals.forEach(function(id) {
-      var name = territory[LANG][parseInt(id, 5)];
+      var name = territory[LANG][parseInt(id, 4)];
       if (!name) return;
       var sel = document.querySelector('select[data-filter="territory"]');
       if (sel) sel.value = name;
-    });
-	var jVals = params.getAll(QUERY_updated);
+    });   
+    var jVals = params.getAll(QUERY_REGION);
     jVals.forEach(function(id) {
-      var name = updated[LANG][parseInt(id, 8)];
+      var name = region[LANG][parseInt(id, 5)];
       if (!name) return;
-      var sel = document.querySelector('select[data-filter="updated"]');
+      var sel = document.querySelector('select[data-filter="region"]');
       if (sel) sel.value = name;
-    });  
+    });
     Object.keys(openCats).forEach(function(cat) {
       var cb = document.querySelector('input[data-filter="' + cat + '"]');
       if (cb) {

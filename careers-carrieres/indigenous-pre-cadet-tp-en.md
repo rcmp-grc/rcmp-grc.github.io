@@ -88,13 +88,13 @@ custom_css: /assets/css/careers.css
     <div class="col-md-4">
       <div class="well mrgn-bttm-md">
         <figure>
-          <img alt="" class="img-responsive full-width" src="iptp-pfpa-1.jpg">
+          <img alt="" class="img-responsive full-width" src="/careers-carrieres/iptp-pfpa-1.jpg">
           <figcaption>Participants in the IPTP program attend classroom-based learning sessions as part of their training.</figcaption>
         </figure>
       </div>
       <div class="well mrgn-bttm-md">
         <figure>
-          <img alt="" class="img-responsive full-width" src="iptp-pfpa-2.jpg">
+          <img alt="" class="img-responsive full-width" src="/careers-carrieres/iptp-pfpa-2.jpg">
           <figcaption>A participant takes part in physical training as part of their IPTP experience.</figcaption>
         </figure>
       </div>

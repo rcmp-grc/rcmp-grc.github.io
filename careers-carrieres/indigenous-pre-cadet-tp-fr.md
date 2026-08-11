@@ -88,13 +88,13 @@ custom_css: /assets/css/careers.css
     <div class="col-md-4">
       <div class="well mrgn-bttm-md">
         <figure>
-          <img alt="" class="img-responsive full-width" src="iptp-pfpa-1.jpg">
+          <img alt="" class="img-responsive full-width" src="/careers-carrieres/iptp-pfpa-1.jpg">
           <figcaption>Des participants au programme PFPA assistent à des séances de formation en salle de classe.</figcaption>
         </figure>
       </div>
       <div class="well mrgn-bttm-md">
         <figure>
-          <img alt="" class="img-responsive full-width" src="iptp-pfpa-2.jpg">
+          <img alt="" class="img-responsive full-width" src="/careers-carrieres/iptp-pfpa-2.jpg">
           <figcaption>Un participant participe à un entraînement physique dans le cadre de son expérience du PFPA.</figcaption>
         </figure>
       </div>

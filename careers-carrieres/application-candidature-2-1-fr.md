@@ -184,7 +184,7 @@ custom_css: /assets/css/careers.css
      <p><strong>Exemple</strong>&nbsp;:</p>
       <div class="well pull-right col-lg-6">
         <figure>
-      <img alt="" aria-describedby="deux-dimensions-description" class="img-responsive full-width" src="ex-1.png">
+      <img alt="" aria-describedby="deux-dimensions-description" class="img-responsive full-width" src="/careers-carrieres/ex-1.png">
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="deux-dimensions-description">
  <summary>
@@ -226,7 +226,7 @@ custom_css: /assets/css/careers.css
      <p><strong>Exemple</strong>&nbsp;:</p>
       <div class="well pull-right col-lg-6">
         <figure>
-      <img alt="" aria-describedby="trois-dimensions-description" class="img-responsive full-width" src="ex-2.png">
+      <img alt="" aria-describedby="trois-dimensions-description" class="img-responsive full-width" src="/careers-carrieres/ex-2.png">
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="trois-dimensions-description">
  <summary>
@@ -265,7 +265,7 @@ custom_css: /assets/css/careers.css
        <p><strong>Exemple</strong>&nbsp;:</p>
      <div class="well pull-right col-lg-6">
         <figure>
-      <img alt="" aria-describedby="mécanique-description" class="img-responsive full-width" src="ex-3.png">
+      <img alt="" aria-describedby="mécanique-description" class="img-responsive full-width" src="/careers-carrieres/ex-3.png">
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="mécanique-description">
  <summary>
@@ -297,7 +297,7 @@ custom_css: /assets/css/careers.css
        <p><strong>Exemple</strong>&nbsp;:</p>
       <div class="well pull-right col-lg-6">
          <figure>
-      <img alt="" aria-describedby="prismes-déconstruits-description" class="img-responsive full-width" src="ex-4.png">
+      <img alt="" aria-describedby="prismes-déconstruits-description" class="img-responsive full-width" src="/careers-carrieres/ex-4.png">
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="prismes-déconstruits-description">
  <summary>
@@ -350,7 +350,7 @@ custom_css: /assets/css/careers.css
    <p><strong>Exemple&nbsp;1</strong>&nbsp;:</p>
      <div class="well pull-right col-lg-6">
         <figure>
-      <img alt="" aria-describedby="formes-description" class="img-responsive full-width" src="ex-5.png">
+      <img alt="" aria-describedby="formes-description" class="img-responsive full-width" src="/careers-carrieres/ex-5.png">
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="formes-description">
  <summary>

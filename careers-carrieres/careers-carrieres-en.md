@@ -81,7 +81,7 @@ custom_css: /assets/css/careers.css
           </li>
           <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
-              <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-8.jpg">
+              <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-1.jpg">
               <h3 class="h5"><a href="#">First Nations, Inuit and Métis applicant programs</a></h3>
               <p>Discover programs that support Indigenous applicants considering a career in policing.</p>
             </div>

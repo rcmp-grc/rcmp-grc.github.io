@@ -226,7 +226,7 @@ A, B, C, D, E or I don't know</p>
   </div>
   <div class="col-md-6">  
     <figure>
-      <img alt="" aria-describedby="2dshape-description" class="img-responsive full-width" src="ex-1.png">
+      <img alt="" aria-describedby="2dshape-description" class="img-responsive full-width" src="/careers-carrieres/ex-1.png">
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="2dshape-description">
  <summary>
@@ -276,7 +276,7 @@ A, B, C, D, E or I don't know</p>
   </div>
   <div class="col-md-6">  
     <figure>
-      <img alt="" aria-describedby="3dshape-description" class="img-responsive full-width" src="ex-2.png">
+      <img alt="" aria-describedby="3dshape-description" class="img-responsive full-width" src="/careers-carrieres/ex-2.png">
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="3dshape-description">
  <summary>
@@ -324,7 +324,7 @@ A, B, C, D, E or I don't know</p>
   </div>
   <div class="col-md-6">  
     <figure>
-      <img alt="" aria-describedby="mechanical-problems-description" class="img-responsive full-width" src="ex-3.png">
+      <img alt="" aria-describedby="mechanical-problems-description" class="img-responsive full-width" src="/careers-carrieres/ex-3.png">
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="mechanical-problems-description">
  <summary>
@@ -364,7 +364,7 @@ A, B, C, D, E or I don't know</p>
   </div>
   <div class="col-md-6">  
     <figure>
-      <img alt="" aria-describedby="folding-shapes" class="img-responsive full-width" src="ex-4.png">
+      <img alt="" aria-describedby="folding-shapes" class="img-responsive full-width" src="/careers-carrieres/ex-4.png">
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="folding-shapes">
  <summary>
@@ -426,7 +426,7 @@ A, B, C, D, E or I don't know</p>
      </div>
   <div class="col-md-6">  
         <figure>
-      <img alt="" aria-describedby="memory" class="img-responsive full-width" src="ex-5.png">
+      <img alt="" aria-describedby="memory" class="img-responsive full-width" src="/careers-carrieres/ex-5.png">
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="memory">
  <summary>

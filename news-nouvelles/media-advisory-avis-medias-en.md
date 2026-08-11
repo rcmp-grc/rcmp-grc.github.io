@@ -75,7 +75,7 @@ font-size: 1.1rem;
 .location {
     color: #404040;
 }		
-a.news-topic1:link, a.primary-topic:visited {
+a.news-topic-1:link, a.primary-topic:visited {
     background-color: #d6e4f5;
     color: #0f253d;
     padding: 4px 10px;
@@ -87,7 +87,7 @@ a.news-topic1:link, a.primary-topic:visited {
     display: inline-block;
 	border: 1px solid #000000;	
 }
-a.news-topic1:hover, a.primary-topic:active {
+a.news-topic-1:hover, a.primary-topic:active {
 	background-color: white;
     color: #0f253d;
     padding: 4px 10px;
@@ -225,7 +225,7 @@ a.news-topic1:hover, a.primary-topic:active {
 <div class="col-md-4">
 	<section class="panel panel-default brdr-rds-0 ">
   <header class="panel-heading">
-   <h2 class="panel-title h5">Event details</h2>
+   <h2 class="panel-title"><span class="h5">Event details</span></h2>
   </header>
   <div class="panel-body">
   <dl>	

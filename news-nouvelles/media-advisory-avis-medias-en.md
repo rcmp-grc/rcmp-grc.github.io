@@ -38,7 +38,7 @@ custom_css: /assets/css/careers.css
 	margin-top: 0;
 	font-waight: bold;
 }	
-.news-h4 {
+.news-contact-h4 {
   border-bottom: 0.3rem solid var(--c-yellow);
   border-image: var(--underline-gradient);
   border-image-slice: 1;
@@ -199,7 +199,7 @@ a.news-topic-1:hover, a.primary-topic:active {
 <section id="gc-contact" class="contact-us">
 	<h2 class="h3">Contact us</h2>
 	<div class="contact-signature">	
-    <h3 class="news-h4">National Headquarters</h3>
+    <h3 class="news-contact-h4">National Headquarters</h3>
    <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
    613-555-0100</p>
 	<section class="gc-followus">
@@ -243,7 +243,7 @@ Iqaluit, Nunavut</address></dd>
 <div class="clearfix"></div>	
 <div class="explore">
 <section id="topics">
-<h2 class="news-h4 mrgn-tp-sm mrgn-bttm-md">Explore related topics</h2>
+<h2 class="h4 mrgn-tp-sm mrgn-bttm-md">Explore related topics</h2>
 <ol class="list-inline">
   <li><a href="#" class="news-topic-1">Community interest</a></li>
 </ol>

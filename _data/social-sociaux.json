@@ -1,0 +1,316 @@
+[
+	{
+		"en-order": 1,
+		"en-name": "Royal Canadian Mounted Police",
+		"en-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/rcmpgrc"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/rcmpgrcpolice/"},
+			{ "platform": "linkedin", "link": "https://www.linkedin.com/company/rcmp-grc/" },
+			{ "platform": "x", "link": "https://x.com/rcmpgrcpolice" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/user/rcmpgrcpolice" }
+		],
+		"en-location": "Ontario",
+		"fr-order": 1,
+		"fr-name": "Gendarmerie royale du Canada",
+		"fr-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/grcrcmp"},
+			{ "platform": "instagram","link": "https://www.instagram.com/grcrcmppolice/"},
+			{ "platform": "linkedin", "link": "https://www.linkedin.com/company/rcmp-grc/" },
+			{ "platform": "x", "link": "https://x.com/grcrcmppolice" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/c/GendarmerieroyaleduCanada" }
+		],
+		"fr-location": "Ontario"
+	},
+	{
+		"en-order": 2,
+		"en-name": "Commissioner Mike Duheme",
+		"en-links": [
+			{ "platform": "x", "link": "https://x.com/CommrRCMPGRC" },
+		],
+		"en-location": "Ontario",
+		"fr-order": 2,
+		"fr-name": "Commissaire Mike Duheme",
+		"fr-links": [
+			{ "platform": "x", "link": "https://x.com/CommrRCMPGRC" },
+		],
+		"fr-location": "Ontario"
+	},
+	{
+		"en-order": 3,
+		"en-name": "Alberta RCMP",
+		"en-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/RCMPinAlberta"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/rcmpalbertagrc/"},
+			{ "platform": "x", "link": "https://x.com/RCMPAlberta" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/channel/UCTFXvLvwGSdmaMFAqpUKPDg" }
+		],
+		"en-location": "Alberta",
+		"fr-order": 3,
+		"fr-name": "GRC en Alberta",
+		"fr-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/GRCenAlberta"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/rcmpalbertagrc/"},
+			{ "platform": "x", "link": "https://x.com/GRCAlberta" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/channel/UCTFXvLvwGSdmaMFAqpUKPDg" }
+		],
+		"fr-location": "Alberta"
+	},
+	{
+		"en-order": 4,
+		"en-name": "British Columbia RCMP",
+		"en-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/BCRCMPnews/"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/bcrcmp/"},
+			{ "platform": "x", "link": "https://x.com/bcrcmp" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/user/rcmptv" }
+		],
+		"en-location": "British Columbia",
+		"fr-order": 4,
+		"fr-name": "GRC en Colombie-Britannique",
+		"fr-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/GRCenCB"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/grcencb/"},
+			{ "platform": "x", "link": "https://x.com/GRCenCB" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/user/TVdelaGRC" }
+		],
+		"fr-location": "Colombie-Britannique"
+	},
+	{
+		"en-order": 5,
+		"en-name": "RCMP Depot Division",
+		"en-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/RCMPDepot"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/rcmpdepot/"},
+			{ "platform": "linkedin", "link": "https://www.linkedin.com/company/rcmp-grc-depot/" },
+			{ "platform": "x", "link": "https://x.com/RCMPDepot" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/rcmpdepot" }
+		],
+		"en-location": "Saskatchewan",
+		"fr-order": 5,
+		"fr-name": "Division Dépôt de la GRC",
+		"fr-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/GRCDepot"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/grcdepot/"},
+			{ "platform": "linkedin", "link": "https://www.linkedin.com/company/rcmp-grc-depot" },
+			{ "platform": "x", "link": "https://x.com/GRCDepot" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/channel/UCHnfz__dkT7I46GkAyX-T8Q" }
+		],
+		"fr-location": "Saskatchewan"
+	},
+	{
+		"en-order": 6,
+		"en-name": "New Brunswick RCMP",
+		"en-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/rcmpnb"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/rcmp_new_brunswick/"},
+			{ "platform": "x", "link": "https://x.com/rcmpnb" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/user/NBGRCRCMP" }
+		],
+		"en-location": "New Brunswick",
+		"fr-order": 8,
+		"fr-name": "GRC au Nouveau-Brunswick",
+		"fr-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/grcnb"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/grc_nouveau_brunswick/"},
+			{ "platform": "x", "link": "https://x.com/grcnb" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/user/NBGRCRCMP" }
+		],
+		"fr-location": "Nouveau-Brunswick"
+	},
+	{
+		"en-order": 7,
+		"en-name": "Newfoundland and Labrador RCMP",
+		"en-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/rcmpnl"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/rcmpnl/"},
+			{ "platform": "linkedin", "link": "https://www.linkedin.com/company/rcmpnl-grctnl" },
+			{ "platform": "x", "link": "https://x.com/RCMPNL" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/user/rcmpnlsocial" }
+		],
+		"en-location": "Newfoundland and Labrador",
+		"fr-order": 12,
+		"fr-name": "GRC à Terre-Neuve-et-Labrador",
+		"fr-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/grctn"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/grctnl/"},
+			{ "platform": "linkedin", "link": "https://www.linkedin.com/company/rcmpnl-grctnl" },
+			{ "platform": "x", "link": "https://x.com/grctnl" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/user/rcmpnlsocial" }
+		],
+		"fr-location": "Terre-Neuve-et-Labrador"
+	},
+	{
+		"en-order": 8,
+		"en-name": "Northwest Territories RCMP",
+		"en-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/rcmpnt"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/rcmpnwt/"},
+			{ "platform": "x", "link": "https://x.com/RCMPDepot" },
+		],
+		"en-location": "Northwest Territories",
+		"fr-order": 13,
+		"fr-name": "GRC dans les Territoires du Nord-Ouest",
+		"fr-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/grctno"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/grctno/"},
+			{ "platform": "x", "link": "https://x.com/GRC_TNO" },
+		],
+		"fr-location": "Territoires du Nord-Ouest"
+	},
+	{
+		"en-order": 9,
+		"en-name": "Nova Scotia RCMP",
+		"en-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/rcmpns"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/rcmp_ns/"},
+			{ "platform": "x", "link": "https://x.com/rcmpns" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/user/rcmpgrcnsne" }
+		],
+		"en-location": "Nova Scotia",
+		"fr-order": 9,
+		"fr-name": "GRC en Nouvelle-Écosse",
+		"fr-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/grcne"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/grc_ne/"},
+			{ "platform": "x", "link": "https://x.com/grcne" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/user/rcmpgrcnsne" }
+		],
+		"fr-location": "Nouvelle-Écosse"
+	},
+	{
+		"en-order": 10,
+		"en-name": "Nunavut RCMP",
+		"en-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/rcmpnunavut/"},
+			{ "platform": "x", "link": "https://x.com/rcmpnunavut" },
+		],
+		"en-location": "Nunavut",
+		"fr-order": 10,
+		"fr-name": "GRC au Nunavut",
+		"fr-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/grcnunavut/"},
+			{ "platform": "x", "link": "https://x.com/GRCNunavut" },
+		],
+		"fr-location": "Nunavut"
+	},
+	{
+		"en-order": 11,
+		"en-name": "Manitoba RCMP",
+		"en-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/rcmpmb"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/rcmpmb/"},
+			{ "platform": "x", "link": "https://x.com/rcmpmb" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/channel/UCVi_9AvMauZD1-eHxyIyEJw" }
+		],
+		"en-location": "Manitoba",
+		"fr-order": 7,
+		"fr-name": "GRC au Manitoba",
+		"fr-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/GRCManitoba"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/manitobagrc/"},
+			{ "platform": "x", "link": "https://x.com/GRCManitoba" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/channel/UCyYJbQQyU1FNtVQvYHbPN7A" }
+		],
+		"fr-location": "Manitoba"
+	},
+	{
+		"en-order": 12,
+		"en-name": "Prince Edward Island RCMP",
+		"en-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/rcmpgrcpei"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/rcmpprinceedwardisland/"},
+			{ "platform": "x", "link": "https://x.com/RCMPPEI" },
+		],
+		"en-location": "Prince Edward Island",
+		"fr-order": 6,
+		"fr-name": "GRC à l'Île-du-Prince-Édouard",
+		"fr-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/grcipe"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/grcileduprinceedouard/"},
+			{ "platform": "x", "link": "https://x.com/grcipe" },
+		],
+		"fr-location": "Île-du-Prince-Édouard"
+	},
+	{
+		"en-order": 13,
+		"en-name": "Saskatchewan RCMP",
+		"en-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/SaskatchewanRCMP"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/rcmpsk/"},
+			{ "platform": "linkedin", "link": "https://www.linkedin.com/company/saskatchewan-rcmp-grc-en-saskatchewan" },
+			{ "platform": "x", "link": "https://x.com/RCMPSK" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/user/rcmpgrcsk" }
+		],
+		"en-location": "Saskatchewan",
+		"fr-order": 11,
+		"fr-name": "GRC en Saskatchewan",
+		"fr-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/GrcEnSaskatchewan"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/grcensask/"},
+			{ "platform": "linkedin", "link": "https://www.linkedin.com/company/saskatchewan-rcmp-grc-en-saskatchewan" },
+			{ "platform": "x", "link": "https://x.com/GRCSask" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/user/rcmpgrcsk" }
+		],
+		"fr-location": "Saskatchewan"
+	},
+	{
+		"en-order": 14,
+		"en-name": "Yukon RCMP",
+		"en-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/yukonrcmp/"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/yukonrcmp/"},
+			{ "platform": "x", "link": "https://x.com/YukonRCMP" },
+		],
+		"en-location": "Yukon",
+		"fr-order": 14,
+		"fr-name": "GRC au Yukon",
+		"fr-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/grcyukon/"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/grcduyukon/"},
+			{ "platform": "x", "link": "https://x.com/grcyukon" },
+		],
+		"fr-location": "Yukon"
+	},
+	{
+		"en-order": 15,
+		"en-name": "Federal Policing Central Region",
+		"en-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/rcmp.ontario"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/rcmpontario/"},
+			{ "platform": "x", "link": "https://x.com/RCMPONT" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/channel/UC5Jvya95OQL8_tHLKX8dNCw" }
+		],
+		"en-location": "Ontario",
+		"fr-order": 15,
+		"fr-name": "Police fédérale de la Région du Centre",
+		"fr-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/grc.ontario"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/GRCOntario/"},
+			{ "platform": "x", "link": "https://x.com/grcont" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/channel/UC5Jvya95OQL8_tHLKX8dNCw" }
+		],
+		"fr-location": "Ontario"
+	},
+	{
+		"en-order": 16,
+		"en-name": "Federal Policing Eastern Region",
+		"en-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/RCMPQuebec"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/grc_rcmp_qc/"},
+			{ "platform": "linkedin", "link": "https://www.linkedin.com/company/grc-rcmp-pf-fp" },
+			{ "platform": "x", "link": "https://x.com/rcmpqc" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/user/grcrcmpquebec" }
+		],
+		"en-location": ["Quebec", "Prince Edward Island", "Nova Scotia", "New Brunswick", "Newfoundland and Labrador"],
+		"fr-order": 16,
+		"fr-name": "Police fédérale de la Région de l'Est",
+		"fr-links": [
+			{ "platform": "facebook", "link": "https://www.facebook.com/GRCQuebec"},
+			{ "platform": "instagram", "link": "https://www.instagram.com/grc_rcmp_qc/"},
+			{ "platform": "linkedin", "link": "https://www.linkedin.com/company/grc-rcmp-pf-fp" },
+			{ "platform": "x", "link": "https://x.com/grcqc" },
+			{ "platform": "youtube", "link": "https://www.youtube.com/user/grcrcmpquebec" }
+		],
+		"fr-location": ["Québec", "Île-du-Prince-Édouard", "Nouveau-Brunswick", "Nouvelle-Écosse", "Terre-Neuve-et-Labrador"]
+	},
+]

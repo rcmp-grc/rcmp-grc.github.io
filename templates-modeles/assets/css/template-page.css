@@ -1,0 +1,19 @@
+.template-title{
+	margin-top: 0;
+}
+
+.template-img{
+	outline: 1px solid var(--rcmp-grey-md);
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+}
+
+.template-card{
+	outline: 1px solid var(--rcmp-grey-md);
+	border-radius: 0.5rem;
+	margin-bottom: 2rem;
+}
+
+.template-info{
+	padding: 1rem;
+}

@@ -1,0 +1,421 @@
+{%- assign lang = page.lang -%}
+{%- assign headers = include.headers | split: ", " -%}
+{%- assign format = include.format | default: "tracker" -%}
+<div class="row mrgn-bttm-lg">
+	<div class="col-md-3 mrgn-bttm-md">
+		<section id="filters">
+			<form aria-controls="{{ include.id | default: 'datatable' }}" class="wb-tables-filter" data-bind-to="{{ include.id | default: 'datatable' }}" novalidate>
+			<h2 class="mrgn-tp-0">
+			{%- if lang == "fr" -%}
+			Filtres
+			{%- else -%}
+			Filters
+			{%- endif -%}
+			</h2>
+			<div id="filters-container">
+			{%- if format == "tracker" or format == "outil-suivi" -%}
+				<section class="form-group">
+					<h3 class="h4 mrgn-tp-0 mrgn-bttm-sm">
+					<label for="dt-theme">
+					{%- if lang == "fr" -%}
+						Thème
+					{%- else -%}
+						Theme
+					{%- endif -%}
+					</label>
+					</h3>
+					<select class="form-control" data-column="4" id="dt-theme" name="dt-theme">
+					{%- if lang == "fr" -%}
+						<option value="">Tous</option>
+						{%- assign all_themes = site.data[page.data_file] | map: "fr-theme" | uniq -%}
+					{%- else -%}
+						<option value="">All</option>
+						{%- assign all_themes = site.data[page.data_file] | map: "en-theme" | uniq -%}
+					{%- endif -%}
+					{%- for theme in all_themes -%}
+						<option value="{{- theme -}}">{{- theme -}}</option>
+					{%- endfor -%}
+					</select>
+				</section>
+				<section class="form-group">
+					<h3 class="h4 mrgn-tp-lg mrgn-bttm-sm">
+						<label for="dt-recommendations-1">
+						{%- if lang == "fr" -%}
+						Recommandations
+						{%- else -%}
+						Recommendations
+						{%- endif -%}
+						</label>
+					</h3>
+					<select class="form-control" data-column="3" id="dt-recommendations-1" name="dt-recommendations-1">
+					{%- if lang == "fr" -%}
+						<option value="">Tous</option>
+						{%- assign all_recommendations = site.data[page.data_file] | map: "fr-recommendations" | uniq -%}
+					{%- else -%}
+						<option value="">All</option>
+						{%- assign all_recommendations = site.data[page.data_file] | map: "en-recommendations" | uniq -%}
+					{%- endif -%}
+					{%- for rec in all_recommendations %}
+						<option value="{{- rec.title -}}">{{- rec.title -}}</option>
+					{%- endfor -%}
+					</select>
+				</section>
+				<section class="form-group">
+					<h3 class="h4 mrgn-tp-lg mrgn-bttm-sm">
+						<label for="dt-progress">
+						{%- if lang == "fr" -%}
+						Statut
+						{%- else -%}
+						Status
+						{%- endif -%}
+						</label>
+					</h3>
+					<select class="form-control" data-column="5" id="dt-progress" name="dt-progress">
+					{%- if lang == "fr" -%}
+						<option value="">Tous</option>
+						{%- assign all_status = site.data[page.data_file] | map: "fr-status" | uniq -%}
+					{%- else -%}
+						<option value="">All</option>
+						{%- assign all_status = site.data[page.data_file] | map: "en-status" | uniq -%}
+					{%- endif -%}
+					{%- for status in all_status %}
+						<option value="{{- status -}}">{{- status -}}</option>
+					{%- endfor -%}
+					</select>
+				</section>
+				<section class="form-group">
+					<h3 class="h4 mrgn-tp-lg mrgn-bttm-sm">
+						<label for="dt-update-date">
+						{%- if lang == "fr" -%}
+						Dernière mise à jour
+						{%- else -%}
+						Last updated
+						{%- endif -%}
+						</label>
+					</h3>
+					<select class="form-control" data-column="6" id="dt-update-date" name="dt-update-date">
+					{%- assign all_dates = site.data[page.data_file] | map: "last-updated" | uniq -%}
+					{%- if lang == "fr" -%}
+						<option value="">Tous</option>
+					{%- else -%}
+						<option value="">All</option>
+					{%- endif -%}
+					{%- for date in all_dates %}
+						<option value="{{- date -}}">{{- date -}}</option>
+					{%- endfor -%}
+					</select>
+				</section>
+			{%- elsif format == "social" or format == "sociaux" -%}
+				<section class="form-group">
+					<h3 class="h4 mrgn-tp-lg mrgn-bttm-sm">
+						<label for="dt-location">
+						{%- if lang == "fr" -%}
+						Lieu
+						{%- else -%}
+						Location
+						{%- endif -%}
+						</label>
+					</h3>
+					<select class="form-control" data-column="3" id="dt-location" name="dt-location">
+					{%- if lang == "fr" -%}
+						<option value="">Tous</option>
+						{%- assign all_locations = site.data[page.data_file] | map: "fr-location" | uniq -%}
+					{%- else -%}
+						<option value="">All</option>
+						{%- assign all_locations = site.data[page.data_file] | map: "en-location" | uniq -%}
+					{%- endif -%}
+					{%- for location in all_locations %}
+						<option value="{{- location -}}">{{- location -}}</option>
+					{%- endfor -%}
+					</select>
+				</section>
+				<section class="form-group">
+					<h3 class="h4 mrgn-tp-lg mrgn-bttm-sm">
+						<label for="dt-platform">
+						{%- if lang == "fr" -%}
+						Plateformes
+						{%- else -%}
+						Platforms
+						{%- endif -%}
+						</label>
+					</h3>
+					<select class="form-control" data-column="2" id="dt-platform" name="dt-platform">
+						{%- if lang == "fr" -%}
+						<option value="">Toutes</option>
+						{%- else -%}
+						<option value="">All</option>
+						{%- endif -%}
+						<option value="Facebook">Facebook</option>
+						<option value="Instagram">Instagram</option>
+						<option value="LinkedIn">LinkedIn</option>
+						<option value="X">X</option>
+						<option value="YouTube">YouTube</option>
+					</select>
+				</section>
+			{%- endif -%}
+			</div>
+			<button aria-controls="{{ include.id | default: 'datatable' }}" class="btn btn-rcmp btn-block btn-sm mrgn-tp-lg" type="submit">
+			{%- if lang == "fr" -%}
+			Appliquer les filtres
+			{%- else -%}
+			Apply filters
+			{%- endif -%}
+			</button>
+			<button class="btn btn-default btn-block btn-sm" type="reset">
+			{%- if lang == "fr" -%}
+			Réinitialiser les filtres
+			{%- else -%}
+			Clear filters
+			{%- endif -%}
+			</button>
+		</form>
+		</section>
+	</div>
+	<div class="col-md-9">
+		{%- if format == "social" or format == "sociaux" -%}
+			{%- if lang == "fr" -%}
+			<h2 class="mrgn-tp-0">Comptes de médias sociaux</h2>
+			{%- else -%}
+			<h2 class="mrgn-tp-0">Social media accounts</h2>
+			{%- endif -%}
+		{%- endif -%}
+		{%- assign ordering = include.ordering | default: "false" -%}
+		{%- assign page_length = include.page_length | default: "10" -%}
+		{%- assign length_change = include.length_change | default: "false" -%}
+		<table id="{{ include.id | default: 'datatable' }}" class="wb-tables table nws-tbl {{ include.class | default: 'table-striped' }}" data-wb-tables='{ "ordering" :{{ ordering }}, "pageLength" :{{ page_length }}, "lengthChange":{{ length_change }} }'>
+			<thead>
+				<tr>
+				{%- if format == "tracker" or format == "outil-suivi" -%}
+					{%- if lang == "fr" -%}
+					<th class="hidden">Titre</th>
+					<th class="hidden">Renseignements détaillés</th>
+					<th class="hidden">Sommaire</th>
+					<th class="hidden">Recommandations</th>
+					<th class="hidden">Thème</th>
+					<th class="hidden">Statut</th>
+					<th class="hidden">Dernière mise à jour</th>
+					{%- else -%}
+					<th class="hidden">Title</th>
+					<th class="hidden">Detailed information</th>
+					<th class="hidden">Summary</th>
+					<th class="hidden">Recommendations</th>
+					<th class="hidden">Theme</th>
+					<th class="hidden">Status</th>
+					<th class="hidden">Last updated</th>
+					{%- endif -%}
+				{%- elsif format == "social" or format == "sociaux" -%}
+					{%- if lang == "fr" -%}
+					<th class="hidden">Ordre</th>
+					<th class="hidden">Nom</th>
+					<th class="hidden">Plateforme</th>
+					<th class="hidden">Lieu</th>
+					{%- else -%}
+					<th class="hidden">Order</th>
+					<th class="hidden">Name</th>
+					<th class="hidden">Platform</th>
+					<th class="hidden">Location</th>
+					{%- endif -%}
+				{%- else -%}
+					{%- for header in headers -%}
+						<th class="hidden">{{ header }}</th>
+					{%- endfor -%}
+				{%- endif -%}
+				</tr>
+			</thead>
+			<tbody>
+			{%- if format == "tracker" or format == "outil-suivi" -%}
+				{%- for data in site.data[page.data_file] -%}
+					{%- if lang == "fr" -%}
+					<tr>
+						<td class="nws-tbl-ttl">
+							<h2 class="mrgn-tp-md">{{ data.fr-title }}</h2>
+						</td>
+						<td class="nws-tbl-desc">
+							<dl>
+								<dt>Sommaire</dt>
+								<dd>{{ data.fr-summary }}</dd>
+								<dt>Thème</dt>
+								<dd>{{ data.fr-theme }}</dd>
+								<dt>Recommandations</dt>
+								<dd>
+									<dl class="mrgn-lft-lg">
+									{%- for rec in data.fr-recommendations -%}
+										<dt>{{- rec.title -}}</dt>
+										<dd>{{- rec.recommendation -}}</dd>
+									{%- endfor -%}
+									</dl>
+								</dd>
+								<dt>Statut</dt>
+								<dd>
+								{%- assign status = data.fr-status -%}
+								{%- case status -%}
+									{%- when "En cours" -%}
+									<p class="label mrgn-bttm-sm mrgn-tp-0 tp-9">{{ status }}</p>
+									{%- when "Terminé" -%}
+									<p class="label mrgn-bttm-sm mrgn-tp-0 tp-3">{{ status }}</p>
+									{%- when "À mettre en œuvre" -%}
+									<p class="label mrgn-bttm-sm mrgn-tp-0 tp-12">{{ status }}</p>
+									{%- when "Reconsidérée" -%}
+									<p class="label mrgn-bttm-sm mrgn-tp-0 tp-10">{{ status }}</p>
+								{%- endcase -%}
+								</dd>
+								<dt>Mises à jour</dt>
+								<dd>
+									<dl class="mrgn-lft-lg">
+									{%- for update in data.fr-updates -%}
+										<dt>{{ update.date }}</dt>
+										<dd>{{ update.update }}</dd>
+									{%- endfor -%}
+									</dl>
+								</dd>
+							</dl>
+						</td>
+						<td class="nws-tbl-desc hidden">
+							{{- data.fr-summary -}}
+						</td>
+						<td class="nws-tbl-desc hidden">
+							{%- for rec in data.fr-recommendations -%}
+								{{- rec.title -}}{% unless forloop.last %},{% endunless %}
+							{%- endfor -%}
+						</td>
+						<td class="nws-tbl-desc hidden">
+							{{- data.fr-theme -}}
+						</td>
+						<td class="nws-tbl-desc hidden">
+							{{- data.fr-status -}}
+						</td>
+						<td class="nws-tbl-desc hidden">
+							{{- data.last-updated -}}
+						</td>
+					</tr>
+					{%- else -%}
+					<tr>
+						<td class="nws-tbl-ttl">
+							<h2 class="mrgn-tp-md">{{ data.en-title }}</h2>
+						</td>
+						<td class="nws-tbl-desc">
+							<dl>
+								<dt>Summary</dt>
+								<dd>{{ data.en-summary }}</dd>
+								<dt>Theme</dt>
+								<dd>{{ data.en-theme }}</dd>
+								<dt>Recommendations</dt>
+								<dd>
+									<dl class="mrgn-lft-lg">
+									{%- for rec in data.en-recommendations -%}
+										<dt>{{- rec.title -}}</dt>
+										<dd>{{- rec.recommendation -}}</dd>
+									{%- endfor -%}
+									</dl>
+								</dd>
+								<dt>Status</dt>
+								<dd>
+								{%- assign status = data.en-status -%}
+								{%- case status -%}
+									{%- when "In progress" -%}
+									<p class="label mrgn-bttm-sm mrgn-tp-0 tp-9">{{ status }}</p>
+									{%- when "Complete" -%}
+									<p class="label mrgn-bttm-sm mrgn-tp-0 tp-3">{{ status }}</p>
+									{%- when "To be actioned" -%}
+									<p class="label mrgn-bttm-sm mrgn-tp-0 tp-12">{{ status }}</p>
+									{%- when "Re-envisioned" -%}
+									<p class="label mrgn-bttm-sm mrgn-tp-0 tp-10">{{ status }}</p>
+								{%- endcase -%}
+								</dd>
+								<dt>Updates</dt>
+								<dd>
+									<dl class="mrgn-lft-lg">
+										{%- for update in data.en-updates -%}
+										<dt>{{ update.date }}</dt>
+										<dd>{{ update.update }}</dd>
+										{%- endfor -%}
+									</dl>
+								</dd>
+							</dl>
+						</td>
+						<td class="nws-tbl-desc hidden">
+							{{- data.en-summary -}}
+						</td>
+						<td class="nws-tbl-desc hidden">
+							{%- for rec in data.en-recommendations -%}
+								{{- rec.title -}}{% unless forloop.last %},{% endunless %}
+							{%- endfor -%}
+						</td>
+						<td class="nws-tbl-desc hidden">
+							{{- data.en-theme -}}
+						</td>
+						<td class="nws-tbl-desc hidden">
+							{{- data.en-status -}}
+						</td>
+						<td class="nws-tbl-desc hidden">
+							{{- data.last-updated -}}
+						</td>
+					</tr>
+					{%- endif -%}
+				{%- endfor -%}
+			{%- elsif format == "social" or format == "sociaux" -%}
+				{%- for data in site.data[page.data_file] -%}
+				<tr>
+					{%- if lang == "fr" -%}
+					<td class="hidden">{{ data.fr-order }}</td>
+					<td class="nws-tbl-ttl">
+						<h3>{{ data.fr-name }}</h3>
+					</td>
+					<td class="nws-tbl-desc">
+						<div class="gc-followus">
+							<ul class="list-inline">
+								{%- for social in data.fr-links -%}
+								{%- case social.platform -%}
+								{%- when "facebook" -%}
+								<li><a href="{{ social.link }}" class="facebook" rel="external"><span class="wb-inv">Facebook: </span>{{ data.fr-name }}</a></li>
+								{%- when "instagram" -%}
+								<li><a href="{{ social.link }}" class="instagram" rel="external"><span class="wb-inv">Instagram: </span>{{ data.fr-name }}</a></li>
+								{%- when "linkedin" -%}
+								<li><a href="{{ social.link }}" class="linkedin" rel="external"><span class="wb-inv">LinkedIn: </span>{{ data.fr-name }}</a></li>
+								{%- when "x" -%}
+								<li><a href="{{ social.link }}" class="x-social" rel="external"><span class="wb-inv">X: </span>{{ data.fr-name }}</a></li>
+								{%- when "youtube" -%}
+								<li><a href="{{ social.link }}" class="youtube" rel="external"><span class="wb-inv">YouTube: </span>{{ data.fr-name }}</a></li>
+								{%- else -%}
+								{%- endcase -%}
+								{%- endfor -%}
+							</ul>
+						</div>
+					</td>
+					<td class="hidden">{{ data.en-location }}</td>
+					{%- else -%}
+					<td class="hidden">{{ data.en-order }}</td>
+					<td class="nws-tbl-ttl">
+						<h3>{{ data.en-name }}</h3>
+					</td>
+					<td class="nws-tbl-desc">
+						<div class="gc-followus">
+							<ul class="list-inline">
+								{%- for social in data.en-links -%}
+								{%- case social.platform -%}
+								{%- when "facebook" -%}
+								<li><a href="{{ social.link }}" class="facebook" rel="external"><span class="wb-inv">Facebook: </span>{{ data.en-name }}</a></li>
+								{%- when "instagram" -%}
+								<li><a href="{{ social.link }}" class="instagram" rel="external"><span class="wb-inv">Instagram: </span>{{ data.en-name }}</a></li>
+								{%- when "linkedin" -%}
+								<li><a href="{{ social.link }}" class="linkedin" rel="external"><span class="wb-inv">LinkedIn: </span>{{ data.en-name }}</a></li>
+								{%- when "x" -%}
+								<li><a href="{{ social.link }}" class="x-social" rel="external"><span class="wb-inv">X: </span>{{ data.en-name }}</a></li>
+								{%- when "youtube" -%}
+								<li><a href="{{ social.link }}" class="youtube" rel="external"><span class="wb-inv">YouTube: </span>{{ data.en-name }}</a></li>
+								{%- else -%}
+								{%- endcase -%}
+								{%- endfor -%}
+							</ul>
+						</div>
+					</td>
+					<td class="hidden">{{ data.en-location }}</td>
+					{%- endif -%}
+				</tr>
+				{%- endfor -%}
+			{%- else -%}
+			{%- endif -%}
+			</tbody>
+		</table>
+	</div>
+</div>

@@ -1,0 +1,18 @@
+collections:
+  - templates_modeles
+
+defaults:
+  -
+    scope:
+      path: "templates-modeles/*/index.md"
+    values:
+      breadcrumbs:
+      - label: "Templates repository"
+        url: "templates-modeles"
+  -
+    scope:
+      path: "templates-modeles/*/index-fr.md"
+    values:
+      breadcrumbs:
+      - label: "Dépôt de modèles"
+        url: "templates-modeles/index-fr.html"

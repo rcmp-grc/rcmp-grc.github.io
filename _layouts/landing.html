@@ -1,0 +1,94 @@
+<!doctype html>
+<html class="no-js" dir="ltr" lang="{{ page.lang | default: 'en' }}">
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="cnt-wdth-lmtd" typeof="WebPage" vocab="http://schema.org/">
+    <nav>
+      <ul id="wb-tphp">
+        {% if page.lang == 'fr' %}
+          <li class="wb-slc">
+            <a class="wb-sl" href="#wb-cont">Passer au contenu principal</a>
+          </li>
+          <li class="wb-slc visible-sm visible-md visible-lg">
+            <a class="wb-sl" href="#wb-info">Passer à «&nbsp;À propos de ce site&nbsp;»</a>
+          </li>
+        {% else %}
+          <li class="wb-slc">
+            <a class="wb-sl" href="#wb-cont">Skip to main content</a>
+          </li>
+          <li class="wb-slc visible-sm visible-md visible-lg">
+            <a class="wb-sl" href="#wb-info">Skip to About this site</a>
+          </li>
+        {% endif %}
+      </ul>
+    </nav>
+    {% include header.html %}
+    <main property="mainContentOfPage" resource="#wb-main" typeof="WebPageElement">
+      <section id="landing-page">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1 id="wb-cont" property="name">{{ page.title }}</h1>
+				</div>
+				<div class="col-md-6">
+					<p>{{ page.description }}</p>
+				</div>
+				<div class="col-md-6 mrgn-tp-sm hidden-sm hidden-xs provisional gc-topic-bg">
+					<img src="{{ page.topic_image }}" alt="">
+				</div>
+			</div>
+		</div>
+		{%- if page.data_file -%}
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<section class="gc-srvinfo">
+						<h2 class="wb-inv">Services and information</h2>
+						<div class="row wb-eqht-grd">
+						{%- assign si_grid = site.data[page.data_file] | sort: "order" -%}
+						{%- for item in si_grid -%}
+							<div class="col-md-4">
+							{%- if page.lang == "fr" -%}
+								<h3><a href="{{ item.link_fr }}">{{ item.title_fr }}</a></h3>
+								<p>{{ item.description_fr }}</p>   
+							{%- else -%}
+								<h3><a href="{{ item.link_en }}">{{ item.title_en }}</a></h3>
+								<p>{{ item.description_en }}</p> 
+							{%- endif -%}
+							</div>
+						{%- endfor -%}
+						</div>	
+					</section>
+				</div>
+			</div>
+		</div>
+		{%- endif -%}
+      </section>
+      <section class="pagedetails container">
+        {% if page.lang == 'fr' %}
+          <h2 class="wb-inv">Détails de la page</h2>
+          <dl id="wb-dtmd">
+            <dt>Date de modification :</dt>
+            <dd>
+              <time property="dateModified">
+                {{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}
+              </time>
+            </dd>
+          </dl>
+        {% else %}
+          <h2 class="wb-inv">Page details</h2>
+          <dl id="wb-dtmd">
+            <dt>Date modified:</dt>
+            <dd>
+              <time property="dateModified">
+                {{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}
+              </time>
+            </dd>
+          </dl>
+        {% endif %}
+      </section>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

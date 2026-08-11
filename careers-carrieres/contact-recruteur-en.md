@@ -48,7 +48,7 @@ custom_css: /assets/css/careers.css
           <i aria-hidden="true" class="fa-solid fa-chevron-right"></i>
         </button>
       </div>
-      <button class="cr-finder-reset hidden" id="cr-reset-btn" type="button">
+      <button class="cr-finder-reset" id="cr-reset-btn" type="button">
         <i aria-hidden="true" class="fa-solid fa-rotate-left"></i>
         Show all provinces and territories
       </button>
@@ -56,9 +56,11 @@ custom_css: /assets/css/careers.css
   </div>
 </section>
 
+<p id="cr-initial-message" class="cr-initial-message">Select a province or territory above to view its contact details, or choose &ldquo;Show all provinces and territories&rdquo; to browse the full list.</p>
+
 <div id="cr-provinces">
 
-<section class="cr-province" id="s1" tabindex="-1">
+<section class="cr-province hidden" id="s1" tabindex="-1">
   <h2>Alberta</h2>
   <div class="row">
     <div class="col-md-6">
@@ -84,7 +86,7 @@ custom_css: /assets/css/careers.css
   </div>
 </section>
 
-<section class="cr-province" id="s2" tabindex="-1">
+<section class="cr-province hidden" id="s2" tabindex="-1">
   <h2>British Columbia</h2>
   <p>Learn more about <a href="https://rcmp.ca/en/bc/careers/project-red-serge">Project Red Serge</a> &ndash; the new streamlined recruiting process for British Columbia residents.</p>
   <dl class="cr-contact-list">
@@ -99,7 +101,7 @@ custom_css: /assets/css/careers.css
   </dl>
 </section>
 
-<section class="cr-province" id="s3" tabindex="-1">
+<section class="cr-province hidden" id="s3" tabindex="-1">
   <h2>Manitoba</h2>
   <dl class="cr-contact-list">
     <dt>Mail</dt>
@@ -111,7 +113,7 @@ custom_css: /assets/css/careers.css
   </dl>
 </section>
 
-<section class="cr-province" id="s4" tabindex="-1">
+<section class="cr-province hidden" id="s4" tabindex="-1">
   <h2>Newfoundland and Labrador</h2>
   <dl class="cr-contact-list">
     <dt>Email</dt>
@@ -119,7 +121,7 @@ custom_css: /assets/css/careers.css
   </dl>
 </section>
 
-<section class="cr-province" id="s5" tabindex="-1">
+<section class="cr-province hidden" id="s5" tabindex="-1">
   <h2>New Brunswick</h2>
   <dl class="cr-contact-list">
     <dt>Email &ndash; General applicants</dt>
@@ -131,7 +133,7 @@ custom_css: /assets/css/careers.css
   </dl>
 </section>
 
-<section class="cr-province" id="s6" tabindex="-1">
+<section class="cr-province hidden" id="s6" tabindex="-1">
   <h2>Northwest Territories</h2>
   <dl class="cr-contact-list">
     <dt>Email</dt>
@@ -139,7 +141,7 @@ custom_css: /assets/css/careers.css
   </dl>
 </section>
 
-<section class="cr-province" id="s7" tabindex="-1">
+<section class="cr-province hidden" id="s7" tabindex="-1">
   <h2>Nova Scotia</h2>
   <dl class="cr-contact-list">
     <dt>Mail</dt>
@@ -151,7 +153,7 @@ custom_css: /assets/css/careers.css
   </dl>
 </section>
 
-<section class="cr-province" id="s8" tabindex="-1">
+<section class="cr-province hidden" id="s8" tabindex="-1">
   <h2>Nunavut</h2>
   <dl class="cr-contact-list">
     <dt>Email</dt>
@@ -161,7 +163,7 @@ custom_css: /assets/css/careers.css
   </dl>
 </section>
 
-<section class="cr-province" id="s9" tabindex="-1">
+<section class="cr-province hidden" id="s9" tabindex="-1">
   <h2>Ontario</h2>
   <dl class="cr-contact-list">
     <dt>Email</dt>
@@ -169,7 +171,7 @@ custom_css: /assets/css/careers.css
   </dl>
 </section>
 
-<section class="cr-province" id="s10" tabindex="-1">
+<section class="cr-province hidden" id="s10" tabindex="-1">
   <h2>Prince Edward Island</h2>
   <dl class="cr-contact-list">
     <dt>Email</dt>
@@ -179,7 +181,7 @@ custom_css: /assets/css/careers.css
   </dl>
 </section>
 
-<section class="cr-province" id="s11" tabindex="-1">
+<section class="cr-province hidden" id="s11" tabindex="-1">
   <h2>Quebec</h2>
   <dl class="cr-contact-list">
     <dt>Email</dt>
@@ -187,7 +189,7 @@ custom_css: /assets/css/careers.css
   </dl>
 </section>
 
-<section class="cr-province" id="s12" tabindex="-1">
+<section class="cr-province hidden" id="s12" tabindex="-1">
   <h2>Saskatchewan</h2>
   <dl class="cr-contact-list">
     <dt>Email</dt>
@@ -195,7 +197,7 @@ custom_css: /assets/css/careers.css
   </dl>
 </section>
 
-<section class="cr-province" id="s13" tabindex="-1">
+<section class="cr-province hidden" id="s13" tabindex="-1">
   <h2>Yukon</h2>
   <p>Learn more about <a href="https://rcmp.ca/en/bc/careers/project-red-serge">Project Red Serge</a> &ndash; the new streamlined recruiting process for Yukon residents.</p>
   <dl class="cr-contact-list">
@@ -273,10 +275,6 @@ custom_css: /assets/css/careers.css
   background-repeat: no-repeat;
   background-position: right 12px center;
 }
-.cr-finder-field select:focus {
-  outline: 3px solid var(--rcmp-focus, #fd0);
-  outline-offset: 2px;
-}
 .cr-finder-row .rc-btn {
   flex: 0 0 auto;
 }
@@ -301,6 +299,12 @@ custom_css: /assets/css/careers.css
   outline: 3px solid var(--rcmp-focus, #fd0);
   outline-offset: 2px;
 }
+
+.cr-initial-message {
+  color: var(--rcmp-grey-dk, #505a5f);
+  margin-bottom: 2rem;
+}
+
 @media (max-width: 600px) {
   .cr-finder { flex-direction: column; padding: 1.5rem; }
   .cr-finder-row { flex-direction: column; align-items: stretch; }
@@ -362,6 +366,7 @@ custom_css: /assets/css/careers.css
   var provincesWrap   = document.getElementById("cr-provinces");
   var allSections     = Array.prototype.slice.call(document.querySelectorAll(".cr-province"));
   var noMatch         = document.getElementById("cr-no-match");
+  var initialMessage  = document.getElementById("cr-initial-message");
   var liveRegion      = document.getElementById("cr-live-region");
 
   if (!form || !select || !allSections.length) { return; }
@@ -376,6 +381,11 @@ custom_css: /assets/css/careers.css
     return opt ? opt.textContent : "";
   }
 
+  function hideAll() {
+    allSections.forEach(function (section) { section.classList.add("hidden"); });
+    if (noMatch) { noMatch.classList.add("hidden"); }
+  }
+
   function showOnly(id) {
     var found = false;
     allSections.forEach(function (section) {
@@ -386,16 +396,20 @@ custom_css: /assets/css/careers.css
         section.classList.add("hidden");
       }
     });
+    if (initialMessage) { initialMessage.classList.add("hidden"); }
     noMatch.classList.toggle("hidden", found);
-    resetBtn.classList.remove("hidden");
     return found;
   }
 
   function showAll() {
     allSections.forEach(function (section) { section.classList.remove("hidden"); });
+    if (initialMessage) { initialMessage.classList.add("hidden"); }
     noMatch.classList.add("hidden");
-    resetBtn.classList.add("hidden");
   }
+
+  // Default state: no province/territory panel is shown until the user
+  // makes a selection or explicitly asks to see all of them.
+  hideAll();
 
   form.addEventListener("submit", function (e) {
     e.preventDefault();

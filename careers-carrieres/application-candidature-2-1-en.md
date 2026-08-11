@@ -226,7 +226,30 @@ A, B, C, D, E or I don't know</p>
   </div>
   <div class="col-md-6">  
     <figure>
-      <img alt="" class="img-responsive full-width" src="ex-1.png">
+      <img alt="" aria-describedby="2dshape-description" class="img-responsive full-width" src="ex-1.png">
+      <figcaption class="mrgn-tp-md">
+<details class="mrgn-bttm-sm" id="2dshape-description">
+ <summary>
+        Description: Image of rotating 2D&nbsp;shapes
+ </summary>
+ <div class="mrgn-tp-md">
+   <dl class="mrgn-bttm-0">
+          <dt>Reference shape</dt>
+          <dd>An upright pink rectangle. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the top left corner.</dd>
+          <dt>Option A</dt>
+          <dd>A rectangle flipped and tilted slightly clockwise. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two lines creates a square shape in the top right corner. </dd>
+          <dt>Option B</dt>
+          <dd>A rectangle flipped and tilted slightly counterclockwise. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the bottom left corner.</dd>
+          <dt>Option C</dt>
+          <dd>A rectangle rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the top left corner. </dd>
+      <dt>Option D</dt>
+          <dd>A rectangle flipped and rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two lines creates a square shape in the top right corner.</dd>
+     <dt>Option E</dt>
+          <dd>A rectangle if flipped and rotated. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the bottom left corner.</dd>
+   </dl>
+ </div>
+</details>
+      </figcaption>
     </figure>
   </div>   
 </div>
@@ -253,10 +276,31 @@ A, B, C, D, E or I don't know</p>
   </div>
   <div class="col-md-6">  
     <figure>
-      <img alt="" class="img-responsive full-width" src="ex-2.png">
+      <img alt="" aria-describedby="3dshape-description" class="img-responsive full-width" src="ex-2.png">
+      <figcaption class="mrgn-tp-md">
+<details class="mrgn-bttm-sm" id="3dshape-description">
+ <summary>
+        Description: Image of rotating 3D&nbsp;shapes
+ </summary>
+ <div class="mrgn-tp-md">
+   <dl class="mrgn-bttm-0">
+          <dt>Reference shape</dt>
+          <dd>A three-dimensional shape made of seven connected cubes. Three&nbsp;arms meet at a central cube. </dd>
+          <dt>Option A</dt>
+          <dd>A three-dimensional shape made of seven connected cubes. Two arms build up from the ends of a three-cubed base. </dd>
+          <dt>Option B</dt>
+          <dd>A three-dimensional shape made of seven connected cubes. Two three-cubed bases are connected by one central cube.</dd>
+          <dt>Option C</dt>
+          <dd>A three-dimensional shape made of six visible connected cubes. </dd>
+      <dt>Option D</dt>
+          <dd>A three-dimensional shape made of seven connected cubes. Three arms meet at a central cube. </dd>
+   </dl>
+ </div>
+</details>
+      </figcaption>
     </figure>
   </div>   
-</div>
+  </div>
     <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
       <p>The correct answer is <strong>D. shape&nbsp;D</strong>.</p>
@@ -280,7 +324,20 @@ A, B, C, D, E or I don't know</p>
   </div>
   <div class="col-md-6">  
     <figure>
-      <img alt="" class="img-responsive full-width" src="ex-3.png">
+      <img alt="" aria-describedby="mechanical-problems-description" class="img-responsive full-width" src="ex-3.png">
+      <figcaption class="mrgn-tp-md">
+<details class="mrgn-bttm-sm" id="mechanical-problems-description">
+ <summary>
+        Description: Diagram of a single straight rod 
+ </summary>
+ <div class="mrgn-tp-md">
+   <dl class="mrgn-bttm-0">
+          <dt>Reference shape</dt>
+          <dd>The diagram shows a single straight rod connected through a central pivot base. The top end of the rod is labelled E. The bottom end of the rod is labelled H. A curved arrow beside H points to the right, indicating that handle H is pulled or moved to the right. </dd>
+   </dl>
+ </div>
+</details>
+      </figcaption>
     </figure>
   </div>   
 </div>
@@ -307,7 +364,28 @@ A, B, C, D, E or I don't know</p>
   </div>
   <div class="col-md-6">  
     <figure>
-      <img alt="" class="img-responsive full-width" src="ex-4.png">
+      <img alt="" aria-describedby="folding-shapes" class="img-responsive full-width" src="ex-4.png">
+      <figcaption class="mrgn-tp-md">
+<details class="mrgn-bttm-sm" id="folding-shapes">
+ <summary>
+        Description: Image of cubes and folding shapes 
+ </summary>
+ <div class="mrgn-tp-md">
+   <dl class="mrgn-bttm-0">
+          <dt>Unfolded shape</dt>
+          <dd>A two-dimensional cutout made of six identical petal-like sections that taper, arranged around a central point. Each section is attached to the centre and extends outward. The six sections are evenly spaced around the centre. </dd>
+     <dt>Option A</dt>
+          <dd>A folded three-dimensional shape with top and bottom flat polygon-shaped faces.</dd>
+      <dt>Option B</dt>
+          <dd>A folded three-dimensional egg-like shape with a wider ring around the centre. The shape has flat faces and many angled panels.</dd>
+     <dt>Option C</dt>
+          <dd>A folded three-dimensional symmetrical egg-like shape. The top and bottom taper to smaller polygon-shaped ends.</dd>
+     <dt>Option D</dt>
+          <dd>An irregular folded three-dimensional shape made of several connected angled sections.</dd>
+   </dl>
+ </div>
+</details>
+      </figcaption>
     </figure>
   </div>   
  </div>
@@ -348,7 +426,24 @@ A, B, C, D, E or I don't know</p>
      </div>
   <div class="col-md-6">  
         <figure>
-      <img alt="" class="img-responsive full-width" src="ex-5.png ">
+      <img alt="" aria-describedby="memory" class="img-responsive full-width" src="ex-5.png">
+      <figcaption class="mrgn-tp-md">
+<details class="mrgn-bttm-sm" id="memory">
+ <summary>
+        Description: Image of shapes 
+ </summary>
+ <div class="mrgn-tp-md">
+   <dl class="mrgn-bttm-0">
+     <dt>Shape 1</dt>
+          <dd>A blue triangle. </dd>
+      <dt>Shape 2</dt>
+          <dd>A red diamond. </dd>
+     <dt>Shape 3</dt>
+          <dd>A black circle. </dd>
+   </dl>
+ </div>
+</details>
+      </figcaption>
     </figure>
      </div>
  </div>

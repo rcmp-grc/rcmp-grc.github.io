@@ -74,7 +74,7 @@ font-size: 1.1rem;
 }
 .location {
     color: #404040;
-}	
+}		
 a.primary-topic:link, a.primary-topic:visited {
     background-color: #ffffff;
     color: #000000;
@@ -218,35 +218,18 @@ a.primary-topic:hover, a.primary-topic:active {
     <li><a href="#">Arctic and northern affairs</a></li>
 </ul>
 </section>
-</div>
-<div class="col-md-4">
-<div class="card">	
-<div class="card-tag"><h2 class="wb-inv">Event</h2>
-<p><i class="fa-solid fa-thumbtack"></i> Event details</p></div> 
-<dl>	
-<dt>Date</dt> <dd>Saturday, May 23, 2026</dd>
-<dt>Time</dt> <dd>1-4 pm (local time)</dd>
-<dt>Location</dt>
-<dd><address>Northern Community Recreation Centre<br>
-100 Aurora Road<br>
-Iqaluit, Nunavut</address></dd>
-</dl>
-</div>
-</div>
-</div>
-<div class="clearfix"></div>	
 <section id="gc-contact" class="contact-us">
-	<h2 class="h3">Contact us</h2>
+	<h3>Contact us</h3>
 	<div class="contact-signature">	
-    <p><strong>National Communications and Public Affairs</strong><br>
-   <a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
-   613-555-0100</p>	
+    <h4 class="news-contact-h4">National Headquarters</h4>
+   <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
+   613-555-0100</p>
 	<section class="gc-followus">
-<h2 class="h4 mrgn-tp-lg wb-inv">Follow us</h2>
+<h3 class="h4 mrgn-tp-lg wb-inv">Follow us</h4>
 <ul class="list-inline">     
 <li>
      <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
-          <span class="wb-inv">X: </span>X: Royal Canadian Mounted Police</a>
+     <span class="wb-inv">X: </span>X: Royal Canadian Mounted Police</a>
 </li>	
 <li>
      <a href="https://www.facebook.com/rcmpgrc" class="facebook" rel="external">
@@ -257,9 +240,28 @@ Iqaluit, Nunavut</address></dd>
           <span class="wb-inv">Instagram: </span>Instagram: Royal Canadian Mounted Police</a>
 </li>
 							</ul>
-	</section>
+	</section>	
 	</div>
-	</section>
+</section>
+</div>
+<div class="col-md-4">
+	<section class="panel panel-default brdr-rds-0 ">
+  <header class="panel-heading">
+   <h3 class="h5 panel-title">Event details</h3>
+  </header>
+  <div class="panel-body">
+  <dl>	
+<dt>Date</dt> <dd>Saturday, May 23, 2026</dd>
+<dt>Time</dt> <dd>1-4 pm (local time)</dd>
+<dt>Location</dt>
+<dd><address>Northern Community Recreation Centre<br>
+100 Aurora Road<br>
+Iqaluit, Nunavut</address></dd>
+</dl>
+  </div>
+</section>
+</div>
+<div class="clearfix"></div>	
 <div class="explore">
 <section id="topics">
 <h2 class="h3">Explore related topics</h2>

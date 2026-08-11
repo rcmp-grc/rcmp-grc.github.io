@@ -334,16 +334,6 @@ A, B, C, D, E or I don't know</p>
    <dl class="mrgn-bttm-0">
           <dt>Reference shape</dt>
           <dd>The diagram shows a single straight rod connected through a central pivot base. The top end of the rod is labelled E. The bottom end of the rod is labelled H. A curved arrow beside H points to the right, indicating that handle H is pulled or moved to the right. </dd>
-          <dt>Unfolded shape</dt>
-          <dd>A two-dimensional cutout made of six identical petal-like sections that taper, arranged around a central point. Each section is attached to the centre and extends outward. The six sections are evenly spaced around the centre. </dd>
-          <dt>Option A</dt>
-          <dd>A folded three-dimensional shape with top and bottom flat polygon-shaped faces.</dd>
-          <dt>Option B</dt>
-          <dd>A folded three-dimensional egg-like shape with a wider ring around the centre. The shape has flat faces and many angled panels. </dd>
-      <dt>Option C</dt>
-          <dd>A folded three-dimensional symmetrical egg-like shape. The top and bottom taper to smaller polygon-shaped ends.</dd>
-     <dt>Option D</dt>
-          <dd>An irregular folded three-dimensional shape made of several connected angled sections.</dd>
    </dl>
  </div>
 </details>
@@ -374,7 +364,28 @@ A, B, C, D, E or I don't know</p>
   </div>
   <div class="col-md-6">  
     <figure>
-      <img alt="" class="img-responsive full-width" src="ex-4.png">
+      <img alt="" aria-describedby="folding-shapes" class="img-responsive full-width" src="ex-4.png">
+      <figcaption class="mrgn-tp-md">
+<details class="mrgn-bttm-sm" id="folding-shapes">
+ <summary>
+        Description: Image of cubes and folding shapes 
+ </summary>
+ <div class="mrgn-tp-md">
+   <dl class="mrgn-bttm-0">
+          <dt>Unfolded shape</dt>
+          <dd>A two-dimensional cutout made of six identical petal-like sections that taper, arranged around a central point. Each section is attached to the centre and extends outward. The six sections are evenly spaced around the centre. </dd>
+     <dt>Option A</dt>
+          <dd>A folded three-dimensional shape with top and bottom flat polygon-shaped faces.</dd>
+      <dt>Option B</dt>
+          <dd>A folded three-dimensional egg-like shape with a wider ring around the centre. The shape has flat faces and many angled panels.</dd>
+     <dt>Option C</dt>
+          <dd>A folded three-dimensional symmetrical egg-like shape. The top and bottom taper to smaller polygon-shaped ends.</dd>
+     <dt>Option D</dt>
+          <dd>An irregular folded three-dimensional shape made of several connected angled sections.</dd>
+   </dl>
+ </div>
+</details>
+      </figcaption>
     </figure>
   </div>   
  </div>
@@ -415,7 +426,24 @@ A, B, C, D, E or I don't know</p>
      </div>
   <div class="col-md-6">  
         <figure>
-      <img alt="" class="img-responsive full-width" src="ex-5.png ">
+      <img alt="" aria-describedby="memory" class="img-responsive full-width" src="ex-5.png">
+      <figcaption class="mrgn-tp-md">
+<details class="mrgn-bttm-sm" id="memory">
+ <summary>
+        Description: Image of shapes 
+ </summary>
+ <div class="mrgn-tp-md">
+   <dl class="mrgn-bttm-0">
+     <dt>Shape 1</dt>
+          <dd>A blue triangle. </dd>
+      <dt>Shape 2</dt>
+          <dd>A red diamond. </dd>
+     <dt>Shape 3</dt>
+          <dd>A black circle. </dd>
+   </dl>
+ </div>
+</details>
+      </figcaption>
     </figure>
      </div>
  </div>

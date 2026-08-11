@@ -243,7 +243,7 @@ Iqaluit, Nunavut</address></dd>
 <div class="clearfix"></div>	
 <div class="explore">
 <section id="topics">
-<h2 class="h5 mrgn-tp-sm">Explore related topics</h2>
+<h2 class="h4 mrgn-tp-sm">Explore related topics</h2>
 <ol class="list-inline">
   <li><a href="#" class="news-topic-1">Community interest</a></li>
 </ol>

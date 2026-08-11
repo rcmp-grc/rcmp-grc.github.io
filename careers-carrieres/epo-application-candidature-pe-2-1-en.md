@@ -36,7 +36,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s1">
     <h2>Structured resume</h2>
-    <p>Please list all of the relevant qualifications and experience to ensure that a complete assessment of your skills and abilities can be conducted.</p>
+    <p>Please list all of the <strong>relevant qualifications and experience</strong> to ensure that a complete assessment of your skills and abilities can be conducted.</p>
     <ul>
         <li>Ensure that your structured resume <strong>includes all criteria</strong> in the following example</li>
         <li>Use the following format and keep your resume to a total of <strong>2 pages or less</strong></li>
@@ -73,8 +73,8 @@ custom_css: /assets/css/careers.css
 <section id="s2">
     <h2>Functional police experience and competencies</h2>
     <ul>
-        <li>Provide 2&nbsp;examples of your functional police experience for each of the following police competencies using the STAR format and keep your text to a total of 9 pages or less.</li>
-        <li>Request a copy of the RCMP Police Competency definitions and form from your provincial recruiting office. Incorporate these definitions in your examples.</li>
+        <li>Provide <strong>2&nbsp;examples</strong> of your functional police experience for each of the following police competencies using the <strong>STAR format</strong> and keep your text to a total of <strong>9 pages or less</strong>.</li>
+        <li>Request a copy of the <strong>RCMP Police Competency definitions and form</strong> from your <a href="#">provincial recruiting office</a>. Incorporate these definitions in your examples.</li>
     </ul>
     <section id="s2-1">
         <h3>Police competencies</h3>
@@ -93,7 +93,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s3">
     <h2>The STAR format</h2>
-    <p>STAR stands for Situation, Task, Action and Result. The STAR format is used by the RCMP to capture behavioural examples of relevant performance to assess competencies. Use this format to provide complete descriptions of the scenarios, the actions taken, and the results of your actions to describe your functional police experience.</p>
+    <p>STAR stands for Situation, Task, Action and Result. The STAR format is used by the RCMP to capture behavioural examples of relevant performance to assess competencies. Use this format to provide complete descriptions of the scenarios, the actions taken, and the results of your actions to describe your functional police experience.</p>
     <dl class="well">
         <dt>Situation</dt>
         <dd>

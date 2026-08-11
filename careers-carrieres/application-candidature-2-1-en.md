@@ -300,6 +300,7 @@ A, B, C, D, E or I don't know</p>
       </figcaption>
     </figure>
   </div>   
+  </div>
     <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
       <p>The correct answer is <strong>D. shape&nbsp;D</strong>.</p>

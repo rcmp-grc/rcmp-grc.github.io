@@ -75,9 +75,9 @@ font-size: 1.1rem;
 .location {
     color: #404040;
 }		
-a.primary-topic:link, a.primary-topic:visited {
-    background-color: #ffffff;
-    color: #000000;
+a.news-topic1:link, a.primary-topic:visited {
+    background-color: #d6e4f5;
+    color: #0f253d;
     padding: 4px 10px;
 	border-radius: 8px;
 	font-size: 1rem;
@@ -87,34 +87,12 @@ a.primary-topic:link, a.primary-topic:visited {
     display: inline-block;
 	border: 1px solid #000000;	
 }
-a.primary-topic:hover, a.primary-topic:active {
-	background-color: #d6f5e1;
-    color: #0f3d20;
+a.news-topic1:hover, a.primary-topic:active {
+	background-color: white;
+    color: #0f253d;
     padding: 4px 10px;
     border-radius: 8px;
 	border: 1px solid #0f3d20;
-}
-	a.news-topic-2:link, a.news-topic-2:visited {
-    background-color: #d6e4f5;
-    color: #0f253d;
-	padding: 8px 10px;	
-	font-size: 0.8em;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-	border-left: 5px solid #0f253d;
-	border-right: 1px solid #0f253d;
-	border-bottom: 1px solid #0f253d;
-	border-top: 1px solid #0f253d;	
-}
-	a.news-topic-2:hover, a.news-topic-2:active {
-	 background-color: white;
-     color: #0f253d;
-	 border-left: 5px solid #0f253d;
-	 border-right: 1px solid #0f253d;
-	 border-bottom: 1px solid #0f253d;
-	 border-top: 1px solid #0f253d;
 }
 	a.news-topic-3:link, a.news-topic-3:visited
 	{
@@ -247,7 +225,7 @@ a.primary-topic:hover, a.primary-topic:active {
 <div class="col-md-4">
 	<section class="panel panel-default brdr-rds-0 ">
   <header class="panel-heading">
-   <h3 class="h5 panel-title">Event details</h3>
+   <h2 class="panel-title h5">Event details</h2>
   </header>
   <div class="panel-body">
   <dl>	
@@ -267,7 +245,6 @@ Iqaluit, Nunavut</address></dd>
 <section id="topics">
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
-  <li><a href="#" class="news-topic-2">Media Relations</a></li>
   <li><a href="#" class="news-topic-1">Community interest</a></li>
 </ol>
 </section>

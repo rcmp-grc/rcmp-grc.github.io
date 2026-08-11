@@ -245,7 +245,7 @@ Iqaluit, Nunavut</address></dd>
 <section id="topics">
 <h2 class="h4 mrgn-tp-sm mrgn-bttm-md">Explore related topics</h2>
 <ol class="list-inline">
-  <li><a href="#" class="news-topic-1">Community interest</a></li>
+  <li><a href="#" class="news-topic-1">Public interest</a></li>
 </ol>
 </section>
 </div>

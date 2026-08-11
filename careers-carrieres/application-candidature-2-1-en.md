@@ -226,7 +226,31 @@ A, B, C, D, E or I don't know</p>
   </div>
   <div class="col-md-6">  
     <figure>
-      <img alt="" class="img-responsive full-width" src="ex-1.png">
+      <img alt="" aria-describedby="2dshape-description" class="img-responsive full-width" src="ex-1.png">
+      <figcaption class="mrgn-tp-md">
+<details class="mrgn-bttm-sm" id="2dshape-description">
+ <summary>
+        Description: Rotating 2D&nbsp;shapes
+ </summary>
+ <div class="mrgn-tp-md">
+        <p>A crime can be considered a cybercrime when a computer or other digital technology plays an important role in committing a criminal offence. The <cite>Criminal Code of Canada</cite> outlines the law around these types of crimes:</p>
+   <dl class="mrgn-bttm-0">
+          <dt>Reference shape</dt>
+          <dd>An upright pink rectangle. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the top left corner.</dd>
+          <dt>Option A</dt>
+          <dd>A rectangle flipped and tilted slightly clockwise. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two lines creates a square shape in the top right corner. </dd>
+          <dt>Option B</dt>
+          <dd>A rectangle flipped and tilted slightly counterclockwise. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the bottom left corner.</dd>
+          <dt>Option C</dt>
+          <dd>A rectangle rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the top left corner. </dd>
+      <dt>Option D</dt>
+          <dd>A rectangle flipped and rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two lines creates a square shape in the top right corner.</dd>
+     <dt>Option E</dt>
+          <dd>A rectangle if flipped and rotated. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the bottom left corner.</dd>
+   </dl>
+ </div>
+</details>
+      </figcaption>
     </figure>
   </div>   
 </div>

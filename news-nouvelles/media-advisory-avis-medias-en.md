@@ -221,11 +221,11 @@ a.primary-topic:hover, a.primary-topic:active {
 <section id="gc-contact" class="contact-us">
 	<h2 class="h3">Contact us</h2>
 	<div class="contact-signature">	
-    <h4 class="news-contact-h4">National Headquarters</h4>
+    <h3 class="news-contact-h4">National Headquarters</h3>
    <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
    613-555-0100</p>
 	<section class="gc-followus">
-<h3 class="h4 mrgn-tp-lg wb-inv">Follow us</h4>
+<h3 class="h4 mrgn-tp-lg wb-inv">Follow us</h3>
 <ul class="list-inline">     
 <li>
      <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">

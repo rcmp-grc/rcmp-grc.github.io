@@ -230,7 +230,7 @@ A, B, C, D, E or I don't know</p>
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="2dshape-description">
  <summary>
-        Description: Rotating 2D&nbsp;shapes
+        Description: Image of rotating 2D&nbsp;shapes
  </summary>
  <div class="mrgn-tp-md">
    <dl class="mrgn-bttm-0">
@@ -276,10 +276,30 @@ A, B, C, D, E or I don't know</p>
   </div>
   <div class="col-md-6">  
     <figure>
-      <img alt="" class="img-responsive full-width" src="ex-2.png">
+      <img alt="" aria-describedby="3dshape-description" class="img-responsive full-width" src="ex-2.png">
+      <figcaption class="mrgn-tp-md">
+<details class="mrgn-bttm-sm" id="3dshape-description">
+ <summary>
+        Description: Image of rotating 3D&nbsp;shapes
+ </summary>
+ <div class="mrgn-tp-md">
+   <dl class="mrgn-bttm-0">
+          <dt>Reference shape</dt>
+          <dd>A three-dimensional shape made of seven connected cubes. Three&nbsp;arms meet at a central cube. </dd>
+          <dt>Option A</dt>
+          <dd>A three-dimensional shape made of seven connected cubes. Two arms build up from the ends of a three-cubed base. </dd>
+          <dt>Option B</dt>
+          <dd>A three-dimensional shape made of seven connected cubes. Two three-cubed bases are connected by one central cube.</dd>
+          <dt>Option C</dt>
+          <dd>A three-dimensional shape made of six visible connected cubes. </dd>
+      <dt>Option D</dt>
+          <dd>A three-dimensional shape made of seven connected cubes. Three arms meet at a central cube. </dd>
+   </dl>
+ </div>
+</details>
+      </figcaption>
     </figure>
   </div>   
-</div>
     <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
       <p>The correct answer is <strong>D. shape&nbsp;D</strong>.</p>

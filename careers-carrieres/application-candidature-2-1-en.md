@@ -233,7 +233,6 @@ A, B, C, D, E or I don't know</p>
         Description: Rotating 2D&nbsp;shapes
  </summary>
  <div class="mrgn-tp-md">
-        <p>A crime can be considered a cybercrime when a computer or other digital technology plays an important role in committing a criminal offence. The <cite>Criminal Code of Canada</cite> outlines the law around these types of crimes:</p>
    <dl class="mrgn-bttm-0">
           <dt>Reference shape</dt>
           <dd>An upright pink rectangle. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the top left corner.</dd>

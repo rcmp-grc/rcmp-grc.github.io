@@ -10,7 +10,6 @@ issued: 2026-05-08
 ---
 
 <style>
-	<style>
 .explore { 
 	 border-top: 2px solid var(--rcmp-red);
 	 margin-bottom: 10px;
@@ -107,7 +106,7 @@ a.primary-topic:hover, a.primary-topic:active {
 	border-right: 1px solid #0f253d;
 	border-bottom: 1px solid #0f253d;
 	border-top: 1px solid #0f253d;	
-	}
+}
 	a.news-topic-2:hover, a.news-topic-2:active {
 	 background-color: white;
      color: #0f253d;
@@ -130,7 +129,7 @@ a.primary-topic:hover, a.primary-topic:active {
 	border-right: 1px solid #361966;
 	border-bottom: 1px solid #361966;
 	border-top: 1px solid #361966;			
-	}
+}
 	a.news-topic-3:hover, a.news-topic-3:active {
 	background-color: white;
     color: #361966;
@@ -138,7 +137,7 @@ a.primary-topic:hover, a.primary-topic:active {
 	border-right: 1px solid #361966;
 	border-bottom: 1px solid #361966;
 	border-top: 1px solid #361966;
-	}
+}
    a.news-topic-4:link, a.news-topic-4:visited
 	{
    background-color: #f9d2d7;
@@ -153,7 +152,7 @@ a.primary-topic:hover, a.primary-topic:active {
    border-right: 1px solid #590d17;
    border-bottom: 1px solid #590d17;
    border-top: 1px solid #590d17;	
-	}
+}
 	a.news-topic-4:hover, a.news-topic-4:active {
 	background-color: white;
     color: #590d17;
@@ -161,7 +160,7 @@ a.primary-topic:hover, a.primary-topic:active {
 	border-right: 1px solid #590d17;
 	border-bottom: 1px solid #590d17;
 	border-top: 1px solid #590d17;
-	}
+}
 </style>
 <article>
 <p class="lead">The Royal Canadian Mounted Police will host a community winter safety event featuring Bob the Polar Bear, the RCMP’s unofficial northern mascot.</p>
@@ -260,6 +259,7 @@ Iqaluit, Nunavut</address></dd>
 </dl>
   </div>
 </section>
+</div>
 </div>
 <div class="clearfix"></div>	
 <div class="explore">

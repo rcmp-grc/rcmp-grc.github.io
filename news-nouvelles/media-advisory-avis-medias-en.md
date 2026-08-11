@@ -218,7 +218,7 @@ a.primary-topic:hover, a.primary-topic:active {
 </ul>
 </section>
 <section id="gc-contact" class="contact-us">
-	<h3>Contact us</h3>
+	<h2 class="h3">Contact us</h2>
 	<div class="contact-signature">	
     <h4 class="news-contact-h4">National Headquarters</h4>
    <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>

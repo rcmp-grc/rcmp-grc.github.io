@@ -14,22 +14,19 @@ custom_css: /assets/css/careers.css
 
 <div aria-live="polite" aria-atomic="true" class="rc-live-region sr-only" id="cr-live-region"></div>
 
-<p>Ready to start a conversation about joining the RCMP as a police officer? Find the recruiting contact for your province or territory below.</p>
-
-<section aria-labelledby="cr-finder-heading" class="rc-question-card" id="cr-finder">
-  <div class="rc-question-card__body">
-    <h2 class="rc-question-title" id="cr-finder-heading">Find your recruiter</h2>
-    <p>Select your province or territory to jump straight to its contact information.</p>
-  </div>
-  <div class="rc-question-card__answers">
-    <div class="rc-answers-inner">
-      <noscript>
-        <p>Use the <a href="#s1">On this page</a> links below to find your province or territory.</p>
-      </noscript>
-      <form id="cr-finder-form">
-        <div class="re-select-group" id="cr-finder-group">
-          <label class="re-select-label" for="cr-province-select">Province or territory</label>
-          <select class="re-select" id="cr-province-select" name="province">
+<section aria-labelledby="cr-finder-heading" class="cr-finder" id="cr-finder">
+  <div class="cr-finder-icon" aria-hidden="true"><i class="fa-solid fa-location-dot"></i></div>
+  <div class="cr-finder-body">
+    <h2 id="cr-finder-heading">Find your recruiter</h2>
+    <p>Ready to start a conversation about joining the RCMP as a police officer? Choose your province or territory and we'll bring up the right contact details.</p>
+    <noscript>
+      <p>JavaScript is required to use this tool. Contact information for every province and territory is listed below.</p>
+    </noscript>
+    <form class="cr-finder-form" id="cr-finder-form">
+      <div class="cr-finder-row">
+        <div class="cr-finder-field">
+          <label for="cr-province-select">Province or territory</label>
+          <select id="cr-province-select" name="province">
             <option value="">Select a province or territory</option>
             <option value="s1">Alberta</option>
             <option value="s2">British Columbia</option>
@@ -46,38 +43,18 @@ custom_css: /assets/css/careers.css
             <option value="s13">Yukon</option>
           </select>
         </div>
-        <div class="rc-nav" role="group" aria-label="Recruiter finder actions">
-          <button class="rc-btn rc-btn--primary" id="cr-view-btn" type="submit">
-            View contact information
-            <i aria-hidden="true" class="fa-solid fa-chevron-right"></i>
-          </button>
-          <button class="rc-btn rc-btn--secondary hidden" id="cr-reset-btn" type="button">
-            Show all provinces and territories
-          </button>
-        </div>
-      </form>
-    </div>
+        <button class="rc-btn rc-btn--primary" id="cr-view-btn" type="submit">
+          View contact information
+          <i aria-hidden="true" class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+      <button class="cr-finder-reset hidden" id="cr-reset-btn" type="button">
+        <i aria-hidden="true" class="fa-solid fa-rotate-left"></i>
+        Show all provinces and territories
+      </button>
+    </form>
   </div>
 </section>
-
-<nav aria-labelledby="on-this-page">
-  <h2 id="on-this-page">On this page</h2>
-  <ul>
-    <li><a href="#s1">Alberta</a></li>
-    <li><a href="#s2">British Columbia</a></li>
-    <li><a href="#s3">Manitoba</a></li>
-    <li><a href="#s4">Newfoundland and Labrador</a></li>
-    <li><a href="#s5">New Brunswick</a></li>
-    <li><a href="#s6">Northwest Territories</a></li>
-    <li><a href="#s7">Nova Scotia</a></li>
-    <li><a href="#s8">Nunavut</a></li>
-    <li><a href="#s9">Ontario</a></li>
-    <li><a href="#s10">Prince Edward Island</a></li>
-    <li><a href="#s11">Quebec</a></li>
-    <li><a href="#s12">Saskatchewan</a></li>
-    <li><a href="#s13">Yukon</a></li>
-  </ul>
-</nav>
 
 <div id="cr-provinces">
 
@@ -86,7 +63,7 @@ custom_css: /assets/css/careers.css
   <div class="row">
     <div class="col-md-6">
       <h3>Northern Alberta</h3>
-      <dl class="dl-horizontal">
+      <dl class="cr-contact-list">
         <dt>Mail</dt>
         <dd><address>11140 109 St NW<br>Edmonton AB&nbsp;T5G&nbsp;2T4</address></dd>
         <dt>Email</dt>
@@ -97,7 +74,7 @@ custom_css: /assets/css/careers.css
     </div>
     <div class="col-md-6">
       <h3>Southern Alberta</h3>
-      <dl class="dl-horizontal">
+      <dl class="cr-contact-list">
         <dt>Mail</dt>
         <dd><address>7575 8 St NE<br>Calgary AB&nbsp;T2E&nbsp;8A2</address></dd>
         <dt>Email</dt>
@@ -110,7 +87,7 @@ custom_css: /assets/css/careers.css
 <section class="cr-province" id="s2" tabindex="-1">
   <h2>British Columbia</h2>
   <p>Learn more about <a href="https://rcmp.ca/en/bc/careers/project-red-serge">Project Red Serge</a> &ndash; the new streamlined recruiting process for British Columbia residents.</p>
-  <dl class="dl-horizontal">
+  <dl class="cr-contact-list">
     <dt>Mail</dt>
     <dd><address>14200 Green Timbers Way<br>Mail Stop: 1109<br>Surrey BC&nbsp;V3T&nbsp;6P3</address></dd>
     <dt>Email &ndash; General applicants</dt>
@@ -124,7 +101,7 @@ custom_css: /assets/css/careers.css
 
 <section class="cr-province" id="s3" tabindex="-1">
   <h2>Manitoba</h2>
-  <dl class="dl-horizontal">
+  <dl class="cr-contact-list">
     <dt>Mail</dt>
     <dd><address>1091 Portage Avenue<br>Winnipeg MB&nbsp;R3C&nbsp;3K2</address></dd>
     <dt>Email &ndash; General applicants</dt>
@@ -136,7 +113,7 @@ custom_css: /assets/css/careers.css
 
 <section class="cr-province" id="s4" tabindex="-1">
   <h2>Newfoundland and Labrador</h2>
-  <dl class="dl-horizontal">
+  <dl class="cr-contact-list">
     <dt>Email</dt>
     <dd><a href="mailto:nlrecruiting-recrutementtnl@rcmp-grc.gc.ca">nlrecruiting-recrutementtnl@rcmp-grc.gc.ca</a></dd>
   </dl>
@@ -144,7 +121,7 @@ custom_css: /assets/css/careers.css
 
 <section class="cr-province" id="s5" tabindex="-1">
   <h2>New Brunswick</h2>
-  <dl class="dl-horizontal">
+  <dl class="cr-contact-list">
     <dt>Email &ndash; General applicants</dt>
     <dd><a href="mailto:nbrecruiting-recrutementnb@rcmp-grc.gc.ca">nbrecruiting-recrutementnb@rcmp-grc.gc.ca</a></dd>
     <dt>Email &ndash; Experienced police officer applicants</dt>
@@ -156,7 +133,7 @@ custom_css: /assets/css/careers.css
 
 <section class="cr-province" id="s6" tabindex="-1">
   <h2>Northwest Territories</h2>
-  <dl class="dl-horizontal">
+  <dl class="cr-contact-list">
     <dt>Email</dt>
     <dd><a href="mailto:grecruiting-grecrutement@rcmp-grc.gc.ca">grecruiting-grecrutement@rcmp-grc.gc.ca</a></dd>
   </dl>
@@ -164,7 +141,7 @@ custom_css: /assets/css/careers.css
 
 <section class="cr-province" id="s7" tabindex="-1">
   <h2>Nova Scotia</h2>
-  <dl class="dl-horizontal">
+  <dl class="cr-contact-list">
     <dt>Mail</dt>
     <dd><address>80 Garland Avenue, Burnside Industrial Park<br>Dartmouth, NS&nbsp;B3B&nbsp;0J8, Mailstop&nbsp;#50</address></dd>
     <dt>Email &ndash; General applicants</dt>
@@ -176,7 +153,7 @@ custom_css: /assets/css/careers.css
 
 <section class="cr-province" id="s8" tabindex="-1">
   <h2>Nunavut</h2>
-  <dl class="dl-horizontal">
+  <dl class="cr-contact-list">
     <dt>Email</dt>
     <dd><a href="mailto:vrecruiting-recrutementv@rcmp-grc.gc.ca">vrecruiting-recrutementv@rcmp-grc.gc.ca</a></dd>
     <dt>Telephone</dt>
@@ -186,7 +163,7 @@ custom_css: /assets/css/careers.css
 
 <section class="cr-province" id="s9" tabindex="-1">
   <h2>Ontario</h2>
-  <dl class="dl-horizontal">
+  <dl class="cr-contact-list">
     <dt>Email</dt>
     <dd><a href="mailto:cr_rcmp_recruiting-recrutement_grc_rc@rcmp-grc.gc.ca">cr_rcmp_recruiting-recrutement_grc_rc@rcmp-grc.gc.ca</a></dd>
   </dl>
@@ -194,7 +171,7 @@ custom_css: /assets/css/careers.css
 
 <section class="cr-province" id="s10" tabindex="-1">
   <h2>Prince Edward Island</h2>
-  <dl class="dl-horizontal">
+  <dl class="cr-contact-list">
     <dt>Email</dt>
     <dd><a href="mailto:peirecruiting-recrutementipe@rcmp-grc.gc.ca">peirecruiting-recrutementipe@rcmp-grc.gc.ca</a></dd>
     <dt>Telephone</dt>
@@ -204,7 +181,7 @@ custom_css: /assets/css/careers.css
 
 <section class="cr-province" id="s11" tabindex="-1">
   <h2>Quebec</h2>
-  <dl class="dl-horizontal">
+  <dl class="cr-contact-list">
     <dt>Email</dt>
     <dd><a href="mailto:cdiv-recrutement-recruiting@rcmp-grc.gc.ca">cdiv-recrutement-recruiting@rcmp-grc.gc.ca</a></dd>
   </dl>
@@ -212,7 +189,7 @@ custom_css: /assets/css/careers.css
 
 <section class="cr-province" id="s12" tabindex="-1">
   <h2>Saskatchewan</h2>
-  <dl class="dl-horizontal">
+  <dl class="cr-contact-list">
     <dt>Email</dt>
     <dd><a href="mailto:fdiv-proactive-recruiting@rcmp-grc.gc.ca">fdiv-proactive-recruiting@rcmp-grc.gc.ca</a></dd>
   </dl>
@@ -221,7 +198,7 @@ custom_css: /assets/css/careers.css
 <section class="cr-province" id="s13" tabindex="-1">
   <h2>Yukon</h2>
   <p>Learn more about <a href="https://rcmp.ca/en/bc/careers/project-red-serge">Project Red Serge</a> &ndash; the new streamlined recruiting process for Yukon residents.</p>
-  <dl class="dl-horizontal">
+  <dl class="cr-contact-list">
     <dt>Email</dt>
     <dd><a href="mailto:yukonrcmp_recruiting_recrutement@rcmp-grc.gc.ca">yukonrcmp_recruiting_recrutement@rcmp-grc.gc.ca</a></dd>
     <dt>Telephone</dt>
@@ -234,6 +211,103 @@ custom_css: /assets/css/careers.css
 </div>
 
 <style>
+/* Finder */
+.cr-finder {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  background: var(--rcmp-grey-lt, #f3f2f1);
+  border-left: 0.6rem solid var(--rcmp-gold-warn, #ecb731);
+  border-radius: var(--radius-sm, 0.5rem);
+  padding: 2rem;
+  margin-bottom: 2.5rem;
+}
+.cr-finder-icon {
+  flex: 0 0 auto;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: var(--rcmp-black, #0b0c0c);
+  color: var(--rcmp-white, #fff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+.cr-finder-body { flex: 1 1 auto; min-width: 0; }
+.cr-finder-body h2 {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.cr-finder-body > p { max-width: 60ch; }
+.cr-finder-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+.cr-finder-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  flex: 1 1 280px;
+  max-width: 420px;
+}
+.cr-finder-field label {
+  font-weight: 700;
+  margin: 0;
+}
+.cr-finder-field select {
+  width: 100%;
+  padding: 0.6rem 2.2rem 0.6rem 0.75rem;
+  border: 2px solid var(--rcmp-black, #0b0c0c);
+  border-radius: var(--radius-xs, 4px);
+  background: var(--rcmp-white, #fff);
+  font-size: 1rem;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%230b0c0c' d='M0 0l6 8 6-8z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}
+.cr-finder-field select:focus {
+  outline: 3px solid var(--rcmp-focus, #fd0);
+  outline-offset: 2px;
+}
+.cr-finder-row .rc-btn {
+  flex: 0 0 auto;
+}
+.cr-finder-reset {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  background: none;
+  border: 0;
+  padding: 0.25rem 0;
+  font-weight: 700;
+  text-decoration: underline;
+  color: var(--rcmp-black, #0b0c0c);
+  cursor: pointer;
+}
+.cr-finder-reset:hover,
+.cr-finder-reset:focus {
+  text-decoration: none;
+}
+.cr-finder-reset:focus-visible {
+  outline: 3px solid var(--rcmp-focus, #fd0);
+  outline-offset: 2px;
+}
+@media (max-width: 600px) {
+  .cr-finder { flex-direction: column; padding: 1.5rem; }
+  .cr-finder-row { flex-direction: column; align-items: stretch; }
+  .cr-finder-field { max-width: none; }
+}
+
+/* Province sections */
 .cr-province h2 {
   border-left: 0.6rem solid var(--rcmp-gold-warn, #ecb731);
   padding-left: 1rem;
@@ -242,7 +316,7 @@ custom_css: /assets/css/careers.css
 .cr-province .row {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 .cr-province .col-md-6 {
   flex: 1 1 260px;
@@ -251,12 +325,30 @@ custom_css: /assets/css/careers.css
 .cr-province address {
   font-style: normal;
 }
-.cr-province:target {
+.cr-province:target,
+.cr-province:focus {
   outline: 3px solid var(--rcmp-focus, #fd0);
   outline-offset: 6px;
 }
-#cr-finder {
-  margin-bottom: 2rem;
+
+/* Simple stacked contact list (replaces dl-horizontal, which breaks in multi-column layouts) */
+.cr-contact-list {
+  margin: 0 0 1.5rem;
+}
+.cr-contact-list dt {
+  font-weight: 700;
+  color: var(--rcmp-black, #0b0c0c);
+  border-top: 1px solid var(--rcmp-grey-md, #b1b4b6);
+  padding-top: 0.75rem;
+  margin-top: 0.75rem;
+}
+.cr-contact-list dt:first-child {
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+.cr-contact-list dd {
+  margin: 0.25rem 0 0;
 }
 </style>
 
@@ -264,14 +356,13 @@ custom_css: /assets/css/careers.css
 (function () {
   "use strict";
 
-  var form         = document.getElementById("cr-finder-form");
-  var select       = document.getElementById("cr-province-select");
-  var resetBtn     = document.getElementById("cr-reset-btn");
-  var provincesWrap = document.getElementById("cr-provinces");
-  var allSections  = Array.prototype.slice.call(document.querySelectorAll(".cr-province"));
-  var noMatch      = document.getElementById("cr-no-match");
-  var liveRegion   = document.getElementById("cr-live-region");
-  var onThisPage   = document.querySelector('nav[aria-labelledby="on-this-page"]');
+  var form           = document.getElementById("cr-finder-form");
+  var select          = document.getElementById("cr-province-select");
+  var resetBtn        = document.getElementById("cr-reset-btn");
+  var provincesWrap   = document.getElementById("cr-provinces");
+  var allSections     = Array.prototype.slice.call(document.querySelectorAll(".cr-province"));
+  var noMatch         = document.getElementById("cr-no-match");
+  var liveRegion      = document.getElementById("cr-live-region");
 
   if (!form || !select || !allSections.length) { return; }
 
@@ -296,7 +387,6 @@ custom_css: /assets/css/careers.css
       }
     });
     noMatch.classList.toggle("hidden", found);
-    if (onThisPage) { onThisPage.classList.add("hidden"); }
     resetBtn.classList.remove("hidden");
     return found;
   }
@@ -304,7 +394,6 @@ custom_css: /assets/css/careers.css
   function showAll() {
     allSections.forEach(function (section) { section.classList.remove("hidden"); });
     noMatch.classList.add("hidden");
-    if (onThisPage) { onThisPage.classList.remove("hidden"); }
     resetBtn.classList.add("hidden");
   }
 

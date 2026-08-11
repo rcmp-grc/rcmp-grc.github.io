@@ -34,8 +34,8 @@ custom_css: /assets/css/careers.css
   </section>
   <section id="s1-2">
     <h3>Career options</h3>
-    <p>The RCMP has three policing mandates; Indigenous, provincial, territorial and municipal policing, specialized policing, and federal policing services. Experienced police officers may express interest in any service line.</p>
-    <p>Indigenous, provincial, territorial and municipal policing services are provided in all provinces and territories, except Ontario and Quebec:</p>
+    <p>The RCMP has three policing mandates; Indigenous, Provincial, Territorial and Municipal Policing, Specialized Policing, and Federal Policing services. Experienced police officers may express interest in any service line.</p>
+    <p>Indigenous, Provincial, Territorial and Municipal Policing services are provided in all provinces and territories, except Ontario and Quebec:</p>
     <ul>
       <li>general duty investigations</li>
       <li>police dog services</li>

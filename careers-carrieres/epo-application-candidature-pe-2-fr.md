@@ -66,7 +66,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s2">
   <h2>Envoi du curriculum vitæ et de la lettre de présentation</h2>
-  <p>Consultez les consignes concernant la rédaction du curriculum vitæ structuré et des exemples de votre expérience policière à l'aide du modèle STAR&nbsp;::</p>
+  <p>Consultez les consignes concernant la rédaction du curriculum vitæ structuré et des exemples de votre expérience policière à l'aide du modèle STAR&nbsp;:</p>
   <ul>
       <li><a href="#">modèle STAR pour les curriculum vitae;</a></li>
       <li><a href="#">compétences des services généraux requises</a> selon le Dictionnaire des compétences de la GRC</li>
@@ -83,20 +83,20 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s4">
   <h2>Numérisation et envoi des pièces d'identité et documents essentiels</h2>
-  <p>Numérisez les documents originaux suivants et faites-les parvenir par courriel au coordonnateur du PPE&nbsp;::</p>
+  <p>Numérisez les documents originaux suivants et faites-les parvenir par courriel au coordonnateur du PPE&nbsp;:</p>
   <ul>
       <li>Acte de naissance canadien (recto verso), carte de citoyenneté canadienne ou de résident permanent, et Confirmation de résidence permanente (IMM 5292);</li>
       <li>Numéro d'assurance sociale;</li>
       <li>Certificat de mariage, de divorce ou de séparation (s'il y a lieu);</li>
       <li>Certificat de changement de nom (s'il y a lieu);</li>
       <li>Deux photos de passeport;</li>
-      <li>Attestation d'études&nbsp;:: relevé de notes canadien de l'école secondaire portant la mention «&nbsp;:diplômé&nbsp;:» ou attestation d'équivalence; permis de conduire canadien en cours de validité (recto verso);</li>
+      <li>Attestation d'études&nbsp;: relevé de notes canadien de l'école secondaire portant la mention «&nbsp;diplômé&nbsp;» ou attestation d'équivalence; permis de conduire canadien en cours de validité (recto verso);</li>
       <li>Dossier de conduite dans chaque province ou territoire où vous avez vécu au cours des trois dernières années; carte de santé provinciale (recto et verso).</li>
   </ul>
 </section>
 <section id="s5">
   <h2>Transmission des documents et certificats requis</h2>
-  <p>Envoyez une copie des documents suivants par courriel au coordonnateur du PPE&nbsp;::</p>
+  <p>Envoyez une copie des documents suivants par courriel au coordonnateur du PPE&nbsp;:</p>
   <ul>    
   <li>Dossier disciplinaire;</li>
   <li>Certificat de formation policière de base;</li>

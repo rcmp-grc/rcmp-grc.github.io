@@ -87,11 +87,23 @@ button,
 
 @media (min-width: 1440px) {
   .careers-layout main:not(.po-full-width):not(:has(#careers-fullpage)) {
-    background-image: url("/assets/img/careers-background.png");
     background-size: 100% auto;
     background-repeat: repeat-y;
     background-position: top center;
     background-attachment: local;
+  }
+
+  .careers-layout main:not(.po-full-width):not(:has(#careers-fullpage)):nth-child(4n + 1) {
+    background-image: url("/assets/img/careers-background.png");
+  }
+  .careers-layout main:not(.po-full-width):not(:has(#careers-fullpage)):nth-child(4n + 2) {
+    background-image: url("/assets/img/careers-background-1.png");
+  }
+  .careers-layout main:not(.po-full-width):not(:has(#careers-fullpage)):nth-child(4n + 3) {
+    background-image: url("/assets/img/careers-background-2.png");
+  }
+  .careers-layout main:not(.po-full-width):not(:has(#careers-fullpage)):nth-child(4n + 4) {
+    background-image: url("/assets/img/careers-background-3.png");
   }
 }
 

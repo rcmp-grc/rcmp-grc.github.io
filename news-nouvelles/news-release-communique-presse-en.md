@@ -233,11 +233,24 @@ a.news-topic-1:hover, a.primary-topic:active {
 	<li><a href="https://www.icbc.com/road-safety/sharing/motorcycle-safety">Motorcycle safety</a></li>
 </ul>
 </section>
+</div>
+	<div class="col-md-4">
+<div class="panel panel-default">
+  <div class="panel-body">
+	 <img src="primary-news.jpg" class="img-responsive full-width" alt="" /> 
+  </div>
+	<footer class="panel-footer">
+   <p>Caption for the photo</p>
+	</footer>
+  </div>
+</div>
+</div>
+<div class="clearfix"></div>
 <section id="gc-contact" class="contact-us">
 	<h3>Contact us</h3>
 	<div class="contact-signature">	
 	<div class="row wb-eqht">	
-	<div class="col-sm-6">	
+	<div class="col-sm-4">	
 <h4 class="news-contact-h4">British Columbia RCMP</h4>
   <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">bcrcmp-grcencb@rcmp-grc.gc.ca</a><br>
   778-290-2929</p>	
@@ -259,7 +272,7 @@ a.news-topic-1:hover, a.primary-topic:active {
 							</ul>
 	</section>	
 	</div>		
-	<div class="col-sm-6">	
+	<div class="col-sm-4">	
    <h4 class="news-contact-h4">Richmond RCMP</h4>
    <p class="news-contact-p"><a href="mailto:name@rcmp-grc.gc.ca">name@rcmp-grc.gc.ca</a><br>
    604-555-5555</p>	
@@ -284,20 +297,7 @@ a.news-topic-1:hover, a.primary-topic:active {
 	</div>
 	</div>
    </section>
-	<div class="clearfix"></div>	
 </div>
-<div class="col-md-4">
-<div class="panel panel-default">
-  <div class="panel-body">
-	 <img src="primary-news.jpg" class="img-responsive full-width" alt="" /> 
-  </div>
-	<footer class="panel-footer">
-   <p>Caption for the photo</p>
-	</footer>
-  </div>
-</div>
-</div>
-<div class="clearfix"></div>
 <div class="explore">		
 <section id="topics">
 <h2 class="h3">Explore related topics</h2>

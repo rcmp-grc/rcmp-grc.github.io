@@ -503,7 +503,7 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
    </section>
 <div class="explore">		
 <section id="topics">
-<h2 class="h3">Explore related topics</h2>
+<h2 class="h4 mrgn-tp-sm mrgn-bttm-md">Explore related topics</h2>
 <ol class="list-inline">
   <li><a href="#" class="news-topic-3">Traffic enforcement</a></li>
   <li><a href="#" class="news-topic-secondary2">Assault</a></li>

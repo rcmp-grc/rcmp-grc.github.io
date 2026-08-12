@@ -120,8 +120,8 @@ table:has(td[data-label]):not(.table-fixed) {
 				<th data-label="Core responsibility" scope="rowgroup" colspan="5" class="active">Federal Policing</th>
 			</tr>
 			<tr>
-				<th data-label="Program" scope="rowgroup" rowspan="2">Federal Policing Investigations</th>
-				<td data-label="Total planned program spending (2026–27)" rowspan="2" class="text-right">$953,133,731</td>
+				<th data-label="Program" scope="rowgroup" rowspan="5">Federal Policing Investigations</th>
+				<td data-label="Total planned program spending (2026–27)" rowspan="5" class="text-right">$953,133,731</td>
 				<td data-label="Planned evaluations (2026–31)">Horizontal Evaluation of the Legalization and Strict Regulation of Cannabis (Health Canada lead)</td>
 				<td data-label="Planned fiscal year of approval">2027–28</td>
 				<td data-label="Reason for evaluating / not evaluating">Treasury Board Submission commitment</td>
@@ -194,6 +194,8 @@ table:has(td[data-label]):not(.table-fixed) {
 				<td data-label="Planned fiscal year of approval">2029-30</td>
 				<td data-label="Reason for evaluating / not evaluating">Departmental Priority</td>
 			</tr>
+		</tbody>
+		<tbody>
 			<tr>
 				<th data-label="Core responsibility" scope="rowgroup" colspan="5" class="active">National Specialized Services</th>
 			</tr>
@@ -263,6 +265,8 @@ table:has(td[data-label]):not(.table-fixed) {
 				<td data-label="Planned fiscal year of approval">2027-28</td>
 				<td data-label="Reason for evaluating / not evaluating">Departmental priority</td>
 			</tr>
+		</tbody>
+		<tbody>
 			<tr>
 				<th data-label="Core responsibility" scope="rowgroup" colspan="5" class="active">Indigenous, Provincial, Territorial and Municipal Policing</th>
 			</tr>
@@ -318,6 +322,8 @@ table:has(td[data-label]):not(.table-fixed) {
 				<td data-label="Planned fiscal year of approval">2026–27</td>
 				<td data-label="Reason for evaluating / not evaluating">Departmental priority</td>
 			</tr>
+		</tbody>
+		<tbody>
 			<tr>
 				<th data-label="Core responsibility" scope="rowgroup" colspan="5" class="active">Internal Services</th>
 			</tr>
@@ -336,5 +342,4 @@ table:has(td[data-label]):not(.table-fixed) {
 		</tbody>
 	</table>
 </div>
-
 <script></script>

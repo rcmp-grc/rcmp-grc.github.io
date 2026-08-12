@@ -73,7 +73,7 @@ font-size: 1.1rem;
 .location {
     color: #404040;
 }		
-.topics {
+.topics li {
     margin-bottom: 15px;
 }	
 a.news-topic-3:link, a.news-topic-3:visited

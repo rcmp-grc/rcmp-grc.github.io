@@ -355,7 +355,7 @@ custom_css: /assets/css/careers.css
     updated: '2026-05-05'
 }, { 
     name: 'Comox Valley RCMP looking to locate suspect vehicle after hit-and-run',
-	badge: '<span class="label label-warning">Updated</span>',
+	badge: '<span class="label label-default">Updated</span>',
     category: 'Wanted persons',
     location: 'Comox Valley',
     territory: 'British Columbia',

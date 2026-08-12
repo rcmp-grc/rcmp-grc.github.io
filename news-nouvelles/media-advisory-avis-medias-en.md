@@ -77,20 +77,18 @@ font-size: 1.1rem;
 a.news-topic-1:link, a.primary-topic:visited {
     background-color: #ebfaf0;
     color: #14522b;
-    padding: 4px 10px;
-	border-radius: 8px;
+	border-radius: 0;
+	border: 1px solid #ebfaf0;
+	padding: 4px 10px;
 	font-size: 1rem;
     font-weight: bold;	
     text-align: center;
     text-decoration: none;
     display: inline-block;
-	border: 1px solid #14522b;	
 }
 a.news-topic-1:hover, a.primary-topic:active {
 	background-color: #ffffff;
     color: #14522b;
-    padding: 4px 10px;
-    border-radius: 8px;
 	border: 1px solid #14522b;
 }
 	a.news-topic-3:link, a.news-topic-3:visited

@@ -157,8 +157,8 @@ a.news-topic-1:hover, a.primary-topic:active {
 <div class="byline">	
 <ol class="list-inline">
   <li><span class="publish-date"><i class="fa-solid fa-calendar-days"></i>&nbsp;&nbsp;May&nbsp;7, 2026&nbsp;&nbsp;|</span></li>
-  <li><span class="location"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;Vancouver, British Columbia&nbsp;&nbsp;|</span></li>
-  <li><span class="author-name"><i class="fa-regular fa-circle-user"></i>&nbsp;&nbsp;<a href="#">National Headquarters</a></span></li>
+  <li><span class="location"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;Richmond, British Columbia&nbsp;&nbsp;|</span></li>
+  <li><span class="author-name"><i class="fa-regular fa-circle-user"></i>&nbsp;&nbsp;<a href="#">British Columbia RCMP</a></span></li>
 	</ol>
 </div>
 </div>
@@ -236,28 +236,6 @@ a.news-topic-1:hover, a.primary-topic:active {
 	<h3>Contact us</h3>
 	<div class="contact-signature">	
 	<div class="row wb-eqht">	
-	<div class="col-md-4">	
-    <h4 class="news-contact-h4">National Headquarters</h4>
-   <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
-   613-555-0100</p>
-	<section class="gc-followus">
-<h4 class="mrgn-tp-lg wb-inv">Follow us</h4>
-<ul class="list-inline">     
-<li>
-     <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
-     <span class="wb-inv">X: </span>X: Royal Canadian Mounted Police</a>
-</li>	
-<li>
-     <a href="https://www.facebook.com/rcmpgrc" class="facebook" rel="external">
-          <span class="wb-inv">Facebook: </span>Facebook: Royal Canadian Mounted Police</a>
-</li>           
-<li>
-     <a href="https://www.instagram.com/rcmpgrcpolice/" class="instagram" rel="external">
-          <span class="wb-inv">Instagram: </span>Instagram: Royal Canadian Mounted Police</a>
-</li>
-							</ul>
-	</section>	
-	</div>	
 	<div class="col-md-4">	
 <h4 class="news-contact-h4">British Columbia RCMP</h4>
   <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">bcrcmp-grcencb@rcmp-grc.gc.ca</a><br>

@@ -74,7 +74,7 @@ font-size: 1.1rem;
 .location {
     color: #404040;
 }		
-a.news-topic-1:link, a.primary-topic:visited {
+a.news-topic-1:link, a.news-topic-1:visited {
     background-color: #ebfaf0;
     color: #14522b;
 	border-radius: 0;

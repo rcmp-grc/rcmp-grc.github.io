@@ -242,7 +242,29 @@ a.news-topic-1:hover, a.primary-topic:active {
 </li>
 							</ul>
 	</section>	
-	</div>		
+	</div>	
+	<div class="col-md-4">	
+<h4 class="news-contact-h4">Nunavut RCMP</h4>
+  <p class="news-contact-p"><a href="mailto:nunavutmedia_mediasdununavut@rcmp-grc.gc.ca">nunavutmedia_mediasdununavut@rcmp-grc.gc.ca</a><br>
+  867-555-5555</p>	
+	<section class="gc-followus">
+<h4 class="mrgn-tp-lg wb-inv">Follow us</h4>
+<ul class="list-inline">     
+<li>
+     <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
+     <span class="wb-inv">X: </span>X: Royal Canadian Mounted Police</a>
+</li>	
+<li>
+     <a href="https://www.facebook.com/rcmpgrc" class="facebook" rel="external">
+          <span class="wb-inv">Facebook: </span>Facebook: Royal Canadian Mounted Police</a>
+</li>           
+<li>
+     <a href="https://www.instagram.com/rcmpgrcpolice/" class="instagram" rel="external">
+          <span class="wb-inv">Instagram: </span>Instagram: Royal Canadian Mounted Police</a>
+</li>
+							</ul>
+	</section>	
+	</div>			
 	</div>
 	</div>
    </section>

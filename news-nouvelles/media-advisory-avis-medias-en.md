@@ -89,6 +89,7 @@ a.news-topic-1:link, a.news-topic-1:visited {
 a.news-topic-1:hover, a.primary-topic:active {
 	background-color: #ffffff;
     color: #14522b;
+	border: 1px solid #14522b;
 }
 	a.news-topic-3:link, a.news-topic-3:visited
 	{

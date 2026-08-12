@@ -291,12 +291,11 @@ a.news-topic-1:hover, a.primary-topic:active {
 	</div>
    </section>
 	<div class="clearfix"></div>	
-<div class="explore">
-<section id="topics">
-<h2 class="h3">Explore related topics</h2>
+<div class="explore">	
+<section id="topics">	
+<h2 class="h4 mrgn-tp-sm mrgn-bttm-md">Explore related topics</h2>
 <ol class="list-inline">
-  <li><a href="#" class="news-topic-2">Media Relations</a></li>
-  <li><a href="#" class="news-topic-1">Community interest</a></li>
+  <li><a href="#" class="news-topic-2">Community interest</a></li>
 </ol>
 </section>
 </div>

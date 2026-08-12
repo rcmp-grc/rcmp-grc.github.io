@@ -36,27 +36,6 @@ custom_css: /assets/css/careers.css
 	margin-top: 0;
 	font-weight: bold;
 }	
-.news-update {
-    background: #fff;
-	margin: auto;
-	margin-right: 15px; 
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-	padding-right: 5px;
-	padding-left: 5px;
-}
-.news-update ul {
-    list-style-type: square;
-	font-size: 0.95rem;	
-	margin-top: 5px;
-	margin-left: 5px;
-	color: #363636;
-}
-.news-update h2 {
-	font-size: 1.4rem;	
-	margin-left: 0;
-	margin-top: 0;
-	font-weight: bold;
-}			
 .news-contact-h4 {
   border-bottom: 0.3rem solid var(--c-yellow);
   border-image: var(--underline-gradient);
@@ -161,16 +140,19 @@ a.news-topic-1:hover, a.primary-topic:active {
 }
 </style>
 <article>
-<div class="card col-md-8">
-	<div id="updates" class="card-tag"><p><i class="fa-regular fa-pen-to-square"></i> Updated</p></div>
-  <ul>
-    <li><strong>2026-04-30, 13:58 pm</strong>: drivers will see increased patrols at key Richmond intersections</li>
+<div class="row">
+  <div class="news-alert pull-right col-sm-4">
+	  <h2><span class="label label-default">Located</span></h2>
+	  <ul>
+	  <li><strong>2026-04-30, 13:58 pm</strong>: drivers will see increased patrols at key Richmond intersections</li>
     <li><strong>2026-04-21, 13:58 pm</strong>: Tip: Brush up on emergency braking and obstacle avoidance, especially after time off the bike</li>
-  </ul>
-</div>	
+	  </ul>
+  </div>
+  <div class="mrgn-lft-md">
+   <p class="lead">Richmond RCMP Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety.</p>
+ </div>
+</div>
 <div class="clearfix"></div>
-<p class="lead">Richmond RCMP Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety.</p>
-<div class="explore">
 <div class="explore">
 <div class="byline">	
 <ol class="list-inline">

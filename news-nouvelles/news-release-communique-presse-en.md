@@ -208,7 +208,8 @@ a.news-topic-1:hover, a.primary-topic:active {
 </section>
 <section id="quotes">
 <h2 class="h3">Quotes</h2>	
-<blockquote class="cn-pullquote">Most of these collisions come down to choices—a driver who doesn’t take that second look before making a left turn, or a rider going too fast for conditions. Our goal this may is to see fewer collisions, fewer injuries, and every rider and driver getting home safely.</blockquote>
+<blockquote class="cn-pullquote"><p>Community policing is about relationships. Sometimes those relationships include a six-foot polar bear mascot wearing an RCMP scarf.<br>
+<span class="small"><cite>RCMP Community Engagement Officer</cite></span></p></blockquote>
 </section>	
 <section id="facts">
 <h2 class="h3">Quick facts</h2>

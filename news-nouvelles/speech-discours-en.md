@@ -143,12 +143,13 @@ a.news-topic-1:hover, a.primary-topic:active {
 <article>
 <p class="lead">It is not every day a polar bear gets invited indoors and offered coffee before the officers.</p>
 <div class="explore">
-<div class="mrgn-tp-sm mrgn-bttm-md">
+<div class="byline">	
 <ol class="list-inline">
-  <li><i class="fa-solid fa-calendar-days"></i>&nbsp;May&nbsp;14, 2026&nbsp;&nbsp;|</li>
-  <li><i class="fa-solid fa-location-dot"></i>&nbsp;Ottawa, Ontario&nbsp;&nbsp;|</li>
-  <li><i class="fa-regular fa-circle-user"></i>&nbsp;<a href="#">National Communications and Public Affairs</a></li>
-</ol></div>	
+  <li><span class="publish-date"><i class="fa-solid fa-calendar-days"></i>&nbsp;&nbsp;May&nbsp;14, 2026&nbsp;&nbsp;|</span></li>
+  <li><span class="location"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;Ottawa, Ontario&nbsp;&nbsp;|</span></li>
+  <li><span class="author-name"><i class="fa-regular fa-circle-user"></i>&nbsp;&nbsp;<a href="#">National Headquarters</a></span></li>
+	</ol>
+</div>
 </div>
 <p><strong>Community winter safety and northern outreach event</strong></p>
 <p><strong>Check against deliver</strong></p>

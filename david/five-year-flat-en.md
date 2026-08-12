@@ -24,7 +24,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Horizo class="dl-horizontal"ntal Evaluation of the Legalization and Strict Regulation of Cannabis (Health Canada lead)</dd>
+	<dd>Horizontal Evaluation of the Legalization and Strict Regulation of Cannabis (Health Canada lead)</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2027–28</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -32,7 +32,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Horizo class="dl-horizontal"ntal Evaluation of the Canadian Drugs and Substances Strategy (Health Canada lead)</dd>
+	<dd>Horizontal Evaluation of the Canadian Drugs and Substances Strategy (Health Canada lead)</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2027–28</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -40,7 +40,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Evalua class="dl-horizontal"tion of Border Integrity</dd>
+	<dd>Evaluation of Border Integrity</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2029–30</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -48,7 +48,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Evalua class="dl-horizontal"tion of Serious and Organized Crime</dd>
+	<dd>Evaluation of Serious and Organized Crime</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2030–31</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -56,7 +56,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Evalua class="dl-horizontal"tion of National Security</dd>
+	<dd>Evaluation of National Security</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2031–32</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -70,7 +70,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Review class="dl-horizontal" of the RCMP Operational Coordination Centre</dd>
+	<dd>Review of the RCMP Operational Coordination Centre</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2031–32</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -84,7 +84,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Review class="dl-horizontal" of Federal Policing Regionalization</dd>
+	<dd>Review of Federal Policing Regionalization</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2026–27</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -98,7 +98,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Horizo class="dl-horizontal"ntal Evaluation of Canada’s Indo-Pacific Strategy (Global Affairs Canada lead)</dd>
+	<dd>Horizontal Evaluation of Canada’s Indo-Pacific Strategy (Global Affairs Canada lead)</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2027–28</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -106,7 +106,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Review class="dl-horizontal" of INTERPOL</dd>
+	<dd>Review of INTERPOL</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2028–29</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -114,7 +114,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Review class="dl-horizontal" of International Operations and Policing Development</dd>
+	<dd>Review of International Operations and Policing Development</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2028–29</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -128,7 +128,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Evalua class="dl-horizontal"tion of Protective Operations</dd>
+	<dd>Evaluation of Protective Operations</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2027–28</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -136,7 +136,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Evalua class="dl-horizontal"tion of the Canadian Air Carrier Protective Program</dd>
+	<dd>Evaluation of the Canadian Air Carrier Protective Program</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2028–29</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -144,7 +144,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Review class="dl-horizontal" of Major Events</dd>
+	<dd>Review of Major Events</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2029–30</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -160,7 +160,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Horizo class="dl-horizontal"ntal Evaluation of the Funding to Enhance Canada’s Firearms Control Framework (Public Safety Canada lead)</dd>
+	<dd>Horizontal Evaluation of the Funding to Enhance Canada’s Firearms Control Framework (Public Safety Canada lead)</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2026–27</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -174,7 +174,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Evalua class="dl-horizontal"tion of the Criminal Intelligence Service Canada</dd>
+	<dd>Evaluation of the Criminal Intelligence Service Canada</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2027–28</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -188,7 +188,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Evalua class="dl-horizontal"tion of the RCMP’s Biology Casework Analysis Services</dd>
+	<dd>Evaluation of the RCMP’s Biology Casework Analysis Services</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2031–32</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -202,7 +202,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Nil</d class="dl-horizontal"d>
+	<dd>Nil</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>Not applicable</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -216,7 +216,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Horizo class="dl-horizontal"ntal Evaluation of the Strategy to Prevent and Address Gender-based Violence (Women and Gender Equality Canada lead)</dd>
+	<dd>Horizontal Evaluation of the Strategy to Prevent and Address Gender-based Violence (Women and Gender Equality Canada lead)</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2026–27</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -230,7 +230,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Evalua class="dl-horizontal"tion of the National Child Exploitation Crime Centre</dd>
+	<dd>Evaluation of the National Child Exploitation Crime Centre</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2026–27</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -238,7 +238,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Horizo class="dl-horizontal"ntal Evaluation of the <cite>Sex Offender Registration Information Act</cite> and the National Sex Offender Registry (Public Safety Canada lead)</dd>
+	<dd>Horizontal Evaluation of the <cite>Sex Offender Registration Information Act</cite> and the National Sex Offender Registry (Public Safety Canada lead)</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2027–28</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -246,7 +246,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Evalua class="dl-horizontal"tion of the Special “I” Program</dd>
+	<dd>Evaluation of the Special “I” Program</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2027–28</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -260,7 +260,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Evalua class="dl-horizontal"tion of the Transfer Payment Program for the Canadian Firearms Program</dd>
+	<dd>Evaluation of the Transfer Payment Program for the Canadian Firearms Program</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2030–31</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -274,7 +274,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Evalua class="dl-horizontal"tion of the National Cybercrime Coordination Centre and FP Cybercrime</dd>
+	<dd>Evaluation of the National Cybercrime Coordination Centre and FP Cybercrime</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2027–28</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -290,7 +290,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Review class="dl-horizontal" of the National Search and Rescue Program</dd>
+	<dd>Review of the National Search and Rescue Program</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2027–28</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -298,7 +298,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Evalua class="dl-horizontal"tion of Body Worn Cameras</dd>
+	<dd>Evaluation of Body Worn Cameras</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2 2028–29</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -312,7 +312,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Nil</d class="dl-horizontal"d>
+	<dd>Nil</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>Not applicable</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -326,7 +326,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Nil</d class="dl-horizontal"d>
+	<dd>Nil</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>Not applicable</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -340,7 +340,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Review class="dl-horizontal" of the Cadet Training Program Evaluation of RCMP Reconciliation Actions</dd>
+	<dd>Review of the Cadet Training Program Evaluation of RCMP Reconciliation Actions</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2026–27</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -354,7 +354,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Interi class="dl-horizontal"m Review of RCMP Reconciliation Actions</dd>
+	<dd>Interim Review of RCMP Reconciliation Actions</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2026–27</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -362,7 +362,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Evalua class="dl-horizontal"tion of RCMP Reconciliation Actions</dd>
+	<dd>Evaluation of RCMP Reconciliation Actions</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2 2028–29</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -376,7 +376,7 @@ lang_url: five-year-flat-fr.html
 </dl>
 <dl class="dl-horizontal">
 	<dt>Planned evaluations (2026–31)</dt>
-	<dd>Evalua class="dl-horizontal"tion of Strategies to Staff Northern and Isolated Posts</dd>
+	<dd>Evaluation of Strategies to Staff Northern and Isolated Posts</dd>
 	<dt>Planned fiscal year of approval</dt>
 	<dd>2026–27</dd>
 	<dt>Reason for evaluating / not evaluating</dt>
@@ -394,7 +394,7 @@ lang_url: five-year-flat-fr.html
 		</dl>
 		<dl class="dl-horizontal">
 			<dt>Planned evaluations (2026–31)</dt>
-			<dd>Evalua class="dl-horizontal"tion of RCMP Communications</dd>
+			<dd>Evaluation of RCMP Communications</dd>
 			<dt>Planned fiscal year of approval</dt>
 			<dd>2026–27</dd>
 			<dt>Reason for evaluating / not evaluating</dt>
@@ -402,7 +402,7 @@ lang_url: five-year-flat-fr.html
 		</dl>
 		<dl class="dl-horizontal">
 			<dt>Planned evaluations (2026–31)</dt>
-			<dd>Evalua class="dl-horizontal"tion of Well-being Support Programs</dd>
+			<dd>Evaluation of Well-being Support Programs</dd>
 			<dt>Planned fiscal year of approval</dt>
 			<dd>2026–27</dd>
 			<dt>Reason for evaluating / not evaluating</dt>

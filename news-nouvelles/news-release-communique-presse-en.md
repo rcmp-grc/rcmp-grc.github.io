@@ -270,8 +270,8 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 }
 	a.news-topic-secondary11:hover, a.news-topic-secondary11:active {
 	background-color: #ffffff;
-    color: #99704a;
-	border: 1px solid #99704a;	
+    color: #614505;
+	border: 1px solid #614505;	
 }	
 	a.news-topic-secondary12:link, a.news-topic-secondary12:visited
 	{
@@ -516,7 +516,7 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
   <li><a href="#" class="news-topic-secondary7">Homicide</a></li>
   <li><a href="#" class="news-topic-secondary8">Human trafficking</a></li>
   <li><a href="#" class="news-topic-secondary9">Illicit drugs</a></li>
-  <li><a href="#" class="news-topic-secondary14">Mission persons</a></li>
+  <li><a href="#" class="news-topic-secondary14">Missing persons</a></li>
   <li><a href="#" class="news-topic-secondary10">Organized crime</a></li>
   <li><a href="#" class="news-topic-secondary11">Property crime</a></li>
   <li><a href="#" class="news-topic-secondary1">Public interest</a></li>

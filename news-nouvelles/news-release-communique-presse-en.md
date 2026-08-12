@@ -6,84 +6,91 @@ lang: en
 lang_url: news-release-communique-presse-fr.html
 issued: 2026-05-07
 lead: News release
+custom_css: /assets/css/careers.css
 ---
 
 <style>
-	.explore
-	{ border-top: 2px solid var(--rcmp-red);
-	  margin-bottom: 10px;
-	 }
-	.card
-	{ border-left: 1px solid #f5d000;
-	  border-right: 1px solid #f5d000;
-	  border-bottom: 1px solid #f5d000;
-	  border-top: 1px solid #f5d000;
-	  margin-left: 0px;
-	  padding-left: 0px;
-	  margin-bottom: 15px;
-	}
-	.card p
-	{
-	  margin-left: 10px;
-	}
-	.card-tag 
-	{ padding-left: 0px;	  
-	  background-color: #f5d000;
-	  max-width: 9rem;
-	}
-	.card-tag p
-	{ font-weight: bold;
-	  font-color: #000000;
-	  margin-left: 10px;
-	}
-	.contact-us 
-	{
+.explore { 
+	 border-top: 2px solid var(--rcmp-red);
+	 margin-bottom: 10px;
+	 margin-top: 15px;
+}
+.news-alert {
+    background: #fff;
+	margin: auto;
+	margin-right: 15px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.news-alert ul {
+    list-style-type: square;
+	font-size: 0.95rem;	
+	margin-top: 5px;
+	margin-left: 5px;
+	color: #363636;
+}
+.news-alert h2 {
+	font-size: 1.4rem;	
+	margin-left: 0;
+	margin-top: 0;
+	font-weight: bold;
+}	
+.news-contact-h4 {
+  border-bottom: 0.3rem solid var(--c-yellow);
+  border-image: var(--underline-gradient);
+  border-image-slice: 1;
+  font-size: 1.25rem;
+  padding-bottom: 10px;
+  margin: 5px 0;
+}	
+.news-contact-p {
+font-size: 1.1rem;
+}	
+.contact-us {
 	background-color: #f3f2f1;
 	padding-left: 10px;
-	}
-	a.news-topic-1:link, a.news-topic-1:visited {
-    background-color: #d6f5e1;
-    color: #0f3d20;
-    padding: 8px 10px;
-	font-size: 0.8em;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-	border-left: 5px solid #1f7a40;
-	border-right: 1px solid #1f7a40;
-	border-bottom: 1px solid #1f7a40;
-	border-top: 1px solid #1f7a40;	
+}	
+.byline {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+	margin-top: 10px;
+    font-size: 1rem;
+    color: #404040;
 }
-a.news-topic-1:hover, a.news-topic-1:active {
-	 background-color: white;
-     color: #1f7a40;
-	 border-left: 5px solid #1f7a40;
-	 border-right: 1px solid #1f7a40;
-	 border-bottom: 1px solid #1f7a40;
-	 border-top: 1px solid #1f7a40;
+.byline-text {
+    display: flex;
+    flex-wrap: wrap;
 }
-	a.news-topic-2:link, a.news-topic-2:visited {
+.author-name {
+    font-weight: bold;
+    color: #404040;
+}
+.publish-date {
+    color: #404040;
+}
+.location {
+    color: #404040;
+}		
+a.news-topic-1:link, a.primary-topic:visited {
     background-color: #d6e4f5;
     color: #0f253d;
-	padding: 8px 10px;	
-	font-size: 0.8em;
+    padding: 4px 10px;
+	border-radius: 8px;
+	font-size: 1rem;
     font-weight: bold;	
     text-align: center;
     text-decoration: none;
     display: inline-block;
-	border-left: 5px solid #0f253d;
-	border-right: 1px solid #0f253d;
-	border-bottom: 1px solid #0f253d;
-	border-top: 1px solid #0f253d;	
-	}
-	a.news-topic-2:hover, a.news-topic-2:active {
-	 background-color: white;
-     color: #0f253d;
-	 border-left: 5px solid #0f253d;
-	 border-right: 1px solid #0f253d;
-	 border-bottom: 1px solid #0f253d;
-	 border-top: 1px solid #0f253d;
+	border: 1px solid #000000;	
+}
+a.news-topic-1:hover, a.primary-topic:active {
+	background-color: white;
+    color: #0f253d;
+    padding: 4px 10px;
+    border-radius: 8px;
+	border: 1px solid #0f3d20;
 }
 	a.news-topic-3:link, a.news-topic-3:visited
 	{
@@ -99,7 +106,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	border-right: 1px solid #361966;
 	border-bottom: 1px solid #361966;
 	border-top: 1px solid #361966;			
-	}
+}
 	a.news-topic-3:hover, a.news-topic-3:active {
 	background-color: white;
     color: #361966;
@@ -107,7 +114,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	border-right: 1px solid #361966;
 	border-bottom: 1px solid #361966;
 	border-top: 1px solid #361966;
-	}
+}
    a.news-topic-4:link, a.news-topic-4:visited
 	{
    background-color: #f9d2d7;
@@ -122,7 +129,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
    border-right: 1px solid #590d17;
    border-bottom: 1px solid #590d17;
    border-top: 1px solid #590d17;	
-	}
+}
 	a.news-topic-4:hover, a.news-topic-4:active {
 	background-color: white;
     color: #590d17;
@@ -130,7 +137,7 @@ a.news-topic-1:hover, a.news-topic-1:active {
 	border-right: 1px solid #590d17;
 	border-bottom: 1px solid #590d17;
 	border-top: 1px solid #590d17;
-	}
+}
 </style>
 <article>
 <div class="card col-md-8">

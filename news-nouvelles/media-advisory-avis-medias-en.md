@@ -195,6 +195,7 @@ a.news-topic-1:hover, a.primary-topic:active {
     <li><a href="#">Arctic and northern affairs</a></li>
 </ul>
 </section>
+</div>
 <div class="col-md-4">
 	<section class="panel panel-default brdr-rds-0 ">
   <header class="panel-heading">

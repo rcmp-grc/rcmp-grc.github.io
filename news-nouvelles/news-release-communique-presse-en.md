@@ -120,8 +120,9 @@ a.news-topic-1:hover, a.primary-topic:active {
     display: inline-block;				
 }
 	a.news-topic-secondary1:hover, a.news-topic-secondary1:active {
-	background-color: #ffffff;
-    color: #361966;
+	background-color: #ebfaf0;
+    color: #14522b;
+	border: 1px solid #14522b;	
 }
    a.news-topic-4:link, a.news-topic-4:visited
 	{

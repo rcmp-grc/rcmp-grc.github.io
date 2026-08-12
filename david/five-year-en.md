@@ -103,7 +103,7 @@ table:has(td[data-label]):not(.table-fixed) {
 <p>The following table illustrates planned Evaluation coverage of the RCMP Program Inventory associated with the Departmental Results Framework.</p>
 <p>The information in this table is updated annually as part of the RCMP's Departmental Evaluation planning cycle and is subject to change.</p>
 
-<div class="table-responsive small">
+<div class="table-responsive small" id="t1">
 	<table class="table table-bordered table-condensed">
 		<caption class="text-left">Five-year evaluation coverage plan</caption>
 		<thead>
@@ -120,8 +120,8 @@ table:has(td[data-label]):not(.table-fixed) {
 				<th data-label="Core responsibility" scope="rowgroup" colspan="5" class="active">Federal Policing</th>
 			</tr>
 			<tr>
-				<th data-label="Program" rowspan="2">Federal Policing Investigations</th>
-				<td data-label="Total planned program spending (2026–27)" rowspan="5" class="text-right">$953,133,731</td>
+				<th data-label="Program" scope="rowgroup" rowspan="2">Federal Policing Investigations</th>
+				<td data-label="Total planned program spending (2026–27)" rowspan="2" class="text-right">$953,133,731</td>
 				<td data-label="Planned evaluations (2026–31)">Horizontal Evaluation of the Legalization and Strict Regulation of Cannabis (Health Canada lead)</td>
 				<td data-label="Planned fiscal year of approval">2027–28</td>
 				<td data-label="Reason for evaluating / not evaluating">Treasury Board Submission commitment</td>
@@ -147,22 +147,22 @@ table:has(td[data-label]):not(.table-fixed) {
 				<td data-label="Reason for evaluating / not evaluating">Departmental Priority</td>
 			</tr>
 			<tr>
-				<td data-label="Program">Federal Policing Intelligence</td>
+				<th data-label="Program" scope="row">Federal Policing Intelligence</th>
 				<td data-label="Total planned program spending (2026–27)" class="text-right">$118,504,012</td>
 				<td data-label="Planned evaluations (2026–31)">Review of the RCMP Operational Coordination Centre</td>
 				<td data-label="Planned fiscal year of approval">2031-32</td>
 				<td data-label="Reason for evaluating / not evaluating">Departmental Priority</td>
 			</tr>
 			<tr>
-				<td data-label="Program">Federal Policing National Governance</td>
+				<th data-label="Program" scope="row">Federal Policing National Governance</th>
 				<td data-label="Total planned program spending (2026–27)" class="text-right">$125,469,268</td>
 				<td data-label="Planned evaluations (2026–31)">Review of Federal Policing Regionalization</td>
 				<td data-label="Planned fiscal year of approval">2026-27</td>
 				<td data-label="Reason for evaluating / not evaluating">Departmental Priority</td>
 			</tr>
 			<tr>
-				<td data-label="Program" rowspan="3">International Operations</td>
-				<td data-label="Total planned program spending (2026–27)" rowspan="2" class="text-right">$52,428,902</td>
+				<th data-label="Program" scope="rowgroup" rowspan="3">International Operations</th>
+				<td data-label="Total planned program spending (2026–27)" rowspan="3" class="text-right">$52,428,902</td>
 				<td data-label="Planned evaluations (2026–31)">Horizontal Evaluation of Canada’s Indo-Pacific Strategy (Global Affairs Canada lead)</td>
 				<td data-label="Planned fiscal year of approval">2027-28</td>
 				<td data-label="Reason for evaluating / not evaluating">Treasury Board Submission commitment</td>
@@ -178,8 +178,8 @@ table:has(td[data-label]):not(.table-fixed) {
 				<td data-label="Reason for evaluating / not evaluating">Departmental Priority</td>
 			</tr>
 			<tr>
-				<td data-label="Program" rowspan="3">Protective Operations</td>
-				<td data-label="Total planned program spending (2026–27)" class="text-right">$215,410,239</td>
+				<th data-label="Program" scope="rowgroup" rowspan="3">Protective Operations</th>
+				<td data-label="Total planned program spending (2026–27)" rowspan="3" class="text-right">$215,410,239</td>
 				<td data-label="Planned evaluations (2026–31)">Evaluation of Protective Operations</td>
 				<td data-label="Planned fiscal year of approval">2027-28</td>
 				<td data-label="Reason for evaluating / not evaluating">Departmental Priority</td>
@@ -198,43 +198,43 @@ table:has(td[data-label]):not(.table-fixed) {
 				<th data-label="Core responsibility" scope="rowgroup" colspan="5" class="active">National Specialized Services</th>
 			</tr>
 			<tr>
-				<td data-label="Program">Canadian Firearms Investigative and Enforcement Services</td>
+				<th data-label="Program" scope="row">Canadian Firearms Investigative and Enforcement Services</th>
 				<td data-label="Total planned program spending (2026–27)" class="text-right">$21,751,150</td>
 				<td data-label="Planned evaluations (2026–31)">Horizontal Evaluation of the Funding to Enhance Canada’s Firearms Control Framework (Public Safety Canada lead)</td>
 				<td data-label="Planned fiscal year of approval">2026-27</td>
 				<td data-label="Reason for evaluating / not evaluating">Treasury Board Submission commitment</td>
 			</tr>
 			<tr>
-				<td data-label="Program">Criminal Intelligence Service Canada</td>
+				<th data-label="Program" scope="row">Criminal Intelligence Service Canada</th>
 				<td data-label="Total planned program spending (2026–27)" class="text-right">$9,319,016</td>
 				<td data-label="Planned evaluations (2026–31)">Evaluation of the Criminal Intelligence Service Canada</td>
 				<td data-label="Planned fiscal year of approval">2027-28</td>
 				<td data-label="Reason for evaluating / not evaluating">Departmental priority</td>
 			</tr>
 			<tr>
-				<td data-label="Program">Forensic Science and Identification Services</td>
+				<th data-label="Program" scope="row">Forensic Science and Identification Services</th>
 				<td data-label="Total planned program spending (2026–27)" class="text-right">$89,013,072</td>
 				<td data-label="Planned evaluations (2026–31)">Evaluation of the RCMP’s Biology Casework Analysis Services</td>
 				<td data-label="Planned fiscal year of approval">2031-32</td>
 				<td data-label="Reason for evaluating / not evaluating">Program renewal support</td>
 			</tr>
 			<tr>
-				<td data-label="Program">Canadian Police College</td>
+				<th data-label="Program" scope="row">Canadian Police College</th>
 				<td data-label="Total planned program spending (2026–27)" class="text-right">$9,219,639</td>
 				<td data-label="Planned evaluations (2026–31)">Nil</td>
 				<td data-label="Planned fiscal year of approval">Not applicable</td>
 				<td data-label="Reason for evaluating / not evaluating">Recently evaluated and audited</td>
 			</tr>
 			<tr>
-				<td data-label="Program">Sensitive and Specialized Investigative Services</td>
+				<th data-label="Program" scope="row">Sensitive and Specialized Investigative Services</th>
 				<td data-label="Total planned program spending (2026–27)" class="text-right">$23,920,074</td>
 				<td data-label="Planned evaluations (2026–31)">Horizontal Evaluation of the Strategy to Prevent and Address Gender-based Violence (Women and Gender Equality Canada lead)</td>
 				<td data-label="Planned fiscal year of approval">2026-27</td>
 				<td data-label="Reason for evaluating / not evaluating">Treasury Board Submission commitment</td>
 			</tr>
 			<tr>
-				<td data-label="Program" rowspan="3">Specialized Technical Investigative Services</td>
-				<td data-label="Total planned program spending (2026–27)" rowspan="2" class="text-right">$304,896,780</td>
+				<th data-label="Program" scope="rowgroup" rowspan="3">Specialized Technical Investigative Services</th>
+				<td data-label="Total planned program spending (2026–27)" rowspan="3" class="text-right">$304,896,780</td>
 				<td data-label="Planned evaluations (2026–31)">Evaluation of the National Child Exploitation Crime Centre</td>
 				<td data-label="Planned fiscal year of approval">2026-27</td>
 				<td data-label="Reason for evaluating / not evaluating">Departmental priority</td>
@@ -250,14 +250,14 @@ table:has(td[data-label]):not(.table-fixed) {
 				<td data-label="Reason for evaluating / not evaluating">Departmental priority</td>
 			</tr>
 			<tr>
-				<td data-label="Program">Canadian Firearms Licensing and Registration</td>
+				<th data-label="Program" scope="row">Canadian Firearms Licensing and Registration</th>
 				<td data-label="Total planned program spending (2026–27)" class="text-right">$142,274,308</td>
 				<td data-label="Planned evaluations (2026–31)">Evaluation of the Transfer Payment Program for the Canadian Firearms Program</td>
 				<td data-label="Planned fiscal year of approval">2030-31</td>
 				<td data-label="Reason for evaluating / not evaluating"><cite>Financial Administration Act</cite> requirement</td>
 			</tr>
 			<tr>
-				<td data-label="Program">National Cybercrime Coordination Centre</td>
+				<th data-label="Program" scope="row">National Cybercrime Coordination Centre</th>
 				<td data-label="Total planned program spending (2026–27)" class="text-right">$16,898,978</td>
 				<td data-label="Planned evaluations (2026–31)">Evaluation of the National Cybercrime Coordination Centre and FP Cybercrime</td>
 				<td data-label="Planned fiscal year of approval">2027-28</td>
@@ -267,8 +267,8 @@ table:has(td[data-label]):not(.table-fixed) {
 				<th data-label="Core responsibility" scope="rowgroup" colspan="5" class="active">Indigenous, Provincial, Territorial and Municipal Policing</th>
 			</tr>
 			<tr>
-				<td data-label="Program" rowspan="2">Operational Policing Support</td>
-				<td data-label="Total planned program spending (2026–27)" class="text-right">$84,656,947</td>
+				<th data-label="Program" scope="rowgroup" rowspan="2">Operational Policing Support</th>
+				<td data-label="Total planned program spending (2026–27)" rowspan="2" class="text-right">$84,656,947</td>
 				<td data-label="Planned evaluations (2026–31)">Review of the National Search and Rescue Program</td>
 				<td data-label="Planned fiscal year of approval">2027–28</td>
 				<td data-label="Reason for evaluating / not evaluating">Departmental priority</td>
@@ -279,29 +279,29 @@ table:has(td[data-label]):not(.table-fixed) {
 				<td data-label="Reason for evaluating / not evaluating">Treasury Board Submission commitment</td>
 			</tr>
 			<tr>
-				<td data-label="Program">Excellence in Operations</td>
+				<th data-label="Program" scope="row">Excellence in Operations</th>
 				<td data-label="Total planned program spending (2026–27)" class="text-right">$15,521,803</td>
 				<td data-label="Planned evaluations (2026–31)">Nil</td>
 				<td data-label="Planned fiscal year of approval">Not applicable</td>
 				<td data-label="Reason for evaluating / not evaluating">New DRF program – low materiality</td>
 			</tr>
 			<tr>
-				<td data-label="Program">Community Safety Policing Support</td>
+				<th data-label="Program" scope="row">Community Safety Policing Support</th>
 				<td data-label="Total planned program spending (2026–27)" class="text-right">$5,030,334</td>
 				<td data-label="Planned evaluations (2026–31)">Nil</td>
 				<td data-label="Planned fiscal year of approval">Not applicable</td>
 				<td data-label="Reason for evaluating / not evaluating">New DRF program – low materiality</td>
 			</tr>
 			<tr>
-				<td data-label="Program">Force Generation</td>
+				<th data-label="Program" scope="row">Force Generation</th>
 				<td data-label="Total planned program spending (2026–27)" class="text-right">$214,123,236</td>
 				<td data-label="Planned evaluations (2026–31)">Review of the Cadet Training Program Evaluation of RCMP Reconciliation Actions</td>
 				<td data-label="Planned fiscal year of approval">2026–27</td>
 				<td data-label="Reason for evaluating / not evaluating">Departmental priority</td>
 			</tr>
 			<tr>
-				<td data-label="Program" rowspan="2">Indigenous Policing</td>
-				<td data-label="Total planned program spending (2026–27)" class="text-right">$40,166,184</td>
+				<th data-label="Program" scope="rowgroup" rowspan="2">Indigenous Policing</th>
+				<td data-label="Total planned program spending (2026–27)" rowspan="2" class="text-right">$40,166,184</td>
 				<td data-label="Planned evaluations (2026–31)">Interim Review of RCMP Reconciliation Actions</td>
 				<td data-label="Planned fiscal year of approval">2026–27</td>
 				<td data-label="Reason for evaluating / not evaluating">Departmental priority</td>
@@ -312,7 +312,7 @@ table:has(td[data-label]):not(.table-fixed) {
 				<td data-label="Reason for evaluating / not evaluating">Departmental priority</td>
 			</tr>
 			<tr>
-				<td data-label="Program">Provincial / Territorial / Municipal Policing</td>
+				<th data-label="Program" scope="row">Provincial / Territorial / Municipal Policing</th>
 				<td data-label="Total planned program spending (2026–27)" class="text-right">$2,771,329,685</td>
 				<td data-label="Planned evaluations (2026–31)">Evaluation of Strategies to Staff Northern and Isolated Posts</td>
 				<td data-label="Planned fiscal year of approval">2026–27</td>
@@ -322,8 +322,8 @@ table:has(td[data-label]):not(.table-fixed) {
 				<th data-label="Core responsibility" scope="rowgroup" colspan="5" class="active">Internal Services</th>
 			</tr>
 			<tr>
-				<td data-label="Program" rowspan="3">Internal Services</td>
-				<td data-label="Total planned program spending (2026–27)" rowspan="3" class="text-right">$1,076,651,797</td>
+				<th data-label="Program" scope="rowgroup" rowspan="2">Internal Services</th>
+				<td data-label="Total planned program spending (2026–27)" rowspan="2" class="text-right">$1,076,651,797</td>
 				<td data-label="Planned evaluations (2026–31)">Evaluation of RCMP Communications</td>
 				<td data-label="Planned fiscal year of approval">2026–27</td>
 				<td data-label="Reason for evaluating / not evaluating">Departmental priority</td>

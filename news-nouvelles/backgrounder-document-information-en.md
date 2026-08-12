@@ -77,7 +77,7 @@ font-size: 1.1rem;
 a.news-topic-1:link, a.news-topic-1:visited {
     background-color: #ebfaf0;
     color: #14522b;
-	border-radius: 8px;
+	border-radius: 0;
 	border: 1px solid #14522b;
 	padding: 4px 10px;
 	font-size: 1rem;
@@ -89,6 +89,7 @@ a.news-topic-1:link, a.news-topic-1:visited {
 a.news-topic-1:hover, a.primary-topic:active {
 	background-color: #ffffff;
     color: #14522b;
+	border: 1px solid #14522b;
 }	
 a.news-topic-2:link, a.primary-topic:visited {
     background-color: #ffffff;

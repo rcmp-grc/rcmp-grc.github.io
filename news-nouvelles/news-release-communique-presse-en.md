@@ -36,6 +36,27 @@ custom_css: /assets/css/careers.css
 	margin-top: 0;
 	font-weight: bold;
 }	
+.news-update {
+    background: #fff;
+	margin: auto;
+	margin-right: 15px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.news-update ul {
+    list-style-type: square;
+	font-size: 0.95rem;	
+	margin-top: 5px;
+	margin-left: 5px;
+	color: #363636;
+}
+.news-update h2 {
+	font-size: 1.4rem;	
+	margin-left: 0;
+	margin-top: 0;
+	font-weight: bold;
+}			
 .news-contact-h4 {
   border-bottom: 0.3rem solid var(--c-yellow);
   border-image: var(--underline-gradient);

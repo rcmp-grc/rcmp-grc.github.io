@@ -106,6 +106,23 @@ a.news-topic-1:hover, a.primary-topic:active {
 	background-color: #ffffff;
     color: #361966;
 }
+	a.news-topic-secondary1:link, a.news-topic-secondary1:visited
+	{
+    background-color: #ffffff;
+	color: #000000;
+	border-radius: 0;
+	border: 1px solid #000000;
+	padding: 4px 10px;
+	font-size: 1rem;
+    font-weight: bold;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;				
+}
+	a.news-topic-secondary1:hover, a.news-topic-secondary1:active {
+	background-color: #ffffff;
+    color: #361966;
+}
    a.news-topic-4:link, a.news-topic-4:visited
 	{
    background-color: #f9d2d7;
@@ -292,7 +309,8 @@ a.news-topic-1:hover, a.primary-topic:active {
 <section id="topics">
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
-  <li><a href="#" class="news-topic-3">Traffic Services</a></li>
+  <li><a href="#" class="news-topic-3">Traffic enforcement</a></li>
+  <li><a href="#" class="news-topic-secondary1">Public interest</a></li>	
 </ol>
 </section>
 </div>

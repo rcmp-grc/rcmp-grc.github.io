@@ -73,44 +73,38 @@ font-size: 1.1rem;
 .location {
     color: #404040;
 }		
-a.news-topic-1:link, a.primary-topic:visited {
-    background-color: #d6e4f5;
-    color: #0f253d;
-    padding: 4px 10px;
-	border-radius: 8px;
+a.news-topic-1:link, a.news-topic-1:visited {
+    background-color: #ebfaf0;
+    color: #14522b;
+	border-radius: 0;
+	border: 1px solid #14522b;
+	padding: 4px 10px;
 	font-size: 1rem;
     font-weight: bold;	
     text-align: center;
     text-decoration: none;
     display: inline-block;
-	border: 1px solid #000000;	
 }
 a.news-topic-1:hover, a.primary-topic:active {
-	background-color: white;
-    color: #0f253d;
-    padding: 4px 10px;
-    border-radius: 8px;
-	border: 1px solid #0f3d20;
-}
+	background-color: #ffffff;
+    color: #14522b;
+}	
 	a.news-topic-3:link, a.news-topic-3:visited
 	{
     background-color: #e1d6f5;
 	color: #361966;
+	border-radius: 0;
+	border: 1px solid #361966;
 	padding: 4px 10px;
-	border-radius: 8px;
 	font-size: 1rem;
     font-weight: bold;	
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-	border: 1px solid #000000;				
+    display: inline-block;				
 }
 	a.news-topic-3:hover, a.news-topic-3:active {
-	background-color: white;
+	background-color: #ffffff;
     color: #361966;
-	padding: 4px 10px;
-    border-radius: 8px;
-	border: 1px solid #0f3d20;
 }
    a.news-topic-4:link, a.news-topic-4:visited
 	{

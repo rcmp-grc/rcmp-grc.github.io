@@ -297,7 +297,6 @@ a.news-topic-1:hover, a.primary-topic:active {
 	</div>
 	</div>
    </section>
-</div>
 <div class="explore">		
 <section id="topics">
 <h2 class="h3">Explore related topics</h2>

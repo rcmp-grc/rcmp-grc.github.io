@@ -144,6 +144,204 @@ a.news-topic-secondary2:hover, a.news-topic-secondary2:active {
     color: #590d17;
 	border: 1px solid #590d17;	
 }
+	a.news-topic-secondary5:link, a.news-topic-secondary5:visited
+	{
+    background-color: #ffffff;
+	color: #000000;
+	border-radius: 0;
+	border: 1px solid #000000;
+	padding: 4px 10px;
+	font-size: 1rem;
+    font-weight: bold;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;				
+}
+	a.news-topic-secondary5:hover, a.news-topic-secondary5:active {
+	background-color: #ffffff;
+    color: #aa7909;
+	border: 1px solid #aa7909;	
+}
+a.news-topic-secondary6:link, a.news-topic-secondary6:visited
+	{
+    background-color: #ffffff;
+	color: #000000;
+	border-radius: 0;
+	border: 1px solid #000000;
+	padding: 4px 10px;
+	font-size: 1rem;
+    font-weight: bold;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;				
+}
+	a.news-topic-secondary6:hover, a.news-topic-secondary6:active {
+	background-color: #ffffff;
+    color: #158187;
+	border: 1px solid #158187;	
+}
+a.news-topic-secondary7:link, a.news-topic-secondary7:visited
+	{
+    background-color: #ffffff;
+	color: #000000;
+	border-radius: 0;
+	border: 1px solid #000000;
+	padding: 4px 10px;
+	font-size: 1rem;
+    font-weight: bold;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;				
+}
+	a.news-topic-secondary7:hover, a.news-topic-secondary7:active {
+	background-color: #ffffff;
+    color: #982828;
+	border: 1px solid #982828;	
+}	
+a.news-topic-secondary8:link, a.news-topic-secondary8:visited
+	{
+    background-color: #ffffff;
+	color: #000000;
+	border-radius: 0;
+	border: 1px solid #000000;
+	padding: 4px 10px;
+	font-size: 1rem;
+    font-weight: bold;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;				
+}
+	a.news-topic-secondary8:hover, a.news-topic-secondary8:active {
+	background-color: #ffffff;
+    color: #b7592a;
+	border: 1px solid #b7592a;	
+}		
+	a.news-topic-secondary9:link, a.news-topic-secondary9:visited
+	{
+    background-color: #ffffff;
+	color: #000000;
+	border-radius: 0;
+	border: 1px solid #000000;
+	padding: 4px 10px;
+	font-size: 1rem;
+    font-weight: bold;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;				
+}
+	a.news-topic-secondary9:hover, a.news-topic-secondary9:active {
+	background-color: #ffffff;
+    color: #98285d;
+	border: 1px solid #98285d;	
+}	
+	a.news-topic-secondary10:link, a.news-topic-secondary10:visited
+	{
+    background-color: #ffffff;
+	color: #000000;
+	border-radius: 0;
+	border: 1px solid #000000;
+	padding: 4px 10px;
+	font-size: 1rem;
+    font-weight: bold;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;				
+}
+	a.news-topic-secondary10:hover, a.news-topic-secondary10:active {
+	background-color: #ffffff;
+    color: #4d4d4d;
+	border: 1px solid #4d4d4d;	
+}	
+	a.news-topic-secondary11:link, a.news-topic-secondary11:visited
+	{
+    background-color: #ffffff;
+	color: #000000;
+	border-radius: 0;
+	border: 1px solid #000000;
+	padding: 4px 10px;
+	font-size: 1rem;
+    font-weight: bold;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;				
+}
+	a.news-topic-secondary11:hover, a.news-topic-secondary11:active {
+	background-color: #ffffff;
+    color: #99704a;
+	border: 1px solid #99704a;	
+}	
+	a.news-topic-secondary12:link, a.news-topic-secondary12:visited
+	{
+    background-color: #ffffff;
+	color: #000000;
+	border-radius: 0;
+	border: 1px solid #000000;
+	padding: 4px 10px;
+	font-size: 1rem;
+    font-weight: bold;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;				
+}
+	a.news-topic-secondary12:hover, a.news-topic-secondary12:active {
+	background-color: #ffffff;
+    color: #1354ec;
+	border: 1px solid #1354ec;	
+}	
+	a.news-topic-secondary13:link, a.news-topic-secondary13:visited
+	{
+    background-color: #ffffff;
+	color: #000000;
+	border-radius: 0;
+	border: 1px solid #000000;
+	padding: 4px 10px;
+	font-size: 1rem;
+    font-weight: bold;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;				
+}
+	a.news-topic-secondary13:hover, a.news-topic-secondary13:active {
+	background-color: #ffffff;
+    color: #595959;
+	border: 1px solid #595959;	
+}	
+	a.news-topic-secondary14:link, a.news-topic-secondary14:visited
+	{
+    background-color: #ffffff;
+	color: #000000;
+	border-radius: 0;
+	border: 1px solid #000000;
+	padding: 4px 10px;
+	font-size: 1rem;
+    font-weight: bold;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;				
+}
+	a.news-topic-secondary14:hover, a.news-topic-secondary14:active {
+	background-color: #ffffff;
+    color: #ca3535;
+	border: 1px solid #ca3535;	
+}
+	a.news-topic-secondary15:link, a.news-topic-secondary15:visited
+	{
+    background-color: #ffffff;
+	color: #000000;
+	border-radius: 0;
+	border: 1px solid #000000;
+	padding: 4px 10px;
+	font-size: 1rem;
+    font-weight: bold;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;				
+}
+	a.news-topic-secondary15:hover, a.news-topic-secondary15:active {
+	background-color: #ffffff;
+    color: #2962a3;
+	border: 1px solid #2962a3;	
+}
 </style>
 <article>
 <div class="row">
@@ -310,7 +508,19 @@ a.news-topic-secondary2:hover, a.news-topic-secondary2:active {
   <li><a href="#" class="news-topic-3">Traffic enforcement</a></li>
   <li><a href="#" class="news-topic-secondary2">Assault</a></li>
   <li><a href="#" class="news-topic-secondary4">Border security</a></li>
-  <li><a href="#" class="news-topic-secondary1">Public interest</a></li>	
+  <li><a href="#" class="news-topic-secondary5">Break and enter</a></li>
+  <li><a href="#" class="news-topic-secondary6">Disturbance</a></li>
+  <li><a href="#" class="news-topic-secondary7">Homicide</a></li>
+  <li><a href="#" class="news-topic-secondary8">Human trafficking</a></li>
+  <li><a href="#" class="news-topic-secondary9">Illicit drugs</a></li>
+  <li><a href="#" class="news-topic-secondary14">Mission persons</a></li>
+  <li><a href="#" class="news-topic-secondary10">Organized crime</a></li>
+  <li><a href="#" class="news-topic-secondary11">Property crime</a></li>
+  <li><a href="#" class="news-topic-secondary1">Public interest</a></li>
+  <li><a href="#" class="news-topic-secondary12">Theft</a></li>
+  <li><a href="#" class="news-topic-secondary13">Wanted persons</a></li>
+  <li><a href="#" class="news-topic-secondary15">Weapons</a></li>
+	
 </ol>
 </section>
 </div>

@@ -214,7 +214,6 @@ Iqaluit, Nunavut</address></dd>
 </section>
 </div>
 </div>
-</div>	
 <div class="clearfix"></div>
 <section id="gc-contact" class="contact-us">
 	<h2 class="h3">Contact us</h2>

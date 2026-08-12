@@ -93,6 +93,7 @@ button,
     background-position: top center;
     background-attachment: local;
   }
+}
 
 .careers-nav {
   background-color: var(--c-black);

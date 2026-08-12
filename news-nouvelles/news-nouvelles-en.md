@@ -18,9 +18,9 @@ custom_css: /assets/css/careers.css
 	padding: 10px;
 	flex: 1;
 	border-top: 3px solid var(--rcmp-red);
-	border-right: 1px solid var(--c-grey-light);	
-	border-left: 1px solid var(--c-grey-light);
-	border-bottom: 1px solid var(--c-grey-light);
+	border-right: 2px solid var(--c-grey-light);	
+	border-left: 2px solid var(--c-grey-light);
+	border-bottom: 2px solid var(--c-grey-light);
     }
 	.badge-located
 	{

@@ -87,13 +87,12 @@ button,
 
 @media (min-width: 1440px) {
   .careers-layout main:not(.po-full-width):not(:has(#careers-fullpage)) {
-    background-image: var(--careers-bg-image);
+    background-image: url("/assets/img/careers-background3.png");
     background-size: 100% auto;
     background-repeat: repeat-y;
     background-position: top center;
     background-attachment: local;
   }
-}
 
 .careers-nav {
   background-color: var(--c-black);

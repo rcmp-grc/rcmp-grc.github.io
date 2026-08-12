@@ -272,25 +272,4 @@
     window.addEventListener("load", initLoader);
   })();
 </script>
-<script>
-(function () {
-  var images = [
-    "/assets/img/careers-background.png",
-    "/assets/img/careers-background-1.png",
-    "/assets/img/careers-background-2.png",
-    "/assets/img/careers-background-3.png"
-  ];
-  var KEY = "careersBgIndex";
-  var current = parseInt(localStorage.getItem(KEY), 10);
-  if (isNaN(current)) current = 0;
-
-  var index = current % images.length;
-  localStorage.setItem(KEY, (current + 1) % images.length);
-
-  document.documentElement.style.setProperty(
-    "--careers-bg-image",
-    "url('" + images[index] + "')"
-  );
-})();
-</script>
 {% endif %}

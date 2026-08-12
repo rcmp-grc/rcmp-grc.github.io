@@ -75,8 +75,8 @@ font-size: 1.1rem;
     color: #404040;
 }		
 a.news-topic-1:link, a.primary-topic:visited {
-    background-color: #d6e4f5;
-    color: #0f253d;
+    background-color: #ebfaf0;
+    color: #14522b;
     padding: 4px 10px;
 	border-radius: 8px;
 	font-size: 1rem;
@@ -84,14 +84,14 @@ a.news-topic-1:link, a.primary-topic:visited {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-	border: 1px solid #000000;	
+	border: 1px solid #14522b;	
 }
 a.news-topic-1:hover, a.primary-topic:active {
-	background-color: white;
-    color: #0f253d;
+	background-color: #ffffff;
+    color: #14522b;
     padding: 4px 10px;
     border-radius: 8px;
-	border: 1px solid #0f3d20;
+	border: 1px solid #14522b;
 }
 	a.news-topic-3:link, a.news-topic-3:visited
 	{

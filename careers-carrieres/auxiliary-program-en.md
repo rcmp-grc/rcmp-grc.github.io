@@ -176,6 +176,6 @@ custom_css: /assets/css/careers.css
 <section id="s6">
   <h2>Learn more</h2>
   <ul>
-    <li><a href="https://rcmp.ca/en/bc/careers/volunteer-programs/bc-rcmp-auxiliary-program">Applicants wanted for the new Auxiliary Program in British Columbia </a></li>
+    <li><a href="/en/bc/careers/volunteer-programs/bc-rcmp-auxiliary-program">Applicants wanted for the new Auxiliary Program in British Columbia </a></li>
   </ul>
 </section>

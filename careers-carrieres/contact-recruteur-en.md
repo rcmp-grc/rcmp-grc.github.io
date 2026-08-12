@@ -88,7 +88,7 @@ custom_css: /assets/css/careers.css
 
 <section class="cr-province hidden" id="s2" tabindex="-1">
   <h2>British Columbia</h2>
-  <p>Learn more about <a href="https://rcmp.ca/en/bc/careers/project-red-serge">Project Red Serge</a> &ndash; the new streamlined recruiting process for British Columbia residents.</p>
+  <p>Learn more about <a href="/en/bc/careers/project-red-serge">Project Red Serge</a> &ndash; the new streamlined recruiting process for British Columbia residents.</p>
   <dl class="cr-contact-list">
     <dt>Mail</dt>
     <dd><address>14200 Green Timbers Way<br>Mail Stop: 1109<br>Surrey BC&nbsp;V3T&nbsp;6P3</address></dd>
@@ -199,7 +199,7 @@ custom_css: /assets/css/careers.css
 
 <section class="cr-province hidden" id="s13" tabindex="-1">
   <h2>Yukon</h2>
-  <p>Learn more about <a href="https://rcmp.ca/en/bc/careers/project-red-serge">Project Red Serge</a> &ndash; the new streamlined recruiting process for Yukon residents.</p>
+  <p>Learn more about <a href="/en/bc/careers/project-red-serge">Project Red Serge</a> &ndash; the new streamlined recruiting process for Yukon residents.</p>
   <dl class="cr-contact-list">
     <dt>Email</dt>
     <dd><a href="mailto:yukonrcmp_recruiting_recrutement@rcmp-grc.gc.ca">yukonrcmp_recruiting_recrutement@rcmp-grc.gc.ca</a></dd>

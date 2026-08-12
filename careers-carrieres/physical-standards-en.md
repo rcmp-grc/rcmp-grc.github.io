@@ -161,7 +161,7 @@ custom_css: /assets/css/careers.css
 						<p>[Police officer loads big jugs of water onto a table.]</p>
 						<p>Field standard, touch 15&#160;items on wall</p>
 						<p>[Woman lifts and touches sandbag on wall in a gym.]</p>
-						<p>3&#160;times warry weight 50&#160;meters</p>
+						<p>3&#160;times carry weight 50&#160;meters</p>
 						<p>[Man deadlifts weight and carries sandbags across the gym.]</p>
 						<p>High priority call</p>
 						<p>[Police officer runs up stairs.]</p>

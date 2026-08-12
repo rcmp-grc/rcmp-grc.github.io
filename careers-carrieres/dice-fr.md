@@ -141,7 +141,7 @@ custom_css: /assets/css/careers.css
 		<footer>Participante Bernier</footer>
 	</blockquote>
 	<blockquote class="mrgn-tp-lg">
-		<p>Le programme ECDI est l'introduction idéale au travail policier au sein de la GRC. Il m'a offert une expérience d'ensemble qui a renforcé mon intérêt à joindre la GRC.</p>Le sénateur Dhillon revêtu
+		<p>Le programme ECDI est l'introduction idéale au travail policier au sein de la GRC. Il m'a offert une expérience d'ensemble qui a renforcé mon intérêt à joindre la GRC.</p>
 		<footer>Participant Howe</footer>
 	</blockquote>
 </section>

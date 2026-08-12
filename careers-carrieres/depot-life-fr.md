@@ -20,7 +20,7 @@ custom_css: /assets/css/careers.css
     <li><a href="#s3">La vie en troupe</a></li>
     <li><a href="#s4">Mess divisionnaire et autres commodités</a></li>
     <li><a href="#s5">Soutien</a></li>
-    <li><a href="#s6">Attentes en matière de conduite des cadets[</a></li>
+    <li><a href="#s6">Attentes en matière de conduite des cadets</a></li>
     <li><a href="#s7">La vie communautaire à Regina</a></li>
     <li><a href="#s8">Liens connexes</a></li>
   </ul>

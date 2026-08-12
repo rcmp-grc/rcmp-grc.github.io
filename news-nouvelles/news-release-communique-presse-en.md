@@ -142,7 +142,7 @@ a.news-topic-1:hover, a.primary-topic:active {
 <article>
 <div class="row">
   <div class="news-alert pull-right col-sm-4">
-	  <h2><span class="label label-default">Located</span></h2>
+	  <h2><span class="label label-default">Updated</span></h2>
 	  <ul>
 	  <li><strong>2026-04-30, 13:58 pm</strong>: drivers will see increased patrols at key Richmond intersections</li>
     <li><strong>2026-04-21, 13:58 pm</strong>: Tip: Brush up on emergency braking and obstacle avoidance, especially after time off the bike</li>

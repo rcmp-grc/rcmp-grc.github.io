@@ -96,24 +96,21 @@ a.news-topic-1:hover, a.primary-topic:active {
 	{
     background-color: #e1d6f5;
 	color: #361966;
-	padding: 8px 10px;		
-	font-size: 0.8em;
+	padding: 4px 10px;
+	border-radius: 8px;
+	font-size: 1rem;
     font-weight: bold;	
     text-align: center;
     text-decoration: none;
     display: inline-block;
-	border-left: 5px solid #361966;
-	border-right: 1px solid #361966;
-	border-bottom: 1px solid #361966;
-	border-top: 1px solid #361966;			
+	border: 1px solid #000000;				
 }
 	a.news-topic-3:hover, a.news-topic-3:active {
 	background-color: white;
     color: #361966;
-	border-left: 5px solid #361966;
-	border-right: 1px solid #361966;
-	border-bottom: 1px solid #361966;
-	border-top: 1px solid #361966;
+	padding: 4px 10px;
+    border-radius: 8px;
+	border: 1px solid #0f3d20;
 }
    a.news-topic-4:link, a.news-topic-4:visited
 	{

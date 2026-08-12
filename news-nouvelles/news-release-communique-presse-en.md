@@ -73,23 +73,7 @@ font-size: 1.1rem;
 .location {
     color: #404040;
 }		
-a.news-topic-1:link, a.news-topic-1:visited {
-    background-color: #ebfaf0;
-    color: #14522b;
-	border-radius: 0;
-	border: 1px solid #14522b;
-	padding: 4px 10px;
-	font-size: 1rem;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-a.news-topic-1:hover, a.primary-topic:active {
-	background-color: #ffffff;
-    color: #14522b;
-}	
-	a.news-topic-3:link, a.news-topic-3:visited
+a.news-topic-3:link, a.news-topic-3:visited
 	{
     background-color: #e1d6f5;
 	color: #361966;
@@ -106,7 +90,7 @@ a.news-topic-1:hover, a.primary-topic:active {
 	background-color: #ffffff;
     color: #361966;
 }
-	a.news-topic-secondary1:link, a.news-topic-secondary1:visited
+a.news-topic-secondary1:link, a.news-topic-secondary1:visited
 	{
     background-color: #ffffff;
 	color: #000000;
@@ -119,33 +103,46 @@ a.news-topic-1:hover, a.primary-topic:active {
     text-decoration: none;
     display: inline-block;				
 }
-	a.news-topic-secondary1:hover, a.news-topic-secondary1:active {
-	background-color: #ebfaf0;
+a.news-topic-secondary1:hover, a.news-topic-secondary1:active {
+	background-color: #ffffff;
     color: #14522b;
 	border: 1px solid #14522b;	
 }
-   a.news-topic-4:link, a.news-topic-4:visited
+a.news-topic-secondary2:link, a.news-topic-secondary2:visited
 	{
-   background-color: #f9d2d7;
-   color: #590d17;
-   padding: 8px 10px;	
-   font-size: 0.8em;	
-   font-weight: bold;	
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   border-left: 5px solid #590d17;
-   border-right: 1px solid #590d17;
-   border-bottom: 1px solid #590d17;
-   border-top: 1px solid #590d17;	
+    background-color: #ffffff;
+	color: #000000;
+	border-radius: 0;
+	border: 1px solid #000000;
+	padding: 4px 10px;
+	font-size: 1rem;
+    font-weight: bold;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;				
 }
-	a.news-topic-4:hover, a.news-topic-4:active {
-	background-color: white;
+a.news-topic-secondary2:hover, a.news-topic-secondary2:active {
+	background-color: #ffffff;
+    color: #193d66;
+	border: #193d66;	
+}
+	a.news-topic-secondary4:link, a.news-topic-secondary4:visited
+	{
+    background-color: #ffffff;
+	color: #000000;
+	border-radius: 0;
+	border: 1px solid #000000;
+	padding: 4px 10px;
+	font-size: 1rem;
+    font-weight: bold;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;				
+}
+	a.news-topic-secondary4:hover, a.news-topic-secondary4:active {
+	background-color: #ffffff;
     color: #590d17;
-	border-left: 5px solid #590d17;
-	border-right: 1px solid #590d17;
-	border-bottom: 1px solid #590d17;
-	border-top: 1px solid #590d17;
+	border: 1px solid #590d17;	
 }
 </style>
 <article>
@@ -311,6 +308,8 @@ a.news-topic-1:hover, a.primary-topic:active {
 <h2 class="h3">Explore related topics</h2>
 <ol class="list-inline">
   <li><a href="#" class="news-topic-3">Traffic enforcement</a></li>
+  <li><a href="#" class="news-topic-secondary2">Assault</a></li>
+  <li><a href="#" class="news-topic-secondary1">Border security</a></li>
   <li><a href="#" class="news-topic-secondary1">Public interest</a></li>	
 </ol>
 </section>

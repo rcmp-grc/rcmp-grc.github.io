@@ -144,8 +144,8 @@ a.news-topic-secondary2:hover, a.news-topic-secondary2:active {
 }
 	a.news-topic-secondary4:hover, a.news-topic-secondary4:active {
 	background-color: #ffffff;
-    color: #590d17;
-	border: 1px solid #590d17;	
+    color: #248f4b;
+	border: 1px solid #248f4b;	
 }
 	a.news-topic-secondary5:link, a.news-topic-secondary5:visited
 	{
@@ -306,8 +306,8 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 }
 	a.news-topic-secondary13:hover, a.news-topic-secondary13:active {
 	background-color: #ffffff;
-    color: #595959;
-	border: 1px solid #595959;	
+    color: #590d17;
+	border: 1px solid #590d17;	
 }	
 	a.news-topic-secondary14:link, a.news-topic-secondary14:visited
 	{

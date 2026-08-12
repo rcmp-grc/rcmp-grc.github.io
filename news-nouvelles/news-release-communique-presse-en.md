@@ -124,7 +124,7 @@ a.news-topic-secondary2:link, a.news-topic-secondary2:visited
 a.news-topic-secondary2:hover, a.news-topic-secondary2:active {
 	background-color: #ffffff;
     color: #193d66;
-	border: #193d66;	
+	border: 1px solid #193d66;	
 }
 	a.news-topic-secondary4:link, a.news-topic-secondary4:visited
 	{
@@ -309,7 +309,7 @@ a.news-topic-secondary2:hover, a.news-topic-secondary2:active {
 <ol class="list-inline">
   <li><a href="#" class="news-topic-3">Traffic enforcement</a></li>
   <li><a href="#" class="news-topic-secondary2">Assault</a></li>
-  <li><a href="#" class="news-topic-secondary1">Border security</a></li>
+  <li><a href="#" class="news-topic-secondary4">Border security</a></li>
   <li><a href="#" class="news-topic-secondary1">Public interest</a></li>	
 </ol>
 </section>

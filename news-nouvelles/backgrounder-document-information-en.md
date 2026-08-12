@@ -90,6 +90,7 @@ a.news-topic-1:hover, a.primary-topic:active {
 	background-color: #ffffff;
     color: #14522b;
 	border: 1px solid #14522b;
+	border-radius: 0;
 }	
 a.news-topic-2:link, a.primary-topic:visited {
     background-color: #ffffff;

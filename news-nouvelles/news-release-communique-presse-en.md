@@ -236,7 +236,7 @@ a.news-topic-1:hover, a.primary-topic:active {
 	<h3>Contact us</h3>
 	<div class="contact-signature">	
 	<div class="row wb-eqht">	
-	<div class="col-md-4">	
+	<div class="col-sm-4">	
 <h4 class="news-contact-h4">British Columbia RCMP</h4>
   <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">bcrcmp-grcencb@rcmp-grc.gc.ca</a><br>
   778-290-2929</p>	
@@ -258,7 +258,7 @@ a.news-topic-1:hover, a.primary-topic:active {
 							</ul>
 	</section>	
 	</div>		
-	<div class="col-md-4">	
+	<div class="col-sm-4">	
    <h4 class="news-contact-h4">Richmond RCMP</h4>
    <p class="news-contact-p"><a href="mailto:name@rcmp-grc.gc.ca">name@rcmp-grc.gc.ca</a><br>
    604-555-5555</p>	

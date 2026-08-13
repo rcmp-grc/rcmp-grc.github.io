@@ -154,7 +154,7 @@ a.news-topic-1:hover, a.primary-topic:active {
 </div>
 <div class="row">
 <div class="col-md-8"> 
-<section id="page-navigation" class="article-content mrgn-bttm-md">
+<section id="page-navigation" class="article-content mrgn-bttm-lg">
 	<h2 class="h3 mrgn-tp-0">On this page</h2>
 	<ul>
 		<li><a href="#s1">Planned activities</a></li>

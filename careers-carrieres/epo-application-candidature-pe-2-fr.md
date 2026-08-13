@@ -66,12 +66,8 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s2">
   <h2>Envoi du curriculum vitæ et de la lettre de présentation</h2>
-  <p>Consultez les consignes concernant la rédaction du curriculum vitæ structuré et des exemples de votre expérience policière à l'aide du modèle STAR&nbsp;:</p>
-  <ul>
-      <li><a href="#">modèle STAR pour les curriculum vitae;</a></li>
-      <li><a href="#">compétences des services généraux requises</a> selon le Dictionnaire des compétences de la GRC</li>
-  </ul>
   <p>Faites parvenir votre lettre de présentation et votre curriculum vitae structuré faisant état de votre expérience policière, de vos compétences et de votre formation, par courriel, au coordonnateur du PPE.</p>
+  <p>Apprenez à adapter votre CV et votre lettre de présentation en utilisant le format STAR à l’étape suivante.</p>
 </section>
 <section id="s3">
   <h2>Examens de la vue et de l'audition</h2>

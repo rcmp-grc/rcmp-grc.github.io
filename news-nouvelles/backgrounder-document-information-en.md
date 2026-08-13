@@ -7,6 +7,9 @@ lang: en
 lang_url: backgrounder-document-information-fr.html
 lead: Backgrounder
 issued: 2026-05-08
+breadcrumbs:
+  - label: "RCMP news"
+    url: "/en/news"
 custom_css: /assets/css/careers.css
 ---
 

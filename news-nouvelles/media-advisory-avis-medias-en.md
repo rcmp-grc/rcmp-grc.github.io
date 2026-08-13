@@ -154,6 +154,18 @@ a.news-topic-1:hover, a.primary-topic:active {
 </div>
 <div class="row">
 <div class="col-md-8"> 
+<section id="page-navigation" class="article-content">
+	<h2 class="h3">On this page</h2>
+	<ul>
+		<li><a href="#s1">Planned activities</a></li>
+		<li><a href="#s2">Media opportunities</a></li>
+		<li><a href="#s3">Accreditation</a></li>
+		<li><a href="#links">Associated links</a></li>
+		<li><a href="#event">Event details</a></li>
+		<li><a href="#gc-contact">Contacts</a></li>
+		<li><a href="#topics">Explore related topics</a></li>
+	</ul>
+</section>	
 <p>The Royal Canadian Mounted Police will host a community winter safety event featuring Bob the Polar Bear, the RCMP’s unofficial northern mascot.</p>
  <p>Members of the media are invited to attend.</p>	
  <p>The event will focus on winter preparedness, youth engagement, emergency awareness, and community safety. Activities will include safety demonstrations, educational booths, family activities, and opportunities for interviews and photos.</p>
@@ -198,7 +210,7 @@ a.news-topic-1:hover, a.primary-topic:active {
 </section>
 </div>
 <div class="col-md-4">
-	<section class="panel panel-default brdr-rds-0 ">
+	<section class="panel panel-default brdr-rds-0" id="event">
   <header class="panel-heading">
    <h2 class="panel-title"><span class="h5">Event details</span></h2>
   </header>

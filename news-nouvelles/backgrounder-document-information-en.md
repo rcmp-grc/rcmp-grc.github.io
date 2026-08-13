@@ -219,11 +219,11 @@ a.news-topic-2:hover, a.primary-topic:active {
 </ul>
 </section>
 <section id="gc-contact" class="contact-us">
-	<h3>Contact us</h3>
+	<h2 class="h3">Contact us</h2>
 	<div class="contact-signature">	
 	<div class="row wb-eqht">	
 	<div class="col-md-4">	
-    <h4 class="news-contact-h4">National Headquarters</h4>
+    <h3 class="news-contact-h4">National Headquarters</h3>
    <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
    613-555-0100</p>
 	<section class="gc-followus">
@@ -245,7 +245,7 @@ a.news-topic-2:hover, a.primary-topic:active {
 	</section>	
 	</div>	
 	<div class="col-md-4">	
-<h4 class="news-contact-h4">British Columbia RCMP</h4>
+<h3 class="news-contact-h4">British Columbia RCMP</h3>
   <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">bcrcmp-grcencb@rcmp-grc.gc.ca</a><br>
   778-290-2929</p>	
 	<section class="gc-followus">
@@ -267,7 +267,7 @@ a.news-topic-2:hover, a.primary-topic:active {
 	</section>	
 	</div>		
 	<div class="col-md-4">	
-   <h4 class="news-contact-h4">Richmond RCMP</h4>
+   <h3 class="news-contact-h4">Richmond RCMP</h3>
    <p class="news-contact-p"><a href="mailto:name@rcmp-grc.gc.ca">name@rcmp-grc.gc.ca</a><br>
    604-555-5555</p>	
 		<section class="gc-followus">

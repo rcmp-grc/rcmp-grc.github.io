@@ -172,7 +172,7 @@ a.news-topic-2:hover, a.primary-topic:active {
 <section class="alert alert-warning">
  <h3 class="h4">Safety and wildlife message</h3>
 <p>Although Bob is a fictional mascot, polar bears are real wild animals and can be dangerous. Canadians visiting northern regions should always follow local wildlife safety guidance and instructions from authorities and community leaders.</p>
-<p><a class="btn btn-warning" role="button"><strong>Polar bear safety</strong></a></p>
+<p><a class="btn btn-warning" role="button"><strong>Follow Polar bear safety</strong></a></p>
 </section>		
 <p>Bob has supported awareness activities related to:</p>	
 <ul>

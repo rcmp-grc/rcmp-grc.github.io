@@ -374,6 +374,20 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 </div>
 <div class="row">
 <div class="col-md-8"> 
+<section id="page-navigation" class="article-content mrgn-bttm-lg">
+	<h2 class="h3 mrgn-tp-0">On this page</h2>
+	<ul>
+		<li><a href="#s1">Tips for drivers sharing the road with motorcycles</a></li>
+		<li><a href="#s2">Tips for riders</a></li>
+		<li><a href="#video">Video</a></li>
+		<li><a href="#gallery">Image gallery</a></li>
+		<li><a href="#quotes">Quotes</a></li>
+		<li><a href="#facts">Quick facts</a></li>
+		<li><a href="#products">Related products</li>
+		<li><a href="#gc-contact">Contacts</a></li>
+		<li><a href="#topics">Explore related topics</a></li>
+	</ul>
+</section>		
 <p>Richmond <abbr>RCMP</abbr> Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety, as part of the province-wide <abbr>BC</abbr> Association of Chiefs of Police enforcement calendar in partnership with <abbr>ICBC</abbr>.</p>
 <p>As warmer weather brings more motorcycles onto Richmond roads, officers will be focused on the behaviours most often linked to serious crashes including failing to yield, ignoring traffic control devices, following too closely, and improper passing. With six out of ten motorcycle crashes in <abbr>BC</abbr> occurring at intersections, drivers will see increased patrols at key Richmond intersections throughout the month.</p>
 <p>While motorcycles make up roughly three percent of insured vehicles in <abbr>BC</abbr>, they are involved in approximately ten percent of road fatalities, <a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/motorcycle-safety">according to the Province of British Columbia</a>. The fatality rate for drivers under 25 is on average 15 times higher than drivers over 25&nbsp;years of age.</p>
@@ -457,11 +471,11 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 </div>
 <div class="clearfix"></div>
 <section id="gc-contact" class="contact-us">
-	<h3>Contact us</h3>
+	<h2 class="h3">Contact us</h2>
 	<div class="contact-signature">	
 	<div class="row wb-eqht">	
 	<div class="col-sm-4">	
-<h4 class="news-contact-h4">British Columbia RCMP</h4>
+<h3 class="news-contact-h4">British Columbia RCMP</h3>
   <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">bcrcmp-grcencb@rcmp-grc.gc.ca</a><br>
   778-290-2929</p>	
 	<section class="gc-followus">
@@ -483,7 +497,7 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 	</section>	
 	</div>		
 	<div class="col-sm-4">	
-   <h4 class="news-contact-h4">Richmond RCMP</h4>
+   <h3 class="news-contact-h4">Richmond RCMP</h3>
    <p class="news-contact-p"><a href="mailto:name@rcmp-grc.gc.ca">name@rcmp-grc.gc.ca</a><br>
    604-555-5555</p>	
 		<section class="gc-followus">

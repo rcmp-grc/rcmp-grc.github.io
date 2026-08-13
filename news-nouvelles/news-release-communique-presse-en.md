@@ -461,7 +461,7 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 	<div class="col-md-4">
 <div class="panel panel-default">
   <div class="panel-body">
-	 <img src="primary-news.jpg" class="img-responsive full-width" alt="" /> 
+	  <figure><img src="primary-news.jpg" class="img-responsive full-width" alt="" /></figure> 
   </div>
 	<footer class="panel-footer">
    <p class="small">Caption for the photo</p>

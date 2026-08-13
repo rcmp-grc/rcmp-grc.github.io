@@ -6,6 +6,9 @@ lang: en
 lang_url: news-release-communique-presse-fr.html
 issued: 2026-05-07
 lead: News release
+breadcrumbs:
+  - label: "News and communications"
+    url: "/en/news"
 custom_css: /assets/css/careers.css
 ---
 

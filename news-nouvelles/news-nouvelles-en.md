@@ -15,6 +15,7 @@ custom_css: /assets/css/careers.css
 <style>
 	dl.dlist
 	{
+	font-size: inherit;
 	padding: 10px;
 	flex: 1;
 	border-top: 3px solid var(--rcmp-red);

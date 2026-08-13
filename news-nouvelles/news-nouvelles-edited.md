@@ -119,7 +119,7 @@ custom_css: /assets/css/careers.css
 	<h2 class="h6 news-filters-heading">Search</h2>	
     <aside aria-labelledby="news-filters-heading" id="news-filters"> 	 
     <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	  
-    <label for="btngrp-search2" class="wb-inv">Search</label>
+    <label class="wb-inv">Search</label>
    <div class="input-group" id="btngrp-search2">
     <input type="text" class="form-controls" placeholder="Search news" />
 	 <span class="input-group-btn">
@@ -235,7 +235,7 @@ custom_css: /assets/css/careers.css
 			<fieldset>
 			 <legend class="wb-inv">Publish date</legend>
 			 <div><p class="small">For example, 2005, 21/11/2014, May 27, 2024</p></div>
-             <label class="re-input-text-label" for="dt_mindate">Before</label><input class="re-input-text" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="re-input-text-label mrgn-tp-md" for="dt_maxdate">After</label><input class="re-input-text" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
+             <label class="re-input-text-label" for="dt_mindate"><span class="cb-text">Before</span></label><input class="re-input-text" data-column="0" id="dt_mindate" name="dt_mindate" type="text"> <label class="re-input-text-label mrgn-tp-md" for="dt_maxdate"><span class="cb-text">After</span></label><input class="re-input-text" data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
 			</fieldset>
 		</details>
 		</div>
@@ -451,30 +451,30 @@ custom_css: /assets/css/careers.css
 	  };	  
 	var TERRITORY_ID = {
     en: {
-      1: 'Alberta',
-      2: 'British Columbia',
-      3: 'Manitoba',
-      4: 'New Brunswick',
-      5: 'Newfoundland and Labrador',
-      6: 'Northwest Territories',
-      7: 'Nova Scotia',
-      8: 'Nunavut',
-      9: 'Ontario',
+      1:  'Alberta',
+      2:  'British Columbia',
+      3:  'Manitoba',
+      4:  'New Brunswick',
+      5:  'Newfoundland and Labrador',
+      6:  'Northwest Territories',
+      7:  'Nova Scotia',
+      8:  'Nunavut',
+      9:  'Ontario',
       10: 'Prince Edward Island',
       11: 'Quebec',
       12: 'Saskatchewan',
       13: 'Yukon'
     },
 	fr: {
-      1: 'Alberta',
-      2: 'British Columbia',
-      3: 'Manitoba',
-      4: 'New Brunswick',
-      5: 'Newfoundland and Labrador',
-      6: 'Northwest Territories',
-      7: 'Nova Scotia',
-      8: 'Nunavut',
-      9: 'Ontario',
+      1:  'Alberta',
+      2:  'British Columbia',
+      3:  'Manitoba',
+      4:  'New Brunswick',
+      5:  'Newfoundland and Labrador',
+      6:  'Northwest Territories',
+      7:  'Nova Scotia',
+      8:  'Nunavut',
+      9:  'Ontario',
       10: 'Prince Edward Island',
       11: 'Quebec',
       12: 'Saskatchewan',
@@ -483,15 +483,15 @@ custom_css: /assets/css/careers.css
  };	  
  var REGION_ID = {
     en: {
-      1: 'Alberta RCMP',
-      2: 'British Columbia RCMP',
-      3: 'Federal Policing Central Region',
-      4: 'Federal Policing Northwest Region',
-      5: 'Federal Policing Pacific Region',
-      6: 'Manitoba RCMP',
-      7: 'New Brunswick RCMP',
-      8: 'Newfoundland and Labrador RCMP',
-      9: 'Northwest Territories RCMP',
+      1:  'Alberta RCMP',
+      2:  'British Columbia RCMP',
+      3:  'Federal Policing Central Region',
+      4:  'Federal Policing Northwest Region',
+      5:  'Federal Policing Pacific Region',
+      6:  'Manitoba RCMP',
+      7:  'New Brunswick RCMP',
+      8:  'Newfoundland and Labrador RCMP',
+      9:  'Northwest Territories RCMP',
       10: 'Nova Scotia RCMP',
       11: 'Prince Edward Island RCMP',
       12: 'RCMP Depot Division',
@@ -500,15 +500,15 @@ custom_css: /assets/css/careers.css
 	  15: 'Yukon RCMP'
        },
 	 fr: {
-      1: 'Alberta RCMP',
-      2: 'British Columbia RCMP',
-      3: 'Federal Policing Central Region',
-      4: 'Federal Policing Northwest Region',
-      5: 'Federal Policing Pacific Region',
-      6: 'Manitoba RCMP',
-      7: 'New Brunswick RCMP',
-      8: 'Newfoundland and Labrador RCMP',
-      9: 'Northwest Territories RCMP',
+      1:  'Alberta RCMP',
+      2:  'British Columbia RCMP',
+      3:  'Federal Policing Central Region',
+      4:  'Federal Policing Northwest Region',
+      5:  'Federal Policing Pacific Region',
+      6:  'Manitoba RCMP',
+      7:  'New Brunswick RCMP',
+      8:  'Newfoundland and Labrador RCMP',
+      9:  'Northwest Territories RCMP',
       10: 'Nova Scotia RCMP',
       11: 'Prince Edward Island RCMP',
       12: 'RCMP Depot Division',
@@ -527,8 +527,8 @@ custom_css: /assets/css/careers.css
         territory: 'Territory or province',
         region: 'National, divisional or regional policing',
       },
-      newsFound: 'News found',
-      noResults: 'No news match your current filters.'
+      newsFound: 'News and communications found.',
+      noResults: 'No news or communication match your current filters.'
     },  
    fr: {
       catLabel: {
@@ -536,8 +536,8 @@ custom_css: /assets/css/careers.css
         territory: 'Territory or province',
         region: 'National, divisional or regional policing',
       },
-      newsFound: 'News found',
-      noResults: 'No news match your current filters.',
+      newsFound: 'News and communications found.',
+      noResults: 'No news or communication match your current filters.
     }
   };
   var PER_PAGE    = 10;
@@ -549,7 +549,7 @@ custom_css: /assets/css/careers.css
   var activeTagEl = document.getElementById('news-active-filters');
   var grid        = document.getElementById('news-grid');
   var noResults   = document.getElementById('news-no-results');
-  var pagination  = document.getElementById('re-pagination');
+  var pagination  = document.getElementById('news-pagination');
   var prevBtn     = document.getElementById('news-prev');
   var nextBtn     = document.getElementById('news-next');	
   function getActiveFilters() {
@@ -564,11 +564,11 @@ custom_css: /assets/css/careers.css
   }
   function filterData(filters) {
     return PROFILES.filter(function (p) {
-    var okc = !filters.category.length || filters.category.indexOf(p.category) > -1;
-	var okl = !filters.location.length || filters.location.indexOf(p.location) > -1;	
-	var okt !filters.territory.length || filters.territory.indexOf(p.territory) > -1;
-	var okr !filters.region.length || filters.region.indexOf(p.region) > -1;
-    return okc && okl && okt && okr;
+    var okC = !filters.category.length || filters.category.indexOf(p.category) > -1;
+	var okL = !filters.location.length || filters.location.indexOf(p.location) > -1;	
+	var okT !filters.territory.length || filters.territory.indexOf(p.territory) > -1;
+	var okR !filters.region.length || filters.region.indexOf(p.region) > -1;
+    return okC && okL && okT && okR;
     });
   }
   function renderTags(filters) {
@@ -581,13 +581,13 @@ custom_css: /assets/css/careers.css
     Object.keys(filters).forEach(function(cat) {
       if (!filters[cat].length) return;
       var row = document.createElement('div');
-      row.className = 'news-filter-row';
+      row.className = 're-filter-row';
       var label = document.createElement('span');
       label.className = 'news-filter-row-label';
       label.textContent = UI[LANG].catLabel[cat] + ':';
       row.appendChild(label);
       var tagsWrap = document.createElement('span');
-      tagsWrap.className = 'news-filter-row-tags';
+      tagsWrap.className = 're-filter-row-tags';
       filters[cat].forEach(function(val, idx) {
         if (idx > 0) {
           var sep = document.createElement('span');
@@ -651,7 +651,7 @@ custom_css: /assets/css/careers.css
   }
  function renderPagination(total, page) {
     var pages = Math.ceil(total / PER_PAGE);
-    var pageList = document.getElementById('re-page-list');
+    var pageList = document.getElementById('news-page-list');
     prevBtn.disabled = page <= 1;
     nextBtn.disabled = page >= pages;
     prevBtn.parentElement.style.visibility = page <= 1 ? 'hidden' : '';

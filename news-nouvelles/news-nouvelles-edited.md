@@ -130,7 +130,7 @@ custom_css: /assets/css/careers.css
    </span></div>
 </form>
 		<div id="re-filters">
-		<h2 class="h6 news-filters-heading">Filter</h2>
+		<h2 class="h6 news-filters-heading" id="filter">Filter</h2>
 		<p class="small mrgn-lft-md mrgn-tp-md">Select any of the following filters to narrow your search</p>	
 	    <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></summary>
@@ -242,10 +242,10 @@ custom_css: /assets/css/careers.css
 	</aside>
 	</div>
   <div class="col-md-9" id="wp-results-col">
-	  <h2 class="wb-inv">List of news</h2>
-     <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 
+	  <h2 class="wb-inv">List of news and communication items</h2>
+     <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status" style="display:none;"></div> 
      <div id="wp-toolbar">
-     <p id="news-count" aria-live="polite"><strong id="news-count-num">0</strong>&nbsp;news and communications items found</p>
+     <p id="news-count" aria-live="polite"><strong id="news-count-num">0</strong>&nbsp;<span id="news-count-text">news and communications items found</span></p>
       <div id="wp-sort">
         <label for="news-sort-select">Sort by:</label>
         <select aria-label="Sort profiles" id="news-sort-select">
@@ -254,25 +254,16 @@ custom_css: /assets/css/careers.css
         </select>
 	  </div>
 	</div>
-    <div aria-label="News" id="news-grid" role="list"></div>
-    <p id="news-no-results">No news or communications match your current filters.</p>
-   <nav aria-label="Pagination" class="rcmp-item-pagination" id="rcmp-content-page">
+	<nav aria-label="Pagination" class="rcmp-item-pagination" id="news-pagination">
       <div class="rcmp-item-pagination__prev" id="news-prev-wrap">
-        <button aria-label="Previous page" class="rcmp-item-pagination__link" id="news-prev" type="button">
-          <i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-left"></i>
-          <span class="rcmp-item-pagination__link-title">Previous<span class="rcmp-visually-hidden"> page</span></span>
-        </button>
+        <button aria-label="Previous page" class="rcmp-item-pagination__link" id="news-prev" type="button"><i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-left"></i> <span class="rcmp-item-pagination__link-title">Previous <span class="rcmp-visually-hidden">page</span></span></button>
       </div>
       <ul class="rcmp-item-pagination__list" id="news-page-list"></ul>
       <div class="rcmp-item-pagination__next" id="news-next-wrap">
-        <button aria-label="Next page" class="rcmp-item-pagination__link" id="news-next" type="button">
-          <span class="rcmp-item-pagination__link-title">Next<span class="rcmp-visually-hidden"> page</span></span>
-          <i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-right"></i>
-        </button>
+        <button aria-label="Next page" class="rcmp-item-pagination__link" id="news-next" type="button"><span class="rcmp-item-pagination__link-title">Next <span class="rcmp-visually-hidden">page</span></span> <i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-right"></i></button>
       </div>
     </nav>
 	  </div>
-</div>  
 <section class="gc-features mrgn-bttm-lg">
 <h2 class="h3">Features</h2>
 <div class="row wb-eqht">
@@ -299,24 +290,10 @@ custom_css: /assets/css/careers.css
         </div>
       </div>
     </section>
-<script>
-	(function () {
-  'use strict';
-	Object.keys(openCats).forEach(function(cat) {
-      var cb = document.querySelector('input[data-filter="' + cat + '"]');
-      if (cb) {
-        var details = cb.closest('details.wp-filter-group');
-        if (details) details.open = true;}
-    });
-  }
-  applyQueryString();
-  refresh();
-}());
-</script>
+</div>
 <script>
 (function () {
   'use strict';
-  var lang = document.documentElement.lang === 'fr' ? 'fr' : 'en';
   var PROFILES = [{ {
 	name: 'RCMP and CBSA dismantle crime group after nearly 250&nbsp;kg of cocaine is detected in shipping container in Halifax',
 	badge: ' ',
@@ -436,7 +413,7 @@ custom_css: /assets/css/careers.css
     updated: '2026-04-22'
 }];  
 	var LANG = document.documentElement.lang && document.documentElement.lang.slice(0, 2) === 'fr' ? 'fr' : 'en';
-	var category_ID = {
+	var CATEGORY_ID = {
     en: {
       1: 'Assault',
       2: 'Break and enter',
@@ -453,7 +430,24 @@ custom_css: /assets/css/careers.css
       13: 'Wanted persons'
 	  14: 'Weapons'
     },
-	var territory_ID = {
+  fr: {
+      1: 'Assault',
+      2: 'Break and enter',
+      3: 'Disturbance',
+      4: 'Homicide',
+      5: 'Illegal border crossing',
+      6: 'Illicit drugs',
+      7: 'Missing person',
+      8: 'Organized crime',
+      9: 'Public interest',
+      10: 'Theft',
+      11: 'Traffic',
+      12: 'Trafficking',
+      13: 'Wanted persons'
+	  14: 'Weapons'
+    }
+	  };	  
+	var TERRITORY_ID = {
     en: {
       1: 'Alberta',
       2: 'British Columbia',
@@ -469,8 +463,41 @@ custom_css: /assets/css/careers.css
       12: 'Saskatchewan',
       13: 'Yukon'
     },
- var region_ID = {
+	fr: {
+      1: 'Alberta',
+      2: 'British Columbia',
+      3: 'Manitoba',
+      4: 'New Brunswick',
+      5: 'Newfoundland and Labrador',
+      6: 'Northwest Territories',
+      7: 'Nova Scotia',
+      8: 'Nunavut',
+      9: 'Ontario',
+      10: 'Prince Edward Island',
+      11: 'Quebec',
+      12: 'Saskatchewan',
+      13: 'Yukon'
+    }
+ };	  
+ var REGION_ID = {
     en: {
+      1: 'Alberta RCMP',
+      2: 'British Columbia RCMP',
+      3: 'Federal Policing Central Region',
+      4: 'Federal Policing Northwest Region',
+      5: 'Federal Policing Pacific Region',
+      6: 'Manitoba RCMP',
+      7: 'New Brunswick RCMP',
+      8: 'Newfoundland and Labrador RCMP',
+      9: 'Northwest Territories RCMP',
+      10: 'Nova Scotia RCMP',
+      11: 'Prince Edward Island RCMP',
+      12: 'RCMP Depot Division',
+      13: 'RCMP National Headquarters'
+	  14: 'Saskatchewan RCMP'
+	  15: 'Yukon RCMP'
+       },
+	 fr: {
       1: 'Alberta RCMP',
       2: 'British Columbia RCMP',
       3: 'Federal Policing Central Region',
@@ -499,8 +526,18 @@ custom_css: /assets/css/careers.css
         region: 'National, divisional or regional policing',
       },
       newsFound: 'News found',
+      noResults: 'No news match your current filters.'
+    },  
+   fr: {
+      catLabel: {
+        category: 'Topic',
+        territory: 'Territory or province',
+        region: 'National, divisional or regional policing',
+      },
+      newsFound: 'News found',
       noResults: 'No news match your current filters.',
-    }  });
+    }
+  };
   var PER_PAGE    = 10;
   var currentPage = 1;
   var activeData  = PROFILES.slice();
@@ -510,7 +547,7 @@ custom_css: /assets/css/careers.css
   var activeTagEl = document.getElementById('news-active-filters');
   var grid        = document.getElementById('news-grid');
   var noResults   = document.getElementById('news-no-results');
-  var pagination  = document.getElementById('rcmp-content-page');
+  var pagination  = document.getElementById('re-pagination');
   var prevBtn     = document.getElementById('news-prev');
   var nextBtn     = document.getElementById('news-next');	
   function getActiveFilters() {
@@ -646,7 +683,7 @@ custom_css: /assets/css/careers.css
   }
   function scrollToGrid() {
     var top = grid.getBoundingClientRect().top + window.pageYOffset;
-    var nav = document.querySelector('.careers-nav');
+    var nav = document.querySelector('.news-nav');
     var offset = nav ? nav.offsetHeight + 16 : 80;
     window.scrollTo({
       top: top - offset,
@@ -661,46 +698,8 @@ custom_css: /assets/css/careers.css
     var filters  = getActiveFilters();
     activeData  = sortData(filterData(filters), sortSel.value);
     currentPage = 1;
-    countNum.textContent = activeData.length;
-    renderTags(filters);
-    if (!Object.keys(filters).some(function(cat) {
-        return filters[cat].length > 0;
-      })) {
-      activeTagEl.style.display = 'none';
-    }
-    draw();
-  }
- Array.prototype.forEach.call(checkboxes, function(cb) {
-    cb.addEventListener('change', refresh);
-  });
-  Array.prototype.forEach.call(selects, function(sel) {
-    sel.addEventListener('change', refresh);
-  });
-  clearBtn.addEventListener('click', function () {
-    Array.prototype.forEach.call(checkboxes, function (cb) { cb.checked = false; });
-    Array.prototype.forEach.call(selects, function (sel) { sel.value = ''; });
-    refresh();
-  });
-  prevBtn.addEventListener('click', function() {
-    if (currentPage > 1) {
-      currentPage--;
-      draw();
-      scrollToGrid();
-    }
-  });
-  nextBtn.addEventListener('click', function() {
-    if (currentPage < Math.ceil(activeData.length / PER_PAGE)) {
-      currentPage++;
-      draw();
-      scrollToGrid();
-    }
-  });
- function refresh() {
-    var filters = getActiveFilters();
-    activeData = filterData(filters);
-    currentPage = 1;
     countNumEl.textContent = activeData.length;
-    document.getElementById('re-count-text').textContent = activeData.length === 1
+    document.getElementById('newx-count-text').textContent = activeData.length === 1
       ? UI[LANG].newsFound
       : UI[LANG].newsFound;
     renderTags(filters);
@@ -711,7 +710,7 @@ custom_css: /assets/css/careers.css
     }
     draw();
   }
-  Array.prototype.forEach.call(checkboxes, function(cb) {
+ Array.prototype.forEach.call(checkboxes, function(cb) {
     cb.addEventListener('change', refresh);
   });
   Array.prototype.forEach.call(selects, function(sel) {

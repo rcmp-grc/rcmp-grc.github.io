@@ -265,6 +265,7 @@ custom_css: /assets/css/careers.css
 		   </div>
 </div>
 	<div class="clearfix"></div>
+	<div class="col-md-12">
 <section class="gc-features mrgn-bttm-lg">
 <h2 class="h3">Features</h2>
 <div class="row wb-eqht">
@@ -291,6 +292,7 @@ custom_css: /assets/css/careers.css
         </div>
       </div>
     </section>
+	</div>
 <script>
 (function () {
   'use strict';

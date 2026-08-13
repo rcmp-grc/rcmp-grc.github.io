@@ -7,6 +7,9 @@ lang: en
 lang_url: statement-declaration-fr.html
 lead: Statement
 issued: 2026-05-20
+breadcrumbs:
+  - label: "News and communications"
+    url: "/en/news"
 custom_css: /assets/css/careers.css
 ---
 

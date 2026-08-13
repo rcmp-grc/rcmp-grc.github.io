@@ -36,7 +36,7 @@ custom_css: /assets/css/careers.css
 	overflow: hidden;
 	width: 100%;
 }
-	#news-filters-heading {	
+	.news-filters-heading {	
 	background: var(--c-black);
 	color: var(--c-white);
 	font-weight: 700;
@@ -116,7 +116,7 @@ custom_css: /assets/css/careers.css
 </div>
 <div class="row mrgn-tp-lg" id="re-page">
 	<div class="col-md-3" id="re-sidebar">
-	<h2 class="h6" id="news-filters-heading">Search</h2>	
+	<h2 class="h6 news-filters-heading">Search</h2>	
     <aside aria-labelledby="news-filters-heading" id="news-filters"> 	 
     <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	  
     <label for="btngrp-search2" class="wb-inv">Search</label>
@@ -130,7 +130,7 @@ custom_css: /assets/css/careers.css
    </span></div>
 </form>
 		<div id="re-filters">
-		<h2 class="h6" id="news-filters-heading">Filter</h2>
+		<h2 class="h6 news-filters-heading">Filter</h2>
 		<p class="small mrgn-lft-md mrgn-tp-md">Select any of the following filters to narrow your search</p>	
 	    <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></summary>

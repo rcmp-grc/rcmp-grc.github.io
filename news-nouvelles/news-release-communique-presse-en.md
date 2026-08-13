@@ -464,7 +464,7 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 	 <img src="primary-news.jpg" class="img-responsive full-width" alt="" /> 
   </div>
 	<footer class="panel-footer">
-   <p>Caption for the photo</p>
+   <p class="small">Caption for the photo</p>
 	</footer>
   </div>
 </div>
@@ -540,7 +540,6 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
   <li><a href="#" class="news-topic-secondary12">Theft</a></li>
   <li><a href="#" class="news-topic-secondary13">Wanted persons</a></li>
   <li><a href="#" class="news-topic-secondary15">Weapons</a></li>
-	
 </ol>
 </section>
 </div>

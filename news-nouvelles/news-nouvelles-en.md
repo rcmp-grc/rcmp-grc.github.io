@@ -99,7 +99,7 @@ custom_css: /assets/css/careers.css
    padding: 12px;      
    border-radius: 0;
    margin-top: 0px;
-   margin-bottom: 12px;
+   margin-bottom: 0px;
 }
 </style>
 <p>Read the RCMP news and communications.</p>

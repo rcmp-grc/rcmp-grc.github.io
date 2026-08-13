@@ -151,6 +151,17 @@ a.news-topic-1:hover, a.primary-topic:active {
 	</ol>
 </div>
 </div>
+<section id="page-navigation" class="article-content mrgn-bttm-lg">
+	<h2 class="h3 mrgn-tp-0">On this page</h2>
+	<ul>
+		<li><a href="#s1">Supporting youth and community connections</a></li>
+		<li><a href="#s2">Northern resilience</a></li>
+		<li><a href="#s3">Closing remarks</a></li>
+		<li><a href="#links">Associated links</a></li>
+		<li><a href="#gc-contact">Contacts</a></li>
+		<li><a href="#topics">Explore related topics</a></li>
+	</ul>
+</section>			
 <p><strong>Community winter safety and northern outreach event</strong></p>
 <p><strong>Check against deliver</strong></p>
 <p>Good afternoon everyone,</p>	
@@ -218,11 +229,11 @@ a.news-topic-1:hover, a.primary-topic:active {
 </ul>
 </section>
 <section id="gc-contact" class="contact-us">
-	<h3>Contact us</h3>
+	<h2 class="h3">Contact us</h2>
 	<div class="contact-signature">	
 	<div class="row wb-eqht">	
 	<div class="col-md-4">	
-    <h4 class="news-contact-h4">National Headquarters</h4>
+    <h3 class="news-contact-h4">National Headquarters</h3>
    <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
    613-555-0100</p>
 	<section class="gc-followus">
@@ -244,7 +255,7 @@ a.news-topic-1:hover, a.primary-topic:active {
 	</section>	
 	</div>	
 	<div class="col-md-4">	
-<h4 class="news-contact-h4">Nunavut RCMP</h4>
+<h3 class="news-contact-h4">Nunavut RCMP</h3>
   <p class="news-contact-p"><a href="mailto:nunavutmedia_mediasdununavut@rcmp-grc.gc.ca">nunavutmedia_mediasdununavut@rcmp-grc.gc.ca</a><br>
   867-555-5555</p>	
 	<section class="gc-followus">

@@ -7,6 +7,9 @@ lang: en
 lang_url: media-advisory-avis-medias-fr.html
 lead: Media Advisory
 issued: 2026-05-08
+breadcrumbs:
+  - label: "News and communications"
+    url: "/en/news"
 custom_css: /assets/css/careers.css
 ---
 

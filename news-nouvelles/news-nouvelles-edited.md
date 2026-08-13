@@ -252,8 +252,7 @@ custom_css: /assets/css/careers.css
           <option value="newest">Updated (newest)</option>
           <option value="oldest">Updated (oldest)</option>
         </select>
-	  </div>
-	</div>
+	  </div>	 
 	<nav aria-label="Pagination" class="rcmp-item-pagination" id="news-pagination">
       <div class="rcmp-item-pagination__prev" id="news-prev-wrap">
         <button aria-label="Previous page" class="rcmp-item-pagination__link" id="news-prev" type="button"><i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-left"></i> <span class="rcmp-item-pagination__link-title">Previous <span class="rcmp-visually-hidden">page</span></span></button>
@@ -263,6 +262,8 @@ custom_css: /assets/css/careers.css
         <button aria-label="Next page" class="rcmp-item-pagination__link" id="news-next" type="button"><span class="rcmp-item-pagination__link-title">Next <span class="rcmp-visually-hidden">page</span></span> <i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-right"></i></button>
       </div>
     </nav>
+		   </div>
+</div>
 <section class="gc-features mrgn-bttm-lg">
 <h2 class="h3">Features</h2>
 <div class="row wb-eqht">
@@ -289,8 +290,6 @@ custom_css: /assets/css/careers.css
         </div>
       </div>
     </section>
-  </div>
-</div>
 <script>
 (function () {
   'use strict';

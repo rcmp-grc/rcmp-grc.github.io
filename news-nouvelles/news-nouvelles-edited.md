@@ -264,6 +264,7 @@ custom_css: /assets/css/careers.css
     </nav>
 		   </div>
 </div>
+	<div class="clearfix"></div>
 <section class="gc-features mrgn-bttm-lg">
 <h2 class="h3">Features</h2>
 <div class="row wb-eqht">

@@ -7,6 +7,9 @@ lang: en
 lang_url: speech-discours-fr.html
 lead: Speech
 issued: 2026-05-20
+breadcrumbs:
+  - label: "News and communications"
+    url: "/en/news"
 custom_css: /assets/css/careers.css
 ---
 

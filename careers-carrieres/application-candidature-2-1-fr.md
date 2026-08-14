@@ -568,7 +568,7 @@ custom_css: /assets/css/careers.css
      <p>D'abord, établissez le lien qui unit les deux premiers mots indiqués. Ensuite, sélectionnez le mot qui forme avec le troisième mot un lien semblable à celui qui unit les deux premiers mots.</p>
 <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Exemple&nbsp;1&nbsp;:</h4>
+   <h4 class="panel-title">Exemple&nbsp;1&nbsp;</h4>
   </header>
   <div class="panel-body">
  <p>Haut&nbsp;: Bas</p>
@@ -587,7 +587,7 @@ custom_css: /assets/css/careers.css
   </div> 
 <div class="panel panel-careers">
   <header class="panel-heading">
-   <h5 class="panel-title">Exemple&nbsp;2&nbsp;:</h5>
+   <h5 class="panel-title">Exemple&nbsp;2&nbsp;</h5>
   </header>
   <div class="panel-body">
 <p>Une entreprise a pour politique que tout le monde dans l'usine doit porter des lunettes de protection. Mercredi dernier, des visiteurs ne portaient pas de lunettes de protection dans l'usine. Est-ce que les règles de la politique ont été enfreintes mercredi dernier?</p>

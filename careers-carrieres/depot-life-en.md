@@ -129,7 +129,7 @@ custom_css: /assets/css/careers.css
 
 <section id="s7">
   <h2>Community life in Regina</h2>
-  <p>Regina is Saskatchewan’s capital city. Home to Canadian Football League team, the Saskatchewan Roughriders, it also boasts one of the largest urban parks in North America and has over 500,000 planted trees. Bordered by dense woodlands, Depot is home to a wide range of wildlife. You will see a variety of birds, Canada geese, jackrabbits, ducks and more.</p>
+  <p>Regina is Saskatchewan’s capital city. Home to Canadian Football League team, the Saskatchewan Roughriders, it also boasts one of the largest urban parks in North America and has over 500,000 planted trees. Bordered by a vast green space, Depot is home to a wide range of wildlife. You will see a variety of birds, Canada geese, jackrabbits, ducks and more.</p>
   <p>There are many local amenities to explore including parks, walking and cycling paths, restaurants, movie theatres, malls, museums, places of worship, farmers’ markets, arts and entertainment. Essentials are easy to access, with many local grocery and retail stores.</p>
   <p>Transportation options include ride shares, cab companies, and public transit bus routes. The Regina International Airport (YQR) is conveniently located just outside the city’s downtown hub, facilitating smooth transit in an out of the city.</p>
   <p>Cadets have opportunity to connect with the community by participating in local events hosted by Depot including the Depot Sunset Ceremonies, the RCMP National Memorial, local literacy nights, and other community parades and events.</p>

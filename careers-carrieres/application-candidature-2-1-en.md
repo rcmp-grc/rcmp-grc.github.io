@@ -55,20 +55,8 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-6-en.html">Complete a field investigation and security assessment</a></li>
   </ul>
 </nav>
-<nav aria-labelledby="on-this-page">
-  <h2 id="on-this-page">On this page</h2>
-  <ul>
-    <li><a href="#s1">Introduction</a></li>
-    <li><a href="#s2">Section&nbsp;1: Workstyle preference</a></li>
-    <li><a href="#s3">Section&nbsp;2: Language comprehension</a></li>
-    <li><a href="#s4">Section&nbsp;3: Numerical skills</a></li>
-    <li><a href="#s5">Section&nbsp;4: Spatial skills</a></li>
-    <li><a href="#s6">Section&nbsp;5: Memory quotient </a></li>
-    <li><a href="#s7">Section&nbsp;6: Business reasoning</a></li>
-  </ul>
-</nav>
 <section id="s1">
-  <h2>Introduction</h2>
+  <h2>Preparing for the assessment </h2>
   <p>The RCMP Online Entrance Assessment was designed as a biased-free tool to assess applicants for the RCMP police officer recruiting process. The RCMP Online Entrance Assessment consists of six&nbsp;sections:</p>
 <ul>
 <li>Section&nbsp;1: Workstyle preference</li>
@@ -78,11 +66,23 @@ custom_css: /assets/css/careers.css
 <li>Section&nbsp;5: Memory quotient</li>
 <li>Section&nbsp;6: Business reasoning</li>
 </ul>
-<p>The assessment should take approximately 55 to 70&nbsp;minutes to complete. There are several timed portions. It is recommended that you complete the entire assessment in one&nbsp;session.</p>
-<p>Please ensure that you complete the assessment in a quiet environment where you can focus and avoid interruptions or distractions. We recommend that you complete the assessment on a laptop or desktop computer. You will want to ensure you have a stable Wi-Fi&nbsp;connection and power source to ensure you do not lose your progress during the assessment.</p>
+  <p>This guide was created to give applicants an idea of what to expect when completing the assessment.</p>
+  <section id="s1-1">
+  <h3>Before you begin </h3>
+    <ul>
+<li>Schedule approximately 50 to 70 minutes to complete the assessment</li>
+<li>Plan to complete the assessment in one session</li>
+<li>Ensure a quiet environment where you can focus and avoid distractions</li>
+<li>Plan to complete the assessment on a laptop or desktop computer</li>
+<li>Ensure you have a stable Wi-Fi connection and power source to complete the assessment without interruption</li>
+</ul>
+</section>
 </section>
 <section id="s2">
-  <h2>Section&nbsp;1: Workstyle preference</h2>
+  <h2>Sample assessment</h2>
+  <p>Note: This sample is for reference only. It shows the types of questions you may find in the assessment. <strong>It is not interactive, and answers cannot be selected or submitted</strong>. </p>
+  <section id="s2-1">
+  <h3>Section&nbsp;1: Workstyle preference</h3>
       <ul>
         <li>This section consists of a series of statements to which you must respond on a scale from strongly disagree to strongly agree</li>
         <li>Respond from a workplace perspective</li>
@@ -92,8 +92,8 @@ custom_css: /assets/css/careers.css
         <li>Results are automatically generated</li>
       </ul>
 </section>
-<section id="s3">
-  <h2>Section&nbsp;2: Language comprehension</h2>
+<section id="s2-2">
+  <h3>Section&nbsp;2: Language comprehension</h3>
  <ul>
  <li>This section consists of two components: word meanings and word relationships</li>
  <li>You will have 5&nbsp;minutes to complete each component</li>
@@ -101,46 +101,55 @@ custom_css: /assets/css/careers.css
  <li>You may skip questions. If you do not know the answer, please answer "I don't know"</li>
  <li>There is a timer at the bottom of the page</li>
 </ul>
-  <section id="s3-1">
-   <h3>Part&nbsp;A – Word meanings</h3>
+  <section id="s2-2-1">
+   <h4>Part&nbsp;A – Word meanings</h4>
     <p>Read the first word, then identify the word with the closest meaning.</p>
   <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Sample question</h4>
+   <h4 class="panel-title">Example</h4>
   </header>
   <div class="panel-body">
-  <p>Identify the word with the closest meaning to:<br><strong>Glad</strong></p>
-  <p>The answer options are:<br>
-  A. Recite, B. Happy, C. Hopeless, D. Inappropriate or I don't know </p>
+  <p>Glad</p>
+    <ol class="lst-lwr-alph"> 
+      <li>Recite</li>
+      <li>Happy</li>
+      <li>Hopeless</li>
+      <li>Inappropriate</li>
+      <li>I don't know</li>
+    </ol>
      <details class="rc-answer-toggle">
-      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
-      <p>The correct answer is <strong>B. Happy</strong>.</p>
+      <summary class="rc-btn rc-btn--secondary">Correct answer</summary>
+      <p>The correct answer is <strong>b. Happy</strong>.</p>
     </details>
   </div>
 </div>
 </section>
-  <section id="s3-2">
+  <section id="s2-2-2">
    <h3>Part&nbsp;B – Word relationships</h3>
-    <p>Note the relationship between this pair of words: Tie - Rope. Identify the option that forms a similar relationship. </p>
+    <p>Note the relationship between the first pair of words. Select the option that forms a similar relationship to fill the blank.</p>
      <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Sample question</h4>
+   <h4 class="panel-title">Example/h4>
   </header>
   <div class="panel-body">
-    <p>Identify the word that forms a relationship with:<br>
-    <strong>Cut</strong></p>
-    <p>The answer options are:<br> 
-    A. Needle, B. Repair, C. Saw, D. Broken or I don't know</p>
+    <p>Tie:Rope</p>
+    <p><strong>Cut</strong>:</p>
+     <ol class="lst-lwr-alph"> 
+       <li>Needle</li>
+       <li>Repair</li>
+       <li>Saw</li>
+       <li>Broken</li>
+       <li>I don't know</li>
      <details class="rc-answer-toggle">
-      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
-    <p>The correct answer is <strong>C. Saw</strong>. You tie with a rope; you cut with a saw.</p>
+      <summary class="rc-btn rc-btn--secondary">Correct answer</summary>
+    <p>The correct answer is c. Saw. You tie with a rope; you cut with a saw.</p>
      </details>
   </div>
      </div>
 </section>
 </section>
-<section id="s4">
-  <h2>Section&nbsp;3: Numerical skills</h2>
+<section id="s2-3">
+  <h3>Section&nbsp;3: Numerical skills</h3>
   <ul>
     <li>This section requires making numerical calculations and consists of two components: Level&nbsp;1 calculations and Level&nbsp;2 calculations</li>
     <li>Please complete as many questions as you can</li>
@@ -150,59 +159,73 @@ custom_css: /assets/css/careers.css
     <li>Use only your knowledge, pen and paper when completing these questions. The use of calculators, computer software or input from others is not permitted</li>
     <li>There is a timer at the bottom of the page</li>
   </ul> 
-   <section id="s4-1">
-   <h3>Part&nbsp;A – Level&nbsp;1 calculations</h3>
+   <section id="s2-3-1">
+   <h4>Part&nbsp;A – Level&nbsp;1 calculations</h4>
      <p>This part of the assessment draws on your addition and multiplication skills. You have 3&nbsp;minutes to complete the set of questions.</p>
   <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Sample question 1</h4>
+   <h5 class="panel-title">Example&nbsp;1</h5>
   </header>
   <div class="panel-body">
      <p>Find the answer to this math equation:<br>8 + 7 = </p>
-    <p>The answer options are: <br>
-    A. 12, B. 13, C. 15, D. 16 or I don't know</p>
+    <ol class="lst-lwr-alph"> 
+      <li>12</li>
+      <li>13</li> 
+      <li>15</li>
+      <li>16</li>
+      <li>I don't know</li>
+    </ol>
       <details class="rc-answer-toggle">
-      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
-     <p>The correct answer is <strong>C. 15</strong>.</p>
+      <summary class="rc-btn rc-btn--secondary">Correct answer</summary>
+     <p>The correct answer is <strong>c. 15</strong>.</p>
      </details>
   </div>
   </div>
    <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Sample question 2</h4>
+   <h5 class="panel-title">Example 2</h5>
   </header>
   <div class="panel-body">    
-    <p>Find the answer to this math equation:<br>5 x 5 =</p>
-    <p>The answer options are: <br>
-   A. 10, B. 25, C. 36, D. 50 or I don't know</p>
+    <p>5 x 5 =</p>
+  <ol class="lst-lwr-alph"> 
+   <li>10</li>
+   <li>25
+   <li>36</li>
+   <li>50</li>
+   <li>I don't know</li>
+  </ol>
       <details class="rc-answer-toggle">
-      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
-     <p>The correct answer is <strong>B. 25</strong>.</p>
+      <summary class="rc-btn rc-btn--secondary">Correct answer</summary>
+     <p>The correct answer is <strong>b. 25</strong>.</p>
      </details>
   </div>   
   </div>
    </section>
-  <section id="s4-2">
-   <h3>Part&nbsp;B – Level&nbsp;2 calculations</h3>
+  <section id="s2-3-2">
+   <h4>Part&nbsp;B – Level&nbsp;2 calculations</h4>
      <p>This part of the assessment draws on multiple skills, including addition, subtraction, multiplication and division. You will have 3&nbsp;minutes to complete the set of questions.</p>
      <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Sample question</h4>
+   <h5 class="panel-title">Example</h2>
   </header>
   <div class="panel-body">  
-      <p>Find the answer to this math equation:<br>2 + 2 x 1 =</p>
-    <p>The answer options are: <br>
-A. 2, B. 3, C. 4, D. 0 or I don't know</p>
+      <p>2 + 2 x 1 =</p>
+    <ol class="lst-lwr-alph"> 
+      <li>2</li> 
+      <li>3</li>
+      <li>4</li>
+      <li>0</li>
+      <li>I don't know</li>
      <details class="rc-answer-toggle">
-      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
-     <p>The correct answer is <strong>C. 4</strong>.</p>
+      <summary class="rc-btn rc-btn--secondary">Correct answer</summary>
+     <p>The correct answer is <strong>c. 4</strong>.</p>
      </details>
   </div>
      </div>
    </section>
 </section>
-<section id="s5">
-  <h2>Section&nbsp;4: Spatial skills</h2>
+<section id="s2-4">
+  <h3>Section&nbsp;4: Spatial skills</h3>
   <ul>
     <li>This section consists of four components: rotating 2D&nbsp;shapes; 3D&nbsp;shapes; mechanical problems and cubes and folding shapes</li>
     <li>Please complete as many questions as you can</li>
@@ -210,19 +233,23 @@ A. 2, B. 3, C. 4, D. 0 or I don't know</p>
     <li>You can skip questions – please answer "I don't know" if you do not know the answer</li>
     <li>There is a timer at the bottom of the page</li>
   </ul>
-   <section id="s5-1">
-   <h3>Part&nbsp;A – Rotating 2D&nbsp;shapes</h3>
-     <p>You will be asked a series of questions related to 2D&nbsp;shapes. For each question, match the 2D shape with the outlined shape. You have 3&nbsp;minutes to complete the set of questions.</p>
+   <section id="s2-4-1">
+   <h4>Part&nbsp;A – Rotating 2D&nbsp;shapes</h4>
+     <p>You will be asked a series of questions related to 2D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3 minutes to complete the set of questions.</p>
   <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Sample question</h4>
+   <h5 class="panel-title">Example</h5>
   </header>
   <div class="panel-body">
   <div class="row wb-eqht">
-  <div class="col-md-6">
- <p>Using the following image, which one of the 2D shapes A to E matches the outlined shape?</p>     
-<p>The answer options are: <br>
-A, B, C, D, E or I don't know</p>
+  <div class="col-md-6">  
+  <ol class="lst-lwr-alph">   
+    <li>A</li>
+    <li>B</li>
+    <li>C</li>
+    <li>D</li>
+    <li>E</li>
+    <li>I don't know</li></ol>
   </div>
   <div class="col-md-6">  
     <figure>
@@ -254,25 +281,30 @@ A, B, C, D, E or I don't know</p>
   </div>   
 </div>
     <details class="rc-answer-toggle">
-      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
-      <p>The correct answer is <strong>C. shape&nbsp;C</strong>.</p>
+      <summary class="rc-btn rc-btn--secondary">Correct answer</summary>
+      <p>The correct answer is <strong>c. shape&nbsp;C</strong>.</p>
     </details>
   </div>
   </div>
        <div class="clearfix"></div>  
    </section>
-  <section id="s5-2">
-   <h3>Part&nbsp;B – 3D&nbsp;shapes</h3>
-    <p>You will be asked a series of questions related to 3D&nbsp;shapes. For each question, match the 3D shape with the outlined shape. You have 3&nbsp;minutes to complete the set of questions.</p>
+  <section id="s2-4-2">
+   <h4>Part&nbsp;B – 3D&nbsp;shapes</h4>
+    <p>You will be asked a series of questions related to 3D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3 minutes to complete the set of questions.</p>
     <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Sample question</h4>
+   <h5 class="panel-title">Example</h5>
   </header>
   <div class="panel-body">
   <div class="row wb-eqht">
-  <div class="col-md-6">
- <p>Using the following image, which one of the 3D shapes A to E matches the outlined shape?</p>     
-<p>The answer options are: <br>A, B, C, D or I don't know</p>
+  <div class="col-md-6">   
+<ol class="lst-lwr-alph">
+  <li>A</li> 
+  <li>B</li>
+  <li>C</li>
+  <li>D</li>
+  <li>I don't know</li>
+</ol>
   </div>
   <div class="col-md-6">  
     <figure>
@@ -302,25 +334,31 @@ A, B, C, D, E or I don't know</p>
   </div>   
   </div>
     <details class="rc-answer-toggle">
-      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
-      <p>The correct answer is <strong>D. shape&nbsp;D</strong>.</p>
+      <summary class="rc-btn rc-btn--secondary">Correct answer</summary>
+      <p>The correct answer is <strong>d. shape&nbsp;D</strong>.</p>
     </details>
   </div>
   </div>
        <div class="clearfix"></div>  
   </section>
-  <section id="s5-3">
-   <h3>Part&nbsp;C – Mechanical problems</h3>
+  <section id="s2-4-3">
+   <h4>Part&nbsp;C – Mechanical problems</h4>
     <p>You will be asked a series of questions related to mechanical problems. You have 4&nbsp;minutes to complete the set of questions.</p>
     <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Sample question</h4>
+   <h4 class="panel-title">Example</h4>
   </header>
   <div class="panel-body">
   <div class="row wb-eqht">
   <div class="col-md-6">
- <p>Using the following image, when handle&nbsp;H is pulled to the right, end&nbsp;E will:</p>   
-<p>The answer options are: <br>A. Move to the left, B. Move to the right, C. Move back and forth, D. Stay in the same position or I don't know</p>
+ <p>When handle H is pulled to the right, as shown by the arrow, end E will:</p> 
+    <ol class="lst-lwr-alph">
+     <li>Move to the left</li> 
+     <li>Move to the right</li>
+     <li>Move back and forth</li>
+     <li>Stay in the same position</li>
+    <li>I don't know</li>
+    </ol>
   </div>
   <div class="col-md-6">  
     <figure>
@@ -343,24 +381,30 @@ A, B, C, D, E or I don't know</p>
 </div>
     <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
-      <p>The correct answer is <strong>A. Move to the left</strong>.</p>
+      <p>The correct answer is <strong>a. Move to the left</strong>.</p>
     </details>
   </div>
   </div>
        <div class="clearfix"></div>  
 </section>
-  <section id="s5-4">
-   <h3>Part&nbsp;D – Cubes and folding shapes</h3>
+  <section id="s2-4-4">
+   <h4>Part&nbsp;D – Cubes and folding shapes</h4>
     <p>You will be asked a series of questions related to cubes and folding shapes. You will have 5&nbsp;minutes to complete the set of questions.</p>
     <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Sample question</h4>
+   <h5 class="panel-title">Example</h5>
   </header>
     <div class="panel-body">
   <div class="row wb-eqht">
   <div class="col-md-6">
- <p>Using the following image, which one of the folded shapes A to D represents the unfolded shape?</p>   
-<p>The answer options are: <br>A, B, C, D or I don't know</p>
+ <p>Which of the folded shapes represents the unfolded image?</p>   
+    <ol class="lst-lwr-alph">
+      <li>A</li>
+      <li>B</li>
+      <li>C</li>
+      <li>D</li>
+      <li>I don't know</li>
+    </ol>
   </div>
   <div class="col-md-6">  
     <figure>
@@ -390,16 +434,16 @@ A, B, C, D, E or I don't know</p>
   </div>   
  </div>
     <details class="rc-answer-toggle">
-      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
-      <p>The correct answer is <strong>C. shape&nbsp;C</strong>.</p>
+      <summary class="rc-btn rc-btn--secondary">Correct answer</summary>
+      <p>The correct answer is <strong>c. shape&nbsp;C</strong>.</p>
     </details>   
     </div>
     </div>
        <div class="clearfix"></div>  
 </section>
 </section>
-<section id="s6">
-  <h2>Section&nbsp;5: Memory quotient</h2>
+<section id="s2-5">
+  <h3>Section&nbsp;5: Memory quotient</h3>
   <ul>
     <li>You will have a limited amount of time to view an image, list of numbers, or written text. You will then be asked to answer questions using your memory</li>
     <li>This section should take you approximately 25&nbsp;minutes</li>
@@ -415,14 +459,21 @@ A, B, C, D, E or I don't know</p>
   </ul>
   <div class="panel panel-careers">
   <header class="panel-heading">
-   <h3 class="panel-title">Sample question&nbsp;1</h3>
+   <h4 class="panel-title">Example&nbsp;1</h4>
   </header>
       <div class="panel-body">
   <div class="row wb-eqht">
   <div class="col-md-6">
     <p>Study this image of a group of objects; you have a 30-second time limit.</p>
     <p>What is the colour of the circle?</p>
-    <p>The answer options are:<br>A. Red, B. Green, C. Black, D. Orange, E. Blue or I don't know</p>
+    <ol class="lst-lwr-alph">
+    <li>Red</li>
+    <li>Green</li>
+    <li>Black</li>
+    <li>Orange</li>
+    <li>Blue</li>
+    <li>I don't know</li>
+    </ol>
      </div>
   <div class="col-md-6">  
         <figure>
@@ -448,46 +499,58 @@ A, B, C, D, E or I don't know</p>
      </div>
  </div>
     <details class="rc-answer-toggle">
-      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
-      <p>The correct answer is <strong>C. Black</strong>.</p>
+      <summary class="rc-btn rc-btn--secondary">Correct answer</summary>
+      <p>The correct answer is <strong>c. Black</strong>.</p>
     </details>   
     </div>
     </div>
        <div class="clearfix"></div> 
+  <h4>Example&nbsp;2</h4>
   <p>Read the weather report carefully; you have a 1-minute time limit.</p>
   <p>The forecast calls for cloudy skies today with a high of 35&nbsp;degrees and light winds from the southwest. Clearing overnight with a low of 23&nbsp;degrees.</p>
   <p>After the time limit has elapsed, the screen will advance to a set of questions about the text. You will have 45&nbsp;seconds to answer the questions.</p>
   <div class="panel panel-careers">
   <header class="panel-heading">
-   <h3 class="panel-title">Sample question&nbsp;2a</h3>
+   <h3 class="panel-title">Question&nbsp;1</h3>
   </header>
   <div class="panel-body">
      <p>Which direction is the wind coming from?</p>
-    <p>The answer options are: <br>
-     A. Northeast, B. Northwest, C. Southeast, D. Southwest, E. The wind direction was not provided or I don't know</p>
+     <ol class="lst-lwr-alph">
+     <li>Northeast</li> 
+     <li>Northwest</li>
+     <li>Southeast</li>
+     <li>Southwest</li>
+     <li>The wind direction was not provided</li>
+     <li>I don't know</li>
+     </ol>
      <details class="rc-answer-toggle">
-      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
-     <p>The correct answer is <strong>D. Southwest</strong>.</p>
+      <summary class="rc-btn rc-btn--secondary">Correct answer</summary>
+     <p>The correct answer is <strong>d. Southwest</strong>.</p>
      </details>
   </div>
   </div> 
    <div class="panel panel-careers">
   <header class="panel-heading">
-   <h3 class="panel-title">Sample question&nbsp;2b</h3>
+   <h4 class="panel-title">Question&nbsp;2</h4>
   </header>
   <div class="panel-body">  
          <p>What overnight temperature is predicted?</p>
-    <p>The answer options are: <br> 
-     A. 22&nbsp;degrees, B. 23&nbsp;degrees, C. 25&nbsp;degrees, D. 26&nbsp;degrees or E. 2&nbsp;degrees, or I don't know</p>
+    <ol class="lst-lwr-alph">
+      <li>22&nbsp;degrees</li>
+      <li>23&nbsp;degrees</li>
+      <li>25&nbsp;degrees</li>
+      <li>26&nbsp;degrees</li>
+      <li>32&nbsp;degrees</li>
+      <li>I don't know</li>
     <details class="rc-answer-toggle">
-      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
+      <summary class="rc-btn rc-btn--secondary">Correct answer</summary>
      <p>The correct answer is <strong>B. 23&nbsp;degrees</strong>.</p>
     </details>
   </div>
    </div>
 </section>
-<section id="s7">
-  <h2>Section&nbsp;6: Business reasoning</h2>
+<section id="s2-6">
+  <h3>Section&nbsp;6: Business reasoning</h3>
   <ul>
     <li>Answer each question to the best of your abilities</li>
     <li>This section should take 20-25&nbsp;minutes to complete</li>
@@ -495,53 +558,67 @@ A, B, C, D, E or I don't know</p>
     <li>Use only your knowledge, paper and pen when completing these questions. The use of calculators, computer software or input from others is not permitted</li>
   </ul>
   <p>There is a timer at the bottom of the page.</p>
-   <section id="s7-1">
-   <h3>Part&nbsp;A – Verbal reasoning</h3>
-   <p>Identify the word that best relates to the word provided. View this pair of words to understand how they relate to each other: Up - Down. Identify the word that makes the following words relate in the same way.</p>
+   <section id="s2-6-1">
+   <h4>Part&nbsp;A – Verbal reasoning</h4>
+   <p>Choose the word that best fits the blank. Identify the word that best relates to the word provided. Look at the first pair of words to see how they relate to each other and then choose the word that makes the second pair of words related in the same way.</p>
  <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Sample question&nbsp;1</h4>
+   <h5 class="panel-title">Example&nbsp;1</h5>
   </header>
   <div class="panel-body">  
-    <p>Identify the word that relates to: <br>
-  <strong>Left</strong></p>
-    <p>The answer options are: <br>
-     A. High, B. Right, C. Low,  D. Above or I don't know</p>
+    <p>Up: Down</p>
+  <strong>Left:</strong></p>
+   <ol class="lst-lwr-alph">
+    <li>High</li>
+    <li>Right</li>
+    <li>Low</li>
+    <li>Above</li>
+    <li>I don't know</li>
+   </ol>
     <details class="rc-answer-toggle">
-      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
-     <p>The correct answer is <strong>B. Right</strong>. In the example, “Up” and “Down” are opposites, so the correct answer is the opposite of “Left”, which is “Right”.</p>
+      <summary class="rc-btn rc-btn--secondary">Correct answer</summary>
+     <p>The correct answer is <strong>b. Right</strong>. In the example, “Up” and “Down” are opposites, so the correct answer is the opposite of “Left”, which is “Right”.</p>
     </details>
   </div>
    </div>
   <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Sample question&nbsp;2</h4>
+   <h5 class="panel-title">Sample question&nbsp;2</h5>
   </header>
     <div class="panel-body">  
     <p>A company policy states that all people at the factory must wear safety goggles. Visitors to the factory on Wednesday were not wearing safety goggles. Was the company policy broken on Wednesday?</p>
-    <p>The answer options are: <br> 
-    A. Yes, B. It cannot be determined, C. No or I don't know</p>
+<ol class="lst-lwr-alph">
+   <li>Yes</li>
+   <li>It cannot be determined</li>
+   <li>No</li>
+   <li>I don't know</li>
+</ol>
     <details class="rc-answer-toggle">
-      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
-     <p>The correct answer is <strong>A. Yes</strong>.</p>
+      <summary class="rc-btn rc-btn--secondary">Correct answer</summary>
+     <p>The correct answer is <strong>a. Yes</strong>.</p>
     </details>
   </div>
    </div>
    </section>
-  <section id="s7-2">
+  <section id="s2-6-2">
    <h3>Part&nbsp;B – Numerical reasoning</h3>
      <p>This section consists of math word problems. Complete the questions by selecting the answer you think is correct.</p>
       <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Sample question</h4>
+   <h4 class="panel-title">Example</h4>
   </header>
     <div class="panel-body">  
     <p>John made one sale of $100 and Betty made one sale of $200. What was the difference in sale between John and Betty?</p>
-    <p>The answer options are: <br>
-    A. $300, B. $100, C. $200, D. None of the above or I don't know</p>
+  <ol class="lst-lwr-alph">
+    <li>$300</li>
+    <li>$100</li>
+    <li>$200</li>
+    <li>None of the above</li>
+    <li>I don't know</li>
+  </ol>
     <details class="rc-answer-toggle">
-      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
-     <p>The correct answer is <strong>B. $100</strong>.</p>
+      <summary class="rc-btn rc-btn--secondary">Correct answer</summary>
+     <p>The correct answer is <strong>b. $100</strong>.</p>
     </details>
   </div>
    </div>

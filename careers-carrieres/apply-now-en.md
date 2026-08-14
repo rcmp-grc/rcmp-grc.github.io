@@ -15,7 +15,7 @@ custom_css: /assets/css/careers.css
 <p>A career with the RCMP is one with big impact and endless opportunities to grow. Before you apply, make sure you understand what it takes to be an RCMP police officer.</p>
 <div class="well">
 	<fieldset class="gc-chckbxrdio">
-		<legend>Choose your condiments:</legend>
+		<!--<legend>Are you ready?</legend>-->
 		<ul class="list-unstyled lst-spcd-2">
 			<li class="checkbox">
 				<input type="checkbox" id="cond1">

@@ -93,34 +93,52 @@ custom_css: /assets/css/careers.css
   <header class="panel-heading">
    <h5 class="panel-title">Exemple</h5>
   </header>
+      <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h4 class="panel-title">Example</h4>
+  </header>
   <div class="panel-body">
-  <p><strong>Ravi</strong></p>
- 
-  A. Réciter, B. Heureux, C. Désespéré, D. Inapproprié ou «&nbsp;Je ne sais pas&nbsp;»</p>
+  <p>Ravi</p>
+    <ol class="lst-lwr-alph"> 
+      <li>Réciter</li>
+      <li>Heureux</li>
+      <li>Désespéré</li>
+      <li>Inapproprié</li>
+      <li>Je ne sais pas</li>
+    </ol>
      <details class="rc-answer-toggle">
-      <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
-      <p>La bonne réponse est <strong>B. Heureux</strong>.</p>
+      <summary class="rc-btn rc-btn--secondary">Bonne réponse </summary>
+      <p>La bonne réponse est <strong>b. Heureux.</strong></p>
     </details>
   </div>
-</div>
+</div> 
 </section>
-  <section id="s3-2">
-   <h3>Partie&nbsp;B – Liens entre les mots</h3>
+  <section id="s2-1-3">
+   <h4>Partie&nbsp;B – Liens entre les mots</h4>
     <p>Notez la relation entre la première paire de mots. Sélectionnez l’option qui établit une relation similaire pour compléter l’espace vide. </p>
-    <p><strong>Exemple&nbsp;: </strong></p>
-    <p>Attacher&nbsp;: Corde</p>
-    <p>Couper&nbsp;:</p>
+    <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h5 class="panel-title">Exemple</h5>
+  </header>
+  <div class="panel-body">
+ <p>Attacher&nbsp;: Corde</p>
+  <p><strong>Ravi</strong>&nbsp;:</p>
     <ol class="lst-lwr-alph">
       <li>Aiguille</li>
       <li>Réparer</li>
       <li>Scie</li>
       <li>Brisé</li>
     </ol>
-    <p>La bonne réponse est <strong>c. Scie</strong>. On attache avec une corde, on coupe avec une scie.</p>
+     <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">Bonne réponse </summary>
+      <p>La bonne réponse est <strong>c. Scie</strong>. On attache avec une corde, on coupe avec une scie.</p>
+    </details>
+  </div>
+</div> 
 </section>
 </section>
-<section id="s4">
-  <h2>Section&nbsp;3&nbsp;: Compétences en calcul</h2>
+<section id="s2-2">
+  <h3>Section&nbsp;3&nbsp;: Compétences en calcul</h3>
   <ul>
     <li>Dans cette section, vous devrez faire des calculs. Les questions se divisent en deux volets, soit calcul de niveau&nbsp;1 et calcul de niveau&nbsp;2</li>
     <li>Répondez au plus grand nombre de questions possible</li>
@@ -130,11 +148,15 @@ custom_css: /assets/css/careers.css
     <li>Pour faire vos calculs, vous ne pouvez utiliser qu'un stylo et du papier. Il est interdit d'utiliser une calculatrice, d'utiliser un logiciel ou de demander l'aide de quelqu'un</li>
     <li>Il y aura un compte à rebours au bas de la page</li>
   </ul>
-   <section id="s4-1">
-   <h3>Partie&nbsp;A – Calcul de niveau&nbsp;1</h3>
+   <section id="s2-2-1">
+   <h4>Partie&nbsp;A – Calcul de niveau&nbsp;1</h4>
      <p>Cette partie de l’évaluation fait appel à vos compétences en addition et en multiplication. Vous aurez 3&nbsp;minutes pour répondre à la série de questions.</p>
-     <p><strong>Exemple&nbsp;1</strong>&nbsp;:</p>
-     <p>8 + 7 =</p>
+     <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h5 class="panel-title"><strong>Exemple&nbsp;1</strong>&nbsp;:</h5>
+  </header>
+  <div class="panel-body">
+<p>8 + 7 =</p>
      <ol class="lst-lwr-alph">
       <li>12</li>
       <li>13</li>
@@ -142,23 +164,41 @@ custom_css: /assets/css/careers.css
       <li>16</li>
       <li>Je ne sais pas</li>
     </ol>
-     <p>La bonne réponse est <strong>c. 15</strong>.</p>
-     <p><strong>Exemple&nbsp;2</strong>&nbsp;:</p>
-     <p>5 x 5 =</p>
-      <ol class="lst-lwr-alph">
+     <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">Bonne réponse </summary>
+      <p>La bonne réponse est <strong>c. 15</strong>.</p>
+    </details>
+  </div>
+</div> 
+ <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h5 class="panel-title"><strong>Exemple&nbsp;1</strong>&nbsp;:</h5>
+  </header>
+  <div class="panel-body">
+<p>5 x 5 =</p>
+    <ol class="lst-lwr-alph">
       <li>10</li>
       <li>25</li>
       <li>36</li>
       <li>50</li>
       <li>Je ne sais pas.</li>
     </ol>
-     <p>La bonne réponse est <strong>b. 25</strong>.</p>
+     <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">Bonne réponse </summary>
+      <p>La bonne réponse est <strong>b. 25</strong>.</p>
+    </details>
+  </div>
+</div> 
    </section>
-  <section id="s4-2">
-   <h3>Partie&nbsp;B – Calcul de niveau&nbsp;2</h3>
+  <section id="s2-2-2">
+   <h4>Partie&nbsp;B – Calcul de niveau&nbsp;2</h4>
      <p>Cette partie de l’évaluation fait appel à plusieurs compétences, notamment les additions, soustractions, multiplications et divisions. Vous aurez 3&nbsp;minutes pour répondre à la série de questions.</p>
-     <p><strong>Exemple</strong>&nbsp;:</p>
-     <p>2 + 2 x 1 =</p>
+    <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h5 class="panel-title"><strong>Exemple&nbsp;1</strong>&nbsp;:</h5>
+  </header>
+  <div class="panel-body">
+<p>2 + 2 x 1 =</p>
      <ol class="lst-lwr-alph">
       <li>2</li>
       <li>3</li>
@@ -166,11 +206,16 @@ custom_css: /assets/css/careers.css
       <li>0</li>
       <li>Je ne sais pas</li>
     </ol>
-     <p>La bonne réponse est <strong>c. 4</strong>.</p>
+     <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">Bonne réponse </summary>
+      <p>La bonne réponse est <strong>c. 4</strong>.</p>
+    </details>
+  </div>
+</div> 
    </section>
 </section>
-<section id="s5">
-  <h2>Section&nbsp;4&nbsp;: Habiletés spatiales</h2>
+<section id="s2-3">
+  <h3>Section&nbsp;4&nbsp;: Habiletés spatiales</h3>
   <ul>
     <li>Cette section se divise en quatre volets&nbsp;: rotation de formes en deux&nbsp;dimensions, formes en trois&nbsp;dimensions, mécanique et prismes déconstruits</li>
     <li>Répondez au plus grand nombre de questions possible</li>
@@ -181,7 +226,7 @@ custom_css: /assets/css/careers.css
    <section id="s5-1">
    <h3>Partie&nbsp;A – Rotation de formes en deux dimensions</h3>
      <p>Cette partie contient une série de questions sur les formes en deux dimensions. À chaque question, sélectionnez la lettre qui correspond à la forme encadrée. Vous aurez 3&nbsp;minutes pour répondre à la série de questions.</p>
-     <p><strong>Exemple</strong>&nbsp;:</p>
+    
       <div class="well pull-right col-lg-6">
         <figure>
       <img alt="" aria-describedby="deux-dimensions-description" class="img-responsive full-width" src="/careers-carrieres/ex-1.png">

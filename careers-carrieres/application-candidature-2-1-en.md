@@ -364,7 +364,7 @@ custom_css: /assets/css/careers.css
   </div>
   <div class="col-md-6">  
     <figure>
-      <img alt="" aria-describedby="mechanical-problems-description" class="img-responsive full-width" src="/careers-carrieres/ex-3.png">
+      <img alt="" aria-describedby="mechanical-problems-description" class="img-responsive full-width" src="/assets/img/ex-3.png">
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="mechanical-problems-description">
  <summary>

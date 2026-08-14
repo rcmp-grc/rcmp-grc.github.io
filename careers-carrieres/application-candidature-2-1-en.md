@@ -255,7 +255,7 @@ custom_css: /assets/css/careers.css
   </div>
   <div class="col-md-6">  
     <figure>
-      <img alt="" aria-describedby="2dshape-description" class="img-responsive full-width" src="/careers-carrieres/ex-1.png">
+      <img alt="" aria-describedby="2dshape-description" class="img-responsive full-width" src="/assets/img/ex-1.png">
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="2dshape-description">
  <summary>
@@ -310,7 +310,7 @@ custom_css: /assets/css/careers.css
   </div>
   <div class="col-md-6">  
     <figure>
-      <img alt="" aria-describedby="3dshape-description" class="img-responsive full-width" src="/careers-carrieres/ex-2.png">
+      <img alt="" aria-describedby="3dshape-description" class="img-responsive full-width" src="/assets/img/ex-2.png">
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="3dshape-description">
  <summary>
@@ -410,7 +410,7 @@ custom_css: /assets/css/careers.css
   </div>
   <div class="col-md-6">  
     <figure>
-      <img alt="" aria-describedby="folding-shapes" class="img-responsive full-width" src="/careers-carrieres/ex-4.png">
+      <img alt="" aria-describedby="folding-shapes" class="img-responsive full-width" src="/assets/img/ex-4.png">
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="folding-shapes">
  <summary>
@@ -479,7 +479,7 @@ custom_css: /assets/css/careers.css
      </div>
   <div class="col-md-6">  
         <figure>
-      <img alt="" aria-describedby="memory" class="img-responsive full-width" src="/careers-carrieres/ex-5.png">
+      <img alt="" aria-describedby="memory" class="img-responsive full-width" src="/assets/img/ex-5.png">
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="memory">
  <summary>

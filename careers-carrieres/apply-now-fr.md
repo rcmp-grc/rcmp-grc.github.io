@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Posez votre candidature maintenant
-date_modified: 2026-07-13
+date_modified: 2026-08-14
 lang: fr
 lang_url: apply-now-en.html
 breadcrumbs:
@@ -43,7 +43,7 @@ custom_css: /assets/css/careers.css
 </div>
 
 <section id="s1">
-	<h2>Êtes-vous prêt à poser votre candidature? Faites le premier pas.</h2>
+	<h2>Êtes-vous prêt à poser votre candidature? Faites le premier pas</h2>
 	<button class="btn btn-call-to-action">Commencez le processus de candidature sur Emplois GC</button>
 
 	<div class="gc-features">

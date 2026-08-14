@@ -345,7 +345,7 @@ custom_css: /assets/css/careers.css
        <div class="clearfix"></div>  
   </section>
   <section if="s2-3-3">
-    <h4><h3>Partie&nbsp;C – Mécanique</h3></h4>
+    <h4>Partie&nbsp;C – Mécanique</h4>
     <p>Cette partie contient une série de questions sur la mécanique. Vous aurez 4&nbsp;minutes pour répondre à la série de questions.</p>
        <p><strong>Exemple</strong>&nbsp;:</p>
  <div class="panel panel-careers">
@@ -391,8 +391,8 @@ custom_css: /assets/css/careers.css
   </div>
        <div class="clearfix"></div> 
 </section>
-  <section id="s2-2-4">
-   <h3>Partie&nbsp;D – Prismes déconstruits</h3>
+  <section id="s2-3-4">
+   <h4>Partie&nbsp;D – Prismes déconstruits</h4>
     <p>Cette partie contient une série de questions sur les prismes déconstruits. Vous aurez 5&nbsp;minutes pour répondre à la série de questions.</p>
     <div class="panel panel-careers">
   <header class="panel-heading">
@@ -568,7 +568,7 @@ custom_css: /assets/css/careers.css
      <p>D'abord, établissez le lien qui unit les deux premiers mots indiqués. Ensuite, sélectionnez le mot qui forme avec le troisième mot un lien semblable à celui qui unit les deux premiers mots.</p>
 <div class="panel panel-careers">
   <header class="panel-heading">
-   <h5 class="panel-title">Exemple&nbsp;1&nbsp;:</h5>
+   <h4 class="panel-title">Exemple&nbsp;1&nbsp;:</h4>
   </header>
   <div class="panel-body">
  <p>Haut&nbsp;: Bas</p>
@@ -603,8 +603,8 @@ custom_css: /assets/css/careers.css
   </div>
   </div> 
    </section>
-  <section id="s2-4-2">
-   <h3>Partie&nbsp;B – Raisonnement numérique</h3>
+  <section id="s2-4-1">
+   <h4>Partie&nbsp;B – Raisonnement numérique</h4>
      <p>Cette partie contient des problèmes mathématiques. Répondez aux questions en sélectionnant ce qui est, selon vous, la bonne réponse.</p>
     <div class="panel panel-careers">
   <header class="panel-heading">

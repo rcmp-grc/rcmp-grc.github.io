@@ -38,22 +38,8 @@ custom_css: /assets/css/careers.css
     <li><a href="application-candidature-6-fr.html">Passez une enquête sur les antécédents et une évaluation de sécurité</a></li>
   </ul>
 </nav>
-
-<nav aria-labelledby="on-this-page">
-  <h2 id="on-this-page">Sur cette page</h2>
-  <ul>
-    <li><a href="#s1">Introduction</a></li>
-    <li><a href="#s2">Section&nbsp;1&nbsp;: Préférence de style de travail</a></li>
-    <li><a href="#s3">Section&nbsp;2&nbsp;: Compréhension de la langue</a></li>
-    <li><a href="#s4">Section&nbsp;3&nbsp;: Compétences en calcul</a></li>
-    <li><a href="#s5">Section&nbsp;4&nbsp;: Habiletés spatiales</a></li>
-    <li><a href="#s6">Section&nbsp;5&nbsp;: Quotient de mémoire</a></li>
-    <li><a href="#s7">Section&nbsp;6&nbsp;: Raisonnement</a></li>
-  </ul>
-</nav>
-
 <section id="s1">
-  <h2>Introduction</h2>
+  <h2>Préparation à l’évaluationIntroduction</h2>
   <p>L'examen d'entrée en ligne de la GRC a été conçu de façon à permettre l'évaluation impartiale des candidats dans le cadre du processus de recrutement des policiers de la GRC. L'examen comprend six&nbsp;sections&nbsp;:</p>
 <ul>
 <li>Section&nbsp;1&nbsp;: Préférence de style de travail</li>
@@ -63,8 +49,7 @@ custom_css: /assets/css/careers.css
 <li>Section&nbsp;5&nbsp;: Quotient de mémoire</li>
 <li>Section&nbsp;6&nbsp;: Raisonnement</li>
 </ul>
-<p>L'examen devrait durer de 55 à 70&nbsp;minutes environ. Plusieurs parties de l'examen doivent être faites dans un laps de temps limité. Nous vous recommandons de faire l'examen au complet en une&nbsp;seule fois.</p>
-<p>Pour faire l'examen, installez-vous dans un endroit silencieux où vous pourrez vous concentrer, sans interruption et sans source de distraction. Nous vous recommandons de faire l'examen à l'aide d'un ordinateur portatif ou d'un ordinateur de bureau. Assurez-vous d'avoir une connexion Wi-Fi et une alimentation électrique stables pour éviter de perdre vos données en cours de route.</p>
+<p>Ce guide a été conçu pour donner aux postulants une idée de ce à quoi ils peuvent s'attendre lorsqu'ils passeront l'évaluation.</p>
 </section>
 <section id="s2">
   <h2>Section&nbsp;1&nbsp;: Préférence de style de travail</h2>

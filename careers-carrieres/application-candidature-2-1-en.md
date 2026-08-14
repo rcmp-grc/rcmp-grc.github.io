@@ -570,7 +570,7 @@ custom_css: /assets/css/careers.css
   </header>
   <div class="panel-body">  
     <p>Up: Down</p>
-  <strong>Left:</strong></p>
+  <p><strong>Left:</strong></p>
    <ol class="lst-lwr-alph">
     <li>High</li>
     <li>Right</li>

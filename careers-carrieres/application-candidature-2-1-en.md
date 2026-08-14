@@ -190,7 +190,7 @@ custom_css: /assets/css/careers.css
     <p>5 x 5 =</p>
   <ol class="lst-lwr-alph"> 
    <li>10</li>
-   <li>25
+   <li>25</li>
    <li>36</li>
    <li>50</li>
    <li>I don't know</li>
@@ -217,6 +217,7 @@ custom_css: /assets/css/careers.css
       <li>4</li>
       <li>0</li>
       <li>I don't know</li>
+    </ol>
      <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">Correct answer</summary>
      <p>The correct answer is <strong>c. 4</strong>.</p>

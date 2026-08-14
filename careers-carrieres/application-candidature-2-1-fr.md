@@ -223,17 +223,31 @@ custom_css: /assets/css/careers.css
     <li>Vous pouvez passer des questions. Si vous ne connaissez pas la réponse à une question, veuillez sélectionner la réponse «&nbsp;Je ne sais pas&nbsp;»</li>
     <li>Il y aura un compte à rebours bas de la page</li>
   </ul>
-   <section id="s5-1">
-   <h3>Partie&nbsp;A – Rotation de formes en deux dimensions</h3>
+   <section id="s2-3-1">
+   <h4>Partie&nbsp;A – Rotation de formes en deux dimensions</h4>
      <p>Cette partie contient une série de questions sur les formes en deux dimensions. À chaque question, sélectionnez la lettre qui correspond à la forme encadrée. Vous aurez 3&nbsp;minutes pour répondre à la série de questions.</p>
-    
-      <div class="well pull-right col-lg-6">
-        <figure>
-      <img alt="" aria-describedby="deux-dimensions-description" class="img-responsive full-width" src="/careers-carrieres/ex-1.png">
+ <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h5 class="panel-title">Exemple</h5>
+  </header>
+  <div class="panel-body">
+  <div class="row wb-eqht">
+  <div class="col-md-6">  
+  <ol class="lst-lwr-alph">   
+    <li>A</li>
+    <li>B</li>
+    <li>C</li>
+    <li>D</li>
+    <li>E</li>
+    <li>Je ne sais pas</li></ol>
+  </div>
+  <div class="col-md-6">  
+    <figure>
+      <img alt="" aria-describedby="2dshape-description" class="img-responsive full-width" src="/assets/img/ex-1.png">
       <figcaption class="mrgn-tp-md">
-<details class="mrgn-bttm-sm" id="deux-dimensions-description">
+<details class="mrgn-bttm-sm" id="2dshape-description">
  <summary>
-        Description : Rotation de formes en deux dimensions
+        Description&nbsp;: Rotation de formes en deux&nbsp;dimensions
  </summary>
  <div class="mrgn-tp-md">
    <dl class="mrgn-bttm-0">
@@ -254,24 +268,38 @@ custom_css: /assets/css/careers.css
 </details>
       </figcaption>
     </figure>
+  </div>   
+</div>
+    <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">Bonne réponse</summary>
+      <p>La bonne réponse est <strong>c. la forme&nbsp;C</strong>.</p>
+    </details>
   </div>
-     <ol class="lst-lwr-alph">
-      <li>A</li>
-      <li>B</li>
-      <li>C</li>
-      <li>D</li>
-      <li>E</li>
-      <li>Je ne sais pas</li>
-    </ol>
-     <p>La bonne réponse est <strong>c. la forme&nbsp;C</strong>.</p>
+  </div>
+       <div class="clearfix"></div>  
    </section>
-  <section id="s5-2">
-   <h3>Partie&nbsp;B – Formes en trois&nbsp;dimensions</h3>
+  <section id="s-2-3-2">
+   <h4>Partie&nbsp;B – Formes en trois&nbsp;dimensions</h4>
     <p>Cette partie contient une série de questions sur les formes en trois&nbsp;dimensions. À chaque question, sélectionnez la lettre qui correspond à la forme encadrée. Vous aurez 3&nbsp;minutes pour répondre à la série de questions.</p>
      <p><strong>Exemple</strong>&nbsp;:</p>
-      <div class="well pull-right col-lg-6">
-        <figure>
-      <img alt="" aria-describedby="trois-dimensions-description" class="img-responsive full-width" src="/careers-carrieres/ex-2.png">
+    <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h5 class="panel-title">Exemple</h5>
+  </header>
+  <div class="panel-body">
+  <div class="row wb-eqht">
+  <div class="col-md-6">  
+  <ol class="lst-lwr-alph">   
+    <li>A</li>
+    <li>B</li>
+    <li>C</li>
+    <li>D</li>
+    <li>E</li>
+    <li>Je ne sais pas</li></ol>
+  </div>
+  <div class="col-md-6">  
+    <figure>
+      <img alt="" aria-describedby="trois-dimensions-description" class="img-responsive full-width" src="/assets/img/ex-2.png">
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="trois-dimensions-description">
  <summary>
@@ -294,23 +322,39 @@ custom_css: /assets/css/careers.css
 </details>
       </figcaption>
     </figure>
-      </div>
-     <ol class="lst-lwr-alph">
-      <li>A</li>
-      <li>B</li>
-      <li>C</li>
-      <li>D</li>
-      <li>Je ne sais pas</li>
-    </ol>
-     <p>La bonne réponse est <strong>d. la forme&nbsp;D</strong>.</p>
+  </div>   
+</div>
+    <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">Bonne réponse</summary>
+       <p>La bonne réponse est <strong>d. la forme&nbsp;D</strong>.</p>
+    </details>
+  </div>
+  </div>
+       <div class="clearfix"></div>  
   </section>
-  <section id="s5-3">
-   <h3>Partie&nbsp;C – Mécanique</h3>
+  <section if="s2-3-3">
+    <h4><h3>Partie&nbsp;C – Mécanique</h3></h4>
     <p>Cette partie contient une série de questions sur la mécanique. Vous aurez 4&nbsp;minutes pour répondre à la série de questions.</p>
        <p><strong>Exemple</strong>&nbsp;:</p>
-     <div class="well pull-right col-lg-6">
-        <figure>
-      <img alt="" aria-describedby="mécanique-description" class="img-responsive full-width" src="/careers-carrieres/ex-3.png">
+ <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h5 class="panel-title">Exemple</h5>
+  </header>
+  <div class="panel-body">
+  <div class="row wb-eqht">
+  <div class="col-md-6">  
+ <p>Lorsqu'on tire la poignée&nbsp;H vers la droite (comme le montre la flèche dans l'illustration ci-dessous), qu'arrive-t-il à l'extrémité&nbsp;E:</p>
+     <ol class="lst-lwr-alph">
+      <li>Elle se déplace vers la gauche</li>
+      <li>Elle se déplace vers la droite</li>
+      <li>Elle se déplace d'avant en arrière</li>
+      <li>Elle reste dans la même position</li>
+      <li>Je ne sais pas</li>
+    </ol>
+  </div>
+  <div class="col-md-6">  
+    <figure>
+      <img alt="" aria-describedby="prismes-déconstruits-description" class="img-responsive full-width" src="/assets/img/ex-3.png">
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="mécanique-description">
  <summary>
@@ -325,24 +369,39 @@ custom_css: /assets/css/careers.css
 </details>
       </figcaption>
     </figure>
-      </div>
-    <p>Lorsqu'on tire la poignée&nbsp;H vers la droite (comme le montre la flèche dans l'illustration ci-dessous), qu'arrive-t-il à l'extrémité&nbsp;E:</p>
-     <ol class="lst-lwr-alph">
-      <li>Elle se déplace vers la gauche</li>
-      <li>Elle se déplace vers la droite</li>
-      <li>Elle se déplace d'avant en arrière</li>
-      <li>Elle reste dans la même position</li>
-      <li>Je ne sais pas</li>
-    </ol>
-     <p>La bonne réponse est <strong>a. Elle se déplace vers la gauche</strong>.</p>
+  </div>   
+</div>
+    <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">Bonne réponse</summary>
+       <p>La bonne réponse est <strong>a. Elle se déplace vers la gauche</strong>.</p>
+    </details>
+  </div>
+  </div>
+       <div class="clearfix"></div> 
 </section>
-  <section id="s5-4">
+  <section id="s2-2-4">
    <h3>Partie&nbsp;D – Prismes déconstruits</h3>
     <p>Cette partie contient une série de questions sur les prismes déconstruits. Vous aurez 5&nbsp;minutes pour répondre à la série de questions.</p>
-       <p><strong>Exemple</strong>&nbsp;:</p>
-      <div class="well pull-right col-lg-6">
-         <figure>
-      <img alt="" aria-describedby="prismes-déconstruits-description" class="img-responsive full-width" src="/careers-carrieres/ex-4.png">
+    <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h5 class="panel-title">Exemple</h5>
+  </header>
+  <div class="panel-body">
+  <div class="row wb-eqht">
+  <div class="col-md-6">  
+ <p>Lorsqu'on tire la poignée&nbsp;H vers la droite (comme le montre la flèche dans l'illustration ci-dessous), qu'arrive-t-il à l'extrémité&nbsp;E:</p>
+      <p>Si on repliait le carton ci-dessous, lequel des prismes plus bas obtiendrait-on?</p>
+     <ol class="lst-lwr-alph">
+      <li>A</li>
+      <li>B</li>
+      <li>C</li>
+      <li>D</li>
+      <li>Je ne sais pas</li>
+    </ol>
+  </div>
+  <div class="col-md-6">  
+    <figure>
+      <img alt="" aria-describedby="mécanique-description" class="img-responsive full-width" src="/assets/img/ex-3.png">
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="prismes-déconstruits-description">
  <summary>
@@ -365,20 +424,19 @@ custom_css: /assets/css/careers.css
 </details>
       </figcaption>
     </figure>
-      </div>
-    <p>Si on repliait le carton ci-dessous, lequel des prismes plus bas obtiendrait-on?</p>
-     <ol class="lst-lwr-alph">
-      <li>A</li>
-      <li>B</li>
-      <li>C</li>
-      <li>D</li>
-      <li>Je ne sais pas</li>
-    </ol>
-     <p>La bonne réponse est <strong>c. la forme&nbsp;C</strong>.</p>
+  </div>   
+</div>
+    <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">Bonne réponse</summary>
+       <p>La bonne réponse est <strong>c. la forme&nbsp;C</strong>.</p>
+    </details>
+  </div>
+  </div>
+       <div class="clearfix"></div> 
 </section>
 </section>
-<section id="s6">
-  <h2>Section&nbsp;5&nbsp;: Quotient de mémoire</h2>
+<section id="s2-4">
+  <h3>Section&nbsp;5&nbsp;: Quotient de mémoire</h3>
   <ul>
     <li>Vous disposerez d'un laps de temps limité pour mémoriser une image, une&nbsp;liste de nombres ou un texte écrit. Ensuite, vous devrez répondre à des questions de mémoire</li>
     <li>Cette section devrait prendre environ 25&nbsp;minutes</li>
@@ -393,9 +451,26 @@ custom_css: /assets/css/careers.css
     <li>Vous pouvez choisir de passer à la section suivante avant que le temps soit écoulé</li>
   </ul>
    <p><strong>Exemple&nbsp;1</strong>&nbsp;:</p>
-     <div class="well pull-right col-lg-6">
+  <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h4 class="panel-title">Example&nbsp;1</h4>
+  </header>
+      <div class="panel-body">
+  <div class="row wb-eqht">
+  <div class="col-md-6">
+     <p>Observez ce groupe d'objets. Vous avez 30&nbsp;secondes.</p>
+     <p>Quelle est la couleur du cercle?</p> 
+     <ol class="lst-lwr-alph">
+      <li>Rouge</li>
+      <li>Vert</li>
+      <li>Noir</li>
+      <li>Orange</li>
+      <li>Bleu</li>
+    </ol>
+     </div>
+  <div class="col-md-6">  
         <figure>
-      <img alt="" aria-describedby="formes-description" class="img-responsive full-width" src="/careers-carrieres/ex-5.png">
+          <img alt="" aria-describedby="formes-description" class="img-responsive full-width" src="/assets/img/ex-5.png">
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="formes-description">
  <summary>
@@ -415,17 +490,19 @@ custom_css: /assets/css/careers.css
       </figcaption>
     </figure>
      </div>
-    <p>Observez ce groupe d'objets. Vous avez 30&nbsp;secondes.</p>
-     <p>Quelle est la couleur du cercle?</p> 
-     <ol class="lst-lwr-alph">
-      <li>Rouge</li>
-      <li>Vert</li>
-      <li>Noir</li>
-      <li>Orange</li>
-      <li>Bleu</li>
-    </ol>
+ </div>
+    <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">Bonne réponse</summary>
      <p>La bonne réponse est <strong>c. Noir</strong>.</p>
-  <p><strong>Exemple&nbsp;2</strong>&nbsp;:</p>
+    </details>   
+    </div>
+    </div>
+       <div class="clearfix"></div> 
+<div class="panel panel-careers">
+  <header class="panel-heading">
+   <h5 class="panel-title">Exemple&nbsp;2</strong>&nbsp;:</h5>
+  </header>
+  <div class="panel-body">
   <p>Lisez le bulletin météo attentivement. Vous avez 1&nbsp;minute.</p>
   <p>Aujourd'hui, on prévoit un ciel nuageux avec un maximum de 35&nbsp;degrés et de légers vents du sud-ouest. Pour cette nuit, on prévoit un ciel dégagé et un minimum de 23&nbsp;degrés.</p>
   <p>Au bout d'une&nbsp;minute, une série de questions sur le bulletin météo apparaîtra. Vous aurez 45&nbsp;secondes pour répondre aux questions.</p>
@@ -437,8 +514,21 @@ custom_css: /assets/css/careers.css
       <li>Sud-ouest</li>
       <li>La direction du vent n'était pas indiquée</li>
     </ol>
+   <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">Bonne réponse</summary>
      <p>La bonne réponse est <strong>d. Sud-ouest</strong>.</p>
-     <p>Quelle température prévoit-on pendant la nuit?</p>
+     </details>
+  </div>
+  </div> 
+<div class="panel panel-careers">
+  <header class="panel-heading">
+   <h5 class="panel-title">Exemple&nbsp;2</strong>&nbsp;:</h5>
+  </header>
+  <div class="panel-body">
+  <p>Lisez le bulletin météo attentivement. Vous avez 1&nbsp;minute.</p>
+  <p>Aujourd'hui, on prévoit un ciel nuageux avec un maximum de 35&nbsp;degrés et de légers vents du sud-ouest. Pour cette nuit, on prévoit un ciel dégagé et un minimum de 23&nbsp;degrés.</p>
+  <p>Au bout d'une&nbsp;minute, une série de questions sur le bulletin météo apparaîtra. Vous aurez 45&nbsp;secondes pour répondre aux questions.</p>
+   <p>Quelle température prévoit-on pendant la nuit?</p>
      <ol class="lst-lwr-alph">
       <li>22&nbsp;degrés</li>
       <li>23&nbsp;degrés</li>
@@ -446,9 +536,14 @@ custom_css: /assets/css/careers.css
       <li>26&nbsp;degrés</li>
       <li>32&nbsp;degrés</li>
     </ol>
+   <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">Bonne réponse</summary>
      <p>La bonne réponse est <strong>b. 23&nbsp;degrés</strong>.</p>
+     </details>
+  </div>
+  </div> 
 </section>
-<section id="s7">
+<section id="s2-4">
   <h2>Section&nbsp;6&nbsp;: Raisonnement</h2>
   <ul>
     <li>Répondez à toutes les questions du mieux que vous le pouvez</li>
@@ -457,40 +552,67 @@ custom_css: /assets/css/careers.css
     <li>Pour répondre aux questions, vous ne pouvez utiliser qu'un stylo et du papier. Il est interdit d'utiliser une calculatrice, d'utiliser un logiciel ou de demander l'aide de quelqu'un</li>
   </ul>
   <p>Il y aura un compte à rebours au bas de la page.</p>
-   <section id="s7-1">
+   <section id="s2-4-1">
    <h3>Partie&nbsp;A – Raisonnement verbal</h3>
      <p>D'abord, établissez le lien qui unit les deux premiers mots indiqués. Ensuite, sélectionnez le mot qui forme avec le troisième mot un lien semblable à celui qui unit les deux premiers mots.</p>
-     <p><strong>Exemple&nbsp;1</strong>&nbsp;:</p>
-     <p>Haut&nbsp;: Bas</p>
-      <p>Gauche&nbsp;:</p>
+<div class="panel panel-careers">
+  <header class="panel-heading">
+   <h5 class="panel-title">Exemple&nbsp;1</strong>&nbsp;:</h5>
+  </header>
+  <div class="panel-body">
+ <p>Haut&nbsp;: Bas</p>
+      <p><strong>Gauche</strong>&nbsp;:</p>
      <ol class="lst-lwr-alph">
       <li>Haut</li>
       <li>Droite</li>
       <li>Bas</li>
       <li>Au-dessus</li>
     </ol>
+   <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">Bonne réponse</summary>
      <p>La bonne réponse est <strong>b. Droite</strong>. Dans l'exemple, «&nbsp;Haut&nbsp;» et «&nbsp;Bas&nbsp;» sont des contraires, alors la bonne réponse est le contraire de «&nbsp;Gauche&nbsp;», c'est-à-dire «&nbsp;Droite&nbsp;».</p>
-     <p><strong>Exemple&nbsp;2</strong>&nbsp;:</p>
-     <p>Une entreprise a pour politique que tout le monde dans l'usine doit porter des lunettes de protection. Mercredi dernier, des visiteurs ne portaient pas de lunettes de protection dans l'usine. Est-ce que les règles de la politique ont été enfreintes mercredi dernier?</p>
+     </details>
+  </div>
+  </div> 
+<div class="panel panel-careers">
+  <header class="panel-heading">
+   <h5 class="panel-title">Exemple&nbsp;2</strong>&nbsp;:</h5>
+  </header>
+  <div class="panel-body">
+<p>Une entreprise a pour politique que tout le monde dans l'usine doit porter des lunettes de protection. Mercredi dernier, des visiteurs ne portaient pas de lunettes de protection dans l'usine. Est-ce que les règles de la politique ont été enfreintes mercredi dernier?</p>
      <ol class="lst-lwr-alph">
       <li>Oui</li>
       <li>On ne peut pas le déterminer</li>
       <li>Non</li>
     </ol>
+   <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">Bonne réponse</summary>
      <p>La bonne réponse est <strong>a. Oui</strong>.</p>
+     </details>
+  </div>
+  </div> 
    </section>
-  <section id="s7-2">
+  <section id="s2-4-2">
    <h3>Partie&nbsp;B – Raisonnement numérique</h3>
      <p>Cette partie contient des problèmes mathématiques. Répondez aux questions en sélectionnant ce qui est, selon vous, la bonne réponse.</p>
-      <p><strong>Exemple</strong>&nbsp;:</p>
-     <p>John a fait une vente de 100&nbsp;$ et Betty a fait une vente de 200&nbsp;$. Quelle est la différence entre les ventes de John et de Betty?</p>
+    <div class="panel panel-careers">
+  <header class="panel-heading">
+   <h5 class="panel-title">Exemple</h5>
+  </header>
+  <div class="panel-body">
+ <p>John a fait une vente de 100&nbsp;$ et Betty a fait une vente de 200&nbsp;$. Quelle est la différence entre les ventes de John et de Betty?</p>
      <ol class="lst-lwr-alph">
       <li>300&nbsp;$</li>
       <li>100&nbsp;$</li>
       <li>200&nbsp;$</li>
       <li>Aucune de ces réponses</li>
     </ol>
-     <p>La bonne réponse est <strong>b. 100&nbsp;$</strong>.</p>
+   <details class="rc-answer-toggle">
+      <summary class="rc-btn rc-btn--secondary">Bonne réponse</summary>
+    <p>La bonne réponse est <strong>b. 100&nbsp;$</strong>.</p>
+     </details>
+  </div>
+  </div>     
   </section>
 </section>
 

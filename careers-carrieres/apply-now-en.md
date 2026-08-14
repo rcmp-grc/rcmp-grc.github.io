@@ -42,8 +42,7 @@ custom_css: /assets/css/careers.css
 </div>
 
 <section id="s1">
-	<h2>Ready to apply?</h2>
-	<p>Take the first step.</p>
+	<h2>Ready to apply? Take the first step</h2>
 	<p><a href="#" class="btn btn-call-to-action">Start your application on GC Jobs</a></p>
 	<div class="gc-features">
 		<ul class="list-unstyled row">

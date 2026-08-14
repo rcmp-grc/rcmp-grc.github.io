@@ -67,7 +67,7 @@ custom_css: /assets/css/careers.css
 <li>Section&nbsp;6&nbsp;: Raisonnement</li>
 </ul>
 <p>Ce guide a été conçu pour donner aux postulants une idée de ce à quoi ils peuvent s'attendre lorsqu'ils passeront l'évaluation.</p>
-  <section id="s1-2">
+  <section id="s1-1">
     <h3>Avant de commencer</h3>
     <ul>
       <li>Prévoyez de 50 à 70&nbsp;minutes environ pour effectuer l’évaluation.</li>
@@ -91,7 +91,6 @@ custom_css: /assets/css/careers.css
         <li>Répondez avec franchise. Sinon, vos réponses pourraient remettre en cause la validité et l'exactitude de vos résultats.</li>
         <li>Les résultats seront générés automatiquement.</li>
       </ul>
-  </section>
 </section>
 <section id="s2-1-1">
   <h4>Section&nbsp;2&nbsp;: Compréhension de la langue</h4>
@@ -109,10 +108,6 @@ custom_css: /assets/css/careers.css
     <div class="panel panel-careers">
   <header class="panel-heading">
    <h5 class="panel-title">Exemple</h5>
-  </header>
-      <div class="panel panel-careers">
-  <header class="panel-heading">
-   <h4 class="panel-title">Example</h4>
   </header>
   <div class="panel-body">
   <p>Ravi</p>
@@ -467,10 +462,9 @@ custom_css: /assets/css/careers.css
     <li>Une&nbsp;fois le temps écoulé, vous passerez automatiquement à la question suivante</li>
     <li>Vous pouvez choisir de passer à la section suivante avant que le temps soit écoulé</li>
   </ul>
-   <p><strong>Exemple&nbsp;1</strong>&nbsp;:</p>
   <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Example&nbsp;1</h4>
+   <h4 class="panel-title"><strong>Exemple&nbsp;1</strong>&nbsp;:</h4>
   </header>
       <div class="panel-body">
   <div class="row wb-eqht">
@@ -491,7 +485,7 @@ custom_css: /assets/css/careers.css
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="formes-description">
  <summary>
-        Description : Formes
+        Description&nbsp;: Formes
  </summary>
  <div class="mrgn-tp-md">
    <dl class="mrgn-bttm-0">
@@ -539,7 +533,7 @@ custom_css: /assets/css/careers.css
   </div> 
 <div class="panel panel-careers">
   <header class="panel-heading">
-   <h5 class="panel-title">Exemple&nbsp;2</strong>&nbsp;:</h5>
+   <h5 class="panel-title">Exemple&nbsp;2&nbsp;:</h5>
   </header>
   <div class="panel-body">
   <p>Lisez le bulletin météo attentivement. Vous avez 1&nbsp;minute.</p>
@@ -574,7 +568,7 @@ custom_css: /assets/css/careers.css
      <p>D'abord, établissez le lien qui unit les deux premiers mots indiqués. Ensuite, sélectionnez le mot qui forme avec le troisième mot un lien semblable à celui qui unit les deux premiers mots.</p>
 <div class="panel panel-careers">
   <header class="panel-heading">
-   <h5 class="panel-title">Exemple&nbsp;1</strong>&nbsp;:</h5>
+   <h5 class="panel-title">Exemple&nbsp;1&nbsp;:</h5>
   </header>
   <div class="panel-body">
  <p>Haut&nbsp;: Bas</p>
@@ -593,7 +587,7 @@ custom_css: /assets/css/careers.css
   </div> 
 <div class="panel panel-careers">
   <header class="panel-heading">
-   <h5 class="panel-title">Exemple&nbsp;2</strong>&nbsp;:</h5>
+   <h5 class="panel-title">Exemple&nbsp;2&nbsp;:</h5>
   </header>
   <div class="panel-body">
 <p>Une entreprise a pour politique que tout le monde dans l'usine doit porter des lunettes de protection. Mercredi dernier, des visiteurs ne portaient pas de lunettes de protection dans l'usine. Est-ce que les règles de la politique ont été enfreintes mercredi dernier?</p>
@@ -632,7 +626,6 @@ custom_css: /assets/css/careers.css
   </div>     
   </section>
 </section>
-
 <nav aria-label="Pagination" class="rcmp-content-page rcmp-content-page--block" id="rcmp-content-page">
   <div class="rcmp-content-page__previous" id="mp-previous-wrap">
     <a aria-label="Étape précédente&nbsp;: Posez votre candidature en ligne" class="rcmp-content-page__link" href="application-candidature-2-fr.html" id="mp-previous">

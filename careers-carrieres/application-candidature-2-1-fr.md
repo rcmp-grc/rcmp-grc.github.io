@@ -50,20 +50,34 @@ custom_css: /assets/css/careers.css
 <li>Section&nbsp;6&nbsp;: Raisonnement</li>
 </ul>
 <p>Ce guide a été conçu pour donner aux postulants une idée de ce à quoi ils peuvent s'attendre lorsqu'ils passeront l'évaluation.</p>
+  <section id="s1-2">
+    <h3>Avant de commencer</h3>
+    <ul>
+      <li>Prévoyez de 50 à 70&nbsp;minutes environ pour effectuer l’évaluation.</li>
+      <li>Prévoyez de faire l’évaluation en une seule séance.</li>
+      <li>Assurez-vous d’avoir un environnement calme où vous pouvez vous concentrer et éviter les distractions.</li>
+      <li>Prévoyez de faire l’évaluation sur un ordinateur portable ou de bureau. Assurez-vous de disposer d’une connexion Wi-Fi stable et d’une source d’alimentation pour effectuer l’évaluation sans interruption.
+</li>
+    </ul>
+  </section>
 </section>
 <section id="s2">
-  <h2>Section&nbsp;1&nbsp;: Préférence de style de travail</h2>
+  <h2>Exemple de l’évaluation</h2>
+  <p><strong>Remarque</strong>&nbsp;: Cet exemple est fourni à titre indicatif seulement. Il montre les types de questions que vous pouvez voir dans l’évaluation. Il n’est pas interactif et les réponses ne peuvent pas être sélectionnées ou soumises.</p>
+  <section id="s2-1">
+  <h3>Section&nbsp;1&nbsp;: Préférence de style de travail</h3>
       <ul>
-        <li>Cette section renferme une série d'énoncés avec lesquels vous devrez vous dire entièrement en désaccord, en désaccord, neutre, d'accord ou entièrement d'accord</li>
-        <li>Répondez du point de vue des conditions de travail</li>
-        <li>Répondez rapidement, sans trop réfléchir</li>
-        <li>Il n'y a pas de bonnes ni de mauvaises réponses</li>
-        <li>Répondez avec franchise. Sinon, vos réponses pourraient remettre en cause la validité et l'exactitude de vos résultats</li>
-        <li>Les résultats seront générés automatiquement</li>
+        <li>Cette section renferme une série d'énoncés avec lesquels vous devrez vous dire entièrement en désaccord, en désaccord, neutre, d'accord ou entièrement d'accord.</li>
+        <li>Répondez du point de vue des conditions de travail.</li>
+        <li>Répondez rapidement, sans trop réfléchir.</li>
+        <li>Il n'y a pas de bonnes ni de mauvaises réponses.</li>
+        <li>Répondez avec franchise. Sinon, vos réponses pourraient remettre en cause la validité et l'exactitude de vos résultats.</li>
+        <li>Les résultats seront générés automatiquement.</li>
       </ul>
+  </section>
 </section>
-<section id="s3">
-  <h2>Section&nbsp;2&nbsp;: Compréhension de la langue</h2>
+<section id="s2-1-1">
+  <h4>Section&nbsp;2&nbsp;: Compréhension de la langue</h4>
  <ul>
  <li>Cette section se divise en deux volets, l'un sur le sens des mots, l'autre sur les liens entre les mots</li>
  <li>Vous aurez 5&nbsp;minutes pour faire chaque volet</li>
@@ -71,16 +85,17 @@ custom_css: /assets/css/careers.css
  <li>Vous pouvez passer des questions. Si vous ne connaissez pas la réponse à une question, veuillez sélectionner la réponse «&nbsp;Je ne sais pas&nbsp;»</li>
  <li>Il y aura un compte à rebours au bas de la page</li>
 </ul>
-  <section id="s3-1">
-   <h3>Partie&nbsp;A – Sens des mots</h3>
+</section>
+  <section id="s2-1-2">
+   <h4>Partie&nbsp;A – Sens des mots</h4>
     <p>Lisez le premier mot, puis choisissez l’option dont le sens est le plus proche.</p>
     <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Sample question</h4>
+   <h5 class="panel-title">Exemple</h5>
   </header>
   <div class="panel-body">
-  <p>Identify the word with the closest meaning to:<br><strong>Ravi</strong></p>
-  <p>The answer options are:<br>
+  <p><strong>Ravi</strong></p>
+ 
   A. Réciter, B. Heureux, C. Désespéré, D. Inapproprié ou «&nbsp;Je ne sais pas&nbsp;»</p>
      <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">View the correct answer</summary>

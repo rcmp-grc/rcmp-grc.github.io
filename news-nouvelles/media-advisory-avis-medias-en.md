@@ -7,6 +7,9 @@ lang: en
 lang_url: media-advisory-avis-medias-fr.html
 lead: Media Advisory
 issued: 2026-05-08
+breadcrumbs:
+  - label: "News and communications"
+    url: "/en/news"
 custom_css: /assets/css/careers.css
 ---
 
@@ -74,24 +77,22 @@ font-size: 1.1rem;
 .location {
     color: #404040;
 }		
-a.news-topic-1:link, a.primary-topic:visited {
-    background-color: #d6e4f5;
-    color: #0f253d;
-    padding: 4px 10px;
-	border-radius: 8px;
+a.news-topic-1:link, a.news-topic-1:visited {
+    background-color: #ebfaf0;
+    color: #14522b;
+	border-radius: 0;
+	border: 1px solid #14522b;
+	padding: 4px 10px;
 	font-size: 1rem;
     font-weight: bold;	
     text-align: center;
     text-decoration: none;
     display: inline-block;
-	border: 1px solid #000000;	
 }
 a.news-topic-1:hover, a.primary-topic:active {
-	background-color: white;
-    color: #0f253d;
-    padding: 4px 10px;
-    border-radius: 8px;
-	border: 1px solid #0f3d20;
+	background-color: #ffffff;
+    color: #14522b;
+	border: 1px solid #14522b;
 }
 	a.news-topic-3:link, a.news-topic-3:visited
 	{
@@ -153,6 +154,18 @@ a.news-topic-1:hover, a.primary-topic:active {
 </div>
 <div class="row">
 <div class="col-md-8"> 
+<section id="page-navigation" class="article-content mrgn-bttm-lg">
+	<h2 class="h3 mrgn-tp-0">On this page</h2>
+	<ul>
+		<li><a href="#s1">Planned activities</a></li>
+		<li><a href="#s2">Media opportunities</a></li>
+		<li><a href="#s3">Accreditation</a></li>
+		<li><a href="#links">Associated links</a></li>
+		<li><a href="#event">Event details</a></li>
+		<li><a href="#gc-contact">Contacts</a></li>
+		<li><a href="#topics">Explore related topics</a></li>
+	</ul>
+</section>	
 <p>The Royal Canadian Mounted Police will host a community winter safety event featuring Bob the Polar Bear, the RCMP’s unofficial northern mascot.</p>
  <p>Members of the media are invited to attend.</p>	
  <p>The event will focus on winter preparedness, youth engagement, emergency awareness, and community safety. Activities will include safety demonstrations, educational booths, family activities, and opportunities for interviews and photos.</p>
@@ -195,6 +208,26 @@ a.news-topic-1:hover, a.primary-topic:active {
     <li><a href="#">Arctic and northern affairs</a></li>
 </ul>
 </section>
+</div>
+<div class="col-md-4">
+	<section class="panel panel-default brdr-rds-0" id="event">
+  <header class="panel-heading">
+   <h2 class="panel-title"><span class="h5">Event details</span></h2>
+  </header>
+  <div class="panel-body">
+  <dl>	
+<dt>Date</dt> <dd>Saturday, May 23, 2026</dd>
+<dt>Time</dt> <dd>1-4 pm (local time)</dd>
+<dt>Location</dt>
+<dd><address>Northern Community Recreation Centre<br>
+100 Aurora Road<br>
+Iqaluit, Nunavut</address></dd>
+</dl>
+  </div>
+</section>
+</div>
+</div>
+<div class="clearfix"></div>
 <section id="gc-contact" class="contact-us">
 	<h2 class="h3">Contact us</h2>
 	<div class="contact-signature">	
@@ -220,26 +253,7 @@ a.news-topic-1:hover, a.primary-topic:active {
 	</section>	
 	</div>
 </section>
-</div>
-<div class="col-md-4">
-	<section class="panel panel-default brdr-rds-0 ">
-  <header class="panel-heading">
-   <h2 class="panel-title"><span class="h5">Event details</span></h2>
-  </header>
-  <div class="panel-body">
-  <dl>	
-<dt>Date</dt> <dd>Saturday, May 23, 2026</dd>
-<dt>Time</dt> <dd>1-4 pm (local time)</dd>
-<dt>Location</dt>
-<dd><address>Northern Community Recreation Centre<br>
-100 Aurora Road<br>
-Iqaluit, Nunavut</address></dd>
-</dl>
-  </div>
-</section>
-</div>
-</div>
-<div class="clearfix"></div>	
+	
 <div class="explore">
 <section id="topics">
 <h2 class="h4 mrgn-tp-sm mrgn-bttm-md">Explore related topics</h2>

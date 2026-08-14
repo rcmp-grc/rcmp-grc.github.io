@@ -15,12 +15,13 @@ custom_css: /assets/css/careers.css
 <style>
 	dl.dlist
 	{
+	font-size: inherit;
 	padding: 10px;
 	flex: 1;
 	border-top: 3px solid var(--rcmp-red);
-	border-right: 1px solid var(--c-grey-light);	
-	border-left: 1px solid var(--c-grey-light);
-	border-bottom: 1px solid var(--c-grey-light);
+	border-right: 2px solid var(--c-grey-light);	
+	border-left: 2px solid var(--c-grey-light);
+	border-bottom: 2px solid var(--c-grey-light);
     }
 	.badge-located
 	{
@@ -36,7 +37,7 @@ custom_css: /assets/css/careers.css
 	overflow: hidden;
 	width: 100%;
 }
-	#news-filters-heading {	
+	.news-filters-heading {	
 	background: var(--c-black);
 	color: var(--c-white);
 	font-weight: 700;
@@ -96,7 +97,8 @@ custom_css: /assets/css/careers.css
    margin-bottom: 0;
 }
    .btn-danger {
-   padding: 12px 15px;      
+   padding: 12px;      
+   border-radius: 0;
 }
 </style>
 <p>Read the RCMP news and communications.</p>
@@ -116,10 +118,10 @@ custom_css: /assets/css/careers.css
 </div>
 <div class="row mrgn-tp-lg" id="re-page">
 	<div class="col-md-3" id="re-sidebar">
-	<h2 class="h6" id="news-filters-heading">Search</h2>	
+	<h2 class="h6 news-filters-heading">Search</h2>	
     <aside aria-labelledby="news-filters-heading" id="news-filters"> 	 
-    <form action="#" id="cse-search-box" method="get" role="search" aria-label="Search RCMP news">	  
-    <label for="btngrp-search2" class="wb-inv">Search</label>
+    <form action="#" id="search-box" method="get" role="search" aria-label="Search RCMP news">	  
+    <label class="wb-inv">Search</label>
    <div class="input-group" id="btngrp-search2">
     <input type="text" class="form-controls" placeholder="Search news" />
 	 <span class="input-group-btn">
@@ -130,7 +132,7 @@ custom_css: /assets/css/careers.css
    </span></div>
 </form>
 		<div id="re-filters">
-		<h2 class="h6" id="news-filters-heading">Filter</h2>
+		<h2 class="h6 news-filters-heading">Filter</h2>
 		<p class="small mrgn-lft-md mrgn-tp-md">Select any of the following filters to narrow your search</p>	
 	    <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></summary>
@@ -361,7 +363,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     ['Bay St. George RCMP issue warning about counterfeit currency circulating in the area', 'Bay St. George RCMP issue warning about counterfeit currency circulating in the area', ' ', 'Organized crime', 'Bay St. George', 'Nunavut', 'Nunavut RCMP', 'Counterfeit currency circulating in the Bay St. George area', '2026-05-07', 980 ],
     ['Suspects arrested after replica handgun seen inside Morris hospital', 'Suspects arrested after replica handgun seen inside Morris hospital', ' ', 'Weapons', 'Morris', 'Manitoba', 'Manitoba RCMP', 'Suspects arrested in Morris', '2026-05-06', 741 ],
     ['RCMP seeking public’s help following counterfeit money circulation', 'RCMP seeking public’s help following counterfeit money circulation', ' ', 'Organized crime',  'Charlottetown', 'Prince Edward Island', 'Prince Edward Island RCMP', 'Seeking public’s help following counterfeit money circulation', '2026-05-05', 610 ],
-    ['Comox Valley RCMP looking to locate suspect vehicle after hit-and-run', 'Comox Valley RCMP looking to locate suspect vehicle after hit-and-run', '<span class="label label-warning">Updated</span>', 'Wanted persons', 'Comox Valley', 'British Columbia', 'British Columbia RCMP', 'Looking to locate suspect vehicle after hit-and-run', '2026-05-04', 533 ],
+    ['Comox Valley RCMP looking to locate suspect vehicle after hit-and-run', 'Comox Valley RCMP looking to locate suspect vehicle after hit-and-run', '<span class="label label-default">Updated</span>', 'Wanted persons', 'Comox Valley', 'British Columbia', 'British Columbia RCMP', 'Looking to locate suspect vehicle after hit-and-run', '2026-05-04', 533 ],
     ['Joint Forces Operations results in Multiple Drug Related Arrests', 'Joint Forces Operations Results in Multiple Drug Related Arrests', ' ', 'Illicit drugs',  'Quebec City', 'Quebec',  'Federal Policing Central Region', 'Multiple drug-related arrests', '2026-05-03', 498 ],
     ['Missing 49-year-old woman', 'Missing 49-year-old woman', '<span class="label label-danger">Located</span>', 'Missing persons', 'Steinbach', 'Manitoba', 'Federal Policing Western Region', 'Missing 49-year-old woman, last seen April 30, 2026', '2026-05-02', 412 ],
     ['Regina RCMP served an IRP on Monday morning', 'Regina RCMP served an IRP on Monday morning', ' ', 'Disturbance', 'Regina', 'Saskatchewan', 'Saskatchewan RCMP', 'Regina RCMP served an IRP', '2026-04-30', 344 ],
@@ -476,9 +478,9 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       li.setAttribute('role', 'listitem');
       li.innerHTML =
 		  '<dl class="dlist">' +
-          '<dt>' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' + '<br>' + p.badge + '</dt>' +
+          '<dt>' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' + '&nbsp;' + p.badge + '</dt>' +
 		  '<dd>' + '<div class="wb-inv">' + t.updated + '</div>' + '<ol class="list-inline"><li>' + p.updated + '&nbsp;&nbsp;' + '|' + '</li>' +  
-		  '<li>' +  '<div class="wb-inv">' + t.region + '</div>' + p.region  + '&nbsp;&nbsp;|' +  '</li>' +
+		  '<li>' + '<div class="wb-inv">' + t.region + '</div>' + p.region  + '&nbsp;&nbsp;|' +  '</li>' +
 		  '<li>' + '<div class="wb-inv">' + t.category + '</div>' + p.category + '</li></ol></dd>' +
 		  '<dd>' + '<div class="wb-inv">' + t.location + '</div>' + '<strong>' + p.location  + ',' + '&nbsp;<div class="wb-inv">' + t.territory + '</div>' + p.territory + '</strong></dd>' +
           '<dd>' + '<div class="wb-inv">' + t.summary + '</div>' + p.summary + '</dd>' +

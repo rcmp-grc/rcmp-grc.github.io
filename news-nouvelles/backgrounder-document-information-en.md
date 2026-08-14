@@ -7,6 +7,9 @@ lang: en
 lang_url: backgrounder-document-information-fr.html
 lead: Backgrounder
 issued: 2026-05-08
+breadcrumbs:
+  - label: "News and communications"
+    url: "/en/news"
 custom_css: /assets/css/careers.css
 ---
 
@@ -73,6 +76,22 @@ font-size: 1.1rem;
 }
 .location {
     color: #404040;
+}	
+a.news-topic-1:link, a.news-topic-1:visited {
+    background-color: #ebfaf0;
+    color: #14522b;
+	border-radius: 0;
+	border: 1px solid #14522b;
+	padding: 4px 10px;
+	font-size: 1rem;
+    font-weight: bold;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a.news-topic-1:hover, a.primary-topic:active {
+	background-color: #ffffff;
+    color: #14522b;
 }	
 a.news-topic-2:link, a.primary-topic:visited {
     background-color: #ffffff;
@@ -153,7 +172,7 @@ a.news-topic-2:hover, a.primary-topic:active {
 <section class="alert alert-warning">
  <h3 class="h4">Safety and wildlife message</h3>
 <p>Although Bob is a fictional mascot, polar bears are real wild animals and can be dangerous. Canadians visiting northern regions should always follow local wildlife safety guidance and instructions from authorities and community leaders.</p>
-<p><a class="btn btn-warning" role="button"><strong>Polar bear safety</strong></a></p>
+<p><a class="btn btn-warning" role="button"><strong>Follow safety guidance</strong></a></p>
 </section>		
 <p>Bob has supported awareness activities related to:</p>	
 <ul>
@@ -200,11 +219,11 @@ a.news-topic-2:hover, a.primary-topic:active {
 </ul>
 </section>
 <section id="gc-contact" class="contact-us">
-	<h3>Contact us</h3>
+	<h2 class="h3">Contact us</h2>
 	<div class="contact-signature">	
 	<div class="row wb-eqht">	
 	<div class="col-md-4">	
-    <h4 class="news-contact-h4">National Headquarters</h4>
+    <h3 class="news-contact-h4">National Headquarters</h3>
    <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
    613-555-0100</p>
 	<section class="gc-followus">
@@ -226,7 +245,7 @@ a.news-topic-2:hover, a.primary-topic:active {
 	</section>	
 	</div>	
 	<div class="col-md-4">	
-<h4 class="news-contact-h4">British Columbia RCMP</h4>
+<h3 class="news-contact-h4">British Columbia RCMP</h3>
   <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">bcrcmp-grcencb@rcmp-grc.gc.ca</a><br>
   778-290-2929</p>	
 	<section class="gc-followus">
@@ -248,7 +267,7 @@ a.news-topic-2:hover, a.primary-topic:active {
 	</section>	
 	</div>		
 	<div class="col-md-4">	
-   <h4 class="news-contact-h4">Richmond RCMP</h4>
+   <h3 class="news-contact-h4">Richmond RCMP</h3>
    <p class="news-contact-p"><a href="mailto:name@rcmp-grc.gc.ca">name@rcmp-grc.gc.ca</a><br>
    604-555-5555</p>	
 		<section class="gc-followus">
@@ -277,7 +296,7 @@ a.news-topic-2:hover, a.primary-topic:active {
 <section id="topics">	
 <h2 class="h4 mrgn-tp-sm mrgn-bttm-md">Explore related topics</h2>
 <ol class="list-inline">
-  <li><a href="#" class="news-topic-2">Community interest</a></li>
+  <li><a href="#" class="news-topic-1">Public interest</a></li>
 </ol>
 </section>
 </div>

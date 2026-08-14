@@ -33,7 +33,14 @@ custom_css: /assets/css/careers.css
 </nav>
 <section id="s1">
     <h2 class="wb-inv">Introduction</h2>
-    <p>Your journey with the RCMP begins with your expression of interest. Contact the Experienced Police Officer (EPO) Coordinator within the province or territory you wish to reside and work in to start the process. The EPO Coordinator will verify that you meet the following pre-requisites before you apply. You must:</p>
+    <p>Your journey with the RCMP begins with your expression of interest. Contact the Experienced Police Officer (EPO) Coordinator within the province or territory you wish to reside and work in to start the process.</p>
+    <p>When expressing your interest, identify the area of RCMP policing you want to pursue:</p>
+    <ul>
+      <li>Indigenous, Provincial, Territorial and Municipal Policing </li>
+      <li>National Specialized Services </li>
+      <li>Federal Policing </li>
+    </ul>
+    <p>The EPO Coordinator will verify that you meet the following pre-requisites before you apply. You must:</p>
     <ul>
         <li>have a minimum of two years full-time Canadian police service employment or equivalent (equivalent is defined as any police service employment, full-time or part-time, that amounts to a total of 2&nbsp;years' full-time police service employment)</li>
         <li>have graduated from a police training program at a recognized Canadian police training institution (Canadian Armed Forces Military Police must have successfully completed the basic police training — Qualification Level 3 — after January 1, 2001)</li>

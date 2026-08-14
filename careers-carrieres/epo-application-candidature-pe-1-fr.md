@@ -32,7 +32,14 @@ custom_css: /assets/css/careers.css
   </ul>
 </nav>
 <section id="s1">
-    <p>Votre parcours à la GRC commence en manifestant votre intérêt pour le programme. Communiquez avec le coordonnateur du Programme des policiers d'expérience (PPE) de la province ou du territoire où vous souhaitez résider et travailler pour entamer le processus. Le coordonnateur du PPE s'assurera que vous satisfaites aux exigences préalables suivantes avant la présentation de votre candidature. Vous devez&nbsp;:</p>
+    <p>Votre parcours à la GRC commence en manifestant votre intérêt pour le programme. Communiquez avec le coordonnateur du Programme des policiers d'expérience (PPE) de la province ou du territoire où vous souhaitez résider et travailler pour entamer le processus.</p>
+    <p>Lorsque vous manifestez votre intérêt, indiquez le secteur d'activités policières de la GRC dans lequel vous souhaitez faire carrière&nbsp;:</p>
+    <ul>
+      <li>Services de police autochtones, provinciaux, territoriaux et municipaux</li>
+      <li>Services nationaux spécialisés</li>
+      <li>Police fédérale</li>
+    </ul>
+    <p>Le coordonnateur du PPE s'assurera que vous satisfaites aux exigences préalables suivantes avant la présentation de votre candidature. Vous devez&nbsp;:</p>
     <ul>
         <li>Avoir au moins deux années d'expérience à temps plein dans un service de police canadien, ou l'équivalent (par «&nbsp;équivalent&nbsp;», on entend une expérience, acquise à temps plein ou à temps partiel, totalisant deux années d'expérience à temps plein);</li>
         <li>Avoir suivi un programme de formation policière sanctionné par un diplôme dans un établissement de formation policière canadien reconnu (les agents de la police militaire des Forces armées canadiennes doivent avoir suivi avec succès la formation policière de base (niveau de qualification 3) après le 1er janvier 2001);</li>

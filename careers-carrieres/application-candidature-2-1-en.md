@@ -604,11 +604,11 @@ custom_css: /assets/css/careers.css
    </div>
    </section>
   <section id="s2-6-2">
-   <h3>Part&nbsp;B – Numerical reasoning</h3>
+   <h4>Part&nbsp;B – Numerical reasoning</h4>
      <p>This section consists of math word problems. Complete the questions by selecting the answer you think is correct.</p>
       <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Example</h4>
+   <h5 class="panel-title">Example</h5>
   </header>
     <div class="panel-body">  
     <p>John made one sale of $100 and Betty made one sale of $200. What was the difference in sale between John and Betty?</p>

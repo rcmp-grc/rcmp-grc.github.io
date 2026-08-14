@@ -165,7 +165,7 @@ custom_css: /assets/css/careers.css
      <p>Cette partie de l’évaluation fait appel à vos compétences en addition et en multiplication. Vous aurez 3&nbsp;minutes pour répondre à la série de questions.</p>
      <div class="panel panel-careers">
   <header class="panel-heading">
-   <h5 class="panel-title"><strong>Exemple&nbsp;1</strong>&nbsp;:</h5>
+   <h5 class="panel-title"><strong>Exemple&nbsp;1</strong>&nbsp;</h5>
   </header>
   <div class="panel-body">
 <p>8 + 7 =</p>
@@ -207,7 +207,7 @@ custom_css: /assets/css/careers.css
      <p>Cette partie de l’évaluation fait appel à plusieurs compétences, notamment les additions, soustractions, multiplications et divisions. Vous aurez 3&nbsp;minutes pour répondre à la série de questions.</p>
     <div class="panel panel-careers">
   <header class="panel-heading">
-   <h5 class="panel-title"><strong>Exemple&nbsp;1</strong>&nbsp;:</h5>
+   <h5 class="panel-title"><strong>Exemple&nbsp;1</strong>&nbsp;</h5>
   </header>
   <div class="panel-body">
 <p>2 + 2 x 1 =</p>
@@ -293,7 +293,6 @@ custom_css: /assets/css/careers.css
   <section id="s-2-3-2">
    <h4>Partie&nbsp;B – Formes en trois&nbsp;dimensions</h4>
     <p>Cette partie contient une série de questions sur les formes en trois&nbsp;dimensions. À chaque question, sélectionnez la lettre qui correspond à la forme encadrée. Vous aurez 3&nbsp;minutes pour répondre à la série de questions.</p>
-     <p><strong>Exemple</strong>&nbsp;:</p>
     <div class="panel panel-careers">
   <header class="panel-heading">
    <h5 class="panel-title">Exemple</h5>
@@ -347,7 +346,6 @@ custom_css: /assets/css/careers.css
   <section if="s2-3-3">
     <h4>Partie&nbsp;C – Mécanique</h4>
     <p>Cette partie contient une série de questions sur la mécanique. Vous aurez 4&nbsp;minutes pour répondre à la série de questions.</p>
-       <p><strong>Exemple</strong>&nbsp;:</p>
  <div class="panel panel-careers">
   <header class="panel-heading">
    <h5 class="panel-title">Exemple</h5>
@@ -464,7 +462,7 @@ custom_css: /assets/css/careers.css
   </ul>
   <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title"><strong>Exemple&nbsp;1</strong>&nbsp;:</h4>
+   <h4 class="panel-title"><strong>Exemple&nbsp;1</strong>&nbsp;</h4>
   </header>
       <div class="panel-body">
   <div class="row wb-eqht">
@@ -511,7 +509,7 @@ custom_css: /assets/css/careers.css
        <div class="clearfix"></div> 
 <div class="panel panel-careers">
   <header class="panel-heading">
-   <h5 class="panel-title">Exemple&nbsp;2</strong>&nbsp;:</h5>
+   <h5 class="panel-title">Exemple&nbsp;2</strong>&nbsp;</h5>
   </header>
   <div class="panel-body">
   <p>Lisez le bulletin météo attentivement. Vous avez 1&nbsp;minute.</p>
@@ -533,13 +531,10 @@ custom_css: /assets/css/careers.css
   </div> 
 <div class="panel panel-careers">
   <header class="panel-heading">
-   <h5 class="panel-title">Exemple&nbsp;2&nbsp;:</h5>
+   <h5 class="panel-title">Exemple&nbsp;2&nbsp;</h5>
   </header>
   <div class="panel-body">
-  <p>Lisez le bulletin météo attentivement. Vous avez 1&nbsp;minute.</p>
-  <p>Aujourd'hui, on prévoit un ciel nuageux avec un maximum de 35&nbsp;degrés et de légers vents du sud-ouest. Pour cette nuit, on prévoit un ciel dégagé et un minimum de 23&nbsp;degrés.</p>
-  <p>Au bout d'une&nbsp;minute, une série de questions sur le bulletin météo apparaîtra. Vous aurez 45&nbsp;secondes pour répondre aux questions.</p>
-   <p>Quelle température prévoit-on pendant la nuit?</p>
+  <p>What overnight temperature is predicted?</p>
      <ol class="lst-lwr-alph">
       <li>22&nbsp;degrés</li>
       <li>23&nbsp;degrés</li>

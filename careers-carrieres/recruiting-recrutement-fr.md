@@ -133,11 +133,11 @@ custom_css: /assets/css/careers.css
     <p id="re-no-results" style="display:none;">Aucun événement ne correspond à vos filtres.</p>
     <nav aria-label="Pagination" class="rcmp-item-pagination" id="re-pagination">
       <div class="rcmp-item-pagination__prev" id="re-prev-wrap">
-        <button aria-label="Page précédente" class="rcmp-item-pagination__link" id="re-prev" type="button"><i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-left"></i> <span class="rcmp-item-pagination__link-title">Précédent <span class="rcmp-visually-hidden">page</span></span></button>
+        <button aria-label="Page précédente" class="rcmp-item-pagination__link" id="re-prev" type="button"><i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-left"></i> <span class="rcmp-item-pagination__link-title">Précédent</span></button>
       </div>
       <ul class="rcmp-item-pagination__list" id="re-page-list"></ul>
       <div class="rcmp-item-pagination__next" id="re-next-wrap">
-        <button aria-label="Page suivante" class="rcmp-item-pagination__link" id="re-next" type="button"><span class="rcmp-item-pagination__link-title">Suivant <span class="rcmp-visually-hidden">page</span></span> <i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-right"></i></button>
+        <button aria-label="Page suivante" class="rcmp-item-pagination__link" id="re-next" type="button"><span class="rcmp-item-pagination__link-title">Suivant</span> <i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-right"></i></button>
       </div>
     </nav>
   </div>

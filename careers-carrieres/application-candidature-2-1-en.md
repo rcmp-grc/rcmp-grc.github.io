@@ -140,6 +140,7 @@ custom_css: /assets/css/careers.css
        <li>Saw</li>
        <li>Broken</li>
        <li>I don't know</li>
+     </ol>
      <details class="rc-answer-toggle">
       <summary class="rc-btn rc-btn--secondary">Correct answer</summary>
     <p>The correct answer is c. Saw. You tie with a rope; you cut with a saw.</p>

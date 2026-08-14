@@ -129,10 +129,10 @@ custom_css: /assets/css/careers.css
     <p>Note the relationship between the first pair of words. Select the option that forms a similar relationship to fill the blank.</p>
      <div class="panel panel-careers">
   <header class="panel-heading">
-   <h4 class="panel-title">Example/h4>
+   <h4 class="panel-title">Example</h4>
   </header>
   <div class="panel-body">
-    <p>Tie:Rope</p>
+    <p>Tie: Rope</p>
     <p><strong>Cut</strong>:</p>
      <ol class="lst-lwr-alph"> 
        <li>Needle</li>
@@ -147,7 +147,7 @@ custom_css: /assets/css/careers.css
      </details>
   </div>
      </div>
-</section>
+  </section>
 </section>
 <section id="s2-3">
   <h3>Section&nbsp;3: Numerical skills</h3>

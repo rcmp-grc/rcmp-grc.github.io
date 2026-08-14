@@ -429,7 +429,7 @@ custom_css: /assets/css/careers.css
       10: 'Theft',
       11: 'Traffic',
       12: 'Trafficking',
-      13: 'Wanted persons'
+      13: 'Wanted persons',
 	  14: 'Weapons'
     },
   fr: {
@@ -445,7 +445,7 @@ custom_css: /assets/css/careers.css
       10: 'Theft',
       11: 'Traffic',
       12: 'Trafficking',
-      13: 'Wanted persons'
+      13: 'Wanted persons',
 	  14: 'Weapons'
     }
 	  };	  
@@ -495,8 +495,8 @@ custom_css: /assets/css/careers.css
       10: 'Nova Scotia RCMP',
       11: 'Prince Edward Island RCMP',
       12: 'RCMP Depot Division',
-      13: 'RCMP National Headquarters'
-	  14: 'Saskatchewan RCMP'
+      13: 'RCMP National Headquarters',
+	  14: 'Saskatchewan RCMP',
 	  15: 'Yukon RCMP'
        },
 	 fr: {
@@ -512,8 +512,8 @@ custom_css: /assets/css/careers.css
       10: 'Nova Scotia RCMP',
       11: 'Prince Edward Island RCMP',
       12: 'RCMP Depot Division',
-      13: 'RCMP National Headquarters'
-	  14: 'Saskatchewan RCMP'
+      13: 'RCMP National Headquarters',
+	  14: 'Saskatchewan RCMP',
 	  15: 'Yukon RCMP'
        }
   };
@@ -563,7 +563,7 @@ custom_css: /assets/css/careers.css
     return active;
   }
   function filterData(filters) {
-    return PROFILES.filter(function (p) {
+    return PROFILES.filter(function(p) {
     var okC = !filters.category.length || filters.category.indexOf(p.category) > -1;
 	var okL = !filters.location.length || filters.location.indexOf(p.location) > -1;	
 	var okT !filters.territory.length || filters.territory.indexOf(p.territory) > -1;
@@ -583,7 +583,7 @@ custom_css: /assets/css/careers.css
       var row = document.createElement('div');
       row.className = 're-filter-row';
       var label = document.createElement('span');
-      label.className = 'news-filter-row-label';
+      label.className = 're-filter-row-label';
       label.textContent = UI[LANG].catLabel[cat] + ':';
       row.appendChild(label);
       var tagsWrap = document.createElement('span');
@@ -738,7 +738,7 @@ custom_css: /assets/css/careers.css
     }
   });
   function applyQueryString() {
-    var params = new URLSearchParams(window.location.search);
+    var params = new URLSearchParams(window.name.search);
     var openCats = {};
     var pVals = params.getAll(QUERY_CATEGORY);
     pVals.forEach(function(id) {

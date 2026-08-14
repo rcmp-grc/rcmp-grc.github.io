@@ -15,6 +15,23 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
+<style>
+  .panel-careers header
+  {
+   background-color: #f3f2f1;
+   color: #000000;
+   padding: 0px 10px 0px 10px; 
+  }
+  .panel-careers .panel-body
+  {
+   border: 1px solid #f3f2f1;
+   padding: 10px 10px 0px 10px; 
+  }
+  .panel-careers .panel-title
+   {
+    font-size: 1.05em;
+   }
+</style>
 <nav aria-label="Étapes du processus de recrutement" class="gc-subway" data-sections-title="Étapes">
   <h2>Processus de recrutement des policiers et policières</h2>
   <ul>

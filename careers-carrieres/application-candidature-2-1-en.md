@@ -207,7 +207,7 @@ custom_css: /assets/css/careers.css
      <p>This part of the assessment draws on multiple skills, including addition, subtraction, multiplication and division. You will have 3&nbsp;minutes to complete the set of questions.</p>
      <div class="panel panel-careers">
   <header class="panel-heading">
-   <h5 class="panel-title">Example</h2>
+   <h5 class="panel-title">Example</h5>
   </header>
   <div class="panel-body">  
       <p>2 + 2 x 1 =</p>

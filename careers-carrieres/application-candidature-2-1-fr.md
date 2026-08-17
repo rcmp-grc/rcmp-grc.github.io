@@ -527,13 +527,6 @@ custom_css: /assets/css/careers.css
       <summary class="rc-btn rc-btn--secondary">Bonne réponse</summary>
      <p>La bonne réponse est <strong>d. Sud-ouest</strong>.</p>
      </details>
-  </div>
-  </div> 
-<div class="panel panel-careers">
-  <header class="panel-heading">
-   <h5 class="panel-title">Exemple&nbsp;</h5>
-  </header>
-  <div class="panel-body">
   <p>What overnight temperature is predicted?</p>
      <ol class="lst-lwr-alph">
       <li>22&nbsp;degrés</li>

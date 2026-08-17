@@ -264,17 +264,17 @@ custom_css: /assets/css/careers.css
  <div class="mrgn-tp-md">
    <dl class="mrgn-bttm-0">
           <dt>Forme de référence</dt>
-          <dd>Un rectangle rose vertical. Une ligne horizontale traverse le rectangle près du haut. Une ligne verticale est perpendiculaire à la ligne horizontale du côté gauche. L’intersection des deux lignes crée une forme carrée dans le coin supérieur gauche.</dd>
-          <dt>Option A</dt>
-          <dd>Un rectangle renversé et légèrement incliné dans le sens des aiguilles d’une montre. Une ligne horizontale traverse le rectangle près du haut. Une ligne verticale est perpendiculaire à la ligne horizontale du côté droit. L’intersection des deux lignes crée une forme carrée dans le coin supérieur droit. </dd>
-          <dt>Option B</dt>
-          <dd>Un rectangle inversé et légèrement incliné dans le sens inverse des aiguilles d’une montre. Une ligne horizontale traverse le rectangle près du bas. Une ligne verticale est perpendiculaire à la ligne horizontale du côté gauche. L’intersection des deux lignes crée une forme carrée dans le coin inférieur gauche.</dd>
-          <dt>Option C</dt>
-          <dd>Un rectangle tourné en diagonale, avec le coin supérieur pointant vers le haut. Une ligne horizontale traverse le rectangle près du haut. Une ligne verticale est perpendiculaire à la ligne horizontale du côté gauche. L’intersection des deux lignes crée une forme carrée dans le coin supérieur gauche.</dd>
+          <dd>Un rectangle rose vertical. Une&nbsp;ligne horizontale traverse le rectangle près du haut. Une&nbsp;ligne verticale est perpendiculaire à la ligne horizontale du côté gauche. L’intersection des deux&nbsp;lignes crée une&nbsp;forme carrée dans le coin supérieur gauche.</dd>
+          <dt>Option&nbsp;A</dt>
+          <dd>Un&nbsp;rectangle renversé et légèrement incliné dans le sens des aiguilles d’une&nbsp;montre. Une&nbsp;ligne horizontale traverse le rectangle près du haut. Une&nbsp;ligne verticale est perpendiculaire à la ligne horizontale du côté droit. L’intersection des deux&nbsp;lignes crée une&nbsp;forme carrée dans le coin supérieur droit. </dd>
+          <dt>Option&nbsp;B</dt>
+          <dd>Un&nbsp;rectangle inversé et légèrement incliné dans le sens inverse des aiguilles d’une&nbsp;montre. Une&nbsp;ligne horizontale traverse le rectangle près du bas. Une&nbsp;ligne verticale est perpendiculaire à la ligne horizontale du côté gauche. L’intersection des deux&nbsp;lignes crée une&nbsp;forme carrée dans le coin inférieur gauche.</dd>
+          <dt>Option&nbsp;C</dt>
+          <dd>Un&nbsp;rectangle tourné en diagonale, avec le coin supérieur pointant vers le haut. Une&nbsp;ligne horizontale traverse le rectangle près du haut. Une&nbsp;ligne verticale est perpendiculaire à la ligne horizontale du côté gauche. L’intersection des deux&nbsp;lignes crée une&nbsp;forme carrée dans le coin supérieur gauche.</dd>
       <dt>Option D</dt>
-          <dd>Un rectangle inversé et tourné en diagonale, avec le coin supérieur pointant vers le haut. Une ligne horizontale traverse le rectangle près du haut. Une ligne verticale est perpendiculaire à la ligne horizontale du côté droit. L’intersection des deux lignes crée une forme carrée dans le coin supérieur droit.</dd>
+          <dd>Un&nbsp;rectangle inversé et tourné en diagonale, avec le coin supérieur pointant vers le haut. Une&nbsp;ligne horizontale traverse le rectangle près du haut. Une&nbsp;ligne verticale est perpendiculaire à la ligne horizontale du côté droit. L’intersection des deux&nbsp;ignes crée une&nbsp;forme carrée dans le coin supérieur droit.</dd>
      <dt>Option E</dt>
-          <dd>Un rectangle inversé et tourné. Une ligne horizontale traverse le rectangle près du bas. Une ligne verticale est perpendiculaire à la ligne horizontale du côté gauche. L’intersection des deux lignes crée une forme carrée dans le coin inférieur gauche.</dd>
+          <dd>Un&nbsp;rectangle inversé et tourné. Une&nbsp;ligne horizontale traverse le rectangle près du bas. Une&nbsp;ligne verticale est perpendiculaire à la ligne horizontale du côté gauche. L’intersection des deux&nbsp;lignes crée une&nbsp;forme carrée dans le coin inférieur gauche.</dd>
    </dl>
  </div>
 </details>
@@ -319,15 +319,15 @@ custom_css: /assets/css/careers.css
  <div class="mrgn-tp-md">
    <dl class="mrgn-bttm-0">
           <dt>Forme de référence</dt>
-          <dd>Une forme tridimensionnelle composée de sept cubes reliés entre eux. Trois branches se rejoignent à un cube central.</dd>
-          <dt>Option A</dt>
-          <dd>Une forme tridimensionnelle composée de sept cubes reliés entre eux. Deux branches s’élèvent à partir des extrémités d’une base de trois cubes.</dd>
-          <dt>Option B</dt>
-          <dd>Une forme tridimensionnelle composée de sept cubes reliés entre eux. Deux bases de trois cubes sont reliées par un cube central.</dd>
-          <dt>Option C</dt>
-          <dd>Une forme tridimensionnelle composée de six cubes visibles reliés entre eux.</dd>
-      <dt>Option D</dt>
-          <dd>Une forme tridimensionnelle composée de sept cubes reliés entre eux. Trois branches se rejoignent à un cube central.</dd>
+          <dd>Une&nbsp;forme tridimensionnelle composée de sept&nbsp;cubes reliés entre eux. Trois&nbsp;branches se rejoignent à un&nbsp;cube central.</dd>
+          <dt>Option&nbsp;A</dt>
+          <dd>Une&nbsp;forme tridimensionnelle composée de sept&nbsp;cubes reliés entre eux. Deux&nbsp;branches s’élèvent à partir des extrémités d’une&nbsp;base de trois&nbsp;cubes.</dd>
+          <dt>Option&nbsp;B</dt>
+          <dd>Une&nbsp;forme tridimensionnelle composée de sept&nbsp;cubes reliés entre eux. Deux&nbsp;bases de trois&nbsp;cubes sont reliées par un&nbsp;cube central.</dd>
+          <dt>Option&nbsp;C</dt>
+          <dd>Une&nbsp;forme tridimensionnelle composée de six&nbsp;cubes visibles reliés entre eux.</dd>
+      <dt>Option&nbsp;D</dt>
+          <dd>Une forme tridimensionnelle composée de sept&nbsp;cubes reliés entre eux. Trois&nbsp;branches se rejoignent à un&nbsp;cube central.</dd>
    </dl>
  </div>
 </details>
@@ -373,7 +373,7 @@ custom_css: /assets/css/careers.css
  <div class="mrgn-tp-md">
    <dl class="mrgn-bttm-0">
           <dt>Forme de référence</dt>
-          <dd>Le diagramme montre une seule tige droite reliée à une base pivotante centrale. L’extrémité supérieure de la tige est étiquetée E. L’extrémité inférieure de la tige est étiquetée H. Une flèche courbe à côté de H pointe vers la droite, indiquant que la poignée H est tirée ou déplacée vers la droite.</dd>
+          <dd>Le diagramme montre une&nbsp;seule tige droite reliée à une&nbsp;base pivotante centrale. L’extrémité supérieure de la tige est étiquetée&nbsp;E. L’extrémité inférieure de la tige est étiquetée&nbsp;H. Une flèche courbe à côté de H&nbsp;pointe vers la droite, indiquant que la poignée&nbsp;H est tirée ou déplacée vers la droite.</dd>
    </dl>
  </div>
 </details>
@@ -420,15 +420,15 @@ custom_css: /assets/css/careers.css
  <div class="mrgn-tp-md">
    <dl class="mrgn-bttm-0">
           <dt>Forme dépliée</dt>
-          <dd>Une découpe bidimensionnelle composée de six sections identiques en forme de pétale qui se rétrécissent vers leur extrémité, disposées autour d’un point central. Chaque section est attachée au centre et s’étend vers l’extérieur. Les six sections sont réparties uniformément autour du centre.</dd>
-     <dt>Option A</dt>
-          <dd>Une forme tridimensionnelle pliée comportant des faces supérieures et inférieures plates en forme de polygone.</dd>
-     <dt>Option B</dt>
-          <dd>Une forme tridimensionnelle pliée en forme d’œuf, avec un anneau plus large autour du centre. La forme comporte des faces plates et de nombreux panneaux inclinés.</dd>
+          <dd>Une&nbsp;découpe bidimensionnelle composée de six sections identiques en forme de pétale qui se rétrécissent vers leur extrémité, disposées autour d’un point central. Chaque section est attachée au centre et s’étend vers l’extérieur. Les six sections sont réparties uniformément autour du centre.</dd>
+     <dt>Option&nbsp;A</dt>
+          <dd>Une&nbsp;forme tridimensionnelle pliée comportant des faces supérieures et inférieures plates en forme de polygone.</dd>
+     <dt>Option&nbsp;B</dt>
+          <dd>Une&nbsp;forme tridimensionnelle pliée en forme d’œuf, avec un&nbsp;anneau plus large autour du centre. La forme comporte des faces plates et de nombreux panneaux inclinés.</dd>
       <dt>Option C</dt>
-          <dd>Une forme tridimensionnelle pliée, symétrique et en forme d’œuf. Le haut et le bas se rétrécissent pour former de petites extrémités polygonales.</dd>
-      <dt>Option D</dt>
-          <dd>Une forme tridimensionnelle pliée irrégulière composée de plusieurs sections angulaires reliées entre elles.</dd>
+          <dd>Une&nbsp;forme tridimensionnelle pliée, symétrique et en forme d’œuf. Le haut et le bas se rétrécissent pour former de petites extrémités polygonales.</dd>
+      <dt>Option&nbsp;D</dt>
+          <dd>Une&nbsp;forme tridimensionnelle pliée irrégulière composée de plusieurs sections angulaires reliées entre elles.</dd>
    </dl>
  </div>
 </details>
@@ -448,12 +448,12 @@ custom_css: /assets/css/careers.css
 <section id="s2-4">
   <h3>Section&nbsp;5&nbsp;: Quotient de mémoire</h3>
   <ul>
-    <li>Vous disposerez d'un laps de temps limité pour mémoriser une image, une&nbsp;liste de nombres ou un texte écrit. Ensuite, vous devrez répondre à des questions de mémoire</li>
+    <li>Vous disposerez d'un&nbsp;laps de temps limité pour mémoriser une image, une&nbsp;liste de nombres ou un texte écrit. Ensuite, vous devrez répondre à des questions de mémoire</li>
     <li>Cette section devrait prendre environ 25&nbsp;minutes</li>
     <li>Cette section doit être faite en une&nbsp;seule fois</li>
     <li>Assurez-vous de vous installer dans un endroit silencieux où vous pourrez vous concentrer sans interruption et sans source de distraction</li>
     <li>Répondez à toutes les questions du mieux que vous le pouvez. Il est interdit d'utiliser quelque outil que ce soit ou de demander l'aide de quelqu'un</li>
-    <li>Vous aurez 1&nbsp;minute pour observer une image sur la page. Ensuite, vous devrez répondre à une série de questions sur l'image que vous venez de regarder</li>
+    <li>Vous aurez 1&nbsp;minute pour observer une image sur la page. Ensuite, vous devrez répondre à une&nbsp;série de questions sur l'image que vous venez de regarder</li>
     <li>Vous aurez 45&nbsp;secondes pour répondre aux questions</li>
     <li>Vous obtiendrez 1&nbsp;point par bonne réponse</li>
     <li>Vous pouvez passer des questions. Si vous ne connaissez pas la réponse à une question, veuillez sélectionner la réponse «&nbsp;Je ne sais pas&nbsp;»</li>
@@ -487,12 +487,12 @@ custom_css: /assets/css/careers.css
  </summary>
  <div class="mrgn-tp-md">
    <dl class="mrgn-bttm-0">
-          <dt>Forme 1</dt>
+          <dt>Forme&nbsp;1</dt>
           <dd>Un triangle bleu.</dd>
-     <dt>Forme 2</dt>
-          <dd>Un losange rouge.</dd>
-     <dt>Forme 3</dt>
-          <dd>Un cercle noir.</dd>
+     <dt>Forme&nbsp;2</dt>
+          <dd>Un&nbsp;losange rouge.</dd>
+     <dt>Forme&nbsp;3</dt>
+          <dd>Un&nbsp;cercle noir.</dd>
    </dl>
  </div>
 </details>
@@ -513,8 +513,8 @@ custom_css: /assets/css/careers.css
   </header>
   <div class="panel-body">
   <p>Lisez le bulletin météo attentivement. Vous avez 1&nbsp;minute.</p>
-  <p>Aujourd'hui, on prévoit un ciel nuageux avec un maximum de 35&nbsp;degrés et de légers vents du sud-ouest. Pour cette nuit, on prévoit un ciel dégagé et un minimum de 23&nbsp;degrés.</p>
-  <p>Au bout d'une&nbsp;minute, une série de questions sur le bulletin météo apparaîtra. Vous aurez 45&nbsp;secondes pour répondre aux questions.</p>
+  <p>Aujourd'hui, on prévoit un&nbsp;ciel nuageux avec un maximum de 35&nbsp;degrés et de légers vents du sud-ouest. Pour cette nuit, on prévoit un&nbsp;ciel dégagé et un&nbsp;minimum de 23&nbsp;degrés.</p>
+  <p>Au bout d'une&nbsp;minute, une&nbsp;série de questions sur le bulletin météo apparaîtra. Vous aurez 45&nbsp;secondes pour répondre aux questions.</p>
   <p>De quelle direction vient le vent?</p>
      <ol class="lst-lwr-alph">
       <li>Nord-est</li>
@@ -527,7 +527,7 @@ custom_css: /assets/css/careers.css
       <summary class="rc-btn rc-btn--secondary">Bonne réponse</summary>
      <p>La bonne réponse est <strong>d. Sud-ouest</strong>.</p>
      </details>
-  <p>What overnight temperature is predicted?</p>
+  <p>Quelle température prévoit-on pendant la nuit?</p>
      <ol class="lst-lwr-alph">
       <li>22&nbsp;degrés</li>
       <li>23&nbsp;degrés</li>
@@ -548,12 +548,12 @@ custom_css: /assets/css/careers.css
     <li>Répondez à toutes les questions du mieux que vous le pouvez</li>
     <li>Cette section devrait prendre environ 25&nbsp;minutes</li>
     <li>Si vous ne connaissez pas la réponse à une question, veuillez sélectionner la réponse «&nbsp;Je ne sais pas&nbsp;»</li>
-    <li>Pour répondre aux questions, vous ne pouvez utiliser qu'un stylo et du papier. Il est interdit d'utiliser une calculatrice, d'utiliser un logiciel ou de demander l'aide de quelqu'un</li>
+    <li>Pour répondre aux questions, vous ne pouvez utiliser qu'un&nbsp;stylo et du papier. Il est interdit d'utiliser une&nbsp;calculatrice, d'utiliser un&nbsp;logiciel ou de demander l'aide de quelqu'un</li>
   </ul>
   <p>Il y aura un compte à rebours au bas de la page.</p>
    <section id="s2-4-1">
    <h3>Partie&nbsp;A – Raisonnement verbal</h3>
-     <p>D'abord, établissez le lien qui unit les deux premiers mots indiqués. Ensuite, sélectionnez le mot qui forme avec le troisième mot un lien semblable à celui qui unit les deux premiers mots.</p>
+     <p>D'abord, établissez le lien qui unit les deux&nbsp;premiers mots indiqués. Ensuite, sélectionnez le mot qui forme avec le troisième mot un&nbsp;lien semblable à celui qui unit les deux&nbsp;premiers mots.</p>
 <div class="panel panel-careers">
   <header class="panel-heading">
    <h4 class="panel-title">Exemple&nbsp;1&nbsp;</h4>
@@ -578,7 +578,7 @@ custom_css: /assets/css/careers.css
    <h5 class="panel-title">Exemple&nbsp;2&nbsp;</h5>
   </header>
   <div class="panel-body">
-<p>Une entreprise a pour politique que tout le monde dans l'usine doit porter des lunettes de protection. Mercredi dernier, des visiteurs ne portaient pas de lunettes de protection dans l'usine. Est-ce que les règles de la politique ont été enfreintes mercredi dernier?</p>
+<p>Une&nbsp;entreprise a pour politique que tout le monde dans l'usine doit porter des lunettes de protection. Mercredi dernier, des visiteurs ne portaient pas de lunettes de protection dans l'usine. Est-ce que les règles de la politique ont été enfreintes mercredi dernier?</p>
      <ol class="lst-lwr-alph">
       <li>Oui</li>
       <li>On ne peut pas le déterminer</li>
@@ -599,7 +599,7 @@ custom_css: /assets/css/careers.css
    <h5 class="panel-title">Exemple</h5>
   </header>
   <div class="panel-body">
- <p>John a fait une vente de 100&nbsp;$ et Betty a fait une vente de 200&nbsp;$. Quelle est la différence entre les ventes de John et de Betty?</p>
+ <p>John a fait une&nbsp;vente de 100&nbsp;$ et Betty a fait une&nbsp;vente de 200&nbsp;$. Quelle est la différence entre les ventes de John et de Betty?</p>
      <ol class="lst-lwr-alph">
       <li>300&nbsp;$</li>
       <li>100&nbsp;$</li>

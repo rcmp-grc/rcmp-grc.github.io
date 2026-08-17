@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: Applying as an Experienced Police Officer
+title: Tailor your Experienced Police Officer application
 date_modified: 2026-07-13
 lang: en
 lang_url: epo-application-candidature-pe-2-1-fr.html
@@ -21,7 +21,7 @@ custom_css: /assets/css/careers.css
     <li><a href="epo-application-candidature-pe-1-en.html">Express interest</a></li>
     <li><a href="epo-application-candidature-pe-2-en.html">Submit forms</a>
         <ul class="noline">
-            <li><a class="active" href="epo-application-candidature-pe-2-1-en.html">Applying as an Experienced Police Officer</a></li>
+            <li><a class="active" href="epo-application-candidature-pe-2-1-en.html">Tailor your Experienced Police Officer application</a></li>
         </ul>
     </li>
     <li><a href="epo-application-candidature-pe-3-en.html">Pass the Police Fitness Assessment</a></li>

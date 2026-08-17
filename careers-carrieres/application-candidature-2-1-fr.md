@@ -80,7 +80,10 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s2">
   <h2>Exemple de l’évaluation</h2>
-  <p><strong>Remarque</strong>&nbsp;: Cet exemple est fourni à titre indicatif seulement. Il montre les types de questions que vous pouvez voir dans l’évaluation. Il n’est pas interactif et les réponses ne peuvent pas être sélectionnées ou soumises.</p>
+  <section class="alert alert-info">
+     <h3 class="h4">Remarque</h3>
+     <p>Cet exemple est fourni à titre indicatif seulement. Il montre les types de questions que vous pouvez voir dans l’évaluation. Il n’est pas interactif et les réponses ne peuvent pas être sélectionnées ou soumises.</p>
+   </section>
   <section id="s2-1">
   <h3>Section&nbsp;1&nbsp;: Préférence de style de travail</h3>
       <ul>

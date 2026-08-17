@@ -34,7 +34,10 @@ custom_css: /assets/css/careers.css
 	</section>
 	<section id="s2" class="col-md-6">
 		<h2>Civilian careers</h2>
-		<p>Lorem ipsum dolor set amit.</p>
+		<p></p>
+		<ul class="lst-spcd-2">
+			<li>Reflect on the <a href="/en/corporate-information/royal-canadian-mounted-police-core-values">RCMP Core Values</a> to make sure your personal values align</li>
+		</ul>
 		<section id="s1-1">
 			<h3>Curious about civilian jobs?</h3>
 			<p><a href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?department=108&toggleLanguage=en" class="btn btn-call-to-action">Explore current opportunities on GC&nbsp;Jobs</a></p>
@@ -45,8 +48,8 @@ custom_css: /assets/css/careers.css
 <section id="s2">
 	<h2>Related links</h2>
 	<ul>
-		<li><a href="/en/careers-rcmp/police-officer-careers/career-paths">Career paths: browse the specialized roles across the RCMP</a></li>
+		<li><a href="/en/careers-rcmp/police-officer-careers/career-paths">Career Paths: browse the specialized roles across the RCMP</a></li>
 		<li><a href="/en/careers-rcmp/rcmp-cadet-hub">Cadet Hub: what to expect at Depot, the RCMP training academy</a></li>
-		<li><a href="/en/careers-rcmp/police-officer-careers/experienced-police-officers">Experienced police officers: review the unique application process for police officers considering a career with the RCMP</a></li>
+		<li><a href="/en/careers-rcmp/police-officer-careers/experienced-police-officers">Experienced Police Officers: review the unique application process for police officers considering a career with the RCMP</a></li>
 	</ul>
 </section>

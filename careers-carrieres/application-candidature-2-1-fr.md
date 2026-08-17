@@ -411,7 +411,7 @@ custom_css: /assets/css/careers.css
   </div>
   <div class="col-md-6">  
     <figure>
-      <img alt="" aria-describedby="mécanique-description" class="img-responsive full-width" src="/assets/img/ex-3.png">
+      <img alt="" aria-describedby="mécanique-description" class="img-responsive full-width" src="/assets/img/ex-4.png">
       <figcaption class="mrgn-tp-md">
 <details class="mrgn-bttm-sm" id="prismes-déconstruits-description">
  <summary>

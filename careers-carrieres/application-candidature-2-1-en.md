@@ -70,8 +70,8 @@ custom_css: /assets/css/careers.css
   <section id="s1-1">
   <h3>Before you begin </h3>
     <ul>
-<li>Schedule approximately 50 to 70 minutes to complete the assessment</li>
-<li>Plan to complete the assessment in one session</li>
+<li>Schedule approximately 50 to 70&nbsp;minutes to complete the assessment</li>
+<li>Plan to complete the assessment in one&nbsp;session</li>
 <li>Ensure a quiet environment where you can focus and avoid distractions</li>
 <li>Plan to complete the assessment on a laptop or desktop computer</li>
 <li>Ensure you have a stable Wi-Fi connection and power source to complete the assessment without interruption</li>
@@ -264,17 +264,17 @@ custom_css: /assets/css/careers.css
  <div class="mrgn-tp-md">
    <dl class="mrgn-bttm-0">
           <dt>Reference shape</dt>
-          <dd>An upright pink rectangle. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the top left corner.</dd>
+          <dd>An upright pink rectangle. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the top left corner.</dd>
           <dt>Option A</dt>
-          <dd>A rectangle flipped and tilted slightly clockwise. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two lines creates a square shape in the top right corner. </dd>
+          <dd>A rectangle flipped and tilted slightly clockwise. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two&nbsp;lines creates a square shape in the top right corner. </dd>
           <dt>Option B</dt>
-          <dd>A rectangle flipped and tilted slightly counterclockwise. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the bottom left corner.</dd>
+          <dd>A rectangle flipped and tilted slightly counterclockwise. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the bottom left corner.</dd>
           <dt>Option C</dt>
-          <dd>A rectangle rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the top left corner. </dd>
+          <dd>A rectangle rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the top left corner. </dd>
       <dt>Option D</dt>
-          <dd>A rectangle flipped and rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two lines creates a square shape in the top right corner.</dd>
+          <dd>A rectangle flipped and rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two&nbsp;lines creates a square shape in the top right corner.</dd>
      <dt>Option E</dt>
-          <dd>A rectangle if flipped and rotated. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the bottom left corner.</dd>
+          <dd>A rectangle if flipped and rotated. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the bottom left corner.</dd>
    </dl>
  </div>
 </details>
@@ -292,7 +292,7 @@ custom_css: /assets/css/careers.css
    </section>
   <section id="s2-4-2">
    <h4>Part&nbsp;B – 3D&nbsp;shapes</h4>
-    <p>You will be asked a series of questions related to 3D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3 minutes to complete the set of questions.</p>
+    <p>You will be asked a series of questions related to 3D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3&nbsp;minutes to complete the set of questions.</p>
     <div class="panel panel-careers">
   <header class="panel-heading">
    <h5 class="panel-title">Example</h5>
@@ -319,15 +319,15 @@ custom_css: /assets/css/careers.css
  <div class="mrgn-tp-md">
    <dl class="mrgn-bttm-0">
           <dt>Reference shape</dt>
-          <dd>A three-dimensional shape made of seven connected cubes. Three&nbsp;arms meet at a central cube. </dd>
+          <dd>A three-dimensional&nbsp;shape made of seven&nbsp;connected cubes. Three&nbsp;arms meet at a central&nbsp;cube. </dd>
           <dt>Option A</dt>
-          <dd>A three-dimensional shape made of seven connected cubes. Two arms build up from the ends of a three-cubed base. </dd>
+          <dd>A three-dimensional&nbsp;shape made of seven&nbsp;connected cubes. Two&nbsp;arms build up from the ends of a three-cubed&nbsp;base. </dd>
           <dt>Option B</dt>
-          <dd>A three-dimensional shape made of seven connected cubes. Two three-cubed bases are connected by one central cube.</dd>
+          <dd>A three-dimensional&nbsp;shape made of seven&nbsp;connected cubes. Two three-cubed&nbsp;bases are connected by one&nbsp;central cube.</dd>
           <dt>Option C</dt>
-          <dd>A three-dimensional shape made of six visible connected cubes. </dd>
+          <dd>A three-dimensional&nbsp;shape made of six&nbsp;visible connected cubes. </dd>
       <dt>Option D</dt>
-          <dd>A three-dimensional shape made of seven connected cubes. Three arms meet at a central cube. </dd>
+          <dd>A three-dimensional&nbsp;shape made of seven&nbsp;connected cubes. Three&nbsp;arms meet at a central&nbsp;cube. </dd>
    </dl>
  </div>
 </details>
@@ -353,7 +353,7 @@ custom_css: /assets/css/careers.css
   <div class="panel-body">
   <div class="row wb-eqht">
   <div class="col-md-6">
- <p>When handle H is pulled to the right, as shown by the arrow, end E will:</p> 
+ <p>When handle&nbsp;H is pulled to the right, as shown by the arrow, end&nbsp;E will:</p> 
     <ol class="lst-lwr-alph">
      <li>Move to the left</li> 
      <li>Move to the right</li>
@@ -373,7 +373,7 @@ custom_css: /assets/css/careers.css
  <div class="mrgn-tp-md">
    <dl class="mrgn-bttm-0">
           <dt>Reference shape</dt>
-          <dd>The diagram shows a single straight rod connected through a central pivot base. The top end of the rod is labelled E. The bottom end of the rod is labelled H. A curved arrow beside H points to the right, indicating that handle H is pulled or moved to the right. </dd>
+          <dd>The diagram shows a single straight rod connected through a central pivot base. The top end of the rod is labelled&nbsp;E. The bottom end of the rod is labelled&nbsp;H. A curved arrow beside H&nbsp;points to the right, indicating that handle&nbsp;H is pulled or moved to the right. </dd>
    </dl>
  </div>
 </details>
@@ -419,15 +419,15 @@ custom_css: /assets/css/careers.css
  <div class="mrgn-tp-md">
    <dl class="mrgn-bttm-0">
           <dt>Unfolded shape</dt>
-          <dd>A two-dimensional cutout made of six identical petal-like sections that taper, arranged around a central point. Each section is attached to the centre and extends outward. The six sections are evenly spaced around the centre. </dd>
+          <dd>A two-dimensional&nbsp;cutout made of six&nbsp;identical petal-like sections that taper, arranged around a central point. Each section is attached to the centre and extends outward. The six&nbsp;sections are evenly spaced around the centre. </dd>
      <dt>Option A</dt>
-          <dd>A folded three-dimensional shape with top and bottom flat polygon-shaped faces.</dd>
+          <dd>A folded three-dimensional&nbsp;shape with top and bottom flat polygon-shaped faces.</dd>
       <dt>Option B</dt>
-          <dd>A folded three-dimensional egg-like shape with a wider ring around the centre. The shape has flat faces and many angled panels.</dd>
+          <dd>A folded three-dimensional&nbsp;egg-like shape with a wider ring around the centre. The shape has flat faces and many angled panels.</dd>
      <dt>Option C</dt>
-          <dd>A folded three-dimensional symmetrical egg-like shape. The top and bottom taper to smaller polygon-shaped ends.</dd>
+          <dd>A folded three-dimensional&nbsp;symmetrical egg-like shape. The top and bottom taper to smaller polygon-shaped ends.</dd>
      <dt>Option D</dt>
-          <dd>An irregular folded three-dimensional shape made of several connected angled sections.</dd>
+          <dd>An irregular folded three-dimensional&nbsp;shape made of several&nbsp;connected angled sections.</dd>
    </dl>
  </div>
 </details>
@@ -466,7 +466,7 @@ custom_css: /assets/css/careers.css
       <div class="panel-body">
   <div class="row wb-eqht">
   <div class="col-md-6">
-    <p>Study this image of a group of objects; you have a 30-second time limit.</p>
+    <p>Study this image of a group of objects; you have a 30-second&nbsp;time limit.</p>
     <p>What is the colour of the circle?</p>
     <ol class="lst-lwr-alph">
     <li>Red</li>
@@ -487,11 +487,11 @@ custom_css: /assets/css/careers.css
  </summary>
  <div class="mrgn-tp-md">
    <dl class="mrgn-bttm-0">
-     <dt>Shape 1</dt>
+     <dt>Shape&nbsp;1</dt>
           <dd>A blue triangle. </dd>
-      <dt>Shape 2</dt>
+      <dt>Shape&nbsp;2</dt>
           <dd>A red diamond. </dd>
-     <dt>Shape 3</dt>
+     <dt>Shape&nbsp;3</dt>
           <dd>A black circle. </dd>
    </dl>
  </div>
@@ -512,7 +512,7 @@ custom_css: /assets/css/careers.css
    <h5 class="panel-title">Example&nbsp;2</h5>
   </header>
   <div class="panel-body">
-    <p>Read the weather report carefully; you have a 1-minute time limit.</p>
+    <p>Read the weather report carefully; you have a 1-minute&nbsp;time limit.</p>
   <p>The forecast calls for cloudy skies today with a high of 35&nbsp;degrees and light winds from the southwest. Clearing overnight with a low of 23&nbsp;degrees.</p>
   <p>After the time limit has elapsed, the screen will advance to a set of questions about the text. You will have 45&nbsp;seconds to answer the questions.</p>
      <p>Which direction is the wind coming from?</p>
@@ -562,7 +562,7 @@ custom_css: /assets/css/careers.css
   </header>
   <div class="panel-body">  
     <p>Up: Down</p>
-  <p><strong>Left:</strong></p>
+  <p><strong>Left</strong>:</p>
    <ol class="lst-lwr-alph">
     <li>High</li>
     <li>Right</li>

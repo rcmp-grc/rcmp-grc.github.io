@@ -11,7 +11,6 @@ breadcrumbs:
     url: "careers-carrieres/officer-agent-en.html"
 custom_css: /assets/css/careers.css
 ---
-
 <p class="lead">A career with the RCMP is one with big impact and endless opportunities to grow.</p>
 <div class="row">
 	<section id="s1" class="col-md-6">
@@ -35,9 +34,11 @@ custom_css: /assets/css/careers.css
 	<section id="s2" class="col-md-6">
 		<h2>Civilian careers</h2>
 		<p></p>
-		<ul class="lst-spcd-2">
-			<li>Reflect on the <a href="/en/corporate-information/royal-canadian-mounted-police-core-values">RCMP Core Values</a> to make sure your personal values align</li>
-		</ul>
+		<div class="well">
+			<ul class="lst-spcd-2">
+				<li>Reflect on the <a href="/en/corporate-information/royal-canadian-mounted-police-core-values">RCMP Core Values</a> to make sure your personal values align</li>
+			</ul>
+		</div>
 		<section id="s1-1">
 			<h3>Curious about civilian jobs?</h3>
 			<p><a href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?department=108&toggleLanguage=en" class="btn btn-call-to-action">Explore current opportunities on GC&nbsp;Jobs</a></p>

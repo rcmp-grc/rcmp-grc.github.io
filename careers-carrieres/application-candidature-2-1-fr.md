@@ -509,7 +509,7 @@ custom_css: /assets/css/careers.css
        <div class="clearfix"></div> 
 <div class="panel panel-careers">
   <header class="panel-heading">
-   <h5 class="panel-title">Exemple&nbsp;2</strong>&nbsp;</h5>
+   <h5 class="panel-title">Exemple&nbsp;2>&nbsp;</h5>
   </header>
   <div class="panel-body">
   <p>Lisez le bulletin météo attentivement. Vous avez 1&nbsp;minute.</p>
@@ -531,7 +531,7 @@ custom_css: /assets/css/careers.css
   </div> 
 <div class="panel panel-careers">
   <header class="panel-heading">
-   <h5 class="panel-title">Exemple&nbsp;2&nbsp;</h5>
+   <h5 class="panel-title">Exemple&nbsp;</h5>
   </header>
   <div class="panel-body">
   <p>What overnight temperature is predicted?</p>

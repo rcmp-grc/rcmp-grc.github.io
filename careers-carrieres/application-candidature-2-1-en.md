@@ -506,16 +506,15 @@ custom_css: /assets/css/careers.css
     </details>   
     </div>
     </div>
-       <div class="clearfix"></div> 
-  <h4>Example&nbsp;2</h4>
-  <p>Read the weather report carefully; you have a 1-minute time limit.</p>
-  <p>The forecast calls for cloudy skies today with a high of 35&nbsp;degrees and light winds from the southwest. Clearing overnight with a low of 23&nbsp;degrees.</p>
-  <p>After the time limit has elapsed, the screen will advance to a set of questions about the text. You will have 45&nbsp;seconds to answer the questions.</p>
+       <div class="clearfix"></div>   
   <div class="panel panel-careers">
   <header class="panel-heading">
-   <h5 class="panel-title">Question&nbsp;1</h5>
+   <h5 class="panel-title">Example&nbsp;2</h5>
   </header>
   <div class="panel-body">
+    <p>Read the weather report carefully; you have a 1-minute time limit.</p>
+  <p>The forecast calls for cloudy skies today with a high of 35&nbsp;degrees and light winds from the southwest. Clearing overnight with a low of 23&nbsp;degrees.</p>
+  <p>After the time limit has elapsed, the screen will advance to a set of questions about the text. You will have 45&nbsp;seconds to answer the questions.</p>
      <p>Which direction is the wind coming from?</p>
      <ol class="lst-lwr-alph">
      <li>Northeast</li> 
@@ -529,13 +528,6 @@ custom_css: /assets/css/careers.css
       <summary class="rc-btn rc-btn--secondary">Correct answer</summary>
      <p>The correct answer is <strong>d. Southwest</strong>.</p>
      </details>
-  </div>
-  </div> 
-   <div class="panel panel-careers">
-  <header class="panel-heading">
-   <h5 class="panel-title">Question&nbsp;2</h5>
-  </header>
-  <div class="panel-body">  
          <p>What overnight temperature is predicted?</p>
     <ol class="lst-lwr-alph">
       <li>22&nbsp;degrees</li>

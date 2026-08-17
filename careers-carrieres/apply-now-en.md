@@ -33,7 +33,7 @@ custom_css: /assets/css/careers.css
 	</section>
 	<section id="s2" class="col-md-6">
 		<h2>Civilian careers</h2>
-		<p></p>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab rem architecto cupiditate recusandae culpa. Dignissimos omnis fuga sapiente, nesciunt sunt qui adipisci recusandae tempora eum esse, veritatis ad libero quaerat!</p>
 		<div class="well">
 			<ul class="lst-spcd-2">
 				<li>Reflect on the <a href="/en/corporate-information/royal-canadian-mounted-police-core-values">RCMP Core Values</a> to make sure your personal values align</li>

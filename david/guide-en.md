@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: RCMP Online Assessment Preparatory Guide
-date_modified: 2026-07-08
+date_modified: 2026-08-17
 lang: en
 lang_url: guide-fr.html
 lead: Police officer application process
@@ -15,22 +15,7 @@ url: "careers-carrieres/application-candidature-en.html"
 custom_css: /assets/css/careers.css
 ---
 
-<style>
-	.panel-careers header {
-		background-color: #f3f2f1;
-		color: #000000;
-		padding: 0px 10px 0px 10px;
-	}
 
-	.panel-careers .panel-body {
-		border: 1px solid #f3f2f1;
-		padding: 10px 10px 0px 10px;
-	}
-
-	.panel-careers .panel-title {
-		font-size: 1.05em;
-	}
-</style>
 <nav aria-label="Application process steps" class="gc-subway" data-sections-title="Steps">
 	<h2>Police officer application process</h2>
 	<ul>
@@ -130,30 +115,33 @@ custom_css: /assets/css/careers.css
 					</details>
 				</footer>
 			</div>
-
 		</section>
 		<section id="s2-2-2">
 			<h3>Part&nbsp;B – Word relationships</h3>
 			<p>Note the relationship between the first pair of words. Select the option that forms a similar relationship to fill the blank.</p>
-			<div class="panel">
-				<header class="panel-heading">
-					<h4 class="panel-title">Example</h4>
-				</header>
+			<div class="panel panel-default mrgn-bttm-lg">
+				<p class="panel-heading">Example 2<br><b>Word relationships</b></p>
 				<div class="panel-body">
-					<p>Tie: Rope</p>
-					<p><strong>Cut</strong>:</p>
-					<ol class="lst-lwr-alph">
-						<li>Needle</li>
-						<li>Repair</li>
-						<li>Saw</li>
-						<li>Broken</li>
-						<li>I don't know</li>
-					</ol>
-					<details class="rc-answer-toggle">
-						<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
-						<p>The correct answer is c. Saw. You tie with a rope; you cut with a saw.</p>
-					</details>
+					<dl>
+						<dt>Tie&nbsp;: Rope<br>
+							Cut&nbsp;: ?</dt>
+						<dd>
+							<ol class="lst-lwr-alph">
+								<li>Needle</li>
+								<li>Repair</li>
+								<li>Saw</li>
+								<li>Broken</li>
+								<li>I don't know</li>
+							</ol>
+						</dd>
+					</dl>
 				</div>
+				<footer class="panel-footer">
+					<details class="mrgn-tp-sm print-open">
+						<summary>Correct answer</summary>
+						<p>c. Saw – You tie with a rope; you cut with a saw.</p>
+					</details>
+				</footer>
 			</div>
 		</section>
 	</section>
@@ -171,66 +159,78 @@ custom_css: /assets/css/careers.css
 		<section id="s2-3-1">
 			<h4>Part&nbsp;A – Level&nbsp;1 calculations</h4>
 			<p>This part of the assessment draws on your addition and multiplication skills. You have 3&nbsp;minutes to complete the set of questions.</p>
-			<div class="panel">
-				<header class="panel-heading">
-					<h5 class="panel-title">Example&nbsp;1</h5>
-				</header>
+			<div class="panel panel-default mrgn-bttm-lg">
+				<p class="panel-heading">Example 3<br><b>Level&nbsp;1 calculations</b></p>
 				<div class="panel-body">
-					<p>Find the answer to this math equation:<br>8 + 7 =</p>
-					<ol class="lst-lwr-alph">
-						<li>12</li>
-						<li>13</li>
-						<li>15</li>
-						<li>16</li>
-						<li>I don't know</li>
-					</ol>
-					<details class="rc-answer-toggle">
-						<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
-						<p>The correct answer is <strong>c. 15</strong>.</p>
-					</details>
+					<dl>
+						<dt>8&nbsp;+&nbsp;7&nbsp;=</dt>
+						<dd>
+							<ol class="lst-lwr-alph">
+								<li>12</li>
+								<li>13</li>
+								<li>15</li>
+								<li>16</li>
+								<li>I don't know</li>
+							</ol>
+						</dd>
+					</dl>
 				</div>
+				<footer class="panel-footer">
+					<details class="mrgn-tp-sm print-open">
+						<summary>Correct answer</summary>
+						<p>c. 15</p>
+					</details>
+				</footer>
 			</div>
-			<div class="panel">
-				<header class="panel-heading">
-					<h5 class="panel-title">Example 2</h5>
-				</header>
+			<div class="panel panel-default mrgn-bttm-lg">
+				<p class="panel-heading">Example 4<br><b>Level&nbsp;1 calculations</b></p>
 				<div class="panel-body">
-					<p>5 x 5 =</p>
-					<ol class="lst-lwr-alph">
-						<li>10</li>
-						<li>25</li>
-						<li>36</li>
-						<li>50</li>
-						<li>I don't know</li>
-					</ol>
-					<details class="rc-answer-toggle">
-						<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
-						<p>The correct answer is <strong>b. 25</strong>.</p>
-					</details>
+					<dl>
+						<dt>5 x 5 =</dt>
+						<dd>
+							<ol class="lst-lwr-alph">
+								<li>10</li>
+								<li>25</li>
+								<li>36</li>
+								<li>50</li>
+								<li>I don't know</li>
+							</ol>
+						</dd>
+					</dl>
 				</div>
+				<footer class="panel-footer">
+					<details class="mrgn-tp-sm print-open">
+						<summary>Correct answer</summary>
+						<p>b. 25</p>
+					</details>
+				</footer>
 			</div>
 		</section>
 		<section id="s2-3-2">
 			<h4>Part&nbsp;B – Level&nbsp;2 calculations</h4>
 			<p>This part of the assessment draws on multiple skills, including addition, subtraction, multiplication and division. You will have 3&nbsp;minutes to complete the set of questions.</p>
-			<div class="panel">
-				<header class="panel-heading">
-					<h5 class="panel-title">Example</h5>
-				</header>
+			<div class="panel panel-default mrgn-bttm-lg">
+				<p class="panel-heading">Example 5<br><b>Level&nbsp;2 calculations</b></p>
 				<div class="panel-body">
-					<p>2 + 2 x 1 =</p>
-					<ol class="lst-lwr-alph">
-						<li>2</li>
-						<li>3</li>
-						<li>4</li>
-						<li>0</li>
-						<li>I don't know</li>
-					</ol>
-					<details class="rc-answer-toggle">
-						<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
-						<p>The correct answer is <strong>c. 4</strong>.</p>
-					</details>
+					<dl>
+						<dt>2 + 2 x 1 =</dt>
+						<dd>
+							<ol class="lst-lwr-alph">
+								<li>2</li>
+								<li>3</li>
+								<li>4</li>
+								<li>0</li>
+								<li>I don't know</li>
+							</ol>
+						</dd>
+					</dl>
 				</div>
+				<footer class="panel-footer">
+					<details class="mrgn-tp-sm print-open">
+						<summary>Correct answer</summary>
+						<p>c. 4</p>
+					</details>
+				</footer>
 			</div>
 		</section>
 	</section>
@@ -250,11 +250,27 @@ custom_css: /assets/css/careers.css
 			<div class="panel panel-default mrgn-bttm-lg">
 				<p class="panel-heading">Example 6<br><b>Rotating 2D shapes</b></p>
 				<div class="panel-body">
-
-
-
 					<dl>
-						<dt>Glad</dt>
+						<dt>
+							<img alt="SHORT_DESCRIPTION" aria-describedby="f1-desc" class="full-width img-responsive" src="/assets/img/ex-1.png">
+							<details class="mrgn-tp-sm print-open" id="f1-desc">
+								<summary>Text version</summary>
+								<dl class="mrgn-bttm-0">
+									<dt>Reference shape</dt>
+									<dd>An upright pink rectangle. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the top left corner.</dd>
+									<dt>Option A</dt>
+									<dd>A rectangle flipped and tilted slightly clockwise. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two&nbsp;lines creates a square shape in the top right corner.</dd>
+									<dt>Option B</dt>
+									<dd>A rectangle flipped and tilted slightly counterclockwise. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the bottom left corner.</dd>
+									<dt>Option C</dt>
+									<dd>A rectangle rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the top left corner.</dd>
+									<dt>Option D</dt>
+									<dd>A rectangle flipped and rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two&nbsp;lines creates a square shape in the top right corner.</dd>
+									<dt>Option E</dt>
+									<dd>A rectangle if flipped and rotated. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the bottom left corner.</dd>
+								</dl>
+							</details>
+						</dt>
 						<dd>
 							<ol class="lst-lwr-alph">
 								<li>Shape A</li>
@@ -274,83 +290,42 @@ custom_css: /assets/css/careers.css
 					</details>
 				</footer>
 			</div>
+</section>
+
+<!-- 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-			<div class="panel">
-				<header class="panel-heading">
-					<h5 class="panel-title">Example</h5>
-				</header>
-				<div class="panel-body">
-
-					<figure id="f1" class="panel panel-default mrgn-bttm-lg">
-						<figcaption class="panel-heading">Example 1</figcaption>
-						<div class="panel-body">
-							<img alt="SHORT_DESCRIPTION" aria-describedby="f1-desc" class="full-width img-responsive" src="/assets/img/ex-1.png">
-							<details class="mrgn-tp-sm print-open" id="f1-desc">
-								<summary>Text version</summary>
-								LONG_DESCRIPTION
-							</details>
-
-							<ol class="lst-lwr-alph">
-								<li>A</li>
-								<li>B</li>
-								<li>C</li>
-								<li>D</li>
-								<li>E</li>
-								<li>I don't know</li>
-							</ol>
-
-						</div>
-						<footer class="panel-footer">
-							<details class="mrgn-tp-sm print-open" id="f1-desc">
-								<summary>Correct answer</summary>
-								<p>Shape C</p>
-							</details>
-						</footer>
-					</figure>
-
-				</div>
-				<div class="col-md-6">
-					<figure>
-						<img alt="" aria-describedby="2dshape-description" class="img-responsive full-width" src="/assets/img/ex-1.png">
-						<figcaption class="mrgn-tp-md">
-							<details class="mrgn-bttm-sm" id="2dshape-description">
-								<summary>
-									Description: Image of rotating 2D&nbsp;shapes
-								</summary>
-								<div class="mrgn-tp-md">
-									<dl class="mrgn-bttm-0">
-										<dt>Reference shape</dt>
-										<dd>An upright pink rectangle. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the top left corner.</dd>
-										<dt>Option A</dt>
-										<dd>A rectangle flipped and tilted slightly clockwise. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two&nbsp;lines creates a square shape in the top right corner.</dd>
-										<dt>Option B</dt>
-										<dd>A rectangle flipped and tilted slightly counterclockwise. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the bottom left corner.</dd>
-										<dt>Option C</dt>
-										<dd>A rectangle rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the top left corner.</dd>
-										<dt>Option D</dt>
-										<dd>A rectangle flipped and rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two&nbsp;lines creates a square shape in the top right corner.</dd>
-										<dt>Option E</dt>
-										<dd>A rectangle if flipped and rotated. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the bottom left corner.</dd>
-									</dl>
-								</div>
-							</details>
-						</figcaption>
-					</figure>
-				</div>
+			<div class="col-md-6">
+				<figure>
+					<img alt="" aria-describedby="2dshape-description" class="img-responsive full-width" src="/assets/img/ex-1.png">
+					<figcaption class="mrgn-tp-md">
+						<details class="mrgn-bttm-sm" id="2dshape-description">
+							<summary>
+								Description: Image of rotating 2D&nbsp;shapes
+							</summary>
+							<div class="mrgn-tp-md">
+								<dl class="mrgn-bttm-0">
+									<dt>Reference shape</dt>
+									<dd>An upright pink rectangle. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the top left corner.</dd>
+									<dt>Option A</dt>
+									<dd>A rectangle flipped and tilted slightly clockwise. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two&nbsp;lines creates a square shape in the top right corner.</dd>
+									<dt>Option B</dt>
+									<dd>A rectangle flipped and tilted slightly counterclockwise. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the bottom left corner.</dd>
+									<dt>Option C</dt>
+									<dd>A rectangle rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the top left corner.</dd>
+									<dt>Option D</dt>
+									<dd>A rectangle flipped and rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two&nbsp;lines creates a square shape in the top right corner.</dd>
+									<dt>Option E</dt>
+									<dd>A rectangle if flipped and rotated. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the bottom left corner.</dd>
+								</dl>
+							</div>
+						</details>
+					</figcaption>
+				</figure>
+			</div>
 			</div>
 			<details class="rc-answer-toggle">
 				<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
@@ -359,7 +334,7 @@ custom_css: /assets/css/careers.css
 			</div>
 			</div>
 			<div class="clearfix"></div>
-		</section>
+		</section> -->
 		<section id="s2-4-2">
 			<h4>Part&nbsp;B – 3D&nbsp;shapes</h4>
 			<p>You will be asked a series of questions related to 3D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3&nbsp;minutes to complete the set of questions.</p>
@@ -700,7 +675,7 @@ custom_css: /assets/css/careers.css
 
 
 
-<script>
+	<script>
 		var subwayH2 = document.querySelector('.gc-subway h2');
 		if (subwayH2) {
 			var h1 = document.createElement('h1');

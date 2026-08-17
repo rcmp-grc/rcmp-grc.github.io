@@ -80,7 +80,10 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s2">
   <h2>Sample assessment</h2>
-  <p>Note: This sample is for reference only. It shows the types of questions you may find in the assessment. <strong>It is not interactive, and answers cannot be selected or submitted</strong>. </p>
+   <section class="alert alert-info">
+     <h3 class="h4">Note</h3>
+     <p>This sample is for reference only. It shows the types of questions you may find in the assessment. <strong>It is not interactive, and answers cannot be selected or submitted</strong>. </p>
+   </section>
   <section id="s2-1">
   <h3>Section&nbsp;1: Workstyle preference</h3>
       <ul>

@@ -184,7 +184,7 @@ custom_css: /assets/css/careers.css
 </div> 
  <div class="panel panel-careers">
   <header class="panel-heading">
-   <h5 class="panel-title"><strong>Exemple&nbsp;2</strong>&nbsp;:</h5>
+   <h5 class="panel-title"><strong>Exemple&nbsp;2</strong>&nbsp;</h5>
   </header>
   <div class="panel-body">
 <p>5 x 5 =</p>

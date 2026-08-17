@@ -134,7 +134,7 @@ custom_css: /assets/css/careers.css
   </header>
   <div class="panel-body">
  <p>Attacher&nbsp;: Corde</p>
-  <p><strong>Ravi</strong>&nbsp;:</p>
+  <p><strong>Couper</strong>&nbsp;:</p>
     <ol class="lst-lwr-alph">
       <li>Aiguille</li>
       <li>Réparer</li>

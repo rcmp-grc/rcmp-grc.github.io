@@ -88,12 +88,8 @@ custom_css: /assets/css/careers.css
 			<li>There is a timer at the bottom of the page</li>
 		</ul>
 		<section id="s2-2-1">
-			<h4>Part&nbsp;A – Word meanings</h4>
+			<h4>Part A – Word meanings</h4>
 			<p>Read the first word, then identify the word with the closest meaning.</p>
-
-
-
-
 			<div class="panel panel-default mrgn-bttm-lg">
 				<header class="panel-heading">Example 1<br><b>Word meanings</b></header>
 				<div class="panel-body">
@@ -111,21 +107,16 @@ custom_css: /assets/css/careers.css
 					</dl>
 				</div>
 				<footer class="panel-footer">
-					<details class="mrgn-tp-sm print-open">
-						<summary>Correct answer</summary>
+					<details class="mrgn-tp-sm rc-answer-toggle print-open">
+						<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
 						<p>b. Happy</p>
 					</details>
 				</footer>
 			</div>
-
 		</section>
 		<section id="s2-2-2">
-			<h3>Part&nbsp;B – Word relationships</h3>
+			<h3>Part B – Word relationships</h3>
 			<p>Note the relationship between the first pair of words. Select the option that forms a similar relationship to fill the blank.</p>
-
-
-
-
 			<div class="panel panel-default mrgn-bttm-lg">
 				<header class="panel-heading">Example 2<br><b>Word relationships</b></header>
 				<div class="panel-body">
@@ -144,13 +135,12 @@ custom_css: /assets/css/careers.css
 					</dl>
 				</div>
 				<footer class="panel-footer">
-					<details class="mrgn-tp-sm print-open">
-						<summary>Correct answer</summary>
+					<details class="mrgn-tp-sm rc-answer-toggle print-open">
+						<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
 						<p>c. Saw – You tie with a rope; you cut with a saw.</p>
 					</details>
 				</footer>
 			</div>
-
 		</section>
 	</section>
 	<section id="s2-3">
@@ -165,11 +155,8 @@ custom_css: /assets/css/careers.css
 			<li>There is a timer at the bottom of the page</li>
 		</ul>
 		<section id="s2-3-1">
-			<h4>Part&nbsp;A – Level&nbsp;1 calculations</h4>
+			<h4>Part A – Level&nbsp;1 calculations</h4>
 			<p>This part of the assessment draws on your addition and multiplication skills. You have 3&nbsp;minutes to complete the set of questions.</p>
-
-
-
 			<div class="panel panel-default mrgn-bttm-lg">
 				<header class="panel-heading">Example 3<br><b>Level&nbsp;1 calculations</b></header>
 				<div class="panel-body">
@@ -187,15 +174,12 @@ custom_css: /assets/css/careers.css
 					</dl>
 				</div>
 				<footer class="panel-footer">
-					<details class="mrgn-tp-sm print-open">
-						<summary>Correct answer</summary>
+					<details class="mrgn-tp-sm rc-answer-toggle print-open">
+						<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
 						<p>c. 15</p>
 					</details>
 				</footer>
 			</div>
-
-
-
 			<div class="panel panel-default mrgn-bttm-lg">
 				<header class="panel-heading">Example 4<br><b>Level&nbsp;1 calculations</b></header>
 				<div class="panel-body">
@@ -213,19 +197,16 @@ custom_css: /assets/css/careers.css
 					</dl>
 				</div>
 				<footer class="panel-footer">
-					<details class="mrgn-tp-sm print-open">
-						<summary>Correct answer</summary>
+					<details class="mrgn-tp-sm rc-answer-toggle print-open">
+						<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
 						<p>b. 25</p>
 					</details>
 				</footer>
 			</div>
 		</section>
 		<section id="s2-3-2">
-			<h4>Part&nbsp;B – Level&nbsp;2 calculations</h4>
+			<h4>Part B – Level&nbsp;2 calculations</h4>
 			<p>This part of the assessment draws on multiple skills, including addition, subtraction, multiplication and division. You will have 3&nbsp;minutes to complete the set of questions.</p>
-
-
-
 			<div class="panel panel-default mrgn-bttm-lg">
 				<header class="panel-heading">Example 5<br><b>Level&nbsp;2 calculations</b></header>
 				<div class="panel-body">
@@ -243,8 +224,8 @@ custom_css: /assets/css/careers.css
 					</dl>
 				</div>
 				<footer class="panel-footer">
-					<details class="mrgn-tp-sm print-open">
-						<summary>Correct answer</summary>
+					<details class="mrgn-tp-sm rc-answer-toggle print-open">
+						<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
 						<p>c. 4</p>
 					</details>
 				</footer>
@@ -261,12 +242,8 @@ custom_css: /assets/css/careers.css
 			<li>There is a timer at the bottom of the page</li>
 		</ul>
 		<section id="s2-4-1">
-			<h4>Part&nbsp;A – Rotating 2D&nbsp;shapes</h4>
+			<h4>Part A – Rotating 2D&nbsp;shapes</h4>
 			<p>You will be asked a series of questions related to 2D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3 minutes to complete the set of questions.</p>
-
-
-
-
 			<div class="panel panel-default mrgn-bttm-lg">
 				<header class="panel-heading">Example 6<br><b>Rotating 2D shapes</b></header>
 				<div class="panel-body">
@@ -307,21 +284,16 @@ custom_css: /assets/css/careers.css
 					</dl>
 				</div>
 				<footer class="panel-footer">
-					<details class="mrgn-tp-sm print-open">
-						<summary>Correct answer</summary>
+					<details class="mrgn-tp-sm rc-answer-toggle print-open">
+						<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
 						<p>Shape C</p>
 					</details>
 				</footer>
 			</div>
 		</section>
-
 		<section id="s2-4-2">
-			<h4>Part&nbsp;B – 3D shapes</h4>
+			<h4>Part B – 3D shapes</h4>
 			<p>You will be asked a series of questions related to 3D shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3&nbsp;minutes to complete the set of questions.</p>
-
-
-
-
 			<div class="panel panel-default mrgn-bttm-lg">
 				<header class="panel-heading">Example 7<br><b>3D shapes</b></header>
 				<div class="panel-body">
@@ -359,18 +331,16 @@ custom_css: /assets/css/careers.css
 					</dl>
 				</div>
 				<footer class="panel-footer">
-					<details class="mrgn-tp-sm print-open">
-						<summary>Correct answer</summary>
+					<details class="mrgn-tp-sm rc-answer-toggle print-open">
+						<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
 						<p>Shape D</p>
 					</details>
 				</footer>
 			</div>
 		</section>
 		<section id="s2-4-3">
-			<h4>Part&nbsp;C – Mechanical problems</h4>
+			<h4>Part C – Mechanical problems</h4>
 			<p>You will be asked a series of questions related to mechanical problems. You have 4&nbsp;minutes to complete the set of questions.</p>
-
-
 			<div class="panel panel-default mrgn-bttm-lg">
 				<header class="panel-heading">Example 8<br><b>Mechanical problems</b></header>
 				<div class="panel-body">
@@ -397,19 +367,16 @@ custom_css: /assets/css/careers.css
 					</dl>
 				</div>
 				<footer class="panel-footer">
-					<details class="mrgn-tp-sm print-open">
-						<summary>Correct answer</summary>
-						<p>Move to the left</p>
+					<details class="mrgn-tp-sm rc-answer-toggle print-open">
+						<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
+						<p>c. Move to the left</p>
 					</details>
 				</footer>
 			</div>
-
 		</section>
 		<section id="s2-4-4">
-			<h4>Part&nbsp;D – Cubes and folding shapes</h4>
+			<h4>Part D – Cubes and folding shapes</h4>
 			<p>You will be asked a series of questions related to cubes and folding shapes. You will have 5&nbsp;minutes to complete the set of questions.</p>
-
-
 			<div class="panel panel-default mrgn-bttm-lg">
 				<header class="panel-heading">Example 9<br><b>Cubes and folding shapes</b></header>
 				<div class="panel-body">
@@ -420,15 +387,15 @@ custom_css: /assets/css/careers.css
 								<summary>Text version</summary>
 								<dl class="mrgn-bttm-0">
 									<dt>Unfolded shape</dt>
-									<dd>A two-dimensional&nbsp;cutout made of six&nbsp;identical petal-like sections that taper, arranged around a central point. Each section is attached to the centre and extends outward. The six&nbsp;sections are evenly spaced around the centre.</dd>
+									<dd>A two-dimensional cutout made of six identical petal-like sections that taper, arranged around a central point. Each section is attached to the centre and extends outward. The six sections are evenly spaced around the centre.</dd>
 									<dt>Option A</dt>
-									<dd>A folded three-dimensional&nbsp;shape with top and bottom flat polygon-shaped faces.</dd>
+									<dd>A folded three-dimensional shape with top and bottom flat polygon-shaped faces.</dd>
 									<dt>Option B</dt>
-									<dd>A folded three-dimensional&nbsp;egg-like shape with a wider ring around the centre. The shape has flat faces and many angled panels.</dd>
+									<dd>A folded three-dimensional egg-like shape with a wider ring around the centre. The shape has flat faces and many angled panels.</dd>
 									<dt>Option C</dt>
-									<dd>A folded three-dimensional&nbsp;symmetrical egg-like shape. The top and bottom taper to smaller polygon-shaped ends.</dd>
+									<dd>A folded three-dimensional symmetrical egg-like shape. The top and bottom taper to smaller polygon-shaped ends.</dd>
 									<dt>Option D</dt>
-									<dd>An irregular folded three-dimensional&nbsp;shape made of several&nbsp;connected angled sections.</dd>
+									<dd>An irregular folded three-dimensional shape made of several connected angled sections.</dd>
 								</dl>
 							</details>
 						</figcaption>
@@ -437,24 +404,22 @@ custom_css: /assets/css/careers.css
 						<dt>Which of the folded shapes represents the unfolded image?</dt>
 						<dd>
 							<ol class="lst-lwr-alph">
-								<li>A</li>
-								<li>B</li>
-								<li>C</li>
-								<li>D</li>
+								<li>Shape A</li>
+								<li>Shape B</li>
+								<li>Shape C</li>
+								<li>Shape D</li>
 								<li>I don't know</li>
 							</ol>
 						</dd>
 					</dl>
 				</div>
 				<footer class="panel-footer">
-					<details class="mrgn-tp-sm print-open">
-						<summary>Correct answer</summary>
+					<details class="mrgn-tp-sm rc-answer-toggle print-open">
+						<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
 						<p>Shape C</p>
 					</details>
 				</footer>
 			</div>
-
-
 		</section>
 	</section>
 	<section id="s2-5">
@@ -472,7 +437,6 @@ custom_css: /assets/css/careers.css
 			<li>Once the time limit has run out, you will advance to the next question automatically</li>
 			<li>You may choose to proceed to the next section before the time limit is up</li>
 		</ul>
-
 		<div class="panel panel-default mrgn-bttm-lg">
 			<header class="panel-heading">Example 10<br><b>Memory quotient</b></header>
 			<div class="panel-body">
@@ -492,11 +456,9 @@ custom_css: /assets/css/careers.css
 						</details>
 					</figcaption>
 				</figure>
+				<p>Study this image of a group of objects; you have a 30-second time limit.</p>
 				<dl>
-					<dt>
-						<p>Study this image of a group of objects; you have a 30-second time limit.</p>
-						<p>What is the colour of the circle?</p>
-					</dt>
+					<dt>What is the colour of the circle?</dt>
 					<dd>
 						<ol class="lst-lwr-alph">
 							<li>Red</li>
@@ -510,23 +472,12 @@ custom_css: /assets/css/careers.css
 				</dl>
 			</div>
 			<footer class="panel-footer">
-				<details class="mrgn-tp-sm print-open">
-					<summary>Correct answer</summary>
-					<p>Black</p>
+				<details class="mrgn-tp-sm rc-answer-toggle print-open">
+					<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
+					<p>c. Black</p>
 				</details>
 			</footer>
 		</div>
-
-
-
-
-
-
-
-
-
-
-
 		<div class="panel panel-default mrgn-bttm-lg">
 			<header class="panel-heading">Example 11<br><b>Memory quotient</b></header>
 			<div class="panel-body">
@@ -545,17 +496,12 @@ custom_css: /assets/css/careers.css
 						</ol>
 					</dd>
 				</dl>
-			</div>
-			<div class="panel-footer">
-				<details class="mrgn-tp-sm print-open">
-					<summary>Correct answer</summary>
-					<p>d. Southwest</p>
-				</details>
-			</div>
-			<div class="panel-body">
-				<p>Read the weather report carefully; you have a 1-minute time limit.</p>
-				<p>The forecast calls for cloudy skies today with a high of 35&nbsp;degrees and light winds from the southwest. Clearing overnight with a low of 23&nbsp;degrees.</p>
-				<p>After the time limit has elapsed, the screen will advance to a set of questions about the text. You will have 45&nbsp;seconds to answer the questions.</p>
+				<div class="panel-footer">
+					<details class="mrgn-tp-sm rc-answer-toggle print-open">
+						<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
+						<p>d. Southwest</p>
+					</details>
+				</div>
 				<dl>
 					<dt>What overnight temperature is predicted?</dt>
 					<dd>
@@ -571,57 +517,12 @@ custom_css: /assets/css/careers.css
 				</dl>
 			</div>
 			<div class="panel-footer">
-				<details class="mrgn-tp-sm print-open">
-					<summary>Correct answer</summary>
+				<details class="mrgn-tp-sm rc-answer-toggle print-open">
+					<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
 					<p>b. 23&nbsp;degrees</p>
 				</details>
 			</div>
 		</div>
-
-
-
-
-
-
-
-
-
-		<!-- <div class="panel">
-			<header class="panel-heading">
-				<h5 class="panel-title">Example&nbsp;2</h5>
-			</header>
-			<div class="panel-body">
-				<p>Read the weather report carefully; you have a 1-minute&nbsp;time limit.</p>
-				<p>The forecast calls for cloudy skies today with a high of 35&nbsp;degrees and light winds from the southwest. Clearing overnight with a low of 23&nbsp;degrees.</p>
-				<p>After the time limit has elapsed, the screen will advance to a set of questions about the text. You will have 45&nbsp;seconds to answer the questions.</p>
-				<p>Which direction is the wind coming from?</p>
-				<ol class="lst-lwr-alph">
-					<li>Northeast</li>
-					<li>Northwest</li>
-					<li>Southeast</li>
-					<li>Southwest</li>
-					<li>The wind direction was not provided</li>
-					<li>I don't know</li>
-				</ol>
-				<details class="rc-answer-toggle">
-					<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
-					<p>The correct answer is <strong>d. Southwest</strong>.</p>
-				</details>
-				<p>What overnight temperature is predicted?</p>
-				<ol class="lst-lwr-alph">
-					<li>22&nbsp;degrees</li>
-					<li>23&nbsp;degrees</li>
-					<li>25&nbsp;degrees</li>
-					<li>26&nbsp;degrees</li>
-					<li>32&nbsp;degrees</li>
-					<li>I don't know</li>
-				</ol>
-				<details class="rc-answer-toggle">
-					<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
-					<p>The correct answer is <strong>B. 23&nbsp;degrees</strong>.</p>
-				</details>
-			</div>
-		</div> -->
 	</section>
 	<section id="s2-6">
 		<h3>Section&nbsp;6: Business reasoning</h3>
@@ -633,66 +534,80 @@ custom_css: /assets/css/careers.css
 		</ul>
 		<p>There is a timer at the bottom of the page.</p>
 		<section id="s2-6-1">
-			<h4>Part&nbsp;A – Verbal reasoning</h4>
+			<h4>Part A – Verbal reasoning</h4>
 			<p>Choose the word that best fits the blank. Identify the word that best relates to the word provided. Look at the first pair of words to see how they relate to each other and then choose the word that makes the second pair of words related in the same way.</p>
-			<div class="panel">
-				<header class="panel-heading">
-					<h5 class="panel-title">Example&nbsp;1</h5>
-				</header>
+			<div class="panel panel-default mrgn-bttm-lg">
+				<header class="panel-heading">Example 12<br><b>Business reasoning</b></header>
 				<div class="panel-body">
-					<p>Up: Down</p>
-					<p><strong>Left</strong>:</p>
-					<ol class="lst-lwr-alph">
-						<li>High</li>
-						<li>Right</li>
-						<li>Low</li>
-						<li>Above</li>
-						<li>I don't know</li>
-					</ol>
-					<details class="rc-answer-toggle">
+					<dl>
+						<dt>Up&nbsp;:&nbsp;Down<br>Left&nbsp;:</dt>
+						<dd>
+							<ol class="lst-lwr-alph">
+								<li>High</li>
+								<li>Right</li>
+								<li>Low</li>
+								<li>Above</li>
+								<li>I don't know</li>
+							</ol>
+						</dd>
+					</dl>
+				</div>
+				<div class="panel-footer">
+					<details class="mrgn-tp-sm rc-answer-toggle print-open">
 						<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
-						<p>The correct answer is <strong>b. Right</strong>. In the example, “Up” and “Down” are opposites, so the correct answer is the opposite of “Left”, which is “Right”.</p>
+						<p>b. Right</p>
+						<p>In the example, “Up” and “Down” are opposites, so the correct answer is the opposite of “Left”, which is “Right”.</p>
 					</details>
 				</div>
 			</div>
-			<div class="panel">
-				<header class="panel-heading">
-					<h5 class="panel-title">Sample question&nbsp;2</h5>
-				</header>
+			<div class="panel panel-default mrgn-bttm-lg">
+				<header class="panel-heading">Example 13<br><b>Business reasoning</b></header>
 				<div class="panel-body">
-					<p>A company policy states that all people at the factory must wear safety goggles. Visitors to the factory on Wednesday were not wearing safety goggles. Was the company policy broken on Wednesday?</p>
-					<ol class="lst-lwr-alph">
-						<li>Yes</li>
-						<li>It cannot be determined</li>
-						<li>No</li>
-						<li>I don't know</li>
-					</ol>
-					<details class="rc-answer-toggle">
+					<p>A company policy states that all people at the factory must wear safety goggles. Visitors to the factory on Wednesday were not wearing safety goggles.</p>
+					<dl>
+						<dt>Was the company policy broken on Wednesday?</dt>
+						<dd>
+							<ol class="lst-lwr-alph">
+								<li>High</li>
+								<li>Right</li>
+								<li>Low</li>
+								<li>Above</li>
+								<li>I don't know</li>
+							</ol>
+						</dd>
+					</dl>
+				</div>
+				<div class="panel-footer">
+					<details class="mrgn-tp-sm rc-answer-toggle print-open">
 						<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
-						<p>The correct answer is <strong>a. Yes</strong>.</p>
+						<p>a. Yes</p>
 					</details>
 				</div>
 			</div>
 		</section>
 		<section id="s2-6-2">
-			<h4>Part&nbsp;B – Numerical reasoning</h4>
+			<h4>Part B – Numerical reasoning</h4>
 			<p>This section consists of math word problems. Complete the questions by selecting the answer you think is correct.</p>
-			<div class="panel">
-				<header class="panel-heading">
-					<h5 class="panel-title">Example</h5>
-				</header>
+			<div class="panel panel-default mrgn-bttm-lg">
+				<header class="panel-heading">Example 14<br><b>Numerical reasoning</b></header>
 				<div class="panel-body">
-					<p>John made one sale of $100 and Betty made one sale of $200. What was the difference in sale between John and Betty?</p>
-					<ol class="lst-lwr-alph">
-						<li>$300</li>
-						<li>$100</li>
-						<li>$200</li>
-						<li>None of the above</li>
-						<li>I don't know</li>
-					</ol>
-					<details class="rc-answer-toggle">
+					<dl>
+						<dt>John made one sale of $100 and Betty made one sale of $200. What was the difference in sale between John and Betty?</dt>
+						<dd>
+							<ol class="lst-lwr-alph">
+								<li>$300</li>
+								<li>$100</li>
+								<li>$200</li>
+								<li>None of the above</li>
+								<li>I don't know</li>
+							</ol>
+						</dd>
+					</dl>
+				</div>
+				<div class="panel-footer">
+					<details class="mrgn-tp-sm rc-answer-toggle print-open">
 						<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
-						<p>The correct answer is <strong>b. $100</strong>.</p>
+						<p>b. $100</p>
 					</details>
 				</div>
 			</div>
@@ -706,8 +621,6 @@ custom_css: /assets/css/careers.css
 			<a aria-label="Next page: Submit the required forms and documents" class="rcmp-content-page__link" href="application-candidature-3-en.html" id="mp-next"><span class="rcmp-content-page__title-row"><i aria-hidden="true" class="rcmp-content-page__icon fa-solid fa-chevron-right"></i> <span class="rcmp-content-page__link-title">Next page</span></span> <span class="rcmp-visually-hidden">:</span> <span class="rcmp-content-page__link-label" id="mp-next-label">Submit the required forms and documents</span></a>
 		</div>
 	</nav>
-
-
 
 	<script>
 		var subwayH2 = document.querySelector('.gc-subway h2');

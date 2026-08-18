@@ -19,7 +19,7 @@ custom_css: /assets/css/careers.css
     <div class="rc-question-card">
       <div class="rc-question-card__body">
         <p>Regular Members are sworn police officers who complete training at the RCMP Academy, Depot, in Regina, Saskatchewan.</p>
-        <ol class="sb-nmbrd">
+        <ol>
           <li>Confirm you meet the <a href="#" target="_blank" aria-label="Basic requirements - Opens in a new window">basic requirements <span class="sr-only">(opens in new window)</span></a> for a career as a police officer.</li>
           <li>Take the <a href="readiness-preparation-en.html">Readiness Check</a> to see if you're prepared for the realities of the job.</li>
           <li>Create an account and complete the <a href="#" target="_blank" aria-label="Online application - Opens in a new window">online application <span class="sr-only">(opens in new window)</span></a> through the RCMP recruiting portal.</li>
@@ -42,7 +42,7 @@ custom_css: /assets/css/careers.css
     <div class="rc-question-card">
       <div class="rc-question-card__body">
         <p>Civilian employees support the RCMP's mission in roles such as forensics, information technology, finance and communications, without becoming a sworn police officer.</p>
-        <ol class="sb-nmbrd">
+        <ol>
           <li>Review current opportunities on the <a href="https://www.canada.ca/en/services/jobs/opportunities/government.html" target="_blank" aria-label="Government of Canada Jobs - Opens in a new window">Government of Canada Jobs (GC Jobs) <span class="sr-only">(opens in new window)</span></a> site.</li>
           <li>Create or sign in to your GC Jobs applicant profile.</li>
           <li>Search for open postings using "Royal Canadian Mounted Police" as the department or organization filter.</li>

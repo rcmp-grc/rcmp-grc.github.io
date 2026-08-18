@@ -15,7 +15,7 @@ custom_css: /assets/css/careers.css
 <div class="row">
 
   <div class="col-md-6">
-    <h2 class="h2-line">Police officer (Regular Member)</h2>
+    <h2 class="h2-line">Police officer</h2>
     <div class="rc-question-card">
       <div class="rc-question-card__body">
         <p>Regular Members are sworn police officers who complete training at the RCMP Academy, Depot, in Regina, Saskatchewan.</p>

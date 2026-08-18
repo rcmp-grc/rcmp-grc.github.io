@@ -51,8 +51,8 @@ custom_css: /assets/css/careers.css
     <li><a href="#s6">Abdominal conditions</a></li>
     <li><a href="#s7">Eye or ear conditions</a></li>
     <li><a href="#s8">Hematologic conditions</a></li>
-    <li><a href="#s9">Immunologic/allergic/oncologic and infectious conditions</a></li>
-    <li><a href="#s10">Psychological/psychiatric or mental health conditions</a></li>
+    <li><a href="#s9">Immunologic, allergic, oncologic and infectious conditions</a></li>
+    <li><a href="#s10">Psychological, psychiatric or mental health conditions</a></li>
     <li><a href="#s11">Other health conditions</a></li>
   </ul>
 </nav>
@@ -171,7 +171,7 @@ custom_css: /assets/css/careers.css
 </section>
 
 <section id="s9">
-  <h2>Immunologic/allergic/oncologic and infectious conditions</h2>
+  <h2>Immunologic, allergic, oncologic and infectious conditions</h2>
   <ul>
     <li>Immune disorder with immunocompromised state</li>
     <li>Cancer</li>
@@ -181,7 +181,7 @@ custom_css: /assets/css/careers.css
 </section>
 
 <section id="s10">
-  <h2>Psychological/psychiatric or mental health conditions</h2>
+  <h2>Psychological, psychiatric or mental health conditions</h2>
   <ul>
     <li>Mood (affective) disorders including depression, mania, bipolar disorder</li>
     <li>Anxiety disorders including panic disorder, phobia</li>

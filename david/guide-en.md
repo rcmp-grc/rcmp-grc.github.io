@@ -91,6 +91,9 @@ custom_css: /assets/css/careers.css
 			<h4>Part&nbsp;A – Word meanings</h4>
 			<p>Read the first word, then identify the word with the closest meaning.</p>
 
+
+
+
 			<div class="panel panel-default mrgn-bttm-lg">
 				<header class="panel-heading">Example 1<br><b>Word meanings</b></header>
 				<div class="panel-body">
@@ -114,10 +117,15 @@ custom_css: /assets/css/careers.css
 					</details>
 				</footer>
 			</div>
+
 		</section>
 		<section id="s2-2-2">
 			<h3>Part&nbsp;B – Word relationships</h3>
 			<p>Note the relationship between the first pair of words. Select the option that forms a similar relationship to fill the blank.</p>
+
+
+
+
 			<div class="panel panel-default mrgn-bttm-lg">
 				<header class="panel-heading">Example 2<br><b>Word relationships</b></header>
 				<div class="panel-body">
@@ -142,6 +150,7 @@ custom_css: /assets/css/careers.css
 					</details>
 				</footer>
 			</div>
+
 		</section>
 	</section>
 	<section id="s2-3">
@@ -158,8 +167,11 @@ custom_css: /assets/css/careers.css
 		<section id="s2-3-1">
 			<h4>Part&nbsp;A – Level&nbsp;1 calculations</h4>
 			<p>This part of the assessment draws on your addition and multiplication skills. You have 3&nbsp;minutes to complete the set of questions.</p>
+
+
+
 			<div class="panel panel-default mrgn-bttm-lg">
-				<p class="panel-heading">Example 3<br><b>Level&nbsp;1 calculations</b></p>
+				<header class="panel-heading">Example 3<br><b>Level&nbsp;1 calculations</b></header>
 				<div class="panel-body">
 					<dl>
 						<dt>8&nbsp;+&nbsp;7&nbsp;=</dt>
@@ -181,8 +193,11 @@ custom_css: /assets/css/careers.css
 					</details>
 				</footer>
 			</div>
+
+
+
 			<div class="panel panel-default mrgn-bttm-lg">
-				<p class="panel-heading">Example 4<br><b>Level&nbsp;1 calculations</b></p>
+				<header class="panel-heading">Example 4<br><b>Level&nbsp;1 calculations</b></header>
 				<div class="panel-body">
 					<dl>
 						<dt>5&nbsp;&times;&nbsp;5&nbsp;=</dt>
@@ -208,8 +223,11 @@ custom_css: /assets/css/careers.css
 		<section id="s2-3-2">
 			<h4>Part&nbsp;B – Level&nbsp;2 calculations</h4>
 			<p>This part of the assessment draws on multiple skills, including addition, subtraction, multiplication and division. You will have 3&nbsp;minutes to complete the set of questions.</p>
+
+
+
 			<div class="panel panel-default mrgn-bttm-lg">
-				<p class="panel-heading">Example 5<br><b>Level&nbsp;2 calculations</b></p>
+				<header class="panel-heading">Example 5<br><b>Level&nbsp;2 calculations</b></header>
 				<div class="panel-body">
 					<dl>
 						<dt>2&nbsp;+&nbsp;2&nbsp;&times;&nbsp;1&nbsp;=</dt>
@@ -236,7 +254,7 @@ custom_css: /assets/css/careers.css
 	<section id="s2-4">
 		<h3>Section&nbsp;4: Spatial skills</h3>
 		<ul>
-			<li>This section consists of four components: rotating 2D&nbsp;shapes; 3D&nbsp;shapes; mechanical problems and cubes and folding shapes</li>
+			<li>This section consists of four components: rotating 2D&nbsp;shapes; 3D shapes; mechanical problems and cubes and folding shapes</li>
 			<li>Please complete as many questions as you can</li>
 			<li>You will receive 1&nbsp;point for each correct answer</li>
 			<li>You can skip questions – please answer "I don't know" if you do not know the answer</li>
@@ -246,27 +264,34 @@ custom_css: /assets/css/careers.css
 			<h4>Part&nbsp;A – Rotating 2D&nbsp;shapes</h4>
 			<p>You will be asked a series of questions related to 2D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3 minutes to complete the set of questions.</p>
 
+
+
+
 			<div class="panel panel-default mrgn-bttm-lg">
 				<header class="panel-heading">Example 6<br><b>Rotating 2D shapes</b></header>
 				<div class="panel-body">
-					<img alt="SHORT_DESCRIPTION" aria-describedby="f1-desc" class="full-width img-responsive" src="/assets/img/ex-1.png">
-					<details class="mrgn-tp-sm print-open" id="f1-desc">
-						<summary>Text version</summary>
-						<dl class="mrgn-bttm-0">
-							<dt>Reference shape</dt>
-							<dd>An upright pink rectangle. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the top left corner.</dd>
-							<dt>Option A</dt>
-							<dd>A rectangle flipped and tilted slightly clockwise. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two lines creates a square shape in the top right corner.</dd>
-							<dt>Option B</dt>
-							<dd>A rectangle flipped and tilted slightly counterclockwise. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the bottom left corner.</dd>
-							<dt>Option C</dt>
-							<dd>A rectangle rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the top left corner.</dd>
-							<dt>Option D</dt>
-							<dd>A rectangle flipped and rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two lines creates a square shape in the top right corner.</dd>
-							<dt>Option E</dt>
-							<dd>A rectangle if flipped and rotated. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the bottom left corner.</dd>
-						</dl>
-					</details>
+					<figure>
+						<img alt="" aria-describedby="f1-desc" class="full-width img-responsive" src="/assets/img/ex-1.png">
+						<figcaption>
+							<details class="mrgn-tp-sm print-open" id="f1-desc">
+								<summary>Text version</summary>
+								<dl class="mrgn-bttm-0">
+									<dt>Reference shape</dt>
+									<dd>An upright pink rectangle. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the top left corner.</dd>
+									<dt>Option A</dt>
+									<dd>A rectangle flipped and tilted slightly clockwise. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two lines creates a square shape in the top right corner.</dd>
+									<dt>Option B</dt>
+									<dd>A rectangle flipped and tilted slightly counterclockwise. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the bottom left corner.</dd>
+									<dt>Option C</dt>
+									<dd>A rectangle rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the top left corner.</dd>
+									<dt>Option D</dt>
+									<dd>A rectangle flipped and rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two lines creates a square shape in the top right corner.</dd>
+									<dt>Option E</dt>
+									<dd>A rectangle if flipped and rotated. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the bottom left corner.</dd>
+								</dl>
+							</details>
+						</figcaption>
+					</figure>
 					<dl>
 						<dt>Match the shape</dt>
 						<dd>
@@ -288,115 +313,79 @@ custom_css: /assets/css/careers.css
 					</details>
 				</footer>
 			</div>
-</section>
+		</section>
 
-<!-- 
+		<section id="s2-4-2">
+			<h4>Part&nbsp;B – 3D shapes</h4>
+			<p>You will be asked a series of questions related to 3D shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3&nbsp;minutes to complete the set of questions.</p>
 
 
 
 
-
-			<div class="col-md-6">
-				<figure>
-					<img alt="" aria-describedby="2dshape-description" class="img-responsive full-width" src="/assets/img/ex-1.png">
-					<figcaption class="mrgn-tp-md">
-						<details class="mrgn-bttm-sm" id="2dshape-description">
-							<summary>
-								Description: Image of rotating 2D&nbsp;shapes
-							</summary>
-							<div class="mrgn-tp-md">
+			<div class="panel panel-default mrgn-bttm-lg">
+				<header class="panel-heading">Example 7<br><b>3D shapes</b></header>
+				<div class="panel-body">
+					<figure>
+						<img alt="" aria-describedby="f2-desc" class="full-width img-responsive" src="/assets/img/ex-2.png">
+						<figcaption>
+							<details class="mrgn-tp-sm print-open" id="f2-desc">
+								<summary>Text version</summary>
 								<dl class="mrgn-bttm-0">
 									<dt>Reference shape</dt>
-									<dd>An upright pink rectangle. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the top left corner.</dd>
+									<dd>A three-dimensional shape made of seven connected cubes. Three arms meet at a central cube.</dd>
 									<dt>Option A</dt>
-									<dd>A rectangle flipped and tilted slightly clockwise. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two&nbsp;lines creates a square shape in the top right corner.</dd>
+									<dd>A three-dimensional shape made of seven connected cubes. Two arms build up from the ends of a three-cubed base.</dd>
 									<dt>Option B</dt>
-									<dd>A rectangle flipped and tilted slightly counterclockwise. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the bottom left corner.</dd>
+									<dd>A three-dimensional shape made of seven connected cubes. Two three-cubed bases are connected by one central cube.</dd>
 									<dt>Option C</dt>
-									<dd>A rectangle rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the top left corner.</dd>
+									<dd>A three-dimensional shape made of six visible connected cubes.</dd>
 									<dt>Option D</dt>
-									<dd>A rectangle flipped and rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two&nbsp;lines creates a square shape in the top right corner.</dd>
-									<dt>Option E</dt>
-									<dd>A rectangle if flipped and rotated. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the bottom left corner.</dd>
+									<dd>A three-dimensional shape made of seven connected cubes. Three arms meet at a central cube.</dd>
 								</dl>
-							</div>
-						</details>
-					</figcaption>
-				</figure>
-			</div>
-			</div>
-			<details class="rc-answer-toggle">
-				<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
-				<p>The correct answer is <strong>c. shape&nbsp;C</strong>.</p>
-			</details>
-			</div>
-			</div>
-			<div class="clearfix"></div>
-		</section> -->
-		<section id="s2-4-2">
-			<h4>Part&nbsp;B – 3D&nbsp;shapes</h4>
-			<p>You will be asked a series of questions related to 3D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3&nbsp;minutes to complete the set of questions.</p>
-			<div class="panel">
-				<header class="panel-heading">
-					<h5 class="panel-title">Example</h5>
-				</header>
-				<div class="panel-body">
-					<div class="row wb-eqht">
-						<div class="col-md-6">
+							</details>
+						</figcaption>
+					</figure>
+					<dl>
+						<dt>Match the shape</dt>
+						<dd>
 							<ol class="lst-lwr-alph">
-								<li>A</li>
-								<li>B</li>
-								<li>C</li>
-								<li>D</li>
+								<li>Shape A</li>
+								<li>Shape B</li>
+								<li>Shape C</li>
+								<li>Shape D</li>
 								<li>I don't know</li>
 							</ol>
-						</div>
-						<div class="col-md-6">
-							<figure>
-								<img alt="" aria-describedby="3dshape-description" class="img-responsive full-width" src="/assets/img/ex-2.png">
-								<figcaption class="mrgn-tp-md">
-									<details class="mrgn-bttm-sm" id="3dshape-description">
-										<summary>
-											Description: Image of rotating 3D&nbsp;shapes
-										</summary>
-										<div class="mrgn-tp-md">
-											<dl class="mrgn-bttm-0">
-												<dt>Reference shape</dt>
-												<dd>A three-dimensional&nbsp;shape made of seven&nbsp;connected cubes. Three&nbsp;arms meet at a central&nbsp;cube.</dd>
-												<dt>Option A</dt>
-												<dd>A three-dimensional&nbsp;shape made of seven&nbsp;connected cubes. Two&nbsp;arms build up from the ends of a three-cubed&nbsp;base.</dd>
-												<dt>Option B</dt>
-												<dd>A three-dimensional&nbsp;shape made of seven&nbsp;connected cubes. Two three-cubed&nbsp;bases are connected by one&nbsp;central cube.</dd>
-												<dt>Option C</dt>
-												<dd>A three-dimensional&nbsp;shape made of six&nbsp;visible connected cubes.</dd>
-												<dt>Option D</dt>
-												<dd>A three-dimensional&nbsp;shape made of seven&nbsp;connected cubes. Three&nbsp;arms meet at a central&nbsp;cube.</dd>
-											</dl>
-										</div>
-									</details>
-								</figcaption>
-							</figure>
-						</div>
-					</div>
-					<details class="rc-answer-toggle">
-						<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
-						<p>The correct answer is <strong>d. shape&nbsp;D</strong>.</p>
-					</details>
+						</dd>
+					</dl>
 				</div>
+				<footer class="panel-footer">
+					<details class="mrgn-tp-sm print-open">
+						<summary>Correct answer</summary>
+						<p>Shape C</p>
+					</details>
+				</footer>
 			</div>
-			<div class="clearfix"></div>
 		</section>
 		<section id="s2-4-3">
 			<h4>Part&nbsp;C – Mechanical problems</h4>
 			<p>You will be asked a series of questions related to mechanical problems. You have 4&nbsp;minutes to complete the set of questions.</p>
-			<div class="panel">
-				<header class="panel-heading">
-					<h4 class="panel-title">Example</h4>
-				</header>
+
+
+			<div class="panel panel-default mrgn-bttm-lg">
+				<header class="panel-heading">Example 8<br><b>Mechanical problems</b></header>
 				<div class="panel-body">
-					<div class="row wb-eqht">
-						<div class="col-md-6">
-							<p>When handle&nbsp;H is pulled to the right, as shown by the arrow, end&nbsp;E will:</p>
+					<figure>
+						<img alt="Diagram of a single straight rod" aria-describedby="f3-desc" class="full-width img-responsive" src="/assets/img/ex-3.png">
+						<figcaption>
+							<details class="mrgn-tp-sm print-open" id="f3-desc">
+								<summary>Text version</summary>
+								<p>The diagram shows a single straight rod connected through a central pivot base. The top end of the rod is labelled "E". The bottom end of the rod is labelled "H". A curved arrow beside H points to the right, indicating that handle H is pulled or moved to the right.</p>
+							</details>
+						</figcaption>
+					</figure>
+					<dl>
+						<dt>When handle H is pulled to the right, as shown by the arrow, end E will:</dt>
+						<dd>
 							<ol class="lst-lwr-alph">
 								<li>Move to the left</li>
 								<li>Move to the right</li>
@@ -404,33 +393,17 @@ custom_css: /assets/css/careers.css
 								<li>Stay in the same position</li>
 								<li>I don't know</li>
 							</ol>
-						</div>
-						<div class="col-md-6">
-							<figure>
-								<img alt="" aria-describedby="mechanical-problems-description" class="img-responsive full-width" src="/assets/img/ex-3.png">
-								<figcaption class="mrgn-tp-md">
-									<details class="mrgn-bttm-sm" id="mechanical-problems-description">
-										<summary>
-											Description: Diagram of a single straight rod
-										</summary>
-										<div class="mrgn-tp-md">
-											<dl class="mrgn-bttm-0">
-												<dt>Reference shape</dt>
-												<dd>The diagram shows a single straight rod connected through a central pivot base. The top end of the rod is labelled&nbsp;E. The bottom end of the rod is labelled&nbsp;H. A curved arrow beside H&nbsp;points to the right, indicating that handle&nbsp;H is pulled or moved to the right.</dd>
-											</dl>
-										</div>
-									</details>
-								</figcaption>
-							</figure>
-						</div>
-					</div>
-					<details class="rc-answer-toggle">
-						<summary class="rc-btn rc-btn--secondary">View the correct answer</summary>
-						<p>The correct answer is <strong>a. Move to the left</strong>.</p>
-					</details>
+						</dd>
+					</dl>
 				</div>
+				<footer class="panel-footer">
+					<details class="mrgn-tp-sm print-open">
+						<summary>Correct answer</summary>
+						<p>Move to the left</p>
+					</details>
+				</footer>
 			</div>
-			<div class="clearfix"></div>
+
 		</section>
 		<section id="s2-4-4">
 			<h4>Part&nbsp;D – Cubes and folding shapes</h4>

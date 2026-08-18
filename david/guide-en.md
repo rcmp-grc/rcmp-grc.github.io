@@ -273,7 +273,7 @@ custom_css: /assets/css/careers.css
 					<figure>
 						<img alt="" aria-describedby="f1-desc" class="full-width img-responsive" src="/assets/img/ex-1.png">
 						<figcaption>
-							<details class="mrgn-tp-sm print-open" id="f1-desc">
+							<details class="mrgn-tp-sm mrgn-bttm-md print-open" id="f1-desc">
 								<summary>Text version</summary>
 								<dl class="mrgn-bttm-0">
 									<dt>Reference shape</dt>
@@ -328,7 +328,7 @@ custom_css: /assets/css/careers.css
 					<figure>
 						<img alt="" aria-describedby="f2-desc" class="full-width img-responsive" src="/assets/img/ex-2.png">
 						<figcaption>
-							<details class="mrgn-tp-sm print-open" id="f2-desc">
+							<details class="mrgn-tp-sm mrgn-bttm-md print-open" id="f2-desc">
 								<summary>Text version</summary>
 								<dl class="mrgn-bttm-0">
 									<dt>Reference shape</dt>
@@ -361,7 +361,7 @@ custom_css: /assets/css/careers.css
 				<footer class="panel-footer">
 					<details class="mrgn-tp-sm print-open">
 						<summary>Correct answer</summary>
-						<p>Shape C</p>
+						<p>Shape D</p>
 					</details>
 				</footer>
 			</div>
@@ -375,9 +375,9 @@ custom_css: /assets/css/careers.css
 				<header class="panel-heading">Example 8<br><b>Mechanical problems</b></header>
 				<div class="panel-body">
 					<figure>
-						<img alt="Diagram of a single straight rod" aria-describedby="f3-desc" class="full-width img-responsive" src="/assets/img/ex-3.png">
+						<img alt="" aria-describedby="f3-desc" class="full-width img-responsive" src="/assets/img/ex-3.png">
 						<figcaption>
-							<details class="mrgn-tp-sm print-open" id="f3-desc">
+							<details class="mrgn-tp-sm mrgn-bttm-md print-open" id="f3-desc">
 								<summary>Text version</summary>
 								<p>The diagram shows a single straight rod connected through a central pivot base. The top end of the rod is labelled "E". The bottom end of the rod is labelled "H". A curved arrow beside H points to the right, indicating that handle H is pulled or moved to the right.</p>
 							</details>
@@ -408,14 +408,34 @@ custom_css: /assets/css/careers.css
 		<section id="s2-4-4">
 			<h4>Part&nbsp;D – Cubes and folding shapes</h4>
 			<p>You will be asked a series of questions related to cubes and folding shapes. You will have 5&nbsp;minutes to complete the set of questions.</p>
-			<div class="panel">
-				<header class="panel-heading">
-					<h5 class="panel-title">Example</h5>
-				</header>
+
+
+			<div class="panel panel-default mrgn-bttm-lg">
+				<header class="panel-heading">Example 9<br><b>Cubes and folding shapes</b></header>
 				<div class="panel-body">
-					<div class="row wb-eqht">
-						<div class="col-md-6">
-							<p>Which of the folded shapes represents the unfolded image?</p>
+					<figure>
+						<img alt="" aria-describedby="f4-desc" class="full-width img-responsive" src="/assets/img/ex-4.png">
+						<figcaption>
+							<details class="mrgn-tp-sm mrgn-bttm-md print-open" id="f4-desc">
+								<summary>Text version</summary>
+								<dl class="mrgn-bttm-0">
+									<dt>Unfolded shape</dt>
+									<dd>A two-dimensional&nbsp;cutout made of six&nbsp;identical petal-like sections that taper, arranged around a central point. Each section is attached to the centre and extends outward. The six&nbsp;sections are evenly spaced around the centre.</dd>
+									<dt>Option A</dt>
+									<dd>A folded three-dimensional&nbsp;shape with top and bottom flat polygon-shaped faces.</dd>
+									<dt>Option B</dt>
+									<dd>A folded three-dimensional&nbsp;egg-like shape with a wider ring around the centre. The shape has flat faces and many angled panels.</dd>
+									<dt>Option C</dt>
+									<dd>A folded three-dimensional&nbsp;symmetrical egg-like shape. The top and bottom taper to smaller polygon-shaped ends.</dd>
+									<dt>Option D</dt>
+									<dd>An irregular folded three-dimensional&nbsp;shape made of several&nbsp;connected angled sections.</dd>
+								</dl>
+							</details>
+						</figcaption>
+					</figure>
+					<dl>
+						<dt>Which of the folded shapes represents the unfolded image?</dt>
+						<dd>
 							<ol class="lst-lwr-alph">
 								<li>A</li>
 								<li>B</li>
@@ -423,41 +443,18 @@ custom_css: /assets/css/careers.css
 								<li>D</li>
 								<li>I don't know</li>
 							</ol>
-						</div>
-						<div class="col-md-6">
-							<figure>
-								<img alt="" aria-describedby="folding-shapes" class="img-responsive full-width" src="/assets/img/ex-4.png">
-								<figcaption class="mrgn-tp-md">
-									<details class="mrgn-bttm-sm" id="folding-shapes">
-										<summary>
-											Description: Image of cubes and folding shapes
-										</summary>
-										<div class="mrgn-tp-md">
-											<dl class="mrgn-bttm-0">
-												<dt>Unfolded shape</dt>
-												<dd>A two-dimensional&nbsp;cutout made of six&nbsp;identical petal-like sections that taper, arranged around a central point. Each section is attached to the centre and extends outward. The six&nbsp;sections are evenly spaced around the centre.</dd>
-												<dt>Option A</dt>
-												<dd>A folded three-dimensional&nbsp;shape with top and bottom flat polygon-shaped faces.</dd>
-												<dt>Option B</dt>
-												<dd>A folded three-dimensional&nbsp;egg-like shape with a wider ring around the centre. The shape has flat faces and many angled panels.</dd>
-												<dt>Option C</dt>
-												<dd>A folded three-dimensional&nbsp;symmetrical egg-like shape. The top and bottom taper to smaller polygon-shaped ends.</dd>
-												<dt>Option D</dt>
-												<dd>An irregular folded three-dimensional&nbsp;shape made of several&nbsp;connected angled sections.</dd>
-											</dl>
-										</div>
-									</details>
-								</figcaption>
-							</figure>
-						</div>
-					</div>
-					<details class="rc-answer-toggle">
-						<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
-						<p>The correct answer is <strong>c. shape&nbsp;C</strong>.</p>
-					</details>
+						</dd>
+					</dl>
 				</div>
+				<footer class="panel-footer">
+					<details class="mrgn-tp-sm print-open">
+						<summary>Correct answer</summary>
+						<p>Shape C</p>
+					</details>
+				</footer>
 			</div>
-			<div class="clearfix"></div>
+
+
 		</section>
 	</section>
 	<section id="s2-5">
@@ -475,15 +472,32 @@ custom_css: /assets/css/careers.css
 			<li>Once the time limit has run out, you will advance to the next question automatically</li>
 			<li>You may choose to proceed to the next section before the time limit is up</li>
 		</ul>
-		<div class="panel">
-			<header class="panel-heading">
-				<h4 class="panel-title">Example&nbsp;1</h4>
-			</header>
+
+		<div class="panel panel-default mrgn-bttm-lg">
+			<header class="panel-heading">Example 10<br><b>Memory quotient</b></header>
 			<div class="panel-body">
-				<div class="row wb-eqht">
-					<div class="col-md-6">
-						<p>Study this image of a group of objects; you have a 30-second&nbsp;time limit.</p>
+				<figure>
+					<img alt="" aria-describedby="f5-desc" class="full-width img-responsive" src="/assets/img/ex-5.png">
+					<figcaption>
+						<details class="mrgn-tp-sm mrgn-bttm-md print-open" id="f5-desc">
+							<summary>Text version</summary>
+							<dl class="mrgn-bttm-0">
+								<dt>Shape 1</dt>
+								<dd>A blue triangle.</dd>
+								<dt>Shape 2</dt>
+								<dd>A red diamond.</dd>
+								<dt>Shape 3</dt>
+								<dd>A black circle.</dd>
+							</dl>
+						</details>
+					</figcaption>
+				</figure>
+				<dl>
+					<dt>
+						<p>Study this image of a group of objects; you have a 30-second time limit.</p>
 						<p>What is the colour of the circle?</p>
+					</dt>
+					<dd>
 						<ol class="lst-lwr-alph">
 							<li>Red</li>
 							<li>Green</li>
@@ -492,38 +506,87 @@ custom_css: /assets/css/careers.css
 							<li>Blue</li>
 							<li>I don't know</li>
 						</ol>
-					</div>
-					<div class="col-md-6">
-						<figure>
-							<img alt="" aria-describedby="memory" class="img-responsive full-width" src="/assets/img/ex-5.png">
-							<figcaption class="mrgn-tp-md">
-								<details class="mrgn-bttm-sm" id="memory">
-									<summary>
-										Description: Image of shapes
-									</summary>
-									<div class="mrgn-tp-md">
-										<dl class="mrgn-bttm-0">
-											<dt>Shape&nbsp;1</dt>
-											<dd>A blue triangle.</dd>
-											<dt>Shape&nbsp;2</dt>
-											<dd>A red diamond.</dd>
-											<dt>Shape&nbsp;3</dt>
-											<dd>A black circle.</dd>
-										</dl>
-									</div>
-								</details>
-							</figcaption>
-						</figure>
-					</div>
-				</div>
-				<details class="rc-answer-toggle">
-					<summary class="rc-btn rc-btn--secondary">Correct answer</summary>
-					<p>The correct answer is <strong>c. Black</strong>.</p>
+					</dd>
+				</dl>
+			</div>
+			<footer class="panel-footer">
+				<details class="mrgn-tp-sm print-open">
+					<summary>Correct answer</summary>
+					<p>Black</p>
+				</details>
+			</footer>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+		<div class="panel panel-default mrgn-bttm-lg">
+			<header class="panel-heading">Example 11<br><b>Memory quotient</b></header>
+			<div class="panel-body">
+				<p>Read the weather report carefully; you have a 1-minute time limit.</p>
+				<p>The forecast calls for cloudy skies today with a high of 35&nbsp;degrees and light winds from the southwest. Clearing overnight with a low of 23&nbsp;degrees.</p>
+				<p>After the time limit has elapsed, the screen will advance to a set of questions about the text. You will have 45&nbsp;seconds to answer the questions.</p>
+				<dl>
+					<dt>Which direction is the wind coming from?</dt>
+					<dd>
+						<ol class="lst-lwr-alph">
+							<li>Northeast</li>
+							<li>Northwest</li>
+							<li>Southeast</li>
+							<li>Southwest</li>
+							<li>I don't know</li>
+						</ol>
+					</dd>
+				</dl>
+			</div>
+			<div class="panel-footer">
+				<details class="mrgn-tp-sm print-open">
+					<summary>Correct answer</summary>
+					<p>d. Southwest</p>
+				</details>
+			</div>
+			<div class="panel-body">
+				<p>Read the weather report carefully; you have a 1-minute time limit.</p>
+				<p>The forecast calls for cloudy skies today with a high of 35&nbsp;degrees and light winds from the southwest. Clearing overnight with a low of 23&nbsp;degrees.</p>
+				<p>After the time limit has elapsed, the screen will advance to a set of questions about the text. You will have 45&nbsp;seconds to answer the questions.</p>
+				<dl>
+					<dt>What overnight temperature is predicted?</dt>
+					<dd>
+						<ol class="lst-lwr-alph">
+							<li>22&nbsp;degrees</li>
+							<li>23&nbsp;degrees</li>
+							<li>25&nbsp;degrees</li>
+							<li>26&nbsp;degrees</li>
+							<li>32&nbsp;degrees</li>
+							<li>I don't know</li>
+						</ol>
+					</dd>
+				</dl>
+			</div>
+			<div class="panel-footer">
+				<details class="mrgn-tp-sm print-open">
+					<summary>Correct answer</summary>
+					<p>b. 23&nbsp;degrees</p>
 				</details>
 			</div>
 		</div>
-		<div class="clearfix"></div>
-		<div class="panel">
+
+
+
+
+
+
+
+
+
+		<!-- <div class="panel">
 			<header class="panel-heading">
 				<h5 class="panel-title">Example&nbsp;2</h5>
 			</header>
@@ -558,7 +621,7 @@ custom_css: /assets/css/careers.css
 					<p>The correct answer is <strong>B. 23&nbsp;degrees</strong>.</p>
 				</details>
 			</div>
-		</div>
+		</div> -->
 	</section>
 	<section id="s2-6">
 		<h3>Section&nbsp;6: Business reasoning</h3>

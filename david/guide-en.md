@@ -92,7 +92,7 @@ custom_css: /assets/css/careers.css
 			<p>Read the first word, then identify the word with the closest meaning.</p>
 
 			<div class="panel panel-default mrgn-bttm-lg">
-				<p class="panel-heading">Example 1<br><b>Word meanings</b></p>
+				<header class="panel-heading">Example 1<br><b>Word meanings</b></header>
 				<div class="panel-body">
 					<dl>
 						<dt>Glad</dt>
@@ -119,7 +119,7 @@ custom_css: /assets/css/careers.css
 			<h3>Part&nbsp;B – Word relationships</h3>
 			<p>Note the relationship between the first pair of words. Select the option that forms a similar relationship to fill the blank.</p>
 			<div class="panel panel-default mrgn-bttm-lg">
-				<p class="panel-heading">Example 2<br><b>Word relationships</b></p>
+				<header class="panel-heading">Example 2<br><b>Word relationships</b></header>
 				<div class="panel-body">
 					<dl>
 						<dt>Tie&nbsp;: Rope<br>

@@ -1,9 +1,9 @@
 ---
 layout: careers
 title: RCMP Online Assessment Preparatory Guide
-date_modified: 2026-08-17
+date_modified: 2026-07-08
 lang: en
-lang_url: guide-fr.html
+lang_url: application-candidature-2-1-fr.html
 lead: Police officer application process
 breadcrumbs:
 - label: "RCMP careers"
@@ -14,7 +14,6 @@ url: "careers-carrieres/officer-agent-en.html"
 url: "careers-carrieres/application-candidature-en.html"
 custom_css: /assets/css/careers.css
 ---
-
 
 <nav aria-label="Application process steps" class="gc-subway" data-sections-title="Steps">
 	<h2>Police officer application process</h2>
@@ -124,7 +123,7 @@ custom_css: /assets/css/careers.css
 				<div class="panel-body">
 					<dl>
 						<dt>Tie&nbsp;: Rope<br>
-							Cut&nbsp;: ?</dt>
+							Cut&nbsp;: </dt>
 						<dd>
 							<ol class="lst-lwr-alph">
 								<li>Needle</li>
@@ -186,7 +185,7 @@ custom_css: /assets/css/careers.css
 				<p class="panel-heading">Example 4<br><b>Level&nbsp;1 calculations</b></p>
 				<div class="panel-body">
 					<dl>
-						<dt>5 x 5 =</dt>
+						<dt>5&nbsp;&times;&nbsp;5&nbsp;=</dt>
 						<dd>
 							<ol class="lst-lwr-alph">
 								<li>10</li>
@@ -213,7 +212,7 @@ custom_css: /assets/css/careers.css
 				<p class="panel-heading">Example 5<br><b>Level&nbsp;2 calculations</b></p>
 				<div class="panel-body">
 					<dl>
-						<dt>2 + 2 x 1 =</dt>
+						<dt>2&nbsp;+&nbsp;2&nbsp;&times;&nbsp;1&nbsp;=</dt>
 						<dd>
 							<ol class="lst-lwr-alph">
 								<li>2</li>
@@ -248,29 +247,28 @@ custom_css: /assets/css/careers.css
 			<p>You will be asked a series of questions related to 2D&nbsp;shapes. For each question, choose the letter that matches the shape displayed in the box. You have 3 minutes to complete the set of questions.</p>
 
 			<div class="panel panel-default mrgn-bttm-lg">
-				<p class="panel-heading">Example 6<br><b>Rotating 2D shapes</b></p>
+				<header class="panel-heading">Example 6<br><b>Rotating 2D shapes</b></header>
 				<div class="panel-body">
+					<img alt="SHORT_DESCRIPTION" aria-describedby="f1-desc" class="full-width img-responsive" src="/assets/img/ex-1.png">
+					<details class="mrgn-tp-sm print-open" id="f1-desc">
+						<summary>Text version</summary>
+						<dl class="mrgn-bttm-0">
+							<dt>Reference shape</dt>
+							<dd>An upright pink rectangle. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the top left corner.</dd>
+							<dt>Option A</dt>
+							<dd>A rectangle flipped and tilted slightly clockwise. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two lines creates a square shape in the top right corner.</dd>
+							<dt>Option B</dt>
+							<dd>A rectangle flipped and tilted slightly counterclockwise. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the bottom left corner.</dd>
+							<dt>Option C</dt>
+							<dd>A rectangle rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the top left corner.</dd>
+							<dt>Option D</dt>
+							<dd>A rectangle flipped and rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two lines creates a square shape in the top right corner.</dd>
+							<dt>Option E</dt>
+							<dd>A rectangle if flipped and rotated. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two lines creates a square shape in the bottom left corner.</dd>
+						</dl>
+					</details>
 					<dl>
-						<dt>
-							<img alt="SHORT_DESCRIPTION" aria-describedby="f1-desc" class="full-width img-responsive" src="/assets/img/ex-1.png">
-							<details class="mrgn-tp-sm print-open" id="f1-desc">
-								<summary>Text version</summary>
-								<dl class="mrgn-bttm-0">
-									<dt>Reference shape</dt>
-									<dd>An upright pink rectangle. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the top left corner.</dd>
-									<dt>Option A</dt>
-									<dd>A rectangle flipped and tilted slightly clockwise. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two&nbsp;lines creates a square shape in the top right corner.</dd>
-									<dt>Option B</dt>
-									<dd>A rectangle flipped and tilted slightly counterclockwise. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the bottom left corner.</dd>
-									<dt>Option C</dt>
-									<dd>A rectangle rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the top left corner.</dd>
-									<dt>Option D</dt>
-									<dd>A rectangle flipped and rotated diagonally with the top corner pointing upward. A horizontal line runs across the rectangle near the top. A vertical line runs perpendicular to the horizontal line on the right side. The intersection of the two&nbsp;lines creates a square shape in the top right corner.</dd>
-									<dt>Option E</dt>
-									<dd>A rectangle if flipped and rotated. A horizontal line runs across the rectangle near the bottom. A vertical line runs perpendicular to the horizontal line on the left side. The intersection of the two&nbsp;lines creates a square shape in the bottom left corner.</dd>
-								</dl>
-							</details>
-						</dt>
+						<dt>Match the shape</dt>
 						<dd>
 							<ol class="lst-lwr-alph">
 								<li>Shape A</li>

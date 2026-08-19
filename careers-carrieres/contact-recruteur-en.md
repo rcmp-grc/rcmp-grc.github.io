@@ -23,7 +23,7 @@ custom_css: /assets/css/careers.css
     <noscript>
       <p>JavaScript is required to use this tool. Contact information for every province and territory is listed below.</p>
     </noscript>
-    <form class="cr-finder-form" id="cr-finder-form">
+    <form id="cr-finder-form">
       <div class="cr-finder-row">
         <div class="cr-finder-field">
           <label for="cr-province-select">Province or territory</label>

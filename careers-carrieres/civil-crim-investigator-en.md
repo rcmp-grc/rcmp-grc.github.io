@@ -11,6 +11,7 @@ breadcrumbs:
     url: "careers-carrieres/officer-agent-en.html"
 custom_css: /assets/css/careers.css
 ---
+
 <nav aria-labelledby="on-this-page-heading">
   <h2 id="on-this-page-heading">On this page</h2>
 	<ul>
@@ -23,7 +24,6 @@ custom_css: /assets/css/careers.css
         <li><a href="#s7">Contact us</a></li>
 	</ul>
 </nav>
-
 <section id="s1">
 	<h2>An opportunity to serve</h2>
 	<p>Are you curious? Analytical? A creative problem solver?</p>

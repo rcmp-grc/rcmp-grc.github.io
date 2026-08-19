@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: La vie d'un policier ou d'une policière
+title: Employés civils à la Police fédérale
 date_modified: 2026-08-19
 lang: fr
 lang_url: fed-pol-civil-en.html

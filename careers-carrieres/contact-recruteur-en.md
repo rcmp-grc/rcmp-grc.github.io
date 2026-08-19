@@ -224,8 +224,8 @@ custom_css: /assets/css/careers.css
 .cr-finder-body > p { max-width: 60ch; }
 .cr-finder-row {
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 1rem;
   margin-top: 1.25rem;
 }
@@ -233,7 +233,7 @@ custom_css: /assets/css/careers.css
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
-  flex: 1 1 280px;
+  width: 100%;
   max-width: 420px;
 }
 .cr-finder-field label {
@@ -252,9 +252,6 @@ custom_css: /assets/css/careers.css
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%230b0c0c' d='M0 0l6 8 6-8z'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 12px center;
-}
-.cr-finder-row .rc-btn {
-  flex: 0 0 auto;
 }
 .cr-finder-reset {
   display: inline-flex;
@@ -285,7 +282,6 @@ custom_css: /assets/css/careers.css
 
 @media (max-width: 600px) {
   .cr-finder { flex-direction: column; padding: 1.5rem; }
-  .cr-finder-row { flex-direction: column; align-items: stretch; }
   .cr-finder-field { max-width: none; }
 }
 
@@ -307,13 +303,6 @@ custom_css: /assets/css/careers.css
 .cr-province address {
   font-style: normal;
 }
-.cr-province:target,
-.cr-province:focus {
-  outline: 3px solid var(--rcmp-focus, #fd0);
-  outline-offset: 6px;
-}
-
-/* Simple stacked contact list (replaces dl-horizontal, which breaks in multi-column layouts) */
 .cr-contact-list {
   margin: 0 0 1.5rem;
 }

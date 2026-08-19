@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Civilian jobs in Federal Policing 
-date_modified: 2026-08-18
+date_modified: 2026-08-19
 lang: en
 lang_url: fed-pol-civil-fr.html
 breadcrumbs:
@@ -76,6 +76,6 @@ custom_css: /assets/css/careers.css
 <section id="s3">
     <h2>How to apply</h2>
     <p>Learn more about the role, qualifications, training program, and current opportunities for <a href="#">Civilian Criminal Investigators</a>.</p>
-    <p>Explore <a href="#">civilian career</a> opportunities within the RCMP and search for current openings through the Government of Canada jobs platform.
+    <p>Explore <a href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?toggleLanguage=en">civilian career</a> opportunities within the RCMP and search for current openings through the Government of Canada jobs platform.
     </p> 
 </section> 

@@ -44,10 +44,10 @@ custom_css: /assets/css/careers.css
             <option value="s13">Yukon</option>
           </select>
         </div>
-        <button class="rc-btn rc-btn--primary" id="cr-view-btn" type="submit">
+        <p><button class="rc-btn rc-btn--primary" id="cr-view-btn" type="submit">
           View contact information
           <i aria-hidden="true" class="fa-solid fa-chevron-right"></i>
-        </button>
+        </button></p>
       </div>
       <button class="cr-finder-reset" id="cr-reset-btn" type="button">
         <i aria-hidden="true" class="fa-solid fa-rotate-left"></i>
@@ -57,7 +57,7 @@ custom_css: /assets/css/careers.css
   </div>
 </section>
 
-<p id="cr-initial-message" class="cr-initial-message">Select a province or territory above to view its contact details, or choose &ldquo;Show all provinces and territories&rdquo; to browse the full list.</p>
+<p id="cr-initial-message" class="cr-initial-message">Select a province or territory above to view its contact details, or choose "Show all provinces and territories" to browse the full list.</p>
 
 <div id="cr-provinces">
 

@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: Civilian employee jobs: Civilian criminal investigators 
+title: Civilian employee jobs - Civilian criminal investigators 
 date_modified: 2026-08-19
 lang: en
 lang_url: civil-crim-investigator-fr.html

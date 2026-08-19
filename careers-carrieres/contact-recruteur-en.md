@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: Contact a recruiter
+title: Contact a police officer recruiter
 date_modified: 2026-07-14
 lang: en
 lang_url: contact-recruteur-fr.html
@@ -12,13 +12,14 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
+<p>Our recruiters are here to help you learn more about becoming an RCMP police officer.</p>
+<p>Looking for civilian opportunities? Explore our <a href="/en/careers-rcmp/civilian-employee-careers">Civilian employee careers</a>.</p>
 <div aria-live="polite" aria-atomic="true" class="rc-live-region sr-only" id="cr-live-region"></div>
-
 <section aria-labelledby="cr-finder-heading" class="cr-finder" id="cr-finder">
   <div class="cr-finder-icon" aria-hidden="true"><i class="fa-solid fa-location-dot"></i></div>
   <div class="cr-finder-body">
     <h2 id="cr-finder-heading">Find your recruiter</h2>
-    <p>Ready to start a conversation about joining the RCMP as a police officer? Choose your province or territory and we'll bring up the right contact details.</p>
+    <p>Ready to start a conversation about joining the RCMP as a police officer? Choose your province or territory to view contact information for recruitment offices in your area.</p>
     <noscript>
       <p>JavaScript is required to use this tool. Contact information for every province and territory is listed below.</p>
     </noscript>

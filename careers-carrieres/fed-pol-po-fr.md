@@ -1,7 +1,7 @@
 ---
 layout: careers
-title: La vie d'un policier ou d'une policière
-date_modified: 2026-08-18
+title: Carrières policières à la Police fédérale
+date_modified: 2026-08-19
 lang: fr
 lang_url: fed-pol-po-en.html
 breadcrumbs:

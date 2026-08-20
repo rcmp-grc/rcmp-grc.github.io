@@ -78,7 +78,7 @@ custom_css: /assets/css/careers.css
   <section id="s5-1">
     <h3>Atlantic Region</h3>
     <p>New Brunswick, Newfoundland and Labrador, Nova Scotia and Prince Edward Island</p>
-    <dl class="cr-contact-list">
+    <dl>
       <dt>Email</dt>
       <dd><a href="mailto:atlanticsecurityscreening-filtragesecuriteatlantique@rcmp-grc.gc.ca">atlanticsecurityscreening-filtragesecuriteatlantique@rcmp-grc.gc.ca</a></dd>
     </dl>
@@ -87,7 +87,7 @@ custom_css: /assets/css/careers.css
   <section id="s5-2">
     <h3>Central Region</h3>
     <p>Ontario and Quebec</p>
-    <dl class="cr-contact-list">
+    <dl>
       <dt>Email</dt>
       <dd><a href="mailto:centralsecurityscreening-filtragesecuritecentrale@rcmp-grc.gc.ca">centralsecurityscreening-filtragesecuritecentrale@rcmp-grc.gc.ca</a></dd>
     </dl>
@@ -96,7 +96,7 @@ custom_css: /assets/css/careers.css
   <section id="s5-3">
     <h3>Northwest Region</h3>
     <p>Alberta, Manitoba, Northwest Territories, Nunavut and Saskatchewan</p>
-    <dl class="cr-contact-list">
+    <dl>
       <dt>Email</dt>
       <dd><a href="mailto:northwestsecurityscreening-filtragesecuritenordouest@rcmp-grc.gc.ca">northwestsecurityscreening-filtragesecuritenordouest@rcmp-grc.gc.ca</a></dd>
     </dl>
@@ -105,7 +105,7 @@ custom_css: /assets/css/careers.css
   <section id="s5-4">
     <h3>Pacific Region</h3>
     <p>British Columbia and Yukon</p>
-    <dl class="cr-contact-list">
+    <dl>
       <dt>Email</dt>
       <dd><a href="mailto:dsspacificsecurityscreening@rcmp-grc.gc.ca">dsspacificsecurityscreening@rcmp-grc.gc.ca</a></dd>
     </dl>

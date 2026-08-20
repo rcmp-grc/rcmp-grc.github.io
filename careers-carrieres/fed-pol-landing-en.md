@@ -31,7 +31,7 @@ hero_image: /assets/img/landing-federal-policing.jpg
     </li>
     <li class="col-md-6">
       <div class="well">
-        <h3 class="h5"><a href=https://rcmp-grc.github.io/careers-carrieres/fed-pol-civil-en.html">Civilian jobs</a></h3>
+        <h3 class="h5"><a href="https://rcmp-grc.github.io/careers-carrieres/fed-pol-civil-en.html">Civilian jobs</a></h3>
         <p>Explore civilian careers in Federal Policing and how you can join.</p>
       </div>
     </li>

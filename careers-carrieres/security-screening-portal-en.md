@@ -28,7 +28,7 @@ custom_css: /assets/css/careers.css
     <h3 class="h4">Note</h3>
     <p>To access the portal, you must register for a GCKey or with a sign-in partner.</p>
   </section>
-  <p><a href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html"><button class="rc-btn rc-btn--primary" type="submit">Sign in to the Security Screening Portal</a></p>
+  <p><a href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html" class="rc-btn rc-btn--primary">Sign in to the Security Screening Portal</a></p>
 </section>
 
 <section id="s2">

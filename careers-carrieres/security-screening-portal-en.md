@@ -25,10 +25,10 @@ custom_css: /assets/css/careers.css
   <p>The Security Screening Portal is available for individuals to securely submit information to the RCMP.</p>
 
   <section class="alert alert-info">
-    <h2>Note</h2>
+    <h3 class="h4">Note</h2>
     <p>To access the portal, you must register for a GCKey or with a sign-in partner.</p>
   </section>
-  <p><a href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html" class="rc-btn rc-btn--primary" type="submit">Sign in to the Security Screening Portal</a></p>
+  <p><button class="rc-btn rc-btn--primary" type="submit"><a href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html">Sign in to the Security Screening Portal</a></button></p>
 </section>
 
 <section id="s2">
@@ -73,11 +73,11 @@ custom_css: /assets/css/careers.css
     <li>clear your browsing data and cache. Once done, close down your browser and re-open a new window </li>
     <li>ensure your GCKey is active and/or can successfully sign in using sign-in partners services </li>
   </ul>
-  <p>If you have any questions, or require additional support with the applicant portal, please reach out to your regional Departmental Security Screening unit by clicking on your province/territory below. Please include your full name and applicant ID within the email. </p>
+  <p>If you have any questions, or require additional support with the applicant portal, please reach out to the Departmental Security Screening unit in your region. Please include your full name and applicant ID within the email. </p>
 
   <section id="s5-1">
     <h3>Atlantic Region</h3>
-    <p>New Brunswick, Newfoundland & Labrador, Nova Scotia and Prince Edward Island</p>
+    <p>New Brunswick, Newfoundland and Labrador, Nova Scotia and Prince Edward Island</p>
     <dl class="cr-contact-list">
       <dt>Email</dt>
       <dd><a href="mailto:atlanticsecurityscreening-filtragesecuriteatlantique@rcmp-grc.gc.ca">atlanticsecurityscreening-filtragesecuriteatlantique@rcmp-grc.gc.ca</a></dd>

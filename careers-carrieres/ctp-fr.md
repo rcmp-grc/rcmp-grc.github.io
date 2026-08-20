@@ -182,4 +182,4 @@ custom_css: /assets/css/careers.css
   </div>
 </section>
 
-<p><a href="#" class="btn btn-careers-grey mrgn-tp-lg">Avez-vous postulé?</a></p>
+<p><a href="#" class="btn btn-careers mrgn-tp-lg">Avez-vous postulé?</a></p>

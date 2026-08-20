@@ -13,7 +13,7 @@ custom_css: /assets/css/careers.css
 ---
 
 <p>Nos recruteurs sont là pour vous aider à en apprendre davantage sur une carrière de policier ou policière à la GRC.</p>
-<p>Vous cherchez des possibilités d'emploi civil? Découvrez nos <a href="/fr/carrieres-grc/carrieres-employes-civils">carrières pour employés civils</a>.</p>
+<p>Vous cherchez des possibilités d'emploi civil? Découvrez nos <a href="/fr/carrieres-grc/carrieres-demployes-civils">carrières pour employés civils</a>.</p>
 <div aria-live="polite" aria-atomic="true" class="rc-live-region sr-only" id="cr-live-region"></div>
 <section aria-labelledby="cr-finder-heading" class="cr-finder" id="cr-finder">
   <div class="cr-finder-icon" aria-hidden="true"><i class="fa-solid fa-location-dot"></i></div>

@@ -82,7 +82,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section class="cr-province hidden" id="s2" tabindex="-1">
   <h2>Colombie-Britannique</h2>
-  <p>Apprenez-en plus sur le <a href="https://grc.ca/fr/cb/carrieres/projet-tunique-rouge">projet Tunique rouge</a> &ndash; le nouveau processus de recrutement pour les résidents de la Colombie-Britannique.</p>
+  <p>Apprenez-en plus sur le <a href="/fr/cb/carrieres/projet-tunique-rouge">projet Tunique rouge</a> &ndash; le nouveau processus de recrutement pour les résidents de la Colombie-Britannique.</p>
   <dl class="cr-contact-list">
     <dt>Courrier</dt>
     <dd><address>14200, Green Timbers Way<br>Arrêt postal : 1109<br>Surrey BC&nbsp;V3T&nbsp;6P3</address></dd>
@@ -182,7 +182,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section class="cr-province hidden" id="s13" tabindex="-1">
   <h2>Yukon</h2>
-  <p>Apprenez-en plus sur le <a href="https://grc.ca/fr/cb/carrieres/projet-tunique-rouge">projet Tunique rouge</a> &ndash; le nouveau processus de recrutement pour les résidents du Yukon.</p>
+  <p>Apprenez-en plus sur le <a href="/fr/cb/carrieres/projet-tunique-rouge">projet Tunique rouge</a> &ndash; le nouveau processus de recrutement pour les résidents du Yukon.</p>
   <dl class="cr-contact-list">
     <dt>Courriel</dt>
     <dd><a href="mailto:yukonrcmp_recruiting_recrutement@rcmp-grc.gc.ca">yukonrcmp_recruiting_recrutement@rcmp-grc.gc.ca</a></dd>

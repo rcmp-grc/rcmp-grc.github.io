@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Federal Policing careers 
-date_modified: 2026-08-19
+date_modified: 2026-08-20
 lang: en
 lang_url: fed-pol-landing-fr.html
 breadcrumbs:
@@ -25,13 +25,13 @@ hero_image: /assets/img/landing-federal-policing.jpg
   <ul class="list-unstyled row">
     <li class="col-md-6">
       <div class="well">
-        <h3 class="h5"><a href="#">Police officer jobs</a></h3>
+        <h3 class="h5"><a href="https://rcmp-grc.github.io/careers-carrieres/fed-pol-po-en.html">Police officer jobs</a></h3>
         <p>Learn how you can join Federal Policing as a police officer.</p>
       </div>
     </li>
     <li class="col-md-6">
       <div class="well">
-        <h3 class="h5"><a href="#">Civilian jobs</a></h3>
+        <h3 class="h5"><a href=https://rcmp-grc.github.io/careers-carrieres/fed-pol-civil-en.html">Civilian jobs</a></h3>
         <p>Explore civilian careers in Federal Policing and how you can join.</p>
       </div>
     </li>

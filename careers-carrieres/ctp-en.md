@@ -180,6 +180,27 @@ custom_css: /assets/css/careers.css
       </li>
     </ul>
   </div>
+
+<hr>
+
+<dl>
+	<dt><a href="/en/depot/services-and-information/cadet-training-program-overview#s1">Incident Management Intervention Model</a></dt>
+	<dd>Builds sound decision-making and risk assessment skills to choose the safest, most appropriate intervention in any situation.</dd>
+	<dt><a href="/en/depot/services-and-information/cadet-training-program-overview#s2">Applied Police Sciences</a></dt>
+	<dd>Develops the practical application of legal, technical, scientific, behavioral, analytical and problem-solving knowledge to community-focused policing.</dd>
+	<dt><a href="/en/depot/services-and-information/cadet-training-program-overview#s3">Police Defensive Tactics</a></dt>
+	<dd>Build and strengthen communication-based de-escalation and safe physical intervention skills to protect the public and manage high-risk encounters.</dd>
+	<dt><a href="/en/depot/services-and-information/cadet-training-program-overview#s4">Police Fitness Training</a></dt>
+	<dd>Builds endurance, strength and resilience beyond foundational fitness levels to meet the physical demands of frontline policing.</dd>
+	<dt><a href="/en/depot/services-and-information/cadet-training-program-overview#s5">Firearms Training Unit</a></dt>
+	<dd>Builds safe handling skills on RCMP-approved firearms, the pistol, shotgun and patrol carbine.</dd>
+	<dt><a href="/en/depot/services-and-information/cadet-training-program-overview#s6">Police Driving</a></dt>
+	<dd>Develops judgement and prepares you to operate emergency vehicles safely and effectively in dynamic environments.</dd>
+	<dt><a href="/en/depot/services-and-information/cadet-training-program-overview#s7">Drill and Deportment</a></dt>
+	<dd>Builds pride, teamwork, professionalism, and attention to detail under pressure.</dd>
+</dl>
+
+
 </section>
 
 <p><a href="" class="btn btn-careers mrgn-tp-lg">Have you applied?</a></p>

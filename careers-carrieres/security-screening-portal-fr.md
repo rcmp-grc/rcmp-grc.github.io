@@ -22,8 +22,13 @@ custom_css: /assets/css/careers.css
 
 <section id="s1">
   <h2>Ouvrir une session dans le Portail du filtrage de sécurité </h2>
-  <p>Le Portail du filtrage de sécurité permet de transmettre ses renseignements personnels à la GRC en toute sécurité. Pour accéder au portail, vous devez vous inscrire avec la CléGC ou poursuivre vers un partenaire de connexion. </p>
-  <p><a href="https://www.services.rcmp-grc.gc.ca/chooser-fra.html?ipeReferer=dsmsSecScreen" class="btn btn-call-to-action"> Ouvrez une session dans le Portail du filtrage de sécurité</a></p>
+  <p>Le Portail du filtrage de sécurité permet de transmettre ses renseignements personnels à la GRC en toute sécurité.</p>
+
+  <section class="alert alert-info">
+    <h3 class="h4">Remarque </h3>
+    <p>Pour accéder au portail, vous devez vous inscrire avec la CléGC ou poursuivre vers un partenaire de connexion.</p>
+  </section>
+  <p><a href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html" class="btn btn-careers">Ouvrez une session dans le Portail du filtrage de sécurité</a></p>
 </section>
 
 <section id="s2">
@@ -68,36 +73,41 @@ custom_css: /assets/css/careers.css
     <li>effacez vos données de navigation et videz votre cache, fermez votre navigateur, puis ouvrez une nouvelle fenêtre; </li>
     <li>assurez-vous que votre CléGC est active ou que vous pouvez ouvrir une session avec un partenaire de connexion. </li>
   </ul>
-  <p>Si vous avez des questions ou avez besoin d’aide à propos du portail, veuillez communiquer avec le Groupe du filtrage de sécurité, Sécurité ministérielle, de votre région en cliquant sur votre province ou territoire ci-dessous. N’oubliez pas d’indiquer votre nom complet et votre numéro d’identification de postulant(e) dans votre courriel. </p>
-  <ul>
-    <li><a href="mailto:atlanticsecurityscreening-filtragesecuriteatlantique@rcmp-grc.gc.ca">Région de l’Atlantique</a>
-      <ul>
-        <li>Nouveau-Brunswick</li>
-        <li>Terre-Neuve-et-Labrador</li>
-        <li>Nouvelle-Écosse</li>
-        <li>Île-du-Prince-Édouard</li>
-      </ul>
-    </li>
-    <li><a href="mailto:centralsecurityscreening-filtragesecuritecentrale@rcmp-grc.gc.ca">Région du Centre</a>
-      <ul>
-        <li>Ontario</li>
-        <li>Québec</li>
-      </ul>
-    </li>
-    <li><a href="mailto:northwestsecurityscreening-filtragesecuritenordouest@rcmp-grc.gc.ca">Région du Nord-Ouest</a>
-      <ul>
-        <li>Alberta</li>
-        <li>Manitoba</li>
-        <li>Territoires du Nord-Ouest</li>
-        <li>Nunavut</li>
-        <li>Saskatchewan</li>
-      </ul>
-    </li>
-    <li><a href="mailto:dsspacificsecurityscreening@rcmp-grc.gc.ca">Région du Pacifique</a>
-      <ul>
-        <li>Colombie-Britannique</li>
-        <li>Yukon</li>
-      </ul>
-    </li>
-  </ul>
+  <p>Si vous avez des questions ou avez besoin d’aide à propos du portail, veuillez communiquer avec le Groupe du filtrage de sécurité, Sécurité ministérielle, de votre région. N’oubliez pas d’indiquer votre nom complet et votre numéro d’identification de postulant(e) dans votre courriel. </p>
+
+  <section id="s5-1">
+    <h3>Région de l’Atlantique</h3>
+    <p>Nouveau-Brunswick, Terre-Neuve-et-Labrador, Nouvelle-Écosse et Île-du-Prince-Édouard</p>
+    <dl class="cr-contact-list">
+      <dt>Courriel</dt>
+      <dd><a href="mailto:atlanticsecurityscreening-filtragesecuriteatlantique@rcmp-grc.gc.ca">atlanticsecurityscreening-filtragesecuriteatlantique@rcmp-grc.gc.ca</a></dd>
+    </dl>
+  </section>
+
+  <section id="s5-2">
+    <h3>Région du Centre</h3>
+    <p>Ontario et Québec</p>
+    <dl class="cr-contact-list">
+      <dt>Courriel</dt>
+      <dd><a href="mailto:centralsecurityscreening-filtragesecuritecentrale@rcmp-grc.gc.ca">centralsecurityscreening-filtragesecuritecentrale@rcmp-grc.gc.ca</a></dd>
+    </dl>
+  </section>
+
+  <section id="s5-3">
+    <h3>Région du Nord-Ouest</h3>
+    Alberta, Manitoba, Territoires du Nord-Ouest, Nunavut et Saskatchewan
+    <dl class="cr-contact-list">
+      <dt>Courriel</dt>
+      <dd><a href="mailto:northwestsecurityscreening-filtragesecuritenordouest@rcmp-grc.gc.ca">northwestsecurityscreening-filtragesecuritenordouest@rcmp-grc.gc.ca</a></dd>
+    </dl>
+  </section>
+
+  <section id="s5-4">
+    <h3>Région du Pacifique</h3>
+    <p>Colombie-Britannique et Yukon </p>
+    <dl class="cr-contact-list">
+      <dt>Courriel</dt>
+      <dd><a href="mailto:dsspacificsecurityscreening@rcmp-grc.gc.ca">dsspacificsecurityscreening@rcmp-grc.gc.ca</a></dd>
+    </dl>
+  </section>
 </section>

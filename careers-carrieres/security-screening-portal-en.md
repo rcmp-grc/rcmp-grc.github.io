@@ -22,8 +22,13 @@ custom_css: /assets/css/careers.css
 
 <section id="s1">
   <h2>Sign into the Security Screening Portal</h2>
-  <p>The Security Screening Portal is available for individuals to securely submit information to the RCMP. To access the portal, you must register for a GCKey or with a sign-in partner. </p>
-  <p><a href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html" class="btn btn-call-to-action">Sign into the Security Screening Portal</a></p>
+  <p>The Security Screening Portal is available for individuals to securely submit information to the RCMP.</p>
+
+  <section class="alert alert-info">
+    <h2>Note</h2>
+    <p>To access the portal, you must register for a GCKey or with a sign-in partner.</p>
+  </section>
+  <p><a href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html" class="rc-btn rc-btn--primary" type="submit">Sign in to the Security Screening Portal</a></p>
 </section>
 
 <section id="s2">
@@ -69,35 +74,40 @@ custom_css: /assets/css/careers.css
     <li>ensure your GCKey is active and/or can successfully sign in using sign-in partners services </li>
   </ul>
   <p>If you have any questions, or require additional support with the applicant portal, please reach out to your regional Departmental Security Screening unit by clicking on your province/territory below. Please include your full name and applicant ID within the email. </p>
-  <ul>
-    <li><a href="mailto:atlanticsecurityscreening-filtragesecuriteatlantique@rcmp-grc.gc.ca">Atlantic Region</a>
-      <ul>
-        <li>New Brunswick</li>
-        <li>Newfoundland & Labrador</li>
-        <li>Nova Scotia</li>
-        <li>Prince Edward Island</li>
-      </ul>
-    </li>
-    <li><a href="mailto:centralsecurityscreening-filtragesecuritecentrale@rcmp-grc.gc.ca">Central Region</a>
-      <ul>
-        <li>Ontario</li>
-        <li>Quebec</li>
-      </ul>
-    </li>
-    <li><a href="mailto:northwestsecurityscreening-filtragesecuritenordouest@rcmp-grc.gc.ca">Northwest Region</a>
-      <ul>
-        <li>Alberta</li>
-        <li>Manitoba</li>
-        <li>Northwest Territories</li>
-        <li>Nunavut</li>
-        <li>Saskatchewan</li>
-      </ul>
-    </li>
-    <li><a href="mailto:dsspacificsecurityscreening@rcmp-grc.gc.ca">Pacific Region</a>
-      <ul>
-        <li>British Columbia</li>
-        <li>Yukon</li>
-      </ul>
-    </li>
-  </ul>
+
+  <section id="s5-1">
+    <h3>Atlantic Region</h3>
+    <p>New Brunswick, Newfoundland & Labrador, Nova Scotia and Prince Edward Island</p>
+    <dl class="cr-contact-list">
+      <dt>Email</dt>
+      <dd><a href="mailto:atlanticsecurityscreening-filtragesecuriteatlantique@rcmp-grc.gc.ca">atlanticsecurityscreening-filtragesecuriteatlantique@rcmp-grc.gc.ca</a></dd>
+    </dl>
+  </section>
+
+  <section id="s5-2">
+    <h3>Central Region</h3>
+    <p>Ontario and Quebec</p>
+    <dl class="cr-contact-list">
+      <dt>Email</dt>
+      <dd><a href="mailto:centralsecurityscreening-filtragesecuritecentrale@rcmp-grc.gc.ca">centralsecurityscreening-filtragesecuritecentrale@rcmp-grc.gc.ca</a></dd>
+    </dl>
+  </section>
+
+  <section id="s5-3">
+    <h3>Northwest Region</h3>
+    <p>Alberta, Manitoba, Northwest Territories, Nunavut and Saskatchewan</p>
+    <dl class="cr-contact-list">
+      <dt>Email</dt>
+      <dd><a href="mailto:northwestsecurityscreening-filtragesecuritenordouest@rcmp-grc.gc.ca">northwestsecurityscreening-filtragesecuritenordouest@rcmp-grc.gc.ca</a></dd>
+    </dl>
+  </section>
+
+  <section id="s5-4">
+    <h3>Pacific Region</h3>
+    <p>British Columbia and Yukon</p>
+    <dl class="cr-contact-list">
+      <dt>Email</dt>
+      <dd><a href="mailto:dsspacificsecurityscreening@rcmp-grc.gc.ca">dsspacificsecurityscreening@rcmp-grc.gc.ca</a></dd>
+    </dl>
+  </section>
 </section>

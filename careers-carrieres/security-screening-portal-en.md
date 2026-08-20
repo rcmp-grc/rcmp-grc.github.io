@@ -25,7 +25,7 @@ custom_css: /assets/css/careers.css
   <p>The Security Screening Portal is available for individuals to securely submit information to the RCMP.</p>
 
   <section class="alert alert-info">
-    <h3 class="h4">Note</h2>
+    <h3 class="h4">Note</h3>
     <p>To access the portal, you must register for a GCKey or with a sign-in partner.</p>
   </section>
   <p><button class="rc-btn rc-btn--primary" type="submit"><a href="https://www.services.rcmp-grc.gc.ca/chooser-eng.html">Sign in to the Security Screening Portal</a></button></p>

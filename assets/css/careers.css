@@ -2293,3 +2293,127 @@ a[href^="mailto:"]::before {
   background-size: contain;
   background-position: center;
 }
+.cr-finder {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  background: var(--rcmp-grey-lt, #f3f2f1);
+  border-left: 0.6rem solid var(--rcmp-gold-warn, #ecb731);
+  border-radius: var(--radius-sm, 0.5rem);
+  padding: 2rem;
+  margin-bottom: 2.5rem;
+}
+.cr-finder-icon {
+  flex: 0 0 auto;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: var(--rcmp-black, #0b0c0c);
+  color: var(--rcmp-white, #fff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+.cr-finder-body { flex: 1 1 auto; min-width: 0; }
+.cr-finder-body h2 {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.cr-finder-body > p { max-width: 60ch; }
+.cr-finder-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+.cr-finder-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 100%;
+  max-width: 420px;
+}
+.cr-finder-field label {
+  font-weight: 700;
+  margin: 0;
+}
+.cr-finder-field select {
+  width: 100%;
+  padding: 0.6rem 2.2rem 0.6rem 0.75rem;
+  border: 2px solid var(--rcmp-black, #0b0c0c);
+  border-radius: var(--radius-xs, 4px);
+  background: var(--rcmp-white, #fff);
+  font-size: 1rem;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%230b0c0c' d='M0 0l6 8 6-8z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}
+.cr-finder-reset {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  background: none;
+  border: 0;
+  padding: 0.25rem 0;
+  font-weight: 700;
+  text-decoration: underline;
+  color: var(--rcmp-black, #0b0c0c);
+  cursor: pointer;
+}
+.cr-finder-reset:hover,
+.cr-finder-reset:focus {
+  text-decoration: none;
+}
+.cr-finder-reset:focus-visible {
+  outline: 3px solid var(--rcmp-focus, #fd0);
+  outline-offset: 2px;
+}
+@media (max-width: 600px) {
+  .cr-finder { flex-direction: column; padding: 1.5rem; }
+  .cr-finder-field { max-width: none; }
+}
+.cr-province {
+  margin-bottom: 2.5rem;
+}
+.cr-province h2 {
+  border-left: 0.6rem solid var(--rcmp-gold-warn, #ecb731);
+  padding-left: 1rem;
+  margin-left: 0;
+}
+.cr-province .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+.cr-province .col-md-6 {
+  flex: 1 1 260px;
+  min-width: 0;
+}
+.cr-province address {
+  font-style: normal;
+}
+.cr-contact-list {
+  margin: 0 0 1.5rem;
+}
+.cr-contact-list dt {
+  font-weight: 700;
+  color: var(--rcmp-black, #0b0c0c);
+  border-top: 1px solid var(--rcmp-grey-md, #b1b4b6);
+  padding-top: 0.75rem;
+  margin-top: 0.75rem;
+}
+.cr-contact-list dt:first-child {
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+.cr-contact-list dd {
+  margin: 0.25rem 0 0;
+}

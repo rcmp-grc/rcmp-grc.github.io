@@ -44,13 +44,16 @@ custom_css: /assets/css/careers.css
             <option value="s13">Yukon</option>
           </select>
         </div>
-        <p><button class="rc-btn rc-btn--primary" id="cr-view-btn" type="submit">View contact information</button></p>
+        <button class="rc-btn rc-btn--primary" id="cr-view-btn" type="submit">View contact information</button>
       </div>
-      <button class="cr-finder-reset" id="cr-reset-btn" type="button">Show all provinces and territories</button>
+      <button class="cr-finder-reset" id="cr-reset-btn" type="button">
+        <i aria-hidden="true" class="fa-solid fa-rotate-left"></i>
+        Show all provinces and territories
+        <span class="sr-only"> to browse the full list.</span>
+      </button>
     </form>
   </div>
 </section>
-<p id="cr-initial-message" class="cr-initial-message">Select a province or territory above to view its contact details, or choose "Show all provinces and territories" to browse the full list.</p>
 <div id="cr-provinces">
 <section class="cr-province hidden" id="s1" tabindex="-1">
   <h2>Alberta</h2>
@@ -191,7 +194,6 @@ custom_css: /assets/css/careers.css
 </div>
 
 <style>
-/* Finder */
 .cr-finder {
   display: flex;
   gap: 1.5rem;
@@ -274,18 +276,13 @@ custom_css: /assets/css/careers.css
   outline: 3px solid var(--rcmp-focus, #fd0);
   outline-offset: 2px;
 }
-
-.cr-initial-message {
-  color: var(--rcmp-grey-dk, #505a5f);
-  margin-bottom: 2rem;
-}
-
 @media (max-width: 600px) {
   .cr-finder { flex-direction: column; padding: 1.5rem; }
   .cr-finder-field { max-width: none; }
 }
-
-/* Province sections */
+.cr-province {
+  margin-bottom: 2.5rem;
+}
 .cr-province h2 {
   border-left: 0.6rem solid var(--rcmp-gold-warn, #ecb731);
   padding-left: 1rem;
@@ -333,7 +330,6 @@ custom_css: /assets/css/careers.css
   var provincesWrap   = document.getElementById("cr-provinces");
   var allSections     = Array.prototype.slice.call(document.querySelectorAll(".cr-province"));
   var noMatch         = document.getElementById("cr-no-match");
-  var initialMessage  = document.getElementById("cr-initial-message");
   var liveRegion      = document.getElementById("cr-live-region");
 
   if (!form || !select || !allSections.length) { return; }
@@ -363,14 +359,12 @@ custom_css: /assets/css/careers.css
         section.classList.add("hidden");
       }
     });
-    if (initialMessage) { initialMessage.classList.add("hidden"); }
     noMatch.classList.toggle("hidden", found);
     return found;
   }
 
   function showAll() {
     allSections.forEach(function (section) { section.classList.remove("hidden"); });
-    if (initialMessage) { initialMessage.classList.add("hidden"); }
     noMatch.classList.add("hidden");
   }
 

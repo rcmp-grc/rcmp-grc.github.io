@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Emplois d'employés civils - Enquêteurs criminels civils
-date_modified: 2026-08-19
+date_modified: 2026-08-21
 lang: fr
 lang_url: civil-crim-investigator-en.html
 breadcrumbs:
@@ -16,9 +16,9 @@ custom_css: /assets/css/careers.css
   <h2 id="on-this-page-heading">Sur cette page</h2>
 	<ul>
 		<li><a href="#s1">La possibilité de servir</a></li>
-		<li><a href="#s2">Formation</a></li>
-		<li><a href="#s3">Nature du travail</a></li>
-		<li><a href="#s4">Compétences essentielles</a></li>
+		<li><a href="#s2">Nature du travail</a></li>
+		<li><a href="#s3">Compétences essentielles</a></li>
+		<li><a href="#s4">Formation</a></li>
 		<li><a href="#s5">Pourquoi travailler à la GRC?</a></li>
 		<li><a href="#s6">Comment postuler</a></li>
         <li><a href="#s7">Nous contacter</a></li>
@@ -27,7 +27,7 @@ custom_css: /assets/css/careers.css
 <section id="s1">
 	<h2>La possibilité de servir</h2>
 	<p>Vous êtes de nature curieuse et avez un bon esprit d’analyse? Vous pouvez résoudre des problèmes avec créativité?</p>
-	<p>Si vous voulez améliorer la vie des autres et contribuer à la sécurité de la population canadienne, cette carrière est faite pour vous!</p>
+	<p>Si vous voulez améliorer la vie des autres et contribuer à la sécurité de la population canadienne, cette carrière est faite pour vous.</p>
 	<p>Les enquêteurs criminels civils (ECC) jouent un rôle important dans la GRC de demain. Ils travaillent aux côtés de policiers qui effectuent des enquêtes relevant du <cite>Code criminel</cite> sur la cybercriminalité et la criminalité financière. Les enquêteurs criminels civils possèdent une cote de sécurité valide et se voient accorder un statut d’agent de la paix limité, mais ils ne seront pas armés et n’effectueront pas d’arrestations. Les enquêteurs criminels civils participent activement aux enquêtes, notamment en remplissant les fonctions suivantes&nbsp;:</p>
 	<ul>
 		<li>interroger les témoins, les victimes et les suspects;</li>
@@ -37,21 +37,6 @@ custom_css: /assets/css/careers.css
 	</ul>
 </section>
 <section id="s2">
-	<h2>Formation</h2>
-	<p>Pendant leurs 24 premiers mois d’emploi, les enquêteurs criminels civils suivent une formation complète sur les enquêtes de la <a href="/fr/police-federale">Police fédérale</a>.</p>
-	<p>Cette formation leur permet d’acquérir des connaissances de base de la Police fédérale et en sciences policières (cours Introduction aux sciences policières). Voici quelques-uns des sujets traités&nbsp;:</p>
-	<ul>
-		<li>code de déontologie de la GRC</li>
-		<li>lois nationales applicables</li>
-		<li>autorités judiciaires</li>
-		<li>types d’infraction</li>
-		<li>collecte d’éléments de preuve et traitement des pièces à conviction</li>
-		<li>autorisations judiciaires</li>
-		<li>interrogatoires et processus judiciaire</li>
-	</ul>
-	<p>Après avoir réussi le cours d’Introduction aux sciences policières et l’atelier ECC Rôle et Autorités, les enquêteurs criminels civils se voient accorder un statut limité d’agent de la paix et peuvent entamer le Programme des enquêtes de la Police fédérale.</p>
-</section>
-<section id="s3">
 	<h2>Nature du travail</h2>
 	<p>À titre d’enquêteur criminel civil, vous ferez partie des équipes chargées d’enquêter sur la criminalité financière et la cybercriminalité. Vous travaillerez aux côtés de policiers et d’autres employés civils. Voici quelles seront vos tâches&nbsp;:</p>
 	<ul>
@@ -81,7 +66,7 @@ custom_css: /assets/css/careers.css
 		</dd>
 	</dl>
 </section>
-<section id="s4">
+<section id="s3">
 	<h2>Compétences essentielles</h2>
 	<p>Les enquêteurs criminels civils en cybercriminalité possèdent des compétences, des connaissances et de l’expérience dans des domaines tels que&nbsp;:</p>
 	<ul>
@@ -99,6 +84,21 @@ custom_css: /assets/css/careers.css
 		<li>les enquêtes sur la conformité, les transactions ou les valeurs mobilières</li>
 		<li>les enquêtes sur les inconduites liées aux marchés financiers</li>
 	</ul>
+</section>
+<section id="s4">
+	<h2>Formation</h2>
+	<p>Pendant leurs 24 premiers mois d’emploi, les enquêteurs criminels civils suivent une formation complète sur les enquêtes de la <a href="/fr/police-federale">Police fédérale</a>.</p>
+	<p>Cette formation leur permet d’acquérir des connaissances de base de la Police fédérale et en sciences policières (cours Introduction aux sciences policières). Voici quelques-uns des sujets traités&nbsp;:</p>
+	<ul>
+		<li>code de déontologie de la GRC</li>
+		<li>lois nationales applicables</li>
+		<li>autorités judiciaires</li>
+		<li>types d’infraction</li>
+		<li>collecte d’éléments de preuve et traitement des pièces à conviction</li>
+		<li>autorisations judiciaires</li>
+		<li>interrogatoires et processus judiciaire</li>
+	</ul>
+	<p>Après avoir réussi le cours d’Introduction aux sciences policières et l’atelier ECC Rôle et Autorités, les enquêteurs criminels civils se voient accorder un statut limité d’agent de la paix et peuvent entamer le Programme des enquêtes de la Police fédérale.</p>
 </section>
 <section id="s5">
 	<h2>Pourquoi travailler à la GRC?</h2>
@@ -127,7 +127,6 @@ custom_css: /assets/css/careers.css
 	<p>Veuillez noter que ces postes ne sont pas annoncés pendant très longtemps. Donc, si vous ne vous abonnez pas aux alertes, vérifiez souvent le site.</p>
 	<p>Pour d’autres conseils sur la façon de présenter votre candidature, visionnez la vidéo «&nbsp;<a href="https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/nouvelles/dechiffrez-le-code.html">Déchiffrez le code</a>&nbsp;» du Secrétariat du Conseil du Trésor.</p>
 	<p>Vous pouvez aussi suivre la GRC sur <a href="https://www.linkedin.com/company/rcmp-grc/">LinkedIn</a> et vous inscrire aux alertes emploi pour ne manquer aucune nouvelle annonce d’emploi.</p>
-	<p>Pour en savoir plus sur le Programme d’enquêteurs criminels civils, n’hésitez pas à écrire à <a href="mailto:fprecruitment-recrutementpf@rcmp-grc.gc.ca">fprecruitment-recrutementpf@rcmp-grc.gc.ca</a>.</p>
 </section>
 <section id="s7">
 	<h2>Nous contacter</h2>

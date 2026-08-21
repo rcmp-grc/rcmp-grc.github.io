@@ -51,7 +51,7 @@ custom_css: /assets/css/careers.css
 <section id="s2">
     <h2>Exploring opportunities</h2>
     <p>Civilian employees support Federal Policing operations through specialized expertise, intelligence, technology, investigations, and corporate services that help address complex criminal threats.</p>
-    <p><b>Operational and specialized roles:</b></p>
+    <p>Operational and specialized roles:</p>
     <ul>
         <li>Serious and Organized Crime</li>
         <li>National Security</li>
@@ -60,7 +60,7 @@ custom_css: /assets/css/careers.css
         <li>Protective Policing</li>
         <li>Intelligence Operations</li>
     </ul>
-    <p><b>Corporate services:</b></p>
+    <p>Corporate services:</p>
     <ul>
         <li>Policy Specialists</li>
         <li>Human Resources Advisors</li>
@@ -70,7 +70,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s3">
     <h2>How to apply</h2>
-    <p>Learn more about the role, qualifications, training program, and current opportunities for <a href="#">Civilian Criminal Investigators</a>.</p>
+    <p>Learn more about the role, qualifications, training program, and current opportunities for <a href="/en/careers-rcmp/civilian-employee-careers/types-civilian-employee-jobs/civilian-employee-job-civilian-criminal-investigators">Civilian Criminal Investigators</a>.</p>
     <p>Explore <a href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?toggleLanguage=en">civilian career</a> opportunities within the RCMP and search for current openings through the Government of Canada jobs platform.
     </p> 
 </section> 

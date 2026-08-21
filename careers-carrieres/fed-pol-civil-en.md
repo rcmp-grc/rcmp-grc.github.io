@@ -32,7 +32,7 @@ custom_css: /assets/css/careers.css
     <section id="s1-1">
         <h3>Civilian Criminal Investigator Program</h3>
         <p>Civilian Criminal Investigators (CCI) work alongside police officers on complex criminal investigations, particularly within cybercrime and financial crime teams. The program is designed for professionals who possess strong investigative, intelligence, enforcement, regulatory, or compliance experience and want to contribute directly to public safety and national security.</p>
-        <p>Backgrounds that align with CCI opportunities</p>
+        <p>Backgrounds that align with CCI opportunities:</p>
         <ul>
             <li>Criminal investigations</li>
             <li>Intelligence</li>

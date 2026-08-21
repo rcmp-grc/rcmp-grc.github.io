@@ -98,32 +98,34 @@ custom_css: /assets/css/careers.css
 		<li>judicial authorizations</li>
 		<li>interviews and court process</li>
 	</ul>
-	<p>Upon successfully completing the Introduction to Police Sciences course and CCI Role and Authorities Workshop, candidates are granted limited peace officer status and progress to the Federal Policing Investigations Program (FPIP).</p>
+	<p>After successfully completing the Introduction to Police Sciences course and CCI Role and Authorities Workshop, candidates are granted limited peace officer status and progress to the Federal Policing Investigations Program (FPIP).</p>
 </section>
 <section id="s5">
 	<h2>Reasons to work for the RCMP</h2>
 	<p>Joining the RCMP comes with numerous benefits, including:</p>
 	<ul>
-		<li>A 37.5-hour work week (overtime may be required in some circumstances)</li>
-		<li>An indexed <a href="https://www.canada.ca/en/treasury-board-secretariat/topics/pension-plan/plan-information.html">pension plan</a></li>
+		<li>a 37.5-hour work week (overtime may be required in some circumstances)</li>
+		<li>an indexed <a href="https://www.canada.ca/en/treasury-board-secretariat/topics/pension-plan/plan-information.html">pension plan</a></li>
 		<li>Medical and dental <a href="https://pshcp.ca/coverage/">health care benefits</a></li>
-		<li>Three weeks of paid vacation within a year of being hired</li>
-		<li>Reimbursement of certain licensing and association fees, when applicable</li>
-		<li>Competitive pay 
+		<li>three weeks of paid vacation within a year of being hired</li>
+		<li>reimbursement of certain licensing and association fees, when applicable</li>
+		<li>competitive pay 
 			<ul>
-				<li>Rates for <a href="https://www.canada.ca/en/treasury-board-secretariat/topics/pay/collective-agreements/it.html#toc45590245591">cybercrime</a> (IT-02 and IT-03)</li>
-				<li>Rates for <a href="https://www.canada.ca/en/treasury-board-secretariat/topics/pay/collective-agreements/ct.html#toc44206244208">financial crime</a> (CT-EAV-03 and CT-EAV-04)</li>
+				<li>rates for <a href="https://www.canada.ca/en/treasury-board-secretariat/topics/pay/collective-agreements/it.html#toc45590245591">cybercrime</a> (IT-02 and IT-03)</li>
+				<li>rates for <a href="https://www.canada.ca/en/treasury-board-secretariat/topics/pay/collective-agreements/ct.html#toc44206244208">financial crime</a> (CT-EAV-03 and CT-EAV-04)</li>
 			</ul></li>
-		<li>Reimbursement of relocation expenses, when applicable</li>
-		<li>Access to comprehensive training programs</li>
-		<li>Opportunities to contribute to the safety of Canadians </li>
+		<li>reimbursement of relocation expenses, when applicable</li>
+		<li>access to comprehensive training programs</li>
+		<li>opportunities to contribute to the safety of Canadians</li>
 	</ul>
 </section>
 <section id="s6">
 	<h2>How to apply</h2>
-	<p>When a selection process opens, apply through <a href="https://www.canada.ca/en/services/jobs/opportunities/government.html">Government of Canada Jobs</a>.</p>
-	<p>Create an account and subscribe to email alerts to be notified when a selection process opens.</p>
-	<p>Please note these positions may be advertised for a short period, so if you don’t subscribe to alerts, be sure to check the site often.</p>
+	<p>Apply through <a href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true&toggleLanguage=en">GC Jobs when a selection process opens</a>.</p>
+	<section class="alert alert-info">
+		<h3>Note</h3>
+	<p>Create an account and subscribe to email alerts to be notified when a selection process opens. Positions may be advertised for a short period, so if you don’t subscribe to alerts, be sure to visit the website often.</p>
+	</section>
 	<p>For more tips on how to apply, watch the <a href="https://www.youtube.com/watch?v=0GW7P3g9hhI&feature=youtu.be">Cracking the Code video</a> from the Treasury Board of Canada Secretariat.</p>
 	<p>You can also follow the RCMP on <a href="https://www.linkedin.com/company/rcmp-grc/">LinkedIn</a> and subscribe to job alerts to be notified when new job advertisements are published.
 </section>

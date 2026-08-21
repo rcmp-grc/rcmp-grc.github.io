@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Civilian employee jobs - Civilian criminal investigators 
-date_modified: 2026-08-19
+date_modified: 2026-08-21
 lang: en
 lang_url: civil-crim-investigator-fr.html
 breadcrumbs:
@@ -16,9 +16,9 @@ custom_css: /assets/css/careers.css
   <h2 id="on-this-page-heading">On this page</h2>
 	<ul>
 		<li><a href="#s1">An opportunity to serve</a></li>
-		<li><a href="#s2">Training</a></li>
-		<li><a href="#s3">What the work involves</a></li>
-		<li><a href="#s4">Essential qualifications</a></li>
+		<li><a href="#s2">What the work involves</a></li>
+		<li><a href="#s3">Essential qualifications</a></li>
+		<li><a href="#s4">Training</a></li>
 		<li><a href="#s5">Reasons to work for the RCMP</a></li>
 		<li><a href="#s6">How to apply</a></li>
         <li><a href="#s7">Contact us</a></li>
@@ -27,8 +27,8 @@ custom_css: /assets/css/careers.css
 <section id="s1">
 	<h2>An opportunity to serve</h2>
 	<p>Are you curious? Analytical? A creative problem solver?</p>
-	<p>If you want to make a real difference in the lives of others and help keep Canadians safe - this is the career for you!</p>
-	<p>Civilian criminal investigators (CCIs) play an important role in the RCMP of today and the future. They work side-by-side with police officers conducting <cite>Criminal Code</cite> investigations related to cybercrime and financial crime. While civilian criminal investigators have valid security clearance and limited peace officer status, they will not be armed and will not make arrests. Civilian criminal investigators participate actively in investigations by:</p>
+	<p>If you want to make a real difference in the lives of others and help keep Canadians safe – this may be the career for you.</p>
+	<p>Civilian criminal investigators (CCIs) play an important role in the RCMP of today and the future. They work side-by-side with police officers conducting <cite>Criminal Code</cite> investigations related to cybercrime and financial crime. While civilian criminal investigators have valid security clearance and limited peace officer status, they will not be armed and will not make arrests. Civilian criminal investigators participate actively in investigations by: </p>
 	<ul>
 		<li>interviewing witnesses, victims and suspects</li>
 		<li>obtaining and executing warrants</li>
@@ -37,21 +37,6 @@ custom_css: /assets/css/careers.css
 	</ul>
 </section>
 <section id="s2">
-	<h2>Training</h2>
-	<p>Civilian criminal investigators participate in a comprehensive <a href="/en/federal-policing">Federal Policing</a> Investigation Training program during their first 24&nbsp;months of employment.</p>
-	<p>Training equips new civilian criminal investigators with the foundational knowledge of Federal Policing and police sciences (Introduction to Police Science), including content ranging from the:</p>
-	<ul>
-		<li><cite>RCMP Code of Conduct</cite></li>
-		<li>applicable domestic statutes</li>
-		<li>legal authorities</li>
-		<li>types of offences</li>
-		<li>gathering evidence and handling exhibits</li>
-		<li>judicial authorizations</li>
-		<li>interviews and court process</li>
-	</ul>
-	<p>Upon successful completion of the Introduction to Police Sciences course and CCI Role and Authorities Workshop, candidates are granted limited peace officer status and progress to the Federal Policing Investigations Program (FPIP).</p>
-</section>
-<section id="s3">
 	<h2>What the work involves</h2>
 	<p>As a civilian criminal investigator, you are an integrated member of financial crime and cybercrime teams working side by side with police officers and other civilian employees. You will:</p>
 	<ul>
@@ -81,7 +66,7 @@ custom_css: /assets/css/careers.css
 		</dd>
 	</dl>
 </section>
-<section id="s4">
+<section id="s3">
 	<h2>Essential qualifications</h2>
 	<p>Civilian criminal investigators in cybercrime have specialized skills, knowledge and experience in fields such as:</p>
 	<ul>
@@ -99,6 +84,21 @@ custom_css: /assets/css/careers.css
 		<li>compliance, trading or securities investigations</li>
 		<li>capital market misconduct investigations</li>
 	</ul>
+</section>
+<section id="s4">
+	<h2>Training</h2>
+	<p>Civilian criminal investigators participate in a comprehensive <a href="/en/federal-policing">Federal Policing</a> Investigation Training program during their first 24&nbsp;months of employment.</p>
+	<p>Training equips new civilian criminal investigators with the foundational knowledge of Federal Policing and police sciences (Introduction to Police Science), including content ranging from the:</p>
+	<ul>
+		<li><cite>RCMP Code of Conduct</cite></li>
+		<li>applicable domestic statutes</li>
+		<li>legal authorities</li>
+		<li>types of offences</li>
+		<li>gathering evidence and handling exhibits</li>
+		<li>judicial authorizations</li>
+		<li>interviews and court process</li>
+	</ul>
+	<p>Upon successfully completing the Introduction to Police Sciences course and CCI Role and Authorities Workshop, candidates are granted limited peace officer status and progress to the Federal Policing Investigations Program (FPIP).</p>
 </section>
 <section id="s5">
 	<h2>Reasons to work for the RCMP</h2>
@@ -125,7 +125,7 @@ custom_css: /assets/css/careers.css
 	<p>Create an account and subscribe to email alerts to be notified when a selection process opens.</p>
 	<p>Please note these positions may be advertised for a short period, so if you don’t subscribe to alerts, be sure to check the site often.</p>
 	<p>For more tips on how to apply, watch the <a href="https://www.youtube.com/watch?v=0GW7P3g9hhI&feature=youtu.be">Cracking the Code video</a> from the Treasury Board of Canada Secretariat.</p>
-	<p>You can also follow the RCMP on <a href="https://www.linkedin.com/company/rcmp-grc/">LinkedIn</a> and subscribe to job alerts to be notified when new job advertisements are published. For more information about the CCI Program, please contact <a href="mailto:fprecruitment-recrutementpf@rcmp-grc.gc.ca">fprecruitment-recrutementpf@rcmp-grc.gc.ca</a>.</p>
+	<p>You can also follow the RCMP on <a href="https://www.linkedin.com/company/rcmp-grc/">LinkedIn</a> and subscribe to job alerts to be notified when new job advertisements are published.
 </section>
 <section id="s7">
 	<h2>Contact us</h2>

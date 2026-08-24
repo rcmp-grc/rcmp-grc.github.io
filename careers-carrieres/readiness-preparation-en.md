@@ -353,7 +353,7 @@ var html = [
           '<p>Looks like you might have what it takes to be an RCMP police officer.</p>',
           '<p>Next steps:</p>',
           '<ol>',
-            '<li><a href="#" target="_blank" aria-label="Review the basic requirements - Opens in a new window">Review the basic requirements <span class="sr-only">(opens in new window)</span></a></li>',
+            '<li><a href="/en/careers-rcmp/police-officer-careers/basic-requirements-be-rcmp-police-officer" target="_blank" aria-label="Review the basic requirements - Opens in a new window">Review the basic requirements <span class="sr-only">(opens in new window)</span></a></li>',
             '<li><a href="#" target="_blank" aria-label="Learn about the application process - Opens in a new window">Learn about the application process <span class="sr-only">(opens in new window)</span></a></li>',
             '<li><a href="#" target="_blank" aria-label="Apply now - Opens in a new window">Apply now <span class="sr-only">(opens in new window)</span></a></li>',
           '</ol>',
@@ -372,7 +372,7 @@ var html = [
       html = [
         '<div class="rc-results">',
           '<h2 class="rc-results__heading" id="results-heading" tabindex="-1">End of Readiness Check</h2>',
-          '<p>Looks like you\'re not quite ready to apply. Review the <a href="#" target="_blank" aria-label="basic requirements - Opens in a new window">basic requirements <span class="sr-only">(opens in new window)</span></a> to make sure you\'re fit and ready for a career in policing.</p>',
+          '<p>Looks like you\'re not quite ready to apply. Review the <a href="/en/careers-rcmp/police-officer-careers/basic-requirements-be-rcmp-police-officer" target="_blank" aria-label="basic requirements - Opens in a new window">basic requirements <span class="sr-only">(opens in new window)</span></a> to make sure you\'re fit and ready for a career in policing.</p>',
           '<p>Take a closer look at the requirement(s):</p>',
           '<ul>' + noItems + '</ul>',
           '<button type="button" class="rc-btn rc-btn--primary" id="restart-btn">Start over</button>',

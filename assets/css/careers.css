@@ -87,7 +87,7 @@ button,
 
 @media (min-width: 1440px) {
   .careers-layout main:not(.po-full-width):not(:has(#careers-fullpage)) {
-    background-image: url("/assets/img/careers-background-3.png");
+    background-image: url("/themes/custom/poweb/assets/img/careers-background.png");
     background-size: 100% auto;
     background-repeat: repeat-y;
     background-position: top center;
@@ -1151,7 +1151,7 @@ a.btn-careers:hover {
 
 .po-end {
   position: relative;
-  background: url("/assets/img/po-end.jpg") bottom / cover no-repeat;
+  background: url("/themes/custom/poweb/assets/img/po-end.jpg") bottom / cover no-repeat;
   min-height: 46.3vh;
   -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 100%);
   mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 100%);
@@ -2093,11 +2093,6 @@ section[id^="s"] {
   z-index: 3;
 }
 
-.event-format-tag--virtual {
-  background: var(--c-navy);
-  color: var(--c-white);
-}
-
 .event-status-flag {
   display: flex;
   align-items: center;
@@ -2416,4 +2411,10 @@ a[href^="mailto:"]::before {
 }
 .cr-contact-list dd {
   margin: 0.25rem 0 0;
+}
+#wb-bc li {
+  white-space: normal;
+}
+a[href^=mailto:] {
+  white-space: normal;
 }

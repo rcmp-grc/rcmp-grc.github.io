@@ -12,7 +12,7 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 <nav aria-label="On this page">
-  <h2>On this page</h2>
+  <h2 id="on-this-page">On this page</h2>
   <ul>
     <li><a href="#s1">Four steps to get ready for Depot</a></li>
     <li><a href="#s2">About the Police Fitness Assessment</a></li>
@@ -126,7 +126,7 @@ custom_css: /assets/css/careers.css
     <dt>Bona fide Occupational Requirement</dt>
     <dd>Known as the "gold standard" or the "cadet version" of the Police Fitness Assessment, each test simulates policing tasks (such as, climbing a fence or loading a truck bed). You will only experience these tests at the RCMP Training Academy.</dd>
     <dt>Field</dt>
-    <dd>Known as the "Regular Member" version of the police fitness assessment, you may experience this version during the recruiting process. Its purpose is to help you predict success on the Police Fitness Assessment at Depot. Visit the recruiting events page to check if there isa practice sessions or fitness workshops in your area.</dd>
+    <dd>Known as the "Regular Member" version of the police fitness assessment, you may experience this version during the recruiting process. Its purpose is to help you predict success on the Police Fitness Assessment at Depot. Visit the recruiting events page to check if there is a practice sessions or fitness workshops in your area.</dd>
   </dl>
 </section>
 <section id="s3">

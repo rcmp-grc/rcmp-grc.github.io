@@ -12,7 +12,7 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 <nav aria-label="Sur cette page">
-  <h2>Sur cette page</h2>
+  <h2 id="on-this-page">Sur cette page</h2>
   <ul>
     <li><a href="#s1">Quatre étapes pour se préparer en vue de la formation à la Division Dépôt</a></li>
     <li><a href="#s2">À propos de le Test de condition physique pour les policiers</a></li>
@@ -118,7 +118,7 @@ custom_css: /assets/css/careers.css
       </ul>
   </section>
   <section id="s2-5" class="alert alert-info">
-    <h3 class="h4">Note</h3>
+    <h3 class="h4">Remarque</h3>
     <p>Chaque tâche doit être exécutée en revêtant l'uniforme de police et/ou une charge équivalant au poids de l'uniforme répartie entre le gilet et le ceinturon de service. Au début de l'entraînement, les cadets exécuteront l'épreuve en t-shirt et en short. Au fil du temps, ils s'exerceront en augmentant le poids pour terminer avec l'uniforme et une charge équivalant à leur équipement à l'évaluation finale.</p>
   </section>
   <p>Le test de condition physique des policiers est offert en deux versions.</p>
@@ -143,7 +143,7 @@ custom_css: /assets/css/careers.css
     <figcaption>
       <div class="accordion">
         <details class="acc-group">
-          <summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>Transcript - Test de condition physique pour les policiers de la GRC</summary>
+          <summary class="wb-toggle tgl-tab" data-toggle='{"parent": ".accordion", "group": ".acc-group"}'>Transcription - Test de condition physique pour les policiers de la GRC</summary>
           <div class="tgl-panel">
             <p>Musique entraînante ♫</p>
             <p>[Des policiers effectuent le Test de conditionnement physique pour les policiers.]</p>

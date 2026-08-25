@@ -226,8 +226,8 @@ custom_css: /assets/css/careers.css
       <br>Website: <a href="/en/bc/careers/9-1-1-police-dispatchers">9&#8209;1&#8209;1&#160;police dispatcher careers in British Columbia</a></dd>
 
     <dt>Saskatchewan</dt>
-    <dd>Email <a href="mailto:rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca">rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca</a>
-    <br>Telephone 639-625-3770</dd>
+    <dd><a href="mailto:rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca">rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca</a>
+    <br>Telephone: 639-625-3770</dd>
 
     <dt>Northwest Territories</dt>
     <dd><a href="mailto:goccrecruiting-gstorecrutement@rcmp-grc.gc.ca">goccrecruiting-gstorecrutement@rcmp-grc.gc.ca</a></dd>

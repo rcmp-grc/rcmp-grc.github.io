@@ -75,6 +75,7 @@ custom_css: /assets/css/careers.css
         "Le fait de ne pas incarner ces valeurs (dans son comportement ou sa conduite, par exemple) entraînera le retrait immédiat du Programme de formation des cadets.",
         "N\'oubliez pas qu\'en cas de manquement aux valeurs fondamentales, votre contrat de formation pourrait être résilié. Si vous démissionnez ou êtes renvoyé(e) du Programme de formation des cadets, vous pourriez être tenu(e) de rembourser votre allocation de formation.",
       ],
+      link: "/fr/carrieres-grc/carriere-policiere/exigences-base-pour-devenir-agent-ou-agente-grc#q16",
     },
     {
       number: 2,
@@ -92,6 +93,7 @@ custom_css: /assets/css/careers.css
         "You must have a valid, unrestricted Canadian driver\'s licence before you apply. An unrestricted licence means you have full driving privileges with no probationary conditions or limitations. You must have the ability to drive on your own at any time, on any road.",
         "Note: Applicants with vision\-related driver\'s licence restrictions may still be eligible, provided they meet RCMP medical and vision requirements.",
       ],
+      link: "/fr/carrieres-grc/carriere-policiere/exigences-base-pour-devenir-agent-ou-agente-grc#q5",
     },
     {
       number: 3,
@@ -110,6 +112,7 @@ custom_css: /assets/css/careers.css
         "applying lethal force to preserve life, including your own, when faced with such a situation",
       ],
       info: "During the Cadet Training Program, you will learn how to safely handle and use firearms and various other approved tools to support interventions. Use of force is documented, and regular members must articulate their actions and decisions in reports and in court.",
+      link: "/fr/carrieres-grc/carriere-policiere/exigences-base-pour-devenir-agent-ou-agente-grc#q11",
     },
     {
       number: 4,
@@ -128,6 +131,7 @@ custom_css: /assets/css/careers.css
       question: "Are you physically fit?",
       questionBullets: [],
       info: 'You must arrive at the RCMP Academy, Depot ready to succeed the <a href="#" target="_blank" aria-label="Police Fitness Assessment - Opens in a new window">Police Fitness Assessment <span class="sr-only">(opens in new window)</span></a> within the first few weeks of the training program.',
+      link: "/fr/carrieres-grc/carriere-policiere/exigences-base-pour-devenir-agent-ou-agente-grc#q10",
     },
     {
       number: 5,
@@ -143,6 +147,7 @@ custom_css: /assets/css/careers.css
         "learn and study Canadian law, police procedures and policy, investigative techniques, firearms, police defensive tactics, police driving, police fitness, and drill and deportment",
       ],
       info: "The RCMP is committed to inclusion and respect for diversity. Reasonable accommodations may be available for religious practices and observances, including religious holidays, subject to operational and training requirements.",
+      link: "/fr/carrieres-grc/carriere-policiere/exigences-base-pour-devenir-agent-ou-agente-grc#q12",
     },
     {
       number: 6,
@@ -152,6 +157,7 @@ custom_css: /assets/css/careers.css
       question: "Are you willing to move anywhere in Canada after graduation from the RCMP Academy, Depot?",
       questionBullets: [],
       info: "The RCMP is a national police service. While personal preference is considered, postings are based on operational needs, including northern and remote regions.",
+      link: "/fr/carrieres-grc/carriere-policiere/exigences-base-pour-devenir-agent-ou-agente-grc#q13",
     },
     {
       number: 7,
@@ -161,6 +167,7 @@ custom_css: /assets/css/careers.css
       question: "Are you willing to work nights, weekends, and/or holidays?",
       questionBullets: [],
       info: "Policing is a 24/7 service. You will respond to calls when on shift. Your shift may extend based on operational needs.  You may get called in outside of regular hours, including in the middle of the night.  You will be compensated for extra duty hours and operational availability (on-call) when applicable.",
+      link: "/fr/carrieres-grc/carriere-policiere/exigences-base-pour-devenir-agent-ou-agente-grc#q14",
     },
   ];
 
@@ -357,7 +364,7 @@ var html = [
       for (var i = 0; i < answers.length; i++) {
         if (answers[i] === "no") {
           noItems +=
-            '<li><a href="#" target="_blank" aria-label="' + questions[i].title + ' - Opens in a new window">' +
+            '<li><a href="' + questions[i].link + '" target="_blank" aria-label="' + questions[i].title + ' - Opens in a new window">' +
             questions[i].title +
             ' <span class="sr-only">(opens in new window)</span></a></li>';
         }

@@ -11,6 +11,7 @@ breadcrumbs:
     url: "careers-carrieres/officer-agent-en.html"
 custom_css: /assets/css/careers.css
 ---
+
 <nav aria-labelledby="on-this-page">
   <h2 id="on-this-page">On this page</h2>
   <ul>
@@ -221,18 +222,12 @@ custom_css: /assets/css/careers.css
     <dd><a href="mailto:rcmp.doccrecruiting.grc@rcmp-grc.gc.ca">rcmp.doccrecruiting.grc@rcmp-grc.gc.ca</a></dd>
 
     <dt>British Columbia</dt>
-    <dd>Email ‑ <a href="mailto:e_911recruiting@rcmp-grc.gc.ca">e_911recruiting@rcmp-grc.gc.ca</a>
+    <dd><a href="mailto:e_911recruiting@rcmp-grc.gc.ca">e_911recruiting@rcmp-grc.gc.ca</a>
       <br>Website: <a href="/en/bc/careers/9-1-1-police-dispatchers">9&#8209;1&#8209;1&#160;police dispatcher careers in British Columbia</a></dd>
 
     <dt>Saskatchewan</dt>
-    <dd>
-        <dl>
-            <dt>Email</dt>
-            <dd><a href="mailto:rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca">rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca</a></dd>
-            <dt>Telephone</dt>
-            <dd>639-625-3770</dd>
-        </dl>
-    </dd>
+    <dd>Email <a href="mailto:rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca">rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca</a>
+    <br>Telephone 639-625-3770</dd>
 
     <dt>Northwest Territories</dt>
     <dd><a href="mailto:goccrecruiting-gstorecrutement@rcmp-grc.gc.ca">goccrecruiting-gstorecrutement@rcmp-grc.gc.ca</a></dd>
@@ -259,3 +254,4 @@ custom_css: /assets/css/careers.css
     <dd><a href="mailto:vdiv.occ.recruiting-divv.sto.recrutement@rcmp-grc.gc.ca">vdiv.occ.recruiting-divv.sto.recrutement@rcmp-grc.gc.ca</a></dd>
   </dl>
 </section>
+

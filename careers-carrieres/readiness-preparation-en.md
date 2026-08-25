@@ -75,7 +75,7 @@ custom_css: /assets/css/careers.css
         "Failing to demonstrate these values (for example, through behaviors or conduct) will result in immediate termination from the Cadet Training Program.",
         "Remember, your training contract may be terminated for violations of core values. If you are terminated or resign from the Cadet Training Program, you may be subject to repaying your training allowance.",
       ],
-      link: "/en/careers-rcmp/police-officer-careers/basic-requirements-be-rcmp-police-officer#wb-auto-16",
+      link: "/en/careers-rcmp/police-officer-careers/basic-requirements-be-rcmp-police-officer#q16",
     },
     {
       number: 2,
@@ -93,7 +93,7 @@ custom_css: /assets/css/careers.css
         "You must have a valid, unrestricted Canadian driver\'s licence before you apply. An unrestricted licence means you have full driving privileges with no probationary conditions or limitations. You must have the ability to drive on your own at any time, on any road.",
         "Note: Applicants with vision\-related driver\'s licence restrictions may still be eligible, provided they meet RCMP medical and vision requirements.",
       ],
-      link: "/en/careers-rcmp/police-officer-careers/basic-requirements-be-rcmp-police-officer#wb-auto-5",
+      link: "/en/careers-rcmp/police-officer-careers/basic-requirements-be-rcmp-police-officer#q5",
     },
     {
       number: 3,
@@ -112,7 +112,7 @@ custom_css: /assets/css/careers.css
         "applying lethal force to preserve life, including your own, when faced with such a situation",
       ],
       info: "During the Cadet Training Program, you will learn how to safely handle and use firearms and various other approved tools to support interventions. Use of force is documented, and regular members must articulate their actions and decisions in reports and in court.",
-      link: "/en/careers-rcmp/police-officer-careers/basic-requirements-be-rcmp-police-officer#wb-auto-11",
+      link: "/en/careers-rcmp/police-officer-careers/basic-requirements-be-rcmp-police-officer#q11",
     },
     {
       number: 4,
@@ -130,8 +130,8 @@ custom_css: /assets/css/careers.css
       ],
       question: "Are you physically fit?",
       questionBullets: [],
-      info: 'You must arrive at the RCMP Academy, Depot ready to succeed the <a href="#" target="_blank" aria-label="Police Fitness Assessment - Opens in a new window">Police Fitness Assessment <span class="sr-only">(opens in new window)</span></a> within the first few weeks of the training program.',
-      link: "/en/careers-rcmp/police-officer-careers/basic-requirements-be-rcmp-police-officer#wb-auto-10",
+      info: 'You must arrive at the RCMP Academy ready to succeed the <a href="/en/careers-rcmp/police-officer-careers/physical-standards-become-rcmp-officer" target="_blank" aria-label="Police Fitness Assessment - Opens in a new window">Police Fitness Assessment <span class="sr-only">(opens in new window)</span></a> within the first few weeks of the training program.',
+      link: "/en/careers-rcmp/police-officer-careers/basic-requirements-be-rcmp-police-officer#q10",
     },
     {
       number: 5,
@@ -147,7 +147,7 @@ custom_css: /assets/css/careers.css
         "learn and study Canadian law, police procedures and policy, investigative techniques, firearms, police defensive tactics, police driving, police fitness, and drill and deportment",
       ],
       info: "The RCMP is committed to inclusion and respect for diversity. Reasonable accommodations may be available for religious practices and observances, including religious holidays, subject to operational and training requirements.",
-      link: "/en/careers-rcmp/police-officer-careers/basic-requirements-be-rcmp-police-officer#wb-auto-12",
+      link: "/en/careers-rcmp/police-officer-careers/basic-requirements-be-rcmp-police-officer#q12",
     },
     {
       number: 6,
@@ -157,7 +157,7 @@ custom_css: /assets/css/careers.css
       question: "Are you willing to move anywhere in Canada after graduation from the RCMP Academy, Depot?",
       questionBullets: [],
       info: "The RCMP is a national police service. While personal preference is considered, postings are based on operational needs, including northern and remote regions.",
-      link: "/en/careers-rcmp/police-officer-careers/basic-requirements-be-rcmp-police-officer#wb-auto-13",
+      link: "/en/careers-rcmp/police-officer-careers/basic-requirements-be-rcmp-police-officer#q13",
     },
     {
       number: 7,
@@ -167,7 +167,7 @@ custom_css: /assets/css/careers.css
       question: "Are you willing to work nights, weekends, and/or holidays?",
       questionBullets: [],
       info: "Policing is a 24/7 service. You will respond to calls when on shift. Your shift may extend based on operational needs.  You may get called in outside of regular hours, including in the middle of the night.  You will be compensated for extra duty hours and operational availability (on-call) when applicable.",
-      link: "/en/careers-rcmp/police-officer-careers/basic-requirements-be-rcmp-police-officer#wb-auto-14",
+      link: "/en/careers-rcmp/police-officer-careers/basic-requirements-be-rcmp-police-officer#q14",
     },
   ];
 
@@ -354,7 +354,7 @@ var html = [
           '<p>Next steps:</p>',
           '<ol>',
             '<li><a href="/en/careers-rcmp/police-officer-careers/basic-requirements-be-rcmp-police-officer" target="_blank" aria-label="Review the basic requirements - Opens in a new window">Review the basic requirements <span class="sr-only">(opens in new window)</span></a></li>',
-            '<li><a href="#" target="_blank" aria-label="Learn about the application process - Opens in a new window">Learn about the application process <span class="sr-only">(opens in new window)</span></a></li>',
+            '<li><a href="https://rcmp.ca/en/careers-rcmp/police-officer-careers/application-process" target="_blank" aria-label="Learn about the application process - Opens in a new window">Learn about the application process <span class="sr-only">(opens in new window)</span></a></li>',
             '<li><a href="#" target="_blank" aria-label="Apply now - Opens in a new window">Apply now <span class="sr-only">(opens in new window)</span></a></li>',
           '</ol>',
         '</div>',

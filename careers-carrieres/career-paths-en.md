@@ -13,11 +13,11 @@ custom_css: /assets/css/careers.css
 ---
 
 <nav aria-labelledby="on-this-page-heading">
-    <h2 id="on-this-page-heading">On this page</h2>
+    <h2 id="on-this-page">On this page</h2>
     <ul>
         <li><a href="#s1">General duty policing</a></li>
         <li><a href="#s2">National Specialized Services</a></li>
-        <li><a href="#s3">Federal Policing </a></li>
+        <li><a href="#s3">Federal Policing</a></li>
     </ul>
 </nav>
 <p>After successfully completing the Cadet Training Program, most cadets will be posted to a General Duty position in a province or territory where the RCMP polices in the community. After completing about 6&#160;months of field coaching training at their detachment, and after several years of general duty policing, new police officers can compete for opportunities in more specialized units or areas of the RCMP. The skillset and abilities, a willingness for mobility, and the member's area of interest will be a factor in determining the timeline and potential for specialization opportunities.</p>

@@ -38,6 +38,9 @@
   --overlay-navy-10: rgba(1, 27, 60, 0.1);
   --underline-gradient: linear-gradient(to right, var(--c-yellow) 25%, transparent 25%);
   --z-sticky-nav: 500;
+  --radius-lg: 1rem;
+  --font-size-btn: 18px;
+  --overlay-black-72: rgba(12, 11, 14, 0.72);
 }
 
 :target {
@@ -844,7 +847,7 @@ button,
 a.btn-careers:visited {
   background-color: var(--c-yellow);
   color: var(--c-black);
-  font-size: 18px;
+  font-size: var(--font-size-btn);
   font-weight: 600;
   position: relative;
 }
@@ -865,7 +868,7 @@ a.btn-careers:hover {
 .btn-careers-grey:visited {
   background-color: var(--c-grey-border);
   color: var(--c-black);
-  font-size: 18px;
+  font-size: var(--font-size-btn);
   font-weight: 600;
   position: relative;
 }
@@ -900,7 +903,7 @@ a.btn-careers:hover {
   font-weight: 600;
   background: var(--c-yellow);
   padding: 2rem 3rem;
-  border-radius: 1rem;
+  border-radius: var(--radius-lg);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1085,8 +1088,8 @@ a.btn-careers:hover {
 }
 
 .po-ribbon-img-left img {
-  border-top-right-radius: 1rem;
-  border-bottom-right-radius: 1rem;
+  border-top-right-radius: var(--radius-lg);
+  border-bottom-right-radius: var(--radius-lg);
 }
 
 .po-ribbon-img-right {
@@ -1094,8 +1097,8 @@ a.btn-careers:hover {
 }
 
 .po-ribbon-img-right img {
-  border-top-left-radius: 1rem;
-  border-bottom-left-radius: 1rem;
+  border-top-left-radius: var(--radius-lg);
+  border-bottom-left-radius: var(--radius-lg);
 }
 
 .po-ribbon-dark .po-ribbon-text,
@@ -1694,7 +1697,7 @@ a.btn-careers:hover {
   transform: translate(-50%, -50%);
   max-width: 1200px;
   padding: 2rem 1.5rem;
-  background: rgba(12, 11, 14, 0.72);
+  background: var(--overlay-black-72);
   border-radius: var(--radius-sm);
 }
 
@@ -1935,7 +1938,6 @@ section[id^="s"] {
   outline: 3px solid var(--c-focus-alt);
   outline-offset: 0;
 }
-
 
 #re-toolbar {
   display: flex;
@@ -2188,7 +2190,7 @@ main .cnt-wdth-lmtd #re-grid li {
   max-width: none;
   margin-right: 100px;
   padding: 2rem;
-  background: rgba(12, 11, 14, 0.72);
+  background: var(--overlay-black-72);
   border-radius: var(--radius-sm);
   text-align: left;
 }
@@ -2260,9 +2262,9 @@ main .cnt-wdth-lmtd #re-grid li {
 
 .fp-content--mirror .ready-btn {
   padding: 10px 14px;
-  font-size: 18px;
+  font-size: var(--font-size-btn);
   font-weight: 600;
-  border-radius: 4px;
+  border-radius: var(--radius-xs);
   border: 1px solid transparent;
   box-shadow: none;
   gap: 0.5rem;

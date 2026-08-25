@@ -12,22 +12,22 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<p>Il y a une vaste gamme de possibilités pour les employés civils d'assumer des rôles essentiels à l'appui des policiers et policières de première ligne, notamment&#160;:</p>
+<p>Il y a de nombreuses possibilités permettant aux employés civils d'assurer un soutien essentiel au personnel policier de première ligne. En voici quelques exemples&#160;:</p>
 <ul>
-  <li><a href="/fr/carrieres-grc/carrieres-demployes-civils/types-demplois-demployes-civils/emplois-demployes-civils-operateur-telecommunications-repartiteur-9-1-1">Répartiteur du 9-1-1 (Opérateur des télécommunications)</a></li>
+  <li><a href="/fr/carrieres-grc/carrieres-demployes-civils/types-demplois-demployes-civils/emplois-demployes-civils-operateur-telecommunications-repartiteur-9-1-1">Répartiteur du 9-1-1 (opérateur des télécommunications)</a></li>
   <li>Analystes de l'Accès à l'information et de protection des renseignements personnels (AIPRP)</li>
   <li>Soutien administratif</li>
   <li>Opérations aériennes et opérations maritimes</li>
   <li>Police communautaire et affaires culturelles</li>
   <li><a href="/fr/carrieres-grc/carrieres-demployes-civils/types-demplois-demployes-civils/emplois-demployes-civils-enqueteurs-criminels-civils">Enquêteurs criminels civils</a></li>
   <li>Renseignements criminels</li>
-  <li>Identité judiciaire</li>
+  <li>Sciences judiciaires</li>
   <li>Ressources humaines</li>
   <li>Services de base des TI</li>
-  <li>Droit</li>
-  <li><a href="/fr/carrieres-grc/carrieres-demployes-civils/types-demplois-demployes-civils/emplois-demployes-civils-psychologue">Psychologue</a></li>
+  <li>Services juridiques</li>
+  <li><a href="/fr/carrieres-grc/carrieres-demployes-civils/types-demplois-demployes-civils/emplois-demployes-civils-psychologue">Psychologues</a></li>
   <li>Recherche et analyse</li>
-  <li><a href="/fr/carrieres-grc/carrieres-demployes-civils/types-demplois-demployes-civils/emplois-demployes-civils-ingenieurs-en-enquetes-techniques-et-ingenieurs-en-logiciel">Ingénieurs en enquêtes techniques et ingénieurs en logiciel</a></li>
-  <li>Technologues</li>
-  <li>Mieux-être et sécurité</li>
+  <li><a href="/fr/carrieres-grc/carrieres-demployes-civils/types-demplois-demployes-civils/emplois-demployes-civils-ingenieurs-en-enquetes-techniques-et-ingenieurs-en-logiciel">Ingénieurs en enquêtes techniques et ingénieurs en logiciels</a></li>
+  <li>Techniciens et technologues</li>
+  <li>Soutien au mieux-être et à la sécurité</li>
 </ul>

@@ -33,8 +33,8 @@ custom_css: /assets/css/careers.css
 <section id="s2">
     <h2>Health and financial benefits</h2>
     <ul>
-        <li>Comprehensive medical and dental coverage</li>
-        <li>Pension plan to support long‑term financial security</li>
+        <li>Comprehensive <a href="https://www.canada.ca/en/treasury-board-secretariat/topics/benefit-plans/plans.html">medical and dental coverage</a></li>
+        <li><a href="https://www.canada.ca/en/treasury-board-secretariat/topics/benefit-plans/plans.html">Pension plan</a> to support long‑term financial security</li>
     </ul>
 </section> 
 <section id="s3">

@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Civilian employee jobs - Civilian criminal investigators 
-date_modified: 2026-08-21
+date_modified: 2026-08-26
 lang: en
 lang_url: civil-crim-investigator-fr.html
 breadcrumbs:
@@ -12,8 +12,8 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<nav aria-labelledby="on-this-page-heading">
-  <h2 id="on-this-page-heading">On this page</h2>
+<nav aria-labelledby="on-this-page">
+  <h2 id="on-this-page">On this page</h2>
 	<ul>
 		<li><a href="#s1">An opportunity to serve</a></li>
 		<li><a href="#s2">What the work involves</a></li>
@@ -124,10 +124,10 @@ custom_css: /assets/css/careers.css
 	<p>Apply through <a href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true&toggleLanguage=en">GC Jobs when a selection process opens</a>.</p>
 	<section class="alert alert-info">
 		<h3>Note</h3>
-	<p>Create an account and subscribe to email alerts to be notified when a selection process opens. Positions may be advertised for a short period, so if you don’t subscribe to alerts, be sure to visit the website often.</p>
+		<p>Create an account and subscribe to email alerts to be notified when a selection process opens. Positions may be advertised for a short period, so if you don’t subscribe to alerts, be sure to visit the website often.</p>
 	</section>
 	<p>For more tips on how to apply, watch the <a href="https://www.youtube.com/watch?v=0GW7P3g9hhI&feature=youtu.be">Cracking the Code video</a> from the Treasury Board of Canada Secretariat.</p>
-	<p>You can also follow the RCMP on <a href="https://www.linkedin.com/company/rcmp-grc/">LinkedIn</a> and subscribe to job alerts to be notified when new job advertisements are published.
+	<p>You can also follow the RCMP on <a href="https://www.linkedin.com/company/rcmp-grc/">LinkedIn</a> and subscribe to job alerts to be notified when new job advertisements are published.</p>
 </section>
 <section id="s7">
 	<h2>Contact us</h2>

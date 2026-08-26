@@ -40,7 +40,6 @@ custom_css: /assets/css/careers.css
             <h4>Parcours de carrière typique à la GRC</h4>
             <p>Les membres réguliers de la GRC qui empruntent un parcours typique commencent par la formation des cadets, puis assurent des services généraux et acquièrent de l’expérience spécialisée qui peut donner lieu à des possibilités à la Police fédérale.</p>
             <p>Les postes à la Police fédérale sont le plus souvent pourvus par des membres chevronnés de la GRC qui ont acquis une solide expertise opérationnelle et en matière d’enquête au cours de leur carrière.</p>
-            <p></p>
         </section>
     </section>
 </section>

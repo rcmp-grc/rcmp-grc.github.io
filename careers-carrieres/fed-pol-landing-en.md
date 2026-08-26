@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Federal Policing careers 
-date_modified: 2026-08-24
+date_modified: 2026-08-26
 lang: en
 lang_url: fed-pol-landing-fr.html
 breadcrumbs:
@@ -21,19 +21,19 @@ hero_image: /assets/img/landing-federal-policing.jpg
   <ul class="list-unstyled row">
     <li class="col-md-6">
       <div class="well">
-        <h3 class="h5"><a href="https://rcmp-grc.github.io/careers-carrieres/fed-pol-po-en.html">Police officer jobs</a></h3>
+        <h3 class="h5"><a href="/en/careers-rcmp/police-officer-careers/police-officer-jobs-federal-policing">Police officer jobs</a></h3>
         <p>Learn how you can join Federal Policing as a police officer.</p>
       </div>
     </li>
     <li class="col-md-6">
       <div class="well">
-        <h3 class="h5"><a href="https://rcmp-grc.github.io/careers-carrieres/fed-pol-civil-en.html">Civilian jobs</a></h3>
+        <h3 class="h5"><a href="/en/careers-rcmp/civilian-employee-careers/civilian-jobs-federal-policing">Civilian jobs</a></h3>
         <p>Explore civilian careers in Federal Policing and how you can join.</p>
       </div>
     </li>
     <li class="col-md-6">
       <div class="well">
-        <h3 class="h5"><a href="https://rcmp-grc.github.io/careers-carrieres/civil-crim-investigators-en.html">Civilian Criminal Investigators</a></h3>
+        <h3 class="h5"><a href="/en/careers-rcmp/civilian-employee-careers/types-civilian-employee-jobs/civilian-employee-job-civilian-criminal-investigators">Civilian Criminal Investigators</a></h3>
         <p>Investigate transnational crimes and help to protect Canadians from foreign threats.</p>
       </div>
     </li>

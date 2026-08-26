@@ -161,7 +161,6 @@ a.news-topic-1:hover, a.primary-topic:active {
 		<li><a href="#s2">Media opportunities</a></li>
 		<li><a href="#s3">Accreditation</a></li>
 		<li><a href="#links">Associated links</a></li>
-		<li><a href="#event">Event details</a></li>
 		<li><a href="#gc-contact">Contacts</a></li>
 		<li><a href="#topics">Explore related topics</a></li>
 	</ul>

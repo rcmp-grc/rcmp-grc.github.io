@@ -23,7 +23,7 @@ custom_css: /assets/css/careers.css
     background: #fff;
 	margin: auto;
 	margin-right: 15px; 
-	margin-left: 10px;
+	margin-left: 15px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 	padding-right: 5px;
 	padding-left: 5px;

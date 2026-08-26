@@ -106,7 +106,7 @@ custom_css: /assets/css/careers.css
 	<ul>
 		<li>a 37.5-hour work week (overtime may be required in some circumstances)</li>
 		<li>an indexed <a href="https://www.canada.ca/en/treasury-board-secretariat/topics/pension-plan/plan-information.html">pension plan</a></li>
-		<li>Medical and dental <a href="https://pshcp.ca/coverage/">health care benefits</a></li>
+		<li>medical and dental <a href="https://pshcp.ca/coverage/">health care benefits</a></li>
 		<li>three weeks of paid vacation within a year of being hired</li>
 		<li>reimbursement of certain licensing and association fees, when applicable</li>
 		<li>competitive pay 
@@ -126,7 +126,7 @@ custom_css: /assets/css/careers.css
 		<h3>Note</h3>
 		<p>Create an account and subscribe to email alerts to be notified when a selection process opens. Positions may be advertised for a short period, so if you don’t subscribe to alerts, be sure to visit the website often.</p>
 	</section>
-	<p>For more tips on how to apply, watch the <a href="https://www.youtube.com/watch?v=0GW7P3g9hhI&feature=youtu.be">Cracking the Code video</a> from the Treasury Board of Canada Secretariat.</p>
+	<p>For more tips on how to apply, watch the <a href="https://www.youtube.com/watch?v=0GW7P3g9hhI">Cracking the Code video</a> from the Treasury Board of Canada Secretariat.</p>
 	<p>You can also follow the RCMP on <a href="https://www.linkedin.com/company/rcmp-grc/">LinkedIn</a> and subscribe to job alerts to be notified when new job advertisements are published.</p>
 </section>
 <section id="s7">

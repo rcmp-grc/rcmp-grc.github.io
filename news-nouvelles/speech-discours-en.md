@@ -256,7 +256,7 @@ a.news-topic-1:hover, a.primary-topic:active {
 	</div>	
 	<div class="col-md-4">	
 <h3 class="news-contact-h4">Nunavut RCMP</h3>
-  <p><a href="mailto:nunavutmedia_mediasdununavut@rcmp-grc.gc.ca">nunavutmedia_mediasdununavut@rcmp-grc.gc.ca</a><br>
+  <p class="news-contact-p"><a href="mailto:nunavutmedia_mediasdununavut@rcmp-grc.gc.ca">nunavutmedia_mediasdununavut@rcmp-grc.gc.ca</a><br>
   867-555-5555</p>	
 	<section class="gc-followus">
 <h4 class="mrgn-tp-lg wb-inv">Follow us</h4>

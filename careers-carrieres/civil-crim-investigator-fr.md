@@ -123,11 +123,11 @@ custom_css: /assets/css/careers.css
 <section id="s6">
 	<h2>Comment postuler</h2>
 	<p>Posez votre candidature par l’intermédiaire du site <a href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true&toggleLanguage=fr">Emplois GC</a> dès qu’un processus de sélection est lancé.</p>
-	<section class="alert alert info">
+	<section class="alert alert-info">
 		<h3>Noter</h3>
 	<p>Créez un compte et inscrivez-vous aux alertes par courriel pour ne manquer aucun processus de sélection. Ces postes ne sont pas annoncés pendant très longtemps. Donc, si vous ne vous abonnez pas aux alertes, vérifiez souvent le site.</p>
 	</section>
-	<p>Pour d’autres conseils sur la façon de présenter votre candidature, visionnez la vidéo «&nbsp;<a href="https://www.canada.ca/fr/secretariat-conseil-tresor/organisation/nouvelles/dechiffrez-le-code.html">Déchiffrez le code</a>&nbsp;» du Secrétariat du Conseil du Trésor.</p>
+	<p>Pour d’autres conseils sur la façon de présenter votre candidature, visionnez la vidéo «&nbsp;<a href="https://www.youtube.com/watch?v=M8rW0272JT0">Déchiffrez le code</a>&nbsp;» du Secrétariat du Conseil du Trésor.</p>
 	<p>Vous pouvez aussi suivre la GRC sur <a href="https://www.linkedin.com/company/rcmp-grc/">LinkedIn</a> et vous inscrire aux alertes emploi pour ne manquer aucune nouvelle annonce d’emploi.</p>
 </section>
 <section id="s7">

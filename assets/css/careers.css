@@ -2413,6 +2413,103 @@ a[href^="mailto:"]::before {
 #wb-bc li {
   white-space: normal;
 }
-a[href^=mailto:] {
+a[href^="mailto:"] {
   white-space: normal;
+}
+
+/*
+ * Drupalisms.
+ */
+.careers-layout {
+  --z-breadcrumb-overlay: 400;
+  --footer-contact-height: 48px;
+  --careers-main-overlap: var(--footer-contact-height);
+}
+
+body.toolbar-fixed .careers-nav {
+  top: var(--gin-toolbar-y-offset, 39px);
+}
+
+@media screen and (min-width: 768px) {
+  body.toolbar-fixed .careers-nav {
+    top: 98px;
+  }
+}
+
+body.toolbar-fixed.toolbar-horizontal.toolbar-tray-open .careers-nav {
+  top: var(--gin-toolbar-y-offset, 79px);
+}
+
+.careers-layout main {
+  min-height: calc(100vh + var(--careers-main-overlap));
+  min-height: calc(100dvh + var(--careers-main-overlap));
+  margin-top: calc(var(--careers-main-overlap) * -1);
+  margin-bottom: 0;
+}
+
+.careers-layout main > div:not(.careers-contact-region) {
+  padding-bottom: var(--footer-contact-height);
+}
+
+.careers-layout main > .careers-contact-region {
+  position: sticky;
+  z-index: var(--z-footer-contact);
+  top: calc(100vh - var(--footer-contact-height));
+  top: calc(100dvh - var(--footer-contact-height));
+  width: 100%;
+  height: var(--footer-contact-height);
+  pointer-events: none;
+}
+
+.careers-contact-region .contextual {
+  pointer-events: auto;
+}
+
+.careers-layout .footer-contact {
+  position: static;
+  bottom: auto;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: var(--footer-contact-height);
+  pointer-events: none;
+}
+
+.careers-layout .footer-contact .btn-contact {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--footer-contact-height);
+  padding: 0 16px;
+  pointer-events: auto;
+}
+
+.careers-layout .careers-content-header {
+  position: relative;
+  z-index: 5;
+  margin: 0;
+  padding: 0;
+}
+
+.careers-layout .careers-content-header--inline .fp-breadcrumb {
+  position: static;
+}
+
+.careers-layout
+  main
+  > div:not(.careers-contact-region)
+  > .careers-content-header--overlay {
+  z-index: var(--z-breadcrumb-overlay);
+}
+
+.careers-layout .careers-content-header--overlay .fp-breadcrumb {
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: var(--z-breadcrumb-overlay);
+  pointer-events: none;
+}
+
+.careers-layout .careers-content-header--overlay .fp-breadcrumb a,
+.careers-layout .careers-content-header--overlay .fp-breadcrumb span {
+  pointer-events: auto;
 }

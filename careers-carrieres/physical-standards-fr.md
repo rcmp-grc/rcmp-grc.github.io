@@ -11,7 +11,7 @@ breadcrumbs:
     url: "careers-carrieres/fr.html"
 custom_css: /assets/css/careers.css
 ---
-<nav aria-label="Sur cette page">
+<nav aria-labelledby="on-this-page">
   <h2 id="on-this-page">Sur cette page</h2>
   <ul>
     <li><a href="#s1">Quatre étapes pour se préparer en vue de la formation à la Division Dépôt</a></li>

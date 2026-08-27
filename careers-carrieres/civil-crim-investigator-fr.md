@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Emplois d'employés civils - Enquêteurs criminels civils
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 lang: fr
 lang_url: civil-crim-investigator-en.html
 breadcrumbs:
@@ -132,5 +132,8 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s7">
 	<h2>Nous contacter</h2>
-    <p>Pour en savoir plus sur le Programme d’enquêteurs criminels civils, n’hésitez pas à écrire à <a href="mailto:fprecruitment-recrutementpf@rcmp-grc.gc.ca">fprecruitment-recrutementpf@rcmp-grc.gc.ca</a>.</p>
+    <dl>
+		<dt>Courriel</dt>
+		<dd><a href="mailto:fprecruitment-recrutementpf@rcmp-grc.gc.ca">fprecruitment-recrutementpf@rcmp-grc.gc.ca</a></dd>
+	</dl>
 </section>

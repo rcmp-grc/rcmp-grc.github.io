@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Employés civils à la Police fédérale
-date_modified: 2026-08-21
+date_modified: 2026-08-27
 lang: fr
 lang_url: fed-pol-civil-en.html
 breadcrumbs:
@@ -12,9 +12,8 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-
-<nav aria-labelledby="on-this-page-heading">
-  <h2 id="on-this-page-heading">Sur cette page</h2>
+<nav aria-labelledby="on-this-page">
+  <h2 id="on-this-page">Sur cette page</h2>
   <ul>
     <li>
       <a href="#s1">Parcours professionnels</a>

@@ -12,7 +12,7 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<nav aria-labelledby="on-this-page-heading">
+<nav aria-labelledby="on-this-page">
     <h2 id="on-this-page">On this page</h2>
     <ul>
         <li><a href="#s1">Opportunities across Canada</a></li>

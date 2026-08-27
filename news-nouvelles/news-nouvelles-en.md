@@ -22,7 +22,7 @@ custom_css: /assets/css/careers.css
 	border-right: 2px solid var(--c-grey-light);	
 	border-left: 2px solid var(--c-grey-light);
 	border-bottom: 2px solid var(--c-grey-light);
-    }
+}
 	#news-filters {
 	border: 1px solid var(--c-grey-border);	
 	padding: 0;
@@ -88,10 +88,7 @@ custom_css: /assets/css/careers.css
    align-items: center;
    margin-bottom: 0;
 }
-   .btn-danger {
-   padding: 12px;      
-   border-radius: 0;
-}
+  
 </style>
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">
@@ -223,7 +220,7 @@ custom_css: /assets/css/careers.css
 			</select>
 		 </fieldset>
       </details>	
-		<details class="wp-filter-group mrgn-bttm-0">
+		<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Publish date</span>
         </summary>
 			<fieldset>

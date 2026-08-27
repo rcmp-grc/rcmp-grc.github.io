@@ -11,7 +11,7 @@ breadcrumbs:
     url: "careers-carrieres/officer-agent-en.html"
 custom_css: /assets/css/careers.css
 ---
-<nav aria-label="On this page">
+<nav aria-labelledby="on-this-page">
   <h2 id="on-this-page">On this page</h2>
   <ul>
     <li><a href="#s1">Four steps to get ready for Depot</a></li>

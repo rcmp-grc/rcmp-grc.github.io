@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: Emplois d'employés civils - Enquêteurs criminels civils
+title: Enquêteur criminel civil
 date_modified: 2026-08-27
 lang: fr
 lang_url: civil-crim-investigator-en.html

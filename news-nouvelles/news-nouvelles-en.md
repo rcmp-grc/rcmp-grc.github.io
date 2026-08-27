@@ -88,6 +88,11 @@ custom_css: /assets/css/careers.css
    align-items: center;
    margin-bottom: 0;
 }
+ .btn-danger {
+   padding-top: 12px;     
+   padding-bottom: 12px;
+   border-radius: 0;
+}	
   
 </style>
 <p>Read the RCMP news and communications.</p>

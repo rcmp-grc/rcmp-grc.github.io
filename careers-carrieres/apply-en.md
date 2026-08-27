@@ -11,28 +11,26 @@ custom_css: /assets/css/careers.css
 ---
 
 <p class="lead">Ready to join the RCMP? How you apply depends on the type of role you're pursuing. Follow the steps below for your path.</p>
-
 <div class="row">
-
   <div class="col-md-6">
     <h2 class="h2-line">Police officer</h2>
     <div class="rc-question-card">
       <div class="rc-question-card__body">
-        <p>Regular Members are sworn police officers who complete training at the RCMP Academy, Depot, in Regina, Saskatchewan.</p>
-        <ol>
-          <li>Confirm you meet the <a href="#" target="_blank" aria-label="Basic requirements - Opens in a new window">basic requirements <span class="sr-only">(opens in new window)</span></a> for a career as a police officer.</li>
-          <li>Take the <a href="readiness-preparation-en.html">Readiness Check</a> to see if you're prepared for the realities of the job.</li>
-          <li>Create an account and complete the <a href="#" target="_blank" aria-label="Online application - Opens in a new window">online application <span class="sr-only">(opens in new window)</span></a> through the RCMP recruiting portal.</li>
-          <li>Complete the required assessments, including the RCMP Police Aptitude Test, medical exam and security screening.</li>
-          <li>If successful, receive an offer to attend the RCMP Academy, Depot, and begin your 26-week training program.</li>
-        </ol>
-        <p>Have questions before you apply? <a href="contact-recruteur-en.html">Contact a recruiter</a> in your province or territory.</p>
+        <p>A career with the RCMP is one with big impact and endless opportunities to grow. Before you apply, make sure you understand what it takes to be an RCMP police officer.</p>
+        <ul>
+          <li>Check the <a href="">Basic Requirements</a> to confirm you’re eligible to apply</li>
+          <li>Understand the <a href="">Application Process</a>, from application to cadet training</li>
+          <li>Build your fitness and prepare to meet the <a href="">Physical Standards</a></li>
+          <li>Take the <a href="">Readiness Check</a> to see if you’re well-suited for a career in policing</li>
+          <li>Reflect on the <a href="">RCMP Core Values</a> to make sure your personal values align</li>
+        </ul>
+        <p>Ready to apply?</p>
+        <p>Take the first step.</p>
       </div>
     </div>
     <p class="mrgn-tp-md">
       <a class="rc-btn rc-btn--primary" href="#">
-        Start your police officer application
-        <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+        Start your application on <a hre="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page1800?poster=2440171">GC Jobs</a></i>
       </a>
     </p>
   </div>

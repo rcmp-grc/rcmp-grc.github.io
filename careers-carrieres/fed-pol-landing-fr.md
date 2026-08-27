@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Carrières à la Police fédérale 
-date_modified: 2026-08-24
+date_modified: 2026-08-27
 lang: fr
 lang_url: fed-pol-landing-en.html
 breadcrumbs:
@@ -21,19 +21,19 @@ hero_image: /assets/img/landing-federal-policing.jpg
   <ul class="list-unstyled row">
     <li class="col-md-6">
       <div class="well">
-        <h3 class="h5"><a href="#">Postes de policiers</a></h3>
+        <h3 class="h5"><a href="/fr/carrieres-grc/carriere-policiere/carrieres-policieres-police-federale">Postes de policiers</a></h3>
         <p>Pour savoir comment vous joindre à la Police fédérale en tant que policier.</p>
       </div>
     </li>
     <li class="col-md-6">
       <div class="well">
-        <h3 class="h5"><a href="#">Postes d’employés civils</a></h3>
+        <h3 class="h5"><a href="/fr/carrieres-grc/carrieres-demployes-civils/employes-civils-police-federale">Postes d’employés civils</a></h3>
         <p>Pour connaître les possibilités qui s’offrent aux employés civils à la Police fédérale et savoir comment poser votre candidature.</p>
       </div>
     </li>
     <li class="col-md-6">
       <div class="well">
-        <h3 class="h5"><a href="#">Enquêteurs criminels civils</a></h3>
+        <h3 class="h5"><a href="/fr/carrieres-grc/carrieres-demployes-civils/types-demplois-demployes-civils/emplois-demployes-civils-enqueteurs-criminels-civils">Enquêteurs criminels civils</a></h3>
         <p>Enquêter sur les crimes transnationaux et aider à protéger les Canadiens contre les menaces étrangères.</p>
       </div>
     </li>

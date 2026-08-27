@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Civilian employee jobs - Civilian criminal investigators 
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 lang: en
 lang_url: civil-crim-investigator-fr.html
 breadcrumbs:
@@ -131,5 +131,8 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s7">
 	<h2>Contact us</h2>
-    <p>For more information about the CCI Program, please contact <a href="mailto:fprecruitment-recrutementpf@rcmp-grc.gc.ca">fprecruitment-recrutementpf@rcmp-grc.gc.ca</a>.</p>
+        <dl>
+		<dt>Email</dt>
+		<dd><a href="mailto:fprecruitment-recrutementpf@rcmp-grc.gc.ca">fprecruitment-recrutementpf@rcmp-grc.gc.ca</a></dd>
+	</dl>
 </section>

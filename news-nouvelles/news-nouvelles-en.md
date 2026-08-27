@@ -110,8 +110,8 @@ custom_css: /assets/css/careers.css
     </section>
   </div>
 </div>
-<div class="row mrgn-tp-lg mrgn-bttm-sm" id="re-page">
-	<div class="col-md-3" id="re-sidebar">
+<div class="row mrgn-tp-lg" id="re-page">
+	<div class="col-md-3 mrgn-bttm-sm" id="re-sidebar">
 	<h2 class="h6 news-filters-heading">Search</h2>	
     <aside aria-labelledby="news-filters-heading" id="news-filters"> 	 
     <form action="#" id="search-box" method="get" role="search" aria-label="Search RCMP news">	  

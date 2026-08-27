@@ -169,12 +169,12 @@ a.news-topic-2:hover, a.primary-topic:active {
 </section>
 <section id="s3">
 <h2 class="h3">Community engagement</h2>
-<p>The RCMP works with communities across Canada to build trust, encourage open dialogue, and support public safety initiatives. Creative outreach tools and mascots can help start conversations, especially with youth.</p>
 <section class="alert alert-warning">
  <h3 class="h4">Safety and wildlife message</h3>
 <p>Although Bob is a fictional mascot, polar bears are real wild animals and can be dangerous. Canadians visiting northern regions should always follow local wildlife safety guidance and instructions from authorities and community leaders.</p>
 <p><a class="btn btn-warning" role="button"><strong>Follow safety guidance</strong></a></p>
-</section>		
+</section>	
+<p>The RCMP works with communities across Canada to build trust, encourage open dialogue, and support public safety initiatives. Creative outreach tools and mascots can help start conversations, especially with youth.</p>		
 <p>Bob has supported awareness activities related to:</p>	
 <ul>
 <li>ice safety</li>

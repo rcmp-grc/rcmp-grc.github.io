@@ -23,14 +23,6 @@ custom_css: /assets/css/careers.css
 	border-left: 2px solid var(--c-grey-light);
 	border-bottom: 2px solid var(--c-grey-light);
     }
-	.badge-located
-	{
-	background-color: #861322;
-	}
-	.badge-updated
-	{
-	background-color: #916808;
-	}
 	#news-filters {
 	border: 1px solid var(--c-grey-border);	
 	padding: 0;

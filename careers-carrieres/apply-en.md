@@ -29,8 +29,8 @@ custom_css: /assets/css/careers.css
       </div>
     </div>
     <p class="mrgn-tp-md">
-      <a class="rc-btn rc-btn--primary" href="#">
-        Start your application on <a href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page1800?poster=2440171">GC Jobs</a>
+      <a class="rc-btn rc-btn--primary" href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page1800?poster=2440171">
+        Start your application on GC Jobs
       </a>
     </p>
   </div>

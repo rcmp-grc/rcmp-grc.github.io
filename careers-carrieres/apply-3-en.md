@@ -18,8 +18,6 @@ Choose your path.</p>
     <details id="details-police">
       <summary>Police officer careers</summary>
       <div class="tabpanel">
-        <div class="rc-question-card">
-          <div class="rc-question-card__body">
             <p>A career with the RCMP is one with big impact and endless opportunities to grow. Before you apply, make sure you understand what it takes to be an RCMP police officer:</p>
             <ul>
               <li>Check the <a href="">basic requirements</a> to confirm you’re eligible to apply</li>
@@ -28,8 +26,6 @@ Choose your path.</p>
               <li>Take the <a href="">Readiness Check</a> to see if you’re well-suited for a career in policing</li>
               <li>Reflect on the <a href="/en/corporate-information/royal-canadian-mounted-police-core-values">RCMP Core Values</a> to make sure your personal values align</li>
             </ul>
-          </div>
-        </div>
         <p class="mrgn-tp-md">
           <a class="rc-btn rc-btn--primary" href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page1800?poster=2440171">
             Start your police officer application
@@ -40,8 +36,6 @@ Choose your path.</p>
     <details id="details-civilian">
       <summary>Civilian careers</summary>
       <div class="tabpanel">
-        <div class="rc-question-card">
-          <div class="rc-question-card__body">
             <p>Civilian employees support the RCMP's mission in roles ranging from forensics to information technology, corporate administration, communications and more. </p>
             <ul>
               <li>Create or sign in to your GC Jobs applicant profile to search for civilian jobs</li>
@@ -49,8 +43,6 @@ Choose your path.</p>
               <li>Learn about the competitive salary, pension plan and <a href="">employee benefits</a></li>
               <li>Reflect on the <a href="/en/corporate-information/royal-canadian-mounted-police-core-values">RCMP Core Values</a> to make sure your personal values align</li>
             </ul>
-          </div>
-        </div>
         <p class="mrgn-tp-md">
           <a class="rc-btn rc-btn--primary" href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?tab=2&title=&locationsFilter=&departments=&classificationInfos=&officialLanguage=&referenceNumber=&selectionProcessNumber=&search=Search%20jobs&department=108">
             Search civilian jobs on GC Jobs

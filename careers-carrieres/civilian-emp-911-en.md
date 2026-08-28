@@ -12,6 +12,10 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
+<section class="alert alert-info">
+  <p>Ready to apply? <a href="#s6">Learn more about the application process</a>.</p>
+</section>
+
 <nav aria-labelledby="on-this-page">
   <h2 id="on-this-page">On this page</h2>
   <ul>
@@ -24,10 +28,6 @@ custom_css: /assets/css/careers.css
     <li><a href="#s7">Contact us</a></li>
   </ul>
 </nav>
-
-<section class="alert alert-info">
-  <p>Ready to apply? <a href="#s6">Learn more about the application process</a>.</p>
-</section>
 
 <section id="s1">
   <h2>What we do</h2>
@@ -142,6 +142,7 @@ custom_css: /assets/css/careers.css
 <section id="s6">
   <h2>Application process</h2>
   <p>Listed below is the 9&#8209;1&#8209;1 Police Dispatcher application process. If you have questions about the application process, please contact a Recruiter or attend a career presentation.</p>
+
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
     <summary>
       Step&#160;1: Submit an online application
@@ -151,6 +152,7 @@ custom_css: /assets/css/careers.css
       <p>For bilingual positions, you will undergo language testing during the application process</p>
       <p>Applicants that meet the screening criteria for the position will be required to attend a Career Presentation before proceeding to Step&#160;2 of the application process.</p>
   </details>
+
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
     <summary>
       Step&#160;2: CritiCall pre-employment assessment
@@ -159,12 +161,14 @@ custom_css: /assets/css/careers.css
       <p>Applicants who successfully complete the CritiCall pre-employment assessment and are selected will advance to the next step of the application process.</p>
       <p>If you do not successfully complete this step or any of the following steps, your application will be closed and we will let you know when you can reapply.</p>
   </details>
+
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
     <summary>
       Step&#160;3: Structured interview
     </summary>
       <p>During the interview, we'll ask questions to find out how you behaved in certain past situations. The questions also help assess the decisions you would make in hypothetical scenarios. The interview is approximately one hour in duration. Your Recruiter will provide you with a guide to help you prepare for the interview. Applicants who successfully complete the interview and are selected will advance to the next step of the application process.</p>
   </details>
+
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
     <summary>
       Step&#160;4: Undergo a security and medical assessment
@@ -187,6 +191,7 @@ custom_css: /assets/css/careers.css
   <p>You'll receive a trainee's hourly wage of $33.58.</p>
   <p>After completing the classroom training, you'll enter the field coaching program (up to 600&#160;hours). You'll work in the operational communications centre under the direct supervision of a certified field coach.</p>
 </section>
+
 <section id="s6-2">
   <h3>Welcome to the job</h3>
   <p>Once you complete the field coaching program, you will be eligible to promote to a 9&#8209;1&#8209;1 Police Dispatcher position (TCO-02) and begin to work on your own. Your hourly wage will increase to $36.94.</p>
@@ -198,22 +203,22 @@ custom_css: /assets/css/careers.css
   <p>The RCMP holds <a href="/en/careers-rcmp/recruiting-events?t=Telecommunications+operator+%289-1-1+dispatcher%29">recruiting events</a> including career presentations for people interested in 9&#8209;1&#8209;1 Police Dispatcher careers. Events are held in several communities throughout the year.</p>
 
   <dl class="dl-horizontal">
-    <dt>Newfoundland and Labrador</dt>
-    <dd><a href="mailto:psapplicants@rcmp-grc.gc.ca">psapplicants@rcmp-grc.gc.ca</a></dd>
 
-    <dt>Québec</dt>
-    <dd><a href="mailto:cdiv_rhfp-hrps@rcmp-grc.gc.ca">cdiv_rhfp-hrps@rcmp-grc.gc.ca</a></dd>
-
-    <dt>Manitoba</dt>
-    <dd><a href="mailto:rcmp.doccrecruiting.grc@rcmp-grc.gc.ca">rcmp.doccrecruiting.grc@rcmp-grc.gc.ca</a></dd>
+    <dt>Alberta</dt>
+    <dd><a href="mailto:rcmp.koccrecruiting-kstorecrutement.grc@rcmp-grc.gc.ca">rcmp.koccrecruiting-kstorecrutement.grc@rcmp-grc.gc.ca</a></dd>
 
     <dt>British Columbia</dt>
     <dd><a href="mailto:e_911recruiting@rcmp-grc.gc.ca">e_911recruiting@rcmp-grc.gc.ca</a>
       <br>Website: <a href="/en/bc/careers/9-1-1-police-dispatchers">9&#8209;1&#8209;1&#160;police dispatcher careers in British Columbia</a></dd>
 
-    <dt>Saskatchewan</dt>
-    <dd><a href="mailto:rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca">rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca</a>
-    <br>Telephone: 639-625-3770</dd>
+    <dt>Manitoba</dt>
+    <dd><a href="mailto:rcmp.doccrecruiting.grc@rcmp-grc.gc.ca">rcmp.doccrecruiting.grc@rcmp-grc.gc.ca</a></dd>
+
+    <dt>New Brunswick</dt>
+    <dd><a href="mailto:nbrcmpocc.stogrcnb@rcmp-grc.gc.ca">nbrcmpocc.stogrcnb@rcmp-grc.gc.ca</a></dd>
+
+    <dt>Newfoundland and Labrador</dt>
+    <dd><a href="mailto:psapplicants@rcmp-grc.gc.ca">psapplicants@rcmp-grc.gc.ca</a></dd>
 
     <dt>Northwest Territories</dt>
     <dd><a href="mailto:goccrecruiting-gstorecrutement@rcmp-grc.gc.ca">goccrecruiting-gstorecrutement@rcmp-grc.gc.ca</a></dd>
@@ -221,22 +226,23 @@ custom_css: /assets/css/careers.css
     <dt>Nova Scotia</dt>
     <dd><a href="mailto:hdiv-occstaffing@rcmp-grc.gc.ca">hdiv-occstaffing@rcmp-grc.gc.ca</a></dd>
 
-    <dt>New Brunswick</dt>
-    <dd><a href="mailto:nbrcmpocc.stogrcnb@rcmp-grc.gc.ca">nbrcmpocc.stogrcnb@rcmp-grc.gc.ca</a></dd>
-
-    <dt>Alberta</dt>
-    <dd><a href="mailto:rcmp.koccrecruiting-kstorecrutement.grc@rcmp-grc.gc.ca">rcmp.koccrecruiting-kstorecrutement.grc@rcmp-grc.gc.ca</a></dd>
-
-    <dt>Prince Edward Island</dt>
-    <dd><a href="mailto:lpshr-rhfpl@rcmp-grc.gc.ca">lpshr-rhfpl@rcmp-grc.gc.ca</a></dd>
-
-    <dt>Yukon</dt>
-    <dd><a href="mailto:mdiv_occ_recruiting@rcmp-grc.gc.ca">mdiv_occ_recruiting@rcmp-grc.gc.ca</a></dd>
+    <dt>Nunavut</dt>
+    <dd><a href="mailto:vdiv.occ.recruiting-divv.sto.recrutement@rcmp-grc.gc.ca">vdiv.occ.recruiting-divv.sto.recrutement@rcmp-grc.gc.ca</a></dd>
 
     <dt>Ontario</dt>
     <dd><a href="mailto:rcmp.odivo_pscm_staffing-dotation_fpmc.grc@rcmp-grc.gc.ca">rcmp.odivo_pscm_staffing-dotation_fpmc.grc@rcmp-grc.gc.ca</a></dd>
 
-    <dt>Nunavut</dt>
-    <dd><a href="mailto:vdiv.occ.recruiting-divv.sto.recrutement@rcmp-grc.gc.ca">vdiv.occ.recruiting-divv.sto.recrutement@rcmp-grc.gc.ca</a></dd>
+    <dt>Prince Edward Island</dt>
+    <dd><a href="mailto:lpshr-rhfpl@rcmp-grc.gc.ca">lpshr-rhfpl@rcmp-grc.gc.ca</a></dd>
+
+    <dt>Québec</dt>
+    <dd><a href="mailto:cdiv_rhfp-hrps@rcmp-grc.gc.ca">cdiv_rhfp-hrps@rcmp-grc.gc.ca</a></dd>
+
+    <dt>Saskatchewan</dt>
+    <dd><a href="mailto:rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca">rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca</a>
+    <br>Telephone: 639-625-3770</dd>
+
+    <dt>Yukon</dt>
+    <dd><a href="mailto:mdiv_occ_recruiting@rcmp-grc.gc.ca">mdiv_occ_recruiting@rcmp-grc.gc.ca</a></dd>
   </dl>
 </section>

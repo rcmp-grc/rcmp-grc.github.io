@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Avantages pour les employés civils
-date_modified: 2026-08-25
+date_modified: 2026-08-28
 lang: fr
 lang_url: civilian-benefits-en.html
 breadcrumbs:
@@ -12,53 +12,46 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<nav aria-labelledby="on-this-page-heading">
-  <h2 id="on-this-page">Sur cette page</h2>
-	<ul>
-		<li><a href="#s1">Possibilités partout au Canada</a></li>
-		<li><a href="#s2">Avantages financiers et prestations de santé</a></li>
-		<li><a href="#s3">Congés et équilibre travail-vie personnelle</a></li>
-		<li><a href="#s4">Apprentissage continu et avancement professionnel</a></li>
-		<li><a href="#s5">Milieu de travail inclusif et accessible</a></li>
-	</ul>
-</nav>
 <p>Travaillez dans une organisation diversifiée et respectée qui offre du perfectionnement professionnel et des avantages pour favoriser à la fois votre croissance professionnelle et votre bien-être général.</p>
-<section id="s1">
-    <h2>Possibilités partout au Canada</h2>
+<p>En tant qu’employé, vous bénéficierez d’une gamme d’avantages&nbsp;: </p>
+<dl>
+    <dt>Possibilités partout au Canada</dt>
+    <dd>
     <ul>
-        <li>Large éventail de rôles offerts à l'échelle nationale</li>
-        <li>Possibilités d'acquérir de nouvelles compétences et d'accroître vos connaissances</li>
+        <li>large éventail de rôles offerts à l'échelle nationale</li>
+        <li>possibilités d'acquérir de nouvelles compétences et d'accroître vos connaissances</li>
     </ul>
-</section>
-<section id="s2">
-    <h2>Avantages financiers et prestations de santé</h2>
+</dd>
+    <dt>Avantages financiers et prestations de santé</dt>
+    <dd>
     <ul>
-        <li>Régimes complets <a href="https://www.canada.ca/fr/secretariat-conseil-tresor/sujets/regimes-assurance/regimes.html">de soins de santé et de soins dentaires</a></li>
-        <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/sujets/regimes-assurance/regimes.html">Régime de retraite</a> qui favorise la sécurité financière à long terme</li>
+        <li>régimes complets <a href="https://www.canada.ca/fr/secretariat-conseil-tresor/sujets/regimes-assurance/regimes.html">de soins de santé et de soins dentaires</a></li>
+        <li><a href="https://www.canada.ca/fr/secretariat-conseil-tresor/sujets/regimes-assurance/regimes.html">régime de retraite</a> qui favorise la sécurité financière à long terme</li>
     </ul>
-</section> 
-<section id="s3">
-    <h2>Congés et équilibre travail-vie personnelle</h2>
+    </dd>
+    <dt>Congés et équilibre travail-vie personnelle</dt>
+    <dd>
     <ul>
-        <li>Congés annuels</li>
-        <li>Congés de maladie</li>
-        <li>Congés pour raison de famille</li>
-        <li>Autres options de congé offertes à l'appui de vos besoins personnels</li>
+        <li>congés annuels</li>
+        <li>congés de maladie</li>
+        <li>congés pour raison de famille</li>
+        <li>autres options de congé offertes à l'appui de vos besoins personnels</li>
     </ul>
-</section>
-<section id="s4">
-    <h2>Apprentissage continu et avancement professionnel</h2>
+    </dd>
+    <dt>Apprentissage continu et avancement professionnel</dt>
+    <dd>
     <ul>
-        <li>Accès à divers cours de formation interne</li>
-        <li>Apprentissage en cours d'emploi sous forme d'encadrement et de mentorat</li>
-        <li>Possibilités de participer à des conférences et à des ateliers</li>
+        <li>accès à divers cours de formation interne</li>
+        <li>apprentissage en cours d'emploi sous forme d'encadrement et de mentorat</li>
+        <li>possibilités de participer à des conférences et à des ateliers</li>
     </ul>
-</section>
-<section id="s5">
-    <h2>Milieu de travail inclusif et accessible</h2>
+    </dd>
+    <dt>Milieu de travail inclusif et accessible</dt>
+    <dd>
     <ul>
-        <li>Engagement ferme à l’égard de l’équité en matière d’emploi</li>
-        <li>Milieu de travail représentatif de la diversité de la société canadienne</li>
-        <li>Milieu de travail sécuritaire, respectueux et sans obstacle</li>
+        <li>engagement ferme à l’égard de l’équité en matière d’emploi</li>
+        <li>milieu de travail représentatif de la diversité de la société canadienne</li>
+        <li>milieu de travail sécuritaire, respectueux et sans obstacle</li>
     </ul>
-</section>
+    </dd>
+</dl>

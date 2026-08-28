@@ -55,3 +55,9 @@ custom_css: /assets/css/careers.css
     </ul>
     </dd>
 </dl>
+<section id="s1">
+<h2>Related links</h2>
+<ul>
+    <li><a href="/en/careers-rcmp/civilian-employee-careers/types-civilian-employee-jobs">Civilian employee job types</a></li>
+</ul>
+</section>

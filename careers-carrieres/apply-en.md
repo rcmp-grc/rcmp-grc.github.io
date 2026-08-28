@@ -14,7 +14,7 @@ custom_css: /assets/css/careers.css
 Choose your path.</p>
 <div class="row">
   <div class="col-md-6">
-    <h2 class="h2-line">Police officer</h2>
+    <h2 class="h2-line">Police officer careers</h2>
     <div class="rc-question-card">
       <div class="rc-question-card__body">
         <p>A career with the RCMP is one with big impact and endless opportunities to grow. Before you apply, make sure you understand what it takes to be an RCMP police officer:</p>

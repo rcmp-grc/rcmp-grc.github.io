@@ -23,7 +23,7 @@ custom_css: /assets/css/careers.css
   <li>Renseignements criminels</li>
   <li>Sciences judiciaires</li>
   <li>Ressources humaines</li>
-  <li>Services de base des TI</li>
+  <li>Services de base des technologies de l'information (TI)</li>
   <li>Services juridiques</li>
   <li><a href="/fr/carrieres-grc/carrieres-demployes-civils/types-demplois-demployes-civils/emplois-demployes-civils-psychologue">Psychologue</a></li>
   <li>Recherche et analyse</li>

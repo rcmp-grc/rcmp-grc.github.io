@@ -47,21 +47,21 @@ custom_css: /assets/css/careers.css
           <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-5.jpg">
-              <h3 class="h5"><a href="#">Community constables</a></h3>
+              <h3 class="h5"><a href="#">Community Constables</a></h3>
               <p>Build trust and help to reduce crime in your own community.</p>
             </div>
           </li>
           <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-6.jpg">
-              <h3 class="h5"><a href="#">RCMP Reserve program</a></h3>
+              <h3 class="h5"><a href="#">RCMP Reserve Program</a></h3>
               <p>Continue to serve the community after retirement or leaving the service.</p>
             </div>
           </li>
           <li class="col-lg-4 col-md-6 col-xs-12">
             <div class="well">
               <img alt="" class="img-responsive full-width" src="/assets/img/streams-flux-7.jpg">
-              <h3 class="h5"><a href="#">Volunteer programs</a></h3>
+              <h3 class="h5"><a href="#">Volunteer Programs</a></h3>
               <p>Support local detachments and help to tell the RCMP story across Canada.</p>
             </div>
           </li>

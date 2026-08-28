@@ -13,7 +13,7 @@ custom_css: /assets/css/careers.css
 ---
 
 <p>Travaillez dans une organisation diversifiée et respectée qui offre du perfectionnement professionnel et des avantages pour favoriser à la fois votre croissance professionnelle et votre bien-être général.</p>
-<p>En tant qu’employé, vous bénéficierez d’une gamme d’avantages&nbsp;: </p>
+<p>En tant qu’employé, vous bénéficierez d’une gamme d’avantages&nbsp;:</p>
 <dl class="dl-horizontal">
     <dt>Possibilités partout au Canada</dt>
     <dd>
@@ -21,7 +21,7 @@ custom_css: /assets/css/careers.css
         <li>large éventail de rôles offerts à l'échelle nationale</li>
         <li>possibilités d'acquérir de nouvelles compétences et d'accroître vos connaissances</li>
     </ul>
-</dd>
+    </dd>
     <dt>Avantages financiers et prestations de santé</dt>
     <dd>
     <ul>

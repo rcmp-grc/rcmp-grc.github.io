@@ -12,7 +12,7 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<p>Il y a de nombreuses possibilités permettant aux employés civils d'assurer un soutien essentiel au personnel policier de première ligne. En voici quelques exemples&#160;:</p>
+<p>Il y a de nombreuses possibilités permettant aux employés civils d'assurer un soutien essentiel au personnel policier de première ligne. En voici quelques exemples&nbsp;:</p>
 <ul>
   <li><a href="/fr/carrieres-grc/carrieres-demployes-civils/types-demplois-demployes-civils/emplois-demployes-civils-operateur-telecommunications-repartiteur-9-1-1">Répartiteur du 9-1-1 (opérateur des télécommunications)</a></li>
   <li>Analystes de l'Accès à l'information et de protection des renseignements personnels (AIPRP)</li>

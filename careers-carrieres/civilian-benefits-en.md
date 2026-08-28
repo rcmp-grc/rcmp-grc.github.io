@@ -12,7 +12,7 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<p>Work with a diverse and respected organization that offers continuous career development and benefits designed to support both your professional growth and overall, well‑being.</p>
+<p>Work with a diverse and respected organization that offers continuous career development and benefits designed to support both your professional growth and overall well‑being.</p>
 <p>As an employee, you’ll enjoy a range of benefits:</p>
 <dl class="dl-horizontal">
     <dt>Opportunities across Canada</dt>
@@ -50,7 +50,7 @@ custom_css: /assets/css/careers.css
     <dd>
     <ul>
         <li>a strong commitment to employment equity</li>
-        <li>a workplace that reflects the diversity of Canadian society </li>
+        <li>a workplace that reflects the diversity of Canadian society</li>
         <li>safe, respectful, and barrier‑free work environments</li>
     </ul>
     </dd>

@@ -23,7 +23,7 @@ custom_css: /assets/css/careers.css
   <li>Criminal intelligence</li>
   <li>Forensics</li>
   <li>Human resources</li>
-  <li>IT core services</li>
+  <li>Information Technology (IT) core services</li>
   <li>Legal services</li>
   <li><a href="/en/careers-rcmp/civilian-employee-careers/types-civilian-employee-jobs/civilian-employee-job-psychologist">Psychologist</a></li>
   <li>Research and analysis</li>

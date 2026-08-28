@@ -37,7 +37,7 @@ Choose your path.</p>
     <li class="col-md-6">
       <div class="well">
         <h3>Civilian careers</h3>
-        <p>Civilian employees support the RCMP's mission in roles ranging from forensics to information technology, corporate administration, communications and more.</p>
+        <p>Civilian employees support the RCMP's mission in roles ranging from forensics to information technology, corporate administration, communications and more. </p>
         <ul>
           <li>Create or sign in to your GC Jobs applicant profile to search for civilian jobs</li>
           <li>Explore the <a href="">civilian career opportunities</a> and find the right fit for you</li>
@@ -55,7 +55,7 @@ Choose your path.</p>
 </section>
 
 <section id="s1">
-  <h2 class="h2-line">Related links</h2>
+  <h2>Related links</h2>
   <ul>
     <li>Career paths: browse the specialized roles across the RCMP</li>
     <li>RCMP Cadet Hub: what to expect at Depot, the RCMP training academy</li>

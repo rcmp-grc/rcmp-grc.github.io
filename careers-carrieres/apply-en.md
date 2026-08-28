@@ -10,7 +10,7 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<p class="lead">Ready to join the RCMP<br>
+<p class="lead">Ready to join the RCMP?<br>
 Choose your path.</p>
 <div class="row">
   <div class="col-md-6">
@@ -38,12 +38,12 @@ Choose your path.</p>
     <div class="rc-question-card">
       <div class="rc-question-card__body">
         <p>Civilian employees support the RCMP's mission in roles ranging from forensics to information technology, corporate administration, communications and more.</p>
-        <ol>
+        <ul>
           <li>Create or sign in to your GC Jobs applicant profile to search civilian jobs</li>
           <li>Explore the civilian career opportunities to see what's right for you</li>
           <li>Learn about the competitive salary, pension plan and employee benefits</li>
           <li>Reflect on the RCMP Core Values to make sure your personal values align</li>
-        </ol>
+        </ul>
       </div>
     </div>
     <p class="mrgn-tp-md">

@@ -47,7 +47,7 @@ Choose your path.</p>
       </div>
     </div>
     <p class="mrgn-tp-md">
-      <a class="rc-btn rc-btn--primary" href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?tab=2&tabKeepCriteria=2">
+      <a class="rc-btn rc-btn--primary" href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?tab=2&title=&locationsFilter=&departments=&classificationInfos=&officialLanguage=&referenceNumber=&selectionProcessNumber=&search=Search%20jobs&department=108">
         Search civilian jobs on GC Jobs
       </a>
     </p>

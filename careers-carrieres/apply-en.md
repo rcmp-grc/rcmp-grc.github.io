@@ -29,7 +29,7 @@ Choose your path.</p>
     </div>
     <p class="mrgn-tp-md">
       <a class="rc-btn rc-btn--primary" href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page1800?poster=2440171">
-        Start your application on GC Jobs
+        Start your police officer application
       </a>
     </p>
   </div>
@@ -56,8 +56,8 @@ Choose your path.</p>
 <section id="s1">
   <h2>Related links</h2>
   <ul>
-    <li>Career Paths: browse the specialized roles across the RCMP</li>
-    <li>Cadet Hub: what to expect at Depot, the RCMP training academy</li>
+    <li>Career paths: browse the specialized roles across the RCMP</li>
+    <li>RCMP Cadet Hub: what to expect at Depot, the RCMP training academy</li>
     <li>Experienced Police Officers: review the unique application process for police officers considering a career with the RCMP</li>
   </ul>
 </section>

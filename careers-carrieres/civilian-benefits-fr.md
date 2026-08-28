@@ -55,3 +55,9 @@ custom_css: /assets/css/careers.css
     </ul>
     </dd>
 </dl>
+<section id="s1">
+<h2>Liens connexes</h2>
+<ul>
+    <li><a href="/fr/carrieres-grc/carrieres-demployes-civils/types-demplois-demployes-civils">Types d’emplois d'employés civils</a></li>
+</ul>
+</section>

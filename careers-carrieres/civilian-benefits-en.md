@@ -14,7 +14,7 @@ custom_css: /assets/css/careers.css
 
 <p>Work with a diverse and respected organization that offers continuous career development and benefits designed to support both your professional growth and overall, well‑being.</p>
 <p>As an employee, you’ll enjoy a range of benefits:</p>
-<dl>
+<dl class="dl-horizontal">
     <dt>Opportunities across Canada</dt>
     <dd>
     <ul>

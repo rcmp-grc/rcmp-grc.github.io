@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Career paths for police officers
-date_modified: 2026-07-27
+date_modified: 2026-08-28
 lang: en
 lang_url: career-paths-fr.html
 breadcrumbs:
@@ -12,7 +12,7 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<nav aria-labelledby="on-this-page-heading">
+<nav aria-labelledby="on-this-page">
     <h2 id="on-this-page">On this page</h2>
     <ul>
         <li><a href="#s1">General duty policing</a></li>

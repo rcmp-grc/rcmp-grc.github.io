@@ -17,13 +17,13 @@ Choose your path.</p>
     <h2 class="h2-line">Police officer</h2>
     <div class="rc-question-card">
       <div class="rc-question-card__body">
-        <p>A career with the RCMP is one with big impact and endless opportunities to grow. Before you apply, make sure you understand what it takes to be an RCMP police officer.</p>
+        <p>A career with the RCMP is one with big impact and endless opportunities to grow. Before you apply, make sure you understand what it takes to be an RCMP police officer:</p>
         <ul>
-          <li>Check the <a href="">Basic Requirements</a> to confirm you’re eligible to apply</li>
-          <li>Understand the <a href="">Application Process</a>, from application to cadet training</li>
-          <li>Build your fitness and prepare to meet the <a href="">Physical Standards</a></li>
+          <li>Check the <a href="">basic requirements</a> to confirm you’re eligible to apply</li>
+          <li>Understand the <a href="">application process</a>, from application to cadet training</li>
+          <li>Build your fitness and prepare to meet the <a href="">physical standards</a></li>
           <li>Take the <a href="">Readiness Check</a> to see if you’re well-suited for a career in policing</li>
-          <li>Reflect on the <a href="">RCMP Core Values</a> to make sure your personal values align</li>
+          <li>Reflect on the <a href="/en/corporate-information/royal-canadian-mounted-police-core-values">RCMP Core Values</a> to make sure your personal values align</li>
         </ul>
       </div>
     </div>
@@ -37,12 +37,12 @@ Choose your path.</p>
     <h2 class="h2-line">Civilian careers</h2>
     <div class="rc-question-card">
       <div class="rc-question-card__body">
-        <p>Civilian employees support the RCMP's mission in roles ranging from forensics to information technology, corporate administration, communications and more.</p>
+        <p>Civilian employees support the RCMP's mission in roles ranging from forensics to information technology, corporate administration, communications and more. </p>
         <ul>
-          <li>Create or sign in to your GC Jobs applicant profile to search civilian jobs</li>
-          <li>Explore the civilian career opportunities to see what's right for you</li>
-          <li>Learn about the competitive salary, pension plan and employee benefits</li>
-          <li>Reflect on the RCMP Core Values to make sure your personal values align</li>
+          <li>Create or sign in to your GC Jobs applicant profile to search for civilian jobs</li>
+          <li>Explore the <a href="">civilian career opportunities</a> and find the right fit for you</li>
+          <li>Learn about the competitive salary, pension plan and <a href="">employee benefits</a></li>
+          <li>Reflect on the <a href="/en/corporate-information/royal-canadian-mounted-police-core-values">RCMP Core Values</a> to make sure your personal values align</li>
         </ul>
       </div>
     </div>
@@ -53,3 +53,11 @@ Choose your path.</p>
     </p>
   </div>
 </div>
+<section id="s1">
+  <h2>Related links</h2>
+  <ul>
+    <li>Career Paths: browse the specialized roles across the RCMP</li>
+    <li>Cadet Hub: what to expect at Depot, the RCMP training academy</li>
+    <li>Experienced Police Officers: review the unique application process for police officers considering a career with the RCMP</li>
+  </ul>
+</section>

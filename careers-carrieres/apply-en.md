@@ -10,7 +10,8 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<p class="lead">Ready to join the RCMP? How you apply depends on the type of role you're pursuing. Follow the steps below for your path.</p>
+<p class="lead">Ready to join the RCMP<br>
+Choose your path.</p>
 <div class="row">
   <div class="col-md-6">
     <h2 class="h2-line">Police officer</h2>
@@ -24,8 +25,6 @@ custom_css: /assets/css/careers.css
           <li>Take the <a href="">Readiness Check</a> to see if you’re well-suited for a career in policing</li>
           <li>Reflect on the <a href="">RCMP Core Values</a> to make sure your personal values align</li>
         </ul>
-        <p>Ready to apply?</p>
-        <p>Take the first step.</p>
       </div>
     </div>
     <p class="mrgn-tp-md">
@@ -34,28 +33,23 @@ custom_css: /assets/css/careers.css
       </a>
     </p>
   </div>
-
   <div class="col-md-6">
-    <h2 class="h2-line">Civilian employees</h2>
+    <h2 class="h2-line">Civilian careers</h2>
     <div class="rc-question-card">
       <div class="rc-question-card__body">
-        <p>Civilian employees support the RCMP's mission in roles such as forensics, information technology, finance and communications, without becoming a sworn police officer.</p>
+        <p>Civilian employees support the RCMP's mission in roles ranging from forensics to information technology, corporate administration, communications and more.</p>
         <ol>
-          <li>Review current opportunities on the <a href="https://www.canada.ca/en/services/jobs/opportunities/government.html" target="_blank" aria-label="Government of Canada Jobs - Opens in a new window">Government of Canada Jobs (GC Jobs) <span class="sr-only">(opens in new window)</span></a> site.</li>
-          <li>Create or sign in to your GC Jobs applicant profile.</li>
-          <li>Search for open postings using "Royal Canadian Mounted Police" as the department or organization filter.</li>
-          <li>Review the statement of merit criteria and submit your application, including your resume, before the closing date.</li>
-          <li>Track the status of your application through your GC Jobs profile.</li>
+          <li>Create or sign in to your GC Jobs applicant profile to search civilian jobs</li>
+          <li>Explore the civilian career opportunities to see what's right for you</li>
+          <li>Learn about the competitive salary, pension plan and employee benefits</li>
+          <li>Reflect on the RCMP Core Values to make sure your personal values align</li>
         </ol>
-        <p>Not sure which role is right for you? <a href="#">Explore civilian career opportunities</a>.</p>
       </div>
     </div>
     <p class="mrgn-tp-md">
-      <a class="rc-btn rc-btn--primary" href="https://www.canada.ca/en/services/jobs/opportunities/government.html" target="_blank" aria-label="Search civilian jobs on GC Jobs - Opens in a new window">
+      <a class="rc-btn rc-btn--primary" href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?tab=2&tabKeepCriteria=2">
         Search civilian jobs on GC Jobs
-        <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
       </a>
     </p>
   </div>
-
 </div>

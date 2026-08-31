@@ -1,7 +1,7 @@
 ---
 layout: careers
 title:  Ingénieurs en enquêtes techniques et ingénieurs en logiciel
-date_modified: 2026-08-28
+date_modified: 2026-08-31
 lang: fr
 lang_url: civilian-emp-engineer-en.html
 breadcrumbs:
@@ -16,7 +16,7 @@ custom_css: /assets/css/careers.css
   <h2 id="on-this-page">Sur cette page</h2>
   <ul>
     <li><a href="#s1">Comment poser votre candidature</a></li>
-    <li><a href="#s2">Êtes-vous un(e) étudiant(e) de niveau collégial ou universitaire qui souhaite effectuer un stage?</a></li>
+    <li><a href="#s2">Possibilités pour les étudiants de niveau collégial ou universitaire</a></li>
   </ul>
 </nav>
 <p>Nous embauchons! Les Services d'enquêtes techniques cherchent à embaucher des étudiants qualifiés et des diplômés en leur offrant des possibilités d'emploi à court et à long terme.</p>
@@ -39,7 +39,7 @@ custom_css: /assets/css/careers.css
   </ul>
 </section>
 <section id="s2">
-  <h2>Êtes-vous un(e) étudiant(e) de niveau collégial ou universitaire qui souhaite effectuer un stage?</h2>
+  <h2>Possibilités pour les étudiants de niveau collégial ou universitaire</h2>
   <p>Pour être admissible au Programme fédéral d'expérience de travail étudiant, il faut être inscrit(e) à un programme qui figure sur <a href="https://www.canada.ca/fr/commission-fonction-publique/emplois/services/recrutement/etudiants/coop.html">la liste des établissements d'enseignement et programmes postsecondaires validés</a>.</p>
   <p>Nous embauchons actuellement pour les sessions suivantes&#160;:</p>
   <ul>

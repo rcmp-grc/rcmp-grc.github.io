@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Psychologist
-date_modified: 2026-08-28
+date_modified: 2026-08-31
 lang: en
 lang_url: civilian-emp-psychologist-fr.html
 breadcrumbs:
@@ -18,7 +18,7 @@ custom_css: /assets/css/careers.css
     <li><a href="#s1">Lifeline to a healthy workplace</a></li>
     <li><a href="#s2">What the work involves</a></li>
     <li><a href="#s3">Top reasons to work for the RCMP</a></li>
-    <li><a href="#s4">We're hiring</a></li>
+    <li><a href="#s4">How to apply</a></li>
   </ul>
 </nav>
 <section id="s1">
@@ -56,14 +56,14 @@ custom_css: /assets/css/careers.css
     <li>no office overhead</li>
     <li>competitive pay ($95,233 to $112,957) with terminable allowances:
       <ul>
-        <li>master's level registered psychologists - $6,000</li>
-        <li>doctoral level registered psychologists - $12,000</li>
+        <li>master's level registered psychologists – $6,000</li>
+        <li>doctoral level registered psychologists – $12,000</li>
       </ul>
     </li>
   </ul>
-  <p>If you want to make a real difference in the lives of others, and help keep Canadians safe - this is the career for you!</p>
+  <p>If you want to make a real difference in the lives of others, and help keep Canadians safe – this is the career for you!</p>
 </section>
 <section id="s4">
-  <h2>We're hiring</h2>
+  <h2>how to apply</h2>
   <p>For more information about RCMP Psychologist jobs, please see the <a href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true">Canada.ca jobs website</a>.</p>
 </section>

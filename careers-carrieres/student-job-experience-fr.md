@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Expérience de travail étudiant offerte à la GRC
-date_modified: 2026-08-25
+date_modified: 2026-08-31
 lang: fr
 lang_url: student-job-experience-en.html
 breadcrumbs:
@@ -86,7 +86,7 @@ custom_css: /assets/css/careers.css
 		<ul>
 			<li>gestion de la sécurité;</li>
 			<li>services de sécurité;</li>
-			<li>informatique;</li>
+			<li>Technologies de l'information (TI)</li>
 			<li>sécurité des communications.</li>
 		</ul>
 	</dd>

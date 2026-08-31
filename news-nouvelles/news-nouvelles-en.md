@@ -145,7 +145,8 @@ custom_css: /assets/css/careers.css
     </button> 
    </span></div>
 </form>
-		<h2 class="h6 news-filters-heading" id="re-filters">Filter</h2>
+		<div id="re-filters" class="mrgn-bttm-0">
+		<h2 class="h6 news-filters-heading">Filter</h2>
 		<p class="small mrgn-lft-md mrgn-tp-md">Select any of the following filters to narrow your search</p>	
 	    <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></summary>
@@ -254,6 +255,7 @@ custom_css: /assets/css/careers.css
 			 <label class="re-select-label mrgn-tp-md" for="dt_maxdate">After</label><input data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
 			</fieldset>
 		</details>
+		</h2></div>
 	</aside>
 	</div>
   <div class="col-md-9" id="wp-results-col">

@@ -66,5 +66,5 @@ custom_css: /assets/css/careers.css
     <li>Policy Analyst</li>
   </ul>
   <p>Co-op opportunities can be 4, 8 or 12&#160;month terms.</p>
-  <p><a href="https://www.canada.ca/en/treasury-board-secretariat/services/pay/rates-pay/student-rates-pay.html">Student rates of pay </a>vary based on academic level and experience.</p>
+  <p><a href="https://www.canada.ca/en/treasury-board-secretariat/services/pay/rates-pay/student-rates-pay.html">Student rates of pay</a> vary based on academic level and experience.</p>
 </section>

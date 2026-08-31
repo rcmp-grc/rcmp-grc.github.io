@@ -13,10 +13,9 @@ custom_css: /assets/css/careers.css
 ---
 
 <section class="alert alert-info">
-  <h2>Ready to apply?</h2>
+  <h2 class="h3">Ready to apply?</h2>
   <p><a href="#s6">Learn more about the application process</a>.</p>
 </section>
-
 <nav aria-labelledby="on-this-page">
   <h2 id="on-this-page">On this page</h2>
   <ul>
@@ -29,7 +28,6 @@ custom_css: /assets/css/careers.css
     <li><a href="#s7">Contact us</a></li>
   </ul>
 </nav>
-
 <section id="s1">
   <h2>What we do</h2>
   <div class="pull-right col-xs-12 col-md-3 col-lg-4">
@@ -53,7 +51,6 @@ custom_css: /assets/css/careers.css
     <li>search databases to help with investigations</li>
   </ul>
 </section>
-
 <section id="s2">
   <h2>Salary and benefits</h2>
   <p>As a 9&#8209;1&#8209;1 Police Dispatcher, you'll enjoy:</p>
@@ -72,7 +69,6 @@ custom_css: /assets/css/careers.css
   </ul>
   <p>Read more about our experienced police dispatcher program <a href="#s4">here</a>.</p>
 </section>
-
 <section id="s3">
   <h2>A unique work environment</h2>
   <p>As a 9&#8209;1&#8209;1 Police Dispatcher, you'll be expected to:</p>
@@ -86,7 +82,6 @@ custom_css: /assets/css/careers.css
   </ul>
   <p>This career places you at the centre of critical moments and some situations can be challenging. That's why the RCMP invests in <a href="/en/employee-and-family-resources/mental-health-wellbeing-and-support">health programs and services</a>, so you can continue to perform at your best while prioritizing your mental health and well being.</p>
 </section>
-
 <section id="s4">
   <h2>Qualifications and requirements</h2>
   <p>To apply to become a 9&#8209;1&#8209;1 Police Dispatcher, <strong>you must</strong>:</p>
@@ -131,7 +126,6 @@ custom_css: /assets/css/careers.css
     </ul>
   </details>
 </section>
-
 <section id="s5">
   <h2>Find jobs and apply</h2>
   <p>If you meet all the qualifications and requirements, you may continue with the <a href="#s6">application and selection process</a>.</p>
@@ -139,49 +133,52 @@ custom_css: /assets/css/careers.css
   <p>For more information, attend a <a href="/en/careers-rcmp/recruiting-events?t=Telecommunications+operator+%289-1-1+dispatcher%29">career presentation</a>.</p>
   <p>Experienced police dispatchers are encouraged to <a href="#s7">contact a recruiter</a> for detailed information about the application process.</p>
 </section>
-
 <section id="s6">
   <h2>Application process</h2>
   <p>Listed below is the 9&#8209;1&#8209;1 Police Dispatcher application process. If you have questions about the application process, please contact a Recruiter or attend a career presentation.</p>
-
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
     <summary>
       Step&#160;1: Submit an online application
     </summary>
-      <p>Submit an online application on the <a href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true&toggleLanguage=en">Government of Canada's GC Jobs website</a>. Search for opportunities labelled "9&#8209;1&#8209;1&#160;Police Dispatcher Trainee".
+    <section id="s6-1">
+      <p>Submit an online application on the <a href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true&toggleLanguage=en">Government of Canada's GC Jobs website</a>. Search for opportunities labelled "9&#8209;1&#8209;1&#160;Police Dispatcher Trainee".</p>
       <p>Before submitting your application, review and make sure you meet the qualifications and requirements. Your application must demonstrate how you meet the essential qualifications of the 9&#8209;1&#8209;1 Police Dispatcher Trainee position.</p>
       <p>For bilingual positions, you will undergo language testing during the application process</p>
       <p>Applicants that meet the screening criteria for the position will be required to attend a Career Presentation before proceeding to Step&#160;2 of the application process.</p>
+    </section>
   </details>
-
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
     <summary>
       Step&#160;2: CritiCall pre-employment assessment
     </summary>
+    <section id="s6-2">
       <p>We'll contact applicants to schedule a self-administered and electronic exam called CritiCall. This exam evaluates multitasking and decision-making skills.</p>
       <p>Applicants who successfully complete the CritiCall pre-employment assessment and are selected will advance to the next step of the application process.</p>
       <p>If you do not successfully complete this step or any of the following steps, your application will be closed and we will let you know when you can reapply.</p>
+    </section>
   </details>
-
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
     <summary>
       Step&#160;3: Structured interview
     </summary>
+    <section id="s6-3">
       <p>During the interview, we'll ask questions to find out how you behaved in certain past situations. The questions also help assess the decisions you would make in hypothetical scenarios. The interview is approximately one hour in duration. Your Recruiter will provide you with a guide to help you prepare for the interview. Applicants who successfully complete the interview and are selected will advance to the next step of the application process.</p>
+    </section>
   </details>
-
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
     <summary>
       Step&#160;4: Undergo a security and medical assessment
     </summary>
+    <section id="s6-4">
       <p>You will complete an online application and we'll conduct reference checks and a field investigation to determine if you're eligible for the required security clearance. These checks review your personal finances, education, previous employment and character references. Applicants must be three years clear of any illegal activity.</p>
       <p>You will need to complete a medical assessment that consists of a hearing test and a psychological assessment. Your Recruiter will provide with you the information on how to complete your medical assessment including forms and timelines to submit your documents.</p>
       <p>You may need additional health assessments depending on the employment conditions for the province or territory where you're applying.</p>
       <p>The security and medical assessments step may take between 8 and 12&#160;weeks to complete. To avoid delays, please ensure all forms are complete and accurate before submission. Also, we expect for you to schedule and attend appointments when requested.</p>
       <p>Successful applicants that are selected will be contacted and offered employment to participate in the 9&#8209;1&#8209;1 Police Dispatcher Training Program. The offer will include information about training dates, salary and benefits.</p>
+    </section>
   </details>
-
-<section id="s6-1">
+</section>
+<section id="s6-7">
   <h3>Training</h3>
   <p>After accepting the job offer, you will participate in an extensive core training program that is designed to provide you with the knowledge and skills to become a 9&#8209;1&#8209;1 Police Dispatcher. The location and duration of the training depends on the hiring location.</p>
   <p>The core training program has two classroom components:</p>
@@ -192,58 +189,55 @@ custom_css: /assets/css/careers.css
   <p>You'll receive a trainee's hourly wage of $33.58.</p>
   <p>After completing the classroom training, you'll enter the field coaching program (up to 600&#160;hours). You'll work in the operational communications centre under the direct supervision of a certified field coach.</p>
 </section>
-
-<section id="s6-2">
+<section id="s6-8">
   <h3>Welcome to the job</h3>
   <p>Once you complete the field coaching program, you will be eligible to promote to a 9&#8209;1&#8209;1 Police Dispatcher position (TCO-02) and begin to work on your own. Your hourly wage will increase to $36.94.</p>
 </section>
 </section>
-
 <section id="s7">
   <h2>Contact us</h2>
   <p>The RCMP holds <a href="/en/careers-rcmp/recruiting-events?t=Telecommunications+operator+%289-1-1+dispatcher%29">recruiting events</a> including career presentations for people interested in 9&#8209;1&#8209;1 Police Dispatcher careers. Events are held in several communities throughout the year.</p>
-
   <dl class="dl-horizontal">
 
     <dt>Alberta</dt>
-    <dd><a href="mailto:rcmp.koccrecruiting-kstorecrutement.grc@rcmp-grc.gc.ca">rcmp.koccrecruiting-kstorecrutement.grc@rcmp-grc.gc.ca</a></dd>
+    <dd>Email: <a href="mailto:rcmp.koccrecruiting-kstorecrutement.grc@rcmp-grc.gc.ca">rcmp.koccrecruiting-kstorecrutement.grc@rcmp-grc.gc.ca</a></dd>
 
     <dt>British Columbia</dt>
-    <dd><a href="mailto:e_911recruiting@rcmp-grc.gc.ca">e_911recruiting@rcmp-grc.gc.ca</a>
+    <dd>Email: <a href="mailto:e_911recruiting@rcmp-grc.gc.ca">e_911recruiting@rcmp-grc.gc.ca</a>
       <br>Website: <a href="/en/bc/careers/9-1-1-police-dispatchers">9&#8209;1&#8209;1&#160;police dispatcher careers in British Columbia</a></dd>
 
     <dt>Manitoba</dt>
-    <dd><a href="mailto:rcmp.doccrecruiting.grc@rcmp-grc.gc.ca">rcmp.doccrecruiting.grc@rcmp-grc.gc.ca</a></dd>
+    <dd>Email: <a href="mailto:rcmp.doccrecruiting.grc@rcmp-grc.gc.ca">rcmp.doccrecruiting.grc@rcmp-grc.gc.ca</a></dd>
 
     <dt>New Brunswick</dt>
-    <dd><a href="mailto:nbrcmpocc.stogrcnb@rcmp-grc.gc.ca">nbrcmpocc.stogrcnb@rcmp-grc.gc.ca</a></dd>
+    <dd>Email: <a href="mailto:nbrcmpocc.stogrcnb@rcmp-grc.gc.ca">nbrcmpocc.stogrcnb@rcmp-grc.gc.ca</a></dd>
 
     <dt>Newfoundland and Labrador</dt>
-    <dd><a href="mailto:psapplicants@rcmp-grc.gc.ca">psapplicants@rcmp-grc.gc.ca</a></dd>
+    <dd>Email: <a href="mailto:psapplicants@rcmp-grc.gc.ca">psapplicants@rcmp-grc.gc.ca</a></dd>
 
     <dt>Northwest Territories</dt>
-    <dd><a href="mailto:goccrecruiting-gstorecrutement@rcmp-grc.gc.ca">goccrecruiting-gstorecrutement@rcmp-grc.gc.ca</a></dd>
+    <dd>Email: <a href="mailto:goccrecruiting-gstorecrutement@rcmp-grc.gc.ca">goccrecruiting-gstorecrutement@rcmp-grc.gc.ca</a></dd>
 
     <dt>Nova Scotia</dt>
-    <dd><a href="mailto:hdiv-occstaffing@rcmp-grc.gc.ca">hdiv-occstaffing@rcmp-grc.gc.ca</a></dd>
+    <dd>Email: <a href="mailto:hdiv-occstaffing@rcmp-grc.gc.ca">hdiv-occstaffing@rcmp-grc.gc.ca</a></dd>
 
     <dt>Nunavut</dt>
-    <dd><a href="mailto:vdiv.occ.recruiting-divv.sto.recrutement@rcmp-grc.gc.ca">vdiv.occ.recruiting-divv.sto.recrutement@rcmp-grc.gc.ca</a></dd>
+    <dd>Email: <a href="mailto:vdiv.occ.recruiting-divv.sto.recrutement@rcmp-grc.gc.ca">vdiv.occ.recruiting-divv.sto.recrutement@rcmp-grc.gc.ca</a></dd>
 
     <dt>Ontario</dt>
-    <dd><a href="mailto:rcmp.odivo_pscm_staffing-dotation_fpmc.grc@rcmp-grc.gc.ca">rcmp.odivo_pscm_staffing-dotation_fpmc.grc@rcmp-grc.gc.ca</a></dd>
+    <dd>Email: <a href="mailto:rcmp.odivo_pscm_staffing-dotation_fpmc.grc@rcmp-grc.gc.ca">rcmp.odivo_pscm_staffing-dotation_fpmc.grc@rcmp-grc.gc.ca</a></dd>
 
     <dt>Prince Edward Island</dt>
-    <dd><a href="mailto:lpshr-rhfpl@rcmp-grc.gc.ca">lpshr-rhfpl@rcmp-grc.gc.ca</a></dd>
+    <dd>Email: <a href="mailto:lpshr-rhfpl@rcmp-grc.gc.ca">lpshr-rhfpl@rcmp-grc.gc.ca</a></dd>
 
     <dt>Québec</dt>
-    <dd><a href="mailto:cdiv_rhfp-hrps@rcmp-grc.gc.ca">cdiv_rhfp-hrps@rcmp-grc.gc.ca</a></dd>
+    <dd>Email: <a href="mailto:cdiv_rhfp-hrps@rcmp-grc.gc.ca">cdiv_rhfp-hrps@rcmp-grc.gc.ca</a></dd>
 
     <dt>Saskatchewan</dt>
-    <dd><a href="mailto:rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca">rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca</a>
+    <dd>Email: <a href="mailto:rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca">rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca</a>
     <br>Telephone: 639-625-3770</dd>
 
     <dt>Yukon</dt>
-    <dd><a href="mailto:mdiv_occ_recruiting@rcmp-grc.gc.ca">mdiv_occ_recruiting@rcmp-grc.gc.ca</a></dd>
+    <dd>Email: <a href="mailto:mdiv_occ_recruiting@rcmp-grc.gc.ca">mdiv_occ_recruiting@rcmp-grc.gc.ca</a></dd>
   </dl>
 </section>

@@ -86,7 +86,7 @@ custom_css: /assets/css/careers.css
 		<ul>
 			<li>security management</li>
 			<li>security services</li>
-			<li>information technology (IT)</li>
+			<li>Information Technology (IT)</li>
 			<li>communications security</li>
 		</ul>
 	</dd>

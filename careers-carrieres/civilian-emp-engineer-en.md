@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Technical investigative engineer and software engineer
-date_modified: 2026-08-28
+date_modified: 2026-08-31
 lang: en
 lang_url: civilian-emp-engineer-fr.html
 breadcrumbs:
@@ -16,7 +16,7 @@ custom_css: /assets/css/careers.css
   <h2 id="on-this-page">On this page</h2>
   <ul>
     <li><a href="#s1">How to apply</a></li>
-    <li><a href="#s2">Are you a college or university student interested in a co-op opportunity?</a></li>
+    <li><a href="#s2">College or university student opportunities</a></li>
   </ul>
 </nav>
 <p>We're hiring! Technical Investigation Services is looking to hire qualified students and graduates on short and long term employment opportunities.</p>
@@ -39,7 +39,7 @@ custom_css: /assets/css/careers.css
   </ul>
 </section>
 <section id="s2">
-  <h2>Are you a college or university student interested in a co-op opportunity?</h2>
+  <h2>College or university student opportunities</h2>
   <p>To be eligible for the Post-Secondary Co-op/Internship Program, students must be enrolled in a program that is on the <a href="https://www.canada.ca/en/public-service-commission/jobs/services/recruitment/students/coop-internship.html">approved list of post-secondary academic schools and programs</a>.</p>
   <p>We currently hire for the following terms:</p>
   <ul>

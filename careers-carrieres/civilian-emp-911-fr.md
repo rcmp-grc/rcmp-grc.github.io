@@ -169,7 +169,7 @@ custom_css: /assets/css/careers.css
   <section id="s6-5">
     <h3>Formation</h3>
     <p>Après avoir accepté l'offre d'emploi, vous devrez participer à un programme de formation de base exhaustif qui vise à vous enseigner les connaissances et les compétences pour devenir répartiteur au 9&#8209;1&#8209;1. Le lieu et la durée de la formation dépendent de la station de transmissions qui embauche. </p>
-    <p>Le programme de formation de base comprend deux volets en classe : </p>
+    <p>Le programme de formation de base comprend deux volets en classe&nbsp;: </p>
     <ul>
       <li>Prise d'appels (jusqu'à quatre semaines)</li>
       <li>Répartition (jusqu'à deux semaines)</li>

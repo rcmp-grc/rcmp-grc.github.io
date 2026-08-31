@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Psychologue
-date_modified: 2026-08-28
+date_modified: 2026-08-31
 lang: fr
 lang_url: civilian-emp-psychologist-en.html
 breadcrumbs:
@@ -18,7 +18,7 @@ custom_css: /assets/css/careers.css
     <li><a href="#s1">Garants d'un milieu de travail sain</a></li>
     <li><a href="#s2">Vos responsabilités</a></li>
     <li><a href="#s3">Bonnes raisons de travailler pour la GRC</a></li>
-    <li><a href="#s4">Nous recrutons</a></li>
+    <li><a href="#s4">Comment poser sa candidature</a></li>
   </ul>
 </nav>
 <section id="s1">
@@ -64,6 +64,6 @@ custom_css: /assets/css/careers.css
   <p>Si vous voulez avoir un effet positif dans la vie d'autrui et contribuer à la sécurité des Canadiens et des Canadiennes, votre place est à la GRC!</p>
 </section>
 <section id="s4">
-  <h2>Nous recrutons</h2>
+  <h2>Comment poser sa candidature</h2>
   <p>Pour en savoir plus sur les postes de psychologue à la GRC, consultez le site <a href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440;jsessionid=Xyo1Vu9pvK9-ezoAP_-GJLADvaQSlHznNCLQGLHhuXl7HM8b18fr!150679705?fromMenu=true&toggleLanguage=fr">Emplois GC</a>.</p>
 </section>

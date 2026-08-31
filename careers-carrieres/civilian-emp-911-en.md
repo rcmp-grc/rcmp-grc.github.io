@@ -67,7 +67,6 @@ custom_css: /assets/css/careers.css
     <li>a competitive salary in line with your prior work experience (<a href="https://www.canada.ca/en/treasury-board-secretariat/topics/pay/collective-agreements/po.html#toc43291243294">PO-TCO-02</a>)</li>
     <li>unlimited career opportunities - as an RCMP 9&#8209;1&#8209;1 Police Dispatcher you are a federal public service employee, meaning you can apply for and transfer to other RCMP and Government of Canada jobs</li>
   </ul>
-  <p>Read more about our experienced police dispatcher program <a href="#s4">here</a>.</p>
 </section>
 <section id="s3">
   <h2>A unique work environment</h2>
@@ -128,7 +127,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s5">
   <h2>Find jobs and apply</h2>
-  <p>If you meet all the qualifications and requirements, you may continue with the <a href="#s6">application and selection process</a>.</p>
+  <p>If you meet all the qualifications and requirements, you may continue with the application and selection process.</p>
   <p>Specific qualifications for each position are listed in job opportunities on <a href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?tab=2&tabKeepCriteria=2">GC Jobs</a>.</p>
   <p>For more information, attend a <a href="/en/careers-rcmp/recruiting-events?t=Telecommunications+operator+%289-1-1+dispatcher%29">career presentation</a>.</p>
   <p>Experienced police dispatchers are encouraged to <a href="#s7">contact a recruiter</a> for detailed information about the application process.</p>

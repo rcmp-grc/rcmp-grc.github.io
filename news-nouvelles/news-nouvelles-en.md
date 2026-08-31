@@ -13,29 +13,39 @@ custom_css: /assets/css/careers.css
 ---
 
 <style>
-	dl.dlist
-	{
-	font-size: inherit;
-	padding: 10px;
-	flex: 1;
-	border-top: 3px solid var(--rcmp-red);
-	border-right: 2px solid var(--c-grey-light);	
-	border-left: 2px solid var(--c-grey-light);
-	border-bottom: 2px solid var(--c-grey-light);
+  .news-card {
+  position: relative;
+  border: 1px solid var(--c-grey-border);
+  background: var(--c-white);
+  margin: 0 0 16px;
+  overflow: hidden;
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+  display: block;
 }
-	.topic-tag {
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    font-size: 1.1rem;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-    padding: 8px 20px;
-    background: var(--rcmp-red);
-    color: #FFFFFF;
-    z-index: 3;
+
+.news-card-body {
+  padding: 16px 16px 20px;
+  border-top: 3px solid var(--rcmp-red);
+}
+
+.news-card-format-tag {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  background: var(--rcmp-red);
+  color: #ffffff;
+  z-index: 3;
+  height: 24px;
+  display: flex;
+  align-items: center;
 }
 	#news-filters {
 	border: 1px solid var(--c-grey-border);	
@@ -487,14 +497,15 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       var li = document.createElement('div');
       li.setAttribute('role', 'listitem');
       li.innerHTML =
-		  '<dl class="dlist">' + p.tag +
+		  '<div class="news-card">' + '<div class="news-card-body">' + '<div class="news-card-format-tag">' + p.tag + '</div>' +
+		  '<dl>' +
           '<dt>' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' + '&nbsp;' + p.badge + '</dt>' +
 		  '<dd>' + '<div class="wb-inv">' + t.updated + '</div>' + '<ol class="list-inline"><li>' + p.updated + '&nbsp;&nbsp;' + '|' + '</li>' +  
 		  '<li>' + '<div class="wb-inv">' + t.region + '</div>' + p.region  + '&nbsp;&nbsp;|' +  '</li>' +
 		  '<li>' + '<div class="wb-inv">' + t.category + '</div>' + p.category + '</li></ol></dd>' +
 		  '<dd>' + '<div class="wb-inv">' + t.location + '</div>' + '<strong>' + p.location  + ',' + '&nbsp;<div class="wb-inv">' + t.territory + '</div>' + p.territory + '</strong></dd>' +
           '<dd>' + '<div class="wb-inv">' + t.summary + '</div>' + p.summary + '</dd>' +
-		  '</dl>';
+		  '</dl>' + '</div>' + '</div>';
       grid.appendChild(li);
     });
   }

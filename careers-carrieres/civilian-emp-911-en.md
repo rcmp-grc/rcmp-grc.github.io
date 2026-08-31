@@ -177,8 +177,7 @@ custom_css: /assets/css/careers.css
       <p>Successful applicants that are selected will be contacted and offered employment to participate in the 9&#8209;1&#8209;1 Police Dispatcher Training Program. The offer will include information about training dates, salary and benefits.</p>
     </section>
   </details>
-</section>
-<section id="s6-7">
+<section id="s6-5">
   <h3>Training</h3>
   <p>After accepting the job offer, you will participate in an extensive core training program that is designed to provide you with the knowledge and skills to become a 9&#8209;1&#8209;1 Police Dispatcher. The location and duration of the training depends on the hiring location.</p>
   <p>The core training program has two classroom components:</p>
@@ -189,7 +188,7 @@ custom_css: /assets/css/careers.css
   <p>You'll receive a trainee's hourly wage of $33.58.</p>
   <p>After completing the classroom training, you'll enter the field coaching program (up to 600&#160;hours). You'll work in the operational communications centre under the direct supervision of a certified field coach.</p>
 </section>
-<section id="s6-8">
+<section id="s6-6">
   <h3>Welcome to the job</h3>
   <p>Once you complete the field coaching program, you will be eligible to promote to a 9&#8209;1&#8209;1 Police Dispatcher position (TCO-02) and begin to work on your own. Your hourly wage will increase to $36.94.</p>
 </section>

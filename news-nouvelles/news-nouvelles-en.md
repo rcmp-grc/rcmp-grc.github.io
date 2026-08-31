@@ -24,12 +24,10 @@ custom_css: /assets/css/careers.css
   box-sizing: border-box;
   display: block;
 }
-
 .news-card-body {
   padding: 16px 16px 20px;
   border-top: 3px solid var(--rcmp-red);
 }
-
 .news-card-format-tag {
   position: absolute;
   top: 0;
@@ -75,6 +73,13 @@ custom_css: /assets/css/careers.css
     .re-input-text:focus {
     outline: 2px solid var(--rcmp-red);
     outline-offset: 0;	
+}
+	.re-input-text {
+    outline: 2px #000000;
+    outline-offset: 0;	
+}
+	   .re-input-text-label: {
+    margin-bottom: 0;	   
 }
     .checkbox input[type="checkbox"]:focus {
     outline: 2px solid var(--rcmp-red);

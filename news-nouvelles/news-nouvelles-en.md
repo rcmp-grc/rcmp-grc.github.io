@@ -106,10 +106,9 @@ custom_css: /assets/css/careers.css
   background: var(--rcmp-red);
   color: #FFFFFF;
   z-index: 3;
-}
-
-  
+}  
 </style>
+
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">
   <div class="col-md-4">
@@ -341,6 +340,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
 	  territory:      'Territory\u00A0: ',	
       region:         'Region\u00A0: ',
       summary:        'Summary\u00A0: ',
+	  tag:            'Tag: ',
       ofPages:        ' of ',
       showing:        'Showing\u00A0: ',
       orSep:          'or'
@@ -358,6 +358,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       region:         'Region\u00A0: ',
 	  updated:        'Mise à jour\u00A0: ',
       summary:        'Sommaire\u00A0: ',
+	  tag:            'Tag: ',	
       ofPages:        ' sur ',
       showing:        'Affichage\u00A0:',
       orSep:          'ou'
@@ -487,7 +488,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       var li = document.createElement('div');
       li.setAttribute('role', 'listitem');
       li.innerHTML =
-		  '<dl class="dlist">'
+		  '<dl class="dlist">' + '<span class="topic-format-tag">' + '</span>' +
           '<dt>' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' + '&nbsp;' + p.badge + '</dt>' +
 		  '<dd>' + '<div class="wb-inv">' + t.updated + '</div>' + '<ol class="list-inline"><li>' + p.updated + '&nbsp;&nbsp;' + '|' + '</li>' +  
 		  '<li>' + '<div class="wb-inv">' + t.region + '</div>' + p.region  + '&nbsp;&nbsp;|' +  '</li>' +

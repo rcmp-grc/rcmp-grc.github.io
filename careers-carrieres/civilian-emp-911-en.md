@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: 9-1-1 Police Dispatcher
-date_modified: 2026-08-28
+date_modified: 2026-08-31
 lang: en
 lang_url: civilian-emp-911-fr.html
 breadcrumbs:
@@ -13,7 +13,8 @@ custom_css: /assets/css/careers.css
 ---
 
 <section class="alert alert-info">
-  <p>Ready to apply? <a href="#s6">Learn more about the application process</a>.</p>
+  <h2>Ready to apply?</h2>
+  <p><a href="#s6">Learn more about the application process</a>.</p>
 </section>
 
 <nav aria-labelledby="on-this-page">

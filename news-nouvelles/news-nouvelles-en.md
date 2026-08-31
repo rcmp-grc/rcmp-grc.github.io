@@ -38,7 +38,6 @@ custom_css: /assets/css/careers.css
   font-weight: 700;
   padding: 3px 10px;
   line-height: 1.4;
-  text-transform: uppercase;
   letter-spacing: 0.03em;
   background: var(--rcmp-red);
   color: #ffffff;

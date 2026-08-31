@@ -29,20 +29,20 @@ custom_css: /assets/css/careers.css
   border-top: 3px solid var(--rcmp-red);
 }
 .news-card-format-tag {
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 3px 10px;
-  line-height: 1.4;
-  letter-spacing: 0.03em;
-  background: var(--rcmp-red);
-  color: #ffffff;
-  z-index: 3;
-  height: 24px;
-  display: flex;
-  align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+    background: var(--rcmp-red);
+    color: #ffffff;
+    z-index: 3;
+    height: 24px;
+    display: flex;
+    align-items: center;
 }
 	#news-filters {
 	border: 1px solid var(--c-grey-border);	
@@ -145,8 +145,7 @@ custom_css: /assets/css/careers.css
     </button> 
    </span></div>
 </form>
-		<div id="re-filters">
-		<h2 class="h6 news-filters-heading">Filter</h2>
+		<h2 class="h6 news-filters-heading" id="re-filters">Filter</h2>
 		<p class="small mrgn-lft-md mrgn-tp-md">Select any of the following filters to narrow your search</p>	
 	    <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></summary>
@@ -255,7 +254,6 @@ custom_css: /assets/css/careers.css
 			 <label class="re-select-label mrgn-tp-md" for="dt_maxdate">After</label><input data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
 			</fieldset>
 		</details>
-		</div>
 	</aside>
 	</div>
   <div class="col-md-9" id="wp-results-col">

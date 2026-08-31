@@ -64,6 +64,6 @@ custom_css: /assets/css/careers.css
   <p>If you want to make a real difference in the lives of others, and help keep Canadians safe – this is the career for you!</p>
 </section>
 <section id="s4">
-  <h2>how to apply</h2>
+  <h2>How to apply</h2>
   <p>For more information about RCMP Psychologist jobs, please see the <a href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true">Canada.ca jobs website</a>.</p>
 </section>

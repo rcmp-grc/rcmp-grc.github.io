@@ -23,6 +23,20 @@ custom_css: /assets/css/careers.css
 	border-left: 2px solid var(--c-grey-light);
 	border-bottom: 2px solid var(--c-grey-light);
 }
+	.topic-tag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding: 8px 20px;
+    background: var(--rcmp-red);
+    color: #FFFFFF;
+    z-index: 3;
+}
 	#news-filters {
 	border: 1px solid var(--c-grey-border);	
 	padding: 0;
@@ -93,22 +107,7 @@ custom_css: /assets/css/careers.css
    padding-bottom: 12px;
    border-radius: 0;
 }		 
- .topic-format-tag {
-  position: absolute;
-  top: 0;
-  right: 0;
-  display: flex;
-  align-items: center;
-  font-size: 1.1rem;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  padding: 8px 20px;
-  background: var(--rcmp-red);
-  color: #FFFFFF;
-  z-index: 3;
-}  
 </style>
-
 <p>Read the RCMP news and communications.</p>
 <div class="row mrgn-bttm-lg">
   <div class="col-md-4">
@@ -488,7 +487,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       var li = document.createElement('div');
       li.setAttribute('role', 'listitem');
       li.innerHTML =
-		  '<dl class="dlist">' +
+		  '<dl class="dlist">' + p.tag
           '<dt>' + '<a href="' + t.profileHref + '" aria-label="' + t.viewProfile + p.name + '">' + '<div class="wb-inv">' + p.name + '</div>' + '<strong>' + p.name  + '</strong>' + '</a>' + '&nbsp;' + p.badge + '</dt>' +
 		  '<dd>' + '<div class="wb-inv">' + t.updated + '</div>' + '<ol class="list-inline"><li>' + p.updated + '&nbsp;&nbsp;' + '|' + '</li>' +  
 		  '<li>' + '<div class="wb-inv">' + t.region + '</div>' + p.region  + '&nbsp;&nbsp;|' +  '</li>' +

@@ -467,7 +467,6 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 	 </figure>
   </div>
 </div>
-</div>
 <div class="clearfix"></div>
 <section id="gc-contact" class="contact-us">
 	<h2 class="h3">Contact us</h2>

@@ -145,7 +145,7 @@ custom_css: /assets/css/careers.css
     </button> 
    </span></div>
 </form>
-		<div id="re-filters" class="mrgn-bttm-0">
+		<div>
 		<h2 class="h6 news-filters-heading">Filter</h2>
 		<p class="small mrgn-lft-md mrgn-tp-md">Select any of the following filters to narrow your search</p>	
 	    <details class="wp-filter-group">
@@ -245,8 +245,8 @@ custom_css: /assets/css/careers.css
 			</select>
 		 </fieldset>
       </details>	
-		<details>
-        <summary><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Publish date</span>
+		<details class="wp-filter-group">
+        <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Publish date</span>
         </summary>
 			<fieldset>
 			 <legend class="wb-inv">Publish date</legend>

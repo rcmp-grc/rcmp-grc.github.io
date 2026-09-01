@@ -49,6 +49,7 @@ custom_css: /assets/css/careers.css
   padding-bottom: 10px;
   margin: 5px 0;
 }	
+ --underline-gradient: linear-gradient(to right, var(--rcmp-red) 25%, transparent 25%);	
 .news-contact-p {
 font-size: 1.1rem;
 }	

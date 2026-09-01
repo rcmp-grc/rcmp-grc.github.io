@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Répartiteur de la police au service 9-1-1
-date_modified: 2026-08-31
+date_modified: 2026-09-01
 lang: fr
 lang_url: civilian-emp-911-en.html
 breadcrumbs:
@@ -11,6 +11,7 @@ breadcrumbs:
     url: "careers-carrieres/fr.html"
 custom_css: /assets/css/careers.css
 ---
+
 
 <section class="alert alert-info">
   <h2 class="h3">Prêts à présenter une demande?</h2>
@@ -65,6 +66,7 @@ custom_css: /assets/css/careers.css
     <li>d'un salaire concurrentiel qui correspond à votre expérience professionnelle (<a href="https://www.canada.ca/fr/secretariat-conseil-tresor/sujets/remuneration/conventions-collectives/po.html#toc43291243292">PO-TCO-02</a>)</li>
     <li>de possibilités de carrière illimitées - en tant que répartiteur au 9&#8209;1&#8209;1 de la GRC, vous serez un.e employé.e de la fonction publique fédérale et, à ce titre, vous pouvez postuler à d'autres emplois de la GRC et du gouvernement du Canada et obtenir une mutation.</li>
   </ul>
+  <p>Pour en savoir plus sur notre programme des répartiteurs de la police d’expérience, cliquez <a href="#s4">ici</a>.</p>
 </section>
 <section id="s3">
   <h2>Un milieu de travail unique</h2>
@@ -123,7 +125,7 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s5">
   <h2>Trouver des possibilités d'emploi et postuler</h2>
-  <p>Si vous possédez toutes les qualifications et remplissez toutes les exigences du poste, vous pouvez passer au processus de mise en candidature et de sélection.</p>
+  <p>Si vous possédez toutes les qualifications et remplissez toutes les exigences du poste, vous pouvez passer au <a href="#s6">processus de mise en candidature et de sélection</a>.</p>
   <p>Les qualifications particulières pour chaque poste sont énoncées dans les possibilités d'emploi sur le site <a href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440;jsessionid=ruAiddzFLRWEPcDsBesqTDhrewdkwNSx7tOW7ug92etCkByhS5_U!-1045460605?tab=2&tabKeepCriteria=2&toggleLanguage=fr">Emplois GC</a>.</p>
   <p>Pour plus d'information, assistez à un <a href="/fr/carrieres-grc/evenements-recrutement?t=Opérateur+en+télécommunications+%28répartiteur+9-1-1%29">exposé sur les carrières</a>.</p>
   <p>Les répartiteurs d’expérience sont encouragés à <a href="#s7">communiquer avec un recruteur</a> afin d'obtenir de l'information sur le processus de candidature. </p>
@@ -131,7 +133,12 @@ custom_css: /assets/css/careers.css
 <section id="s6">
   <h2>Processus de mise en candidature</h2>
   <p>Vous trouverez ci-dessous le processus de mise en candidature de répartiteur au 9&#8209;1&#8209;1. Si vous avez des questions sur les modalités de candidature, veuillez communiquer avec un recruteur ou assister à un exposé sur les carrières.</p>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+<div class="btn-group mrgn-bttm-sm mrgn-tp-md">
+  <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;on&quot;}">Développer tout</button>
+  <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;off&quot;}">Réduire tout</button>
+</div>
+  <div id="expand-collapse">
+  <details class="print-open mrgn-tp-md pddng-bttm-0">
     <summary>Étape 1&#160;: Candidature en ligne</summary>
     <section id="s6-1">
       <p>Présentez une demande en ligne sur le <a href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440;jsessionid=2DEE34658F95FB2DDB1581214F28BB9B?fromMenu=true&toggleLanguage=fr">site Web Emplois GC du gouvernement du Canada</a>. Recherchez les possibilités intitulées «&#160;répartiteur stagiaire au 9&#8209;1&#8209;1&#160;».</p>
@@ -140,14 +147,14 @@ custom_css: /assets/css/careers.css
       <p>Les postulants qui possèdent les qualités essentielles pour le poste devront assister à un exposé sur les carrières avant de passer à l’étape&#160;2 du processus de candidature. </p>
     </section>
   </details>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+  <details class="print-open mrgn-tp-md pddng-bttm-0">
     <summary>Étape 2&#160;: Évaluation préalable à l’emploi CritiCall</summary>
     <section id="s6-2">
       <p>Nous communiquerons avec les postulants retenus pour fixer la date à laquelle ils passeront un test informatisé auto-administré et autoévalué nommé CritiCall. Ce test vise à évaluer les aptitudes à exécuter plusieurs tâches à la fois et à prendre des décisions. </p>
       <p>Les postulants retenus qui réussissent l’évaluation préalable à l’emploi CritiCall passeront à la prochaine étape du processus de candidature. Si vous ne réussissez pas cette étape ou l'une des étapes suivantes, votre dossier de candidature sera fermé, et nous vous dirons à quel moment vous pourrez poser votre candidature de nouveau. </p>
     </section>
   </details>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+  <details class="print-open mrgn-tp-md pddng-bttm-0">
     <summary>Étape 3&#160;: Entrevue dirigée</summary>
     <section id="s6-3">
       <p>Au cours de l'entrevue, nous poserons des questions pour déterminer comment vous vous êtes comporté dans certaines situations antérieures. Les questions nous aident également à évaluer les décisions que vous prendriez dans des scénarios hypothétiques. L'entrevue dure environ une heure. </p>
@@ -155,7 +162,7 @@ custom_css: /assets/css/careers.css
       <p>Les postulants retenus qui ont réussi l’entrevue passeront à la prochaine étape du processus de candidature. </p>
     </section>
   </details>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+  <details class="print-open mrgn-tp-md pddng-bttm-0">
     <summary>Étape 4&#160;: Se soumettre à une évaluation de la sécurité et à une évaluation médicale </summary>
     <section id="s6-4">
       <p>Vous remplirez une demande en ligne, et nous procéderons à une vérification des références et à une enquête sur le terrain pour déterminer si vous êtes admissible à l’habilitation de sécurité requise. Lors de ces vérifications, nous examinerons vos finances personnelles, votre scolarité, vos emplois précédents ainsi que vos références d’emploi et morales. Les demandeurs doivent n’avoir commis aucune activité illégale au cours des trois dernières années. </p>
@@ -165,6 +172,7 @@ custom_css: /assets/css/careers.css
       <p>Nous communiquerons avec les personnes retenues pour leur offrir un poste et les inviter à suivre le programme de formation des répartiteurs au 9&#8209;1&#8209;1. La lettre d’offre contiendra des renseignements sur les dates de formation, le salaire et les avantages sociaux. </p>
     </section>
   </details>
+  </div>
   <section id="s6-5">
     <h3>Formation</h3>
     <p>Après avoir accepté l'offre d'emploi, vous devrez participer à un programme de formation de base exhaustif qui vise à vous enseigner les connaissances et les compétences pour devenir répartiteur au 9&#8209;1&#8209;1. Le lieu et la durée de la formation dépendent de la station de transmissions qui embauche. </p>
@@ -181,50 +189,37 @@ custom_css: /assets/css/careers.css
     <p>Après avoir réussi le programme de formation pratique, vous serez admissible à une promotion au poste de répartiteur au 9&#8209;1&#8209;1 (TCO-02) et serez autorisé à travailler en autonomie. Votre salaire horaire passera à 36,94&#160;$.</p>
   </section>
 </section>
-
 <section id="s7">
   <h2>Contactez-nous</h2>
-  <p>La GRC organise des <a href="/fr/carrieres-grc/evenements-recrutement?t=Opérateur+en+télécommunications+%28répartiteur+9-1-1%29">activités de recrutement</a>, comme des exposés sur les carrières, à l’intention des personnes qui sont intéressées à devenir répartiteurs au 9&#8209;1&#8209;1. Des activités ont lieu dans différentes villes tout au long de l'année.</p>
+  <p>La GRC organise des <a href="/fr/carrieres-grc/evenements-recrutement?j=3">activités de recrutement</a>, comme des exposés sur les carrières, à l’intention des personnes qui sont intéressées à devenir répartiteurs au 9&#8209;1&#8209;1. Des activités ont lieu dans différentes villes tout au long de l'année.</p>
   <dl class="dl-horizontal">
     <dt>Alberta</dt>
-    <dd>Courriel&#160;: <a href="mailto:rcmp.rcmp.koccrecruiting-kstorecrutement.grc@rcmp-grc.gc.ca">rcmp.rcmp.koccrecruiting-kstorecrutement.grc@rcmp-grc.gc.ca</a></dd>
-
+    <dd><a href="mailto:rcmp.rcmp.koccrecruiting-kstorecrutement.grc@rcmp-grc.gc.ca">rcmp.rcmp.koccrecruiting-kstorecrutement.grc@rcmp-grc.gc.ca</a></dd>
     <dt>Colombie-Britannique</dt>
-    <dd>Courriel&#160;: <a href="mailto:e_911recruiting@rcmp-grc.gc.ca">e_911recruiting@rcmp-grc.gc.ca</a>
-      <br>Site Web&#160;: <a href="/fr/cb/carrieres/repartiteurs-police-au-service-9-1-1">Les répartiteurs de la police au service 9-1-1</a></dd>
-      
+    <dd><a href="mailto:e_911recruiting@rcmp-grc.gc.ca">e_911recruiting@rcmp-grc.gc.ca</a>
+      <br>Site Web&#160;: <a href="/fr/cb/carrieres/repartiteurs-police-au-service-9-1-1">Les répartiteurs de la police au service 9-1-1</a></dd>   
     <dt>Île-du-Prince-Édouard</dt>
-    <dd>Courriel&#160;: <a href="mailto:lpshr-rhfpl@rcmp-grc.gc.ca">lpshr-rhfpl@rcmp-grc.gc.ca</a></dd>
-
+    <dd><a href="mailto:lpshr-rhfpl@rcmp-grc.gc.ca">lpshr-rhfpl@rcmp-grc.gc.ca</a></dd>
     <dt>Manitoba</dt>
-    <dd>Courriel&#160;: <a href="mailto:rcmp.doccrecruiting.grc@rcmp-grc.gc.ca">rcmp.doccrecruiting.grc@rcmp-grc.gc.ca</a></dd>
-
+    <dd><a href="mailto:rcmp.doccrecruiting.grc@rcmp-grc.gc.ca">rcmp.doccrecruiting.grc@rcmp-grc.gc.ca</a></dd>
     <dt>Nouveau-Brunswick</dt>
-    <dd>Courriel&#160;: <a href="mailto:nbrcmpocc.stogrcnb@rcmp-grc.gc.ca">nbrcmpocc.stogrcnb@rcmp-grc.gc.ca</a></dd>
-
+    <dd><a href="mailto:nbrcmpocc.stogrcnb@rcmp-grc.gc.ca">nbrcmpocc.stogrcnb@rcmp-grc.gc.ca</a></dd>
     <dt>Nouvelle-Écosse</dt>
-    <dd>Courriel&#160;: <a href="mailto:hdiv-occstaffing@rcmp-grc.gc.ca">hdiv-occstaffing@rcmp-grc.gc.ca</a></dd>
-
+    <dd><a href="mailto:hdiv-occstaffing@rcmp-grc.gc.ca">hdiv-occstaffing@rcmp-grc.gc.ca</a></dd>
     <dt>Nunavut</dt>
-    <dd>Courriel&#160;: <a href="mailto:vdiv.occ.recruiting-divv.sto.recrutement@rcmp-grc.gc.ca">vdiv.occ.recruiting-divv.sto.recrutement@rcmp-grc.gc.ca</a></dd>
-
+    <dd><a href="mailto:vdiv.occ.recruiting-divv.sto.recrutement@rcmp-grc.gc.ca">vdiv.occ.recruiting-divv.sto.recrutement@rcmp-grc.gc.ca</a></dd>
     <dt>Ontario</dt>
-    <dd>Courriel&#160;: <a href="mailto:rcmp.odivo_pscm_staffing-dotation_fpmc.grc@rcmp-grc.gc.ca">rcmp.odivo_pscm_staffing-dotation_fpmc.grc@rcmp-grc.gc.ca</a></dd>
-
+    <dd><a href="mailto:rcmp.odivo_pscm_staffing-dotation_fpmc.grc@rcmp-grc.gc.ca">rcmp.odivo_pscm_staffing-dotation_fpmc.grc@rcmp-grc.gc.ca</a></dd>
     <dt>Québec</dt>
-    <dd>Courriel&#160;: <a href="mailto:cdiv_rhfp-hrps@rcmp-grc.gc.ca">cdiv_rhfp-hrps@rcmp-grc.gc.ca</a></dd>
-
+    <dd><a href="mailto:cdiv_rhfp-hrps@rcmp-grc.gc.ca">cdiv_rhfp-hrps@rcmp-grc.gc.ca</a></dd>
     <dt>Saskatchewan</dt>
-    <dd>Courriel&#160;: <a href="mailto:rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca">rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca</a><br>
+    <dd><a href="mailto:rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca">rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca</a><br>
       Téléphone&#160;: 639-625-3770</dd>
-
     <dt>Terre-Neuve-et-Labrador</dt>
-    <dd>Courriel&#160;: <a href="mailto:psapplicants@rcmp-grc.gc.ca">psapplicants@rcmp-grc.gc.ca</a></dd>
-
+    <dd><a href="mailto:psapplicants@rcmp-grc.gc.ca">psapplicants@rcmp-grc.gc.ca</a></dd>
     <dt>Territoires du Nord-Ouest</dt>
-    <dd>Courriel&#160;: <a href="mailto:goccrecruiting-gstorecrutement@rcmp-grc.gc.ca">goccrecruiting-gstorecrutement@rcmp-grc.gc.ca</a></dd>
-
+    <dd><a href="mailto:goccrecruiting-gstorecrutement@rcmp-grc.gc.ca">goccrecruiting-gstorecrutement@rcmp-grc.gc.ca</a></dd>
     <dt>Yukon</dt>
-    <dd>Courriel&#160;: <a href="mailto:mdiv_occ_recruiting@rcmp-grc.gc.ca">mdiv_occ_recruiting@rcmp-grc.gc.ca</a></dd>  
+    <dd><a href="mailto:mdiv_occ_recruiting@rcmp-grc.gc.ca">mdiv_occ_recruiting@rcmp-grc.gc.ca</a></dd>  
   </dl>
 </section>

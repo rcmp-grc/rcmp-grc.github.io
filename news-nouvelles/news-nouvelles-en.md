@@ -255,7 +255,7 @@ custom_css: /assets/css/careers.css
 			 <label class="re-select-label mrgn-tp-md" for="dt_maxdate">After</label><input data-column="0" id="dt_maxdate" name="dt_maxdate" type="text">
 			</fieldset>
 		</details>
-		</h2></div>
+	</div>
 	</aside>
 	</div>
   <div class="col-md-9" id="wp-results-col">

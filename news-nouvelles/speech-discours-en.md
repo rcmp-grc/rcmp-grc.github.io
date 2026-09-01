@@ -44,6 +44,7 @@ custom_css: /assets/css/careers.css
 	font-size: 0.95rem;	
 	margin-top: 5px;
 	margin-left: 5px;
+	margin-right: 5px;
 	color: #363636;
 }	
 .news-alert ul {
@@ -51,6 +52,7 @@ custom_css: /assets/css/careers.css
 	font-size: 0.95rem;	
 	margin-top: 5px;
 	margin-left: 5px;
+	margin-right: 5px;
 	color: #363636;
 }
 .news-alert h2 {

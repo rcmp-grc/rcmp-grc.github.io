@@ -12,7 +12,6 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-
 <section class="alert alert-info">
   <h2 class="h3">Prêts à présenter une demande?</h2>
   <p><a href="#s6">Trouvez des possibilités d'emploi et apprenez-en davantage sur le processus de mise en candidature</a>.</p>
@@ -66,7 +65,6 @@ custom_css: /assets/css/careers.css
     <li>d'un salaire concurrentiel qui correspond à votre expérience professionnelle (<a href="https://www.canada.ca/fr/secretariat-conseil-tresor/sujets/remuneration/conventions-collectives/po.html#toc43291243292">PO-TCO-02</a>)</li>
     <li>de possibilités de carrière illimitées - en tant que répartiteur au 9&#8209;1&#8209;1 de la GRC, vous serez un.e employé.e de la fonction publique fédérale et, à ce titre, vous pouvez postuler à d'autres emplois de la GRC et du gouvernement du Canada et obtenir une mutation.</li>
   </ul>
-  <p>Pour en savoir plus sur notre programme des répartiteurs de la police d’expérience, cliquez <a href="#s4">ici</a>.</p>
 </section>
 <section id="s3">
   <h2>Un milieu de travail unique</h2>
@@ -125,9 +123,9 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s5">
   <h2>Trouver des possibilités d'emploi et postuler</h2>
-  <p>Si vous possédez toutes les qualifications et remplissez toutes les exigences du poste, vous pouvez passer au <a href="#s6">processus de mise en candidature et de sélection</a>.</p>
+  <p>Si vous possédez toutes les qualifications et remplissez toutes les exigences du poste, vous pouvez passer au processus de mise en candidature et de sélection.</p>
   <p>Les qualifications particulières pour chaque poste sont énoncées dans les possibilités d'emploi sur le site <a href="https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440;jsessionid=ruAiddzFLRWEPcDsBesqTDhrewdkwNSx7tOW7ug92etCkByhS5_U!-1045460605?tab=2&tabKeepCriteria=2&toggleLanguage=fr">Emplois GC</a>.</p>
-  <p>Pour plus d'information, assistez à un <a href="/fr/carrieres-grc/evenements-recrutement?t=Opérateur+en+télécommunications+%28répartiteur+9-1-1%29">exposé sur les carrières</a>.</p>
+  <p>Pour plus d'information, assistez à un <a href="/fr/carrieres-grc/evenements-recrutement?j=3">exposé sur les carrières</a>.</p>
   <p>Les répartiteurs d’expérience sont encouragés à <a href="#s7">communiquer avec un recruteur</a> afin d'obtenir de l'information sur le processus de candidature. </p>
 </section>
 <section id="s6">

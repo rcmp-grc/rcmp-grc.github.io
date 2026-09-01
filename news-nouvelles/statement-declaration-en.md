@@ -14,7 +14,8 @@ custom_css: /assets/css/careers.css
 ---
 
 <style>
---underline-gradient: linear-gradient(to right, var(--rcmp-red) 25%, transparent 25%);		
+:root {	
+ --underline-gradient: linear-gradient(to right, var(--rcmp-red) 25%, transparent 25%);		
 }
 .news-contact-h4 {
   border-bottom: 0.3rem solid var(--rcmp-red);

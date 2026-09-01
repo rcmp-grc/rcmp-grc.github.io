@@ -17,7 +17,7 @@ custom_css: /assets/css/careers.css
   position: relative;
   border: 1px solid var(--c-grey-border);
   background: var(--c-white);
-  margin: 0 0 16px;
+  margin: 0 0 16px 0;
   overflow: hidden;
   width: 100%;
   max-width: none;

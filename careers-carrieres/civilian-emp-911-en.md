@@ -98,7 +98,7 @@ custom_css: /assets/css/careers.css
     <li>have a minimum of two years experience as a telecommunications operator, within the last five years</li>
     <li>meet all of the above qualifications and requirements of a regular applicant</li>
   </ul>
-  <p>9&#8209;1&#8209;1 Police Dispatchers are designated a safety-sensitive position and employees must comply to the <a href="/en/cannabis/rcmp-substance-use-policy">RCMP's Substance Use Policy</a>, which includes the use of cannabis.</p>
+  <p>9&#8209;1&#8209;1 Police Dispatchers are designated a <b>safety-sensitive position</b> and employees must comply to the <a href="/en/cannabis/rcmp-substance-use-policy">RCMP's Substance Use Policy</a>, which includes the use of cannabis.</p>
   <p>If offered employment with the RCMP, you must be fit for duty when reporting to work, which includes not being impaired by alcohol, drugs or other substances. The policy reflects the duty of care the RCMP has for its members and the communities it serves.</p>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
     <summary>

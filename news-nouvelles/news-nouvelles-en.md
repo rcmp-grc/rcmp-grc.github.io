@@ -121,19 +121,19 @@ custom_css: /assets/css/careers.css
   <div class="col-md-4">
     <section class="gc-drmt">
       <h2 class="h5" data-emptytext="Executive"><a href="/en/news/comm-en.html">Read the news from our executive</a></h2>
-      <p>Read news shared by the leaders of the <abbr>RCMP</abbr> across Canada</p>
+      <p>News shared by the leaders of the <abbr>RCMP</abbr> across Canada</p>
     </section>
   </div>
 	<div class="col-md-4">
     <section class="gc-drmt">
       <h2 class="h5" data-emptytext="Feeds"><a href="#">Access news feeds</a></h2>
-      <p>Access RCMP news feed News by division, Federal Policing regions and national news and by topic</p>
+      <p>RCMP news feed News by division, Federal Policing regions and national news and by topic</p>
     </section>
   </div>
 	<div class="col-md-4">
     <section class="gc-drmt">
-      <h2 class="h5" data-emptytext="Media"><a href="#">Contact the media relations office</a></h2>
-      <p>Find contact information for the media relations office in the divisions, Federal Policing regions and national headquarters</p>
+      <h2 class="h5" data-emptytext="Media"><a href="#">Contact media relations</a></h2>
+      <p>Contact information for the media relations office in the divisions, Federal Policing regions and national headquarters</p>
     </section>
   </div>
 	

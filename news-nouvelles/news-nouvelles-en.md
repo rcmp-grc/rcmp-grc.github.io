@@ -245,8 +245,8 @@ custom_css: /assets/css/careers.css
 			</select>
 		 </fieldset>
       </details>	
-		<details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Publish date</span>
+		<details>
+        <summary><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Publish date</span>
         </summary>
 			<fieldset>
 			 <legend class="wb-inv">Publish date</legend>

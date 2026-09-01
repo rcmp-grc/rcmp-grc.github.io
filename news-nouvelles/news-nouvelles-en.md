@@ -59,8 +59,10 @@ custom_css: /assets/css/careers.css
 }
 	#re-filters {
 	border: 0;	
+	margin-bottom: 0px;	
 	padding: 0;
 	width: 100%;
+    overflow: hidden;
 }
     #re-filters details {
     border-top: 1px solid var(--c-grey-border);

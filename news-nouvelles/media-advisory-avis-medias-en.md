@@ -162,8 +162,7 @@ a.news-topic-1:hover, a.primary-topic:active {
 	</ol>
 </div>
 </div>
-<div class="row">
-<div class="col-md-8"> 
+
 <section id="page-navigation" class="article-content mrgn-bttm-lg">
 	<h2 class="h3 mrgn-tp-0">On this page</h2>
 	<ul>
@@ -175,28 +174,29 @@ a.news-topic-1:hover, a.primary-topic:active {
 		<li><a href="#topics">Explore related topics</a></li>
 	</ul>
 </section>	
-<p>The Royal Canadian Mounted Police will host a community winter safety event featuring Bob the Polar Bear, the RCMP’s unofficial northern mascot.</p>
- <p>Members of the media are invited to attend.</p>	
- <p>The event will focus on winter preparedness, youth engagement, emergency awareness, and community safety. Activities will include safety demonstrations, educational booths, family activities, and opportunities for interviews and photos.</p>
-<p>Bob the Polar Bear is also expected to make a special appearance, weather and fish supply permitting.</p>
-<section id="s1">
-<div class="col-md-4">
+<div class="col-md-4 pull-right">
 	<section class="panel panel-default brdr-rds-0" id="event">
   <header class="panel-heading">
    <h2 class="panel-title"><span class="h5">Event details</span></h2>
   </header>
   <div class="panel-body">
   <dl>	
-<dt>Date</dt> <dd>Saturday, May 23, 2026</dd>
-<dt>Time</dt> <dd>1-4 pm (local time)</dd>
-<dt>Location</dt>
-<dd><address>Northern Community Recreation Centre<br>
-100 Aurora Road<br>
-Iqaluit, Nunavut</address></dd>
+	  <dt>Date</dt> <dd>Saturday, May 23, 2026</dd>
+      <dt>Time</dt> <dd>1-4 pm (local time)</dd>
+      <dt>Location</dt>
+      <dd><address>Northern Community Recreation Centre<br>
+      100 Aurora Road<br>
+      Iqaluit, Nunavut</address></dd>
 </dl>
   </div>
 </section>
 </div>	
+<p>The Royal Canadian Mounted Police will host a community winter safety event featuring Bob the Polar Bear, the RCMP’s unofficial northern mascot.</p>
+ <p>Members of the media are invited to attend.</p>	
+ <p>The event will focus on winter preparedness, youth engagement, emergency awareness, and community safety. Activities will include safety demonstrations, educational booths, family activities, and opportunities for interviews and photos.</p>
+<p>Bob the Polar Bear is also expected to make a special appearance, weather and fish supply permitting.</p>
+<section id="s1">
+
 <h2 class="h3">Planned activities</h2>	
 	<p>Activities are expected to include:</p>
 	<ul>
@@ -234,9 +234,6 @@ Iqaluit, Nunavut</address></dd>
     <li><a href="#">Arctic and northern affairs</a></li>
 </ul>
 </section>
-</div>
-</div>
-<div class="clearfix"></div>
 <section id="gc-contact" class="contact-us">
 	<h2 class="h3">Contact us</h2>
 	<div class="contact-signature">	

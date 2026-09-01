@@ -118,18 +118,7 @@ a.news-topic-2:hover, a.primary-topic:active {
 }
 </style>
 <article>	
-<div class="row">
-<div class="news-alert pull-right col-md-4">
-	  <h2><span class="label label-danger">Located</span></h2>
-	  <ul>
-	  <li><strong>May 10, 2026, 14:58</strong> &mdash; Bob was found safe.</li>
-	  </ul>
-  </div>
-  <div class="mrgn-lft-md">
    <p class="lead">Bob the Polar Bear is the Royal Canadian Mounted Police’s newest unofficial northern mascot.</p>
- </div>
-</div>
-	<div class="clearfix"></div>
 <div class="explore">
 <div class="byline">	
 <ol class="list-inline">

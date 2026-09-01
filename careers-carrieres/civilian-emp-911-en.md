@@ -14,7 +14,7 @@ custom_css: /assets/css/careers.css
 
 <section class="alert alert-info">
   <h2 class="h3">Ready to apply?</h2>
-  <p><a href="#s6">Learn more about the application process</a>.</p>
+  <p><a href="#s6" class="alert-link">Learn more about the application process</a>.</p>
 </section>
 <nav aria-labelledby="on-this-page">
   <h2 id="on-this-page">On this page</h2>

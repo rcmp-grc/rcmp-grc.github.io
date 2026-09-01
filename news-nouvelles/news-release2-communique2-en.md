@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Richmond RCMP targets high risk driving as motorcycle safety month returns 
+title: Burnaby is missing 
 date_modified: 2026-05-14
 lang: en
 lang_url: news-release-communique-presse-fr.html
@@ -376,7 +376,7 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 	</ol>
 </div>
 </div>
- <div class="mrgn-lft-md">	
+
 	 <p>Burnaby was not a subtle bear. Weighing nearly 1100 lb with a patch of yellowish fur over his left flank that looked suspiciously like
 	 a spilled cup of tea. He was a fixture in the community. The locals called him a creature of habit; the tourists called him photogenic.</p>
 	 <p>His disappearance was quiet. RCMP officers are now looking for him. They noticed his radio collar stopped working just three miles just north
@@ -384,6 +384,7 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 	 <p>There was no signs of struggle and no broken ice. Instead, there was a straight and deliberate line of heavy prints leading directly towards
 	 the open water of the Arctic Ocean&emdash;and beside them, a single, dscarded radio collar, cleanly unbuckled.</p>
 	 <p>Please contact local RCMP if you locate Burnaby.</p>
+	 
 <section id="gc-contact" class="contact-us">
 	<h2 class="h3">Contact us</h2>
 	<div class="contact-signature">	
@@ -411,9 +412,9 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 	</section>	
 	</div>		
 	<div class="col-sm-4">	
-   <h3 class="news-contact-h4">Richmond RCMP</h3>
+   <h3 class="news-contact-h4">Northwest Territories RCMP</h3>
    <p class="news-contact-p"><a href="mailto:name@rcmp-grc.gc.ca">name@rcmp-grc.gc.ca</a><br>
-   604-555-5555</p>	
+   867-555-5555</p>	
 		<section class="gc-followus">
 <h4 class="mrgn-tp-lg wb-inv">Follow us</h4>
 <ul class="list-inline">     
@@ -430,12 +431,11 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
           <span class="wb-inv">Instagram: </span>Instagram: Royal Canadian Mounted Police</a>
 </li>
 							</ul>
-	</section>
-	</div>		
+	</section>	
+	</div>
 	</div>
 	</div>
    </section>
-</div>
 <div class="explore">		
 <section id="topics">
 <h2 class="h4 mrgn-tp-sm mrgn-bttm-md">Explore related topics</h2>

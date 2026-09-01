@@ -99,7 +99,7 @@ custom_css: /assets/css/careers.css
   <p>Les répartiteurs au 9&#8209;1&#8209;1 occupent des <strong>postes critiques pour la sécurité</strong>, et les employés doivent se conformer à la <a href="/fr/cannabis/politique-grc-sur-consommation-substances">Politique sur la consommation de substances en milieu de travail de la GRC</a>, qui s’applique notamment au cannabis.</p>
   <p>Si l’on vous offre un poste à la GRC, vous devrez attester que vous serez apte à remplir vos fonctions lorsque vous vous présentez au travail, ce qui signifie notamment que vous ne devez pas avoir les facultés affaiblies par l’alcool ou la drogue. En outre, vous devrez vous conformer à la Politique sur la consommation de substances applicable aux postes critiques pour la sécurité tout le temps que vous serez à l’emploi en tant que répartiteur au 9&#8209;1&#8209;1. </p>
   <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
-    <summary>Nos stations de transmission</summary>
+    <summary>Nos stations de transmissions</summary>
     <ul>
       <li>St. John's (Terre-Neuve-et-Labrador)</li>
       <li>Charlottetown (Île-du-Prince-Édouard)</li>

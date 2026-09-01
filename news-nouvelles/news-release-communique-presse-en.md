@@ -460,13 +460,11 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 </section>
 </div>
 	<div class="col-md-4">
-<div class="panel panel-default brdr-rds-0">
-  <div class="panel-body">
-	  <figure><img src="primary-news.jpg" class="img-responsive full-width" alt="" /></figure> 
-  </div>
-	<footer class="panel-footer">
-   <p class="small">Caption for the photo</p>
-	</footer>
+	  <figure>
+	  <img src="primary-news.jpg" class="img-responsive full-width" alt=" " />
+      <figcaption>
+      <p class="small">Caption for the photo</p></figcaption>
+	 </figure>
   </div>
 </div>
 </div>

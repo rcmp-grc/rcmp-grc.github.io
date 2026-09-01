@@ -60,7 +60,6 @@ custom_css: /assets/css/careers.css
 	#re-filters {
 	border: 0;	
 	padding: 0;
-	overflow: hidden;
 	width: 100%;
 }
     #re-filters details {
@@ -145,7 +144,7 @@ custom_css: /assets/css/careers.css
     </button> 
    </span></div>
 </form>
-		<div>
+		<div id="re-filters">
 		<h2 class="h6 news-filters-heading">Filter</h2>
 		<p class="small mrgn-lft-md mrgn-tp-md">Select any of the following filters to narrow your search</p>	
 	    <details class="wp-filter-group">

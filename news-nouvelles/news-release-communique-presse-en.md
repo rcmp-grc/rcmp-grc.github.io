@@ -377,8 +377,23 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 	</ol>
 </div>
 </div>
-<div class="row">
-<div class="col-md-8"> 
+	<div class="row">
+<div class="col-md-4 pull-right">
+	  <figure>
+	  <img src="primary-news.jpg" class="img-responsive full-width" alt=" " />
+      <figcaption>
+      <p class="small">Caption for the photo</p></figcaption>
+	 </figure>
+  </div>
+</div>
+	  <figure>
+	  <img src="primary-news.jpg" class="img-responsive full-width" alt=" " />
+      <figcaption>
+      <p class="small">Caption for the photo</p></figcaption>
+	 </figure>
+  </div>
+</div>	
+ <div class="mrgn-lft-md">	
 <section id="page-navigation" class="article-content mrgn-bttm-lg">
 	<h2 class="h3 mrgn-tp-0">On this page</h2>
 	<ul>
@@ -392,7 +407,10 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 		<li><a href="#gc-contact">Contacts</a></li>
 		<li><a href="#topics">Explore related topics</a></li>
 	</ul>
-</section>		
+</section>	
+ </div>
+</div>
+<div class="clearfix"></div>
 <p>Richmond <abbr>RCMP</abbr> Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety, as part of the province-wide <abbr>BC</abbr> Association of Chiefs of Police enforcement calendar in partnership with <abbr>ICBC</abbr>.</p>
 <p>As warmer weather brings more motorcycles onto Richmond roads, officers will be focused on the behaviours most often linked to serious crashes including failing to yield, ignoring traffic control devices, following too closely, and improper passing. With six out of ten motorcycle crashes in <abbr>BC</abbr> occurring at intersections, drivers will see increased patrols at key Richmond intersections throughout the month.</p>
 <p>While motorcycles make up roughly three percent of insured vehicles in <abbr>BC</abbr>, they are involved in approximately ten percent of road fatalities, <a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/motorcycle-safety">according to the Province of British Columbia</a>. The fatality rate for drivers under 25 is on average 15 times higher than drivers over 25&nbsp;years of age.</p>
@@ -462,16 +480,6 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 	<li><a href="https://www.icbc.com/road-safety/sharing/motorcycle-safety">Motorcycle safety</a></li>
 </ul>
 </section>
-</div>
-	<div class="col-md-4">
-	  <figure>
-	  <img src="primary-news.jpg" class="img-responsive full-width" alt=" " />
-      <figcaption>
-      <p class="small">Caption for the photo</p></figcaption>
-	 </figure>
-  </div>
-</div>
-<div class="clearfix"></div>
 <section id="gc-contact" class="contact-us">
 	<h2 class="h3">Contact us</h2>
 	<div class="contact-signature">	

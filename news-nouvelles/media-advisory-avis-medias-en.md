@@ -23,7 +23,7 @@ custom_css: /assets/css/careers.css
   font-size: 1.25rem;
   padding-bottom: 10px;
   margin: 5px 0;
-}		
+}	
 .explore { 
 	 border-top: 2px solid var(--rcmp-red);
 	 margin-bottom: 10px;

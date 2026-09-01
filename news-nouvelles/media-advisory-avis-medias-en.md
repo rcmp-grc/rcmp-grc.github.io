@@ -180,6 +180,23 @@ a.news-topic-1:hover, a.primary-topic:active {
  <p>The event will focus on winter preparedness, youth engagement, emergency awareness, and community safety. Activities will include safety demonstrations, educational booths, family activities, and opportunities for interviews and photos.</p>
 <p>Bob the Polar Bear is also expected to make a special appearance, weather and fish supply permitting.</p>
 <section id="s1">
+<div class="col-md-4">
+	<section class="panel panel-default brdr-rds-0" id="event">
+  <header class="panel-heading">
+   <h2 class="panel-title"><span class="h5">Event details</span></h2>
+  </header>
+  <div class="panel-body">
+  <dl>	
+<dt>Date</dt> <dd>Saturday, May 23, 2026</dd>
+<dt>Time</dt> <dd>1-4 pm (local time)</dd>
+<dt>Location</dt>
+<dd><address>Northern Community Recreation Centre<br>
+100 Aurora Road<br>
+Iqaluit, Nunavut</address></dd>
+</dl>
+  </div>
+</section>
+</div>	
 <h2 class="h3">Planned activities</h2>	
 	<p>Activities are expected to include:</p>
 	<ul>
@@ -216,23 +233,6 @@ a.news-topic-1:hover, a.primary-topic:active {
 	<li><a href="#">Emergency preparedness</a></li>
     <li><a href="#">Arctic and northern affairs</a></li>
 </ul>
-</section>
-</div>
-<div class="col-md-4">
-	<section class="panel panel-default brdr-rds-0" id="event">
-  <header class="panel-heading">
-   <h2 class="panel-title"><span class="h5">Event details</span></h2>
-  </header>
-  <div class="panel-body">
-  <dl>	
-<dt>Date</dt> <dd>Saturday, May 23, 2026</dd>
-<dt>Time</dt> <dd>1-4 pm (local time)</dd>
-<dt>Location</dt>
-<dd><address>Northern Community Recreation Centre<br>
-100 Aurora Road<br>
-Iqaluit, Nunavut</address></dd>
-</dl>
-  </div>
 </section>
 </div>
 </div>

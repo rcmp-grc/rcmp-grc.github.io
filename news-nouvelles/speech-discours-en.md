@@ -152,7 +152,16 @@ a.news-topic-1:hover, a.primary-topic:active {
 }
 </style>
 <article>
-<p class="lead">It is not every day a polar bear gets invited indoors and offered coffee before the officers.</p>
+<div class="row">
+  <div class="news-alert pull-right col-sm-4">
+	  <h2><span class="label label-info">Check against deliver</span></h2>
+	  <p>Speech given at the Community winter safety and northern outreach event</p>
+  </div>
+  <div class="mrgn-lft-md">
+   <p class="lead">It is not every day a polar bear gets invited indoors and offered coffee before the officers.</p>
+ </div>
+</div>
+<div class="clearfix"></div>
 <div class="explore">
 <div class="byline">	
 <ol class="list-inline">
@@ -173,8 +182,6 @@ a.news-topic-1:hover, a.primary-topic:active {
 		<li><a href="#topics">Explore related topics</a></li>
 	</ul>
 </section>			
-<p><strong>Community winter safety and northern outreach event</strong></p>
-<p><strong>Check against deliver</strong></p>
 <p>Good afternoon everyone,</p>	
  <p>Thank you for the warm welcome. It is not every day a polar bear gets invited indoors and offered coffee before the officers.</p>
 <p>I am proud to be here today on behalf of the Royal Canadian Mounted Police to talk about something important to all of us: community, safety, and looking out for one another, especially during long Canadian winters.</p>

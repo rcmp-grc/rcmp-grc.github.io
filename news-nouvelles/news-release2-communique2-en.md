@@ -376,7 +376,6 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 	</ol>
 </div>
 </div>
-
 	 <p>Burnaby was not a subtle bear. Weighing nearly 1100&nbsp;lb with a patch of yellowish fur over his left flank that looked suspiciously like
 	 a spilled cup of tea. He was a fixture in the community. The locals called him a creature of habit; the tourists called him photogenic.</p>
 	 <p>His disappearance was quiet. RCMP officers are now looking for him. They noticed his radio collar stopped working just three&nbsp;miles north
@@ -384,7 +383,6 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 	 <p>There was no signs of struggle and no broken ice. Instead, there was a straight and deliberate line of heavy prints leading directly towards
 	 the open water of the Arctic Ocean&mdash;and beside them, a single, dscarded radio collar, cleanly unbuckled.</p>
 	 <p>Please contact local RCMP if you locate Burnaby.</p>
-	 
 <section id="gc-contact" class="contact-us">
 	<h2 class="h3">Contact us</h2>
 	<div class="contact-signature">	

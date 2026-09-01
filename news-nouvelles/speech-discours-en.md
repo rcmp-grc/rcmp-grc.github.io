@@ -38,6 +38,12 @@ custom_css: /assets/css/careers.css
 	padding-right: 5px;
 	padding-left: 5px;
 }
+.news-alert p {
+	font-size: 0.95rem;	
+	margin-top: 5px;
+	margin-left: 5px;
+	color: #363636;
+}	
 .news-alert ul {
     list-style-type: square;
 	font-size: 0.95rem;	

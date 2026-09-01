@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: 9-1-1 Police Dispatcher
-date_modified: 2026-08-31
+date_modified: 2026-09-01
 lang: en
 lang_url: civilian-emp-911-fr.html
 breadcrumbs:
@@ -135,7 +135,12 @@ custom_css: /assets/css/careers.css
 <section id="s6">
   <h2>Application process</h2>
   <p>Listed below is the 9&#8209;1&#8209;1 Police Dispatcher application process. If you have questions about the application process, please contact a Recruiter or attend a career presentation.</p>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+  <div class="btn-group mrgn-bttm-sm mrgn-tp-md">
+    <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;on&quot;}">Expand all</button>
+    <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
+  </div>
+  <div id="expand-collapse">
+  <details class="print-open mrgn-tp-md pddng-bttm-0">
     <summary>
       Step&#160;1: Submit an online application
     </summary>
@@ -146,7 +151,7 @@ custom_css: /assets/css/careers.css
       <p>Applicants that meet the screening criteria for the position will be required to attend a Career Presentation before proceeding to Step&#160;2 of the application process.</p>
     </section>
   </details>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+  <details class="print-open mrgn-tp-md pddng-bttm-0">
     <summary>
       Step&#160;2: CritiCall pre-employment assessment
     </summary>
@@ -156,7 +161,7 @@ custom_css: /assets/css/careers.css
       <p>If you do not successfully complete this step or any of the following steps, your application will be closed and we will let you know when you can reapply.</p>
     </section>
   </details>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+  <details class="print-open mrgn-tp-md pddng-bttm-0">
     <summary>
       Step&#160;3: Structured interview
     </summary>
@@ -164,7 +169,7 @@ custom_css: /assets/css/careers.css
       <p>During the interview, we'll ask questions to find out how you behaved in certain past situations. The questions also help assess the decisions you would make in hypothetical scenarios. The interview is approximately one hour in duration. Your Recruiter will provide you with a guide to help you prepare for the interview. Applicants who successfully complete the interview and are selected will advance to the next step of the application process.</p>
     </section>
   </details>
-  <details class="brdr-tp brdr-rght brdr-bttm brdr-lft">
+  <details class="print-open mrgn-tp-md pddng-bttm-0">
     <summary>
       Step&#160;4: Undergo a security and medical assessment
     </summary>
@@ -176,6 +181,7 @@ custom_css: /assets/css/careers.css
       <p>Successful applicants that are selected will be contacted and offered employment to participate in the 9&#8209;1&#8209;1 Police Dispatcher Training Program. The offer will include information about training dates, salary and benefits.</p>
     </section>
   </details>
+  </div>
 <section id="s6-5">
   <h3>Training</h3>
   <p>After accepting the job offer, you will participate in an extensive core training program that is designed to provide you with the knowledge and skills to become a 9&#8209;1&#8209;1 Police Dispatcher. The location and duration of the training depends on the hiring location.</p>
@@ -194,48 +200,35 @@ custom_css: /assets/css/careers.css
 </section>
 <section id="s7">
   <h2>Contact us</h2>
-  <p>The RCMP holds <a href="/en/careers-rcmp/recruiting-events?t=Telecommunications+operator+%289-1-1+dispatcher%29">recruiting events</a> including career presentations for people interested in 9&#8209;1&#8209;1 Police Dispatcher careers. Events are held in several communities throughout the year.</p>
+  <p>The RCMP holds <a href="/en/careers-rcmp/recruiting-events?j=3">recruiting events</a> including career presentations for people interested in 9&#8209;1&#8209;1 Police Dispatcher careers. Events are held in several communities throughout the year.</p>
   <dl class="dl-horizontal">
-
     <dt>Alberta</dt>
-    <dd>Email: <a href="mailto:rcmp.koccrecruiting-kstorecrutement.grc@rcmp-grc.gc.ca">rcmp.koccrecruiting-kstorecrutement.grc@rcmp-grc.gc.ca</a></dd>
-
+    <dd><a href="mailto:rcmp.koccrecruiting-kstorecrutement.grc@rcmp-grc.gc.ca">rcmp.koccrecruiting-kstorecrutement.grc@rcmp-grc.gc.ca</a></dd>
     <dt>British Columbia</dt>
-    <dd>Email: <a href="mailto:e_911recruiting@rcmp-grc.gc.ca">e_911recruiting@rcmp-grc.gc.ca</a>
+    <dd><a href="mailto:e_911recruiting@rcmp-grc.gc.ca">e_911recruiting@rcmp-grc.gc.ca</a>
       <br>Website: <a href="/en/bc/careers/9-1-1-police-dispatchers">9&#8209;1&#8209;1&#160;police dispatcher careers in British Columbia</a></dd>
-
     <dt>Manitoba</dt>
-    <dd>Email: <a href="mailto:rcmp.doccrecruiting.grc@rcmp-grc.gc.ca">rcmp.doccrecruiting.grc@rcmp-grc.gc.ca</a></dd>
-
+    <dd><a href="mailto:rcmp.doccrecruiting.grc@rcmp-grc.gc.ca">rcmp.doccrecruiting.grc@rcmp-grc.gc.ca</a></dd>
     <dt>New Brunswick</dt>
-    <dd>Email: <a href="mailto:nbrcmpocc.stogrcnb@rcmp-grc.gc.ca">nbrcmpocc.stogrcnb@rcmp-grc.gc.ca</a></dd>
-
+    <dd><a href="mailto:nbrcmpocc.stogrcnb@rcmp-grc.gc.ca">nbrcmpocc.stogrcnb@rcmp-grc.gc.ca</a></dd>
     <dt>Newfoundland and Labrador</dt>
-    <dd>Email: <a href="mailto:psapplicants@rcmp-grc.gc.ca">psapplicants@rcmp-grc.gc.ca</a></dd>
-
+    <dd><a href="mailto:psapplicants@rcmp-grc.gc.ca">psapplicants@rcmp-grc.gc.ca</a></dd>
     <dt>Northwest Territories</dt>
-    <dd>Email: <a href="mailto:goccrecruiting-gstorecrutement@rcmp-grc.gc.ca">goccrecruiting-gstorecrutement@rcmp-grc.gc.ca</a></dd>
-
+    <dd><a href="mailto:goccrecruiting-gstorecrutement@rcmp-grc.gc.ca">goccrecruiting-gstorecrutement@rcmp-grc.gc.ca</a></dd>
     <dt>Nova Scotia</dt>
-    <dd>Email: <a href="mailto:hdiv-occstaffing@rcmp-grc.gc.ca">hdiv-occstaffing@rcmp-grc.gc.ca</a></dd>
-
+    <dd><a href="mailto:hdiv-occstaffing@rcmp-grc.gc.ca">hdiv-occstaffing@rcmp-grc.gc.ca</a></dd>
     <dt>Nunavut</dt>
-    <dd>Email: <a href="mailto:vdiv.occ.recruiting-divv.sto.recrutement@rcmp-grc.gc.ca">vdiv.occ.recruiting-divv.sto.recrutement@rcmp-grc.gc.ca</a></dd>
-
+    <dd><a href="mailto:vdiv.occ.recruiting-divv.sto.recrutement@rcmp-grc.gc.ca">vdiv.occ.recruiting-divv.sto.recrutement@rcmp-grc.gc.ca</a></dd>
     <dt>Ontario</dt>
-    <dd>Email: <a href="mailto:rcmp.odivo_pscm_staffing-dotation_fpmc.grc@rcmp-grc.gc.ca">rcmp.odivo_pscm_staffing-dotation_fpmc.grc@rcmp-grc.gc.ca</a></dd>
-
+    <dd><a href="mailto:rcmp.odivo_pscm_staffing-dotation_fpmc.grc@rcmp-grc.gc.ca">rcmp.odivo_pscm_staffing-dotation_fpmc.grc@rcmp-grc.gc.ca</a></dd>
     <dt>Prince Edward Island</dt>
-    <dd>Email: <a href="mailto:lpshr-rhfpl@rcmp-grc.gc.ca">lpshr-rhfpl@rcmp-grc.gc.ca</a></dd>
-
+    <dd><a href="mailto:lpshr-rhfpl@rcmp-grc.gc.ca">lpshr-rhfpl@rcmp-grc.gc.ca</a></dd>
     <dt>Québec</dt>
-    <dd>Email: <a href="mailto:cdiv_rhfp-hrps@rcmp-grc.gc.ca">cdiv_rhfp-hrps@rcmp-grc.gc.ca</a></dd>
-
+    <dd><a href="mailto:cdiv_rhfp-hrps@rcmp-grc.gc.ca">cdiv_rhfp-hrps@rcmp-grc.gc.ca</a></dd>
     <dt>Saskatchewan</dt>
-    <dd>Email: <a href="mailto:rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca">rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca</a>
+    <dd><a href="mailto:rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca">rcmp.foccrecruiting-fstorecrutement.grc@rcmp-grc.gc.ca</a>
     <br>Telephone: 639-625-3770</dd>
-
     <dt>Yukon</dt>
-    <dd>Email: <a href="mailto:mdiv_occ_recruiting@rcmp-grc.gc.ca">mdiv_occ_recruiting@rcmp-grc.gc.ca</a></dd>
+    <dd><a href="mailto:mdiv_occ_recruiting@rcmp-grc.gc.ca">mdiv_occ_recruiting@rcmp-grc.gc.ca</a></dd>
   </dl>
 </section>

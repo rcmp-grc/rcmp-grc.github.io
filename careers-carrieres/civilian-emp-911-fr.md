@@ -14,7 +14,7 @@ custom_css: /assets/css/careers.css
 
 <section class="alert alert-info">
   <h2 class="h3">Prêts à présenter une demande?</h2>
-  <p><a href="#s6">Trouvez des possibilités d'emploi et apprenez-en davantage sur le processus de mise en candidature</a>.</p>
+  <p><a href="#s6" class="alert-link">Trouvez des possibilités d'emploi et apprenez-en davantage sur le processus de mise en candidature</a>.</p>
 </section>
 <nav aria-labelledby="on-this-page">
   <h2 id="on-this-page">Sur cette page</h2>

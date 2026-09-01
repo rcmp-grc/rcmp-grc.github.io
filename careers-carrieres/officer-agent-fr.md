@@ -3,7 +3,7 @@ layout: careers
 title: Police officer careers
 date_modified: 2026-06-10
 lang: en
-lang_url: agent-police-en.html
+lang_url: officer-agent-en.html
 description: The RCMP is hiring motivated team players who are physically fit and can lead with integrity and compassion. Explore police officer careers, requirements, and how to apply.
 author: Royal Canadian Mounted Police
 creator: Royal Canadian Mounted Police

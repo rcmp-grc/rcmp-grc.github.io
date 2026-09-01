@@ -13,7 +13,9 @@ custom_css: /assets/css/careers.css
 ---
 
 <style>
+:root {	
  --underline-gradient: linear-gradient(to right, var(--rcmp-red) 25%, transparent 25%);		
+}
 .explore { 
 	 border-top: 2px solid var(--rcmp-red);
 	 margin-bottom: 10px;

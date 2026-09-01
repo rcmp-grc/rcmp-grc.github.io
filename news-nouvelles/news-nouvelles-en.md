@@ -252,8 +252,8 @@ custom_css: /assets/css/careers.css
 			<fieldset>
 			 <legend class="wb-inv">Publish date</legend>
 			 <div><p class="small">For example, 2005, 21/11/2014, May 27, 2024</p></div>
-             <label class="re-select-label" for="dt_mindate">Before</label><input data-column="0" class="re-select" id="dt_mindate" name="dt_mindate" type="text"> 
-			 <label class="re-select-label mrgn-tp-md" for="dt_maxdate">After</label><input data-column="0" class="re-select" id="dt_maxdate" name="dt_maxdate" type="text">
+             <label class="re-select-label" for="dt_mindate">Before</label><input data-column="0" class="re-input-text" id="dt_mindate" name="dt_mindate" type="text"> 
+			 <label class="re-select-label mrgn-tp-md" for="dt_maxdate">After</label><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text">
 			</fieldset>
 		</details>
 	</div>

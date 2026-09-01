@@ -14,7 +14,7 @@ custom_css: /assets/css/careers.css
 
 <p>There are many jobs for civilian employees that offer critical support to front-line officers. Some of these opportunities include:</p>
 <ul>
-  <li><a href="/en/careers-rcmp/civilian-employee-careers/types-civilian-employee-jobs/civilian-employee-job-telecommunications-operator-9-1-1-dispatcher">9-1-1 dispatcher (telecommunications operator)</a></li>
+  <li><a href="/en/careers-rcmp/civilian-employee-careers/types-civilian-employee-jobs/9-1-1-police-dispatcher">9-1-1 police dispatcher (telecommunications operator)</a></li>
   <li>Access to Information and Privacy (ATIP) analyst</li>
   <li>Administrative support</li>
   <li>Air and marine operations</li>

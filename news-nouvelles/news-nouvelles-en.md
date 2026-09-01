@@ -126,10 +126,17 @@ custom_css: /assets/css/careers.css
   </div>
 	<div class="col-md-4">
     <section class="gc-drmt">
-      <h2 class="h5" data-emptytext="Subscribe"><a href="#">Access news resources</a></h2>
-      <p>Access web feeds, media relations office, Canada.ca news and Public Safety Canada news</p>
+      <h2 class="h5" data-emptytext="Feeds"><a href="#">Access news feeds</a></h2>
+      <p>Access RCMP news feed News by division, Federal Policing regions and national news and by topic</p>
     </section>
   </div>
+	<div class="col-md-4">
+    <section class="gc-drmt">
+      <h2 class="h5" data-emptytext="Media"><a href="#">Contact the media relations office</a></h2>
+      <p>Find contact information for the media relations office in the divisions, Federal Policing regions and national headquarters</p>
+    </section>
+  </div>
+	
 </div>
 <div class="row mrgn-tp-lg" id="re-page">
 	<div class="col-md-3" id="re-sidebar">

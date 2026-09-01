@@ -241,7 +241,7 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
     display: inline-block;				
 }
 	a.news-topic-secondary9:hover, a.news-topic-secondary9:active {
-	background-color: #ffffff;
+	background-color: #f4d7e5;
     color: #98285d;
 	border: 1px solid #98285d;	
 }	
@@ -390,9 +390,9 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 	<div class="contact-signature">	
 	<div class="row wb-eqht">	
 	<div class="col-sm-4">	
-<h3 class="news-contact-h4">British Columbia RCMP</h3>
+<h3 class="news-contact-h4">Northwest Territories RCMP</h3>
   <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">bcrcmp-grcencb@rcmp-grc.gc.ca</a><br>
-  778-290-2929</p>	
+  867-555-5555</p>	
 	<section class="gc-followus">
 <h4 class="mrgn-tp-lg wb-inv">Follow us</h4>
 <ul class="list-inline">     
@@ -412,7 +412,7 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 	</section>	
 	</div>		
 	<div class="col-sm-4">	
-   <h3 class="news-contact-h4">Northwest Territories RCMP</h3>
+   <h3 class="news-contact-h4">Inuvik detachment</h3>
    <p class="news-contact-p"><a href="mailto:name@rcmp-grc.gc.ca">name@rcmp-grc.gc.ca</a><br>
    867-555-5555</p>	
 		<section class="gc-followus">

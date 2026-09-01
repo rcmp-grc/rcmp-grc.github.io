@@ -359,20 +359,20 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 <div class="news-alert pull-right col-md-4">
 	  <h2><span class="label label-danger">Located</span></h2>
 	  <ul>
-	  <li><strong>May 10, 2026, 14:58</strong> &mdash; Bob was found safe.</li>
+	  <li><strong>June 10, 2026, 14:58</strong> &mdash; Burnaby was found safe.</li>
 	  </ul>
   </div>
   <div class="mrgn-lft-md">
-   <p class="lead">Richmond RCMP Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety.</p>
+   <p class="lead">The late afternoon sun turned the pack ice near the artic circle into a field of bruised gold as Burnaby took his last known step.</p>
  </div>
 </div>
 <div class="clearfix"></div>
 <div class="explore">
 <div class="byline">	
 <ol class="list-inline">
-  <li><span class="publish-date"><i class="fa-solid fa-calendar-days"></i>&nbsp;&nbsp;May&nbsp;7, 2026&nbsp;&nbsp;|</span></li>
-  <li><span class="location"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;Richmond, British Columbia&nbsp;&nbsp;|</span></li>
-  <li><span class="author-name"><i class="fa-regular fa-circle-user"></i>&nbsp;&nbsp;<a href="#">British Columbia RCMP</a></span></li>
+  <li><span class="publish-date"><i class="fa-solid fa-calendar-days"></i>&nbsp;&nbsp;June&nbsp;7, 2026&nbsp;&nbsp;|</span></li>
+  <li><span class="location"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;Inuvik, Northwest Territories&nbsp;&nbsp;|</span></li>
+  <li><span class="author-name"><i class="fa-regular fa-circle-user"></i>&nbsp;&nbsp;<a href="#">Northwest Territories RCMP</a></span></li>
 	</ol>
 </div>
 </div>
@@ -385,44 +385,14 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 	 </figure>
   </div>
  <div class="mrgn-lft-md">	
-<section id="page-navigation" class="article-content mrgn-bttm-lg">
-	<h2 class="h3 mrgn-tp-0">On this page</h2>
-	<ul>
-		<li><a href="#s1">Tips for drivers sharing the road with motorcycles</a></li>
-		<li><a href="#s2">Tips for riders</a></li>
-		<li><a href="#video">Video</a></li>
-		<li><a href="#gallery">Image gallery</a></li>
-		<li><a href="#quotes">Quotes</a></li>
-		<li><a href="#facts">Quick facts</a></li>
-		<li><a href="#products">Related products</a></li>
-		<li><a href="#gc-contact">Contacts</a></li>
-		<li><a href="#topics">Explore related topics</a></li>
-	</ul>
-</section>	
-<p>Richmond <abbr>RCMP</abbr> Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety, as part of the province-wide <abbr>BC</abbr> Association of Chiefs of Police enforcement calendar in partnership with <abbr>ICBC</abbr>.</p>
-<p>As warmer weather brings more motorcycles onto Richmond roads, officers will be focused on the behaviours most often linked to serious crashes including failing to yield, ignoring traffic control devices, following too closely, and improper passing. With six out of ten motorcycle crashes in <abbr>BC</abbr> occurring at intersections, drivers will see increased patrols at key Richmond intersections throughout the month.</p>
-<p>While motorcycles make up roughly three percent of insured vehicles in <abbr>BC</abbr>, they are involved in approximately ten percent of road fatalities, <a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/motorcycle-safety">according to the Province of British Columbia</a>. The fatality rate for drivers under 25 is on average 15 times higher than drivers over 25&nbsp;years of age.</p>
-<p>“Every spring we see motorcycles return to Richmond roads, and with that unfortunately we also see preventable collisions that change lives in an instant,” said Corporal Niels Hermes, Richmond <abbr>RCMP</abbr> Road Safety Unit. “Most of these collisions come down to choices—a driver who doesn’t take that second look before making a left turn, or a rider going too fast for conditions. Our goal this may is to see fewer collisions, fewer injuries, and every rider and driver getting home safely.”</p>
-<p>Throughout&nbsp;May, the Road Safety Unit will be conducting targeted enforcement and partnering with <abbr>ICBC</abbr> and Speed Watch volunteers across Richmond. Officers will also be checking for compliance with BC's motorcycle helmet and seating laws, which require all riders and passengers to wear an approved helmet.</p>
+	 <p>Burnaby was not a subtle bear. Weighing nearly 1100 lb with a patch of yellowish fur over his left flank that looked suspiciously like
+	 a spilled cup of tea. He was a fixture in the community. The locals called him a creature of habit; the tourists called him photogenic.</p>
+	 <p>His disappearance was quiet. RCMP officers are now looking for him. They noticed his radio collar stopped working just three miles just north
+	 of Decho. By midnight, the signal went dead entirely.</p>
+	 <p>There was no signs of struggle and no broken ice. Instead, there was a straight and deliberate line of heavy prints leading directly towards
+	 the open water of the Arctic Ocean&emdash;and beside them, a single, dscarded radio collar, cleanly unbuckled.</p>
+	 <p>Please contact local RCMP if you locate Burnaby.</p>
 <section id="s1">
-<h2 class="h3">Tips for drivers sharing the road with motorcycles</h2>
-<ul>
-<li>Scan intersections carefully and take an extra moment to look for motorcycles when turning left</li>
-<li>Allow at least three&nbsp;seconds of following distance behind a motorcycle</li>
-<li>Maintain at least one metre of space when passing in zones up to 50&nbsp;<abbr>km</abbr>/<abbr>h</abbr>, and at least 1.5&nbsp;metres when passing in higher-speed zones</li>
-<li>Stay alert and avoid distractions</li>
-</ul>
-</section>
-<section id="s2">
-<h2 class="h3">Tips for riders</h2>
-<ul>
-<li>Wear all the gear, all the time</li>
-<li>Stay out of driver’s blind spots and use signals to communicate intentions</li>
-<li>Manage speed to leave room to brake or steer clear of hazards</li>
-<li>Brush up on emergency braking and obstacle avoidance, especially after time off the bike</li>
-</ul>
-<p>For more information on <abbr>BC</abbr>’s motorcycle laws, helmet standards, fines and penalty points, visit the <a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/motorcycle-safety">Province of British Columbia’s website</a>. For motorcycle licensing, rider training resources, and gear guides, visit the <a href="https://www.icbc.com/road-safety/sharing/motorcycle-safety"><abbr>ICBC</abbr>&nbsp;website</a>.</p>
-</section>
 <section id="gallery">
 <h2 class="h3">Image gallery</h2>	
 <div class="wb-lbx lbx-gal">

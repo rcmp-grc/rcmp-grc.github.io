@@ -319,10 +319,10 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 }	
 	a.news-topic-secondary14:link, a.news-topic-secondary14:visited
 	{
-    background-color: #ffffff;
-	color: #000000;
+    background-color: #fce9eb
+	color: #ca3535;
 	border-radius: 0;
-	border: 1px solid #000000;
+	border: 1px solid #ca3535;
 	padding: 4px 10px;
 	font-size: 1rem;
     font-weight: bold;	

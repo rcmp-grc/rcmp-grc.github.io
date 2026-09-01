@@ -14,6 +14,16 @@ custom_css: /assets/css/careers.css
 ---
 
 <style>
+--underline-gradient: linear-gradient(to right, var(--rcmp-red) 25%, transparent 25%);		
+}
+.news-contact-h4 {
+  border-bottom: 0.3rem solid var(--rcmp-red);
+  border-image: var(--underline-gradient);
+  border-image-slice: 1;
+  font-size: 1.25rem;
+  padding-bottom: 10px;
+  margin: 5px 0;
+}		
 .explore { 
 	 border-top: 2px solid var(--rcmp-red);
 	 margin-bottom: 10px;

@@ -1,7 +1,7 @@
 ---
 layout: careers
 title: Civilian employee job types
-date_modified: 2026-08-28
+date_modified: 2026-09-01
 lang: en
 lang_url: civilian-emp-job-types-fr.html
 breadcrumbs:
@@ -25,9 +25,9 @@ custom_css: /assets/css/careers.css
   <li>Human resources</li>
   <li>Information Technology (IT) core services</li>
   <li>Legal services</li>
-  <li><a href="/en/careers-rcmp/civilian-employee-careers/types-civilian-employee-jobs/civilian-employee-job-psychologist">Psychologist</a></li>
+  <li><a href="/en/careers-rcmp/civilian-employee-careers/types-civilian-employee-jobs/psychologist">Psychologist</a></li>
   <li>Research and analysis</li>
-  <li><a href="/en/careers-rcmp/civilian-employee-careers/types-civilian-employee-jobs/civilian-employee-job-technical-investigative-engineers-and-software-engineers">Technical investigative engineer and software engineer</a></li>
+  <li><a href="/en/careers-rcmp/civilian-employee-careers/types-civilian-employee-jobs/technical-investigative-engineer-and-software-engineer">Technical investigative engineer and software engineer</a></li>
   <li>Technician and technologist</li>
   <li>Wellness and safety support</li>
 </ul>

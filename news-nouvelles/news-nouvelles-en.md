@@ -17,7 +17,7 @@ custom_css: /assets/css/careers.css
   position: relative;
   border: 1px solid var(--c-grey-border);
   background: var(--c-white);
-  margin: 0 0 16px;
+  margin: 0 0 16px 0;
   overflow: hidden;
   width: 100%;
   max-width: none;
@@ -25,7 +25,7 @@ custom_css: /assets/css/careers.css
   display: block;
 }
 .news-card-body {
-  padding: 16px 16px 16px;
+  padding: 16px 16px 16px 0px;
   border-top: 3px solid var(--rcmp-red);
 }
 .news-card-format-tag {

@@ -376,14 +376,6 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 	</ol>
 </div>
 </div>
-	<div class="row">
-<div class="col-md-4 pull-right">
-	  <figure>
-	  <img src="primary-news.jpg" class="img-responsive full-width" alt=" " />
-      <figcaption>
-      <p class="small">Caption for the photo</p></figcaption>
-	 </figure>
-  </div>
  <div class="mrgn-lft-md">	
 	 <p>Burnaby was not a subtle bear. Weighing nearly 1100 lb with a patch of yellowish fur over his left flank that looked suspiciously like
 	 a spilled cup of tea. He was a fixture in the community. The locals called him a creature of habit; the tourists called him photogenic.</p>
@@ -392,17 +384,6 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 	 <p>There was no signs of struggle and no broken ice. Instead, there was a straight and deliberate line of heavy prints leading directly towards
 	 the open water of the Arctic Ocean&emdash;and beside them, a single, dscarded radio collar, cleanly unbuckled.</p>
 	 <p>Please contact local RCMP if you locate Burnaby.</p>
-<section id="s1">
-<section id="gallery">
-<h2 class="h3">Image gallery</h2>	
-<div class="wb-lbx lbx-gal">
-    <ul class="list-inline">
-        <li><a href="filler-image.jpg" title="Title 1"><img alt="" src="175x175.jpg"></a></li>
-        <li><a href="filler-image.jpg" title="Title 2"><img alt="" src="175x175.jpg"></a></li>
-        <li><a href="filler-image.jpg" title="Title 3"><img alt="" src="175x175.jpg"></a></li>
-	</ul>
-</div>
-</section>
 <section id="gc-contact" class="contact-us">
 	<h2 class="h3">Contact us</h2>
 	<div class="contact-signature">	
@@ -455,8 +436,6 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 	</div>
    </section>
 </div>
-</div>
-<div class="clearfix"></div>		
 <div class="explore">		
 <section id="topics">
 <h2 class="h4 mrgn-tp-sm mrgn-bttm-md">Explore related topics</h2>

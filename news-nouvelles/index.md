@@ -16,7 +16,7 @@ issued: 2026-05-04
   <li><a href="backgrounder-document-information-en.html">Backgrounder</a></li>
   <li><a href="media-advisory-avis-medias-en.html">Media Advisory</a></li>
   <li><a href="news-release-communique-presse-en.html">News Release</a></li>
-  <li><a href="news-release2-communique-presse2-en.html">News Release with missing alert</a></li>
+  <li><a href="news-release2-communique-presse2-en.html">News Release with a "Located" alert</a></li>
   <li><a href="speech-discours-en.html">Speech</a></li>
   <li><a href="statement-declaration-en.html">Statement</a></li>
 </ul>

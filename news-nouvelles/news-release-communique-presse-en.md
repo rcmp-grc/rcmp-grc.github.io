@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Richmond RCMP targets high risk driving as motorcycle safety month returns 
+title: Motorcycle safety month returns to Richmond 
 date_modified: 2026-05-14
 lang: en
 lang_url: news-release-communique-presse-fr.html
@@ -359,8 +359,8 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
   <div class="news-alert pull-right col-sm-4">
 	  <h2><span class="label label-default">Updated</span></h2>
 	  <ul>
-	  <li><strong>2026-04-30, 13:58 pm</strong>: drivers will see increased patrols</li>
-    <li><strong>2026-04-21, 13:58 pm</strong>: Brush up on emergency braking and obstacle avoidance</li>
+	  <li><strong>2026-04-30, 13:58 pm</strong>: <a href="#">Update 2</a></li>
+    <li><strong>2026-04-21, 13:58 pm</strong>: <a href="#">Update 1</a></li>
 	  </ul>
   </div>
   <div class="mrgn-lft-md">

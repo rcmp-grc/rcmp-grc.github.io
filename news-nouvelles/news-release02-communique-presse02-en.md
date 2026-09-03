@@ -499,9 +499,9 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 <section id="topics">
 <h2 class="h4 mrgn-tp-sm mrgn-bttm-md">Explore related topics</h2>
 <ol class="list-inline topics">
-  <li><a href="#" class="news-topic-3">Traffic enforcement</a></li>
+  <li><a href="#" class="news-topic-3">Traffic</a></li>
   <li><a href="#" class="news-topic-secondary2">Assault</a></li>
-  <li><a href="#" class="news-topic-secondary4">Border security</a></li>
+  <li><a href="#" class="news-topic-secondary4">National security</a></li>
   <li><a href="#" class="news-topic-secondary5">Break and enter</a></li>
   <li><a href="#" class="news-topic-secondary6">Disturbance</a></li>
   <li><a href="#" class="news-topic-secondary16">Emergency</a></li>
@@ -510,7 +510,7 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
   <li><a href="#" class="news-topic-secondary9">Illicit drugs</a></li>
   <li><a href="#" class="news-topic-secondary14">Missing persons</a></li>
   <li><a href="#" class="news-topic-secondary10">Organized crime</a></li>
-  <li><a href="#" class="news-topic-secondary11">Property crime</a></li>
+  <li><a href="#" class="news-topic-secondary11">Property damage</a></li>
   <li><a href="#" class="news-topic-secondary1">Public interest</a></li>
   <li><a href="#" class="news-topic-secondary12">Theft</a></li>
   <li><a href="#" class="news-topic-secondary13">Wanted persons</a></li>

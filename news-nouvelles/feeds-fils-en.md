@@ -90,11 +90,11 @@ font-size: 1.1rem;
 </style>
 <p>Stay informed by accessing the web feeds to get the latest RCMP news.</p>
 <p>Choose a news feed listed by:</p>
-	<ul>
-	<li>division, Federal Policing regions and National Headquarters</li>
-	<li>topic</li>	
-	<li>type</li>
-	</ul>	
+<ul>
+ <li>division, Federal Policing regions and National Headquarters</li>
+ <li>topic</li>	
+ <li>type</li>
+</ul>	
 <p>Once you’ve made your selection, copy the URL from your browser's address bar and paste it into your web feed reader.</p>
 <div class="explore">
 <div class="byline">	

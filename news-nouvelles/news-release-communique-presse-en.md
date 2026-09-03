@@ -368,8 +368,8 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 }
 	a.news-topic-secondary16:hover, a.news-topic-secondary16:active {
 	background-color: #ffffff;
-    color: #0f385c;
-	border: 1px solid #0f385c;	
+    color: #26374a;
+	border: 1px solid #26374a;	
 }
 </style>
 <article>

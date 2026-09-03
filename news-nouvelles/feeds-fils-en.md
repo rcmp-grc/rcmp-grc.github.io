@@ -20,7 +20,7 @@ custom_css: /assets/css/careers.css
 }
 </style>
 <p class="lead">Stay informed by accessing the web feeds to get the latest RCMP news.</p>
-<div class="explore">
+<div class="explore mrgn-top-md">
 <p>Choose a news feed listed by:</p>
 <ul>
  <li>division, Federal Policing regions and National Headquarters</li>

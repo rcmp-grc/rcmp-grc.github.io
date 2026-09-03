@@ -3,7 +3,7 @@ layout: careers
 title: Postulez maintenant
 date_modified: 2026-08-18
 lang: fr
-lang_url: apply-fr.html
+lang_url: apply-postulez-en.html
 breadcrumbs:
   - label: "Carrières à la GRC"
     url: "careers-carrieres/fr.html"

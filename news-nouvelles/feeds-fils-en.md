@@ -12,7 +12,15 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
+<style>	
+.explore { 
+	 border-top: 2px solid var(--rcmp-red);
+	 margin-bottom: 10px;
+	 margin-top: 15px;
+}
+</style>
 <p class="lead">Stay informed by accessing the web feeds to get the latest RCMP news.</p>
+<div class="explore"></div>
 <p>Choose a news feed listed by:</p>
 <ul>
  <li>division, Federal Policing regions and National Headquarters</li>

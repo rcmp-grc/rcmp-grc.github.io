@@ -353,6 +353,24 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
     color: #2962a3;
 	border: 1px solid #2962a3;	
 }
+	a.news-topic-secondary16:link, a.news-topic-secondary16:visited
+	{
+    background-color: #ffffff;
+	color: #000000;
+	border-radius: 0;
+	border: 1px solid #000000;
+	padding: 4px 10px;
+	font-size: 1rem;
+    font-weight: bold;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;				
+}
+	a.news-topic-secondary16:hover, a.news-topic-secondary16:active {
+	background-color: #ffffff;
+    color: #0f385c;
+	border: 1px solid #0f385c;	
+}
 </style>
 <article>
 <div class="row">
@@ -527,17 +545,18 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 <section id="topics">
 <h2 class="h4 mrgn-tp-sm mrgn-bttm-md">Explore related topics</h2>
 <ol class="list-inline topics">
-  <li><a href="#" class="news-topic-3">Traffic enforcement</a></li>
+  <li><a href="#" class="news-topic-3">Traffic</a></li>
   <li><a href="#" class="news-topic-secondary2">Assault</a></li>
-  <li><a href="#" class="news-topic-secondary4">Border security</a></li>
+  <li><a href="#" class="news-topic-secondary4">National security</a></li>
   <li><a href="#" class="news-topic-secondary5">Break and enter</a></li>
   <li><a href="#" class="news-topic-secondary6">Disturbance</a></li>
+  <li><a href="#" class="news-topic-secondary16">Emergency</a></li>
   <li><a href="#" class="news-topic-secondary7">Homicide</a></li>
   <li><a href="#" class="news-topic-secondary8">Human trafficking</a></li>
   <li><a href="#" class="news-topic-secondary9">Illicit drugs</a></li>
   <li><a href="#" class="news-topic-secondary14">Missing persons</a></li>
   <li><a href="#" class="news-topic-secondary10">Organized crime</a></li>
-  <li><a href="#" class="news-topic-secondary11">Property crime</a></li>
+  <li><a href="#" class="news-topic-secondary11">Property damage</a></li>
   <li><a href="#" class="news-topic-secondary1">Public interest</a></li>
   <li><a href="#" class="news-topic-secondary12">Theft</a></li>
   <li><a href="#" class="news-topic-secondary13">Wanted persons</a></li>

@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Bob the Polar Bear’s unexpected visit to headquarters
+title: News feeds
 description: My page description
 date_modified: 2026-09-03
 lang: en
-lang_url: statement-declaration-fr.html
+lang_url: news-fils-fr.html
 issued: 2026-09-03
 breadcrumbs:
   - label: "News and communications"

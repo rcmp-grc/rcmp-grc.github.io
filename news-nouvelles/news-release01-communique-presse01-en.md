@@ -371,7 +371,7 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 <div class="explore">
 <div class="byline">	
 <ol class="list-inline">
-  <li><span class="publish-date"><i class="fa-solid fa-calendar-days"></i>&nbsp;&nbsp;May&nbsp;7, 2026&nbsp;&nbsp;|</span></li>
+  <li><span class="publish-date"><i class="fa-solid fa-calendar-days"></i>&nbsp;&nbsp;April&nbsp;30, 2026&nbsp;&nbsp;|</span></li>
   <li><span class="location"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;Richmond, British Columbia&nbsp;&nbsp;|</span></li>
   <li><span class="author-name"><i class="fa-regular fa-circle-user"></i>&nbsp;&nbsp;<a href="#">British Columbia RCMP</a></span></li>
 	</ol>

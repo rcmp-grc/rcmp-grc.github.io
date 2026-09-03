@@ -13,82 +13,15 @@ custom_css: /assets/css/careers.css
 ---
 
 <style>
-:root {	
- --underline-gradient: linear-gradient(to right, var(--rcmp-red) 25%, transparent 25%);		
-}
-.news-contact-h4 {
-  border-bottom: 0.3rem solid var(--rcmp-red);
-  border-image: var(--underline-gradient);
-  border-image-slice: 1;
-  font-size: 1.25rem;
-  padding-bottom: 10px;
-  margin: 5px 0;
-}		
+}	
 .explore { 
 	 border-top: 2px solid var(--rcmp-red);
 	 margin-bottom: 10px;
 	 margin-top: 15px;
 }
-.news-alert {
-    background: #fff;
-	margin: auto;
-	margin-right: 15px; 
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-	padding-right: 5px;
-	padding-left: 5px;
-}
-.news-alert ul {
-    list-style-type: square;
-	font-size: 0.95rem;	
-	margin-top: 5px;
-	margin-left: 5px;
-	color: #363636;
-}
-.news-alert h2 {
-	font-size: 1.4rem;	
-	margin-left: 0;
-	margin-top: 0;
-	font-weight: bold;
-}	
-.news-contact-h4 {
-  border-bottom: 0.3rem solid var(--c-yellow);
-  border-image: var(--underline-gradient);
-  border-image-slice: 1;
-  font-size: 1.25rem;
-  padding-bottom: 10px;
-  margin: 5px 0;
-}	
-.news-contact-p {
-font-size: 1.1rem;
-}	
-.contact-us {
-	background-color: #f3f2f1;
-	padding-left: 10px;
-}	
-.byline {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-	margin-top: 10px;
-    font-size: 1rem;
-    color: #404040;
-}
-.byline-text {
-    display: flex;
-    flex-wrap: wrap;
-}
-.author-name {
-    font-weight: bold;
-    color: #404040;
-}
-.publish-date {
-    color: #404040;
-}
-.location {
-    color: #404040;
-}		
 </style>
-<p>Stay informed by accessing the web feeds to get the latest RCMP news.</p>
+<p class="lead">Stay informed by accessing the web feeds to get the latest RCMP news.</p>
+<div class="explore">
 <p>Choose a news feed listed by:</p>
 <ul>
  <li>division, Federal Policing regions and National Headquarters</li>
@@ -96,8 +29,6 @@ font-size: 1.1rem;
  <li>type</li>
 </ul>	
 <p>Once you’ve made your selection, copy the URL from your browser's address bar and paste it into your web feed reader.</p>
-<div class="explore">
-<div class="byline">	
 <div class="btn-group mrgn-bttm-sm mrgn-tp-md">
  <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;on&quot;}">Expand all</button>	
  <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
@@ -235,6 +166,7 @@ font-size: 1.1rem;
     </li>
   </ul>
   </details>
+</div>
 </div>
 <div class="explore">
 </div>

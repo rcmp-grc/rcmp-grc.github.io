@@ -126,7 +126,7 @@ custom_css: /assets/css/careers.css
   </div>
 	<div class="col-md-4">
     <section class="gc-drmt">
-      <h2 class="h5" data-emptytext="Feeds"><a href="#">Access news feeds</a></h2>
+      <h2 class="h5" data-emptytext="Feeds"><a href="https://rcmp-grc.github.io/news-nouvelles/feeds-fils-en.html">Access news feeds</a></h2>
       <p>RCMP news feeds by division, Federal Policing regions, National Headquarters and topics</p>
     </section>
   </div>

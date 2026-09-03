@@ -360,7 +360,7 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 	  <h2><span class="label label-default">Updated</span></h2>
 	  <ul>
 	  <li><a href="https://github.com/rcmp-grc/rcmp-grc.github.io/blob/main/news-nouvelles/news-release-communique-presse-en.md">Updated, 2026-05-07, 15:58:35</a></li>
-      <li><a href="#">Updated, 2026-04-30, 15:22:03</a></li>
+      <li><a href="https://github.com/rcmp-grc/rcmp-grc.github.io/blob/main/news-nouvelles/news-release01-communique-presse01-en.md">Updated, 2026-04-30, 15:22:03</a></li>
 	  </ul>
   </div>
   <div class="mrgn-lft-md">

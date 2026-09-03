@@ -12,8 +12,7 @@ breadcrumbs:
 custom_css: /assets/css/careers.css
 ---
 
-<style>
-}	
+<style>	
 .explore { 
 	 border-top: 2px solid var(--rcmp-red);
 	 margin-bottom: 10px;

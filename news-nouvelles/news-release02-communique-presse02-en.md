@@ -353,6 +353,24 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
     color: #2962a3;
 	border: 1px solid #2962a3;	
 }
+	a.news-topic-secondary16:link, a.news-topic-secondary16:visited
+	{
+    background-color: #ffffff;
+	color: #000000;
+	border-radius: 0;
+	border: 1px solid #000000;
+	padding: 4px 10px;
+	font-size: 1rem;
+    font-weight: bold;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;				
+}
+	a.news-topic-secondary16:hover, a.news-topic-secondary16:active {
+	background-color: #ffffff;
+    color: #16548a;
+	border: 1px solid #16548a;	
+}
 </style>
 <article>
 <div class="row">

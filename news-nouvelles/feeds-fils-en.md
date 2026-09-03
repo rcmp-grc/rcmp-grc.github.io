@@ -98,7 +98,9 @@ font-size: 1.1rem;
 <p>Once you’ve made your selection, copy the URL from your browser's address bar and paste it into your web feed reader.</p>
 <div class="explore">
 <div class="byline">	
-<button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
+<div class="btn-group mrgn-bttm-sm mrgn-tp-md">
+ <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;on&quot;}">Expand all</button>	
+ <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
 </div>
 <div id="expand-collapse">
   <details>

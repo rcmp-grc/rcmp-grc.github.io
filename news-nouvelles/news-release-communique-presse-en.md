@@ -359,8 +359,8 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
   <div class="news-alert pull-right col-sm-4">
 	  <h2><span class="label label-default">Updated</span></h2>
 	  <ul>
-	  <li><a href="#">Updated</a>, 2026-04-30, 13:58 pm</li>
-      <li><a href="#">Published</a>, 2026-04-21, 15:22 pm</li>
+	  <li><a href="#">Last updated</a>, 2026-04-30, 13:58:55</li>
+      <li><a href="#">Published</a>, 2026-04-21, 15:22:03</li>
 	  </ul>
   </div>
   <div class="mrgn-lft-md">

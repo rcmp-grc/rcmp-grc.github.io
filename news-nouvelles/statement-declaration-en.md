@@ -152,7 +152,7 @@ a.news-topic-1:hover, a.primary-topic:active {
 }
 </style>
 <article>
-<p class="lead">Earlier today, employees at RCMP National Headquarters received an unexpected visitor.</p>
+<p class="lead mrgn-top-md">Earlier today, employees at RCMP National Headquarters received an unexpected visitor.</p>
 <div class="explore">
 <div class="byline">	
 <ol class="list-inline">

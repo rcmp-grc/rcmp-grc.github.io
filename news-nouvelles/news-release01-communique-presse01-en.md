@@ -524,6 +524,7 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
   <li><a href="#" class="news-topic-secondary4">Border security</a></li>
   <li><a href="#" class="news-topic-secondary5">Break and enter</a></li>
   <li><a href="#" class="news-topic-secondary6">Disturbance</a></li>
+  <li><a href="#" class="news-topic-secondary16">Emergency</a></li>
   <li><a href="#" class="news-topic-secondary7">Homicide</a></li>
   <li><a href="#" class="news-topic-secondary8">Human trafficking</a></li>
   <li><a href="#" class="news-topic-secondary9">Illicit drugs</a></li>

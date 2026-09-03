@@ -1,7 +1,7 @@
 ---
 layout: super_landing
 title: Firearms
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 lang: en
 lang_url: index-fr.html
 issued: 2026-05-05
@@ -92,7 +92,7 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
         <p>Firearms forms for individuals, businesses and police and public agencies.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Firearms reports</a></h3>
+        <h3><a href="#">Firearms Safety Courses</a></h3>
         <p>Firearms reports for individuals, businesses and police and public agencies.</p>
       </div>
     </div>

@@ -164,13 +164,16 @@ custom_css: /assets/css/careers.css
             <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span></label>
           </div>
 		  <div class="checkbox">
-          <label><input data-filter="category" type="checkbox" value="Border security"><span class="cb-text">Border security</span></label>
+          <label><input data-filter="category" type="checkbox" value="National security"><span class="cb-text">National security</span></label>
 		  </div>
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Break and Enter"><span class="cb-text">Break and enter</span></label>
           </div>
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Disturbance"><span class="cb-text">Disturbance</span></label>
+          </div>
+			<div class="checkbox">
+            <label><input data-filter="category" type="checkbox" value="Emergency"><span class="cb-text">Emergency</span></label>
           </div>
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Homicide"><span class="cb-text">Homicide</span></label>
@@ -197,7 +200,7 @@ custom_css: /assets/css/careers.css
           <label><input data-filter="category" type="checkbox" value="Theft"><span class="cb-text">Theft</span></label>
 		  </div>
 		  <div class="checkbox">
-          <label><input data-filter="category" type="checkbox" value="Traffic enforcement"><span class="cb-text">Traffic enforcement</span></label>
+          <label><input data-filter="category" type="checkbox" value="Traffic"><span class="cb-text">Traffic</span></label>
 		  </div>
 		   <div class="checkbox">
            <label><input data-filter="category" type="checkbox" value="Wanted persons"><span class="cb-text">Wanted persons</span></label>
@@ -344,7 +347,7 @@ custom_css: /assets/css/careers.css
   var lang = document.documentElement.lang === 'fr' ? 'fr' : 'en';
   var I18N = {
     en: {
-categoryLabels:  {assault: 'Assault', be: 'Break and enter', disturbance: 'Disturbance', homicide: 'Homicide', crossing: 'Illegal border crossing', drugs: 'Illicit drugs', missing: 'Missing person', crime: 'Organized crime', property: 'Interest', property: 'Public interest', theft: 'Theft', traffic: 'Traffic services', trafficking: 'Trafficking', wanted: 'Wanted', weapons: 'Weapons' },
+categoryLabels:  {assault: 'Assault', be: 'Break and enter', disturbance: 'Disturbance', emergency: 'Emergency', homicide: 'Homicide', national: 'National security', drugs: 'Illicit drugs', missing: 'Missing person', crime: 'Organized crime', property: 'Property damage', public: 'Public interest', theft: 'Theft', traffic: 'Traffic', trafficking: 'Trafficking', wanted: 'Wanted', weapons: 'Weapons' },
  territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manitoba', nb: 'New Brunswick', nl: 'Newfoundland and Labrador', nwt: 'Northwest Territories', ns: 'Nova Scotia', nunavut: 'Nunavut', ontario: 'Ontario', pei: 'Prince Edward Island', saskatchewan: 'Saskatchewan RCMP', yukon: 'Yukon RCMP' },
 regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 'Federal Policing Central Region', eastern: 'Federal Policing Eastern Region', nw: 'Federal Policing Northwest Region', pacific: 'Federal Policing Pacific Region', manitoba: 'Manitoba RCMP', nb: 'New Brunswick RCMP', nl: 'Newfoundland and Labrador RCMP', nwt: 'Northwest Territories RCMP', ns: 'Nova Scotia RCMP', nunavut: 'Nunavut  RCMP', pei: 'Prince Edward Island RCMP', depot: 'RCMP Depot Division', hq: 'RCMP National Headquarters', quebec: 'Quebec', saskatchewan: 'Saskatchewan', yukon: 'Yukon' },		
       removeFilter:   'Remove filter: ',
@@ -361,7 +364,7 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
       orSep:          'or'
     },
     fr: {
-categoryLabels:  { assault: 'Assault', be: 'Break and enter', disturbance: 'Disturbance', homicide: 'Homicide', crossing: 'Illegal border crossing', drugs: 'Illicit drugs', missing: 'Missing person', crime: 'Organized crime', property: 'Interest', property: 'Public interest', theft: 'Theft', traffic: 'Traffic services', trafficking: 'Trafficking', wanted: 'Wanted', weapons: 'Weapons' },
+categoryLabels:  {assault: 'Assault', be: 'Break and enter', disturbance: 'Disturbance', emergency: 'Emergency', homicide: 'Homicide', national: 'National security', drugs: 'Illicit drugs', missing: 'Missing person', crime: 'Organized crime', property: 'Property damage', public: 'Public interest', theft: 'Theft', traffic: 'Traffic', trafficking: 'Trafficking', wanted: 'Wanted', weapons: 'Weapons' },
 territoryLabels:  { alberta: 'Alberta', bc: 'British Columbia', manitoba: 'Manitoba', nb: 'New Brunswick', nl: 'Newfoundland and Labrador', nwt: 'Northwest Territories', ns: 'Nova Scotia', nunavut: 'Nunavut', ontario: 'Ontario', pei: 'Prince Edward Island', quebec: 'Quebec', saskatchewan: 'Saskatchewan', yukon: 'Yukon' },		
 regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 'Federal Policing Central Region', eastern: 'Federal Policing Eastern Region', nw: 'Federal Policing Northwest Region', pacific: 'Federal Policing Pacific Region', manitoba: 'Manitoba RCMP', nb: 'New Brunswick RCMP', nl: 'Newfoundland and Labrador RCMP', nwt: 'Northwest Territories RCMP', ns: 'Nova Scotia RCMP', nunavut: 'Nunavut  RCMP', pei: 'Prince Edward Island RCMP', depot: 'RCMP Depot Division', hq: 'RCMP National Headquarters', quebec: 'Quebec', saskatchewan: 'Saskatchewan', yukon: 'Yukon' },		
       removeFilter:   'Retirer le filtre\u00A0: ',
@@ -394,8 +397,8 @@ regionLabels:  { alberta: 'Alberta RCMP', bc: 'British Columbia RCMP', central: 
     ['Regina RCMP served an IRP on Monday morning', 'Regina RCMP served an IRP on Monday morning', ' ', 'Disturbance', 'Regina', 'Saskatchewan', 'Saskatchewan RCMP', 'Regina RCMP served an IRP', '2026-04-30&nbsp;15:11:41', ' ' ],
     ['Antigonish County District RCMP charges man after he flees from officers', 'Antigonish County District RCMP charges man after he flees from officers', ' ', 'Break and enter', 'Antigonish', 'Nova Scotia', 'Nova Scotia RCMP', 'RCMP charges man after he flees from officers', '2026-04-28&nbsp;11:11:33', ' '],
     ['RCMP opening ceremonies for new detachment in the City of Pitt Meadows', 'RCMP opening ceremonies for new detachment in the City of Pitt Meadows', ' ', 'Public interest', 'Pitt Meadows', 'British Columbia', 'British Columbia RCMP', 'New detachment in the city of Pitt Meadows', '2026-04-26&nbsp;14:11:11', ' ' ],
-	['Police Dog Service, conducted a targeted vehicle stop in Summerside', 'Police Dog Service, conducted a targeted vehicle stop in Summerside', ' ', 'Traffic enforcement', 'Summerside', 'British Columbia', 'British Columbia RCMP', 'Targeted vehicle stop in Summerside', '2026-04-26&nbsp;12:12:03', ' ' ],  
-    ['Alberta RCMP enforces safe driving during Canada Road Safety Week and Victoria Day long weekend', 'Alberta RCMP enforces safe driving during Canada Road Safety Week and Victoria Day long weekend', ' ', 'Traffic enforcement', 'Edmonton', 'Alberta', 'Alberta RCMP', 'Safe driving during Canada Road Safety Week and Victoria Day long weekend', '2026-04-24&nbsp;07:11:03', ' ' ],
+	['Police Dog Service, conducted a targeted vehicle stop in Summerside', 'Police Dog Service, conducted a targeted vehicle stop in Summerside', ' ', 'Traffic', 'Summerside', 'British Columbia', 'British Columbia RCMP', 'Targeted vehicle stop in Summerside', '2026-04-26&nbsp;12:12:03', ' ' ],  
+    ['Alberta RCMP enforces safe driving during Canada Road Safety Week and Victoria Day long weekend', 'Alberta RCMP enforces safe driving during Canada Road Safety Week and Victoria Day long weekend', ' ', 'Traffic', 'Edmonton', 'Alberta', 'Alberta RCMP', 'Safe driving during Canada Road Safety Week and Victoria Day long weekend', '2026-04-24&nbsp;07:11:03', ' ' ],
     ['RCMP seek public assistance to identify suspect in bus driver assault', 'RCMP seek public assistance to identify suspect in bus driver assault', ' ', 'Wanted persons', 'Ottawa', 'Ontario','RCMP National Headquarters', 'Seeking public assistance to identify suspect in bus driver assault', '2026-04-22&nbsp;16:33:13', ' ' ]
   ];
   var PROFILES = RAW.map(function (r, i) {

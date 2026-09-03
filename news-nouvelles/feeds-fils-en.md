@@ -2,11 +2,10 @@
 layout: default
 title: Bob the Polar Bear’s unexpected visit to headquarters
 description: My page description
-date_modified: 2026-05-20
+date_modified: 2026-09-03
 lang: en
 lang_url: statement-declaration-fr.html
-lead: Statement
-issued: 2026-05-20
+issued: 2026-09-03
 breadcrumbs:
   - label: "News and communications"
     url: "/en/news"
@@ -88,159 +87,152 @@ font-size: 1.1rem;
 .location {
     color: #404040;
 }		
-a.news-topic-1:link, a.news-topic-1:visited {
-    background-color: #ebfaf0;
-    color: #14522b;
-	border-radius: 0;
-	border: 1px solid #14522b;
-	padding: 4px 10px;
-	font-size: 1rem;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-a.news-topic-1:hover, a.primary-topic:active {
-	background-color: #ffffff;
-    color: #14522b;
-}	
-	a.news-topic-3:link, a.news-topic-3:visited
-	{
-    background-color: #e1d6f5;
-	color: #361966;
-	padding: 8px 10px;		
-	font-size: 0.8em;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-	border-left: 5px solid #361966;
-	border-right: 1px solid #361966;
-	border-bottom: 1px solid #361966;
-	border-top: 1px solid #361966;			
-}
-	a.news-topic-3:hover, a.news-topic-3:active {
-	background-color: white;
-    color: #361966;
-	border-left: 5px solid #361966;
-	border-right: 1px solid #361966;
-	border-bottom: 1px solid #361966;
-	border-top: 1px solid #361966;
-}
-   a.news-topic-4:link, a.news-topic-4:visited
-	{
-   background-color: #f9d2d7;
-   color: #590d17;
-   padding: 8px 10px;	
-   font-size: 0.8em;	
-   font-weight: bold;	
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   border-left: 5px solid #590d17;
-   border-right: 1px solid #590d17;
-   border-bottom: 1px solid #590d17;
-   border-top: 1px solid #590d17;	
-}
-	a.news-topic-4:hover, a.news-topic-4:active {
-	background-color: white;
-    color: #590d17;
-	border-left: 5px solid #590d17;
-	border-right: 1px solid #590d17;
-	border-bottom: 1px solid #590d17;
-	border-top: 1px solid #590d17;
-}
 </style>
-<article>
-<p class="lead">Earlier today, employees at RCMP National Headquarters received an unexpected visitor.</p>
+<p>Stay informed by accessing the web feeds to get the latest RCMP news.</p>
+<p>Choose a news feed listed by:</p>
+	<ul>
+	<li>division, Federal Policing regions and National Headquarters</li>
+	<li>topic</li>	
+	<li>type</li>
+	</ul>	
+<p>Once you’ve made your selection, copy the URL from your browser's address bar and paste it into your web feed reader.</p>
 <div class="explore">
 <div class="byline">	
-<ol class="list-inline">
-  <li><span class="publish-date"><i class="fa-solid fa-calendar-days"></i>&nbsp;&nbsp;May&nbsp;14, 2026&nbsp;&nbsp;|</span></li>
-  <li><span class="location"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;Hay River, Northwest Territories&nbsp;&nbsp;|</span></li>
-  <li><span class="author-name"><i class="fa-regular fa-circle-user"></i>&nbsp;&nbsp;<a href="#">Northwest Territories RCMP</a></span></li>
-	</ol>
+<button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
 </div>
+<div id="expand-collapse">
+  <details>
+    <summary>News feeds by division, Federal Policing regions and national headquarters</summary>
+    <ul>
+    <li>
+      <a href="/en/feed-flux/news-nouvelles">National Headquarters</a>
+    </li>
+    <li>
+      <a href="/en/feed-flux/news-nouvelles/division/k">Alberta <abbr>RCMP</abbr></a>
+    </li>
+    <li>
+      <a href="/en/feed-flux/news-nouvelles/division/e">British Columbia <abbr>RCMP</abbr></a>
+    </li>
+    <li>
+      <a href="/en/feed-flux/news-nouvelles/region/central">Federal Policing Central Region</a>
+    </li>
+    <li>
+      <a href="/en/feed-flux/news-nouvelles/region/eastern">Federal Policing Eastern Region</a>
+    </li>
+    <li>
+      <a href="/en/feed-flux/news-nouvelles/region/northwest">Federal Policing Northwest Region</a>
+    </li>
+    <li>
+      <a href="/en/feed-flux/news-nouvelles/region/pacific">Federal Policing Pacific Region</a>
+    </li>
+    <li>
+      <a href="/en/feed-flux/news-nouvelles/division/d">Manitoba <abbr>RCMP</abbr></a>
+    </li>
+    <li>
+      <a href="/en/feed-flux/news-nouvelles/division/j">New Brunswick <abbr>RCMP</abbr></a>
+    </li>
+    <li>
+      <a href="/en/feed-flux/news-nouvelles/division/b">Newfoundland and Labrador <abbr>RCMP</abbr></a>
+    </li>
+    <li>
+      <a href="/en/feed-flux/news-nouvelles/division/g">Northwest Territories <abbr>RCMP</abbr></a>
+    </li>
+    <li>
+      <a href="/en/feed-flux/news-nouvelles/division/h">Nova Scotia <abbr>RCMP</abbr></a>
+    </li>
+    <li>
+      <a href="/en/feed-flux/news-nouvelles/division/v">Nunavut <abbr>RCMP</abbr></a>
+    </li>
+    <li>
+      <a href="/en/feed-flux/news-nouvelles/division/l">Prince Edward Island <abbr>RCMP</abbr></a>
+    </li>
+    <li>
+      <a href="/en/feed-flux/news-nouvelles/division/depot"><abbr>RCMP</abbr> Depot Division</a>
+    </li>
+    <li>
+      <a href="/en/feed-flux/news-nouvelles/division/f">Saskatchewan <abbr>RCMP</abbr></a>
+    </li>
+    <li>
+      <a href="/en/feed-flux/news-nouvelles/division/m">Yukon <abbr>RCMP</abbr></a>
+    </li>
+  </ul>
+  </details>
+  <details>
+    <summary>News feed by topic</summary>
+   <ul>
+	<li>
+	  <a href="#">Assault</a>
+    </li>
+	<li>
+	  <a href="#">National security</a>
+    </li>
+	<li>
+	  <a href="#">Break and enter</a>
+    </li>
+	<li>
+	  <a href="#">Disturbance</a>
+    </li>
+	<li>
+	  <a href="#">Emergency</a>
+    </li>
+	<li>
+	  <a href="#">Homicide</a>
+    </li>
+	<li>
+	  <a href="#">Human trafficking</a>
+    </li>
+	<li>
+	  <a href="#">Illicit drugs</a>
+    </li>
+	<li>
+	  <a href="#">Missing persons</a>
+    </li>
+	<li>
+	  <a href="#">Organized crime</a>
+    </li>
+	<li>
+	  <a href="#">Property damage</a>
+    </li>
+	<li>
+	  <a href="#">Public interest</a>
+    </li>
+	<li>
+	  <a href="#">Theft</a>
+    </li>
+	<li>
+	  <a href="#">Traffic</a>
+    </li>
+	<li>
+	  <a href="#">Theft</a>
+    </li>
+	<li>
+	  <a href="#">Wanted persons</a>
+    </li>  
+	<li>
+	  <a href="#">Weapons</a>
+    </li>
+  </ul>
+  </details>
+  <details>
+    <summary>News feeds by type</summary>
+   <ul>
+    <li>
+      <a href="/en/feed-flux/news-nouvelles/product-produit/backgrounder">Backgrounders</a>
+    </li>
+	<li>
+	  <a href="/en/feed-flux/news-nouvelles/product-produit/media-advisory">Media advisories</a>
+    </li>
+	<li>
+	  <a href="/en/feed-flux/news-nouvelles/product-produit/news-release">News releases</a>
+    </li>
+	<li>
+	  <a href="/en/feed-flux/news-nouvelles/product-produit/speech">Speech</a>
+    </li>
+	<li>
+	  <a href="/en/feed-flux/news-nouvelles/product-produit/statement">Statements</a>
+    </li>
+  </ul>
+  </details>
 </div>
-<p>Earlier today, employees at RCMP National Headquarters received an unexpected visitor when Bob the Polar Bear, the RCMP’s unofficial northern mascot, entered the main lobby carrying what witnesses described as “extremely strong confidence” and a travel mug.</p>
- <p>At no time was public safety at risk.</p>	
- <p>Bob’s visit appears to have been connected to an informal campaign advocating for longer outdoor lunch breaks during winter months. Discussions reportedly ended after officials agreed that “fresh air is important” and someone provided frozen salmon snacks.</p>
-<p>The RCMP appreciates the professionalism shown by employees and security personnel during the visit. Staff members responded appropriately, remained calm, and, in most cases, resisted taking selfies while on duty.</p>
-<p>Although Bob is a fictional mascot used during community outreach activities, the RCMP recognizes the positive role public engagement initiatives can play in building relationships with communities across Canada.</p>
-<p>The RCMP remains committed to:</p>
-<ul>
-		<li>community safety</li>
-		<li>meaningful engagement</li>
-		<li>youth outreach</li>
-		<li>public trust</li>
-</ul>
-<p>As part of that work, the organization continues to support activities that encourage positive interactions between police and the public in safe and welcoming environments.</p>
-<p>Questions have also been raised regarding reports that Bob briefly attempted to “supervise” a morning briefing. At this time, there is no evidence that operational decisions were influenced by polar bear input.</p>
-<p>No further information is available.</p>
-<section id="links">
-<h2 class="h3">Associated links</h2>
-<ul>
-<li><a href="#">Royal Canadian Mounted Police</a></li>	
-<li><a href="#">Emergency preparedness</a></li>
-</ul>
-</section>	
-<section id="gc-contact" class="contact-us">
-	<h3>Contact us</h3>
-	<div class="contact-signature">	
-	<div class="row wb-eqht">	
-	<div class="col-md-4">	
-    <h4 class="news-contact-h4">National Headquarters</h4>
-   <p class="news-contact-p"><a href="mailto:media@rcmp-grc.gc.ca">media@rcmp-grc.gc.ca</a><br>
-   613-555-0100</p>
-	<section class="gc-followus">
-<h4 class="mrgn-tp-lg wb-inv">Follow us</h4>
-<ul class="list-inline">     
-<li>
-     <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
-     <span class="wb-inv">X: </span>X: Royal Canadian Mounted Police</a>
-</li>	
-<li>
-     <a href="https://www.facebook.com/rcmpgrc" class="facebook" rel="external">
-          <span class="wb-inv">Facebook: </span>Facebook: Royal Canadian Mounted Police</a>
-</li>           
-<li>
-     <a href="https://www.instagram.com/rcmpgrcpolice/" class="instagram" rel="external">
-          <span class="wb-inv">Instagram: </span>Instagram: Royal Canadian Mounted Police</a>
-</li>
-							</ul>
-	</section>	
-	</div>	
-	<div class="col-md-8">	
-<h4 class="news-contact-h4">Northwest Territories RCMP</h4>
-  <p class="news-contact-p"><a href="mailto:rcmp.ntmedia-ntmedias.grc@rcmp-grc.gc.ca">rcmp.ntmedia-ntmedias.grc@rcmp-grc.gc.ca</a><br> 
-867-555-5555</p>	
-	<section class="gc-followus">
-<h4 class="mrgn-tp-lg wb-inv">Follow us</h4>
-<ul class="list-inline">     
-<li>
-     <a href="https://x.com/rcmpgrcpolice" class="x" rel="external">
-     <span class="wb-inv">X: </span>X: Royal Canadian Mounted Police</a>
-</li>	
-<li>
-     <a href="https://www.facebook.com/rcmpgrc" class="facebook" rel="external">
-          <span class="wb-inv">Facebook: </span>Facebook: Royal Canadian Mounted Police</a>
-</li>           
-<li>
-     <a href="https://www.instagram.com/rcmpgrcpolice/" class="instagram" rel="external">
-          <span class="wb-inv">Instagram: </span>Instagram: Royal Canadian Mounted Police</a>
-</li>
-							</ul>
-	</section>	
-	</div>			
-	</div>
-	</div>
-   </section>
-	<div class="clearfix"></div>	
 <div class="explore">
-<section id="topics">
-<h2 class="h4 mrgn-tp-sm mrgn-bttm-md">Explore related topics</h2>
-<ol class="list-inline">
-  <li><a href="#" class="news-topic-1">Public interest</a></li>
-</ol>
-</section>
 </div>

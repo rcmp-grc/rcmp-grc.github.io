@@ -1,7 +1,7 @@
 ---
 layout: super_landing
 title: Firearms
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 lang: en
 lang_url: index-fr.html
 issued: 2026-05-05
@@ -88,7 +88,7 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
         <p>Information for executors of estates and beneficiaries of firearms, including the legal procedures involved.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Firearms forms</a></h3>
+        <h3><a href="#">Firearms forms and reports</a></h3>
         <p>Firearms forms for individuals, businesses and police and public agencies.</p>
       </div>
       <div class="col-lg-4 col-md-6">
@@ -113,28 +113,6 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
     </section>
   </div>
 </div>
-<div class="container">
-  <div class="row">
-    <div class="col-md-4">
-      <section class="wb-feeds limit-3">
-        <h2>News</h2>
-        <ul class="feeds-cont list-unstyled lst-spcd">
-          <li>
-            <a href="#"><cite>Firearms Marking Regulations</cite> deferral</a><br>
-            <small class="feeds-date"><time>2025-11-30</time></small>
-          </li>
-          <li>
-            <a href="#">Don't miss important notifications from the Canadian Firearms Program</a><br>
-            <small class="feeds-date"><time>2025-11-27</time></small>
-          </li>
-          <li>
-            <a href="#">March 7, 2025, firearm prohibition</a><br>
-            <small class="feeds-date"><time>2025-10-17</time></small>
-          </li>
-        </ul>
-        <p>More: <a href="#">Firearms news</a></p>
-      </section>
-    </div>
     <div class="col-md-8">
       <section class="gc-features">
         <h2>Features</h2>
@@ -144,6 +122,14 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
               <img alt="" src="feature-1-360x203.png">
               <h3><a class="stretched-link" href="#">Commissioner of Firearms 2025 Report</a></h3>
               <p>Read the report to Parliament.</p>
+            </div>
+          </div>
+          <div class="row wb-eqht-grd">
+          <div class="col-sm-6 hght-inhrt">
+            <div class="well well-sm eqht-trgt hght-inhrt">
+              <img alt="" src="feature-1-360x203.png">
+              <h3><a class="stretched-link" href="https://publications.gc.ca/site/eng/9.801815/publication.html">Firearms safety courses</a></h3>
+              <p>Access the Canadian Firearms Safety Course and Canadian Restricted Firearms Safety Course materials.</p>
             </div>
           </div>
           <div class="col-sm-6 hght-inhrt">

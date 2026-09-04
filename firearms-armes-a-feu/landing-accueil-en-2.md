@@ -132,7 +132,7 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
             <div class="well well-sm eqht-trgt hght-inhrt">
               <img alt="" src="feature-2-360x203.png">
               <h3><a class="stretched-link" href="https://publications.gc.ca/site/eng/9.801815/publication.html">Firearms safety courses</a></h3>
-              <p>Access the Canadian Firearms Safety Course and Canadian Restricted Firearms Safety Course materials.</p>
+              <p>Access the Canadian Firearms Safety Course materials.</p>
             </div>
           </div>
             <div class="row wb-eqht-grd">

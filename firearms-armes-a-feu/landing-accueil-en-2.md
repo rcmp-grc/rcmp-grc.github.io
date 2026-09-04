@@ -116,12 +116,12 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
     </section>
   </div>
 </div>
+
 <div class="container">
   <div class="row">
       <section class="gc-features">
         <h2>Features</h2>
         <div class="row wb-eqht-grd">
-          <div class="col-sm-4 hght-inhrt">
             <div class="well well-sm eqht-trgt hght-inhrt">
               <img alt="" src="feature-1-360x203.png">
               <h3><a class="stretched-link" href="#">Commissioner of Firearms 2025 Report</a></h3>
@@ -129,7 +129,6 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
             </div>
           </div>
           <div class="row wb-eqht-grd">
-          <div class="col-sm-4 hght-inhrt">
             <div class="well well-sm eqht-trgt hght-inhrt">
               <img alt="" src="feature-1-360x203.png">
               <h3><a class="stretched-link" href="https://publications.gc.ca/site/eng/9.801815/publication.html">Firearms safety courses</a></h3>
@@ -137,7 +136,6 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
             </div>
           </div>
             <div class="row wb-eqht-grd">
-          <div class="col-sm-4 hght-inhrt">
             <div class="well well-sm eqht-trgt hght-inhrt">
               <img alt="" src="feature-2-360x203.png">
               <h3><a class="stretched-link" href="#">MyCFP</a></h3>
@@ -147,3 +145,4 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
         </div>
       </section>
     </div>
+</div>  

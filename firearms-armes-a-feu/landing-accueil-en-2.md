@@ -118,7 +118,6 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
 </div>
 <div class="container">
   <div class="row">
-    <div class="col-md-8">
       <section class="gc-features">
         <h2>Features</h2>
         <div class="row wb-eqht-grd">
@@ -137,6 +136,7 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
               <p>Access the Canadian Firearms Safety Course and Canadian Restricted Firearms Safety Course materials.</p>
             </div>
           </div>
+            <div class="row wb-eqht-grd">
           <div class="col-sm-6 hght-inhrt">
             <div class="well well-sm eqht-trgt hght-inhrt">
               <img alt="" src="feature-2-360x203.png">
@@ -147,5 +147,3 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
         </div>
       </section>
     </div>
-  </div>
-</div>

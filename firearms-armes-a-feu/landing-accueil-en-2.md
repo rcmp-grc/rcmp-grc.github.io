@@ -118,30 +118,34 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
 </div>
 
 <div class="container">
-  <div class="row">
-      <section class="gc-features">
-        <h2>Features</h2>
-        <div class="row wb-eqht-grd">
-            <div class="well well-sm eqht-trgt hght-inhrt">
-              <img alt="" src="feature-1-360x203.png">
-              <h3><a class="stretched-link" href="#">Commissioner of Firearms 2025 Report</a></h3>
-              <p>Read the report to Parliament.</p>
+    <div class="row">
+        <section class="gc-features">
+            <h2>Features</h2>
+            <div class="row wb-eqht">
+                <div class="col-md-4">
+                    <div class="well well-sm brdr-rds-0 eqht-trgt position-relative">
+                        <img alt="" src="feature-1-360x203.png">
+                        <h3><a class="stretched-link" href="#">Commissioner of Firearms 2025 Report</a></h3>
+                        <p>Read the report to Parliament.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="well well-sm brdr-rds-0 eqht-trgt position-relative">
+                        <img alt="" src="feature-2-360x203.png">
+                        <h3><a class="stretched-link"
+                                href="https://publications.gc.ca/site/eng/9.801815/publication.html">Firearms safety
+                                courses</a></h3>
+                        <p>Access the Canadian Firearms Safety Course materials.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="well well-sm brdr-rds-0 eqht-trgt position-relative">
+                        <img alt="" src="feature-2-360x203.png">
+                        <h3><a class="stretched-link" href="#">MyCFP</a></h3>
+                        <p>Access our portal for secure online services.</p>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="row wb-eqht-grd">
-            <div class="well well-sm eqht-trgt hght-inhrt">
-              <img alt="" src="feature-2-360x203.png">
-              <h3><a class="stretched-link" href="https://publications.gc.ca/site/eng/9.801815/publication.html">Firearms safety courses</a></h3>
-              <p>Access the Canadian Firearms Safety Course materials.</p>
-            </div>
-          </div>
-            <div class="row wb-eqht-grd">
-            <div class="well well-sm eqht-trgt hght-inhrt">
-              <img alt="" src="feature-2-360x203.png">
-              <h3><a class="stretched-link" href="#">MyCFP</a></h3>
-              <p>Access our portal for secure online services.</p>
-            </div>
-          </div>
-      </section>
+        </section>
     </div>
-</div>  
+</div> 

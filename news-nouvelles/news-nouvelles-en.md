@@ -136,11 +136,14 @@ custom_css: /assets/css/careers.css
       <p>RCMP news feeds by division, Federal Policing regions, National Headquarters and topics</p>
     </section>
   </div>
+</div>
+<div class="row mrgn-bttm-lg">
   <div class="col-md-4">
     <section class="gc-drmt">
       <h2 class="h5" data-emptytext="Media"><a href="#">Contact Media Relations</a></h2>
       <p>Contact information for the media relations office in the divisions, Federal Policing regions and at National Headquarters</p>
     </section>
+</div>
 </div>
 </div>
 <div class="row mrgn-tp-lg" id="re-page">

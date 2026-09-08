@@ -298,6 +298,7 @@ custom_css: /assets/css/careers.css
           <i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-right"></i>
         </button>
       </div>
+	   <p><a href="#">Search all news articles</a></p>
     </nav>
 	  </div>
 </div>  

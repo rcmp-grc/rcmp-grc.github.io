@@ -145,7 +145,6 @@ custom_css: /assets/css/careers.css
     </section>
 </div>
 </div>
-</div>
 <div class="row mrgn-tp-lg" id="re-page">
 	<div class="col-md-3" id="re-sidebar">
 	<h2 class="h6 news-filters-heading">Search</h2>	

@@ -142,7 +142,6 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
               <p>Access our portal for secure online services.</p>
             </div>
           </div>
-        </div>
       </section>
     </div>
 </div>  

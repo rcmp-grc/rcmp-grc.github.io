@@ -119,8 +119,7 @@ custom_css: /assets/css/careers.css
    border-radius: 0;
 }		 
 </style>
-<p>Read the RCMP news and communications.</p>
-</div>
+<p>Search all RCMP news and communications.</p>
 <div class="row mrgn-tp-lg" id="re-page">
 	<div class="col-md-3" id="re-sidebar">
 	<h2 class="h6 news-filters-heading">Search</h2>	

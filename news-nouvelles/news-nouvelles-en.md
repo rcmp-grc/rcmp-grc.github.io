@@ -116,7 +116,7 @@ custom_css: /assets/css/careers.css
    border-radius: 0;
 }		 
 </style>
-<p>Read the most recent 1000 RCMP news and communication articles.</p>
+<p>Access the most recent 1000&nbsp;RCMP news and communication articles.</p>
 <div class="row mrgn-bttm-lg">
   <div class="col-md-4">
     <section class="gc-drmt">
@@ -126,7 +126,7 @@ custom_css: /assets/css/careers.css
   </div>
 	<div class="col-md-4">
     <section class="gc-drmt">
-      <h2 class="h5" data-emptytext="Feeds"><a href="https://rcmp-grc.github.io/news-nouvelles/feeds-fils-en.html">Advanced search of news</a></h2>
+      <h2 class="h5" data-emptytext="Feeds"><a href="https://rcmp-grc.github.io/news-nouvelles/advanced-avance-en.html">Advanced search news</a></h2>
       <p>Search all news and communication articles</p>
     </section>
   </div>

@@ -137,7 +137,7 @@ custom_css: /assets/css/careers.css
     </section>
   </div>
 </div>
-<div class="row mrgn-bttm-lg">
+<div class="row mrgn-bttm-md">
   <div class="col-md-4">
     <section class="gc-drmt">
       <h2 class="h5" data-emptytext="Media"><a href="#">Contact Media Relations</a></h2>

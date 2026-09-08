@@ -299,7 +299,7 @@ custom_css: /assets/css/careers.css
         </button>
       </div>
     </nav>
-	  <p class="text-center"><a href="#">Search all news articles</a></p>
+	  <p class="text-center mrgn-tp-lg"><a href="#">Search all news articles</a></p>
 	  </div>
 </div>  
 <section class="gc-features mrgn-bttm-lg">

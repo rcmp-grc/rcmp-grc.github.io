@@ -117,7 +117,7 @@ custom_css: /assets/css/careers.css
 }		 
 </style>
 <p>Access the most recent 1000&nbsp;RCMP news and communication articles.</p>
-<div class="row mrgn-bttm-lg">
+<div class="row mrgn-bttm-md">
   <div class="col-md-4">
     <section class="gc-drmt">
       <h2 class="h5" data-emptytext="Executive"><a href="/en/news/comm-en.html">Read the news from our executive</a></h2>
@@ -137,7 +137,7 @@ custom_css: /assets/css/careers.css
     </section>
   </div>
 </div>
-<div class="row mrgn-bttm-md">
+<div class="row">
   <div class="col-md-4">
     <section class="gc-drmt">
       <h2 class="h5" data-emptytext="Media"><a href="#">Contact Media Relations</a></h2>

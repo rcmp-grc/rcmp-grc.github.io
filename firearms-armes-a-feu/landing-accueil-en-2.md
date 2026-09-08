@@ -1,7 +1,7 @@
 ---
 layout: super_landing
 title: Firearms
-date_modified: 2026-09-04
+date_modified: 2026-09-08
 lang: en
 lang_url: index-fr.html
 issued: 2026-05-05

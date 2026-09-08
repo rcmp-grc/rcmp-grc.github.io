@@ -9,6 +9,9 @@ author:
 creator:
 subject:
 issued: 2026-08-08
+breadcrumbs:
+  - label: "News and communications"
+    url: "/en/news"
 custom_css: /assets/css/careers.css
 ---
 

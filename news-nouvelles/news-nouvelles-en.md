@@ -116,12 +116,18 @@ custom_css: /assets/css/careers.css
    border-radius: 0;
 }		 
 </style>
-<p>Read the RCMP news and communications.</p>
+<p>Read the most recent 1000 RCMP news and communication articles.</p>
 <div class="row mrgn-bttm-lg">
   <div class="col-md-4">
     <section class="gc-drmt">
       <h2 class="h5" data-emptytext="Executive"><a href="/en/news/comm-en.html">Read the news from our executive</a></h2>
-      <p>News shared by the leaders of the <abbr>RCMP</abbr> across Canada</p>
+      <p>News shared by the leaders of the RCMP across Canada</p>
+    </section>
+  </div>
+	<div class="col-md-4">
+    <section class="gc-drmt">
+      <h2 class="h5" data-emptytext="Feeds"><a href="https://rcmp-grc.github.io/news-nouvelles/feeds-fils-en.html">Advanced search of news</a></h2>
+      <p>Search all news and communication articles</p>
     </section>
   </div>
 	<div class="col-md-4">
@@ -130,13 +136,14 @@ custom_css: /assets/css/careers.css
       <p>RCMP news feeds by division, Federal Policing regions, National Headquarters and topics</p>
     </section>
   </div>
-	<div class="col-md-4">
+</div>
+	<div class="row mrgn-bttm-lg">
+  <div class="col-md-4">
     <section class="gc-drmt">
       <h2 class="h5" data-emptytext="Media"><a href="#">Contact Media Relations</a></h2>
       <p>Contact information for the media relations office in the divisions, Federal Policing regions and at National Headquarters</p>
     </section>
   </div>
-	
 </div>
 <div class="row mrgn-tp-lg" id="re-page">
 	<div class="col-md-3" id="re-sidebar">
@@ -299,7 +306,7 @@ custom_css: /assets/css/careers.css
         </button>
       </div>
     </nav>
-	  <p class="text-center mrgn-tp-lg mrgn-lft-lg"><a href="#">Search all news articles</a></p>
+	  <p class="text-center mrgn-tp-lg mrgn-lft-lg"><a href="https://rcmp-grc.github.io/news-nouvelles/advanced-avance-en.html">Search all news and communication articles</a></p>
 	  </div>
 </div>  
 <section class="gc-features mrgn-bttm-lg">

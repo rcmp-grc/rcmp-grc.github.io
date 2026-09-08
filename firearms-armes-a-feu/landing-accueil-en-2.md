@@ -54,40 +54,40 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
         <p>Information about requirements for firearms licences, including exceptions in certain circumstances, for individuals and businesses.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Classes of firearms</a></h3>
-        <p>Firearms in Canada fall into three different classes: non-restricted, restricted, and prohibited.</p>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Buying and selling (transferring) firearms</a></h3>
-        <p>Information about the requirements for buying, selling and transferring firearms.</p>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Importing and exporting</a></h3>
-        <p>Information about the procedures and regulations for importing and exporting firearms, ammunition and list of licensed carriers.</p>
-      </div>
-      <div class="col-lg-4 col-md-6">
         <h3><a href="#">Registration and verification of firearms</a></h3>
         <p>Information about types of firearms and firearm verification and registration requirements for restricted and prohibited firearms.</p>
-      </div>
-       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Deactivating a firearm</a></h3>
-        <p>Find businesses authorized to perform firearm deactivations.</p>
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Firearms safety training, transport and storage</a></h3>
         <p>Information on firearms safety training and guidelines for safe practices in storing, transporting and displaying firearms.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">History of firearms</a></h3>
-        <p>Information about the History of firearms in Canada.</p>
-      </div>
-      <div class="col-lg-4 col-md-6">
         <h3><a href="#">Shooting clubs and ranges</a></h3>
         <p>Information on design guidelines and sound requirements for shooting clubs and ranges.</p>
       </div>
       <div class="col-lg-4 col-md-6">
+        <h3><a href="#">History of firearms</a></h3>
+        <p>Information about the History of firearms in Canada.</p>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h3><a href="#">Deactivating a firearm</a></h3>
+        <p>Find businesses authorized to perform firearm deactivations.</p>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h3><a href="#">Importing and exporting</a></h3>
+        <p>Information about the procedures and regulations for importing and exporting firearms, ammunition and list of licensed carriers.</p>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h3><a href="#">Buying and selling (transferring) firearms</a></h3>
+        <p>Information about the requirements for buying, selling and transferring firearms.</p>
+      </div>
+      <div class="col-lg-4 col-md-6">
         <h3><a href="#">Transfer of firearms from estates</a></h3>
         <p>Information for executors of estates and beneficiaries of firearms, including the legal procedures involved.</p>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h3><a href="#">Classes of firearms</a></h3>
+        <p>Firearms in Canada fall into three different classes: non-restricted, restricted, and prohibited.</p>
       </div>
       <div class="col-lg-4 col-md-6">
         <h3><a href="#">Firearms forms and reports</a></h3>

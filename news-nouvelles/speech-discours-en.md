@@ -117,16 +117,8 @@ a.news-topic:hover, a.news-topic:active {
 }	
 </style>
 <article>
-<div class="row">
-  <div class="news-alert pull-right col-sm-4">
-	  <h2><span class="label label-info">Check against deliver</span></h2>
-	  <p>Speech given at the Community winter safety and northern outreach event</p>
-  </div>
-  <div class="mrgn-lft-md">
+
    <p class="lead">It is not every day a polar bear gets invited indoors and offered coffee before the officers.</p>
- </div>
-</div>
-<div class="clearfix"></div>
 <div class="explore">
 <div class="byline">	
 <ol class="list-inline">
@@ -137,6 +129,7 @@ a.news-topic:hover, a.news-topic:active {
 </div>
 </div>
 <section id="page-navigation" class="article-content mrgn-bttm-lg">
+	<p><strong>Check against deliver</strong> - Speech given at the Community winter safety and northern outreach event</p>
 	<h2 class="h3 mrgn-tp-0">On this page</h2>
 	<ul>
 		<li><a href="#s1">Supporting youth and community connections</a></li>

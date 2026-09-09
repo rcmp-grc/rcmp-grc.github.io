@@ -306,7 +306,7 @@ custom_css: /assets/css/careers.css
         </button>
       </div>
     </nav>
-	  <p class="text-center mrgn-tp-lg mrgn-lft-lg"><a href="https://rcmp-grc.github.io/news-nouvelles/advanced-avance-en.html">Search all news and communication articles</a></p>
+	  <p class="text-center mrgn-tp-lg mrgn-lft-lg"><a href="https://rcmp-grc.github.io/news-nouvelles/advanced-avance-en.html">Search all news articles</a></p>
 	  </div>
 </div>  
 <section class="gc-features mrgn-bttm-lg">

@@ -88,11 +88,11 @@ font-size: 1.1rem;
 .location {
     color: #404040;
 }		
-a.news-topic-1:link, a.news-topic-1:visited {
-    background-color: #ebfaf0;
-    color: #14522b;
+a.news-topic:link, a.news-topic:visited {
+    background-color: #ffffff;
+    color: #000000;
 	border-radius: 0;
-	border: 1px solid #14522b;
+	border: 1px solid #000000;
 	padding: 4px 10px;
 	font-size: 1rem;
     font-weight: bold;	
@@ -100,57 +100,11 @@ a.news-topic-1:link, a.news-topic-1:visited {
     text-decoration: none;
     display: inline-block;
 }
-a.news-topic-1:hover, a.primary-topic:active {
+a.news-topic:hover, a.news-topic:active {
 	background-color: #ffffff;
-    color: #14522b;
-	border: 1px solid #14522b;
-}
-	a.news-topic-3:link, a.news-topic-3:visited
-	{
-    background-color: #e1d6f5;
-	color: #361966;
-	padding: 8px 10px;		
-	font-size: 0.8em;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-	border-left: 5px solid #361966;
-	border-right: 1px solid #361966;
-	border-bottom: 1px solid #361966;
-	border-top: 1px solid #361966;			
-}
-	a.news-topic-3:hover, a.news-topic-3:active {
-	background-color: white;
-    color: #361966;
-	border-left: 5px solid #361966;
-	border-right: 1px solid #361966;
-	border-bottom: 1px solid #361966;
-	border-top: 1px solid #361966;
-}
-   a.news-topic-4:link, a.news-topic-4:visited
-	{
-   background-color: #f9d2d7;
-   color: #590d17;
-   padding: 8px 10px;	
-   font-size: 0.8em;	
-   font-weight: bold;	
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   border-left: 5px solid #590d17;
-   border-right: 1px solid #590d17;
-   border-bottom: 1px solid #590d17;
-   border-top: 1px solid #590d17;	
-}
-	a.news-topic-4:hover, a.news-topic-4:active {
-	background-color: white;
-    color: #590d17;
-	border-left: 5px solid #590d17;
-	border-right: 1px solid #590d17;
-	border-bottom: 1px solid #590d17;
-	border-top: 1px solid #590d17;
-}
+    color: #595959;
+	border: 1px solid #595959;
+}	
 </style>
 <article>
 <p class="lead">The Royal Canadian Mounted Police will host a community winter safety event featuring Bob the Polar Bear, the RCMP’s unofficial northern mascot.</p>
@@ -264,7 +218,7 @@ a.news-topic-1:hover, a.primary-topic:active {
 <section id="topics">
 <h2 class="h4 mrgn-tp-sm mrgn-bttm-md">Explore related topics</h2>
 <ol class="list-inline">
-  <li><a href="#" class="news-topic-1">Public interest</a></li>
+  <li><a href="#" class="news-topic">Public interest</a></li>
 </ol>
 </section>
 </div>

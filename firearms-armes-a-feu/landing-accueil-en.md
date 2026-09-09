@@ -6,7 +6,7 @@ lang: en
 lang_url: index-fr.html
 issued: 2026-05-05
 hero: ip-cover-image-1200x726.jpg
-intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearms Program (<abbr>CFP</abbr>) oversees firearms licences and registration, maintains national firearm safety training standards, assists law enforcement agencies and aims to enhance public safety. Firearms in Canada continue to be regulated by the <a href="https://laws-lois.justice.gc.ca/eng/acts/f-11.6/"><cite>Firearms Act</cite></a> and Part III of the <a href="https://laws-lois.justice.gc.ca/eng/acts/C-46/"><cite>Criminal Code</cite></a>.</p>
+intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearms Program (CFP) oversees firearms licences and registration, maintains national firearm safety training standards, assists law enforcement agencies and aims to enhance public safety. Firearms in Canada continue to be regulated by the <a href="https://laws-lois.justice.gc.ca/eng/acts/f-11.6/"><cite>Firearms Act</cite></a> and Part III of the <a href="https://laws-lois.justice.gc.ca/eng/acts/C-46/"><cite>Criminal Code</cite></a>.</p>
 ---
 
 <div class="container">
@@ -48,51 +48,51 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
     <h2 class="wb-inv">Services and information</h2>
     <div class="row wb-eqht-grd">
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Licensing</a></h3>
+        <h3><a href="https://rcmp.ca/en/firearms/licensing">Licensing</a></h3>
         <p>Information about requirements for firearms licences, including exceptions in certain circumstances, for individuals and businesses.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Registration and verification of firearms</a></h3>
+        <h3><a href="https://rcmp.ca/en/firearms/registration-and-verification-firearms">Registration and verification of firearms</a></h3>
         <p>Information about types of firearms and firearm verification and registration requirements for restricted and prohibited firearms.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Firearms safety training, transport and storage</a></h3>
+        <h3><a href="https://rcmp.ca/en/firearms/firearms-safety-training-transport-and-storage">Firearms safety training, transport and storage</a></h3>
         <p>Information on firearms safety training and guidelines for safe practices in storing, transporting and displaying firearms.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Shooting clubs and ranges</a></h3>
+        <h3><a href="https://rcmp.ca/en/firearms/shooting-clubs-and-ranges">Shooting clubs and ranges</a></h3>
         <p>Information on design guidelines and sound requirements for shooting clubs and ranges.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">History of firearms</a></h3>
+        <h3><a href="https://rcmp.ca/en/firearms/history-firearms-canada">History of firearms</a></h3>
         <p>Information about the History of firearms in Canada.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Deactivating a firearm</a></h3>
+        <h3><a href="https://rcmp.ca/en/firearms/businesses-authorized-perform-firearm-deactivations">Deactivating a firearm</a></h3>
         <p>Find businesses authorized to perform firearm deactivations.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Importing and exporting</a></h3>
+        <h3><a href="https://rcmp.ca/en/firearms/importing-and-exporting">Importing and exporting</a></h3>
         <p>Information about the procedures and regulations for importing and exporting firearms, ammunition and list of licensed carriers.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Buying and selling (transferring) firearms</a></h3>
+        <h3><a href="https://rcmp.ca/en/firearms/buying-and-selling-transferring-firearms">Buying and selling (transferring) firearms</a></h3>
         <p>Information about the requirements for buying, selling and transferring firearms.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Transfer of firearms from estates</a></h3>
+        <h3><a href="https://rcmp.ca/en/firearms/transfer-firearms-estates">Transfer of firearms from estates</a></h3>
         <p>Information for executors of estates and beneficiaries of firearms, including the legal procedures involved.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Classes of firearms</a></h3>
+        <h3><a href="https://rcmp.ca/en/firearms/classes-firearms">Classes of firearms</a></h3>
         <p>Firearms in Canada fall into three different classes: non-restricted, restricted, and prohibited.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Firearms forms</a></h3>
+        <h3><a href="https://rcmp.ca/en/firearms/firearms-forms-and-reports">Firearms forms</a></h3>
         <p>Firearms forms for individuals, businesses and police and public agencies.</p>
       </div>
       <div class="col-lg-4 col-md-6">
-        <h3><a href="#">Firearms reports</a></h3>
+        <h3><a href="https://rcmp.ca/en/firearms/firearms-forms-and-reports">Firearms reports</a></h3>
         <p>Firearms reports for individuals, businesses and police and public agencies.</p>
       </div>
     </div>
@@ -104,10 +104,10 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
       <h2>Contact us</h2>
       <ul class="wb-eqht list-unstyled mrgn-tp-lg lst-spcd-2 colcount-md-2 bold-content">
         <li>
-          <a href="#">Canadian Firearms Program</a>
+          <a href="https://rcmp.ca/en/firearms/contact-canadian-firearms-program">Canadian Firearms Program</a>
         </li>
         <li>
-          <a href="#">Chief Firearms Officers</a>
+          <a href="https://rcmp.ca/en/firearms/contact-chief-firearms-officer">Chief Firearms Officers</a>
         </li>
       </ul>
     </section>
@@ -142,14 +142,14 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
           <div class="col-sm-6 hght-inhrt">
             <div class="well well-sm eqht-trgt hght-inhrt">
               <img alt="" src="feature-2-360x203.png">
-              <h3><a class="stretched-link" href="#">Firearms Safety Courses</a></h3>
+              <h3><a class="stretched-link" href="https://rcmp.ca/en/firearms/firearms-safety-training-transport-and-storage/safety-courses">Firearms Safety Courses</a></h3>
               <p>Access the Canadian Firearms Safety Course and Canadian Restricted Firearms Safety Course materials.</p>
             </div>
           </div>
           <div class="col-sm-6 hght-inhrt">
             <div class="well well-sm eqht-trgt hght-inhrt">
               <img alt="" src="feature-2-360x203.png">
-              <h3><a class="stretched-link" href="#">MyCFP</a></h3>
+              <h3><a class="stretched-link" href="https://firearms-armes-a-feu.rcmp-grc.ca/en/">MyCFP</a></h3>
               <p>Access our portal for secure online services.</p>
             </div>
           </div>

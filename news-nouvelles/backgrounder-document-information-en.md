@@ -81,11 +81,11 @@ font-size: 1.1rem;
 .location {
     color: #404040;
 }	
-a.news-topic-1:link, a.news-topic-1:visited {
-    background-color: #ebfaf0;
-    color: #14522b;
+a.news-topic:link, a.news-topic:visited {
+    background-color: #ffffff;
+    color: #000000;
 	border-radius: 0;
-	border: 1px solid #14522b;
+	border: 1px solid #000000;
 	padding: 4px 10px;
 	font-size: 1rem;
     font-weight: bold;	
@@ -93,29 +93,11 @@ a.news-topic-1:link, a.news-topic-1:visited {
     text-decoration: none;
     display: inline-block;
 }
-a.news-topic-1:hover, a.primary-topic:active {
+a.news-topic:hover, a.news-topic:active {
 	background-color: #ffffff;
-    color: #14522b;
+    color: #595959;
+	border: 1px solid #595959;
 }	
-a.news-topic-2:link, a.primary-topic:visited {
-    background-color: #ffffff;
-    color: #000000;
-    padding: 4px 10px;
-	border-radius: 8px;
-	font-size: 1rem;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-	border: 1px solid #000000;	
-}
-a.news-topic-2:hover, a.primary-topic:active {
-	background-color: #d6f5e1;
-    color: #0f3d20;
-    padding: 4px 10px;
-    border-radius: 8px;
-	border: 1px solid #0f3d20;
-}
 </style>
 <article>	
    <p class="lead">Bob the Polar Bear is the Royal Canadian Mounted Police’s newest unofficial northern mascot.</p>
@@ -289,7 +271,7 @@ a.news-topic-2:hover, a.primary-topic:active {
 <section id="topics">	
 <h2 class="h4 mrgn-tp-sm mrgn-bttm-md">Explore related topics</h2>
 <ol class="list-inline">
-  <li><a href="#" class="news-topic-1">Public interest</a></li>
+  <li><a href="#" class="news-topic">Public interest</a></li>
 </ol>
 </section>
 </div>

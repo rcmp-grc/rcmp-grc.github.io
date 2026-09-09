@@ -84,27 +84,9 @@ font-size: 1.1rem;
 .topics li {
     margin-bottom: 15px;
 }	
-a.news-topic-3:link, a.news-topic-3:visited
-	{
-    background-color: #e1d6f5;
-	color: #361966;
-	border-radius: 0;
-	border: 1px solid #361966;
-	padding: 4px 10px;
-	font-size: 1rem;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;				
-}
-	a.news-topic-3:hover, a.news-topic-3:active {
-	background-color: #ffffff;
-    color: #361966;
-}
-a.news-topic-secondary1:link, a.news-topic-secondary1:visited
-	{
+a.news-topic:link, a.news-topic:visited {
     background-color: #ffffff;
-	color: #000000;
+    color: #000000;
 	border-radius: 0;
 	border: 1px solid #000000;
 	padding: 4px 10px;
@@ -112,265 +94,13 @@ a.news-topic-secondary1:link, a.news-topic-secondary1:visited
     font-weight: bold;	
     text-align: center;
     text-decoration: none;
-    display: inline-block;				
+    display: inline-block;
 }
-a.news-topic-secondary1:hover, a.news-topic-secondary1:active {
+a.news-topic:hover, a.news-topic:active {
 	background-color: #ffffff;
-    color: #14522b;
-	border: 1px solid #14522b;	
-}
-a.news-topic-secondary2:link, a.news-topic-secondary2:visited
-	{
-    background-color: #ffffff;
-	color: #000000;
-	border-radius: 0;
-	border: 1px solid #000000;
-	padding: 4px 10px;
-	font-size: 1rem;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;				
-}
-a.news-topic-secondary2:hover, a.news-topic-secondary2:active {
-	background-color: #ffffff;
-    color: #193d66;
-	border: 1px solid #193d66;	
-}
-	a.news-topic-secondary4:link, a.news-topic-secondary4:visited
-	{
-    background-color: #ffffff;
-	color: #000000;
-	border-radius: 0;
-	border: 1px solid #000000;
-	padding: 4px 10px;
-	font-size: 1rem;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;				
-}
-	a.news-topic-secondary4:hover, a.news-topic-secondary4:active {
-	background-color: #ffffff;
-    color: #248f4b;
-	border: 1px solid #248f4b;	
-}
-	a.news-topic-secondary5:link, a.news-topic-secondary5:visited
-	{
-    background-color: #ffffff;
-	color: #000000;
-	border-radius: 0;
-	border: 1px solid #000000;
-	padding: 4px 10px;
-	font-size: 1rem;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;				
-}
-	a.news-topic-secondary5:hover, a.news-topic-secondary5:active {
-	background-color: #ffffff;
-    color: #aa7909;
-	border: 1px solid #aa7909;	
-}
-a.news-topic-secondary6:link, a.news-topic-secondary6:visited
-	{
-    background-color: #ffffff;
-	color: #000000;
-	border-radius: 0;
-	border: 1px solid #000000;
-	padding: 4px 10px;
-	font-size: 1rem;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;				
-}
-	a.news-topic-secondary6:hover, a.news-topic-secondary6:active {
-	background-color: #ffffff;
-    color: #158187;
-	border: 1px solid #158187;	
-}
-a.news-topic-secondary7:link, a.news-topic-secondary7:visited
-	{
-    background-color: #ffffff;
-	color: #000000;
-	border-radius: 0;
-	border: 1px solid #000000;
-	padding: 4px 10px;
-	font-size: 1rem;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;				
-}
-	a.news-topic-secondary7:hover, a.news-topic-secondary7:active {
-	background-color: #ffffff;
-    color: #982828;
-	border: 1px solid #982828;	
+    color: #595959;
+	border: 1px solid #595959;
 }	
-a.news-topic-secondary8:link, a.news-topic-secondary8:visited
-	{
-    background-color: #ffffff;
-	color: #000000;
-	border-radius: 0;
-	border: 1px solid #000000;
-	padding: 4px 10px;
-	font-size: 1rem;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;				
-}
-	a.news-topic-secondary8:hover, a.news-topic-secondary8:active {
-	background-color: #ffffff;
-    color: #b7592a;
-	border: 1px solid #b7592a;	
-}		
-	a.news-topic-secondary9:link, a.news-topic-secondary9:visited
-	{
-    background-color: #ffffff;
-	color: #000000;
-	border-radius: 0;
-	border: 1px solid #000000;
-	padding: 4px 10px;
-	font-size: 1rem;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;				
-}
-	a.news-topic-secondary9:hover, a.news-topic-secondary9:active {
-	background-color: #ffffff;
-    color: #98285d;
-	border: 1px solid #98285d;	
-}	
-	a.news-topic-secondary10:link, a.news-topic-secondary10:visited
-	{
-    background-color: #ffffff;
-	color: #000000;
-	border-radius: 0;
-	border: 1px solid #000000;
-	padding: 4px 10px;
-	font-size: 1rem;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;				
-}
-	a.news-topic-secondary10:hover, a.news-topic-secondary10:active {
-	background-color: #ffffff;
-    color: #4d4d4d;
-	border: 1px solid #4d4d4d;	
-}	
-	a.news-topic-secondary11:link, a.news-topic-secondary11:visited
-	{
-    background-color: #ffffff;
-	color: #000000;
-	border-radius: 0;
-	border: 1px solid #000000;
-	padding: 4px 10px;
-	font-size: 1rem;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;				
-}
-	a.news-topic-secondary11:hover, a.news-topic-secondary11:active {
-	background-color: #ffffff;
-    color: #614505;
-	border: 1px solid #614505;	
-}	
-	a.news-topic-secondary12:link, a.news-topic-secondary12:visited
-	{
-    background-color: #ffffff;
-	color: #000000;
-	border-radius: 0;
-	border: 1px solid #000000;
-	padding: 4px 10px;
-	font-size: 1rem;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;				
-}
-	a.news-topic-secondary12:hover, a.news-topic-secondary12:active {
-	background-color: #ffffff;
-    color: #1354ec;
-	border: 1px solid #1354ec;	
-}	
-	a.news-topic-secondary13:link, a.news-topic-secondary13:visited
-	{
-    background-color: #ffffff;
-	color: #000000;
-	border-radius: 0;
-	border: 1px solid #000000;
-	padding: 4px 10px;
-	font-size: 1rem;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;				
-}
-	a.news-topic-secondary13:hover, a.news-topic-secondary13:active {
-	background-color: #ffffff;
-    color: #590d17;
-	border: 1px solid #590d17;	
-}	
-	a.news-topic-secondary14:link, a.news-topic-secondary14:visited
-	{
-    background-color: #ffffff;
-	color: #000000;
-	border-radius: 0;
-	border: 1px solid #000000;
-	padding: 4px 10px;
-	font-size: 1rem;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;				
-}
-	a.news-topic-secondary14:hover, a.news-topic-secondary14:active {
-	background-color: #ffffff;
-    color: #ca3535;
-	border: 1px solid #ca3535;	
-}
-	a.news-topic-secondary15:link, a.news-topic-secondary15:visited
-	{
-    background-color: #ffffff;
-	color: #000000;
-	border-radius: 0;
-	border: 1px solid #000000;
-	padding: 4px 10px;
-	font-size: 1rem;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;				
-}
-	a.news-topic-secondary15:hover, a.news-topic-secondary15:active {
-	background-color: #ffffff;
-    color: #2962a3;
-	border: 1px solid #2962a3;	
-}
-	a.news-topic-secondary16:link, a.news-topic-secondary16:visited
-	{
-    background-color: #ffffff;
-	color: #000000;
-	border-radius: 0;
-	border: 1px solid #000000;
-	padding: 4px 10px;
-	font-size: 1rem;
-    font-weight: bold;	
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;				
-}
-	a.news-topic-secondary16:hover, a.news-topic-secondary16:active {
-	background-color: #ffffff;
-    color: #16548a;
-	border: 1px solid #16548a;	
-}
 </style>
 <article>
 <div class="row">
@@ -537,22 +267,22 @@ a.news-topic-secondary8:link, a.news-topic-secondary8:visited
 <section id="topics">
 <h2 class="h4 mrgn-tp-sm mrgn-bttm-md">Explore related topics</h2>	
 <ol class="list-inline topics">
-  <li><a href="#" class="news-topic-3">Traffic</a></li>
-  <li><a href="#" class="news-topic-secondary2">Assault</a></li>
-  <li><a href="#" class="news-topic-secondary4">National security</a></li>
-  <li><a href="#" class="news-topic-secondary5">Break and enter</a></li>
-  <li><a href="#" class="news-topic-secondary6">Disturbance</a></li>
-  <li><a href="#" class="news-topic-secondary16">Emergency</a></li>
-  <li><a href="#" class="news-topic-secondary7">Homicide</a></li>
-  <li><a href="#" class="news-topic-secondary8">Human trafficking</a></li>
-  <li><a href="#" class="news-topic-secondary9">Illicit drugs</a></li>
-  <li><a href="#" class="news-topic-secondary14">Missing persons</a></li>
-  <li><a href="#" class="news-topic-secondary10">Organized crime</a></li>
-  <li><a href="#" class="news-topic-secondary11">Property damage</a></li>
-  <li><a href="#" class="news-topic-secondary1">Public interest</a></li>
-  <li><a href="#" class="news-topic-secondary12">Theft</a></li>
-  <li><a href="#" class="news-topic-secondary13">Wanted persons</a></li>
-  <li><a href="#" class="news-topic-secondary15">Weapons</a></li>
+  <li><a href="#" class="news-topic">Traffic</a></li>
+  <li><a href="#" class="news-topic">Assault</a></li>
+  <li><a href="#" class="news-topic">National security</a></li>
+  <li><a href="#" class="news-topic">Break and enter</a></li>
+  <li><a href="#" class="news-topic">Disturbance</a></li>
+  <li><a href="#" class="news-topic">Emergency</a></li>
+  <li><a href="#" class="news-topic">Homicide</a></li>
+  <li><a href="#" class="news-topic">Human trafficking</a></li>
+  <li><a href="#" class="news-topic">Illicit drugs</a></li>
+  <li><a href="#" class="news-topic">Missing persons</a></li>
+  <li><a href="#" class="news-topic">Organized crime</a></li>
+  <li><a href="#" class="news-topic">Property damage</a></li>
+  <li><a href="#" class="news-topic">Public interest</a></li>
+  <li><a href="#" class="news-topic">Theft</a></li>
+  <li><a href="#" class="news-topic">Wanted persons</a></li>
+  <li><a href="#" class="news-topic">Weapons</a></li>
 </ol>
 </section>
 </div>

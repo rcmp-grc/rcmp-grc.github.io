@@ -224,43 +224,97 @@ custom_css: /assets/css/careers.css
 			<fieldset>
           <legend class="wb-inv">Territory or province</legend>
             <label class="re-select-label" for="territory">Territory or province</label>
-            <select class="re-select" id="territory" name="territory">
-				<option data-filter="territory" value="All territories and provinces"><span class="cb-text">All</span></option>
-				<option data-filter="territory" value="Alberta"><span class="cb-text">Alberta</span></option>
-                <option data-filter="territory" value="British Columbia"><span class="cb-text">British Columbia</span></option>
-                <option data-filter="territory" value="Manitoba"><span class="cb-text">Manitoba</span></option>
-                <option data-filter="territory" value="New Brunswick"><span class="cb-text">New Brunswick</span></option>
-                <option data-filter="territory" value="Newfoundland and Labrador"><span class="cb-text">Newfoundland and Labrador</span></option>
-                <option data-filter="territory" value="Northwest Territories"><span class="cb-text">Northwest Territories</span></option>
-                <option data-filter="territory" value="Nova Scotia"><span class="cb-text">Nova Scotia</span></option>
-                <option data-filter="territory" value="Nunavut"><span class="cb-text">Nunavut</span></option>
-                <option data-filter="territory" value="Ontario"><span class="cb-text">Ontario</span></option>
-                <option data-filter="territory" value="Prince Edward Island"><span class="cb-text">Prince Edward Island</span></option>
-                <option data-filter="territory" value="Quebec"><span class="cb-text">Quebec</span></option>
-                <option data-filter="territory" value="Saskatchewan"><span class="cb-text">Saskatchewan</span></option>
-                <option data-filter="territory" value="Yukon"><span class="cb-text">Yukon</span></option>
-			</select>
+            <div class="checkbox">
+            <label><input data-filter="territory" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span></label>
+          </div>
+				<div class="checkbox">
+            <label><input data-filter="territory" type="checkbox" value="British Columbia"><span class="cb-text">British Columbia</span></label>
+          </div>
+			<div class="checkbox">
+            <label><input data-filter="territory" type="checkbox" value="Manitoba"><span class="cb-text">Manitoba</span></label>
+          </div>
+				<div class="checkbox">
+            <label><input data-filter="territory" type="checkbox" value="New Brunswick"><span class="cb-text">New Brunswick</span></label>
+          </div>
+		  <div class="checkbox">
+            <label><input data-filter="territory" type="checkbox" value="Newfoundland and Labrador"><span class="cb-text">Newfoundland and Labrador</span></label>
+          </div>
+ <div class="checkbox">
+            <label><input data-filter="territory" type="checkbox" value="Northwest Territories"><span class="cb-text">Northwest Territories</span></label>
+          </div>
+		  <div class="checkbox">
+            <label><input data-filter="territory" type="checkbox" value="Nova Scotia"><span class="cb-text">Nova Scotia</span></label>
+          </div>
+<div class="checkbox">
+            <label><input data-filter="territory" type="checkbox" value="Nunavut"><span class="cb-text">Nunavut</span></label>
+          </div>
+		  <div class="checkbox">
+            <label><input data-filter="territory" type="checkbox" value="Ontario"><span class="cb-text">Ontario</span></label>
+          </div>
+		  <div class="checkbox">
+            <label><input data-filter="territory" type="checkbox" value="Prince Edward Island"><span class="cb-text">Prince Edward Island</span></label>
+          </div>
+		  <div class="checkbox">
+            <label><input data-filter="territory" type="checkbox" value="Quebec"><span class="cb-text">Quebec</span></label>
+          </div>
+<div class="checkbox">
+            <label><input data-filter="territory" type="checkbox" value="Saskatchewan"><span class="cb-text">Saskatchewan</span></label>
+          </div>
+<div class="checkbox">
+            <label><input data-filter="territory" type="checkbox" value="Yukon"><span class="cb-text">Yukon</span></label>
+          </div>
+			</fieldset>
+			<fieldset>
+		    <legend class="wb-inv">National, divisional or regional policing</legend>
 		    <label class="re-select-label mrgn-tp-md" for="region">National, divisional or regional policing</label>
-			<select class="re-select" id="region" name="region">	
-			<option data-filter="region" value="All national, divisional and regional policing"><span class="cb-text">All</span></option>	
-			<option data-filter="region" value="RCMP National Headquarters"><span class="cb-text">National Headquarters</span></option>	
-            <option data-filter="region" value="Alberta RCMP"><span class="cb-text">Alberta RCMP</span></option>
-            <option data-filter="region" value="British Columbia RCMP"><span class="cb-text">British Columbia RCMP</span></option>
-            <option data-filter="region" value="Manitoba RCMP"><span class="cb-text">Manitoba RCMP</span></option>
-            <option data-filter="region" value="New Brunswick RCMP"><span class="cb-text">New Brunswick RCMP</span></option>
-            <option data-filter="region" value="Newfoundland and Labrador RCMP"><span class="cb-text">Newfoundland and Labrador RCMP</span></option>
-            <option data-filter="region" value="Northwest Territories RCMP"><span class="cb-text">Northwest Territories RCMP</span></option>
-            <option data-filter="region" value="Nova Scotia RCMP"><span class="cb-text">Nova Scotia RCMP</span></option>
-            <option data-filter="region" value="Nunavut RCMP"><span class="cb-text">Nunavut RCMP</span></option>
-            <option data-filter="region" value="Prince Edward Island RCMP"><span class="cb-text">Prince Edward Island RCMP</span></option>
-            <option data-filter="region" value="RCMP Depot Division"><span class="cb-text">RCMP Depot</span></option>
-            <option data-filter="region" value="Saskatchewan RCMP"><span class="cb-text">Saskatchewan RCMP</span></option>
-            <option data-filter="region" value="Yukon RCMP"><span class="cb-text">Yukon RCMP</span></option>
-            <option data-filter="region" value="Federal Policing Central Region"><span class="cb-text">Central Region</span></option>
-            <option data-filter="region" value="Federal Policing Eastern Region"><span class="cb-text">Eastern Region</span></option>
-            <option data-filter="region" value="Federal Policing Northwest Region"><span class="cb-text">Northwest Region</span></option>
-            <option data-filter="region" value="Federal Policing Pacific Region"><span class="cb-text">Pacific Region</span></option>
-			</select>
+		<div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="National Headquarters"><span class="cb-text">National Headquarters</span></label>
+          </div>
+<div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="Alberta RCMP"><span class="cb-text">Alberta RCMP</span></label>
+          </div>
+			<div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="British Columbia RCMP"><span class="cb-text">British Columbia RCMP</span></label>
+          </div>	
+ <div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="Manitoba RCMP"><span class="cb-text">Manitoba RCMP</span></label>
+          </div>
+<div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="New Brunswick RCMP"><span class="cb-text">New Brunswick RCMP</span></label>
+          </div>
+<div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="Newfoundland and Labrador RCMP"><span class="cb-text">Newfoundland and Labrador RCMP</span></label>
+          </div>
+<div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="Northwest Territories RCMP"><span class="cb-text">Northwest Territories RCMP</span></label>
+          </div>
+<div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="Nova Scotia RCMP"><span class="cb-text">Nova Scotia RCMP</span></label>
+          </div>
+<div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="Nunavut RCMP"><span class="cb-text">Nunavut RCMP</span></label>
+          </div>
+<div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="Prince Edward Island RCMP"><span class="cb-text">Prince Edward Island RCMP</span></label>
+          </div>
+<div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="RCMP Depot"><span class="cb-text">RCMP Depot</span></label>
+          </div>
+<div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="Saskatchewan RCMP"><span class="cb-text">Saskatchewan RCMP</span></label>
+          </div>
+			<div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="Yukon RCMP"><span class="cb-text">Yukon RCMP</span></label>
+          </div>	
+<div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="Eastern Region"><span class="cb-text">Eastern Region</span></label>
+          </div>
+<div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="Northwest Region"><span class="cb-text">Northwest Region</span></label>
+          </div>
+			<div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="Pacific Region"><span class="cb-text">Pacific Region</span></label>
+          </div>	
 		 </fieldset>
       </details>	
 		<details class="wp-filter-group">

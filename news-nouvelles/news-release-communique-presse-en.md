@@ -107,8 +107,8 @@ a.news-topic:hover, a.news-topic:active {
   <div class="news-alert pull-right col-sm-4">
 	  <h2><span class="label label-default">Updated</span></h2>
 	  <ul>
-	  <li><a href="https://rcmp-grc.github.io/news-nouvelles/news-release01-communique-presse01-en.html">Updated, 2026-04-30, 13:58:55</a></li>
-      <li><a href="https://rcmp-grc.github.io/news-nouvelles/news-release02-communique-presse02-en.html">Published, 2026-04-21, 15:22:03</a></li>
+	  <li>Changed from a month-long campaign to a week</li>
+      <li>Added tip: Wear all the gear, all the time</li>
 	  </ul>
   </div>
   <div class="mrgn-lft-md">
@@ -148,7 +148,7 @@ a.news-topic:hover, a.news-topic:active {
 		<li><a href="#topics">Explore related topics</a></li>
 	</ul>
 </section>	
-<p>Richmond <abbr>RCMP</abbr> Road Safety Unit is launching a month-long enforcement and education campaign throughout May targeting high-risk driving behaviours and promoting motorcycle safety, as part of the province-wide <abbr>BC</abbr> Association of Chiefs of Police enforcement calendar in partnership with <abbr>ICBC</abbr>.</p>
+<p>Richmond <abbr>RCMP</abbr> Road Safety Unit is launching a week-long enforcement and education campaign at the beginning 0f May targeting high-risk driving behaviours and promoting motorcycle safety, as part of the province-wide <abbr>BC</abbr> Association of Chiefs of Police enforcement calendar in partnership with <abbr>ICBC</abbr>.</p>
 <p>As warmer weather brings more motorcycles onto Richmond roads, officers will be focused on the behaviours most often linked to serious crashes including failing to yield, ignoring traffic control devices, following too closely, and improper passing. With six out of ten motorcycle crashes in <abbr>BC</abbr> occurring at intersections, drivers will see increased patrols at key Richmond intersections throughout the month.</p>
 <p>While motorcycles make up roughly three percent of insured vehicles in <abbr>BC</abbr>, they are involved in approximately ten percent of road fatalities, <a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/motorcycle-safety">according to the Province of British Columbia</a>. The fatality rate for drivers under 25 is on average 15 times higher than drivers over 25&nbsp;years of age.</p>
 <p>“Every spring we see motorcycles return to Richmond roads, and with that unfortunately we also see preventable collisions that change lives in an instant,” said Corporal Niels Hermes, Richmond <abbr>RCMP</abbr> Road Safety Unit. “Most of these collisions come down to choices—a driver who doesn’t take that second look before making a left turn, or a rider going too fast for conditions. Our goal this may is to see fewer collisions, fewer injuries, and every rider and driver getting home safely.”</p>
@@ -204,17 +204,11 @@ a.news-topic:hover, a.news-topic:active {
 <li>Brush up on emergency braking and obstacle avoidance, especially after time off the bike</li>
 </ul>
 </section>
-<section id="products">
-<h2 class="h3">Related products</h2>
-<ul>
-<li><a href="https://rcmp.ca/en/bc/north-vancouver/community-policing/distracted-driving">Distracted driving - North Vancouver RCMP</a></li>
-</ul>
-</section>
 <section id="links">
 <h2 class="h3">Associated links</h2>
 <ul>
-   <li><a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/motorcycle-safety">Motorcycle safety - the rider and the gear</a></li>
-	<li><a href="https://www.icbc.com/road-safety/sharing/motorcycle-safety">Motorcycle safety</a></li>
+   <li><a href="https://rcmp-grc.github.io/news-nouvelles/news-release01-communique-presse01-en.html">Motorcycle safety month returns to Richmond - Updated, 2026-04-30, 13:58:55</a></li>
+   <li><a href="https://rcmp-grc.github.io/news-nouvelles/news-release02-communique-presse02-en.html">Motorcycle safety month returns to Richmond - Published, 2026-04-21, 15:22:03</a></li>
 </ul>
 </section>
 <section id="gc-contact" class="contact-us">

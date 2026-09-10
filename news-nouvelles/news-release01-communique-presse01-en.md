@@ -107,8 +107,7 @@ a.news-topic:hover, a.news-topic:active {
   <div class="news-alert pull-right col-sm-4">
 	  <h2><span class="label label-default">Updated</span></h2>
 	  <ul>
-	  <li><a href="https://rcmp-grc.github.io/news-nouvelles/news-release-communique-presse-en.html">Updated, 2026-05-07, 15:58:35</a></li>
-      <li><a href="https://rcmp-grc.github.io/news-nouvelles/news-release02-communique-presse02-en.html">Published, 2026-04-21, 15:22:03</a></li>
+	  <li>Updated fact: motorcycles make up roughly three percent, 2026-04-21, 15:22:03</li>
 	  </ul>
   </div>
   <div class="mrgn-lft-md">
@@ -196,17 +195,11 @@ a.news-topic:hover, a.news-topic:active {
 <li>Brush up on emergency braking and obstacle avoidance, especially after time off the bike</li>
 </ul>
 </section>
-<section id="products">
-<h2 class="h3">Related products</h2>
-<ul>
-<li><a href="https://rcmp.ca/en/bc/north-vancouver/community-policing/distracted-driving">Distracted driving - North Vancouver RCMP</a></li>
-</ul>
-</section>
 <section id="links">
 <h2 class="h3">Associated links</h2>
 <ul>
-   <li><a href="https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/road-safety-rules-and-consequences/motorcycle-safety">Motorcycle safety - the rider and the gear</a></li>
-	<li><a href="https://www.icbc.com/road-safety/sharing/motorcycle-safety">Motorcycle safety</a></li>
+    <li><a href="https://rcmp-grc.github.io/news-nouvelles/news-release-communique-presse-en.html">Updated, 2026-05-07, 15:58:35</a></li>
+      <li><a href="https://rcmp-grc.github.io/news-nouvelles/news-release02-communique-presse02-en.html">Published, 2026-04-21, 15:22:03</a></li>
 </ul>
 </section>
 <section id="gc-contact" class="contact-us">

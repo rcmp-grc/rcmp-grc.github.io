@@ -107,7 +107,7 @@ a.news-topic:hover, a.news-topic:active {
   <div class="news-alert pull-right col-sm-4">
 	  <h2><span class="label label-default">Updated</span></h2>
 	  <ul>
-	  <li><a href="https://rcmp-grc.github.io/news-nouvelles/news-release-communique-presse-en.html">Updated, 2026-05-07, 15:58:35</a></li>
+	  <li><a href="https://rcmp-grc.github.io/news-nouvelles/news-release-communique-presse-en.html">Updated, 2026-05-07, 15:22:03</a></li>
       <li><a href="https://rcmp-grc.github.io/news-nouvelles/news-release01-communique-presse01-en.html">Updated, 2026-04-30, 15:22:03</a></li>
 	  </ul>
   </div>

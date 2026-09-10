@@ -107,8 +107,8 @@ a.news-topic:hover, a.news-topic:active {
   <div class="news-alert pull-right col-sm-4">
 	  <h2><span class="label label-default">Updated</span></h2>
 	  <ul>
-	  <li>Changed from a month-long campaign to a week</li>
-      <li>Added tip: Wear all the gear, all the time</li>
+	  <li>Changed from a month-long campaign to a week, 15:22:03</li>
+      <li>Added tip: Wear all the gear, all the time, 11:22:33</li>
 	  </ul>
   </div>
   <div class="mrgn-lft-md">

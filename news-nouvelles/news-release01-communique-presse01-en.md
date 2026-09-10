@@ -198,7 +198,7 @@ a.news-topic:hover, a.news-topic:active {
 <section id="links">
 <h2 class="h3">Associated links</h2>
 <ul>
-    <li><a href="https://rcmp-grc.github.io/news-nouvelles/news-release-communique-presse-en.html">Updated, 2026-05-07, 15:58:35</a></li>
+    <li><a href="https://rcmp-grc.github.io/news-nouvelles/news-release-communique-presse-en.html">Updated, 2026-05-07, 15:22:03</a></li>
       <li><a href="https://rcmp-grc.github.io/news-nouvelles/news-release02-communique-presse02-en.html">Published, 2026-04-21, 15:22:03</a></li>
 </ul>
 </section>

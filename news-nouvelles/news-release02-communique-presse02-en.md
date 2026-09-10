@@ -108,7 +108,7 @@ a.news-topic:hover, a.news-topic:active {
 	  <h2><span class="label label-default">Updated</span></h2>
 	  <ul>
 	  <li>Added Richmond RCMP Road Safety Unit is taking the lead on this campaign - 2026-05-07, 15:22:03</li>
-      <li>Updated the campaign takes place during May, 15:11:11</a></li>
+      <li>Updated the campaign takes place during May, 15:11:11</li>
 	  </ul>
   </div>
   <div class="mrgn-lft-md">

@@ -107,7 +107,7 @@ a.news-topic:hover, a.news-topic:active {
   <div class="news-alert pull-right col-sm-4">
 	  <h2><span class="label label-default">Updated</span></h2>
 	  <ul>
-	  <li>Updated fact: motorcycles make up roughly three percent, 2026-04-21, 15:22:03</li>
+	  <li>Updated fact: motorcycles make up roughly three percent, 15:22:03</li>
 	  </ul>
   </div>
   <div class="mrgn-lft-md">

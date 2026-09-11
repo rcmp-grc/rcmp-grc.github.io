@@ -9,11 +9,10 @@ lang_url: gallery-flex.html
 <style>
 .wb-lbx:has(#isFlex:checked) {
 & > ul {
-  background-color: pink;
   display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	gap: 10px;
+	gap: 5px;
 }
 }
 </style>
@@ -22,9 +21,9 @@ lang_url: gallery-flex.html
   <h2>Image gallery</h2>
   <label>Flex <input type="checkbox" id="isFlex"></label>
   <ul class="list-inline">
-	  <li><a href="#"><img src="https://dummyimage.com/150x150/f74af7/050505.png"></a></li>
-  	<li><a href="#"><img src="https://dummyimage.com/150x150/f74af7/050505.png"></a></li>
-	  <li><a href="#"><img src="https://dummyimage.com/150x150/f74af7/050505.png"></a></li>
+		<li><a href="#"><img src="https://dummyimage.com/150x150/f74af7/050505.png"></a></li>
+		<li><a href="#"><img src="https://dummyimage.com/150x150/f74af7/050505.png"></a></li>
+		<li><a href="#"><img src="https://dummyimage.com/150x150/f74af7/050505.png"></a></li>
   	<li><a href="#"><img src="https://dummyimage.com/150x150/f74af7/050505.png"></a></li>
   	<li><a href="#"><img src="https://dummyimage.com/150x150/f74af7/050505.png"></a></li>
   	<li><a href="#"><img src="https://dummyimage.com/150x150/f74af7/050505.png"></a></li>

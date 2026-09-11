@@ -7,17 +7,15 @@ lang_url: gallery-flex.html
 ---
 
 <style>
-.wb-lbx:has(#isFlex:checked) {
-& > ul {
-  display: flex;
+.wb-lbx:has(#isFlex:checked) > ul {
+	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	gap: 8px;
-> li {
-	padding: 0;
-	margin: 0;
-}
-}
+	> li {
+		padding: 0;
+		margin: 0;
+	}
 }
 </style>
 

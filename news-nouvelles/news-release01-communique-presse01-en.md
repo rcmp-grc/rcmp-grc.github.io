@@ -142,7 +142,7 @@ a.news-topic:hover, a.news-topic:active {
 		<li><a href="#gallery">Image gallery</a></li>
 		<li><a href="#quotes">Quotes</a></li>
 		<li><a href="#facts">Quick facts</a></li>
-		<li><a href="#products">Related products</a></li>
+		<li><a href="#links">Associated links</a></li>
 		<li><a href="#gc-contact">Contacts</a></li>
 		<li><a href="#topics">Explore related topics</a></li>
 	</ul>
@@ -199,7 +199,7 @@ a.news-topic:hover, a.news-topic:active {
 <h2 class="h3">Associated links</h2>
 <ul>
     <li><a href="https://rcmp-grc.github.io/news-nouvelles/news-release-communique-presse-en.html">Motorcycle safety month returns to Richmond - Updated, 2026-05-07, 15:22:03</a></li>
-      <li><a href="https://rcmp-grc.github.io/news-nouvelles/news-release02-communique-presse02-en.html">Motorcycle safety month returns to Richmond - Published, 2026-04-21, 15:22:03</a></li>
+    <li><a href="https://rcmp-grc.github.io/news-nouvelles/news-release02-communique-presse02-en.html">Motorcycle safety month returns to Richmond - Published, 2026-04-21, 15:22:03</a></li>
 </ul>
 </section>
 <section id="gc-contact" class="contact-us">

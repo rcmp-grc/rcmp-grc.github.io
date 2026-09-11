@@ -11,6 +11,9 @@ lang_url: gallery-flex.html
 & > ul {
   background-color: pink;
   display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 10px;
 }
 }
 </style>

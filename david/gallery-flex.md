@@ -13,6 +13,10 @@ lang_url: gallery-flex.html
 	flex-direction: row;
 	flex-wrap: wrap;
 	gap: 5px;
+> li {
+	padding: 0;
+	margin: 0;
+}
 }
 }
 </style>

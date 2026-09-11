@@ -269,7 +269,7 @@ custom_css: /assets/css/careers.css
            <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">National, divisional or regional policing</span>
         </summary>
 			<fieldset>
-		    <legend class="wb-inv">National, divisional or regional policing</legend>
+		    <legend class="wb-inv">National, divisional, regional policing</legend>
 		<div class="checkbox">
             <label><input data-filter="region" type="checkbox" value="National Headquarters"><span class="cb-text">National Headquarters</span></label>
           </div>

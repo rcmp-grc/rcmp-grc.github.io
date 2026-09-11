@@ -308,6 +308,9 @@ custom_css: /assets/css/careers.css
           </div>
 			<div class="checkbox">
             <label><input data-filter="region" type="checkbox" value="Yukon RCMP"><span class="cb-text">Yukon RCMP</span></label>
+          </div>
+			<div class="checkbox">
+            <label><input data-filter="region" type="checkbox" value="Central Region"><span class="cb-text">Central Region</span></label>
           </div>	
 <div class="checkbox">
             <label><input data-filter="region" type="checkbox" value="Eastern Region"><span class="cb-text">Eastern Region</span></label>

@@ -161,7 +161,7 @@ custom_css: /assets/css/careers.css
    </span></div>
 </form>
 		<div id="re-filters">
-		<h2 class="h6 news-filters-heading">Filter</h2>
+		<h2 class="h6 news-filters-heading">Filter by</h2>
 		<p class="small mrgn-lft-md mrgn-tp-md">Select any of the following filters to narrow your search</p>	
 	    <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></summary>
@@ -219,11 +219,10 @@ custom_css: /assets/css/careers.css
 	  </details>
 		<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
-           <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Published by</span>
+           <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Territory or province</span>
         </summary>
 			<fieldset>
           <legend class="wb-inv">Territory or province</legend>
-            <label class="re-select-label" for="territory">Territory or province</label>
             <div class="checkbox">
             <label><input data-filter="territory" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span></label>
           </div>
@@ -264,9 +263,13 @@ custom_css: /assets/css/careers.css
             <label><input data-filter="territory" type="checkbox" value="Yukon"><span class="cb-text">Yukon</span></label>
           </div>
 			</fieldset>
+</details>
+<details class="wp-filter-group">
+        <summary class="wp-filter-group-toggle">
+           <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">National, divisional, regional policing</span>
+        </summary>
 			<fieldset>
-		    <legend class="wb-inv">National, divisional or regional policing</legend>
-		    <label class="re-select-label mrgn-tp-md" for="region">National, divisional or regional policing</label>
+		    <legend class="wb-inv">National, divisional, regional policing</legend>
 		<div class="checkbox">
             <label><input data-filter="region" type="checkbox" value="National Headquarters"><span class="cb-text">National Headquarters</span></label>
           </div>

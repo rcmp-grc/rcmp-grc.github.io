@@ -266,7 +266,7 @@ custom_css: /assets/css/careers.css
 </details>
 <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
-           <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">National, divisional or regional policing</span>
+           <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">National, divisional, regional policing</span>
         </summary>
 			<fieldset>
 		    <legend class="wb-inv">National, divisional, regional policing</legend>

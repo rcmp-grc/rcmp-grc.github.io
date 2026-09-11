@@ -143,7 +143,7 @@ a.news-topic:hover, a.news-topic:active {
 		<li><a href="#gallery">Image gallery</a></li>
 		<li><a href="#quotes">Quotes</a></li>
 		<li><a href="#facts">Quick facts</a></li>
-		<li><a href="#products">Related products</a></li>
+		<li><a href="#links">Associated links</a></li>
 		<li><a href="#gc-contact">Contacts</a></li>
 		<li><a href="#topics">Explore related topics</a></li>
 	</ul>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Canada's Missingf
+title: Canada's Missing
 description: My page description
 date_modified: 2026-09-29
 lang: en

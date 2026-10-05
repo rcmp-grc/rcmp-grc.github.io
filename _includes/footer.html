@@ -61,6 +61,31 @@
     </div>
   </div>
   {% endif %}
+  {% if page.layout == 'missing' %}
+  <div class="gc-contextual">
+    <div class="container">
+      <nav aria-label="{% if page.lang == 'fr' %}Liens sur les personnes disparues{% else %}Missing persons links{% endif %}">
+        {% if page.lang == 'fr' %}
+        <h3 class="wb-gld">Personnes disparues</h3>
+        <ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
+          <li><a href="https://canadasmissing.ca/about-ausujet/index-fra.htm">À propos</a></li>
+          <li><a href="https://canadasmissing.ca/news-nouvelles/index-fra.htm">Nouvelles</a></li>
+          <li><a href="https://grc.ca/fr/renseignements-organisationnels/medias-sociaux">Restez branchés</a></li>
+          <li><a href="https://canadasmissing.ca/about-ausujet/index-fra.htm#is">Initiatives</a></li>
+        </ul>
+        {% else %}
+        <h3 class="wb-gld">Missing persons</h3>
+        <ul class="list-col-xs-1 list-col-sm-2 list-col-md-3">
+          <li><a href="https://canadasmissing.ca/about-ausujet/index-eng.htm">About</a></li>
+          <li><a href="https://canadasmissing.ca/news-nouvelles/index-eng.htm">News</a></li>
+          <li><a href="https://rcmp.ca/en/corporate-information/social-media">Stay connected</a></li>
+          <li><a href="https://canadasmissing.ca/about-ausujet/index-eng.htm#is">Initiatives</a></li>
+        </ul>
+        {% endif %}
+      </nav>
+    </div>
+  </div>
+  {% endif %}	
   <div class="gc-main-footer">
     <div class="container">
       <nav aria-label="{% if page.lang == 'fr' %}Liens du pied de page de la GRC{% else %}RCMP footer links{% endif %}">

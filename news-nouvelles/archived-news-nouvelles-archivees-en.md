@@ -2,7 +2,7 @@
 layout: default
 title: Archived - CMP and Bob the Polar Bear to host northern community winter safety event
 description: My page description
-date_modified: 2026-05-19
+date_modified: 2026-10-07
 lang: en
 lang_url: media-advisory-avis-medias-fr.html
 lead: Media Advisory
@@ -122,30 +122,17 @@ a.news-topic:hover, a.news-topic:active {
 #archived-bnr .overlay-close {
 	color: #000;
 }
-.bg-warning {
-	background-colour: #fcefef;
-	width: 100%;
-	padding: 10px 15px 10px 15px;
-	margin-bottom: 15px;
-}
-.bg-warning h2 {
-	margin-top: 0px;
-}
-	
 </style>
 <article>
-<section class="bg-warning">	
-<section id="archived" class="wb-inview" data-inview="archived-bnr">
-	<p><span class="fa fa-exclamation-triangle text-warning"></span></p>
-	<h2>&nbsp;Archived information</h2>
+<section id="archived" class="wb-inview alert alert-warning" data-inview="archived-bnr">
+	<h2 class="h4">Archived news and communications</h2>
 	<p>Archived information is provided for reference, research or recordkeeping purposes. It is not subject to the Government of Canada Web Standards and has not been altered or updated since it was archived. Please contact us to request a format other than those available.</p>
 	</section>
-</section>
 	<section id="archived-bnr" class="wb-overlay modal-content overlay-def wb-bar-t">
 	<header>
 		<h2 class="wb-inv">Archived</h2>
 	</header>
-	<p><a href="#archived">This page has been archived on the Web.</a></p>
+	<p><a href="#archived">This news has been archived on the Web.</a></p>
 </section>
 	<p class="lead">The Royal Canadian Mounted Police will host a community winter safety event featuring Bob the Polar Bear, the RCMP’s unofficial northern mascot.</p>
 <div class="explore">

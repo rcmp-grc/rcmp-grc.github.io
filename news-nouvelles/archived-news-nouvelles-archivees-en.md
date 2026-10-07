@@ -126,7 +126,8 @@ a.news-topic:hover, a.news-topic:active {
 	border-radius: 1px;
 	background-colour: #fcefef;
 	width: 100%;
-	padding: 15px;
+	padding: 5px, 15px, 5px, 15px;
+	margin-bottom: 15px;
 }
 	
 </style>

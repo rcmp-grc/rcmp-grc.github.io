@@ -125,14 +125,14 @@ a.news-topic:hover, a.news-topic:active {
 </style>
 <article>
 <section id="archived" class="wb-inview alert alert-warning" data-inview="archived-bnr">
-	<h2 class="h4">Archived news and communications</h2>
-	<p>Archived information is provided for reference, research or recordkeeping purposes. It is not subject to the Government of Canada Web Standards and has not been altered or updated since it was archived. Please contact us to request a format other than those available.</p>
+	<h2 class="h4">Archived news</h2>
+	<p>This news has been archived. It is provided for reference, research or recordkeeping purposes only. It is not subject to the Government of Canada Web Standards and has not been altered or updated since it was archived.</p>
 	</section>
 	<section id="archived-bnr" class="wb-overlay modal-content overlay-def wb-bar-t">
 	<header>
 		<h2 class="wb-inv">Archived</h2>
 	</header>
-	<p><a href="#archived">This news has been archived on the Web.</a></p>
+	<p><a href="#archived">This news has been archived on the RCMP website.</a></p>
 </section>
 	<p class="lead">The Royal Canadian Mounted Police will host a community winter safety event featuring Bob the Polar Bear, the RCMP’s unofficial northern mascot.</p>
 <div class="explore">

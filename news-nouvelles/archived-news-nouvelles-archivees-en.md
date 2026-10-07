@@ -129,8 +129,7 @@ a.news-topic:hover, a.news-topic:active {
 	margin-bottom: 15px;
 }
 .bg-warning h2 {
-	padding-top: 0px;
-	margin-bottom: 15px;
+	margin-top: 0px;
 }
 	
 </style>

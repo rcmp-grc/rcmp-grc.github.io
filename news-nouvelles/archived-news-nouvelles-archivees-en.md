@@ -123,10 +123,13 @@ a.news-topic:hover, a.news-topic:active {
 	color: #000;
 }
 .bg-warning {
-	border-radius: 1px;
 	background-colour: #fcefef;
 	width: 100%;
-	padding: 0px 15px 0px 15px;
+	padding: 10px 15px 10px 15px;
+	margin-bottom: 15px;
+}
+.bg-warning h2 {
+	padding-top: 0px;
 	margin-bottom: 15px;
 }
 	

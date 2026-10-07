@@ -108,12 +108,10 @@ a.news-topic:hover, a.news-topic:active {
 	#archived-bnr {
 	background-color: #fd0;
 }
-
 #archived-bnr p {
 	margin: 0;
 	text-align: center;
 }
-
 #archived-bnr a {
 	color: #000;
 	display: block;
@@ -121,7 +119,6 @@ a.news-topic:hover, a.news-topic:active {
 	padding: 0.75em 44px;
 	text-decoration: underline;
 }
-
 #archived-bnr .overlay-close {
 	color: #000;
 }

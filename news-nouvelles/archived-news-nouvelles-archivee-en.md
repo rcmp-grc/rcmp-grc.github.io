@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ARCHIVED - CMP and Bob the Polar Bear to host northern community winter safety event
+title: Archived - CMP and Bob the Polar Bear to host northern community winter safety event
 description: My page description
 date_modified: 2026-05-19
 lang: en
@@ -105,9 +105,39 @@ a.news-topic:hover, a.news-topic:active {
     color: #595959;
 	border: 1px solid #595959;
 }	
+	#archived-bnr {
+	background-color: #fd0;
+}
+
+#archived-bnr p {
+	margin: 0;
+	text-align: center;
+}
+
+#archived-bnr a {
+	color: #000;
+	display: block;
+	font-weight: 700;
+	padding: 0.75em 44px;
+	text-decoration: underline;
+}
+
+#archived-bnr .overlay-close {
+	color: #000;
+}
 </style>
 <article>
-<p class="lead">The Royal Canadian Mounted Police will host a community winter safety event featuring Bob the Polar Bear, the RCMP’s unofficial northern mascot.</p>
+<section id="archived" class="alert alert-warning wb-inview" data-inview="archived-bnr">
+	<h2>Archived information</h2>
+	<p>Archived information is provided for reference, research or recordkeeping purposes. It is not subject to the Government of Canada Web Standards and has not been altered or updated since it was archived. Please contact us to request a format other than those available.</p>
+</section>
+	<section id="archived-bnr" class="wb-overlay modal-content overlay-def wb-bar-t">
+	<header>
+		<h2 class="wb-inv">Archived</h2>
+	</header>
+	<p><a href="#archived">This page has been archived on the Web.</a></p>
+</section>
+	<p class="lead">The Royal Canadian Mounted Police will host a community winter safety event featuring Bob the Polar Bear, the RCMP’s unofficial northern mascot.</p>
 <div class="explore">
 <div class="byline">	
 <ol class="list-inline">

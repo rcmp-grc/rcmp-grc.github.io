@@ -8,4 +8,18 @@ h1_hidden: true
 is_homepage: true
 custom_css: /assets/css/missing.css
 ---
+<style>
+.banner {
+ width:1922px;
+ Height:315px;
+}
 
+
+ </style>
+<div class="banner">  
+
+<img loading="eager" src="missing_banner.jpg">
+
+
+</div>
+      

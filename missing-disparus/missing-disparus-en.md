@@ -17,7 +17,7 @@ lang_url: missing-disparus-fr.html
  </style>
 <div class="banner">  
 
-<imgsrc="banner-page-slim-1920.300.png">
+<img src="banner-page-slim-1920.300.png">
 
 
 </div>

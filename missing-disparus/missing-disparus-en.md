@@ -18,7 +18,7 @@ custom_css: /assets/css/missing.css
  </style>
 <div class="banner">  
 
-<img loading="eager" src="missing_banner.jpg">
+<img loading="eager" src="/sites/default/files/styles/banner_top_1922x315/public/banners/landing-first-nations.jpg">
 
 
 </div>

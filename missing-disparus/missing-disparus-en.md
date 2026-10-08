@@ -9,15 +9,15 @@ lang_url: missing-disparus-fr.html
 ---
 <style>
 .banner {
- width:1922px;
- Height:315px;
+ width:1920px;
+ Height:300px;
 }
 
 
  </style>
 <div class="banner">  
 
-<img loading="eager" src="/assets/img/landing-cadet-hub.jpg">
+<imgsrc="banner-page-slim-1920.300.png">
 
 
 </div>

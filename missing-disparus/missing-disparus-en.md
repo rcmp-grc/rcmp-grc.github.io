@@ -18,7 +18,7 @@ custom_css: /assets/css/missing.css
  </style>
 <div class="banner">  
 
-<img loading="eager" src="/assets/img/hero-civilian.jpg">
+<img loading="eager" src="/assets/img/landing-cadet-hub.jpg">
 
 
 </div>

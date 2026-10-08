@@ -1,5 +1,6 @@
 ---
-layout: missing
+layout: default
+theme: missing
 title: Canada's Missing
 date_modified: 2026-10-06
 lang: en

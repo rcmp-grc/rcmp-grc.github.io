@@ -16,6 +16,7 @@ lang_url: missing-disparus-fr.html
   object-fit: cover;
   object-position: center;
   display: block;
+  overflow: hidden;
 }
 
 

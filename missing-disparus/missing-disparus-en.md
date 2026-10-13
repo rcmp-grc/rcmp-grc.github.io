@@ -27,8 +27,9 @@ lang_url: missing-disparus-fr.html
 
 
 </div>
-
+<div>
 	<gcds-card card-title="Robert Norman Ross" href="#" badge="Located">
 		<gcds-text>Pellentesque dapibus erat sit amet lectus scelerisque, sed gravida metus pellentesque.</gcds-text>
 	</gcds-card>
+</div>
       

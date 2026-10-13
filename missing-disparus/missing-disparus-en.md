@@ -18,7 +18,7 @@ lang_url: missing-disparus-fr.html
   display: block;
   overflow: hidden;
 }
-.card {
+.missing-card {
 	background-color: #fff;
     box-shadow: 0 0.125rem 0.5rem 0.125rem;
     color: #333;
@@ -38,8 +38,8 @@ lang_url: missing-disparus-fr.html
 
 </div>
 <div>
-	<card card-title="Robert Norman Ross" href="#" badge="Located">
+	<missing-card>
 		<p>Pellentesque dapibus erat sit amet lectus scelerisque, sed gravida metus pellentesque.</p>
-	<card>
+	<missing-card>
 </div>
       

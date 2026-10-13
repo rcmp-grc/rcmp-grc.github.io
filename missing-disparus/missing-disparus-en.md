@@ -18,6 +18,16 @@ lang_url: missing-disparus-fr.html
   display: block;
   overflow: hidden;
 }
+.card {
+	background-color: #fff;
+    box-shadow: 0 0.125rem 0.5rem 0.125rem;
+    color: #333;
+    display: block;
+    height: 100%;
+    max-width: 34.125rem;
+    overflow: hidden;
+    padding: 2.25rem 1.5rem;
+    position: relative;
 
 
  </style>
@@ -28,8 +38,8 @@ lang_url: missing-disparus-fr.html
 
 </div>
 <div>
-	<gcds-card card-title="Robert Norman Ross" href="#" badge="Located">
-		<gcds-text>Pellentesque dapibus erat sit amet lectus scelerisque, sed gravida metus pellentesque.</gcds-text>
-	</gcds-card>
+	<card card-title="Robert Norman Ross" href="#" badge="Located">
+		<p>Pellentesque dapibus erat sit amet lectus scelerisque, sed gravida metus pellentesque.<p></p>
+	<card>
 </div>
       

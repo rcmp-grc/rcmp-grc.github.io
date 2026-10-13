@@ -39,7 +39,7 @@ lang_url: missing-disparus-fr.html
 </div>
 <div>
 	<card card-title="Robert Norman Ross" href="#" badge="Located">
-		<p>Pellentesque dapibus erat sit amet lectus scelerisque, sed gravida metus pellentesque.<p></p>
+		<p>Pellentesque dapibus erat sit amet lectus scelerisque, sed gravida metus pellentesque.</p>
 	<card>
 </div>
       

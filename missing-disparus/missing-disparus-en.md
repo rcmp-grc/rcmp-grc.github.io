@@ -37,7 +37,9 @@ lang_url: missing-disparus-fr.html
 
 </div>
 <div class="clearfix"></div>
-<div class="missing-card">Robert Norman Ross</div>
+
 <p>Robert Norman Ross was born in Daytona, Florida, on October 29, 1942 to Jack and Ollie Ross. From his mother Bob learned a love and respect of wildlife. Bob’s father was a carpenter and for a short time Bob worked with him but after an unfortunate accident where Bob cut off one of his fingers he decided that carpentry wasn’t for him and in 1960 he joined the Air Force.</p>
+
+<div class="missing-card" img-src="https://dummyimage.com/306x203/000000/FFFFFF.png" href="#">Robert Norman Ross</div>
 
       

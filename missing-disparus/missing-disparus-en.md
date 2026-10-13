@@ -37,9 +37,7 @@ lang_url: missing-disparus-fr.html
 
 
 </div>
-<div>
-	<missing-card>
+
 		<p>Pellentesque dapibus erat sit amet lectus scelerisque, sed gravida metus pellentesque.</p>
-	<missing-card>
-</div>
+
       

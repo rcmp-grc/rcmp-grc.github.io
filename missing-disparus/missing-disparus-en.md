@@ -10,7 +10,7 @@ lang_url: missing-disparus-fr.html
 <style>
 .banner {
   width: 100%;
-  max-height: 250px;
+  min-height: 250px;
   overflow: hidden;
   position: relative;
 }	

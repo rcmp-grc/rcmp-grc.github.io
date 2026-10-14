@@ -60,7 +60,7 @@ lang_url: missing-disparus-fr.html
  
 <div class="banner">
 <img src="banner-missing-01.png">
-<div class="banner-overlay">
+<div>
 	<h2>National Missing Persons Day</h2>
 </div>	
 </div>

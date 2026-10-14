@@ -8,6 +8,7 @@ lang_url: missing-disparus-fr.html
 
 ---
 <style>
+
 .banner {
   width: 100%;
   min-height: 250px;
@@ -49,12 +50,12 @@ lang_url: missing-disparus-fr.html
 <img src="banner-page-slim-1920.300.png">
 </div>
 <div class="clearfix"></div>
-<div class="container">
+
+<div class="mrgn-tp-lg">
 <p>This website features profiles of missing persons and unidentified remains that have been published at the request of the primary investigator from either police, coroner or medical examiner agency. The lead investigator determines when and whether to publish a case.</p>
 <p>This website does not include a listing of profiles for all missing persons and unidentified remains in Canada.</p>
 <p>This site provides descriptions and images of missing persons, along with details about where they were last seen.</p>
-	</div>
-<div class="clearfix"></div>
+</div>
 
 <h2>Missing persons</h2>
 <div class="missing-card col-md-4">

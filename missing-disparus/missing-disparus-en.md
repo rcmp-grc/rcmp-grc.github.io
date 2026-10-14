@@ -64,7 +64,7 @@ text-align: center;
  
 <div class="banner">
 <img src="banner-missing-01.png">
-<div>
+<div class="overlay">
 	<h2>National Missing Persons Day</h2>
 </div>	
 </div>

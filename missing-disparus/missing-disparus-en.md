@@ -47,6 +47,7 @@ lang_url: missing-disparus-fr.html
 
 <div class="missing-card">
 	<img src="dummyimage-300x250.png">
+	<p>Robert Norman Ross</p>
 	
 </div>
 

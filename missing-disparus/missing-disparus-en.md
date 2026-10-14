@@ -33,13 +33,12 @@ lang_url: missing-disparus-fr.html
     height: 100%;
     //max-width: 34.125rem;
     //overflow: hidden;
-    //padding: 2.25rem 1.5rem;
+    padding: 2.25rem 1.5rem;
     position: relative;
 }
 
 .missing-card-img {
-	display: flex;
-	justify-content: center;
+	text-align: center;
 }
 
  </style>

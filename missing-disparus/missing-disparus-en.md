@@ -38,6 +38,10 @@ lang_url: missing-disparus-fr.html
 }
 
 .missing-card-img {
+	width: 100%;
+	display: block;
+    max-width: 100%;
+    height: auto;
 	
 }
 
@@ -55,7 +59,7 @@ lang_url: missing-disparus-fr.html
 
 <h2>Missing persons</h2>
 <div class="missing-card col-md-4">
-	<img class="missing-card-img full-width img-responsive" src="dummyimage-300x250.png">
+	<img class="missing-card-img" src="dummyimage-300x250.png">
 	<h3 class="h5" a href="#">Robert Norman Ross</h3>
 	<ul>
 		<li>Born: October 29, 1942</li>

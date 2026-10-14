@@ -11,7 +11,7 @@ lang_url: missing-disparus-fr.html
 
 .banner {
   width: 100%;
-  min-height: 250px;
+  max-height: 250px;
   overflow: hidden;
   position: relative;
 }	
@@ -25,6 +25,18 @@ lang_url: missing-disparus-fr.html
   object-position: center;
   display: block;
 }
+
+.banner-overlay {
+	position: absolute;
+	top: 50 px;
+	left: 50 px;
+	width: 70%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	text-align: center;
+}
+	
 	
 .missing-card {
 	background-color: #fff;
@@ -48,6 +60,9 @@ lang_url: missing-disparus-fr.html
  
 <div class="banner">
 <img src="banner-page-slim-1920.300.png">
+<div class="banner-overlay">
+	<h2>Missing children month</h2>
+</div>	
 </div>
 <div class="clearfix"></div>
 

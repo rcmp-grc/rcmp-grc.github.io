@@ -31,9 +31,9 @@ lang_url: missing-disparus-fr.html
     color: #333;
     display: block;
     height: 100%;
-    max-width: 34.125rem;
-    overflow: hidden;
-    padding: 2.25rem 1.5rem;
+    //max-width: 34.125rem;
+    //overflow: hidden;
+    //padding: 2.25rem 1.5rem;
     position: relative;
 }
 

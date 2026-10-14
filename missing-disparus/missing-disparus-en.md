@@ -47,7 +47,7 @@ lang_url: missing-disparus-fr.html
 
 <div class="clearfix"></div>
 <h2>Missing persons</h2>
-<div class="missing-card">
+<div class="missing-card col-md-4">
 	<img src="dummyimage-300x250.png">
 	<h3 class="h5" a href="#">Robert Norman Ross</h3>
 	<ul>

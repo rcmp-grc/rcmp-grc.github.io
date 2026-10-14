@@ -37,18 +37,25 @@ lang_url: missing-disparus-fr.html
     position: relative;
 }
 
+.missing-card-img {
+	object-position: center;
+}
+
  </style>
+ 
 <div class="banner">
 <img src="banner-page-slim-1920.300.png">
 </div>
 <div class="clearfix"></div>
 
-<p>Robert Norman Ross was born in Daytona, Florida, on October 29, 1942 to Jack and Ollie Ross. From his mother Bob learned a love and respect of wildlife. Bob’s father was a carpenter and for a short time Bob worked with him but after an unfortunate accident where Bob cut off one of his fingers he decided that carpentry wasn’t for him and in 1960 he joined the Air Force.</p>
-
+<p>This website features profiles of missing persons and unidentified remains that have been published at the request of the primary investigator from either police, coroner or medical examiner agency. The lead investigator determines when and whether to publish a case.</p>
+<p>This website does not include a listing of profiles for all missing persons and unidentified remains in Canada.</p>
+<p>This site provides descriptions and images of missing persons, along with details about where they were last seen.</p>
 <div class="clearfix"></div>
+
 <h2>Missing persons</h2>
 <div class="missing-card col-md-4">
-	<img src="dummyimage-300x250.png">
+	<img class="missing-card-img" src="dummyimage-300x250.png">
 	<h3 class="h5" a href="#">Robert Norman Ross</h3>
 	<ul>
 		<li>Born: October 29, 1942</li>
@@ -57,5 +64,6 @@ lang_url: missing-disparus-fr.html
 	</ul>
 
 </div>
+<div class="clearfix"></div>
 
       

@@ -38,7 +38,7 @@ lang_url: missing-disparus-fr.html
 }
 
 .missing-card-img {
-	justify-content: center;
+	align-content: center;
 }
 
  </style>

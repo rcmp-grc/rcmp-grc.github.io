@@ -47,9 +47,7 @@ lang_url: missing-disparus-fr.html
 
 <div class="clearfix"></div>
 
-<div class="missing-card">
-	<img src="dummyimage-300x250.png">
-
-</div>
+<missing-card img-src="dummyimage-300x250.png">
+</missing-card>
 
       

@@ -32,11 +32,12 @@ position: absolute;
 //left: 0;
 //width: 100%;
 //height: 100%;
-background-color: rgba(0,0,0,0.5);
+background-color: rgba(0,0,255,0.25);
 color: white;
 display: flex;
 flex-direction: column;
 justify-content: center;
+	padding: 4rem 5rem;
 //align-items: center;
 //text-align: center;
 }
@@ -64,7 +65,7 @@ justify-content: center;
  
 <div class="banner">
 <img src="banner-missing-01.png">
-<div class="banner-overlay pstn-tp-xs pstn-lft-xs">
+<div class="banner-overlay">
 	<h2>National Missing Persons Day</h2>
 </div>	
 </div>

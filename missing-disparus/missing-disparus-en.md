@@ -10,10 +10,12 @@ lang_url: missing-disparus-fr.html
 <style>
 
 .banner {
-  width: 100%;
-  max-height: 250px;
-  overflow: hidden;
-  position: relative;
+	position: relative;
+	width: 100%;
+	min-height: 250px;
+	overflow: hidden;
+	display: flex;
+
 }	
 	
 .banner img {
@@ -24,13 +26,12 @@ lang_url: missing-disparus-fr.html
 
 .banner-overlay {
 	position: absolute;
-	top: 10%;
-	left: 10%;
+	margin-left: 10%;
 	background-color: rgba(89,137,203,0.5);
 	display: flex;
-	//justify-content: left;
+	justify-content: left;
 	align-content: center;
-	padding: 0.5rem 0.5rem;
+	padding: 4rem 4rem;
 }
 	
 .banner-title {

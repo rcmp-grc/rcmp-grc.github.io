@@ -35,6 +35,15 @@ lang_url: missing-disparus-fr.html
 	//padding: 0.125rem 0.125rem;
 }
 	
+.banner-title {
+  font-family: var(--font-display);
+  font-size: 3.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--c-white);
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}	
 	
 .missing-card {
 	background-color: #fff;
@@ -59,7 +68,7 @@ lang_url: missing-disparus-fr.html
 <div class="banner">
 <img src="banner-missing-01.png">
 <div class="banner-overlay">
-	<h2 class="h4">National Missing Persons Day</h2>
+	<h2 class="banner-title">National Missing Persons Day</h2>
 </div>	
 </div>
 <div class="clearfix"></div>

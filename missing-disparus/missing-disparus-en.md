@@ -24,11 +24,11 @@ lang_url: missing-disparus-fr.html
 
 .banner-overlay {
 	position: absolute;
-	//top: 10%;
-	//left: 5%;
+	top: 10%;
+	left: 5%;
 	background-color: rgba(89,137,203,0.5);
 	color: white;
-	//display: flex;
+	display: flex;
 	//flex-direction: column;
 	justify-content: center;
 	align-items: center;

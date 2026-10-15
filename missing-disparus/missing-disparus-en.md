@@ -17,29 +17,21 @@ lang_url: missing-disparus-fr.html
 }	
 	
 .banner img {
-  //position: absolute;
-  //inset: 0;
   width: 100%;
-  height: 100%;
-  //object-fit: cover;
-  object-position: center;
+  height: auto;
   display: block;
 }
 
 .banner-overlay {
 position: absolute;
-top: 0.5rem;
-left: 1rem;
-//width: 100%;
-//height: 100%;
-background-color: rgba(0,0,255,0.5);
+top: 1rem;
+left: 2rem;
+background-color: rgba(213,243,254,0.5);
 color: white;
-display: flex;
-flex-direction: column;
+//display: flex;
+//flex-direction: column;
 justify-content: center;
-//padding: 4rem 5rem;
-//align-items: center;
-//text-align: center;
+padding: 0.5rem 0.5rem;
 }
 	
 	

@@ -29,9 +29,9 @@ lang_url: missing-disparus-fr.html
 	margin-left: 10%;
 	background-color: rgba(89,137,203,0.5);
 	display: flex;
-	justify-content: left;
-	align-content: center;
-	padding: 4rem 4rem;
+	justify-content: center;
+	align-content: left;
+	//padding: 4rem 4rem;
 }
 	
 .banner-title {

@@ -27,17 +27,17 @@ lang_url: missing-disparus-fr.html
 	top: 10%;
 	left: 10%;
 	background-color: rgba(89,137,203,0.5);
-	justify-content: center;
+	justify-content: left;
 	align-content: center;
 	padding: 0.125rem 0.125rem;
 }
 	
 .banner-title {
   font-family: var(--font-display);
-  font-size: 3.2rem;
+  //font-size: 3.2rem;
   font-weight: 700;
   color: white;
-  line-height: 1.2;
+  //line-height: 1.2;
   margin-bottom: 1.5rem;
 }	
 	

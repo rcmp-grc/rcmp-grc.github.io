@@ -64,7 +64,7 @@ justify-content: center;
  
 <div class="banner">
 <img src="banner-missing-01.png">
-<div class="overlay pstn-tp-xs pstn-lft-xs">
+<div class="banner-overlay pstn-tp-xs pstn-lft-xs">
 	<h2>National Missing Persons Day</h2>
 </div>	
 </div>

@@ -32,7 +32,7 @@ lang_url: missing-disparus-fr.html
 	display: flex;
 	justify-content: center;
 	align-content: left;
-	padding: 0.75rem 0.5rem;
+	padding: 0.10rem 0.75rem;
 }
 	
 .banner-title {

@@ -140,8 +140,8 @@ lang_url: missing-disparus-fr.html
 }
 
  </style>
-<div class="missing-full-width missing-home"> 
-<div class="banner">
+<div class="missing-home"> 
+<div class="missing-full-width banner">
 <img src="banner-missing-01.png">
 <div class="banner-overlay">
 	<h2 class="banner-title">National Missing Persons Day</h2>

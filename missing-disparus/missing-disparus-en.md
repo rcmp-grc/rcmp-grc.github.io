@@ -37,7 +37,7 @@ lang_url: missing-disparus-fr.html
 .banner-title {
 
   font-weight: 700;
-  color: white;
+  color: black;
   line-height: 1.2;
   margin-bottom: 1.5rem;
 }	

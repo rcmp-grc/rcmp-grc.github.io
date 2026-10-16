@@ -140,208 +140,42 @@ lang_url: missing-disparus-fr.html
 }
 
  </style>
-<div class="missing-home missing-full-width">
-<section class="missing-hero"> 
+<div class="missing-full-width missing-home> 
 <div class="banner">
 <img src="banner-missing-01.png">
 <div class="banner-overlay">
 	<h2 class="banner-title">National Missing Persons Day</h2>
 </div>	
 </div>
-<div class="missing-hero-overlay"></div>
-<div class="missing-hero-content">
-<span class="hero-kicker">
-                National Centre for Missing Persons and Unidentified Remains
-            </span>
+<div class="clearfix"></div>
 
-            <h1>Help bring someone home</h1>
+<div class="mrgn-tp-lg">
+<p>The <a href="/about-ausujet/index-eng.htm">National Centre for Missing Persons and Unidentified Remains</a> (NCMPUR) of the Royal Canadian Mounted Police (RCMP) is Canada's national centre that assists law enforcement, medical examiners and chief coroners with missing persons and unidentified remains investigations across the country.</p>	
+<p>This website features profiles of missing persons and unidentified remains that have been published at the request of the primary investigator from either police, coroner or medical examiner agency. The lead investigator determines when and whether to publish a case.</p>
+<p>This website does not include a listing of profiles for all missing persons and unidentified remains in Canada.</p>
+<p>This site provides descriptions and images of missing persons, along with details about where they were last seen.</p>
+</div>
 
-            <p class="hero-description">
-                Search missing persons and unidentified remains cases
-                published by law enforcement agencies across Canada.
-            </p>
+<section class="alert alert-warning">
+	<h2 class="h4">Content warning</h2>
+<p>Images and information contained in this website may be disturbing to some viewers. Reasonable effort has been made to present cases of unidentified remains in a way that is not offensive or uncomfortable for the viewer or disrespectful of the deceased.</p>	
+</section>
 
-            <form class="hero-search">
-                <label class="wb-inv" for="hero-search">
-                    Search by name
-                </label>
+<section id="s1">
+<h2>Missing persons</h2>
+<div class="missing-card col-md-4">
+	<img class="missing-card-img" src="dummyimage-300x250.png">
+	<h3 class="h5" a href="#">Robert Norman Ross</h3>
+	<ul>
+		<li>Born: October 29, 1942</li>
+		<li>Missing since: July 4, 1995</li>
+		<li>Missing from: Daytona Beach</li>
+	</ul>
 
-                <input
-                    id="hero-search"
-                    type="text"
-                    placeholder="Search by name">
-
-                <button type="submit">
-                    Search
-                </button>
-            </form>
-
-            <div class="hero-actions">
-                search-en.html
-                    Search cases
-                </a>
-
-                advanced-search-en.html
-                    Advanced search
-                </a>
-            </div>
-
-        </div>
-
-    </section>
-
-
-
-	
-    <section class="featured-section">
-
-        <div class="container">
-
-            <div class="section-header">
-
-                <div>
-                    <p class="section-label">
-                        Featured cases
-                    </p>
-
-                    <h2>
-                        Help identify these individuals
-                    </h2>
-                </div>
-
-                search-en.html
-                    View all cases
-                </a>
-
-            </div>
-
-        </div>
-
-        <div class="case-scroll">
-
-            {% for person in site.data.featured_cases limit:9 %}
-
-            {{ person.url }}
-
-                <div class="case-image-wrap">
-
-                    {{ person.image }}
-
-                    <span class="case-type">
-                        Missing Person
-                    </span>
-
-                </div>
-
-                <div class="case-body">
-
-                    <h3>{{ person.name }}</h3>
-
-                    <p>
-                        Missing since {{ person.date }}
-                    </p>
-
-                    <p>
-                        {{ person.city }}
-                    </p>
-
-                </div>
-
-            </a>
-
-            {% endfor %}
-
-        </div>
-
-    </section>
-
-    <section class="warning-section">
-
-        <div class="container">
-
-            <div class="warning-card">
-
-                <h2>Content warning</h2>
-
-                <p>
-                    Images and information contained on this website may be
-                    disturbing to some viewers.
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <section class="about-section">
-
-        <div class="container">
-
-            <div class="about-grid">
-
-                <div class="about-content">
-
-                    <p class="section-label">
-                        About NCMPUR
-                    </p>
-
-                    <h2>
-                        Canada's national centre for missing persons and unidentified remains
-                    </h2>
-
-                    <p>
-                        The National Centre for Missing Persons and
-                        Unidentified Remains assists law enforcement,
-                        medical examiners and chief coroners with
-                        investigations across Canada.
-                    </p>
-
-                    <a href="about-ausujet/index-eng.htm"
-                       class="btn-primary">
-                        Learn more
-                    </a>
-
-                </div>
-
-                <div class="about-cards">
-
-                    <div class="info-card">
-                        <h3>Missing persons</h3>
-                        <p>
-                            View active published cases.
-                        </p>
-                    </div>
-
-                    <div class="info-card">
-                        <h3>Unidentified remains</h3>
-                        <p>
-                            Assist investigators in identifying remains.
-                        </p>
-                    </div>
-
-                    <div class="info-card">
-                        <h3>Maps</h3>
-                        <p>
-                            Explore cases across Canada.
-                        </p>
-                    </div>
-
-                    <div class="info-card">
-                        <h3>Advanced search</h3>
-                        <p>
-                            Search using detailed criteria.
-                        </p>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-	</div>
+</div>
+</section>
+<div>
+<div class="clearfix"></div>
 
 
       

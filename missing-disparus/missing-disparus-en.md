@@ -140,7 +140,7 @@ lang_url: missing-disparus-fr.html
 }
 
  </style>
-<div class="missing-full-width missing-home> 
+<div class="missing-full-width missing-home"> 
 <div class="banner">
 <img src="banner-missing-01.png">
 <div class="banner-overlay">

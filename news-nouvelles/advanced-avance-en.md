@@ -54,7 +54,7 @@ custom_css: /assets/css/careers.css
 	width: 100%;
 }
 	.news-filters-heading {	
-	background: var(--c-black);
+	background: var(--rcmp-grey-lt);
 	color: var(--c-white);
 	font-weight: 700;
 	padding: 10px 15px;

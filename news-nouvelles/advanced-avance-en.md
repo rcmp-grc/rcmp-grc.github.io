@@ -55,7 +55,7 @@ custom_css: /assets/css/careers.css
 }
 	.news-filters-heading {	
 	background: var(--rcmp-grey-lt);
-	color: var(--c-white);
+	color: var(--rcmp-black);
 	font-weight: 700;
 	padding: 10px 15px;
 	margin: 0;
@@ -122,9 +122,10 @@ custom_css: /assets/css/careers.css
 <p>Search all RCMP news and communications.</p>
 <div class="row mrgn-tp-lg" id="re-page">
 	<div class="col-md-12" id="re-sidebar">
-	<h2 class="h6 news-filters-heading">Search</h2>	
+	<h2 class="h6 news-filters-heading wb-inv">Search</h2>	
     <aside aria-labelledby="news-filters-heading" id="news-filters"> 	 
-    <form action="#" id="search-box" method="get" role="search" aria-label="Search RCMP news">	  
+    <form action="#" id="search-box" method="get" role="search" aria-label="Search RCMP news">	
+		<legend>Search></legend>
     <label class="wb-inv">Search</label>
    <div class="input-group" id="btngrp-search2">
     <input type="text" class="form-controls" placeholder="Search news" />
@@ -134,9 +135,9 @@ custom_css: /assets/css/careers.css
      <span class="wb-inv">Search</span>
     </button> 
    </span></div>
-</form>
 		<div id="re-filters">
-		<h2 class="h6 news-filters-heading">Filter by</h2>
+			<legend>Filter by</legend>
+		<h2 class="h6 news-filters-heading wb-inv" >Filter by</h2>
 		<p class="small mrgn-lft-md mrgn-tp-md">Select any of the following filters to narrow your search</p>	
 	    <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></summary>
@@ -310,6 +311,7 @@ custom_css: /assets/css/careers.css
 		</details>
 	</div>
 	</aside>
+	</form>
   <div id="wp-results-col">
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 

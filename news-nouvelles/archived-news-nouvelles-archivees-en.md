@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-archive
 title: Archived - CMP and Bob the Polar Bear to host northern community winter safety event
 description: My page description
 date_archived: 2026-10-27

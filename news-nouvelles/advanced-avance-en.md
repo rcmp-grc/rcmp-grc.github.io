@@ -125,7 +125,7 @@ custom_css: /assets/css/careers.css
 	<h2 class="h6 news-filters-heading wb-inv">Search</h2>	
     <aside aria-labelledby="news-filters-heading" id="news-filters"> 	 
     <form action="#" id="search-box" method="get" role="search" aria-label="Search RCMP news">	
-		<legend>Search></legend>
+		<legend>Search</legend>
     <label class="wb-inv">Search</label>
    <div class="input-group" id="btngrp-search2">
     <input type="text" class="form-controls" placeholder="Search news" />
@@ -137,11 +137,11 @@ custom_css: /assets/css/careers.css
    </span></div>
 		<div id="re-filters">
 			<legend>Filter by</legend>
+			<fieldset>
 		<h2 class="h6 news-filters-heading wb-inv" >Filter by</h2>
 		<p class="small mrgn-lft-md mrgn-tp-md">Select any of the following filters to narrow your search</p>	
 	    <details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></summary>
-		<fieldset>	
+        <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></summary>	
           <legend class="wb-inv">Topic</legend>
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span></label>
@@ -191,13 +191,11 @@ custom_css: /assets/css/careers.css
 		<div class="checkbox">
         <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span></label>
 		</div>	
-		</fieldset>
 	  </details>
 		<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
            <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Territory or province</span>
         </summary>
-			<fieldset>
           <legend class="wb-inv">Territory or province</legend>
             <div class="checkbox">
             <label><input data-filter="territory" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span></label>
@@ -238,13 +236,11 @@ custom_css: /assets/css/careers.css
 <div class="checkbox">
             <label><input data-filter="territory" type="checkbox" value="Yukon"><span class="cb-text">Yukon</span></label>
           </div>
-			</fieldset>
 </details>
 <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
            <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">National, divisional, regional policing</span>
         </summary>
-			<fieldset>
 		    <legend class="wb-inv">National, divisional, regional policing</legend>
 		<div class="checkbox">
             <label><input data-filter="region" type="checkbox" value="National Headquarters"><span class="cb-text">National Headquarters</span></label>
@@ -297,7 +293,6 @@ custom_css: /assets/css/careers.css
 			<div class="checkbox">
             <label><input data-filter="region" type="checkbox" value="Pacific Region"><span class="cb-text">Pacific Region</span></label>
           </div>	
-		 </fieldset>
       </details>	
 		<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Publish date</span>

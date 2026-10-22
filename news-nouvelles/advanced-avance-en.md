@@ -54,8 +54,8 @@ custom_css: /assets/css/careers.css
 	width: 100%;
 }
 	.news-filters-heading {	
-	background: var(--rcmp-grey-lt);
-	color: var(--rcmp-black);
+	background: var(--c-black);
+	color: var(--c-white);
 	font-weight: 700;
 	padding: 10px 15px;
 	margin: 0;
@@ -120,12 +120,11 @@ custom_css: /assets/css/careers.css
 }		 
 </style>
 <p>Search all RCMP news and communications.</p>
-<div id="re-page">
-	<div class="col-md-8" id="re-sidebar">
+<div class="row mrgn-tp-lg" id="re-page">
+	<div class="col-md-12" id="re-sidebar">
+	<h2 class="h6 news-filters-heading">Search</h2>	
     <aside aria-labelledby="news-filters-heading" id="news-filters"> 	 
-    <form action="#" id="search-box" method="get" role="search" aria-label="Search RCMP news">	
-		<legend>Search</legend>
-		<fieldset>
+    <form action="#" id="search-box" method="get" role="search" aria-label="Search RCMP news">	  
     <label class="wb-inv">Search</label>
    <div class="input-group" id="btngrp-search2">
     <input type="text" class="form-controls" placeholder="Search news" />
@@ -134,12 +133,14 @@ custom_css: /assets/css/careers.css
 	 <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
      <span class="wb-inv">Search</span>
     </button> 
-   </span></div></fieldset>
+   </span></div>
+</form>
 		<div id="re-filters">
-			<legend>Filter by</legend>
+		<h2 class="h6 news-filters-heading">Filter by</h2>
 		<p class="small mrgn-lft-md mrgn-tp-md">Select any of the following filters to narrow your search</p>	
 	    <details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></summary>	
+        <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></summary>
+		<fieldset>	
           <legend class="wb-inv">Topic</legend>
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span></label>
@@ -189,11 +190,13 @@ custom_css: /assets/css/careers.css
 		<div class="checkbox">
         <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span></label>
 		</div>	
+		</fieldset>
 	  </details>
 		<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
            <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Territory or province</span>
         </summary>
+			<fieldset>
           <legend class="wb-inv">Territory or province</legend>
             <div class="checkbox">
             <label><input data-filter="territory" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span></label>
@@ -234,11 +237,13 @@ custom_css: /assets/css/careers.css
 <div class="checkbox">
             <label><input data-filter="territory" type="checkbox" value="Yukon"><span class="cb-text">Yukon</span></label>
           </div>
+			</fieldset>
 </details>
 <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
            <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">National, divisional, regional policing</span>
         </summary>
+			<fieldset>
 		    <legend class="wb-inv">National, divisional, regional policing</legend>
 		<div class="checkbox">
             <label><input data-filter="region" type="checkbox" value="National Headquarters"><span class="cb-text">National Headquarters</span></label>
@@ -291,18 +296,20 @@ custom_css: /assets/css/careers.css
 			<div class="checkbox">
             <label><input data-filter="region" type="checkbox" value="Pacific Region"><span class="cb-text">Pacific Region</span></label>
           </div>	
+		 </fieldset>
       </details>	
 		<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Publish date</span>
         </summary>
+			<fieldset>
 			 <legend class="wb-inv">Publish date</legend>
 			 <div><p class="small">For example, 2005, 21/11/2014, May 27, 2024</p></div>
              <label class="re-select-label" for="dt_mindate">Before</label><input data-column="0" class="re-input-text" id="dt_mindate" name="dt_mindate" type="text"> 
 			 <label class="re-select-label mrgn-tp-md" for="dt_maxdate">After</label><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text">
+			</fieldset>
 		</details>
 	</div>
-			</fieldset>
-	</form></aside></div></div>
+	</aside>
   <div id="wp-results-col">
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 

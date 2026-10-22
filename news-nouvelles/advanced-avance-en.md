@@ -118,7 +118,7 @@ custom_css: /assets/css/careers.css
 	<div class="col-md-12" id="re-sidebar">
 		<div id="re-filters">
 		<h2 class="h6">Search by</h2>	
-	    <details>
+	    <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></summary>
           <legend class="wb-inv">Topic</legend>
           <div class="checkbox">
@@ -170,7 +170,7 @@ custom_css: /assets/css/careers.css
         <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span></label>
 		</div>	
 	  </details>
-		<details>
+		<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
            <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Territory or province</span>
         </summary>
@@ -215,7 +215,7 @@ custom_css: /assets/css/careers.css
             <label><input data-filter="territory" type="checkbox" value="Yukon"><span class="cb-text">Yukon</span></label>
           </div>
 </details>
-<details>
+<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
            <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">National, divisional, regional policing</span>
         </summary>
@@ -272,7 +272,7 @@ custom_css: /assets/css/careers.css
             <label><input data-filter="region" type="checkbox" value="Pacific Region"><span class="cb-text">Pacific Region</span></label>
           </div>	
       </details>	
-		<details>
+		<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Publish date</span>
         </summary>
 			 <legend class="wb-inv">Publish date</legend>

@@ -56,8 +56,8 @@
             </dd>
             <dt>Date archived:</dt>
             <dd>
-              <time property="dateModified">
-                {{ page.date_modified | default: site.time | date: "%Y-%m-%d" }}
+              <time property="dateArchived">
+                {{ page.date_archived | default: site.time | date: "%Y-%m-%d" }}
               </time>
             </dd>
           </dl>

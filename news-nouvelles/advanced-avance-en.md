@@ -121,7 +121,7 @@ custom_css: /assets/css/careers.css
 </style>
 <p>Search all RCMP news and communications.</p>
 <div class="row mrgn-tp-lg" id="re-page">
-	<div class="col-md-3" id="re-sidebar">
+	<div class="col-md-12" id="re-sidebar">
 	<h2 class="h6 news-filters-heading">Search</h2>	
     <aside aria-labelledby="news-filters-heading" id="news-filters"> 	 
     <form action="#" id="search-box" method="get" role="search" aria-label="Search RCMP news">	  
@@ -310,8 +310,7 @@ custom_css: /assets/css/careers.css
 		</details>
 	</div>
 	</aside>
-	</div>
-  <div class="col-md-9" id="wp-results-col">
+  <div id="wp-results-col">
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 
      <div id="wp-toolbar">

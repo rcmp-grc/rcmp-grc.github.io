@@ -120,12 +120,13 @@ custom_css: /assets/css/careers.css
 }		 
 </style>
 <p>Search all RCMP news and communications.</p>
-<div class="row mrgn-tp-lg" id="re-page">
-	<div class="col-md-12" id="re-sidebar">
+<div id="re-page">
+	<div class="col-md-8" id="re-sidebar">
 	<h2 class="h6 news-filters-heading wb-inv">Search</h2>	
     <aside aria-labelledby="news-filters-heading" id="news-filters"> 	 
     <form action="#" id="search-box" method="get" role="search" aria-label="Search RCMP news">	
 		<legend>Search</legend>
+		<fieldset>
     <label class="wb-inv">Search</label>
    <div class="input-group" id="btngrp-search2">
     <input type="text" class="form-controls" placeholder="Search news" />
@@ -134,11 +135,11 @@ custom_css: /assets/css/careers.css
 	 <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
      <span class="wb-inv">Search</span>
     </button> 
-   </span></div>
+   </span></div></fieldset>
 		<div id="re-filters">
 			<legend>Filter by</legend>
 			<fieldset>
-		<h2 class="h6 news-filters-heading wb-inv" >Filter by</h2>
+		<h2 class="h6 news-filters-heading wb-inv">Filter by</h2>
 		<p class="small mrgn-lft-md mrgn-tp-md">Select any of the following filters to narrow your search</p>	
 	    <details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></summary>	
@@ -297,16 +298,14 @@ custom_css: /assets/css/careers.css
 		<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Publish date</span>
         </summary>
-			<fieldset>
 			 <legend class="wb-inv">Publish date</legend>
 			 <div><p class="small">For example, 2005, 21/11/2014, May 27, 2024</p></div>
              <label class="re-select-label" for="dt_mindate">Before</label><input data-column="0" class="re-input-text" id="dt_mindate" name="dt_mindate" type="text"> 
 			 <label class="re-select-label mrgn-tp-md" for="dt_maxdate">After</label><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text">
-			</fieldset>
 		</details>
 	</div>
-	</aside>
-	</form>
+			</fieldset>
+	</form></div></form></aside></div>
   <div id="wp-results-col">
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 

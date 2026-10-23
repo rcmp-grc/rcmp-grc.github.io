@@ -278,7 +278,7 @@ custom_css: /assets/css/careers.css
 			 <legend class="wb-inv">Publish date</legend>
 			<p>For example, 2005, 21/11/2014, May 27, 2024</p>
              <div class="col-lg-2 col-md-2 col-sm-2 mrgn-bttm-lg"><label class="re-select-label" for="dt_mindate">Before</label></div><div class="col-lg-10 col-md-10 col-sm-10 mrgn-bttm-lg"><input data-column="0" class="re-input-text" id="dt_mindate" name="dt_mindate" type="text"></div>	</div>																																																		
-			 <div><div class="col-lg-2 col-md-2 col-sm-2"><label class="re-select-label" for="dt_maxdate">After</label></div><div class="col-lg-10 col-md-10 col-sm-10"><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text"></div></div>
+			 <div class="col-lg-2 col-md-2 col-sm-2"><label class="re-select-label" for="dt_maxdate">After</label></div><div class="col-lg-10 col-md-10 col-sm-10"><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text"></div>
 		</details>
 	</div>
 </div>

@@ -142,7 +142,7 @@ custom_css: /assets/css/careers.css
           <label><input data-filter="category" type="checkbox" value="Illicit drugs"><span class="cb-text">Illicit drugs</span></label>
 		  </div>
 			</div>
-				<div class=""col-md-4">
+				<div class="col-md-4">
 		  <div class="checkbox">
           <label><input data-filter="category" type="checkbox" value="Missing persons"><span class="cb-text">Missing persons</span></label>
 		  </div>

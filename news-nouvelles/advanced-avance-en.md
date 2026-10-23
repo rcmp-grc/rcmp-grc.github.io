@@ -107,9 +107,6 @@ custom_css: /assets/css/careers.css
    align-items: center;
    margin-bottom: 0;
 }	 
-	fieldset {
-		border-bottom: 1px;
-}
 </style>
 <p>Search all RCMP news and communications.</p>
 <div class="row mrgn-tp-lg" id="re-page">
@@ -117,7 +114,7 @@ custom_css: /assets/css/careers.css
 		<div id="re-filters">
 		<h2 class="h6">Search by</h2>	
 	    <div class="wp-filter-group">
-			<fieldset>
+			<fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></legend>
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span></label>
@@ -170,7 +167,7 @@ custom_css: /assets/css/careers.css
 			</fieldset>
 	  </div>
 		<div class="wp-filter-group">	
-			<fieldset>
+			<fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label" role="heading">Territory or province</span></legend>
             <div class="checkbox">
             <label><input data-filter="territory" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span></label>
@@ -214,7 +211,7 @@ custom_css: /assets/css/careers.css
 			</fieldset>
 		</div>
 <div class="wp-filter-group">
-	<fieldset>
+	<fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label" role="heading">National, divisional, regional policing</span></legend>
 		<div class="checkbox">
             <label><input data-filter="region" type="checkbox" value="National Headquarters"><span class="cb-text">National Headquarters</span></label>
@@ -270,7 +267,7 @@ custom_css: /assets/css/careers.css
 	</fieldset>
 </div>	
 		<div class="wp-filter-group">	
-			<fieldset
+			<fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label" role="heading">Publish date</span></legend>
 			<p>For example, 2005, 21/11/2014, May 27, 2024</p>
              <div class="col-lg-2 col-md-2 col-sm-2 mrgn-bttm-lg"><label class="re-select-label" for="dt_mindate">Before</label></div><div class="col-lg-10 col-md-10 col-sm-10 mrgn-bttm-lg"><input data-column="0" class="re-input-text" id="dt_mindate" name="dt_mindate" type="text"></div>																																																	

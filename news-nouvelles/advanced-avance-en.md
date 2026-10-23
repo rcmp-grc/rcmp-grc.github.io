@@ -112,10 +112,11 @@ custom_css: /assets/css/careers.css
 <div class="row mrgn-tp-lg" id="re-page">
 	<div class="col-md-8" id="re-sidebar">
 		<div id="re-filters">
-		<h2 class="h6">Search by</h2>	
 	    <div class="wp-filter-group">
 			<fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></legend>
+			<div class="row wb-eqht">
+				<div class="col-md-4">
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span></label>
           </div>
@@ -140,6 +141,8 @@ custom_css: /assets/css/careers.css
 		  <div class="checkbox">
           <label><input data-filter="category" type="checkbox" value="Illicit drugs"><span class="cb-text">Illicit drugs</span></label>
 		  </div>
+			</div>
+				<div class=""col-md-4">
 		  <div class="checkbox">
           <label><input data-filter="category" type="checkbox" value="Missing persons"><span class="cb-text">Missing persons</span></label>
 		  </div>
@@ -164,6 +167,7 @@ custom_css: /assets/css/careers.css
 		<div class="checkbox">
         <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span></label>
 		</div>	
+				</div>
 			</fieldset>
 	  </div>
 		<div class="wp-filter-group">	

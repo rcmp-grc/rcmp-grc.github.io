@@ -115,7 +115,7 @@ custom_css: /assets/css/careers.css
 </style>
 <p>Search all RCMP news and communications.</p>
 <div class="row mrgn-tp-lg" id="re-page">
-	<div class="col-md-12" id="re-sidebar">
+	<div class="col-md-8" id="re-sidebar">
 		<div id="re-filters">
 		<h2 class="h6">Search by</h2>	
 	    <details class="wp-filter-group">
@@ -281,6 +281,7 @@ custom_css: /assets/css/careers.css
 			 <label class="re-select-label mrgn-tp-md" for="dt_maxdate">After</label><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text">
 		</details>
 	</div>
+</div>
   <div id="wp-results-col mrgn-tp-lg">
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 

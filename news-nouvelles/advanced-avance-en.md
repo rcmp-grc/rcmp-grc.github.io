@@ -276,8 +276,9 @@ custom_css: /assets/css/careers.css
 			 <div class="col-lg-2 col-md-2 col-sm-2"><label class="re-select-label" for="dt_maxdate">After</label></div><div class="col-lg-10 col-md-10 col-sm-10"><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text"></div>
 		</details>
 			<button type="submit" class="btn btn-md btn-danger">Search</button> 
-	</div>
-  <div id="wp-results-col" class="mrgn-tp-lg col-md-12">
+ </div>
+</div><div class="clearfix">
+  <div id="wp-results-col" class="mrgn-tp-lg">
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 
      <div id="wp-toolbar">
@@ -307,8 +308,7 @@ custom_css: /assets/css/careers.css
         </button>
       </div>
     </nav>
-	  </div>
-</div><div class="clearfix"></div></div>
+	 </div></div>
 	
 <script>
 	(function () {

@@ -116,7 +116,7 @@ custom_css: /assets/css/careers.css
 			<fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></legend>
 			<div class="row wb-eqht">
-				<div class="col-md-4">
+				<div class="col-md-6">
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span></label>
           </div>
@@ -142,7 +142,7 @@ custom_css: /assets/css/careers.css
           <label><input data-filter="category" type="checkbox" value="Illicit drugs"><span class="cb-text">Illicit drugs</span></label>
 		  </div>
 			</div>
-				<div class="col-md-4">
+				<div class="col-md-6">
 		  <div class="checkbox">
           <label><input data-filter="category" type="checkbox" value="Missing persons"><span class="cb-text">Missing persons</span></label>
 		  </div>
@@ -175,7 +175,7 @@ custom_css: /assets/css/careers.css
 			<fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label" role="heading">Territory or province</span></legend>
 			<div class="row wb-eqht">
-				<div class="col-md-4">	
+				<div class="col-md-6">	
             <div class="checkbox">
             <label><input data-filter="territory" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span></label>
           </div>
@@ -198,7 +198,7 @@ custom_css: /assets/css/careers.css
             <label><input data-filter="territory" type="checkbox" value="Nova Scotia"><span class="cb-text">Nova Scotia</span></label>
           </div>
 				</div>
-				<div class="col-md-4">	
+				<div class="col-md-6">	
 <div class="checkbox">
             <label><input data-filter="territory" type="checkbox" value="Nunavut"><span class="cb-text">Nunavut</span></label>
           </div>
@@ -225,7 +225,7 @@ custom_css: /assets/css/careers.css
 	<fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label" role="heading">National, divisional, regional policing</span></legend>
 		<div class="row wb-eqht">
-				<div class="col-md-4">	
+				<div class="col-md-6">	
 		<div class="checkbox">
             <label><input data-filter="region" type="checkbox" value="National Headquarters"><span class="cb-text">National Headquarters</span></label>
           </div>
@@ -254,7 +254,7 @@ custom_css: /assets/css/careers.css
             <label><input data-filter="region" type="checkbox" value="Nunavut RCMP"><span class="cb-text">Nunavut RCMP</span></label>
           </div>
 				</div>
-			<div class="col-md-4">	
+			<div class="col-md-6">	
 <div class="checkbox">
             <label><input data-filter="region" type="checkbox" value="Prince Edward Island RCMP"><span class="cb-text">Prince Edward Island RCMP</span></label>
           </div>

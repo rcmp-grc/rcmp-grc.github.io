@@ -106,12 +106,7 @@ custom_css: /assets/css/careers.css
    display: flex;
    align-items: center;
    margin-bottom: 0;
-}
- .btn-danger {
-   padding-top: 12px;     
-   padding-bottom: 12px;
-   border-radius: 0;
-}		 
+}	 
 </style>
 <p>Search all RCMP news and communications.</p>
 <div class="row mrgn-tp-lg" id="re-page">

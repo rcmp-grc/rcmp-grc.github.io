@@ -168,8 +168,9 @@ custom_css: /assets/css/careers.css
         <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span></label>
 		</div>	
 				</div>
+			</div>
 			</fieldset>
-	  </div>
+		</div>
 		<div class="wp-filter-group">	
 			<fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label" role="heading">Territory or province</span></legend>

@@ -4,7 +4,7 @@ title: Advanced news and communications search
 description: My page description
 date_modified: 2026-08-08
 lang: en
-lang_url: news-nouvelles-fr.html
+lang_url: advanced-avance-fr.html
 author:
 creator:
 subject:

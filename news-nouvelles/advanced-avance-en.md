@@ -282,6 +282,7 @@ custom_css: /assets/css/careers.css
 		</details>
 	</div>
 </div>
+	<div class="clearfix"></div>
   <div id="wp-results-col mrgn-tp-lg">
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 

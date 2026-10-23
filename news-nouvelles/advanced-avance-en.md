@@ -277,9 +277,7 @@ custom_css: /assets/css/careers.css
 		</details>
 			<button type="submit" class="btn btn-md btn-danger">Search</button> 
 	</div>
-</div>
-	<div class="clearfix"></div>
-  <div id="wp-results-col mrgn-tp-lg">
+  <div id="wp-results-col" class="mrgn-tp-lg">
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 
      <div id="wp-toolbar">
@@ -310,7 +308,8 @@ custom_css: /assets/css/careers.css
       </div>
     </nav>
 	  </div>
-</div>  
+</div><div class="clearfix"></div></div>
+	
 <script>
 	(function () {
   'use strict';

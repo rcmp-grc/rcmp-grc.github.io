@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Advanced search of news and communications
+title: Advanced news and communications search
 description: My page description
 date_modified: 2026-08-08
 lang: en
@@ -113,9 +113,8 @@ custom_css: /assets/css/careers.css
 	<div class="col-md-8" id="re-sidebar">
 		<div id="re-filters">
 		<h2 class="h6">Search by</h2>	
-	    <details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></summary>
-          <legend class="wb-inv">Topic</legend>
+	    <div class="wp-filter-group">
+          <legend><i aria-hidden="true"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></legend>
           <div class="checkbox">
             <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span></label>
           </div>
@@ -164,12 +163,9 @@ custom_css: /assets/css/careers.css
 		<div class="checkbox">
         <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span></label>
 		</div>	
-	  </details>
-		<details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle">
-           <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Territory or province</span>
-        </summary>
-          <legend class="wb-inv">Territory or province</legend>
+	  </div>
+		<div class="wp-filter-group">	
+          <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label" role="heading">Territory or province</span></legend>
             <div class="checkbox">
             <label><input data-filter="territory" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span></label>
           </div>
@@ -209,12 +205,9 @@ custom_css: /assets/css/careers.css
 <div class="checkbox">
             <label><input data-filter="territory" type="checkbox" value="Yukon"><span class="cb-text">Yukon</span></label>
           </div>
-</details>
-<details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle">
-           <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">National, divisional, regional policing</span>
-        </summary>
-		    <legend class="wb-inv">National, divisional, regional policing</legend>
+		</div>
+<div class="wp-filter-group">	
+          <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label" role="heading">National, divisional, regional policing</span></legend>
 		<div class="checkbox">
             <label><input data-filter="region" type="checkbox" value="National Headquarters"><span class="cb-text">National Headquarters</span></label>
           </div>
@@ -266,17 +259,15 @@ custom_css: /assets/css/careers.css
 			<div class="checkbox">
             <label><input data-filter="region" type="checkbox" value="Pacific Region"><span class="cb-text">Pacific Region</span></label>
           </div>	
-      </details>	
-		<details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Publish date</span>
-        </summary>
-			 <legend class="wb-inv">Publish date</legend>
+</div>	
+		<div class="wp-filter-group">	
+          <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label" role="heading">Publish date</span></legend>
 			<p>For example, 2005, 21/11/2014, May 27, 2024</p>
              <div class="col-lg-2 col-md-2 col-sm-2 mrgn-bttm-lg"><label class="re-select-label" for="dt_mindate">Before</label></div><div class="col-lg-10 col-md-10 col-sm-10 mrgn-bttm-lg"><input data-column="0" class="re-input-text" id="dt_mindate" name="dt_mindate" type="text"></div>																																																	
 			 <div class="col-lg-2 col-md-2 col-sm-2"><label class="re-select-label" for="dt_maxdate">After</label></div><div class="col-lg-10 col-md-10 col-sm-10"><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text"></div>
-		</details>
+		</div>
 			<button type="submit" class="btn btn-md btn-danger">Search</button> 
- </div></div>
+ </div>
 </div><div class="clearfix"></div>
   <div id="wp-results-col" class="mrgn-tp-lg">
 	  <h2 class="wb-inv">List of news</h2>
@@ -308,7 +299,7 @@ custom_css: /assets/css/careers.css
         </button>
       </div>
     </nav>
-	 </div>
+	 </div></div>
 	
 <script>
 	(function () {

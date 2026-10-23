@@ -280,6 +280,7 @@ custom_css: /assets/css/careers.css
             <label><input data-filter="region" type="checkbox" value="Pacific Region"><span class="cb-text">Pacific Region</span></label>
           </div>	
 			</div>
+		</div>
 	</fieldset>
 </div>	
 		<div class="wp-filter-group mrgn-bttm-lg">	

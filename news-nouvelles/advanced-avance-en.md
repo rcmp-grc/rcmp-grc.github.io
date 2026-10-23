@@ -107,8 +107,8 @@ custom_css: /assets/css/careers.css
    align-items: center;
    margin-bottom: 0;
 }	 
-	legend {
-	border-bottom: 1px;
+	fieldset {
+		border-bottom: 1px;
 }
 </style>
 <p>Search all RCMP news and communications.</p>

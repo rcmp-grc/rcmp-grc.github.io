@@ -140,7 +140,7 @@ lang_url: missing-disparus-fr.html
 }
 
  </style>
-<div class="missing-home"> 
+<div class="missing-home missing-full-width"> 
 
 	
 <section class="missing-hero">

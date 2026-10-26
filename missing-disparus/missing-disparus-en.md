@@ -141,12 +141,21 @@ lang_url: missing-disparus-fr.html
 
  </style>
 <div class="missing-home"> 
-<div class="missing-full-width banner">
-<img class="banner" src="banner-missing-01.png">
-<div class="banner-overlay">
-	<h2 class="banner-title">National Missing Persons Day</h2>
+<section class="missing-hero">
+<img src="banner-missing-01.png">
+	<div class="missing-hero-overlay"></div>
+<div class="missing-hero-content">
+	<span class="hero-kicker">
+                National Centre for Missing Persons and Unidentified Remains
+            </span>
+	<h2>Help bring someone home</h2>
+	<p class="hero-description">
+                Search missing persons and unidentified remains cases
+                published by law enforcement agencies across Canada.
+            </p>
 </div>	
 </div>
+</section>
 <div class="clearfix"></div>
 
 <div class="mrgn-tp-lg">

@@ -141,6 +141,8 @@ lang_url: missing-disparus-fr.html
 
  </style>
 <div class="missing-home"> 
+
+	
 <section class="missing-hero">
 <img src="banner-missing-01.png">
 	<div class="missing-hero-overlay"></div>
@@ -155,7 +157,7 @@ lang_url: missing-disparus-fr.html
             </p>
 </div>
 </section>
-<div class="clearfix"></div>
+
 
 <div class="mrgn-tp-lg">
 <p>The <a href="/about-ausujet/index-eng.htm">National Centre for Missing Persons and Unidentified Remains</a> (NCMPUR) of the Royal Canadian Mounted Police (RCMP) is Canada's national centre that assists law enforcement, medical examiners and chief coroners with missing persons and unidentified remains investigations across the country.</p>	

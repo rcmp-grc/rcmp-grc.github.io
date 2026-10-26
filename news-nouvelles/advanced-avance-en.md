@@ -115,6 +115,7 @@ custom_css: /assets/css/careers.css
           <legend><i aria-hidden="true"></i><span aria-level="3" role="heading">Keyword</span></legend>
 		  <label for="keyword"><span class="cb-text">Keywords</span></label> <input data-column="0" class="re-input-text" id="keyword" name="keyword" type="text">
 			</fieldset>
+		</div>
 	    <div class="wp-filter-group mrgn-bttm-lg">
 			<fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></legend>
@@ -295,7 +296,7 @@ custom_css: /assets/css/careers.css
 		</div>
 			<button type="submit" class="btn btn-md btn-danger">Search</button> 
  </div>
-</div><div class="clearfix"></div>
+</div></div><div class="clearfix"></div>
   <div id="wp-results-col" class="mrgn-tp-lg">
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 

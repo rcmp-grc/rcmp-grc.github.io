@@ -145,7 +145,7 @@ lang_url: missing-disparus-fr.html
 	
 <section class="missing-hero">
 <img src="banner-missing-01.png">
-	<div class="missing-hero-overlay"></div>
+	<div class="missing-hero-overlay">
 <div class="missing-hero-content">
 	<span class="hero-kicker">
                 National Centre for Missing Persons and Unidentified Remains
@@ -156,6 +156,9 @@ lang_url: missing-disparus-fr.html
                 published by law enforcement agencies across Canada.
             </p>
 </div>
+</div>
+
+		
 </section>
 
 

@@ -150,11 +150,7 @@ lang_url: missing-disparus-fr.html
 	<span class="hero-kicker">
                 National Centre for Missing Persons and Unidentified Remains
             </span>
-	<h2>Help bring someone home</h2>
-	<p class="hero-description">
-                Search missing persons and unidentified remains cases
-                published by law enforcement agencies across Canada.
-            </p>
+
 </div>
 </div>
 
@@ -163,6 +159,13 @@ lang_url: missing-disparus-fr.html
 
 
 <div class="mrgn-tp-lg">
+
+	<h2>Help bring someone home</h2>
+	<p class="hero-description">
+                Search missing persons and unidentified remains cases
+                published by law enforcement agencies across Canada.
+            </p>
+	
 <p>The <a href="/about-ausujet/index-eng.htm">National Centre for Missing Persons and Unidentified Remains</a> (NCMPUR) of the Royal Canadian Mounted Police (RCMP) is Canada's national centre that assists law enforcement, medical examiners and chief coroners with missing persons and unidentified remains investigations across the country.</p>	
 <p>This website features profiles of missing persons and unidentified remains that have been published at the request of the primary investigator from either police, coroner or medical examiner agency. The lead investigator determines when and whether to publish a case.</p>
 <p>This website does not include a listing of profiles for all missing persons and unidentified remains in Canada.</p>

@@ -109,14 +109,14 @@ custom_css: /assets/css/careers.css
 }	 
 </style>
 <p>Search all RCMP news and communications.</p>
-<h2>Search by</h2>
+<h2 class="h3">Search by</h2>
 <div class="row mrgn-tp-lg" id="re-page">
 	<div class="col-md-8" id="re-sidebar">
 		<div id="re-filters">
 	    <div class="wp-filter-group mrgn-bttm-lg">
 			<fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Keyword</span></legend>
-				<div class="col-lg-2 col-md-2 col-sm-2 mrgn-bttm-lg"><label class="re-select-label" for="keyword">Keywords</label></div><div class="col-lg-10 col-md-10 col-sm-10 mrgn-bttm-lg"><input data-column="0" class="re-input-text" id="keyword" name="keyword" type="text"></div>
+				<div class="col-lg-2 col-md-2 col-sm-2 mrgn-bttm-lg mrgn-lft-0"><label class="re-select-label" for="keyword">Keywords</label></div><div class="col-lg-10 col-md-10 col-sm-10 mrgn-bttm-lg"><input data-column="0" class="re-input-text" id="keyword" name="keyword" type="text"></div>
 			</fieldset>
 		</div>
 			<div id="re-filters">
@@ -295,8 +295,8 @@ custom_css: /assets/css/careers.css
 			<fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label" role="heading">Publish date</span></legend>
 			<p>For example, 2005, 21/11/2014, May 27, 2024</p>
-             <div class="col-lg-2 col-md-2 col-sm-2 mrgn-bttm-lg"><label class="re-select-label" for="dt_mindate">Before</label></div><div class="col-lg-10 col-md-10 col-sm-10 mrgn-bttm-lg"><input data-column="0" class="re-input-text" id="dt_mindate" name="dt_mindate" type="text"></div>																																																	
-			 <div class="col-lg-2 col-md-2 col-sm-2"><label class="re-select-label" for="dt_maxdate">After</label></div><div class="col-lg-10 col-md-10 col-sm-10"><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text"></div>
+             <div class="col-lg-2 col-md-2 col-sm-2 mrgn-bttm-lg mrgn-lft-0"><label class="re-select-label" for="dt_mindate">Before</label></div><div class="col-lg-10 col-md-10 col-sm-10 mrgn-bttm-lg"><input data-column="0" class="re-input-text" id="dt_mindate" name="dt_mindate" type="text"></div>																																																	
+			 <div class="col-lg-2 col-md-2 col-sm-2 mrgn-lft-0"><label class="re-select-label" for="dt_maxdate">After</label></div><div class="col-lg-10 col-md-10 col-sm-10"><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text"></div>
 			</fieldset>
 		</div>
 			<button type="submit" class="btn btn-md btn-danger">Search</button> 

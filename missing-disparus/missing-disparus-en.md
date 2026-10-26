@@ -10,7 +10,7 @@ lang_url: missing-disparus-fr.html
 <style>
 
 .missing-full-width {
-    width: 100vw;
+    width: 90vw;
     margin-left: calc(50% - 50vw);
 }
 

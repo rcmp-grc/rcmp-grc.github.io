@@ -153,7 +153,6 @@ lang_url: missing-disparus-fr.html
                 Search missing persons and unidentified remains cases
                 published by law enforcement agencies across Canada.
             </p>
-</div>	
 </div>
 </section>
 <div class="clearfix"></div>

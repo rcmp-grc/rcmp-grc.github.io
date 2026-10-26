@@ -104,10 +104,6 @@ custom_css: /assets/css/careers.css
    align-items: center;
    margin-bottom: 0;
 }	 
-	#re-page {
-	padding-left: 10px;
-	padding-right: 10px;
-}
 </style>
 <p>Search all RCMP news and communications.</p>
 <h2 class="h3">Search by</h2>

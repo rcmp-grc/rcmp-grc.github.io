@@ -61,9 +61,6 @@ custom_css: /assets/css/careers.css
 	width: 100%;
     overflow: hidden;
 }
-    #re-filters details {
-    border-top: 1px solid var(--c-grey-border);
-}	
 	.re-select:focus {
 	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;	
@@ -74,7 +71,7 @@ custom_css: /assets/css/careers.css
 }
     .checkbox input[type="checkbox"]:focus {
     outline: 2px solid var(--rcmp-red);
-    outline-offset: 0;
+    outline-offset: 0;	
 }
     #news-sort-select:focus {
     outline: 2px solid var(--rcmp-red);
@@ -107,6 +104,9 @@ custom_css: /assets/css/careers.css
    align-items: center;
    margin-bottom: 0;
 }	 
+	#re-sidebar {
+	margin-left: 10px;
+}
 </style>
 <p>Search all RCMP news and communications.</p>
 <h2 class="h3">Search by</h2>

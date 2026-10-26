@@ -113,10 +113,10 @@ custom_css: /assets/css/careers.css
 <div class="row mrgn-tp-lg" id="re-page">
 	<div class="col-md-8" id="re-sidebar">
 		<div id="re-filters">
-	    <div class="wp-filter-group mrgn-bttm-lg mrgn-lft-0">
+	    <div class="wp-filter-group mrgn-bttm-lg pull-left">
 			<fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Keyword</span></legend>
-		  <div class="col-sm-2 mrgn-bttm-lg pull-left"><label class="re-select-label" for="keyword">Keywords</label></div><div class="col-sm-10 mrgn-bttm-lg"><input data-column="0" class="re-input-text" id="keyword" name="keyword" type="text"></div>
+		  <div class="col-sm-2 mrgn-bttm-lg"><label class="re-select-label" for="keyword">Keywords</label></div><div class="col-sm-10 mrgn-bttm-lg"><input data-column="0" class="re-input-text" id="keyword" name="keyword" type="text"></div>
 			</fieldset>
 		</div>
 			<div id="re-filters">

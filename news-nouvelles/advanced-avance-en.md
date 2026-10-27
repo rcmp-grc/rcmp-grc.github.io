@@ -113,7 +113,7 @@ custom_css: /assets/css/careers.css
 	    <div class="wp-filter-group mrgn-bttm-lg">
 			<fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span aria-level="3" role="heading">Keyword</span></legend>
-		  <label for="keyword">Keywords</label> <input data-column="0" class="re-input-text" id="keyword" name="keyword" type="text">
+		  <label for="keyword"><span class="cb-text">Keywords</span></label> <input data-column="0" class="re-input-text" id="keyword" name="keyword" type="text">
 			</fieldset>
 		</div>
 	    <div class="wp-filter-group mrgn-bttm-lg">
@@ -291,7 +291,7 @@ custom_css: /assets/css/careers.css
 			<fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label" role="heading">Publish date</span></legend>
 			<p>For example, 2005, 21/11/2014, May 27, 2024</p>
-             <label class="re-select-label" for="dt_mindate"><span class="cb-text">Before</span></label><input data-column="0" class="re-input-text" id="dt_mindate" name="dt_mindate" type="text">																						 <label class="re-select-label" for="dt_maxdate"><span class="cb-text">After</span></label><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text">
+              <div id="wp-sort"><label class="re-select-label" for="dt_mindate"><span class="cb-text">Before</span></label><input data-column="0" class="re-input-text" id="dt_mindate" name="dt_mindate" type="text"></div>												  <div id="wp-sort"><label class="re-select-label" for="dt_maxdate"><span class="cb-text">After</span></label><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text"></div>
 			</fieldset>
 		</div>
 			<button type="submit" class="btn btn-md btn-danger">Search</button> 

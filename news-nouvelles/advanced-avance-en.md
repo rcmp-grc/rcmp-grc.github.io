@@ -105,7 +105,7 @@ custom_css: /assets/css/careers.css
    margin-bottom: 0;
 }	 
 </style>
-<p>Search all RCMP news and communications.</p>
+<p>Search all RCMP news and communications by keywords, topics, territory or province, national, divisional, regional policing, and publishing date.</p>
 <h2 class="h3">Search by</h2>
 <div class="row mrgn-tp-lg" id="re-page">
 	<div class="col-md-8" id="re-sidebar">
@@ -113,7 +113,7 @@ custom_css: /assets/css/careers.css
 	    <div class="wp-filter-group mrgn-bttm-lg">
 			<fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span aria-level="3" role="heading">Keyword</span></legend>
-		  <label for="keyword"><span class="cb-text">Keywords</span></label> <input data-column="0" class="re-input-text" id="keyword" name="keyword" type="text">
+		  <label for="keyword">Keywords</label> <input data-column="0" class="re-input-text" id="keyword" name="keyword" type="text">
 			</fieldset>
 		</div>
 	    <div class="wp-filter-group mrgn-bttm-lg">

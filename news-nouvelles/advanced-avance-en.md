@@ -63,7 +63,7 @@ custom_css: /assets/css/careers.css
 }
 	.re-select:focus {
 	outline: 2px solid var(--rcmp-red);
-	outline-offset: 0;	
+	outline-offset: 0;		
 }
     .re-input-text:focus {
     outline: 2px solid var(--rcmp-red);
@@ -106,14 +106,13 @@ custom_css: /assets/css/careers.css
 }	 
 </style>
 <p>Search all RCMP news and communications by keywords, topics, territory or province, national, divisional, regional policing, and publishing date.</p>
-<h2 class="h3">Search by</h2>
 <div class="row mrgn-tp-lg" id="re-page">
 	<div class="col-md-8" id="re-sidebar">
 		<div id="re-filters">
 	    <div class="wp-filter-group mrgn-bttm-lg">
 			<fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span aria-level="3" role="heading">Keyword</span></legend>
-		  <div class="row mrgn-bttm-md"><div class="col-md-2"><label for="keyword"><span class="cb-text">Keywords</span></label></div><div class="col-md-10"><input data-column="0" class="re-input-text" id="keyword" name="keyword" type="text"></div></div>
+		  <div class="row mrgn-bttm-md wp-sort"><div class="col-md-2"><label for="keyword"><span class="cb-text">Keywords</span></label></div><div class="col-md-10"><input data-column="0" class="re-input-text" id="keyword" name="keyword" type="text"></div></div>
 			</fieldset>
 		</div>
 	    <div class="wp-filter-group mrgn-bttm-lg">

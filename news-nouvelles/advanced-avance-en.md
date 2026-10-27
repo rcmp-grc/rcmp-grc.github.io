@@ -120,7 +120,7 @@ custom_css: /assets/css/careers.css
           <legend><i aria-hidden="true"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></legend>
 			<div class="row wb-eqht">
 				<div class="col-md-6">
-          <div class="checkbox mrgn-lft-sm">
+          <div class="checkbox mrgn-lft-md">
             <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span></label>
           </div>
 		  <div class="checkbox">

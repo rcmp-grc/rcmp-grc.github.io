@@ -71,7 +71,7 @@ custom_css: /assets/css/careers.css
 }
     .checkbox input[type="checkbox"]:focus {
     outline: 2px solid var(--rcmp-red);
-    outline-offset: 0;	
+    outline-offset: 1px;	
 }
     #news-sort-select:focus {
     outline: 2px solid var(--rcmp-red);
@@ -112,7 +112,7 @@ custom_css: /assets/css/careers.css
 	    <div class="wp-filter-group mrgn-bttm-lg">
 			<fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span aria-level="3" role="heading">Keyword</span></legend>
-		  <div class="row mrgn-bttm-md wp-sort"><div class="col-md-2"><label for="keyword"><span class="cb-text">Keywords</span></label></div><div class="col-md-10"><input data-column="0" class="re-input-text" id="keyword" name="keyword" type="text"></div></div>
+		  <div class="row mrgn-bttm-md"><div class="col-md-2"><label for="keyword"><span class="cb-text">Keywords</span></label></div><div class="col-md-10"><input data-column="0" class="re-input-text" id="keyword" name="keyword" type="text"></div></div>
 			</fieldset>
 		</div>
 	    <div class="wp-filter-group mrgn-bttm-lg">
@@ -327,7 +327,7 @@ custom_css: /assets/css/careers.css
         </button>
       </div>
     </nav>
-	 </div></div></div>
+	 </div>
 	
 <script>
 	(function () {

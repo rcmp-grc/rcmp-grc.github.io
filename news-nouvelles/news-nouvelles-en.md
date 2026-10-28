@@ -51,8 +51,8 @@ custom_css: /assets/css/careers.css
 	width: 100%;
 }
 	.news-filters-heading {	
-	background: var(--c-black);
-	color: var(--c-white);
+	background: var(--rcmp-grey-lt);
+	color: var(--c-black);
 	font-weight: 700;
 	padding: 10px 15px;
 	margin: 0;
@@ -366,7 +366,6 @@ custom_css: /assets/css/careers.css
         </button>
       </div>
     </nav>
-	  <p class="text-center mrgn-tp-lg mrgn-lft-lg"><a href="https://rcmp-grc.github.io/news-nouvelles/advanced-avance-en.html">Search all news articles</a></p>
 	  </div>
 </div>  
 <section class="gc-features mrgn-bttm-lg">

@@ -124,51 +124,51 @@ custom_css: /assets/css/careers.css
             <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Assault"></span><span class="cb-text">Assault</span></label>
           </div>
 		  <div class="checkbox">
-          <label><input data-filter="category" type="checkbox" value="National security"><span class="cb-text">National security</span></label>
+          <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="National security"></span><span class="cb-text">National security</span></label>
 		  </div>
           <div class="checkbox">
-            <label><input data-filter="category" type="checkbox" value="Break and Enter"><span class="cb-text">Break and enter</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Break and Enter"></span><span class="cb-text">Break and enter</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="category" type="checkbox" value="Disturbance"><span class="cb-text">Disturbance</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Disturbance"></span><span class="cb-text">Disturbance</span></label>
           </div>
 			<div class="checkbox">
-            <label><input data-filter="category" type="checkbox" value="Emergency"><span class="cb-text">Emergency</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Emergency"></span><span class="cb-text">Emergency</span></label>
           </div>
           <div class="checkbox">
-            <label><input data-filter="category" type="checkbox" value="Homicide"><span class="cb-text">Homicide</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Homicide"></span><span class="cb-text">Homicide</span></label>
           </div>
 		  <div class="checkbox">
-          <label><input data-filter="category" type="checkbox" value="Human trafficking"><span class="cb-text">Human trafficking</span></label>
+          <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Human trafficking"></span><span class="cb-text">Human trafficking</span></label>
 		  </div>
 		  <div class="checkbox">
-          <label><input data-filter="category" type="checkbox" value="Illicit drugs"><span class="cb-text">Illicit drugs</span></label>
+          <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Illicit drugs"></span><span class="cb-text">Illicit drugs</span></label>
 		  </div>
 			</div>
 				<div class="col-md-6">
 		  <div class="checkbox">
-          <label><input data-filter="category" type="checkbox" value="Missing persons"><span class="cb-text">Missing persons</span></label>
+          <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Missing persons"></span><span class="cb-text">Missing persons</span></label>
 		  </div>
 		  <div class="checkbox">
-          <label><input data-filter="category" type="checkbox" value="Organized crime"><span class="cb-text">Organized crime</span></label>
+          <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Organized crime"></span><span class="cb-text">Organized crime</span></label>
 		  </div>
 		  <div class="checkbox">
-          <label><input data-filter="category" type="checkbox" value="Property damage"><span class="cb-text">Property damage</span></label>
+          <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Property damage"></span><span class="cb-text">Property damage</span></label>
 		  </div>
 		  <div class="checkbox">
-          <label><input data-filter="category" type="checkbox" value="Public interest"><span class="cb-text">Public interest</span></label>
+          <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Public interest"></span><span class="cb-text">Public interest</span></label>
 		  </div>
 		  <div class="checkbox">
-          <label><input data-filter="category" type="checkbox" value="Theft"><span class="cb-text">Theft</span></label>
+          <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Theft"></span><span class="cb-text">Theft</span></label>
 		  </div>
 		  <div class="checkbox">
-          <label><input data-filter="category" type="checkbox" value="Traffic"><span class="cb-text">Traffic</span></label>
+          <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Traffic"></span><span class="cb-text">Traffic</span></label>
 		  </div>
 		   <div class="checkbox">
-           <label><input data-filter="category" type="checkbox" value="Wanted persons"><span class="cb-text">Wanted persons</span></label>
+           <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Wanted persons"></span><span class="cb-text">Wanted persons</span></label>
 		 </div>
 		<div class="checkbox">
-        <label><input data-filter="category" type="checkbox" value="Weapons"><span class="cb-text">Weapons</span></label>
+        <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Weapons"></span><span class="cb-text">Weapons</span></label>
 		</div>	
 				</div>
 			</div>
@@ -180,45 +180,45 @@ custom_css: /assets/css/careers.css
 			<div class="row wb-eqht">
 				<div class="col-md-6">	
             <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Alberta"></span><span class="cb-text">Alberta</span></label>
           </div>
 				<div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="British Columbia"><span class="cb-text">British Columbia</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="British Columbia"></span><span class="cb-text">British Columbia</span></label>
           </div>
 			<div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="Manitoba"><span class="cb-text">Manitoba</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Manitoba"></span><span class="cb-text">Manitoba</span></label>
           </div>
 				<div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="New Brunswick"><span class="cb-text">New Brunswick</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="New Brunswick"></span><span class="cb-text">New Brunswick</span></label>
           </div>
 		  <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="Newfoundland and Labrador"><span class="cb-text">Newfoundland and Labrador</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Newfoundland and Labrador"></span><span class="cb-text">Newfoundland and Labrador</span></label>
           </div>
  <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="Northwest Territories"><span class="cb-text">Northwest Territories</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Northwest Territories"></span><span class="cb-text">Northwest Territories</span></label>
           </div>
 		  <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="Nova Scotia"><span class="cb-text">Nova Scotia</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Nova Scotia"></span><span class="cb-text">Nova Scotia</span></label>
           </div>
 				</div>
 				<div class="col-md-6">	
 <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="Nunavut"><span class="cb-text">Nunavut</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Nunavut"></span><span class="cb-text">Nunavut</span></label>
           </div>
 		  <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="Ontario"><span class="cb-text">Ontario</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Ontario"></span><span class="cb-text">Ontario</span></label>
           </div>
 		  <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="Prince Edward Island"><span class="cb-text">Prince Edward Island</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Prince Edward Island"></span><span class="cb-text">Prince Edward Island</span></label>
           </div>
 		  <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="Quebec"><span class="cb-text">Quebec</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Quebec"></span><span class="cb-text">Quebec</span></label>
           </div>
 <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="Saskatchewan"><span class="cb-text">Saskatchewan</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Saskatchewan"></span><span class="cb-text">Saskatchewan</span></label>
           </div>
 <div class="checkbox">
-            <label><input data-filter="territory" type="checkbox" value="Yukon"><span class="cb-text">Yukon</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Yukon"></span><span class="cb-text">Yukon</span></label>
           </div>
 				</div>
 			</div>
@@ -230,57 +230,57 @@ custom_css: /assets/css/careers.css
 		<div class="row wb-eqht">
 				<div class="col-md-6">	
 		<div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="National Headquarters"><span class="cb-text">National Headquarters</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="National Headquarters"></span><span class="cb-text">National Headquarters</span></label>
           </div>
 <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="Alberta RCMP"><span class="cb-text">Alberta RCMP</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Alberta RCMP"></span><span class="cb-text">Alberta RCMP</span></label>
           </div>
 			<div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="British Columbia RCMP"><span class="cb-text">British Columbia RCMP</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="British Columbia RCMP"></span><span class="cb-text">British Columbia RCMP</span></label>
           </div>	
  <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="Manitoba RCMP"><span class="cb-text">Manitoba RCMP</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Manitoba RCMP"></span><span class="cb-text">Manitoba RCMP</span></label>
           </div>
 <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="New Brunswick RCMP"><span class="cb-text">New Brunswick RCMP</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="New Brunswick RCMP"></span><span class="cb-text">New Brunswick RCMP</span></label>
           </div>
 <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="Newfoundland and Labrador RCMP"><span class="cb-text">Newfoundland and Labrador RCMP</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Newfoundland and Labrador RCMP"></span><span class="cb-text">Newfoundland and Labrador RCMP</span></label>
           </div>
 <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="Northwest Territories RCMP"><span class="cb-text">Northwest Territories RCMP</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Northwest Territories RCMP"></span><span class="cb-text">Northwest Territories RCMP</span></label>
           </div>
 <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="Nova Scotia RCMP"><span class="cb-text">Nova Scotia RCMP</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Nova Scotia RCMP"></span><span class="cb-text">Nova Scotia RCMP</span></label>
           </div>
 <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="Nunavut RCMP"><span class="cb-text">Nunavut RCMP</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Nunavut RCMP"></span><span class="cb-text">Nunavut RCMP</span></label>
           </div>
 				</div>
 			<div class="col-md-6">	
 <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="Prince Edward Island RCMP"><span class="cb-text">Prince Edward Island RCMP</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Prince Edward Island RCMP"></span><span class="cb-text">Prince Edward Island RCMP</span></label>
           </div>
 <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="RCMP Depot"><span class="cb-text">RCMP Depot</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="RCMP Depot"></span><span class="cb-text">RCMP Depot</span></label>
           </div>
 <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="Saskatchewan RCMP"><span class="cb-text">Saskatchewan RCMP</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Saskatchewan RCMP"></span><span class="cb-text">Saskatchewan RCMP</span></label>
           </div>
 			<div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="Yukon RCMP"><span class="cb-text">Yukon RCMP</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Yukon RCMP"></span><span class="cb-text">Yukon RCMP</span></label>
           </div>
 			<div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="Central Region"><span class="cb-text">Central Region</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Central Region"></span><span class="cb-text">Central Region</span></label>
           </div>	
 <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="Eastern Region"><span class="cb-text">Eastern Region</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Eastern Region"></span><span class="cb-text">Eastern Region</span></label>
           </div>
 <div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="Northwest Region"><span class="cb-text">Northwest Region</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Northwest Region"></span><span class="cb-text">Northwest Region</span></label>
           </div>
 			<div class="checkbox">
-            <label><input data-filter="region" type="checkbox" value="Pacific Region"><span class="cb-text">Pacific Region</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Pacific Region"></span><span class="cb-text">Pacific Region</span></label>
           </div>	
 			</div>
 		</div>

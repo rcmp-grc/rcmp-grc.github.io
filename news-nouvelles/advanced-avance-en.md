@@ -121,7 +121,7 @@ custom_css: /assets/css/careers.css
 			<div class="row wb-eqht">
 				<div class="col-md-6">
           <div class="checkbox">
-            <label><span class="mrgn-lft-xs"><input data-filter="category" type="checkbox" value="Assault"></span><span class="cb-text">Assault</span></label>
+            <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Assault"></span><span class="cb-text">Assault</span></label>
           </div>
 		  <div class="checkbox">
           <label><input data-filter="category" type="checkbox" value="National security"><span class="cb-text">National security</span></label>

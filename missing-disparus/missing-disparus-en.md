@@ -16,7 +16,7 @@ lang_url: missing-disparus-fr.html
   --rcmp-white: #ffffff;
   --hero-start: #1f2c40;
   --hero-end: #404f6a;
-  --missing-blue-light: #d2def2;
+  --missing-blue-light: #e1e7f2;
   --missing-blue-medium: #b1bbcc;
  }
 

@@ -30,6 +30,9 @@ lang_url: missing-disparus-fr.html
  }
 */
 #missing-fullpage {
+ background: var(--rcmp-grey-light);
+ font-family: "Lato", sans-serif;
+ color: var(--rcmp-black);
  position: relative;
  width: 100vw;
  left: 50%;

@@ -226,11 +226,12 @@ body {
 .explore-links a {
     color: var(--rcmp-black);
     text-decoration: none;
+    font-size: 1rem;
     font-weight: 700;
 }
 
 .explore-links a:hover {
-    color: var(--rcmp-red);
+    text-decoration: underline;
 }
 
 /* RESPONSIVE */
@@ -519,7 +520,7 @@ Images and information contained in this website may be disturbing to some viewe
     </section>
 
     <!-- Explore -->
-    <section class="explore-section">
+<!--    <section class="explore-section">
 
         <h2>Explore Cases</h2>
 
@@ -530,7 +531,7 @@ Images and information contained in this website may be disturbing to some viewe
             <a href="#">Advanced Search</a>
         </div>
 
-    </section>
+    </section>-->
 
 </div>
 

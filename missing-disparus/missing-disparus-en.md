@@ -15,14 +15,17 @@ lang_url: missing-disparus-fr.html
   --rcmp-grey-medium: #d8d8d8;
   --rcmp-white: #ffffff;
   --hero-start: #1f2c40;
-  --hero-end: #39475f;
+  --hero-end: #404f6a;
+  --missing-blue-light: #c8d3e6
+  --missing-blue-medium: #d8d8d8
  }
 
- body {
-  background: var(--rcmp-grey-light);
+ /*body {
+  background: var(--missing-blue-light);
   font-family: "Lato", sans-serif;
   color: var(--rcmp-black);
  }
+*/
 /*
  .missing-home {
   max-width: 1200px;
@@ -30,7 +33,7 @@ lang_url: missing-disparus-fr.html
  }
 */
 #missing-fullpage {
- background: var(--rcmp-grey-light);
+ background: var(--missing-blue-light);
  font-family: "Lato", sans-serif;
  color: var(--rcmp-black);
  position: relative;

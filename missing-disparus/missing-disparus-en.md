@@ -21,7 +21,7 @@ lang_url: missing-disparus-fr.html
  }
 
  body {
-  background: var(--missing-blue-light);
+  background: var(--hero-end);
   font-family: "Lato", sans-serif;
   color: var(--rcmp-black);
  }

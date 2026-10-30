@@ -520,7 +520,7 @@ Images and information contained in this website may be disturbing to some viewe
     </section>
 
     <!-- Explore -->
-<!--    <section class="explore-section">
+<section class="explore-section">
 
         <h2>Explore Cases</h2>
 
@@ -531,7 +531,7 @@ Images and information contained in this website may be disturbing to some viewe
             <a href="#">Advanced Search</a>
         </div>
 
-    </section>-->
+    </section>
 
 </div>
 

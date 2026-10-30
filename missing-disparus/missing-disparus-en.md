@@ -17,7 +17,7 @@ lang_url: missing-disparus-fr.html
   --hero-start: #1f2c40;
   --hero-end: #404f6a;
   --missing-blue-light: #c8d3e6;
-  --missing-blue-medium: #d8d8d8;
+  --missing-blue-medium: #b1bbcc;
  }
 
  body {

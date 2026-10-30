@@ -313,6 +313,60 @@ Images and information contained in this website may be disturbing to some viewe
                 </div>
             </article>
 
+			        <article class="case-card">
+            <div class="case-image"></div>
+            <div class="case-content">
+                <span class="case-type">Missing Person</span>
+                <h3>Profile Name</h3>
+                <p>Last seen location and date</p>
+            </div>
+        </article>
+
+        <article class="case-card">
+            <div class="case-image"></div>
+            <div class="case-content">
+                <span class="case-type">Missing Child</span>
+                <h3>Profile Name</h3>
+                <p>Last seen location and date</p>
+            </div>
+        </article>
+
+        <article class="case-card">
+            <div class="case-image"></div>
+            <div class="case-content">
+                <span class="case-type">Missing Person</span>
+                <h3>Profile Name</h3>
+                <p>Last seen location and date</p>
+            </div>
+        </article>
+
+        <article class="case-card">
+            <div class="case-image"></div>
+            <div class="case-content">
+                <span class="case-type">Unidentified Remains</span>
+                <h3>Profile Name</h3>
+                <p>Discovery location and date</p>
+            </div>
+        </article>
+
+        <article class="case-card">
+            <div class="case-image"></div>
+            <div class="case-content">
+                <span class="case-type">Missing Person</span>
+                <h3>Profile Name</h3>
+                <p>Last seen location and date</p>
+            </div>
+        </article>
+
+        <article class="case-card">
+            <div class="case-image"></div>
+            <div class="case-content">
+                <span class="case-type">Missing Child</span>
+                <h3>Profile Name</h3>
+                <p>Last seen location and date</p>
+            </div>
+        </article>
+
         </div>
     </section>
 

@@ -340,7 +340,7 @@ Images and information contained in this website may be disturbing to some viewe
 
         <h2>Featured Cases</h2>
 
-        <div class="case-grid">
+        <div class="case-carousel">
 
             <article class="case-card">
                 <div class="case-image"></div>

@@ -33,15 +33,8 @@ body {
 }-->
 	
 #missing-fullpage {
-  position: relative;
   width: 100vw;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  margin-top: 0;
-  overflow-x: clip;
-  display: block;
+    margin-left: calc(50% - 50vw);
 }	
 
 /* HERO */
@@ -138,7 +131,7 @@ body {
 /* FEATURED */
 
 .featured-section {
-    padding: 2rem 0 4rem;
+    padding: 3rem 5vw;
     overflow: hidden;
 }
 
@@ -219,7 +212,7 @@ body {
 .explore-section {
     background: #ececec;
     border-radius: 0 0 24px 24px;
-    padding: 2rem;
+    padding: 3rem 5vw;
 }
 
 .explore-section h2 {
@@ -331,7 +324,15 @@ body {
 .case-carousel::-webkit-scrollbar {
     height: 10px;
 }
-
+	
+.case-grid {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+	
 .case-card {
     flex: 0 0 360px;
     scroll-snap-align: start;
@@ -389,7 +390,7 @@ body {
 }
 
  </style>
-<div class="missing-home">
+<div id="missing-fullpage" class="missing-home">
 
     <!-- Hero -->
     <section class="hero-banner">

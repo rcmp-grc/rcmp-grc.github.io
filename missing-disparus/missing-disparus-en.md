@@ -35,6 +35,7 @@ lang_url: missing-disparus-fr.html
   left: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
+  margin: 0 2rem;
  }
 
  /* HERO */
@@ -48,7 +49,6 @@ lang_url: missing-disparus-fr.html
   padding: 5rem 2rem;
   display: flex;
   align-items: center;
-  margin: 0 2rem;
  }
 
  .hero-card {
@@ -202,7 +202,6 @@ lang_url: missing-disparus-fr.html
   background: #ececec;
   border-radius: 0 0 24px 24px;
   padding: 3rem 5vw;
-  margin: 0 2rem;
  }
 
  .explore-section h2 {

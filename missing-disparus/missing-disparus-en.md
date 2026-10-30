@@ -9,189 +9,327 @@ lang_url: missing-disparus-fr.html
 ---
 <style>
 
-.missing-full-width {
-    width: 90vw;
-    margin-left: calc(50% - 50vw);
+:root {
+    --rcmp-red: #b50315;
+    --rcmp-gold: #ecb731;
+    --rcmp-black: #0b0c0c;
+    --rcmp-grey-light: #f3f2f1;
+    --rcmp-grey-medium: #d8d8d8;
+    --rcmp-white: #ffffff;
+
+    --hero-start: #1f2c40;
+    --hero-end: #39475f;
 }
 
-:root {
-    --missing-red: #b50315;
-    --missing-gold: #bea468;
-    --missing-black: #0b0c0c;
-    --missing-grey: #f3f2f1;
-    --missing-white: #ffffff;
+body {
+    background: var(--rcmp-grey-light);
+    font-family: "Lato", sans-serif;
+    color: var(--rcmp-black);
 }
 
 .missing-home {
-    background: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* HERO */
 
-.missing-hero {
+.hero-banner {
+    background: linear-gradient(
+        90deg,
+        var(--hero-start),
+        var(--hero-end)
+    );
+    min-height: 360px;
+    border-radius: 24px 24px 0 0;
     position: relative;
-    height: 70vh;
-    min-height: 650px;
-    overflow: hidden
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
+    padding: 5rem 2rem;
+    display: flex;
+    align-items: center;
 }
 
-.missing-hero-image {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;}
-
-.missing-hero-overlay {
-    position: absolute;
-    inset: 0;
-    background:
-        linear-gradient:
-            90deg,
-            rg*a(0,0,0,.85) 0%,
-            rgba(*,0,0,.55) 55%,
-            rgba(0,*,0,.25) 100%
-        );
-}
-
-.missing-hero-content {
-    position: relative;
-    z-index: 2;
-    max-width: 760px;
-    padding: 7rem 2rem;
-    color: white;
+.hero-card {
+    background: rgba(0, 0, 0, 0.88);
+    max-width: 480px;
+    padding: 1.5rem;
+    border-left: 5px solid var(--rcmp-gold);
 }
 
 .hero-kicker {
-    display: inline-block;
-    color: var(--missing-gold);
-    text-transform: uppercase;
+    color: var(--rcmp-gold);
+    font-size: 0.75rem;
     font-weight: 700;
-    letter-spacing: .15rem;
-    margin-bottom: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
 }
 
-.missing-hero h1 {
-    font-size: clamp(3rem, 8vw, 5.5rem);
-    line-height: 1;
-    margin-bottom: 1.5rem;
-    font-weight: 900;
+.hero-card h1 {
+    color: #fff;
+    margin: 0 0 0.75rem;
+    font-size: 3rem;
+    font-weight: 400;
 }
 
 .hero-description {
-    font-size: 1.3rem;
-    max-width: 650px;
-    margin-bottom: 2rem;
-}
-	
-
-.banner {
-	position: relative;
-	width: 100%;
-	max-height: 250px;
-	overflow: hidden;
-	display: flex;
-
-}	
-	
-.banner img {
-  width: 100%;
-  height: auto;
-  display: block;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
 }
 
-.banner-overlay {
-	position: absolute;
-	top: 15px;
-	left: 15px;
-	background-color: rgba(89,137,203,0.5);
-	display: flex;
-	justify-content: center;
-	align-content: left;
-	padding: 0.10rem 0.75rem;
-}
-	
-.banner-title {
+/* SEARCH */
 
-  font-weight: 700;
-  color: black;
-  line-height: 1.2;
-  margin-bottom: 1.5rem;
-}	
-	
-.missing-card {
-	background-color: #fff;
-    box-shadow: 0 0.125rem 0.5rem 0.125rem;
-    color: #333;
+.search-section {
+    background: #ececec;
+    padding: 1.25rem;
+}
+
+.search-form {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.search-form input {
+    flex: 1;
+    height: 50px;
+    border: 1px solid #888;
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+.search-form button {
+    background: var(--rcmp-red);
+    color: #fff;
+    border: none;
+    padding: 0 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background: #8e0010;
+}
+
+/* WARNING */
+
+.content-warning {
+    margin: 2rem 0 4rem;
+    background: #f4e9c2;
+    border-left: 4px solid var(--rcmp-gold);
+    padding: 1rem 1.25rem;
+}
+
+.content-warning strong {
     display: block;
-    height: 100%;
-    padding: 2.25rem 1.5rem;
-    position: relative;
+    margin-bottom: 0.35rem;
 }
 
-.missing-card-img {
-	width: 100%;
-	display: block;
-    max-width: 100%;
-    height: auto;
-	
+/* FEATURED */
+
+.featured-section {
+    margin-bottom: 4rem;
+}
+
+.featured-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.case-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.case-card {
+    background: #fff;
+    border: 1px solid #cfcfcf;
+}
+
+.case-image {
+    height: 260px;
+    background: #c8ccd1;
+}
+
+.case-content {
+    padding: 1rem;
+}
+
+.case-type {
+    display: inline-block;
+    background: var(--rcmp-black);
+    color: #fff;
+    font-size: 0.75rem;
+    padding: 0.35rem 0.6rem;
+    margin-bottom: 0.75rem;
+}
+
+.case-content h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.case-content p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* EXPLORE */
+
+.explore-section {
+    background: #ececec;
+    border-radius: 0 0 24px 24px;
+    padding: 2rem;
+}
+
+.explore-section h2 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+}
+
+.explore-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    text-align: center;
+}
+
+.explore-links a {
+    color: var(--rcmp-black);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.explore-links a:hover {
+    color: var(--rcmp-red);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .search-form {
+        flex-direction: column;
+    }
+
+    .case-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .explore-links {
+        grid-template-columns: 1fr 1fr;
+        text-align: left;
+    }
+
+    .hero-card h1 {
+        font-size: 2.25rem;
+    }
 }
 
  </style>
-<div class="missing-home missing-full-width"> 
+<div class="missing-home">
 
-	
-<section class="missing-hero">
-<img src="banner-missing-01.png">
-	<div class="missing-hero-overlay">
-<div class="missing-hero-content">
-	<span class="hero-kicker">
-                National Centre for Missing Persons and Unidentified Remains
-            </span>
-
-</div>
-</div>
-
-		
-</section>
-
-
-<div class="mrgn-tp-lg">
-
-	<h2>Help bring someone home</h2>
-	<p class="hero-description">
-                Search missing persons and unidentified remains cases
-                published by law enforcement agencies across Canada.
+    <!-- Hero -->
+    <section class="hero-banner">
+        <div class="hero-card">
+            <p class="hero-kicker">
+                NATIONAL CENTRE FOR MISSING PERSONS AND UNIDENTIFIED REMAINS
             </p>
-	
-<p>The <a href="/about-ausujet/index-eng.htm">National Centre for Missing Persons and Unidentified Remains</a> (NCMPUR) of the Royal Canadian Mounted Police (RCMP) is Canada's national centre that assists law enforcement, medical examiners and chief coroners with missing persons and unidentified remains investigations across the country.</p>	
-<p>This website features profiles of missing persons and unidentified remains that have been published at the request of the primary investigator from either police, coroner or medical examiner agency. The lead investigator determines when and whether to publish a case.</p>
-<p>This website does not include a listing of profiles for all missing persons and unidentified remains in Canada.</p>
-<p>This site provides descriptions and images of missing persons, along with details about where they were last seen.</p>
-</div>
 
-<section class="alert alert-warning">
-	<h2 class="h4">Content warning</h2>
-<p>Images and information contained in this website may be disturbing to some viewers. Reasonable effort has been made to present cases of unidentified remains in a way that is not offensive or uncomfortable for the viewer or disrespectful of the deceased.</p>	
-</section>
+            <h1>Canada's Missing</h1>
 
-<section id="s1">
-<h2>Missing persons</h2>
-<div class="missing-card col-md-4">
-	<img class="missing-card-img" src="dummyimage-300x250.png">
-	<h3 class="h5" a href="#">Robert Norman Ross</h3>
-	<ul>
+            <p class="hero-description">
+                Helping investigators and the public locate missing persons and
+                identify human remains across Canada.
+            </p>
+        </div>
+    </section>
+
+    <!-- Search -->
+    <section class="search-section">
+        <form class="search-form">
+            <input
+                type="text"
+                placeholder="Search by name, location or occurrence number"
+                aria-label="Search cases">
+
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <!-- Warning -->
+    <section class="content-warning">
+        <strong>Content warning</strong>
+        <p>
+Images and information contained in this website may be disturbing to some viewers. Reasonable effort has been made to present cases of unidentified remains in a way that is not offensive or uncomfortable for the viewer or disrespectful of the deceased.
+        </p>
+    </section>
+
+    <!-- Featured Cases -->
+    <section class="featured-section">
+
+        <h2>Featured Cases</h2>
+
+        <div class="case-grid">
+
+            <article class="case-card">
+                <div class="case-image"></div>
+
+                <div class="case-content">
+                    <span class="case-type">Missing Person</span>
+
+                    <h3>Robert Norman Ross</h3>
+
+                    	<ul>
 		<li>Born: October 29, 1942</li>
 		<li>Missing since: July 4, 1995</li>
 		<li>Missing from: Daytona Beach</li>
 	</ul>
+                </div>
+            </article>
 
-</div>
-</section>
-<div>
-<div class="clearfix"></div>
+            <article class="case-card">
+                <div class="case-image"></div>
+
+                <div class="case-content">
+                    <span class="case-type">Missing Child</span>
+
+                    <h3>Profile Name</h3>
+
+                    <p>Last seen location and date</p>
+                </div>
+            </article>
+
+            <article class="case-card">
+                <div class="case-image"></div>
+
+                <div class="case-content">
+                    <span class="case-type">Unidentified Remains</span>
+
+                    <h3>Profile Name</h3>
+
+                    <p>Discovery location and date</p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Explore -->
+    <section class="explore-section">
+
+        <h2>Explore Cases</h2>
+
+        <div class="explore-links">
+            <a href="#">Missing Persons</a>
+            <a href="#">Missing Children</a>
+            <a href="#">Unidentified Remains</a>
+            <a href="#">Advanced Search</a>
+        </div>
+
+    </section>
+
 </div>
 
 

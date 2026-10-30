@@ -27,10 +27,10 @@ body {
     color: var(--rcmp-black);
 }
 
-.missing-home {
+<!--.missing-home {
     max-width: 1200px;
     margin: 0 auto;
-}
+}-->
 	
 #missing-fullpage {
   position: relative;

@@ -48,6 +48,7 @@ lang_url: missing-disparus-fr.html
   padding: 5rem 2rem;
   display: flex;
   align-items: center;
+  overflow: hidden;
  }
 
  .hero-card {

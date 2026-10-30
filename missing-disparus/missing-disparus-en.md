@@ -34,9 +34,9 @@ lang_url: missing-disparus-fr.html
  width: 100vw;
  left: 50%;
  margin-left: -50vw;
- margin-right: -50vw
- margin: 0 auto; 
- /*padding: 0 2rem;*/
+ margin-right: -50vw;
+ /*margin: 0 auto; */
+ padding: 0 2rem;
  }
 
  /* HERO */
@@ -230,140 +230,60 @@ lang_url: missing-disparus-fr.html
  }
 
  /* RESPONSIVE */
- @media (max-width: 768px) {
-  .search-form {
-   flex-direction: column;
-  }
+@media (max-width: 768px) {
 
-  .hero-card h1 {
-   font-size: 2.25rem;
-  }
+    .search-form {
+        flex-direction: column;
+    }
 
-  .case-carousel {
-   display: grid;
-   grid-template-columns: 1fr;
-   gap: 1rem;
-   overflow: visible;
-   scroll-snap-type: none;
-  }
+    .hero-card h1 {
+        font-size: 2.25rem;
+    }
 
-  .case-card {
-   width: 100%;
-   flex: none;
-  }
+    .featured-section {
+        padding: 2rem;
+    }
 
-  .case-image {
-   height: 220px;
-  }
+    .case-carousel {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        overflow: visible;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        scroll-snap-type: none;
+    }
 
-  .explore-links {
-   grid-template-columns: 1fr 1fr;
-   text-align: left;
-  }
- }
+    .case-card {
+        width: 100%;
+        flex: none;
+    }
 
- @media (max-width: 480px) {
-  .hero-banner {
-   padding: 3rem 1rem;
-  }
+    .case-image {
+        height: 220px;
+    }
 
-  .hero-card {
-   max-width: 100%;
-  }
+    .explore-links {
+        grid-template-columns: repeat(2, 1fr);
+        text-align: left;
+    }
+}
 
-  .explore-links {
-   grid-template-columns: 1fr;
-  }
- }
+@media (max-width: 480px) {
 
- /* RESPONSIVE */
- @media (max-width: 768px) {
-  .search-form {
-   flex-direction: column;
-  }
+    .hero-banner {
+        padding: 3rem 1rem;
+    }
 
-  /* Featured Cases */
-  .featured-section {
-   padding: 4rem 0;
-   overflow: hidden;
-  }
+    .hero-card {
+        max-width: 100%;
+    }
 
-  .case-carousel {
-   width: 100vw;
-   margin-left: calc(50% - 50vw);
-   padding: 0 2rem;
-   display: flex;
-   gap: 1.5rem;
-   overflow-x: auto;
-   overflow-y: hidden;
-   scroll-snap-type: x mandatory;
-   scroll-padding-left: 2rem;
-   scrollbar-width: thin;
-  }
-
-  .case-carousel::-webkit-scrollbar {
-   height: 10px;
-  }
-
-  .case-grid {
-   max-width: 1400px;
-   margin: 0 auto;
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-   gap: 2rem;
-  }
-
-  .case-card {
-   flex: 0 0 360px;
-   scroll-snap-align: start;
-   background: #fff;
-   border: 1px solid #d8d8d8;
-   transition: transform .2s ease;
-  }
-
-  .case-card:hover {
-   transform: translateY(-4px);
-  }
-
-  .case-image {
-   height: 320px;
-   background: #c8ccd1;
-  }
- }
-
- /* Mobile */
- @media (max-width: 768px) {
-  .case-carousel {
-   width: auto;
-   margin: 0;
-   display: grid;
-   grid-template-columns: 1fr;
-   gap: 1rem;
-   overflow: visible;
-  }
-
-  .case-card {
-   flex: none;
-   width: 100%;
-  }
-
-  .case-image {
-   height: 260px;
-  }
-
-  .case-grid {
-   grid-template-columns: 1fr;
-  }
-
-  .explore-links {
-   grid-template-columns: 1fr 1fr;
-   text-align: left;
-  }
-
-  .hero-card h1 {
-   font-size: 2.25rem;
-  }
- }
+    .explore-links {
+        grid-template-columns: 1fr;
+    }
+}
 </style>
 
 <div id="missing-fullpage" class="missing-home">

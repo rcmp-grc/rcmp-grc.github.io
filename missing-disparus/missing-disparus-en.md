@@ -35,6 +35,7 @@ lang_url: missing-disparus-fr.html
  left: 50%;
  margin-left: -50vw;
  margin-right: -50vw
+ margin: 0 auto; 
  padding: 0 2rem;
  }
 

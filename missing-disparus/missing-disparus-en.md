@@ -31,6 +31,18 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+	
+#missing-fullpage {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: 0;
+  overflow-x: clip;
+  display: block;
+}	
 
 /* HERO */
 

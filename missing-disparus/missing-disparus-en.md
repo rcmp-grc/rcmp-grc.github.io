@@ -30,11 +30,6 @@ lang_url: missing-disparus-fr.html
  }
 */
 #missing-fullpage {
-  position: relative;
-  width: 100vw;
-  left: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
   margin: 0 2rem;
  }
 

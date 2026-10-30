@@ -213,6 +213,75 @@ body {
         flex-direction: column;
     }
 
+	/* Featured Cases */
+.featured-section {
+    padding: 4rem 0;
+    overflow: hidden;
+}
+
+.case-carousel {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    padding: 0 2rem;
+
+    display: flex;
+    gap: 1.5rem;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    scroll-snap-type: x mandatory;
+    scroll-padding-left: 2rem;
+
+    scrollbar-width: thin;
+}
+
+.case-carousel::-webkit-scrollbar {
+    height: 10px;
+}
+
+.case-card {
+    flex: 0 0 360px;
+    scroll-snap-align: start;
+
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    transition: transform .2s ease;
+}
+
+.case-card:hover {
+    transform: translateY(-4px);
+}
+
+.case-image {
+    height: 320px;
+    background: #c8ccd1;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .case-carousel {
+        width: auto;
+        margin: 0;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+
+        overflow: visible;
+    }
+
+    .case-card {
+        flex: none;
+        width: 100%;
+    }
+
+    .case-image {
+        height: 260px;
+    }
+}
+
     .case-grid {
         grid-template-columns: 1fr;
     }

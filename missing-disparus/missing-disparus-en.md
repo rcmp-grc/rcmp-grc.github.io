@@ -21,7 +21,7 @@ lang_url: missing-disparus-fr.html
  }
 
  body {
-  background: var(--missing-blue-medium);
+  background: var(--missing-blue-light);
   font-family: "Lato", sans-serif;
   color: var(--rcmp-black);
  }
@@ -33,7 +33,7 @@ lang_url: missing-disparus-fr.html
  }
 */
 #missing-fullpage {
- background: var(--missing-blue-medium);
+ background: var(--missing-blue-light);
  font-family: "Lato", sans-serif;
  color: var(--rcmp-black);
  position: relative;
@@ -88,7 +88,7 @@ lang_url: missing-disparus-fr.html
 
  /* SEARCH */
  .search-section {
-  background: #ececec;
+  background: var(--missing-blue-medium);
   padding: 1.25rem;
  }
 

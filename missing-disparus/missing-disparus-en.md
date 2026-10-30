@@ -20,12 +20,12 @@ lang_url: missing-disparus-fr.html
   --missing-blue-medium: #d8d8d8
  }
 
- /*body {
+ body {
   background: var(--missing-blue-light);
   font-family: "Lato", sans-serif;
   color: var(--rcmp-black);
  }
-*/
+
 /*
  .missing-home {
   max-width: 1200px;

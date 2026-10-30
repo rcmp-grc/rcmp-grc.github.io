@@ -201,6 +201,7 @@ lang_url: missing-disparus-fr.html
   background: #ececec;
   border-radius: 0 0 24px 24px;
   padding: 3rem 5vw;
+  overflow: hidden;
  }
 
  .explore-section h2 {

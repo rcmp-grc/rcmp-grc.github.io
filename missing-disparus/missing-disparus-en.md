@@ -33,8 +33,11 @@ body {
 }-->
 	
 #missing-fullpage {
-  width: 100vw;
-    margin-left: calc(50% - 50vw);
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }	
 
 /* HERO */

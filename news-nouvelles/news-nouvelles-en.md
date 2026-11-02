@@ -112,7 +112,7 @@ custom_css: /assets/css/careers.css
 }
  .btn-danger {
    padding-top: 12px;     
-   padding-bottom: 13px;
+   padding-bottom: 11px;
    border-radius: 0;
 }		 
 </style>

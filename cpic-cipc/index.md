@@ -1,6 +1,6 @@
 ---
 layout: default
-title: News and communications
+title: Canadian Police Information Centre
 description: My page description
 date_modified: 2026-05-20
 lang: en

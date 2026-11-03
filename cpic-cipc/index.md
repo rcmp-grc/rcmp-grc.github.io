@@ -8,7 +8,7 @@ lang_url: index-fr.html
 author:
 creator:
 subject:
-issued: 2026-05-04
+issued: 2026-11-03
 ---
 
 <ul>

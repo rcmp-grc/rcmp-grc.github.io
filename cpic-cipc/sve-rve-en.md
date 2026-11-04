@@ -12,6 +12,7 @@ issued: 2026-11-04
 breadcrumbs:
   - label: "Canadian Police Information Centre"
     url: "/en/cpic-cipc-en.html"
+custom_css: /assets/css/careers.css    
 ---
 
 <style>

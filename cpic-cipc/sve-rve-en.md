@@ -106,7 +106,7 @@ breadcrumbs:
 		<fieldset class="legend-brdr-bttm">
 <legend><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
 		<div class="form-group">
-			<label for="vin" class="required"><span class="cb-text">Vehicle Identification Number (VIN)</span> <strong class="required">(required)</strong></label>
+			<label for="vin" class="required">Vehicle Identification Number (VIN) <strong class="required">(required)</strong></label>
 			<input class="form-control" id="vin" name="vin" pattern="[A-Za-z][0-9]{6}" required="required">
 		</div>
 		</fieldset>

@@ -39,16 +39,14 @@ breadcrumbs:
 }
 </style>
 <p>You may can search for autos, trucks, vans, sport utility vehicles (SUVs), motorcycles, snowmobiles, farm vehicles, heavy equipment, trailers, or all-terrain vehicles (ATVs). Please enter a valid Vehicle Identification Number (VIN) that contains only letters and numbers without spaces or other special characters.</p>
-<div class="row mrgn-tp-lg" id="re-page">
-<div class="col-md-8">
-<div id="re-filters">
-<div class="wp-filter-group mrgn-bttm-lg">
-<fieldset class="legend-brdr-bttm">
+<div class="wb-frmvld">
+	<form action="#" method="get" id="validation-example">
+		<fieldset class="legend-brdr-bttm">
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
-<div class="row mrgn-bttm-md"><label for="vin"><span class="cb-text">Vehicle Identification Number (VIN) (required)</span></label><input data-column="0" class="re-input-text" id="vin" name="keyword" type="text"></div>
-</fieldset>
-</div>
-</div>
-</div>
-<div class="clearfix"></div>
+		<div class="form-group">
+			<label for="vin" class="required"><span class="cb-text">Vehicle Identification Number (VIN)</span> <strong class="required">(required)</strong></label>
+			<input class="form-control" id="vin" name="vin" pattern="[A-Za-z][0-9]{6}" required="required">
+		</div>
+		</fieldset>
+	</form>
 </div>

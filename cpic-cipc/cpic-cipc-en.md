@@ -10,8 +10,7 @@ creator:
 subject:
 issued: 2026-05-04
 ---
-<div class="col-xs-12">
-		<div class="row">
+<div class="row">
 <div class="col-md-8">
 <p>The Canadian Police Information Centre (CPIC) provides information on stolen property. It's the only national information-sharing system that links criminal justice and law enforcement partners across Canada and internationally. CPIC offers a public search tool to provide updates on property or motor vehicles reported stolen. Search for items by listed identification numbers.</p>
 </div>
@@ -20,10 +19,8 @@ issued: 2026-05-04
 </div>					
 </div>	
 </div>
-</div>
 <div class="container">
 <div class="row">
-<div class="col-md-12">
 <section class="gc-srvinfo">
 <h2 class="wb-inv">Public searches</h2>
 <div class="row wb-eqht-grd">
@@ -53,6 +50,5 @@ issued: 2026-05-04
 </div>
 </div>	
 </section>
-</div>
 </div>
 </div>

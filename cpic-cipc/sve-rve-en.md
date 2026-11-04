@@ -15,13 +15,6 @@ breadcrumbs:
 ---
 
 <style>
-#re-filters {
-	border: 0;	
-	margin-bottom: 0px;	
-	padding: 0;
-	width: 100%;
-    overflow: hidden;
-}
     .re-input-text:focus {
     outline: 2px solid var(--rcmp-red);
     outline-offset: 0;	

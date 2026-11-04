@@ -15,7 +15,7 @@ breadcrumbs:
 ---
 
 <style>
-  .news-card {
+  .result-card {
   position: relative;
   border: 1px solid var(--c-grey-border);
   background: var(--c-white);
@@ -26,11 +26,11 @@ breadcrumbs:
   box-sizing: border-box;
   display: block;
 }
-.news-card-body {
+.result-body {
   padding: 16px 16px 0px 16px;
   border-top: 3px solid var(--rcmp-red);
 }
-.news-card-format-tag {
+.result-card-format-tag {
     position: absolute;
     top: 0;
     right: 0;
@@ -46,13 +46,13 @@ breadcrumbs:
     display: flex;
     align-items: center;
 }
-	#news-filters {
+	#result-filters {
 	border: 1px solid var(--c-grey-border);	
 	padding: 0;
 	overflow: hidden;
 	width: 100%;
 }
-	.news-filters-heading {	
+	.result-filters-heading {	
 	background: var(--rcmp-grey-lt);
 	color: var(--c-black);
 	font-weight: 700;
@@ -66,13 +66,6 @@ breadcrumbs:
 	width: 100%;
     overflow: hidden;
 }
-    #re-filters details {
-    border-top: 1px solid var(--c-grey-border);
-}	
-	.re-select:focus {
-	outline: 2px solid var(--rcmp-red);
-	outline-offset: 0;	
-}
     .re-input-text:focus {
     outline: 2px solid var(--rcmp-red);
     outline-offset: 0;	
@@ -81,15 +74,11 @@ breadcrumbs:
     outline: 2px solid var(--rcmp-red);
     outline-offset: 0;
 }
-    #news-sort-select:focus {
-    outline: 2px solid var(--rcmp-red);
-    outline-offset: 0;	
-}	
 	.form-controls:focus {
 	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;	
 }
-   .form-controls {
+   .form-control {
    width: 100%;
    padding: 6px 8px;
    border: 2px solid var(--c-black);
@@ -106,16 +95,6 @@ breadcrumbs:
 }
    .input-group	{
    margin: 18px 12px;	   
-}
-   #news-count {
-   display: flex;
-   align-items: center;
-   margin-bottom: 0;
-}
- .btn-danger {
-   padding-top: 12px;     
-   padding-bottom: 11px;
-   border-radius: 0;
 }		 
 </style>
 <p>You may can search for autos, trucks, vans, sport utility vehicles (SUVs), motorcycles, snowmobiles, farm vehicles, heavy equipment, trailers, or all-terrain vehicles (ATVs). Please enter a valid Vehicle Identification Number (VIN) that contains only letters and numbers without spaces or other special characters.</p>

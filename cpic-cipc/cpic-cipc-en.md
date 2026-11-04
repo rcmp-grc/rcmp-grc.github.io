@@ -20,6 +20,7 @@ issued: 2026-05-04
 </div>	
 </div>
 <div class="container">
+<div class-"col-md-12">
 <div class="row">
 <section class="gc-srvinfo">
 <h2 class="wb-inv">Public searches</h2>
@@ -50,5 +51,6 @@ issued: 2026-05-04
 </div>
 </div>	
 </section>
+</div>
 </div>
 </div>

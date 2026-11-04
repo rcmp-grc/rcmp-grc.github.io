@@ -19,11 +19,10 @@ issued: 2026-05-04
 </div>					
 </div>	
 </div>
-<div class="container">
-<div class-"col-md-12">
+<div class-"col-md-12">  
 <div class="row">
 <section class="gc-srvinfo">
-<h2 class="wb-inv">Public searches</h2>
+<h2 class="wb-inv">Public searches and FAQ</h2>
 <div class="row wb-eqht-grd">
 <div class="col-md-4">
 <h3><a href=" ">Vehicles</a></h3>
@@ -51,6 +50,5 @@ issued: 2026-05-04
 </div>
 </div>	
 </section>
-</div>
 </div>
 </div>

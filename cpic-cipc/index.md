@@ -12,7 +12,7 @@ issued: 2026-11-03
 ---
 
 <ul>
-  <li>Landing</li>
+  <li><a href="cpic-cipc-en.html">Landing</a></li>
   <li>Vehicles</li>
   <li>Bicycles</li>
   <li>Property</li>

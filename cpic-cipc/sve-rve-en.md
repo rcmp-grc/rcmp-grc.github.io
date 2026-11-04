@@ -92,20 +92,17 @@ custom_css: /assets/css/careers.css
    appearance: none;
    background-repeat: no-repeat;
    background-position: right 10px center; 
-   box-sizing: border-box;
-}
-   .input-group	{
-   margin: 18px 12px;	   
+   box-sizing: border-box;	   
 }		 
 </style>
 <p>You may can search for autos, trucks, vans, sport utility vehicles (SUVs), motorcycles, snowmobiles, farm vehicles, heavy equipment, trailers, or all-terrain vehicles (ATVs). Please enter a valid Vehicle Identification Number (VIN) that contains only letters and numbers without spaces or other special characters.</p>
-<div class="wb-frmvld" id="re-page">
+<div id="re-page">
 	<div class="col-md-8" id="re-sidebar">
-	<form action="#" method="get" id="validation-example">
+	<form action="#" method="get" id="vin">
 	<div id="re-filters">
 	    <div class="wp-filter-group mrgn-bttm-lg">
 		<fieldset class="legend-brdr-bttm">
-<legend><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
+<legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
 		<div class="form-group">
 			<label for="vin" class="required">Vehicle Identification Number <strong class="required">(required)</strong></label>
 			<input class="form-controls" id="vin" name="vin" pattern="[A-Za-z][0-9]{6}" required="required">

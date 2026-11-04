@@ -20,7 +20,6 @@ issued: 2026-05-04
 </div>					
 </div>	
 </div>
-<div class="container"> 
 <section class="gc-srvinfo">
 <h2 class="wb-inv">Public searches and FAQ</h2>
 <div class="row wb-eqht-grd">
@@ -50,5 +49,4 @@ issued: 2026-05-04
 </div>
 </div>	
 </section>
-</div>
 </div>

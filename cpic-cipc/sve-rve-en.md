@@ -77,7 +77,6 @@ custom_css: /assets/css/careers.css
 }
 	.form-controls:focus {
 	outline: 2px solid var(--rcmp-red);
-	padding: 6px 8px;	
 	outline-offset: 0;	
 }
    .form-controls {
@@ -102,12 +101,10 @@ custom_css: /assets/css/careers.css
 	<form action="#" method="get" id="vin">
 	<div id="re-filters">
 	    <div class="wp-filter-group mrgn-bttm-lg">
-		<fieldset class="legend-brdr-bttm">
+		<fieldset class="brdr-bttm">
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
-		<div class="form-group">
 			<label for="vin" class="required">Vehicle Identification Number <strong class="required">(required)</strong></label>
 			<input class="form-controls" id="vin" name="vin" pattern="[A-Za-z][0-9]{6}" required="required">
-		</div>
 		</fieldset>
 </div>
 	</div>

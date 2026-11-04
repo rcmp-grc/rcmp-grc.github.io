@@ -22,10 +22,6 @@ breadcrumbs:
 	width: 100%;
     overflow: hidden;
 }
-	.re-select:focus {
-	outline: 2px solid var(--rcmp-red);
-	outline-offset: 0;	
-}
     .re-input-text:focus {
     outline: 2px solid var(--rcmp-red);
     outline-offset: 0;	
@@ -34,28 +30,9 @@ breadcrumbs:
     outline: 2px solid var(--rcmp-red);
     outline-offset: 0;
 }
-    #news-sort-select:focus {
-    outline: 2px solid var(--rcmp-red);
-    outline-offset: 0;	
-}	
 	.form-controls:focus {
 	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;	
-}
-   .form-controls {
-   width: 100%;
-   padding: 6px 8px;
-   border: 2px solid var(--c-black);
-   border-radius: 0;
-   background: var(--c-white);
-   font-size: inherit;
-   font-family: inherit;
-   cursor: pointer;
-   -webkit-appearance: none;
-   appearance: none;
-   background-repeat: no-repeat;
-   background-position: right 10px center; 
-   box-sizing: border-box;
 }
    .input-group	{
    margin: 18px 12px;	   
@@ -74,3 +51,4 @@ breadcrumbs:
 </div>
 </div>
 <div class="clearfix"></div>
+</div>

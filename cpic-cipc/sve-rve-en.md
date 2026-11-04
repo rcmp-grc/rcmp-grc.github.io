@@ -77,6 +77,7 @@ custom_css: /assets/css/careers.css
 }
 	.form-controls:focus {
 	outline: 2px solid var(--rcmp-red);
+	padding: 6px 8px;	
 	outline-offset: 0;	
 }
    .form-controls {

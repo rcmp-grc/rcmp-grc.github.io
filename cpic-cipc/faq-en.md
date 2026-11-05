@@ -11,7 +11,7 @@ subject:
 issued: 2026-11-04
 breadcrumbs:
   - label: "Canadian Police Information Centre"
-    url: "/en/cpic-cipc-en.html"
+    url: "[/en/cpic-cipc-en.html](https://rcmp-grc.github.io/cpic-cipc/faq-en.html)"
 ---
 
 <div class="btn-group mrgn-bttm-sm mrgn-tp-md">

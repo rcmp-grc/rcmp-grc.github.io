@@ -67,7 +67,7 @@ lang_url: missing-disparus-fr.html
 
  .hero-kicker {
   color: var(--missing-blue-medium);
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   /*text-transform: uppercase;*/
   margin-bottom: 0.75rem;
@@ -78,6 +78,7 @@ lang_url: missing-disparus-fr.html
   margin: 0 0 0.75rem;
   font-size: 3rem;
   font-weight: 400;
+  text-transform: uppercase;
  }
 
  .hero-description {
@@ -305,8 +306,7 @@ lang_url: missing-disparus-fr.html
    </p>
    <p class="hero-description">
     Young people run away for many different reasons, including conflict, abuse, neglect, or feeling unheard. A caring conversation and early support can make all the difference.
-   </p>
-   <p>If someone is missing or in danger, contact police right away. If you need help, call the Children’s Help Line: 1-800-668-6868</p>
+   </br>If someone is missing or in danger, contact police right away. If you need help, call the Children’s Help Line: 1-800-668-6868</p>
   </div>
  </section>
  <!-- Search -->

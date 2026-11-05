@@ -67,6 +67,7 @@ lang_url: missing-disparus-fr.html
 
  .hero-kicker {
   color: var(--missing-blue-medium);
+  max-width: 1440px;
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;

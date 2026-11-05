@@ -20,5 +20,5 @@ issued: 2026-11-03
   <li>Firearms</li>
   <li>Boat motors</li>
   <li>Type and serial number</li>
-  <li><a href="faq-en.html">Frequently asked questions</li>
+  <li><a href="faq-en.html">Frequently asked questions</a></li>
 </ul>

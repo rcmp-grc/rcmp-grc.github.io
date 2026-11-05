@@ -75,6 +75,11 @@ custom_css: /assets/css/careers.css
     outline: 2px solid var(--rcmp-red);
     outline-offset: 0;	
 }
+	.re-input-text {
+    outline: 2px solid var(--rcmp-black);
+    outline-offset: 0;	
+	width: 50%;	
+}
     .checkbox input[type="checkbox"]:focus {
     outline: 2px solid var(--rcmp-red);
     outline-offset: 0;
@@ -96,7 +101,7 @@ custom_css: /assets/css/careers.css
 	outline-offset: 0;	
 }
    .form-controls {
-   width: 60%;	   
+   width: 100%;	   
    padding: 6px 8px;
    border: 2px solid var(--c-black);
    border-radius: 0;
@@ -110,7 +115,7 @@ custom_css: /assets/css/careers.css
    background-position: right 10px center; 
    box-sizing: border-box;	   
 }		 
-	.input-group	{
+   .input-group	{
    margin: 18px 12px;	   
 }
 </style>

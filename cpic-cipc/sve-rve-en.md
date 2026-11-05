@@ -100,11 +100,11 @@ custom_css: /assets/css/careers.css
 <p>If you receive a positive result, please contact your local police to confirm the information and ask for assistance.</p>
 </div>
 <div id="re-page">
-<div id="re-sidebar" class="wb-frmvld col-md-7">
+<div id="re-sidebar" class="wb-frmvld col-md-6">
 <form id="queryVehicles" name="queryVehicles">
 <div id="re-filters">
 <div class="wp-filter-group mrgn-bttm-lg">
-<fieldset class="brdr-bttm">
+<fieldset>
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
 <div class="form-group">
 <label for="vin" class="required"><span class="field-name">Vehicle Identification Number</span> <strong class="required">(required)</strong></label>

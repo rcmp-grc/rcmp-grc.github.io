@@ -202,12 +202,15 @@ lang_url: missing-disparus-fr.html
 
  /* EXPLORE */
  .explore-section {
-  background: #ececec;
+  background: linear-gradient(90deg,
+    var(--hero-start),
+    var(--hero-end));
   border-radius: 0 0 24px 24px;
   padding: 3rem 5vw;
  }
 
  .explore-section h2 {
+  color: #fff;
   margin-top: 0;
   margin-bottom: 2rem;
   font-size: 1.25rem;
@@ -221,7 +224,7 @@ lang_url: missing-disparus-fr.html
  }
 
  .explore-links a {
-  color: var(--rcmp-black);
+  color: #fff;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 700;

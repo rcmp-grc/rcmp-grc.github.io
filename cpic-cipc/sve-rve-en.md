@@ -106,19 +106,19 @@ custom_css: /assets/css/careers.css
 	    <div class="wp-filter-group mrgn-bttm-lg">
 		<fieldset class="brdr-bttm">
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
-			<label for="vin" class="required">Vehicle Identification Number <strong class="required">(required)</strong></label>
-			<input class="form-controls" id="vin" name="vin" data-rule-alphanumeric="true" data-rule-rangelength="[1,25] required=" maxlength="25" pattern="[A-Za-z0-9\s]{1,25}" required="required">
+			<label for="vin" class="required"><span class="field-name">Vehicle Identification Number</span> <strong class="required">(required)</strong></label>
+			<input class="form-controls" id="vin" name="vin" data-rule-alphanumeric="true" data-rule-rangelength="[1,25] required=" maxlength="25" pattern="[A-Za-z0-9\s]{1,25}" type="text" required="required">
 		</fieldset>
 			</div>
 		<div class="wp-filter-group mrgn-bttm-lg">
 		<fieldset class="chkbxrdio-grp">
-			 <legend class="required"><i aria-hidden="true"></i><span aria-level="3" role="heading">Terms and conditions of use</span> <strong class="required">(required)</strong></legend>
+			 <legend class="required"><i aria-hidden="true"></i><span aria-level="3" role="heading" class="field-name">Terms and conditions of use</span> <strong class="required">(required)</strong></legend>
 			<div><p>By using this search, I understand that access to the website is granted to a user on the condition that the user shall absolve and save harmless, the Royal Canadian Mounted Police or any individual employee thereof from any damages, however caused or arising from unintentional errors, failures, disclosure or use of such information.</p>
 <p>Transactions resulting from this search may be shared with law enforcement agencies upon request.</p>
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p>					
 </div>
 			<div class="checkbox">
-            <label for="terms" class="required"><input type="checkbox" value="terms" required>I agree to the terms and conditions of use <strong class="required">(required)</strong></label>
+            <label for="terms"><input type="checkbox" value="terms" data-rule-required="true"> I agree to the terms and conditions of use <strong class="required">(required)</strong></label>
 			</div>
 		</fieldset>	
 		</div>

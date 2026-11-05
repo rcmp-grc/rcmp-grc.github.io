@@ -111,10 +111,8 @@ custom_css: /assets/css/careers.css
    align-items: center;
    margin-bottom: 0;
 }
- .btn-danger {  
-   margin-top: 0; 
+ .btn-danger {     
    border-radius: 0;
-   padding-top: 12px;
 }		 
 </style>
 <p>Access the most recent 1000&nbsp;RCMP news and communications.</p>

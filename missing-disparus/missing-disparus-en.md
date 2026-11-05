@@ -128,7 +128,8 @@ lang_url: missing-disparus-fr.html
 
  /* FEATURED */
  .featured-section {
-  padding: 3rem 5vw;
+  background: var(--missing-blue-medium);
+  padding: 1rem 1.25rem;
   overflow: hidden;
  }
 

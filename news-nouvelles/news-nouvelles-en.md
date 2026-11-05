@@ -103,8 +103,7 @@ custom_css: /assets/css/careers.css
    box-sizing: border-box;
 }
    .input-group	{
-   margin: 18px 12px;	   
-   padding: 12px;   
+   margin: 18px 12px;	    
    border-radius: 0;   
 }
    #news-count {
@@ -113,8 +112,7 @@ custom_css: /assets/css/careers.css
    margin-bottom: 0;
 }
  .btn-danger {
-   margin: 18px 12px; 
-   padding: 12px;     
+   margin: 18px 12px;     
    border-radius: 0;
 }		 
 </style>

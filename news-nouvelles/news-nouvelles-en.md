@@ -149,14 +149,12 @@ custom_css: /assets/css/careers.css
     <aside aria-labelledby="news-filters-heading" id="news-filters"> 	 
     <form action="#" id="search-box" method="get" role="search" aria-label="Search RCMP news">	  
     <label class="wb-inv">Search</label>
-   <div class="input-group" id="btngrp-search2">
+   <div class="input-group-btn" id="btngrp-search2">
     <input type="text" class="form-controls" placeholder="Search news" />
-	 <span class="input-group-btn">
     <button class="btn btn-danger" type="button">
-	 <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
-     <span class="wb-inv">Search</span>
-    </button> 
-   </span></div>
+	 <span class="glyphicon-search glyphicon" aria-hidden="true">
+     <span class="wb-inv">Search</span> 
+   </span></button></div>
 </form>
 		<div id="re-filters">
 		<h2 class="h6 news-filters-heading">Filter by</h2>

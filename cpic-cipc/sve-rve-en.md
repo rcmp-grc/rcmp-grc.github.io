@@ -96,7 +96,7 @@ custom_css: /assets/css/careers.css
 	outline-offset: 0;	
 }
    .form-controls {
-   width: 100%;	   
+   width: 60%;	   
    padding: 6px 8px;
    border: 2px solid var(--c-black);
    border-radius: 0;
@@ -138,7 +138,7 @@ custom_css: /assets/css/careers.css
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p>					
 </div>	
 <div class="checkbox required">
-<label for="terms"><span class="mrgn-lft-sm mrgn-rght-sm"><input id="terms" type="checkbox" value="1" required></span><span class="cb-text">I agree to the terms and conditions of use</span></label>
+<label for="terms"><span class="mrgn-lft-sm mrgn-rght-md"><input id="terms" type="checkbox" value="1" required></span><strong><span class="cb-text">I agree to the terms and conditions of use</span></strong></label>
 </div>
 </fieldset>	
 </div>

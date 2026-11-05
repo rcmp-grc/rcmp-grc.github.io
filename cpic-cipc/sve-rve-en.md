@@ -106,9 +106,11 @@ custom_css: /assets/css/careers.css
 			<label for="vin" class="required">Vehicle Identification Number <strong class="required">(required)</strong></label>
 			<input class="form-controls" id="vin" name="vin" pattern="[A-Za-z][0-9]{6}" required="required">
 		</fieldset>
-		<fieldset class="brdr-bttm">
-<legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">Terms</span></legend>
-			<label for="terms" class="required">Vehicle Identification Number <strong class="required">(required)</strong></label>
+		<fieldset>
+			<legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">Terms</span></legend>
+			<div class="checkbox checkbox-standalone required">
+            <label for="terms"><input type="checkbox" value="terms" required>I agree to the terms and conditions of use</label>
+          </div>
 		</fieldset>	
 </div>
 	</div>

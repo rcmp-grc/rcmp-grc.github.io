@@ -26,12 +26,7 @@ lang_url: missing-disparus-fr.html
   color: var(--rcmp-black);
  }
 
-/*
- .missing-home {
-  max-width: 1200px;
-  margin: 0 auto;
- }
-*/
+
 #missing-fullpage {
  background: var(--missing-blue-light);
  font-family: "Lato", sans-serif;
@@ -44,10 +39,6 @@ lang_url: missing-disparus-fr.html
  /*margin: 0 auto; */
  padding: 0 2rem;
  }
-
-.cnt-wdth-lmtd p {
-    max-width: 100ch;
-}
 
  /* HERO */
  .hero-banner {

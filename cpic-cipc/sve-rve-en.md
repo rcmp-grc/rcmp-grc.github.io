@@ -100,10 +100,10 @@ custom_css: /assets/css/careers.css
 <p>If you receive a positive result, please contact your local police to confirm the information and ask for assistance.</p>
 </div>
 <div id="re-page">
-<div id="re-sidebar" class="wb-frmvld col-md-5">
+<div id="re-sidebar" class="wb-frmvld">
 <form id="queryVehicles" name="queryVehicles">
 <div id="re-filters">
-<div class="wp-filter-group mrgn-bttm-lg">
+<div class="wp-filter-group mrgn-bttm-lg brdr-tp">
 <fieldset>
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
 <div class="form-group">
@@ -112,7 +112,7 @@ custom_css: /assets/css/careers.css
 </div>
 </fieldset>
 </div>
-<div class="wp-filter-group mrgn-bttm-lg">
+<div class="mrgn-bttm-lg">
 <fieldset class="chkbxrdio-grp">
 <legend class="required"><i aria-hidden="true"></i><span aria-level="3" role="heading" class="field-name">Terms and conditions of use</span> <strong class="required">(required)</strong></legend>
 <div><p>By using this search, I understand that access to the website is granted to a user on the condition that the user shall absolve and save harmless, the Royal Canadian Mounted Police or any individual employee thereof from any damages, however caused or arising from unintentional errors, failures, disclosure or use of such information.</p>

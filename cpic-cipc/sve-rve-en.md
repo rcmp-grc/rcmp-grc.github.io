@@ -120,7 +120,7 @@ custom_css: /assets/css/careers.css
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p>					
 </div>	
 <div class="form-group">
-<div class="checkbox checkbox-standalone required">
+<div class="checkbox required">
 <label for="terms"><span class="mrgn-lft-sm"><input id="terms" type="checkbox" value="1" required><span class="field-name">I agree to the terms and conditions of use</span></span></label>
 </div>
 </div>

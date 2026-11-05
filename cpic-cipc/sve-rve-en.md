@@ -95,35 +95,35 @@ custom_css: /assets/css/careers.css
    box-sizing: border-box;	   
 }		 
 </style>
-<div class="col-md-12">
 <p>You can search for autos, trucks, vans, sport utility vehicles (SUVs), motorcycles, snowmobiles, farm vehicles, heavy equipment, trailers, or all-terrain vehicles (ATVs). Please enter a valid Vehicle Identification Number (VIN) that contains only letters and numbers without spaces or other special characters.</p>
 <div class="alert alert-info">
 <p>If you receive a positive result, please contact your local police to confirm the information and ask for assistance.</p>
 </div>
 <div id="re-page">
-	<div class="pull-left" id="re-sidebar">
-	<form action="#" method="get" id="vin-search">
+	<div id="re-sidebar">
+	<form id="queryVehicles" name="queryVehicles">
 	<div id="re-filters">
 	    <div class="wp-filter-group mrgn-bttm-lg">
 		<fieldset class="brdr-bttm">
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
 			<label for="vin" class="required">Vehicle Identification Number <strong class="required">(required)</strong></label>
-			<input class="form-controls" id="vin" name="vin" pattern="[A-Za-z][0-9]{6}" required="required">
+			<input class="form-controls" id="vin" name="vin" data-rule-alphanumeric="true" data-rule-rangelength="[1,25] required=" maxlength="25" pattern="[A-Za-z0-9\s]{1,25}" required="required">
 		</fieldset>
 			</div>
 		<div class="wp-filter-group mrgn-bttm-lg">
-		<fieldset>
-			<legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">Terms</span></legend>
+		<fieldset class="chkbxrdio-grp">
+			 <legend class="required"><i aria-hidden="true"></i><span aria-level="3" role="heading">Terms and conditions of use</span> <strong class="required">(required)</strong></legend>
 			<div><p>By using this search, I understand that access to the website is granted to a user on the condition that the user shall absolve and save harmless, the Royal Canadian Mounted Police or any individual employee thereof from any damages, however caused or arising from unintentional errors, failures, disclosure or use of such information.</p>
 <p>Transactions resulting from this search may be shared with law enforcement agencies upon request.</p>
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p>					
 </div>
-			<div class="checkbox required">
-            <label for="terms"><input type="checkbox" value="terms" required>I agree to the terms and conditions of use <strong class="required">(required)</strong></label>
-          </div>
+			<div class="checkbox">
+            <label for="terms" class="required"><input type="checkbox" value="terms" required>I agree to the terms and conditions of use <strong class="required">(required)</strong></label>
+			</div>
 		</fieldset>	
 		</div>
 	</div>
+		<button class="btn btn-default" id="search" type="submit">Search</button>
 	</form>
 	</div>
 </div>

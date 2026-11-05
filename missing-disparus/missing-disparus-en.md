@@ -67,10 +67,9 @@ lang_url: missing-disparus-fr.html
 
  .hero-kicker {
   color: var(--missing-blue-medium);
-  max-width: 960px;
-  font-size: 0.75rem;
+  font-size: 2rem;
   font-weight: 700;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-bottom: 0.75rem;
  }
 
@@ -302,7 +301,7 @@ lang_url: missing-disparus-fr.html
 
    <h2>November is Runaway Prevention Month</h2>
    <p class="hero-kicker">
-    About nine out of 10 people who go missing in Canada are runaways.
+    About 9 out of 10 people who go missing in Canada are runaways.
    </p>
    <p class="hero-description">
     Young people run away for many different reasons, including conflict, abuse, neglect, or feeling unheard. A caring conversation and early support can make all the difference.

@@ -103,8 +103,8 @@ custom_css: /assets/css/careers.css
 <div id="re-sidebar" class="wb-frmvld">
 <form id="queryVehicles" name="queryVehicles">
 <div id="re-filters">
-<div class="wp-filter-group mrgn-bttm-lg brdr-tp">
-<fieldset>
+<div class="wp-filter-group mrgn-bttm-lg mrgn-tp-lg">
+<fieldset class="brdr-tp">
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
 <div class="form-group">
 <label for="vin" class="required"><span class="field-name">Vehicle Identification Number</span> <strong class="required">(required)</strong></label>
@@ -113,7 +113,7 @@ custom_css: /assets/css/careers.css
 </fieldset>
 </div>
 <div class="mrgn-bttm-lg">
-<fieldset class="chkbxrdio-grp">
+<fieldset>
 <legend class="required"><i aria-hidden="true"></i><span aria-level="3" role="heading" class="field-name">Terms and conditions of use</span> <strong class="required">(required)</strong></legend>
 <div><p>By using this search, I understand that access to the website is granted to a user on the condition that the user shall absolve and save harmless, the Royal Canadian Mounted Police or any individual employee thereof from any damages, however caused or arising from unintentional errors, failures, disclosure or use of such information.</p>
 <p>Transactions resulting from this search may be shared with law enforcement agencies upon request.</p>
@@ -121,7 +121,7 @@ custom_css: /assets/css/careers.css
 </div>	
 <div class="form-group">
 <div class="checkbox checkbox-standalone required">
-<label for="terms"><input id="terms" type="checkbox" value="1" required><span class="field-name">I agree to the terms and conditions of use</span></label>
+<label for="terms"><span class="mrgn-lft-sm"><input id="terms" type="checkbox" value="1" required><span class="field-name">I agree to the terms and conditions of use</span></span></label>
 </div>
 </div>
 </fieldset>	

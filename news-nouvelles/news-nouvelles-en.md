@@ -103,7 +103,7 @@ custom_css: /assets/css/careers.css
    box-sizing: border-box;
 }
    .input-group	{
-   margin: 18px 11px;	    
+   margin: 18px 12px;	    
    border-radius: 0;   
 }
    #news-count {

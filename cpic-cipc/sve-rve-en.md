@@ -76,12 +76,10 @@ custom_css: /assets/css/careers.css
     outline-offset: 0;
 }
 	.checkbox input[type="checkbox"] {
-    padding: 6px 8px;
+   padding: 8px 8px;
    border: 2px solid var(--c-black);
    border-radius: 0;
    background: var(--c-white);
-   font-size: inherit;
-   font-family: inherit;
    cursor: pointer;
    -webkit-appearance: none;
    appearance: none;
@@ -134,7 +132,7 @@ custom_css: /assets/css/careers.css
 </div>	
 <div class="form-group">
 <div class="checkbox required">
-<label for="terms"><span class="mrgn-lft-sm"><input id="terms" type="checkbox" value="1" class="" required><span class="field-name">I agree to the terms and conditions of use</span></span></label>
+<label for="terms"><span class="mrgn-lft-sm"><input id="terms" type="checkbox" value="1" class="" required> <span class="field-name">I agree to the terms and conditions of use</span></span></label>
 </div>
 </div>
 </fieldset>	

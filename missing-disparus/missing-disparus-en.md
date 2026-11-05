@@ -66,7 +66,7 @@ lang_url: missing-disparus-fr.html
  }
 
  .hero-kicker {
-  color: var(--rcmp-gold);
+  color: var(--missing-blue-medium);
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -242,7 +242,7 @@ lang_url: missing-disparus-fr.html
         flex-direction: column;
     }
 
-    .hero-card h1 {
+    .hero-card h2 {
         font-size: 2.25rem;
     }
 
@@ -298,14 +298,15 @@ lang_url: missing-disparus-fr.html
  <section class="hero-banner">
 
   <div class="hero-card">
+
+   <h2>November is Runaway Prevention Month</h2>
    <p class="hero-kicker">
-    NATIONAL CENTRE FOR MISSING PERSONS AND UNIDENTIFIED REMAINS
+    About nine out of 10 people who go missing in Canada are runaways.
    </p>
-   <h1>Canada's Missing</h1>
    <p class="hero-description">
-    Helping investigators and the public locate missing persons and
-    identify human remains across Canada.
+    Young people run away for many different reasons, including conflict, abuse, neglect, or feeling unheard. A caring conversation and early support can make all the difference.
    </p>
+   <p>If someone is missing or in danger, contact police right away. If you need help, call the Children’s Help Line: 1-800-668-6868</p>
   </div>
  </section>
  <!-- Search -->

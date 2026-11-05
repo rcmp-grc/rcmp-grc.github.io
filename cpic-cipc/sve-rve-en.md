@@ -129,11 +129,9 @@ custom_css: /assets/css/careers.css
 <div class="wp-filter-group mrgn-bttm-lg mrgn-tp-lg">
 <fieldset class="brdr-tp">
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
-<div class="form-group">
-<span class="mrgn-lft">	
+<div class="form-group mrgn-lft">
 <label for="vin" class="re-select-label required"><span class="cb-text">Vehicle Identification Number</span> <strong class="required">(required)</strong></label>
 <input class="re-input-text" data-rule-alphanumeric="true" data-rule-rangelength="[1,25] required=" id="vin" maxlength="25" name="vin" pattern="[A-Za-z0-9\s]{1,25}" data-column="0">
-</span>
 </div>
 </fieldset>
 </div>

@@ -103,8 +103,7 @@ custom_css: /assets/css/careers.css
    box-sizing: border-box;
 }
    .input-group	{
-   margin: 18px 12px;	    
-   border-radius: 0;   
+   margin: 18px 12px;	     
 }
    #news-count {
    display: flex;
@@ -113,7 +112,6 @@ custom_css: /assets/css/careers.css
 }
  .btn-danger {     
    border-radius: 0;
-   padding: 11px;
 }		 
 </style>
 <p>Access the most recent 1000&nbsp;RCMP news and communications.</p>

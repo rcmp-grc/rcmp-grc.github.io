@@ -60,9 +60,9 @@ lang_url: missing-disparus-fr.html
 
  .hero-card {
   background: rgba(0, 0, 0, 0.88);
-  max-width: 480px;
+  max-width: 1440px;
   padding: 1.5rem;
-  border-left: 5px solid var(--rcmp-gold);
+  border-left: 5px solid var(--missing-blue-medium);
  }
 
  .hero-kicker {
@@ -73,7 +73,7 @@ lang_url: missing-disparus-fr.html
   margin-bottom: 0.75rem;
  }
 
- .hero-card h1 {
+ .hero-card h2 {
   color: #fff;
   margin: 0 0 0.75rem;
   font-size: 3rem;

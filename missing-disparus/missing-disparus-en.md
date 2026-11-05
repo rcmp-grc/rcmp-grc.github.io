@@ -45,7 +45,7 @@ lang_url: missing-disparus-fr.html
  padding: 0 2rem;
  }
 
- #missing-fullpage .cnt-wdth-lmtd p {
+.cnt-wdth-lmtd p {
     max-width: 100ch;
 }
 

@@ -100,7 +100,7 @@ custom_css: /assets/css/careers.css
 <p>If you receive a positive result, please contact your local police to confirm the information and ask for assistance.</p>
 </div>
 <div id="re-page">
-<div id="re-sidebar" class="wb-frmvld col-md-6">
+<div id="re-sidebar" class="wb-frmvld col-md-7">
 <form id="queryVehicles" name="queryVehicles">
 <div id="re-filters">
 <div class="wp-filter-group mrgn-bttm-lg">
@@ -121,7 +121,7 @@ custom_css: /assets/css/careers.css
 </div>	
 <div class="form-group">
 <div class="checkbox checkbox-standalone required">
-<label for="terms"><input id="terms" type="checkbox" value="1" required><span class="field-name">I agree to the terms and conditions of use</span> <strong class="required">(required)</strong></label>
+<label for="terms"><input id="terms" type="checkbox" value="1" required><span class="field-name">I agree to the terms and conditions of use</span></label>
 </div>
 </div>
 </fieldset>	

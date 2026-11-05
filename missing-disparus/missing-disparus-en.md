@@ -45,6 +45,10 @@ lang_url: missing-disparus-fr.html
  padding: 0 2rem;
  }
 
+ #missing-fullpage .cnt-wdth-lmtd p {
+    max-width: 100ch;
+}
+
  /* HERO */
  .hero-banner {
   background: linear-gradient(90deg,

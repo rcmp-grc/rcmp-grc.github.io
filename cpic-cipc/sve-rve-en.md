@@ -76,13 +76,17 @@ custom_css: /assets/css/careers.css
     outline-offset: 0;
 }
 	.checkbox input[type="checkbox"] {
+    padding: 6px 8px;
    border: 2px solid var(--c-black);
+   border-radius: 0;
    background: var(--c-white);
    font-size: inherit;
    font-family: inherit;
    cursor: pointer;
    -webkit-appearance: none;
    appearance: none;
+   background-repeat: no-repeat;
+   background-position: right 10px center; 
    box-sizing: border-box;	   
 }
 	.form-controls:focus {

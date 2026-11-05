@@ -95,16 +95,11 @@ custom_css: /assets/css/careers.css
    box-sizing: border-box;	   
 }		 
 </style>
-<div class="row">
-<div class="col-md-8">
-<p>You can search for autos, trucks, vans, sport utility vehicles (SUVs), motorcycles, snowmobiles, farm vehicles, heavy equipment, trailers, or all-terrain vehicles (ATVs). Please enter a valid Vehicle Identification Number (VIN) that contains only letters and numbers without spaces or other special characters.</p></div>
-<div class="col-md-4">
+<div class="col-md-12">
+<p>You can search for autos, trucks, vans, sport utility vehicles (SUVs), motorcycles, snowmobiles, farm vehicles, heavy equipment, trailers, or all-terrain vehicles (ATVs). Please enter a valid Vehicle Identification Number (VIN) that contains only letters and numbers without spaces or other special characters.</p>
 <div class="alert alert-info">
 <p>If you receive a positive result, please contact your local police to confirm the information and ask for assistance.</p>
 </div>
-</div>
-</div>
-<div class="clearfix"></div>
 <div id="re-page">
 	<div class="pull-left" id="re-sidebar">
 	<form action="#" method="get" id="vin-search">
@@ -123,7 +118,7 @@ custom_css: /assets/css/careers.css
 <p>Transactions resulting from this search may be shared with law enforcement agencies upon request.</p>
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p>					
 </div>
-			<div class="checkbox checkbox-standalone required">
+			<div class="checkbox required">
             <label for="terms"><input type="checkbox" value="terms" required>I agree to the terms and conditions of use <strong class="required">(required)</strong></label>
           </div>
 		</fieldset>	
@@ -131,5 +126,4 @@ custom_css: /assets/css/careers.css
 	</div>
 	</form>
 	</div>
-	<div class="clearfix"></div>
 </div>

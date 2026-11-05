@@ -67,6 +67,10 @@ custom_css: /assets/css/careers.css
 	width: 100%;
     overflow: hidden;
 }
+   .re-select:focus {
+	outline: 2px solid var(--rcmp-red);
+	outline-offset: 0;	
+}
     .re-input-text:focus {
     outline: 2px solid var(--rcmp-red);
     outline-offset: 0;	
@@ -92,7 +96,7 @@ custom_css: /assets/css/careers.css
 	outline-offset: 0;	
 }
    .form-controls {
-   width: 50%;	   
+   width: 100%;	   
    padding: 6px 8px;
    border: 2px solid var(--c-black);
    border-radius: 0;
@@ -106,12 +110,14 @@ custom_css: /assets/css/careers.css
    background-position: right 10px center; 
    box-sizing: border-box;	   
 }		 
+	.input-group	{
+   margin: 18px 12px;	   
+}
 </style>
 <p>You can search for autos, trucks, vans, sport utility vehicles (SUVs), motorcycles, snowmobiles, farm vehicles, heavy equipment, trailers, or all-terrain vehicles (ATVs). Please enter a valid Vehicle Identification Number (VIN) that contains only letters and numbers without spaces or other special characters.</p>
 <div class="alert alert-info">
 <p>If you receive a positive result, please contact your local police to confirm the information and ask for assistance.</p>
 </div>
-<div id="re-page">
 <div id="re-sidebar" class="wb-frmvld">
 <form id="queryVehicles" name="queryVehicles">
 <div id="re-filters">
@@ -119,8 +125,8 @@ custom_css: /assets/css/careers.css
 <fieldset class="brdr-tp">
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
 <div class="form-group">
-<label for="vin" class="required"><span class="field-name">Vehicle Identification Number</span> <strong class="required">(required)</strong></label>
-<input class="form-controls" data-rule-alphanumeric="true" data-rule-rangelength="[1,25] required=" id="vin" maxlength="25" name="vin" pattern="[A-Za-z0-9\s]{1,25}" type="text">
+<label for="vin" class="re-select-label required"><span class="field-name">Vehicle Identification Number</span> <strong class="required">(required)</strong></label>
+<input class="re-input-text" data-rule-alphanumeric="true" data-rule-rangelength="[1,25] required=" id="vin" maxlength="25" name="vin" pattern="[A-Za-z0-9\s]{1,25}" data-column="0">
 </div>
 </fieldset>
 </div>
@@ -131,16 +137,12 @@ custom_css: /assets/css/careers.css
 <p>Transactions resulting from this search may be shared with law enforcement agencies upon request.</p>
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p>					
 </div>	
-<div class="form-group">
 <div class="checkbox required">
-<label for="terms"><span class="mrgn-lft-sm"><input id="terms" type="checkbox" value="1" required></span><span class="field-name">I agree to the terms and conditions of use</span></label>
-</div>
+<label for="terms"><span class="mrgn-lft-sm mrgn-rght-sm"><input id="terms" type="checkbox" value="1" required></span><span class="cb-text">I agree to the terms and conditions of use</span></label>
 </div>
 </fieldset>	
 </div>
 </div>
 <button class="btn btn-danger" id="search" type="submit">Search</button>
 </form>
-</div>
-	<div class="clearfix"></div>
 </div>

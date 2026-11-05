@@ -111,8 +111,7 @@ custom_css: /assets/css/careers.css
    align-items: center;
    margin-bottom: 0;
 }
- .btn-danger {
-   margin: 18px 12px;     
+ .btn-danger {     
    border-radius: 0;
 }		 
 </style>

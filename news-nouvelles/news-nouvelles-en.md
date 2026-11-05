@@ -99,7 +99,7 @@ custom_css: /assets/css/careers.css
    -webkit-appearance: none;
    appearance: none;
    background-repeat: no-repeat;
-   background-position: right 10px center; 
+   background-position: right 8px center; 
    box-sizing: border-box;
 }
    .input-group	{

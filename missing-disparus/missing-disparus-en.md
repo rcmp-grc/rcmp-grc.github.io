@@ -142,7 +142,7 @@ lang_url: missing-disparus-fr.html
   display: flex;
   gap: 1.5rem;
   overflow-x: auto;
-  overflow-y: hidden;
+  overflow-y: auto;
   scroll-snap-type: x mandatory;
   scroll-padding-left: 1rem;
   scrollbar-width: thin;

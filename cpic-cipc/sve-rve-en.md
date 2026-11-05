@@ -100,7 +100,7 @@ custom_css: /assets/css/careers.css
 <p>If you receive a positive result, please contact your local police to confirm the information and ask for assistance.</p>
 </div>
 <div id="re-page">
-<div id="re-sidebar" class="wb-frmvld col-md-6">
+<div id="re-sidebar" class="wb-frmvld col-md-5">
 <form id="queryVehicles" name="queryVehicles">
 <div id="re-filters">
 <div class="wp-filter-group mrgn-bttm-lg">

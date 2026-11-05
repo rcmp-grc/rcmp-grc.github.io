@@ -100,7 +100,7 @@ custom_css: /assets/css/careers.css
 <p>If you receive a positive result, please contact your local police to confirm the information and ask for assistance.</p>
 </div>
 <div id="re-page">
-<div id="re-sidebar">
+<div id="re-sidebar" class="wb-frmvld">
 <form id="queryVehicles" name="queryVehicles">
 <div id="re-filters">
 <div class="wp-filter-group mrgn-bttm-lg">
@@ -127,7 +127,7 @@ custom_css: /assets/css/careers.css
 </fieldset>	
 </div>
 </div>
-<button class="btn btn-default" id="search" type="submit">Search</button>
+<button class="btn btn-danger" id="search" type="submit">Search</button>
 </form>
 </div>
 </div>

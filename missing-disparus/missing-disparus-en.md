@@ -157,6 +157,7 @@ lang_url: missing-disparus-fr.html
   flex: 0 0 360px;
   background: #fff;
   border: 1px solid #cfcfcf;
+  border-radius: 24px 24px 24px 24px;
   scroll-snap-align: start;
   transition: transform 0.2s ease;
  }

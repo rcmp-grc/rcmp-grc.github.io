@@ -102,7 +102,6 @@ custom_css: /assets/css/careers.css
    margin: 18px 11px;	    
 }
 
-
 </style>
 <p>Access the most recent 1000&nbsp;RCMP news and communications.</p>
 <div class="row mrgn-bttm-md">

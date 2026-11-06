@@ -112,7 +112,7 @@ custom_css: /assets/css/careers.css
 }
  .btn-danger {     
    border-radius: 0;
-   box-sizing: border-box; 
+   border: 2px solid var(--rcmp-red);
 }		 
 </style>
 <p>Access the most recent 1000&nbsp;RCMP news and communications.</p>
@@ -152,9 +152,8 @@ custom_css: /assets/css/careers.css
     <label class="wb-inv" for="btngrp-search2">Search</label>
    <div class="input-group" id="btngrp-search2">
     <input type="text" class="form-controls" placeholder="Search news" />
-	 <span class="input-group-btn">
     <button class="btn btn-danger" type="button">
-	 <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
+	 <span class="glyphicon-search glyphicon" aria-hidden="true">
      <span class="wb-inv">Search</span>
     </button> 
    </span></div>

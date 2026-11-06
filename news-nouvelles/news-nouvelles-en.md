@@ -112,6 +112,7 @@ custom_css: /assets/css/careers.css
    .input-group {
    display: flex;	  
    align-items: center;	
+   margin: 7px;		   
 }
 </style>
 <p>Access the most recent 1000&nbsp;RCMP news and communications.</p>

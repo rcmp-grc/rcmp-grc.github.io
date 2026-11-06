@@ -89,7 +89,7 @@ custom_css: /assets/css/careers.css
 }
    .form-controls {
    width: 100%;
-   padding: 4px;
+   padding: 5px;
    border: 2px solid var(--c-black);
    border-radius: 0;
    background: var(--c-white);

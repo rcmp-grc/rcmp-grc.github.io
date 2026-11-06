@@ -88,7 +88,7 @@ custom_css: /assets/css/careers.css
 	outline-offset: 0;	
 }
 	.form-controls, btn-danger  {
-	box-sizing: border-box;
+	vertical-align: middle;
 	height: 40px;
 	font-size: 16px;	
 	}

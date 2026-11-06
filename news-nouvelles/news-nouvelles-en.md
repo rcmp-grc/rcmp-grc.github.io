@@ -83,7 +83,7 @@ custom_css: /assets/css/careers.css
     outline: 2px solid var(--rcmp-red);
     outline-offset: 0;	
 }	
-	.form-controls:focus {
+	.form-control:focus {
 	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;	
 }
@@ -91,7 +91,11 @@ custom_css: /assets/css/careers.css
    display: flex;
    align-items: center;
    margin-bottom: 0;
-}		 
+}		
+	.btn-danger {     
+   border-radius: 0;
+}
+
 </style>
 <p>Access the most recent 1000&nbsp;RCMP news and communications.</p>
 <div class="row mrgn-bttm-md">

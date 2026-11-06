@@ -41,7 +41,7 @@ lang_url: missing-disparus-fr.html
  }
 
  /* HERO */
- .hero-banner {
+ /*.hero-banner {
   background: linear-gradient(90deg,
     var(--hero-start),
     var(--hero-end));
@@ -51,7 +51,7 @@ lang_url: missing-disparus-fr.html
   padding: 5rem 2rem;
   display: flex;
   align-items: center;
- }
+ }*/
 
  .hero-card {
   background: rgba(0, 0, 0, 0.88);
@@ -292,10 +292,9 @@ lang_url: missing-disparus-fr.html
 }
 </style>
 
-<div id="missing-fullpage" class="missing-home">
  <!-- Hero -->
 
- <section class="hero-banner">
+ <section class="hero-bnr">
 
   <div class="hero-card">
 

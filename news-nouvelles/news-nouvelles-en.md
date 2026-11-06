@@ -154,7 +154,7 @@ custom_css: /assets/css/careers.css
     <input type="text" class="form-controls" placeholder="Search news" />
 	 <span class="input-group-btn">  
     <button class="btn btn-danger" type="button">
-	 <span class="glyphicon-search glyphicon" aria-hidden="true">
+	 <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
      <span class="wb-inv">Search</span></span>
 	 </span>
 	</button></span></div></form>

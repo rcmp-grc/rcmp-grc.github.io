@@ -100,7 +100,6 @@ custom_css: /assets/css/careers.css
    appearance: none;
    background-repeat: no-repeat;
    background-position: right 10px center; 
-   box-sizing: border-box;
 }
    .input-group	{
    margin: 18px 11px;	    

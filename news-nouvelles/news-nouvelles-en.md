@@ -87,11 +87,14 @@ custom_css: /assets/css/careers.css
 	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;	
 }
+	.form-controls, btn-danger  {
+	box-sizing: border-box;
+	height: 40px;
+	font-size: 16px;	
+	}
 	.form-controls { 	
 	border: 2px solid var(--c-black);
-	background: var(--c-white);	
-	background-repeat: no-repeat;
-	cursor: pointer;	
+	border-right: none;	
 	border-radius: 0;	
 }
    #news-count {
@@ -100,13 +103,15 @@ custom_css: /assets/css/careers.css
    margin-bottom: 0;
 }		
 	.btn-danger {     
-   border-radius: 0;
+    padding: 0 16px;
+	border-radius: 0;
+	cursor: pointer;
+	background-color: var(--rcmp-red);
+	color: white;	
 }
    .input-group {
    display: flex;	  
    align-items: center;	
-   box-sizing: border-box;
-   height: 40px;  
 }
 </style>
 <p>Access the most recent 1000&nbsp;RCMP news and communications.</p>
@@ -146,7 +151,7 @@ custom_css: /assets/css/careers.css
   <div class="input-group">
     <input type="text" class="form-controls" id="btngrp-search2" placeholder="Search news" />
     <span class="input-group-btn">
-     <button class="btn btn-danger" type="button"><span class="glyphicon-search glyphicon"></span></button>
+     <button class="btn-danger" type="submit"><span class="glyphicon-search glyphicon"></span></button>
     </span>
   </div>
 		<div id="re-filters">

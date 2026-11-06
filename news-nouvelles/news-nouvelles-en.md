@@ -89,7 +89,7 @@ custom_css: /assets/css/careers.css
 }
    .form-controls {
    width: 100%;
-   padding: 5px 8px;
+   padding: 6px 8px;
    border: 2px solid var(--c-black);
    border-radius: 0;
    background: var(--c-white);
@@ -99,11 +99,12 @@ custom_css: /assets/css/careers.css
    -webkit-appearance: none;
    appearance: none;
    background-repeat: no-repeat;
-   background-position: right 8px center; 
+   background-position: right 10px center; 
    box-sizing: border-box;
 }
    .input-group	{
-   margin: 18px 12px;	     
+   margin: 18px 11px;	    
+   border-radius: 0;   
 }
    #news-count {
    display: flex;
@@ -112,6 +113,8 @@ custom_css: /assets/css/careers.css
 }
  .btn-danger {     
    border-radius: 0;
+   padding-top: 12px;
+   padding-bottom: 11px;
 }		 
 </style>
 <p>Access the most recent 1000&nbsp;RCMP news and communications.</p>
@@ -149,12 +152,14 @@ custom_css: /assets/css/careers.css
     <aside aria-labelledby="news-filters-heading" id="news-filters"> 	 
     <form action="#" id="search-box" method="get" role="search" aria-label="Search RCMP news">	  
     <label class="wb-inv">Search</label>
-   <div class="input-group-btn" id="btngrp-search2">
+   <div class="input-group" id="btngrp-search2">
     <input type="text" class="form-controls" placeholder="Search news" />
+	 <span class="input-group-btn">
     <button class="btn btn-danger" type="button">
-	 <span class="glyphicon-search glyphicon" aria-hidden="true">
-     <span class="wb-inv">Search</span> 
-   </span></button></div>
+	 <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
+     <span class="wb-inv">Search</span>
+    </button> 
+   </span></div>
 </form>
 		<div id="re-filters">
 		<h2 class="h6 news-filters-heading">Filter by</h2>

@@ -97,6 +97,7 @@ custom_css: /assets/css/careers.css
 	border: 2px solid var(--c-black);
 	border-right: none;	
 	border-radius: 0;	
+	padding-left: 7px;	
 }
    #news-count {
    display: flex;
@@ -113,7 +114,7 @@ custom_css: /assets/css/careers.css
    .input-group {
    display: flex;	  
    align-items: center;	
-   margin: 7px;		   
+   margin: 8px 7px;	   
 }
 </style>
 <p>Access the most recent 1000&nbsp;RCMP news and communications.</p>

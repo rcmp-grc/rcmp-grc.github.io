@@ -89,6 +89,8 @@ custom_css: /assets/css/careers.css
 }
 	.form-controls { 
 	outline: 1px solid var(--rcmp-black);	
+	background-repeat: no-repeat;
+    background-position: right 10px center; 
 }
    #news-count {
    display: flex;

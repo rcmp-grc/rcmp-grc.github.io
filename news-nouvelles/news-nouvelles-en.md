@@ -87,7 +87,7 @@ custom_css: /assets/css/careers.css
 	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;	
 }
-	.form-controls {
+	.form-controls { 
 	outline: 1px solid var(--rcmp-black);	
 }
    #news-count {

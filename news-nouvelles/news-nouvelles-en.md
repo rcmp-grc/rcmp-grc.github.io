@@ -92,7 +92,6 @@ custom_css: /assets/css/careers.css
 	border: 2px solid var(--c-black);	
 	background: var(--c-white);	
 	background-repeat: no-repeat;
-    background-position: right 10px center; 
 	cursor: pointer;	
 	border-radius: 0;	
 }
@@ -105,7 +104,8 @@ custom_css: /assets/css/careers.css
    border-radius: 0;
 }
 	.input-group {
-   margin: 18px 11px;	    
+   margin: 18px 11px;	  
+   align-items: center;	
 }
 
 </style>

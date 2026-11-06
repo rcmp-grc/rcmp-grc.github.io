@@ -118,15 +118,18 @@ custom_css: /assets/css/careers.css
    .input-group	{
    margin: 18px 12px;	   
 }
+	.outline {
+	border: 1px var(--c-grey-border);
+}
 </style>
 <p>You can search for autos, trucks, vans, sport utility vehicles (SUVs), motorcycles, snowmobiles, farm vehicles, heavy equipment, trailers, or all-terrain vehicles (ATVs). Please enter a valid Vehicle Identification Number (VIN) that contains only letters and numbers without spaces or other special characters.</p>
 <div class="alert alert-info">
 <p>If you receive a positive result, please contact your local police to confirm the information and ask for assistance.</p>
 </div>
-<div id="re-sidebar" class="wb-frmvld">
+<div class="wb-frmvld">
 <form id="queryVehicles" name="queryVehicles">
 <div id="re-filters">
-<div class="wp-filter-group mrgn-bttm-lg mrgn-tp-lg">
+<div class="wp-filter-group mrgn-bttm-lg mrgn-tp-sm">
 <fieldset class="brdr-tp">
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
 <div class="form-group mrgn-lft-sm">

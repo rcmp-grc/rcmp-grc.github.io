@@ -151,7 +151,7 @@ custom_css: /assets/css/careers.css
   <div class="input-group">
     <input type="text" class="form-controls" id="btngrp-search2" placeholder="Search news" />
     <span class="input-group-btn">
-     <button class="btn-danger" type="submit"><span class="glyphicon-search glyphicon"></span></button>
+     <button class="btn btn-danger" type="submit"><span class="glyphicon-search glyphicon"></span></button>
     </span>
   </div>
 		<div id="re-filters">

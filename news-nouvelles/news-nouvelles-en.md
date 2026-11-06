@@ -86,12 +86,12 @@ custom_css: /assets/css/careers.css
 	.form-controls:focus {
 	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;	
-	box-sizing: border-box;	
 }
 	.form-controls, btn-danger  {
 	vertical-align: middle;
 	height: 40px;
 	font-size: 16px;	
+	box-sizing: border-box;		
 	}
 	.form-controls { 	
 	border: 2px solid var(--c-black);

@@ -89,7 +89,7 @@ custom_css: /assets/css/careers.css
 }
    .form-controls {
    width: 100%;
-   padding: 6px 6px;
+   padding: 6px 8px;
    border: 2px solid var(--c-black);
    border-radius: 0;
    background: var(--c-white);
@@ -113,6 +113,7 @@ custom_css: /assets/css/careers.css
 }
  .btn-danger {     
    border-radius: 0;
+   padding: 8px 8px; 
 }		 
 </style>
 <p>Access the most recent 1000&nbsp;RCMP news and communications.</p>

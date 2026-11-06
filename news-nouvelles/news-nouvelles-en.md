@@ -87,6 +87,9 @@ custom_css: /assets/css/careers.css
 	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;	
 }
+	.form-controls input[type="text"] {
+    outline: 2px solid var(--c-black);
+}
    #news-count {
    display: flex;
    align-items: center;
@@ -128,9 +131,9 @@ custom_css: /assets/css/careers.css
     <aside aria-labelledby="news-filters-heading" id="news-filters"> 	 
     <label for="btngrp-search2" class="wb-inv">Search</label>
   <div class="input-group">
-    <input type="text" class="form-control" id="btngrp-search2" placeholder="Search news" />
+    <input type="text" class="form-controls" id="btngrp-search2" placeholder="Search news" />
     <span class="input-group-btn">
-     <button class="btn btn-default" type="button"><span class="glyphicon-search glyphicon"></span></button>
+     <button class="btn btn-danger" type="button"><span class="glyphicon-search glyphicon"></span></button>
     </span>
   </div>
 		<div id="re-filters">

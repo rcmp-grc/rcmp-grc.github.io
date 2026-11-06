@@ -112,7 +112,7 @@ custom_css: /assets/css/careers.css
 }
  .btn-danger {     
    border-radius: 0;
-   padding: 12px 11px; 
+   padding: 0px 11px; 
 }		 
 </style>
 <p>Access the most recent 1000&nbsp;RCMP news and communications.</p>
@@ -149,7 +149,7 @@ custom_css: /assets/css/careers.css
 	<h2 class="h6 news-filters-heading">Search</h2>	
     <aside aria-labelledby="news-filters-heading" id="news-filters"> 	 
     <form action="#" id="search-box" method="get" role="search" aria-label="Search RCMP news">	  
-    <label class="wb-inv">Search</label>
+    <label class="wb-inv" for="btngrp-search2">Search</label>
    <div class="input-group" id="btngrp-search2">
     <input type="text" class="form-controls" placeholder="Search news" />
 	 <span class="input-group-btn">

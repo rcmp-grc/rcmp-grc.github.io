@@ -96,6 +96,7 @@ custom_css: /assets/css/careers.css
 	border: 2px solid var(--c-black);
 	border-right: none;	
 	border-radius: 0;	
+	padding-left: 7px;	
 }
    #news-count {
    display: flex;
@@ -108,6 +109,7 @@ custom_css: /assets/css/careers.css
 	cursor: pointer;
 	background-color: var(--rcmp-red);
 	color: white;	
+	border: 2px solid var(--rcmp-red);	
 }
    .input-group {
    display: flex;	  

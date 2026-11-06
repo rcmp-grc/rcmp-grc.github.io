@@ -83,9 +83,12 @@ custom_css: /assets/css/careers.css
     outline: 2px solid var(--rcmp-red);
     outline-offset: 0;	
 }	
-	.form-control:focus {
+	.form-controls:focus {
 	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;	
+}
+	.form-controls{
+	outline: 1px solid var(--rcmp-black);	
 }
    #news-count {
    display: flex;
@@ -95,6 +98,10 @@ custom_css: /assets/css/careers.css
 	.btn-danger {     
    border-radius: 0;
 }
+	.input-group	{
+   margin: 18px 11px;	    
+}
+
 
 </style>
 <p>Access the most recent 1000&nbsp;RCMP news and communications.</p>
@@ -132,7 +139,7 @@ custom_css: /assets/css/careers.css
     <aside aria-labelledby="news-filters-heading" id="news-filters"> 	 
     <label for="btngrp-search2" class="wb-inv">Search</label>
   <div class="input-group">
-    <input type="text" class="form-control" id="btngrp-search2" placeholder="Search news" />
+    <input type="text" class="form-controls" id="btngrp-search2" placeholder="Search news" />
     <span class="input-group-btn">
      <button class="btn btn-danger" type="button"><span class="glyphicon-search glyphicon"></span></button>
     </span>

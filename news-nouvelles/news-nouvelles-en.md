@@ -113,7 +113,7 @@ custom_css: /assets/css/careers.css
 }
  .btn-danger {     
    border-radius: 0;
-   padding: 11px; 
+   padding: 12px 11px; 
 }		 
 </style>
 <p>Access the most recent 1000&nbsp;RCMP news and communications.</p>

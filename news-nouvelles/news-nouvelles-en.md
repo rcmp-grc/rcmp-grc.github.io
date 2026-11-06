@@ -88,13 +88,13 @@ custom_css: /assets/css/careers.css
 	outline-offset: 0;	
 }
 	.form-controls { 
-	outline: 2px solid var(--rcmp-black);	
+	width: 100%;	
+	border: 2px solid var(--c-black);	
+	background: var(--c-white);	
 	background-repeat: no-repeat;
     background-position: right 10px center; 
-	align-items: center;
 	cursor: pointer;	
-	border-radius: 0;
-	background: var(--c-white);	
+	border-radius: 0;	
 }
    #news-count {
    display: flex;

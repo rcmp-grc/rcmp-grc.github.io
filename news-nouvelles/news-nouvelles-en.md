@@ -155,9 +155,8 @@ custom_css: /assets/css/careers.css
     <button class="btn btn-danger" type="button">
 	 <span class="glyphicon-search glyphicon" aria-hidden="true">
      <span class="wb-inv">Search</span>
-    </button> 
-   </span></div>
-</form>
+	 </span>
+	</button></div></form>
 		<div id="re-filters">
 		<h2 class="h6 news-filters-heading">Filter by</h2>
 		<p class="small mrgn-lft-md mrgn-tp-md">Select any of the following filters to narrow your search</p>	

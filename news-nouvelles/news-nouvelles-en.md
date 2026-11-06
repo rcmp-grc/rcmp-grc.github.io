@@ -89,16 +89,12 @@ custom_css: /assets/css/careers.css
 }
    .form-controls {
    width: 100%;
-   height: 100%
-   padding: 5px;
    border: 2px solid var(--c-black);
    border-radius: 0;
    background: var(--c-white);
    font-size: inherit;
    font-family: inherit;
    cursor: pointer;
-   -webkit-appearance: none;
-   appearance: none;
    background-repeat: no-repeat;
    background-position: right 10px center; 
 }

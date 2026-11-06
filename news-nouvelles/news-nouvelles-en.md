@@ -94,7 +94,6 @@ custom_css: /assets/css/careers.css
 	background-repeat: no-repeat;
 	cursor: pointer;	
 	border-radius: 0;	
-	padding: 8px 12px;
 }
    #news-count {
    display: flex;
@@ -104,11 +103,15 @@ custom_css: /assets/css/careers.css
 	.btn-danger {     
    border-radius: 0;
 }
-	.input-group {
+   .input-group {
    display: flex;	  
    align-items: center;	
 }
-
+   .btn-danger, .form-controls {     
+   box-sizing: border-box;
+   height: 40px;
+   font-size: 16px;
+}
 </style>
 <p>Access the most recent 1000&nbsp;RCMP news and communications.</p>
 <div class="row mrgn-bttm-md">

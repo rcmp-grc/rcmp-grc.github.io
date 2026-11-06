@@ -87,32 +87,10 @@ custom_css: /assets/css/careers.css
 	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;	
 }
-   .form-controls {
-   width: 100%;
-   padding-left: 6px;
-   padding-top: 7px;	    
-   border: 2px solid var(--c-black);
-   border-radius: 0;
-   background: var(--c-white);
-   font-size: inherit;
-   font-family: inherit;
-   cursor: pointer;
-   background-repeat: no-repeat;
-   background-position: right 10px center; 
-}
-   .input-group	{
-   margin: 18px 11px;	    
-   border-radius: 0;   
-}
    #news-count {
    display: flex;
    align-items: center;
    margin-bottom: 0;
-}
- .btn-danger {     
-   border-radius: 0;
-   height: 100%;
-   margin-bottom: 11px;
 }		 
 </style>
 <p>Access the most recent 1000&nbsp;RCMP news and communications.</p>
@@ -148,15 +126,13 @@ custom_css: /assets/css/careers.css
 	<div class="col-md-3" id="re-sidebar">
 	<h2 class="h6 news-filters-heading">Search</h2>	
     <aside aria-labelledby="news-filters-heading" id="news-filters"> 	 
-    <form action="#" id="search-box" method="get" role="search" aria-label="Search RCMP news">	  
-    <label class="wb-inv" for="btngrp-search2">Search</label>
-   <div class="input-group" id="btngrp-search2">
-    <input type="text" class="form-controls" placeholder="Search news" />
-	 <span class="input-group-btn">  
-    <button class="btn btn-danger" type="button">
-	 <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
-     <span class="wb-inv">Search</span>
-	</button></span></div></form>
+    <label for="btngrp-search2" class="wb-inv">Search</label>
+  <div class="input-group">
+    <input type="text" class="form-control" id="btngrp-search2" placeholder="Search news" />
+    <span class="input-group-btn">
+     <button class="btn btn-default" type="button"><span class="glyphicon-search glyphicon"></span></button>
+    </span>
+  </div>
 		<div id="re-filters">
 		<h2 class="h6 news-filters-heading">Filter by</h2>
 		<p class="small mrgn-lft-md mrgn-tp-md">Select any of the following filters to narrow your search</p>	

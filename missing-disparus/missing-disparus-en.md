@@ -7,23 +7,30 @@ lang: en
 lang_url: missing-disparus-fr.html
 ---
 <style>
- :root {
-  --rcmp-red: #b50315;
-  --rcmp-gold: #ecb731;
-  --rcmp-black: #0b0c0c;
-  --rcmp-grey-light: #f3f2f1;
-  --rcmp-grey-medium: #d8d8d8;
-  --rcmp-white: #ffffff;
-  --hero-start: #1f2c40;
-  --hero-end: #404f6a;
-  --missing-blue-light: #e1e7f2;
-  --missing-blue-medium: #b1bbcc;
+:root {
+    --rcmp-red: #b50315;
+    --rcmp-red-dark: #82373e;
+    --rcmp-gold: #bea468;
+    --rcmp-gold-warn: #ecb731;
+    --rcmp-yellow: #f5d000;
+    --rcmp-black: #0b0c0c;
+    --rcmp-grey-dk: #505a5f;
+    --rcmp-grey-md: #b1b4b6;
+    --rcmp-grey-lt: #f3f2f1;
+    --rcmp-charcoil: #363636;
+    --rcmp-white: #fff;
+    --rcmp-focus: #fd0;
+    --cn-black: var(--rcmp-black);
+    --cn-red: var(--rcmp-red);
+    --cn-grey-lt: var(--rcmp-grey-lt);
+    --cn-grey-md: var(--rcmp-grey-md);
+    --cn-grey-dk: var(--rcmp-grey-dk);
+    --rcmp-font-family: "Noto Sans","Noto Sans Canadian Aboriginal",sans-serif;
+}
  }
 
  body {
-  background: var(--missing-blue-light);
-  font-family: "Lato", sans-serif;
-  color: var(--rcmp-black);
+  font-family: var(--rcmp-font-family)
  }
 
 

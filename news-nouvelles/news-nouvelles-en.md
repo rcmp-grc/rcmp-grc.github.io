@@ -106,11 +106,8 @@ custom_css: /assets/css/careers.css
    .input-group {
    display: flex;	  
    align-items: center;	
-}
-   .btn-danger, .form-controls {     
    box-sizing: border-box;
-   height: 40px;
-   font-size: 16px;
+   height: 40px;  
 }
 </style>
 <p>Access the most recent 1000&nbsp;RCMP news and communications.</p>

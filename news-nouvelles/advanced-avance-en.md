@@ -115,11 +115,9 @@ custom_css: /assets/css/careers.css
 		  <div class="row mrgn-bttm-md"><div class="col-md-2"><label for="keyword"><span class="cb-text">Keywords</span></label></div><div class="col-md-10"><input data-column="0" class="re-input-text" id="keyword" name="keyword" type="text"></div></div>
 			</fieldset>
 		</div>
-		<details>
-    <summary>Topic</summary>	
 	    <div class="wp-filter-group mrgn-bttm-lg">
 			<fieldset class="legend-brdr-bttm">
-          <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></legend>
+          <legend><i aria-hidden="true"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></legend>
 			<div class="row wb-eqht">
 				<div class="col-md-6">
           <div class="checkbox">
@@ -176,12 +174,9 @@ custom_css: /assets/css/careers.css
 			</div>
 			</fieldset>
 		</div>
-		</details>
-	<details>
-    <summary>Territory or province</summary>
 		<div class="wp-filter-group mrgn-bttm-lg">	
 			<fieldset class="legend-brdr-bttm">
-          <legend class="wb-inv"><i aria-hidden="true"></i><span class="wp-filter-summary-label" role="heading">Territory or province</span></legend>
+          <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label" role="heading">Territory or province</span></legend>
 			<div class="row wb-eqht">
 				<div class="col-md-6">	
             <div class="checkbox">
@@ -229,12 +224,9 @@ custom_css: /assets/css/careers.css
 			</div>
 			</fieldset>
 		</div>
-	</details>
-	<details>
-    <summary>National, divisional, regional policing</summary>		
 <div class="wp-filter-group mrgn-bttm-lg">	
 	<fieldset class="legend-brdr-bttm">
-          <legend class="wb-inv"><i aria-hidden="true"></i><span class="wp-filter-summary-label" role="heading">National, divisional, regional policing</span></legend>
+          <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label" role="heading">National, divisional, regional policing</span></legend>
 		<div class="row wb-eqht">
 				<div class="col-md-6">	
 		<div class="checkbox">
@@ -293,7 +285,7 @@ custom_css: /assets/css/careers.css
 			</div>
 		</div>
 	</fieldset>
-</div>	</details>
+</div>	
 		<div class="wp-filter-group mrgn-bttm-lg">	
 			<fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label" role="heading">Publish date</span></legend>

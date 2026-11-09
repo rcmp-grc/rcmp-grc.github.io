@@ -96,8 +96,7 @@ custom_css: /assets/css/careers.css
 	.form-controls { 	
 	border: 2px solid var(--c-black);
 	border-right: none;	
-	border-radius: 0;	
-	padding-left: 5px;	
+	border-radius: 0;		
 	padding-right: 5px;	
 }
    #news-count {
@@ -117,7 +116,7 @@ custom_css: /assets/css/careers.css
    .input-group {
    display: flex;	  
    align-items: center;	
-   margin: 10px;  
+   margin: 12px;  
       
 }
 </style>

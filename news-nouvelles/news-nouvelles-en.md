@@ -111,8 +111,7 @@ custom_css: /assets/css/careers.css
 	cursor: pointer;
 	background-color: var(--rcmp-red);
 	color: white;	
-	border: 2px solid var(--rcmp-red);	
-	margin-right: 5px;	
+	border: 2px solid var(--rcmp-red);		
 }
     .input-group {
     display: flex;	  

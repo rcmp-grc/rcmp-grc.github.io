@@ -88,36 +88,31 @@ custom_css: /assets/css/careers.css
 	outline-offset: 0;	
 }
 	.form-controls, btn-danger  {
-	vertical-align: middle;
-	height: 40px;
 	font-size: 16px;	
-	box-sizing: border-box;		
+	box-sizing: border-box;	
+	padding: 10px 16px;		
 	}
 	.form-controls { 	
 	border: 2px solid var(--c-black);
 	border-right: none;	
 	border-radius: 0;	
-	padding-left: 5px;	
-	padding-right: 5px;	
 }
-   #news-count {
+    #news-count {
    display: flex;
    align-items: center;
    margin-bottom: 0;
 }		
 	.btn-danger {     
-    padding: 0 16px;
 	border-radius: 0;
 	cursor: pointer;
 	background-color: var(--rcmp-red);
 	color: white;	
 	border: 2px solid var(--rcmp-red);		
-	margin-right: 5px;	
 }
     .input-group {
     display: flex;	  
     align-items: center;	
-    margin: 8px;
+	justify-content: center;	
 }
 
 </style>

@@ -87,10 +87,6 @@ custom_css: /assets/css/careers.css
 	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;	
 }
-	.form-controls:focus {
-	outline: 2px solid var(--rcmp-red);
-	outline-offset: 0;	
-}
 	.form-controls, btn-danger  {
 	vertical-align: middle;
 	height: 40px;
@@ -110,21 +106,20 @@ custom_css: /assets/css/careers.css
    margin-bottom: 0;
 }		
 	.btn-danger {     
-    padding: 0 16px;
+    padding: 16px;
 	border-radius: 0;
 	cursor: pointer;
 	background-color: var(--rcmp-red);
 	color: white;	
 	border: 2px solid var(--rcmp-red);	
+	margin-right: 5px;	
 }
-   .input-group {
-   display: flex;	  
-   justify-content: center;	   
-   align-items: center;		
-   margin: 8px;
-   width: 100%
-   padding: 10px 5px;	   
+    .input-group {
+    display: flex;	  
+    align-items: center;	
+    margin: 8px;
 }
+
 </style>
 <p>Access the most recent 1000&nbsp;RCMP news and communications.</p>
 <div class="row mrgn-bttm-md">

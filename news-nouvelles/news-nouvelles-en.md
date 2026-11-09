@@ -90,7 +90,7 @@ custom_css: /assets/css/careers.css
 	.form-controls, btn-danger  {
 	font-size: 16px;	
 	box-sizing: border-box;	
-	padding: 10px 16px;		
+	padding: 5px 8px;		
 	}
 	.form-controls { 	
 	border: 2px solid var(--c-black);
@@ -113,6 +113,7 @@ custom_css: /assets/css/careers.css
     display: flex;	  
     align-items: center;	
 	justify-content: center;	
+	gap: 8px;	
 }
 
 </style>

@@ -126,10 +126,11 @@ custom_css: /assets/css/careers.css
 <div class="alert alert-info">
 <p>If you receive a positive result, please contact your local police to confirm the information and ask for assistance.</p>
 </div>
+<div class="brdr-rds-1 panel panel-body">
 <div class="wb-frmvld">
 <form id="queryVehicles" name="queryVehicles">
 <div id="re-filters">
-<div class="wp-filter-group mrgn-bttm-lg mrgn-tp-sm">
+<div class="wp-filter-group mrgn-bttm-sm mrgn-tp-sm">
 <fieldset class="brdr-tp">
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
 <div class="form-group mrgn-lft-sm">
@@ -154,4 +155,5 @@ custom_css: /assets/css/careers.css
 </div>
 <button class="btn btn-danger" id="search" type="submit">Search</button>
 </form>
+</div>
 </div>

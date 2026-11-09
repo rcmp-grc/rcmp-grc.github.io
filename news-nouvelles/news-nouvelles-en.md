@@ -87,35 +87,33 @@ custom_css: /assets/css/careers.css
 	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;	
 }
-	.form-controls, btn-danger  {
-	vertical-align: middle;
-	height: 40px;
-	font-size: 16px;	
-	box-sizing: border-box;		
-	}
 	.form-controls { 	
 	border: 2px solid var(--c-black);
 	border-right: none;	
 	border-radius: 0;	
-	padding-left: 5px;	
-	padding-right: 5px;	
+	padding: 10px 15px;	
+	outline: none;
+	border-radius: 4px 0 0 4px;	
 }
-   #news-count {
-   display: flex;
-   align-items: center;
-   margin-bottom: 0;
+    #news-count {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
 }		
 	.btn-danger {     
-    padding: 0 16px;
-	border-radius: 0;
+    padding: 0 20px;
+	border: 2px solid var(--rcmp-red);	
+	border-radius: 0 4px 4px 0;
 	cursor: pointer;
 	background-color: var(--rcmp-red);
 	color: white;	
+	white-space: nowrap;	
 }
-   .input-group {
-   display: flex;	  
-   align-items: center;	
-   margin: 8px;
+    .input-group {
+    display: flex;	  
+    align-items: stretch;	
+    max-width: 200px
+    width: 100%;
 }
 </style>
 <p>Access the most recent 1000&nbsp;RCMP news and communications.</p>

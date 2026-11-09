@@ -106,7 +106,7 @@ custom_css: /assets/css/careers.css
    margin-bottom: 0;
 }		
 	.btn-danger {     
-    padding: 0 16px;
+    padding: 0 17px;
 	border-radius: 0;
 	cursor: pointer;
 	background-color: var(--rcmp-red);
@@ -116,6 +116,7 @@ custom_css: /assets/css/careers.css
    .input-group {
    display: flex;	  
    align-items: center;	
+   margin: 10px;   
 }
 </style>
 <p>Access the most recent 1000&nbsp;RCMP news and communications.</p>

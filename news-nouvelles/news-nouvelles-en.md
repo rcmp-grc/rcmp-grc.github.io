@@ -106,12 +106,13 @@ custom_css: /assets/css/careers.css
    margin-bottom: 0;
 }		
 	.btn-danger {     
-    padding: 16px;
+    padding: 0 16px;
 	border-radius: 0;
 	cursor: pointer;
 	background-color: var(--rcmp-red);
 	color: white;	
 	border: 2px solid var(--rcmp-red);		
+	margin-right: 5px;	
 }
     .input-group {
     display: flex;	  

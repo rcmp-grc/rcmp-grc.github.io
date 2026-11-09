@@ -115,11 +115,15 @@ custom_css: /assets/css/careers.css
 	cursor: pointer;
 	background-color: var(--rcmp-red);
 	color: white;	
+	border: 2px solid var(--rcmp-red);	
 }
    .input-group {
    display: flex;	  
-   align-items: center;	
+   justify-content: center;	   
+   align-items: center;		
    margin: 8px;
+   width: 100%
+   padding: 10px 5px;	   
 }
 </style>
 <p>Access the most recent 1000&nbsp;RCMP news and communications.</p>

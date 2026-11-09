@@ -126,9 +126,7 @@ custom_css: /assets/css/careers.css
 <div class="alert alert-info">
 <p>If you receive a positive result, please contact your local police to confirm the information and ask for assistance.</p>
 </div>
-<div class="panel panel-default">
-        <div class="panel-body">
-<div class="wb-frmvld">
+<div class="wb-frmvld outline">
 <form id="queryVehicles" name="queryVehicles">
 <div id="re-filters">
 <div class="wp-filter-group mrgn-bttm-sm mrgn-tp-sm">
@@ -156,6 +154,4 @@ custom_css: /assets/css/careers.css
 </div>
 <button class="btn btn-danger" id="search" type="submit">Search</button>
 </form>
-</div>
-</div>
 </div>

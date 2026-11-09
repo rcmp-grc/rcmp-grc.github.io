@@ -112,7 +112,7 @@ custom_css: /assets/css/careers.css
     .input-group {
     display: flex;	  
     align-items: stretch;	
-    max-width: 200px
+    max-width: 50px
     width: 100%;
 }
 </style>

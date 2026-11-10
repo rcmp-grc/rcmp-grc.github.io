@@ -13,7 +13,7 @@ issued: 2026-11-03
 
 <ul>
   <li><a href="cpic-cipc-en.html">Landing</a></li>
-  <li>Vehicles</li>
+  <li><a href="sve-rve-en.html">Vehicles</a></li>
   <li>Bicycles</li>
   <li>Property</li>
   <li>Boats</li>

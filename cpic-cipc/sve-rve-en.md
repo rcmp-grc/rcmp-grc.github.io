@@ -141,12 +141,12 @@ custom_css: /assets/css/careers.css
 <fieldset>
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading" class="field-name">Terms and conditions of use</span></legend>
 <div>
-	<p>By using this search, I understand that access to the website is granted to a user on the condition that the user shall absolve and save harmless, the Royal Canadian Mounted Police or any individual employee thereof from any damages, however caused or arising from unintentional errors, failures, disclosure or use of such information.</p>
+<p>By using this search, I understand that access to the website is granted to a user on the condition that the user shall absolve and save harmless, the Royal Canadian Mounted Police or any individual employee thereof from any damages, however caused or arising from unintentional errors, failures, disclosure or use of such information.</p>
 <p>Transactions resulting from this search may be shared with law enforcement agencies upon request.</p>
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p>					
 </div>	
-<div class="checkbox checkbox-standalone">
-<label for="terms"><span class="mrgn-lft-sm mrgn-rght-md"><input id="terms" type="checkbox" value="1" required></span><strong>I agree to the terms and conditions of use</strong> <strong class="required">(required)</strong></label>
+<div class="checkbox">
+<label for="terms"><span class="mrgn-lft-sm mrgn-rght-md"><input id="terms" type="checkbox" required="required"></span><span class="mrgn-tp-sm"><strong>I agree to the terms and conditions of use</strong> <strong class="required">(required)</strong></span></label>
 </div>
 </fieldset>	
 </div>

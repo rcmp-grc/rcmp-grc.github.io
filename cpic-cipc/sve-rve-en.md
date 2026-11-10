@@ -132,7 +132,7 @@ custom_css: /assets/css/careers.css
 <fieldset class="brdr-tp">
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
 <div class="form-group mrgn-lft-sm">
-<label for="vin" class="re-select-label required"><span class="cb-text">Vehicle Identification Number</span> <strong class="required">(required)</strong></label>
+<label for="vin" class="re-select-label required"><span class="cb-text">Vehicle Identification Number</span> <strong class="required" aria-hidden="true">(required)</strong></label>
 <input class="re-input-text" data-rule-alphanumeric="true" data-rule-rangelength="[1,25] required=" id="vin" maxlength="25" name="vin" pattern="[A-Za-z0-9\s]{1,25}" data-column="0">
 </div>
 </fieldset>
@@ -146,7 +146,7 @@ custom_css: /assets/css/careers.css
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p>					
 </div>	
 <div class="checkbox required">
-<label for="terms"><span class="mrgn-lft-sm mrgn-rght-md"><input id="terms" type="checkbox" value="1" required></span><strong>I agree to the terms and conditions of use</strong> <strong class="required">(required)</strong></label>
+<label for="terms"><span class="mrgn-lft-sm mrgn-rght-md"><input id="terms" type="checkbox" value="1" required></span><strong>I agree to the terms and conditions of use</strong> <strong class="required aria-hidden="true">(required)</strong></label>
 </div>
 </fieldset>	
 </div>

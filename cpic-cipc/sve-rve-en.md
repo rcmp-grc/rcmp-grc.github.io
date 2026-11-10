@@ -84,6 +84,14 @@ custom_css: /assets/css/careers.css
     outline: 2px solid var(--rcmp-red);
     outline-offset: 0;
 }
+	.checkbox input[type="checkbox"]
+   border: 2px solid var(--c-black);
+   border-radius: 0;
+   background: var(--c-white);
+   cursor: pointer;
+   background-repeat: no-repeat;
+   box-sizing: border-box;	   
+}
 	.form-controls:focus {
 	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;	

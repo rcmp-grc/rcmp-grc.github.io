@@ -103,7 +103,9 @@ custom_css: /assets/css/careers.css
    box-sizing: border-box;
 }
    .input-group	{
-   margin: 18px 12px;	   
+   margin: 18px 12px;	 
+   display: flex;
+   align-items: center;
 }
    #news-count {
    display: flex;
@@ -149,18 +151,13 @@ custom_css: /assets/css/careers.css
 	<div class="col-md-3" id="re-sidebar">
 	<h2 class="h6 news-filters-heading">Search</h2>	
     <aside aria-labelledby="news-filters-heading" id="news-filters"> 	 
-    <form action="https://www.canada.ca/en/royal-canadian-mounted-police/search.html#wb-land" id="cse-search-box" method="get" role="search" aria-label="Search RCMP.ca">
-          <div class="form-group wb-srch-qry">
-            <label class="wb-inv" for="wb-srch-q">Search RCMP.ca</label>
-            <input class="wb-srch-q form-control" id="wb-srch-q" maxlength="170" name="q" placeholder="Search RCMP.ca" type="search" autocomplete="off" value="">
-          </div>
-          <div class="form-group submit">
-            <button class="btn btn-primary btn-small" type="submit">
-              <span class="glyphicon-search glyphicon" aria-hidden="true"></span>
-              <span class="wb-inv">Search</span>
-            </button>
-          </div>
-        </form>
+    <label for="btngrp-search2" class="wb-inv">Search</label>
+  <div class="input-group">
+    <input type="text" class="form-controls" id="btngrp-search2" placeholder="Search news" />
+    <span class="input-group-btn">
+     <button class="btn btn-danger" type="submit"><span class="glyphicon-search glyphicon"></span></button>
+    </span>
+  </div>
 		<div id="re-filters">
 		<h2 class="h6 news-filters-heading">Filter by</h2>
 		<p class="small mrgn-lft-md mrgn-tp-md">Select any of the following filters to narrow your search</p>	

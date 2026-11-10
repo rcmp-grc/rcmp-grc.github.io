@@ -156,3 +156,4 @@ custom_css: /assets/css/careers.css
 </div>
   </div>
 </div>
+<div class="clearfix"></div>

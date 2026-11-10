@@ -111,7 +111,7 @@ custom_css: /assets/css/careers.css
 		<div id="re-filters">
 	    <div class="wp-filter-group mrgn-bttm-lg">
 			<fieldset class="legend-brdr-bttm">
-          <legend><i aria-hidden="true"></i><span aria-level="3" role="heading">Keyword</span></legend>
+          <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">Keyword</span></legend>
 		  <div class="row mrgn-bttm-md"><div class="col-md-2"><label for="keyword"><span class="cb-text">Keywords</span></label></div><div class="col-md-10"><input data-column="0" class="re-input-text" id="keyword" name="keyword" type="text"></div></div>
 			</fieldset>
 		</div>
@@ -176,7 +176,7 @@ custom_css: /assets/css/careers.css
 		</div>
 		<div class="wp-filter-group mrgn-bttm-lg">	
 			<fieldset class="legend-brdr-bttm">
-          <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label" role="heading">Territory or province</span></legend>
+          <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label" role="heading">Province or territories</span></legend>
 			<div class="row wb-eqht">
 				<div class="col-md-6">	
             <div class="checkbox">
@@ -253,11 +253,11 @@ custom_css: /assets/css/careers.css
 <div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Nova Scotia RCMP"></span><span class="cb-text">Nova Scotia RCMP</span></label>
           </div>
-<div class="checkbox">
-            <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Nunavut RCMP"></span><span class="cb-text">Nunavut RCMP</span></label>
-          </div>
 				</div>
 			<div class="col-md-6">	
+			<div class="checkbox">
+            <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Nunavut RCMP"></span><span class="cb-text">Nunavut RCMP</span></label>
+          </div>	
 <div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Prince Edward Island RCMP"></span><span class="cb-text">Prince Edward Island RCMP</span></label>
           </div>

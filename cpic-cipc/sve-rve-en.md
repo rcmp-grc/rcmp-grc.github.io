@@ -123,7 +123,7 @@ custom_css: /assets/css/careers.css
 <div class="alert alert-info">
 <p>If you receive a positive result, please contact your local police to confirm the information and ask for assistance.</p>
 </div>
-<div class="panel panel-default">
+<div class="panel panel-default col-md-8">
   <div class="panel-body">
 <div class="wb-frmvld">
 <form id="queryVehicles" name="queryVehicles">

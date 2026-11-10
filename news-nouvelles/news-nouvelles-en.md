@@ -215,7 +215,7 @@ custom_css: /assets/css/careers.css
 	  </details>
 		<details class="wp-filter-group">
         <summary class="wp-filter-group-toggle">
-           <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Territory or province</span>
+           <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Province or territories</span>
         </summary>
 			<fieldset>
           <legend class="wb-inv">Territory or province</legend>

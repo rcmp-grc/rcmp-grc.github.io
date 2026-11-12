@@ -112,7 +112,7 @@ custom_css: /assets/css/careers.css
 			<fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span aria-level="3" role="heading" class="wb-inv">Keyword</span></legend>
 		<div class="input-group mrgn-bttm-md">	
-		  <div class="row"><div class="col-md-2"><label for="keyword"><span class="cb-text">Keywords</span></label></div><div class="col-md-10"><input data-column="0" class="re-input-text" id="keyword" name="keyword" type="text"></div>
+		  <div class="row"><div class="col-md-3"><label for="keyword"><span class="cb-text">Keywords</span></label></div><div class="col-md-9"><input data-column="0" class="re-input-text" id="keyword" name="keyword" type="text"></div>
 		  </div>
 		</div>
 			</fieldset>

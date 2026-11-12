@@ -345,8 +345,8 @@ custom_css: /assets/css/careers.css
         </button>
       </div>
     </nav>
-	 </div>
 	  </section>
+  </div>
 <script>
 	(function () {
   'use strict';

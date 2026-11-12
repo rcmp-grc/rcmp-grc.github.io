@@ -97,7 +97,7 @@ custom_css: /assets/css/careers.css
    box-sizing: border-box;
 }
    .input-group	{
-   margin: 18px 12px;	   
+   margin: 0 18px 12px 0;	   
 }
    #news-count {
    display: flex;
@@ -109,13 +109,13 @@ custom_css: /assets/css/careers.css
 <div class="row mrgn-tp-lg" id="re-page">
 	<div class="col-md-8" id="re-sidebar">
 		<div id="re-filters">
-	    <div class="wp-filter-group mrgn-bttm-md">
-			<fieldset>
+	    <fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span aria-level="3" role="heading" class="wb-inv">Keyword</span></legend>
-		  <div class="row col-md-12 mrgn-bttm-md">
-			  <div class="col-md-2"><label for="keyword"><span class="cb-text">Keywords</span></label></div><div class="col-md-10"><input data-column="0" class="re-input-text" id="keyword" name="keyword" type="text"></div></div>
-			</fieldset>
+		<div class="input-group mrgn-bttm-md">	
+		  <div class="row"><div class="col-md-4"><label for="keyword"><span class="cb-text">Keywords</span></label></div><div class="col-md-8"><input data-column="0" class="re-input-text" id="keyword" name="keyword" type="text"></div>
+		  </div>
 		</div>
+			</fieldset>
 <details>
 			<summary>Topic</summary>
 	    <div class="wp-filter-group mrgn-bttm-lg">

@@ -107,7 +107,7 @@ custom_css: /assets/css/careers.css
 </style>
 <p>Search all RCMP news and communications by keywords, topics, territory or province, national, divisional, regional policing, and publishing date.</p>
 <section id="search">
-<h2>Search by</h2>	
+<h2 class="h3">Search by</h2>	
 <div class="row mrgn-tp-lg" id="re-page">
 	<div class="col-md-8" id="re-sidebar">
 		<div id="re-filters">

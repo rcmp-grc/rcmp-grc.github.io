@@ -303,7 +303,9 @@ custom_css: /assets/css/careers.css
 			 <div class="row"><div class="col-md-2"><label class="re-select-label" for="dt_maxdate"><span class="cb-text">After</span></label></div><div class="col-md-10"><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text"></div></div>
 			</fieldset>
 		</div></details>
+			<div class="mrgn-tp-md">
 			<button type="submit" class="btn btn-md btn-danger">Search</button> 
+			</div>
  </div>
 </div></div><div class="clearfix"></div>
   <div id="wp-results-col" class="mrgn-tp-lg">

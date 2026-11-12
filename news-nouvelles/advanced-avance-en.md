@@ -253,11 +253,11 @@ custom_css: /assets/css/careers.css
 <div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Nova Scotia RCMP"></span><span class="cb-text">Nova Scotia RCMP</span></label>
           </div>
-				</div>
-			<div class="col-md-6">	
-			<div class="checkbox">
+<div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Nunavut RCMP"></span><span class="cb-text">Nunavut RCMP</span></label>
-          </div>	
+          </div>					
+				</div>
+			<div class="col-md-6">		
 <div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Prince Edward Island RCMP"></span><span class="cb-text">Prince Edward Island RCMP</span></label>
           </div>

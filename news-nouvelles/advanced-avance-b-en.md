@@ -106,6 +106,8 @@ custom_css: /assets/css/careers.css
 }	 
 </style>
 <p>Search all RCMP news and communications by keywords, topics, territory or province, national, divisional, regional policing, and publishing date.</p>
+<section id="search">
+<h2>Search by</h2>	
 <div class="row mrgn-tp-lg" id="re-page">
 	<div class="col-md-8" id="re-sidebar">
 		<div id="re-filters">
@@ -310,8 +312,10 @@ custom_css: /assets/css/careers.css
 			<button type="submit" class="btn btn-md btn-danger">Search</button> 
 			</div>
  </div>
-</div></div><div class="clearfix"></div>
+</div></div></section>
+<div class="clearfix"></div>
   <div id="wp-results-col" class="mrgn-tp-lg">
+	  <section id="results">
 	  <h2 class="wb-inv">List of news</h2>
      <div aria-label="Active filters" aria-live="polite" id="news-active-filters" role="status"></div> 
      <div id="wp-toolbar">
@@ -342,7 +346,7 @@ custom_css: /assets/css/careers.css
       </div>
     </nav>
 	 </div>
-	
+	  </section>
 <script>
 	(function () {
   'use strict';

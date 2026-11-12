@@ -115,7 +115,6 @@ custom_css: /assets/css/careers.css
 		  <div class="row"><div class="col-md-2"><label for="keyword"><span class="cb-text">Keywords</span></label></div><div class="col-md-10"><input data-column="0" class="re-input-text" id="keyword" name="keyword" type="text"></div>
 		  </div>
 		</div>
-		</div>
 			</fieldset>
 	    <div class="wp-filter-group mrgn-bttm-lg">
 			<fieldset class="legend-brdr-bttm">

@@ -13,9 +13,7 @@ issued: 2026-05-04
 
 <ul>
   <li><a href="news-nouvelles-en.html">Landing page</a></li>
-  <li><a href="advanced-avance-en.html">Advanced search - Option 1</a></li>
   <li><a href="advanced-avance-a-en.html">Advanced search - Option 2</a></li>
-  <li><a href="advanced-avance-b-en.html">Advanced search - Option 3</a></li>
   <li><a href="archived-news-nouvelles-archivees-en.html">Archived news item</a></li>
   <li><a href="backgrounder-document-information-en.html">Backgrounder</a></li>
   <li><a href="feeds-fils-en.html">Feeds</a></li>

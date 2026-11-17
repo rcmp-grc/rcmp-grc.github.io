@@ -186,7 +186,7 @@ custom_css: /assets/css/careers.css
 			<fieldset>
           <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label wb-inv" role="heading">Province or territories</span></legend>
 			<div class="row wb-eqht">
-				<div class="col-md-6">	
+				<div class="col-md-4">	
             <div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Alberta"></span><span class="cb-text">Alberta</span></label>
           </div>
@@ -202,20 +202,22 @@ custom_css: /assets/css/careers.css
 		  <div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Newfoundland and Labrador"></span><span class="cb-text">Newfoundland and Labrador</span></label>
           </div>
- <div class="checkbox">
+				</div>
+				<div class="col-md-4">	
+					<div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Northwest Territories"></span><span class="cb-text">Northwest Territories</span></label>
           </div>
 		  <div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Nova Scotia"></span><span class="cb-text">Nova Scotia</span></label>
           </div>
-				</div>
-				<div class="col-md-6">	
+				<div class="col-md-4">	
 <div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Nunavut"></span><span class="cb-text">Nunavut</span></label>
           </div>
-		  <div class="checkbox">
+				 <div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Ontario"></span><span class="cb-text">Ontario</span></label>
-          </div>
+          </div>	
+				</div>
 		  <div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Prince Edward Island"></span><span class="cb-text">Prince Edward Island</span></label>
           </div>
@@ -238,7 +240,7 @@ custom_css: /assets/css/careers.css
 	<fieldset>
           <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label wb-inv" role="heading">National, divisional, regional policing</span></legend>
 		<div class="row wb-eqht">
-				<div class="col-md-6">	
+				<div class="col-md-4">	
 		<div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="National Headquarters"></span><span class="cb-text">National Headquarters</span></label>
           </div>
@@ -257,7 +259,9 @@ custom_css: /assets/css/careers.css
 <div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Newfoundland and Labrador RCMP"></span><span class="cb-text">Newfoundland and Labrador RCMP</span></label>
           </div>
-<div class="checkbox">
+				</div>
+			<div class="col-md-4">
+			<div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Northwest Territories RCMP"></span><span class="cb-text">Northwest Territories RCMP</span></label>
           </div>
 <div class="checkbox">
@@ -265,18 +269,18 @@ custom_css: /assets/css/careers.css
           </div>
 <div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Nunavut RCMP"></span><span class="cb-text">Nunavut RCMP</span></label>
-          </div>					
-				</div>
-			<div class="col-md-6">		
-<div class="checkbox">
+          </div>	
+			<div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Prince Edward Island RCMP"></span><span class="cb-text">Prince Edward Island RCMP</span></label>
           </div>
 <div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="RCMP Depot"></span><span class="cb-text">RCMP Depot</span></label>
-          </div>
-<div class="checkbox">
+          </div>	
+			<div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Saskatchewan RCMP"></span><span class="cb-text">Saskatchewan RCMP</span></label>
-          </div>
+          </div>	
+			</div>
+			<div class="col-md-4">		
 			<div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="region" type="checkbox" value="Yukon RCMP"></span><span class="cb-text">Yukon RCMP</span></label>
           </div>

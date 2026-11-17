@@ -122,7 +122,7 @@ custom_css: /assets/css/careers.css
 			<fieldset>
           <legend><i aria-hidden="true"></i><span aria-level="3" class="wp-filter-summary-label wb-inv" role="heading">Topic</span></legend>
 			<div class="row wb-eqht">
-				<div class="col-md-6">
+				<div class="col-md-4">
           <div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Assault"></span><span class="cb-text">Assault</span></label>
           </div>
@@ -141,18 +141,15 @@ custom_css: /assets/css/careers.css
           <div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Homicide"></span><span class="cb-text">Homicide</span></label>
           </div>
-		  <div class="checkbox">
+			</div>
+			<div class="col-md-4">
+				<div class="checkbox">
           <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Human trafficking"></span><span class="cb-text">Human trafficking</span></label>
 		  </div>
 		  <div class="checkbox">
           <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Illicit drugs"></span><span class="cb-text">Illicit drugs</span></label>
 		  </div>
-			</div>
-				<div class="col-md-6">
-		  <div class="checkbox">
-          <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Missing persons"></span><span class="cb-text">Missing persons</span></label>
-		  </div>
-		  <div class="checkbox">
+				 <div class="checkbox">
           <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Organized crime"></span><span class="cb-text">Organized crime</span></label>
 		  </div>
 		  <div class="checkbox">
@@ -160,6 +157,11 @@ custom_css: /assets/css/careers.css
 		  </div>
 		  <div class="checkbox">
           <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Public interest"></span><span class="cb-text">Public interest</span></label>
+		  </div>
+			</div>
+				<div class="col-md-4">
+		  <div class="checkbox">
+          <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Missing persons"></span><span class="cb-text">Missing persons</span></label>
 		  </div>
 		  <div class="checkbox">
           <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Theft"></span><span class="cb-text">Theft</span></label>

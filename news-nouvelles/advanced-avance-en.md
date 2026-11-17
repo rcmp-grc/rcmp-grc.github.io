@@ -210,7 +210,6 @@ custom_css: /assets/css/careers.css
 		  <div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Nova Scotia"></span><span class="cb-text">Nova Scotia</span></label>
           </div>
-				<div class="col-md-4">	
 <div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Nunavut"></span><span class="cb-text">Nunavut</span></label>
           </div>
@@ -218,6 +217,7 @@ custom_css: /assets/css/careers.css
             <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Ontario"></span><span class="cb-text">Ontario</span></label>
           </div>	
 				</div>
+			<div class="col-md-4">		
 		  <div class="checkbox">
             <label><span class="mrgn-lft-sm"><input data-filter="territory" type="checkbox" value="Prince Edward Island"></span><span class="cb-text">Prince Edward Island</span></label>
           </div>

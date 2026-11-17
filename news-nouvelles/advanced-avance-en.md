@@ -306,7 +306,7 @@ custom_css: /assets/css/careers.css
 			<fieldset>
           <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label wb-inv" role="heading">Publish date</span></legend>
 			<p>For example, 2005, 21/11/2014, May 27, 2024</p>
-              <div class="row mrgn-bttm-md"><div class="col-md-3"><label class="re-select-label" for="dt_mindate"><span class="cb-text">Before</span></label></div><div class="col-md-9"><input data-column="0" class="re-input-text" id="dt_mindate" name="dt_mindate" type="text"></div></div>											  <div class="row"><div class="col-md-3"><label class="re-select-label" for="dt_maxdate"><span class="cb-text">After</span></label></div><div class="col-md-9"><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text"></div></div>
+              <div class="row mrgn-bttm-md"><div class="col-md-2"><label class="re-select-label" for="dt_mindate"><span class="cb-text">Before</span></label></div><div class="col-md-10"><input data-column="0" class="re-input-text" id="dt_mindate" name="dt_mindate" type="text"></div></div>											  <div class="row"><div class="col-md-2"><label class="re-select-label" for="dt_maxdate"><span class="cb-text">After</span></label></div><div class="col-md-10"><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text"></div></div>
 			</fieldset>
 		</div></details>
 			<div class="mrgn-tp-lg">

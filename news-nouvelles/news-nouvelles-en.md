@@ -120,13 +120,13 @@ custom_css: /assets/css/careers.css
 <div class="row mrgn-bttm-md">
   <div class="col-md-4">
     <section class="gc-drmt">
-      <h2 class="h5" data-emptytext="Executive"><a href="/en/news/comm-en.html">Read the news from our executive</a></h2>
+      <h2 class="h5" data-emptytext="Executive"><a href="/en/news/comm-en.html">Read communications from our executive</a></h2>
       <p>News shared by the leaders of the RCMP across Canada</p>
     </section>
   </div>
 	<div class="col-md-4">
     <section class="gc-drmt">
-      <h2 class="h5" data-emptytext="Feeds"><a href="https://rcmp-grc.github.io/news-nouvelles/advanced-avance-en.html">Advanced search of news</a></h2>
+      <h2 class="h5" data-emptytext="Feeds"><a href="https://rcmp-grc.github.io/news-nouvelles/advanced-avance-en.html">Advanced search</a></h2>
       <p>Search all news and communication</p>
     </section>
   </div>

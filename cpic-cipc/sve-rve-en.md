@@ -84,8 +84,7 @@ custom_css: /assets/css/careers.css
     outline: 2px solid var(--rcmp-red);
     outline-offset: 0;
 }
-   .checkbox input[type="checkbox"] {
-   width: 100%;	   	
+   .checkbox input[type="checkbox"] {   	
    border: 2px solid var(--c-black);
    padding: 12px;	
    border-radius: 0;

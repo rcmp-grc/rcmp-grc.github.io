@@ -23,7 +23,7 @@ custom_css: /assets/css/careers.css
 <div class="explore"></div>
 <p>News feed listed by:</p>
 <ul>
- <li>division, Federal Policing regions and National Headquarters</li>
+ <li>division, federal policing regions and national headquarters</li>
  <li>topic</li>	
  <li>type</li>
 </ul>	
@@ -34,7 +34,7 @@ custom_css: /assets/css/careers.css
 </div>
 <div id="expand-collapse">
   <details>
-    <summary>News feeds by division, Federal Policing regions and national headquarters</summary>
+    <summary>News feeds by division, federal policing regions and national headquarters</summary>
     <ul>
     <li>
       <a href="/en/feed-flux/news-nouvelles">National Headquarters</a>

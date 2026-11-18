@@ -86,7 +86,7 @@ custom_css: /assets/css/careers.css
 }
 	.checkbox input[type="checkbox"] {
    border: 2px solid var(--c-black);
-   padding: 8px;	
+   padding: 12px;	
    border-radius: 0;
    background: var(--c-white);
    cursor: pointer;

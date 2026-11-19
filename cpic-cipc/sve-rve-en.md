@@ -87,6 +87,7 @@ custom_css: /assets/css/careers.css
     -webkit-appearance: none;
     appearance: none;	
     background-repeat: no-repeat;	
+	box-sizing: border-box;	
 }
     .checkbox input[type="checkbox"]:focus {
     outline: 2px solid var(--rcmp-red);

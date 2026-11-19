@@ -99,7 +99,6 @@ custom_css: /assets/css/careers.css
   align-items: center;
   gap: 12px;
   cursor: pointer;
-  width: 100%;
   box-sizing: border-box;
   justify-content: space-between;
 }
@@ -176,10 +175,8 @@ custom_css: /assets/css/careers.css
 <p>Transactions resulting from this search may be shared with law enforcement agencies upon request.</p>
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p>	
 </div>	
-<div class="mrgn-lft-sm">	
 <div class="checkbox required">
 <label><input id="terms" type="checkbox" required="required" value="1"><strong>I agree to the terms and conditions of use</strong></label> <strong class="required" aria-hidden="true">(required)</strong>
-</div>
 </div>		
 </fieldset>	
 </div>

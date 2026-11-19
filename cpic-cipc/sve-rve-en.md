@@ -180,9 +180,9 @@ custom_css: /assets/css/careers.css
 <label><input id="terms" type="checkbox" required="required" value="1"><strong>I agree to the terms and conditions of use</strong></label> <strong class="required" aria-hidden="true">(required)</strong>
 </div>	
 </div>
-<div class="wp-filtre-group mrgn-bttm-lg">	
- <div class="checkbox">
-            <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Assault"></span><span class="cb-text">Assault</span></label>
+<div class="wp-filter-group mrgn-bttm-lg">	
+ <div class="checkbox required">
+            <label><span class="mrgn-lft-sm"><input data-filter="category" type="checkbox" value="Assault" required="required"></span><span class="cb-text">Assault</span></label> <strong class="required" aria-hidden="true">(required)</strong>
           </div>	
 </div>	
 </fieldset>	

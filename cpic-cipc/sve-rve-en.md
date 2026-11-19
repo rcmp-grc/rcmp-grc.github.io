@@ -100,7 +100,6 @@ custom_css: /assets/css/careers.css
   gap: 12px;
   cursor: pointer;
   box-sizing: border-box;
-  justify-content: space-between;
 }
 .input-group .checkbox input[type="checkbox"] {
   -webkit-appearance: none;

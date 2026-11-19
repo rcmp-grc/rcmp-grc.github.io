@@ -175,8 +175,10 @@ custom_css: /assets/css/careers.css
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p>	
 </div>	
 <div class="checkbox required">
-<label><span class="mrgn-lft-sm"><input id="terms" type="checkbox" required="required" value="1"><strong>I agree to the terms and conditions of use</strong> <strong class="required" aria-hidden="true">(required)</strong></span></label>
+<div class="mrgn-lft-sm">	
+<label><input id="terms" type="checkbox" required="required" value="1"><strong>I agree to the terms and conditions of use</strong> <strong class="required" aria-hidden="true">(required)</strong></label>
 </div>	
+</div>
 </fieldset>	
 </div>
 </div>

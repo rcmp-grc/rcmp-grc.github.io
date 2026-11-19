@@ -98,7 +98,6 @@ custom_css: /assets/css/careers.css
    border-radius: 0;
    -webkit-appearance: none;
    background-repeat: no-repeat; 
-   box-sizing: border-box;	   
 }
 	.form-controls:focus {
 	outline: 2px solid var(--rcmp-red);

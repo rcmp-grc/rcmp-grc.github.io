@@ -97,7 +97,7 @@ custom_css: /assets/css/careers.css
     outline-offset: 0;	
 	padding: 12px;	
     background: var(--c-white);
-	-webkit-appearance: none;
+	background-repeat: no-repeat;
 }
 	.form-controls:focus {
 	outline: 2px solid var(--rcmp-red);

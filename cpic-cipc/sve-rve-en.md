@@ -110,18 +110,6 @@ outline-offset: 0;
   flex-shrink: 0;
   position: relative;
 }
- .checkbox input[type="checkbox"]:checked::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 3px;
-  left: 7px;
-  width: 10px;
-  height: 16px;
-  border: solid var(--rcmp-black);
-  border-width: 0 3px 3px 0;
-  transform: rotate(45deg);
-}
  .form-controls:focus {
 	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;	
@@ -175,8 +163,8 @@ outline-offset: 0;
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p>	
 </div>	
 <div class="mrgn-lft-sm">
-	<div class="checkbox checkbox-standalone required">
-		<label for="agree"><input id="agree" name="agree" type="checkbox" required="required"> <span class="field-name"><strong>I agree to the terms and conditions of use</strong></span> <strong class="required" aria-hidden="true">(required)</strong></label></div></div>
+	<div class="checkbox">
+		<label for="agree" required="required"><input id="agree" name="agree" type="checkbox" required="required"> <span class="field-name"><strong>I agree to the terms and conditions of use</strong></span> <strong class="required" aria-hidden="true">(required)</strong></label></div></div>
 </fieldset>	
 </div>
 </div>

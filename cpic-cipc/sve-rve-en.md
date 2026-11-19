@@ -140,7 +140,10 @@ outline-offset: 0;
    background-repeat: no-repeat;
    background-position: right 10px center; 
    box-sizing: border-box;	   
-}		 
+}		
+	.required	{
+   margin: 0;	   
+}
    .input-group	{
    margin: 18px 12px;	   
 }
@@ -165,7 +168,7 @@ outline-offset: 0;
 </div>
 <div class="input-group mrgn-bttm-lg">
 <fieldset>
-<legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading" class="field-name">Terms and conditions of use</span></legend>
+<legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">Terms and conditions of use</span></legend>
 <div><p><strong><span class="cb-text">Terms and conditions</span></strong></p>
 <p>By using this search, I understand that access to the website is granted to a user on the condition that the user shall absolve and save harmless, the Royal Canadian Mounted Police or any individual employee thereof from any damages, however caused or arising from unintentional errors, failures, disclosure or use of such information.</p>
 <p>Transactions resulting from this search may be shared with law enforcement agencies upon request.</p>

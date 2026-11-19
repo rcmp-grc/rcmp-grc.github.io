@@ -164,7 +164,7 @@ outline-offset: 0;
 </div>	
 <div class="mrgn-lft-sm">
 	<div class="checkbox">
-	<span class=" class="required"><label for="agree"><input id="agree" name="agree" type="checkbox" required="required"> <span class="field-name"><strong>I agree to the terms and conditions of use</strong></span> <strong class="required" aria-hidden="true">(required)</strong></label></span></div></div>
+	<span class="required"><label for="agree"><input id="agree" name="agree" type="checkbox" required="required"> <span class="field-name"><strong>I agree to the terms and conditions of use</strong></span> <strong class="required" aria-hidden="true">(required)</strong></label></span></div></div>
 </fieldset>	
 </div>
 </div>

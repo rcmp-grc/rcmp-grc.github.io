@@ -120,7 +120,7 @@ custom_css: /assets/css/careers.css
         <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></summary>
 	    <div class="wp-filter-group mrgn-bttm-lg">
 			<fieldset>
-          <legend><i aria-hidden="true"></i><span wb-inv">Topic</span></legend>
+          <legend><i aria-hidden="true"></i><span class="wb-inv">Topic</span></legend>
 			<div class="row wb-eqht">
 				<div class="col-md-4">
           <div class="checkbox">

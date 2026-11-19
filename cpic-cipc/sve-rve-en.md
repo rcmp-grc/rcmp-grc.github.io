@@ -97,8 +97,6 @@ custom_css: /assets/css/careers.css
     background: var(--c-white);
 	background-repeat: no-repeat;
 	outline-offset: 0;	
-	font-size: inherit;
-    font-family: inherit;	
     cursor: pointer;	
 }
 	.form-controls:focus {

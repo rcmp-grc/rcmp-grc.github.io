@@ -234,8 +234,8 @@ custom_css: /assets/css/careers.css
 			</div>
 			</fieldset>
 		</div></details>
-<details>
-			<summary>National, divisional, regional policing</summary>
+<details class="wp-filter-group">
+        <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">National, divisional, regional policing</span></summary>
 <div class="wp-filter-group mrgn-bttm-lg">	
 	<fieldset>
           <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label wb-inv" role="heading">National, divisional, regional policing</span></legend>
@@ -301,7 +301,8 @@ custom_css: /assets/css/careers.css
 	</fieldset>
 </div>	</details>
 <details>
-<summary>Publish date</summary>
+<details class="wp-filter-group">
+        <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Publish date</span></summary>
 		<div class="wp-filter-group mrgn-bttm-lg">	
 			<fieldset>
           <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label wb-inv" role="heading">Publish date</span></legend>

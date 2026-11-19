@@ -124,7 +124,7 @@ custom_css: /assets/css/careers.css
 <div class="wb-frmvld">
 <form id="queryVehicles" name="queryVehicles" method="get">
 <div id="re-filters">
-<div class="wp-filter-group mrgn-bttm-sm mrgn-tp-sm">
+<div class="input-group mrgn-bttm-sm mrgn-tp-sm">
 <fieldset class="brdr-tp">
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
 <div class="mrgn-lft-sm">

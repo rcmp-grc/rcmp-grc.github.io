@@ -174,15 +174,8 @@ custom_css: /assets/css/careers.css
 <p>Transactions resulting from this search may be shared with law enforcement agencies upon request.</p>
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p>	
 </div>	
-<div class="mrgn-lft-sm">	
 <div class="checkbox required">
-<label><input id="terms" type="checkbox" required="required" value="1"><strong>I agree to the terms and conditions of use</strong> <strong class="required" aria-hidden="true">(required)</strong></label>
-</div>	
-</div>
-<div class="wp-filter-group mrgn-bttm-lg">	
- <div class="checkbox">
-            <label><span class="mrgn-lft-md"><input data-filter="category" type="checkbox" value="Assault" required="required"></span><span class="cb-text">Assault</span> <strong class="required" aria-hidden="true">(required)</strong></label> 
-          </div>	
+<label><span mrgn-lft-sm class=""><input id="terms" type="checkbox" required="required" value="1"><strong>I agree to the terms and conditions of use</strong> <strong class="required" aria-hidden="true">(required)</strong></span></label>
 </div>	
 </fieldset>	
 </div>

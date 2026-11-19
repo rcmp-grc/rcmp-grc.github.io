@@ -84,8 +84,7 @@ custom_css: /assets/css/careers.css
     font-size: inherit;
     font-family: inherit;	
     cursor: pointer;
-    -webkit-appearance: none;
-    appearance: none;	
+    -webkit-appearance: none;	
     background-repeat: no-repeat;	
 }
     .checkbox input[type="checkbox"]:focus {

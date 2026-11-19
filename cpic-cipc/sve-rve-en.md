@@ -99,6 +99,8 @@ custom_css: /assets/css/careers.css
    background: var(--c-white);
    font-size: inherit;
    font-family: inherit;	
+   -webkit-appearance: none;
+   background-repeat: no-repeat; 
    box-sizing: border-box;	   
 }
 	.form-controls:focus {

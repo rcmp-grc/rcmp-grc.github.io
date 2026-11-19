@@ -91,15 +91,43 @@ custom_css: /assets/css/careers.css
     outline: 2px solid var(--rcmp-red);
     outline-offset: 0;
 }
-	.checkbox input[type="checkbox"] {
-    outline: 2px solid var(--rcmp-black);	
-	padding: 12px;	
-    background: var(--c-white);
-	background-repeat: no-repeat;
-	outline-offset: 0;	
-    cursor: pointer;	
+.input-group .checkbox {
+  margin: 0;
 }
-	.form-controls:focus {
+.input-group .checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.input-group .checkbox input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  border: 2px solid var(--rcmp-black);
+  background: var(--rcmp-white);
+  cursor: pointer;
+  flex-shrink: 0;
+  position: relative;
+}
+ .input-group .checkbox input[type="checkbox"]:checked::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 7px;
+  width: 10px;
+  height: 16px;
+  border: solid var(--rcmp-black);
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+ .form-controls:focus {
 	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;	
 }

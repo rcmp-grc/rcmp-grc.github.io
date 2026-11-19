@@ -91,9 +91,6 @@ custom_css: /assets/css/careers.css
     outline: 2px solid var(--rcmp-red);
     outline-offset: 0;
 }
-.input-group .checkbox {
-  margin: 0;
-}
 .input-group .checkbox label {
   display: flex;
   align-items: center;
@@ -174,19 +171,7 @@ custom_css: /assets/css/careers.css
 <p>Transactions resulting from this search may be shared with law enforcement agencies upon request.</p>
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p>	
 </div>	
-<div class="wb-frmvld">
-	<form action="#" method="get" id="validation-example">
-		...
-			<div class="form-group">
-				<div class="checkbox checkbox-standalone required">
-					<label for="agree1"><input id="agree1" name="agree1" type="checkbox" required> <span class="field-name">I agree</span> <strong class="required">(required)</strong></label>
-				</div>
-			</div>	
-<div class="mrgn-lft-sm">	
-<div class="checkbox required">	
-<label><input id="terms" type="checkbox" required="required" value="1"><strong>I agree to the terms and conditions of use</strong> <strong class="required" aria-hidden="true">(required)</strong></label>
-</div>	
-</div>
+<div class="mrgn-lft-sm"><div class="checkbox required"><label><input id="terms" type="checkbox" required="required" value="1"><strong>I agree to the terms and conditions of use</strong> <strong class="required" aria-hidden="true">(required)</strong></label></div></div>
 </fieldset>	
 </div>
 </div>

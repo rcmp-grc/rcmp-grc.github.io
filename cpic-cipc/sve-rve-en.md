@@ -181,7 +181,7 @@ custom_css: /assets/css/careers.css
 </div>	
 </div>
 <div class="wp-filter-group mrgn-bttm-lg">	
- <div class="checkbox required">
+ <div class="checkbox">
             <label><span class="mrgn-lft-md"><input data-filter="category" type="checkbox" value="Assault" required="required"></span><span class="cb-text">Assault</span> <strong class="required" aria-hidden="true">(required)</strong></label> 
           </div>	
 </div>	

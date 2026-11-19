@@ -96,9 +96,6 @@ custom_css: /assets/css/careers.css
    border: 2px solid var(--c-black);
    padding: 8px;	
    border-radius: 0;
-   background: var(--c-white);
-   font-size: inherit;
-   font-family: inherit;	
    -webkit-appearance: none;
    background-repeat: no-repeat; 
    box-sizing: border-box;	   
@@ -138,13 +135,13 @@ custom_css: /assets/css/careers.css
 <div class="wp-filter-group mrgn-bttm-sm mrgn-tp-sm">
 <fieldset class="brdr-tp">
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
-<div class="form-group mrgn-lft-sm">
+<div class="mrgn-lft-sm">
 <label for="vin" class="re-select-label required"><span class="cb-text">Vehicle Identification Number</span> <strong class="required" aria-hidden="true">(required)</strong></label>
 <input class="re-input-text" data-rule-alphanumeric="true" data-rule-rangelength="[1,25]" id="vin" maxlength="25" name="vin" pattern="[A-Za-z0-9\s]{1,25}" data-column="0" required>
 </div>
 </fieldset>
 </div>
-<div class="mrgn-bttm-lg">
+<div class="wp-filter-group mrgn-bttm-lg">
 <fieldset>
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading" class="field-name">Terms and conditions of use</span></legend>
 <div>
@@ -154,7 +151,7 @@ custom_css: /assets/css/careers.css
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p>					
 </div>	
 <div class="checkbox required">
-<label for="terms"><span class="mrgn-lft-sm mrgn-rght-md"><input id="terms" type="checkbox" required="required" value="1"></span><strong>I agree to the terms and conditions of use</strong></label> <strong class="required" aria-hidden="true">(required)</strong>
+<label for="terms"><span class="mrgn-lft-md mrgn-rght-md"><input id="terms" type="checkbox" required="required" value="1"></span><strong>I agree to the terms and conditions of use</strong></label> <strong class="required" aria-hidden="true">(required)</strong>
 </div>
 </fieldset>	
 </div>

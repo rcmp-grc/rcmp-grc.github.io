@@ -117,7 +117,7 @@ custom_css: /assets/css/careers.css
 		</div>
 			</fieldset>
 <details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</summary>
+        <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></summary>
 	    <div class="wp-filter-group mrgn-bttm-lg">
 			<fieldset>
           <legend><i aria-hidden="true"></i><span aria-level="3" class="wp-filter-summary-label wb-inv" role="heading">Topic</span></legend>
@@ -180,8 +180,8 @@ custom_css: /assets/css/careers.css
 			</fieldset>
 		</div>
 </details>
-<details>
-			<summary>Province or territories</summary>
+<details class="wp-filter-group">
+        <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Province or territories</span></summary>
 		<div class="wp-filter-group mrgn-bttm-lg">	
 			<fieldset>
           <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label wb-inv" role="heading">Province or territories</span></legend>

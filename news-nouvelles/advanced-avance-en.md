@@ -109,18 +109,18 @@ custom_css: /assets/css/careers.css
 <div class="row mrgn-tp-lg mrgn-lft-sm" id="re-page">
 	<div id="re-sidebar">
 		<div id="re-filters">
-	    <fieldset>
+	    <fieldset class="legend-brdr-bttm">
           <legend><i aria-hidden="true"></i><span aria-level="3" role="heading" class="wb-inv">Keyword</span></legend>
 		<div class="input-group mrgn-bttm-md">	
 		  <div class="row"><div class="col-md-3"><label for="keyword"><span class="cb-text">Keywords</span></label></div><div class="col-md-9"><input data-column="0" class="re-input-text" id="keyword" name="keyword" type="text"></div>
 		  </div>
 		</div>
 			</fieldset>
-<details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Topic</span></summary>
+<details>
+			<summary>Topic</summary>
 	    <div class="wp-filter-group mrgn-bttm-lg">
 			<fieldset>
-          <legend><i aria-hidden="true"></i><span class="wb-inv">Topic</span></legend>
+          <legend><i aria-hidden="true"></i><span aria-level="3" class="wp-filter-summary-label wb-inv" role="heading">Topic</span></legend>
 			<div class="row wb-eqht">
 				<div class="col-md-4">
           <div class="checkbox">
@@ -180,9 +180,8 @@ custom_css: /assets/css/careers.css
 			</fieldset>
 		</div>
 </details>
-<details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle">
-           <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Province or territories</span></summary>
+<details>
+			<summary>Province or territories</summary>
 		<div class="wp-filter-group mrgn-bttm-lg">	
 			<fieldset>
           <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label wb-inv" role="heading">Province or territories</span></legend>
@@ -235,9 +234,8 @@ custom_css: /assets/css/careers.css
 			</div>
 			</fieldset>
 		</div></details>
-<details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle">
-           <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">National, divisional, regional policing</span></summary>
+<details>
+			<summary>National, divisional, regional policing</summary>
 <div class="wp-filter-group mrgn-bttm-lg">	
 	<fieldset>
           <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label wb-inv" role="heading">National, divisional, regional policing</span></legend>
@@ -302,9 +300,8 @@ custom_css: /assets/css/careers.css
 		</div>
 	</fieldset>
 </div>	</details>
-<details class="wp-filter-group">
-        <summary class="wp-filter-group-toggle">
-           <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Publish date</span></summary>
+<details>
+<summary>Publish date</summary>
 		<div class="wp-filter-group mrgn-bttm-lg">	
 			<fieldset>
           <legend><i aria-hidden="true"></i><span class="wp-filter-summary-label wb-inv" role="heading">Publish date</span></legend>

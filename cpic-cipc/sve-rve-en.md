@@ -171,7 +171,7 @@ outline-offset: 0;
 <p>Transactions resulting from this search may be shared with law enforcement agencies upon request.</p>
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p>	
 </div>	
-<div class="mrgn-lft-sm"><div class="checkbox required"><label><input id="terms" type="checkbox" required="required" value="1"><strong>I agree to the terms and conditions of use</strong> <strong class="required" aria-hidden="true">(required)</strong></label></div></div>
+<div class="mrgn-lft-sm row"><div class="checkbox required"><label><input id="terms" type="checkbox" required="required" value="1"><strong>I agree to the terms and conditions of use</strong> <strong class="required" aria-hidden="true">(required)</strong></label></div></div>
 </fieldset>	
 </div>
 </div>

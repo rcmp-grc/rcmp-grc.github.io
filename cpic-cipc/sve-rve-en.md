@@ -78,7 +78,7 @@ custom_css: /assets/css/careers.css
 	.re-input-text {
     outline: 2px solid var(--rcmp-black);
     outline-offset: 0;	
-	width: 60%;	
+	width: 70%;	
 	padding: 8px;	
     background: var(--c-white);
     font-size: inherit;
@@ -95,8 +95,9 @@ custom_css: /assets/css/careers.css
 	.checkbox input[type="checkbox"] {
     outline: 2px solid var(--rcmp-black);
     outline-offset: 0;	
-	padding: 8px;	
+	padding: 12px;	
     background: var(--c-white);
+	appearance: none;
 }
 	.form-controls:focus {
 	outline: 2px solid var(--rcmp-red);

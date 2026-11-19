@@ -177,7 +177,7 @@ custom_css: /assets/css/careers.css
 </div>	
 <div class="mrgn-lft-sm">	
 <div class="checkbox required">
-<label><input id="terms" type="checkbox" required="required" value="1"><strong>I agree to the terms and conditions of use</strong></label> <strong class="required" aria-hidden="true">(required)</strong>
+<label><input id="terms" type="checkbox" required="required" value="1"><strong>I agree to the terms and conditions of use</strong> <strong class="required" aria-hidden="true">(required)</strong></label>
 </div>	
 </div>
 <div class="wp-filter-group mrgn-bttm-lg">	

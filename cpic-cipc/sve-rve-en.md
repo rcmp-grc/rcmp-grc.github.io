@@ -92,14 +92,6 @@ custom_css: /assets/css/careers.css
     outline: 2px solid var(--rcmp-red);
     outline-offset: 0;
 }
-   .checkbox input[type="checkbox"] {   	
-   border: 2px solid var(--c-black);
-   padding: 8px;	
-   border-radius: 0;
-   -webkit-appearance: none;
-   background-repeat: no-repeat; 
-   appearance: none;  
-}
 	.form-controls:focus {
 	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;	
@@ -151,7 +143,7 @@ custom_css: /assets/css/careers.css
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p>					
 </div>	
 <div class="checkbox required">
-<label for="terms"><span class="mrgn-lft-md"><input id="terms" type="checkbox" required="required" value="1"></span><strong><span class="cb-text">I agree to the terms and conditions of use</span></strong></label> <strong class="required" aria-hidden="true">(required)</strong>
+<label><span class="mrgn-lft-md"><input id="terms" type="checkbox" required="required" value="1"></span><strong><span class="cb-text">I agree to the terms and conditions of use</span></strong></label> <strong class="required" aria-hidden="true">(required)</strong>
 </div>
 </fieldset>	
 </div>

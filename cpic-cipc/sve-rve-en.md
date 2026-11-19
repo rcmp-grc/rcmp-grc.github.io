@@ -152,7 +152,7 @@ outline-offset: 0;
 <div class="panel panel-default col-md-8">
   <div class="panel-body">
 <div class="wb-frmvld">
-<form id="queryVehicles" name="queryVehicles" method="get">
+<form id="queryVehicles" name="queryVehicles" method="get" action="#">
 <div id="re-filters">
 <div class="input-group mrgn-bttm-sm mrgn-tp-sm">
 <fieldset class="brdr-tp">
@@ -171,7 +171,9 @@ outline-offset: 0;
 <p>Transactions resulting from this search may be shared with law enforcement agencies upon request.</p>
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p>	
 </div>	
-<div class="mrgn-lft-sm"><div class="checkbox checkbox-standalone required"><label for="agree"><input id="agree" name="agree" type="checkbox" required="required"><span class="field-name"> <strong>I agree to the terms and conditions of use</strong></span> <strong class="required" aria-hidden="true">(required)</strong></label></div></div>
+<div class="mrgn-lft-sm">
+	<div class="checkbox checkbox-standalone">
+		<label for="agree"><input id="agree" name="agree" type="checkbox" required="required"> <span class="field-name"><strong>I agree to the terms and conditions of use</strong></span> <strong class="required" aria-hidden="true">(required)</strong></label></div></div>
 </fieldset>	
 </div>
 </div>

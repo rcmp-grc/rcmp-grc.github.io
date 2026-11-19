@@ -134,7 +134,7 @@ custom_css: /assets/css/careers.css
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
 <div class="form-group mrgn-lft-sm">
 <label for="vin" class="re-select-label required"><span class="cb-text">Vehicle Identification Number</span> <strong class="required" aria-hidden="true">(required)</strong></label>
-<input class="re-input-text" data-rule-alphanumeric="true" data-rule-rangelength="[1,25] required id="vin" maxlength="25" name="vin" pattern="[A-Za-z0-9\s]{1,25}" data-column="0">
+<input class="re-input-text" data-rule-alphanumeric="true" data-rule-rangelength="[1,25]" id="vin" maxlength="25" name="vin" pattern="[A-Za-z0-9\s]{1,25}" data-column="0" required>
 </div>
 </fieldset>
 </div>

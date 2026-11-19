@@ -133,7 +133,7 @@ custom_css: /assets/css/careers.css
 </div>
 </fieldset>
 </div>
-<div class="wp-filter-group mrgn-bttm-lg">
+<div class="input-group mrgn-bttm-lg">
 <fieldset>
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading" class="field-name">Terms and conditions of use</span></legend>
 <div>

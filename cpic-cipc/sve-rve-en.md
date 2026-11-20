@@ -105,11 +105,10 @@ outline-offset: 0;
   flex-shrink: 0;
   place-content: center;
   display: inline-grid;
+  pointer-events: none;	
 }
 .checkbox-row input[type="checkbox"]::before {
   content: "";
-  width: 7px;
-  height: 7px;
   transform: scale(0);
   transition: transform 120ms ease-in-out;
   background-color: var(--c-white);

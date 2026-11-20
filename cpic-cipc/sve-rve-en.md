@@ -153,7 +153,7 @@ outline-offset: 0;
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
 <div>
 <label for="vin" class="required input-row mrgn-lft-md"><span class="field-name">Vehicle Identification Number</span> <strong class="required" aria-hidden="true">(required)</strong></label>
-<input class="re-input-text" data-rule-alphanumeric="true" data-rule-rangelength="[1,25]" id="vin" maxlength="25" name="vin" pattern="[A-Za-z0-9\s]{1,25}" data-column="0" required>
+<input data-rule-alphanumeric="true" data-rule-rangelength="[1,25]" id="vin" maxlength="25" name="vin" pattern="[A-Za-z0-9\s]{1,25}" data-column="0" required>
 </div>
 </fieldset>
 </div>

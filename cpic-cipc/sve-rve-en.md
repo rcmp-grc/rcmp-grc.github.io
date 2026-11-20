@@ -103,23 +103,11 @@ outline-offset: 0;
   border: 2px solid var(--rcmp-black);	
   cursor: pointer;
   flex-shrink: 0;
-  place-content: center;
-  display: inline-grid;
-  pointer-events: none;	
-}
-.checkbox-row input[type="checkbox"]::before {
-  content: "";
-  transform: scale(0);
-  transition: transform 120ms ease-in-out;
-  background-color: var(--c-white);
-  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
 }
 .checkbox-row input[type="checkbox"]:checked {
-  background-color: var(--c-white);
-  border-color: var(--rcmp-black);
-}	
-.checkbox-row input[type="checkbox"]:checked::before {
-  transform: scale(1);
+  content: "\2713";
+  display: inline-block;
+  font-size: 1.6em;	
 }	
  .form-controls:focus {
 	outline: 2px solid var(--rcmp-red);

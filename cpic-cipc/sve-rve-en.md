@@ -103,12 +103,12 @@ outline-offset: 0;
   border: 2px solid var(--rcmp-black);	
   background: var(--c-white);	
   cursor: pointer;
-  position: relative;
+  display: inline-grid;
+  place-content: center;	
 }
 .checkbox-row input[type="checkbox"]:checked::after {
   content: "\2713";
-  display: inline-block;
-  padding-left: 10px;	
+  display: inline-block;	
   font-size: 1.2em;	
 }	
  .form-controls:focus {

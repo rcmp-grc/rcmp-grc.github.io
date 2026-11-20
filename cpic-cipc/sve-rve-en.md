@@ -155,8 +155,7 @@ outline-offset: 0;
 <p>By using this search, I understand that access to the website is granted to a user on the condition that the user shall absolve and save harmless, the Royal Canadian Mounted Police or any individual employee thereof from any damages, however caused or arising from unintentional errors, failures, disclosure or use of such information.</p>
 <p>Transactions resulting from this search may be shared with law enforcement agencies upon request.</p>
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p></div>		
-<label class="checkbox-row required mrgn-lft-md" for="agree"><input id="agree" name="agree" type="checkbox" required> <span class="field-name">I agree to the terms and conditions of use</span> <strong class="required">(required)</strong></label>
-</div>
+<label class="checkbox-row required mrgn-lft-lg" for="agree"><input id="agree" name="agree" type="checkbox" required> <span class="field-name">I agree to the terms and conditions of use</span> <strong class="required">(required)</strong></label>
 </fieldset>
 </div>
 <button class="btn btn-danger" id="search" type="submit">Search</button>

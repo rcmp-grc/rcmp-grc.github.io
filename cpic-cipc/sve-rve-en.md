@@ -104,7 +104,7 @@ outline-offset: 0;
   min-width: 28px;
   border: 2px solid var(--rcmp-black);
   background: var(--rcmp-white);
-  -webkit-appearance: none;	
+  appearance: none;	
   cursor: pointer;
   flex-shrink: 0;
   position: relative;

@@ -110,6 +110,7 @@ outline-offset: 0;
   display: inline-block;
   width: auto;
   padding: 14px;
+  flex-shrink: 0;
 }	
  .form-controls:focus {
 	outline: 2px solid var(--rcmp-red);

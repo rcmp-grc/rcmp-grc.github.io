@@ -137,6 +137,23 @@ outline-offset: 0;
    .input-group	{
    margin: 18px 12px;	   
 }
+	.field group {
+	display: flex;
+	flex-direction: column;
+	gap: 0.375rem;
+	margin-bottom: 1rem;
+}
+   .error-message {
+	display: none;
+	color: #c92432;
+	font-size: 0.075rem;
+	font-weight: 500;
+}
+	.field-group .is-invalid .error-message {
+	display: flex;
+	align-items: center;
+	gap: 0.375rem;
+	}
 </style>
 <p>You can search for autos, trucks, vans, sport utility vehicles (SUVs), motorcycles, snowmobiles, farm vehicles, heavy equipment, trailers, or all-terrain vehicles (ATVs). Please enter a valid Vehicle Identification Number (VIN) that contains only letters and numbers without spaces or other special characters.</p>
 <div class="alert alert-info">
@@ -160,11 +177,16 @@ outline-offset: 0;
 <fieldset class="required mrgn-bttm-md">
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">Terms and conditions</span></legend>
 <div>
-<p><strong><span class="field-name">Terms and conditions</span></strong></p>
+<p class="cb-text">Terms and conditions</p>
 <p>By using this search, I understand that access to the website is granted to a user on the condition that the user shall absolve and save harmless, the Royal Canadian Mounted Police or any individual employee thereof from any damages, however caused or arising from unintentional errors, failures, disclosure or use of such information.</p>
 <p>Transactions resulting from this search may be shared with law enforcement agencies upon request.</p>
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p></div>		
-<label class="checkbox-row required mrgn-lft-md" for="agree"><input id="agree" name="agree" type="checkbox" required> <strong>I agree to the terms and conditions</strong> <strong class="required" aria-hidden="true">(required)</strong></label>
+<div class="field-group is-invalid">	
+<div class="term-error" class="error-message" role="alert">	
+Please accept the terms and conditions to search.	
+</div>
+<label class="checkbox-row required mrgn-lft-md" for="agree"><input id="agree" name="agree" type="checkbox" required aria-invalid="true" aria-describedby="terms-error"> <strong>I agree to the terms and conditions</strong> <strong class="required" aria-hidden="true">(required)</strong></label>
+</div>
 </fieldset>
 </div>
 <button class="btn btn-danger mrgn-lft-md mrgn-bttm-lg" id="search" type="submit">Search</button>

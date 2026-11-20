@@ -130,7 +130,7 @@ outline-offset: 0;
    box-sizing: border-box;	   
 }		
 	.required	{
-   margin: 5px;	   
+   margin: 0;	   
 }
    .input-group	{
    margin: 18px 12px;	   
@@ -164,7 +164,8 @@ outline-offset: 0;
 </div>	
 <div class="mrgn-lft-sm">
 	<div class="checkbox">
-<label for="agree" class="required"><input id="agree" name="agree" type="checkbox" required="required"> <span class="field-name"><strong>I agree to the terms and conditions of use</strong></span> <strong class="required" aria-hidden="true">(required)</strong></label></div></div>
+<div class="required"><label for="agree"><input id="agree" name="agree" type="checkbox" required="required"> <span class="field-name"><strong>I agree to the terms and conditions of use</strong></span> <strong class="required" aria-hidden="true">(required)</strong></label></div></div>
+</div>
 </fieldset>	
 </div>
 </div>

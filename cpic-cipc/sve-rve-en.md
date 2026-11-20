@@ -109,7 +109,6 @@ outline-offset: 0;
 .checkbox-row input[type="checkbox"]:checked::after {
   content: "\2713";
   display: inline-block;
-  padding: 10px;
 }	
  .form-controls:focus {
 	outline: 2px solid var(--rcmp-red);

@@ -77,7 +77,6 @@ custom_css: /assets/css/careers.css
 }
 	.re-input-text {
     outline: 2px solid var(--rcmp-black);
-    outline-offset: 0;	
 	width: 80%;	
 	padding: 8px;	
     background: var(--c-white);
@@ -87,21 +86,25 @@ custom_css: /assets/css/careers.css
     -webkit-appearance: none;	
     background-repeat: no-repeat;	
 }
-.checkbox input[type="checkbox"]:focus {
-outline: 2px solid var(--rcmp-red);
-outline-offset: 0;
-}
 .checkbox-row {
 	display: inline-flex;
 	align-items: center;
 	gap: 8px;
 }
+.checkbox-row input[type="checkbox"]:focus {
+outline: 2px solid var(--rcmp-red);
+outline-offset: 0;
+}
 .checkbox-row input[type="checkbox"] {
   width: auto;
   margin: 0;
+  padding: 15px;
   border: 2px solid var(--rcmp-black);
   background: var(--rcmp-white);	
   cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+  background-repeat: no-repeat;
   flex-shrink: 0;
 }
  .form-controls:focus {
@@ -155,7 +158,7 @@ outline-offset: 0;
 <label class="checkbox-row required mrgn-lft-md" for="agree"><input id="agree" name="agree" type="checkbox" required> <span class="field-name">I agree to the terms and conditions of use</span> <strong class="required" aria-hidden="true">(required)</strong></label>
 </fieldset>
 </div>
-<button class="btn btn-danger" id="search" type="submit">Search</button>
+<button class="btn btn-danger mrgn-lft-md" id="search" type="submit">Search</button>
 </div>
 </form>
 </div>

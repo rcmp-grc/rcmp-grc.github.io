@@ -78,7 +78,7 @@ custom_css: /assets/css/careers.css
 	.re-input-text {
     outline: 2px solid var(--rcmp-black);
     outline-offset: 0;	
-	width: 70%;	
+	width: 80%;	
 	padding: 8px;	
     background: var(--c-white);
     font-size: inherit;
@@ -91,23 +91,18 @@ custom_css: /assets/css/careers.css
 outline: 2px solid var(--rcmp-red);
 outline-offset: 0;
 }
-.checkbox label {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  cursor: pointer;
-  box-sizing: border-box;
+.checkbox-row {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
 }
-.checkbox input[type="checkbox"] {
-  width: 28px;
-  height: 28px;
-  min-width: 28px;
+.checkbox-row input[type="checkbox"] {
+  width: auto;
+  margin: 0;
   border: 2px solid var(--rcmp-black);
-  background: var(--rcmp-white);
-  appearance: none;	
+  background: var(--rcmp-white);	
   cursor: pointer;
   flex-shrink: 0;
-  position: relative;
 }
  .form-controls:focus {
 	outline: 2px solid var(--rcmp-red);
@@ -159,10 +154,8 @@ outline-offset: 0;
 <div><p><strong><span class="cb-text">Terms and conditions</span></strong></p>
 <p>By using this search, I understand that access to the website is granted to a user on the condition that the user shall absolve and save harmless, the Royal Canadian Mounted Police or any individual employee thereof from any damages, however caused or arising from unintentional errors, failures, disclosure or use of such information.</p>
 <p>Transactions resulting from this search may be shared with law enforcement agencies upon request.</p>
-<p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p>	
-</div>	
-<div class="checkbox required mrgn-lft-md">
-	<label for="agree"><input id="agree" name="agree" type="checkbox" required> <span class="field-name">I agree to the terms and conditions of use</span> <strong class="required">(required)</strong></label>
+<p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p></div>		
+<label class="checkbox-row required mrgn-lft-md" for="agree"><input id="agree" name="agree" type="checkbox" required> <span class="field-name">I agree to the terms and conditions of use</span> <strong class="required">(required)</strong></label>
 </div>
 </fieldset>
 </div>

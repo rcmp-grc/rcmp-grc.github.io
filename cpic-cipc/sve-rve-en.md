@@ -89,7 +89,7 @@ custom_css: /assets/css/careers.css
 .checkbox-row {
 	display: inline-flex;
 	align-items: center;
-	gap: 8px;
+	gap: 10px;
 }
 .checkbox-row input[type="checkbox"]:focus {
 outline: 2px solid var(--rcmp-red);
@@ -99,13 +99,29 @@ outline-offset: 0;
   -webkit-appearance: none;
   appearance: none;	
   width: auto;
-  padding: 12px;	
+  padding: 14px;	
   border: 2px solid var(--rcmp-black);	
-  font-size: inherit;
-  font-family: inherit;	
   cursor: pointer;
   flex-shrink: 0;
+  place-content: center;
+  display: inline-grid;
 }
+.checkbox-row input[type="checkbox"]::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  transform: scale(0);
+  transition: transform 120ms ease-in-out;
+  background-color: var(--c-white);
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+.checkbox-row input[type="checkbox"]:checked {
+  background-color: var(--c-white);
+  border-color: var(--rcmp-black);
+}	
+.checkbox-row input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}	
  .form-controls:focus {
 	outline: 2px solid var(--rcmp-red);
 	outline-offset: 0;	

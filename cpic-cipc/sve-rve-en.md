@@ -98,8 +98,8 @@ outline-offset: 0;
 .checkbox-row input[type="checkbox"] {
   -webkit-appearance: none;
   appearance: none;	
-  width: auto;
-  padding: 14px;	
+  height: 15px;
+  width: 15px;	
   border: 2px solid var(--rcmp-black);	
   background: var(--c-white);	
   cursor: pointer;
@@ -108,8 +108,8 @@ outline-offset: 0;
 .checkbox-row input[type="checkbox"]:checked::after {
   content: "\2713";
   display: inline-block;
-  width: auto;
-  padding: 14px;
+  height: 15px;
+  width: 15px;
   flex-shrink: 0;
 }	
  .form-controls:focus {

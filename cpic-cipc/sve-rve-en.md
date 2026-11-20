@@ -123,8 +123,8 @@ outline-offset: 0;
    background-position: right 10px center; 
    box-sizing: border-box;	   
 }		
-	.required	{
-   margin-left: 15px;	   
+   .required {
+   margin-left: 5px;	   
 }
    .input-group	{
    margin: 18px 12px;	   

@@ -161,7 +161,7 @@ outline-offset: 0;
 <p>Transactions resulting from this search may be shared with law enforcement agencies upon request.</p>
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p>	
 </div>	
-<div class="checkbox checkbox-standalone required mrgn-lft-sm">
+<div class="checkbox required mrgn-lft-md">
 	<label for="agree"><input id="agree" name="agree" type="checkbox" required> <span class="field-name">I agree to the terms and conditions of use</span> <strong class="required">(required)</strong></label>
 </div>
 </fieldset>

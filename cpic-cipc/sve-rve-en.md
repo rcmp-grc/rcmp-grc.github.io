@@ -130,7 +130,7 @@ outline-offset: 0;
    box-sizing: border-box;	   
 }		
 	.required	{
-   margin: 0;	   
+   margin: 5px;	   
 }
    .input-group	{
    margin: 18px 12px;	   

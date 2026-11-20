@@ -109,6 +109,7 @@ outline-offset: 0;
   content: "\2713";
   display: inline-block;
   margin-left: 5px;	
+  margin-bottom: 5px;	
 }	
  .form-controls:focus {
 	outline: 2px solid var(--rcmp-red);

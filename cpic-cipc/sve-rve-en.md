@@ -162,12 +162,11 @@ outline-offset: 0;
 <p>Transactions resulting from this search may be shared with law enforcement agencies upon request.</p>
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p>	
 </div>	
-<div class="mrgn-lft-sm">
-	<div class="checkbox">
-<label for="agree"><input id="agree" name="agree" type="checkbox" required="required"> <span class="field-name"><strong>I agree to the terms and conditions of use</strong></span> <strong class="required" aria-hidden="true">(required)</strong></label></div></div>
-</fieldset>	
-</div>
-</div>
+<div class="form-group">
+				<div class="checkbox checkbox-standalone required">
+					<label for="agree"><input id="agree" name="agree" type="checkbox" required> <span class="field-name">I agree to the terms and conditions of use</span> <strong class="required">(required)</strong></label>
+				</div>
+			</div>
 <button class="btn btn-danger" id="search" type="submit">Search</button>
 </form>
 </div>

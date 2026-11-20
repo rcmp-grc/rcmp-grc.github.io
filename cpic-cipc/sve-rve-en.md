@@ -163,7 +163,7 @@ outline-offset: 0;
 </div>
 </fieldset>
 </div>
-<div class="input-group mrgn-bttm-lg">
+<div class="mrgn-bttm-lg">
 <fieldset>
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">Terms and conditions of use</span></legend>
 <div><p><strong><span class="cb-text">Terms and conditions</span></strong></p>

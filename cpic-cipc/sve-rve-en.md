@@ -149,7 +149,7 @@ outline-offset: 0;
 	font-size: 0.075rem;
 	font-weight: 500;
 }
-	.field-group .is-invalid .error-message {
+	.field-group.is-invalid .error-message {
 	display: flex;
 	align-items: center;
 	gap: 0.375rem;

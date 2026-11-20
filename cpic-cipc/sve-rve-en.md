@@ -102,6 +102,8 @@ outline-offset: 0;
   padding: 15px;	
   border: 2px solid var(--rcmp-black);
   background: var(--rcmp-white);	
+  font-size: inherit;
+  font-family: inherit;	
   cursor: pointer;
   flex-shrink: 0;
 }

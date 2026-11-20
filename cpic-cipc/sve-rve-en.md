@@ -149,9 +149,9 @@ outline-offset: 0;
 <div id="re-filters">
 <div class="input-group mrgn-bttm-sm mrgn-tp-sm">
 <fieldset>
-<legend class="wb-inv required"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
+<legend class="required"><i aria-hidden="true"></i><span class="field-name">VIN</span> <strong class="required">(required)</strong></legend>
 <div class="required"></div>
-<label for="vin" class="required mrgn-lft-md input-row"><span class="field-name">Vehicle Identification Number</span> <strong class="required" aria-hidden="true">(required)</strong></label>
+<label for="vin" class="required mrgn-lft-md input-row">Vehicle Identification Number</label>
 <input class="re-input-text" data-rule-alphanumeric="true" data-rule-rangelength="[1,25]" id="vin" maxlength="25" name="vin" pattern="[A-Za-z0-9\s]{1,25}" data-column="0" required>
 </fieldset>
 </div>
@@ -171,8 +171,6 @@ outline-offset: 0;
 </form>
 </div>
   </div>
-	<h2>Results</h2>
-
 </div>
 <div class="clearfix"></div>
 

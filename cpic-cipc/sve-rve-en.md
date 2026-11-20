@@ -106,10 +106,9 @@ outline-offset: 0;
   flex-shrink: 0;
 }
 .checkbox-row input[type="checkbox"]:checked::after {
-  content: "";
+  content: "\2713";
   display: inline-block;
   border: solid var(--rcmp-black);
-  border-width: 0 3px 3px 0;
   transform: rotate(45deg);
 }	
  .form-controls:focus {

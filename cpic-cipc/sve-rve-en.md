@@ -149,21 +149,21 @@ outline-offset: 0;
 <div id="re-filters">
 <div class="input-group mrgn-bttm-sm mrgn-tp-sm">
 <fieldset>
-<legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
+<legend class="wb-inv required"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
 <div class="required"></div>
 <label for="vin" class="required mrgn-lft-md input-row"><span class="field-name">Vehicle Identification Number</span> <strong class="required" aria-hidden="true">(required)</strong></label>
 <input class="re-input-text" data-rule-alphanumeric="true" data-rule-rangelength="[1,25]" id="vin" maxlength="25" name="vin" pattern="[A-Za-z0-9\s]{1,25}" data-column="0" required>
 </fieldset>
 </div>
 <div class="input-group">
-<fieldset class="required mrgn-bttm-md">
-<legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">Terms and conditions</span></legend>
+<fieldset class="mrgn-bttm-md">
+<legend class="wb-inv required"><i aria-hidden="true"></i><span aria-level="3" role="heading">Terms and conditions</span></legend>
 <div>
 <p class="cb-text"><strong>Terms and conditions</strong></p>
 <p>By using this search, I understand that access to the website is granted to a user on the condition that the user shall absolve and save harmless, the Royal Canadian Mounted Police or any individual employee thereof from any damages, however caused or arising from unintentional errors, failures, disclosure or use of such information.</p>
 <p>Transactions resulting from this search may be shared with law enforcement agencies upon request.</p>
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p></div>		
-<label class="checkbox-row required mrgn-lft-md" for="agree"><input id="agree" name="agree" type="checkbox" required aria-invalid="true" aria-describedby="terms-error"> <strong>I agree to the terms and conditions</strong> <strong class="required" aria-hidden="true">(required)</strong></label>
+<label class="checkbox-row required mrgn-lft-md" for="agree"><input id="agree" name="agree" type="checkbox" required> <span class="field-name"><strong>I agree to the terms and conditions</strong></span> <strong class="required" aria-hidden="true">(required)</strong></label>
 </fieldset>
 </div>
 <button class="btn btn-danger mrgn-lft-md mrgn-bttm-lg" id="search" type="submit">Search</button>
@@ -171,5 +171,8 @@ outline-offset: 0;
 </form>
 </div>
   </div>
+	<h2>Results</h2>
+
 </div>
 <div class="clearfix"></div>
+

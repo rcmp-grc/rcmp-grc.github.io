@@ -98,11 +98,10 @@ outline-offset: 0;
 .checkbox-row input[type="checkbox"] {
   width: auto;
   margin: 0;
-  padding: 15px;
+  padding: 10px;
   border: 2px solid var(--rcmp-black);
   background: var(--rcmp-white);	
   cursor: pointer;
-  -webkit-appearance: none;
   appearance: none;
   background-repeat: no-repeat;
   flex-shrink: 0;

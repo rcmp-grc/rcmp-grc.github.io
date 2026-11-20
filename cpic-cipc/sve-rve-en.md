@@ -163,6 +163,8 @@ outline-offset: 0;
 <div class="checkbox checkbox-standalone required">
 	<label for="agree"><input id="agree" name="agree" type="checkbox" required> <span class="field-name">I agree to the terms and conditions of use</span> <strong class="required">(required)</strong></label>
 </div>
+</fieldset>
+</div>
 <button class="btn btn-danger" id="search" type="submit">Search</button>
 </form>
 </div>

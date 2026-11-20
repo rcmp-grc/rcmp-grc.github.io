@@ -143,23 +143,23 @@ outline-offset: 0;
 <div class="wb-frmvld">
 <form id="queryVehicles" name="queryVehicles" method="get" action="#">
 <div id="re-filters">
+	
 <div class="input-group mrgn-bttm-sm mrgn-tp-sm">
-<fieldset class="brdr-tp">
+<fieldset>
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
-<div class="mrgn-lft-sm">
-<label for="vin" class="re-select-label required mrgn-lft-md"><span class="cb-text">Vehicle Identification Number</span> <strong class="required" aria-hidden="true">(required)</strong></label>
+<div>
+<label for="vin" class="required mrgn-lft-md"><span class="field-name">Vehicle Identification Number</span> <strong class="required" aria-hidden="true">(required)</strong></label>
 <input class="re-input-text" data-rule-alphanumeric="true" data-rule-rangelength="[1,25]" id="vin" maxlength="25" name="vin" pattern="[A-Za-z0-9\s]{1,25}" data-column="0" required>
 </div>
 </fieldset>
 </div>
-<div class="input-group mrgn-bttm-lg">
-<fieldset>
+<div class="input-group">
+<fieldset class="mrgn-bttm-lg">
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">Terms and conditions of use</span></legend>
 <div><p><strong><span class="cb-text">Terms and conditions</span></strong></p>
 <p>By using this search, I understand that access to the website is granted to a user on the condition that the user shall absolve and save harmless, the Royal Canadian Mounted Police or any individual employee thereof from any damages, however caused or arising from unintentional errors, failures, disclosure or use of such information.</p>
 <p>Transactions resulting from this search may be shared with law enforcement agencies upon request.</p>
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p></div>		
-<div class="required"></div>
 <label class="checkbox-row required mrgn-lft-md" for="agree"><input id="agree" name="agree" type="checkbox" required> <span class="field-name">I agree to the terms and conditions of use</span> <strong class="required" aria-hidden="true">(required)</strong></label>
 </fieldset>
 </div>

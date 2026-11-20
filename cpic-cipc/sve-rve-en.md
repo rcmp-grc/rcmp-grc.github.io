@@ -101,13 +101,21 @@ outline-offset: 0;
   width: auto;
   padding: 14px;	
   border: 2px solid var(--rcmp-black);	
+  background: var(--c-white);	
   cursor: pointer;
   flex-shrink: 0;
 }
-.checkbox-row input[type="checkbox"]:checked {
-  content: "\2713";
-  display: inline-block;
-  font-size: 1.6em;	
+.checkbox-row input[type="checkbox"]:checked::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 7px;
+  width: 10px;
+  height: 16px;
+  border: solid var(--rcmp-black);
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
 }	
  .form-controls:focus {
 	outline: 2px solid var(--rcmp-red);

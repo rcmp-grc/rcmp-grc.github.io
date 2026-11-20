@@ -86,6 +86,11 @@ custom_css: /assets/css/careers.css
     -webkit-appearance: none;	
     background-repeat: no-repeat;	
 }
+.input-row {
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+}	
 .checkbox-row {
 	display: inline-flex;
 	align-items: center;
@@ -143,18 +148,17 @@ outline-offset: 0;
 <div class="wb-frmvld">
 <form id="queryVehicles" name="queryVehicles" method="get" action="#">
 <div id="re-filters">
-	
 <div class="input-group mrgn-bttm-sm mrgn-tp-sm">
 <fieldset>
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
 <div>
-<label for="vin" class="required mrgn-lft-md"><span class="field-name">Vehicle Identification Number</span> <strong class="required" aria-hidden="true">(required)</strong></label>
+<label for="vin" class="required input-row mrgn-lft-md"><span class="field-name">Vehicle Identification Number</span> <strong class="required" aria-hidden="true">(required)</strong></label>
 <input class="re-input-text" data-rule-alphanumeric="true" data-rule-rangelength="[1,25]" id="vin" maxlength="25" name="vin" pattern="[A-Za-z0-9\s]{1,25}" data-column="0" required>
 </div>
 </fieldset>
 </div>
 <div class="input-group">
-<fieldset class="mrgn-bttm-lg">
+<fieldset class="mrgn-bttm-md">
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">Terms and conditions of use</span></legend>
 <div><p><strong><span class="cb-text">Terms and conditions</span></strong></p>
 <p>By using this search, I understand that access to the website is granted to a user on the condition that the user shall absolve and save harmless, the Royal Canadian Mounted Police or any individual employee thereof from any damages, however caused or arising from unintentional errors, failures, disclosure or use of such information.</p>

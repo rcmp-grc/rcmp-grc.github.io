@@ -87,7 +87,7 @@ custom_css: /assets/css/careers.css
     background-repeat: no-repeat;	
 }
 .input-row {
-	align-items: center;
+	display: inline-flex;
 	gap: 10px;
 }	
 .checkbox-row {

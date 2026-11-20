@@ -107,12 +107,7 @@ outline-offset: 0;
 }
 .checkbox-row input[type="checkbox"]:checked::after {
   content: "";
-  display: block;
-  position: absolute;
-  top: 3px;
-  left: 7px;
-  width: 10px;
-  height: 16px;
+  display: inline-block;
   border: solid var(--rcmp-black);
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);

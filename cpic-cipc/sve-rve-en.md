@@ -100,6 +100,7 @@ outline-offset: 0;
   appearance: none;	
   height: 30px;
   width: 30px;	
+  padding: 5px;	
   border: 2px solid var(--rcmp-black);	
   background: var(--c-white);	
   cursor: pointer;

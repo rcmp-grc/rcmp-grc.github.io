@@ -100,7 +100,6 @@ outline-offset: 0;
   appearance: none;	
   height: 30px;
   width: 30px;	
-  padding-bottom: 10px;	
   border: 2px solid var(--rcmp-black);	
   background: var(--c-white);	
   cursor: pointer;
@@ -109,6 +108,7 @@ outline-offset: 0;
 .checkbox-row input[type="checkbox"]:checked::after {
   content: "\2713";
   display: inline-block;
+  padding-bottom: 10px;	
   font-size: 1.2em;	
 }	
  .form-controls:focus {

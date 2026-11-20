@@ -108,8 +108,6 @@ outline-offset: 0;
 .checkbox-row input[type="checkbox"]:checked::after {
   content: "\2713";
   display: inline-block;
-  border: solid var(--rcmp-black);
-  transform: rotate(45deg);
 }	
  .form-controls:focus {
 	outline: 2px solid var(--rcmp-red);

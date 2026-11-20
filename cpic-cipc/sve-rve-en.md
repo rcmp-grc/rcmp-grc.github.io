@@ -98,14 +98,12 @@ outline-offset: 0;
 .checkbox-row input[type="checkbox"] {
   -webkit-appearance: none;
   appearance: none;	
-  width: 20px;
-  height: 20px;	
+  width: auto;
+  padding: 15px;	
   border: 2px solid var(--rcmp-black);
   background: var(--rcmp-white);	
   cursor: pointer;
   flex-shrink: 0;
-  display: inline-grid;
-  place-content: center;
 }
  .form-controls:focus {
 	outline: 2px solid var(--rcmp-red);

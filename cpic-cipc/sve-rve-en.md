@@ -136,7 +136,7 @@ outline-offset: 0;
 }		
    .input-group	{
    margin: 18px 12px;	   
-}
+   }   
 </style>
 <p>You can search for autos, trucks, vans, sport utility vehicles (SUVs), motorcycles, snowmobiles, farm vehicles, heavy equipment, trailers, or all-terrain vehicles (ATVs). Please enter a valid Vehicle Identification Number (VIN) that contains only letters and numbers without spaces or other special characters.</p>
 <div class="alert alert-info">
@@ -147,7 +147,7 @@ outline-offset: 0;
 <div class="wb-frmvld">
 <form id="queryVehicles" name="queryVehicles" method="get" action="#">
 <div id="re-filters">
-<div class="input-group mrgn-bttm-sm mrgn-tp-sm">
+<div class="mrgn-bttm-sm mrgn-tp-sm">
 <fieldset>
 <legend class="required mrgn-lft-md input-row"><i aria-hidden="true"></i><span class="field-name">VIN</span> <strong class="required">(required)</strong></legend>
 <label for="vin" class="wb-inv">Vehicle Identification Number</label>

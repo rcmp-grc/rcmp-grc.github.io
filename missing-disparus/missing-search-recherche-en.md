@@ -632,13 +632,11 @@ lang_url: missing-search-rechearce-fr.html
             </nav>
             <article class="result-card">
 
-                
+                <div class="result-header">Missing person</div>
 
                 <div class="result-body">
-                
-                    <div class="result-header">Missing person</div>
-                    <div class="result-image">
 
+                    <div class="result-image">
                         <img src="https://via.placeholder.com/220x170" alt="">
                     </div>
 

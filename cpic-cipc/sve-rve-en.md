@@ -157,5 +157,5 @@ margin: 18px 12px;
 <li><button type="submit" value="Search" class="btn btn-danger mrgn-lft-md mrgn-bttm-lg">Search</button></li> <li><input type="reset" value="Reset page to defaults" class="btn btn-link show p-0 mrgn-lft-md mrgn-bttm-lg"></li>
 </ul>
 </div></form></div></div>
-<p>strong>As of November 23, 2026</strong>, no records were found matching XXX000000.</p>
+<p><strong>As of November 23, 2026</strong>, no records were found matching XXX000000.</p>
 

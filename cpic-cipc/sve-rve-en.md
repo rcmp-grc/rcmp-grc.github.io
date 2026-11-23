@@ -154,6 +154,6 @@ margin: 18px 12px;
 <li><button type="submit" value="Search" class="btn btn-danger mrgn-lft-md mrgn-bttm-lg">Search</button></li> <li><input type="reset" value="Reset page to defaults" class="btn btn-link show p-0 mrgn-lft-md mrgn-bttm-lg"></li>
 </ul>
 </div></form></div></div></div>
-<div class="result-card"><div class="result-body">
-	<p><strong>As of November 23, 2026</strong>, no records were found matching XXX000000.</p>
-</div></div>
+<div class="result-card">
+	<p><i class="fa-jelly-fill fa-regular fa-square" style="color: hsl(214, 42%, 27%);"></i>&nbsp;<strong>As of November 23, 2026</strong>, no records were found matching XXX000000.</p>
+</div>

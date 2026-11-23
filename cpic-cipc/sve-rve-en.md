@@ -28,8 +28,7 @@ box-sizing: border-box;
 display: block;
 }
 .form-body {
-border-top: 1px solid #26374a;	
-border-bottom: 1px solid #26374a;
+border-bottom: 2px solid #26374a;
 }
 .result-body {
   padding: 0;
@@ -127,9 +126,6 @@ margin: 18px 12px;
 }
 </style>
 <p>You can search for autos, trucks, vans, sport utility vehicles (SUVs), motorcycles, snowmobiles, farm vehicles, heavy equipment, trailers, or all-terrain vehicles (ATVs). Please enter a valid Vehicle Identification Number (VIN) that contains only letters and numbers without spaces or other special characters.</p>
-<div class="alert alert-info">
-<p>If you receive a positive result, please contact your <a href="https://rcmp.ca/en/corporate-information/rcmp-locations">local police</a> to confirm the information and ask for assistance. </p>
-</div>
 <div class="form-body">
 <div class="wb-frmvld">
 <form id="queryVehicles" name="queryVehicles" method="get" action="#">
@@ -158,4 +154,6 @@ margin: 18px 12px;
 </ul>
 </div></form></div></div>
 <p><strong>As of November 23, 2026</strong>, no records were found matching XXX000000.</p>
+<p><strong>As of November 23, 2026</strong>, 1 record was found matching XXX00000000. Please contact your <a href="https://rcmp.ca/en/corporate-information/rcmp-locations">local police</a> to confirm the information and ask for assistance. </p>
+</div>
 

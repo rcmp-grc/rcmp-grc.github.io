@@ -11,7 +11,7 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
 
 <section class="gc-most-requested">
   <div class="container">
-    <button class="btn-lg btn-call-to-action">Most requested</button>  
+    <button class="btn-block btn-call-to-action">Most requested</button>  
   </div>
 </section>
 

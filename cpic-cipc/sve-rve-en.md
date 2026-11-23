@@ -126,7 +126,6 @@ margin: 18px 12px;
 <div class="alert alert-info">
 <p>If you receive a positive result, please contact your local police to confirm the information and ask for assistance.</p>
 </div>
-<div class="col-md-8">
 <div class="panel panel-default">
   <div class="panel-body">
 <div class="wb-frmvld">
@@ -151,6 +150,7 @@ margin: 18px 12px;
 <label class="checkbox-row required mrgn-lft-md" for="agree"><input id="agree" name="agree" type="checkbox" required> <span class="field-name"><strong>I agree to the terms and conditions</strong></span> <strong class="required" aria-hidden="true">(required)</strong></label>
 </fieldset>
 </div>
+<div class="form-inline">
 <input type="submit" value="Submit" class="btn btn-danger mrgn-lft-md mrgn-bttm-lg"> <input type="reset" value="Reset page to defaults" class="btn btn-link btn-sm show p-0 mrgn-tp-md">	
 </div>
 </form>
@@ -162,5 +162,3 @@ margin: 18px 12px;
         <dt><strong>As of November 23, 2026</strong></dt>
 		<dd>No records were found matching XXX000000.</dd>
 	</dl></div></div>
-</div>
-<div class="clearfix"></div>

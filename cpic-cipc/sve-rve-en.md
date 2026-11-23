@@ -159,8 +159,8 @@ margin: 18px 12px;
 </div>
 <div class="result-card"><div class="result-body">
 	<dl>
-        <dt><strong>No records were found as of: November 23, 2026</strong></dt>
-		<dd>No records matching 54503788vin were found in our database.</dd>
+        <dt><strong>As of November 23, 2026</strong></dt>
+		<dd>No records were found matching 54503788vin.</dd>
 	</dl></div></div>
 </div>
 <div class="clearfix"></div>

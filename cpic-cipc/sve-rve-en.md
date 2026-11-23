@@ -155,5 +155,5 @@ margin: 18px 12px;
 </ul>
 </div></form></div></div></div>
 <div class="result-card"><div class="result-body">
-	<p><strong>As of November 23, 2026</strong>, No records were found matching XXX000000.</p>
+	<p><strong>As of November 23, 2026</strong>, no records were found matching XXX000000.</p>
 	</dl></div></div>

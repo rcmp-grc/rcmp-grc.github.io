@@ -27,10 +27,6 @@ max-width: none;
 box-sizing: border-box;
 display: block;
 }
-.form-body {
-border-bottom: 2px solid #26374a;
-margin-bottom: 15px;  
-}
  #result-filters {
  border: 1px solid var(--c-grey-border);	
  padding: 0;
@@ -50,10 +46,6 @@ margin-bottom: 15px;
  padding: 0;
  width: 100%;
  overflow: hidden;
-}
- .re-select:focus {
- outline: 2px solid var(--rcmp-red);
- outline-offset: 0;	
 }
  .re-input-text:focus {
  outline: 2px solid var(--rcmp-red);
@@ -99,29 +91,11 @@ content: "\2713";
 display: inline-block;	
 font-size: 1.2em;	
 }	
-.form-controls:focus {
-outline: 2px solid var(--rcmp-red);
-outline-offset: 0;	
-}
-.form-controls {
-width: 100%;	   
-padding: 6px 8px;
-border: 2px solid var(--c-black);
-border-radius: 0;
-background: var(--c-white);
-font-size: inherit;
-font-family: inherit;
-cursor: pointer;
--webkit-appearance: none;
-appearance: none;
-background-repeat: no-repeat;
-background-position: right 10px center; 
-box-sizing: border-box;	   
-}		
 .input-group	{
 margin: 18px 12px;	   
 }
 </style>
+<div class="col-md-12">
 <p>You can search for autos, trucks, vans, sport utility vehicles (SUVs), motorcycles, snowmobiles, farm vehicles, heavy equipment, trailers, or all-terrain vehicles (ATVs). Please enter a valid Vehicle Identification Number (VIN) that contains only letters and numbers without spaces or other special characters.</p>
 <div class="panel panel-default">
   <div class="panel-body">
@@ -154,4 +128,4 @@ margin: 18px 12px;
 </div></form></div></div></div>
 <p><strong>As of November 23, 2026</strong>, no records were found matching XXX000000.</p>
 <p><strong>As of November 23, 2026</strong>, 1 record was found matching XXX00000000. Please contact your <a href="https://rcmp.ca/en/corporate-information/rcmp-locations">local police</a> to confirm the information and ask for assistance. </p>
-
+</div>

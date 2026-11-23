@@ -431,7 +431,7 @@ lang_url: missing-search-rechearce-fr.html
     </div>
 
 
-    <!--new-->
+
     
 <div class="row mrgn-tp-lg" id="re-page">
 
@@ -533,7 +533,7 @@ lang_url: missing-search-rechearce-fr.html
                     <label class="re-select-label mrgn-tp-md" for="dt_maxdate">To</label><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text">
                 </fieldset>
             </details>
-            <!--change from date to age-->
+
             <details class="wp-filter-group">
                 <summary class="wp-filter-group-toggle">
                     <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Age now</span>
@@ -638,188 +638,7 @@ lang_url: missing-search-rechearce-fr.html
             <button class="btn btn-default btn-block mrgn-tp-md" id="re-clear-filters" type="button">Clear filters</button>
         </aside>
     </div>
-  <!--old-->
-    <!-- <div class="search-layout">
 
-        <div class="col-md-3 filters">
-
-            <div class="filters-inner">
-                <h2 class="h3 missing-filters-heading">Search</h2>
-                <aside aria-labelledby="missing-filters-heading" id="missing-filters">
-                    <label for="btngrp-search2" class="wb-inv">Search</label>
-
-                    <div class="input-group">
-                        <input type="text" class="form-controls" id="btngrp-search2" placeholder="Search cases" />
-                        <span class="input-group-btn">
-                            <button class="btn btn-danger" type="submit"><span class="glyphicon-search glyphicon"></span></button>
-                        </span>
-                    </div>
-
-                    <div id="re-filters">
-                        <h2 class="h3 missing-filters-heading">Filter by</h2>
-                        <p class="small mrgn-lft-md mrgn-tp-md">Select any of the following filters to narrow your search</p>
-                        <details class="wp-filter-group">
-                            <summary class="wp-filter-group-toggle"><i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Status</span></summary>
-                            <fieldset>
-                                <legend class="wb-inv">Status</legend>
-
-                                <div class="checkbox">
-                                    <label><input data-filter="category" type="checkbox" value="Missing adult"><span class="cb-text">Missing adult</span></label>
-                                </div>
-
-                                <div class="checkbox">
-                                    <label><input data-filter="category" type="checkbox" value="Missing child"><span class="cb-text">Missing child</span></label>
-                                </div>
-
-                                <div class="checkbox">
-                                    <label><input data-filter="category" type="checkbox" value="Unidentified remains"><span class="cb-text">Unidentified remains</span></label>
-                                </div>
-
-                                <div class="checkbox">
-                                    <label><input data-filter="category" type="checkbox" value="Assault"><span class="cb-text">Assault</span></label>
-                                </div>
-                    </div>
-                    <details class="wp-filter-group">
-                        <summary class="wp-filter-group-toggle">
-                            <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Missing from</span>
-                        </summary>
-                        <fieldset>
-                            <legend class="wb-inv">Missing from</legend>
-
-                            <div class="checkbox">
-                                <label><input data-filter="territory" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span></label>
-                            </div>
-
-                            <div class="checkbox">
-                                <label><input data-filter="territory" type="checkbox" value="British Columbia"><span class="cb-text">British Columbia</span></label>
-                            </div>
-
-                            <div class="checkbox">
-                                <label><input data-filter="territory" type="checkbox" value="Manitoba"><span class="cb-text">Manitoba</span></label>
-                            </div>
-
-                            <div class="checkbox">
-                                <label><input data-filter="territory" type="checkbox" value="New Brunswick"><span class="cb-text">New Brunswick</span></label>
-                            </div>
-
-                            <div class="checkbox">
-                                <label><input data-filter="territory" type="checkbox" value="Newfoundland and Labrador"><span class="cb-text">Newfoundland and Labrador</span></label>
-                            </div>
-
-                            <div class="checkbox">
-                                <label><input data-filter="territory" type="checkbox" value="Northwest Territories"><span class="cb-text">Northwest Territories</span></label>
-                            </div>
-
-                            <div class="checkbox">
-                                <label><input data-filter="territory" type="checkbox" value="Nova Scotia"><span class="cb-text">Nova Scotia</span></label>
-                            </div>
-
-                            <div class="checkbox">
-                                <label><input data-filter="territory" type="checkbox" value="Nunavut"><span class="cb-text">Nunavut</span></label>
-                            </div>
-
-                            <div class="checkbox">
-                                <label><input data-filter="territory" type="checkbox" value="Ontario"><span class="cb-text">Ontario</span></label>
-                            </div>
-
-                            <div class="checkbox">
-                                <label><input data-filter="territory" type="checkbox" value="Prince Edward Island"><span class="cb-text">Prince Edward Island</span></label>
-                            </div>
-
-                            <div class="checkbox">
-                                <label><input data-filter="territory" type="checkbox" value="Quebec"><span class="cb-text">Quebec</span></label>
-                            </div>
-
-                            <div class="checkbox">
-                                <label><input data-filter="territory" type="checkbox" value="Saskatchewan"><span class="cb-text">Saskatchewan</span></label>
-                            </div>
-
-                            <div class="checkbox">
-                                <label><input data-filter="territory" type="checkbox" value="Yukon"><span class="cb-text">Yukon</span></label>
-                            </div>
-                        </fieldset>
-                    </details>
-
-                    <div class="filter-group">
-                        <h4>Date last seen or date of discovery</h4>
-
-                        <div class="help">Missing persons or unidentified remains only</div>
-
-                        <div class="date-range">
-
-                            <div>
-                                <label>From</label>
-                                <input type="date" class="date-input">
-                            </div>
-
-                            <div>
-                                <label>To</label>
-                                <input type="date" class="date-input">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="filter-group">
-                        <h4>Age now</h4>
-
-                        <div class="help">Missing persons or unidentified remains only</div>
-
-                        <div class="age-range">
-                            <input class="age-input" type="number" value="0">
-                            <span>to</span>
-                            <input class="age-input" type="number" value="99">
-                        </div>
-                    </div>
-
-                    <div class="filter-group">
-                        <h4>Appearance</h4>
-                        <label>Gender</label>
-                        <select class="select-input">
-                            <option>Select option</option>
-                            <option>Female</option>
-                            <option>Male</option>
-                            <option>Other</option>
-                            <option>Unknown</option>
-                        </select>
-                        <br><br>
-                        <label>Bio group</label>
-                        <select class="select-input">
-                            <option>Select option</option>
-                            <option>Asian</option>
-                            <option>Black</option>
-                            <option>East Indian</option>
-                            <option>Indigenous</option>
-                            <option>Other</option>
-                            <option>Unknown</option>
-                            <option>White</option>
-                        </select>
-                        <br><br>
-                        <label>Eye colour</label>
-                        <select class="select-input">
-                            <option>Select option</option>
-                            <option>Black</option>
-                            <option>Blue</option>
-                            <option>Brown</option>
-                            <option>Green</option>
-                            <option>Grey</option>
-                            <option>Hazel</option>
-                        </select>
-                        <br><br>
-                        <label>Hair colour</label>
-                        <select class="select-input">
-                            <option>Select option</option>
-                            <option>Auburn</option>
-                            <option>Bald</option>
-                            <option>Black</option>
-                            <option>Blonde</option>
-                            <option>Brown</option>
-                            <option>Grey</option>
-                            <option>Red</option>
-                            <option>White</option>
-                        </select>
-                    </div>
-            </div>
-        </div> -->
 
         <div class="col-md-9 col-sm-8" id="re-results-col">
         

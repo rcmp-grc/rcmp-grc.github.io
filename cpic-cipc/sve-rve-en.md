@@ -104,7 +104,7 @@ margin: 18px 12px;
 <div class="input-group mrgn-bttm-sm mrgn-tp-sm">
 <fieldset>
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">VIN</span></legend>
-<label for="vin" class="required mrgn-lft-md"><span class="field-name">Vehicle Identification Number</span> <strong class="required" aria-hidden="true">(required)</strong></label>
+<label for="vin" class="required mrgn-lft-md mrgn-rght-md"><span class="field-name">Vehicle Identification Number</span> <strong class="required" aria-hidden="true">(required)</strong></label>
 <input class="re-input-text" data-rule-alphanumeric="true" data-rule-rangelength="[1,25]" id="vin" maxlength="25" name="vin" pattern="[A-Za-z0-9\s]{1,25}" data-column="0" required>
 </fieldset>
 </div>
@@ -121,7 +121,7 @@ margin: 18px 12px;
 <li><button type="submit" value="Search" class="btn btn-danger mrgn-bttm-sm mrgn-lft-sm">Search</button></li> <li><input type="reset" value="Reset page to defaults" class="btn btn-link show p-0 mrgn-lft-md mrgn-bttm-sm"></li>
 </ul> 
 </div></form></div>
-<footer class="panel-footer mrgn-lft-sm">
+<footer class="panel-footer mrgn-lft-sm mrgn-tp-md">
 <p><strong>No records</strong> were found matching <strong>XXX000000</strong> as of November 23, 2026.</p>
 <p><strong>1 record</strong> was found matching <strong>XXX00000000</strong> as of November 23, 2026.</p> <p>Please contact your <a href="https://rcmp.ca/en/corporate-information/rcmp-locations">local police</a> to confirm the information and ask for assistance. </p></footer>
 </div></div>  

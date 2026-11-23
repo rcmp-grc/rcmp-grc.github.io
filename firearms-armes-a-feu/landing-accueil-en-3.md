@@ -103,7 +103,6 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
   </section>
 </div>
 </div>
-</div>
 
 <div class="col-md-4">
 <section class="wb-feeds limit-3">
@@ -126,8 +125,9 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
           </li>
         </ul>
         <p>More: <a href="#">Firearms news</a></p>
-      </section>
     </div>
+</section>	
+</div>
 
 <div class="well well-sm brdr-0 mrgn-bttm-md">
   <div class="container">

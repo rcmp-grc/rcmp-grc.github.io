@@ -151,11 +151,9 @@ margin: 18px 12px;
 </fieldset>
 </div>
 <ul class="list-inline lst-spcd">	
-<li><input type="search" value="Search" class="btn btn-danger mrgn-lft-md mrgn-bttm-lg"></li> <li><input type="reset" value="Reset page to defaults" class="btn btn-link btn-sm show p-0 mrgn-lft-md mrgn-bttm-lg"></li>
+<li><button type="search" value="Search" class="btn btn-danger mrgn-lft-md mrgn-bttm-lg"></button></li> <li><input type="reset" value="Reset page to defaults" class="btn btn-link show p-0 mrgn-lft-md mrgn-bttm-lg"></li>
 </ul>
 </div></form></div></div></div>
 <div class="result-card"><div class="result-body">
-	<dl>
-        <dt><strong>As of November 23, 2026</strong></dt>
-		<dd>No records were found matching XXX000000.</dd>
+	<p><strong>As of November 23, 2026</strong>, No records were found matching XXX000000.</p>
 	</dl></div></div>

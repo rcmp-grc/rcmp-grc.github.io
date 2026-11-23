@@ -121,7 +121,7 @@ margin: 18px 12px;
 <li><button type="submit" value="Search" class="btn btn-danger mrgn-bttm-sm mrgn-lft-sm">Search</button></li> <li><input type="reset" value="Reset page to defaults" class="btn btn-link show p-0 mrgn-lft-md mrgn-bttm-sm"></li>
 </ul> 
 </div></form></div>
-<footer class="panel-footer mrgn-lft-sm mrgn-rght-sm mrgn-bttm-sm mrgn-tp-md">
+<footer class="panel-footer mrgn-lft-sm mrgn-rght-sm mrgn-bttm-lg mrgn-tp-md">
 <p><strong>No records</strong> were found matching <strong>XXX000000</strong> as of November 23, 2026.</p>
 <p><strong>1 record</strong> was found matching <strong>XXX00000000</strong> as of November 23, 2026.</p> <p>Please contact your <a href="https://rcmp.ca/en/corporate-information/rcmp-locations">local police</a> to confirm the information and ask for assistance. </p></footer>
 </div></div>  

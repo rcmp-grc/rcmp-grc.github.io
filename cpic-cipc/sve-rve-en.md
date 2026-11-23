@@ -120,7 +120,7 @@ margin: 18px 12px;
 <label class="checkbox-row required mrgn-lft-md" for="agree"><input id="agree" name="agree" type="checkbox" required> <span class="field-name"><strong>I agree to the terms and conditions</strong></span> <strong class="required" aria-hidden="true">(required)</strong></label>
 </fieldset></div>
 <ul class="list-inline lst-spcd">	
-<li><button type="submit" value="Search" class="btn btn-danger mrgn-bttm-sm">Search</button></li> <li><input type="reset" value="Reset page to defaults" class="btn btn-link show p-0 mrgn-lft-md mrgn-bttm-sm"></li>
+<li><button type="submit" value="Search" class="btn btn-danger mrgn-bttm-sm mrgn-lft-sm">Search</button></li> <li><input type="reset" value="Reset page to defaults" class="btn btn-link show p-0 mrgn-lft-md mrgn-bttm-sm"></li>
 </ul> 
 </div></form></div>
 <footer class="panel-footer">

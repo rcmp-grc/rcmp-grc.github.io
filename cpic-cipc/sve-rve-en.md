@@ -60,6 +60,7 @@ display: block;
  font-family: inherit;	
  cursor: pointer;
  -webkit-appearance: none;	
+ appearance: none;  
  background-repeat: no-repeat;	
 }
  .input-row {

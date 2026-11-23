@@ -152,8 +152,7 @@ margin: 18px 12px;
 </fieldset>
 </div>
 <button class="btn btn-danger mrgn-lft-md mrgn-bttm-lg" id="search" type="submit">Search</button>
-<p><a href="#" class="btn btn-default">Reset</a></p>
-</ul>	
+<p><a href="#">Reset</a></p>
 </div>
 </form>
 </div>

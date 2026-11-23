@@ -112,12 +112,13 @@ margin: 18px 12px;
 <div class="input-group">
 <fieldset class="mrgn-bttm-md">
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">Terms and conditions</span></legend>
+<div class="required"></div>  
 <div>
 <p class="cb-text"><strong>Terms and conditions</strong></p>
 <p>By using this search, I understand that access to the website is granted to a user on the condition that the user shall absolve and save harmless, the Royal Canadian Mounted Police or any individual employee thereof from any damages, however caused or arising from unintentional errors, failures, disclosure or use of such information.</p>
 <p>Transactions resulting from this search may be shared with law enforcement agencies upon request.</p>
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p></div>		
-<label class="required mrgn-lft-md" for="agree"><input id="agree" name="agree" type="checkbox" required value="1"> <span class="field-name">I agree to the terms and conditions</span>  <strong class="required" aria-hidden="true">(required)</strong></label>
+<div class="checkbox-row"><label class="required mrgn-lft-md" for="agree"><input class="checkbox" id="agree" name="agree" type="checkbox" required value="1"> <span class="field-name">I agree to the terms and conditions</span>  <strong class="required" aria-hidden="true">(required)</strong></label></div>
 </fieldset></div>
 <ul class="list-inline lst-spcd">	
 <li><button type="submit" value="Search" class="btn btn-danger mrgn-bttm-sm mrgn-lft-sm">Search</button></li> <li><input type="reset" value="Reset page to defaults" class="btn btn-link show p-0 mrgn-lft-md mrgn-bttm-sm"></li>

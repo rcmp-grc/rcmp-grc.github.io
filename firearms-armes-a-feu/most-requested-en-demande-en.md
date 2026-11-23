@@ -50,7 +50,7 @@ issued: 2026-11-23
  </div> 
 </section>
 
-<section class="well well-sm brdr-0 mrgn-bttm-0"> 
+<section class="well-sm brdr-0">
  <div class="container row-no-gutters"> 
   <div class="col-md-3"> 
    <h2 class="mrgn-tp-sm h3">Become a Canadian Firearms Safety Course Instructor</h2> 

@@ -29,6 +29,7 @@ display: block;
 }
 .form-body {
 border-bottom: 2px solid #26374a;
+margin-bottom: 15px;  
 }
 .result-body {
   padding: 0;
@@ -150,10 +151,9 @@ margin: 18px 12px;
 </fieldset>
 </div>
 <ul class="list-inline lst-spcd">	
-<li><button type="submit" value="Search" class="btn btn-danger mrgn-lft-md mrgn-bttm-lg">Search</button></li> <li><input type="reset" value="Reset page to defaults" class="btn btn-link show p-0 mrgn-lft-md mrgn-bttm-lg"></li>
+<li><button type="submit" value="Search" class="btn btn-danger mrgn-lft-md mrgn-bttm-sm">Search</button></li> <li><input type="reset" value="Reset page to defaults" class="btn btn-link show p-0 mrgn-lft-md mrgn-bttm-sm"></li>
 </ul>
 </div></form></div></div>
 <p><strong>As of November 23, 2026</strong>, no records were found matching XXX000000.</p>
 <p><strong>As of November 23, 2026</strong>, 1 record was found matching XXX00000000. Please contact your <a href="https://rcmp.ca/en/corporate-information/rcmp-locations">local police</a> to confirm the information and ask for assistance. </p>
-</div>
 

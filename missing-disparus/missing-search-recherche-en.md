@@ -7,202 +7,199 @@ lang: en
 lang_url: missing-search-rechearce-fr.html
 ---
 <style>
+    #re-filters {
+        border: 1px solid var(--c-grey-border);
+        padding: 0;
+        margin-bottom: 20px;
+        overflow: hidden;
+        width: 100%;
+        box-sizing: border-box;
+    }
 
+    #re-filters-heading {
+        background: var(--c-black);
+        color: var(--c-white);
+        font-weight: 700;
+        padding: 10px 14px;
+        margin: 0;
+    }
 
-#re-filters {
-    border: 1px solid var(--c-grey-border);
-    padding: 0;
-    margin-bottom: 20px;
-    overflow: hidden;
-    width: 100%;
-    box-sizing: border-box;
-}
+    #re-filters details.wp-filter-group>summary.wp-filter-group-toggle {
+        display: flex !important;
+        align-items: flex-start !important;
+        flex-wrap: nowrap !important;
+        gap: 6px !important;
+        white-space: normal !important;
+    }
 
-#re-filters-heading {
-    background: var(--c-black);
-    color: var(--c-white);
-    font-weight: 700;
-    padding: 10px 14px;
-    margin: 0;
-}
+    #re-filters details.wp-filter-group>summary.wp-filter-group-toggle .wp-filter-chevron {
+        flex-shrink: 0 !important;
+        width: 14px !important;
+        align-self: center !important;
+        margin-top: 0 !important;
+    }
 
-#re-filters details.wp-filter-group > summary.wp-filter-group-toggle {
-    display: flex !important;
-    align-items: flex-start !important;
-    flex-wrap: nowrap !important;
-    gap: 6px !important;
-    white-space: normal !important;
-}
+    #re-filters details.wp-filter-group>summary.wp-filter-group-toggle .wp-filter-summary-label {
+        flex: 1 !important;
+        min-width: 0 !important;
+        white-space: normal !important;
+        word-break: break-word !important;
+        display: inline !important;
+    }
 
-#re-filters details.wp-filter-group > summary.wp-filter-group-toggle .wp-filter-chevron {
-    flex-shrink: 0 !important;
-    width: 14px !important;
-    align-self: center !important;
-    margin-top: 0 !important;
-}
+    #re-filters details:nth-of-type(2) {
+        border-top: 1px solid var(--c-grey-border);
+    }
 
-#re-filters details.wp-filter-group > summary.wp-filter-group-toggle .wp-filter-summary-label {
-    flex: 1 !important;
-    min-width: 0 !important;
-    white-space: normal !important;
-    word-break: break-word !important;
-    display: inline !important;
-}
+    #re-filters .wp-filter-group .checkbox {
+        margin-bottom: 5px;
+    }
 
-#re-filters details:nth-of-type(2) {
-    border-top: 1px solid var(--c-grey-border);
-}
+    #re-filters .wp-filter-group .checkbox label {
+        align-items: flex-start !important;
+    }
 
-#re-filters .wp-filter-group .checkbox {
-    margin-bottom: 5px;
-}
+    #re-filters .wp-filter-group .checkbox input[type="checkbox"] {
+        margin-top: 6px !important;
+        flex-shrink: 0 !important;
+    }
 
-#re-filters .wp-filter-group .checkbox label {
-    align-items: flex-start !important;
-}
+    .re-select-group {
+        padding: 10px 12px;
+        border-top: 1px solid var(--c-grey-border);
+        border-bottom: 1px solid var(--c-grey-border);
+    }
 
-#re-filters .wp-filter-group .checkbox input[type="checkbox"] {
-    margin-top: 6px !important;
-    flex-shrink: 0 !important;
-}
+    .re-select-label {
+        display: block;
+        font-weight: 700;
+        margin-bottom: 6px;
+        font-size: inherit;
+    }
 
-.re-select-group {
-    padding: 10px 12px;
-    border-top: 1px solid var(--c-grey-border);
-    border-bottom: 1px solid var(--c-grey-border);
-}
+    .re-select {
+        width: 100%;
+        padding: 6px 8px;
+        border: 2px solid var(--c-black);
+        border-radius: 0;
+        background: var(--c-white);
+        font-size: inherit;
+        font-family: inherit;
+        cursor: pointer;
+        -webkit-appearance: none;
+        appearance: none;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%230b0c0c' d='M0 0l6 8 6-8z'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 10px center;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
 
-.re-select-label {
-    display: block;
-    font-weight: 700;
-    margin-bottom: 6px;
-    font-size: inherit;
-}
+    .re-select:focus {
+        outline: 3px solid var(--c-focus-alt);
+        outline-offset: 0;
+    }
 
-.re-select {
-    width: 100%;
-    padding: 6px 8px;
-    border: 2px solid var(--c-black);
-    border-radius: 0;
-    background: var(--c-white);
-    font-size: inherit;
-    font-family: inherit;
-    cursor: pointer;
-    -webkit-appearance: none;
-    appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%230b0c0c' d='M0 0l6 8 6-8z'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 10px center;
-    padding-right: 30px;
-    box-sizing: border-box;
-}
+    .re-input-text-group {
+        padding: 10px 12px;
+        border-top: 1px solid var(--c-grey-border);
+        border-bottom: 1px solid var(--c-grey-border);
+    }
 
-.re-select:focus {
-    outline: 3px solid var(--c-focus-alt);
-    outline-offset: 0;
-}
+    .re-input-text-label {
+        display: block;
+        font-weight: 700;
+        margin-bottom: 6px;
+        font-size: inherit;
+    }
 
-.re-input-text-group {
-    padding: 10px 12px;
-    border-top: 1px solid var(--c-grey-border);
-    border-bottom: 1px solid var(--c-grey-border);
-}
+    .re-input-text {
+        width: 100%;
+        padding: 6px 8px;
+        border: 2px solid var(--c-black);
+        border-radius: 0;
+        background: var(--c-white);
+        font-size: inherit;
+        font-family: inherit;
+        cursor: pointer;
+        -webkit-appearance: none;
+        appearance: none;
+        background-repeat: no-repeat;
+        background-position: right 10px center;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
 
-.re-input-text-label {
-    display: block;
-    font-weight: 700;
-    margin-bottom: 6px;
-    font-size: inherit;
-}
+    .re-input-text:focus {
+        outline: 3px solid var(--c-focus-alt);
+        outline-offset: 0;
+    }
 
-.re-input-text {
-    width: 100%;
-    padding: 6px 8px;
-    border: 2px solid var(--c-black);
-    border-radius: 0;
-    background: var(--c-white);
-    font-size: inherit;
-    font-family: inherit;
-    cursor: pointer;
-    -webkit-appearance: none;
-    appearance: none;
-    background-repeat: no-repeat;
-    background-position: right 10px center;
-    padding-right: 30px;
-    box-sizing: border-box;
-}
+    #re-toolbar {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        border-bottom: 1px solid var(--c-grey-border);
+        padding-bottom: 12px;
+        margin-bottom: 20px;
+    }
 
-.re-input-text:focus {
-    outline: 3px solid var(--c-focus-alt);
-    outline-offset: 0;
-}
+    #re-count {
+        margin-bottom: 0;
+    }
 
-#re-toolbar {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    border-bottom: 1px solid var(--c-grey-border);
-    padding-bottom: 12px;
-    margin-bottom: 20px;
-}
+    #re-active-filters {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 6px;
+        width: 100%;
+        margin-bottom: 16px;
+    }
 
-#re-count {
-    margin-bottom: 0;
-}
+    .re-filter-row {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 8px 10px;
+        justify-content: flex-start;
+        width: 100%;
+        box-sizing: border-box;
+    }
 
-#re-active-filters {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    gap: 6px;
-    width: 100%;
-    margin-bottom: 16px;
-}
+    .re-filter-row:nth-child(odd) {
+        background: var(--c-grey-light);
+    }
 
-.re-filter-row {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 8px;
-    padding: 8px 10px;
-    justify-content: flex-start;
-    width: 100%;
-    box-sizing: border-box;
-}
+    .re-filter-row:nth-child(even) {
+        background: var(--c-white);
+    }
 
-.re-filter-row:nth-child(odd) {
-    background: var(--c-grey-light);
-}
+    .re-filter-row-label {
+        font-weight: 700;
+        flex-shrink: 0;
+    }
 
-.re-filter-row:nth-child(even) {
-    background: var(--c-white);
-}
+    .re-filter-row-tags {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 6px;
+        justify-content: flex-start;
+    }
 
-.re-filter-row-label {
-    font-weight: 700;
-    flex-shrink: 0;
-}
-
-.re-filter-row-tags {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 6px;
-    justify-content: flex-start;
-}
-
-#re-no-results {
-    padding: 32px;
-    text-align: left;
-    border: 1px dashed var(--c-grey-border);
-    width: 100%;
-    max-width: none;
-    box-sizing: border-box;
-}
-
+    #re-no-results {
+        padding: 32px;
+        text-align: left;
+        border: 1px dashed var(--c-grey-border);
+        width: 100%;
+        max-width: none;
+        box-sizing: border-box;
+    }
 
     .search-page {
         max-width: 1200px;
@@ -277,7 +274,6 @@ lang_url: missing-search-rechearce-fr.html
     .filters-inner {
         padding: 1rem;
     }
-
 
     .filters .help {
         font-size: .875rem;
@@ -430,239 +426,203 @@ lang_url: missing-search-rechearce-fr.html
         </p>
     </div>
 
+    <div class="row mrgn-tp-lg" id="re-page">
 
+        <div class="col-md-3 col-sm-4" id="re-sidebar">
+            <aside aria-labelledby="re-filters-heading" id="re-filters">
+                <h2 class="h4" id="re-filters-heading">Filter by</h2>
+                <p class="small mrgn-lft-md mrgn-tp-md">Select any of the following filters to narrow your search</p>
+                <details class="wp-filter-group">
+                    <summary class="wp-filter-group-toggle">
+                        <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Status</span>
+                    </summary>
+                    <fieldset>
+                        <legend class="wb-inv">Status</legend>
 
-    
-<div class="row mrgn-tp-lg" id="re-page">
+                        <div class="checkbox">
+                            <label><input data-filter="statusType" type="checkbox" value="Missing adult"><span class="cb-text">Missing adult</span></label>
+                        </div>
 
-    <div class="col-md-3 col-sm-4" id="re-sidebar">
-        <aside aria-labelledby="re-filters-heading" id="re-filters">
-            <h2 class="h4" id="re-filters-heading">Filter by</h2>
-            <p class="small mrgn-lft-md mrgn-tp-md">Select any of the following filters to narrow your search</p>
-            <details class="wp-filter-group">
-                <summary class="wp-filter-group-toggle">
-                    <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Status</span>
-                </summary>
-                <fieldset>
-                    <legend class="wb-inv">Status</legend>
+                        <div class="checkbox">
+                            <label><input data-filter="statusType" type="checkbox" value="Missing child"><span class="cb-text">Missing child</span></label>
+                        </div>
 
-                    <div class="checkbox">
-                        <label><input data-filter="statusType" type="checkbox" value="Missing adult"><span class="cb-text">Missing adult</span></label>
+                        <div class="checkbox">
+                            <label><input data-filter="statusType" type="checkbox" value="Unidentified remains"><span class="cb-text">Unidentified remains</span></label>
+                        </div>
+                    </fieldset>
+                </details>
+                <details class="wp-filter-group">
+                    <summary class="wp-filter-group-toggle">
+                        <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Province or territory</span>
+                    </summary>
+                    <fieldset>
+                        <legend class="wb-inv">Province or territory</legend>
+
+                        <div class="checkbox">
+                            <label><input data-filter="province" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span></label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label><input data-filter="province" type="checkbox" value="British Columbia"><span class="cb-text">British Columbia</span></label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label><input data-filter="province" type="checkbox" value="Manitoba"><span class="cb-text">Manitoba</span></label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label><input data-filter="province" type="checkbox" value="New Brunswick"><span class="cb-text">New Brunswick</span></label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label><input data-filter="province" type="checkbox" value="Newfoundland and Labrador"><span class="cb-text">Newfoundland and Labrador</span></label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label><input data-filter="province" type="checkbox" value="Northwest Territories"><span class="cb-text">Northwest Territories</span></label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label><input data-filter="province" type="checkbox" value="Nova Scotia"><span class="cb-text">Nova Scotia</span></label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label><input data-filter="province" type="checkbox" value="Nunavut"><span class="cb-text">Nunavut</span></label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label><input data-filter="province" type="checkbox" value="Ontario"><span class="cb-text">Ontario</span></label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label><input data-filter="province" type="checkbox" value="Prince Edward Island"><span class="cb-text">Prince Edward Island</span></label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label><input data-filter="province" type="checkbox" value="Quebec"><span class="cb-text">Quebec</span></label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label><input data-filter="province" type="checkbox" value="Saskatchewan"><span class="cb-text">Saskatchewan</span></label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label><input data-filter="province" type="checkbox" value="Yukon"><span class="cb-text">Yukon</span></label>
+                        </div>
+                    </fieldset>
+                </details>
+                <details class="wp-filter-group">
+                    <summary class="wp-filter-group-toggle">
+                        <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Date last seen or date of discovery</span>
+                    </summary>
+                    <fieldset>
+                        <legend class="wb-inv">Date last seen or date of discovery</legend>
+
+                        <div>
+                            <p class="small">Missing persons or unidentified remains only</p>
+                        </div>
+                        <label class="re-select-label" for="dt_mindate">From</label><input data-column="0" class="re-input-text" id="dt_mindate" name="dt_mindate" type="text">
+                        <label class="re-select-label mrgn-tp-md" for="dt_maxdate">To</label><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text">
+                    </fieldset>
+                </details>
+                <details class="wp-filter-group">
+                    <summary class="wp-filter-group-toggle">
+                        <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Age now</span>
+                    </summary>
+                    <fieldset>
+                        <legend class="wb-inv">Age now</legend>
+
+                        <div>
+                            <p class="small">Missing persons or unidentified remains only</p>
+                        </div>
+                        <label class="re-select-label" for="dt_mindate">From</label><input data-column="0" class="re-input-text" id="dt_mindate" name="dt_mindate" type="text">
+                        <label class="re-select-label mrgn-tp-md" for="dt_maxdate">To</label><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text">
+                    </fieldset>
+                </details>
+                <details class="wp-filter-group">
+                    <summary class="wp-filter-group-toggle">
+                        <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Appearance</span>
+                    </summary>
+
+                    <div class="re-select-group">
+                        <label class="re-select-label" for="re-select-appearance-gender">Gender</label>
+                        <select class="re-select" id="re-select-appearance-gender" data-filter="appearance-gender">
+                            <option value="">All</option>
+                            <option value="Female">Female</option>
+                            <option value="Male">Male</option>
+                            <option value="Other">Other</option>
+                            <option value="Unknown">Unknown</option>
+                        </select>
                     </div>
 
-                    <div class="checkbox">
-                        <label><input data-filter="statusType" type="checkbox" value="Missing child"><span class="cb-text">Missing child</span></label>
+                    <div class="re-select-group">
+                        <label class="re-select-label" for="re-select-appearance-biogroup">Bio group</label>
+                        <select class="re-select" id="re-select-appearance-biogroup" data-filter="appearance-biogroup">
+                            <option value="">All</option>
+                            <option value="Asian">Asian</option>
+                            <option value="Black">Black</option>
+                            <option value="East Indian">East Indian</option>
+                            <option value="Indigenous">Indigenous</option>
+                            <option value="Other">Other</option>
+                            <option value="Unknown">Unknown</option>
+                            <option value="White">White</option>
+                        </select>
                     </div>
 
-                    <div class="checkbox">
-                        <label><input data-filter="statusType" type="checkbox" value="Unidentified remains"><span class="cb-text">Unidentified remains</span></label>
-                    </div>
-                </fieldset>
-            </details>
-            <details class="wp-filter-group">
-                <summary class="wp-filter-group-toggle">
-                    <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span aria-level="3" class="wp-filter-summary-label" role="heading">Province or territory</span>
-                </summary>
-                <fieldset>
-                    <legend class="wb-inv">Province or territory</legend>
-
-                    <div class="checkbox">
-                        <label><input data-filter="province" type="checkbox" value="Alberta"><span class="cb-text">Alberta</span></label>
+                    <div class="re-select-group">
+                        <label class="re-select-label" for="re-select-appearance-eye-colour">Eye colour</label>
+                        <select class="re-select" id="re-select-appearance-eye-colour" data-filter="appearance-eye-colour">
+                            <option value="">All</option>
+                            <option value="Black">Black</option>
+                            <option value="Blue">Blue</option>
+                            <option value="Brown">Brown</option>
+                            <option value="Green">Green</option>
+                            <option value="Grey">Grey</option>
+                            <option value="Hazel">Hazel</option>
+                        </select>
                     </div>
 
-                    <div class="checkbox">
-                        <label><input data-filter="province" type="checkbox" value="British Columbia"><span class="cb-text">British Columbia</span></label>
+                    <div class="re-select-group">
+                        <label class="re-select-label" for="re-select-appearance-appearance-hair-colour">Hair colour</label>
+                        <select class="re-select" id="re-select-appearance-appearance-hair-colour" data-filter="appearance-appearance-hair-colour">
+                            <option value="">All</option>
+                            <option value="Auburn">Auburn</option>
+                            <option value="Bald">Bald</option>
+                            <option value="Black">Black</option>
+                            <option value="Blonde">Blonde</option>
+                            <option value="Brown">Brown</option>
+                            <option value="Grey">Grey</option>
+                            <option value="Red">Red</option>
+                            <option value="White">White</option>
+                        </select>
                     </div>
-
-                    <div class="checkbox">
-                        <label><input data-filter="province" type="checkbox" value="Manitoba"><span class="cb-text">Manitoba</span></label>
-                    </div>
-
-                    <div class="checkbox">
-                        <label><input data-filter="province" type="checkbox" value="New Brunswick"><span class="cb-text">New Brunswick</span></label>
-                    </div>
-
-                    <div class="checkbox">
-                        <label><input data-filter="province" type="checkbox" value="Newfoundland and Labrador"><span class="cb-text">Newfoundland and Labrador</span></label>
-                    </div>
-
-                    <div class="checkbox">
-                        <label><input data-filter="province" type="checkbox" value="Northwest Territories"><span class="cb-text">Northwest Territories</span></label>
-                    </div>
-
-                    <div class="checkbox">
-                        <label><input data-filter="province" type="checkbox" value="Nova Scotia"><span class="cb-text">Nova Scotia</span></label>
-                    </div>
-
-                    <div class="checkbox">
-                        <label><input data-filter="province" type="checkbox" value="Nunavut"><span class="cb-text">Nunavut</span></label>
-                    </div>
-
-                    <div class="checkbox">
-                        <label><input data-filter="province" type="checkbox" value="Ontario"><span class="cb-text">Ontario</span></label>
-                    </div>
-
-                    <div class="checkbox">
-                        <label><input data-filter="province" type="checkbox" value="Prince Edward Island"><span class="cb-text">Prince Edward Island</span></label>
-                    </div>
-
-                    <div class="checkbox">
-                        <label><input data-filter="province" type="checkbox" value="Quebec"><span class="cb-text">Quebec</span></label>
-                    </div>
-
-                    <div class="checkbox">
-                        <label><input data-filter="province" type="checkbox" value="Saskatchewan"><span class="cb-text">Saskatchewan</span></label>
-                    </div>
-
-                    <div class="checkbox">
-                        <label><input data-filter="province" type="checkbox" value="Yukon"><span class="cb-text">Yukon</span></label>
-                    </div>
-                </fieldset>
-            </details>
-            <details class="wp-filter-group">
-                <summary class="wp-filter-group-toggle">
-                    <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Date last seen or date of discovery</span>
-                </summary>
-                <fieldset>
-                    <legend class="wb-inv">Date last seen or date of discovery</legend>
-
-                    <div>
-                        <p class="small">Missing persons or unidentified remains only</p>
-                    </div>
-                    <label class="re-select-label" for="dt_mindate">From</label><input data-column="0" class="re-input-text" id="dt_mindate" name="dt_mindate" type="text">
-                    <label class="re-select-label mrgn-tp-md" for="dt_maxdate">To</label><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text">
-                </fieldset>
-            </details>
-
-            <details class="wp-filter-group">
-                <summary class="wp-filter-group-toggle">
-                    <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Age now</span>
-                </summary>
-                <fieldset>
-                    <legend class="wb-inv">Age now</legend>
-
-                    <div>
-                        <p class="small">Missing persons or unidentified remains only</p>
-                    </div>
-                    <label class="re-select-label" for="dt_mindate">From</label><input data-column="0" class="re-input-text" id="dt_mindate" name="dt_mindate" type="text">
-                    <label class="re-select-label mrgn-tp-md" for="dt_maxdate">To</label><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text">
-                </fieldset>
-            </details>
-            <details class="wp-filter-group">
-                <summary class="wp-filter-group-toggle">
-                    <i aria-hidden="true" class="fa-solid fa-chevron-down wp-filter-chevron"></i><span class="wp-filter-summary-label">Appearance</span>
-                </summary>
-
-                <div class="re-select-group">
-                    <label class="re-select-label" for="re-select-appearance-gender">Gender</label>
-                    <select class="re-select" id="re-select-appearance-gender" data-filter="appearance-gender">
-                        <option value="">All</option>
-                        <option value="Female">Female</option>
-                        <option value="Male">Male</option>
-                        <option value="Other">Other</option>
-                        <option value="Unknown">Unknown</option>
-                    </select>
-                </div>
-
-                <div class="re-select-group">
-                    <label class="re-select-label" for="re-select-appearance-biogroup">Bio group</label>
-                    <select class="re-select" id="re-select-appearance-biogroup" data-filter="appearance-biogroup">
-                        <option value="">All</option>
-                        <option value="Asian">Asian</option>
-                        <option value="Black">Black</option>
-                        <option value="East Indian">East Indian</option>
-                        <option value="Indigenous">Indigenous</option>
-                        <option value="Other">Other</option>
-                        <option value="Unknown">Unknown</option>
-                        <option value="White">White</option>
-                    </select>
-                </div>
-
-                <div class="re-select-group">
-                    <label class="re-select-label" for="re-select-appearance-eye-colour">Eye colour</label>
-                    <select class="re-select" id="re-select-appearance-eye-colour" data-filter="appearance-eye-colour">
-                        <option value="">All</option>
-                        <option value="Black">Black</option>
-                        <option value="Blue">Blue</option>
-                        <option value="Brown">Brown</option>
-                        <option value="Green">Green</option>
-                        <option value="Grey">Grey</option>
-                        <option value="Hazel">Hazel</option>
-                    </select>
-                </div>
-
-                <div class="re-select-group">
-                    <label class="re-select-label" for="re-select-appearance-appearance-hair-colour">Hair colour</label>
-                    <select class="re-select" id="re-select-appearance-appearance-hair-colour" data-filter="appearance-appearance-hair-colour">
-                        <option value="">All</option>
-                        <option value="Auburn">Auburn</option>
-                        <option value="Bald">Bald</option>
-                        <option value="Black">Black</option>
-                        <option value="Blonde">Blonde</option>
-                        <option value="Brown">Brown</option>
-                        <option value="Grey">Grey</option>
-                        <option value="Red">Red</option>
-                        <option value="White">White</option>
-                    </select>
-                </div>
-            </details>
-
-            <div class="re-select-group">
-                <label class="re-select-label" for="re-select-jobType">Type of job</label>
-                <select class="re-select" id="re-select-jobType" data-filter="jobType">
-                    <option value="">All job types</option>
-                    <option value="Community constable">Community constable</option>
-                    <option value="Police officer">Police officer</option>
-                    <option value="Telecommunications operator">Telecommunications operator (9-1-1 dispatcher)</option>
-                </select>
-            </div>
-
-            <div class="re-select-group">
-                <label class="re-select-label" for="re-select-format">Event format</label>
-                <select class="re-select" id="re-select-format" data-filter="format">
-                    <option value="">All formats</option>
-                    <option value="In person">In person</option>
-                    <option value="Virtual">Virtual</option>
-                </select>
-            </div>
-
-            <div class="re-select-group">
-                <label class="re-select-label" for="re-select-language">Language of the event</label>
-                <select class="re-select" id="re-select-language" data-filter="language">
-                    <option value="">All languages</option>
-                    <option value="English">English</option>
-                    <option value="French">French</option>
-                    <option value="English and French">English and French</option>
-                </select>
-            </div>
-            <button class="btn btn-default btn-block mrgn-tp-md" id="re-clear-filters" type="button">Clear filters</button>
-        </aside>
-    </div>
-
+                </details>
+                <button class="btn btn-default btn-block mrgn-tp-md" id="re-clear-filters" type="button">Clear filters</button>
+            </aside>
+        </div>
 
         <div class="col-md-9 col-sm-8" id="re-results-col">
-        
+
             <div aria-label="Active filters" aria-live="polite" id="re-active-filters" role="status" style="display:none;"></div>
-        
+
             <div id="re-toolbar">
                 <p aria-live="polite" id="re-count"><strong id="re-count-num">0</strong>&nbsp;<span id="re-count-text">events found</span></p>
             </div>
             <ul aria-label="Recruiting events" class="list-unstyled" id="re-grid"></ul>
             <p id="re-no-results" style="display:none;">No events match your current filters.</p>
-        
+
             <nav aria-label="Pagination" class="rcmp-item-pagination" id="re-pagination">
-        
+
                 <div class="rcmp-item-pagination__prev" id="re-prev-wrap">
                     <button aria-label="Previous page" class="rcmp-item-pagination__link" id="re-prev" type="button"><i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-left"></i> <span class="rcmp-item-pagination__link-title">Previous <span class="rcmp-visually-hidden">page</span></span></button>
                 </div>
                 <ul class="rcmp-item-pagination__list" id="re-page-list"></ul>
-        
+
                 <div class="rcmp-item-pagination__next" id="re-next-wrap">
                     <button aria-label="Next page" class="rcmp-item-pagination__link" id="re-next" type="button"><span class="rcmp-item-pagination__link-title">Next <span class="rcmp-visually-hidden">page</span></span> <i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-right"></i></button>
                 </div>
             </nav>
-        </div>
-
             <article class="result-card">
 
                 <div class="result-header">Missing person</div>

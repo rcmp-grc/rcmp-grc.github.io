@@ -332,8 +332,15 @@ lang_url: missing-search-rechearce-fr.html
     }
 
     .result-card {
+        position: relative;
         border: 1px solid var(--rcmp-red);
         background: var(--rcmp-white);
+        margin: 0 0 16px;
+        overflow: hidden;
+        width: 100%;
+        max-width: none;
+        box-sizing: border-box;
+        display: block;
     }
 
     .result-header {
@@ -625,11 +632,13 @@ lang_url: missing-search-rechearce-fr.html
             </nav>
             <article class="result-card">
 
-                <div class="result-header">Missing person</div>
+                
 
                 <div class="result-body">
+                
 
                     <div class="result-image">
+                    <div class="result-header">Missing person</div>
                         <img src="https://via.placeholder.com/220x170" alt="">
                     </div>
 

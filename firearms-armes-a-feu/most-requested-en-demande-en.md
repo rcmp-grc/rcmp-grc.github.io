@@ -44,8 +44,8 @@ issued: 2026-11-23
             <li>Carrier licences anywhere within Canada or across Canadian borders</li>
             <li>First-time only approvals for shooting ranges or clubs</li>
         </ul>
-    </ul> 
-  </div>
+    </li>
+   </ul>
   </div> 
  </div> 
 </section>

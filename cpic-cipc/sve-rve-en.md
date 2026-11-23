@@ -18,7 +18,7 @@ custom_css: /assets/css/careers.css
 <style>
   .result-card {
   position: relative;
-  border: 1px solid var(--c-grey-border);
+  border: 1px solid var(--c-white);
   background: var(--c-white);
   margin: 0 0 16px;
   overflow: hidden;
@@ -160,7 +160,7 @@ margin: 18px 12px;
 <div class="result-card"><div class="result-body">
 	<dl>
         <dt><strong>As of November 23, 2026</strong></dt>
-		<dd>No records were found matching 54503788vin.</dd>
+		<dd>No records were found matching XXX000000.</dd>
 	</dl></div></div>
 </div>
 <div class="clearfix"></div>

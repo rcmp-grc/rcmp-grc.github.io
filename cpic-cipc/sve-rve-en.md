@@ -150,9 +150,9 @@ margin: 18px 12px;
 <label class="checkbox-row required mrgn-lft-md" for="agree"><input id="agree" name="agree" type="checkbox" required> <span class="field-name"><strong>I agree to the terms and conditions</strong></span> <strong class="required" aria-hidden="true">(required)</strong></label>
 </fieldset>
 </div>
-<div class="form-inline">	
-<input type="submit" value="Submit" class="btn btn-danger mrgn-lft-md mrgn-bttm-lg"> <input type="reset" value="Reset page to defaults" class="btn btn-link btn-sm show p-0 mrgn-lft-md mrgn-bttm-lg">	
-</div>
+<ul class="list-inline lst-spcd">	
+<li><input type="search" value="Search" class="btn btn-danger mrgn-lft-md mrgn-bttm-lg"></li> <li><input type="reset" value="Reset page to defaults" class="btn btn-link btn-sm show p-0 mrgn-lft-md mrgn-bttm-lg"></li>
+</ul>
 </div></form></div></div></div>
 <div class="result-card"><div class="result-body">
 	<dl>

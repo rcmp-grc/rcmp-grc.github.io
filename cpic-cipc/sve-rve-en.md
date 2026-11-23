@@ -31,10 +31,6 @@ display: block;
 border-bottom: 2px solid #26374a;
 margin-bottom: 15px;  
 }
-.result-body {
-  padding: 0;
-  border-bottom: 3px solid var(--rcmp-red);
-}
  #result-filters {
  border: 1px solid var(--c-grey-border);	
  padding: 0;
@@ -127,7 +123,8 @@ margin: 18px 12px;
 }
 </style>
 <p>You can search for autos, trucks, vans, sport utility vehicles (SUVs), motorcycles, snowmobiles, farm vehicles, heavy equipment, trailers, or all-terrain vehicles (ATVs). Please enter a valid Vehicle Identification Number (VIN) that contains only letters and numbers without spaces or other special characters.</p>
-<div class="form-body">
+<div class="panel panel-default">
+  <div class="panel-body">
 <div class="wb-frmvld">
 <form id="queryVehicles" name="queryVehicles" method="get" action="#">
 <div id="re-filters">
@@ -150,9 +147,10 @@ margin: 18px 12px;
 <label class="checkbox-row required mrgn-lft-md" for="agree"><input id="agree" name="agree" type="checkbox" required> <span class="field-name"><strong>I agree to the terms and conditions</strong></span> <strong class="required" aria-hidden="true">(required)</strong></label>
 </fieldset>
 </div>
+<footer class="panel-footer">
 <ul class="list-inline lst-spcd">	
 <li><button type="submit" value="Search" class="btn btn-danger mrgn-lft-md mrgn-bttm-sm">Search</button></li> <li><input type="reset" value="Reset page to defaults" class="btn btn-link show p-0 mrgn-lft-md mrgn-bttm-sm"></li>
-</ul>
+</ul></footer>
 </div></form></div></div>
 <p><strong>As of November 23, 2026</strong>, no records were found matching XXX000000.</p>
 <p><strong>As of November 23, 2026</strong>, 1 record was found matching XXX00000000. Please contact your <a href="https://rcmp.ca/en/corporate-information/rcmp-locations">local police</a> to confirm the information and ask for assistance. </p>

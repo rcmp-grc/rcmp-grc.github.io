@@ -80,12 +80,8 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
         <p>Information about the procedures and regulations for importing and exporting firearms, ammunition and list of licensed carriers.</p>
       </div>
       <div class="col-md-6">
-        <h3><a href="#">Buying and selling (transferring) firearms</a></h3>
-        <p>Information about the requirements for buying, selling and transferring firearms.</p>
-      </div>
-      <div class="col-md-6">
-        <h3><a href="#">Transfer of firearms from estates</a></h3>
-        <p>Information for executors of estates and beneficiaries of firearms, including the legal procedures involved.</p>
+        <h3><a href="#">Buying and selling firearms and transfers from estates</a></h3>
+        <p>Information about the requirements for buying, selling and transferring firearms and for executors of estates and beneficiaries of firearms, including the legal procedures involved.</p>
       </div>
       <div class="col-md-6">
         <h3><a href="#">Classes of firearms</a></h3>
@@ -95,10 +91,6 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
         <h3><a href="#">Firearms forms and reports</a></h3>
         <p>Firearms forms for individuals, businesses and police and public agencies.</p>
       </div>
-      <div class="col-md-6">
-        <h3><a href="#">Firearms news</a></h3>
-        <p>Read news stories and updates about Firearms changes.</p>
-      </div>
     </div>
   </section>
 </div>
@@ -106,7 +98,7 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
 <div class="col-md-4">
 <section class="wb-feeds limit-3">
 <header class="panel-heading">
-	<h2 class="h5 panel-title mrgn-tp-sm">News and Communications</h2>
+	<h2 class="h5 panel-title mrgn-tp-sm">News and communications</h2>
 </header>
     <div class="panel-body">
         <ul class="feeds-cont list-unstyled lst-spcd">

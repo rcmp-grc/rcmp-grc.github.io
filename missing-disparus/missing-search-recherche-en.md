@@ -614,10 +614,10 @@ lang_url: missing-search-rechearce-fr.html
             <div aria-label="Active filters" aria-live="polite" id="re-active-filters" role="status" style="display:none;"></div>
 
             <div id="re-toolbar">
-                <p aria-live="polite" id="re-count"><strong id="re-count-num">0</strong>&nbsp;<span id="re-count-text">events found</span></p>
+                <p aria-live="polite" id="re-count"><strong id="re-count-num">0</strong>&nbsp;<span id="re-count-text">cases found</span></p>
             </div>
-            <ul aria-label="Recruiting events" class="list-unstyled" id="re-grid"></ul>
-            <p id="re-no-results" style="display:none;">No events match your current filters.</p>
+            <ul aria-label="Cases" class="list-unstyled" id="re-grid"></ul>
+            <p id="re-no-results" style="display:none;">No cases match your current filters.</p>
 
             <nav aria-label="Pagination" class="rcmp-item-pagination" id="re-pagination">
 

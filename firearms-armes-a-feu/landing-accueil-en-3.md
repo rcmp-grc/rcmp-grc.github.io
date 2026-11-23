@@ -106,7 +106,7 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
 <div class="col-md-4">
 <section class="wb-feeds limit-3">
 <header class="panel-heading">
-	<h2 class="h5 panel-title mrgn-tp-sm">News</h2>
+	<h2 class="h5 panel-title mrgn-tp-sm">News and Communications</h2>
 </header>
     <div class="panel-body">
         <ul class="feeds-cont list-unstyled lst-spcd">

@@ -455,7 +455,7 @@ lang_url: missing-search-rechearce-fr.html
                     </div>
 
                     <div class="checkbox">
-                        <label><input data-filter="statusType" type="checkbox" value="Unidentified remains"><span class="cb-text">Unidentified remains</span< /label>
+                        <label><input data-filter="statusType" type="checkbox" value="Unidentified remains"><span class="cb-text">Unidentified remains</span></label>
                     </div>
                 </fieldset>
             </details>

@@ -124,7 +124,7 @@ margin: 18px 12px;
 </style>
 <p>You can search for autos, trucks, vans, sport utility vehicles (SUVs), motorcycles, snowmobiles, farm vehicles, heavy equipment, trailers, or all-terrain vehicles (ATVs). Please enter a valid Vehicle Identification Number (VIN) that contains only letters and numbers without spaces or other special characters.</p>
 <div class="alert alert-info">
-<p>If you receive a positive result, please contact your local police to confirm the information and ask for assistance.</p>
+<p>If you receive a positive result, please contact your <a href="https://rcmp.ca/en/corporate-information/rcmp-locations">local police</a> to confirm the information and ask for assistance. </p>
 </div>
 <div class="panel panel-default">
   <div class="panel-body">

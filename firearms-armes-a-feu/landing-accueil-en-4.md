@@ -73,21 +73,51 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
 </div>
 
 <div class="col-md-4">
-<section class="wb-feeds limit-3">
-<header class="panel-heading">
-	<h2 class="h5 panel-title mrgn-tp-sm">News and communications</h2>
-</header>
-    <div class="panel-body">
+    <section class="panel panel-default mrgn-tp-lg wb-feeds limit-10">
+        <header class="panel-heading">
+            <h2 class="h5 panel-title mrgn-tp-sm">News and communications</h2>
+        </header>
+        <div class="panel-body">
         <ul class="feeds-cont list-unstyled lst-spcd">
           <li>
             <a href="#"><cite>Firearms Marking Regulations</cite> deferral</a><br>
-            <small class="feeds-date"><time>2025-11-30</time></small>
           </li>
           <li>
             <a href="#">Don't miss important notifications from the Canadian Firearms Program</a><br>
+          </li>
+          <li class="small">
+            <a href="https://www.canada.ca/en/public-safety-canada/campaigns/firearms-buyback.html">Assault-Style Firearms Compensation Program</a>
+            <small class="feeds-date"><time>2026-06-24</time></small>
+          </li>
+          <li class="small">
+            <a href="#"><cite>Firearms Marking Regulations</cite> deferral</a><br>
+            <small class="feeds-date"><time>2025-11-30</time></small>
+          </li>
+          <li class="small">
+            <a href="#">Don't miss important notifications from the Canadian Firearms Program</a><br>
             <small class="feeds-date"><time>2025-11-27</time></small>
           </li>
-          <li>
+          <li class="small">
+            <a href="#">March 7, 2025, firearm prohibition</a><br>
+            <small class="feeds-date"><time>2025-10-17</time></small>
+          </li>
+          <li class="small">
+            <a href="#">March 7, 2025, firearm prohibition</a><br>
+            <small class="feeds-date"><time>2025-10-17</time></small>
+          </li>
+          <li class="small">
+            <a href="#"><cite>Firearms Marking Regulations</cite> deferral</a><br>
+            <small class="feeds-date"><time>2025-11-30</time></small>
+          </li>
+          <li class="small">
+            <a href="#">Don't miss important notifications from the Canadian Firearms Program</a><br>
+            <small class="feeds-date"><time>2025-11-27</time></small>
+          </li>
+          <li class="small">
+            <a href="#">March 7, 2025, firearm prohibition</a><br>
+            <small class="feeds-date"><time>2025-10-17</time></small>
+          </li>
+          <li class="small">
             <a href="#">March 7, 2025, firearm prohibition</a><br>
             <small class="feeds-date"><time>2025-10-17</time></small>
           </li>
@@ -97,22 +127,6 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
       </section>
     </div>
 </div>
-</div>
-
-<div class="well well-sm brdr-0 mrgn-bttm-md">
-  <div class="container">
-    <section>
-      <h2>Contact us</h2>
-      <ul class="wb-eqht list-unstyled mrgn-tp-lg lst-spcd-2 colcount-md-2 bold-content">
-        <li>
-          <a href="#">Canadian Firearms Program</a>
-        </li>
-        <li>
-          <a href="#">Chief Firearms Officers</a>
-        </li>
-      </ul>
-    </section>
-  </div>
 </div>
 
 <div class="container">

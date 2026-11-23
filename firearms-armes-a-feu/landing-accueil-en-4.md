@@ -86,7 +86,7 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
             <a href="#">Don't miss important notifications from the Canadian Firearms Program</a><br>
           </li>
           <li class="small">
-            <a href="https://www.canada.ca/en/public-safety-canada/campaigns/firearms-buyback.html">Assault-Style Firearms Compensation Program</a>
+            <a href="https://www.canada.ca/en/public-safety-canada/campaigns/firearms-buyback.html">Assault-Style Firearms Compensation Program</a><br>
             <small class="feeds-date"><time>2026-06-24</time></small>
           </li>
           <li class="small">

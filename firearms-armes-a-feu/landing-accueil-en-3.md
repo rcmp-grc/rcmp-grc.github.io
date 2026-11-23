@@ -95,9 +95,8 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
   </section>
 </div>
 
-
 <div class="col-md-4">
-    <section class="panel panel-default mrgn-tp-lg wb-feeds limit-10">
+    <section class="panel panel-default wb-feeds limit-10">
         <header class="panel-heading">
             <h2 class="h5 panel-title mrgn-tp-sm">News and communications</h2>
         </header>

@@ -1,7 +1,7 @@
 ---
 layout: super_landing
 title: Firearms
-date_modified: 2026-09-08
+date_modified: 2026-11-23
 lang: en
 lang_url: index-fr.html
 issued: 2026-05-05
@@ -131,7 +131,7 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
                 </div>
                 <div class="col-md-4">
                     <div class="well well-sm brdr-rds-0 eqht-trgt position-relative">
-                        <img alt="" src="feature-2-360x203.png">
+                        <img alt="" src="feature-1a-360x203.png">
                         <h3><a class="stretched-link"
                                 href="https://publications.gc.ca/site/eng/9.801815/publication.html">Firearms safety
                                 courses</a></h3>

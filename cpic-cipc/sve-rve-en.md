@@ -151,9 +151,9 @@ margin: 18px 12px;
 </fieldset>
 </div>
 <ul class="list-inline lst-spcd">	
-<li><button type="search" value="Search" class="btn btn-danger mrgn-lft-md mrgn-bttm-lg"></button></li> <li><input type="reset" value="Reset page to defaults" class="btn btn-link show p-0 mrgn-lft-md mrgn-bttm-lg"></li>
+<li><button type="submit" value="Search" class="btn btn-danger mrgn-lft-md mrgn-bttm-lg">Search</button></li> <li><input type="reset" value="Reset page to defaults" class="btn btn-link show p-0 mrgn-lft-md mrgn-bttm-lg"></li>
 </ul>
 </div></form></div></div></div>
 <div class="result-card"><div class="result-body">
 	<p><strong>As of November 23, 2026</strong>, no records were found matching XXX000000.</p>
-	</dl></div></div>
+</div></div>

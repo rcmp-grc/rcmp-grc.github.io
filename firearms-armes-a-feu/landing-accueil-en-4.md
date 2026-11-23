@@ -87,39 +87,39 @@ intro: <p>In accordance with the <cite>Firearms Act</cite>, the Canadian Firearm
           </li>
           <li class="small">
             <a href="https://www.canada.ca/en/public-safety-canada/campaigns/firearms-buyback.html">Assault-Style Firearms Compensation Program</a><br>
-            <small class="feeds-date"><time>2026-06-24</time></small>
+            <small class="feeds-date"><time>2026-11-23</time></small>
           </li>
           <li class="small">
             <a href="#"><cite>Firearms Marking Regulations</cite> deferral</a><br>
-            <small class="feeds-date"><time>2025-11-30</time></small>
+            <small class="feeds-date"><time>2026-10-23</time></small>
           </li>
           <li class="small">
             <a href="#">Don't miss important notifications from the Canadian Firearms Program</a><br>
-            <small class="feeds-date"><time>2025-11-27</time></small>
+            <small class="feeds-date"><time>2026-09-23</time></small>
           </li>
           <li class="small">
             <a href="#">March 7, 2025, firearm prohibition</a><br>
-            <small class="feeds-date"><time>2025-10-17</time></small>
+            <small class="feeds-date"><time>2026-08-23</time></small>
           </li>
           <li class="small">
             <a href="#">March 7, 2025, firearm prohibition</a><br>
-            <small class="feeds-date"><time>2025-10-17</time></small>
+            <small class="feeds-date"><time>2026-07-23</time></small>
           </li>
           <li class="small">
             <a href="#"><cite>Firearms Marking Regulations</cite> deferral</a><br>
-            <small class="feeds-date"><time>2025-11-30</time></small>
+            <small class="feeds-date"><time>2026-06-23</time></small>
           </li>
           <li class="small">
             <a href="#">Don't miss important notifications from the Canadian Firearms Program</a><br>
-            <small class="feeds-date"><time>2025-11-27</time></small>
+            <small class="feeds-date"><time>2026-05-23</time></small>
           </li>
           <li class="small">
             <a href="#">March 7, 2025, firearm prohibition</a><br>
-            <small class="feeds-date"><time>2025-10-17</time></small>
+            <small class="feeds-date"><time>2026-04-23</time></small>
           </li>
           <li class="small">
             <a href="#">March 7, 2025, firearm prohibition</a><br>
-            <small class="feeds-date"><time>2025-10-17</time></small>
+            <small class="feeds-date"><time>2026-03-23</time></small>
           </li>
         </ul>
         <p>More: <a href="#">Firearms news</a></p>

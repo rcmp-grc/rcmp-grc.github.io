@@ -95,7 +95,6 @@ font-size: 1.2em;
 margin: 18px 12px;	   
 }
 </style>
-<div class="col-md-12">
 <p>You can search for autos, trucks, vans, sport utility vehicles (SUVs), motorcycles, snowmobiles, farm vehicles, heavy equipment, trailers, or all-terrain vehicles (ATVs). Please enter a valid Vehicle Identification Number (VIN) that contains only letters and numbers without spaces or other special characters.</p>
 <div class="panel panel-default">
   <div class="panel-body">
@@ -119,13 +118,12 @@ margin: 18px 12px;
 <p>Transactions resulting from this search may be shared with law enforcement agencies upon request.</p>
 <p>To continue with your inquiry, you must agree to and accept these terms and conditions of use.</p></div>		
 <label class="checkbox-row required mrgn-lft-md" for="agree"><input id="agree" name="agree" type="checkbox" required> <span class="field-name"><strong>I agree to the terms and conditions</strong></span> <strong class="required" aria-hidden="true">(required)</strong></label>
-</fieldset>
-</div>
-<footer class="panel-footer">
+</fieldset></div>
 <ul class="list-inline lst-spcd">	
 <li><button type="submit" value="Search" class="btn btn-danger mrgn-bttm-sm">Search</button></li> <li><input type="reset" value="Reset page to defaults" class="btn btn-link show p-0 mrgn-lft-md mrgn-bttm-sm"></li>
-</ul></footer>
-</div></form></div></div></div>
+</ul> 
+</div></form></div>
+<footer class="panel-footer">
 <p><strong>As of November 23, 2026</strong>, no records were found matching XXX000000.</p>
-<p><strong>As of November 23, 2026</strong>, 1 record was found matching XXX00000000. Please contact your <a href="https://rcmp.ca/en/corporate-information/rcmp-locations">local police</a> to confirm the information and ask for assistance. </p>
-</div>
+<p><strong>As of November 23, 2026</strong>, 1 record was found matching XXX00000000. Please contact your <a href="https://rcmp.ca/en/corporate-information/rcmp-locations">local police</a> to confirm the information and ask for assistance. </p></footer>
+</div></div>  

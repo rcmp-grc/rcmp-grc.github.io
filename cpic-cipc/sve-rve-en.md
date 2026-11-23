@@ -27,8 +27,8 @@ max-width: none;
 box-sizing: border-box;
 display: block;
 }
-.fa-jelly-fill {
-color: solid #26374a;
+.form-body {
+border-bottom: 1px solid #26374a;
 }
 .result-body {
   padding: 0;
@@ -129,7 +129,7 @@ margin: 18px 12px;
 <div class="alert alert-info">
 <p>If you receive a positive result, please contact your <a href="https://rcmp.ca/en/corporate-information/rcmp-locations">local police</a> to confirm the information and ask for assistance. </p>
 </div>
-<div class="panel panel-default">
+<div class="form-body">
   <div class="panel-body">
 <div class="wb-frmvld">
 <form id="queryVehicles" name="queryVehicles" method="get" action="#">
@@ -157,6 +157,6 @@ margin: 18px 12px;
 <li><button type="submit" value="Search" class="btn btn-danger mrgn-lft-md mrgn-bttm-lg">Search</button></li> <li><input type="reset" value="Reset page to defaults" class="btn btn-link show p-0 mrgn-lft-md mrgn-bttm-lg"></li>
 </ul>
 </div></form></div></div></div>
-<div class="result-card">
-	<p><i class="fa-jelly-fill fa-regular fa-square"></i>&nbsp;<strong>As of November 23, 2026</strong>, no records were found matching XXX000000.</p>
-</div>
+
+	<p>strong>As of November 23, 2026</strong>, no records were found matching XXX000000.</p>
+

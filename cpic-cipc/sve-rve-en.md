@@ -149,7 +149,7 @@ margin: 18px 12px;
 </div>
 <footer class="panel-footer">
 <ul class="list-inline lst-spcd">	
-<li><button type="submit" value="Search" class="btn btn-danger mrgn-lft-md mrgn-bttm-sm">Search</button></li> <li><input type="reset" value="Reset page to defaults" class="btn btn-link show p-0 mrgn-lft-md mrgn-bttm-sm"></li>
+<li><button type="submit" value="Search" class="btn btn-danger mrgn-bttm-sm">Search</button></li> <li><input type="reset" value="Reset page to defaults" class="btn btn-link show p-0 mrgn-lft-md mrgn-bttm-sm"></li>
 </ul></footer>
 </div></form></div></div></div>
 <p><strong>As of November 23, 2026</strong>, no records were found matching XXX000000.</p>

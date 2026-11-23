@@ -29,7 +29,7 @@ custom_css: /assets/css/careers.css
 }
 .result-body {
   padding: 16px 16px 0px 16px;
-  border-top: 3px solid var(--rcmp-red);
+  border-bottom: 3px solid var(--rcmp-red);
 }
  #result-filters {
  border: 1px solid var(--c-grey-border);	

@@ -122,6 +122,6 @@ margin: 18px 12px;
 </ul> 
 </div></form></div>
 <footer class="panel-footer mrgn-lft-sm">
-<p><strong>As of November 23, 2026</strong>, no records were found matching XXX000000.</p>
-<p><strong>As of November 23, 2026</strong>, 1 record was found matching XXX00000000. Please contact your <a href="https://rcmp.ca/en/corporate-information/rcmp-locations">local police</a> to confirm the information and ask for assistance. </p></footer>
+<p><strong>No records</strong> were found matching <strong>XXX000000</strong> as of November 23, 2026.</p>
+<p><strong>1 record</strong> was found matching <strong>XXX00000000</strong> as of November 23, 2026.</p> <p>Please contact your <a href="https://rcmp.ca/en/corporate-information/rcmp-locations">local police</a> to confirm the information and ask for assistance. </p></footer>
 </div></div>  

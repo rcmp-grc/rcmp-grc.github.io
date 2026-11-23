@@ -28,6 +28,7 @@ box-sizing: border-box;
 display: block;
 }
 .form-body {
+border-top: 1px solid #26374a;	
 border-bottom: 1px solid #26374a;
 }
 .result-body {
@@ -130,7 +131,6 @@ margin: 18px 12px;
 <p>If you receive a positive result, please contact your <a href="https://rcmp.ca/en/corporate-information/rcmp-locations">local police</a> to confirm the information and ask for assistance. </p>
 </div>
 <div class="form-body">
-  <div class="panel-body">
 <div class="wb-frmvld">
 <form id="queryVehicles" name="queryVehicles" method="get" action="#">
 <div id="re-filters">
@@ -156,6 +156,6 @@ margin: 18px 12px;
 <ul class="list-inline lst-spcd">	
 <li><button type="submit" value="Search" class="btn btn-danger mrgn-lft-md mrgn-bttm-lg">Search</button></li> <li><input type="reset" value="Reset page to defaults" class="btn btn-link show p-0 mrgn-lft-md mrgn-bttm-lg"></li>
 </ul>
-</div></form></div></div></div>
-	<p>strong>As of November 23, 2026</strong>, no records were found matching XXX000000.</p>
+</div></form></div></div>
+<p>strong>As of November 23, 2026</strong>, no records were found matching XXX000000.</p>
 

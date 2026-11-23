@@ -16,16 +16,19 @@ custom_css: /assets/css/careers.css
 ---
 
 <style>
-  .result-card {
-  position: relative;
-  border: 1px solid var(--c-white);
-  background: var(--c-white);
-  margin: 0px;
-  overflow: hidden;
-  width: 100%;
-  max-width: none;
-  box-sizing: border-box;
-  display: block;
+.result-card {
+position: relative;
+border: 1px solid var(--c-white);
+background: var(--c-white);
+margin: 0px;
+overflow: hidden;
+width: 100%;
+max-width: none;
+box-sizing: border-box;
+display: block;
+}
+.fa-jelly-fill {
+color: solid #26374a;
 }
 .result-body {
   padding: 0;
@@ -155,5 +158,5 @@ margin: 18px 12px;
 </ul>
 </div></form></div></div></div>
 <div class="result-card">
-	<p><i class="fa-jelly-fill fa-regular fa-square" style="color: hsl(214, 42%, 27%);"></i>&nbsp;<strong>As of November 23, 2026</strong>, no records were found matching XXX000000.</p>
+	<p><i class="fa-jelly-fill fa-regular fa-square"></i>&nbsp;<strong>As of November 23, 2026</strong>, no records were found matching XXX000000.</p>
 </div>

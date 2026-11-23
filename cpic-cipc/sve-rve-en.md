@@ -20,7 +20,7 @@ custom_css: /assets/css/careers.css
   position: relative;
   border: 1px solid var(--c-white);
   background: var(--c-white);
-  margin: 0 0 16px;
+  margin: 0px;
   overflow: hidden;
   width: 100%;
   max-width: none;
@@ -28,7 +28,7 @@ custom_css: /assets/css/careers.css
   display: block;
 }
 .result-body {
-  padding: 16px 16px 0px 16px;
+  padding: 0;
   border-bottom: 3px solid var(--rcmp-red);
 }
  #result-filters {
@@ -152,6 +152,8 @@ margin: 18px 12px;
 </fieldset>
 </div>
 <button class="btn btn-danger mrgn-lft-md mrgn-bttm-lg" id="search" type="submit">Search</button>
+<p><a href="#" class="btn btn-default">Reset</a></p>
+</ul>	
 </div>
 </form>
 </div>

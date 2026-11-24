@@ -312,7 +312,7 @@ custom_css: /assets/css/careers.css
 			</fieldset>
 		</div></details>
 			<div class="mrgn-tp-lg">
-			<button type="submit" class="btn btn-md btn-danger">Search</button> 
+			<button type="submit" class="btn btn-md btn-danger"><strong>Search</strong></button> 
 			</div>
  </div>
 </div></div><div class="clearfix"></div>

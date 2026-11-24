@@ -420,7 +420,20 @@ lang_url: missing-search-rechearce-fr.html
         text-decoration: underline;
     }
 
+.result-content .dl-horizontal dt {
+    width: 110px;
+    text-align: left;
+    font-weight: 700;
+}
 
+.result-content .dl-horizontal dd {
+    margin-left: 120px;
+}
+
+.result-content .dl-horizontal dd,
+.result-content .dl-horizontal dt {
+    border-bottom: 0;
+}
 
 
 
@@ -695,7 +708,7 @@ lang_url: missing-search-rechearce-fr.html
                         <h3>
                             <a href="#">AINSLIE LAFRAMBOISE, Bonnie Shirley</a>
                         </h3>
-                        <dl class="meta-dl">
+                        <dl class="dl-horizontal">
                         <dt>Born</dt>
                         <dd>October 29, 1942</dd>
                         <dt>Missing since</dt>

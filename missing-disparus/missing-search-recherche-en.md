@@ -347,12 +347,24 @@ lang_url: missing-search-rechearce-fr.html
         display: inline-block;
         background: var(--rcmp-red-dark);
         color: white;
-        font-size: .875rem;
+        font-size: .75rem;
         padding: .35rem 1rem;
         font-weight: 700;
+        top: 0;
+        left: 0;
+        line-height: 1.4;
+        z-index: 3;
+        height: 24px;
+        display: flex;
+        align-items: center;
     }
 
     .result-body {
+        border-top: 3px solid var(--rcmp-red-dark);
+         padding: 16px 16px 20px
+    }
+
+        .result-body-orig {
         display: grid;
         grid-template-columns: 220px 1fr;
         gap: 1rem;
@@ -380,6 +392,8 @@ lang_url: missing-search-rechearce-fr.html
     .result-content h3 {
         margin: 0 0 .75rem;
         font-size: 1.5rem;
+        font-family: inherit;
+        font-weight: 700;
     }
 
     .result-content h3 a {
@@ -388,12 +402,17 @@ lang_url: missing-search-rechearce-fr.html
     }
 
     .meta {
-        list-style: none;
-        padding: 0;
-        margin: 0;
+        margin: 10px 0 0;
     }
 
     .meta li {
+    font-size: 0.88em;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    line-height: 1.4;
+    max-width: none;
         margin-bottom: .5rem;
     }
 
@@ -456,6 +475,10 @@ lang_url: missing-search-rechearce-fr.html
 
                         <div class="checkbox">
                             <label><input data-filter="statusType" type="checkbox" value="Unidentified remains"><span class="cb-text">Unidentified remains</span></label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label><input data-filter="statusType" type="checkbox" value="Associated persons"><span class="cb-text">Associated persons</span></label>
                         </div>
                     </fieldset>
                 </details>
@@ -529,8 +552,8 @@ lang_url: missing-search-rechearce-fr.html
                         <div>
                             <p class="small">Missing persons or unidentified remains only</p>
                         </div>
-                        <label class="re-select-label" for="dt_mindate">From</label><input data-column="0" class="re-input-text" id="dt_mindate" name="dt_mindate" type="text">
-                        <label class="re-select-label mrgn-tp-md" for="dt_maxdate">To</label><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text">
+                        <label class="re-select-label" for="date-occurrence-from">From</label><input data-column="0" class="re-input-text" id="date-occurrence-from" name="date-occurrence-from" type="date">
+                        <label class="re-select-label mrgn-tp-md" for="date-occurrence-to">To</label><input data-column="0" class="re-input-text" id="date-occurrence-to" name="date-occurrence-to" type="date">
                     </fieldset>
                 </details>
                 <details class="wp-filter-group">
@@ -543,8 +566,8 @@ lang_url: missing-search-rechearce-fr.html
                         <div>
                             <p class="small">Missing persons or unidentified remains only</p>
                         </div>
-                        <label class="re-select-label" for="dt_mindate">From</label><input data-column="0" class="re-input-text" id="dt_mindate" name="dt_mindate" type="text">
-                        <label class="re-select-label mrgn-tp-md" for="dt_maxdate">To</label><input data-column="0" class="re-input-text" id="dt_maxdate" name="dt_maxdate" type="text">
+                        <label class="re-select-label" for="age-now-min">Minimum age</label><input data-column="0" class="re-input-text" id="age-now-min" name="age-now-min" type="number" min="0" max="120" inputmode="numeric">
+                        <label class="re-select-label mrgn-tp-md" for="age-now-max">Maximum age</label><input data-column="0" class="re-input-text" id="age-now-max" name="age-now-max" type="number" min="0" max="120" inputmode="numeric">
                     </fieldset>
                 </details>
                 <details class="wp-filter-group">
@@ -616,8 +639,39 @@ lang_url: missing-search-rechearce-fr.html
             <div id="re-toolbar">
                 <p aria-live="polite" id="re-count"><strong id="re-count-num">0</strong>&nbsp;<span id="re-count-text">cases found</span></p>
             </div>
-            <ul aria-label="Cases" class="list-unstyled" id="re-grid"></ul>
-            <p id="re-no-results" style="display:none;">No cases match your current filters.</p>
+            <ul aria-label="Cases" class="list-unstyled" id="re-grid">
+            <li class="result-card">
+            <span class="result-header">Missing person</span>
+            <div class="result-body">
+
+                    <div class="result-image">
+                        <img src="https://via.placeholder.com/220x170" alt="">
+                    </div>
+
+                    <div class="result-content">
+                        <h3>
+                            <a href="#">AINSLIE LAFRAMBOISE, Bonnie Shirley</a>
+                        </h3>
+                        <dl class="meta dl-horizontal">
+                        <dt>Born</dt>
+                        <dd>October 29, 1942</dd>
+                        <dt>Missing since</dt>
+                        <dd>November 4, 1995</dd>
+                        <dt>Missing from</dt>
+                        <dd>Kuuchisinivamiskahikan, QC</dd>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+
+        
+            
+            
+            
+            </ul>
+
+
+                    <p id="re-no-results" style="display:none;">No cases match your current filters.</p>
 
             <nav aria-label="Pagination" class="rcmp-item-pagination" id="re-pagination">
 
@@ -630,71 +684,6 @@ lang_url: missing-search-rechearce-fr.html
                     <button aria-label="Next page" class="rcmp-item-pagination__link" id="re-next" type="button"><span class="rcmp-item-pagination__link-title">Next <span class="rcmp-visually-hidden">page</span></span> <i aria-hidden="true" class="rcmp-item-pagination__icon fa-solid fa-chevron-right"></i></button>
                 </div>
             </nav>
-            <article class="result-card">
-
-                <div class="result-header">Missing person</div>
-
-                <div class="result-body">
-
-                    <div class="result-image">
-                        <img src="https://via.placeholder.com/220x170" alt="">
-                    </div>
-
-                    <div class="result-content">
-                        <h3>
-                            <a href="#">AINSLIE LAFRAMBOISE, Bonnie Shirley</a>
-                        </h3>
-                        <ul class="meta">
-                            <li><strong>Born</strong> October 29, 1942</li>
-                            <li><strong>Missing since</strong> November 4, 1995</li>
-                            <li><strong>Missing from</strong> Kuuchisinivamiskahikan, QC</li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
-            <article class="result-card">
-
-                <div class="result-header">Missing child</div>
-
-                <div class="result-body">
-
-                    <div class="result-image">
-                        <img src="https://via.placeholder.com/220x170" alt="">
-                    </div>
-
-                    <div class="result-content">
-                        <h3>
-                            <a href="#">KASPRICK, Lori Lee</a>
-                        </h3>
-                        <ul class="meta">
-                            <li><strong>Born</strong> 1961</li>
-                            <li><strong>Missing since</strong> September 1, 1976</li>
-                            <li><strong>Missing from</strong> Mundare, Alberta</li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
-            <article class="result-card">
-
-                <div class="result-header">Unidentified remains</div>
-
-                <div class="result-body">
-
-                    <div class="result-image">
-                        <img src="https://via.placeholder.com/220x170" alt="">
-                    </div>
-
-                    <div class="result-content">
-                        <h3>
-                            <a href="#">Male, 50 to 65</a>
-                        </h3>
-                        <ul class="meta">
-                            <li><strong>Discovered on</strong> May 2, 1980</li>
-                            <li><strong>Discovered at</strong> Mission, British Columbia</li>
-                        </ul>
-                    </div>
-                </div>
-            </article>
         </div>
     </div>
 </div>

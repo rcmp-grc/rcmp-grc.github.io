@@ -16,23 +16,6 @@ custom_css: /assets/css/careers.css
 ---
 
 <style>
-.result-card {
-position: relative;
-border: 1px solid var(--c-white);
-background: var(--c-white);
-margin: 0px;
-overflow: hidden;
-width: 100%;
-max-width: none;
-box-sizing: border-box;
-display: block;
-}
- #result-filters {
- border: 1px solid var(--c-grey-border);	
- padding: 0;
- overflow: hidden;
- width: 100%;
-}
  .result-filters-heading {	
  background: var(--rcmp-grey-lt);
  color: var(--c-black);

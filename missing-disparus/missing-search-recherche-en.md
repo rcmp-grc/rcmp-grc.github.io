@@ -379,7 +379,7 @@ dl.dl-horizontal dt {
 
     .result-body {
         border-top: 3px solid var(--rcmp-red-dark);
-        padding: 16px 16px 20px
+        padding: 16px 16px 20px;
         display: grid;
         grid-template-columns: 220px 1fr;
         gap: 16px;

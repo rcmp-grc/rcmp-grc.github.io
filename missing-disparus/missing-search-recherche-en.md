@@ -7,6 +7,24 @@ lang: en
 lang_url: missing-search-rechearce-fr.html
 ---
 <style>
+.alert {
+    background-clip: content-box;
+    background-color: inherit;
+    border-left: 6px solid #000;
+    margin-bottom: 23px;
+    margin-left: 10px;
+    padding: 0 0 0 15px
+}
+
+dl.dl-horizontal dd,
+dl.dl-horizontal dt {
+    border-bottom: none;
+}
+
+    .alert-info {
+    background: #d7faff;
+    border-color: #269abc
+}
     #re-filters {
         border: 1px solid var(--c-grey-border);
         padding: 0;
@@ -361,7 +379,10 @@ lang_url: missing-search-rechearce-fr.html
 
     .result-body {
         border-top: 3px solid var(--rcmp-red-dark);
-         padding: 16px 16px 20px
+        padding: 16px 16px 20px
+        display: grid;
+        grid-template-columns: 220px 1fr;
+        gap: 1rem;
     }
 
         .result-body-orig {
@@ -663,7 +684,28 @@ lang_url: missing-search-rechearce-fr.html
                     </div>
                 </div>
             </li>
+<article class="result-card">
 
+                <div class="result-header">Missing person</div>
+
+                <div class="result-body">
+
+                    <div class="result-image">
+                        <img src="https://via.placeholder.com/220x170" alt="">
+                    </div>
+
+                    <div class="result-content">
+                        <h3>
+                            <a href="#">AINSLIE LAFRAMBOISE, Bonnie Shirley</a>
+                        </h3>
+                        <ul class="meta">
+                            <li><strong>Born</strong> October 29, 1942</li>
+                            <li><strong>Missing since</strong> November 4, 1995</li>
+                            <li><strong>Missing from</strong> Kuuchisinivamiskahikan, QC</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
         
             
             

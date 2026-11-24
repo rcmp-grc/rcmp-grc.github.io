@@ -18,7 +18,7 @@ issued: 2026-11-23
   </div> 
   <div class="col-md-9"> 
    <ul class="mrgn-tp-0 mrgn-bttm-md colcount-md-1 li-mrgn-lft-0 mrgn-rght-lg"> 
-    <li><a href="https://firearms-armes-a-feu.rcmp-grc.ca/en/">Sign in to your MyCFP account</a></li>
+    <li><a href="https://firearms-armes-a-feu.rcmp-grc.ca/en/">Sign in to your MyCFP account</a>
     <p><b>Includes access to:</b></p>
     <ul>
         <li>Individual Web Services</li> 
@@ -26,6 +26,7 @@ issued: 2026-11-23
         <li>Police/Public Agency Web Services</li> 
         <li>Firearms Reference Table</li>
       </ul>
+    </li> 
    </ul>
   </div> 
  </div> 

@@ -16,10 +16,7 @@ lang_url: missing-search-rechearce-fr.html
     padding: 0 0 0 15px
 }
 
-dl.dl-horizontal dd,
-dl.dl-horizontal dt {
-    border-bottom: none;
-}
+
 
     .alert-info {
     background: #d7faff;
@@ -385,7 +382,7 @@ dl.dl-horizontal dt {
         gap: 16px;
         align-items: start;
     }
-
+ 
         .result-body-orig {
         display: grid;
         grid-template-columns: 220px 1fr;
@@ -422,6 +419,19 @@ dl.dl-horizontal dt {
         color: var(--link-blue);
         text-decoration: underline;
     }
+
+    .result-content .dl-horizontal {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 8px 16px;
+}
+
+.result-content .dl-horizontal dt,
+.result-content .dl-horizontal dd {
+    float: none;
+    width: auto;
+    margin: 0;
+}
 
     .meta {
         margin: 10px 0 0;

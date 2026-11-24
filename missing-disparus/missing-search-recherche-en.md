@@ -382,7 +382,8 @@ dl.dl-horizontal dt {
         padding: 16px 16px 20px
         display: grid;
         grid-template-columns: 220px 1fr;
-        gap: 1rem;
+        gap: 16px;
+        align-items: start;
     }
 
         .result-body-orig {
@@ -393,7 +394,7 @@ dl.dl-horizontal dt {
     }
 
     .result-image {
-        background: #e5e5e5;
+        background: var(--rcmp-grey-md);
         height: 170px;
         display: flex;
         align-items: center;

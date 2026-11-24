@@ -420,18 +420,9 @@ lang_url: missing-search-rechearce-fr.html
         text-decoration: underline;
     }
 
-    .result-content .dl-horizontal {
-    display: grid;
-    grid-template-columns: 180px 1fr;
-    gap: 8px 16px;
-}
 
-.result-content .dl-horizontal dt,
-.result-content .dl-horizontal dd {
-    float: none;
-    width: auto;
-    margin: 0;
-}
+
+
 
     .meta {
         margin: 10px 0 0;
@@ -451,6 +442,26 @@ lang_url: missing-search-rechearce-fr.html
     .meta strong {
         display: block;
     }
+
+    .meta-dl {
+    margin: 0;
+}
+
+.meta-dl dt {
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.meta-dl dd {
+    margin: 0 0 8px 0;
+    line-height: 1.3;
+}
+
+.meta-dl dt i {
+    width: 16px;
+    margin-right: 6px;
+}
 
     .icon {
         display: inline-block;
@@ -684,7 +695,7 @@ lang_url: missing-search-rechearce-fr.html
                         <h3>
                             <a href="#">AINSLIE LAFRAMBOISE, Bonnie Shirley</a>
                         </h3>
-                        <dl class="meta dl-horizontal">
+                        <dl class="meta-dl">
                         <dt>Born</dt>
                         <dd>October 29, 1942</dd>
                         <dt>Missing since</dt>

@@ -32,10 +32,10 @@ issued: 2026-11-23
  </div> 
 </section>
 
-<section class="well well-sm brdr-0 mrgn-bttm-0"> 
+<section class="well-sm brdr-0 mrgn-bttm-0"> 
  <div class="container row-no-gutters"> 
   <div class="col-md-3"> 
-   <h2 class="mrgn-tp-sm h3">Licence applications and information</h2> 
+   <h2 class="mrgn-tp-sm h3">Licence applications</h2> 
   </div> 
   <div class="col-md-9"> 
    <ul class="mrgn-tp-0 mrgn-bttm-md colcount-md-1 li-mrgn-lft-0 mrgn-rght-lg"> 

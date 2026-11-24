@@ -659,7 +659,7 @@ lang_url: missing-search-rechearce-fr.html
                         <dd>November 4, 1995</dd>
                         <dt>Missing from</dt>
                         <dd>Kuuchisinivamiskahikan, QC</dd>
-                        </ul>
+                        </dl>
                     </div>
                 </div>
             </li>

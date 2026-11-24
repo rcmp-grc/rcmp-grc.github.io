@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Most requested
-date_modified: 2026-11-24
+date_modified: 2026-11-23
 lang: en
 lang_url: most-requested-en-demande-fr.html
 issued: 2026-11-23
@@ -26,7 +26,7 @@ issued: 2026-11-23
         <li>Police/Public Agency Web Services</li> 
         <li>Firearms Reference Table</li>
       </ul>
-    </li> 
+    </li>
    </ul>
   </div> 
  </div> 
@@ -60,8 +60,7 @@ issued: 2026-11-23
   </div> 
   <div class="col-md-9"> 
     <ul>
-        <li>Learn how to become an instructor of the Canadian Firearms Safety Course (CFSC) or Canadian Restricted Firearms Safety Course (CRFSC) and where to apply.
-        <br><a href="https://rcmp.ca/en/firearms/canadian-firearms-safety-course-instructors">Get information and apply online now</a></li>
+        <li><a href="https://rcmp.ca/en/firearms/canadian-firearms-safety-course-instructors">Get information and apply online now</a><br>Learn how to become an instructor of the Canadian Firearms Safety Course (CFSC) or Canadian Restricted Firearms Safety Course (CRFSC) and where to apply.</li>
     </ul>
   </div> 
  </div> 

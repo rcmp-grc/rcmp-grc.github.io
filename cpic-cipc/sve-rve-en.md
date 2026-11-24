@@ -82,7 +82,7 @@ font-size: 1.2em;
 margin: 18px 12px;	   
 }
 </style>
-<div class="col-md-8">
+<div class="col-md-12">
 <p>You can search for autos, trucks, vans, sport utility vehicles (SUVs), motorcycles, snowmobiles, farm vehicles, heavy equipment, trailers, or all-terrain vehicles (ATVs). Please enter a valid Vehicle Identification Number (VIN) that contains only letters and numbers without spaces or other special characters.</p>
 <div class="panel panel-default">
 <div class="panel-body">

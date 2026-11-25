@@ -94,24 +94,17 @@ margin: 18px 12px;
 <div class="input-group mrgn-bttm-sm mrgn-tp-sm">
 <fieldset>
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">Search criteria</span></legend>
-<label for="criteria" class="required mrgn-lft-md mrgn-rght-md"><span class="field-name">Search criteria</span> <strong class="required" aria-hidden="true">(required)</strong> <a class="wb-lbx lbx-modal" title="Entry instrutions" href="#instructions"><i class="fa-solid fa-circle-info" style="color: hsl(214, 42%, 27%);"></i></a>
-<section id="instructions" class="mfp-hide modal-dialog modal-content overlay-def">
-			<header class="modal-header">
-				<h2 class="modal-title">Instructions</h2>
-			</header>
-			<div class="modal-body">
-				<p>Please enter the serial number using only letters and numbers without spaces or other special characters, and select the type of motor.</p>
-			</div>
-		</section>
+<label for="criteria" class="required mrgn-lft-md mrgn-rght-md"><span class="field-name">Search criteria</span> <strong class="required" aria-hidden="true">(required)</strong>
 </label>
-<input class="re-input-text" data-rule-alphanumeric="true" data-rule-rangelength="[1,25]" id="criteria" maxlength="25" name="criteria" pattern="[A-Za-z0-9\s]{1,25}" data-column="0" required>
+<input class="re-input-text" data-rule-alphanumeric="true" data-rule-rangelength="[1,25]" id="criteria" maxlength="25" name="criteria" pattern="[A-Za-z0-9\s]{1,25}" data-column="0" required="required">
 </fieldset>
 </div>
-<div class="input-group mrgn-bttm-sm mrgn-tp-sm">
+<div class="input-group mrgn-bttm-sm">
 <fieldset>
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">Motor type</span></legend>
 <label for="motor" class="required re-select-label mrgn-lft-md mrgn-rght-md"><span class="field-name">Motor type</span> <strong class="required" aria-hidden="true">(required)</strong> </label>
             <select class="re-select" id="motor" name="motor" required>
+				<option label="Select a type..."></option>
 				<option data-filter="motor" value="Inboard"><span class="cb-text">Inboard</span></option>
 				<option data-filter="motor" value="Outboard"><span class="cb-text">Outboard</span></option>
                 <option data-filter="motor" value="In/Out"><span class="cb-text">In/Out</span></option>

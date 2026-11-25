@@ -14,7 +14,7 @@ issued: 2026-11-03
 <style>
 .gc-more {
  background-color: #f2f2f2;   
- padding: 15px;
+ padding: 15px 0 15px;
  }
 </style>
 <div class="row">

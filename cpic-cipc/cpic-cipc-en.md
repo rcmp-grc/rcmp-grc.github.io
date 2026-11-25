@@ -23,27 +23,27 @@ issued: 2026-11-03
 <h2 class="wb-inv">Public searches and FAQ</h2>
 <div class="row wb-eqht-grd">
 <div class="col-md-4">
-<h3><a href=" ">Vehicles</a></h3>
+<h3><a href="sve-rve-en.html">Vehicles</a></h3>
 <p>Look up autos, trucks, vans and other vehicles by vehicle identification number (VIN).</p>   
 </div>
 <div class="col-md-4">
-<h3><a href=" ">Bicycles</a></h3>
+<h3><a href="sbi-rve-en.html">Bicycles</a></h3>
 <p>Search by serial number. </p>   
 </div>
 <div class="col-md-4">
-<h3><a href=" ">Property</a></h3>
+<h3><a href="spt-rpt-en.html">Property</a></h3>
 <p>Search for electronic devices or other items by serial number.</p>   
 </div>
 <div class="col-md-4">
-<h3><a href=" ">Boats</a></h3>
+<h3><a href="sbo-rba-en.html">Boats</a></h3>
 <p>Search by name, hull identification, licence, or registration number.</p>   
 </div>
 <div class="col-md-4">
-<h3><a href=" ">Firearms</a></h3>
+<h3><a href="sfa-raf-en.html">Firearms</a></h3>
 <p>Search by serial number. </p>   
 </div>
 <div class="col-md-4">
-<h3><a href=" ">Boat motors</a></h3>
+<h3><a href="sbm-rmb-en.html">Boat motors</a></h3>
 <p>Search by type and serial number.</p>   
 </div>
 <div class="col-md-4">

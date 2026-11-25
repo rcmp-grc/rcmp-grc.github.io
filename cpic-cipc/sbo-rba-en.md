@@ -111,7 +111,7 @@ margin: 18px 12px;
 <div class="input-group mrgn-bttm-sm mrgn-tp-sm">
 <fieldset>
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">Search criteria</span></legend>
-<label for="criteria" class="required mrgn-lft-md mrgn-rght-md"><span class="field-name">Search criteria</span> <strong class="required" aria-hidden="true">(required)</strong> <a href="class="wb-lbx lbx-modal" title="Example of a modal popup" href="#instructions"><i class="fa-solid fa-circle-info" style="color: hsl(214, 42%, 27%);"></i></a>
+<label for="criteria" class="required mrgn-lft-md mrgn-rght-md"><span class="field-name">Search criteria</span> <strong class="required" aria-hidden="true">(required)</strong> <a class="wb-lbx lbx-modal" title="Example of a modal popup" href="#instructions"><i class="fa-solid fa-circle-info" style="color: hsl(214, 42%, 27%);"></i></a>
 <section id="instructions" class="mfp-hide modal-dialog modal-content overlay-def">
 			<header class="modal-header">
 				<h2 class="modal-title">Instructions</h2>

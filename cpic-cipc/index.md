@@ -16,7 +16,7 @@ issued: 2026-11-03
   <li><a href="sve-rve-en.html">Vehicles</a></li>
   <li>Bicycles</li>
   <li>Property</li>
-  <li><a href="sbo-rpa-en.html">Boats</li>
+  <li><a href="sbo-rpa-en.html">Boats</a></li>
   <li>Firearms</li>
   <li>Boat motors</li>
   <li>Type and serial number</li>

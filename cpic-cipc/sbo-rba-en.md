@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Search for stolen firearms
+title: Search for stolen boats
 description: My page description
 date_modified: 2026-11-04
 lang: en

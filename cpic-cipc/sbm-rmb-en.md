@@ -78,6 +78,10 @@ content: "\2713";
 display: inline-block;	
 font-size: 1.2em;	
 }	
+.re-select:focus {
+	outline: 2px solid var(--rcmp-red);
+	outline-offset: 0;	
+}
 .input-group	{
 margin: 18px 12px;	   
 }
@@ -108,7 +112,13 @@ margin: 18px 12px;
 <fieldset>
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">Motor type</span></legend>
 <label for="criteria" class="required mrgn-lft-md mrgn-rght-md"><span class="field-name">Motor type</span> <strong class="required" aria-hidden="true">(required)</strong> </label>
-<input class="re-input-text" data-rule-alphanumeric="true" data-rule-rangelength="[1,25]" id="criteria" maxlength="25" name="criteria" pattern="[A-Za-z0-9\s]{1,25}" data-column="0" required>
+<label class="re-select-label" for="motor" required>Motor type</label>
+            <select class="re-select" id="motor" name="motor" required>
+				<option data-filter="motor" value="Inboard"><span class="cb-text">Inboard</span></option>
+				<option data-filter="motor" value="Outboard"><span class="cb-text">Outboard</span></option>
+                <option data-filter="motor" value="In/Out"><span class="cb-text">In/Out</span></option>
+                <option data-filter="motor" value="Other"><span class="cb-text">Other</span></option>
+			</select>
 </fieldset>
 </div>	
 <div class="input-group">

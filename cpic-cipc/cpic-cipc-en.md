@@ -55,11 +55,9 @@ issued: 2026-11-03
 </div>
 </section>
 <section class="gc-srvinfo">
-<div class="col-md-12 gc-more">
+<div class="gc-more">
 <h2>Learn more</h2>
-<div class="row wb-eqht-grd">
 <h3><a href="faq-en.html">Frequently Asked Questions</a></h3>
 <p>Find more information about stolen property and what to do. </p>   
-</div>	
 </div>
 </section>

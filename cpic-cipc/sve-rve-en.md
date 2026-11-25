@@ -35,7 +35,7 @@ custom_css: /assets/css/careers.css
  outline-offset: 0;	
 }
  .re-input-text {
- outline: 2px solid var(--rcmp-black);
+ outline: 1px solid var(--rcmp-black);
  width: 80%;	
  padding: 8px;	
  background: var(--c-white);

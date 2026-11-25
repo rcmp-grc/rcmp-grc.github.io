@@ -110,8 +110,7 @@ margin: 18px 12px;
 <div class="input-group mrgn-bttm-sm mrgn-tp-sm">
 <fieldset>
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">Motor type</span></legend>
-<label for="criteria" class="required mrgn-lft-md mrgn-rght-md"><span class="field-name">Motor type</span> <strong class="required" aria-hidden="true">(required)</strong> </label>
-<label class="re-select-label" for="motor" required>Motor type</label>
+<label for="motor" class="required re-select-label mrgn-lft-md mrgn-rght-md"><span class="field-name">Motor type</span> <strong class="required" aria-hidden="true">(required)</strong> </label>
             <select class="re-select" id="motor" name="motor" required>
 				<option data-filter="motor" value="Inboard"><span class="cb-text">Inboard</span></option>
 				<option data-filter="motor" value="Outboard"><span class="cb-text">Outboard</span></option>

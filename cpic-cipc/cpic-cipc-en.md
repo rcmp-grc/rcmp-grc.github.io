@@ -54,12 +54,10 @@ issued: 2026-11-03
 </div>
 </div>
 </section>
-<section class="gc-more">
+<section class="gc-srvinfo gc-more">
 <h2>Learn more</h2>
 <div class="row wb-eqht-grd">
-<div class="col-md-4">
 <h3><a href="faq-en.html">Frequently Asked Questions</a></h3>
 <p>Find more information about stolen property and what to do. </p>   
-</div> 
 </div>	
 </section>

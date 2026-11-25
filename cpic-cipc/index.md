@@ -18,6 +18,6 @@ issued: 2026-11-03
   <li><a href="spt-rpt-en.html">Property</a></li>
   <li><a href="sbo-rba-en.html">Boats</a></li>
   <li><a href="sfa-raf-en.html">Firearms</a></li>
-  <li><a href="sbo-rba-en.html">Boat motors</li>
+  <li><a href="sbo-rba-en.html">Boat motors</a></li>
   <li><a href="faq-en.html">Frequently asked questions</a></li>
 </ul>

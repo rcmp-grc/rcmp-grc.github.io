@@ -54,8 +54,10 @@ issued: 2026-11-03
 </div>
 </div>
 </section>
-<section class="gc-srvinfo gc-more mrgn-lft-md">
+<section class="gc-srvinfo">
+ <div class=" gc-more mrgn-lft-md">
 <h2>Learn more</h2>
 <h3><a href="faq-en.html">Frequently Asked Questions</a></h3>
-<p>Find more information about stolen property and what to do. </p>   
+<p>Find more information about stolen property and what to do. </p> 
+ </div>
 </section>

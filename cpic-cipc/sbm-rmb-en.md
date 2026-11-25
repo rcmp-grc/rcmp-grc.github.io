@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Search for stolen boats
+title: Search for stolen boat motors
 description: My page description
 date_modified: 2026-11-04
 lang: en

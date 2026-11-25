@@ -46,7 +46,6 @@ issued: 2026-11-03
 <h3><a href="sbm-rmb-en.html">Boat motors</a></h3>
 <p>Search by type and serial number.</p>   
 </div>
-</div
 <div class="col-md-4">
 <h3><a href="faq-en.html">Frequently Asked Questions</a></h3>
 <p>Find more information about stolen property and what to do. </p>   

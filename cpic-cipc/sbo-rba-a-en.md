@@ -31,7 +31,7 @@ custom_css: /assets/css/careers.css
  overflow: hidden;
 }
  .re-input-text:focus {
- outline: 2px solid var(--rcmp-red);
+ outline: 1px solid var(--rcmp-red);
  outline-offset: 0;	
 }
  .re-input-text {

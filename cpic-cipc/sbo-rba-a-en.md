@@ -111,9 +111,9 @@ margin: 18px 12px;
 <div class="input-group mrgn-bttm-sm mrgn-tp-sm">
 <fieldset>
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">Search criteria</span></legend>
-<div><p>Please enter only letters and numbers without spaces or other special characters.</p> </div>
 <label for="criteria" class="required mrgn-lft-md mrgn-rght-md"><span class="field-name">Search criteria</span> <strong class="required" aria-hidden="true">(required)</strong>
 </label>
+<div><p>Please enter only letters and numbers without spaces or other special characters.</p> </div>  
 <input class="re-input-text" data-rule-alphanumeric="true" data-rule-rangelength="[1,25]" id="criteria" maxlength="25" name="criteria" pattern="[A-Za-z0-9\s]{1,25}" data-column="0" required>
 </fieldset>
 </div>

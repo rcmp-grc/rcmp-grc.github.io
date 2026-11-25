@@ -82,17 +82,30 @@ font-size: 1.2em;
 margin: 18px 12px;	   
 }
 </style>
-<p>You can search for boats by one of the following criteria:</p>
- <dl>
-        <dt>Boat name</dt>
-        <dd>Enter the boat's name. Spaces and special characters are not permitted (for example, search Canada's #1 as canadas1). If the name exceeds 13 characters, enter the first 13.</dd>
-        <dt>Hull identification number</dt>
-        <dd>Since 1982, Canadian and American boat manufacturers must, by law, affix an identification serial number to each hull. If this number exceeds 12 characters, enter the first 12.</dd>
-        <dt>Licence number</dt>
-        <dd>All boats with 10 horsepower(<abbr>hp</abbr>) or more are required, by law, to be licenced. The licence number is affixed, painted or engraved on the bow of the boat. If the licence number exceeds 10 characters, enter the first 10.</dd>
-        <dt>Registration number</dt>
-        <dd>Enter your vessel's registration number. If the registration number exceeds 7 characters, enter the first 7. (This includes sail numbers if the registration is not known).</dd>
-      </dl>
+<p>You can search for boats by one of the following criteria: </p>
+<div class="btn-group mrgn-bttm-sm mrgn-tp-md">
+  <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;on&quot;}">Expand all</button>
+
+  <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
+</div>
+<div id="expand-collapse">
+  <details>
+    <summary>Boat name</summary>
+    <p>Enter the boat's name. Spaces and special characters are not permitted (for example, search Canada's #1 as canadas1). If the name exceeds 13 characters, enter the first 13.</p>
+  </details>
+  <details>
+      <summary>Hull identification number</summary>
+    <p>Since 1982, Canadian and American boat manufacturers must, by law, affix an identification serial number to each hull. If this number exceeds 12 characters, enter the first 12.</p>
+  </details>
+  <details>
+      <summary>Licence number</summary>
+    <p>All boats with 10 horsepower(<abbr>hp</abbr>) or more are required, by law, to be licenced. The licence number is affixed, painted or engraved on the bow of the boat. If the licence number exceeds 10 characters, enter the first 10.</p>
+  </details>
+  <details>
+     <summary>Registration number</summary>
+    <p>Enter your vessel's registration number. If the registration number exceeds 7 characters, enter the first 7. (This includes sail numbers if the registration is not known).</p>
+  </details>
+</div>
 <p>Please enter only letters and numbers without spaces or other special characters.</p>
 <div class="panel panel-default">
 <div class="panel-body">

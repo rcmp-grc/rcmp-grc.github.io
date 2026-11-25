@@ -14,11 +14,10 @@ issued: 2026-11-03
 <ul>
   <li><a href="cpic-cipc-en.html">Landing</a></li>
   <li><a href="sve-rve-en.html">Vehicles</a></li>
-  <li>Bicycles</li>
-  <li>Property</li>
+  <li><a href="sbi-rve-en.html">Bicycles</a></li>
+  <li><a href="spt-rpt-en.html">Property</a></li>
   <li><a href="sbo-rba-en.html">Boats</a></li>
-  <li>Firearms</li>
-  <li>Boat motors</li>
-  <li>Type and serial number</li>
+  <li><a href="sfa-raf-en.html">Firearms</a></li>
+  <li><a href="sbo-rba-en.html">Boat motors</li>
   <li><a href="faq-en.html">Frequently asked questions</a></li>
 </ul>

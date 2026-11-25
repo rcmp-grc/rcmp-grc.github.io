@@ -83,10 +83,7 @@ margin: 18px 12px;
 }
 </style>
 <p>You can search for boats by one of the following criteria: </p>
-<div class="btn-group mrgn-bttm-sm mrgn-tp-md">
-  <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;on&quot;}">Expand all</button>
-
-  <button type="button" class="btn btn-default wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#expand-collapse&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
+<div class="mrgn-bttm-sm">
 </div>
 <div id="expand-collapse">
   <details>

@@ -83,7 +83,7 @@ margin: 18px 12px;
 }
 </style>
 <p>You can search for boats by one of the following criteria: </p>
-<div class="mrgn-bttm-sm">
+<div class="mrgn-bttm-md">
 </div>
 <div id="expand-collapse">
   <details>

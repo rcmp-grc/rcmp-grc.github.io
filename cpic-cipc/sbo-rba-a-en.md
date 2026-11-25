@@ -88,7 +88,7 @@ margin: 18px 12px;
 <div id="expand-collapse">
   <details>
     <summary>Boat name</summary>
-    <p>Enter the boat's name. Spaces and special characters are not permitted (for example, search Canada's #1 as canadas1). If the name exceeds 13 characters, enter the first 13.</p>
+    <p class="smaller">Enter the boat's name. Spaces and special characters are not permitted (for example, search Canada's #1 as canadas1). If the name exceeds 13 characters, enter the first 13.</p>
   </details>
   <details>
       <summary>Hull identification number</summary>

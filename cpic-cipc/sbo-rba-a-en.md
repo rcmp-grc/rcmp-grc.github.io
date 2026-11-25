@@ -82,7 +82,7 @@ font-size: 1.2em;
 margin: 18px 12px;	   
 }
 .form-instructions {
- font-size: 0.78em; 
+ font-size: 0.5em; 
 }  
 </style>
 <p>You can search for boats by one of the following criteria: </p>

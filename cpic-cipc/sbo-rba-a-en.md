@@ -81,6 +81,9 @@ font-size: 1.2em;
 .input-group	{
 margin: 18px 12px;	   
 }
+.form-instructions {
+ font-size: 0.78em; 
+}  
 </style>
 <p>You can search for boats by one of the following criteria: </p>
 <div class="mrgn-bttm-md">
@@ -88,7 +91,7 @@ margin: 18px 12px;
 <div id="expand-collapse">
   <details>
     <summary>Boat name</summary>
-    <p class="small">Enter the boat's name. Spaces and special characters are not permitted (for example, search Canada's #1 as canadas1). If the name exceeds 13 characters, enter the first 13.</p>
+    <p class="form-instructions">Enter the boat's name. Spaces and special characters are not permitted (for example, search Canada's #1 as canadas1). If the name exceeds 13 characters, enter the first 13.</p>
   </details>
   <details>
       <summary>Hull identification number</summary>
@@ -113,7 +116,7 @@ margin: 18px 12px;
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">Search criteria</span></legend>
 <label for="criteria" class="required mrgn-lft-md mrgn-rght-md"><span class="field-name">Search criteria</span> <strong class="required" aria-hidden="true">(required)</strong>
 </label>
-<div><p>Please enter only letters and numbers without spaces or other special characters.</p> </div>  
+<div><p class="form-instructions">Please enter only letters and numbers without spaces or other special characters.</p> </div>  
 <input class="re-input-text" data-rule-alphanumeric="true" data-rule-rangelength="[1,25]" id="criteria" maxlength="25" name="criteria" pattern="[A-Za-z0-9\s]{1,25}" data-column="0" required>
 </fieldset>
 </div>

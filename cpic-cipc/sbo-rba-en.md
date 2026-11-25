@@ -103,7 +103,6 @@ margin: 18px 12px;
     <p>Enter your vessel's registration number. If the registration number exceeds 7 characters, enter the first 7. (This includes sail numbers if the registration is not known).</p>
   </details>
 </div>
-<p>Please enter only letters and numbers without spaces or other special characters.</p>
 <div class="panel panel-default">
 <div class="panel-body">
 <div class="wb-frmvld">
@@ -112,7 +111,16 @@ margin: 18px 12px;
 <div class="input-group mrgn-bttm-sm mrgn-tp-sm">
 <fieldset>
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">Search criteria</span></legend>
-<label for="criteria" class="required mrgn-lft-md mrgn-rght-md"><span class="field-name">Search criteria</span> <strong class="required" aria-hidden="true">(required)</strong></label>
+<label for="criteria" class="required mrgn-lft-md mrgn-rght-md"><span class="field-name">Search criteria</span> <strong class="required" aria-hidden="true">(required)</strong> <a href="class="wb-lbx lbx-modal" title="Example of a modal popup" href="#instructions"><i class="fa-solid fa-circle-info" style="color: hsl(214, 42%, 27%);"></i></a>
+<section id="instructions" class="mfp-hide modal-dialog modal-content overlay-def">
+			<header class="modal-header">
+				<h2 class="modal-title">Instructions</h2>
+			</header>
+			<div class="modal-body">
+				<p>Please enter only letters and numbers without spaces or other special characters.</p>
+			</div>
+		</section>
+</label>
 <input class="re-input-text" data-rule-alphanumeric="true" data-rule-rangelength="[1,25]" id="criteria" maxlength="25" name="criteria" pattern="[A-Za-z0-9\s]{1,25}" data-column="0" required>
 </fieldset>
 </div>

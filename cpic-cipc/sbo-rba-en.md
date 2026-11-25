@@ -84,7 +84,6 @@ margin: 18px 12px;
 </style>
 <p>You can search for boats by one of the following criteria: </p>
 <div class="mrgn-bttm-md">
-</div>
 <div id="expand-collapse">
   <details>
     <summary>Boat name</summary>
@@ -102,6 +101,7 @@ margin: 18px 12px;
      <summary>Registration number</summary>
     <p>Enter your vessel's registration number. If the registration number exceeds 7 characters, enter the first 7. (This includes sail numbers if the registration is not known).</p>
   </details>
+</div>
 </div>
 <div class="panel panel-default">
 <div class="panel-body">

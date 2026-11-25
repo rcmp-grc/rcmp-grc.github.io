@@ -10,10 +10,15 @@ creator:
 subject:
 issued: 2026-11-03
 ---
+
+<style>
+.gc-more {
+ background-color: #f2f2f2;   
+ }
+</style>
 <div class="row">
 <div class="col-md-8">
-<p>The Canadian Police Information Centre (CPIC) provides information on stolen property. It's the only national information-sharing system that links criminal justice and law enforcement partners across Canada and internationally. CPIC offers a public search tool to provide updates on property or motor vehicles reported stolen.</p> 
-<p>Search for the following items using the relevant identification number.</p>
+<p>The Canadian Police Information Centre (CPIC) provides information on stolen property. It's the only national information-sharing system that links criminal justice and law enforcement partners across Canada and internationally. CPIC offers a public search tool to provide updates on property or motor vehicles reported stolen. Search for the following items using the relevant identification number.</p>
 </div>
 <div class="col-md-4 mrgn-tp-sm hidden-sm hidden-xs provisional gc-topic-bg">
 <div><img src="images/cpic.jpg" class="img-responsive" alt="CPIC logo" />
@@ -21,7 +26,7 @@ issued: 2026-11-03
 </div>	
 </div>
 <section class="gc-srvinfo">
-<h2 class="wb-inv">Public searches and FAQ</h2>
+<h2>Public searches</h2>
 <div class="row wb-eqht-grd">
 <div class="col-md-4">
 <h3><a href="sve-rve-en.html">Vehicles</a></h3>
@@ -47,6 +52,11 @@ issued: 2026-11-03
 <h3><a href="sbm-rmb-en.html">Boat motors</a></h3>
 <p>Search by type and serial number.</p>   
 </div>
+</div>
+</section>
+<section class="gc-more">
+<h2>Learn more</h2>
+<div class="row wb-eqht-grd">
 <div class="col-md-4">
 <h3><a href="faq-en.html">Frequently Asked Questions</a></h3>
 <p>Find more information about stolen property and what to do. </p>   

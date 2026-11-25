@@ -92,7 +92,7 @@ margin: 18px 12px;
 <fieldset>
 <legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">Serial number</span></legend>
 <label for="serial" class="required mrgn-lft-md mrgn-rght-md"><span class="field-name">Serial number</span> <strong class="required" aria-hidden="true">(required)</strong></label>
-<input class="re-input-text"data-rule-alphanumeric="true" data-rule-rangelength="[1,25] id="serial" maxlength="25" name="serial" pattern="[A-Za-z0-9\s]{1,25}" data-column="0" required>
+<input class="re-input-text" data-rule-alphanumeric="true" data-rule-rangelength="[1,25] id="serial" maxlength="25" name="serial" pattern="[A-Za-z0-9\s]{1,25}" data-column="0" required>
 </fieldset>
 </div>
 <div class="input-group">

@@ -82,27 +82,7 @@ font-size: 1.2em;
 margin: 18px 12px;	   
 }
 </style>
-<p>You can search for boats by one of the following criteria: </p>
-<div class="mrgn-bttm-md">
-</div>
-<div id="expand-collapse">
-  <details>
-    <summary>Boat name</summary>
-    <p>Enter the boat's name. Spaces and special characters are not permitted (for example, search Canada's #1 as canadas1). If the name exceeds 13 characters, enter the first 13.</p>
-  </details>
-  <details>
-      <summary>Hull identification number</summary>
-    <p>Since 1982, Canadian and American boat manufacturers must, by law, affix an identification serial number to each hull. If this number exceeds 12 characters, enter the first 12.</p>
-  </details>
-  <details>
-      <summary>Licence number</summary>
-    <p>All boats with 10 horsepower(<abbr>hp</abbr>) or more are required, by law, to be licenced. The licence number is affixed, painted or engraved on the bow of the boat. If the licence number exceeds 10 characters, enter the first 10.</p>
-  </details>
-  <details>
-     <summary>Registration number</summary>
-    <p>Enter your vessel's registration number. If the registration number exceeds 7 characters, enter the first 7. (This includes sail numbers if the registration is not known).</p>
-  </details>
-</div>
+<p>You can search for boat motors using the serial number. Please enter the serial number using only letters and numbers without spaces or other special characters, and select the type of motor.</p>
 <div class="panel panel-default">
 <div class="panel-body">
 <div class="wb-frmvld">
@@ -117,13 +97,20 @@ margin: 18px 12px;
 				<h2 class="modal-title">Instructions</h2>
 			</header>
 			<div class="modal-body">
-				<p>Please enter only letters and numbers without spaces or other special characters.</p>
+				<p>Please enter the serial number using only letters and numbers without spaces or other special characters, and select the type of motor.</p>
 			</div>
 		</section>
 </label>
 <input class="re-input-text" data-rule-alphanumeric="true" data-rule-rangelength="[1,25]" id="criteria" maxlength="25" name="criteria" pattern="[A-Za-z0-9\s]{1,25}" data-column="0" required>
 </fieldset>
 </div>
+<div class="input-group mrgn-bttm-sm mrgn-tp-sm">
+<fieldset>
+<legend class="wb-inv"><i aria-hidden="true"></i><span aria-level="3" role="heading">Motor type</span></legend>
+<label for="criteria" class="required mrgn-lft-md mrgn-rght-md"><span class="field-name">Motor type</span> <strong class="required" aria-hidden="true">(required)</strong> </label>
+<input class="re-input-text" data-rule-alphanumeric="true" data-rule-rangelength="[1,25]" id="criteria" maxlength="25" name="criteria" pattern="[A-Za-z0-9\s]{1,25}" data-column="0" required>
+</fieldset>
+</div>	
 <div class="input-group">
 <fieldset class="chkbxrdio-grp mrgn-bttm-md">
  <legend class="required mrgn-lft-md"><i aria-hidden="true"></i><span class="field-name" aria-level="3" role="heading">Terms and conditions</span></legend> 
